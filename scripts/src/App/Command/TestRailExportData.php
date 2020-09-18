@@ -32,9 +32,9 @@ class TestRailExportData extends Command
         $time = time();
 
         // Init
-        $this->testRailClient = new TestRail(getenv(TESTRAIL_URL));
-        $this->testRailClient->set_user(getenv(TESTRAIL_USERNAME));
-        $this->testRailClient->set_password(getenv(TESTRAIL_APIKEY));
+        $this->testRailClient = new TestRail(getenv('TESTRAIL_URL'));
+        $this->testRailClient->set_user(getenv('TESTRAIL_USERNAME'));
+        $this->testRailClient->set_password(getenv('TESTRAIL_APIKEY'));
 
         $projectId = $this->getProjectId();
         if (empty($projectId)) {

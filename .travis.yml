@@ -1,3 +1,7 @@
+language: php
+php:
+  - 7.4
+
 # Install the apt prerequisites
 addons:
   apt:
@@ -11,7 +15,9 @@ install:
 # Build the website
 script:
   ## Fetch data from testrail
+  - cd scripts/
   - composer install
+  - cd ../
   - php scripts/bin/console testrail:export:data
   ## Hugo
   - ./bin/installHugo.sh
@@ -19,6 +25,7 @@ script:
   - npm install && npm run build
   - cd ../../../
   - ../hugo
+  - cd ../
   # Create a CNAME file which mapping to our custom domain
   # - echo 'devdocs.prestashop.com' > public/CNAME
 
@@ -33,14 +40,13 @@ deploy:
     branch: master
 
 after_success:
-- git config --global user.email "travis@travis-ci.org"
-- git config --global user.name "Travis CI"
-- git checkout master
-- git add -f src/content/tests/modules
-- export title=`date +"Travis Update: %Y%-m-%d (Build $TRAVIS_BUILD_NUMBER)"`
-- git commit -m $title -m "[skip ci]"
-# Remove existing "origin"
-- git remote rm origin
-# Add new "origin" with access token in the git URL for authentication
-- git remote add origin https://Progi1984:${GITHUB_TOKEN}@github.com/Progi1984/prestashop-tests.git > /dev/null 2>&1
-- git push origin master --quiet
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - git checkout master
+  - git add -f src/content/tests/modules
+  - git commit -m "Travis Update (Build $TRAVIS_BUILD_NUMBER)" -m "[skip ci]"
+  # Remove existing "origin"
+  - git remote rm origin
+  # Add new "origin" with access token in the git URL for authentication
+  - git remote add origin https://Progi1984:${GITHUB_TOKEN}@github.com/Progi1984/prestashop-tests.git > /dev/null 2>&1
+  - git push origin master --quiet
