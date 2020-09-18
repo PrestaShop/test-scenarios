@@ -1,0 +1,46 @@
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Clean and don't fail
+install:
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  ## Fetch data from testrail
+  - composer install
+  - php scripts/bin/console testrail:export:data
+  ## Hugo
+  - ./bin/installHugo.sh
+  - cd src/themes/hugo-theme-learn/_src
+  - npm install && npm run build
+  - cd ../../../
+  - ../hugo
+  # Create a CNAME file which mapping to our custom domain
+  # - echo 'devdocs.prestashop.com' > public/CNAME
+
+# Deploy to GitHub pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: src/public
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  verbose: true
+  on:
+    branch: master
+
+after_success:
+- git config --global user.email "travis@travis-ci.org"
+- git config --global user.name "Travis CI"
+- git checkout master
+- git add -f src/content/tests/modules
+- export title=`date +"Travis Update: %Y%-m-%d (Build $TRAVIS_BUILD_NUMBER)"`
+- git commit -m $title -m "[skip ci]"
+# Remove existing "origin"
+- git remote rm origin
+# Add new "origin" with access token in the git URL for authentication
+- git remote add origin https://Progi1984:${GITHUB_TOKEN}@github.com/Progi1984/prestashop-tests.git > /dev/null 2>&1
+- git push origin master --quiet
