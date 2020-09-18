@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+require_once __DIR__ . '/../vendor/autoload.php';
+ 
+use Console\App\Command\TestRailExportData;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Dotenv\Dotenv;
+
+if (file_exists(__DIR__.'/../.env')) {
+    $dotenv = new Dotenv();
+    $dotenv->load(__DIR__.'/../.env');
+}
+ 
+$app = new Application();
+$app->add(new TestRailExportData());
+$app->run();
