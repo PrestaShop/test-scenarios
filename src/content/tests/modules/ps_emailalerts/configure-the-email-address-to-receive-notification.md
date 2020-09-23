@@ -8,3 +8,6 @@ weight: 5
 ## Preconditions
 
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |

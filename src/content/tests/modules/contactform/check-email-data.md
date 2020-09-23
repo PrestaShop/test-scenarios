@@ -14,8 +14,6 @@ Click on Configure<br />
 Enable email copy to customer<br />
 SMTP Should be configure
 ## Steps
-### Step #0
-#### Description
-Make an order and send a message using the form
-#### Expected result
-Check that the data of the customer is display in the email to customer
+| Step Description | Expected result |
+| ----- | ----- |
+| Make an order and send a message using the form | Check that the data of the customer is display in the email to customer |

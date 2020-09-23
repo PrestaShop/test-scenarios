@@ -10,90 +10,20 @@ weight: 2
 Having passed [C1658]<br />
 Being logged in with the customer account specified
 ## Steps
-### Step #0
-#### Description
-Go to the customer wishlist page
-#### Expected result
-Wishlists are displayed
-The number associated (in brackets) represents the number of unique items in a list
-### Step #1
-#### Description
-Select the custom wishlist
-#### Expected result
-You get all the products added in the [C1658] test
-### Step #2
-#### Description
-Click on the garbage can for the single product with stock
-#### Expected result
-A modal appears asking you to confirm the deletion
-### Step #3
-#### Description
-Confirm the deletion
-#### Expected result
-The product is removed from the list
-### Step #4
-#### Description
-Click on the picture of the single product without stock
-#### Expected result
-You are redirected to the product page
-The heart is filled
-### Step #5
-#### Description
-Click on the heart
-#### Expected result
-The heart is empty
-### Step #6
-#### Description
-Go back to the wishlist
-#### Expected result
-The product is removed from the list
-### Step #7
-#### Description
-Click on the pencil icon on a combination product
-#### Expected result
-You are redirected to the product page
-You are on the correct combination
-The heart is filled
-### Step #8
-#### Description
-Select another combination
-Click on the heart
-Select the custom wishlist
-#### Expected result
-The heart fills for this combination
-### Step #9
-#### Description
-Switch to the old combination
-#### Expected result
-The heart is empty
-### Step #10
-#### Description
-Go to the wishlist page
-#### Expected result
-There is only the last combination selected for the product (switching combination replaced the selected combination for this product)
-### Step #11
-#### Description
-Browse through the catalog
-Open a single simple product page
-Add the product to the custom wishlist with a quantity of 5
-Go to the custom wishlist in your customer page
-#### Expected result
-The product is in the custom wishlist
-### Step #12
-#### Description
-Click on the pencil
-Change the quantity to 3
-#### Expected result
-The heart empties
-### Step #13
-#### Description
-Click on the heart
-Select the custom wishlist
-
-#### Expected result
-The heart fills
-### Step #14
-#### Description
-Go to the custom wishlist in your customer page
-#### Expected result
-The product is now saved with a quantity of 3 only
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to the customer wishlist page | Wishlists are displayed<br /><br>The number associated (in brackets) represents the number of unique items in a list |
+| Select the custom wishlist | You get all the products added in the [C1658] test |
+| Click on the garbage can for the single product with stock | A modal appears asking you to confirm the deletion |
+| Confirm the deletion | The product is removed from the list |
+| Click on the picture of the single product without stock | You are redirected to the product page<br /><br>The heart is filled |
+| Click on the heart | The heart is empty |
+| Go back to the wishlist | The product is removed from the list |
+| Click on the pencil icon on a combination product | You are redirected to the product page<br /><br>You are on the correct combination<br /><br>The heart is filled |
+| Select another combination<br /><br>Click on the heart<br /><br>Select the custom wishlist | The heart fills for this combination |
+| Switch to the old combination | The heart is empty |
+| Go to the wishlist page | There is only the last combination selected for the product (switching combination replaced the selected combination for this product) |
+| Browse through the catalog<br /><br>Open a single simple product page<br /><br>Add the product to the custom wishlist with a quantity of 5<br /><br>Go to the custom wishlist in your customer page | The product is in the custom wishlist |
+| Click on the pencil<br /><br>Change the quantity to 3 | The heart empties |
+| Click on the heart<br /><br>Select the custom wishlist | The heart fills |
+| Go to the custom wishlist in your customer page | The product is now saved with a quantity of 3 only |

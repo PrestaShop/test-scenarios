@@ -12,23 +12,9 @@ Search blockreassurance<br />
 The module should be installed and upgraded to the last version<br />
 Click on Configure -> Affichage -> Pages produits
 ## Steps
-### Step #0
-#### Description
-Select "principal column" 
-#### Expected result
-A message should be display in green
-### Step #1
-#### Description
-Go to the front office in a product page 
-#### Expected result
-The bloc reassurance should be display
-### Step #2
-#### Description
-Select "None" 
-#### Expected result
-A message should be display in green
-### Step #3
-#### Description
-Go to the front office in a product page 
-#### Expected result
-The bloc reassurance shouldn't be display
+| Step Description | Expected result |
+| ----- | ----- |
+| Select "principal column"  | A message should be display in green |
+| Go to the front office in a product page  | The bloc reassurance should be display |
+| Select "None"  | A message should be display in green |
+| Go to the front office in a product page  | The bloc reassurance shouldn't be display |

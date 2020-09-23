@@ -9,13 +9,7 @@ weight: 7
 
 The module should be installed with the previous version
 ## Steps
-### Step #0
-#### Description
-Change the number of comment by page to 3
-#### Expected result
-Change should be apply in BO
-### Step #1
-#### Description
-In the front office, go to a product page with more than 3 comments
-#### Expected result
-See the pagination
+| Step Description | Expected result |
+| ----- | ----- |
+| Change the number of comment by page to 3 | Change should be apply in BO |
+| In the front office, go to a product page with more than 3 comments | See the pagination |

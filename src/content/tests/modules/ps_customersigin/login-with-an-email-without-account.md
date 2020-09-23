@@ -12,14 +12,7 @@ Search ps_customersignin<br />
 The module should be installed and upgraded to the last version<br />
 Go to FO
 ## Steps
-### Step #0
-#### Description
-Click on login
-
-#### Expected result
-login page should be displayed
-### Step #1
-#### Description
-Try to login with an email without account
-#### Expected result
-A message should appear in red
+| Step Description | Expected result |
+| ----- | ----- |
+| Click on login | login page should be displayed |
+| Try to login with an email without account | A message should appear in red |

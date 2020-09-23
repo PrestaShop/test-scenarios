@@ -15,122 +15,25 @@ Having <br />
 - a product with a minimum quantity<br />
 - 
 ## Steps
-### Step #0
-#### Description
-Browse through the catalog and open a product page
-#### Expected result
-The heart next to the picture is empty
-### Step #1
-#### Description
-Click on the heart
-#### Expected result
-A modal appears, telling you to log in before you can add products to your wishlists
-There is a "Sign In" button
-### Step #2
-#### Description
-Click on the "Sign In" button
-Log in as a customer
-#### Expected result
-You are logged in
-### Step #3
-#### Description
-Go to the customer account
-Click on the "Wishlist" block
-#### Expected result
-Default wishlist is displayed
-There is a (0) next to the title
-### Step #4
-#### Description
-Click on the default wishlist
-#### Expected result
-The wishlist opens
-It's empty
-### Step #5
-#### Description
-Browse through the catalog and open a product page
-The product must be a single product with a lot of stock
-#### Expected result
-The heart next to the picture is empty
-### Step #6
-#### Description
-Change the quantity to 5
-Click on the heart
-#### Expected result
-A modal appears, asking you to select a wishlist to add the product to
-### Step #7
-#### Description
-Select the default wishlist
-#### Expected result
-The modal closes and the heart is now filled (even after a refresh of the page)
-### Step #8
-#### Description
-Go to the Wishlist in your customer account section
-Open the default wishlist
-#### Expected result
-The item is saved, with its quantity as 5
-### Step #9
-#### Description
-Browse through the catalog and open a product page
-The product must be a single product with ZERO stock
-Click on the heart
-#### Expected result
-A modal appears, asking you to select a wishlist to add the product to
-### Step #10
-#### Description
-Select the CUSTOM wishlist
-#### Expected result
-The modal closes and the heart is now filled (even after a refresh of the page)
-### Step #11
-#### Description
-Go to the Wishlist in your customer account section
-Open the custom wishlist
-#### Expected result
-The item is saved, with its quantity as 0
-### Step #12
-#### Description
-Browse through the catalog and open a product page
-The product must be a single product with a minimal quantity
-Change the quantity to a number below the minimal quantity
-Click on the heart
-#### Expected result
-A modal appears, asking you to select a wishlist to add the product to
-### Step #13
-#### Description
-Select the CUSTOM wishlist
-#### Expected result
-The modal closes and the heart is now filled (even after a refresh of the page)
-### Step #14
-#### Description
-Go to the Wishlist in your customer account section
-Open the custom wishlist
-#### Expected result
-The item is saved, with its quantity as the minimal quantity set in the product setting
-### Step #15
-#### Description
-Browse through the catalog and open a product page
-The product must be a product with combinations
-Select a specific combination (NOT the default one)
-Click on the heart
-#### Expected result
-A modal appears, asking you to select a wishlist to add the product to
-### Step #16
-#### Description
-Select the custom wishlist
-#### Expected result
-The modal closes and the heart is now filled
-### Step #17
-#### Description
-Change the combination
-#### Expected result
-The heart empties
-### Step #18
-#### Description
-Get back to the saved combination
-#### Expected result
-The heart refills automatically
-### Step #19
-#### Description
-Go to the Wishlist in your customer account section
-Open the custom wishlist
-#### Expected result
-The item is saved, for the specific combination
+| Step Description | Expected result |
+| ----- | ----- |
+| Browse through the catalog and open a product page | The heart next to the picture is empty |
+| Click on the heart | A modal appears, telling you to log in before you can add products to your wishlists<br /><br>There is a "Sign In" button |
+| Click on the "Sign In" button<br /><br>Log in as a customer | You are logged in |
+| Go to the customer account<br /><br>Click on the "Wishlist" block | Default wishlist is displayed<br /><br>There is a (0) next to the title |
+| Click on the default wishlist | The wishlist opens<br /><br>It's empty |
+| Browse through the catalog and open a product page<br /><br>The product must be a single product with a lot of stock | The heart next to the picture is empty |
+| Change the quantity to 5<br /><br>Click on the heart | A modal appears, asking you to select a wishlist to add the product to |
+| Select the default wishlist | The modal closes and the heart is now filled (even after a refresh of the page) |
+| Go to the Wishlist in your customer account section<br /><br>Open the default wishlist | The item is saved, with its quantity as 5 |
+| Browse through the catalog and open a product page<br /><br>The product must be a single product with ZERO stock<br /><br>Click on the heart | A modal appears, asking you to select a wishlist to add the product to |
+| Select the CUSTOM wishlist | The modal closes and the heart is now filled (even after a refresh of the page) |
+| Go to the Wishlist in your customer account section<br /><br>Open the custom wishlist | The item is saved, with its quantity as 0 |
+| Browse through the catalog and open a product page<br /><br>The product must be a single product with a minimal quantity<br /><br>Change the quantity to a number below the minimal quantity<br /><br>Click on the heart | A modal appears, asking you to select a wishlist to add the product to |
+| Select the CUSTOM wishlist | The modal closes and the heart is now filled (even after a refresh of the page) |
+| Go to the Wishlist in your customer account section<br /><br>Open the custom wishlist | The item is saved, with its quantity as the minimal quantity set in the product setting |
+| Browse through the catalog and open a product page<br /><br>The product must be a product with combinations<br /><br>Select a specific combination (NOT the default one)<br /><br>Click on the heart | A modal appears, asking you to select a wishlist to add the product to |
+| Select the custom wishlist | The modal closes and the heart is now filled |
+| Change the combination | The heart empties |
+| Get back to the saved combination | The heart refills automatically |
+| Go to the Wishlist in your customer account section<br /><br>Open the custom wishlist | The item is saved, for the specific combination |

@@ -12,27 +12,9 @@ Search productcomments<br />
 The module should be installed and upgraded to the last version<br />
 Click on Configure
 ## Steps
-### Step #0
-#### Description
-Click on the switch button to enable the anonymization of the last name user
-#### Expected result
-The switch button should be blue
-### Step #1
-#### Description
-Go to the front office -> click on a product to open the page
-the product should already have comment
-#### Expected result
-The product should appear.
-In the comment part the last name of the user should be displayed
-### Step #2
-#### Description
-Go to the back office on the configuration module and Click on the switch button to disable the anonymization of the last name user
-#### Expected result
-The switch button should be red
-### Step #3
-#### Description
-Go to the front office -> click on a product to open the page
-the product should already have comment
-#### Expected result
-The product should appear.
-In the comment part the first letter of the last name user should be displayed
+| Step Description | Expected result |
+| ----- | ----- |
+| Click on the switch button to enable the anonymization of the last name user | The switch button should be blue |
+| Go to the front office -> click on a product to open the page<br /><br>the product should already have comment | The product should appear.<br /><br>In the comment part the last name of the user should be displayed |
+| Go to the back office on the configuration module and Click on the switch button to disable the anonymization of the last name user | The switch button should be red |
+| Go to the front office -> click on a product to open the page<br /><br>the product should already have comment | The product should appear.<br /><br>In the comment part the first letter of the last name user should be displayed |

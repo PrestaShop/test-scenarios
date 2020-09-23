@@ -12,8 +12,6 @@ Search ps_contactinfo<br />
 The module should be installed and upgraded to the last version<br />
 Go to front
 ## Steps
-### Step #0
-#### Description
-Click on the contact us button in the header
-#### Expected result
-Contact form should be displayed
+| Step Description | Expected result |
+| ----- | ----- |
+| Click on the contact us button in the header | Contact form should be displayed |

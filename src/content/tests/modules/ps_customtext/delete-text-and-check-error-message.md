@@ -12,8 +12,6 @@ Search ps_customtext<br />
 The module should be installed and upgraded to the last version<br />
 Click on Configure
 ## Steps
-### Step #0
-#### Description
-Remove all the text and save
-#### Expected result
-Error message should be displayed
+| Step Description | Expected result |
+| ----- | ----- |
+| Remove all the text and save | Error message should be displayed |

@@ -12,18 +12,8 @@ Search blockreassurance<br />
 The module should be installed and upgraded to the last version<br />
 Click on Configure
 ## Steps
-### Step #0
-#### Description
-Click on the delete button
-#### Expected result
-A confirmation message should appear
-### Step #1
-#### Description
-Confirm the deletion message by clicking on ok
-#### Expected result
-In the back office the bloc disabled shouldn't be displayed
-### Step #2
-#### Description
-Go to front office
-#### Expected result
-In the front office the bloc disabled shouldn't be displayed
+| Step Description | Expected result |
+| ----- | ----- |
+| Click on the delete button | A confirmation message should appear |
+| Confirm the deletion message by clicking on ok | In the back office the bloc disabled shouldn't be displayed |
+| Go to front office | In the front office the bloc disabled shouldn't be displayed |

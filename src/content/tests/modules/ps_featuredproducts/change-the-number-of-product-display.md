@@ -12,19 +12,8 @@ Search ps_featuredproducts<br />
 The module should be installed and upgraded to the last version<br />
 Click on Configure
 ## Steps
-### Step #0
-#### Description
-Change the option "Number of products to be displayed" to 12
-#### Expected result
-A message should appear in green.
-Number of products should be 12 
-### Step #1
-#### Description
-Go to the front office 
-#### Expected result
-12 featured product should be displayed
-### Step #2
-#### Description
-Click on all products
-#### Expected result
-Home category should be displayed
+| Step Description | Expected result |
+| ----- | ----- |
+| Change the option "Number of products to be displayed" to 12 | A message should appear in green.<br /><br>Number of products should be 12  |
+| Go to the front office  | 12 featured product should be displayed |
+| Click on all products | Home category should be displayed |
