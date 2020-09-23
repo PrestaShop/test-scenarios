@@ -110,27 +110,43 @@ EOT;
                 . '## Preconditions' . PHP_EOL
                 . PHP_EOL
                 . nl2br(preg_replace('/([\r\n\t]+)$/','', $case['custom_preconds'])). PHP_EOL;
-            if ($case['template_id'] == 1 && !empty($case['custom_steps'])) {
-                $content .= '## Steps' . PHP_EOL
-                    . PHP_EOL
-                    . nl2br(preg_replace('/([\r\n\t]+)$/','', $case['custom_steps'])). PHP_EOL
-                    . PHP_EOL;
-            }
-            if ($case['template_id'] == 2 && !empty($case['custom_steps_separated'])) {
-                $content .= '## Steps' . PHP_EOL;
-                foreach ($case['custom_steps_separated'] as $key => $step) {
-                    $content .= '### Step #' . $key . PHP_EOL
-                        . '#### Description'. PHP_EOL
-                        . $step['content'] . PHP_EOL
-                        . '#### Expected result'. PHP_EOL
-                        . $step['expected'] . PHP_EOL;
-                }
-            }
-            if ($case['template_id'] == 1 && !empty($case['custom_expected'])) {
-                $content .= '## Expected result'. PHP_EOL
-                    . PHP_EOL
-                    . $case['custom_expected']. PHP_EOL
-                    . PHP_EOL;
+
+            switch($case['template_id']) {
+                case 1:
+                    if (!empty($case['custom_steps'])) {
+                        $content .= '## Steps' . PHP_EOL . PHP_EOL
+                            . nl2br(preg_replace('/([\r\n\t]+)$/','', $case['custom_steps'])). PHP_EOL . PHP_EOL;
+                    }
+                    if (!empty($case['custom_expected'])) {
+                        $content .= '## Expected result'. PHP_EOL . PHP_EOL
+                            . $case['custom_expected']. PHP_EOL . PHP_EOL;
+                    }
+                break;
+                case 2:
+                    $case['custom_steps_separated'] = is_null($case['custom_steps_separated']) ? [] : $case['custom_steps_separated'];
+
+                    $content .= '## Steps' . PHP_EOL;
+                    $content .= '| ' . 'Step Description'
+                        . ' | ' . 'Expected result'
+                        . ' |'  . PHP_EOL;
+
+                    $content .= '| ----- | ----- |'  . PHP_EOL;
+                    foreach ($case['custom_steps_separated'] as $step) {
+                        $stepContent = $step['content'];
+                        $stepContent = preg_replace('/([\r\n\t]+)$/','', $stepContent);
+                        $stepContent = preg_replace('/^([\r\n\t]+)/','', $stepContent);
+                        $stepContent = nl2br($stepContent);
+                        $stepExpected = $step['expected'];
+                        $stepExpected = preg_replace('/([\r\n\t]+)$/','', $stepExpected);
+                        $stepExpected = preg_replace('/^([\r\n\t]+)/','', $stepExpected);
+                        $stepExpected = nl2br($stepExpected);
+                        $content .= '| ' . \str_replace(PHP_EOL, '<br>', $stepContent)
+                            . ' | ' . \str_replace(PHP_EOL, '<br>', $stepExpected)
+                            . ' |'  . PHP_EOL;
+                    }
+                break;
+                default:
+                    throw new \Exception('Template not defined : ' . $case['template_id']);
             }
             \file_put_contents($dirName . '/' .$this->slugify($case['title']). '.md', $content);
         }
