@@ -19,7 +19,7 @@ class TestRailExportData extends Command
 
     const PROJECT_NAME = 'Modules';
 
-    const OUTPUT_DIR = 'src/content/tests/modules/';
+    const OUTPUT_DIR = 'src/content/modules/';
 
     protected function configure()
     {
@@ -79,17 +79,19 @@ class TestRailExportData extends Command
     private function generatePages(string $moduleName, array $cases)
     {
         $dirName = self::OUTPUT_DIR . $moduleName;
+        // Clean directory
+        $this->delTree($dirName);
         // Check directory
         if (!is_dir($dirName)) {
             \mkdir($dirName);
         }
+
         // Check index.md
         $content = <<<EOT
 ---
 title: $moduleName
 menuTitle: $moduleName 
-pre: ""
-chapter: true
+geekdocFlatSection: true
 ---
         
 # $moduleName
@@ -170,5 +172,14 @@ EOT;
             return 'n-a';
         }
         return $text;
+    }
+
+    private function delTree(string $dir)
+    {
+        $files = array_diff(scandir($dir), array('.','..'));
+        foreach ($files as $file) {
+            (is_dir("$dir/$file")) ? delTree("$dir/$file") : unlink("$dir/$file");
+        }
+        return rmdir($dir); 
     }
 }
