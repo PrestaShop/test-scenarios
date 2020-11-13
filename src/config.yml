@@ -3,44 +3,12 @@ languageCode: "en-us"
 defaultContentLanguage: "en"
 title: "PrestaShop Tests"
 
-theme: "hugo-theme-learn"
-enableGitInfo: true
-enableRobotsTXT: true
-googleAnalytics: "UA-2753771-44"
+theme: "hugo-geekdoc"
 
 params:
-  editURL: "https://github.com/PrestaShop/docs/edit/master/src/content/"
-  ghRepoURL: "https://github.com/PrestaShop/docs/"
-  ghCommitURL: "https://github.com/PrestaShop/docs/commit/"
-  description: "Learn how to extend, modify and test PrestaShop, create modules, themes, and more."
-  author: "PrestaShop"
-  showVisitedLinks: false
-  disableInlineCopyToClipBoard: true
-  projectUrls:
-    gitHub: "https://github.com/PrestaShop/PrestaShop/"
-    reportBug: "https://github.com/PrestaShop/PrestaShop/issues"
-    slack: "https://github.com/PrestaShop/open-source/blob/master/slack/readme.md"
-  coverImage: "tests/twitter-cover.jpg"
-
-# For search functionality
-outputs:
-  home: ["HTML", "RSS", "JSON"]
-
-markup:
-  highlight:
-    codeFences: true
-    guessSyntax: true
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: false
-    style: github
-    tabWidth: 4
-  goldmark:
-    renderer:
-      unsafe: true
-  tableOfContents:
-    endLevel: 4
-    ordered: false
-    startLevel: 1
+  geekdocBreadcrumb: true
+  geekdocLogo: "logo.png"
+  geekdocRepo: "https://github.com/PrestaShop/test-scenarios"
+  geekdocSearch: true
+  geekdocSearchShowParent: true
+  geekdocMenuBundle: false
