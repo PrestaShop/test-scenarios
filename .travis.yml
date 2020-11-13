@@ -21,13 +21,9 @@ script:
   - php scripts/bin/console testrail:export:data
   ## Hugo
   - ./bin/installHugo.sh
-  - cd src/themes/hugo-theme-learn/_src
-  - npm install && npm run build
-  - cd ../../../
+  - cd src
   - ../hugo
   - cd ../
-  # Create a CNAME file which mapping to our custom domain
-  # - echo 'devdocs.prestashop.com' > public/CNAME
 
 # Deploy to GitHub pages
 deploy:
@@ -48,5 +44,5 @@ after_success:
   # Remove existing "origin"
   - git remote rm origin
   # Add new "origin" with access token in the git URL for authentication
-  - git remote add origin https://Progi1984:${GITHUB_TOKEN}@github.com/Progi1984/prestashop-tests.git > /dev/null 2>&1
+  - git remote add origin https://Progi1984:${GITHUB_TOKEN}@github.com/PrestaShop/test-scenarios.git > /dev/null 2>&1
   - git push origin master --quiet
