@@ -3,8 +3,6 @@ title: CUD criteria
 weight: 12
 ---
 
-# CUD criteria
-
 ## Preconditions
 
 The module should be installed with the previous version

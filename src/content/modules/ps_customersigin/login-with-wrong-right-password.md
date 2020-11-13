@@ -3,8 +3,6 @@ title: Login with wrong/right password
 weight: 1
 ---
 
-# Login with wrong/right password
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

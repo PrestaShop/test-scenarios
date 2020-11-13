@@ -3,8 +3,6 @@ title: Change colors
 weight: 1
 ---
 
-# Change colors
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

@@ -3,8 +3,6 @@ title: Change the position in the footer
 weight: 2
 ---
 
-# Change the position in the footer
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

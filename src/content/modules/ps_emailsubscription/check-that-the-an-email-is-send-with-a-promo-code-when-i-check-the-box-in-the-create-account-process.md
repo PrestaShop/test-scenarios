@@ -3,8 +3,6 @@ title: Check that the an email is send with a promo code when I check the box in
 weight: 4
 ---
 
-# Check that the an email is send with a promo code when I check the box in the create account process
-
 ## Preconditions
 
 Go to back office-> modules<br />

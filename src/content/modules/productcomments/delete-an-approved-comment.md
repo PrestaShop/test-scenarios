@@ -3,8 +3,6 @@ title: Delete an approved comment
 weight: 14
 ---
 
-# Delete an approved comment
-
 ## Preconditions
 
 The module should be installed with the previous version<br />

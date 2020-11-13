@@ -3,8 +3,6 @@ title: Delete a bloc
 weight: 4
 ---
 
-# Delete a bloc
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

@@ -3,8 +3,6 @@ title: Disable/Enable a bloc
 weight: 1
 ---
 
-# Disable/Enable a bloc
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

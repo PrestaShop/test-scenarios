@@ -3,8 +3,6 @@ title: Check that the CSV export by country is working
 weight: 8
 ---
 
-# Check that the CSV export by country is working
-
 ## Preconditions
 
 Go to back office-> modules<br />

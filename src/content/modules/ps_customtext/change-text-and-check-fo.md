@@ -3,8 +3,6 @@ title: Change text and check FO
 weight: 2
 ---
 
-# Change text and check FO
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

@@ -3,8 +3,6 @@ title: Setup number of comment by page
 weight: 7
 ---
 
-# Setup number of comment by page
-
 ## Preconditions
 
 The module should be installed with the previous version

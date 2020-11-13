@@ -3,8 +3,6 @@ title: Pausing and resetting the module
 weight: 2
 ---
 
-# Pausing and resetting the module
-
 ## Preconditions
 
 Having a shop installed and ready

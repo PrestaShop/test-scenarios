@@ -3,8 +3,6 @@ title: Reset password
 weight: 4
 ---
 
-# Reset password
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

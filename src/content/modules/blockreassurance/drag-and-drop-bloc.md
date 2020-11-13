@@ -3,8 +3,6 @@ title: Drag and drop bloc
 weight: 6
 ---
 
-# Drag and drop bloc
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

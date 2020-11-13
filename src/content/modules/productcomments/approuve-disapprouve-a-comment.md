@@ -3,8 +3,6 @@ title: Approuve/Disapprouve a comment
 weight: 11
 ---
 
-# Approuve/Disapprouve a comment
-
 ## Preconditions
 
 The module should be installed with the previous version<br />

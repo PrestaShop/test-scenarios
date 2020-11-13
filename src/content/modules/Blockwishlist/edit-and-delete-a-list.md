@@ -3,8 +3,6 @@ title: Edit and delete a list
 weight: 2
 ---
 
-# Edit and delete a list
-
 ## Preconditions
 
 Being connected as a customer<br />

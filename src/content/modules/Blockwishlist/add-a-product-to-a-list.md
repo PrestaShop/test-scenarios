@@ -3,8 +3,6 @@ title: Add a product to a list
 weight: 1
 ---
 
-# Add a product to a list
-
 ## Preconditions
 
 Having a customer account NOT logged in<br />

@@ -3,8 +3,6 @@ title: Report a comment
 weight: 2
 ---
 
-# Report a comment
-
 ## Preconditions
 
 The module product comment should be installed and configured<br />

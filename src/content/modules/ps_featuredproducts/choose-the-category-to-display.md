@@ -3,8 +3,6 @@ title: Choose the category to display
 weight: 2
 ---
 
-# Choose the category to display
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

@@ -3,8 +3,6 @@ title: Enable/Disable email copy to merchant
 weight: 2
 ---
 
-# Enable/Disable email copy to merchant
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

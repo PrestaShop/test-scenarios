@@ -3,8 +3,6 @@ title: FO - Check that all links are redirecting to the right URL
 weight: 6
 ---
 
-# FO - Check that all links are redirecting to the right URL
-
 ## Preconditions
 
 Module should be install and configure before

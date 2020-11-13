@@ -3,8 +3,6 @@ title: Delete text and check error message
 weight: 1
 ---
 
-# Delete text and check error message
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

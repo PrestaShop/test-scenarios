@@ -3,8 +3,6 @@ title: Change the position of the bloc in order pages
 weight: 2
 ---
 
-# Change the position of the bloc in order pages
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

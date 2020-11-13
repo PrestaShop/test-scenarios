@@ -93,8 +93,6 @@ title: $moduleName
 menuTitle: $moduleName 
 geekdocFlatSection: true
 ---
-        
-# $moduleName
 
 {{% children %}}
 EOT;
@@ -106,8 +104,6 @@ EOT;
                 . 'title: ' . $case['title'] . PHP_EOL
                 . 'weight: ' .$case['display_order'] . PHP_EOL
                 . '---' . PHP_EOL
-                . PHP_EOL
-                . '# ' . $case['title']. PHP_EOL
                 . PHP_EOL
                 . '## Preconditions' . PHP_EOL
                 . PHP_EOL

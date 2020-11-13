@@ -3,8 +3,6 @@ title: Add a bloc
 weight: 5
 ---
 
-# Add a bloc
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

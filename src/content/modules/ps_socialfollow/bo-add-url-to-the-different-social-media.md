@@ -3,8 +3,6 @@ title: BO - Add URL to the different social media
 weight: 4
 ---
 
-# BO - Add URL to the different social media
-
 ## Preconditions
 
 The module ps_socialfollow is install and upgrade to the last version

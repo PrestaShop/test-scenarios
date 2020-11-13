@@ -3,8 +3,6 @@ title: Made a payment with check
 weight: 1
 ---
 
-# Made a payment with check
-
 ## Preconditions
 
 Module should be installed and configured<br />

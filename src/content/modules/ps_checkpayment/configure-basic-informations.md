@@ -3,8 +3,6 @@ title: Configure basic informations
 weight: 1
 ---
 
-# Configure basic informations
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

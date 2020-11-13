@@ -3,8 +3,6 @@ title: Setup time between two comment
 weight: 5
 ---
 
-# Setup time between two comment
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

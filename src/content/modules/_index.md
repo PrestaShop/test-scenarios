@@ -6,6 +6,4 @@ pre: ""
 chapter: true
 ---
 
-# Modules
-
 {{% children %}}

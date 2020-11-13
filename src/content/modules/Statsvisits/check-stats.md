@@ -3,8 +3,6 @@ title: Check stats
 weight: 1
 ---
 
-# Check stats
-
 ## Preconditions
 
 

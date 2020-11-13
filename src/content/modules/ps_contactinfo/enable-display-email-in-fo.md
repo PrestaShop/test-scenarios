@@ -3,8 +3,6 @@ title: Enable display email in FO
 weight: 1
 ---
 
-# Enable display email in FO
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

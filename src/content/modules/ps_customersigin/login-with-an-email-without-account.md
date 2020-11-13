@@ -3,8 +3,6 @@ title: Login with an email without account
 weight: 3
 ---
 
-# Login with an email without account
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

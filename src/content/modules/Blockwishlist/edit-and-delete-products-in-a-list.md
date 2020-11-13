@@ -3,8 +3,6 @@ title: Edit and delete products in a list
 weight: 2
 ---
 
-# Edit and delete products in a list
-
 ## Preconditions
 
 Having passed [C1658]<br />

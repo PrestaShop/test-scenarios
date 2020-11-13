@@ -3,8 +3,6 @@ title: Check that the entered email in the left column email block is saved
 weight: 3
 ---
 
-# Check that the entered email in the left column email block is saved
-
 ## Preconditions
 
 Go to back office-> modules<br />

@@ -3,8 +3,6 @@ title: Enable/Disable email copy to customer
 weight: 1
 ---
 
-# Enable/Disable email copy to customer
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

@@ -3,8 +3,6 @@ title: Full onboarding process
 weight: 1
 ---
 
-# Full onboarding process
-
 ## Preconditions
 
 Having a fresh install with the module preinstalled

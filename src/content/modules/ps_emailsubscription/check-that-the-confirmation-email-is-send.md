@@ -3,8 +3,6 @@ title: Check that the confirmation email is send
 weight: 6
 ---
 
-# Check that the confirmation email is send
-
 ## Preconditions
 
 Go to back office-> modules<br />

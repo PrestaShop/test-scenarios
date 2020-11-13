@@ -3,8 +3,6 @@ title: Uninstall/Install
 weight: 2
 ---
 
-# Uninstall/Install
-
 ## Preconditions
 
 The module should be installed

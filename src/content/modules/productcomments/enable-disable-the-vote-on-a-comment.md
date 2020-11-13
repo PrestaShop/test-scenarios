@@ -3,8 +3,6 @@ title: Enable/disable the vote on a comment
 weight: 3
 ---
 
-# Enable/disable the vote on a comment
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

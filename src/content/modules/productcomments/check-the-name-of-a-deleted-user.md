@@ -3,8 +3,6 @@ title: Check the name of a deleted user
 weight: 4
 ---
 
-# Check the name of a deleted user
-
 ## Preconditions
 
 The module product comment should be installed and configured<br />

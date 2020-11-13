@@ -3,8 +3,6 @@ title: Add a comment
 weight: 1
 ---
 
-# Add a comment
-
 ## Preconditions
 
 The module product comment should be installed and configured <br />

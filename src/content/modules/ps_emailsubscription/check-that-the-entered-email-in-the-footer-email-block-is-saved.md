@@ -3,8 +3,6 @@ title: Check that the entered email in the footer email block is saved
 weight: 2
 ---
 
-# Check that the entered email in the footer email block is saved
-
 ## Preconditions
 
 Go to back office-> modules<br />

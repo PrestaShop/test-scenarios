@@ -3,8 +3,6 @@ title: Wording and statistics
 weight: 2
 ---
 
-# Wording and statistics
-
 ## Preconditions
 
 Having a working PrestaShop shop<br />

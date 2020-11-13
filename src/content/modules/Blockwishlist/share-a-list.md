@@ -3,8 +3,6 @@ title: Share a list
 weight: 3
 ---
 
-# Share a list
-
 ## Preconditions
 
 Being connected as a customer<br />

@@ -3,8 +3,6 @@ title: Check that the text entered in the module is updated in front office
 weight: 7
 ---
 
-# Check that the text entered in the module is updated in front office
-
 ## Preconditions
 
 Go to back office-> modules<br />

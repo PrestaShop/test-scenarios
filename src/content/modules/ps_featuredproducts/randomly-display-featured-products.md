@@ -3,8 +3,6 @@ title: Randomly display featured products
 weight: 3
 ---
 
-# Randomly display featured products
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

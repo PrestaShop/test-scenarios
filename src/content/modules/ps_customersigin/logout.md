@@ -3,8 +3,6 @@ title: Logout
 weight: 2
 ---
 
-# Logout
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

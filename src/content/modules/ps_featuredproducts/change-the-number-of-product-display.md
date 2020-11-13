@@ -3,8 +3,6 @@ title: Change the number of product display
 weight: 1
 ---
 
-# Change the number of product display
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

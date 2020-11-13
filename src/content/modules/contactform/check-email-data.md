@@ -3,8 +3,6 @@ title: Check email data
 weight: 3
 ---
 
-# Check email data
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

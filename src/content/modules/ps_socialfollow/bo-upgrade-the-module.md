@@ -3,8 +3,6 @@ title: BO - Upgrade the module
 weight: 3
 ---
 
-# BO - Upgrade the module
-
 ## Preconditions
 
 The module should have a new version 

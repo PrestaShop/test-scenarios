@@ -3,8 +3,6 @@ title: Enable/disable anonymization of the user's last name
 weight: 4
 ---
 
-# Enable/disable anonymization of the user's last name
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

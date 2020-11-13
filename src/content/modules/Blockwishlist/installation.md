@@ -3,8 +3,6 @@ title: Installation
 weight: 1
 ---
 
-# Installation
-
 ## Preconditions
 
 Having a working installation of PrestaShop

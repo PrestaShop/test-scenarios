@@ -3,8 +3,6 @@ title: Change the position of the bloc in products pages
 weight: 1
 ---
 
-# Change the position of the bloc in products pages
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

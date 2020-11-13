@@ -3,8 +3,6 @@ title: Upgrade
 weight: 1
 ---
 
-# Upgrade
-
 ## Preconditions
 
 The module should be installed with the previous version

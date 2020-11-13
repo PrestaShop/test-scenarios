@@ -3,8 +3,6 @@ title: Check that the CSV export by subscriber is working
 weight: 9
 ---
 
-# Check that the CSV export by subscriber is working
-
 ## Preconditions
 
 Go to back office-> modules<br />

@@ -3,8 +3,6 @@ title: Vote for a comment
 weight: 3
 ---
 
-# Vote for a comment
-
 ## Preconditions
 
 The module product comment should be installed and configured<br />

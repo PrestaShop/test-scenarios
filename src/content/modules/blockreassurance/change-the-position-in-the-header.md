@@ -3,8 +3,6 @@ title: Change the position in the header
 weight: 1
 ---
 
-# Change the position in the header
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

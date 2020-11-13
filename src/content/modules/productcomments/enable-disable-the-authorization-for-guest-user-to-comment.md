@@ -3,8 +3,6 @@ title: Enable/disable the authorization for guest user to comment
 weight: 2
 ---
 
-# Enable/disable the authorization for guest user to comment
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

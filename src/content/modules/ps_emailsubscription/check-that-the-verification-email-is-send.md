@@ -3,8 +3,6 @@ title: Check that the verification email is send
 weight: 5
 ---
 
-# Check that the verification email is send
-
 ## Preconditions
 
 Go to back office-> modules<br />

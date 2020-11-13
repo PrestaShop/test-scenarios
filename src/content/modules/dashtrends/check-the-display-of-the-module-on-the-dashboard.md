@@ -3,8 +3,6 @@ title: Check the display of the module on the dashboard
 weight: 1
 ---
 
-# Check the display of the module on the dashboard
-
 ## Preconditions
 
 Module is installed and activated

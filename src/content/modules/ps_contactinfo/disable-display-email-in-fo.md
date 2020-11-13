@@ -3,8 +3,6 @@ title: Disable display email in FO
 weight: 2
 ---
 
-# Disable display email in FO
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

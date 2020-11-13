@@ -3,8 +3,6 @@ title: Edit a bloc
 weight: 3
 ---
 
-# Edit a bloc
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

@@ -3,8 +3,6 @@ title: Create a list
 weight: 1
 ---
 
-# Create a list
-
 ## Preconditions
 
 Having a working PrestaShop shop<br />

@@ -3,8 +3,6 @@ title: Enable/disable comment validation by employee
 weight: 1
 ---
 
-# Enable/disable comment validation by employee
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />

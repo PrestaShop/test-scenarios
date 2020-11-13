@@ -3,8 +3,6 @@ title: Display form contact
 weight: 1
 ---
 
-# Display form contact
-
 ## Preconditions
 
 Go to back office -> Modules -> Module manager<br />
