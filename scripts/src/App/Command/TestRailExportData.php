@@ -100,47 +100,66 @@ EOT;
 
         // Cases
         foreach ($cases as $case) {
+            $custom_preconds = $case['custom_preconds'];
+            $custom_preconds = str_replace("\r\n", '\\' . PHP_EOL, $custom_preconds);
+            $custom_preconds = str_replace("\\" . PHP_EOL . '-', PHP_EOL . '-', $custom_preconds);
+            $custom_preconds = trim($custom_preconds, " \\-" . PHP_EOL);
+
+            $custom_steps = $case['custom_steps'];
+            $custom_steps = str_replace(PHP_EOL, '\\' . PHP_EOL, $custom_steps);
+            $custom_steps = str_replace("\\" . PHP_EOL . '-', PHP_EOL . '-', $custom_steps);
+            $custom_steps = trim($custom_steps, " \\-" . PHP_EOL);
+
+            $custom_expected = $case['custom_expected'];
+            $custom_expected = str_replace(PHP_EOL, '\\' . PHP_EOL, $custom_expected);
+            $custom_expected = str_replace("\\" . PHP_EOL . '-', PHP_EOL . '-', $custom_expected);
+            $custom_expected = trim($custom_expected, " \\-" . PHP_EOL);
+
             $content = '---' . PHP_EOL
                 . 'title: ' . $case['title'] . PHP_EOL
                 . 'weight: ' .$case['display_order'] . PHP_EOL
-                . '---' . PHP_EOL
-                . PHP_EOL
+                . '---' . PHP_EOL;
+            if (!empty($custom_preconds)) {
+            $content .= PHP_EOL
                 . '## Preconditions' . PHP_EOL
                 . PHP_EOL
-                . nl2br(preg_replace('/([\r\n\t]+)$/','', $case['custom_preconds'])). PHP_EOL;
+                . $custom_preconds. PHP_EOL;
+            }
 
             switch($case['template_id']) {
                 case 1:
-                    if (!empty($case['custom_steps'])) {
-                        $content .= '## Steps' . PHP_EOL . PHP_EOL
-                            . nl2br(preg_replace('/([\r\n\t]+)$/','', $case['custom_steps'])). PHP_EOL . PHP_EOL;
+                    if (!empty($custom_steps)) {
+                        $content .= '## Steps' . PHP_EOL . PHP_EOL . $custom_steps. PHP_EOL . PHP_EOL;
                     }
                     if (!empty($case['custom_expected'])) {
-                        $content .= '## Expected result'. PHP_EOL . PHP_EOL
-                            . $case['custom_expected']. PHP_EOL . PHP_EOL;
+                        $content .= '## Expected result'. PHP_EOL . PHP_EOL . $custom_expected. PHP_EOL . PHP_EOL;
                     }
                 break;
                 case 2:
                     $case['custom_steps_separated'] = is_null($case['custom_steps_separated']) ? [] : $case['custom_steps_separated'];
 
-                    $content .= '## Steps' . PHP_EOL;
-                    $content .= '| ' . 'Step Description'
-                        . ' | ' . 'Expected result'
-                        . ' |'  . PHP_EOL;
-
-                    $content .= '| ----- | ----- |'  . PHP_EOL;
-                    foreach ($case['custom_steps_separated'] as $step) {
-                        $stepContent = $step['content'];
-                        $stepContent = preg_replace('/([\r\n\t]+)$/','', $stepContent);
-                        $stepContent = preg_replace('/^([\r\n\t]+)/','', $stepContent);
-                        $stepContent = nl2br($stepContent);
-                        $stepExpected = $step['expected'];
-                        $stepExpected = preg_replace('/([\r\n\t]+)$/','', $stepExpected);
-                        $stepExpected = preg_replace('/^([\r\n\t]+)/','', $stepExpected);
-                        $stepExpected = nl2br($stepExpected);
-                        $content .= '| ' . \str_replace(PHP_EOL, '<br>', $stepContent)
-                            . ' | ' . \str_replace(PHP_EOL, '<br>', $stepExpected)
+                    if (!empty($case['custom_steps_separated'])) {
+                        $content .= '## Steps' . PHP_EOL;
+                        $content .= '| ' . 'Step Description'
+                            . ' | ' . 'Expected result'
                             . ' |'  . PHP_EOL;
+
+                        $content .= '| ----- | ----- |'  . PHP_EOL;
+                        foreach ($case['custom_steps_separated'] as $step) {
+                            $stepContent = $step['content'];
+                            $stepContent = trim($stepContent);
+                            $stepContent = str_replace("\r\n", '<br>', $stepContent);
+                            $stepContent = str_replace(PHP_EOL, '<br>', $stepContent);
+                            $stepContent = trim($stepContent, " \\-");
+
+                            $stepExpected = $step['expected'];
+                            $stepExpected = trim($stepExpected);
+                            $stepExpected = str_replace("\r\n", '<br>', $stepExpected);
+                            $stepExpected = str_replace(PHP_EOL, '<br>', $stepExpected);
+                            $stepExpected = trim($stepExpected, " \\-");
+                            
+                            $content .= '| ' . $stepContent . ' | ' . $stepExpected . ' |'  . PHP_EOL;
+                        }
                     }
                 break;
                 default:
@@ -174,7 +193,7 @@ EOT;
     {
         $files = array_diff(scandir($dir), array('.','..'));
         foreach ($files as $file) {
-            (is_dir("$dir/$file")) ? delTree("$dir/$file") : unlink("$dir/$file");
+            (is_dir("$dir/$file")) ? $this->delTree("$dir/$file") : unlink("$dir/$file");
         }
         return rmdir($dir); 
     }
