@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-export HUGO_VERSION="0.72.0"
+export HUGO_VERSION="0.78.2"
 
 if [ `uname` = "Linux" ]; then
     export HUGO_OS="Linux-64bit"
