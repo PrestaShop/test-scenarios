@@ -5,9 +5,9 @@ weight: 2
 
 ## Preconditions
 
-Go to back office -> Modules -> Module manager<br />
-Search productcomments<br />
-The module should be installed and upgraded to the last version<br />
+Go to back office -> Modules -> Module manager\
+Search productcomments\
+The module should be installed and upgraded to the last version\
 Click on Configure
 ## Steps
 | Step Description | Expected result |

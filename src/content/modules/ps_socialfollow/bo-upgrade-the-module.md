@@ -5,11 +5,11 @@ weight: 3
 
 ## Preconditions
 
-The module should have a new version 
+The module should have a new version
 ## Steps
 
-Go to Modules > Modules<br />
-Search ps_socialfollow<br />
+Go to Modules > Modules\
+Search ps_socialfollow\
 Click on upgrade
 
 ## Expected result

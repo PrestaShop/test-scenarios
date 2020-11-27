@@ -5,7 +5,7 @@ weight: 4
 
 ## Preconditions
 
-The module product comment should be installed and configured<br />
+The module product comment should be installed and configured\
 A customer must have already added a comment
 ## Steps
 | Step Description | Expected result |

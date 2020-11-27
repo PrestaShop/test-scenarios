@@ -5,9 +5,9 @@ weight: 1
 
 ## Preconditions
 
-Go to back office -> Modules -> Module manager<br />
-Search ps_customtext<br />
-The module should be installed and upgraded to the last version<br />
+Go to back office -> Modules -> Module manager\
+Search ps_customtext\
+The module should be installed and upgraded to the last version\
 Click on Configure
 ## Steps
 | Step Description | Expected result |

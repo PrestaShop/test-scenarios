@@ -5,9 +5,9 @@ weight: 1
 
 ## Preconditions
 
-Go to back office -> Modules -> Module manager<br />
-Search ps_contactinfo<br />
-The module should be installed and upgraded to the last version<br />
+Go to back office -> Modules -> Module manager\
+Search ps_contactinfo\
+The module should be installed and upgraded to the last version\
 Go to front
 ## Steps
 | Step Description | Expected result |

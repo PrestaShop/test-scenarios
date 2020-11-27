@@ -5,7 +5,7 @@ weight: 1
 
 ## Preconditions
 
-Module should be installed and configured<br />
+Module should be installed and configured\
 An account should be created
 ## Steps
 | Step Description | Expected result |

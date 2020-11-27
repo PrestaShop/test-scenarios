@@ -8,8 +8,8 @@ weight: 2
 Module should be uninstall first
 ## Steps
 
-Go to Modules -> Module Catalog<br />
-Search ps_socialfollow<br />
+Go to Modules -> Module Catalog\
+Search ps_socialfollow\
 Install ps_socialfollow
 
 ## Expected result

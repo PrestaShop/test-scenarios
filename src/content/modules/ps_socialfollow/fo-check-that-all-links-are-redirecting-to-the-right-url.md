@@ -8,13 +8,13 @@ weight: 6
 Module should be install and configure before
 ## Steps
 
-Click on facebook and check that the link redirect to the link previously set up<br />
-Click on Twitter and check that the link redirect to the link previously set up<br />
-Click on RSS and check that the link redirect to the link previously set up<br />
-Click on Youtube and check that the link redirect to the link previously set up<br />
-Click on Vimeo and check that the link redirect to the link previously set up<br />
-Click on Instagram and check that the link redirect to the link previously set up<br />
-Click on Pinterest and check that the link redirect to the link previously set up<br />
+Click on facebook and check that the link redirect to the link previously set up\
+Click on Twitter and check that the link redirect to the link previously set up\
+Click on RSS and check that the link redirect to the link previously set up\
+Click on Youtube and check that the link redirect to the link previously set up\
+Click on Vimeo and check that the link redirect to the link previously set up\
+Click on Instagram and check that the link redirect to the link previously set up\
+Click on Pinterest and check that the link redirect to the link previously set up\
 Click on Linkedin and check that the link redirect to the link previously set up
 
 ## Expected result

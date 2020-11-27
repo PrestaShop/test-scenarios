@@ -2,10 +2,6 @@
 title: Disable, Enable, Reset, uninstall, upload and upgrade module
 weight: 2
 ---
-
-## Preconditions
-
-
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

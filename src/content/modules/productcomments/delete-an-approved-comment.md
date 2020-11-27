@@ -5,7 +5,7 @@ weight: 14
 
 ## Preconditions
 
-The module should be installed with the previous version<br />
+The module should be installed with the previous version\
 A comment should be added and approved
 ## Steps
 | Step Description | Expected result |

@@ -5,8 +5,8 @@ weight: 1
 
 ## Preconditions
 
-Go to back office -> Modules -> Module manager<br />
-Search ps_checkpayment<br />
+Go to back office -> Modules -> Module manager\
+Search ps_checkpayment\
 The module should be installed and upgraded to the last version
 ## Steps
 | Step Description | Expected result |

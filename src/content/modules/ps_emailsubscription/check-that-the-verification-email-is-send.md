@@ -5,16 +5,16 @@ weight: 5
 
 ## Preconditions
 
-Go to back office-> modules<br />
+Go to back office-> modules
 Install ps_emailsubscription
 ## Steps
 
-Configure ps_emailsubscription module<br />
-Enable  “Would you like to send a verification email after subscription?”<br />
-<br />
-Go to front office<br />
-Entered an email in the field email subscription in the left column or footer <br />
-Check that the verification email was send<br />
+Configure ps_emailsubscription module\
+Enable  “Would you like to send a verification email after subscription?”\
+\
+Go to front office\
+Entered an email in the field email subscription in the left column or footer \
+Check that the verification email was send\
 Click on the link in the email
 
 ## Expected result

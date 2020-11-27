@@ -2,16 +2,12 @@
 title: Check the display of the email block in the left column
 weight: 1
 ---
-
-## Preconditions
-
-
 ## Steps
 
-Go to back office-> modules<br />
-Install ps_emailsubscription<br />
-Configure ps_emailsubscription module<br />
-Go to front office<br />
+Go to back office-> modules\
+Install ps_emailsubscription\
+Configure ps_emailsubscription module\
+Go to front office\
 Go to home category
 
 ## Expected result

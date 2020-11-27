@@ -5,11 +5,11 @@ weight: 3
 
 ## Preconditions
 
-Go to back office -> Modules -> Module manager<br />
-Search contactform<br />
-The module should be installed and upgraded to the last version<br />
-Click on Configure<br />
-Enable email copy to customer<br />
+Go to back office -> Modules -> Module manager\
+Search contactform\
+The module should be installed and upgraded to the last version\
+Click on Configure\
+Enable email copy to customer\
 SMTP Should be configure
 ## Steps
 | Step Description | Expected result |
