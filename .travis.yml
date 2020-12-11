@@ -18,7 +18,7 @@ script:
   - cd scripts/
   - composer install
   - cd ../
-  - php scripts/bin/console testrail:export:data
+  - php scripts/bin/console testrail:export:modules
   ## Hugo
   - ./bin/installHugo.sh
   - cd src

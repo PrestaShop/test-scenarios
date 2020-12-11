@@ -10,7 +10,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
  
-class TestRailExportData extends Command
+class TestRailExportModules extends Command
 {
     /**
      * @var TestRail;
@@ -23,8 +23,29 @@ class TestRailExportData extends Command
 
     protected function configure()
     {
-        $this->setName('testrail:export:data')
-            ->setDescription('TestRail : Export data');   
+        $this->setName('testrail:export:modules')
+            ->setDescription('TestRail : Export data')
+            ->addOption(
+                'url',
+                null,
+                InputOption::VALUE_OPTIONAL,
+                '',
+                getenv('TESTRAIL_URL') ?? null
+            )
+            ->addOption(
+                'username',
+                null,
+                InputOption::VALUE_OPTIONAL,
+                '',
+                getenv('TESTRAIL_USERNAME') ?? null
+            )
+            ->addOption(
+                'apikey',
+                null,
+                InputOption::VALUE_OPTIONAL,
+                '',
+                getenv('TESTRAIL_APIKEY') ?? null
+            );   
     }
  
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -32,9 +53,9 @@ class TestRailExportData extends Command
         $time = time();
 
         // Init
-        $this->testRailClient = new TestRail(getenv('TESTRAIL_URL'));
-        $this->testRailClient->set_user(getenv('TESTRAIL_USERNAME'));
-        $this->testRailClient->set_password(getenv('TESTRAIL_APIKEY'));
+        $this->testRailClient = new TestRail($input->getOption('url'));
+        $this->testRailClient->set_user($input->getOption('username'));
+        $this->testRailClient->set_password($input->getOption('apikey'));
 
         $projectId = $this->getProjectId();
         if (empty($projectId)) {
@@ -191,6 +212,9 @@ EOT;
 
     private function delTree(string $dir)
     {
+        if (!is_dir($dir)) {
+            return;
+        }
         $files = array_diff(scandir($dir), array('.','..'));
         foreach ($files as $file) {
             (is_dir("$dir/$file")) ? $this->delTree("$dir/$file") : unlink("$dir/$file");

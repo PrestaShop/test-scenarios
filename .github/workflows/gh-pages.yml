@@ -1,0 +1,50 @@
+name: Github Pages
+
+on:
+  push:
+    branches:
+      - master
+      - migratetoGA
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.78.2'
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+
+      - name: Clean public directory
+        run: rm -rf public
+
+      - name: Composer install
+        run: cd scripts && composer install && cd ..
+
+      - name: Export TestRail Modules 
+        run: php scripts/bin/console testrail:export:modules --url ${{ secrets.TESTRAIL_URL }} --username ${{ secrets.TESTRAIL_USERNAME }} --apikey ${{ secrets.TESTRAIL_APIKEY }}
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "[Update] TestRail Tests"
+
+      - name: Build
+        run: cd src && hugo && cd ..
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./src/public
