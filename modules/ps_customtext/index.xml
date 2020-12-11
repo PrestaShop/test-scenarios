@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ps_customtext on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/</link>
+    <description>Recent content in ps_customtext on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/ps_customtext/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delete text and check error message</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/delete-text-and-check-error-message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/delete-text-and-check-error-message/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_customtext
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Remove all the text and save Error message should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Change text and check FO</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/change-text-and-check-fo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/change-text-and-check-fo/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_customtext
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Remove the text, add another text (with color and some specific character)and save New text should be saved   Go to front office New text should be displayed instead of the old one    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_customtext The module catalog page should be displayed and module ps_customtext should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+  </channel>
+</rss>

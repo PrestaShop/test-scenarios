@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ps_contactinfo on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/</link>
+    <description>Recent content in ps_contactinfo on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Display form contact</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/display-form-contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/display-form-contact/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_contactinfo
+The module should be installed and upgraded to the last version
+Go to front
+Steps    Step Description Expected result     Click on the contact us button in the header Contact form should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Enable display email in FO</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/enable-display-email-in-fo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/enable-display-email-in-fo/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_contactinfo
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to enable the display of email in FO The switch button should be blue   Click on the button save A message should appear   Go to the front office The email should be displayed in the footer   Click on the contact us button in the header The email should be displayed in the column    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_contactinfo The module page should be displayed and module ps_contactinfo should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Disable display email in FO</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/disable-display-email-in-fo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/disable-display-email-in-fo/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_contactinfo
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the display of email in FO The switch button should be red   Click on the button save A message should appear   Go to the front office The email shouldn&amp;rsquo;t be displayed in the footer   Click on the contact us button in the header The email shouldn&amp;rsquo;t be displayed in the column    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_contactinfo The module page should be displayed and module ps_contactinfo should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_contactinfo The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_contactinfo&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_contactinfo The module page should be displayed and module ps_contactinfo should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contactform on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/contactform/</link>
+    <description>Recent content in contactform on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/contactform/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable/Disable email copy to customer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/enable-disable-email-copy-to-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/enable-disable-email-copy-to-customer/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search contactform
+The module should be installed and upgraded to the last version
+Click on Configure
+SMTP Should be configure
+Steps    Step Description Expected result     Click on the switch button to enable the first bloc The switch button should be blue and a message should appear   Go to the front office and make an order The front office and order should be displayed   Go to the contact us form The form should be displayed   Send a message An email should be sent to customer   Go to back office click on the switch button to disable the first bloc The switch button should be red and a message should appear   Go to the front office and make an order The front office and order should be displayed   Go to the contact us form The form should be displayed   Send a message An email shouldn&amp;rsquo;t be sent to customer    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search contactform The module page should be displayed and module contactform should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable email copy to merchant</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/enable-disable-email-copy-to-merchant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/enable-disable-email-copy-to-merchant/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search contactform
+The module should be installed and upgraded to the last version
+Click on Configure
+SMTP Should be configure
+Steps    Step Description Expected result     Click on the switch button to enable the first bloc The switch button should be blue and a message should appear   Go to the front office and make an order The front office and order should be displayed   Go to the contact us form The form should be displayed   Send a message An email should be sent to merchant   Go to back office click on the switch button to disable the first bloc The switch button should be red and a message should appear   Go to the front office and make an order The front office and order should be displayed   Go to the contact us form The form should be displayed   Send a message An email shouldn&amp;rsquo;t be sent to merchant    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search contactform The module page should be displayed and module contactform should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search contactform The module catalog page should be displayed and module contactform should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Check email data</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/check-email-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/check-email-data/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search contactform
+The module should be installed and upgraded to the last version
+Click on Configure
+Enable email copy to customer
+SMTP Should be configure
+Steps    Step Description Expected result     Make an order and send a message using the form Check that the data of the customer is display in the email to customer    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search contactform The module page should be displayed and module contactform should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+  </channel>
+</rss>

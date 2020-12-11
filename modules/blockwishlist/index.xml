@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blockwishlist on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/</link>
+    <description>Recent content in Blockwishlist on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/blockwishlist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add a product to a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/add-a-product-to-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/add-a-product-to-a-list/</guid>
+      <description>Preconditions Having a customer account NOT logged in
+No custom wishlist created (only the default one)
+Having
+ a product with stock a product without stock (stock = 0) a product with a minimum quantity  Steps    Step Description Expected result     Browse through the catalog and open a product page The heart next to the picture is empty   Click on the heart A modal appears, telling you to log in before you can add products to your wishlists</description>
+    </item>
+    
+    <item>
+      <title>Create a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/create-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/create-a-list/</guid>
+      <description>Preconditions Having a working PrestaShop shop
+Module wishlist installed
+NOT being connected as a customer on the frontend
+Steps    Step Description Expected result     Go to the catalog and to a product page
+Click on the heart next to the image to add the product to a list A modal says you need to be connected   Connect as a customer
+Go to the catalog and to a product page</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/installation/</guid>
+      <description>Preconditions Having a working installation of PrestaShop
+Steps    Step Description Expected result     Install the zip The module is correctly installed   Uninstall the module The module is correctly uninstalled   Install a previous version of the module
+Update the module The module is correctly updated    </description>
+    </item>
+    
+    <item>
+      <title>Edit and delete a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-a-list/</guid>
+      <description>Preconditions Being connected as a customer
+Having a second list in the wishlist list
+Steps    Step Description Expected result     Go to your account
+Click on the &amp;ldquo;Wishlist&amp;rdquo; block
+Check the lists All the list have 2 buttons on the right: 3 little dots AND a garbage can
+The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the 3 dots in front of a custom list A small popin appears</description>
+    </item>
+    
+    <item>
+      <title>Edit and delete products in a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-products-in-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-products-in-a-list/</guid>
+      <description>Preconditions Having passed [C1658]
+Being logged in with the customer account specified
+Steps    Step Description Expected result     Go to the customer wishlist page Wishlists are displayed
+The number associated (in brackets) represents the number of unique items in a list   Select the custom wishlist You get all the products added in the [C1658] test   Click on the garbage can for the single product with stock A modal appears asking you to confirm the deletion   Confirm the deletion The product is removed from the list   Click on the picture of the single product without stock You are redirected to the product page</description>
+    </item>
+    
+    <item>
+      <title>Wording and statistics</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/wording-and-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/wording-and-statistics/</guid>
+      <description>Preconditions Having a working PrestaShop shop
+At least 2 languages activated
+Steps    Step Description Expected result     Login in the backoffice
+Go to the module&amp;rsquo;s settings page
+Click on the &amp;ldquo;Configuration&amp;rdquo; tab Settings page is displayed correctly   Change every wording for every language
+Save Settings are saved successfully   Go to the front office and check all the wordings:
+- name of the wishlit</description>
+    </item>
+    
+    <item>
+      <title>Share a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/share-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/share-a-list/</guid>
+      <description>Preconditions Being connected as a customer
+Having a second list in the wishlist list
+Steps    Step Description Expected result     Go to your account
+Click on the &amp;ldquo;Wishlist&amp;rdquo; block
+Check the lists All the list have 2 buttons on the right: 3 little dots AND a garbage can
+The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the &amp;ldquo;share&amp;rdquo; button for the default list A modal appears with the share link You can either click on the &amp;ldquo;Cancel&amp;rdquo; button to close the modal or the &amp;ldquo;Copy link&amp;rdquo; to copy the link in the clipboard   Click on the &amp;ldquo;Copy link&amp;rdquo; button</description>
+    </item>
+    
+  </channel>
+</rss>

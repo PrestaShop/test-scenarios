@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ps_checkpayment on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/</link>
+    <description>Recent content in ps_checkpayment on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure basic informations</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/configure-basic-informations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/configure-basic-informations/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_checkpayment
+The module should be installed and upgraded to the last version
+Steps    Step Description Expected result     Click on Configure in modules -&amp;gt; Modules manager Configuration page should be displayed   Add a company name, an address and save Information should be saved    </description>
+    </item>
+    
+    <item>
+      <title>Made a payment with check</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/made-a-payment-with-check/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/made-a-payment-with-check/</guid>
+      <description>Preconditions Module should be installed and configured
+An account should be created
+Steps    Step Description Expected result     Add a product to the cart Product should be added   Go to the cart Cart should be displayed   Click on order button Creation account form should be displayed   Select the carrier and go to next step Payment page should be displayed   Select check payment and go to next step Confirmation payment should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_checkpayment The module catalog page should be displayed and module ps_checkpayment should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+  </channel>
+</rss>

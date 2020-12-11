@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productcomments on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/productcomments/</link>
+    <description>Recent content in productcomments on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/productcomments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/add-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/add-a-comment/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+Go to FO in a product page
+Steps    Step Description Expected result     Add a comment in a product page and validate
+(Try to add comment with specific character) A message should appear
+If the configuration enable the validation of the comment the comment shouldn&amp;rsquo;t appear.
+If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly calculated The total rate should be the average of all comment rate    </description>
+    </item>
+    
+    <item>
+      <title>Enable/disable comment validation by employee</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-comment-validation-by-employee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-comment-validation-by-employee/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the validation of comment by employee The switch button should be red   Go to the front office -&amp;gt; click on a product to open the page The product should appear with a button to write a comment   Click on the button to write a comment a pop up should appear   Write a comment and send it The message should be display without any request to the employee   Go to the back office on the configuration module and Click on the switch button to enable the validation of comment by employee The switch button should be blue   Go to the front office -&amp;gt; click on a product to open the page The product should appear with a button to write a comment   Click on the button to write a comment a pop up should appear   Write a comment and send it a message should appear to indicate that an employee will review the message    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search productcomments The module page should be displayed and module productcomments should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Enable/disable the authorization for guest user to comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-the-authorization-for-guest-user-to-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-the-authorization-for-guest-user-to-comment/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to enable the authorization for guest user to comment The switch button should be blue   Go to the front office -&amp;gt; click on a product to open the page The button comment should be displayed   Go to the back office on the configuration module and Click on the switch button to disable the authorization for guest user to comment The switch button should be red   Go to the front office -&amp;gt; click on a product to open the page The button comment shouldn&amp;rsquo;t be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Report a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/report-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/report-a-comment/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+Go to FO in a product page with comment
+Steps    Step Description Expected result     Click on the flag to report a comment A popup appear   confirm that you want to report the comment A popup appear with a message    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search productcomments The module page should be displayed and module productcomments appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search productcomments The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;productcomments&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Enable/disable the vote on a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-the-vote-on-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-the-vote-on-a-comment/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the vote on a comment The switch button should be red   Go to the front office -&amp;gt; click on a product to open the page The product should be displayed   go to the comment section    Go to the back office on the configuration module and Click on the switch button to enable the vote on a comment The switch button should be blue   Go to the front office -&amp;gt; click on a product to open the page The product should be displayed   go to the comment section The icon to vote should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search productcomments The module page should be displayed and module productcomments should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Vote for a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/vote-for-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/vote-for-a-comment/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+Go to FO in a product page with comment
+Steps    Step Description Expected result     Add a vote for a comment check that the number of vote increases    </description>
+    </item>
+    
+    <item>
+      <title>Check the name of a deleted user with anonymize last name option enable</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/check-the-name-of-a-deleted-user-with-anonymize-last-name-option-enable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/check-the-name-of-a-deleted-user-with-anonymize-last-name-option-enable/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+A customer must have already added a comment
+anonymize last name should be disable
+Steps    Step Description Expected result     In the back office, go to customer settings and delete the account of an user who added a comment The customer should be deleted   Go to front office in a product page with a comment of the user we deleted previously The name of the customer shouldn&amp;rsquo;t appear    </description>
+    </item>
+    
+    <item>
+      <title>Enable/disable anonymization of the user&#39;s last name</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-anonymization-of-the-user-s-last-name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-anonymization-of-the-user-s-last-name/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to enable the anonymization of the last name user The switch button should be blue   Go to the front office -&amp;gt; click on a product to open the page</description>
+    </item>
+    
+    <item>
+      <title>Check the name of a deleted user</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/check-the-name-of-a-deleted-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/check-the-name-of-a-deleted-user/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+A customer must have already added a comment
+anonymize last name should be enable
+Steps    Step Description Expected result     In the back office, go to customer settings and delete the account of an user who added a comment The customer should be deleted   Go to front office in a product page with a comment of the user we deleted previously The name of the customer shouldn&amp;rsquo;t appear    </description>
+    </item>
+    
+    <item>
+      <title>Setup time between two comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/setup-time-between-two-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/setup-time-between-two-comment/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change the minimum time between 2 reviews from the same user to 15 seconds Change should be apply in BO   In the front office, add a comment Comment should be added   Try to add immediately a second comment A message should indicate that you need to try after to add a comment   Wait 15 seconds and add a new comment Comment should be added    </description>
+    </item>
+    
+    <item>
+      <title>Check that rating is displayed</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/check-that-rating-is-displayed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/check-that-rating-is-displayed/</guid>
+      <description>Preconditions Have some comment and rating in FO
+Module should be hooked to displayProductAdditionalInfo
+Steps    Step Description Expected result     Go to a product with comment Product page is displayed   Check if the sum of the rating is correct Sum of rating is correct   Add product to cart Rating is still displayed in displayProductAdditionalInfo    </description>
+    </item>
+    
+    <item>
+      <title>Setup number of comment by page</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/setup-number-of-comment-by-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/setup-number-of-comment-by-page/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Change the number of comment by page to 3 Change should be apply in BO   In the front office, go to a product page with more than 3 comments See the pagination    </description>
+    </item>
+    
+    <item>
+      <title>Approuve/Disapprouve a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/approuve-disapprouve-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/approuve-disapprouve-a-comment/</guid>
+      <description>Preconditions The module should be installed with the previous version
+The option All reviews must be validated by an employee should be enabled
+Two comment should be added
+Steps    Step Description Expected result     In the tab Reviews waiting for approval click on approve the first comment The line should be disappear from the tab Reviews waiting for approval and appear in the tab Approved reviews   Go to the front office in the product page of this comment The comment should be displayed   On the back office in the tab Reviews waiting for approval click on delete the second comment A popup appear   Validate the suppression of the comment The comment shouldn&amp;rsquo;t be appear anymore   Go to the front office in the product page of this comment The comment shouldn&amp;rsquo;t be displayed    </description>
+    </item>
+    
+    <item>
+      <title>CUD criteria</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/cud-criteria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/cud-criteria/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Click on &amp;ldquo;Add new criteria&amp;rdquo; Add new criteria page is displayed correctly   Fill all information :
+Criterion name : Test
+Application scope of the criterion : Restricted to some category and choose a category
+Active : yes Criteria is saved correctly
+A message is displayed and we are redirected to the main page of the configuration module.</description>
+    </item>
+    
+    <item>
+      <title>Delete an approved comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/delete-an-approved-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/delete-an-approved-comment/</guid>
+      <description>Preconditions The module should be installed with the previous version
+A comment should be added and approved
+Steps    Step Description Expected result     In the tab Approved reviews click on delete the comment A popup should be displayed   Validate the suppression of the comment Comment should be deleted   Go to FO to the product with the comment deleted The comment shouldn&amp;rsquo;t be appear anymore    </description>
+    </item>
+    
+  </channel>
+</rss>

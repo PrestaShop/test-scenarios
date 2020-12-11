@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ps_emailsubscription on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/</link>
+    <description>Recent content in ps_emailsubscription on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check the display of the email block in the left column</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-display-of-the-email-block-in-the-left-column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-display-of-the-email-block-in-the-left-column/</guid>
+      <description>Steps Go to back office-&amp;gt; modules
+Install ps_emailsubscription
+Configure ps_emailsubscription module
+Go to front office
+Go to home category
+Expected result Check that the block is install in the left column and display correctly</description>
+    </item>
+    
+    <item>
+      <title>Check that the entered email in the footer email block is saved</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-entered-email-in-the-footer-email-block-is-saved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-entered-email-in-the-footer-email-block-is-saved/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module
+Steps Go to front office
+Entered qa@prestashop.com in the field email subscription in the footer
+Go to back office
+Configure ps_emailsubscription module
+Expected result Check the message in FO it should be : “You have successfully subscribed to this newsletter.” Check in the BO that the customer is registered</description>
+    </item>
+    
+    <item>
+      <title>Check that the entered email in the left column email block is saved</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-entered-email-in-the-left-column-email-block-is-saved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-entered-email-in-the-left-column-email-block-is-saved/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module
+Steps Go to front office
+Entered qa@prestashop.com in the field email subscription in the left column
+Go to back office
+Configure ps_emailsubscription module
+Expected result Check the message in the FO it should be : “You have successfully subscribed to this newsletter.” Check in the BO that the customer is registered</description>
+    </item>
+    
+    <item>
+      <title>Check that the an email is send with a promo code when I check the box in the create account process</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-an-email-is-send-with-a-promo-code-when-i-check-the-box-in-the-create-account-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-an-email-is-send-with-a-promo-code-when-i-check-the-box-in-the-create-account-process/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module Configure SMTP
+Steps Add in the field “Welcome voucher code” a promo code “WELCOME”
+Go to catalog -&amp;gt; Cart rules
+Check the promo code exists
+Go to front office
+Entered an email in the field email subscription in the left column or footer
+Expected result Check that an email was send with the promo code</description>
+    </item>
+    
+    <item>
+      <title>Check that the verification email is send</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-verification-email-is-send/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-verification-email-is-send/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription
+Steps Configure ps_emailsubscription module
+Enable “Would you like to send a verification email after subscription?”
+Go to front office
+Entered an email in the field email subscription in the left column or footer
+Check that the verification email was send
+Click on the link in the email
+Expected result Check the message it should be : “Thank you for subscribing &amp;hellip;&amp;hellip;”</description>
+    </item>
+    
+    <item>
+      <title>Check that the confirmation email is send</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-confirmation-email-is-send/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-confirmation-email-is-send/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure SMTP
+Steps Configure ps_emailsubscription module
+Enable “Would you like to send a confirmation email after subscription?”
+Go to front office
+Entered an email in the field email subscription in the left column or footer
+Expected result Check that the confirmation email was send</description>
+    </item>
+    
+    <item>
+      <title>Check that the text entered in the module is updated in front office</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-text-entered-in-the-module-is-updated-in-front-office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-text-entered-in-the-module-is-updated-in-front-office/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription
+Steps Configure ps_emailsubscription module
+Change the texte in the “Newsletter conditions” field
+Go to front office
+Expected result Check that the text is correctly changed</description>
+    </item>
+    
+    <item>
+      <title>Check that the CSV export by country is working</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-country-is-working/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-country-is-working/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module
+Steps Select “All counties” and export csv
+Select “France” and export csv
+Expected result Check the data</description>
+    </item>
+    
+    <item>
+      <title>Check that the CSV export by subscriber is working</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-subscriber-is-working/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-subscriber-is-working/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module
+Steps Select “All subscribers” and export csv
+Select “Subscribers with account” and export csv
+Select “Subscribers without account” and export csv
+Select “Non-subscriber” and export csv
+Expected result Check the data</description>
+    </item>
+    
+    <item>
+      <title>Check that the CSV export by partner offer is working</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-partner-offer-is-working/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-partner-offer-is-working/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check that the customer is registred</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-customer-is-registred/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-customer-is-registred/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check you can&#39;t register an email already registered</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-you-can-t-register-an-email-already-registered/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-you-can-t-register-an-email-already-registered/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the &#34;display&#34; button opens the add/edit customer page</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-display-button-opens-the-add-edit-customer-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-display-button-opens-the-add-edit-customer-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check if the unsubscribtion is working in the module configuration</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-if-the-unsubscribtion-is-working-in-the-module-configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-if-the-unsubscribtion-is-working-in-the-module-configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search an email address</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/search-an-email-address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/search-an-email-address/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the ID in the tab configuration  if the email address is not linked to a customer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-email-address-is-not-linked-to-a-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-email-address-is-not-linked-to-a-customer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the ID in the tab configuration  if the email address is linked to a customer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-email-address-is-linked-to-a-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-email-address-is-linked-to-a-customer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the ID in the tab configuration if the user register as customer and check the box subscribe</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-check-the-box-subscribe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-check-the-box-subscribe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the ID in the tab configuration if the user register as customer and uncheck the box subscribe</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-uncheck-the-box-subscribe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-uncheck-the-box-subscribe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

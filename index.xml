@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/</link>
+    <description>Recent content in Home on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/add-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/add-a-comment/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+Go to FO in a product page
+Steps    Step Description Expected result     Add a comment in a product page and validate
+(Try to add comment with specific character) A message should appear
+If the configuration enable the validation of the comment the comment shouldn&amp;rsquo;t appear.
+If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly calculated The total rate should be the average of all comment rate    </description>
+    </item>
+    
+    <item>
+      <title>Add a product to a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/add-a-product-to-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/add-a-product-to-a-list/</guid>
+      <description>Preconditions Having a customer account NOT logged in
+No custom wishlist created (only the default one)
+Having
+ a product with stock a product without stock (stock = 0) a product with a minimum quantity  Steps    Step Description Expected result     Browse through the catalog and open a product page The heart next to the picture is empty   Click on the heart A modal appears, telling you to log in before you can add products to your wishlists</description>
+    </item>
+    
+    <item>
+      <title>BO - Uninstall the module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-uninstall-the-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-uninstall-the-module/</guid>
+      <description>Steps Click on uninstall the module
+Expected result The module shouldn&amp;rsquo;t be in the list of install module but in module catalog tab</description>
+    </item>
+    
+    <item>
+      <title>Change colors</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-colors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-colors/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure -&amp;gt; Apparence
+Steps    Step Description Expected result     Click on the first color (icon color), change it and save The color should be changed in the back office   Click on the second color (icon color), change it and save The color should be changed in the back office   Save and check in the front office that the color is changed The color should be the new ones    </description>
+    </item>
+    
+    <item>
+      <title>Change the number of product display</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/change-the-number-of-product-display/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/change-the-number-of-product-display/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_featuredproducts
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change the option &amp;ldquo;Number of products to be displayed&amp;rdquo; to 12 A message should appear in green.
+Number of products should be 12   Go to the front office 12 featured product should be displayed   Click on all products Home category should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Change the position in the header</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-the-position-in-the-header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-the-position-in-the-header/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure -&amp;gt; Affichage -&amp;gt; paramètre généraux
+Steps    Step Description Expected result     Select &amp;ldquo;the top of the header&amp;rdquo; A message should be display in green   Go to the front office The bloc should be hooked in the top of the header   Select &amp;ldquo;the bottom of the header&amp;rdquo; A message Should be display in green   Go to the front office The bloc should be hooked in the bottom of the header   Select &amp;ldquo;None&amp;rdquo; A message should be display in green   Go to the front office The bloc should be displayed in the header    </description>
+    </item>
+    
+    <item>
+      <title>Change the position of the bloc in products pages</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-the-position-of-the-bloc-in-products-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-the-position-of-the-bloc-in-products-pages/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure -&amp;gt; Affichage -&amp;gt; Pages produits
+Steps    Step Description Expected result     Select &amp;ldquo;principal column&amp;rdquo; A message should be display in green   Go to the front office in a product page The bloc reassurance should be display   Select &amp;ldquo;None&amp;rdquo; A message should be display in green   Go to the front office in a product page The bloc reassurance shouldn&amp;rsquo;t be display    </description>
+    </item>
+    
+    <item>
+      <title>Check stats</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/statsvisits/check-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/statsvisits/check-stats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the display of the email block in the left column</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-display-of-the-email-block-in-the-left-column/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-display-of-the-email-block-in-the-left-column/</guid>
+      <description>Steps Go to back office-&amp;gt; modules
+Install ps_emailsubscription
+Configure ps_emailsubscription module
+Go to front office
+Go to home category
+Expected result Check that the block is install in the left column and display correctly</description>
+    </item>
+    
+    <item>
+      <title>Check the display of the module on the dashboard</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/dashtrends/check-the-display-of-the-module-on-the-dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/dashtrends/check-the-display-of-the-module-on-the-dashboard/</guid>
+      <description>Preconditions Module is installed and activated
+Steps    Step Description Expected result     Activate Demo Mode and browse each tab of the dashboard (&amp;ldquo;Sales&amp;rdquo;, &amp;ldquo;Orders&amp;rdquo;, &amp;ldquo;Cart Value&amp;rdquo;, &amp;ldquo;Visits&amp;rdquo;, Conversion Rate&amp;quot;, &amp;ldquo;Net Profit&amp;rdquo;) The graphs are displayed for each tab, with different numbers in each tab.   Refresh dashboard (new demo values are generated) The numbers and graphs are different   In FO, make some visits and orders with several browser, set some of these orders to &amp;ldquo;Paid&amp;rdquo; in BO.</description>
+    </item>
+    
+    <item>
+      <title>Configure basic informations</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/configure-basic-informations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/configure-basic-informations/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_checkpayment
+The module should be installed and upgraded to the last version
+Steps    Step Description Expected result     Click on Configure in modules -&amp;gt; Modules manager Configuration page should be displayed   Add a company name, an address and save Information should be saved    </description>
+    </item>
+    
+    <item>
+      <title>Create a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/create-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/create-a-list/</guid>
+      <description>Preconditions Having a working PrestaShop shop
+Module wishlist installed
+NOT being connected as a customer on the frontend
+Steps    Step Description Expected result     Go to the catalog and to a product page
+Click on the heart next to the image to add the product to a list A modal says you need to be connected   Connect as a customer
+Go to the catalog and to a product page</description>
+    </item>
+    
+    <item>
+      <title>Delete text and check error message</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/delete-text-and-check-error-message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/delete-text-and-check-error-message/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_customtext
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Remove all the text and save Error message should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Disable/Enable a bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/disable-enable-a-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/disable-enable-a-bloc/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the first bloc The switch button should be red and a message should appear   Go to the front office The bloc disabled shouldn&amp;rsquo;t be displayed   Click on the switch button to enable the first bloc The switch button should be blue and a message should appear   Go to the front office The bloc disabled should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Display form contact</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/display-form-contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/display-form-contact/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_contactinfo
+The module should be installed and upgraded to the last version
+Go to front
+Steps    Step Description Expected result     Click on the contact us button in the header Contact form should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Enable display email in FO</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/enable-display-email-in-fo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/enable-display-email-in-fo/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_contactinfo
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to enable the display of email in FO The switch button should be blue   Click on the button save A message should appear   Go to the front office The email should be displayed in the footer   Click on the contact us button in the header The email should be displayed in the column    </description>
+    </item>
+    
+    <item>
+      <title>Enable/disable comment validation by employee</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-comment-validation-by-employee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-comment-validation-by-employee/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the validation of comment by employee The switch button should be red   Go to the front office -&amp;gt; click on a product to open the page The product should appear with a button to write a comment   Click on the button to write a comment a pop up should appear   Write a comment and send it The message should be display without any request to the employee   Go to the back office on the configuration module and Click on the switch button to enable the validation of comment by employee The switch button should be blue   Go to the front office -&amp;gt; click on a product to open the page The product should appear with a button to write a comment   Click on the button to write a comment a pop up should appear   Write a comment and send it a message should appear to indicate that an employee will review the message    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable email copy to customer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/enable-disable-email-copy-to-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/enable-disable-email-copy-to-customer/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search contactform
+The module should be installed and upgraded to the last version
+Click on Configure
+SMTP Should be configure
+Steps    Step Description Expected result     Click on the switch button to enable the first bloc The switch button should be blue and a message should appear   Go to the front office and make an order The front office and order should be displayed   Go to the contact us form The form should be displayed   Send a message An email should be sent to customer   Go to back office click on the switch button to disable the first bloc The switch button should be red and a message should appear   Go to the front office and make an order The front office and order should be displayed   Go to the contact us form The form should be displayed   Send a message An email shouldn&amp;rsquo;t be sent to customer    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable notification for product availability</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-for-product-availability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-for-product-availability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable notification new order</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-new-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-new-order/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Full onboarding process</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/welcome/full-onboarding-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/welcome/full-onboarding-process/</guid>
+      <description>Preconditions Having a fresh install with the module preinstalled
+Steps    Step Description Expected result     Connect in the BO The &amp;ldquo;Welcome to your shop&amp;rdquo; modal appears   Click on &amp;ldquo;Start&amp;rdquo; You are redirected to the New Product page
+A Preston modal asks you to enter a name for your product (Step 1/5)   Enter a name then click on the &amp;ldquo;Next&amp;rdquo; button on the Preston modal The Preston modal moves to the title of the &amp;ldquo;Basic settings&amp;rdquo; tab</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/installation/</guid>
+      <description>Preconditions Having a working installation of PrestaShop
+Steps    Step Description Expected result     Install the zip The module is correctly installed   Uninstall the module The module is correctly uninstalled   Install a previous version of the module
+Update the module The module is correctly updated    </description>
+    </item>
+    
+    <item>
+      <title>Login with wrong/right password</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/login-with-wrong-right-password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/login-with-wrong-right-password/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_customersignin
+The module should be installed and upgraded to the last version
+Go to FO
+Steps    Step Description Expected result     Click on login login page should be displayed   Try to login with a wrong password A message should appear in red   Try to login with the right password account page should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Made a payment with check</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/made-a-payment-with-check/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/made-a-payment-with-check/</guid>
+      <description>Preconditions Module should be installed and configured
+An account should be created
+Steps    Step Description Expected result     Add a product to the cart Product should be added   Go to the cart Cart should be displayed   Click on order button Creation account form should be displayed   Select the carrier and go to next step Payment page should be displayed   Select check payment and go to next step Confirmation payment should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Make a search</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/make-a-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/make-a-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module blockreassurance a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search contactform The module page should be displayed and module contactform should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search productcomments The module page should be displayed and module productcomments should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_contactinfo The module page should be displayed and module ps_contactinfo should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_customersignin The module page should be displayed and module ps_customersignin should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module ps_customersignin a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_featuredproducts The module page should be displayed and module ps_featuredproducts should appear in the module page   Click on upgrade A message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/upgrade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/statsvisits/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/statsvisits/upgrade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BO - Install the module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-install-the-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-install-the-module/</guid>
+      <description>Preconditions Module should be uninstall first
+Steps Go to Modules -&amp;gt; Module Catalog
+Search ps_socialfollow
+Install ps_socialfollow
+Expected result The configuration button should appear instead of the install one</description>
+    </item>
+    
+    <item>
+      <title>Change text and check FO</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/change-text-and-check-fo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/change-text-and-check-fo/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_customtext
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Remove the text, add another text (with color and some specific character)and save New text should be saved   Go to front office New text should be displayed instead of the old one    </description>
+    </item>
+    
+    <item>
+      <title>Change the position in the footer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-the-position-in-the-footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-the-position-in-the-footer/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure -&amp;gt; Affichage -&amp;gt; paramètre généraux
+Steps    Step Description Expected result     Select &amp;ldquo;the top of the footer&amp;rdquo; A message should be display in green   Go to the front office The bloc should be hooked in the top of the footer   Select &amp;ldquo;the bottom of the footer&amp;rdquo; A message should be display in green   Go to the front office The bloc should be hooked in the bottom of the footer   Select &amp;ldquo;None&amp;rdquo; A message should be display in green   Go to the front office The bloc should be displayed in the footer    </description>
+    </item>
+    
+    <item>
+      <title>Change the position of the bloc in order pages</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-the-position-of-the-bloc-in-order-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/change-the-position-of-the-bloc-in-order-pages/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure -&amp;gt; Affichage -&amp;gt; Pages de commande
+Steps    Step Description Expected result     Select &amp;ldquo;principal column&amp;rdquo; A message should be display in green   Go to the front office add a product in the cart and check the cart The bloc reassurance should be display   Select &amp;ldquo;None&amp;rdquo; A message should be display in green   Go to the front office add a product in the cart and check the cart The bloc reassurance shouldn&amp;rsquo;t be display    </description>
+    </item>
+    
+    <item>
+      <title>Check that the entered email in the footer email block is saved</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-entered-email-in-the-footer-email-block-is-saved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-entered-email-in-the-footer-email-block-is-saved/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module
+Steps Go to front office
+Entered qa@prestashop.com in the field email subscription in the footer
+Go to back office
+Configure ps_emailsubscription module
+Expected result Check the message in FO it should be : “You have successfully subscribed to this newsletter.” Check in the BO that the customer is registered</description>
+    </item>
+    
+    <item>
+      <title>Choose the category to display</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/choose-the-category-to-display/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/choose-the-category-to-display/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_featuredproducts
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change the option &amp;ldquo;Category from which to pick products to be displayed&amp;rdquo; to 3 A message should appear in green.
+Category from which to pick products to be displayed should be 3   Go to front office The featured product should be the one in category 3    </description>
+    </item>
+    
+    <item>
+      <title>Disable display email in FO</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/disable-display-email-in-fo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/disable-display-email-in-fo/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_contactinfo
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the display of email in FO The switch button should be red   Click on the button save A message should appear   Go to the front office The email shouldn&amp;rsquo;t be displayed in the footer   Click on the contact us button in the header The email shouldn&amp;rsquo;t be displayed in the column    </description>
+    </item>
+    
+    <item>
+      <title>Disable, Enable, Reset, uninstall, upload and upgrade module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/dashtrends/disable-enable-reset-uninstall-upload-and-upgrade-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/dashtrends/disable-enable-reset-uninstall-upload-and-upgrade-module/</guid>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager, disable the dashtrends module. Go to Dashboard page The module is no longer displayed   Go to BO &amp;gt; Modules &amp;gt; Module Manager, enable the dashtrends module. Go to Dashboard page The module is displayed, with data and graphs.   Go to BO &amp;gt; Modules &amp;gt; Module Manager, reset the dashtrends module.</description>
+    </item>
+    
+    <item>
+      <title>Edit and delete a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-a-list/</guid>
+      <description>Preconditions Being connected as a customer
+Having a second list in the wishlist list
+Steps    Step Description Expected result     Go to your account
+Click on the &amp;ldquo;Wishlist&amp;rdquo; block
+Check the lists All the list have 2 buttons on the right: 3 little dots AND a garbage can
+The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the 3 dots in front of a custom list A small popin appears</description>
+    </item>
+    
+    <item>
+      <title>Edit and delete products in a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-products-in-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-products-in-a-list/</guid>
+      <description>Preconditions Having passed [C1658]
+Being logged in with the customer account specified
+Steps    Step Description Expected result     Go to the customer wishlist page Wishlists are displayed
+The number associated (in brackets) represents the number of unique items in a list   Select the custom wishlist You get all the products added in the [C1658] test   Click on the garbage can for the single product with stock A modal appears asking you to confirm the deletion   Confirm the deletion The product is removed from the list   Click on the picture of the single product without stock You are redirected to the product page</description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable email copy to merchant</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/enable-disable-email-copy-to-merchant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/enable-disable-email-copy-to-merchant/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search contactform
+The module should be installed and upgraded to the last version
+Click on Configure
+SMTP Should be configure
+Steps    Step Description Expected result     Click on the switch button to enable the first bloc The switch button should be blue and a message should appear   Go to the front office and make an order The front office and order should be displayed   Go to the contact us form The form should be displayed   Send a message An email should be sent to merchant   Go to back office click on the switch button to disable the first bloc The switch button should be red and a message should appear   Go to the front office and make an order The front office and order should be displayed   Go to the contact us form The form should be displayed   Send a message An email shouldn&amp;rsquo;t be sent to merchant    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable Notification for order edition</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-for-order-edition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-for-order-edition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable notification for product out of stock</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-for-product-out-of-stock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-for-product-out-of-stock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enable/disable the authorization for guest user to comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-the-authorization-for-guest-user-to-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-the-authorization-for-guest-user-to-comment/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to enable the authorization for guest user to comment The switch button should be blue   Go to the front office -&amp;gt; click on a product to open the page The button comment should be displayed   Go to the back office on the configuration module and Click on the switch button to disable the authorization for guest user to comment The switch button should be red   Go to the front office -&amp;gt; click on a product to open the page The button comment shouldn&amp;rsquo;t be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Logout</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/logout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/logout/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_customersignin
+The module should be installed and upgraded to the last version
+Go to FO
+Steps    Step Description Expected result     In front office go to login Login page should be displayed   Click on logout FO should be logout    </description>
+    </item>
+    
+    <item>
+      <title>Pausing and resetting the module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/welcome/pausing-and-resetting-the-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/welcome/pausing-and-resetting-the-module/</guid>
+      <description>Preconditions Having a shop installed and ready
+Steps    Step Description Expected result     Connect in the BO The &amp;ldquo;Welcome to your shop&amp;rdquo; modal appears   Click on &amp;ldquo;Later&amp;rdquo; The modal disappears
+A small modal appears on the bottom left &amp;ldquo;Launch your shop&amp;rdquo;
+The percent is at 0   Refresh the page The bottom left modal is still here   Click on the &amp;ldquo;RESUME&amp;rdquo; button on the bottom left modal The big centered modal reappers   Click on &amp;ldquo;Start&amp;rdquo; and follow a few steps</description>
+    </item>
+    
+    <item>
+      <title>Report a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/report-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/report-a-comment/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+Go to FO in a product page with comment
+Steps    Step Description Expected result     Click on the flag to report a comment A popup appear   confirm that you want to report the comment A popup appear with a message    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module blockreassurance a réussi.</description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search contactform The module page should be displayed and module contactform should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search contactform The module catalog page should be displayed and module contactform should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search productcomments The module page should be displayed and module productcomments appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search productcomments The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;productcomments&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_checkpayment The module catalog page should be displayed and module ps_checkpayment should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_contactinfo The module page should be displayed and module ps_contactinfo should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_contactinfo The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_contactinfo&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customersignin The module page should be displayed and module ps_customersignin should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_customersignin The module catalog page should be displayed and module ps_customtext should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_customtext The module catalog page should be displayed and module ps_customtext should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_emailalerts The module catalog page should be displayed and module ps_emailalerts should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_emailalerts&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_featuredproducts The module page should be displayed and module ps_featuredproducts should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_featuredproducts The module catalog page should be displayed and module ps_featuredproductsshould appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_featuredproducts&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/uninstall-install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/statsvisits/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/statsvisits/uninstall-install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wording and statistics</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/wording-and-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/wording-and-statistics/</guid>
+      <description>Preconditions Having a working PrestaShop shop
+At least 2 languages activated
+Steps    Step Description Expected result     Login in the backoffice
+Go to the module&amp;rsquo;s settings page
+Click on the &amp;ldquo;Configuration&amp;rdquo; tab Settings page is displayed correctly   Change every wording for every language
+Save Settings are saved successfully   Go to the front office and check all the wordings:
+- name of the wishlit</description>
+    </item>
+    
+    <item>
+      <title>BO - Upgrade the module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-upgrade-the-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-upgrade-the-module/</guid>
+      <description>Preconditions The module should have a new version
+Steps Go to Modules &amp;gt; Modules
+Search ps_socialfollow
+Click on upgrade
+Expected result The module should be upgraded to the last version and the button configure should appear instead of the upgrade one.</description>
+    </item>
+    
+    <item>
+      <title>Check email data</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/check-email-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/check-email-data/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search contactform
+The module should be installed and upgraded to the last version
+Click on Configure
+Enable email copy to customer
+SMTP Should be configure
+Steps    Step Description Expected result     Make an order and send a message using the form Check that the data of the customer is display in the email to customer    </description>
+    </item>
+    
+    <item>
+      <title>Check that the entered email in the left column email block is saved</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-entered-email-in-the-left-column-email-block-is-saved/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-entered-email-in-the-left-column-email-block-is-saved/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module
+Steps Go to front office
+Entered qa@prestashop.com in the field email subscription in the left column
+Go to back office
+Configure ps_emailsubscription module
+Expected result Check the message in the FO it should be : “You have successfully subscribed to this newsletter.” Check in the BO that the customer is registered</description>
+    </item>
+    
+    <item>
+      <title>Configure the minimum quantity for out of stock</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/configure-the-minimum-quantity-for-out-of-stock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/configure-the-minimum-quantity-for-out-of-stock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edit a bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/edit-a-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/edit-a-bloc/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the edit button The edition page of the module should appear   Change title and description of the first language install
+Change title and description of the second language install</description>
+    </item>
+    
+    <item>
+      <title>Enable/disable the vote on a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-the-vote-on-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-the-vote-on-a-comment/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the vote on a comment The switch button should be red   Go to the front office -&amp;gt; click on a product to open the page The product should be displayed   go to the comment section    Go to the back office on the configuration module and Click on the switch button to enable the vote on a comment The switch button should be blue   Go to the front office -&amp;gt; click on a product to open the page The product should be displayed   go to the comment section The icon to vote should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Login with an email without account</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/login-with-an-email-without-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/login-with-an-email-without-account/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_customersignin
+The module should be installed and upgraded to the last version
+Go to FO
+Steps    Step Description Expected result     Click on login login page should be displayed   Try to login with an email without account A message should appear in red    </description>
+    </item>
+    
+    <item>
+      <title>Randomly display featured products</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/randomly-display-featured-products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/randomly-display-featured-products/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_featuredproducts
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Enable the option &amp;ldquo;Randomly display featured products&amp;rdquo; A message should appear in green.
+The option should be enabled   Go to front office/check the homepage Product shouldn&amp;rsquo;t be display by id but randomly    </description>
+    </item>
+    
+    <item>
+      <title>Share a list</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/share-a-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/share-a-list/</guid>
+      <description>Preconditions Being connected as a customer
+Having a second list in the wishlist list
+Steps    Step Description Expected result     Go to your account
+Click on the &amp;ldquo;Wishlist&amp;rdquo; block
+Check the lists All the list have 2 buttons on the right: 3 little dots AND a garbage can
+The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the &amp;ldquo;share&amp;rdquo; button for the default list A modal appears with the share link You can either click on the &amp;ldquo;Cancel&amp;rdquo; button to close the modal or the &amp;ldquo;Copy link&amp;rdquo; to copy the link in the clipboard   Click on the &amp;ldquo;Copy link&amp;rdquo; button</description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module blockreassurance a réussi.</description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search contactform The module page should be displayed and module contactform should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search productcomments The module page should be displayed and module productcomments should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_contactinfo The module page should be displayed and module ps_contactinfo should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customersignin The module page should be displayed and module ps_customersignin should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_featuredproducts The module page should be displayed and module ps_featuredproducts should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/uninstall-and-delete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/statsvisits/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/statsvisits/uninstall-and-delete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vote for a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/vote-for-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/vote-for-a-comment/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+Go to FO in a product page with comment
+Steps    Step Description Expected result     Add a vote for a comment check that the number of vote increases    </description>
+    </item>
+    
+    <item>
+      <title>BO - Add URL to the different social media</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-add-url-to-the-different-social-media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-add-url-to-the-different-social-media/</guid>
+      <description>Preconditions The module ps_socialfollow is install and upgrade to the last version
+Steps Set up all links
+Facebook : https://www.facebook.com/prestashop
+Twitter : https://twitter.com/PrestaShop
+LinkedIn : https://www.linkedin.com/company/prestashop
+Instagram : https://www.instagram.com/prestashop/
+Youtube : https://www.youtube.com/prestashop
+Vimeo : prestashop
+Pinterest : prestashop
+Rss : prestashop
+Save
+Expected result Check that all links are saved</description>
+    </item>
+    
+    <item>
+      <title>Check that the an email is send with a promo code when I check the box in the create account process</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-an-email-is-send-with-a-promo-code-when-i-check-the-box-in-the-create-account-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-an-email-is-send-with-a-promo-code-when-i-check-the-box-in-the-create-account-process/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module Configure SMTP
+Steps Add in the field “Welcome voucher code” a promo code “WELCOME”
+Go to catalog -&amp;gt; Cart rules
+Check the promo code exists
+Go to front office
+Entered an email in the field email subscription in the left column or footer
+Expected result Check that an email was send with the promo code</description>
+    </item>
+    
+    <item>
+      <title>Check the name of a deleted user with anonymize last name option enable</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/check-the-name-of-a-deleted-user-with-anonymize-last-name-option-enable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/check-the-name-of-a-deleted-user-with-anonymize-last-name-option-enable/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+A customer must have already added a comment
+anonymize last name should be disable
+Steps    Step Description Expected result     In the back office, go to customer settings and delete the account of an user who added a comment The customer should be deleted   Go to front office in a product page with a comment of the user we deleted previously The name of the customer shouldn&amp;rsquo;t appear    </description>
+    </item>
+    
+    <item>
+      <title>Delete a bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/delete-a-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/delete-a-bloc/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the delete button A confirmation message should appear   Confirm the deletion message by clicking on ok In the back office the bloc disabled shouldn&amp;rsquo;t be displayed   Go to front office In the front office the bloc disabled shouldn&amp;rsquo;t be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Disable</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/disable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/disable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enable/disable anonymization of the user&#39;s last name</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-anonymization-of-the-user-s-last-name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/enable-disable-anonymization-of-the-user-s-last-name/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to enable the anonymization of the last name user The switch button should be blue   Go to the front office -&amp;gt; click on a product to open the page</description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable notification for return product</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-for-return-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/enable-disable-notification-for-return-product/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reset password</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/reset-password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/reset-password/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_customersignin
+The module should be installed and upgraded to the last version
+Go to FO
+Steps    Step Description Expected result     Click on login login page should be displayed   Click on reset password a message should be displayed and email should be sent   Click on the link in the email FO page should be appear   Type the new password and save A message should be displayed to indicate that password is changed   Login with the new password Login should be working    </description>
+    </item>
+    
+    <item>
+      <title>Add a bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/add-a-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/add-a-bloc/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure -&amp;gt; Affichage -&amp;gt; Contenu
+Steps    Step Description Expected result     Add an icon (use the format jpg, gif, png and svg) The icon should be displayed   Save the bloc An error message should be displayed   Add a title The title should be added in all languages   Add a description in all languages The description should be added in all languages   Select none to redirection and save A message should be displayed and we should be redirected to the first page of the module configuration   Click on the switch button to enable this new bloc The switch button should be blue and a message should appear   Go to the front office and check The new bloc should appear and shouldn&amp;rsquo;t be clickable   Edit in the back office this new bloc and change redirection by Page cms A dropdown list should appear   Select the page cms wanted and save A message should be displayed and we should be redirected to the first page of the module configuration   Go to the front office and check The bloc should be clickable and you must be redirected to the cms page selected in the back office   Edit in the back office this new bloc and change redirection by url A text area should be display   Add the link https://prestashop.</description>
+    </item>
+    
+    <item>
+      <title>Check that the verification email is send</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-verification-email-is-send/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-verification-email-is-send/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription
+Steps Configure ps_emailsubscription module
+Enable “Would you like to send a verification email after subscription?”
+Go to front office
+Entered an email in the field email subscription in the left column or footer
+Check that the verification email was send
+Click on the link in the email
+Expected result Check the message it should be : “Thank you for subscribing &amp;hellip;&amp;hellip;”</description>
+    </item>
+    
+    <item>
+      <title>Check the name of a deleted user</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/check-the-name-of-a-deleted-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/check-the-name-of-a-deleted-user/</guid>
+      <description>Preconditions The module product comment should be installed and configured
+A customer must have already added a comment
+anonymize last name should be enable
+Steps    Step Description Expected result     In the back office, go to customer settings and delete the account of an user who added a comment The customer should be deleted   Go to front office in a product page with a comment of the user we deleted previously The name of the customer shouldn&amp;rsquo;t appear    </description>
+    </item>
+    
+    <item>
+      <title>Configure the email address to receive notification</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/configure-the-email-address-to-receive-notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/configure-the-email-address-to-receive-notification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FO - Check that all social pictogram is display properly</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/fo-check-that-all-social-pictogram-is-display-properly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/fo-check-that-all-social-pictogram-is-display-properly/</guid>
+      <description>Preconditions Module should be install and configure before
+Steps Check that all pictogram is appear properly in the footer</description>
+    </item>
+    
+    <item>
+      <title>Setup time between two comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/setup-time-between-two-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/setup-time-between-two-comment/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search productcomments
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change the minimum time between 2 reviews from the same user to 15 seconds Change should be apply in BO   In the front office, add a comment Comment should be added   Try to add immediately a second comment A message should indicate that you need to try after to add a comment   Wait 15 seconds and add a new comment Comment should be added    </description>
+    </item>
+    
+    <item>
+      <title>Check that rating is displayed</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/check-that-rating-is-displayed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/check-that-rating-is-displayed/</guid>
+      <description>Preconditions Have some comment and rating in FO
+Module should be hooked to displayProductAdditionalInfo
+Steps    Step Description Expected result     Go to a product with comment Product page is displayed   Check if the sum of the rating is correct Sum of rating is correct   Add product to cart Rating is still displayed in displayProductAdditionalInfo    </description>
+    </item>
+    
+    <item>
+      <title>Check that the confirmation email is send</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-confirmation-email-is-send/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-confirmation-email-is-send/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure SMTP
+Steps Configure ps_emailsubscription module
+Enable “Would you like to send a confirmation email after subscription?”
+Go to front office
+Entered an email in the field email subscription in the left column or footer
+Expected result Check that the confirmation email was send</description>
+    </item>
+    
+    <item>
+      <title>Drag and drop bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/blockreassurance/drag-and-drop-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/drag-and-drop-bloc/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search blockreassurance
+The module should be installed and upgraded to the last version
+Click on Configure -&amp;gt; Affichage -&amp;gt; Contenu
+Steps    Step Description Expected result     Select the second bloc and change his place to the first place The bloc should be in the first position   Go to front office The first bloc should be the one we change his position    </description>
+    </item>
+    
+    <item>
+      <title>FO - Check that all links are redirecting to the right URL</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/fo-check-that-all-links-are-redirecting-to-the-right-url/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/fo-check-that-all-links-are-redirecting-to-the-right-url/</guid>
+      <description>Preconditions Module should be install and configure before
+Steps Click on facebook and check that the link redirect to the link previously set up
+Click on Twitter and check that the link redirect to the link previously set up
+Click on RSS and check that the link redirect to the link previously set up
+Click on Youtube and check that the link redirect to the link previously set up
+Click on Vimeo and check that the link redirect to the link previously set up</description>
+    </item>
+    
+    <item>
+      <title>Check that the text entered in the module is updated in front office</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-text-entered-in-the-module-is-updated-in-front-office/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-text-entered-in-the-module-is-updated-in-front-office/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription
+Steps Configure ps_emailsubscription module
+Change the texte in the “Newsletter conditions” field
+Go to front office
+Expected result Check that the text is correctly changed</description>
+    </item>
+    
+    <item>
+      <title>Setup number of comment by page</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/setup-number-of-comment-by-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/setup-number-of-comment-by-page/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Change the number of comment by page to 3 Change should be apply in BO   In the front office, go to a product page with more than 3 comments See the pagination    </description>
+    </item>
+    
+    <item>
+      <title>Check that the CSV export by country is working</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-country-is-working/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-country-is-working/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module
+Steps Select “All counties” and export csv
+Select “France” and export csv
+Expected result Check the data</description>
+    </item>
+    
+    <item>
+      <title>Check that the CSV export by subscriber is working</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-subscriber-is-working/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-subscriber-is-working/</guid>
+      <description>Preconditions Go to back office-&amp;gt; modules Install ps_emailsubscription Configure ps_emailsubscription module
+Steps Select “All subscribers” and export csv
+Select “Subscribers with account” and export csv
+Select “Subscribers without account” and export csv
+Select “Non-subscriber” and export csv
+Expected result Check the data</description>
+    </item>
+    
+    <item>
+      <title>Check that the CSV export by partner offer is working</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-partner-offer-is-working/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-csv-export-by-partner-offer-is-working/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approuve/Disapprouve a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/approuve-disapprouve-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/approuve-disapprouve-a-comment/</guid>
+      <description>Preconditions The module should be installed with the previous version
+The option All reviews must be validated by an employee should be enabled
+Two comment should be added
+Steps    Step Description Expected result     In the tab Reviews waiting for approval click on approve the first comment The line should be disappear from the tab Reviews waiting for approval and appear in the tab Approved reviews   Go to the front office in the product page of this comment The comment should be displayed   On the back office in the tab Reviews waiting for approval click on delete the second comment A popup appear   Validate the suppression of the comment The comment shouldn&amp;rsquo;t be appear anymore   Go to the front office in the product page of this comment The comment shouldn&amp;rsquo;t be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Check that the customer is registred</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-customer-is-registred/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-that-the-customer-is-registred/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check you can&#39;t register an email already registered</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-you-can-t-register-an-email-already-registered/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-you-can-t-register-an-email-already-registered/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CUD criteria</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/cud-criteria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/cud-criteria/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Click on &amp;ldquo;Add new criteria&amp;rdquo; Add new criteria page is displayed correctly   Fill all information :
+Criterion name : Test
+Application scope of the criterion : Restricted to some category and choose a category
+Active : yes Criteria is saved correctly
+A message is displayed and we are redirected to the main page of the configuration module.</description>
+    </item>
+    
+    <item>
+      <title>Check the &#34;display&#34; button opens the add/edit customer page</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-display-button-opens-the-add-edit-customer-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-display-button-opens-the-add-edit-customer-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check if the unsubscribtion is working in the module configuration</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-if-the-unsubscribtion-is-working-in-the-module-configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-if-the-unsubscribtion-is-working-in-the-module-configuration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delete an approved comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/delete-an-approved-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/delete-an-approved-comment/</guid>
+      <description>Preconditions The module should be installed with the previous version
+A comment should be added and approved
+Steps    Step Description Expected result     In the tab Approved reviews click on delete the comment A popup should be displayed   Validate the suppression of the comment Comment should be deleted   Go to FO to the product with the comment deleted The comment shouldn&amp;rsquo;t be appear anymore    </description>
+    </item>
+    
+    <item>
+      <title>Search an email address</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/search-an-email-address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/search-an-email-address/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the ID in the tab configuration  if the email address is not linked to a customer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-email-address-is-not-linked-to-a-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-email-address-is-not-linked-to-a-customer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the ID in the tab configuration  if the email address is linked to a customer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-email-address-is-linked-to-a-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-email-address-is-linked-to-a-customer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the ID in the tab configuration if the user register as customer and check the box subscribe</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-check-the-box-subscribe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-check-the-box-subscribe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Check the ID in the tab configuration if the user register as customer and uncheck the box subscribe</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-uncheck-the-box-subscribe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailsubscription/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-uncheck-the-box-subscribe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

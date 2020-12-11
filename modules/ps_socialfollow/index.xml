@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ps_socialfollow on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/</link>
+    <description>Recent content in ps_socialfollow on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BO - Uninstall the module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-uninstall-the-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-uninstall-the-module/</guid>
+      <description>Steps Click on uninstall the module
+Expected result The module shouldn&amp;rsquo;t be in the list of install module but in module catalog tab</description>
+    </item>
+    
+    <item>
+      <title>BO - Install the module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-install-the-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-install-the-module/</guid>
+      <description>Preconditions Module should be uninstall first
+Steps Go to Modules -&amp;gt; Module Catalog
+Search ps_socialfollow
+Install ps_socialfollow
+Expected result The configuration button should appear instead of the install one</description>
+    </item>
+    
+    <item>
+      <title>BO - Upgrade the module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-upgrade-the-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-upgrade-the-module/</guid>
+      <description>Preconditions The module should have a new version
+Steps Go to Modules &amp;gt; Modules
+Search ps_socialfollow
+Click on upgrade
+Expected result The module should be upgraded to the last version and the button configure should appear instead of the upgrade one.</description>
+    </item>
+    
+    <item>
+      <title>BO - Add URL to the different social media</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-add-url-to-the-different-social-media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/bo-add-url-to-the-different-social-media/</guid>
+      <description>Preconditions The module ps_socialfollow is install and upgrade to the last version
+Steps Set up all links
+Facebook : https://www.facebook.com/prestashop
+Twitter : https://twitter.com/PrestaShop
+LinkedIn : https://www.linkedin.com/company/prestashop
+Instagram : https://www.instagram.com/prestashop/
+Youtube : https://www.youtube.com/prestashop
+Vimeo : prestashop
+Pinterest : prestashop
+Rss : prestashop
+Save
+Expected result Check that all links are saved</description>
+    </item>
+    
+    <item>
+      <title>FO - Check that all social pictogram is display properly</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/fo-check-that-all-social-pictogram-is-display-properly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/fo-check-that-all-social-pictogram-is-display-properly/</guid>
+      <description>Preconditions Module should be install and configure before
+Steps Check that all pictogram is appear properly in the footer</description>
+    </item>
+    
+    <item>
+      <title>FO - Check that all links are redirecting to the right URL</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/fo-check-that-all-links-are-redirecting-to-the-right-url/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_socialfollow/fo-check-that-all-links-are-redirecting-to-the-right-url/</guid>
+      <description>Preconditions Module should be install and configure before
+Steps Click on facebook and check that the link redirect to the link previously set up
+Click on Twitter and check that the link redirect to the link previously set up
+Click on RSS and check that the link redirect to the link previously set up
+Click on Youtube and check that the link redirect to the link previously set up
+Click on Vimeo and check that the link redirect to the link previously set up</description>
+    </item>
+    
+  </channel>
+</rss>
