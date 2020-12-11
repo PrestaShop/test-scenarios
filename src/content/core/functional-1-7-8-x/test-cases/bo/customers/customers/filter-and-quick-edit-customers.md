@@ -1,0 +1,37 @@
+---
+title: Filter And Quick Edit Customers
+weight: 1
+---
+
+## Preconditions
+
+Having a shop installed locally\
+Go to the BO and connect with an admin account
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to the "Customers > Customers" page | Customers listing is displayed correctly |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Save the numbers of customers in a variable | Number of customers is saved |
+| Filter By id <br>Criteria : '1' | Customers list is filtered<br>Customers listed have "1" in their ID |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Filter By Social title<br>Criteria : "Mrs." | Customers list is filtered<br>No customer is displayed in list |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Filter By First name<br>Criteria : "John" | Customers list is filtered<br>Customers listed have "John" in their First name |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Filter By Last name<br>Criteria : "DOE" | Customers list is filtered<br>Customers listed have "DOE" in their Last name |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Filter By Email<br>Criteria : "pub@prestashop.com" | Customers list is filtered<br>Customers listed have "pub@prestashop.com" in their Email |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Filter By Enabled<br>Criteria : "Yes" | Customers list is filtered<br>Customers listed have "Yes" in their Enabled |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Filter By Newsletter<br>Criteria : "true" | Customers list is filtered<br>Customers listed have "Yes" in their Newsletter |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Filter By Partner Offers<br>Criteria : "Disabled" | Customers list is filtered<br>No customer is displayed in list |
+| Reset all filters | All filters are reset<br>All customers are displayed |
+| Change Enabled to "No" for first Customer | Icone is changed to Not-valid<br>![](index.php?/attachments/get/1) |
+| Change Enabled to "Yes" for first Customer | Icone is changed to valid<br>![](index.php?/attachments/get/2) |
+| Change Newsletter to "No" for first Customer | Icone is changed to Not-valid<br>![](index.php?/attachments/get/1) |
+| Change Newsletter to "Yes" for first Customer | Icone is changed to valid<br>![](index.php?/attachments/get/2) |
+| Change Partner offers to "No" for first Customer | Icone is changed to Not-valid<br>![](index.php?/attachments/get/1) |
+| Change Partner offers to "Yes" for first Customer | Icone is changed to valid<br>![](index.php?/attachments/get/2) |

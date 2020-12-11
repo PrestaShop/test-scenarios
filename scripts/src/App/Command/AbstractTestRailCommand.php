@@ -176,7 +176,6 @@ menuTitle: ' . $suiteName . '
 geekdocFlatSection: true
 ---
 
-{{% children ' . ($withTitle ? 'titlePages="Tests" titleSections="Categories"' : '') . ' %}}
-';
+{{% children ' . ($withTitle ? 'titlePages="Tests" titleSections="Categories" ' : '') . '%}}';
     }
 }
