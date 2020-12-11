@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User account on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/</link>
+    <description>Recent content in User account on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edit informations</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/edit-informations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/edit-informations/</guid>
+      <description>Preconditions Etre sur le FO
+Etre connecté
+Steps Dans le header clicker sur le nom de l&amp;rsquo;utilisateur =&amp;gt; Redirection vers la page account
+Clicker sur le bouton &amp;ldquo;information&amp;rdquo; =&amp;gt; redirection vers le formulaire
+Modifier des informations
+Clicker sur &amp;ldquo;Save&amp;rdquo;
+Expected result Les informations personnelles de l&amp;rsquo;utilisateur ont été modifiées</description>
+    </item>
+    
+    <item>
+      <title>CRUD address</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/crud-address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/crud-address/</guid>
+      <description>Preconditions Etre connecté
+Etre sur le FO
+Steps Dans le header clicker sur le nom de l&amp;rsquo;utilisateur =&amp;gt; redirection de la page &amp;ldquo;account&amp;rdquo; Clicker sur le bouton &amp;ldquo;addresses&amp;rdquo; =&amp;gt; redirection vers la page addresses
+Creer , lire , modifier , supprimer les adresses
+Expected result Le CRUD doit fonctionner correctement</description>
+    </item>
+    
+    <item>
+      <title>Consult order history</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/consult-order-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/consult-order-history/</guid>
+      <description>Preconditions Etre connecté
+Etre sur le FO
+Steps Dans le header clicker sur nom de l&amp;rsquo;utilisateur =&amp;gt; redirection vers la page &amp;ldquo;account&amp;rdquo;
+Clicker sur le bouton &amp;ldquo;Order history and details&amp;rdquo; =&amp;gt; redirection vers l&amp;rsquo;historique des commandes
+Expected result La liste des commandes de l&amp;rsquo;utilisateur est affichée</description>
+    </item>
+    
+    <item>
+      <title>Consult your vouchers</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/consult-your-vouchers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/consult-your-vouchers/</guid>
+      <description>Preconditions Etre sur le FO
+Etre connecté
+Avoir deja passé des commandes et avoir recu des avoirs
+Steps Dans le header clicker sur nom de l&amp;rsquo;utilisateur =&amp;gt; redirection vers la page &amp;ldquo;account&amp;rdquo;
+Clicker sur le bouton &amp;ldquo;Vouchers&amp;rdquo; =&amp;gt; redirection vers l&amp;rsquo;historique des avoirs
+Expected result La liste des avoirs de l&amp;rsquo;utilisateur est affichée</description>
+    </item>
+    
+    <item>
+      <title>Get GDPR Data in PDF</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/get-gdpr-data-in-pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/get-gdpr-data-in-pdf/</guid>
+      <description>Preconditions Etre sur le FO
+Etre connecté
+le module gdpr doit etre installé et activé
+Steps Dans le header clicker sur nom de l&amp;rsquo;utilisateur =&amp;gt; redirection vers la page &amp;ldquo;account&amp;rdquo;
+Clicker sur le bouton &amp;ldquo;GDPR Personnal data&amp;rdquo; =&amp;gt; redirection vers la page GDPR
+Clicker sur le bouton &amp;ldquo;Get my data to pdf&amp;rdquo;
+Expected result Le fichier pdf contenant les données de l&amp;rsquo;utilisateur est téléchargé</description>
+    </item>
+    
+    <item>
+      <title>Get GDPR Data in CSV</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/get-gdpr-data-in-csv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/get-gdpr-data-in-csv/</guid>
+      <description>Preconditions Etre sur le FO
+Etre connecté
+Steps Dans le header clicker sur nom de l&amp;rsquo;utilisateur =&amp;gt; redirection vers la page &amp;ldquo;account&amp;rdquo;
+Clicker sur le bouton &amp;ldquo;GDPR Personnal data&amp;rdquo; =&amp;gt; redirection vers la page GDPR
+Clicker sur le bouton &amp;ldquo;Get my data to csv&amp;rdquo;
+Expected result Le fichier csv contentant les données de l&amp;rsquo;utilisateur est téléchargé</description>
+    </item>
+    
+    <item>
+      <title>Contact us on GDPR page</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/contact-us-on-gdpr-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/contact-us-on-gdpr-page/</guid>
+      <description>Preconditions Etre sur le FO
+Etre connecté
+Etre sur la page GDPR data
+Steps Clicker sur le liens &amp;ldquo;contact page&amp;rdquo;
+Expected result Redirection vers le formulaire de contact avec certains champs qui sont pré remplis</description>
+    </item>
+    
+    <item>
+      <title>Log out</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/log-out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/log-out/</guid>
+      <description>Preconditions Etre sur le FO
+Etre connecté
+Etre sur la page &amp;ldquo;account&amp;rdquo;
+Steps Clické sur le lien &amp;ldquo;sign out&amp;rdquo;
+Expected result L&amp;rsquo;utilisateur est déconnecté et est redirigé vers la page de connexion</description>
+    </item>
+    
+  </channel>
+</rss>

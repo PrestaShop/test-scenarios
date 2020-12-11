@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orders on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/</link>
+    <description>Recent content in Orders on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter table</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/filter-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/filter-table/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by ID Number of orders &amp;lt; Total of orders
+he order id result is equal to the searched ID   Reset all filters Number of orders = Total of orders   Filter orders by Reference Number of orders &amp;lt; Total of orders</description>
+    </item>
+    
+    <item>
+      <title>Sort orders</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/sort-orders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/sort-orders/</guid>
+      <description>Steps Sort OK, even with pagination and filters</description>
+    </item>
+    
+    <item>
+      <title>Preview order</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/preview-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/preview-order/</guid>
+      <description>Steps See :
+Customer
+Delivery Address
+Invoice Address
+Tracking Number
+Product list (if more than 10 products, list is truncated with possibility to expand) : Name, ref, Quantity, Total
+Check if preview still OK after a lot of modifcations</description>
+    </item>
+    
+    <item>
+      <title>Create an order</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/create-an-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/create-an-order/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>View / Edit order</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/view-edit-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/view-edit-order/</guid>
+      <description>Steps click on view link is done in other scenraios</description>
+    </item>
+    
+    <item>
+      <title>View customer</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/view-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/view-customer/</guid>
+      <description>Steps Check customer link on order list
+With registered customer and non registered customer</description>
+    </item>
+    
+    <item>
+      <title>Bulk actions status (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/bulk-actions-status-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/bulk-actions-status-todo/</guid>
+      <description>Preconditions Having a shop installed locally
+Steps    Step Description Expected result     Open the FO The Home page FO is displayed successfully   G to login page and login with the default account login: &amp;ldquo;pub@prestashio.com&amp;rdquo;
+PWD: &amp;ldquo;123456789&amp;rdquo; The customer is logged successfully   Add the first product to the cart There is one product in the cart   Click on &amp;ldquo;Proceed to checkout&amp;rdquo; button The purchase form is displayed correctly   Go to delivery step The delivery step is displayed correctly   Go to the payment step The payment step is displayed correctly   Choose the payment method and confirm the order The confirmation page is displayed correctly   Go to Home page The Home page FO is displayed successfully   Add the first product to the cart There is one product in the cart   Click on &amp;ldquo;Proceed to checkout&amp;rdquo; button The purchase form is displayed correctly   Go to delivery step The delivery step is displayed correctly   Go to the payment step The payment step is displayed correctly   Choose the payment method and confirm the order The confirmation page is displayed correctly   Sign out from FO The customer is disconnected successfully   Go to the BO and connect with an admin account The admin is connected successfully   Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Select the first and second order from list and update statuses with bulk actions to payment accepted The order status is changed successfully    </description>
+    </item>
+    
+    <item>
+      <title>Edit status in order page</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/edit-status-in-order-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/edit-status-in-order-page/</guid>
+      <description>Steps 1	On FO, with the customer account, make an order with Bank Wire Payment.
+2	On BO, access Order Page.
+3	Hover the status&#39; label with the cursor.
+4	Click on the label.
+5	Select the &amp;ldquo;Payment accepted&amp;rdquo; status.
+6	Check the customer&amp;rsquo;s email account.
+7	On FO, check the &amp;ldquo;Order History&amp;rdquo; of the customer.
+8	Check the invoice.
+9	On the order, select the &amp;ldquo;Shipped&amp;rdquo; status.
+10	Check the delivery slip.</description>
+    </item>
+    
+    <item>
+      <title>Statistics of the page</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/statistics-of-the-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/statistics-of-the-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/pagination/</guid>
+      <description>Steps Check pagination appears only when minimum number of orders is reached
+Changing page is OK
+Changing number of displayed orders per page is OK
+Pagination still works with filters</description>
+    </item>
+    
+    <item>
+      <title>Change order with dropdown - Awaiting for payment to Payment Accepted</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted/</guid>
+      <description>Steps from https://prestashopqa.testrail.io/index.php?/cases/edit/118&amp;amp;group_by=cases:section_id&amp;amp;group_order=asc&amp;amp;group_id=63</description>
+    </item>
+    
+    <item>
+      <title>Change order with dropdown - Payment Accepted  to Shipped</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/change-order-with-dropdown-payment-accepted-to-shipped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/change-order-with-dropdown-payment-accepted-to-shipped/</guid>
+      <description>Steps from https://prestashopqa.testrail.io/index.php?/cases/edit/119&amp;amp;group_by=cases:section_id&amp;amp;group_order=asc&amp;amp;group_id=63</description>
+    </item>
+    
+    <item>
+      <title>Export Orders</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/export-orders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/export-orders/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully
+Data is correct    </description>
+    </item>
+    
+    <item>
+      <title>Help card (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/help-card-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/help-card-todo/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully
+The document language is English   Close the help sidebar The help sidebar is closed successfully    </description>
+    </item>
+    
+  </channel>
+</rss>

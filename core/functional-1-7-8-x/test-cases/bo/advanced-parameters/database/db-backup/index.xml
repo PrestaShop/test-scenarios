@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Db Backup on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/</link>
+    <description>Recent content in Db Backup on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create, Download and Delete Db Backup</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/create-download-and-delete-db-backup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/create-download-and-delete-db-backup/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to database &amp;gt; sql manager page title contains &amp;lsquo;SQL Manager&amp;rsquo;   go to db backup page title contains &amp;lsquo;DB Backup&amp;rsquo;   get number of db backups number of backups = 0   generate new db backup Successful message is displayed
+number of backups = 1   get name of backup generated and Download it (by clicking on it) File with correct name exist in your download directory   delete backup from table (with drop down button) successful message is displayed</description>
+    </item>
+    
+    <item>
+      <title>Bulk Delete Db Backups</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/bulk-delete-db-backups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/bulk-delete-db-backups/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to database &amp;gt; sql manager page title contains &amp;lsquo;SQL Manager&amp;rsquo;   go to db backup page title contains &amp;lsquo;DB Backup&amp;rsquo;   get number of db backups number of backups = 0   generate new db backup Successful message is displayed
+number of backups = 1   generate new db backup Successful message is displayed</description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/pagination/</guid>
+      <description>Preconditions Etre sur le BO
+Avoir suffisament de backup pour activer la pagination
+Steps Tester la pagination
+Expected result la pagination doit fonctionner correctement</description>
+    </item>
+    
+    <item>
+      <title>Backup options</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/backup-options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/backup-options/</guid>
+      <description>Preconditions Etre sur le Bo
+Etre sur la page &amp;ldquo;Advanced parameters =&amp;gt; database =&amp;gt; dbbackup&amp;rdquo;
+Steps faire un backup et le consulter modifier les options de backup et faire un noveau backup
+consulter le nouveau backup
+Expected result les deux backup doivent etre différents en fonction des options</description>
+    </item>
+    
+    <item>
+      <title>Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/help-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/database/db-backup/help-card/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

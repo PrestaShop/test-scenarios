@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Profiles on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/</link>
+    <description>Recent content in Profiles on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter Profiles</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/filter-profiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/filter-profiles/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles after reset = Total of profiles   Filter by id_profile
+value &amp;ldquo;4&amp;rdquo; Number of profiles &amp;lt; Total of profiles
+all rows column &amp;lsquo;id_profile&amp;rsquo; contains &amp;lsquo;4&amp;rsquo;   reset filter Total of profiles after reset = Total of profiles   Filter by name</description>
+    </item>
+    
+    <item>
+      <title>CRUD Profile</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/crud-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/crud-profile/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles &amp;gt; 0   go to add new profile title contains &amp;lsquo;Add new&amp;rsquo;   create profile
+Criteria :
+name: faker.name.jobType() from faker Successful message is displayed
+Number of profiles = Total of profiles + 1   Filter list by new name Number of profiles &amp;lt; Total of profiles + 1</description>
+    </item>
+    
+    <item>
+      <title>Profiles Bulk Actions (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/profiles-bulk-actions-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/profiles-bulk-actions-todo/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles &amp;gt; 0        </description>
+    </item>
+    
+    <item>
+      <title>Sort pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/sort-pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/sort-pagination/</guid>
+      <description>Steps Check pagination appears only when minimum number of profiles is reached
+Changing page is OK
+Changing number of displayed profiles per page is OK
+Pagination still works with filters</description>
+    </item>
+    
+    <item>
+      <title>Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/help-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/team/profiles/help-card/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

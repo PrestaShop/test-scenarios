@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customers on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/</link>
+    <description>Recent content in Customers on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable, disable redisplay cart at login</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/enable-disable-redisplay-cart-at-login/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/enable-disable-redisplay-cart-at-login/</guid>
+      <description>Preconditions prestashop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   enable re-display cart at login Successful message is displayed   Go to FO Login with customer account
+Add product to cart and go to checkout page log out nothing is displayed in cart   Login with customer account Product added to cart is displayed in cart   Go back to BO and disable re-display cart at login Successful message is displayed    </description>
+    </item>
+    
+    <item>
+      <title>enable, disable send email after registration</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/enable-disable-send-email-after-registration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/enable-disable-send-email-after-registration/</guid>
+      <description>Preconditions prestashop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   disable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to &amp;lsquo;Advanced parameters &amp;gt; E-mail&amp;rsquo; page email is not present in list   go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   enable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to &amp;lsquo;Advanced parameters &amp;gt; E-mail&amp;rsquo; page email is present in list   delete customers created from BO Customers were deleted    </description>
+    </item>
+    
+    <item>
+      <title>Password reset delay</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/password-reset-delay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/password-reset-delay/</guid>
+      <description>Preconditions Avoir un compte client existant en FO
+Ne pas etre connecté en FO
+Avoir parametrer les emails
+Steps En BO paramétrer le délai de reset de password à 5 minutes
+En FO tenter de se connecter et faire une demande de reset password
+Reset le password
+Refaire une demande de reset moins de 5 minutes après ( demande rejetée )
+Refaire une demande de reset plus de 5 minutes après la première ( demande acceptée )</description>
+    </item>
+    
+    <item>
+      <title>Enable B2B mode (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/enable-b2b-mode-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/enable-b2b-mode-todo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ask for birth date (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/ask-for-birth-date-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/ask-for-birth-date-todo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enable partner offers (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/enable-partner-offers-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/customer-setting/customers/enable-partner-offers-todo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

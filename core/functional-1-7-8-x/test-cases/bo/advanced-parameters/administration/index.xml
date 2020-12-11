@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Administration on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/administration/</link>
+    <description>Recent content in Administration on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/administration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/administration/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/administration/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upload quota</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/administration/upload-quota/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/administration/upload-quota/</guid>
+      <description>Steps Change all upload quota to 1MB
+Go to a virtual product, try to add an image with size superior to 1MB as :
+ Product&amp;rsquo;s image (&amp;ldquo;Basic settings&amp;rdquo; tab) Downloadable file (&amp;ldquo;Virtual product&amp;rdquo; tab) Attached file (&amp;ldquo;Options&amp;rdquo; tab)
+It should not work and display an error message
+Go to Catalog &amp;gt; Files &amp;gt; Add new file
+Add a file with size superior to 1MB, it should not work.
+Change all upload quota to 8MB, and try all steps with a file with size inferior to 8MB, it should work.</description>
+    </item>
+    
+    <item>
+      <title>Notifications</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/administration/notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/administration/notifications/</guid>
+      <description>Steps Disable, one by one, each three notifications
+For each, go to FO and make the corresponding action (send a customer message, make an order, create a customer account
+Check that notifications are displayed
+ Enable, one by one, each three notifications
+For each, go to FO and make the corresponding action (send a customer message, make an order, create a customer account
+Check that notifications are displayed
+Warning : Do this one by one and not all at the same time  </description>
+    </item>
+    
+  </channel>
+</rss>

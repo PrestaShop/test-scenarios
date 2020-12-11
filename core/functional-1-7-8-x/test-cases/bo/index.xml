@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BO on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/</link>
+    <description>Recent content in BO on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Left Menu</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/left-menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/left-menu/</guid>
+      <description>Preconditions Login to BO
+Steps    Step Description Expected result     Check every item on the menu All children items are displayed (when applicable)
+All links work as expected   Close the menu The animation is smooth
+The menu is now a thinner vertical blue band with a few icons   Check every item on the menu All children items are displayed on a separate block on the right (when applicable)</description>
+    </item>
+    
+    <item>
+      <title>Quick access</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/quick-access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/quick-access/</guid>
+      <description>Preconditions Login to BO
+Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list
+Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed
+Option to remove this page is removed in the Quick Access menu   Refresh the page
+Open the Quick Access menu Link is now absent in the list   Click on &amp;ldquo;Add current page to Quick Access&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Search bar</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/search-bar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/search-bar/</guid>
+      <description>Preconditions Login to BO
+Steps    Step Description Expected result     Search for &amp;ldquo;orders&amp;rdquo; Results from &amp;ldquo;modules&amp;rdquo; and &amp;ldquo;addons&amp;rdquo; are displayed   Search for &amp;ldquo;John Doe&amp;rdquo; The customer &amp;ldquo;John Doe&amp;rdquo; is listed    </description>
+    </item>
+    
+    <item>
+      <title>Debug mode</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/debug-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/debug-mode/</guid>
+      <description>Preconditions Login to BO
+Shop MUST BE in debug mode
+Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory (src/PrestaShopBundle/Controller/Admin/Sell/Order/) and edit the file &amp;ldquo;OrderController.php&amp;rdquo;.
+Change the value of the $orderKpiFactory variable.</description>
+    </item>
+    
+    <item>
+      <title>Maintenance mode</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/maintenance-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/maintenance-mode/</guid>
+      <description>Preconditions Login to BO
+Steps    Step Description Expected result     Go to &amp;ldquo;Shop Parameters &amp;gt; General &amp;gt; Maintenance&amp;rdquo; tab The maintenance page is displayed   Edit the maintenance text for all languages and activate the maintenance mode
+Click on &amp;ldquo;Save&amp;rdquo; Settings are saved
+A new message &amp;ldquo;Maintenance mode&amp;rdquo; is displayed at the top of the page   Click on &amp;ldquo;View my shop&amp;rdquo; Maintenance mode message is displayed   Change the language in the URL and chack for every language the maintenance message is set up for Maintenance mode message is displayed correctly   In the BO, add the tester IP by clicking on the &amp;ldquo;Add my IP&amp;rdquo; button then clicking &amp;ldquo;Save&amp;rdquo; Settings are saved   Refresh the FO The shop is displayed without maintenance message   In the BO, disable the maintenance mode</description>
+    </item>
+    
+    <item>
+      <title>View my shop</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/view-my-shop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/view-my-shop/</guid>
+      <description>Preconditions Login to BO
+Steps    Step Description Expected result     Click on &amp;ldquo;View my shop&amp;rdquo; FO is displayed    </description>
+    </item>
+    
+    <item>
+      <title>Notifications</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/notifications/</guid>
+      <description>Preconditions Having a customer account with orders attached
+Login to BO
+Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO
+Login as a customer
+Go to the order list
+Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO</description>
+    </item>
+    
+    <item>
+      <title>Gamification module</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/gamification-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/gamification-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Profile</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/my-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/my-profile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contextual help</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/contextual-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/contextual-help/</guid>
+      <description>Steps    Step Description Expected result     Open on several migrated and non migrated page the &amp;ldquo;Help&amp;rdquo; panel The help for the page is displayed on a side popin    </description>
+    </item>
+    
+    <item>
+      <title>Recommended modules for the page</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/recommended-modules-for-the-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/recommended-modules-for-the-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onboarding</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/onboarding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/onboarding/</guid>
+      <description>Steps    Step Description Expected result     Check that OnBoarding popup is displayed after first login    Click on &amp;ldquo;Later&amp;rdquo; Popup is closed, but a reminder is displayed on bottom left of the menu   Resume the onboarding Popup is re-opened   Follow the steps of the onboarding All steps are OK    </description>
+    </item>
+    
+    <item>
+      <title>Autoupgrade from 1.7.7.x</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/autoupgrade-from-1-7-7-x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/autoupgrade-from-1-7-7-x/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stocks on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/</link>
+    <description>Recent content in Stocks on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>simple Filter Stocks</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/simple-filter-stocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/simple-filter-stocks/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to Catalog stocks Page Page title contains : stocks *
+number of element in grid &amp;gt; 0   filter by name Criteria : &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo; number of element in grid after filter &amp;lt; total of element in grid
+all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo;   reset filter number of element in grid after reset = total of element in grid   filter by reference Criteria : demo_1 number of element in grid after filter &amp;lt; total of element in grid</description>
+    </item>
+    
+    <item>
+      <title>Sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/sort-and-pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/sort-and-pagination/</guid>
+      <description>Steps Sort still works with pagination
+Pagination buttons (next/previous), number of displayed lines, etc&amp;hellip; are shown and work.</description>
+    </item>
+    
+    <item>
+      <title>Update Quantity by setting input</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/update-quantity-by-setting-input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/update-quantity-by-setting-input/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to catalog Stocks Title contains &amp;lsquo;Stocks *&#39;
+Number of element in grid &amp;gt; 0   Filter by name
+Criteria : &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo; Number of element in grid &amp;lt; Total of elements in grid
+First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   Add Quantity by setting input value</description>
+    </item>
+    
+    <item>
+      <title>Bulk Edit Quantity With Input</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/bulk-edit-quantity-with-input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/bulk-edit-quantity-with-input/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to catalog Stocks Title contains &amp;lsquo;Stocks *&#39;
+Number of element in grid &amp;gt; 0   Filter by name
+Criteria : &amp;lsquo;Mountain fox notebook&amp;rsquo; Number of element in grid &amp;lt; Total of elements in grid
+In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 100 in bulk input quantity and click on apply new quantities Successful message : Stock successfully updated</description>
+    </item>
+    
+    <item>
+      <title>Filter Stocks By Status</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/filter-stocks-by-status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/filter-stocks-by-status/</guid>
+      <description>Preconditions Prestashop preinstalled
+Login with admin BO account
+Steps    Step Description Expected result     Go to products page page title contains &amp;lsquo;Products&amp;rsquo;   Reset filters total of products &amp;gt; 0   Create disabled product Product created   Go to stocks page Page title contains &amp;lsquo;Stocks&amp;rsquo;   Filter by status = disabled New product created is displayed in list   Go back to products page and delete product Product successfully deleted    </description>
+    </item>
+    
+    <item>
+      <title>Display products below low stocks level first</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/display-products-below-low-stocks-level-first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/display-products-below-low-stocks-level-first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>filter stocks by categories</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/filter-stocks-by-categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/filter-stocks-by-categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/help-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/stocks/help-card/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

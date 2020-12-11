@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/</link>
+    <description>Recent content in Contacts on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter Contacts</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/filter-contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/filter-contacts/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters&amp;gt;Contact&amp;rsquo; page title contains &amp;lsquo;Contacts&amp;rsquo;   reset filter Total of contacts &amp;gt; 0   filter by &amp;lsquo;id_contact&amp;rsquo; &amp;lsquo;2&amp;rsquo; Number of contacts &amp;lt; total of contacts
+all rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   reset filter Number of contacts after reset = total of contacts   filter by &amp;lsquo;name&amp;rsquo; &amp;lsquo;Customer service&amp;rsquo; Number of contacts &amp;lt; total of contacts</description>
+    </item>
+    
+    <item>
+      <title>CRUD Contact</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/crud-contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/crud-contact/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contact&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   go to add new contact page page title contains &amp;lsquo;Add new&amp;rsquo;   Create contact
+(faker data) Successful message is displayed</description>
+    </item>
+    
+    <item>
+      <title>Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/bulk-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/bulk-actions/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contacts&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   Create 2 contacts Number of contacts after creation = total of contacts + 2   filter list by title 2 contacts in list are displayed   delete contacts by bulk actions successful message is displayed   reset filter Number of contacts after deletion = total of contacts    </description>
+    </item>
+    
+    <item>
+      <title>Sort Contacts</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/sort-contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shop-parameters/contact/contacts/sort-contacts/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contacts&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   Sort By id_contact desc list is sorted by id_contact desc
+(3 -&amp;gt; 2 -&amp;gt; 1)   Sort By name asc list is sorted by name asc</description>
+    </item>
+    
+  </channel>
+</rss>

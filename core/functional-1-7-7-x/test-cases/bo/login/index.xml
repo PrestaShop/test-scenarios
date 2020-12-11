@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Login on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/login/</link>
+    <description>Recent content in Login on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/login/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Login in the BO</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/login/login-in-the-bo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/login/login-in-the-bo/</guid>
+      <description>Preconditions Having a working account
+Steps    Step Description Expected result     Enter invalid credentials
+Click on &amp;ldquo;log in&amp;rdquo; Error message is displayed   Enter valid credentials
+Click on &amp;ldquo;log in&amp;rdquo; Redirected to BO dashvoard    </description>
+    </item>
+    
+    <item>
+      <title>Password reminder</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/login/password-reminder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/login/password-reminder/</guid>
+      <description>Preconditions Having a working account
+login page
+Steps    Step Description Expected result     Click on &amp;ldquo;forgot my password&amp;rdquo; link Redirected to reminder page   Enter existing account email address The email field is not empty anymore   Click on &amp;ldquo;send reset link&amp;rdquo; a confirmation message is displayed   Chek in mail box the mail is arrived   click on the link in the mail box redirected to reset password page   Set and confirm a new password Confirmation message is displayed then redirection to login page   try to login with the old login is refused   Try to login with new password login is accepted    </description>
+    </item>
+    
+    <item>
+      <title>Logout from the BO</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/login/logout-from-the-bo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/login/logout-from-the-bo/</guid>
+      <description>Preconditions Being on the BO
+Being logged
+Steps Click on the profile button
+In the dropdown , click on the logout link
+Expected result Logged out and redirected to the login page</description>
+    </item>
+    
+  </channel>
+</rss>

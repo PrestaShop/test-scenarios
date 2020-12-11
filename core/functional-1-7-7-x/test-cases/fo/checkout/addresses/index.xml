@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Addresses on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/</link>
+    <description>Recent content in Addresses on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add an address as a guest</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/add-an-address-as-a-guest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/add-an-address-as-a-guest/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Ne pas être connecté
+Steps CLiquer sur &amp;ldquo;proceed to checkout&amp;rdquo;
+Remplir le premier formulaire (information) sans remplir le mot de passe
+Cliquer sur continue
+Remplir le second formulaire (adresse)
+décocher &amp;quot; utiliser cette adresse pour la facture
+Cliquer sur continue
+Cliquer sur &amp;ldquo;Add an addresse&amp;rdquo;
+Expected result Un second formulaire d&amp;rsquo;adresse est affiché</description>
+    </item>
+    
+    <item>
+      <title>Use other address for invoice as a guest</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/use-other-address-for-invoice-as-a-guest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/use-other-address-for-invoice-as-a-guest/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Ne pas être connecté
+Steps CLiquer sur &amp;ldquo;proceed to checkout&amp;rdquo;
+Remplir le premier formulaire (information) sans remplir le mot de passe
+Cliquer sur continue
+Remplir le second formulaire (adresse)
+décocher &amp;quot; utiliser cette adresse pour la facture
+Cliquer sur continue
+Cliquer sur &amp;ldquo;Add an addresse&amp;rdquo;
+Creer une nouvelle adresse
+Cliquer sur &amp;ldquo;continue&amp;rdquo;
+Expected result Une seconde adresse est créer pour la facture</description>
+    </item>
+    
+    <item>
+      <title>Select an address</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/select-an-address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/select-an-address/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Etre connecté
+Avoir plusieurs adresse enregistrées
+Steps Cliquer sur &amp;ldquo;proceed to checkout&amp;rdquo;
+Sélectionner une adresse
+Expected result L&amp;rsquo;adresse est selectionnée</description>
+    </item>
+    
+    <item>
+      <title>CRUD address</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/crud-address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/crud-address/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Etre connecté
+Avoir plusieurs adresse enregistrées
+Steps Cliquer sur &amp;ldquo;proceed to checkout&amp;rdquo;
+Creer une nouvelle adresse
+Modifier une adresse existante
+Supprimer une adresse existante
+Lire les adresses existantes
+Expected result Le crud est possible et il n&amp;rsquo;y a pas d&amp;rsquo;erreur</description>
+    </item>
+    
+    <item>
+      <title>Billing address when logged in</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/billing-address-when-logged-in/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/addresses/billing-address-when-logged-in/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Etre connecté
+Avoir plusieurs adresse enregistrées
+Steps Cliquer sur &amp;ldquo;Proceed to checkout&amp;rdquo;
+Selectionner une adresse de livraison
+Cliquer sur le lien &amp;ldquo;Billing adress differs from shipping adress
+Expected result Il est maintenant possible de sélectioner une autre adresse pour la facture</description>
+    </item>
+    
+  </channel>
+</rss>

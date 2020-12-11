@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Order Messages on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/customer-service/order-messages/</link>
+    <description>Recent content in Order Messages on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/customer-service/order-messages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CRUD Order Message</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/customer-service/order-messages/crud-order-message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/customer-service/order-messages/crud-order-message/</guid>
+      <description>Preconditions PrestaShop installed
+login with BO admin
+Steps    Step Description Expected result     go to order messages page Title of page contains &amp;lsquo;Order Messages •&amp;rsquo;   reset all filters Total of order message &amp;gt; 0   go to new order message page Title of page contains &amp;lsquo;Add new&amp;rsquo;   create order message
+Criteria : name : lorem.word from faker
+frName : same as name</description>
+    </item>
+    
+    <item>
+      <title>Filter And Bulk Delete Order Messages</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/customer-service/order-messages/filter-and-bulk-delete-order-messages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/customer-service/order-messages/filter-and-bulk-delete-order-messages/</guid>
+      <description>Preconditions PrestaShop installed
+Login into BO with admin account
+Steps    Step Description Expected result     go to order messages page Title contains &amp;lsquo;Order Messages •&amp;rsquo;   reset all filters Total of orders messages &amp;gt; 0   Go to create new order message page Title contains &amp;lsquo;Add new&amp;rsquo;   Create new order message Criteria : {name: &amp;lsquo;todelete&amp;rsquo;} Successful message is displayed
+number of order messages = Total of orders messages + 1   Go to create new order message page Title contains &amp;lsquo;Add new&amp;rsquo;   Create new order message Criteria : {name: &amp;lsquo;todelete2&amp;rsquo;} Successful message is displayed</description>
+    </item>
+    
+    <item>
+      <title>pagination and sort</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/customer-service/order-messages/pagination-and-sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/customer-service/order-messages/pagination-and-sort/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

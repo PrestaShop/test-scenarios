@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/</link>
+    <description>Recent content in Categories on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter And Quick Edit Categories</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/filter-and-quick-edit-categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/filter-and-quick-edit-categories/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog &amp;gt; Categories&amp;rdquo; page Categories listing is displayed correctly   Reset all filters All filters are reset
+All categories are displayed   Save the number of categories in a variable Number of categories is saved   Filter By id</description>
+    </item>
+    
+    <item>
+      <title>CRUD Categories And Subcategories</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/crud-categories-and-subcategories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/crud-categories-and-subcategories/</guid>
+      <description>Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog &amp;gt; Categories&amp;rdquo; page The Categories page is displayed correctly   Reset all filters All filters are reset
+All Categories are displayed   Click on &amp;ldquo;Add new category&amp;rdquo; New Category Page is displayed correctly
+Page title contains &amp;ldquo;Add new&amp;rdquo;   Fill all information :
+Name : Random
+Displayed : Yes
+Parent category : Random Description : Random</description>
+    </item>
+    
+    <item>
+      <title>Edit home category</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/edit-home-category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/edit-home-category/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog &amp;gt; Categories&amp;rdquo; page Categories listing is displayed correctly   Go to edit home category page Form Edit home Category is displayed correctly
+Page Title contains &amp;ldquo;Edit: Home&amp;rdquo;   Edit category with other fake values :
+Name : Home</description>
+    </item>
+    
+    <item>
+      <title>Change position of categories</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/change-position-of-categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/change-position-of-categories/</guid>
+      <description>Preconditions Prestashop installed
+login with admin BO account
+Steps    Step Description Expected result     go to categories page Page title contains &amp;lsquo;Categories&amp;rsquo;   reset all filters Number of categories &amp;gt; 0   sort categories by position successful update message is displayed   drag category position 1 (first in table) and drop it in position 2 Category&amp;rsquo;s position is changed (position = 2)   Reset categories position (drag category position 2 and drop it in position 1) Category&amp;rsquo;s position is changed (position = 1)    </description>
+    </item>
+    
+    <item>
+      <title>Categories Bulk Actions In BO</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/categories-bulk-actions-in-bo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/categories-bulk-actions-in-bo/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog&amp;gt;Categories&amp;rdquo; page The categories page is displayed correctly   Click on &amp;ldquo;Add new category&amp;rdquo; New Category Page is displayed correctly
+Page title contains &amp;ldquo;Add new&amp;rdquo;   Fill all information :
+Name : FirstToDelete
+Displayed : Yes
+Parent category : Random</description>
+    </item>
+    
+    <item>
+      <title>Sort categories</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/sort-categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/sort-categories/</guid>
+      <description>Preconditions Prestashop installed
+login with admin BO account
+Steps    Step Description Expected result     go to categories page Page title contains &amp;lsquo;Categories&amp;rsquo;   reset all filters Number of categories &amp;gt; 0   sort categories by position desc successful update message is displayed
+categories are sorted by postion (3 -&amp;gt; 2 -&amp;gt; 1)   sort categories by id_category Asc successful update message is displayed</description>
+    </item>
+    
+    <item>
+      <title>Help card  (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/help-card-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/help-card-todo/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to the &amp;ldquo;catalog &amp;gt; Categories&amp;rdquo; page Categories listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully
+The document language is English   Close the help sidebar The help sidebar is closed successfully    </description>
+    </item>
+    
+    <item>
+      <title>Export categories (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/export-categories-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/categories/export-categories-todo/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog &amp;gt; Categories&amp;rdquo; page Categories listing is displayed correctly   Export categories to csv file The file is downloaded successfully
+Data is correct    </description>
+    </item>
+    
+  </channel>
+</rss>

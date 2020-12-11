@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Files on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/files/</link>
+    <description>Recent content in Files on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/files/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CRUD File</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/files/crud-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/files/crud-file/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Generate 2 test files
+Steps    Step Description Expected result     go to files page Title contains &amp;lsquo;Files&amp;rsquo;   Go to new file Title contains &amp;lsquo;Add new file&amp;rsquo;   Create file Criteria : name: system.fileName from faker
+frName: same as name
+description: lorem.sentence from faker
+frDescription: same as description
+filename: name + &amp;lsquo;.text&amp;rsquo; successful message is displayed   View file File should be downloaded</description>
+    </item>
+    
+    <item>
+      <title>File Bulk Actions</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/files/file-bulk-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/files/file-bulk-actions/</guid>
+      <description>Preconditions PresraShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Catalog &amp;gt; Files&amp;rsquo; page Title contains &amp;lsquo;Files&amp;rsquo;   reset filters Total of files &amp;gt;= 0   go to add new file page Title contains &amp;lsquo;Add new file&amp;rsquo;   create file
+(data from faker) successful message is displayed
+number of files = total of files + 1   go to add new file page Title contains &amp;lsquo;Add new file&amp;rsquo;   create file</description>
+    </item>
+    
+    <item>
+      <title>Filter and sort files</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/files/filter-and-sort-files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/files/filter-and-sort-files/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

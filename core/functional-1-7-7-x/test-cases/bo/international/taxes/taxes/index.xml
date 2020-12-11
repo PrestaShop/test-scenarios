@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taxes on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/</link>
+    <description>Recent content in Taxes on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter And Quick Edit Taxes</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/filter-and-quick-edit-taxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/filter-and-quick-edit-taxes/</guid>
+      <description>Preconditions Prestashop installed
+Steps    Step Description Expected result     Go to BO Login page is displayed   Sign in to Bo Dashboard page is displayed   Go to International -&amp;gt; Taxes Page Taxes Page is displayed   Reset filter and get number of taxes in BO Number of taxes is above 0   Filter by id
+Criteria : 1 First element in grid has id=1</description>
+    </item>
+    
+    <item>
+      <title>CRUD Taxes In BO</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/crud-taxes-in-bo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/crud-taxes-in-bo/</guid>
+      <description>Steps    Step Description Expected result     Go to BO Login page is displayed   Sign in to Bo Dashboard page is displayed   Go to International -&amp;gt; Taxes Page Taxes Page is displayed   Go to add new Tax Page Add new Tax page is displayed   Fill all information and click on save
+Criteria Rate : Random integer between 1 and 100</description>
+    </item>
+    
+    <item>
+      <title>Taxes Bulk Actions In BO</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/taxes-bulk-actions-in-bo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/taxes-bulk-actions-in-bo/</guid>
+      <description>Steps    Step Description Expected result     Go to BO Login page is displayed   Sign in to Bo Dashboard page is displayed   Go to International -&amp;gt; Taxes Page Taxes Page is displayed   Reset filter and get number of taxes in BO Number of taxes is above 0   Go to add new Tax Page (create first tax) Add new Tax page is displayed   Fill all information and click on save</description>
+    </item>
+    
+    <item>
+      <title>Tax Options Form</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/tax-options-form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/tax-options-form/</guid>
+      <description>Steps    Step Description Expected result     Go to BO Login Page is displayed   Sign in Dashboard Page is displayed   Change Tax Options to :
+enabled: true,
+displayInShoppingCart: false,
+basedOn: &amp;lsquo;Delivery address&amp;rsquo;,
+useEcoTax: true, Update Successful
+Message is displayed   Change Tax Options to :
+enabled: true,
+displayInShoppingCart: false,
+basedOn: &amp;lsquo;Delivery address&amp;rsquo;,
+useEcoTax: true,
+ecoTax: &amp;lsquo;EU VAT For Virtual Products&amp;rsquo;, Update Successful</description>
+    </item>
+    
+    <item>
+      <title>Sort</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/sort/</guid>
+      <description>Preconditions prestashop installed
+login with admin BO account
+Steps    Step Description Expected result     Go to taxes page Page title contains &amp;lsquo;Taxes&amp;rsquo;   Sort by id_tax desc list is sorted by id_tax desc
+(3 -&amp;gt; 2 -&amp;gt; 1)   Sort by name asc list is sorted by name asc
+(a -&amp;gt; b -&amp;gt; c)   Sort by name desc list is sorted by name desc</description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/taxes/taxes/pagination/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

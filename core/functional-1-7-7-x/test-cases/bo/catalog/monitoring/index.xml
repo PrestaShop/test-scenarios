@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/</link>
+    <description>Recent content in Monitoring on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delete Empty Category</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/delete-empty-category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/delete-empty-category/</guid>
+      <description>Preconditions Having a shop installed locally
+Go to the BO and connect with an admin account
+Steps    Step Description Expected result     go to catalog &amp;gt; categories page Page title contains &amp;lsquo;Categories&amp;rsquo;   reset all filters Number of categories &amp;gt; 0   go to add new category page Page title contains &amp;lsquo;Add new&amp;rsquo;   create new category Successful message is displayed</description>
+    </item>
+    
+    <item>
+      <title>Monitoring products</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/monitoring-products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/monitoring-products/</guid>
+      <description>Preconditions without image / disabled / without combinations and without available quantities / with combinations and without available quantities / without price / without description
+Prestashop installed
+login with admin BO account
+Steps    Step Description Expected result     go to catalog &amp;gt; products page Page title contains &amp;lsquo;Products&amp;rsquo;   reset all filters Total of products &amp;gt; 0   Create product without image Successful message is displayed   go to catalog &amp;gt; monitoring page Page title contains &amp;lsquo;Monitoring&amp;rsquo;   Filter grid &amp;lsquo;Product without image&amp;rsquo; by the name of product created product is displayed in grid &amp;lsquo;Product without image&amp;rsquo;   delete product from grid &amp;lsquo;Product without image&amp;rsquo; redirection to products page</description>
+    </item>
+    
+    <item>
+      <title>Sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/sort-and-pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/sort-and-pagination/</guid>
+      <description>Preconditions Etre sur le BO
+Avoir suffisamment de données pour que les tables soient remplies
+empty category
+products with combinations but without available quantities
+products without combinations and without available quantities
+disabled products
+products without image
+products without description
+products without price
+Steps    Step Description Expected result     go to &amp;lsquo;catalog &amp;gt; monitoring&amp;rsquo; page Title page contains &amp;lsquo;Monitoring •&amp;rsquo;   Sort list of empty category by :</description>
+    </item>
+    
+    <item>
+      <title>Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/help-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/monitoring/help-card/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

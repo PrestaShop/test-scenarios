@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Products on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/</link>
+    <description>Recent content in Products on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter And Quick Edit Products</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/filter-and-quick-edit-products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/filter-and-quick-edit-products/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin account
+Steps    Step Description Expected result     go to &amp;ldquo;Catalog&amp;gt;products&amp;rdquo; page Title page contains &amp;lsquo;Products •&amp;rsquo;   reset all filters and get number of products Total of products &amp;gt; 0   Filter product by product id Criteria : Min &amp;lsquo;1&amp;rsquo; Max: &amp;lsquo;3&amp;rsquo; Number of products &amp;lt; Total of products
+All products id are between 1 and 3   reset filters Number of products = Total of products   Filter product by product name</description>
+    </item>
+    
+    <item>
+      <title>Sort and pagination Products</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/sort-and-pagination-products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/sort-and-pagination-products/</guid>
+      <description>Preconditions Prestashop preinstalled
+Login with admin BO account
+Steps    Step Description Expected result     Go to products page Page title contains &amp;lsquo;Products&amp;rsquo;   Sort by id_product desc table is sorted by id_product desc (3 -&amp;gt; 2 -&amp;gt; 1)   Sort by name asc table is sorted by name asc (a -&amp;gt; b -&amp;gt; c)   Sort by name desc table is sorted by name desc (c -&amp;gt; b -&amp;gt; a)   Sort by reference asc table is sorted by reference asc (a -&amp;gt; b -&amp;gt; c)   Sort by reference desc table is sorted by reference desc (c -&amp;gt; b -&amp;gt; a)   Sort by name_category asc table is sorted by name_category asc (a -&amp;gt; b -&amp;gt; c)   Sort by name_category desc table is sorted by name_category asc (c -&amp;gt; b -&amp;gt; a)   Sort by price asc table is sorted by price asc (1 -&amp;gt; 2 -&amp;gt; 3)   Sort by price desc table is sorted by price desc (3 -&amp;gt; 2 -&amp;gt; 1)   Sort by sav_quantity asc table is sorted by sav_quantity desc (1 -&amp;gt; 2 -&amp;gt; 3)   Sort by sav_quantity asc table is sorted by sav_quantity desc (3 -&amp;gt; 2 -&amp;gt; 1)   Sort by id_product asc table is sorted by id_product desc (1 -&amp;gt; 2 -&amp;gt; 3)    </description>
+    </item>
+    
+    <item>
+      <title>Add Standard Product</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/add-standard-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/add-standard-product/</guid>
+      <description>Preconditions Etre sur le BO
+Etre connecté
+Steps Créer un produit standard en remplissant le plus de champs possible ( images , prix , quantité )
+Expected result le produit doit être créer sans erreur et doit être visible en FO les informations doivent être correctes</description>
+    </item>
+    
+    <item>
+      <title>Add Pack Product</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/add-pack-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/add-pack-product/</guid>
+      <description>Preconditions Etre sur le BO
+Avoir plusieurs produits existant
+Steps Créer un pack de produit en remplissant le plus de champs possible
+Expected result Le pack de produits doit être créé sans soucis , le pack doit être visible en FO et les informations doivent être correctes</description>
+    </item>
+    
+    <item>
+      <title>Add Virtual Product</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/add-virtual-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/add-virtual-product/</guid>
+      <description>Preconditions Etre sur le BO
+Steps Creer un produit virtuel en remplissant le plus de champs possible
+Expected result Le produit est crée sans problème,
+Le produit est visible en FO et toutes les informations sont correctes</description>
+    </item>
+    
+    <item>
+      <title>Edit Product</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/edit-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/edit-product/</guid>
+      <description>Preconditions Etre sur le BO
+Avoir déjà créé des produits
+Steps Sélectionner un produit et éditer certaines de ses valeurs et ensuite sauvegarder
+Expected result Le produit est modifier vérifier en FO que les modifications on bien été prises en compte</description>
+    </item>
+    
+    <item>
+      <title>Preview  Product</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/preview-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/preview-product/</guid>
+      <description>Preconditions Etre sur le BO
+Etre sur la liste des produits
+Steps Sélectionner un produit et tenter de le prévisualiser
+Expected result La prévisualisation fonctionne correctement et les informations du produit sont correctes</description>
+    </item>
+    
+    <item>
+      <title>Duplicate Product</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/duplicate-product/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/duplicate-product/</guid>
+      <description>Preconditions Etre sur le BO
+Etre sur la liste des produits
+Avoir des produits existants
+Steps Sélectionner un produit et le dupliquer
+Expected result Le produit est dupliquer les informations sont identiques ( a part le titre )</description>
+    </item>
+    
+    <item>
+      <title>Delete product from list</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/delete-product-from-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/delete-product-from-list/</guid>
+      <description>Preconditions Etre sur le BO
+Etre sur la liste des produits
+Avoir des produits existants
+Steps Sélectionner un produit dans la liste et le supprimer
+Expected result Le produit est correctement supprimé il n&amp;rsquo;est plus dans la liste il n&amp;rsquo;est plus visible non plus sur le FO</description>
+    </item>
+    
+    <item>
+      <title>Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/bulk-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/bulk-actions/</guid>
+      <description>Preconditions Etre sur le BO
+Etre sur la liste des produits
+Avoir plusieurs produit existant
+Steps Sélectionner plusieurs produits et modifié leur statut ( actif ou non ) en bulk action
+Expected result Les modifications sont prises en compte les produits sélectionnés sont désactivés il ne sont plus visible sur le FO</description>
+    </item>
+    
+    <item>
+      <title>Delete Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/delete-bulk-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/products/delete-bulk-actions/</guid>
+      <description>Preconditions Etre sur le BO
+Etre sur la liste des produits
+Avoir plusieurs produits existant
+(Automatisé dans les sanity)
+Steps Selectionner plusieurs produits dans la liste et les supprimer en bulk action
+Expected result Les produits selectionnés sont supprimés il ne sont plus visible dans la liste et ne sont plus visible sur le FO</description>
+    </item>
+    
+  </channel>
+</rss>

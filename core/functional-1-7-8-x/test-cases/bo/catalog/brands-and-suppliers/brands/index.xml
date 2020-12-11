@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brands on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/</link>
+    <description>Recent content in Brands on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter And Quick Edit Brands</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/filter-and-quick-edit-brands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/filter-and-quick-edit-brands/</guid>
+      <description>Preconditions Prestashop Installed
+Login Into BO
+Go to Brands Page
+Reset All filters And get Number of brands in list
+Having this element in list :
+ demo Brand : { id: &amp;lsquo;1&amp;rsquo;, name: &amp;lsquo;Studio Design&amp;rsquo;, addresses: 1, products: 9, enabled: true}  Steps    Step Description Expected result     Scenario 1 : Filter brands    filter by demo brand id filter is successful number of brands after filter &amp;lt; Total of brands</description>
+    </item>
+    
+    <item>
+      <title>Filter Brand Addresses</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/filter-brand-addresses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/filter-brand-addresses/</guid>
+      <description>Preconditions Prestashop Installed
+Login Into BO
+Go to Brands Page
+Reset All filters And get Number of Addresses in list
+Having this element in list :
+ demo Address: { id: &amp;lsquo;4&amp;rsquo;, brand: &amp;lsquo;Studio Design&amp;rsquo;, firstName: &amp;lsquo;manufacturer&amp;rsquo;, lastName: &amp;lsquo;manufacturer&amp;rsquo;, postalCode: &amp;lsquo;10154&amp;rsquo;, city: &amp;lsquo;New York&amp;rsquo;, country: &amp;lsquo;United States&amp;rsquo;}  Steps    Step Description Expected result     filter by demo Address id filter is successful number of Addresses after filter &amp;lt; Total of brands</description>
+    </item>
+    
+    <item>
+      <title>Sort brands and addresses</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/sort-brands-and-addresses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/sort-brands-and-addresses/</guid>
+      <description>Preconditions Prestashop Installed
+Login Into BO
+Steps    Step Description Expected result     go to brands page page title contains &amp;lsquo;Brands&amp;rsquo;   reset all filters Number of brands &amp;gt; 0   Sort brands by id desc Brands are sorted by id (3 -&amp;gt; 2 -&amp;gt; 1)   Sort brands by name asc Brands are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort brands by name desc Brands are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort brands by id asc Brands are sorted by id (1 -&amp;gt; 2 -&amp;gt; 3)   Sort Addresses by id desc Addresses are sorted by id (3 -&amp;gt; 2 -&amp;gt; 1)   Sort Addresses by brand name asc Addresses are sorted by brand name (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by brand name desc Addresses are sorted by brand name (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by Firstname asc Addresses are sorted by Firstname (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by Firstname desc Addresses are sorted by Firstname (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by lastname asc Addresses are sorted by lastname (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by lastname desc Addresses are sorted by lastname (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by post code asc Addresses are sorted by post code (1 -&amp;gt; 2 -&amp;gt; 3)   Sort Addresses by post code desc Addresses are sorted by post code (3 -&amp;gt; 2 -&amp;gt; 1)   Sort Addresses by city asc Addresses are sorted by city (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by city desc Addresses are sorted by city (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by country asc Addresses are sorted by country (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by country desc Addresses are sorted by country (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by id asc Addresses are sorted by id (1 -&amp;gt; 2 -&amp;gt; 3)    </description>
+    </item>
+    
+    <item>
+      <title>CRUD Brand And Address</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/crud-brand-and-address/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/crud-brand-and-address/</guid>
+      <description>Preconditions Prestashop Installed
+Login Into BO
+Go to Brands Page
+Reset All filters brands and Addresses
+Steps    Step Description Expected result     Scenario 1 : Create Brand    go to new brand Page title of page = Add new •   Create new Brand Criteria : - name : company name from faker - logo : name with no special chars (.</description>
+    </item>
+    
+    <item>
+      <title>Bulk Actions Brands</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/bulk-actions-brands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/bulk-actions-brands/</guid>
+      <description>Preconditions Prestashop Installed
+Login Into BO
+Go to Brands Page
+Reset All filters brands
+Steps    Step Description Expected result     Scenario 1 : Create 2 brands    go to new brand Page title of page = Add new •   Create new Brand Criteria : - name : BrandToDelete
+- logo : name with no special chars (.png)
+- short description : lorem sentence from faker</description>
+    </item>
+    
+    <item>
+      <title>Bulk Actions Brand Addresses</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/bulk-actions-brand-addresses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/bulk-actions-brand-addresses/</guid>
+      <description>Preconditions Prestashop Installed
+Login Into BO
+Go to Brands Page
+Reset All filters Addresses
+Steps    Step Description Expected result     Scenario 1 : Create 2 Addresses    go to new Address Page title of page = Add new Address   Create new Address
+Criteria : brandName : &amp;ndash;
+firstname : AddressToDelete
+lastname : lastname from faker
+address : streetAddress from faker</description>
+    </item>
+    
+    <item>
+      <title>Export brands</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/export-brands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/export-brands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helper card</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/helper-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/catalog/brands-and-suppliers/brands/helper-card/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

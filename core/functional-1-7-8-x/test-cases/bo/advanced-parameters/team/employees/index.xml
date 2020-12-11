@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Employees on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/</link>
+    <description>Recent content in Employees on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter and Quick Edit Employees</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/filter-and-quick-edit-employees/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/filter-and-quick-edit-employees/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team&amp;rsquo; page title contains &amp;lsquo;Employees&amp;rsquo;   reset filter Total of employees &amp;gt; 0   go to add new employee title contains &amp;lsquo;Add new&amp;rsquo;   create employee
+Criteria : firstName: name.firstName from faker
+lastName: name.lastName from faker
+email: internet.email(this.firstName, this.lastName, &amp;lsquo;prestashop.com&amp;rsquo;) from faker</description>
+    </item>
+    
+    <item>
+      <title>CRUD Employee (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/crud-employee-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/crud-employee-todo/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin BO account
+Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team&amp;rsquo; page title contains &amp;lsquo;Employees&amp;rsquo;   reset filter Total of employees &amp;gt; 0            </description>
+    </item>
+    
+    <item>
+      <title>Employees Bulk Actions (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/employees-bulk-actions-todo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/employees-bulk-actions-todo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sort pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/sort-pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/sort-pagination/</guid>
+      <description>Steps Check pagination appears only when minimum number of employees is reached
+Changing page is OK
+Changing number of displayed employees per page is OK
+Pagination still works with filters</description>
+    </item>
+    
+    <item>
+      <title>Employees options</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/employees-options/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/employees-options/</guid>
+      <description>Steps Changer le délais d&amp;rsquo;attente entre 2 reset de password ( ex : 5 min )
+Tester de reset le password employé ( 2 fois en moins de 5 min et 2 fois en plus de 5 min )
+Activer l&amp;rsquo;option &amp;ldquo;Memorize the language used in Admin panel forms&amp;rdquo; et vérifier si la langue des formulaires multilangues est sauvegardée
+Expected result Le délai d&amp;rsquo;attente entre 2 reset de password est respecté</description>
+    </item>
+    
+    <item>
+      <title>Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/help-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/advanced-parameters/team/employees/help-card/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

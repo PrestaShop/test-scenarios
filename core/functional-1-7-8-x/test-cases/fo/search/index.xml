@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Search on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/</link>
+    <description>Recent content in Search on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search product, consult autocomplete list</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/search-product-consult-autocomplete-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/search-product-consult-autocomplete-list/</guid>
+      <description>Preconditions in BO, Go to shop param&amp;gt; search
+Verify fuzzy search in switched to &amp;ldquo;NO&amp;rdquo;
+Etre sur le FO
+Avoir des produits existant
+Fuzzy search désactivé
+Steps Entrer un terme dans la barre de recherche
+Expected result la case d&amp;rsquo;autcomplétion apparaît les expressions correspondent aux termes entré dans la barre de recherche</description>
+    </item>
+    
+    <item>
+      <title>Search product, validate</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/search-product-validate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/search-product-validate/</guid>
+      <description>Preconditions Etre sur le FO
+Avoir des produits existant
+Fuzzy search désactivé
+Steps Entrer un terme de recherche dans la barre de recherche , sélectionner un produit dans la sélection proposé par l’auto-complétion
+Expected result Les produit proposé correspondent a la recherche et lors de la sélection la redirection est faite correctement vers le produit sélectionné</description>
+    </item>
+    
+    <item>
+      <title>Search no result</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/search-no-result/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/search-no-result/</guid>
+      <description>Preconditions In BO, Go to shop param&amp;gt; search
+Verify fuzzy search in switched to &amp;ldquo;NO&amp;rdquo;
+Etre sur le FO
+Avoir plusieurs produits existant
+Fuzzy search désactivé
+Steps Entrer un terme de recherche inexistant ( ex : afbdflushouiqbg ) et appuyer sur entrée pour valider
+Expected result La recherche ne trouve rien un message nous l&amp;rsquo;indique et il nous est proposé de faire une nouvelle recherche</description>
+    </item>
+    
+    <item>
+      <title>Fuzzy search</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/fuzzy-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/fuzzy-search/</guid>
+      <description>Preconditions Etre sur le FO
+Avoirs plusieurs produits existant
+Fuzzy search désactivé
+Steps Effectué une recherche en faisant volontairement des erreurs dans les mots ( ex pour mug taper mag ) et valider une liste de produit est proposé ( prendre note )
+Aller en BO et activer le Fuzzy search et en suite refaire la premier étape
+La liste de produit est différente ( plus complète )
+Expected result Le résultat de recherche doit être plus complet avec le Fuzzy search</description>
+    </item>
+    
+    <item>
+      <title>Consult result list</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/consult-result-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/consult-result-list/</guid>
+      <description>Preconditions Etre sur le FO
+Avoir des produits existant
+Steps Effectuer une recherche et valider
+Consulter ensuite les résultat de la recherche
+Expected result La recherche nous fait une suggestion de produits, les résultat doivent être un minimum cohérent avec la recherche effectué</description>
+    </item>
+    
+    <item>
+      <title>Sort result list</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/sort-result-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/sort-result-list/</guid>
+      <description>Preconditions Etre sur le FO
+Avoir effectué une recherche
+Steps Trier la liste de produit proposé comme résultat de recherche ( ordre alphabétique, prix &amp;hellip;)
+Expected result Le tri du résultat de recherche fonctionne correctement les produits sont triés de la bonne façon</description>
+    </item>
+    
+    <item>
+      <title>Consult product quickview</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/consult-product-quickview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/consult-product-quickview/</guid>
+      <description>Preconditions Etre sur le FO
+Avoir plusieurs produits existant
+Avoir effectué une recherche qui a retourné des résultats
+Steps Essayer d&amp;rsquo;afficher le Quickview des produits proposés dans le résultat de recherche ,
+Expected result Le quickview doit fonctionner correctement : les informations doivent etre correctes et il doit etre possible d&amp;rsquo;ajouter le produit au panier</description>
+    </item>
+    
+    <item>
+      <title>Search on no result page</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/search-on-no-result-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/fo/search/search-on-no-result-page/</guid>
+      <description>Preconditions Etre sur le FO
+Avoir une liste de produit existant
+Avoir effectué une recherche qui ne renvoi aucun résultat
+Steps Effectuer une nouvelle recherche dans la page &amp;ldquo;no result&amp;rdquo;
+Expected result La recherche fonctionne correctement une liste de produits est proposée.</description>
+    </item>
+    
+  </channel>
+</rss>

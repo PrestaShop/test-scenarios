@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal information on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/</link>
+    <description>Recent content in Personal information on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Order as a guest</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/order-as-a-guest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/order-as-a-guest/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Ne pas etre connecté
+Steps CLiquer sur &amp;ldquo;proceed to checkout&amp;rdquo;
+Remplir le premier formulaire (information) sans remplir le mot de passe
+Cliquer sur continue
+Remplir le second formulaire (adresse)
+Cliquer sur continue
+Selectionner le mode de livraison Cliquer sur continue
+Selectionner la méthode de paiment
+Cliquer sur &amp;ldquo;Place Order&amp;rdquo;
+Expected result La commande est passée
+Redirection vers la page order confirmation</description>
+    </item>
+    
+    <item>
+      <title>Sign in</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/sign-in/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/sign-in/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Ne pas etre connecté
+Avoir les identifiant d&amp;rsquo;un compte existant
+Steps CLiquer sur &amp;ldquo;proceed to checkout&amp;rdquo;
+Cliquer sur &amp;ldquo;Sign in&amp;rdquo;
+Rentrer les identifiants d&amp;rsquo;un compte existant
+Cliquer sur continue
+Verifier que l&amp;rsquo;adresse est correcte
+Cliquer sur continue
+Selectionner le mode de livraison
+Cliquer sur continue
+Selectionner la méthode de paiment
+Cliquer sur &amp;ldquo;Place Order&amp;rdquo;
+Expected result La commande est passée
+Redirection vers la page order confirmation</description>
+    </item>
+    
+    <item>
+      <title>Header display</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/header-display/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/header-display/</guid>
+      <description>Steps Check that the header is correctly displayed
+Expected result All the categories set are displayed
+Redirection is correct</description>
+    </item>
+    
+    <item>
+      <title>Create an account</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/create-an-account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/create-an-account/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Ne pas etre connecté
+Steps CLiquer sur &amp;ldquo;proceed to checkout&amp;rdquo;
+Remplir le premier formulaire (information) indiquer un mot de passe
+Cliquer sur continue
+Remplir le second formulaire (adresse)
+Cliquer sur continue
+Selectionner le mode de livraison
+Cliquer sur continue
+Selectionner la méthode de paiment
+Cliquer sur &amp;ldquo;Place Order&amp;rdquo;
+Expected result La commande est passée
+Le compte client est créé
+Redirection vers la page order confirmation</description>
+    </item>
+    
+    <item>
+      <title>Password reminder</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/password-reminder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/password-reminder/</guid>
+      <description>Preconditions Etre sur le FO
+Etre dans le panier
+Ne pas etre connecté
+Steps CLiquer sur &amp;ldquo;proceed to checkout&amp;rdquo;
+Cliquer sur &amp;ldquo;Sign in&amp;rdquo;
+Cliquer sur &amp;ldquo;Forgot password&amp;rdquo;
+Expected result Apparition du formualire de recouvrement password =&amp;gt; mail de changement de password</description>
+    </item>
+    
+  </channel>
+</rss>

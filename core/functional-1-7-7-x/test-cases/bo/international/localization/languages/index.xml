@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Languages on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/</link>
+    <description>Recent content in Languages on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter Languages</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/filter-languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/filter-languages/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin Bo account
+Steps    Step Description Expected result     go to localization page title contains &amp;lsquo;Localization&amp;rsquo;   go to languages page title contains &amp;lsquo;Languages&amp;rsquo;   reset filter Total of languages &amp;gt; 0   filter by &amp;lsquo;id_lang&amp;rsquo; &amp;lsquo;1&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;id_lang&amp;rsquo; contains &amp;lsquo;1&amp;rsquo;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;name&amp;rsquo; &amp;lsquo;English (English)&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;name&amp;rsquo; contains &amp;lsquo;English (English)&amp;rsquo;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;iso_code&amp;rsquo; &amp;lsquo;en&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;iso_code&amp;rsquo; contains &amp;lsquo;en&amp;rsquo;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;language_code&amp;rsquo; &amp;lsquo;en-us&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;language_code&amp;rsquo; contains &amp;lsquo;en-us&amp;rsquo;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;date_format_lite&amp;rsquo; &amp;rsquo;m/d/Y&#39; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;date_format_lite&amp;rsquo; contains &amp;rsquo;m/d/Y&#39;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;date_format_full&amp;rsquo; &amp;rsquo;m/d/Y H:i:s&#39; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;date_format_full&amp;rsquo; contains &amp;rsquo;m/d/Y H:i:s&#39;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;active&amp;rsquo; &amp;lsquo;true&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;active&amp;rsquo; contains &amp;lsquo;true&amp;rsquo;   reset filter Number of languages = Total of languages    </description>
+    </item>
+    
+    <item>
+      <title>CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/crud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/crud/</guid>
+      <description>Preconditions PrestaShop installed
+Login with admin Bo account
+Steps    Step Description Expected result     Go to languages page Page title contains &amp;lsquo;Languages&amp;rsquo;   reset filters Total of languages &amp;gt; 0   go to add new language page page title contains &amp;lsquo;Add new&amp;rsquo;   Create new languages
+(iso code : de, other data from faker) Successful message is displayed
+number of languages = total of languages + 1   go to FO New language exist in list of languages   go back to BO and filter by name of created language First element in list is the language created   go to edit language page page title contains &amp;lsquo;Edit :&amp;rsquo;   Edit language (disble language too)</description>
+    </item>
+    
+    <item>
+      <title>Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/bulk-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/bulk-actions/</guid>
+      <description>Preconditions Prestashop installed
+Login with admin BO account
+Steps    Step Description Expected result     Go to languages page page title contains &amp;lsquo;Languages&amp;rsquo;   Reset filters Total of products &amp;gt; 0   Go to add new language page Page title contains &amp;lsquo;Add new&amp;rsquo;   Create new language : name: &amp;lsquo;languageToDelete1&amp;rsquo;, isoCode: &amp;lsquo;fi&amp;rsquo; Successful message is displayed
+number of languages = total of languages + 1   Go to add new language page Page title contains &amp;lsquo;Add new&amp;rsquo;   Create new language : name: &amp;lsquo;languageToDelete2&amp;rsquo;, isoCode: &amp;lsquo;ca&amp;rsquo; Successful message is displayed</description>
+    </item>
+    
+    <item>
+      <title>Sort</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/sort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/sort/</guid>
+      <description>Preconditions Prestashop installed
+Login with Admin BO account
+Steps    Step Description Expected result     Go to languages page page title contains &amp;lsquo;Languages&amp;rsquo;   Sort languages by id_lang desc list is sorted by id_lang desc
+(3 -&amp;gt; 2 -&amp;gt; 1)   Sort languages by name asc list is sorted by name asc
+(a -&amp;gt; b -&amp;gt; c)   Sort languages by name desc list is sorted by name desc</description>
+    </item>
+    
+    <item>
+      <title>Quick edit</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/quick-edit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/quick-edit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/help-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/localization/languages/help-card/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
