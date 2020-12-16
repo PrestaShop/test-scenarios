@@ -1,5 +1,5 @@
 ---
-title: Sort pagination
+title: Pagination
 weight: 3
 ---
 

@@ -12,8 +12,6 @@ Etre sur le FO
 Clicker sur le bouton sign in => la page de login est affichée\
 Clicker sur "NO account Create one" => Un formulaire est affiché\
 \
-Remplir le formulaire de facon incorectte => les erreurs sont mises en évidences\
-\
 Remplir maintenant correctement le formulaire
 
 ## Expected result
