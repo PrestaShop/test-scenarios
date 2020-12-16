@@ -498,7 +498,6 @@ Go to the catalog and to a product page</description>
 Etre sur le FO
 Steps Clicker sur le bouton sign in =&amp;gt; la page de login est affichée
 Clicker sur &amp;ldquo;NO account Create one&amp;rdquo; =&amp;gt; Un formulaire est affiché
-Remplir le formulaire de facon incorectte =&amp;gt; les erreurs sont mises en évidences
 Remplir maintenant correctement le formulaire
 Expected result Le compte est créer nous sommes redirigé sur la page d&amp;rsquo;accueil en tant qu&amp;rsquo;utilisateur connecté</description>
     </item>
@@ -7188,6 +7187,18 @@ Expected result La confirmation de commande contient le détail du panier ( prix
     
     <item>
       <title>Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/database/db-backup/pagination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/database/db-backup/pagination/</guid>
+      <description>Preconditions Etre sur le BO
+Avoir suffisament de backup pour activer la pagination
+Steps Tester la pagination
+Expected result la pagination doit fonctionner correctement</description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/attributes-and-features/attributes/pagination/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -7865,18 +7876,6 @@ Steps    Step Description Expected result     go to brands page page title conta
       <description>Preconditions Prestashop Installed
 Login Into BO
 Steps    Step Description Expected result     go to brands page page title contains &amp;lsquo;Brands&amp;rsquo;   reset all filters Number of brands &amp;gt; 0   Sort brands by id desc Brands are sorted by id (3 -&amp;gt; 2 -&amp;gt; 1)   Sort brands by name asc Brands are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort brands by name desc Brands are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort brands by id asc Brands are sorted by id (1 -&amp;gt; 2 -&amp;gt; 3)   Sort Addresses by id desc Addresses are sorted by id (3 -&amp;gt; 2 -&amp;gt; 1)   Sort Addresses by brand name asc Addresses are sorted by brand name (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by brand name desc Addresses are sorted by brand name (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by Firstname asc Addresses are sorted by Firstname (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by Firstname desc Addresses are sorted by Firstname (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by lastname asc Addresses are sorted by lastname (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by lastname desc Addresses are sorted by lastname (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by post code asc Addresses are sorted by post code (1 -&amp;gt; 2 -&amp;gt; 3)   Sort Addresses by post code desc Addresses are sorted by post code (3 -&amp;gt; 2 -&amp;gt; 1)   Sort Addresses by city asc Addresses are sorted by city (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by city desc Addresses are sorted by city (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by country asc Addresses are sorted by country (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by country desc Addresses are sorted by country (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by id asc Addresses are sorted by id (1 -&amp;gt; 2 -&amp;gt; 3)    </description>
-    </item>
-    
-    <item>
-      <title>Sort pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/database/db-backup/sort-pagination/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/advanced-parameters/database/db-backup/sort-pagination/</guid>
-      <description>Preconditions Etre sur le BO
-Avoir suffisament de backup pour activer la pagination
-Steps Tester la pagination
-Expected result la pagination doit fonctionner correctement</description>
     </item>
     
     <item>
