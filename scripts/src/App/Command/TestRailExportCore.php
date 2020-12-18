@@ -90,7 +90,7 @@ class TestRailExportCore extends AbstractTestRailCommand
             }
         }
         
-        $output->writeLn(['', 'Output generated in ' . (time() - $time) . 's.']);
+        $output->writeLn(['', 'Output generated in ' . (time() - $time) . 's with ' . $this->testRailClient->getRequestsCount() . ' requests.']);
     }
 
     protected function createSectionsTree(array $list, array $parent): array

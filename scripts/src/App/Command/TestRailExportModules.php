@@ -62,7 +62,7 @@ class TestRailExportModules extends AbstractTestRailCommand
             $this->generatePages($suiteName, $cases);
         }
         
-        $output->writeLn(['', 'Output generated in ' . (time() - $time) . 's.']);
+        $output->writeLn(['', 'Output generated in ' . (time() - $time) . 's with ' . $this->testRailClient->getRequestsCount() . ' requests.']);
     }
 
     private function generatePages(string $moduleName, array $cases)
