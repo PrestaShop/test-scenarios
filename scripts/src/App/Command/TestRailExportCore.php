@@ -85,8 +85,15 @@ class TestRailExportCore extends AbstractTestRailCommand
             }
             $sections = $this->createSectionsTree($sectionsParentId, [$sections[0]]);
 
+            $cases = [];
+            $offset = 0;
+            do {
+                $cases = array_merge($cases, $this->getCases($projectId, $suiteId, null, $offset));
+                $offset += 250;
+            } while(count($cases) % 250 == 0);
+
             foreach ($sections as $curSection) {
-                $this->generatePages($projectId, $suiteId, $curSection, $dirName);
+                $this->generatePages($projectId, $suiteId, $curSection, $dirName, $cases);
             }
         }
         
@@ -105,7 +112,7 @@ class TestRailExportCore extends AbstractTestRailCommand
         return $tree;
     }
 
-    private function generatePages(int $projectId, int $suiteId, array $section, string $path): void
+    private function generatePages(int $projectId, int $suiteId, array $section, string $path, array $cases): void
     {
         $suiteName = $section['name'];
 
@@ -122,8 +129,11 @@ class TestRailExportCore extends AbstractTestRailCommand
         file_put_contents($dirName . '_index.md', $content);
 
         // Cases
-        $cases = $this->getCases($projectId, $suiteId, $section['id']);
-        foreach ($cases as $key => $case) {
+        $sectionId = $section['id'];
+        $casesSection = array_filter($cases, function(array $item) use($sectionId) {
+            return $item['section_id'] == $sectionId;
+        });
+        foreach ($casesSection as $key => $case) {
             $content = $this->renderCase($case, $key);
 
             file_put_contents($dirName . $this->slugify($case['title']). '.md', $content);
@@ -132,7 +142,7 @@ class TestRailExportCore extends AbstractTestRailCommand
         // Children
         if (!empty($section['children'])) {
             foreach ($section['children'] as $childSection) {
-                $this->generatePages($projectId, $suiteId, $childSection, $dirName);
+                $this->generatePages($projectId, $suiteId, $childSection, $dirName, $cases);
             }
         }
     }

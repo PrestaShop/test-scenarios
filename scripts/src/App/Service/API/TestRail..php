@@ -18,11 +18,11 @@ class TestRail
     /**
      * @var string
      */
-    private $_user;
+    private $_user = '';
     /**
      * @var string
      */
-    private $_password;
+    private $_password = '';
     /**
      * @var string
      */
@@ -30,7 +30,7 @@ class TestRail
     /**
      * @var int
      */
-    private $countRequests;
+    private $countRequests = 0;
 
     public function __construct(string $base_url)
     {
@@ -42,27 +42,29 @@ class TestRail
      *
      * Returns/sets the user used for authenticating the API requests.
      */
-    public function get_user()
+    public function get_user(): string
     {
         return $this->_user;
     }
-    public function set_user(string $user)
+    public function set_user(string $user): self
     {
         $this->_user = $user;
+        return $this;
     }
     /**
      * Get/Set Password
      *
      * Returns/sets the password used for authenticating the API requests.
      */
-    public function get_password()
+    public function get_password(): string
     {
         return $this->_password;
     }
 
-    public function set_password(string $password)
+    public function set_password(string $password): self
     {
         $this->_password = $password;
+        return $this;
     }
 
     public function getRequestsCount(): int
@@ -107,19 +109,11 @@ class TestRail
         return $this->_send_request('POST', $uri, $data);
     }
 
-    protected function _create_handle()
-    {
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-        return $ch;
-    }
-
     protected function _send_request(string $method, $uri, $data)
     {
         $this->countRequests++;
 
-        $ch = $this->_create_handle();
+        $ch = $this->createCurlRessource();
         curl_setopt_array($ch,
             array(
                 CURLOPT_URL => $this->_url . $uri,
@@ -164,20 +158,17 @@ class TestRail
         $response = curl_exec($ch);
         $info = curl_getinfo($ch);
 
-        if ($response === false) {
+        if (!$response) {
             throw new TestRailException(curl_error($ch));
         }
-        if ($response) {
-            if ((substr($uri, 0, 15) == "get_attachment/")
-                && ($info['http_code'] == 200)) {
-                // Receive attachment
-                file_put_contents($data, $response);
-                $result = $data;
-            } else {
-                $result = json_decode($response, true); // As array
-            }
+
+        if ((substr($uri, 0, 15) == "get_attachment/")
+            && ($info['http_code'] == 200)) {
+            // Receive attachment
+            file_put_contents($data, $response);
+            $result = $data;
         } else {
-            $result = array();
+            $result = json_decode($response, true);
         }
 
         if ($info['http_code'] != 200) {
@@ -191,10 +182,19 @@ class TestRail
                 )
             );
         }
-        $this->_close_handle($ch);
+        $this->closeCurlRessource($ch);
         return $result;
     }
-    protected function _close_handle($ch)
+
+    private function createCurlRessource()
+    {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+        return $ch;
+    }
+
+    private function closeCurlRessource($ch)
     {
         curl_close($ch);
     }

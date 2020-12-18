@@ -32,12 +32,13 @@ abstract class AbstractTestRailCommand extends Command
         return $suites;
     }
 
-    protected function getCases(int $projectId, int $idSuite, int $idSection = null): array
+    protected function getCases(int $projectId, int $idSuite, int $idSection = null, int $offset = 0, int $limit = 250): array
     {
         $path = 'get_cases/' . $projectId . '&suite_id=' . $idSuite;
         if (!empty($idSection)) {
             $path .= '&section_id=' . $idSection;
         }
+        $path .= '&offset=' . $offset . '&limit=' . $limit;
         return $this->testRailClient->send_get($path);
     }
 
