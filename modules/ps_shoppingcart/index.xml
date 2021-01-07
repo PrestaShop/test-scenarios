@@ -6,5 +6,58 @@
     <description>Recent content in ps_shoppingcart on PrestaShop Tests</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check the modal &amp; add to cart</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/check-the-modal-add-to-cart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/check-the-modal-add-to-cart/</guid>
+      <description>Preconditions Ajax cart should be enable
+Steps    Step Description Expected result     Go to FO and click on a product FO and Product page should be displayed   click on add to cart button Modal page should be displayed with all informations about the product   Click on &amp;ldquo;continue shopping&amp;rdquo; product page should be displayed   click on add to cart button Modal page should be displayed with all informations about the product   Click on &amp;ldquo;go to shopping cart&amp;rdquo; Shopping cart page should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable ajax cart</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/enable-disable-ajax-cart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/enable-disable-ajax-cart/</guid>
+      <description>Preconditions The module shopping cart should be installed
+Steps    Step Description Expected result     Disable the ajax cart option The option should be disabled   Go to FO and select a product The front office and product page should be displayed   add to cart The modal shouldn&amp;rsquo;t be displayed   Refresh the page Cart should be updated   Go to BO and enable ajax cart The option should be enabled   Go to FO and select a product The front office and product page should be displayed   add to cart The modal should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_shoppingcart The module catalog page should be displayed and module ps_shoppingcart should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
   </channel>
 </rss>

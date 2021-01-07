@@ -314,6 +314,16 @@ Steps    Step Description Expected result     Activate Demo Mode and browse each
     </item>
     
     <item>
+      <title>Check the modal &amp; add to cart</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/check-the-modal-add-to-cart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/check-the-modal-add-to-cart/</guid>
+      <description>Preconditions Ajax cart should be enable
+Steps    Step Description Expected result     Go to FO and click on a product FO and Product page should be displayed   click on add to cart button Modal page should be displayed with all informations about the product   Click on &amp;ldquo;continue shopping&amp;rdquo; product page should be displayed   click on add to cart button Modal page should be displayed with all informations about the product   Click on &amp;ldquo;go to shopping cart&amp;rdquo; Shopping cart page should be displayed    </description>
+    </item>
+    
+    <item>
       <title>Choose a payment method</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/payment/choose-a-payment-method/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1334,6 +1344,16 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
 Login with admin BO account
 Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   enable re-display cart at login Successful message is displayed   Go to FO Login with customer account
 Add product to cart and go to checkout page log out nothing is displayed in cart   Login with customer account Product added to cart is displayed in cart   Go back to BO and disable re-display cart at login Successful message is displayed    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable ajax cart</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/enable-disable-ajax-cart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/enable-disable-ajax-cart/</guid>
+      <description>Preconditions The module shopping cart should be installed
+Steps    Step Description Expected result     Disable the ajax cart option The option should be disabled   Go to FO and select a product The front office and product page should be displayed   add to cart The modal shouldn&amp;rsquo;t be displayed   Refresh the page Cart should be updated   Go to BO and enable ajax cart The option should be enabled   Go to FO and select a product The front office and product page should be displayed   add to cart The modal should be displayed    </description>
     </item>
     
     <item>
@@ -3004,6 +3024,17 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/upgrade/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
+L&amp;rsquo;action Upgrade sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -5661,6 +5692,17 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
     
     <item>
       <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_shoppingcart The module catalog page should be displayed and module ps_shoppingcart should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
       <link>https://build.prestashop.com/test-scenarios/modules/statsvisits/uninstall-install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -8109,6 +8151,17 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/uninstall-and-delete/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
+L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
@@ -11999,11 +12052,11 @@ Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &
     </item>
     
     <item>
-      <title>Filter</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/filter/</link>
+      <title>Filter, sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/filter-sort-and-pagination/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/filter/</guid>
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/filter-sort-and-pagination/</guid>
       <description>Steps Filter by iso code done in another scenario (automation)</description>
     </item>
     
@@ -13444,6 +13497,15 @@ https://github.com/PrestaShop/PrestaShop/issues/9781</description>
     </item>
     
     <item>
+      <title>Delete Official currency</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/delete-official-currency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/delete-official-currency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Display combination</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/cart/cart/display-combination/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -14028,6 +14090,15 @@ Etre sur la liste des produits
 Avoir des produits existants
 Steps Sélectionner un produit dans la liste et le supprimer
 Expected result Le produit est correctement supprimé il n&amp;rsquo;est plus dans la liste il n&amp;rsquo;est plus visible non plus sur le FO</description>
+    </item>
+    
+    <item>
+      <title>Delete Unofficial Currency</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/delete-unofficial-currency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/delete-unofficial-currency/</guid>
+      <description></description>
     </item>
     
     <item>
