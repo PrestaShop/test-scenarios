@@ -1,5 +1,5 @@
 ---
-title: Filter
+title: Filter, sort and pagination
 weight: 6
 ---
 ## Steps
