@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ps_crossselling on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/</link>
+    <description>Recent content in ps_crossselling on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/ps_crossselling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Display the bloc in  shopping cart footer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/display-the-bloc-in-shopping-cart-footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/display-the-bloc-in-shopping-cart-footer/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_crossselling
+The module should be installed and upgraded to the last version
+Go to front
+Steps    Step Description Expected result     In position tab add the crossselling module to the hook &amp;ldquo;displayshoppincartfooter&amp;rdquo; and saved Message should be displayed   Go to FO and select a product FO and produdct page should be displayed   Add the product in the cart Product should be added   Go to the shopping cart and check the footer The block should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Enable / Disable Show price</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/enable-disable-show-price/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/enable-disable-show-price/</guid>
+      <description>Preconditions On FO create an order with more than one product and in the BO change status to payment accepted
+Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_crossselling
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the option The switch button should be red   Click on the button save A message should appear   Go to FO and check a product you should saw in the bloc crossselling product brought with this product without price   Click on the switch button to enable the option The switch button should be blue   Click on the button save A message should appear   Go to FO and check a product you should saw in the bloc crossselling product brought with this product with price    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_crossselling The module page should be displayed and module ps_crossselling should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Change number of product display in the crossselling bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/change-number-of-product-display-in-the-crossselling-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/change-number-of-product-display-in-the-crossselling-bloc/</guid>
+      <description>Preconditions On FO create an order with more than 8 products and in the BO change status to payment accepted
+Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_crossselling
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change the option from 8 to 5 and click on the button save A message should appear   Go to the front office and select a product FO and product page should be displayed   Check the footer Number of product should be 5   Change the option from 5 to 10 and click on the button save A message should appear   Go to the front office and select a product FO and product page should be displayed   Check the footer Number of product should be 5    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_crossselling The module page should be displayed and module ps_crossselling should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_crossselling The module catalog page should be displayed and module ps_crossselling should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_crossselling&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_crossselling The module page should be displayed and module ps_crossselling should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+  </channel>
+</rss>

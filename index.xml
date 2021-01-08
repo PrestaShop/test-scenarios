@@ -1101,6 +1101,19 @@ Expected result Les tags sont affiché sur les produits</description>
     </item>
     
     <item>
+      <title>Display the bloc in  shopping cart footer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/display-the-bloc-in-shopping-cart-footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/display-the-bloc-in-shopping-cart-footer/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_crossselling
+The module should be installed and upgraded to the last version
+Go to front
+Steps    Step Description Expected result     In position tab add the crossselling module to the hook &amp;ldquo;displayshoppincartfooter&amp;rdquo; and saved Message should be displayed   Go to FO and select a product FO and produdct page should be displayed   Add the product in the cart Product should be added   Go to the shopping cart and check the footer The block should be displayed    </description>
+    </item>
+    
+    <item>
       <title>Download theme</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/design/theme-logo/advanced-customization/download-theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1224,6 +1237,20 @@ Steps    Step Description Expected result     go to shop parameters &amp;gt; gen
       <description>Preconditions prestashop installed
 login with admin BO account
 Steps    Step Description Expected result     go to shop parameters &amp;gt; general page page title contains &amp;lsquo;Preferences&amp;rsquo;   go to maintenance tab Page title contains &amp;lsquo;Maintenance&amp;rsquo;   Disable shop successful update message is displayed   View my shop Maintenance text &amp;lsquo;We are currently updating our shop and will be back really soon. Thanks for your patience.</description>
+    </item>
+    
+    <item>
+      <title>Enable / Disable Show price</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/enable-disable-show-price/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/enable-disable-show-price/</guid>
+      <description>Preconditions On FO create an order with more than one product and in the BO change status to payment accepted
+Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_crossselling
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Click on the switch button to disable the option The switch button should be red   Click on the button save A message should appear   Go to FO and check a product you should saw in the bloc crossselling product brought with this product without price   Click on the switch button to enable the option The switch button should be blue   Click on the button save A message should appear   Go to FO and check a product you should saw in the bloc crossselling product brought with this product with price    </description>
     </item>
     
     <item>
@@ -2977,6 +3004,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
     
     <item>
       <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_crossselling The module page should be displayed and module ps_crossselling should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_customersigin/upgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -3229,6 +3266,20 @@ number of backups = 1   generate new db backup Successful message is displayed</
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shipping/preferences/carriers-options/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Change number of product display in the crossselling bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/change-number-of-product-display-in-the-crossselling-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/change-number-of-product-display-in-the-crossselling-bloc/</guid>
+      <description>Preconditions On FO create an order with more than 8 products and in the BO change status to payment accepted
+Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_crossselling
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change the option from 8 to 5 and click on the button save A message should appear   Go to the front office and select a product FO and product page should be displayed   Check the footer Number of product should be 5   Change the option from 5 to 10 and click on the button save A message should appear   Go to the front office and select a product FO and product page should be displayed   Check the footer Number of product should be 5    </description>
     </item>
     
     <item>
@@ -5637,6 +5688,16 @@ L&amp;rsquo;action Uninstall sur le module ps_checkpayment a réussi.&amp;rdquo;
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-install/</guid>
       <description>Preconditions The module should be installed
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_contactinfo The module page should be displayed and module ps_contactinfo should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_contactinfo The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_contactinfo&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_crossselling The module page should be displayed and module ps_crossselling should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_crossselling The module catalog page should be displayed and module ps_crossselling should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_crossselling&amp;rdquo; The module should be displayed    </description>
     </item>
     
     <item>
@@ -8100,6 +8161,16 @@ L&amp;rsquo;action Uninstall sur le module ps_checkpayment a réussi.&amp;rdquo;
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_contactinfo/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_contactinfo The module page should be displayed and module ps_contactinfo should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_crossselling/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_crossselling The module page should be displayed and module ps_crossselling should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
@@ -14281,6 +14352,15 @@ With registered customer and non registered customer</description>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/orders/orders/view-and-edit-an-order/add-a-product/</guid>
       <description>Preconditions Ajouter un produit avec un discount associé</description>
+    </item>
+    
+    <item>
+      <title>Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/bulk-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/international/localization/currencies/bulk-actions/</guid>
+      <description></description>
     </item>
     
     <item>
