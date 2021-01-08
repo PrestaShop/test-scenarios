@@ -107,24 +107,29 @@ abstract class AbstractTestRailCommand extends Command
         $custom_goals = str_replace("\\" . PHP_EOL . '-', PHP_EOL . '-', $custom_goals);
         $custom_goals = trim($custom_goals, " \\-" . PHP_EOL);
 
+        $hasContent = false;
+
         $content = '---' . PHP_EOL
             . 'title: ' . $case['title'] . PHP_EOL
             . 'weight: ' .$case['display_order'] . PHP_EOL
             . '---' . PHP_EOL;
         if (!empty($custom_preconds)) {
-        $content .= PHP_EOL
-            . '## Preconditions' . PHP_EOL
-            . PHP_EOL
-            . $custom_preconds. PHP_EOL;
+            $content .= PHP_EOL
+                . '## Preconditions' . PHP_EOL
+                . PHP_EOL
+                . $custom_preconds. PHP_EOL;
+            $hasContent = true;
         }
 
         switch($case['template_id']) {
             case 1:
                 if (!empty($custom_steps)) {
                     $content .= '## Steps' . PHP_EOL . PHP_EOL . $custom_steps. PHP_EOL . PHP_EOL;
+                    $hasContent = true;
                 }
                 if (!empty($case['custom_expected'])) {
                     $content .= '## Expected result'. PHP_EOL . PHP_EOL . $custom_expected. PHP_EOL . PHP_EOL;
+                    $hasContent = true;
                 }
             break;
             case 2:
@@ -152,18 +157,25 @@ abstract class AbstractTestRailCommand extends Command
                         
                         $content .= '| ' . $stepContent . ' | ' . $stepExpected . ' |'  . PHP_EOL;
                     }
+                    $hasContent = true;
                 }
             break;
             case 3:
                 if (!empty($custom_mission)) {
                     $content .= '## Mission' . PHP_EOL . PHP_EOL . $custom_mission. PHP_EOL . PHP_EOL;
+                    $hasContent = true;
                 }
                 if (!empty($custom_goals)) {
                     $content .= '## Goals'. PHP_EOL . PHP_EOL . $custom_goals. PHP_EOL . PHP_EOL;
+                    $hasContent = true;
                 }
             break;
             default:
                 throw new \Exception('Template not defined : ' . $case['template_id']);
+        }
+
+        if (!$hasContent) {
+            $content .= '<div style="text-align: center; font-size:2.5em;margin: 200px;">🚧 Work in progress 🚧</div>';
         }
 
         return $content;
