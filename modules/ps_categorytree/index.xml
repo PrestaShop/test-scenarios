@@ -12,7 +12,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-category-root-option/</guid>
-      <description>🚧 Work in progress 🚧</description>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_categorytree
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change the root category by &amp;ldquo;Home category&amp;rdquo; and save The option should be saved   Go to FO scrolldown to the bottom click on the link &amp;ldquo;all product&amp;rdquo;.
+See the category tree and navigate.</description>
     </item>
     
     <item>
@@ -31,7 +36,11 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-maximum-depth-option/</guid>
-      <description>🚧 Work in progress 🚧</description>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_categorytree
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change Maximum depth option to 1 and save Option should be saved   Go to FO scrolldown to the bottom click on the link &amp;ldquo;all product&amp;rdquo;. All product page should be displayed and sub-category shouldn&amp;rsquo;t be displayed   Go to BO change Maximum depth option to 0 and save Option should be saved   Go to FO scrolldown to the bottom click on the link &amp;ldquo;all product&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -45,12 +54,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
     </item>
     
     <item>
-      <title>Change Sort option</title>
-      <link>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-sort-option/</link>
+      <title>Change Sort and Sort order option</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-sort-and-sort-order-option/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-sort-option/</guid>
-      <description>🚧 Work in progress 🚧</description>
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-sort-and-sort-order-option/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_categorytree
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change the sort option by &amp;ldquo;By name&amp;rdquo; and sort order option by &amp;ldquo;ascending&amp;rdquo; save Option should be saved   Go to FO scrolldown to the bottom click on the link &amp;ldquo;all product&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -61,15 +74,6 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_categorytree The module page should be displayed and module ps_categorytree should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
-    </item>
-    
-    <item>
-      <title>Change Sort order option</title>
-      <link>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-sort-order-option/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-sort-order-option/</guid>
-      <description>🚧 Work in progress 🚧</description>
     </item>
     
   </channel>

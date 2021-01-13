@@ -557,7 +557,71 @@
     
 
 
-<div style="text-align: center; font-size:2.5em;margin: 200px;">🚧 Work in progress 🚧</div>
+<div class="gdoc-page__anchorwrap"><h2 id="preconditions">Preconditions<a data-clipboard-text="https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-category-root-option/#preconditions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Preconditions" href="#preconditions"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>Go to back office -&gt; Modules -&gt; Module manager<br>
+Search ps_categorytree<br>
+The module should be installed and upgraded to the last version<br>
+Click on Configure</p>
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-category-root-option/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Change the root category by &ldquo;Home category&rdquo; and save</td>
+<td>The option should be saved</td>
+</tr>
+<tr>
+<td>Go to FO scrolldown to the bottom click on the link &ldquo;all product&rdquo;.<br>See the category tree and navigate.</td>
+<td>All product page should be displayed and the home category should be in the category bloc.</td>
+</tr>
+<tr>
+<td>Click on a category in the bloc category tree</td>
+<td>In the category Bloc all category should be displayed</td>
+</tr>
+<tr>
+<td>Go to BO change the root category by &ldquo;Current category&rdquo; and save</td>
+<td>The option should be saved</td>
+</tr>
+<tr>
+<td>Go to FO scrolldown to the bottom click on the link &ldquo;all product&rdquo;.<br>See the category tree and navigate.</td>
+<td>All product page should be displayed and the current category should be in the category bloc.</td>
+</tr>
+<tr>
+<td>Click on a category in the bloc category tree</td>
+<td>Only sub-category of the current category should be displayed</td>
+</tr>
+<tr>
+<td>Go to BO change the root category by &ldquo;Parent category&rdquo; and save</td>
+<td>The option should be saved</td>
+</tr>
+<tr>
+<td>Go to FO scrolldown to the bottom click on the link &ldquo;all product&rdquo;.<br>See the category tree and navigate.</td>
+<td>All product page should be displayed and the parent category should be in the category bloc.</td>
+</tr>
+<tr>
+<td>Click on a sub-category in the bloc category tree</td>
+<td>Only parent category should be displayed</td>
+</tr>
+<tr>
+<td>Go to BO change the root category by &ldquo;Current category, unless it has no subcategories, in which case the parent category of the current category is used&rdquo;</td>
+<td>The option should be saved</td>
+</tr>
+<tr>
+<td>Go to FO scrolldown to the bottom click on the link &ldquo;all product&rdquo;.<br>See the category tree and navigate.</td>
+<td>All product page should be displayed and the current category should be in the category bloc.</td>
+</tr>
+<tr>
+<td>Click on a category in the bloc category tree</td>
+<td>Current category should be displayed if there is a sub-category.<br>If there isn&rsquo;t sub-category parent category should be displayed</td>
+</tr>
+</tbody>
+</table>
+
 
     </article>
 
@@ -605,7 +669,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.a22d03485b37e17897664095a314e114df9f21589be8fd78a255126312444da3.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.59b24f2a0dcf158e56612c6e72550653d072fce1c5405520f57f463baed56c94.js"></script>
 
 
 
