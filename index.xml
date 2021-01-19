@@ -348,6 +348,15 @@ Steps    Step Description Expected result     Go to FO and click on a product FO
     </item>
     
     <item>
+      <title>Check the stat of best customer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/check-the-stat-of-best-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/check-the-stat-of-best-customer/</guid>
+      <description>🚧 Work in progress 🚧</description>
+    </item>
+    
+    <item>
       <title>Choose a payment method</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/payment/choose-a-payment-method/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2296,7 +2305,7 @@ Steps    Step Description Expected result     Go to the &amp;ldquo;Orders &amp;g
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shipping/preferences/handling/</guid>
-      <description>Steps Aller dans l&amp;rsquo;onglet translations et ajouter une langue</description>
+      <description>🚧 Work in progress 🚧</description>
     </item>
     
     <item>
@@ -3116,6 +3125,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       <description>Preconditions The module should be installed with the previous version
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
 L&amp;rsquo;action Upgrade sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search statsbestcustomers The module page should be displayed and module statsbestcustomers should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -5841,6 +5860,16 @@ L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo;
     
     <item>
       <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search statsbestcustomers The module page should be displayed and module statsbestcustomers should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search statsbestcustomers The module catalog page should be displayed and module statsbestcustomers should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;statsbestcustomers&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
       <link>https://build.prestashop.com/test-scenarios/modules/statsvisits/uninstall-install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -6503,19 +6532,6 @@ Expected result Tout les filtres sont supprimés et tout les produits sont maint
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/configure-the-minimum-quantity-for-out-of-stock/</guid>
       <description>🚧 Work in progress 🚧</description>
-    </item>
-    
-    <item>
-      <title>Consult order history</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/consult-order-history/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/user-account/consult-order-history/</guid>
-      <description>Preconditions Etre connecté
-Etre sur le FO
-Steps Dans le header clicker sur nom de l&amp;rsquo;utilisateur =&amp;gt; redirection vers la page &amp;ldquo;account&amp;rdquo;
-Clicker sur le bouton &amp;ldquo;Order history and details&amp;rdquo; =&amp;gt; redirection vers l&amp;rsquo;historique des commandes
-Expected result La liste des commandes de l&amp;rsquo;utilisateur est affichée</description>
     </item>
     
     <item>
@@ -8343,6 +8359,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       <description>Preconditions The module should be installed
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
 L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search statsbestcustomers The module page should be displayed and module statsbestcustomers should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
