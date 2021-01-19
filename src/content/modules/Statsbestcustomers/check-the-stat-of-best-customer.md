@@ -1,5 +1,5 @@
 ---
-title: Handling
+title: Check the stat of best customer
 weight: 1
 ---
 <div style="text-align: center; font-size:2.5em;margin: 200px;">🚧 Work in progress 🚧</div>
