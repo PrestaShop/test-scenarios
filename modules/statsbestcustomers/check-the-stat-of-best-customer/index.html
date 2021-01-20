@@ -159,6 +159,21 @@
             <li>
             
                 <span class="flex">
+                    <a href="/test-scenarios/modules/00-generic-pr-test/" class="gdoc-nav__entry ">
+                        00 - Generic PR test
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+            
+            <li>
+            
+                <span class="flex">
                     <a href="/test-scenarios/modules/blockreassurance/" class="gdoc-nav__entry ">
                         blockreassurance
                     </a>
@@ -572,7 +587,33 @@
     
 
 
-<div style="text-align: center; font-size:2.5em;margin: 200px;">🚧 Work in progress 🚧</div>
+<div class="gdoc-page__anchorwrap"><h2 id="preconditions">Preconditions<a data-clipboard-text="https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/check-the-stat-of-best-customer/#preconditions" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Preconditions" href="#preconditions"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<p>The shop should have at least 2/3 customers with order in payment accepted<br>
+Module should be upgraded to the last version</p>
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/check-the-stat-of-best-customer/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to admin -&gt; statistic -&gt; best customers tab</td>
+<td>Best customers tab should be display</td>
+</tr>
+<tr>
+<td>Compare the data in this page with the order page</td>
+<td>Should be correct</td>
+</tr>
+<tr>
+<td>Delete the ps_connection table in database</td>
+<td>Information is still in tab best customer</td>
+</tr>
+</tbody>
+</table>
+
 
     </article>
 
@@ -620,7 +661,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.32705074f477de24b576a1690a8f01a110ec7dced9fbc30c6a8303620bb7df03.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.5fa1f4a9bd7fd0381c077fb43a4e5427a15b10b9c507ca20534495eb30bf9325.js"></script>
 
 
 

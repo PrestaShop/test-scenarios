@@ -353,7 +353,9 @@ Steps    Step Description Expected result     Go to FO and click on a product FO
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/modules/statsbestcustomers/check-the-stat-of-best-customer/</guid>
-      <description>🚧 Work in progress 🚧</description>
+      <description>Preconditions The shop should have at least 2/3 customers with order in payment accepted
+Module should be upgraded to the last version
+Steps    Step Description Expected result     Go to admin -&amp;gt; statistic -&amp;gt; best customers tab Best customers tab should be display   Compare the data in this page with the order page Should be correct   Delete the ps_connection table in database Information is still in tab best customer    </description>
     </item>
     
     <item>
@@ -2279,6 +2281,15 @@ Steps    Step Description Expected result     Go to the &amp;ldquo;Orders &amp;g
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
 Steps    Step Description Expected result     Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the fisrt order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Go to the second order page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; The status is changed successfully   Go to the &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; page Invoices page is displayed correctly   Generate PDF file by date and check the file existence The pdf file is generated successfylly   Check the error message when there is no invoice in the entered date The error message is displayed successfully</description>
+    </item>
+    
+    <item>
+      <title>Generic Test Cases</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/00-generic-pr-test/generic-test-cases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/00-generic-pr-test/generic-test-cases/</guid>
+      <description>🚧 Work in progress 🚧</description>
     </item>
     
     <item>
