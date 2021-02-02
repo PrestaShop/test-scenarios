@@ -207,6 +207,19 @@ Steps    Step Description Expected result     Click on the first color (icon col
     </item>
     
     <item>
+      <title>Change message for customer</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_dataprivacy/change-message-for-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_dataprivacy/change-message-for-customer/</guid>
+      <description>Preconditions Go to back office -&amp;gt; Modules -&amp;gt; Module manager
+Search ps_dataprivacy
+The module should be installed and upgraded to the last version
+Click on Configure
+Steps    Step Description Expected result     Change text, add some special character and some style (bold&amp;hellip;) and save New text should be saved   Change the language and change text. Save the new change New text should be saved   Go to Front office Open the account creation page New message should be displayed   Change language in BO New message should be displayed using the new language   Fill the form save without mark the ps_dataprivacy checkbox Message should be displayed asking for customer to mark the checkbox   Mark the checkbox and save Account should be created    </description>
+    </item>
+    
+    <item>
       <title>Change quantity</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/cart/cart/change-quantity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2985,6 +2998,16 @@ Constater dans le FO que le module est bien greffer sous le bloc de partage de r
     </item>
     
     <item>
+      <title>Uninstall/Install a module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/uninstall-install-a-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/uninstall-install-a-module/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Design -&amp;gt; Theme &amp;amp; logo -&amp;gt; configuration page The configuration page should be displayed   The module page should be displayed and module ps_themecusto should appear in the module page A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled   Click on install A message should appear in green to indicate that the module is installed and module should be install    </description>
+    </item>
+    
+    <item>
       <title>Update number of product displayed on FO (TODO)</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-8-x/test-cases/bo/shop-parameters/product-setting/pagination-setting/update-number-of-product-displayed-on-fo-todo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3100,6 +3123,16 @@ L&amp;rsquo;action Upgrade sur le module ps_customtext a réussi.&amp;rdquo; sho
     
     <item>
       <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_dataprivacy/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_dataprivacy/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_dataprivacy The module page should be displayed and module ps_dataprivacy should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/upgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -3136,6 +3169,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       <description>Preconditions The module should be installed with the previous version
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
 L&amp;rsquo;action Upgrade sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_themecusto The module page should be displayed and module ps_themecusto should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -5528,6 +5571,16 @@ Expected result Les produit proposé correspondent a la recherche et lors de la 
     </item>
     
     <item>
+      <title>Select a bloc in the picture &amp; Configure a module</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/select-a-bloc-in-the-picture-configure-a-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/select-a-bloc-in-the-picture-configure-a-module/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Select a bloc in the picture menu in the right should open the right bloc   Click on configure The module configuration should open    </description>
+    </item>
+    
+    <item>
       <title>Sign in</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/fo/checkout/personal-information/sign-in/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5831,6 +5884,16 @@ L&amp;rsquo;action Uninstall sur le module ps_customtext a réussi.&amp;rdquo; s
     
     <item>
       <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_dataprivacy/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_dataprivacy/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_dataprivacy The module page should be displayed and module ps_dataprivacy should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_dataprivacy The module catalog page should be displayed and module ps_dataprivacy should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_dataprivacy&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/uninstall-install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -5867,6 +5930,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       <description>Preconditions The module should be installed
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
 L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_shoppingcart The module catalog page should be displayed and module ps_shoppingcart should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_themecusto The module page should be displayed and module ps_themecusto should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_themecusto The module catalog page should be displayed and module ps_themecusto should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_themecusto&amp;rdquo; The module should be displayed    </description>
     </item>
     
     <item>
@@ -8334,6 +8407,16 @@ L&amp;rsquo;action Uninstall sur le module ps_customtext a réussi.&amp;rdquo; s
     
     <item>
       <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_dataprivacy/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_dataprivacy/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_dataprivacy The module page should be displayed and module ps_dataprivacy should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_emailalerts/uninstall-and-delete/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -8370,6 +8453,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       <description>Preconditions The module should be installed
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
 L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_themecusto/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_themecusto The module page should be displayed and module ps_themecusto should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
