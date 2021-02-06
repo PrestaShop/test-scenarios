@@ -180,6 +180,15 @@ Expected result The module shouldn&amp;rsquo;t be in the list of install module 
     </item>
     
     <item>
+      <title>Change banner</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_banner/change-banner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_banner/change-banner/</guid>
+      <description>🚧 Work in progress 🚧</description>
+    </item>
+    
+    <item>
       <title>Change category root option</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/change-category-root-option/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3050,6 +3059,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
     
     <item>
       <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_banner/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_banner/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/upgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -5818,6 +5837,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
     
     <item>
       <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_banner/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_banner/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_banner The module catalog page should be displayed and module ps_banner should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_banner&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_categorytree/uninstall-install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -8337,6 +8366,16 @@ L&amp;rsquo;action Uninstall sur le module contactform a réussi.&amp;rdquo; sho
       <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search productcomments The module page should be displayed and module productcomments should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_banner/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_banner/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
