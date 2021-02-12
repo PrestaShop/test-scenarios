@@ -542,6 +542,15 @@ Expected result La liste des commandes de l&amp;rsquo;utilisateur est affichée<
     </item>
     
     <item>
+      <title>Create a bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_linklist/create-a-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_linklist/create-a-bloc/</guid>
+      <description>🚧 Work in progress 🚧</description>
+    </item>
+    
+    <item>
       <title>Create a list</title>
       <link>https://build.prestashop.com/test-scenarios/modules/blockwishlist/create-a-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3172,6 +3181,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
     
     <item>
       <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_linklist/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_linklist/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_linklist The module page should be displayed and module ps_linklist should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/upgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -4512,6 +4531,15 @@ Steps    Step Description Expected result     Go to import page Page name is &am
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
 Steps    Step Description Expected result     Go to import page Page name is &amp;lsquo;Import&amp;rsquo;   Download &amp;lsquo;categories_import&amp;rsquo; file The file contain the text &amp;lsquo;Category ID;Active (0/1);Name *;Parent category;Root category (0/1);Description;Meta title;Meta keywords;Meta description;URL rewritten;Image URL&amp;rsquo;   Download &amp;lsquo;products_import&amp;rsquo; file The file contain the text &amp;lsquo;Product ID;Active (0/1);Name *;Categories (x,y,z&amp;hellip;);Price tax excluded;Tax rules ID;Wholesale price;On sale (0/1);Discount amount;Discount percent;Discount from (yyyy-mm-dd);Discount to (yyyy-mm-dd);Reference #;Supplier reference #;Supplier;Manufacturer;EAN13;UPC;Ecotax;Width;Height;Depth;Weight;Delivery time of in-stock products;Delivery time of out-of-stock products with allowed&amp;rsquo;   Download &amp;lsquo;combinations_import&amp;rsquo; file The file contain the text &amp;lsquo;Product ID*;Attribute (Name:Type:Position)*;Value (Value:Position)*;Supplier reference;Reference;EAN13;UPC;Wholesale price;Impact on price;Ecotax;Quantity;Minimal quantity;Low stock level;Impact on&amp;rsquo;   Download &amp;lsquo;customers_import&amp;rsquo; file The file contain the text &amp;lsquo;Customer ID;Active (0/1);Titles ID (Mr = 1, Ms = 2, else 0);Email *;Password *;Birthday (yyyy-mm-dd);Last Name *;First Name *;Newsletter (0/1);Opt-in (0/1);Registration date (yyyy-mm-dd);Groups&amp;rsquo;   Download &amp;lsquo;addresses_import&amp;rsquo; file The file contain the text &amp;lsquo;Address ID;Alias*;Active (0/1);Customer e-mail*;Customer ID;Manufacturer;Supplier;Company;Lastname*;Firstname*;Address 1*;Address 2;Zipcode*;City*;Country*;State;Other;Phone;Mobile Phone;VAT number;DNI&amp;rsquo;   Download &amp;lsquo;manufacturers_import&amp;rsquo; file The file contain the text &amp;lsquo;Manufacturer ID;Active (0/1);Name *;Description;Short description;Meta title;Meta keywords;Meta description;Image URL&amp;rsquo;   Download &amp;lsquo;suppliers_import&amp;rsquo; file The file contain the text &amp;lsquo;Supplier ID;Active (0/1);Name *;Description;Short description;Meta title;Meta keywords;Meta description;Image URL&amp;rsquo;   Download &amp;lsquo;alias_import&amp;rsquo; file The file contain the text &amp;lsquo;Alias ID;Alias *;Search *;Active (0/1)&amp;rsquo;   Download &amp;lsquo;store_contacts&amp;rsquo; file The file contain the text &amp;lsquo;Store ID;active;name;address1;address2;postcode;state;city;country;latitude;longitude;phone;fax;email;note;hours;image&amp;rsquo;    </description>
+    </item>
+    
+    <item>
+      <title>Edit a bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_linklist/edit-a-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_linklist/edit-a-bloc/</guid>
+      <description>🚧 Work in progress 🚧</description>
     </item>
     
     <item>
@@ -5952,6 +5980,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
     
     <item>
       <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_linklist/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_linklist/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_linklist The module page should be displayed and module ps_linklist should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_contactinfo The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;</description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
       <link>https://build.prestashop.com/test-scenarios/modules/ps_searchbar/uninstall-install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -6836,6 +6874,15 @@ Page title contains &amp;ldquo;Creating a new Customer&amp;rdquo;   Fill all inf
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/shipping/preferences/default-carrier/</guid>
+      <description>🚧 Work in progress 🚧</description>
+    </item>
+    
+    <item>
+      <title>Delete a bloc</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_linklist/delete-a-bloc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_linklist/delete-a-bloc/</guid>
       <description>🚧 Work in progress 🚧</description>
     </item>
     
@@ -8481,6 +8528,16 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_featuredproducts/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
 Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_featuredproducts The module page should be displayed and module ps_featuredproducts should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_linklist/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_linklist/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_linklist The module page should be displayed and module ps_linklist should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
