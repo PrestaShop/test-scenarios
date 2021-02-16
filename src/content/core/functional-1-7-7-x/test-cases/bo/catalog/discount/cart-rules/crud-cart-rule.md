@@ -34,7 +34,7 @@ Create a cart rule =>\
 2.16.5 Compatibility => nok https://github.com/PrestaShop/PrestaShop/issues/17603\
 2.17 free shipping => nok https://github.com/PrestaShop/PrestaShop/issues/15458\
 2.18 Percent discount =>\
-2.18.1 Order (without shipping) => NOK https://github.com/PrestaShop/PrestaShop/issues/20690 (Regression)\
+2.18.1 Order (without shipping) => OK\
 2.18.2 Specific product => ok\
 2.18.3 Cheapest product => ok\
 2.18.4 Selected product => ok\
