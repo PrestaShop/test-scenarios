@@ -5,6 +5,8 @@ weight: 1
 
 ## Preconditions
 
+Ne peut pas être automatisé parce que c'est lié au Module\
+\
 En BO, Go to theme & logo > Slider > configure\
 Add 3 new pictures\
 \
