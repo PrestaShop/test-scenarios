@@ -10,15 +10,15 @@ Go to the BO and connect with an admin account
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to "Design>Pages" page<br>Pages page is displayed correctly | Pages page is displayed correctly |
-| Reset all filters of Pages table and get number of elements | All filters are reset<br>All pages are displayed |
+| Go to "Design>Pages" page. Pages page is displayed correctly | Pages page is displayed correctly |
+| Reset all filters of Pages table and get number of elements | All filters are reset. All pages are displayed |
 | Go to Add new page page | Add new page is displayed correctly |
-| Fill all information :<br><br>Title : todelete<br>Meta Title : Random<br>Meta description : Random<br>Meta keyword : Random<br>Content : Random<br>Indexation by search engines : Yes<br>Displayed : Yes<br><br>And Save Form | Page is saved correctly |
+| Fill all information : Title : todelete. Meta Title : Random. Meta description : Random. Meta keyword : Random. Content : Random. Indexation by search engines : Yes. Displayed : Yes. And Save Form | Page is saved correctly |
 | Go to Add new page page | Add new page is displayed correctly |
-| Fill all information :<br><br>Title : todelete<br>Meta Title : Random<br>Meta description : Random<br>Meta keyword : Random<br>Content : Random<br>Indexation by search engines : Yes<br>Displayed : Yes<br><br>And Save Form | Page is saved correctly |
-| filter by Title<br>Criteria : "todelete" | Pages list is filtered<br>Pages listed have "todelete" in their name |
+| Fill all information : Title : todelete. Meta Title : Random. Meta description : Random. Meta keyword : Random. Content : Random. Indexation by search engines : Yes. Displayed : Yes. And Save Form | Page is saved correctly |
+| filter by Title. Criteria : "todelete" | Pages list is filtered. Pages listed have "todelete" in their name |
 | Disable pages with Bulk Actions and check Result | Pages are disabled successfully |
 | Enable pages with Bulk Actions and check Result | Pages are enabled successfully |
-| Filter by Title<br>Criteria : "todelete" | Pages list is filtered<br>Pages listed have "todelete" in their name |
+| Filter by Title. Criteria : "todelete" | Pages list is filtered. Pages listed have "todelete" in their name |
 | Delete pages with Bulk Actions and check Result | Pages is deleted successfully |
-| Reset all filters | All filters are reset<br>All pages are displayed |
+| Reset all filters | All filters are reset. All pages are displayed |

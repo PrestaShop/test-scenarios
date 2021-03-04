@@ -9,13 +9,13 @@ Having a working account on the FO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to the Front Office<br>Click on "Sign in"<br>Login | The "Your account" page is displayed |
-| Click on the "Addresses" block<br>Click on "Create a new address" link | The "New address" page is displayed |
-| Fill up the fields:<br>- First name<br>- Last name<br>- Address<br>- Zip/postal code<br>- City<br>Click on "Save" | Address is saved<br>The "Your addresses" page is displayed |
-| Login to BO<br>Go to Customers > Addresses | Customers Addresses page is shown |
+| Go to the Front Office. Click on "Sign in". Login | The "Your account" page is displayed |
+| Click on the "Addresses" block. Click on "Create a new address" link | The "New address" page is displayed |
+| Fill up the fields: First name. Last name. Address. Zip/postal code. City. Click on "Save" | Address is saved. The "Your addresses" page is displayed |
+| Login to BO Go to Customers > Addresses | Customers Addresses page is shown |
 | Click on "Set required fields for this section" | the "Required fields" block appears at the bottom of the page |
 | Check "Vat number" and click "Save" | The field is now marked as "required" |
-| Click on "View my shop" to go to the Front Office<br>Click on "Sign in"<br>Login | The "Your account" page is displayed |
-| Click on the "Addresses" block<br>Click on "Create a new address" link | The "New address" page is displayed |
-| Fill up the fields:<br>- First name<br>- Last name<br>- Address<br>- Zip/postal code<br>- City<br>Click on "Save" | Address is not saved<br>The form displays an error, saying the field "Vat number" must be set |
-| Fill up the Vat number field<br>Click on "Save" | Adress is saved<br>The "Your address" page is displayed |
+| Click on "View my shop" to go to the Front Office. Click on "Sign in". Login | The "Your account" page is displayed |
+| Click on the "Addresses" block. Click on "Create a new address" link | The "New address" page is displayed |
+| Fill up the fields: First name. Last name. Address. Zip/postal code. City. Click on "Save" | Address is not saved. The form displays an error, saying the field "Vat number" must be set |
+| Fill up the Vat number field. Click on "Save" | Adress is saved. The "Your address" page is displayed |

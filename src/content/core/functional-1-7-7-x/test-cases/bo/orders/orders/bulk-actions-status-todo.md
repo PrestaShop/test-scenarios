@@ -10,7 +10,7 @@ Having a shop installed locally
 | Step Description | Expected result |
 | ----- | ----- |
 | Open the FO | The Home page FO is displayed successfully |
-| G to login page and login with the default account <br>login: "pub@prestashio.com"<br>PWD: "123456789" | The customer is logged successfully |
+| G to login page and login with the default account. login: "pub@prestashio.com" PWD: "123456789" | The customer is logged successfully |
 | Add the first product to the cart | There is one product in the cart |
 | Click on "Proceed to checkout" button | The purchase form is displayed correctly |
 | Go to delivery step | The delivery step is displayed correctly |
