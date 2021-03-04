@@ -51,7 +51,7 @@ If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly
       <description>Preconditions Having a customer account NOT logged in
 No custom wishlist created (only the default one)
 Having
- a product with stock a product without stock (stock = 0) a product with a minimum quantity  Steps    Step Description Expected result     Browse through the catalog and open a product page The heart next to the picture is empty   Click on the heart A modal appears, telling you to log in before you can add products to your wishlists</description>
+ a product with stock a product without stock (stock = 0) a product with a minimum quantity  Steps    Step Description Expected result     Browse through the catalog and open a product page The heart next to the picture is empty   Click on the heart A modal appears, telling you to log in before you can add products to your wishlists.</description>
     </item>
     
     <item>
@@ -198,8 +198,7 @@ Expected result The module shouldn&amp;rsquo;t be in the list of install module 
 Search ps_categorytree
 The module should be installed and upgraded to the last version
 Click on Configure
-Steps    Step Description Expected result     Change the root category by &amp;ldquo;Home category&amp;rdquo; and save The option should be saved   Go to FO scrolldown to the bottom click on the link &amp;ldquo;all product&amp;rdquo;.
-See the category tree and navigate.</description>
+Steps    Step Description Expected result     Change the root category by &amp;ldquo;Home category&amp;rdquo; and save The option should be saved   Go to FO scrolldown to the bottom click on the link all product. See the category tree and navigate.</description>
     </item>
     
     <item>
@@ -365,7 +364,7 @@ Expected result Check that the block is install in the left column and display c
       
       <guid>https://build.prestashop.com/test-scenarios/modules/dashtrends/check-the-display-of-the-module-on-the-dashboard/</guid>
       <description>Preconditions Module is installed and activated
-Steps    Step Description Expected result     Activate Demo Mode and browse each tab of the dashboard (&amp;ldquo;Sales&amp;rdquo;, &amp;ldquo;Orders&amp;rdquo;, &amp;ldquo;Cart Value&amp;rdquo;, &amp;ldquo;Visits&amp;rdquo;, Conversion Rate&amp;quot;, &amp;ldquo;Net Profit&amp;rdquo;) The graphs are displayed for each tab, with different numbers in each tab.   Refresh dashboard (new demo values are generated) The numbers and graphs are different   In FO, make some visits and orders with several browser, set some of these orders to &amp;ldquo;Paid&amp;rdquo; in BO.</description>
+Steps    Step Description Expected result     Activate Demo Mode and browse each tab of the dashboard (Sales Orders Cart Value Visits Conversion Rate Net Profit) The graphs are displayed for each tab, with different numbers in each tab.   Refresh dashboard (new demo values are generated) The numbers and graphs are different   In FO make some visits and orders with several browser set some of these orders to &amp;ldquo;Paid&amp;rdquo; in BO.</description>
     </item>
     
     <item>
@@ -568,9 +567,7 @@ Expected result La liste des commandes de l&amp;rsquo;utilisateur est affichée<
       <description>Preconditions Having a working PrestaShop shop
 Module wishlist installed
 NOT being connected as a customer on the frontend
-Steps    Step Description Expected result     Go to the catalog and to a product page
-Click on the heart next to the image to add the product to a list A modal says you need to be connected   Connect as a customer
-Go to the catalog and to a product page</description>
+Steps    Step Description Expected result     Go to the catalog and to a product page. Click on the heart next to the image to add the product to a list A modal says you need to be connected   Connect as a customer. Go to the catalog and to a product page.</description>
     </item>
     
     <item>
@@ -1601,8 +1598,7 @@ Having this element in list :
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/categories/filter-and-quick-edit-categories/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog &amp;gt; Categories&amp;rdquo; page Categories listing is displayed correctly   Reset all filters All filters are reset
-All categories are displayed   Save the number of categories in a variable Number of categories is saved   Filter By id</description>
+Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog &amp;gt; Categories&amp;rdquo; page Categories listing is displayed correctly   Reset all filters All filters are reset. All categories are displayed   Save the number of categories in a variable Number of categories is saved   Filter By id.</description>
     </item>
     
     <item>
@@ -1625,8 +1621,7 @@ All categories are displayed   Save the number of categories in a variable Numbe
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/customers/customers/filter-and-quick-edit-customers/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to the &amp;ldquo;Customers &amp;gt; Customers&amp;rdquo; page Customers listing is displayed correctly   Reset all filters All filters are reset
-All customers are displayed   Save the numbers of customers in a variable Number of customers is saved   Filter By id Criteria : &amp;lsquo;1&amp;rsquo; Customers list is filtered</description>
+Steps    Step Description Expected result     Go to the &amp;ldquo;Customers &amp;gt; Customers&amp;rdquo; page Customers listing is displayed correctly   Reset all filters All filters are reset. All customers are displayed   Save the numbers of customers in a variable Number of customers is saved   Filter By id Criteria : &amp;lsquo;1&amp;rsquo; Customers list is filtered.</description>
     </item>
     
     <item>
@@ -1677,9 +1672,7 @@ email: internet.email(this.firstName, this.lastName, &amp;lsquo;prestashop.com&a
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/design/pages/filter-and-quick-edit-pages/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page Pages page is displayed correctly   Reset all filters All filters are reset
-All pages are displayed   Save the pages number in a variable Number of pages is saved   filter by ID
-Criteria : &amp;ldquo;1&amp;rdquo; Pages list is filtered</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page Pages page is displayed correctly   Reset all filters All filters are reset. All pages are displayed   Save the pages number in a variable Number of pages is saved   filter by ID. Criteria : &amp;ldquo;1&amp;rdquo; Pages list is filtered.</description>
     </item>
     
     <item>
@@ -2255,8 +2248,7 @@ Expected result les filtres , le tri et la pagination doivent fonctionner correc
       
       <guid>https://build.prestashop.com/test-scenarios/modules/welcome/full-onboarding-process/</guid>
       <description>Preconditions Having a fresh install with the module preinstalled
-Steps    Step Description Expected result     Connect in the BO The &amp;ldquo;Welcome to your shop&amp;rdquo; modal appears   Click on &amp;ldquo;Start&amp;rdquo; You are redirected to the New Product page
-A Preston modal asks you to enter a name for your product (Step 1/5)   Enter a name then click on the &amp;ldquo;Next&amp;rdquo; button on the Preston modal The Preston modal moves to the title of the &amp;ldquo;Basic settings&amp;rdquo; tab</description>
+Steps    Step Description Expected result     Connect in the BO The &amp;ldquo;Welcome to your shop&amp;rdquo; modal appears   Click on &amp;ldquo;Start&amp;rdquo; You are redirected to the New Product page. A Preston modal asks you to enter a name for your product (Step 1/5)   Enter a name then click on the &amp;ldquo;Next&amp;rdquo; button on the Preston modal The Preston modal moves to the title of the &amp;ldquo;Basic settings&amp;rdquo; tab.</description>
     </item>
     
     <item>
@@ -2285,8 +2277,7 @@ A Preston modal asks you to enter a name for your product (Step 1/5)   Enter a n
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/orders/delivery-slips/generate-delivery-slip-by-date/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders page is displayed successfully   Open the first order page Order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully
-The delivery slip document is created successfully   Go to &amp;ldquo;Orders &amp;gt; Delivery slips&amp;rdquo; page Delivery slips page is displayed successfully   Click on generate pdf by date The file is downloaded successfully   Enter a future date in From and To fields</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders page is displayed successfully   Open the first order page Order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully. The delivery slip document is created successfully   Go to &amp;ldquo;Orders &amp;gt; Delivery slips&amp;rdquo; page Delivery slips page is displayed successfully   Click on generate pdf by date The file is downloaded successfully   Enter a future date in From and To fields.</description>
     </item>
     
     <item>
@@ -2435,8 +2426,7 @@ Steps    Step Description Expected result     go to localization page page title
       
       <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/installation/</guid>
       <description>Preconditions Having a working installation of PrestaShop
-Steps    Step Description Expected result     Install the zip The module is correctly installed   Uninstall the module The module is correctly uninstalled   Install a previous version of the module
-Update the module The module is correctly updated    </description>
+Steps    Step Description Expected result     Install the zip The module is correctly installed   Uninstall the module The module is correctly uninstalled   Install a previous version of the module. Update the module The module is correctly updated    </description>
     </item>
     
     <item>
@@ -2793,13 +2783,7 @@ Expected result La commande est passée le livreur est sélectionner et est visi
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/customers/addresses/set-and-verify-required-fields/</guid>
       <description>Preconditions Having a working account on the FO
-Steps    Step Description Expected result     Go to the Front Office
-Click on &amp;ldquo;Sign in&amp;rdquo;
-Login The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on the &amp;ldquo;Addresses&amp;rdquo; block
-Click on &amp;ldquo;Create a new address&amp;rdquo; link The &amp;ldquo;New address&amp;rdquo; page is displayed   Fill up the fields:
-- First name
-- Last name
-- Address</description>
+Steps    Step Description Expected result     Go to the Front Office. Click on &amp;ldquo;Sign in&amp;rdquo;. Login The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on the &amp;ldquo;Addresses&amp;rdquo; block. Click on &amp;ldquo;Create a new address&amp;rdquo; link The &amp;ldquo;New address&amp;rdquo; page is displayed   Fill up the fields: First name. Last name. Address. Zip/postal code. City. Click on &amp;ldquo;Save&amp;rdquo; Address is saved.</description>
     </item>
     
     <item>
@@ -3050,8 +3034,7 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Design
       
       <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/upgrade/</guid>
       <description>Preconditions The module should be installed with the previous version
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
-L&amp;rsquo;action Upgrade sur le module blockreassurance a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on upgrade A message in green should be displayed   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -3061,8 +3044,7 @@ L&amp;rsquo;action Upgrade sur le module blockreassurance a réussi.&amp;rdquo; 
       
       <guid>https://build.prestashop.com/test-scenarios/modules/contactform/upgrade/</guid>
       <description>Preconditions The module should be installed with the previous version
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search contactform The module page should be displayed and module contactform should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
-L&amp;rsquo;action Upgrade sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search contactform The module page should be displayed and module contactform should appear in the module page   Click on upgrade A message in green should be displayed   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -3111,8 +3093,7 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/upgrade/</guid>
       <description>Preconditions The module should be installed with the previous version
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
-L&amp;rsquo;action Upgrade sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on upgrade A message should be displayed in green   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -3163,8 +3144,7 @@ L&amp;rsquo;action Upgrade sur le module ps_customersignin a réussi.&amp;rdquo;
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/upgrade/</guid>
       <description>Preconditions The module should be installed with the previous version
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
-L&amp;rsquo;action Upgrade sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on upgrade A message should be displayed in green   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -3223,8 +3203,7 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/upgrade/</guid>
       <description>Preconditions The module should be installed with the previous version
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
-L&amp;rsquo;action Upgrade sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on upgrade A message should be displayed in green   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -3825,9 +3804,7 @@ number of languages = total of languages + 1   go to FO New language exist in li
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/international/locations/countries/crud/</guid>
-      <description>Steps    Step Description Expected result     Scenario 1 : create a zone    Go to bo -&amp;gt; locations -&amp;gt; Zones The Zones page is displayed correctly   Reset all filters All filters are reset
-All zones are displayed   Click on &amp;ldquo;add a new zones&amp;rdquo; New Zone Page is displayed correctly   Fill all information :
-Name : Zone test</description>
+      <description>Steps    Step Description Expected result     Scenario 1 : create a zone    Go to bo -&amp;gt; locations -&amp;gt; Zones The Zones page is displayed correctly   Reset all filters All filters are reset. All zones are displayed   Click on &amp;ldquo;add a new zones&amp;rdquo; New Zone Page is displayed correctly   Fill all information :Name : Zone test. Enable : Yes.</description>
     </item>
     
     <item>
@@ -4101,12 +4078,7 @@ Expected result Le CRUD doit fonctionner correctement</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/catalog/categories/crud-categories-and-subcategories/</guid>
-      <description>Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog &amp;gt; Categories&amp;rdquo; page The Categories page is displayed correctly   Reset all filters All filters are reset
-All Categories are displayed   Click on &amp;ldquo;Add new category&amp;rdquo; New Category Page is displayed correctly
-Page title contains &amp;ldquo;Add new&amp;rdquo;   Fill all information :
-Name : Random
-Displayed : Yes
-Parent category : Random Description : Random</description>
+      <description>Steps    Step Description Expected result     Go to the &amp;ldquo;Catalog &amp;gt; Categories&amp;rdquo; page The Categories page is displayed correctly   Reset all filters All filters are reset. All Categories are displayed   Click on &amp;ldquo;Add new category&amp;rdquo; New Category Page is displayed correctly. Page title contains &amp;ldquo;Add new&amp;rdquo;   Fill all information : Name : Random Displayed : Yes Parent category : Random Description : Random Category cover image : image Category thumbnail : image Menu thumbnails : image Meta title : Random Friendly URL : NewCategory Group Access : All And Save Form Category is saved correctly.</description>
     </item>
     
     <item>
@@ -4153,9 +4125,7 @@ Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/customers/customers/crud-customer-in-bo/</guid>
-      <description>Steps    Step Description Expected result     Go to the &amp;ldquo;Customers &amp;gt; Customers&amp;rdquo; page The Customers page is displayed correctly   Reset all filters All filters are reset
-All products are displayed   Click on &amp;ldquo;Add new customer&amp;rdquo; New Customer Page is displayed correctly
-Page title contains &amp;ldquo;Creating a new Customer&amp;rdquo;   Fill all information : &amp;gt; Social title : Mrs / Mrs</description>
+      <description>Steps    Step Description Expected result     Go to the &amp;ldquo;Customers &amp;gt; Customers&amp;rdquo; page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Click on &amp;ldquo;Add new customer&amp;rdquo; New Customer Page is displayed correctly. Page title contains &amp;ldquo;Creating a new Customer&amp;rdquo;   Fill all information : Social title : Mrs / Mrs. First name : Random.</description>
     </item>
     
     <item>
@@ -4439,7 +4409,7 @@ Steps    Step Description Expected result     Click on the switch button to disa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/modules/dashtrends/disable-enable-reset-uninstall-upload-and-upgrade-module/</guid>
-      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager, disable the dashtrends module. Go to Dashboard page The module is no longer displayed   Go to BO &amp;gt; Modules &amp;gt; Module Manager, enable the dashtrends module. Go to Dashboard page The module is displayed, with data and graphs.   Go to BO &amp;gt; Modules &amp;gt; Module Manager, reset the dashtrends module.</description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager disable the dashtrends module. Go to Dashboard page The module is no longer displayed   Go to BO &amp;gt; Modules &amp;gt; Module Manager enable the dashtrends module. Go to Dashboard page The module is displayed with data and graphs.   Go to BO &amp;gt; Modules &amp;gt; Module Manager reset the dashtrends module.</description>
     </item>
     
     <item>
@@ -4568,10 +4538,7 @@ Steps    Step Description Expected result     Go to import page Page name is &am
       <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-a-list/</guid>
       <description>Preconditions Being connected as a customer
 Having a second list in the wishlist list
-Steps    Step Description Expected result     Go to your account
-Click on the &amp;ldquo;Wishlist&amp;rdquo; block
-Check the lists All the list have 2 buttons on the right: 3 little dots AND a garbage can
-The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the 3 dots in front of a custom list A small popin appears</description>
+Steps    Step Description Expected result     Go to your account. Click on the &amp;ldquo;Wishlist&amp;rdquo; block. Check the lists All the list have 2 buttons on the right: 3 little dots AND a garbage can. The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the 3 dots in front of a custom list A small popin appears.</description>
     </item>
     
     <item>
@@ -4582,8 +4549,7 @@ The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the 3
       <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/edit-and-delete-products-in-a-list/</guid>
       <description>Preconditions Having passed [C1658]
 Being logged in with the customer account specified
-Steps    Step Description Expected result     Go to the customer wishlist page Wishlists are displayed
-The number associated (in brackets) represents the number of unique items in a list   Select the custom wishlist You get all the products added in the [C1658] test   Click on the garbage can for the single product with stock A modal appears asking you to confirm the deletion   Confirm the deletion The product is removed from the list   Click on the picture of the single product without stock You are redirected to the product page</description>
+Steps    Step Description Expected result     Go to the customer wishlist page Wishlists are displayed. The number associated (in brackets) represents the number of unique items in a list   Select the custom wishlist You get all the products added in the previous test   Click on the garbage can for the single product with stock A modal appears asking you to confirm the deletion   Confirm the deletion The product is removed from the list   Click on the picture of the single product without stock You are redirected to the product page.</description>
     </item>
     
     <item>
@@ -4663,9 +4629,7 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO brands link page 
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/orders/invoices/invoice-options/enable-disable-tax-breakdown/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; page Invoices page is displayed successfully   Enable tax breakdown and save the form The tax breakdown is enabled successfully
-The validation message is displayed successfully
-&amp;ldquo;Update successful&amp;rdquo;   Go to &amp;ldquo;International &amp;gt; taxes&amp;rdquo; page Taxes page is displayed successfully   Go to &amp;ldquo;Tax rules&amp;rdquo; page The tax rules page is displayed successfully   Create new tax rule group</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; page Invoices page is displayed successfully   Enable tax breakdown and save the form The tax breakdown is enabled successfully. The validation message is displayed successfully &amp;ldquo;Update successful&amp;rdquo;   Go to &amp;ldquo;International &amp;gt; taxes&amp;rdquo; page Taxes page is displayed successfully   Go to &amp;ldquo;Tax rules&amp;rdquo; page The tax rules page is displayed successfully   Create new tax rule group.</description>
     </item>
     
     <item>
@@ -4896,10 +4860,7 @@ number of order messages = Total of orders messages + 1   Go to create new order
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/design/pages/filter-and-quick-edit-categories/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page	Pages page is displayed correctly Pages page is displayed correctly   Go to Add new page category Add new page category is displayed correctly   Fill all information :
-Name : Random
-Description : Random
-Displayed : Yes</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page. Pages page is displayed correctly Pages page is displayed correctly   Go to Add new page category Add new page category is displayed correctly   Fill all information : Name : Random. Description : Random. Displayed : Yes And Save Form Category saved successfully   Go back to Categories list Categories list is displayed correctly   Fill all information : Name : Random.</description>
     </item>
     
     <item>
@@ -5167,7 +5128,7 @@ Steps    Step Description Expected result     Open the FO page The home page is 
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/orders/invoices/generate-invoice-by-status/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the fisrt order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Go to the second order page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; The status is changed successfully   Go to the &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; page Invoices page is displayed correctly   Click on Generate invoice by status and check the error message The error message is displayed successfully</description>
+Steps    Step Description Expected result     Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the fisrt order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Go to the second order page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; The status is changed successfully   Go to the &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; page Invoices page is displayed correctly   Click on Generate invoice by status and check the error message The error message is displayed successfully &amp;ldquo;No invoice has been found for this status.</description>
     </item>
     
     <item>
@@ -5378,9 +5339,7 @@ Steps    Step Description Expected result     Click on &amp;ldquo;forgot my pass
       
       <guid>https://build.prestashop.com/test-scenarios/modules/welcome/pausing-and-resetting-the-module/</guid>
       <description>Preconditions Having a shop installed and ready
-Steps    Step Description Expected result     Connect in the BO The &amp;ldquo;Welcome to your shop&amp;rdquo; modal appears   Click on &amp;ldquo;Later&amp;rdquo; The modal disappears
-A small modal appears on the bottom left &amp;ldquo;Launch your shop&amp;rdquo;
-The percent is at 0   Refresh the page The bottom left modal is still here   Click on the &amp;ldquo;RESUME&amp;rdquo; button on the bottom left modal The big centered modal reappers   Click on &amp;ldquo;Start&amp;rdquo; and follow a few steps</description>
+Steps    Step Description Expected result     Connect in the BO The &amp;ldquo;Welcome to your shop&amp;rdquo; modal appears   Click on &amp;ldquo;Later&amp;rdquo; The modal disappears. A small modal appears on the bottom left &amp;ldquo;Launch your shop&amp;rdquo;. The percent is at 0   Refresh the page The bottom left modal is still here   Click on the &amp;ldquo;RESUME&amp;rdquo; button on the bottom left modal The big centered modal reappers   Click on &amp;ldquo;Start&amp;rdquo; and follow a few steps.</description>
     </item>
     
     <item>
@@ -5471,10 +5430,7 @@ Expected result Tout est en ordre</description>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/quick-access/</guid>
       <description>Preconditions Login to BO
-Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list
-Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed
-Option to remove this page is removed in the Quick Access menu   Refresh the page
-Open the Quick Access menu Link is now absent in the list   Click on &amp;ldquo;Add current page to Quick Access&amp;rdquo;</description>
+Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed. Option to remove this page is removed in the Quick Access menu   Refresh the page. Open the Quick Access menu Link is now absent in the list   Click on &amp;ldquo;Add current page to Quick Access&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -5860,8 +5816,7 @@ Steps    Step Description Expected result     Go to products page Page title con
       
       <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/uninstall-install/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module blockreassurance a réussi.</description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message in green should be displayed   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search blockreassurance The module catalog page should be displayed and module block reassurance should appear in the module page   Click on install A message in green should be displayed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;blockreassurance&amp;rdquo; The module should be displayed    </description>
     </item>
     
     <item>
@@ -5871,8 +5826,7 @@ L&amp;rsquo;action Uninstall sur le module blockreassurance a réussi.</descript
       
       <guid>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-install/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search contactform The module page should be displayed and module contactform should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search contactform The module catalog page should be displayed and module contactform should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search contactform The module page should be displayed and module contactform should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message in green should be displayed   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search contactform The module catalog page should be displayed and module contactform should appear in the module page   Click on install A message in green should be displayed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;contactform&amp;rdquo; The module should be displayed    </description>
     </item>
     
     <item>
@@ -5921,8 +5875,7 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-install/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_checkpayment The module catalog page should be displayed and module ps_checkpayment should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should be displayed in green   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_checkpayment The module catalog page should be displayed and module ps_checkpayment should appear in the module page   Click on install A message should be displayed in green   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_checkpayment&amp;rdquo; The module should be displayed    </description>
     </item>
     
     <item>
@@ -5973,8 +5926,7 @@ L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdqu
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-install/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_customtext The module catalog page should be displayed and module ps_customtext should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should be displayed in green   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_customtext The module catalog page should be displayed and module ps_customtext should appear in the module page   Click on install A message should be displayed in green   Go to Modules -&amp;gt; Module manager and search ps_customtext The module should be displayed    </description>
     </item>
     
     <item>
@@ -6014,7 +5966,7 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_linklist/uninstall-install/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_linklist The module page should be displayed and module ps_linklist should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_contactinfo The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;</description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_linklist The module page should be displayed and module ps_linklist should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_contactinfo The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search ps_linklist The module should be displayed    </description>
     </item>
     
     <item>
@@ -6033,8 +5985,7 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-install/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_shoppingcart The module catalog page should be displayed and module ps_shoppingcart should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should be displayed in green   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_shoppingcart The module catalog page should be displayed and module ps_shoppingcart should appear in the module page   Click on install A message should be displayed in green   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_shoppingcart&amp;rdquo; The module should be displayed    </description>
     </item>
     
     <item>
@@ -6224,11 +6175,8 @@ Expected result Une seconde adresse est créer pour la facture</description>
       <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/wording-and-statistics/</guid>
       <description>Preconditions Having a working PrestaShop shop
 At least 2 languages activated
-Steps    Step Description Expected result     Login in the backoffice
-Go to the module&amp;rsquo;s settings page
-Click on the &amp;ldquo;Configuration&amp;rdquo; tab Settings page is displayed correctly   Change every wording for every language
-Save Settings are saved successfully   Go to the front office and check all the wordings:
-- name of the wishlit</description>
+Steps    Step Description Expected result     Login in the backoffice. Go to the module&amp;rsquo;s settings page. Click on the &amp;ldquo;Configuration&amp;rdquo; tab Settings page is displayed correctly   Change every wording for every language
+Save Settings are saved successfully   Go to the front office and check all the wordings : name of the wishlist.</description>
     </item>
     
     <item>
@@ -7063,8 +7011,7 @@ Expected result La facture est téléchargée au format pdf et elle contient tou
 Search blockreassurance
 The module should be installed and upgraded to the last version
 Click on Configure
-Steps    Step Description Expected result     Click on the edit button The edition page of the module should appear   Change title and description of the first language install
-Change title and description of the second language install</description>
+Steps    Step Description Expected result     Click on the edit button The edition page of the module should appear   Change title and description of the first language install. Change title and description of the second language install and Save the change A message should appear.</description>
     </item>
     
     <item>
@@ -8177,10 +8124,7 @@ Expected result Le message est visible en BO</description>
       <guid>https://build.prestashop.com/test-scenarios/modules/blockwishlist/share-a-list/</guid>
       <description>Preconditions Being connected as a customer
 Having a second list in the wishlist list
-Steps    Step Description Expected result     Go to your account
-Click on the &amp;ldquo;Wishlist&amp;rdquo; block
-Check the lists All the list have 2 buttons on the right: 3 little dots AND a garbage can
-The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the &amp;ldquo;share&amp;rdquo; button for the default list A modal appears with the share link You can either click on the &amp;ldquo;Cancel&amp;rdquo; button to close the modal or the &amp;ldquo;Copy link&amp;rdquo; to copy the link in the clipboard   Click on the &amp;ldquo;Copy link&amp;rdquo; button</description>
+Steps    Step Description Expected result     Go to your account. Click on the &amp;ldquo;Wishlist&amp;rdquo; block. Check the lists All the list have 2 buttons on the right: 3 little dots AND a garbage can. The default list only have a &amp;ldquo;share&amp;rdquo; button   Click on the &amp;ldquo;share&amp;rdquo; button for the default list A modal appears with the share link.</description>
     </item>
     
     <item>
@@ -8421,8 +8365,7 @@ Steps    Step Description Expected result     Go to &amp;lsquo;Advanced paramete
       
       <guid>https://build.prestashop.com/test-scenarios/modules/blockreassurance/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module blockreassurance a réussi.</description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message in green should be displayed   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
@@ -8432,8 +8375,7 @@ L&amp;rsquo;action Uninstall sur le module blockreassurance a réussi.</descript
       
       <guid>https://build.prestashop.com/test-scenarios/modules/contactform/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search contactform The module page should be displayed and module contactform should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module contactform a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search contactform The module page should be displayed and module contactform should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message in green should be displayed   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
@@ -8482,8 +8424,7 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_checkpayment/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module ps_checkpayment a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_checkpayment The module page should be displayed and module ps_checkpayment should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should be displayed in green   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
@@ -8534,8 +8475,7 @@ L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdqu
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_customtext/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module ps_customtext a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_customtext The module page should be displayed and module ps_customtext should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should be displayed in green   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
@@ -8594,8 +8534,7 @@ Steps    Step Description Expected result     Go to back office -&amp;gt; Module
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should be displayed in green   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
     <item>
@@ -9497,8 +9436,7 @@ CRUD on both Features and Features Values</description>
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/debug-mode/</guid>
       <description>Preconditions Login to BO
 Shop MUST BE in debug mode
-Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory (src/PrestaShopBundle/Controller/Admin/Sell/Order/) and edit the file &amp;ldquo;OrderController.php&amp;rdquo;.
-Change the value of the $orderKpiFactory variable.</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory (src/PrestaShopBundle/Controller/Admin/Sell/Order/) and edit the file&amp;quot;OrderController.php&amp;quot; Change the value of the $orderKpiFactory variable. Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO An exception is displayed   Fix the file and go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO The page works fine    </description>
     </item>
     
     <item>
@@ -11175,9 +11113,7 @@ Expected result Lors du clic =&amp;gt; redirection vers la page de contact, cert
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/design/pages/crud-page-category/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page
-Pages page is displayed correctly Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset
-All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information :</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page. Pages page is displayed correctly Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information : Name : Random.</description>
     </item>
     
     <item>
@@ -11564,9 +11500,7 @@ Go to FO to this product page, see if the message is displayed in the language y
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/maintenance-mode/</guid>
       <description>Preconditions Login to BO
-Steps    Step Description Expected result     Go to &amp;ldquo;Shop Parameters &amp;gt; General &amp;gt; Maintenance&amp;rdquo; tab The maintenance page is displayed   Edit the maintenance text for all languages and activate the maintenance mode
-Click on &amp;ldquo;Save&amp;rdquo; Settings are saved
-A new message &amp;ldquo;Maintenance mode&amp;rdquo; is displayed at the top of the page   Click on &amp;ldquo;View my shop&amp;rdquo; Maintenance mode message is displayed   Change the language in the URL and chack for every language the maintenance message is set up for Maintenance mode message is displayed correctly   In the BO, add the tester IP by clicking on the &amp;ldquo;Add my IP&amp;rdquo; button then clicking &amp;ldquo;Save&amp;rdquo; Settings are saved   Refresh the FO The shop is displayed without maintenance message   In the BO, disable the maintenance mode</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Shop Parameters &amp;gt; General &amp;gt; Maintenance&amp;rdquo; tab The maintenance page is displayed   Edit the maintenance text for all languages and activate the maintenance mode. Click on &amp;ldquo;Save&amp;rdquo; Settings are saved. A new message &amp;ldquo;Maintenance mode&amp;rdquo; is displayed at the top of the page   Click on &amp;ldquo;View my shop&amp;rdquo; Maintenance mode message is displayed   Change the language in the URL and chack for every language the maintenance message is set up for Maintenance mode message is displayed correctly   In the BO, add the tester IP by clicking on the &amp;ldquo;Add my IP&amp;rdquo; button then clicking &amp;ldquo;Save&amp;rdquo; Settings are saved   Refresh the FO The shop is displayed without maintenance message   In the BO, disable the maintenance mode.</description>
     </item>
     
     <item>
@@ -11819,12 +11753,7 @@ constater que les images apparaissent bien</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/customers/customers/set-and-verify-required-fields/</guid>
-      <description>Steps    Step Description Expected result     Go to the Front Office
-Click on &amp;ldquo;Sign in&amp;rdquo;
-Click on &amp;ldquo;No account ? Create one here&amp;rdquo; The &amp;ldquo;Create an account&amp;rdquo; page is displayed   Create an account with random informations
-Leave the checkbox &amp;ldquo;Receive offers from our partners&amp;rdquo; UNCHECKED
-Click on &amp;ldquo;Save&amp;rdquo; The account is successfully created
-You are redirected on the homepage, logged in   Login to BO</description>
+      <description>Steps    Step Description Expected result     Go to the Front Office. Click on &amp;ldquo;Sign in&amp;rdquo;. Click on &amp;ldquo;No account ? Create one here&amp;rdquo; The &amp;ldquo;Create an account&amp;rdquo; page is displayed   Create an account with random informations. Leave the checkbox &amp;ldquo;Receive offers from our partners&amp;rdquo; UNCHECKED. Click on &amp;ldquo;Save&amp;rdquo; The account is successfully created. You are redirected on the homepage, logged in   Login to BO.</description>
     </item>
     
     <item>
@@ -12115,9 +12044,7 @@ address : streetAddress from faker</description>
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/design/pages/categories-bulk-actions-in-bo/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page
-Pages page is displayed correctly Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset
-All categories are displayed   Go to Add new page category page Add new page category page is displayed correctly   Fill all information :</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page. Pages page is displayed correctly Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category page is displayed correctly   Fill all information : Name : todelete.</description>
     </item>
     
     <item>
@@ -13605,9 +13532,7 @@ Open an order The order details page is displayed   Send a message regarding an 
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/design/pages/pages-bulk-actions-in-bo/</guid>
       <description>Preconditions Having a shop installed locally
 Go to the BO and connect with an admin account
-Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page
-Pages page is displayed correctly Pages page is displayed correctly   Reset all filters of Pages table and get number of elements All filters are reset
-All pages are displayed   Go to Add new page page Add new page is displayed correctly   Fill all information :</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Design&amp;gt;Pages&amp;rdquo; page. Pages page is displayed correctly Pages page is displayed correctly   Reset all filters of Pages table and get number of elements All filters are reset. All pages are displayed   Go to Add new page page Add new page is displayed correctly   Fill all information : Title : todelete.</description>
     </item>
     
     <item>
@@ -14709,13 +14634,7 @@ Expected result La modification du schéma de l&amp;rsquo;url à ajouter la réf
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/customers/customers/view-customer/</guid>
-      <description>Steps    Step Description Expected result     Go to the &amp;ldquo;Customers &amp;gt; Customers&amp;rdquo; page The Customers page is displayed correctly   Reset all filters All filters are reset
-All products are displayed   Fill all information :
-Social title : Mrs / Mrs
-First name : Random
-Last name : Random
-Email : firstName.lastName@prestashop.com
-Birthday Year : Random integer between 1950 and 2000</description>
+      <description>Steps    Step Description Expected result     Go to the &amp;ldquo;Customers &amp;gt; Customers&amp;rdquo; page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : firstName.lastName@prestashop.com. Birthday Year : Random integer between 1950 and 2000. Birthday Month : Random integer between 1 and 12.</description>
     </item>
     
     <item>
@@ -14771,8 +14690,7 @@ With registered customer and non registered customer</description>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/orders/orders/bulk-actions-status-todo/</guid>
       <description>Preconditions Having a shop installed locally
-Steps    Step Description Expected result     Open the FO The Home page FO is displayed successfully   G to login page and login with the default account login: &amp;ldquo;pub@prestashio.com&amp;rdquo;
-PWD: &amp;ldquo;123456789&amp;rdquo; The customer is logged successfully   Add the first product to the cart There is one product in the cart   Click on &amp;ldquo;Proceed to checkout&amp;rdquo; button The purchase form is displayed correctly   Go to delivery step The delivery step is displayed correctly   Go to the payment step The payment step is displayed correctly   Choose the payment method and confirm the order The confirmation page is displayed correctly   Go to Home page The Home page FO is displayed successfully   Add the first product to the cart There is one product in the cart   Click on &amp;ldquo;Proceed to checkout&amp;rdquo; button The purchase form is displayed correctly   Go to delivery step The delivery step is displayed correctly   Go to the payment step The payment step is displayed correctly   Choose the payment method and confirm the order The confirmation page is displayed correctly   Sign out from FO The customer is disconnected successfully   Go to the BO and connect with an admin account The admin is connected successfully   Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Select the first and second order from list and update statuses with bulk actions to payment accepted The order status is changed successfully    </description>
+Steps    Step Description Expected result     Open the FO The Home page FO is displayed successfully   G to login page and login with the default account. login: &amp;ldquo;pub@prestashio.com&amp;rdquo; PWD: &amp;ldquo;123456789&amp;rdquo; The customer is logged successfully   Add the first product to the cart There is one product in the cart   Click on &amp;ldquo;Proceed to checkout&amp;rdquo; button The purchase form is displayed correctly   Go to delivery step The delivery step is displayed correctly   Go to the payment step The payment step is displayed correctly   Choose the payment method and confirm the order The confirmation page is displayed correctly   Go to Home page The Home page FO is displayed successfully   Add the first product to the cart There is one product in the cart   Click on &amp;ldquo;Proceed to checkout&amp;rdquo; button The purchase form is displayed correctly   Go to delivery step The delivery step is displayed correctly   Go to the payment step The payment step is displayed correctly   Choose the payment method and confirm the order The confirmation page is displayed correctly   Sign out from FO The customer is disconnected successfully   Go to the BO and connect with an admin account The admin is connected successfully   Go to the &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; page Orders listing is displayed correctly   Select the first and second order from list and update statuses with bulk actions to payment accepted The order status is changed successfully    </description>
     </item>
     
     <item>

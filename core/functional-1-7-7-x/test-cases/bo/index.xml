@@ -25,10 +25,7 @@ The menu is now a thinner vertical blue band with a few icons   Check every item
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/quick-access/</guid>
       <description>Preconditions Login to BO
-Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list
-Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed
-Option to remove this page is removed in the Quick Access menu   Refresh the page
-Open the Quick Access menu Link is now absent in the list   Click on &amp;ldquo;Add current page to Quick Access&amp;rdquo;</description>
+Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed. Option to remove this page is removed in the Quick Access menu   Refresh the page. Open the Quick Access menu Link is now absent in the list   Click on &amp;ldquo;Add current page to Quick Access&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -49,8 +46,7 @@ Steps    Step Description Expected result     Search for &amp;ldquo;orders&amp;r
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/debug-mode/</guid>
       <description>Preconditions Login to BO
 Shop MUST BE in debug mode
-Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory (src/PrestaShopBundle/Controller/Admin/Sell/Order/) and edit the file &amp;ldquo;OrderController.php&amp;rdquo;.
-Change the value of the $orderKpiFactory variable.</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Orders &amp;gt; Invoices&amp;rdquo; Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory (src/PrestaShopBundle/Controller/Admin/Sell/Order/) and edit the file&amp;quot;OrderController.php&amp;quot; Change the value of the $orderKpiFactory variable. Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO An exception is displayed   Fix the file and go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO The page works fine    </description>
     </item>
     
     <item>
@@ -60,9 +56,7 @@ Change the value of the $orderKpiFactory variable.</description>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional-1-7-7-x/test-cases/bo/maintenance-mode/</guid>
       <description>Preconditions Login to BO
-Steps    Step Description Expected result     Go to &amp;ldquo;Shop Parameters &amp;gt; General &amp;gt; Maintenance&amp;rdquo; tab The maintenance page is displayed   Edit the maintenance text for all languages and activate the maintenance mode
-Click on &amp;ldquo;Save&amp;rdquo; Settings are saved
-A new message &amp;ldquo;Maintenance mode&amp;rdquo; is displayed at the top of the page   Click on &amp;ldquo;View my shop&amp;rdquo; Maintenance mode message is displayed   Change the language in the URL and chack for every language the maintenance message is set up for Maintenance mode message is displayed correctly   In the BO, add the tester IP by clicking on the &amp;ldquo;Add my IP&amp;rdquo; button then clicking &amp;ldquo;Save&amp;rdquo; Settings are saved   Refresh the FO The shop is displayed without maintenance message   In the BO, disable the maintenance mode</description>
+Steps    Step Description Expected result     Go to &amp;ldquo;Shop Parameters &amp;gt; General &amp;gt; Maintenance&amp;rdquo; tab The maintenance page is displayed   Edit the maintenance text for all languages and activate the maintenance mode. Click on &amp;ldquo;Save&amp;rdquo; Settings are saved. A new message &amp;ldquo;Maintenance mode&amp;rdquo; is displayed at the top of the page   Click on &amp;ldquo;View my shop&amp;rdquo; Maintenance mode message is displayed   Change the language in the URL and chack for every language the maintenance message is set up for Maintenance mode message is displayed correctly   In the BO, add the tester IP by clicking on the &amp;ldquo;Add my IP&amp;rdquo; button then clicking &amp;ldquo;Save&amp;rdquo; Settings are saved   Refresh the FO The shop is displayed without maintenance message   In the BO, disable the maintenance mode.</description>
     </item>
     
     <item>

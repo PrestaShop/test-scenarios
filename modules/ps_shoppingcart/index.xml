@@ -33,8 +33,7 @@ Steps    Step Description Expected result     Disable the ajax cart option The o
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/upgrade/</guid>
       <description>Preconditions The module should be installed with the previous version
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on upgrade The message &amp;ldquo;Notice!
-L&amp;rsquo;action Upgrade sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on upgrade A message should be displayed in green   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -44,8 +43,7 @@ L&amp;rsquo;action Upgrade sur le module ps_shoppingcart a réussi.&amp;rdquo; s
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-install/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_shoppingcart The module catalog page should be displayed and module ps_shoppingcart should appear in the module page   Click on install The message &amp;ldquo;Notice!</description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should be displayed in green   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_shoppingcart The module catalog page should be displayed and module ps_shoppingcart should appear in the module page   Click on install A message should be displayed in green   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_shoppingcart&amp;rdquo; The module should be displayed    </description>
     </item>
     
     <item>
@@ -55,8 +53,7 @@ L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo;
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_shoppingcart/uninstall-and-delete/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok The message &amp;ldquo;Notice!
-L&amp;rsquo;action Uninstall sur le module ps_shoppingcart a réussi.&amp;rdquo; should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_shoppingcart The module page should be displayed and module ps_shoppingcart should appear in the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should be displayed in green   Refresh the page The module should be uninstalled and removed from the module folder    </description>
     </item>
     
   </channel>
