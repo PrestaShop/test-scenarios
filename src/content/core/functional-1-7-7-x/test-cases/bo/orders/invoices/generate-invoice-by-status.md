@@ -18,4 +18,4 @@ Go to the BO and connect with an admin account
 | Go to the "Orders > Invoices" page | Invoices page is displayed correctly |
 | Click on Generate invoice by status and check the error message | The error message is displayed successfully "No invoice has been found for this status." |
 | Select the status "Cancelled" then click on Generate invoice by status button | The error message is displayed successfully "You must select at least one order status." |
-| Choose the statuses "Payment accepted" and "Shipped", then click on "Generate invoice by status" | The pdf file is generated successfylly |
+| Choose the statuses "Payment accepted" and "Shipped" then click on "Generate invoice by status" | The pdf file is generated successfylly |
