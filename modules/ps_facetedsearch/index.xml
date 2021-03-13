@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ps_facetedsearch on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/</link>
+    <description>Recent content in ps_facetedsearch on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add template</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/add-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/add-template/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Add new template&amp;rdquo; The &amp;ldquo;New filters template&amp;rdquo; page is displayed   Select a category and save The configuration page is displayed and a message should appear in green to indicate that Your filter &amp;ldquo;My template - yyyy-mm-dd&amp;rdquo; was added successfully.</description>
+    </item>
+    
+    <item>
+      <title>Back</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/back/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/back/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Back&amp;rdquo; Redirection to the Module manager page    </description>
+    </item>
+    
+    <item>
+      <title>Check Filters</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-filters/</guid>
+      <description>Preconditions The module should be installed
+Edit the product &amp;ldquo;Mountain fox - Vector graphics&amp;rdquo; with demo_18 as a reference with quantity =0
+Steps    Step Description Expected result     Go to FO &amp;gt; Home category page the category page is displayed and the ps_facetedsearch is displayed at the left   Select &amp;ldquo;Accessories&amp;rdquo; as a category filter Active filters = Categories-Accessories
+There are 11 products displayed   Select &amp;ldquo;White&amp;rdquo; as a color Active filters = Categories-Accessories + Color: White</description>
+    </item>
+    
+    <item>
+      <title>Drag and drop filter</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/drag-and-drop-filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/drag-and-drop-filter/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Edit template&amp;rdquo; The &amp;quot; New filters template&amp;quot; page is displayed   Drag and drop the first filter &amp;ldquo;Sub-categories&amp;rdquo; filter to the last position and save The configuration page is displayed and a message should appear in green to indicate that the template is updated &amp;ldquo;Your filter &amp;ldquo;My template - yyyy-mm-dd&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
+      <title>Enable/ Disable cache system</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-cache-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-cache-system/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Disable &amp;ldquo;Enable cache system update&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Enable cache system update&amp;rdquo; is disabled   Enable &amp;ldquo;Enable cache system update&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Enable cache system update&amp;rdquo; is enabled    </description>
+    </item>
+    
+    <item>
+      <title>Index all missing prices</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/index-all-missing-prices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/index-all-missing-prices/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Index all missing prices&amp;rdquo; A message should appear in green to indicate that the Price indexing finished    </description>
+    </item>
+    
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/upgrade/</guid>
+      <description>Preconditions The module should be installed with the previous version
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
+      <title>Change the filter status</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-the-filter-status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-the-filter-status/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Edit template&amp;rdquo; The &amp;quot; New filters template&amp;quot; page is displayed   Disable the Filter &amp;ldquo;Sub-categories&amp;rdquo; The number of selected filters is decreased   Click on &amp;ldquo;Save&amp;rdquo; The configuration page is displayed and a message should appear in green to indicate that the template is updated &amp;ldquo;Your filter &amp;ldquo;My template - yyyy-mm-dd&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
+      <title>Edit template</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/edit-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/edit-template/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Edit template&amp;rdquo; The &amp;quot; New filters template&amp;quot; page is displayed   Unselect the Clothes category and save The configuration page is displayed and a message should appear in green to indicate that the template is updated &amp;ldquo;Your filter &amp;ldquo;My template - yyyy-mm-dd&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
+      <title>Enable/Disbale Show the number of matching products</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disbale-show-the-number-of-matching-products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disbale-show-the-number-of-matching-products/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Disable &amp;ldquo;Show the number of matching products&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Show the number of matching products&amp;rdquo; is disabled   Go to FO &amp;gt; category page The category page is displayed &amp;amp; the number of products not displayed on filters   Enable &amp;ldquo;Show the number of matching products&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Show the number of matching products&amp;rdquo; is enabled   Go to FO &amp;gt; category page The category page is displayed &amp;amp; the number of products is displayed on filters    </description>
+    </item>
+    
+    <item>
+      <title>Rebuild entire price index</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/rebuild-entire-price-index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/rebuild-entire-price-index/</guid>
+      <description>Preconditions The module should be installed
+Go to back-office -&amp;gt; Localization -&amp;gt; Currencies page, create manually a new currency
+Go to FO -&amp;gt; a category page -&amp;gt; Select the new currency &amp;gt; check that the Price filter is missing
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Rebuild entire price index&amp;rdquo; A message should appear in green to indicate that the Price indexing finished   Click on &amp;ldquo;Clear cache&amp;rdquo; A message should appear in green to indicate that the Attribute indexing finished   Go to front office -&amp;gt; category page and select the new currency The category page is well displayed and the price filter is displayed with the new currency    </description>
+    </item>
+    
+    <item>
+      <title>Sort by</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/sort-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/sort-by/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to FO &amp;gt; Home category page the category page is displayed, the ps_facetedsearch is displayed at the left, and the selected sort is Relevance (by position on the home category page)   Try to sort by Name ASC or DSC Sort is OK   Change the page 2 Page 2 is displayed   Click on previous Page 1 is displayed   Try to sort by Price ASC or DSC Sort is OK   Change the page 2 Page 2 is displayed   Click on previous Page 1 is displayed    </description>
+    </item>
+    
+    <item>
+      <title>Translate</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/translate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/translate/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Translate&amp;rdquo; A modal to choose a language should be opened   Select Employee language (English) Redirection to the Translations page   Set &amp;ldquo;Enable cache system&amp;rdquo; to &amp;ldquo;Enable cache system update&amp;rdquo; and save A message should appear in green to indicate that the translation is saved   Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page &amp;amp; the new expression &amp;ldquo;Enable cache system update&amp;rdquo; is well displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/uninstall-install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/uninstall-install/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch appear on the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_facetedsearch The module catalog page should be displayed and module ps_facetedsearch should appear on the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search &amp;ldquo;ps_facetedsearch&amp;rdquo; The module should be displayed    </description>
+    </item>
+    
+    <item>
+      <title>Build attributes and features indexes</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/build-attributes-and-features-indexes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/build-attributes-and-features-indexes/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Build attributes and features indexes&amp;rdquo; A message should appear in green to indicate that the Attribute indexing finished    </description>
+    </item>
+    
+    <item>
+      <title>Change Filter Style</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-filter-style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-filter-style/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Edit template&amp;rdquo; The &amp;quot; New filters template&amp;quot; page is displayed   Try to change the filter style of the &amp;ldquo;Product weight filter&amp;rdquo; and &amp;ldquo;Product price filter&amp;rdquo; This is impossible: the filter style is &amp;ldquo;Slideré, cannot be changed   Try to change the filter style of the &amp;ldquo;Sub-categories&amp;rdquo; filter from Checkbox to Radio button and save The configuration page is displayed and a message should appear in green to indicate that the template is updated &amp;ldquo;Your filter &amp;ldquo;My template - yyyy-mm-dd&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
+      <title>Check Filter with new attribute</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-filter-with-new-attribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-filter-with-new-attribute/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to BO -&amp;gt; Catalog -&amp;gt; Attribute page and click &amp;ldquo;Add new Attribute&amp;rdquo; There are 3 fields that must be displayed URL
+Meta Title
+Indexable   Set all fields and save The attribute list page is displayed and a message should appear in green to indicate that the attribute is well created   Click on Add new value There are 2 fields that must be displayed URL</description>
+    </item>
+    
+    <item>
+      <title>Check update</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-update/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-update/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Check update&amp;rdquo; Redirection to (unknown page)    </description>
+    </item>
+    
+    <item>
+      <title>Delete template</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/delete-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/delete-template/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Delete template&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the template is deleted &amp;ldquo;Filter template deleted, categories updated (reverted to default Filter template).</description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable Show products from subcategories</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-show-products-from-subcategories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-show-products-from-subcategories/</guid>
+      <description>Preconditions The module should be installed
+Create a product with the associated categories Home &amp;amp; Men (Men is the category by default)
+Check that this product is well displayed in the FO &amp;gt; Clothes category
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Disable &amp;ldquo;Show products from subcategories&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Show products from subcategories&amp;rdquo; is disabled   Go to FO &amp;gt; Clothes category The category page is well displayed &amp;amp; the product is not displayed   Enable &amp;ldquo;Show products from subcategories&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Show products from subcategories&amp;rdquo; is enabled   Go to FO &amp;gt; Clothes category The category page is well displayed &amp;amp; the product is well displayed    </description>
+    </item>
+    
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/uninstall-and-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/uninstall-and-delete/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;uninstall&amp;rdquo; and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
+    </item>
+    
+    <item>
+      <title>Change Filter result limit</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-filter-result-limit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-filter-result-limit/</guid>
+      <description>Preconditions The module should be installed
+Create a product with 6 different combinations of color
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Edit template&amp;rdquo; The &amp;quot; New filters template&amp;quot; page is displayed   Change the limit of &amp;ldquo;Attribute group: Color&amp;rdquo; to 2 and save The configuration page is displayed and a message should appear in green to indicate that the template is updated &amp;ldquo;Your filter &amp;ldquo;My template - yyyy-mm-dd&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
+      <title>Check Filter with new Feature</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-filter-with-new-feature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-filter-with-new-feature/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to BO -&amp;gt; Catalog -&amp;gt; Features page and click &amp;ldquo;Add new Feature&amp;rdquo; There are 3 fields that must be displayed URL
+Meta Title
+Indexable   Set all fields and save The feature list page is displayed and a message should appear in green to indicate that the feature is well created   Click on Add new value There are 2 fields that must be displayed URL</description>
+    </item>
+    
+    <item>
+      <title>Clear cache</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/clear-cache/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/clear-cache/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Clear cache&amp;rdquo; A message should appear in green to indicate that the Attribute indexing finished    </description>
+    </item>
+    
+    <item>
+      <title>Enable / Disable / Reset</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-reset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-reset/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;disable&amp;rdquo; and confirm the disable message by clicking on ok A message should appear in green to indicate that the module is disabled   Refresh the page The module should be disabled   Click on &amp;ldquo;Enable&amp;rdquo; A message should appear in green to indicate that the module is enabled   Refresh the page The module should be enabled   Click on &amp;ldquo;Reset&amp;rdquo; and confirm the reset message by clicking on ok A message should appear in green to indicate that the module is reset   Refresh the page The module should be enabled    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable Show products only from default category</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-show-products-only-from-default-category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-show-products-only-from-default-category/</guid>
+      <description>Preconditions The module should be installed
+Create a product with the associated categories Home &amp;amp; Men (Men is the category by default)
+Check that this product is well displayed in the FO &amp;gt; Clothes category
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Enable &amp;ldquo;Show products only from default category&amp;rdquo; The &amp;ldquo;Show products from subcategories&amp;rdquo; option is disabled and hidden   Save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Show products only from default category&amp;rdquo; is enabled   Go to FO &amp;gt; Clothes category The category page is well displayed &amp;amp; doesn&amp;rsquo;t contain any product   Disable &amp;ldquo;Show products only from default category&amp;rdquo; The &amp;ldquo;Show products from subcategories&amp;rdquo; option is disabled and not hidden   Save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Show products only from default category&amp;rdquo; is disabled   Go to FO &amp;gt; Clothes category The category page is displayed and two products are displayed (new product is not displayed)    </description>
+    </item>
+    
+    <item>
+      <title>Manage hooks</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/manage-hooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/manage-hooks/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Manage hooks&amp;rdquo; Redirection to the Positions page and &amp;ldquo;Faceted search&amp;rdquo; is selected as a module    </description>
+    </item>
+    
+    <item>
+      <title>Change Category filter depth</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-category-filter-depth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-category-filter-depth/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   The module page should be displayed and module ps_facetedsearch should appear on the module page The module configuration page is displayed   Change &amp;ldquo;Category filter depth&amp;rdquo; to 0 and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo;   Go to FO &amp;gt; Home category page The category page is well displayed and the Filter by categories&amp;quot; contains all categories &amp;amp; sub-categories: 7 in total   Change &amp;ldquo;Category filter depth&amp;rdquo; to 1 and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo;   Go to FO &amp;gt; Home category page The category page is well displayed and the Filter by categories&amp;quot; contains only categories without sub-categories: 3 in total    </description>
+    </item>
+    
+    <item>
+      <title>Rebuild index (price/attribute) using the URL</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/rebuild-index-price-attribute-using-the-url/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/rebuild-index-price-attribute-using-the-url/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Copy and paste the first URL on your browser A binary result is displayed   Copy and paste the second URL on your browser A binary result is displayed    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable Use tax</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-use-tax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-use-tax/</guid>
+      <description>Preconditions The module should be installed
+Go to BO &amp;gt; International &amp;gt; Taxes page &amp;gt; Disable Tax
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Disable &amp;ldquo;Use tax to filter price&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Use tax to filter price&amp;rdquo; is disabled   Click on &amp;ldquo;Rebuild entire price index&amp;rdquo; A message should appear in green to indicate that the Price indexing finished   Click on &amp;ldquo;Clear cache&amp;rdquo; A message should appear in green to indicate that the Attribute indexing finished   Go to front office -&amp;gt; Clothes category page The category page is displayed and check that the price filter is displayed without Tax   Enable &amp;ldquo;Use tax to filter price&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Use tax to filter price&amp;rdquo; is enabled   Click on &amp;ldquo;Rebuild entire price index&amp;rdquo; A message should appear in green to indicate that the Price indexing finished   Click on &amp;ldquo;Clear cache&amp;rdquo; A message should appear in green to indicate that the Attribute indexing finished   Go to front office -&amp;gt; Clothes category page The category page is displayed and check that the price filter is displayed with Tax    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable Use rounding</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-use-rounding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-use-rounding/</guid>
+      <description>Preconditions The module should be installed
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Disable &amp;ldquo;Use rounding to filter price&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Use rounding to filter price&amp;rdquo; is disabled   Click on &amp;ldquo;Rebuild entire price index&amp;rdquo; A message should appear in green to indicate that the Price indexing finished   Click on &amp;ldquo;Clear cache&amp;rdquo; A message should appear in green to indicate that the Attribute indexing finished   Go to front office -&amp;gt; category page The category page is displayed and check that the price filter is displayed   Enable &amp;ldquo;Use rounding to filter price&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Use rounding to filter price&amp;rdquo; is enabled   Click on &amp;ldquo;Rebuild entire price index&amp;rdquo; A message should appear in green to indicate that the Price indexing finished   Click on &amp;ldquo;Clear cache&amp;rdquo; A message should appear in green to indicate that the Attribute indexing finished   Go to front office -&amp;gt; category page The category page is displayed and check that the price filter is displayed    </description>
+    </item>
+    
+    <item>
+      <title>Enable/Disable Show unavailable, out of stock last</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-show-unavailable-out-of-stock-last/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/enable-disable-show-unavailable-out-of-stock-last/</guid>
+      <description>Preconditions The module should be installed
+Edit the product &amp;ldquo;Mountain fox - Vector graphics&amp;rdquo; with demo_18 as a reference with quantity =0
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Enable &amp;ldquo;Show unavailable, out of stock last&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Show unavailable, out of stock last&amp;rdquo; is enabled   Go to FO &amp;gt; Art category page The category page is displayed and the product is displayed in the last position   Disable &amp;ldquo;Show unavailable, out of stock last&amp;rdquo; and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo; and &amp;ldquo;Show unavailable, out of stock last&amp;rdquo; is disabled   Go to FO &amp;gt; Art category page The category page is displayed and the product is displayed in the correct (4th) position (not the last one )    </description>
+    </item>
+    
+  </channel>
+</rss>
