@@ -320,9 +320,8 @@ Steps    Step Description Expected result     Select &amp;ldquo;principal column
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-filters/</guid>
       <description>Preconditions The module should be installed
-Edit the product &amp;ldquo;Mountain fox - Vector graphics&amp;rdquo; with demo_18 as a reference with quantity =0
-Steps    Step Description Expected result     Go to FO &amp;gt; Home category page the category page is displayed and the ps_facetedsearch is displayed at the left   Select &amp;ldquo;Accessories&amp;rdquo; as a category filter Active filters = Categories-Accessories
-There are 11 products displayed   Select &amp;ldquo;White&amp;rdquo; as a color Active filters = Categories-Accessories + Color: White</description>
+Edit the product &amp;ldquo;Mountain fox - Vector graphics&amp;rdquo; with demo_18 as a reference with quantity =0 and select deny orders
+Steps    Step Description Expected result     Go to FO &amp;gt; Home category page the category page is displayed and the ps_facetedsearch is displayed at the left   Select &amp;ldquo;Accessories&amp;rdquo; as a category filter Active filters = Categories-Accessories</description>
     </item>
     
     <item>
@@ -6721,7 +6720,7 @@ Expected result Le bulk action doit fonctionner correctement</description>
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-filter-style/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Edit template&amp;rdquo; The &amp;quot; New filters template&amp;quot; page is displayed   Try to change the filter style of the &amp;ldquo;Product weight filter&amp;rdquo; and &amp;ldquo;Product price filter&amp;rdquo; This is impossible: the filter style is &amp;ldquo;Slideré, cannot be changed   Try to change the filter style of the &amp;ldquo;Sub-categories&amp;rdquo; filter from Checkbox to Radio button and save The configuration page is displayed and a message should appear in green to indicate that the template is updated &amp;ldquo;Your filter &amp;ldquo;My template - yyyy-mm-dd&amp;rdquo; was updated successfully.</description>
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Click on &amp;ldquo;Edit template&amp;rdquo; The &amp;quot; New filters template&amp;quot; page is displayed   Try to change the filter style of the &amp;ldquo;Product weight filter&amp;rdquo; and &amp;ldquo;Product price filter&amp;rdquo; This is impossible: the filter style is &amp;ldquo;Slider&amp;rdquo;, cannot be changed   Try to change the filter style of the &amp;ldquo;Sub-categories&amp;rdquo; filter from Checkbox to Radio button and save The configuration page is displayed and a message should appear in green to indicate that the template is updated &amp;ldquo;Your filter &amp;ldquo;My template - yyyy-mm-dd&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -6815,7 +6814,7 @@ Expected result Check the message in the FO it should be : “You have successfu
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/check-update/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Check update&amp;rdquo; Redirection to (unknown page)    </description>
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; Redirection to the module configuration page   Click on &amp;ldquo;Check update&amp;rdquo; Redirection to the Module manager page    </description>
     </item>
     
     <item>
@@ -11189,7 +11188,7 @@ Parent category : Random</description>
       
       <guid>https://build.prestashop.com/test-scenarios/modules/ps_facetedsearch/change-category-filter-depth/</guid>
       <description>Preconditions The module should be installed
-Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   The module page should be displayed and module ps_facetedsearch should appear on the module page The module configuration page is displayed   Change &amp;ldquo;Category filter depth&amp;rdquo; to 0 and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo;   Go to FO &amp;gt; Home category page The category page is well displayed and the Filter by categories&amp;quot; contains all categories &amp;amp; sub-categories: 7 in total   Change &amp;ldquo;Category filter depth&amp;rdquo; to 1 and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo;   Go to FO &amp;gt; Home category page The category page is well displayed and the Filter by categories&amp;quot; contains only categories without sub-categories: 3 in total    </description>
+Steps    Step Description Expected result     Go to back-office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear on the module page   Click on &amp;ldquo;Configure&amp;rdquo; The module configuration page is displayed   Change &amp;ldquo;Category filter depth&amp;rdquo; to 0 and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo;   Go to FO &amp;gt; Home category page The category page is well displayed and the Filter by categories&amp;quot; contains all categories &amp;amp; sub-categories: 7 in total   Change &amp;ldquo;Category filter depth&amp;rdquo; to 1 and save The configuration page is displayed, a message should appear in green to indicate &amp;ldquo;Settings saved successfully&amp;rdquo;   Go to FO &amp;gt; Home category page The category page is well displayed and the Filter by categories&amp;quot; contains only categories without sub-categories: 3 in total    </description>
     </item>
     
     <item>
