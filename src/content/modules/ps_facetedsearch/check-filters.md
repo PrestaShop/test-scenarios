@@ -6,7 +6,7 @@ weight: 1
 ## Preconditions
 
 The module should be installed\
-Edit the product "Mountain fox - Vector graphics" with demo_18 as a reference with quantity =0
+Edit the product "Mountain fox - Vector graphics" with demo_18 as a reference with quantity =0 and select deny orders
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

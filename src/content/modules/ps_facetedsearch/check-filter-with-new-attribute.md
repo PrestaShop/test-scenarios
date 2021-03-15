@@ -13,7 +13,7 @@ The module should be installed
 | Set all fields and save | The attribute list page is displayed and a message should appear in green to indicate that the attribute is well created |
 | Click on Add new value | There are 2 fields that must be displayed <br>URL<br>Meta Title |
 | Set all fields and save | The attribute list page is displayed and a message should appear in green to indicate that the attribute value is well created |
-| Create two  product with a combination (the last attribute is selected) | the product is well created |
+| Create two  products with one combination (the last attribute is selected) | The products are well created |
 | Go to back office -> Modules -> Module manager and search ps_facetedsearch | The module page should be displayed and module ps_facetedsearch appear on the module page |
 | Click on "Configure" | The module configuration page is displayed |
 | Click on "Edit template" | The " New filters template" page is displayed |
