@@ -1,7 +1,8 @@
 ---
 title: contactform
-menuTitle: contactform 
+menuTitle: contactform
+weight: 6 
 geekdocFlatSection: true
 ---
 
-{{% children %}}
+{{% children titlePages="Tests" titleSections="Categories" %}}

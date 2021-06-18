@@ -1,6 +1,6 @@
 ## Test scenarios
 
-This repository documents the test scenarios of the [PrestaShop](https://github.com/PrestaShop/PrestaShop) software, exported from the internal Testrail.
+This repository documents the test scenarios of the [PrestaShop](https://github.com/PrestaShop/PrestaShop) software, exported from the internal XRay.
 
 [PrestaShop](https://github.com/PrestaShop/) being an Open Source project, transparency is one of our core values, and it is important for us to make tests accessible to the community.
 

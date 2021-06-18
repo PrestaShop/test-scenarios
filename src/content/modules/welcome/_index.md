@@ -1,7 +1,8 @@
 ---
 title: welcome
-menuTitle: welcome 
+menuTitle: welcome
+weight: 26 
 geekdocFlatSection: true
 ---
 
-{{% children %}}
+{{% children titlePages="Tests" titleSections="Categories" %}}
