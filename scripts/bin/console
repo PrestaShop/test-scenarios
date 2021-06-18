@@ -2,8 +2,8 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
  
-use Console\App\Command\TestRailExportModules;
-use Console\App\Command\TestRailExportCore;
+use Console\App\Command\ScenarioExportModule;
+use Console\App\Command\ScenarioExportCore;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Dotenv\Dotenv;
 
@@ -13,6 +13,6 @@ if (file_exists(__DIR__.'/../.env')) {
 }
  
 $app = new Application();
-$app->add(new TestRailExportCore());
-$app->add(new TestRailExportModules());
+$app->add(new ScenarioExportCore());
+$app->add(new ScenarioExportModule());
 $app->run();

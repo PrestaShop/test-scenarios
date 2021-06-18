@@ -33,16 +33,16 @@ jobs:
       - name: Composer install
         run: cd scripts && composer install && cd ..
 
-      - name: Export TestRail Core 
-        run: php scripts/bin/console testrail:export:core --url ${{ secrets.TESTRAIL_URL }} --username ${{ secrets.TESTRAIL_USERNAME }} --apikey ${{ secrets.TESTRAIL_APIKEY }}
+      - name: Export JIRA XRay Core 
+        run: php scripts/bin/console scenario:export:core --apikey ${{ secrets.JIRA_APIKEY }}
 
-      - name: Export TestRail Modules 
-        run: php scripts/bin/console testrail:export:modules --url ${{ secrets.TESTRAIL_URL }} --username ${{ secrets.TESTRAIL_USERNAME }} --apikey ${{ secrets.TESTRAIL_APIKEY }}
+      - name: Export JIRA XRay Modules 
+        run: php scripts/bin/console scenario:export:module --apikey ${{ secrets.JIRA_APIKEY }}
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "[Update] TestRail Tests"
+          commit_message: "[Update] JIRA XRay Tests"
 
       - name: Build
         run: cd src && hugo && cd ..
