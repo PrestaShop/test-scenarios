@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FO on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/</link>
+    <description>Recent content in FO on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/modules/productcomments/fo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/add-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/add-a-comment/</guid>
+      <description>Steps    Step Description Expected result     Add a comment in a product page and validate
+(Try to add comment with specific character) A message should appear
+If the configuration enable the validation of the comment the comment shouldn&amp;rsquo;t appear.
+If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly calculated The total rate should be the average of all comment rate    </description>
+    </item>
+    
+    <item>
+      <title>Report a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/report-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/report-a-comment/</guid>
+      <description>Steps    Step Description Expected result     Click on the flag to report a comment A popup appear   confirm that you want to report the comment A popup appear with a message    </description>
+    </item>
+    
+    <item>
+      <title>Vote for a comment</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/vote-for-a-comment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/vote-for-a-comment/</guid>
+      <description>Steps    Step Description Expected result     Add a vote for a comment check that the number of vote increases    </description>
+    </item>
+    
+    <item>
+      <title>Check the name of a deleted user with anonymize last name option enable</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/check-the-name-of-a-deleted-user-with-anonymize-last-name-option-enable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/check-the-name-of-a-deleted-user-with-anonymize-last-name-option-enable/</guid>
+      <description>Steps    Step Description Expected result     In the back office, go to customer settings and delete the account of an user who added a comment The customer should be deleted   Go to front office in a product page with a comment of the user we deleted previously The name of the customer shouldn&amp;rsquo;t appear    </description>
+    </item>
+    
+    <item>
+      <title>Check the name of a deleted user</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/check-the-name-of-a-deleted-user/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/check-the-name-of-a-deleted-user/</guid>
+      <description>Steps    Step Description Expected result     In the back office, go to customer settings and delete the account of an user who added a comment The customer should be deleted   Go to front office in a product page with a comment of the user we deleted previously The name of the customer shouldn&amp;rsquo;t appear    </description>
+    </item>
+    
+    <item>
+      <title>Check that rating is displayed</title>
+      <link>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/check-that-rating-is-displayed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/modules/productcomments/fo/check-that-rating-is-displayed/</guid>
+      <description>Steps    Step Description Expected result     Go to a product with comment Product page is displayed   Check if the sum of the rating is correct Sum of rating is correct   Add product to cart Rating is still displayed in displayProductAdditionalInfo    </description>
+    </item>
+    
+  </channel>
+</rss>
