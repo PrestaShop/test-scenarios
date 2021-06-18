@@ -1,5 +1,5 @@
 ---
-title: Disable, Enable, Reset, uninstall, upload and upgrade module
+title: "Disable, Enable, Reset, uninstall, upload and upgrade module"
 weight: 2
 ---
 ## Steps

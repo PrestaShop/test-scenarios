@@ -1,7 +1,8 @@
 ---
 title: dashactivity
-menuTitle: dashactivity 
+menuTitle: dashactivity
+weight: 7 
 geekdocFlatSection: true
 ---
 
-{{% children %}}
+{{% children titlePages="Tests" titleSections="Categories" %}}
