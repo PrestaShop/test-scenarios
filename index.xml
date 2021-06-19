@@ -121,6 +121,22 @@ first row column id in table contain 1   reset filter number of brands after res
     </item>
     
     <item>
+      <title>BO - Cart rules - Case 1 - Create a cart with / without Code</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-1-create-a-cart-with-without-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-1-create-a-cart-with-without-code/</guid>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Case1: Without Code
+Set these fields:
+# Information:
+## Name
+## Description
+# Actions:
+## Discount = 20%
+and click on Save An alert &amp;ldquo;Successful creation.&amp;rdquo; is displayed   Go to FO, Add product to cart and click on &amp;ldquo;Proceed to checkout&amp;rdquo; The Shopping cart is well displayed and the discount is well applied</description>
+    </item>
+    
+    <item>
       <title>BO - CRUD cart rule</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/discount/cart-rules/bo-crud-cart-rule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1826,6 +1842,16 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.    </de
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-brands-filter-brand-addresses/</guid>
       <description>Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Brands page The Brands page is well displayed   Rest all filters Number Brand Addresses = Total Brand Addresses   filter by demo Address id filter is successful number of Addresses after filter &amp;lt; Total of brands
 first row column id in table contain 4   reset filter number of Addresses after reset = Total of Addresses   filter by demo Address brand name filter is successful number of Addresses after filter &amp;lt; Total of brands</description>
+    </item>
+    
+    <item>
+      <title>BO - Cart rules - Case 2 - Create a cart partial use enabled / Disabled</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-2-create-a-cart-partial-use-enabled-disabled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-2-create-a-cart-partial-use-enabled-disabled/</guid>
+      <description>Steps    Step Description Expected result     Go back to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Add new Cart rule The Add New cart rule page is displayed   Case1: Partial Use Enabled
+Set these fields and click on Save An alert &amp;ldquo;Successful creation.&amp;rdquo; is displayed   Go to FO, add a product to the cart and Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The Shopping cart is well displayed and the discount is well applied</description>
     </item>
     
     <item>
