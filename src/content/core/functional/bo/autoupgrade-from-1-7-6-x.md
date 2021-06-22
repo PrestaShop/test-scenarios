@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade from 1.7.6.x"
-weight: 13
+weight: 12
 ---
 ## Steps
 | Step Description | Expected result |

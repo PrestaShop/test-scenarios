@@ -1,6 +1,6 @@
 ---
 title: "Notifications"
-weight: 7
+weight: 6
 ---
 ## Steps
 | Step Description | Expected result |

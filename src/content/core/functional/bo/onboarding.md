@@ -1,6 +1,6 @@
 ---
 title: "Onboarding"
-weight: 12
+weight: 11
 ---
 ## Steps
 | Step Description | Expected result |

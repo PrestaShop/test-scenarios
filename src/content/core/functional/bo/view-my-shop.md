@@ -1,6 +1,6 @@
 ---
 title: "View my shop"
-weight: 6
+weight: 5
 ---
 ## Steps
 | Step Description | Expected result |

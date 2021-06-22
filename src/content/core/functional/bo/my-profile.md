@@ -1,4 +1,4 @@
 ---
 title: "My Profile"
-weight: 9
+weight: 8
 ---

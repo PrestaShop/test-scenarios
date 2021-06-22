@@ -1,6 +1,6 @@
 ---
 title: "After autoupgrade, rollback to previous version"
-weight: 14
+weight: 13
 ---
 ## Steps
 | Step Description | Expected result |
