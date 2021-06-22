@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Maintenance mode">
+<meta name="description" content="Access to Menu tab is denied with neither left menu and Url">
 
-<title>Maintenance mode | PrestaShop Tests</title>
+<title>Access to Menu tab is denied with neither left menu and Url | PrestaShop Tests</title>
 
 <link rel="icon" href="/test-scenarios/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -749,7 +749,7 @@
         
     
     
-        <a href='/test-scenarios/'>Home</a> / <a href='/test-scenarios/core/'>Core</a> / <a href='/test-scenarios/core/functional/'>Functional</a> / <a href='/test-scenarios/core/functional/bo/'>BO</a> / Maintenance mode
+        <a href='/test-scenarios/'>Home</a> / <a href='/test-scenarios/core/'>Core</a> / <a href='/test-scenarios/core/regression/'>Regression</a> / <a href='/test-scenarios/core/regression/menu/'>menu</a> / Access to Menu tab is denied with neither left menu and Url
     
 
     
@@ -770,7 +770,7 @@
 
 
     <article class="gdoc-markdown">
-        <h1>Maintenance mode</h1>
+        <h1>Access to Menu tab is denied with neither left menu and Url</h1>
         
 
 
@@ -778,7 +778,7 @@
     
 
 
-<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/maintenance-mode/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/regression/menu/access-to-menu-tab-is-denied-with-neither-left-menu-and-url/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
 <table>
 <thead>
 <tr>
@@ -788,36 +788,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to Shop Parameters &gt; General &gt; Maintenance&quot; tab&quot;</td>
-<td>The maintenance page is displayed</td>
+<td>Open advanced parameter menu on BO</td>
+<td>Item &lsquo;Menu&rsquo; is not visible</td>
 </tr>
 <tr>
-<td>Edit the maintenance text for all languages and activate the maintenance mode. Click on Save&quot;</td>
-<td>Settings are saved. A new message Maintenance mode&quot; is displayed at the top of the page&quot;</td>
-</tr>
-<tr>
-<td>Click on View my shop&quot;</td>
-<td>Maintenance mode message is displayed</td>
-</tr>
-<tr>
-<td>Change the language in the URL and chack for every language the maintenance message is set up for</td>
-<td>Maintenance mode message is displayed correctly</td>
-</tr>
-<tr>
-<td>In the BO, add the tester IP by clicking on the Add my IP&quot; button then clicking &ldquo;Save&rdquo;</td>
-<td>Settings are saved</td>
-</tr>
-<tr>
-<td>Refresh the FO</td>
-<td>The shop is displayed without maintenance message</td>
-</tr>
-<tr>
-<td>In the BO, disable the maintenance mode. Click on Save</td>
-<td>Settings are saved. The message Maintenance mode&quot; is no longer displayed at the top of the page&quot;</td>
-</tr>
-<tr>
-<td>Click on View my shop&quot;</td>
-<td>The shop is displayed without maintenance message</td>
+<td>Go to &ldquo;Url_Bo/index.php?controller=AdminTabs&rdquo;<br><br>Click on Invalid token continue button</td>
+<td>Access denied is displayed on page.</td>
 </tr>
 </tbody>
 </table>
@@ -869,7 +845,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.b59e6f16da5010ac0ac44ff8a1ff4aea46712e05ae8270c71ea7ac383b055ff5.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.0fe93ada6768caba4c18c4ddd157430ffc6d08b89b998e1b49f91b59b48b3f82.js"></script>
 
 
 

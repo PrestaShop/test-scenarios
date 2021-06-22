@@ -18,6 +18,16 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.    </de
     </item>
     
     <item>
+      <title>Access to Menu tab is denied with neither left menu and Url</title>
+      <link>https://build.prestashop.com/test-scenarios/core/regression/menu/access-to-menu-tab-is-denied-with-neither-left-menu-and-url/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/regression/menu/access-to-menu-tab-is-denied-with-neither-left-menu-and-url/</guid>
+      <description>Steps    Step Description Expected result     Open advanced parameter menu on BO Item &amp;lsquo;Menu&amp;rsquo; is not visible   Go to &amp;ldquo;Url_Bo/index.php?controller=AdminTabs&amp;rdquo;
+Click on Invalid token continue button Access denied is displayed on page.    </description>
+    </item>
+    
+    <item>
       <title>Activate Merchandise returns</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/customer-service/merchandise-returns/activate-merchandise-returns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4189,7 +4199,8 @@ Set &amp;ldquo;Enabled&amp;rdquo; to &amp;ldquo;NO&amp;rdquo; an click on Save A
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/advanced-parameters/database/sql-manager/settings/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to Product page Product page is displayed   Create a product Product is created   Go to &amp;lsquo;Sql manager&amp;rsquo; page Page is displayed   Create a new sql query : Query selected   Change default file encoding to &amp;lsquo;{color:#222222}iso-8859-1{color}&amp;rsquo; Value changed
+Successful message is displayed   Download and open CSV file of the created query File downloaded</description>
     </item>
     
     <item>
@@ -5860,15 +5871,6 @@ Choose the option After the sequential number and save The validation message is
     </item>
     
     <item>
-      <title>Maintenance mode</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/maintenance-mode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/maintenance-mode/</guid>
-      <description>Steps    Step Description Expected result     Go to Shop Parameters &amp;gt; General &amp;gt; Maintenance&amp;quot; tab&amp;quot; The maintenance page is displayed   Edit the maintenance text for all languages and activate the maintenance mode. Click on Save&amp;quot; Settings are saved. A new message Maintenance mode&amp;quot; is displayed at the top of the page&amp;quot;   Click on View my shop&amp;quot; Maintenance mode message is displayed   Change the language in the URL and chack for every language the maintenance message is set up for Maintenance mode message is displayed correctly   In the BO, add the tester IP by clicking on the Add my IP&amp;quot; button then clicking &amp;ldquo;Save&amp;rdquo; Settings are saved   Refresh the FO The shop is displayed without maintenance message   In the BO, disable the maintenance mode.</description>
-    </item>
-    
-    <item>
       <title>Marketplace connection</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/dashboard/marketplace-connection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6094,6 +6096,15 @@ Number of items should be 50 (by default)   Change the number of items per page 
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-customer/</guid>
       <description>Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Customer Number of orders &amp;lt; Total of orders
 All orders customer contains the searched customer   Click on the Customer Link Redirection to the customer details page in a new Tab    </description>
+    </item>
+    
+    <item>
+      <title>View my shop</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/view-my-shop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/view-my-shop/</guid>
+      <description>Steps    Step Description Expected result     Click on View my shop&amp;quot; FO is displayed    </description>
     </item>
     
     <item>
@@ -6461,6 +6472,18 @@ categories are sorted by id_category (1 -&amp;gt; 2 -&amp;gt; 3)   Sort categori
     </item>
     
     <item>
+      <title>Notifications</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/notifications/</guid>
+      <description>Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO
+Login as a customer
+Go to the order list
+Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO</description>
+    </item>
+    
+    <item>
       <title>Other Options</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/invoices/invoice-options/other-options/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6604,15 +6627,6 @@ categories are sorted by id_category (1 -&amp;gt; 2 -&amp;gt; 3)   Sort categori
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-guest/</guid>
       <description>Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Guest Number of orders &amp;lt; Total of orders
 An order guest contains the searched guest   Click on the guest Link Redirection to the customer details page in a new Tab   Delete the created Guest The guest is well deleted    </description>
-    </item>
-    
-    <item>
-      <title>View my shop</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/view-my-shop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/view-my-shop/</guid>
-      <description>Steps    Step Description Expected result     Click on View my shop&amp;quot; FO is displayed    </description>
     </item>
     
     <item>
@@ -6823,6 +6837,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>Gamification module</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/gamification-module/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/gamification-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Help button</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/international/localization/currencies/help-button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6866,18 +6889,6 @@ The document language is English   Close the help sidebar The help sidebar is cl
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/message-block/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Notifications</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/notifications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/notifications/</guid>
-      <description>Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO
-Login as a customer
-Go to the order list
-Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO</description>
     </item>
     
     <item>
@@ -7113,15 +7124,6 @@ Data is correct    </description>
     </item>
     
     <item>
-      <title>Gamification module</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/gamification-module/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/gamification-module/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Help button</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/design/pages/help-button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7146,6 +7148,15 @@ Data is correct    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/helper-card/</guid>
       <description>Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Brands page The Brands page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+    <item>
+      <title>My Profile</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/my-profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/my-profile/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -7329,6 +7340,15 @@ Data is correct    </description>
     </item>
     
     <item>
+      <title>Contextual help</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/contextual-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/contextual-help/</guid>
+      <description>Steps    Step Description Expected result     Open on several migrated and non migrated page the Help&amp;quot; panel&amp;quot; The help for the page is displayed on a side popin    </description>
+    </item>
+    
+    <item>
       <title>Delete an approved comment</title>
       <link>https://build.prestashop.com/test-scenarios/modules/productcomments/configuration/delete-an-approved-comment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7380,15 +7400,6 @@ All the products contains the searched Name   Click on the drop-down toggle, cli
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/advanced-parameters/multistore/multistore-options/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My Profile</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/my-profile/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/my-profile/</guid>
       <description></description>
     </item>
     
@@ -7475,20 +7486,20 @@ All products contain the searched Name   Click on the drop-down toggle and click
     </item>
     
     <item>
-      <title>Contextual help</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/contextual-help/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/contextual-help/</guid>
-      <description>Steps    Step Description Expected result     Open on several migrated and non migrated page the Help&amp;quot; panel&amp;quot; The help for the page is displayed on a side popin    </description>
-    </item>
-    
-    <item>
       <title>Display Shipping</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/fo/cart/cart/display-shipping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/fo/cart/cart/display-shipping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommended modules for the page</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/recommended-modules-for-the-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/recommended-modules-for-the-page/</guid>
       <description></description>
     </item>
     
@@ -7584,20 +7595,20 @@ All products contain the searched Name    </description>
     </item>
     
     <item>
+      <title>Onboarding</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/onboarding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/onboarding/</guid>
+      <description>Steps    Step Description Expected result     Check that OnBoarding popup is displayed after first login    Click on Later&amp;quot; Popup is closed, but a reminder is displayed on bottom left of the menu   Resume the onboarding Popup is re-opened   Follow the steps of the onboarding All steps are OK    </description>
+    </item>
+    
+    <item>
       <title>Pagination</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/pagination/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/pagination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recommended modules for the page</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/recommended-modules-for-the-page/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/recommended-modules-for-the-page/</guid>
       <description></description>
     </item>
     
@@ -7608,6 +7619,15 @@ All products contain the searched Name    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/modules/module-manager/modules/see-more-less-module/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Autoupgrade from 1.7.6.x</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/autoupgrade-from-1-7-6-x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/autoupgrade-from-1-7-6-x/</guid>
+      <description>Steps    Step Description Expected result     Install previous version (last stable version + 2 or 3 most used versions, and 1.6.1.24)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS&amp;hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.</description>
     </item>
     
     <item>
@@ -7665,15 +7685,6 @@ All products contain the searched Name    </description>
     </item>
     
     <item>
-      <title>Onboarding</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/onboarding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/onboarding/</guid>
-      <description>Steps    Step Description Expected result     Check that OnBoarding popup is displayed after first login    Click on Later&amp;quot; Popup is closed, but a reminder is displayed on bottom left of the menu   Resume the onboarding Popup is re-opened   Follow the steps of the onboarding All steps are OK    </description>
-    </item>
-    
-    <item>
       <title>Read more about module</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/modules/module-manager/modules/read-more-about-module/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7693,12 +7704,12 @@ All products contain the searched Name    </description>
     </item>
     
     <item>
-      <title>Autoupgrade from 1.7.6.x</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/autoupgrade-from-1-7-6-x/</link>
+      <title>After autoupgrade, rollback to previous version</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/after-autoupgrade-rollback-to-previous-version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/autoupgrade-from-1-7-6-x/</guid>
-      <description>Steps    Step Description Expected result     Install previous version (last stable version + 2 or 3 most used versions, and 1.6.1.24)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS&amp;hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.</description>
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/after-autoupgrade-rollback-to-previous-version/</guid>
+      <description>Steps    Step Description Expected result     After a full autoupgrade, perform a rollback to previous version Rollback is OK, and every data are OK.    </description>
     </item>
     
     <item>
@@ -7762,15 +7773,6 @@ All products contain the searched Name    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/modules/module-manager/modules/upgrade/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>After autoupgrade, rollback to previous version</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/after-autoupgrade-rollback-to-previous-version/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/after-autoupgrade-rollback-to-previous-version/</guid>
-      <description>Steps    Step Description Expected result     After a full autoupgrade, perform a rollback to previous version Rollback is OK, and every data are OK.    </description>
     </item>
     
     <item>
