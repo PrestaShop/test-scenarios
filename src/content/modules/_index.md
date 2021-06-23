@@ -1,7 +1,7 @@
 ---
 title: Modules
 menuTitle: Modules
-weight: 2
+weight: 1
 pre: ""
 chapter: true
 ---
