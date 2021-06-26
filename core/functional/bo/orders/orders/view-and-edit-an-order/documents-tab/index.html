@@ -797,6 +797,81 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/documents-tab/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; Invoices &gt; Disable Invoices</td>
+<td>Invoices are disabled</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders &gt; Check Documents Tab</td>
+<td>No button &ldquo;Generate Invoice&rdquo;</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Orders &gt; Invoices &gt; Enable Invoices</td>
+<td>Invoices are enabled</td>
+</tr>
+<tr>
+<td>Click on <em>Order with no document</em></td>
+<td>Documents tab should be empty -&gt; Document count = 0<br>Message &ldquo;There is no available document&rdquo; should be displayed</td>
+</tr>
+<tr>
+<td>Click &ldquo;Generate Invoice&rdquo;</td>
+<td>The invoice appears in the list of documents<br>Document number is increased (+1)<br>Message Successful update. is displayed</td>
+</tr>
+<tr>
+<td>Click on Number column to Download Invoice</td>
+<td>Invoice downloaded</td>
+</tr>
+<tr>
+<td>Click Add a note</td>
+<td>Button changes to &ldquo;Edit note&rdquo;<br><br>Note can be seen in the Invoice in section Notes<br><br>Note can be seen in Documents tab<br><br>Message Successful update. is displayed</td>
+</tr>
+<tr>
+<td>Delete note and Save</td>
+<td>Note is deleted<br>Button &ldquo;Add note&rdquo; appears<br>Message Successful update. is displayed</td>
+</tr>
+<tr>
+<td>Click &ldquo;Enter a payment&rdquo;</td>
+<td>Page scrolls to Payment tab</td>
+</tr>
+<tr>
+<td>Change status to Payment Accepted</td>
+<td>Button &ldquo;Enter Payment&rdquo; should be hidden in Document tab<br>Message Successful update. is displayed</td>
+</tr>
+<tr>
+<td>Change Order Status<br>Example : Shipped</td>
+<td>Delivery Slip appears in list<br>Message Successful update. is displayed</td>
+</tr>
+<tr>
+<td>Click on Delivery Slip Number</td>
+<td>Launch Download of Delivery Slip</td>
+</tr>
+<tr>
+<td>Click on Partial Refund &gt; Choose quantity</td>
+<td>Credit slip will be generated<br><br>Message Successful update. is displayed</td>
+</tr>
+<tr>
+<td>Click on Credit Slip Number</td>
+<td>Credit Slip is downloaded</td>
+</tr>
+<tr>
+<td><em>Order with documents (Invoice or/and Delivery Slip or/and Credit Slip)</em></td>
+<td>List of documents available<br>Document count in title correct</td>
+</tr>
+<tr>
+<td>Click on column Number</td>
+<td>Download is launched (for Invoice or Delivery Slip or Credit Note)</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -845,7 +920,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.a43ff5da778d1192fd88b1f45307ba42a9f6d845d5a5e35369054a2e7fa128ac.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.9188af8697b5b4dfc4fe6c7a91114f06f6afbf5dc4bdcb70006032e2003a7ed0.js"></script>
 
 
 
