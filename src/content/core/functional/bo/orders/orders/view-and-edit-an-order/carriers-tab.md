@@ -7,8 +7,8 @@ weight: 5
 | ----- | ----- |
 | Go to BO > Orders > Orders | Order list appears |
 | Click on the order of your choice (any status is ok) | Carrier tab will have at least one Carrier |
-| Click on Edit | Popup appears with 2 options |
-| Add a tracking number and Update | Tracking Number will be updated on Order page |
-| Click on Edit | New Tracking number will appear |
-| Change *Carrier with same shipping cost* | On Order Page, Carrier name will be updated |
-| Change *Carrier with different shipping cost* | On Order Page, Carrier name and Shipping Cost will be updated |
+| Scroll down to Carrier > Click on Carrier tab > Click on Edit | Popup appears with 2 options |
+| Add a tracking number and Update | Message Successful update. appears.<br><br>Tracking Number will be updated on Order page |
+| Click on Edit | New Tracking number will appear in popup |
+| Change *Carrier with same shipping cost* | Message Successful update. appears.<br><br>On Order Page - Carrier tab, Carrier name will be updated |
+| Change *Carrier with different shipping cost* | Message Successful update. appears.<br><br>On Order Page, Carrier name and Shipping Cost will be updated |
