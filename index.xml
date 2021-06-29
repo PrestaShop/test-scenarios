@@ -907,7 +907,7 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/advanced-parameters/experimental-features/enable-disabled-experimental-product-page-v2/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Experimental Features page The Experimental Features page is displayed and the button &amp;ldquo;Experimental product page&amp;rdquo; is disabled by default   Enable the &amp;ldquo;Experimental product page&amp;rdquo;, click on save and confirm the activation An alert &amp;ldquo;Update successful&amp;rdquo; is displayed   Go to BO &amp;gt; Catalog &amp;gt; Products page the new Button &amp;ldquo;New product on experimental page&amp;rdquo; is displayed   Go to BO &amp;gt; Advanced Parameters &amp;gt; Experimental Features page The Experimental Features page is displayed and the button &amp;ldquo;Experimental product page&amp;rdquo; is enabled   Disable the &amp;ldquo;Experimental product page&amp;rdquo;, click on save, and confirm the deactivation An alert &amp;ldquo;Update successful&amp;rdquo; is displayed   Go to BO &amp;gt; Catalog &amp;gt; Products page the new Button &amp;ldquo;New product on experimental page&amp;rdquo; is not displayed    </description>
     </item>
     
     <item>
@@ -5577,7 +5577,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.    </de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/carriers-tab/</guid>
-      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Click on the order of your choice (any status is ok) Carrier tab will have at least one Carrier   Click on Edit Popup appears with 2 options   Add a tracking number and Update Tracking Number will be updated on Order page   Click on Edit New Tracking number will appear   Change Carrier with same shipping cost On Order Page, Carrier name will be updated   Change Carrier with different shipping cost On Order Page, Carrier name and Shipping Cost will be updated    </description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Click on the order of your choice (any status is ok) Carrier tab will have at least one Carrier   Scroll down to Carrier &amp;gt; Click on Carrier tab &amp;gt; Click on Edit Popup appears with 2 options   Add a tracking number and Update Message Successful update.</description>
     </item>
     
     <item>
@@ -6477,7 +6477,7 @@ categories are sorted by id_category (1 -&amp;gt; 2 -&amp;gt; 3)   Sort categori
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/merchandise-returns-tab/</guid>
-      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Customer Service &amp;gt; Merchandise returns &amp;gt; Enable returns Return turns green   Go to Order &amp;gt; Orders &amp;gt; Choose order with these 2 states : Payment validated &amp;amp; Shipped Order diplays   Go to FO &amp;gt; Customer account &amp;gt; Order    Check product you want to return and add a message List of merchandise returns displays in customer account   Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Return &amp;gt; Click on merchandise return See Return Merchandise Authorization (RMA) Page   Change status of MR from Waiting for confirmation to Waiting for Package &amp;gt; Save MR tab in Order -&amp;gt; Status changed</description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Customer Service &amp;gt; Merchandise returns &amp;gt; Enable returns Returns are enabled   Go to Order &amp;gt; Orders &amp;gt; Choose order with these 2 states : Payment validated &amp;amp; Shipped Order diplays   Go to FO &amp;gt; Log into Customer account &amp;gt; Go to Order history and details &amp;gt; Choose Order Order details display   Check product you want to return &amp;gt; Add a message &amp;gt; Click on Request a return List of Merchandise returns displays in customer account   Go back to BO &amp;gt; Order of choice &amp;gt; Merchandise Return tab In Merchandise Return tab : one new Return added   Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Return &amp;gt; Click on Merchandise Return See Merchandise Return list   Click on latest Merchandise Return Return Merchandise Authorization (RMA) displays   Change status of MR from &amp;ldquo;Waiting for confirmation&amp;rdquo; to &amp;ldquo;Waiting for package&amp;rdquo; &amp;gt; Save In BO : Merchandise Return tab in Order -&amp;gt; Status changed</description>
     </item>
     
     <item>
@@ -6897,7 +6897,8 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/message-block/</guid>
-      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Click on the order of your choice Display Order Detail   Check option Display to customer ? Option is checked   Click Choose your order message &amp;gt; Choose an option &amp;gt; Click Send message Order message will be displayed in BO and FO in blue   Write a message within the limit 1200 characters Order message will be displayed in BO and FO in blue   Uncheck option Display to customer ?</description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Click on the order of your choice Display Order Detail   Check option Display to customer ? Option is checked   Click Choose your order message &amp;gt; Choose an option &amp;gt; Click Send message Message Comment successfully added. appears
+Order message will be displayed in BO in blue   Go to FO &amp;gt; Log into Customer account &amp;gt; Go to Order history In Message block, see new message added   In BO &amp;gt; Order &amp;gt; Write a message within the limit of 1200 characters Order message will be displayed in BO and FO in blue   Write a message above 1200 characters Message won&amp;rsquo;t be sent and an error will appear   Uncheck option Display to customer ?</description>
     </item>
     
     <item>
@@ -7183,7 +7184,9 @@ Data is correct    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/payment-block/</guid>
-      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Choose an Order without payment Payment tab should be empty : Payment (0)   Fill Payment line with amount &amp;lt; total Warning appears : Warning €XX.XX paid instead of €XX.XX   Fill Payment line with amount = total Message Successful update. appears   Fill Payment line with amount &amp;lt; total Warning appears : Warning €XX.</description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Choose an Order without payment Payment tab should be empty : Payment (0)   Fill Payment line with amount inferior to total Message Successful update. appears
+Warning appears : Warning €XX.XX paid instead of €XX.XX
+New line with payment appears   Fill Payment line with amount equal to total Message Successful update.</description>
     </item>
     
     <item>
@@ -7618,7 +7621,7 @@ All products contain the searched Name    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/pagination/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to Bo &amp;gt; Orders &amp;gt; Orders List of all Orders appears   number orders &amp;lt; 10    number orders &amp;gt; 10     </description>
     </item>
     
     <item>
@@ -7727,7 +7730,7 @@ All products contain the searched Name    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/after-autoupgrade-rollback-to-previous-version/</guid>
-      <description>Steps    Step Description Expected result     After a full autoupgrade, perform a rollback to previous version Rollback is OK, and every data are OK.    </description>
+      <description>Steps    Step Description Expected result     Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.   Rollback from the release to PS176x Rollback is OK, and every data are OK.</description>
     </item>
     
     <item>
