@@ -797,6 +797,33 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/create-an-order/choose-shipping/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders &gt; click Add new order &gt; Choose Customer &gt; Choose products &gt; Scroll down to Block Shipping</td>
+<td>See 3 options</td>
+</tr>
+<tr>
+<td>Click on dropdown to choose a Shipping method</td>
+<td>Shipping price will update<br><br>In Summary, Shipping price will update too</td>
+</tr>
+<tr>
+<td>Enable Free shipping</td>
+<td>Shipping price is now 0<br><br>In Summary, Shipping price will update to 0 too</td>
+</tr>
+<tr>
+<td>If no shipping is available</td>
+<td>Message No carrier can be applied to this order will appear<br><br>No further block, can&rsquo;t continue to create the order</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -845,7 +872,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.a9885a095cc484f6ea91cf4170664e41c5052f2a4f87c3f9976449fc9be96d06.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.1aa2da75b71f7abc46e2e0361323bc61f49ad7d1711cf2e7b567162848eacf0f.js"></script>
 
 
 

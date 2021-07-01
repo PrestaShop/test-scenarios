@@ -797,6 +797,45 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/create-an-order/choose-adresses/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders &gt; Click Add new order &gt; Choose a customer &gt; Choose a product &gt; Scroll down to block Addresses &gt; Click Add a new Address</td>
+<td>Popup displays</td>
+</tr>
+<tr>
+<td>Fill the fields with dummy info &gt; Add a wrong format Zip Code &gt; Save</td>
+<td>A warning should be displayed with a message : <br>Your Zip/Postal code is incorrect. It must be entered as follows: 0000</td>
+</tr>
+<tr>
+<td>Correct the Zip code to match with format &gt; Save</td>
+<td>New Address is saved</td>
+</tr>
+<tr>
+<td>Go to Customers &gt; Addresses</td>
+<td>See that new address has been saved</td>
+</tr>
+<tr>
+<td>In the Order creation process &gt; Click on dropdown in Delivery and Invoice part</td>
+<td>See your new address displayed</td>
+</tr>
+<tr>
+<td>Change the address &gt; Shipping should be updated</td>
+<td>If No Carrier available, a message will appear : <br>No carrier can be applied to this order</td>
+</tr>
+<tr>
+<td>Click on Edit on an existing address &gt; Update address &gt; Save</td>
+<td>Popup displays, after saving popup disappears</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -845,7 +884,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.a9885a095cc484f6ea91cf4170664e41c5052f2a4f87c3f9976449fc9be96d06.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.1aa2da75b71f7abc46e2e0361323bc61f49ad7d1711cf2e7b567162848eacf0f.js"></script>
 
 
 
