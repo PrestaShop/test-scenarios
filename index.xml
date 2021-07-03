@@ -3312,7 +3312,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.    </de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/products/add-standard-product/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click &amp;ldquo;New product&amp;rdquo; Page New product will open   Fill in product Name, Reference, Quantity &amp;gt; Click Save Message Settings updated. appears   Click &amp;ldquo;Preview&amp;rdquo; New page will open with newly create product   Disable product by unchecking Offline option &amp;gt; Save &amp;gt; Click Preview Message Settings updated.</description>
     </item>
     
     <item>
@@ -4245,7 +4245,9 @@ Successful message is displayed   Download and open CSV file of the created quer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/status-tab/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed
+Check the number of status = 1
+The Order note is not opened by default (exist from PS1.7.8)   Click on Resend email An alert &amp;ldquo;The message was successfully sent to the customer.&amp;rdquo; is displayed and the email is well received inbox   Click on &amp;ldquo;Update status without selecting other sattus&amp;rdquo; An alert &amp;ldquo;The order has already been assigned this status.</description>
     </item>
     
     <item>
@@ -4604,7 +4606,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.    </de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/products/add-pack-product/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click Add new products &amp;gt; Choose pack of products &amp;gt; Enter a name &amp;gt; Add quantity &amp;gt; Add price Message Settings updated. appears   Add a simple product to the pack &amp;gt; Add a virtual product + increase quantity &amp;gt; Add customizable product &amp;gt; Save Message Settings updated. appears   Check Online &amp;gt; Save &amp;gt; Preview product &amp;gt; Add product pack in cart Page in FO opens with pack of product and is added to cart   Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Unable product from Products list Message Product successfully deactivated.</description>
     </item>
     
     <item>
@@ -5496,7 +5498,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.    </de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/products/add-virtual-product/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click Add new product &amp;gt; Choose Virtual Product &amp;gt; Enter name + price + quantity &amp;gt; Click Save Message Settings updated. appears   Click Offline to uncheck it Product is now Online   In tab Virtual &amp;gt; Add an associated file (png, jpg or other) &amp;gt; Choose file &amp;gt; Add filename &amp;gt; Add Number of allowed downloads &amp;gt; Add Expiration Date &amp;gt; Add number of days &amp;gt; Save Message Settings updated.</description>
     </item>
     
     <item>
@@ -7323,7 +7325,7 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/create-an-order/check-summary-and-create-order/</guid>
       <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Choose customer &amp;gt; Add product to cart Check Summary &amp;gt; Total Product &amp;amp; Total (Tax excl.) should be equal
-Total (Tax incl.) should be equal to ** Total taxes + Total (Tax excl.)    </description>
+Total (Tax incl.) should be equal to ** Total taxes + Total (Tax excl.)   Add a voucher See in Summary that Total vouchers (Tax excl.</description>
     </item>
     
     <item>

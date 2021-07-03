@@ -810,6 +810,30 @@
 <td>Go to BO &gt; Orders &gt; Orders &gt; Click Add new order &gt; Choose customer &gt; Add product to cart</td>
 <td>Check Summary &gt; <em>Total Product</em> &amp; <em>Total (Tax excl.)</em> should be equal<br><br><em>Total (Tax incl.)</em> should be equal to ** <em>Total taxes</em> + <em>Total (Tax excl.)</em></td>
 </tr>
+<tr>
+<td>Add a voucher</td>
+<td>See in Summary that <em>Total vouchers (Tax excl.)</em> has been updated</td>
+</tr>
+<tr>
+<td>Delete voucher</td>
+<td><em>Total vouchers (Tax excl.)</em> equal to 0<br><br><em>Total (Tax incl.)</em> should be updated</td>
+</tr>
+<tr>
+<td>Change Delivery Option to a not free carrier</td>
+<td><em>Total shipping (Tax excl.)</em> will be updated<br><br>Price should be tax excluded<br><br><em>Total (Tax incl.)</em> should be updated</td>
+</tr>
+<tr>
+<td>Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click &ldquo;more actions&rdquo; &gt; Choose &ldquo;Send pre-filled order to the customer by email&rdquo;</td>
+<td>Message The email was sent to your customer. appears</td>
+</tr>
+<tr>
+<td>Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click &ldquo;more actions&rdquo; &gt; Choose &ldquo;Proceed to checkout in the front office&rdquo;</td>
+<td>FO opens with Step 1 of checkout process</td>
+</tr>
+<tr>
+<td>Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click button Create Order</td>
+<td>Order will be created - Order details will be opened in BO</td>
+</tr>
 </tbody>
 </table>
 
@@ -860,7 +884,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.4e641f9c87efbbff29390490a6581de6922b1be4d13f4993d5961deb210ecaac.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.30878baceda7521db82fce42a5be9561c0704008c3de9328d086fb3da5b3785c.js"></script>
 
 
 

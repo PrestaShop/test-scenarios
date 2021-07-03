@@ -37,7 +37,9 @@ The customer panel displayed on the left of the product list has: # The customer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/status-tab/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed
+Check the number of status = 1
+The Order note is not opened by default (exist from PS1.7.8)   Click on Resend email An alert &amp;ldquo;The message was successfully sent to the customer.&amp;rdquo; is displayed and the email is well received inbox   Click on &amp;ldquo;Update status without selecting other sattus&amp;rdquo; An alert &amp;ldquo;The order has already been assigned this status.</description>
     </item>
     
     <item>

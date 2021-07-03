@@ -797,6 +797,73 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/status-tab/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders page and view last order created</td>
+<td>The Order view page is well displayed<br><br>Check the number of status = 1<br><br>The Order note is not opened by default (exist from PS1.7.8)</td>
+</tr>
+<tr>
+<td>Click on Resend email</td>
+<td>An alert &ldquo;The message was successfully sent to the customer.&rdquo; is displayed and the email is well received inbox</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Update status without selecting other sattus&rdquo;</td>
+<td>An alert &ldquo;The order has already been assigned this status.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Select Canceled and Click on &ldquo;Update status&rdquo;</td>
+<td>An alert &ldquo;Successful update.&rdquo; is displayed and check:<br><br>Number status = +1 =&gt; 2<br><br>Status = canceled<br><br>Employee name &amp; lastname =&gt; ok <br><br>Date =&gt; ok</td>
+</tr>
+<tr>
+<td>Sign out and sing in with another emplyee</td>
+<td>The dashboard is well displayed with the new employee</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Orders &gt; View the last Order &gt; change the status to payment accepted in the status block</td>
+<td>An alert &ldquo;Successful update.&rdquo; is well displayed:<br><br>Check the number of statuses = +1 =&gt; 3<br><br>Check the name &amp; first name of the new employee<br><br>Check the status = payment accepted</td>
+</tr>
+<tr>
+<td>In the status block &gt; change status to shipped</td>
+<td>An alert &ldquo;Successful update.&rdquo; is well displayed:<br><br>Check the number of statuses = +1 =&gt;4<br><br>Check the status = Shipped</td>
+</tr>
+<tr>
+<td>Check the Order note text area</td>
+<td>The Ordr note text area is not visible by default</td>
+</tr>
+<tr>
+<td>Click on &ldquo;+&rdquo; button</td>
+<td>The order note text area is visible</td>
+</tr>
+<tr>
+<td>Got to BO &gt; Orders &gt; Order list page and View first Order created by John Doe</td>
+<td>The Orders page is displayed and the Order details page  1 is displayed</td>
+</tr>
+<tr>
+<td>In the status block Press the &ldquo;+&rdquo; button to add Order note, set an order note and save</td>
+<td>A green alert &ldquo;Successful update.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Got to BO &gt; Orders &gt; Order list page and View the Order created by new customer</td>
+<td>The Orders page is displayed, the Order details page is displayed and the order note doesn&rsquo;t exist</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Orders &gt; Order list page and View first Order created by John Doe</td>
+<td>The Orders page is displayed, the Order details page 1 is displayed and the order note is displayed</td>
+</tr>
+<tr>
+<td>Delete order note not and click on &ldquo;Save&rdquo;</td>
+<td>A &ldquo;Successful update.&rdquo; alert is displayed</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -845,7 +912,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.4e641f9c87efbbff29390490a6581de6922b1be4d13f4993d5961deb210ecaac.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.30878baceda7521db82fce42a5be9561c0704008c3de9328d086fb3da5b3785c.js"></script>
 
 
 
