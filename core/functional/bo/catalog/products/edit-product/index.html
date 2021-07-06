@@ -790,6 +790,141 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/products/edit-product/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Click on the Pen of an existing product</td>
+<td>Edit product page opens in tab Basic Settings</td>
+</tr>
+<tr>
+<td><em>In Basic Settings</em><br><br>Edit name of product - reference - price - images - description &gt; Click Save</td>
+<td>Info updated<br><br>Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>Add Feature &gt; Pre-defined value &gt; Save</td>
+<td>Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>Add Feature &gt; Add Customized value &gt; Add your value &gt; Save</td>
+<td>Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>Go to FO product page &gt; Click on Product Detail</td>
+<td>See in Data sheet the Features updated</td>
+</tr>
+<tr>
+<td>Delete Brand &gt; Yes &gt; Click Add a Brand &gt; Choose a brand &gt; Save</td>
+<td>Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>Search and Add a related Product &gt; Type product name &gt; Product should appear in dropdown &gt; Choose product to add &gt; Save</td>
+<td>Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>Click on the cross to delete the related product &gt; Click the Trash icon to delete all related product &gt; YES &gt; Save</td>
+<td>Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>In Category section &gt; Search for a category and add it</td>
+<td>You will see it in Associated Category<br><br>Expand all categories and see that the new category is checked</td>
+</tr>
+<tr>
+<td>Choose another main category &gt; Save</td>
+<td>Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>Create a new category &gt; Choose a name &gt; Choose a parent &gt; Click Create</td>
+<td>The new category will be present is Associated Categories block and checked in category tree</td>
+</tr>
+<tr>
+<td>Go to Category page &gt; See your new category in the parent category</td>
+<td>New category is listed in Category page</td>
+</tr>
+<tr>
+<td><em>In Combinations</em><br><br>Choose several attributes in right column (Size, Color, etc) &gt; Click Generate</td>
+<td>Combination are generated and Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>Add a quantity to the newly created combination &gt; Click the pen to Edit it</td>
+<td>Message Settings updated. appears<br><br>A popup will appear with all info regarding combination<br><br>Prev combination and Next combination buttons appear on top</td>
+</tr>
+<tr>
+<td>Set min quantity for sale and add a reference &gt; Save &gt;  Click Preview to see product FO</td>
+<td>See that minimal quantity is met with the edited combination</td>
+</tr>
+<tr>
+<td>In Availability preferences &gt; Deny Orders &gt; Click Preview</td>
+<td>Try to add product to the cart &gt; Can&rsquo;t be added<br><br>Can&rsquo;t push button Add to Cart<br><br>Message <em>Product available with different options</em> appears</td>
+</tr>
+<tr>
+<td>In Availability preferences &gt; Allow Orders &gt; Click Preview</td>
+<td>Add product to the cart &gt; Product is added to cart</td>
+</tr>
+<tr>
+<td>Add a label for option &ldquo;Label when in stock&rdquo; &gt; Go to FO &gt; Choose product combination with stock</td>
+<td>Label is displayed</td>
+</tr>
+<tr>
+<td>Add a label for option &ldquo;Label when out of stock (and back order allowed)&rdquo; &gt; Go to FO &gt; Choose product combination without stock</td>
+<td>Label is displayed</td>
+</tr>
+<tr>
+<td><em>In Shipping</em><br><br>Add Width - Height - Depth - Weight &gt; Save</td>
+<td>Message Settings updated. appears</td>
+</tr>
+<tr>
+<td>In Delivery Time &gt; Choose None</td>
+<td>Message Settings updated. appears<br><br>In FO &gt; There&rsquo;s no change on the product sheet</td>
+</tr>
+<tr>
+<td>In Delivery Time &gt; Choose Default delivery time &gt; Click on the link provided</td>
+<td>New page opens with Advanced Parameters &gt; Product Settinfs</td>
+</tr>
+<tr>
+<td>In Delivery Time &gt; Choose Specific delivery time to this product &gt; Add info in both fields</td>
+<td>In FO &gt; Delivery time is displayed next to the price</td>
+</tr>
+<tr>
+<td>Add Shipping fee &gt; Save</td>
+<td>Message Settings updated. appears<br><br>Go to FO &gt; Add product to cart &gt; in checkout process step 3 &gt; See that shipping in increases</td>
+</tr>
+<tr>
+<td>Check one carrier that is disabled</td>
+<td>Message Settings updated. appears<br><br>Go to FO &gt; Add product to cart &gt; in checkout process step 3 &gt; See that there&rsquo;s no shipping available</td>
+</tr>
+<tr>
+<td><em>In Pricing</em><br><br>Edit the Retail price (tax incl.) of your product &gt; Add a Retail price per unit (tax excl.) &gt; Save</td>
+<td>Go to FO &gt; See price is updated + new line with price per unit is displayed</td>
+</tr>
+<tr>
+<td>Add a Specific Price &gt; Add a min quantity &gt; Add a discount &gt; Apply &gt; Save &gt; Click Preview</td>
+<td>Message Settings updated. appears<br><br>In FO &gt; New table is displayed with Volume Discounts</td>
+</tr>
+<tr>
+<td>Add to cart a product to get Volume Discount &gt; Continue Checkout Process</td>
+<td>In Shopping cart, see the price discount</td>
+</tr>
+<tr>
+<td><em>In Options</em><br><br>Click Dropdown And choose option</td>
+<td>Message Settings updated. appears<br><br>Everywhere &gt; Product is displayed everywhere (search, categories, home, etc)<br><br>Catalog Only &gt; Product can only be found in the shop (no search)<br><br>Search Only &gt; Product can only be found via search bar<br><br>Nowhere &gt; Product can only be found via link (no search, no display in shop)</td>
+</tr>
+<tr>
+<td>Add a Condition and display it in the product sheet<br><br>Add References with digits</td>
+<td>Reference can only contains digits, if letters are added a message appears : Unable to update settings. + This value is not valid.<br><br>Message Settings updated. appears<br><br>Go to FO &gt; Product details &gt; Specific references and condition are updated</td>
+</tr>
+<tr>
+<td>Add a customisation possibility &gt; Add Label &gt; Choose Type &gt; Choose Required &gt; Save &gt; Preview</td>
+<td>In FO &gt; Product Customization block appears &gt; Product can&rsquo;t be added unless Customization is added</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -838,7 +973,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.30878baceda7521db82fce42a5be9561c0704008c3de9328d086fb3da5b3785c.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.daf7ff4ace51c5f5ed0138279add2d253ad802635f46c9bfeb045e52df1f1b2f.js"></script>
 
 
 

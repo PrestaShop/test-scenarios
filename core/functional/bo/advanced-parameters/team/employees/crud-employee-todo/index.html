@@ -797,6 +797,57 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/advanced-parameters/team/employees/crud-employee-todo/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Advanced Parameters &gt; Team</td>
+<td>Employees Page opens</td>
+</tr>
+<tr>
+<td>Click button Add an employee &gt; Fill in fields &gt; Choose Permission Profile : SuperAdmin &gt; Choose Default Page : Order &gt; Save</td>
+<td>Message Successful creation. appears<br><br>Newly created employee appears in Employees list</td>
+</tr>
+<tr>
+<td>Open a new tab in incognito mode &gt; Go to admin URL &gt; Log in with new Employee credentials</td>
+<td>Order Page opens</td>
+</tr>
+<tr>
+<td>Close window</td>
+<td>Windows is closed</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Advanced Parameters &gt; Team &gt; Employee &gt; Disable Employee</td>
+<td>Message The status has been successfully updated. appears<br><br>Employee is disabled</td>
+</tr>
+<tr>
+<td>Open a new tab in incognito mode &gt; Go to admin page &gt; Log in with disabled employee</td>
+<td>Error appears:<br><br><em>There is one error.</em><br> # The employee does not exist, or the password provided is incorrect.</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Edit your profile by clicking on the pen &gt; Edit your profile picture and your Default page</td>
+<td>Profile is updated<br><br>Message Successful update. appears</td>
+</tr>
+<tr>
+<td>Click on the top right icon &gt; Click on Your Profile</td>
+<td>See that the profile picture and the default page is updated</td>
+</tr>
+<tr>
+<td>Go back to Employees list &gt; Click 3 dots on newly created Employee &gt; Click delete &gt; Delete</td>
+<td>Employee is deleted.<br><br>Message Successful deletion. appears</td>
+</tr>
+<tr>
+<td>Log in with deleted Employee</td>
+<td>Error message appears :<br><br><em>There is one error.</em><br> # The employee does not exist, or the password provided is incorrect.</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -845,7 +896,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.30878baceda7521db82fce42a5be9561c0704008c3de9328d086fb3da5b3785c.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.daf7ff4ace51c5f5ed0138279add2d253ad802635f46c9bfeb045e52df1f1b2f.js"></script>
 
 
 
