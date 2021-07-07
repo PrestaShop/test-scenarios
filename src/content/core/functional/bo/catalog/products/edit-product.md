@@ -17,6 +17,8 @@ weight: 6
 | Choose another main category > Save | Message Settings updated. appears |
 | Create a new category > Choose a name > Choose a parent > Click Create | The new category will be present is Associated Categories block and checked in category tree |
 | Go to Category page > See your new category in the parent category | New category is listed in Category page |
+| *In Virtual Product*<br><br>Edit Quantity - Minimum quantity for sale > Save | Quantities are updated<br><br>Message Settings updated. appears. |
+| Associated File > Check YES > Add an associated file > Add 1 to number of days allowed > Click Save for File > Click Save for the entier product<br><br>Go to FO > Add product to cart > Pay<br><br>Go back to BO > Payment status of Order should be considered as paid | In the customer account > Go to Order history and Details > Click on your product to download it > Virtual product is downloaded > Click once again on the product to download it<br><br>Message You have reached the maximum number of downloads allowed. appears<br><br>Homepage shop displays |
 | *In Combinations*<br><br>Choose several attributes in right column (Size, Color, etc) > Click Generate | Combination are generated and Message Settings updated. appears |
 | Add a quantity to the newly created combination > Click the pen to Edit it | Message Settings updated. appears<br><br>A popup will appear with all info regarding combination<br><br>Prev combination and Next combination buttons appear on top |
 | Set min quantity for sale and add a reference > Save >  Click Preview to see product FO | See that minimal quantity is met with the edited combination |

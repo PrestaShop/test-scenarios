@@ -1,11 +1,11 @@
 ---
-title: "Autoupgrade from 1.7.6.x"
-weight: 12
+title: "Exploratory session after autoupgrade"
+weight: 14
 ---
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install previous version (last stable version + 2 or 3 most used versions, and 1.6.1.24) |  |
+| Install previous version (specify which one in expected result) |  |
 | Add a localization pack (Poland for example) |  |
 | Enable Multistore, create a new shop on a new shop group |  |
 | Add one product of each following type (standard with customization, virtual, pack, combination) on each shop |  |
@@ -17,3 +17,4 @@ weight: 12
 | Install some new modules and configure them (partner, PS...) | Configuration is OK |
 | Upgrade to the tested build | Everything is OK during upgrade |
 | Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK. |  |
+| Exploratory test of the version |  |
