@@ -804,12 +804,56 @@
 <td>List of all Orders appears</td>
 </tr>
 <tr>
-<td><em>number orders &lt; 10</em></td>
-<td></td>
+<td><em>number orders <em>⩽</em> 10</em></td>
+<td>All orders are on the same page : no pagination available</td>
 </tr>
 <tr>
-<td><em>number orders &gt; 10</em></td>
-<td></td>
+<td><em>number orders <em>⩾</em> 10</em></td>
+<td>Order are display according to &ldquo;Items by page&rdquo;</td>
+</tr>
+<tr>
+<td>Add order from BO or FO until number of orders reaches 11 orders</td>
+<td>List of orders displays with number of order = 11<br><br>Pagination bar at the bottom of the page displays</td>
+</tr>
+<tr>
+<td>Change &ldquo;items per page&rdquo; to 10</td>
+<td>Page reloads with 10 items on the first page<br><br>Buttons appear to go to the next page</td>
+</tr>
+<tr>
+<td>Click on page 2 or arrow &ldquo;&gt;&rdquo; to see the next page</td>
+<td>Only one order should appear</td>
+</tr>
+<tr>
+<td>Change &ldquo;items per page&rdquo; to 20</td>
+<td>Page reloads with all items on the first page = 11 orders<br><br>Only one page of order is available</td>
+</tr>
+<tr>
+<td>Change &ldquo;items per page&rdquo; to 50</td>
+<td>Page reloads with all items on the first page = 11 orders<br><br>Only one page of orders is available</td>
+</tr>
+<tr>
+<td>Change &ldquo;items per page&rdquo; to 100</td>
+<td>Page reloads with all items on the first page = 11 orders<br><br>Only one page of orders is available</td>
+</tr>
+<tr>
+<td>Add orders to reach 21 orders total</td>
+<td>Items per page : 10 <br><br>You should see 3 pages order orders</td>
+</tr>
+<tr>
+<td>Change &ldquo;items per page&rdquo; : 20</td>
+<td>Pagination is available : 3 pages are available</td>
+</tr>
+<tr>
+<td>Change &ldquo;Items per page&rdquo; : 50 / 100</td>
+<td>Only one page of order is available</td>
+</tr>
+<tr>
+<td><em>Filter</em><br><br>By id : ASC or DESC</td>
+<td>Pagination should keep its configuration</td>
+</tr>
+<tr>
+<td>Filter by Status &gt; Choose a status &gt; Click Search</td>
+<td>Order list should be filterer with the payment chosen<br><br>If &lt; to &ldquo;Items per page&rdquo; : one page is available with no pagination<br><br>if &gt; to &ldquo;Items per page&rdquo; : X pages are available to go through</td>
 </tr>
 </tbody>
 </table>
@@ -861,7 +905,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.9736d8def87ee96bdc7442ceae270d5fbb2876d08bd12b81b0d893b743ec6ae8.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.a369eade36fe4f90d5f62ee1e786584f47f6752b2e2fcdd29787f0e0b95be90e.js"></script>
 
 
 
