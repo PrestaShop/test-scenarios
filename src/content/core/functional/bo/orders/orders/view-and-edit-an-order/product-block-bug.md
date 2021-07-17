@@ -35,6 +35,10 @@ weight: 2
 | Click on "Cancel" button | The addProductTableRow is not displayed |
 | Click on Add a product | The addProductTableRow is displayed |
 | Search for a product with a specific price and click on it | The base price and the total are correct |
+| Click on Add a product | The addProductTableRow is displayed |
+| Search for a product with ecotax and click on it | The base price and the total are correct |
+| Click on Add a product | The addProductTableRow is displayed |
+| Search for a product with cart rule and click on it | The base price and the total are correct <br><br>Check that the discount line is well added |
 | Click on "Edit" of the first product in the list | The "editProductRow" is displayed |
 | Edit the quantity, click on "Save" and confirm the modification | The Quantity is correct |
 | Click on "Edit" of the first product in the list | The "editProductRow" is displayed |
