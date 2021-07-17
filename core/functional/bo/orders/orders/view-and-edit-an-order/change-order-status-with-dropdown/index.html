@@ -797,6 +797,45 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/change-order-status-with-dropdown/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders page and view last order created</td>
+<td>The Order view page is well displayed and the Update status button is disabled</td>
+</tr>
+<tr>
+<td>Select the same status</td>
+<td>The button &ldquo;Update status&rdquo; is still disabled</td>
+</tr>
+<tr>
+<td>Select Canceled and Click on &ldquo;Update status&rdquo;</td>
+<td>An alert &ldquo;Successful update.&rdquo; is displayed and check:<br><br>Number status = +1 =&gt; 2<br><br>Status = canceled</td>
+</tr>
+<tr>
+<td>Select status &ldquo;payment accepted&rdquo; and click on &ldquo;Update Status&rdquo;</td>
+<td>An alert &ldquo;Successful update.&rdquo; is well displayed:<br><br>Two new buttons are displayed &ldquo;View order&rdquo; + &ldquo;Partial refund&rdquo;<br><br>Check the number of statuses = +1 =&gt; 3<br><br>Check the status = payment accepted<br><br>Check there is an invoice generated</td>
+</tr>
+<tr>
+<td>Click on View invoice</td>
+<td>An invoice is downloaded</td>
+</tr>
+<tr>
+<td>Select status &ldquo;shipped&rdquo; and click on &ldquo;Update Status&rdquo;</td>
+<td>An alert &ldquo;Successful update.&rdquo; is well displayed:<br><br>A new button &ldquo;View delivery slip&rdquo; is displayed<br><br>Check the number of statuses = +1 =&gt;4<br><br>Check the status = Shipped<br><br>Check that the delivery slip is generated</td>
+</tr>
+<tr>
+<td>Click on &ldquo;View delivery slip&rdquo;</td>
+<td>a delivery slip is doownloaded</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -845,7 +884,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.a369eade36fe4f90d5f62ee1e786584f47f6752b2e2fcdd29787f0e0b95be90e.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.f7f8d713b66c438b12d9bbc1f7e170cc3589341198c6cf7d748af7cd025979ad.js"></script>
 
 
 

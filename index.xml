@@ -2958,7 +2958,7 @@ number of order messages = Total of orders messages + 1   Go to create new order
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/credit-slips/sort-pagination-credit-slips/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to the BO &amp;gt; Orders &amp;gt; Credit slips page The credit slips page is well displayed   Sort by ID DESC The Credit slips are sorted by ID DESC   Sort by ID order ASC The Credit slips are sorted by ID order ASC   Sort by ID order DESC The Credit slips are sorted by ID order DESC   Sort by Date issued ASC The Credit slips are sorted by Date issued ASC   Sort by Date issued DESC The Credit slips are sorted by Date issued DESC   Sort by ID ASC The Credit slips are sorted by ID ASC   number of credit slip ⩽ 10 All credit slips are on the same page : no pagination available   Number of credit slips &amp;gt; 10</description>
     </item>
     
     <item>
@@ -7319,7 +7319,8 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/change-order-status-with-dropdown/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed and the Update status button is disabled   Select the same status The button &amp;ldquo;Update status&amp;rdquo; is still disabled   Select Canceled and Click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and check:
+Number status = +1 =&amp;gt; 2</description>
     </item>
     
     <item>
@@ -7557,7 +7558,10 @@ When installed, button will transform to a Configure button   Click on the butto
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/add-a-discount/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed   Click Add new discount A pop up &amp;ldquo;Add new cart rule&amp;rdquo; is displayed and the &amp;ldquo;Add&amp;rdquo; button is disabled   Set these fields:
+# Name
+# Value = invalid with characters =&amp;gt; 10%
+and click on &amp;ldquo;Add&amp;rdquo; An alert &amp;ldquo;Discount value must be a number.</description>
     </item>
     
     <item>

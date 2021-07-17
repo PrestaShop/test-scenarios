@@ -797,6 +797,117 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/add-a-discount/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders page and view last order created</td>
+<td>The Order view page is well displayed</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Value = invalid with characters =&gt; 10%<br><br>and click on &ldquo;Add&rdquo;</td>
+<td>An alert &ldquo;Discount value must be a number.&rdquo;</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Value &gt; 100% =&gt; 500%<br><br>and click on Save</td>
+<td>An alert &ldquo;Percent value cannot exceed 100.&rdquo;</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Value &lt; 0 =&gt; -2<br><br>and click on Save</td>
+<td>Percent value must be greater than 0.</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Value<br><br>and click on Save</td>
+<td>An alert &ldquo;Successful update.&rdquo; alert is displayed and<br><br>Discounts = Total products - Value<br><br>A new line is added</td>
+</tr>
+<tr>
+<td>Click on Remove to delete the discount</td>
+<td>An alert &ldquo;Successful update.&rdquo; is displayed<br>The line discount is removed</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Type = Amount<br> # Value: invalid with characters<br><br>and click on Save</td>
+<td>An alert &ldquo;Discount value must be a number.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Type = Amount<br> # Value: &lt; 0<br><br>and click on Save</td>
+<td>An alert &ldquo;Amount value must be greater than 0.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Type = Amount<br> # Value: &gt; Total order<br><br>and click on Save</td>
+<td>An alert &ldquo;Discount value cannot exceed the total price of this order.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Type = Amount<br> # Value<br><br>and click on Save</td>
+<td>An alert &ldquo;Successful update.&rdquo; alert is displayed and<br><br>Discounts = Total products - Value<br><br>A new line is added</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Discounts page</td>
+<td>check that the cart rule is well displayed with same name</td>
+</tr>
+<tr>
+<td>Go back to the last Order and Click on Remove to delete the discount</td>
+<td>An alert &ldquo;Successful update.&rdquo; is displayed<br>The line discount is removed</td>
+</tr>
+<tr>
+<td>Click Add new discount</td>
+<td>A pop up &ldquo;Add new cart rule&rdquo; is displayed and the &ldquo;Add&rdquo; button is disabled</td>
+</tr>
+<tr>
+<td>Set these fields:<br> # Name<br> # Type = ree shipping<br><br>and click on Save</td>
+<td>An alert &ldquo;Successful update.&rdquo; alert is displayed and<br><br>Discounts = fees of  shipping<br><br>A new line is added</td>
+</tr>
+<tr>
+<td>Click on the Carriers Tab and click on Edit</td>
+<td>A pop up: &ldquo;Edit shipping details&rdquo;  is displayed</td>
+</tr>
+<tr>
+<td>Select another carrier and click on Update</td>
+<td>An alert &ldquo;Successful update.&rdquo; is displayed and check in the discount block, the <em>value</em> of free shipping is updated</td>
+</tr>
+<tr>
+<td>Click on Remove to delete the discount</td>
+<td>An alert &ldquo;Successful update.&rdquo; is displayed<br>The line discount is removed</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -845,7 +956,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.a369eade36fe4f90d5f62ee1e786584f47f6752b2e2fcdd29787f0e0b95be90e.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.f7f8d713b66c438b12d9bbc1f7e170cc3589341198c6cf7d748af7cd025979ad.js"></script>
 
 
 

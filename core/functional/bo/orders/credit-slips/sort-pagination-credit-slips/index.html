@@ -790,6 +790,65 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/credit-slips/sort-pagination-credit-slips/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to the BO &gt;  Orders &gt; Credit slips page</td>
+<td>The credit slips page is well displayed</td>
+</tr>
+<tr>
+<td>Sort by ID DESC</td>
+<td>The Credit slips are sorted by ID DESC</td>
+</tr>
+<tr>
+<td>Sort by ID order ASC</td>
+<td>The Credit slips are sorted by ID order ASC</td>
+</tr>
+<tr>
+<td>Sort by ID order DESC</td>
+<td>The Credit slips are sorted by ID order DESC</td>
+</tr>
+<tr>
+<td>Sort by Date issued ASC</td>
+<td>The Credit slips are sorted by Date issued ASC</td>
+</tr>
+<tr>
+<td>Sort by Date issued DESC</td>
+<td>The Credit slips are sorted by Date issued DESC</td>
+</tr>
+<tr>
+<td>Sort by ID ASC</td>
+<td>The Credit slips are sorted by ID ASC</td>
+</tr>
+<tr>
+<td>number of credit slip <em>⩽</em> 10</td>
+<td>All credit slips are on the same page : no pagination available</td>
+</tr>
+<tr>
+<td>Number of credit slips &gt; 10<br><br>Change &ldquo;items per page&rdquo; to 10</td>
+<td>Page reloads with 10 items on the first page<br><br>Buttons appear to go to the next page</td>
+</tr>
+<tr>
+<td>Click on Next</td>
+<td>The second page is well displayed</td>
+</tr>
+<tr>
+<td>Click on previous</td>
+<td>The first page is well displayed</td>
+</tr>
+<tr>
+<td>Change &ldquo;items per page&rdquo; to 50</td>
+<td>Page reloads with all items on the first page = 11 credit slips<br><br>Only one page of credit slips is available</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -838,7 +897,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.a369eade36fe4f90d5f62ee1e786584f47f6752b2e2fcdd29787f0e0b95be90e.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.f7f8d713b66c438b12d9bbc1f7e170cc3589341198c6cf7d748af7cd025979ad.js"></script>
 
 
 
