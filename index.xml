@@ -3718,7 +3718,9 @@ Page title contains Creating a new Customer&amp;quot;   Fill all information : &
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/cldr/delete-a-currency/</guid>
-      <description>Steps    Step Description Expected result          </description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 3 currencies : GBP, JPY and USD 3 new currencies are created
+Message &amp;ldquo;Successful creation&amp;rdquo; appears   Click on the 3-dot button for USD &amp;gt; Delete A popup titled &amp;ldquo;Delete selection&amp;rdquo; appears   Click Delete to confirm the deletion Message &amp;ldquo;Successful deletion.&amp;rdquo; appears
+USD is no longer in the list of currencies</description>
     </item>
     
     <item>
@@ -5302,7 +5304,8 @@ number of layouts = 50   Go back to email theme page title contains &amp;lsquo;E
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/cldr/search-a-currency-by-iso-code/</guid>
-      <description>Steps    Step Description Expected result          </description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 3 new currencies : USD, PYG and JPY Message &amp;ldquo;Successful creation.&amp;quot;
+USD, PYG and JPY are in the list of currencies   Search by ISO &amp;ldquo;EUR&amp;rdquo; &amp;gt; Click Search Currency Euro is displayed   Search by ISO : &amp;ldquo;US&amp;rdquo; Currency US Dollar is displayed   Search by ISO : &amp;ldquo;PY&amp;rdquo; 2 currencies are displayed : Japanese Yen and Paraguayan Guarani   Search by ISO : &amp;ldquo;P&amp;rdquo; 3 currencies are displayed : British Pound, Japanese Yen and Paraguayan Guarani   Click Reset All currencies are displayed    </description>
     </item>
     
     <item>
@@ -6004,7 +6007,9 @@ Number of items should be 50 (by default)   Change the number of items per page 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/cldr/search-a-currency-by-enable-disable/</guid>
-      <description>Steps    Step Description Expected result          </description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add a new currency : USD &amp;gt; Save USD currency is created
+Message &amp;ldquo;Successful creation.&amp;rdquo;   Disable currency USD by switching the toggle button USD is disabled
+Message &amp;ldquo;The status has been successfully updated.&amp;rdquo;   Search by Enabled : YES &amp;gt; Click Search Currency Euro should be the only currency available   Search by Enabled : NO &amp;gt; Click Search Currency USD Should be the only currency available   Add a new currency &amp;gt; Choose GBP &amp;gt; Save Message &amp;ldquo;Successful creation.</description>
     </item>
     
     <item>
@@ -6531,7 +6536,8 @@ Open an order The order details page is displayed   Send a message regarding an 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/cldr/reset-currency-default-settings/</guid>
-      <description>Steps    Step Description Expected result          </description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Click on Edit Euro currency &amp;gt; Modify elements &amp;gt; Save Message &amp;ldquo;Successful update.&amp;quot;
+Currency is edited. Currency name is updated with mention &amp;ldquo;(Edited)&amp;rdquo;   Click Edit Euro currency &amp;gt; Click on rounded arrow Reset &amp;gt; Save Message &amp;ldquo;Your symbol and format customizations have been successfully reset for this language.</description>
     </item>
     
     <item>
@@ -6829,7 +6835,8 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/cldr/edit-symbol-format-currency/</guid>
-      <description>Steps    Step Description Expected result          </description>
+      <description>Steps    Step Description Expected result     Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps   Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated   Click the round arrow to Reset it Currency should be reset
+Message &amp;ldquo;Your symbol and format customizations have been successfully reset for this language.</description>
     </item>
     
     <item>
@@ -7412,7 +7419,9 @@ All the products contains the searched Name   Click on the drop-down toggle, cli
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/cldr/enable-disable-a-currency/</guid>
-      <description>Steps    Step Description Expected result          </description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Disable Euro currency Message &amp;ldquo;You cannot disable the default currency&amp;rdquo;
+The currency is not disabled   Click &amp;ldquo;Add new currency&amp;rdquo; &amp;gt; Choose USD &amp;gt; Status &amp;ldquo;No&amp;rdquo; &amp;gt; Save Message &amp;ldquo;Successful creation.&amp;quot;
+Currency USD is disabled and displayed in the list   Enable USD from Currency list Message &amp;ldquo;The status has been successfully updated.</description>
     </item>
     
     <item>
