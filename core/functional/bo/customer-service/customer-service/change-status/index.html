@@ -683,6 +683,23 @@
             
             
         
+            
+            
+            <li>
+            
+                <span class="flex">
+                    <a href="/test-scenarios/modules/ps-googleanalytics/" class="gdoc-nav__entry ">
+                        ps_googleanalytics
+                    </a>
+                </span>
+            
+
+            
+            
+            </li>
+            
+            
+        
     </ul>
 
             
@@ -790,6 +807,45 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/customer-service/customer-service/change-status/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to FO &gt; Contact us page &gt; Fill the fields &gt; Click Send</td>
+<td>Message &ldquo;Your message has been successfully sent to our team.&rdquo; appears</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Customer Service &gt; Customer Service</td>
+<td>See the latest message sent from FO in Customer Service block</td>
+</tr>
+<tr>
+<td>Click &ldquo;Mark as handled&rdquo;</td>
+<td>The button transforms into &ldquo;Re-open&rdquo;<br><br>Status is &ldquo;Closed&rdquo; in Customer Service block</td>
+</tr>
+<tr>
+<td>Change status &gt; Click &ldquo;Mark as &ldquo;pending 1&rdquo; (will be answered later)&rdquo; &gt;</td>
+<td>Button transforms into &ldquo;Disable pending status&rdquo;<br><br>Status has changed to &ldquo;Pending 1&rdquo; in Customer Service block</td>
+</tr>
+<tr>
+<td>Change status &gt; Click &ldquo;Mark as &ldquo;pending 2&rdquo; (will be answered later)&rdquo; &gt;</td>
+<td>Button transforms into &ldquo;Disable pending status&rdquo;<br><br>Status has changed to &ldquo;Pending 2&rdquo; in Customer Service block</td>
+</tr>
+<tr>
+<td>Click &ldquo;Forward this discussion to another employee&rdquo; &gt; In the popup, choose an existing employee &gt; Add a comment &gt; Click Forward</td>
+<td>See in the thread :<br>-Message forwarded to ..<br>-The new comment added by you<br><br>Block Orders and messages timeline is updated</td>
+</tr>
+<tr>
+<td>Click &ldquo;Forward this discussion to another employee&rdquo; &gt; In the popup, choose &ldquo;Someone else&rdquo; &gt; Add an email &gt; Add a comment &gt; Click Forward</td>
+<td>See in the thread :<br>-Message forwarded to ..<br>-The new comment added by you<br><br>Orders and messages timeline is updated</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -838,7 +894,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.df8cbbcf5a261e5ff6398f52c2dd0e13d0f036c1127e2e866552bcdc902ed7cf.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.96507e5581a7b1a2120d8341bacae12b93284b26051beb388410c120d9c4d390.js"></script>
 
 
 
