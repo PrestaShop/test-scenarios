@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Terms of service (TODO)">
+<meta name="description" content="Terms of service">
 
-<title>Terms of service (TODO) | PrestaShop Tests</title>
+<title>Terms of service | PrestaShop Tests</title>
 
 <link rel="icon" href="/test-scenarios/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -779,7 +779,7 @@
         
     
     
-        <a href='/test-scenarios/'>Home</a> / <a href='/test-scenarios/core/'>Core</a> / <a href='/test-scenarios/core/functional/'>Functional</a> / <a href='/test-scenarios/core/functional/bo/'>BO</a> / <a href='/test-scenarios/core/functional/bo/shop-parameters/'>Shop Parameters</a> / <a href='/test-scenarios/core/functional/bo/shop-parameters/order-settings/'>Order settings</a> / <a href='/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/'>Order settings</a> / Terms of service (TODO)
+        <a href='/test-scenarios/'>Home</a> / <a href='/test-scenarios/core/'>Core</a> / <a href='/test-scenarios/core/functional/'>Functional</a> / <a href='/test-scenarios/core/functional/bo/'>BO</a> / <a href='/test-scenarios/core/functional/bo/shop-parameters/'>Shop Parameters</a> / <a href='/test-scenarios/core/functional/bo/shop-parameters/order-settings/'>Order settings</a> / <a href='/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/'>Order settings</a> / Terms of service
     
 
     
@@ -806,7 +806,7 @@
 
 
     <article class="gdoc-markdown">
-        <h1>Terms of service (TODO)</h1>
+        <h1>Terms of service</h1>
         
 
 
@@ -814,6 +814,41 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/terms-of-service/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Order Settings &gt; Disable &ldquo;Terms of service&rdquo; &gt; Save</td>
+<td>Terms of service = NO<br><br>Page for terms and conditions = None<br><br>Message &ldquo;Update successful&rdquo; appears</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Add product to cart &gt; Proceed to checkout</td>
+<td>Step 4 : no terms &amp; conditions is requested to pursue order<br><br>Place order can be clicked</td>
+</tr>
+<tr>
+<td>Go to Shop Parameters &gt; Enable Terms of service &gt; Choose Page for terms and conditions to display &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; appears</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Add product to cart &gt; Proceed to checkout</td>
+<td>At Step 4, a check need to be done in order to place the order<br><br>&ldquo;I agree to the [terms of service</td>
+</tr>
+<tr>
+<td>Click button Place Order</td>
+<td>A message &ldquo;Please tick this box if you want to proceed&rdquo; appears</td>
+</tr>
+<tr>
+<td>Click the link &ldquo;terms of service&rdquo; &gt; close the popup &gt; Tick the bock &gt; Click Place Order button</td>
+<td>Order is now confirmed</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -862,7 +897,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.73d7061103955abd12b04a9bb101d9295c750fce78df70545ee56e74cee6c963.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.e88b0669120e730507404b2a90c58485ff9f56360c641d1b2a176dfcd6685d8d.js"></script>
 
 
 

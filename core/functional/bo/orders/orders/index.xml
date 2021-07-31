@@ -31,7 +31,15 @@ The order id result is equal to the searched ID   Reset all filters Number of or
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/preview-order/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page The Orders page is well displayed   Click on the icon to preview the last order created The row order-preview-content is displayed
+Check that data are ok:
+# Carrier
+# Tracking number = empty
+# Shipping details
+# Email
+# Invoice details
+# Number of products
+# Reference of each product</description>
     </item>
     
     <item>
@@ -78,7 +86,7 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the last order from the list, click on the Bulk actions button and Click on &amp;ldquo;Open in new Tabs&amp;rdquo; An alert &amp;ldquo;It looks like you have exceeded the number of tabs allowed. Check your browser settings to open multiple tabs.&amp;rdquo; is displayed   Accept the pop up to open multiple tabs All the orders selected are displayed in different tabs    </description>
     </item>
     
     <item>
@@ -87,7 +95,7 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/edit-status-in-order-page/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to canceled with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Canceled&amp;rdquo;    </description>
     </item>
     
     <item>

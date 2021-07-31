@@ -821,6 +821,49 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/gift-options/gift-options-todo/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Order Settings &gt; Gift options &gt; Enable Offer gift wrapping &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; appears</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Add a product to cart &gt; Proceed to checkout until step 3 - Shipping method</td>
+<td>Option &ldquo;I would like my order to be gift wrapped&rdquo; appears</td>
+</tr>
+<tr>
+<td>Check option &ldquo;I would like my order to be gift wrapped&rdquo;</td>
+<td>a new field appears &ldquo;If you&rsquo;d like, you can add a note to the gift:&rdquo;</td>
+</tr>
+<tr>
+<td>Add a note &gt; Continue the checkout process &gt; Place order</td>
+<td>The order is now confirmed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders &gt; View latest order &gt; Open Carrier tab and see your message</td>
+<td>In Carrier tab, the note is displayed<br><br>In all other tab, Gift wrapping tab is displayed in green</td>
+</tr>
+<tr>
+<td>In Shop parameters &gt; Order Settings &gt; Add price, tax and enable Recycled packaging &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; appears</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Add product toc art &gt; Proceed to checkout &gt; in Step 3, check wrapping gift + recycled packaging + add a note &gt; Place order</td>
+<td>The order is now confirmed<br><br>The price for gift wrapping is in the subtotal of order</td>
+</tr>
+<tr>
+<td>Bo to BO &gt; Orders &gt; Orders &gt; View latest order</td>
+<td>In tab Status, Documents, Carriers, Merchandise return, tags &ldquo;recycled packaging&rdquo; and &ldquo;gift wrapping&rdquo; are displayed<br><br>In tab Carriers, the note is displayed</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -869,7 +912,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.73d7061103955abd12b04a9bb101d9295c750fce78df70545ee56e74cee6c963.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.e88b0669120e730507404b2a90c58485ff9f56360c641d1b2a176dfcd6685d8d.js"></script>
 
 
 

@@ -1285,7 +1285,7 @@ Criteria: Payment error&amp;quot; One line is displayed</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/gift-options/gift-options-todo/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Gift options &amp;gt; Enable Offer gift wrapping &amp;gt; Save Message &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add a product to cart &amp;gt; Proceed to checkout until step 3 - Shipping method Option &amp;ldquo;I would like my order to be gift wrapped&amp;rdquo; appears   Check option &amp;ldquo;I would like my order to be gift wrapped&amp;rdquo; a new field appears &amp;ldquo;If you&amp;rsquo;d like, you can add a note to the gift:&amp;rdquo;   Add a note &amp;gt; Continue the checkout process &amp;gt; Place order The order is now confirmed   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; View latest order &amp;gt; Open Carrier tab and see your message In Carrier tab, the note is displayed</description>
     </item>
     
     <item>
@@ -4106,7 +4106,15 @@ The invoice is created successfully   Add a partial refund product the credit sl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/preview-order/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page The Orders page is well displayed   Click on the icon to preview the last order created The row order-preview-content is displayed
+Check that data are ok:
+# Carrier
+# Tracking number = empty
+# Shipping details
+# Email
+# Invoice details
+# Number of products
+# Reference of each product</description>
     </item>
     
     <item>
@@ -5529,7 +5537,9 @@ ecoTax: &amp;lsquo;EU VAT For Virtual Products&amp;rsquo;, Update Successful</de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/shopping-carts/view-carts/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Shopping carts page The Shopping carts page is well displayed   Filter by Order ID = Non Ordered Number of Shopping carts &amp;lt; Total of shopping carts
+The list contains the searched ID order   View the first shopping cart The Shopping cart details page is well displayed
+Check data are ok:</description>
     </item>
     
     <item>
@@ -7061,12 +7071,14 @@ All products name contains the Searched Name   Click on the drop-down toggle and
     </item>
     
     <item>
-      <title>Terms of service (TODO)</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/terms-of-service-todo/</link>
+      <title>Terms of service</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/terms-of-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/terms-of-service-todo/</guid>
-      <description></description>
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/terms-of-service/</guid>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Disable &amp;ldquo;Terms of service&amp;rdquo; &amp;gt; Save Terms of service = NO
+Page for terms and conditions = None
+Message &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add product to cart &amp;gt; Proceed to checkout Step 4 : no terms &amp;amp; conditions is requested to pursue order</description>
     </item>
     
     <item>
@@ -7120,7 +7132,7 @@ All products name contains the Searched Name   Click on the drop-down toggle and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the last order from the list, click on the Bulk actions button and Click on &amp;ldquo;Open in new Tabs&amp;rdquo; An alert &amp;ldquo;It looks like you have exceeded the number of tabs allowed. Check your browser settings to open multiple tabs.&amp;rdquo; is displayed   Accept the pop up to open multiple tabs All the orders selected are displayed in different tabs    </description>
     </item>
     
     <item>
@@ -7213,21 +7225,21 @@ Data is correct    </description>
     </item>
     
     <item>
+      <title>Help Button</title>
+      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/stocks/help-button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/stocks/help-button/</guid>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Stocks page The Stocks page well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+    <item>
       <title>Help button</title>
       <link>https://build.prestashop.com/test-scenarios/core/functional/bo/design/pages/help-button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/design/pages/help-button/</guid>
       <description>Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Pages page The Pages page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
-    </item>
-    
-    <item>
-      <title>Help card</title>
-      <link>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/stocks/help-card/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/catalog/stocks/help-card/</guid>
-      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Stocks page The Stocks page well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
     </item>
     
     <item>
@@ -7254,7 +7266,7 @@ Data is correct    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/page-for-terms-and-conditions/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; in dropdown of Page for terms and conditions, choose page Secure Payment &amp;gt; Save Message &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add a product to cart &amp;gt; Checkout until step 4 - Payment &amp;gt; Click link &amp;ldquo;Terms of service&amp;rdquo; Popup opens with content of page &amp;ldquo;Secure Payment&amp;rdquo;   Go to BO &amp;gt; Design &amp;gt; Pages &amp;gt; Add a new page &amp;gt; Fill fields &amp;gt; Save New page is created</description>
     </item>
     
     <item>
@@ -7476,7 +7488,7 @@ All the products contains the searched Name   Click on the drop-down toggle, cli
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/edit-status-in-order-page/</guid>
-      <description></description>
+      <description>Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to canceled with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Canceled&amp;rdquo;    </description>
     </item>
     
     <item>

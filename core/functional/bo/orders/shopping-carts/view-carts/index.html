@@ -807,6 +807,53 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/shopping-carts/view-carts/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; Shopping carts page</td>
+<td>The Shopping carts page is well displayed</td>
+</tr>
+<tr>
+<td>Filter by Order ID = Non Ordered</td>
+<td>Number of Shopping carts &lt; Total of shopping carts<br><br>The list contains the searched ID order</td>
+</tr>
+<tr>
+<td>View the first shopping cart</td>
+<td>The Shopping cart details page is well displayed<br><br>Check data are ok:<br> * Total<br> * Customer Information<br> * The button &ldquo;Create order from this cart&rdquo; is displayed<br> * Products ordered</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Create an order from this cart.&rdquo;</td>
+<td>Redirection to the &ldquo;Add new Order page&rdquo;</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Orders &gt; Shopping carts page and reset the filter</td>
+<td>Number of Shopping carts = Total of shopping carts</td>
+</tr>
+<tr>
+<td>Filter by ID order = the id of the last order created</td>
+<td>Number of Shopping carts &lt; Total of shopping carts<br><br>The list contains the searched ID order</td>
+</tr>
+<tr>
+<td>View the first shopping cart</td>
+<td>The Shopping cart page is well displayed<br><br>Check data are ok:<br> * Total<br> * Customer Information<br> * Order ID<br> * Products ordered</td>
+</tr>
+<tr>
+<td>Click on the Order ID</td>
+<td>Redirection to the Order details page</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Orders &gt; Shopping carts page and reset the filter</td>
+<td>Number of Shopping carts = Total of shopping carts</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -855,7 +902,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.73d7061103955abd12b04a9bb101d9295c750fce78df70545ee56e74cee6c963.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.e88b0669120e730507404b2a90c58485ff9f56360c641d1b2a176dfcd6685d8d.js"></script>
 
 
 

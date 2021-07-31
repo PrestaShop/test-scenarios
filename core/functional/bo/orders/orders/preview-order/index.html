@@ -807,6 +807,41 @@
     
 
 
+<div class="gdoc-page__anchorwrap"><h2 id="steps">Steps<a data-clipboard-text="https://build.prestashop.com/test-scenarios/core/functional/bo/orders/orders/preview-order/#steps" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Steps" href="#steps"><svg class="icon link"><use xlink:href="#link"></use></svg></a></h2></div>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders page</td>
+<td>The Orders page is well displayed</td>
+</tr>
+<tr>
+<td>Click on the icon to preview the last order created</td>
+<td>The row order-preview-content is displayed<br><br>Check that data are ok:<br> # Carrier<br> # Tracking number = empty<br> # Shipping details<br> # Email<br> # Invoice details<br> # Number of products<br> # Reference of each product<br> # quantity of each product<br> # Total</td>
+</tr>
+<tr>
+<td>click on &ldquo;js-preview-more-products-btn&rdquo; (&hellip; x more)&quot;</td>
+<td>all the list of products is well displayed.<br><br>Check that<br><br>Product name =&gt; ok<br><br>Product reference =&gt; ok<br><br>Product quantity =&gt; ok<br><br>Product total =&gt; ok</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Open details&rdquo;</td>
+<td>The Order Details page is well displayed</td>
+</tr>
+<tr>
+<td>Edit the Order:<br> # Edit Shipping address<br> # Edit Invoice address<br> # Edit the quantity of the first product<br> # Edit the price of the second product<br> # Remove the third product<br> # Add another product<br> # Change carrier<br> # Add a tracking number</td>
+<td>Successful update.</td>
+</tr>
+<tr>
+<td>Go back to the BO &gt; Order &gt; Order list page and click on the icon to preview the last order created again</td>
+<td>The row order-preview-content is displayed<br><br>Check that data are well updated:<br> # Carrier<br> # Tracking number = not empty<br> # Shipping details<br> # Email<br> # Invoice details<br> # Number of products<br> # Reference of each product<br> # quantity of each product<br> # Total</td>
+</tr>
+</tbody>
+</table>
 
 
     </article>
@@ -855,7 +890,7 @@
 
 
 
-<script defer src="/test-scenarios/js/en.search.min.73d7061103955abd12b04a9bb101d9295c750fce78df70545ee56e74cee6c963.js"></script>
+<script defer src="/test-scenarios/js/en.search.min.e88b0669120e730507404b2a90c58485ff9f56360c641d1b2a176dfcd6685d8d.js"></script>
 
 
 
