@@ -1,5 +1,5 @@
 ---
-title: "Help card"
+title: "Help Button"
 weight: 8
 ---
 ## Steps
