@@ -8,7 +8,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  
 abstract class AbstractCommand extends Command
 {
-    private const OUTPUT_DIR = 'src/content';
+    private const OUTPUT_DIR = 'src/content/scenarios';
 
     /** @var int */
     private $requestsCount = 0;
