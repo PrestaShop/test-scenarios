@@ -2,18 +2,50 @@ baseURL: "https://build.prestashop.com/test-scenarios/"
 languageCode: "en-us"
 defaultContentLanguage: "en"
 title: "PrestaShop Tests"
+canonifyURLs: true
+relativeURLs: true
+uglyURLs: true
 
-theme: "hugo-geekdoc"
+theme: "ps-docs-theme"
+enableGitInfo: true
+enableRobotsTXT: true
+#googleAnalytics: "UA-2753771-44"
 
 params:
-  geekdocBreadcrumb: true
-  geekdocLogo: "logo.png"
-  geekdocRepo: "https://github.com/PrestaShop/test-scenarios"
-  geekdocSearch: true
-  geekdocSearchShowParent: true
-  geekdocMenuBundle: false
+  editURL: "https://github.com/PrestaShop/test-scenarios/edit/master/content/"
+  ghRepoURL: "https://github.com/PrestaShop/test-scenarios/"
+  ghCommitURL: "https://github.com/PrestaShop/test-scenarios/commit/"
+  howToContributeURL: "https://devdocs.prestashop.com/1.7/contribute/documentation/how/"
+  description: "Test Scenarios of the PrestaShop project"
+  author: "PrestaShop"
+  showVisitedLinks: false
+  disableInlineCopyToClipBoard: true
+  projectUrls:
+    gitHub: "https://github.com/PrestaShop/PrestaShop/"
+    reportBug: "https://github.com/PrestaShop/PrestaShop/issues"
+    slack: "https://www.prestashop-project.org/slack/readme/"
+  coverImage: "img/social-cover.jpg"
+  logoTitle: "PrestaShop Tests"
+
+# For search functionality
+outputs:
+  home: ["HTML", "RSS", "JSON"]
 
 markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+    style: github
+    tabWidth: 4
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 1
