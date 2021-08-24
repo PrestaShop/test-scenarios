@@ -8,7 +8,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  
 abstract class AbstractCommand extends Command
 {
-    private const OUTPUT_DIR = 'src/content';
+    private const OUTPUT_DIR = 'src/content/scenarios';
 
     /** @var int */
     private $requestsCount = 0;
@@ -208,11 +208,10 @@ abstract class AbstractCommand extends Command
         return '---
 title: ' . $suiteName . '
 menuTitle: ' . $suiteName . '
-weight: ' . (string) $weight . ($withTitle ? ' 
-geekdocFlatSection: true' : '
-pre: ""
-chapter: true') . '
+chapter: true
 ---
+
+# ' . $suiteName . '
 
 {{% children ' . ($withTitle ? 'titlePages="Tests" titleSections="Categories" ' : '') . '%}}
 ';
@@ -223,7 +222,10 @@ chapter: true') . '
         $content = '---' . PHP_EOL
             . 'title: "' . addslashes($test['summary']) .'"' . PHP_EOL
             . 'weight: ' .$test['rank'] . PHP_EOL
-            . '---' . PHP_EOL;
+            . '---' . PHP_EOL
+            . PHP_EOL
+            . '# ' . addslashes($test['summary'])
+            . PHP_EOL;
 
         if (!empty($steps)) {
             $content .= '## Steps' . PHP_EOL;
