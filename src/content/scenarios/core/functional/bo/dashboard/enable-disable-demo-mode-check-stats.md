@@ -2,6 +2,8 @@
 title: "Enable/Disable demo mode + check stats"
 weight: 1
 ---
+
+# Enable/Disable demo mode + check stats
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

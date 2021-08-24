@@ -2,6 +2,8 @@
 title: "Delete product from list"
 weight: 9
 ---
+
+# Delete product from list
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

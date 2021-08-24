@@ -2,6 +2,8 @@
 title: "Enable / disable shop"
 weight: 1
 ---
+
+# Enable / disable shop
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

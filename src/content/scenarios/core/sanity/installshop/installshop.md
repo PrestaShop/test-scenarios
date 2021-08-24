@@ -2,6 +2,8 @@
 title: "InstallShop"
 weight: 1
 ---
+
+# InstallShop
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

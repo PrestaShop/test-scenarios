@@ -1,8 +1,9 @@
 ---
 title: Attributes
 menuTitle: Attributes
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Attributes
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

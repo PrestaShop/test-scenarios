@@ -2,6 +2,8 @@
 title: "Duplicate Product"
 weight: 8
 ---
+
+# Duplicate Product
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

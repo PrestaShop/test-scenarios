@@ -2,6 +2,8 @@
 title: "Test email configuration (TODO)"
 weight: 3
 ---
+
+# Test email configuration (TODO)
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

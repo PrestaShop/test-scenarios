@@ -2,6 +2,8 @@
 title: "Filter Profiles"
 weight: 1
 ---
+
+# Filter Profiles
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Edit Product"
 weight: 6
 ---
+
+# Edit Product
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

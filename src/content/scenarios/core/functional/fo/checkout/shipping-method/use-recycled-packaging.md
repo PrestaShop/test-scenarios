@@ -2,6 +2,8 @@
 title: "Use recycled packaging"
 weight: 3
 ---
+
+# Use recycled packaging
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

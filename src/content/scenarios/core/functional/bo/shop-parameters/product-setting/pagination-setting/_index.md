@@ -1,8 +1,9 @@
 ---
 title: Pagination setting
 menuTitle: Pagination setting
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Pagination setting
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

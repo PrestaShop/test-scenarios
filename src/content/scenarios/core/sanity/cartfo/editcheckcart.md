@@ -2,6 +2,8 @@
 title: "EditCheckCart"
 weight: 1
 ---
+
+# EditCheckCart
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

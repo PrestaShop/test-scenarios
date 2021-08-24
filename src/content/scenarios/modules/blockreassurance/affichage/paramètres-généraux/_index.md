@@ -1,8 +1,9 @@
 ---
 title: Paramètres généraux
 menuTitle: Paramètres généraux
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Paramètres généraux
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "Change colors"
 weight: 1
 ---
+
+# Change colors
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

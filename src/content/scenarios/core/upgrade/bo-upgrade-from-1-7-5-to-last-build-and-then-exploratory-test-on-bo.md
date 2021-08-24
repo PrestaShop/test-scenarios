@@ -2,6 +2,8 @@
 title: "[BO] Upgrade from 1.7.5 to last build and then exploratory test on BO"
 weight: 2
 ---
+
+# [BO] Upgrade from 1.7.5 to last build and then exploratory test on BO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

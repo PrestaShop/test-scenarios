@@ -1,8 +1,9 @@
 ---
 title: Cart rules
 menuTitle: Cart rules
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Cart rules
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

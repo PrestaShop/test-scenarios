@@ -1,8 +1,9 @@
 ---
 title: Informations
 menuTitle: Informations
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Informations
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

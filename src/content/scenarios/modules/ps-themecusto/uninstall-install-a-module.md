@@ -2,6 +2,8 @@
 title: "Uninstall/Install a module"
 weight: 6
 ---
+
+# Uninstall/Install a module
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

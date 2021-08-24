@@ -2,6 +2,8 @@
 title: "Full onboarding process"
 weight: 1
 ---
+
+# Full onboarding process
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Bulk Delete Db Backups"
 weight: 2
 ---
+
+# Bulk Delete Db Backups
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

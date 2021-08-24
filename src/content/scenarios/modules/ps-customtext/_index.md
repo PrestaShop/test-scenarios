@@ -1,8 +1,9 @@
 ---
 title: ps_customtext
 menuTitle: ps_customtext
-weight: 15 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_customtext
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

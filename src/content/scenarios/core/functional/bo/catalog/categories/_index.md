@@ -1,8 +1,9 @@
 ---
 title: Categories
 menuTitle: Categories
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Categories
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

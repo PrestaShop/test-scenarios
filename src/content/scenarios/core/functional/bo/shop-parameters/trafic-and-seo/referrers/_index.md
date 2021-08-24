@@ -1,8 +1,9 @@
 ---
 title: Referrers
 menuTitle: Referrers
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Referrers
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

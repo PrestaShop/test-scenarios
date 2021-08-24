@@ -2,6 +2,8 @@
 title: "Update Quantity by setting input"
 weight: 3
 ---
+
+# Update Quantity by setting input
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

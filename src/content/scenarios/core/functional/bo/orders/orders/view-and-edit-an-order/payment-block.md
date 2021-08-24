@@ -2,6 +2,8 @@
 title: "Payment block"
 weight: 8
 ---
+
+# Payment block
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

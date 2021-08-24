@@ -2,6 +2,8 @@
 title: "BO - Attibutes - Help button"
 weight: 7
 ---
+
+# BO - Attibutes - Help button
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

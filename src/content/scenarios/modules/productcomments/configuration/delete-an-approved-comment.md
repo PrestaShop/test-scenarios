@@ -2,6 +2,8 @@
 title: "Delete an approved comment"
 weight: 9
 ---
+
+# Delete an approved comment
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

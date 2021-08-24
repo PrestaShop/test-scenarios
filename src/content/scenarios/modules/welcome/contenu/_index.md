@@ -1,8 +1,9 @@
 ---
 title: Contenu
 menuTitle: Contenu
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Contenu
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

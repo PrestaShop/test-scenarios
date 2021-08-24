@@ -2,6 +2,8 @@
 title: "Change the number of product display"
 weight: 1
 ---
+
+# Change the number of product display
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

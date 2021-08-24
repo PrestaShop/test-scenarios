@@ -2,6 +2,8 @@
 title: "BO - Brands - Filter And Quick Edit Brands"
 weight: 1
 ---
+
+# BO - Brands - Filter And Quick Edit Brands
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

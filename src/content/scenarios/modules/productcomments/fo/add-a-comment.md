@@ -2,6 +2,8 @@
 title: "Add a comment"
 weight: 1
 ---
+
+# Add a comment
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

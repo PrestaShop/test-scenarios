@@ -2,6 +2,8 @@
 title: "Enable / Disable Show price"
 weight: 1
 ---
+
+# Enable / Disable Show price
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

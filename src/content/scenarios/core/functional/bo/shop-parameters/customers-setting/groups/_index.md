@@ -1,8 +1,9 @@
 ---
 title: Groups
 menuTitle: Groups
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Groups
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

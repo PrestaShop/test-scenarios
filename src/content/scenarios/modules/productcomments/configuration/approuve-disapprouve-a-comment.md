@@ -2,6 +2,8 @@
 title: "Approuve/Disapprouve a comment"
 weight: 7
 ---
+
+# Approuve/Disapprouve a comment
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

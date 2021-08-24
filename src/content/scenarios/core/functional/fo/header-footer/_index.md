@@ -1,8 +1,9 @@
 ---
 title: Header & Footer
 menuTitle: Header & Footer
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Header & Footer
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

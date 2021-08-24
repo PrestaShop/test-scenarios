@@ -1,8 +1,9 @@
 ---
 title: Tax Rules
 menuTitle: Tax Rules
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Tax Rules
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

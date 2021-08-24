@@ -2,6 +2,8 @@
 title: "Search a currency by ISO code"
 weight: 4
 ---
+
+# Search a currency by ISO code
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

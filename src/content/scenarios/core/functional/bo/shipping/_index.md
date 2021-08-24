@@ -1,8 +1,9 @@
 ---
 title: Shipping
 menuTitle: Shipping
-weight: 9 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Shipping
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

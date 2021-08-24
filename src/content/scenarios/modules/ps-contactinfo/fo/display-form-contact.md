@@ -2,6 +2,8 @@
 title: "Display form contact"
 weight: 1
 ---
+
+# Display form contact
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

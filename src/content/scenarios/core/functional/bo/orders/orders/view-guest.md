@@ -2,6 +2,8 @@
 title: "View Guest"
 weight: 6
 ---
+
+# View Guest
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Suppliers
 menuTitle: Suppliers
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Suppliers
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

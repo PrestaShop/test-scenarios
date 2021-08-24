@@ -2,6 +2,8 @@
 title: "Categories Bulk Actions In BO"
 weight: 5
 ---
+
+# Categories Bulk Actions In BO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

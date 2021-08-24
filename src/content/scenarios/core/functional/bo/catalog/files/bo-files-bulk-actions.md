@@ -2,6 +2,8 @@
 title: "BO - Files - Bulk Actions"
 weight: 2
 ---
+
+# BO - Files - Bulk Actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

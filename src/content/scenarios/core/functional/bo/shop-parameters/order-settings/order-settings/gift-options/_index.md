@@ -1,8 +1,9 @@
 ---
 title: Gift options
 menuTitle: Gift options
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Gift options
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "Upgrade"
 weight: 9
 ---
+
+# Upgrade
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

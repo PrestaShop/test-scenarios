@@ -2,6 +2,8 @@
 title: "Enable/Disable ajax cart"
 weight: 1
 ---
+
+# Enable/Disable ajax cart
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

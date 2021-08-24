@@ -2,6 +2,8 @@
 title: "Search a currency by enable/disable"
 weight: 5
 ---
+
+# Search a currency by enable/disable
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

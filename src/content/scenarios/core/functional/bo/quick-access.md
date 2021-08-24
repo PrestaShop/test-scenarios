@@ -2,6 +2,8 @@
 title: "Quick access"
 weight: 2
 ---
+
+# Quick access
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

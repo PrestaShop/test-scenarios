@@ -1,8 +1,9 @@
 ---
 title: Configuration
 menuTitle: Configuration
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Configuration
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "Bulk actions"
 weight: 4
 ---
+
+# Bulk actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

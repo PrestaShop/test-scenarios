@@ -1,8 +1,9 @@
 ---
 title: User account
 menuTitle: User account
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# User account
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

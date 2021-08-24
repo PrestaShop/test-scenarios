@@ -2,6 +2,8 @@
 title: "Check invoice"
 weight: 12
 ---
+
+# Check invoice
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

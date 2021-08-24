@@ -2,6 +2,8 @@
 title: "Add Virtual Product"
 weight: 5
 ---
+
+# Add Virtual Product
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

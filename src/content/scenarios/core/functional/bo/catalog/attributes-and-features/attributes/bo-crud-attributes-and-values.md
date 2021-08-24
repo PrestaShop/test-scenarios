@@ -2,6 +2,8 @@
 title: "BO - CRUD attributes and values"
 weight: 4
 ---
+
+# BO - CRUD attributes and values
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

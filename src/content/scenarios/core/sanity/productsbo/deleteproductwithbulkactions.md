@@ -2,6 +2,8 @@
 title: "DeleteProductWithBulkActions"
 weight: 5
 ---
+
+# DeleteProductWithBulkActions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

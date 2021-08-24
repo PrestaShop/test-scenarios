@@ -2,6 +2,8 @@
 title: "simple Filter Stocks"
 weight: 1
 ---
+
+# simple Filter Stocks
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

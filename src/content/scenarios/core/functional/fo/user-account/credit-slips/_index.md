@@ -1,8 +1,9 @@
 ---
 title: Credit slips
 menuTitle: Credit slips
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Credit slips
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

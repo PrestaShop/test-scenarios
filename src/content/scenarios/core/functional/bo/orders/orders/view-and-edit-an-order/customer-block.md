@@ -2,6 +2,8 @@
 title: "Customer block"
 weight: 1
 ---
+
+# Customer block
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

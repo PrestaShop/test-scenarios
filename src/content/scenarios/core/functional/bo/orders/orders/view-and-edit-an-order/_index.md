@@ -1,8 +1,9 @@
 ---
 title: View and edit an order
 menuTitle: View and edit an order
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# View and edit an order
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

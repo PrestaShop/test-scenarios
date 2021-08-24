@@ -2,6 +2,8 @@
 title: "Logout"
 weight: 3
 ---
+
+# Logout
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

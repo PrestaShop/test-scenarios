@@ -1,8 +1,9 @@
 ---
 title: Regression
 menuTitle: Regression
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Regression
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

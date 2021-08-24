@@ -1,8 +1,9 @@
 ---
 title: Profiles
 menuTitle: Profiles
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Profiles
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

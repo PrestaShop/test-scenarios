@@ -1,8 +1,9 @@
 ---
 title: Contact us
 menuTitle: Contact us
-weight: 5 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Contact us
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

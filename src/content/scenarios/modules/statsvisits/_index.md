@@ -1,8 +1,9 @@
 ---
 title: statsvisits
 menuTitle: statsvisits
-weight: 25 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# statsvisits
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -1,8 +1,9 @@
 ---
 title: Orders Campaign
 menuTitle: Orders Campaign
-weight: 5 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Orders Campaign
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

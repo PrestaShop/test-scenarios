@@ -1,8 +1,9 @@
 ---
 title: Affichage
 menuTitle: Affichage
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Affichage
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

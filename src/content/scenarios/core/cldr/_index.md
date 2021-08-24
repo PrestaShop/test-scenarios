@@ -1,8 +1,9 @@
 ---
 title: CLDR
 menuTitle: CLDR
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# CLDR
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

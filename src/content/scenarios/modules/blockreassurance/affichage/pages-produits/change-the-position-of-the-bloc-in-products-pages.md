@@ -2,6 +2,8 @@
 title: "Change the position of the bloc in products pages"
 weight: 1
 ---
+
+# Change the position of the bloc in products pages
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

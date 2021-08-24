@@ -2,6 +2,8 @@
 title: "Pagination"
 weight: 11
 ---
+
+# Pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

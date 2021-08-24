@@ -2,6 +2,8 @@
 title: "Edit and delete products in a list"
 weight: 2
 ---
+
+# Edit and delete products in a list
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

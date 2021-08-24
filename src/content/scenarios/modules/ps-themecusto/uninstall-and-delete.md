@@ -2,6 +2,8 @@
 title: "Uninstall and delete"
 weight: 7
 ---
+
+# Uninstall and delete
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

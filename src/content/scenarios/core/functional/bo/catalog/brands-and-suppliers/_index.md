@@ -1,8 +1,9 @@
 ---
 title: Brands and Suppliers
 menuTitle: Brands and Suppliers
-weight: 5 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Brands and Suppliers
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

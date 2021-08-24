@@ -1,8 +1,9 @@
 ---
 title: Navigate in Categories
 menuTitle: Navigate in Categories
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Navigate in Categories
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

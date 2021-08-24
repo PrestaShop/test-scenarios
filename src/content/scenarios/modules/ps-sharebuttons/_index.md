@@ -1,8 +1,9 @@
 ---
 title: ps_sharebuttons
 menuTitle: ps_sharebuttons
-weight: 27 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_sharebuttons
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

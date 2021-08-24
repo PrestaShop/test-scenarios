@@ -2,6 +2,8 @@
 title: "Credit Slip Options"
 weight: 4
 ---
+
+# Credit Slip Options
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

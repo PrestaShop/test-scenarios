@@ -1,8 +1,9 @@
 ---
 title: Order confirmation
 menuTitle: Order confirmation
-weight: 12 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Order confirmation
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

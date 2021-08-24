@@ -1,8 +1,9 @@
 ---
 title: Import
 menuTitle: Import
-weight: 5 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Import
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -1,8 +1,9 @@
 ---
 title: States
 menuTitle: States
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# States
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

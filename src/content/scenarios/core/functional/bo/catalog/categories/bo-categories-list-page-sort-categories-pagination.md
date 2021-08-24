@@ -2,6 +2,8 @@
 title: "BO - Categories list page - Sort categories & Pagination"
 weight: 6
 ---
+
+# BO - Categories list page - Sort categories & Pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Computing precision FO"
 weight: 1
 ---
+
+# Computing precision FO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

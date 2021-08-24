@@ -2,6 +2,8 @@
 title: "Send a message"
 weight: 4
 ---
+
+# Send a message
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

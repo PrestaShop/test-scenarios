@@ -2,6 +2,8 @@
 title: "Change Sort and Sort order option"
 weight: 3
 ---
+
+# Change Sort and Sort order option
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

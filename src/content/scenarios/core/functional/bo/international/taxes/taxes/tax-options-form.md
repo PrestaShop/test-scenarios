@@ -2,6 +2,8 @@
 title: "Tax Options Form"
 weight: 4
 ---
+
+# Tax Options Form
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

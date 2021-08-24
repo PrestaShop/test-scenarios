@@ -2,6 +2,8 @@
 title: "BO - Suppliers - Filter, Quick Edit And Bulk Actions"
 weight: 2
 ---
+
+# BO - Suppliers - Filter, Quick Edit And Bulk Actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Module Manager
 menuTitle: Module Manager
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Module Manager
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

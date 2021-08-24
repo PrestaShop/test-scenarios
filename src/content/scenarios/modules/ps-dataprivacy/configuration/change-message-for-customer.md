@@ -2,6 +2,8 @@
 title: "Change message for customer"
 weight: 1
 ---
+
+# Change message for customer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

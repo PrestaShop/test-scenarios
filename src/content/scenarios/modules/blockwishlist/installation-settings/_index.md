@@ -1,8 +1,9 @@
 ---
 title: Installation & settings
 menuTitle: Installation & settings
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Installation & settings
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

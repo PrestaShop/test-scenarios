@@ -2,6 +2,8 @@
 title: "Create Filter Credit Slips"
 weight: 1
 ---
+
+# Create Filter Credit Slips
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

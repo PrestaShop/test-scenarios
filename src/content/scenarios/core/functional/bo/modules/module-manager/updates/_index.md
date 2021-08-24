@@ -1,8 +1,9 @@
 ---
 title: Updates
 menuTitle: Updates
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Updates
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

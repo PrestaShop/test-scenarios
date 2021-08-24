@@ -2,6 +2,8 @@
 title: "Helper card"
 weight: 8
 ---
+
+# Helper card
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

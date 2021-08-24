@@ -2,6 +2,8 @@
 title: "Enable/Disable email copy to merchant"
 weight: 2
 ---
+
+# Enable/Disable email copy to merchant
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Sort shopping carts - bug"
 weight: 2
 ---
+
+# Sort shopping carts - bug
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

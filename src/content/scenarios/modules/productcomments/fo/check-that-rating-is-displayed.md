@@ -2,6 +2,8 @@
 title: "Check that rating is displayed"
 weight: 6
 ---
+
+# Check that rating is displayed
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

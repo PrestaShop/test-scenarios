@@ -2,6 +2,8 @@
 title: "Enable, disale force update friendly url"
 weight: 4
 ---
+
+# Enable, disale force update friendly url
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

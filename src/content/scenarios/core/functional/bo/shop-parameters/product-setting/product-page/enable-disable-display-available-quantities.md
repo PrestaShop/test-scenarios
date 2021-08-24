@@ -2,6 +2,8 @@
 title: "Enable, disable display available quantities"
 weight: 1
 ---
+
+# Enable, disable display available quantities
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

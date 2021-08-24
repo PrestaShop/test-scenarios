@@ -1,8 +1,9 @@
 ---
 title: CatalogFO
 menuTitle: CatalogFO
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# CatalogFO
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

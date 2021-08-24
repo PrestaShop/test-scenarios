@@ -2,6 +2,8 @@
 title: "CUD criteria"
 weight: 8
 ---
+
+# CUD criteria
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

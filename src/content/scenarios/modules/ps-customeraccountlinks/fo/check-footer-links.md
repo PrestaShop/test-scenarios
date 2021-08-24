@@ -2,6 +2,8 @@
 title: "Check footer links"
 weight: 1
 ---
+
+# Check footer links
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

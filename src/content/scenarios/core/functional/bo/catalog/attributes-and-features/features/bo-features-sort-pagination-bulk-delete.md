@@ -2,6 +2,8 @@
 title: "BO - Features - Sort & Pagination & Bulk delete"
 weight: 3
 ---
+
+# BO - Features - Sort & Pagination & Bulk delete
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

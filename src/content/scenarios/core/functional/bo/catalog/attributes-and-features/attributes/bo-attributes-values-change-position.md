@@ -2,6 +2,8 @@
 title: "BO - Attributes & Values - Change position"
 weight: 5
 ---
+
+# BO - Attributes & Values - Change position
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

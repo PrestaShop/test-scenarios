@@ -2,6 +2,8 @@
 title: "Display remaining quantities"
 weight: 2
 ---
+
+# Display remaining quantities
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

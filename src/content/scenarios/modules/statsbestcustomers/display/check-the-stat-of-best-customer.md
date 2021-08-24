@@ -2,6 +2,8 @@
 title: "Check the stat of best customer"
 weight: 1
 ---
+
+# Check the stat of best customer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

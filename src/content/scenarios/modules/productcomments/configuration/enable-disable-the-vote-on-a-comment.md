@@ -2,6 +2,8 @@
 title: "Enable/disable the vote on a comment"
 weight: 3
 ---
+
+# Enable/disable the vote on a comment
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

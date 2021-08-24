@@ -1,8 +1,9 @@
 ---
 title: Menu and Navigation
 menuTitle: Menu and Navigation
-weight: 8 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Menu and Navigation
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

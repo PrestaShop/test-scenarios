@@ -1,8 +1,9 @@
 ---
 title: Zones
 menuTitle: Zones
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Zones
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

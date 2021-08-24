@@ -1,8 +1,9 @@
 ---
 title: Contact
 menuTitle: Contact
-weight: 5 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Contact
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

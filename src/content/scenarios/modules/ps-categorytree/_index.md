@@ -1,8 +1,9 @@
 ---
 title: ps_categorytree
 menuTitle: ps_categorytree
-weight: 10 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_categorytree
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

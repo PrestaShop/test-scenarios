@@ -2,6 +2,8 @@
 title: "Sort & Pagination Credit Slips"
 weight: 2
 ---
+
+# Sort & Pagination Credit Slips
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

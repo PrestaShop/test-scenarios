@@ -2,6 +2,8 @@
 title: "Display the bloc in  shopping cart footer"
 weight: 1
 ---
+
+# Display the bloc in  shopping cart footer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Share a list"
 weight: 3
 ---
+
+# Share a list
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

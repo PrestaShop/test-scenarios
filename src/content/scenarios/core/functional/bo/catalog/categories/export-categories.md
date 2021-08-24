@@ -2,6 +2,8 @@
 title: "Export categories"
 weight: 8
 ---
+
+# Export categories
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: dashactivity
 menuTitle: dashactivity
-weight: 7 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# dashactivity
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

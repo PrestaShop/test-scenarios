@@ -2,6 +2,8 @@
 title: "Monitoring products"
 weight: 2
 ---
+
+# Monitoring products
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

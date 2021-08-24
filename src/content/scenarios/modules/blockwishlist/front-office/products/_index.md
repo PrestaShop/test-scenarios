@@ -1,8 +1,9 @@
 ---
 title: Products
 menuTitle: Products
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Products
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

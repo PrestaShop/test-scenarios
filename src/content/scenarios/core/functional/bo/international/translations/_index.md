@@ -1,8 +1,9 @@
 ---
 title: Translations
 menuTitle: Translations
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Translations
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

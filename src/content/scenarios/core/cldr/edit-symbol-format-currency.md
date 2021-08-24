@@ -2,6 +2,8 @@
 title: "Edit symbol / format currency"
 weight: 7
 ---
+
+# Edit symbol / format currency
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

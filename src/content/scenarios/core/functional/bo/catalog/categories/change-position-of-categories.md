@@ -2,6 +2,8 @@
 title: "Change position of categories"
 weight: 4
 ---
+
+# Change position of categories
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

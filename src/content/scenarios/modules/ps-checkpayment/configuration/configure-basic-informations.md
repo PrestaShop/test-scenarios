@@ -2,6 +2,8 @@
 title: "Configure basic informations"
 weight: 1
 ---
+
+# Configure basic informations
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

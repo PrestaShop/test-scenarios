@@ -2,6 +2,8 @@
 title: "Change order with dropdown - Awaiting for payment to Payment Accepted"
 weight: 12
 ---
+
+# Change order with dropdown - Awaiting for payment to Payment Accepted
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

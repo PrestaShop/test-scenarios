@@ -1,8 +1,9 @@
 ---
 title: ps_emailalerts
 menuTitle: ps_emailalerts
-weight: 17 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_emailalerts
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

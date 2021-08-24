@@ -2,6 +2,8 @@
 title: "Search bar"
 weight: 3
 ---
+
+# Search bar
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

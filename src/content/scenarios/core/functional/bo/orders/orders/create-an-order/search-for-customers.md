@@ -2,6 +2,8 @@
 title: "Search for customers"
 weight: 3
 ---
+
+# Search for customers
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

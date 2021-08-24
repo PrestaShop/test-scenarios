@@ -1,8 +1,9 @@
 ---
 title: Seo and Urls
 menuTitle: Seo and Urls
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Seo and Urls
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

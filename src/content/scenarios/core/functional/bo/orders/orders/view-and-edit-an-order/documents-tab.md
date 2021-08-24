@@ -2,6 +2,8 @@
 title: "Documents tab"
 weight: 4
 ---
+
+# Documents tab
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Positions
 menuTitle: Positions
-weight: 5 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Positions
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "Enable Disable Invoices"
 weight: 1
 ---
+
+# Enable Disable Invoices
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

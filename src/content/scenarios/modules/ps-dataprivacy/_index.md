@@ -1,8 +1,9 @@
 ---
 title: ps_dataprivacy
 menuTitle: ps_dataprivacy
-weight: 16 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_dataprivacy
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

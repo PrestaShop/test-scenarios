@@ -1,8 +1,9 @@
 ---
 title: ps_featuredproducts
 menuTitle: ps_featuredproducts
-weight: 19 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_featuredproducts
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

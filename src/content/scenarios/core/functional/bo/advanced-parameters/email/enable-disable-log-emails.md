@@ -2,6 +2,8 @@
 title: "Enable/Disable log emails"
 weight: 4
 ---
+
+# Enable/Disable log emails
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

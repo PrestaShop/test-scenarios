@@ -1,8 +1,9 @@
 ---
 title: ps_googleanalytics
 menuTitle: ps_googleanalytics
-weight: 28 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_googleanalytics
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

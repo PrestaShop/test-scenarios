@@ -2,6 +2,8 @@
 title: "Filter, sort and pagination"
 weight: 2
 ---
+
+# Filter, sort and pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

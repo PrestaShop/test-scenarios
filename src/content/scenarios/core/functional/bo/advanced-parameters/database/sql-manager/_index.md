@@ -1,8 +1,9 @@
 ---
 title: SQL Manager
 menuTitle: SQL Manager
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# SQL Manager
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

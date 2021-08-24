@@ -2,6 +2,8 @@
 title: "Bulk actions status (TODO)"
 weight: 7
 ---
+
+# Bulk actions status (TODO)
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

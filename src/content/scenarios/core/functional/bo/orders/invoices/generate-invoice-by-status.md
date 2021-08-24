@@ -2,6 +2,8 @@
 title: "Generate Invoice By Status"
 weight: 2
 ---
+
+# Generate Invoice By Status
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

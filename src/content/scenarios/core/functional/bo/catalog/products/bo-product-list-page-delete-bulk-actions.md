@@ -2,6 +2,8 @@
 title: "BO - Product list page - Delete Bulk actions"
 weight: 11
 ---
+
+# BO - Product list page - Delete Bulk actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

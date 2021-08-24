@@ -2,6 +2,8 @@
 title: "Page for terms and conditions"
 weight: 8
 ---
+
+# Page for terms and conditions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

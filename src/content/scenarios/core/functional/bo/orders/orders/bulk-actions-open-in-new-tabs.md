@@ -2,6 +2,8 @@
 title: "Bulk actions - Open in new tabs"
 weight: 8
 ---
+
+# Bulk actions - Open in new tabs
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

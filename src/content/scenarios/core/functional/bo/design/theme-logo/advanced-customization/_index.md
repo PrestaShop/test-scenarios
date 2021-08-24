@@ -1,8 +1,9 @@
 ---
 title: Advanced Customization
 menuTitle: Advanced Customization
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Advanced Customization
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

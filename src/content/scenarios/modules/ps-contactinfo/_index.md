@@ -1,8 +1,9 @@
 ---
 title: ps_contactinfo
 menuTitle: ps_contactinfo
-weight: 12 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_contactinfo
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "Filter + Delete + bulk actions emails (TODO)"
 weight: 2
 ---
+
+# Filter + Delete + bulk actions emails (TODO)
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

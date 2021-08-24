@@ -2,6 +2,8 @@
 title: "Generate Credit Slips By Date"
 weight: 3
 ---
+
+# Generate Credit Slips By Date
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

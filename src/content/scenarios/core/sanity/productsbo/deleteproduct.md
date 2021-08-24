@@ -2,6 +2,8 @@
 title: "DeleteProduct"
 weight: 4
 ---
+
+# DeleteProduct
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

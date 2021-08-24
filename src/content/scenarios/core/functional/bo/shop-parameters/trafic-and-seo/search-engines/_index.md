@@ -1,8 +1,9 @@
 ---
 title: Search Engines
 menuTitle: Search Engines
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Search Engines
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

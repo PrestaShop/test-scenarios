@@ -2,6 +2,8 @@
 title: "Sort and pagination Products"
 weight: 2
 ---
+
+# Sort and pagination Products
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

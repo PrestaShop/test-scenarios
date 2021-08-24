@@ -2,6 +2,8 @@
 title: "Enable / Disable Supplier"
 weight: 1
 ---
+
+# Enable / Disable Supplier
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

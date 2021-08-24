@@ -1,8 +1,9 @@
 ---
 title: Countries
 menuTitle: Countries
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Countries
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "Other Options"
 weight: 6
 ---
+
+# Other Options
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

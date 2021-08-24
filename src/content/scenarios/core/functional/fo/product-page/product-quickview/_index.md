@@ -1,8 +1,9 @@
 ---
 title: Product quickview
 menuTitle: Product quickview
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Product quickview
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

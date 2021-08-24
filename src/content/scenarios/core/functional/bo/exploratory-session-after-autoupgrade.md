@@ -2,6 +2,8 @@
 title: "Exploratory session after autoupgrade"
 weight: 14
 ---
+
+# Exploratory session after autoupgrade
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

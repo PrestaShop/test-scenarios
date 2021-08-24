@@ -2,6 +2,8 @@
 title: "Enable Disable Product Image"
 weight: 3
 ---
+
+# Enable Disable Product Image
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

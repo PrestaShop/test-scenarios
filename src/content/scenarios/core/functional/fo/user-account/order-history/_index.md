@@ -1,8 +1,9 @@
 ---
 title: Order history
 menuTitle: Order history
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Order history
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

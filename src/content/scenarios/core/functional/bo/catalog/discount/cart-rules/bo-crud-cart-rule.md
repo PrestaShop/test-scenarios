@@ -2,6 +2,8 @@
 title: "BO - CRUD cart rule"
 weight: 1
 ---
+
+# BO - CRUD cart rule
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

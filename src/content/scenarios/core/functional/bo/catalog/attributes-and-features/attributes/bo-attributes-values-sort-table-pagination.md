@@ -2,6 +2,8 @@
 title: "BO - Attributes - Values - Sort table & Pagination"
 weight: 9
 ---
+
+# BO - Attributes - Values - Sort table & Pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

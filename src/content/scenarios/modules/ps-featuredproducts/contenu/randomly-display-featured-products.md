@@ -2,6 +2,8 @@
 title: "Randomly display featured products"
 weight: 3
 ---
+
+# Randomly display featured products
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

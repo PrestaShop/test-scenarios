@@ -2,6 +2,8 @@
 title: "Add Standard Product"
 weight: 3
 ---
+
+# Add Standard Product
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

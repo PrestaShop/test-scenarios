@@ -2,6 +2,8 @@
 title: "BO - Features - Help button"
 weight: 6
 ---
+
+# BO - Features - Help button
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

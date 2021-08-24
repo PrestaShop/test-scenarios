@@ -2,6 +2,8 @@
 title: "Gamification module"
 weight: 7
 ---
+
+# Gamification module
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

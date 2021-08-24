@@ -2,6 +2,8 @@
 title: "Respond to message"
 weight: 3
 ---
+
+# Respond to message
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "BO - Brands - Bulk Actions Brands"
 weight: 5
 ---
+
+# BO - Brands - Bulk Actions Brands
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

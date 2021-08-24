@@ -1,8 +1,9 @@
 ---
 title: ps_socialfollow
 menuTitle: ps_socialfollow
-weight: 23 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_socialfollow
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

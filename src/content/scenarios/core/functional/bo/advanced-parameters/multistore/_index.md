@@ -1,8 +1,9 @@
 ---
 title: Multistore
 menuTitle: Multistore
-weight: 10 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Multistore
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

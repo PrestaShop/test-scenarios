@@ -2,6 +2,8 @@
 title: "Check the modal & add to cart"
 weight: 1
 ---
+
+# Check the modal & add to cart
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

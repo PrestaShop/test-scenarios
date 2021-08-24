@@ -2,6 +2,8 @@
 title: "View"
 weight: 1
 ---
+
+# View
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

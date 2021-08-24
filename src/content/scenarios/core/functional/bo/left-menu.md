@@ -2,6 +2,8 @@
 title: "Left Menu"
 weight: 1
 ---
+
+# Left Menu
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

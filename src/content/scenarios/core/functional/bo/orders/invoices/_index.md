@@ -1,8 +1,9 @@
 ---
 title: Invoices
 menuTitle: Invoices
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Invoices
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

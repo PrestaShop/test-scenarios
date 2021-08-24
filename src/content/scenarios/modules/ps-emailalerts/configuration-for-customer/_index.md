@@ -1,8 +1,9 @@
 ---
 title: Configuration for customer
 menuTitle: Configuration for customer
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Configuration for customer
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

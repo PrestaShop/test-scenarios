@@ -1,8 +1,9 @@
 ---
 title: ps_checkpayment
 menuTitle: ps_checkpayment
-weight: 11 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_checkpayment
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "Made a payment with check"
 weight: 1
 ---
+
+# Made a payment with check
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

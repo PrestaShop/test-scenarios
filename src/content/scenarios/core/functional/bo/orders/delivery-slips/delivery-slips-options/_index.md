@@ -1,8 +1,9 @@
 ---
 title: Delivery Slips Options
 menuTitle: Delivery Slips Options
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Delivery Slips Options
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

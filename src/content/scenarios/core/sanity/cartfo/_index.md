@@ -1,8 +1,9 @@
 ---
 title: CartFO
 menuTitle: CartFO
-weight: 5 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# CartFO
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -1,8 +1,9 @@
 ---
 title: Addresses
 menuTitle: Addresses
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Addresses
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

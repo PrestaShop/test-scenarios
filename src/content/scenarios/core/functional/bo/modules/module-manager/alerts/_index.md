@@ -1,8 +1,9 @@
 ---
 title: Alerts
 menuTitle: Alerts
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Alerts
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

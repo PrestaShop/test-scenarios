@@ -1,8 +1,9 @@
 ---
 title: Performance
 menuTitle: Performance
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Performance
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

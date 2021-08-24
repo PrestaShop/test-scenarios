@@ -2,6 +2,8 @@
 title: "Vote for a comment"
 weight: 3
 ---
+
+# Vote for a comment
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

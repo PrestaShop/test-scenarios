@@ -1,8 +1,9 @@
 ---
 title: Employees
 menuTitle: Employees
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Employees
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

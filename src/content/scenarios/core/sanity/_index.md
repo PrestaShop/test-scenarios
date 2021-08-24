@@ -1,8 +1,9 @@
 ---
 title: Sanity
 menuTitle: Sanity
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Sanity
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

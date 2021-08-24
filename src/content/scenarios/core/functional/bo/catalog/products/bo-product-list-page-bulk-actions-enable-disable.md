@@ -2,6 +2,8 @@
 title: "BO - Product list page - Bulk actions - Enable & Disable"
 weight: 10
 ---
+
+# BO - Product list page - Bulk actions - Enable & Disable
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

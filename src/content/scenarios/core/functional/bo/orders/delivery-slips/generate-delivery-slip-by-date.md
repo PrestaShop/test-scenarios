@@ -2,6 +2,8 @@
 title: "Generate Delivery Slip By Date"
 weight: 1
 ---
+
+# Generate Delivery Slip By Date
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

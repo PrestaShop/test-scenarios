@@ -1,8 +1,9 @@
 ---
 title: Payment
 menuTitle: Payment
-weight: 10 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Payment
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

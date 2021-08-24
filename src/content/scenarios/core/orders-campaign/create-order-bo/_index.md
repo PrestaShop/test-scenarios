@@ -1,8 +1,9 @@
 ---
 title: Create order BO
 menuTitle: Create order BO
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Create order BO
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

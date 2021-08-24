@@ -2,6 +2,8 @@
 title: "Enable/Disable email copy to customer"
 weight: 1
 ---
+
+# Enable/Disable email copy to customer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

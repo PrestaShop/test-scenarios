@@ -2,6 +2,8 @@
 title: "CRUD Page Category"
 weight: 3
 ---
+
+# CRUD Page Category
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

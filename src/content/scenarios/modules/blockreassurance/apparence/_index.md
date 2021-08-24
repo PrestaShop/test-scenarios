@@ -1,8 +1,9 @@
 ---
 title: Apparence
 menuTitle: Apparence
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Apparence
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

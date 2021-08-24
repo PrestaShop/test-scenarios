@@ -1,8 +1,9 @@
 ---
 title: Logs
 menuTitle: Logs
-weight: 8 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Logs
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

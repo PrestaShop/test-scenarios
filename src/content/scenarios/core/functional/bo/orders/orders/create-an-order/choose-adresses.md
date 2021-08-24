@@ -2,6 +2,8 @@
 title: "Choose adresses"
 weight: 7
 ---
+
+# Choose adresses
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

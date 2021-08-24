@@ -2,6 +2,8 @@
 title: "Filter And Quick Edit Categories"
 weight: 2
 ---
+
+# Filter And Quick Edit Categories
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

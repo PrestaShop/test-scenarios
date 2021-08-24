@@ -2,6 +2,8 @@
 title: "Bulk Edit Quantity With Input"
 weight: 4
 ---
+
+# Bulk Edit Quantity With Input
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

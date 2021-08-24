@@ -2,6 +2,8 @@
 title: "Add a product"
 weight: 10
 ---
+
+# Add a product
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

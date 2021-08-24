@@ -2,6 +2,8 @@
 title: "Help Button"
 weight: 8
 ---
+
+# Help Button
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

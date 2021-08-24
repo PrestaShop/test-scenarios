@@ -1,8 +1,9 @@
 ---
 title: BO
 menuTitle: BO
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# BO
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

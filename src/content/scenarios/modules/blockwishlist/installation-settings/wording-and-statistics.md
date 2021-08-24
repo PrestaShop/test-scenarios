@@ -2,6 +2,8 @@
 title: "Wording and statistics"
 weight: 2
 ---
+
+# Wording and statistics
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

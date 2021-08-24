@@ -2,6 +2,8 @@
 title: "Choose Shipping"
 weight: 8
 ---
+
+# Choose Shipping
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

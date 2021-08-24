@@ -2,6 +2,8 @@
 title: "BO - Attribute - Delete By bulk actions"
 weight: 6
 ---
+
+# BO - Attribute - Delete By bulk actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

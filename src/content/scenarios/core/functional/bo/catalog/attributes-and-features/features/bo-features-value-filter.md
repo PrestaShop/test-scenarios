@@ -2,6 +2,8 @@
 title: "BO - Features value - Filter"
 weight: 2
 ---
+
+# BO - Features value - Filter
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

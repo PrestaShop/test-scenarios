@@ -2,6 +2,8 @@
 title: "Add gift message"
 weight: 5
 ---
+
+# Add gift message
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

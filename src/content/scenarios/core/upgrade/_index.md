@@ -1,8 +1,9 @@
 ---
 title: Upgrade
 menuTitle: Upgrade
-weight: 6 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Upgrade
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

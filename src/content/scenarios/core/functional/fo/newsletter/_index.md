@@ -1,8 +1,9 @@
 ---
 title: Newsletter
 menuTitle: Newsletter
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Newsletter
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

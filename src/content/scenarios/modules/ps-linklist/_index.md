@@ -1,8 +1,9 @@
 ---
 title: ps_linklist
 menuTitle: ps_linklist
-weight: 20 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_linklist
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

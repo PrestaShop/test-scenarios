@@ -2,6 +2,8 @@
 title: "New days number"
 weight: 2
 ---
+
+# New days number
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

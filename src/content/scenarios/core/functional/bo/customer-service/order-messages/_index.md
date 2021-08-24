@@ -1,8 +1,9 @@
 ---
 title: Order Messages
 menuTitle: Order Messages
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Order Messages
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

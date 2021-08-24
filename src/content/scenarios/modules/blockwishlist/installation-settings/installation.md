@@ -2,6 +2,8 @@
 title: "Installation"
 weight: 1
 ---
+
+# Installation
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

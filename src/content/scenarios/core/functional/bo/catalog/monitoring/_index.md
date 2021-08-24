@@ -1,8 +1,9 @@
 ---
 title: Monitoring
 menuTitle: Monitoring
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Monitoring
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

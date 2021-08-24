@@ -1,8 +1,9 @@
 ---
 title: Database
 menuTitle: Database
-weight: 7 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Database
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

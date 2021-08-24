@@ -2,6 +2,8 @@
 title: "Check email data"
 weight: 3
 ---
+
+# Check email data
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

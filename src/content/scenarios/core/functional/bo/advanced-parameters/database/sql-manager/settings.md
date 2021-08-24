@@ -2,6 +2,8 @@
 title: "Settings"
 weight: 3
 ---
+
+# Settings
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

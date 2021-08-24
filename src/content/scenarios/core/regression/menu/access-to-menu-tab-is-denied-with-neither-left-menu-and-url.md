@@ -2,6 +2,8 @@
 title: "Access to Menu tab is denied with neither left menu and Url"
 weight: 1
 ---
+
+# Access to Menu tab is denied with neither left menu and Url
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

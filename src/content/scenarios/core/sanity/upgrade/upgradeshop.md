@@ -2,6 +2,8 @@
 title: "UpgradeShop"
 weight: 1
 ---
+
+# UpgradeShop
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

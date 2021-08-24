@@ -2,6 +2,8 @@
 title: "Preview email themes"
 weight: 4
 ---
+
+# Preview email themes
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

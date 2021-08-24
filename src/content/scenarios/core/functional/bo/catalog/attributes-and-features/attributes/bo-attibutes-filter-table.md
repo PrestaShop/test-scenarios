@@ -2,6 +2,8 @@
 title: "BO - Attibutes - Filter table"
 weight: 1
 ---
+
+# BO - Attibutes - Filter table
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

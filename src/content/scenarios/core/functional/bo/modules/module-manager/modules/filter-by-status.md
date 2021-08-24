@@ -2,6 +2,8 @@
 title: "Filter by status"
 weight: 1
 ---
+
+# Filter by status
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

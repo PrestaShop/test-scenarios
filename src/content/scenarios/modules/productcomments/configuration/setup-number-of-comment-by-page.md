@@ -2,6 +2,8 @@
 title: "Setup number of comment by page"
 weight: 6
 ---
+
+# Setup number of comment by page
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

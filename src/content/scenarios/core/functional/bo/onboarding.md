@@ -2,6 +2,8 @@
 title: "Onboarding"
 weight: 11
 ---
+
+# Onboarding
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

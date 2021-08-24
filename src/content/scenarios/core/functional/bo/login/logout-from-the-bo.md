@@ -2,6 +2,8 @@
 title: "Logout from the BO"
 weight: 3
 ---
+
+# Logout from the BO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Products stocks setting
 menuTitle: Products stocks setting
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Products stocks setting
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

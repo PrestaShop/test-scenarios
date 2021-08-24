@@ -1,8 +1,9 @@
 ---
 title: Link widget
 menuTitle: Link widget
-weight: 7 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Link widget
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

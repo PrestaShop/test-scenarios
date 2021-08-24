@@ -1,8 +1,9 @@
 ---
 title: Carriers
 menuTitle: Carriers
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Carriers
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

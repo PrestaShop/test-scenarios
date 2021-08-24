@@ -2,6 +2,8 @@
 title: "Check the name of a deleted user with anonymize last name option enable"
 weight: 4
 ---
+
+# Check the name of a deleted user with anonymize last name option enable
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

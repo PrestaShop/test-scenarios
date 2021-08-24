@@ -2,6 +2,8 @@
 title: "Enable / Disable Brands"
 weight: 2
 ---
+
+# Enable / Disable Brands
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

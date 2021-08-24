@@ -2,6 +2,8 @@
 title: "Filter orders table"
 weight: 1
 ---
+
+# Filter orders table
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

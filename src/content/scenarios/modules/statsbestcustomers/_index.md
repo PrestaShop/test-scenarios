@@ -1,8 +1,9 @@
 ---
 title: statsbestcustomers
 menuTitle: statsbestcustomers
-weight: 24 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# statsbestcustomers
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

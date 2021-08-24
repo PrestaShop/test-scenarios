@@ -2,6 +2,8 @@
 title: "Filter table"
 weight: 1
 ---
+
+# Filter table
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Create an order
 menuTitle: Create an order
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Create an order
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

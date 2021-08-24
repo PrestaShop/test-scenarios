@@ -2,6 +2,8 @@
 title: "BO - Brands - Export brands"
 weight: 7
 ---
+
+# BO - Brands - Export brands
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

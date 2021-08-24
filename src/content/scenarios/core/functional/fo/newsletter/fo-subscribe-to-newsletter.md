@@ -2,6 +2,8 @@
 title: "FO - subscribe to newsletter"
 weight: 2
 ---
+
+# FO - subscribe to newsletter
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: ps_shoppingcart
 menuTitle: ps_shoppingcart
-weight: 22 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_shoppingcart
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

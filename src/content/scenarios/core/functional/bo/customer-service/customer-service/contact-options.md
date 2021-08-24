@@ -2,6 +2,8 @@
 title: "Contact options"
 weight: 4
 ---
+
+# Contact options
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Theme catalog
 menuTitle: Theme catalog
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Theme catalog
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

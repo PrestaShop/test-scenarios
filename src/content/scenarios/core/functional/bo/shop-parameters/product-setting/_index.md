@@ -1,8 +1,9 @@
 ---
 title: Product Setting
 menuTitle: Product Setting
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Product Setting
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

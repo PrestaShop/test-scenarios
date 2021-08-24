@@ -1,8 +1,9 @@
 ---
 title: Shipping method
 menuTitle: Shipping method
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Shipping method
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

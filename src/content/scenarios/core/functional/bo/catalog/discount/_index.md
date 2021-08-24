@@ -1,8 +1,9 @@
 ---
 title: Discount
 menuTitle: Discount
-weight: 7 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Discount
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

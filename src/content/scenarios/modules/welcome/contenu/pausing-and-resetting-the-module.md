@@ -2,6 +2,8 @@
 title: "Pausing and resetting the module"
 weight: 2
 ---
+
+# Pausing and resetting the module
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

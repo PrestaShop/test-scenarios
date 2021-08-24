@@ -1,8 +1,9 @@
 ---
 title: International
 menuTitle: International
-weight: 11 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# International
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

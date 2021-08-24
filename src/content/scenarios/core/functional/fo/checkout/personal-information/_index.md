@@ -1,8 +1,9 @@
 ---
 title: Personal information
 menuTitle: Personal information
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Personal information
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

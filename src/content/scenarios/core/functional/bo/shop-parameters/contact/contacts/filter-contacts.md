@@ -2,6 +2,8 @@
 title: "Filter Contacts"
 weight: 1
 ---
+
+# Filter Contacts
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Filter And Quick Edit Customers"
 weight: 1
 ---
+
+# Filter And Quick Edit Customers
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Enable display email in FO"
 weight: 1
 ---
+
+# Enable display email in FO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

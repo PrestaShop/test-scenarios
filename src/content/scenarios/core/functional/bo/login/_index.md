@@ -1,8 +1,9 @@
 ---
 title: Login
 menuTitle: Login
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Login
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

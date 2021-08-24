@@ -2,6 +2,8 @@
 title: "Delete a currency"
 weight: 3
 ---
+
+# Delete a currency
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

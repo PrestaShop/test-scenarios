@@ -2,6 +2,8 @@
 title: "Pagination and sort"
 weight: 5
 ---
+
+# Pagination and sort
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

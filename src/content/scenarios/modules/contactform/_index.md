@@ -1,8 +1,9 @@
 ---
 title: contactform
 menuTitle: contactform
-weight: 6 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# contactform
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

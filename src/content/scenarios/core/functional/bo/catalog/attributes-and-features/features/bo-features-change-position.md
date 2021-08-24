@@ -2,6 +2,8 @@
 title: "BO - Features - Change position"
 weight: 5
 ---
+
+# BO - Features - Change position
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

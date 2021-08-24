@@ -2,6 +2,8 @@
 title: "Drag and drop bloc"
 weight: 5
 ---
+
+# Drag and drop bloc
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

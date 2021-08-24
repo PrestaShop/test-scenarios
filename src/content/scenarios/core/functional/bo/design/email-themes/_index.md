@@ -1,8 +1,9 @@
 ---
 title: Email themes
 menuTitle: Email themes
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Email themes
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

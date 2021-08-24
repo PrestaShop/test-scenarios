@@ -1,8 +1,9 @@
 ---
 title: Trafic and Seo
 menuTitle: Trafic and Seo
-weight: 6 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Trafic and Seo
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -1,8 +1,9 @@
 ---
 title: Customer Service
 menuTitle: Customer Service
-weight: 6 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Customer Service
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

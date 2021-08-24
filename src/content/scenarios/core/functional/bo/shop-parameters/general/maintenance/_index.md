@@ -1,8 +1,9 @@
 ---
 title: Maintenance
 menuTitle: Maintenance
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Maintenance
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -1,8 +1,9 @@
 ---
 title: Localization
 menuTitle: Localization
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Localization
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -1,8 +1,9 @@
 ---
 title: Modal
 menuTitle: Modal
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Modal
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

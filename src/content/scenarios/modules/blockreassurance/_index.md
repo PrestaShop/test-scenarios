@@ -1,8 +1,9 @@
 ---
 title: blockreassurance
 menuTitle: blockreassurance
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# blockreassurance
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

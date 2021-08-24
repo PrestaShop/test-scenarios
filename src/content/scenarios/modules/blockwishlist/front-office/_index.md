@@ -1,8 +1,9 @@
 ---
 title: Front Office
 menuTitle: Front Office
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Front Office
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

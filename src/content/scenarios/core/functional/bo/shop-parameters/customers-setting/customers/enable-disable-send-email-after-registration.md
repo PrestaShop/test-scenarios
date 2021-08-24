@@ -2,6 +2,8 @@
 title: "enable, disable send email after registration"
 weight: 2
 ---
+
+# enable, disable send email after registration
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

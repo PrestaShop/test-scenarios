@@ -2,6 +2,8 @@
 title: "Select a bloc in the picture & Configure a module"
 weight: 5
 ---
+
+# Select a bloc in the picture & Configure a module
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

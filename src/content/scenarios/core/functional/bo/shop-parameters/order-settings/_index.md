@@ -1,8 +1,9 @@
 ---
 title: Order settings
 menuTitle: Order settings
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Order settings
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

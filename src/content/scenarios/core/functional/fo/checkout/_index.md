@@ -1,8 +1,9 @@
 ---
 title: Checkout
 menuTitle: Checkout
-weight: 11 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Checkout
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

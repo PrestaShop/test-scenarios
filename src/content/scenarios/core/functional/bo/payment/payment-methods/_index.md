@@ -1,8 +1,9 @@
 ---
 title: Payment methods
 menuTitle: Payment methods
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Payment methods
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

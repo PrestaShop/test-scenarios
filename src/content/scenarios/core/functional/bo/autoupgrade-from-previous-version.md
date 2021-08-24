@@ -2,6 +2,8 @@
 title: "Autoupgrade from previous version"
 weight: 12
 ---
+
+# Autoupgrade from previous version
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

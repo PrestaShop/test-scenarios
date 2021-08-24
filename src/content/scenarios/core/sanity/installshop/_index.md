@@ -1,8 +1,9 @@
 ---
 title: InstallShop
 menuTitle: InstallShop
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# InstallShop
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

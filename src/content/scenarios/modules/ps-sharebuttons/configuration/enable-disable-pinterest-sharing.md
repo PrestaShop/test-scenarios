@@ -2,6 +2,8 @@
 title: "Enable / disable pinterest sharing"
 weight: 3
 ---
+
+# Enable / disable pinterest sharing
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

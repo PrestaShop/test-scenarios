@@ -2,6 +2,8 @@
 title: "Add a product to a list"
 weight: 1
 ---
+
+# Add a product to a list
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

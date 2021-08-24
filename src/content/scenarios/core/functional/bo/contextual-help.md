@@ -2,6 +2,8 @@
 title: "Contextual help"
 weight: 9
 ---
+
+# Contextual help
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

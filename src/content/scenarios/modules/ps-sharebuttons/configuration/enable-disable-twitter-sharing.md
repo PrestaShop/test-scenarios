@@ -2,6 +2,8 @@
 title: "Enable / disable twitter sharing"
 weight: 2
 ---
+
+# Enable / disable twitter sharing
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

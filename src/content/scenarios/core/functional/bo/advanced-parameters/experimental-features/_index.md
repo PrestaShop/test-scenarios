@@ -1,8 +1,9 @@
 ---
 title: Experimental Features
 menuTitle: Experimental Features
-weight: 11 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Experimental Features
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

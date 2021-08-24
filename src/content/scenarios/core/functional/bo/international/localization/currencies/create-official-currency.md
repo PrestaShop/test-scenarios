@@ -2,6 +2,8 @@
 title: "Create Official Currency"
 weight: 1
 ---
+
+# Create Official Currency
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Module catalog
 menuTitle: Module catalog
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Module catalog
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

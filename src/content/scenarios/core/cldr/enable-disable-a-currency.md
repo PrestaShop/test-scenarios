@@ -2,6 +2,8 @@
 title: "Enable/Disable a currency"
 weight: 9
 ---
+
+# Enable/Disable a currency
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

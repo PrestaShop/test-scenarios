@@ -1,8 +1,9 @@
 ---
 title: Shop Parameters
 menuTitle: Shop Parameters
-weight: 12 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Shop Parameters
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

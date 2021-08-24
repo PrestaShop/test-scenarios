@@ -1,8 +1,9 @@
 ---
 title: Taxes
 menuTitle: Taxes
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Taxes
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

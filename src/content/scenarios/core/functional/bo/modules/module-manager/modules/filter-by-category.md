@@ -2,6 +2,8 @@
 title: "Filter by category"
 weight: 2
 ---
+
+# Filter by category
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

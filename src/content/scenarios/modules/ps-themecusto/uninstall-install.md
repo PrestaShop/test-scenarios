@@ -2,6 +2,8 @@
 title: "Uninstall/Install"
 weight: 8
 ---
+
+# Uninstall/Install
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

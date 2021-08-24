@@ -2,6 +2,8 @@
 title: "Enable/disable anonymization of the user\'s last name"
 weight: 4
 ---
+
+# Enable/disable anonymization of the user\'s last name
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

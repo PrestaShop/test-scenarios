@@ -2,6 +2,8 @@
 title: "Change Maximum depth option"
 weight: 2
 ---
+
+# Change Maximum depth option
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

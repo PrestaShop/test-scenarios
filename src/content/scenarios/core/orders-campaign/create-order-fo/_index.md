@@ -1,8 +1,9 @@
 ---
 title: Create order FO
 menuTitle: Create order FO
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Create order FO
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

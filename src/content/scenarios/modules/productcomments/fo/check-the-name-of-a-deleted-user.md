@@ -2,6 +2,8 @@
 title: "Check the name of a deleted user"
 weight: 5
 ---
+
+# Check the name of a deleted user
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

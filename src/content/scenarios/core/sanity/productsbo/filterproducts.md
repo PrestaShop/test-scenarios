@@ -2,6 +2,8 @@
 title: "FilterProducts"
 weight: 1
 ---
+
+# FilterProducts
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

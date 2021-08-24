@@ -2,6 +2,8 @@
 title: "Debug mode"
 weight: 4
 ---
+
+# Debug mode
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: ps_customeraccountlinks
 menuTitle: ps_customeraccountlinks
-weight: 14 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_customeraccountlinks
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

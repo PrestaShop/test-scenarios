@@ -2,6 +2,8 @@
 title: "BO - Suppliers - Sort & Pagination"
 weight: 3
 ---
+
+# BO - Suppliers - Sort & Pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

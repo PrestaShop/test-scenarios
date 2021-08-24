@@ -1,8 +1,9 @@
 ---
 title: Invoice Options
 menuTitle: Invoice Options
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Invoice Options
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

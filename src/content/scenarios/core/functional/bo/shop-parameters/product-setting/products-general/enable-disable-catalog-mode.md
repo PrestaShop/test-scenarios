@@ -2,6 +2,8 @@
 title: "Enable, disable catalog mode"
 weight: 1
 ---
+
+# Enable, disable catalog mode
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Message block"
 weight: 7
 ---
+
+# Message block
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "[FO] Upgrade from 1.7.5 to last build and then exploratory test on FO"
 weight: 1
 ---
+
+# [FO] Upgrade from 1.7.5 to last build and then exploratory test on FO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

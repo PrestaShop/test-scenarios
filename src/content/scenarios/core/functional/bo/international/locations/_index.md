@@ -1,8 +1,9 @@
 ---
 title: Locations
 menuTitle: Locations
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Locations
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

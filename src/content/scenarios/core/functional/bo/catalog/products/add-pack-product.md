@@ -2,6 +2,8 @@
 title: "Add Pack Product"
 weight: 4
 ---
+
+# Add Pack Product
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

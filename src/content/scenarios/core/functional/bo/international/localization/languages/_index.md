@@ -1,8 +1,9 @@
 ---
 title: Languages
 menuTitle: Languages
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Languages
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

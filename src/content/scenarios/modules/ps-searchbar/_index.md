@@ -1,8 +1,9 @@
 ---
 title: ps_searchbar
 menuTitle: ps_searchbar
-weight: 21 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_searchbar
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

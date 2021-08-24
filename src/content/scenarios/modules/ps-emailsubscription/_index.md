@@ -1,8 +1,9 @@
 ---
 title: ps_emailsubscription
 menuTitle: ps_emailsubscription
-weight: 18 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_emailsubscription
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

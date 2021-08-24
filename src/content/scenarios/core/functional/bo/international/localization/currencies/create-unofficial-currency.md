@@ -2,6 +2,8 @@
 title: "Create Unofficial Currency"
 weight: 2
 ---
+
+# Create Unofficial Currency
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

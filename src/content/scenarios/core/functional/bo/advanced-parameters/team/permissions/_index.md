@@ -1,8 +1,9 @@
 ---
 title: Permissions
 menuTitle: Permissions
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Permissions
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

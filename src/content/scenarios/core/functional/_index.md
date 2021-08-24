@@ -1,8 +1,9 @@
 ---
 title: Functional
 menuTitle: Functional
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Functional
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

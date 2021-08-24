@@ -1,8 +1,9 @@
 ---
 title: Team
 menuTitle: Team
-weight: 6 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Team
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

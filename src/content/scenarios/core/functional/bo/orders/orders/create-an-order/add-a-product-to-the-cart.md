@@ -2,6 +2,8 @@
 title: "Add a product to the cart"
 weight: 5
 ---
+
+# Add a product to the cart
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

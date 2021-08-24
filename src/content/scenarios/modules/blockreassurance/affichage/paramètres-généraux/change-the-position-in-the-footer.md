@@ -2,6 +2,8 @@
 title: "Change the position in the footer"
 weight: 2
 ---
+
+# Change the position in the footer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

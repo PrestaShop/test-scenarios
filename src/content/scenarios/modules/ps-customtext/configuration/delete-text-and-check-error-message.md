@@ -2,6 +2,8 @@
 title: "Delete text and check error message"
 weight: 1
 ---
+
+# Delete text and check error message
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

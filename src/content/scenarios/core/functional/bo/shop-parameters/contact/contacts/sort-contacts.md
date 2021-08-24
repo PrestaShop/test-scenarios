@@ -2,6 +2,8 @@
 title: "Sort Contacts"
 weight: 4
 ---
+
+# Sort Contacts
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

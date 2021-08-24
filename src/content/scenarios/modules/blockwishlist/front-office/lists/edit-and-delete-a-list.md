@@ -2,6 +2,8 @@
 title: "Edit and delete a list"
 weight: 2
 ---
+
+# Edit and delete a list
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

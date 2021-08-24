@@ -1,8 +1,9 @@
 ---
 title: Conditions
 menuTitle: Conditions
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Conditions
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

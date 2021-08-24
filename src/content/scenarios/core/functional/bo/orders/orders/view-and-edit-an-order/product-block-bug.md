@@ -2,6 +2,8 @@
 title: "Product block - bug"
 weight: 2
 ---
+
+# Product block - bug
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

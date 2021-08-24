@@ -1,8 +1,9 @@
 ---
 title: Search
 menuTitle: Search
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Search
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

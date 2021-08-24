@@ -1,8 +1,9 @@
 ---
 title: Image Settings
 menuTitle: Image Settings
-weight: 6 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Image Settings
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

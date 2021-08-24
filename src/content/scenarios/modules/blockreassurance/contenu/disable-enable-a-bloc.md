@@ -2,6 +2,8 @@
 title: "Disable/Enable a bloc"
 weight: 1
 ---
+
+# Disable/Enable a bloc
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Customers Setting
 menuTitle: Customers Setting
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Customers Setting
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -1,8 +1,9 @@
 ---
 title: ps_themecusto
 menuTitle: ps_themecusto
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# ps_themecusto
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

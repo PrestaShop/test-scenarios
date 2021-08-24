@@ -1,8 +1,9 @@
 ---
 title: Attributes And Features
 menuTitle: Attributes And Features
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Attributes And Features
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

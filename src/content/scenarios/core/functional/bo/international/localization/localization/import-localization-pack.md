@@ -2,6 +2,8 @@
 title: "Import localization pack"
 weight: 1
 ---
+
+# Import localization pack
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

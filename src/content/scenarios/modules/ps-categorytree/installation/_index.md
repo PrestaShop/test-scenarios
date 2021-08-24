@@ -1,8 +1,9 @@
 ---
 title: Installation
 menuTitle: Installation
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Installation
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

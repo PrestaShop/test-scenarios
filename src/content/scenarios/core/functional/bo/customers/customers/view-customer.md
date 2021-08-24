@@ -2,6 +2,8 @@
 title: "View customer"
 weight: 8
 ---
+
+# View customer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

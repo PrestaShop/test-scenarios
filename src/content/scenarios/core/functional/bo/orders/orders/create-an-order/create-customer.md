@@ -2,6 +2,8 @@
 title: "Create customer"
 weight: 2
 ---
+
+# Create customer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

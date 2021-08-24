@@ -2,6 +2,8 @@
 title: "Quick Edit Cart rule"
 weight: 3
 ---
+
+# Quick Edit Cart rule
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

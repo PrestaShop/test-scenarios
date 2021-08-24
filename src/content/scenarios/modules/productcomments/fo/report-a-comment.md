@@ -2,6 +2,8 @@
 title: "Report a comment"
 weight: 2
 ---
+
+# Report a comment
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

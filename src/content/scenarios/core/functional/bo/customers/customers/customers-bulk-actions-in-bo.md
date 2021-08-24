@@ -2,6 +2,8 @@
 title: "Customers Bulk Actions In BO"
 weight: 3
 ---
+
+# Customers Bulk Actions In BO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

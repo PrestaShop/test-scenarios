@@ -1,8 +1,9 @@
 ---
 title: Currencies
 menuTitle: Currencies
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Currencies
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

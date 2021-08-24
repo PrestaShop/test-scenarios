@@ -2,6 +2,8 @@
 title: "BO - Values - Filter table"
 weight: 8
 ---
+
+# BO - Values - Filter table
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

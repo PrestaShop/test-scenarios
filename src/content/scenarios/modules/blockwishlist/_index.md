@@ -1,8 +1,9 @@
 ---
 title: blockwishlist
 menuTitle: blockwishlist
-weight: 5 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# blockwishlist
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "BO - Files - Help button"
 weight: 4
 ---
+
+# BO - Files - Help button
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

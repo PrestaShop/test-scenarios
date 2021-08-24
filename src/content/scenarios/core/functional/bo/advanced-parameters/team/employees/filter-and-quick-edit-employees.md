@@ -2,6 +2,8 @@
 title: "Filter and Quick Edit Employees"
 weight: 1
 ---
+
+# Filter and Quick Edit Employees
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

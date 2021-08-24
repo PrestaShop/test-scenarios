@@ -2,6 +2,8 @@
 title: "CheckProduct"
 weight: 2
 ---
+
+# CheckProduct
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

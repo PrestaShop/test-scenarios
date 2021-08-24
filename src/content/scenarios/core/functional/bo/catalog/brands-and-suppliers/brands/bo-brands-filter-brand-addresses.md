@@ -2,6 +2,8 @@
 title: "BO - Brands - Filter Brand Addresses"
 weight: 2
 ---
+
+# BO - Brands - Filter Brand Addresses
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

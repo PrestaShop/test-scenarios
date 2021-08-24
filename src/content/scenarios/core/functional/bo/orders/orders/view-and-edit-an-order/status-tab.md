@@ -2,6 +2,8 @@
 title: "Status tab"
 weight: 3
 ---
+
+# Status tab
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

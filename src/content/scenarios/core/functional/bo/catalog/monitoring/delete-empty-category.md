@@ -2,6 +2,8 @@
 title: "Delete Empty Category"
 weight: 1
 ---
+
+# Delete Empty Category
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

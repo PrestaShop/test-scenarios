@@ -2,6 +2,8 @@
 title: "Change the position in the header"
 weight: 1
 ---
+
+# Change the position in the header
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

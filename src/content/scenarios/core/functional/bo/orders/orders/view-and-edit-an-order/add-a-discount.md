@@ -2,6 +2,8 @@
 title: "Add a discount"
 weight: 11
 ---
+
+# Add a discount
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

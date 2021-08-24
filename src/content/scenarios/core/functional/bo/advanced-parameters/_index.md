@@ -1,8 +1,9 @@
 ---
 title: Advanced Parameters
 menuTitle: Advanced Parameters
-weight: 13 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Advanced Parameters
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

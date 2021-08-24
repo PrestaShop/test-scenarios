@@ -2,6 +2,8 @@
 title: "Reset password"
 weight: 1
 ---
+
+# Reset password
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

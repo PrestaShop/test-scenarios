@@ -2,6 +2,8 @@
 title: "Add a voucher"
 weight: 6
 ---
+
+# Add a voucher
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Edit home category"
 weight: 3
 ---
+
+# Edit home category
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

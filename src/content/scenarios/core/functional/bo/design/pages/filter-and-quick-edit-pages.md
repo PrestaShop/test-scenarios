@@ -2,6 +2,8 @@
 title: "Filter And Quick Edit Pages"
 weight: 1
 ---
+
+# Filter And Quick Edit Pages
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

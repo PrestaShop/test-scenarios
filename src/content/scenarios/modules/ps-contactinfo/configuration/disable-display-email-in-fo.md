@@ -2,6 +2,8 @@
 title: "Disable display email in FO"
 weight: 2
 ---
+
+# Disable display email in FO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

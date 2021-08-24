@@ -2,6 +2,8 @@
 title: "Create, Check Footer Linkwidget, Delete"
 weight: 1
 ---
+
+# Create, Check Footer Linkwidget, Delete
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

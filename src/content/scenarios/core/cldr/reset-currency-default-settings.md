@@ -2,6 +2,8 @@
 title: "Reset currency default settings"
 weight: 6
 ---
+
+# Reset currency default settings
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

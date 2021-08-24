@@ -2,6 +2,8 @@
 title: "BO - Attributes - Pagination"
 weight: 3
 ---
+
+# BO - Attributes - Pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

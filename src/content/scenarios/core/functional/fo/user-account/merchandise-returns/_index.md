@@ -1,8 +1,9 @@
 ---
 title: Merchandise Returns
 menuTitle: Merchandise Returns
-weight: 3 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Merchandise Returns
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

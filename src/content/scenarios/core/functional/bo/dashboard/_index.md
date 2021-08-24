@@ -1,8 +1,9 @@
 ---
 title: Dashboard
 menuTitle: Dashboard
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Dashboard
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

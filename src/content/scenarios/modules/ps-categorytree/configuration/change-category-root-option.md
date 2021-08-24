@@ -2,6 +2,8 @@
 title: "Change category root option"
 weight: 1
 ---
+
+# Change category root option
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

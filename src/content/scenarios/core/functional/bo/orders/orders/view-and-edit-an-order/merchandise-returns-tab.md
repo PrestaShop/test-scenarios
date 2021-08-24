@@ -2,6 +2,8 @@
 title: "Merchandise returns tab"
 weight: 6
 ---
+
+# Merchandise returns tab
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "BO - Brands - Sort & Pagination brands and addresses"
 weight: 3
 ---
+
+# BO - Brands - Sort & Pagination brands and addresses
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

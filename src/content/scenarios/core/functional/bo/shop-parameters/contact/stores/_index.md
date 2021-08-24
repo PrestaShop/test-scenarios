@@ -1,8 +1,9 @@
 ---
 title: Stores
 menuTitle: Stores
-weight: 2 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Stores
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

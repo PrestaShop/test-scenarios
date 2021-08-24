@@ -2,6 +2,8 @@
 title: "Bulk Actions Brand Addresses"
 weight: 6
 ---
+
+# Bulk Actions Brand Addresses
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

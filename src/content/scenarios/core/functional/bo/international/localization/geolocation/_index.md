@@ -1,8 +1,9 @@
 ---
 title: Geolocation
 menuTitle: Geolocation
-weight: 4 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Geolocation
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -2,6 +2,8 @@
 title: "Filter And Quick Edit Taxes"
 weight: 1
 ---
+
+# Filter And Quick Edit Taxes
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

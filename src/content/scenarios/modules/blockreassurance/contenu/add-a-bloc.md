@@ -2,6 +2,8 @@
 title: "Add a bloc"
 weight: 4
 ---
+
+# Add a bloc
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

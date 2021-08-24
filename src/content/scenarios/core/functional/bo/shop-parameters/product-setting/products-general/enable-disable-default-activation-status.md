@@ -2,6 +2,8 @@
 title: "Enable, disable default activation status"
 weight: 5
 ---
+
+# Enable, disable default activation status
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

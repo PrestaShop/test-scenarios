@@ -2,6 +2,8 @@
 title: "BO - Filter, Pagination and sort files"
 weight: 3
 ---
+
+# BO - Filter, Pagination and sort files
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

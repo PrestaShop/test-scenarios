@@ -1,8 +1,9 @@
 ---
 title: CheckoutFO
 menuTitle: CheckoutFO
-weight: 6 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# CheckoutFO
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

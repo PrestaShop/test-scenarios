@@ -2,6 +2,8 @@
 title: "BO - Password reminder"
 weight: 2
 ---
+
+# BO - Password reminder
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Enable/disable the authorization for guest user to comment"
 weight: 2
 ---
+
+# Enable/disable the authorization for guest user to comment
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

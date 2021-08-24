@@ -2,6 +2,8 @@
 title: "Filter Stocks By Status"
 weight: 5
 ---
+
+# Filter Stocks By Status
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

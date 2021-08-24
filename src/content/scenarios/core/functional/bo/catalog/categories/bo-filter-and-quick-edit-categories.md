@@ -2,6 +2,8 @@
 title: "BO - Filter And Quick Edit Categories"
 weight: 1
 ---
+
+# BO - Filter And Quick Edit Categories
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

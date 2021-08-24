@@ -2,6 +2,8 @@
 title: "Reset symbol / format settings"
 weight: 8
 ---
+
+# Reset symbol / format settings
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -2,6 +2,8 @@
 title: "Enable / disable facebook sharing"
 weight: 1
 ---
+
+# Enable / disable facebook sharing
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

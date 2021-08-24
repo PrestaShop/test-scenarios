@@ -2,6 +2,8 @@
 title: "Terms of service"
 weight: 7
 ---
+
+# Terms of service
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

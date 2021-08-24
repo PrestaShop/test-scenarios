@@ -2,6 +2,8 @@
 title: "Taxes Bulk Actions In BO"
 weight: 3
 ---
+
+# Taxes Bulk Actions In BO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,8 +1,9 @@
 ---
 title: Design
 menuTitle: Design
-weight: 8 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Design
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

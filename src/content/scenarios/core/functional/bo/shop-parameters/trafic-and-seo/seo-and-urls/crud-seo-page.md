@@ -2,6 +2,8 @@
 title: "CRUD Seo page"
 weight: 2
 ---
+
+# CRUD Seo page
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

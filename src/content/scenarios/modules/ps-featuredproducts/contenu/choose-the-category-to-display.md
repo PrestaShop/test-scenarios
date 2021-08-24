@@ -2,6 +2,8 @@
 title: "Choose the category to display"
 weight: 2
 ---
+
+# Choose the category to display
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

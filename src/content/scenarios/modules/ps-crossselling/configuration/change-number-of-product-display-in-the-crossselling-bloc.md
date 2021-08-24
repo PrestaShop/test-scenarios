@@ -2,6 +2,8 @@
 title: "Change number of product display in the crossselling bloc"
 weight: 2
 ---
+
+# Change number of product display in the crossselling bloc
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

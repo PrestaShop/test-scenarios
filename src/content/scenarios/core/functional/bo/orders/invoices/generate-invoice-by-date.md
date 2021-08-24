@@ -2,6 +2,8 @@
 title: "Generate Invoice By Date"
 weight: 1
 ---
+
+# Generate Invoice By Date
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

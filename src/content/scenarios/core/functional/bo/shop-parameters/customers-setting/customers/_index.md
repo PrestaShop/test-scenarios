@@ -1,8 +1,9 @@
 ---
 title: Customers
 menuTitle: Customers
-weight: 1 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Customers
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

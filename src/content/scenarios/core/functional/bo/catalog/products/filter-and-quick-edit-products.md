@@ -2,6 +2,8 @@
 title: "Filter And Quick Edit Products"
 weight: 1
 ---
+
+# Filter And Quick Edit Products
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

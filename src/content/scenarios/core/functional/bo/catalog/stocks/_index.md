@@ -1,8 +1,9 @@
 ---
 title: Stocks
 menuTitle: Stocks
-weight: 8 
-geekdocFlatSection: true
+chapter: true
 ---
+
+# Stocks
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

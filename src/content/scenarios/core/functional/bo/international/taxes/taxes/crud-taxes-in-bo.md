@@ -2,6 +2,8 @@
 title: "CRUD Taxes In BO"
 weight: 2
 ---
+
+# CRUD Taxes In BO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
