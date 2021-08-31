@@ -18,8 +18,6 @@ weight: 1
 | Click on the Next" button on the Preston modal" | You are redirected to the Payment Methods page. A Preston modal tells you about available payment methods (Step 1/2) |
 | Click on the Next" button on the Preston modal" | A Preston modal tells you about adding payment methods (Step 2/2) |
 | Click on the Next" button on the Preston modal" | You are redirected to the Carriers page. A Preston modal tells you about available carriers (Step 1/2) |
-| Click on the Next" button on the Preston modal" | A Preston modal tells you about adding carriers (Step 2/2) |
-| Click on the Next" button on the Preston modal" | You are redirected to the Modules catalog page. A Preston modal tells you that you can discover new modules, manage them and check for updates (Step 1/2) |
 | Click on the Next" button on the Preston modal" | A big modal appears, titled Over to you" and gives you 4 links and a "I'm ready" button" |
 | Click on the 4 buttons | A new window appears and you are redirected to the correct webpage |
 | Click on the I'm ready" button" | The modal closes.No more indication about the welcome module is available |
