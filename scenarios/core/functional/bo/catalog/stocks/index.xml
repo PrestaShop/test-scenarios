@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stocks on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks.html</link>
+    <description>Recent content in Stocks on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>simple Filter Stocks</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/simple-filter-stocks.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/simple-filter-stocks.html</guid>
+      <description>simple Filter Stocks Steps    Step Description Expected result     Go to Catalog stocks Page Page title contains : stocks *
+number of element in grid &amp;gt; 0   filter by name Criteria : &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo; number of element in grid after filter &amp;lt; total of element in grid
+all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo;   reset filter number of element in grid after reset = total of element in grid   filter by reference Criteria : demo_1 number of element in grid after filter &amp;lt; total of element in grid</description>
+    </item>
+    
+    <item>
+      <title>Sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/sort-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/sort-and-pagination.html</guid>
+      <description>Sort and pagination </description>
+    </item>
+    
+    <item>
+      <title>Update Quantity by setting input</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/update-quantity-by-setting-input.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/update-quantity-by-setting-input.html</guid>
+      <description>Update Quantity by setting input Steps    Step Description Expected result     Go to catalog Stocks Title contains &amp;lsquo;Stocks *&#39;
+Number of element in grid &amp;gt; 0   Filter by name
+Criteria : &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo; Number of element in grid &amp;lt; Total of elements in grid
+First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   Add Quantity by setting input value</description>
+    </item>
+    
+    <item>
+      <title>Bulk Edit Quantity With Input</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bulk-edit-quantity-with-input.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bulk-edit-quantity-with-input.html</guid>
+      <description>Bulk Edit Quantity With Input Steps    Step Description Expected result     Go to catalog Stocks Title contains &amp;lsquo;Stocks *&#39;
+Number of element in grid &amp;gt; 0   Filter by name
+Criteria : &amp;lsquo;Mountain fox notebook&amp;rsquo; Number of element in grid &amp;lt; Total of elements in grid
+In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 100 in bulk input quantity and click on apply new quantities Successful message : Stock successfully updated</description>
+    </item>
+    
+    <item>
+      <title>Filter Stocks By Status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-status.html</guid>
+      <description>Filter Stocks By Status Steps    Step Description Expected result     Go to products page page title contains &amp;lsquo;Products&amp;rsquo;   Reset filters total of products &amp;gt; 0   Create disabled product Product created   Go to stocks page Page title contains &amp;lsquo;Stocks&amp;rsquo;   Filter by status = disabled New product created is displayed in list   Go back to products page and delete product Product successfully deleted    </description>
+    </item>
+    
+    <item>
+      <title>Display products below low stocks level first</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/display-products-below-low-stocks-level-first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/display-products-below-low-stocks-level-first.html</guid>
+      <description>Display products below low stocks level first </description>
+    </item>
+    
+    <item>
+      <title>filter stocks by categories</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-categories.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-categories.html</guid>
+      <description>filter stocks by categories </description>
+    </item>
+    
+    <item>
+      <title>Help Button</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/help-button.html</guid>
+      <description>Help Button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Stocks page The Stocks page well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+  </channel>
+</rss>

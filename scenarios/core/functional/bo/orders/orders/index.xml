@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orders on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders.html</link>
+    <description>Recent content in Orders on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filter orders table</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/filter-orders-table.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/filter-orders-table.html</guid>
+      <description>Filter orders table Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by ID Number of orders &amp;lt; Total of orders
+The order id result is equal to the searched ID   Reset all filters Number of orders = Total of orders   Filter orders by Reference Number of orders &amp;lt; Total of orders</description>
+    </item>
+    
+    <item>
+      <title>Sort orders</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/sort-orders.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/sort-orders.html</guid>
+      <description>Sort orders Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Sort by ID DESC The Orders are sorted by ID DESC   Sort by Reference ASC The orders are sorted by Reference ASC   Sort by Reference DESC The orders are sorted by Reference DESC   Sort by Delivery (Country) ASC The orders are sorted by country ASC   Sort by Delivery (Country) DESC The orders are sorted by country DESC   Sort by Customer ASC The orders are sorted by customer ASC   Sort by Customer DESC The orders are sorted by customer DESC   Sort by Total paid ASC The orders are sorted by total ASC   Sort by Total paid DESC The orders are sorted by total DESC   Sort by Payment method ASC The orders are sorted by payment methods ASC   Sort by Payment method DESC The orders are sorted by payment methods DESC   Sort by Order status name ASC The orders are sorted by oreder status name ASC   Sort by Order status name DESC The orders are sorted by oreder status name DESC   Sort by Date ASC The Orders are sorted by date ASC   Sort by Date DESC The Orders are sorted by date DESC   Sort by ID ASC The orders are sorted by ID ASC    </description>
+    </item>
+    
+    <item>
+      <title>Preview order</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/preview-order.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/preview-order.html</guid>
+      <description>Preview order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page The Orders page is well displayed   Click on the icon to preview the last order created The row order-preview-content is displayed
+Check that data are ok:
+# Carrier
+# Tracking number = empty
+# Shipping details
+# Email
+# Invoice details
+# Number of products
+# Reference of each product</description>
+    </item>
+    
+    <item>
+      <title>View / Edit order</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-edit-order.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-edit-order.html</guid>
+      <description>View / Edit order </description>
+    </item>
+    
+    <item>
+      <title>View customer</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html</guid>
+      <description>View customer Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Customer Number of orders &amp;lt; Total of orders
+All orders customer contains the searched customer   Click on the Customer Link Redirection to the customer details page in a new Tab    </description>
+    </item>
+    
+    <item>
+      <title>View Guest</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html</guid>
+      <description>View Guest Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Guest Number of orders &amp;lt; Total of orders
+An order guest contains the searched guest   Click on the guest Link Redirection to the customer details page in a new Tab   Delete the created Guest The guest is well deleted    </description>
+    </item>
+    
+    <item>
+      <title>Bulk actions status (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status-todo.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status-todo.html</guid>
+      <description>Bulk actions status (TODO) Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the last order from the list, click on Bulk actions button and Click on &amp;ldquo;Change Order Status&amp;rdquo; A modal &amp;ldquo;Choose an order status&amp;rdquo; is displayed   Select &amp;ldquo;Payment accepted and click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the Order status is updated to &amp;ldquo;Payment accepted&amp;rdquo;    </description>
+    </item>
+    
+    <item>
+      <title>Bulk actions - Open in new tabs</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs.html</guid>
+      <description>Bulk actions - Open in new tabs Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the last order from the list, click on the Bulk actions button and Click on &amp;ldquo;Open in new Tabs&amp;rdquo; An alert &amp;ldquo;It looks like you have exceeded the number of tabs allowed. Check your browser settings to open multiple tabs.</description>
+    </item>
+    
+    <item>
+      <title>Edit status in order page</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page.html</guid>
+      <description>Edit status in order page Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to canceled with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Canceled&amp;rdquo;    </description>
+    </item>
+    
+    <item>
+      <title>Statistics of the page</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/statistics-of-the-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/statistics-of-the-page.html</guid>
+      <description>Statistics of the page </description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html</guid>
+      <description>Pagination Steps    Step Description Expected result     Go to Bo &amp;gt; Orders &amp;gt; Orders List of all Orders appears   number orders ⩽ 10 All orders are on the same page : no pagination available   number orders ⩾ 10 Order are display according to &amp;ldquo;Items by page&amp;rdquo;   Add order from BO or FO until number of orders reaches 11 orders List of orders displays with number of order = 11</description>
+    </item>
+    
+    <item>
+      <title>Change order with dropdown - Awaiting for payment to Payment Accepted</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</guid>
+      <description>Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo; An invoice is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Payment Accepted&amp;rdquo;    </description>
+    </item>
+    
+    <item>
+      <title>Change order with dropdown - default status  to Shipped</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</guid>
+      <description>Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo;    </description>
+    </item>
+    
+    <item>
+      <title>Export Orders</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html</guid>
+      <description>Export Orders Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully
+Data is correct    </description>
+    </item>
+    
+    <item>
+      <title>Help Button </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html</guid>
+      <description>Help Button Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully
+The document language is English   Close the help sidebar The help sidebar is closed successfully    </description>
+    </item>
+    
+  </channel>
+</rss>

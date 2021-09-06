@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Addresses on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses.html</link>
+    <description>Recent content in Addresses on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set and verify required fields</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/set-and-verify-required-fields.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/set-and-verify-required-fields.html</guid>
+      <description>Set and verify required fields Steps    Step Description Expected result     Go to the Front Office. Click on Sign in&amp;quot;. Login&amp;quot; The Your account&amp;quot; page is displayed&amp;quot;   Click on the Addresses&amp;quot; block. Click on &amp;ldquo;Create a new address&amp;rdquo; link&amp;quot; The New address&amp;quot; page is displayed&amp;quot;   Fill up the fields: First name. Last name. Address. Zip/postal code. City. Click on Save&amp;quot; Address is saved.</description>
+    </item>
+    
+    <item>
+      <title>Filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/filter.html</guid>
+      <description>Filter Steps    Step Description Expected result     Go to customers &amp;gt; addresses page Page title contains &amp;lsquo;Addresses&amp;rsquo;   reset all filters Number of products &amp;gt; 0   filter by id : 2 At least one address is displayed
+First row column id = 2   reset all filters Number of products after reset = total of addresses   filter by firstname &amp;lsquo;John&amp;rsquo; At least one address is displayed</description>
+    </item>
+    
+    <item>
+      <title>CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/crud.html</guid>
+      <description>CRUD Steps    Step Description Expected result     Go to customers &amp;gt; addresses page Page title contains &amp;lsquo;Addresses&amp;rsquo;   reset all filters Number of addresses &amp;gt; 0   go to add new address page page title contains &amp;lsquo;Add new&amp;rsquo;   Create address email : faker.internet.email
+dni : &amp;lsquo;&#39;
+alias : faker.address.streetAddress
+firstname : faker.name.firstName
+lastName : faker.name.lastName
+company : faker.company.companyName
+vatNumber : &amp;lsquo;&#39;</description>
+    </item>
+    
+    <item>
+      <title>Bulk Actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bulk-actions.html</guid>
+      <description>Bulk Actions Steps    Step Description Expected result     Go to customers &amp;gt; addresses page Page title contains &amp;lsquo;Addresses&amp;rsquo;   reset all filters Number of addresses &amp;gt; 0   go to add new address page page title contains &amp;lsquo;Add new&amp;rsquo;   Create first address address: &amp;lsquo;todelete&amp;rsquo; Successful message is displayed
+number of addresses = total of addresses + 1   go to add new address page page title contains &amp;lsquo;Add new&amp;rsquo;   Create second address address: &amp;lsquo;todelete&amp;rsquo; Successful message is displayed</description>
+    </item>
+    
+    <item>
+      <title>Sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/sort-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/sort-and-pagination.html</guid>
+      <description>Sort and pagination Steps    Step Description Expected result     go to customer &amp;gt; addresses page page title contains &amp;lsquo;Addresses&amp;rsquo;   reset filters Number of addresses &amp;gt; 0   Sort Addresses by id desc Addresses are sorted by id (3 -&amp;gt; 2 -&amp;gt; 1)   Sort Addresses by Firstname asc Addresses are sorted by Firstname (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by Firstname desc Addresses are sorted by Firstname (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by lastname asc Addresses are sorted by lastname (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by lastname desc Addresses are sorted by lastname (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by post code asc Addresses are sorted by post code (1 -&amp;gt; 2 -&amp;gt; 3)   Sort Addresses by post code desc Addresses are sorted by post code (3 -&amp;gt; 2 -&amp;gt; 1)   Sort Addresses by city asc Addresses are sorted by city (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by city desc Addresses are sorted by city (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by country asc Addresses are sorted by country (x -&amp;gt; y -&amp;gt; z)   Sort Addresses by country desc Addresses are sorted by country (z -&amp;gt; y -&amp;gt; x)   Sort Addresses by id asc Addresses are sorted by id (1 -&amp;gt; 2 -&amp;gt; 3)    </description>
+    </item>
+    
+    <item>
+      <title>Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/help-card.html</guid>
+      <description>Help card Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Addresses page The Addresses page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+  </channel>
+</rss>

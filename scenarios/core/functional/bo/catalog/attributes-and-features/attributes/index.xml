@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Attributes on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes.html</link>
+    <description>Recent content in Attributes on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BO - Attibutes - Filter table</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attibutes-filter-table.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attibutes-filter-table.html</guid>
+      <description>BO - Attibutes - Filter table Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes page The Attributes page is well displayed   Reset all filters and get number of attributes Total attributes = Number of Attributes   Filter by ID Total attributes &amp;lt; Number attributes and the attributes list contain the searched ID   Reset all filters and get number of attributes Total attributes = Number of Attributes   Filter By Name Total attributes &amp;lt; Number attributes and the attributes list contains the searched Name   Reset all filters and get number of attributes Total attributes = Number of Attributes   Filter By Position Total attributes &amp;lt; Number attributes and the attributes list contains the searched Position   Reset all filters and get number of attributes Total attributes = Number of Attributes    </description>
+    </item>
+    
+    <item>
+      <title>BO - Attributes - Sort </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-sort.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-sort.html</guid>
+      <description>BO - Attributes - Sort Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes page The Attributes page well displayed   Sort by ID desc The list is well sorted by id_attribute desc (3-&amp;gt;2-&amp;gt;1)   Sort by name asc The list is sorted by name asc (a-&amp;gt;b-&amp;gt;c)   Sort by name desc The list is sorted by name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Position asc The list is sorted by position asc (1-&amp;gt;2-&amp;gt;3)   Sort by ID asc The list is sorted by ID asc (1-&amp;gt;2-&amp;gt;3)    </description>
+    </item>
+    
+    <item>
+      <title>BO - Attributes - Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-pagination.html</guid>
+      <description>BO - Attributes - Pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Attributes page The Attributes page is well displayed   Change Display items to 20 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete the Created attributes Attributes are well deleted    </description>
+    </item>
+    
+    <item>
+      <title>BO - CRUD attributes and values</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-crud-attributes-and-values.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-crud-attributes-and-values.html</guid>
+      <description>BO - CRUD attributes and values Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Attributes page The Attributes page is well displayed   Click on &amp;ldquo;Add new Attribute&amp;rdquo; button The Add new attribute page is displayed   Set these fields :
+# Name
+# Public Name
+# Attribute type Click on &amp;ldquo;Save&amp;rdquo; The attribute is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   Click on &amp;ldquo;View&amp;rdquo; button of the last attribute created The page title = Attribute Name   Click on &amp;ldquo;Add new value&amp;rdquo; button The Values page is displayed and the &amp;ldquo;Attribute group = Attribute name&amp;rdquo;   Set the field &amp;ldquo;Value&amp;rdquo; and click on &amp;ldquo;Save then add another value&amp;rdquo; The &amp;ldquo;Add new value&amp;rdquo; page is displayed and the green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   Set the field Value and click on &amp;ldquo;Save&amp;rdquo; The Attributes page is displayed and the alert &amp;ldquo;×Successful creation.</description>
+    </item>
+    
+    <item>
+      <title>BO - Attributes &amp; Values - Change position</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-values-change-position.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-values-change-position.html</guid>
+      <description>BO - Attributes &amp;amp; Values - Change position Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Attributes page The Attributes page is well displayed   Reset filter Number attributes = Total Attibutes   Sort by Position asc The list is well sorted by position ( 1 -&amp;gt; 2 -&amp;gt; 3)   Drag &amp;amp; drop first attribute from the first position to the third position The alert &amp;ldquo;Successful update&amp;rdquo; is displayed, the position of attributes are updated   Rest the position (Drag &amp;amp; drop the first attribute to the first position) The positions are updated and a green alert &amp;ldquo;Successful update&amp;rdquo; is displayed   View the first attribute Page title = Size and the values page is well displayed   Reset filter Number values = Total values   Sort by Position asc The list is well sorted by position ( 1 -&amp;gt; 2 -&amp;gt; 3)   Drag &amp;amp; drop the first value from the first position to the third position The alert &amp;ldquo;Successful update&amp;rdquo; is displayed, the position of values are updated   Rest the position (Drag &amp;amp; drop the first value to the first position) The positions of values are updated and a green alert &amp;ldquo;Successful update&amp;rdquo; is displayed    </description>
+    </item>
+    
+    <item>
+      <title>BO - Attribute - Delete By bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attribute-delete-by-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attribute-delete-by-bulk-actions.html</guid>
+      <description>BO - Attribute - Delete By bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Attributes page **The Attributes page is well displayed   Reset filter **Number attributes = Total Attibutes   Filter by attribute name Number attributes &amp;lt; Total attributes and the list contains the searched name   Click on Bulk actions button A drop down is displayed   Click on &amp;ldquo;Select All&amp;rdquo; All attributes are selected   Click on Bulk actions button A drop down is displayed   Click on &amp;ldquo;Delete Selected&amp;rdquo; and confirm the deletion An alert &amp;ldquo;The selection has been successfully deleted.</description>
+    </item>
+    
+    <item>
+      <title>BO - Attibutes - Help button</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attibutes-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attibutes-help-button.html</guid>
+      <description>BO - Attibutes - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Filters &amp;gt; Attributes page The Attributes page is well displayed   Click on Help The Help documentation is opened in English   Click on Help again The help documentation is closed    </description>
+    </item>
+    
+    <item>
+      <title>BO - Values - Filter table</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-values-filter-table.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-values-filter-table.html</guid>
+      <description>BO - Values - Filter table Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Attributes page The Attributes page is displayed   Click &amp;ldquo;View&amp;rdquo; the first attribute: Size Page title = Size &amp;amp; the Values page is well displayed   Reset Filter Number values = Total values   Filter by ID Number values &amp;lt; Total values and the list contains the search ID   Reset Filter Number values = Total values   Filter by Value Number values &amp;lt; Total values and the list contains the search Value   Reset Filter Number values = Total values   Filter by Position Number values &amp;lt; Total values and the list contains the search position   Reset Filter Number values = Total values    </description>
+    </item>
+    
+    <item>
+      <title>BO - Attributes - Values - Sort table &amp; Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-values-sort-table-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-values-sort-table-pagination.html</guid>
+      <description>BO - Attributes - Values - Sort table &amp;amp; Pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features page The Attributes page is displayed   Reset filter Number of Attributes = Total Attributes   Filter Attribute by Name = Color Number Attributes &amp;lt; Total Attributes and the searched list contains the Color Name   Click on View button Page title = &amp;lsquo;Color&amp;rsquo; &amp;amp; The Colors List page is displayed   Sort by ID desc The page is well displayed and sort by ID desc ( 3-&amp;gt;2-&amp;gt;1)   Sort by Value asc The list is sorted by value asc (a-&amp;gt;b-&amp;gt;c)   Sort by value desc the list is sorted by value desc (c-&amp;gt;b-&amp;gt;a)   Sort by color asc The list is sorted by color asc   Sort by color desc The list is sorted by color desc   Sort by Position asc The list is sorted by position asc   Sort by Position desc The list page is sorted by position desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 20 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete the Created values Values are well deleted    </description>
+    </item>
+    
+  </channel>
+</rss>
