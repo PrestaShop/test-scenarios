@@ -24,3 +24,4 @@ weight: 12
 | Go to the FO and login | logged in |
 | go to the product page for which we left a comment in the previous steps | the product page is displayed |
 | check the comment section | the comment we just approved is visible and the content is correct |
+| Go back to the BO and delete the review | The review is deleted and is not visible anymore in FO |
