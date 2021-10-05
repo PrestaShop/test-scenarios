@@ -1,9 +1,9 @@
 ---
-title: "Help card"
+title: "Help Button"
 weight: 6
 ---
 
-# Help card
+# Help Button
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
