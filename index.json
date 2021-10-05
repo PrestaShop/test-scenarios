@@ -4865,6 +4865,13 @@
 	"content": "FO - Order confirmation - Contact us Steps    Step Description Expected result     Go to the shop FO The FO homepage shop is displayed   Login to a existing customer account Logged in as customer   Add a product to cart The confirmation modal is displayed   In the \u0026ldquo;add to cart\u0026rdquo; confirmation modal click on the \u0026ldquo;order\u0026rdquo; button Redirected to the cart page   In the cart page click on the order button the checkout process is started and the \u0026ldquo;address selection\u0026rdquo; step is displayed   Click on the \u0026ldquo;next\u0026rdquo; button The delivery mode selection is displayed   Click on \u0026ldquo;next\u0026rdquo; button The payment method is now displayed   Select a paiement method, check the \u0026ldquo;generals conditions\u0026rdquo; checkbox and click on the \u0026ldquo;order\u0026rdquo; button The order is now completed and the \u0026ldquo;order confirmation\u0026rdquo; page is displayed   In the \u0026ldquo;order confirmation\u0026rdquo; page click on the \u0026ldquo;client support\u0026rdquo; link Redirection to the \u0026ldquo;contact us\u0026rdquo; page   In the \u0026ldquo;contact us\u0026rdquo; page, check if the email is correctly pre-filled The email field is filled with the logged in customer email address   Select a order reference The order reference is selected   Add a message in the textarea field The textarea field is filled with the message   Add a attachment file The attachment file is correctly added   click on the \u0026ldquo;send message\u0026rdquo; button A success message is displayed   Go to the BO The BO login page is displayed   Login to the BO Redirected to the BO dashboard page as logged in user   Go to the customer service page The customer service page is displayed   in the customer service page check in the customer service table if the previously send message is correctly displayed The previously send message is displayed and all the informations are correct    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/help-button.html",
+	"title": "Help Button",
+	"tags": [],
+	"description": "",
+	"content": "Help Button Steps    Step Description Expected result     Go to BO \u0026gt; Customers \u0026gt; Addresses page The Addresses page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/languages/help-button.html",
 	"title": "Help button",
 	"tags": [],
@@ -4898,13 +4905,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Help card "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/help-card.html",
-	"title": "Help card",
-	"tags": [],
-	"description": "",
-	"content": "Help card Steps    Step Description Expected result     Go to BO \u0026gt; Customers \u0026gt; Addresses page The Addresses page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/install-module.html",
@@ -6108,7 +6108,7 @@
 	"title": "Addresses",
 	"tags": [],
 	"description": "",
-	"content": "Addresses Tests  Set and verify required fields   Filter   CRUD   Bulk Actions   Sort and pagination   Help card   "
+	"content": "Addresses Tests  Set and verify required fields   Filter   CRUD   Bulk Actions   Sort and pagination   Help Button   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/checkout/addresses.html",
