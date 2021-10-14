@@ -23,15 +23,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1634105800" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1634105800" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1634105800" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1634105800" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1634105800" rel="stylesheet">
-    <link href="../../../../../../style.css?1634105800" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1634192443" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1634192443" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1634192443" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1634192443" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1634192443" rel="stylesheet">
+    <link href="../../../../../../style.css?1634192443" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1634105800"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1634192443"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -30299,7 +30299,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#delete-abandonned-carts">Delete abandonned carts</a></li>
+    <li><a href="#delete-abandonned-carts">Delete abandonned carts</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -47591,14 +47595,37 @@
 
 
 <h1 id="delete-abandonned-carts">Delete abandonned carts</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to FO &gt; Create Shopping cart</td>
+<td>Go to BO &gt; See new shopping carts displayed</td>
+</tr>
+<tr>
+<td>Individual deletion :<br><br>In the list of Shopping cart &gt; See &ldquo;Non ordered&rdquo; carts &gt; Click dropdown Delete button &gt; Click YES on &ldquo;Delete selected item&rdquo;</td>
+<td>Message &ldquo;Successful deletion.&rdquo; appears<br><br>In list of Shopping carts, Non-ordered cart has been deleted</td>
+</tr>
+<tr>
+<td>Bulk action :<br><br>Select multiple &ldquo;Non-ordered&rdquo; carts &gt; Click &ldquo;Bulk actions&rdquo; &gt; Click &ldquo;Delete selected&rdquo;</td>
+<td>Message &ldquo;The selection has been successfully deleted.&rdquo; appears<br><br>Multiple Non-ordered carts are deleted</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on October 5, 2021
+  Last updated on October 14, 2021
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/fa24b592bd6ec11b54f66d97b56d54c25eea0879">"[Update] JIRA XRay Tests" (fa24b592b)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/567df02124d775250dae0a0821ebf429abf43825">"[Update] JIRA XRay Tests" (567df0212)</a>
   
 </div>
 
@@ -47619,19 +47646,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1634105801"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1634105801"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1634105801"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1634105801"></script>
-    <script src="../../../../../../js/featherlight.min.js?1634105801"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1634105801"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1634105801"></script>
-    <script src="../../../../../../js/learn.js?1634105801"></script>
-    <script src="../../../../../../js/hugo-learn.js?1634105801"></script>
+    <script src="../../../../../../js/clipboard.min.js?1634192443"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1634192443"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1634192443"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1634192443"></script>
+    <script src="../../../../../../js/featherlight.min.js?1634192443"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1634192443"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1634192443"></script>
+    <script src="../../../../../../js/learn.js?1634192443"></script>
+    <script src="../../../../../../js/hugo-learn.js?1634192443"></script>
     
-    <script src="../../../../../../main.js?1634105801"></script>
-    <link href="../../../../../../mermaid/mermaid.css?1634105801" rel="stylesheet" />
-    <script src="../../../../../../mermaid/mermaid.js?1634105801"></script>
+    <script src="../../../../../../main.js?1634192443"></script>
+    <link href="../../../../../../mermaid/mermaid.css?1634192443" rel="stylesheet" />
+    <script src="../../../../../../mermaid/mermaid.js?1634192443"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

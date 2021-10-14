@@ -5525,7 +5525,8 @@ ecoTax: &amp;lsquo;EU VAT For Virtual Products&amp;rsquo;, Update Successful</de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-edit-order.html</guid>
-      <description>View / Edit order </description>
+      <description>View / Edit order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click View on existing order #5 Page will refresh with Order Details page   Add a product to the Order Message &amp;ldquo;The product was successfully added.&amp;rdquo; appears   Add a Discount to the Order Message &amp;ldquo;Successful update.&amp;rdquo; appears
+New line appear in discount table with discount amount   Update status of Order to &amp;ldquo;Payment accepted&amp;rdquo; Message &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -5780,7 +5781,9 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/delete-abandonned-carts.html</guid>
-      <description>Delete abandonned carts </description>
+      <description>Delete abandonned carts Steps    Step Description Expected result     Go to FO &amp;gt; Create Shopping cart Go to BO &amp;gt; See new shopping carts displayed   Individual deletion :
+In the list of Shopping cart &amp;gt; See &amp;ldquo;Non ordered&amp;rdquo; carts &amp;gt; Click dropdown Delete button &amp;gt; Click YES on &amp;ldquo;Delete selected item&amp;rdquo; Message &amp;ldquo;Successful deletion.&amp;rdquo; appears
+In list of Shopping carts, Non-ordered cart has been deleted   Bulk action :</description>
     </item>
     
     <item>
@@ -6457,7 +6460,7 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/export-carts.html</guid>
-      <description>Export carts </description>
+      <description>Export carts Steps    Step Description Expected result     Go to FO &amp;gt; Create multiple carts with different products    Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; Click on Export carts A csv file is downloaded   Open the csv file, and see the same info as in the BO     </description>
     </item>
     
     <item>

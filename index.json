@@ -4141,7 +4141,7 @@
 	"title": "View / Edit order",
 	"tags": [],
 	"description": "",
-	"content": "View / Edit order "
+	"content": "View / Edit order Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click View on existing order #5 Page will refresh with Order Details page   Add a product to the Order Message \u0026ldquo;The product was successfully added.\u0026rdquo; appears   Add a Discount to the Order Message \u0026ldquo;Successful update.\u0026rdquo; appears\nNew line appear in discount table with discount amount   Update status of Order to \u0026ldquo;Payment accepted\u0026rdquo; Message \u0026ldquo;Successful update.\u0026rdquo; appears\nIn Status block, new status is displayed\nNew button \u0026ldquo;View Invoice\u0026rdquo; is displayed next to Status dropdown   Click \u0026ldquo;View Invoice\u0026rdquo; Invoice is downloaded   Update Status to \u0026ldquo;Shipped\u0026rdquo; Message \u0026ldquo;Successful update.\u0026rdquo; appears\nStatus block id updated\nNew button \u0026ldquo;View delivery slip\u0026rdquo; is displayed in top banner   Click \u0026ldquo;View delivery slip\u0026rdquo; Delivery slip is downloaded   Add an Order note to the order Message \u0026ldquo;Update successful\u0026rdquo; appears\nNote is displayed   Go to Documents Tab \u0026gt; Add a note to the Invoice \u0026gt; Save \u0026gt; Download Invoice Message \u0026ldquo;Successful update.\u0026rdquo; appears\nNote is displayed\nIn Invoice, see new note id displayed   In Carrier Tab \u0026gt; Edit Carrier \u0026gt; Add a tracking number \u0026gt; Save Message \u0026ldquo;Successful Update\u0026rdquo; appears\nTracking number in Carrier tab is updated   Click button \u0026ldquo;Partial Refund\u0026rdquo; to refund a product \u0026gt; Message \u0026ldquo;A partial refund was successfully created.\u0026rdquo; appears\nIn Documents Tab, see new document has been created : Credit Slip   Add a Payment \u0026gt; Fill all fields \u0026gt; Click Add Message \u0026ldquo;Successful Update\u0026rdquo; appears\nIn Payment, see a warning : \u0026ldquo;Warning €XX.XX paid instead of €XX.XX\u0026rdquo;   In Message Block \u0026gt; Add a new message \u0026gt; Click Send message Message \u0026ldquo;Comment successfully added.\u0026rdquo; is displayed\nMessage is displayed in Messages block    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/view-carts.html",
@@ -4337,7 +4337,7 @@
 	"title": "Delete abandonned carts",
 	"tags": [],
 	"description": "",
-	"content": "Delete abandonned carts "
+	"content": "Delete abandonned carts Steps    Step Description Expected result     Go to FO \u0026gt; Create Shopping cart Go to BO \u0026gt; See new shopping carts displayed   Individual deletion :\nIn the list of Shopping cart \u0026gt; See \u0026ldquo;Non ordered\u0026rdquo; carts \u0026gt; Click dropdown Delete button \u0026gt; Click YES on \u0026ldquo;Delete selected item\u0026rdquo; Message \u0026ldquo;Successful deletion.\u0026rdquo; appears\nIn list of Shopping carts, Non-ordered cart has been deleted   Bulk action :\nSelect multiple \u0026ldquo;Non-ordered\u0026rdquo; carts \u0026gt; Click \u0026ldquo;Bulk actions\u0026rdquo; \u0026gt; Click \u0026ldquo;Delete selected\u0026rdquo; Message \u0026ldquo;The selection has been successfully deleted.\u0026rdquo; appears\nMultiple Non-ordered carts are deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productsbo/deleteproductwithbulkactions.html",
@@ -4848,7 +4848,7 @@
 	"title": "Export carts",
 	"tags": [],
 	"description": "",
-	"content": "Export carts "
+	"content": "Export carts Steps    Step Description Expected result     Go to FO \u0026gt; Create multiple carts with different products    Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; Click on Export carts A csv file is downloaded   Open the csv file, and see the same info as in the BO     "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/export-customers.html",
