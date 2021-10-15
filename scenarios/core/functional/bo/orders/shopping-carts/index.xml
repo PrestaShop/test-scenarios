@@ -44,12 +44,12 @@ The list contains the searched ID order   View the first shopping cart The Shopp
     </item>
     
     <item>
-      <title>Delete abandonned carts</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/delete-abandonned-carts.html</link>
+      <title>Delete abandoned carts</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/delete-abandoned-carts.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/delete-abandonned-carts.html</guid>
-      <description>Delete abandonned carts Steps    Step Description Expected result     Go to FO &amp;gt; Create Shopping cart Go to BO &amp;gt; See new shopping carts displayed   Individual deletion :
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/delete-abandoned-carts.html</guid>
+      <description>Delete abandoned carts Steps    Step Description Expected result     Go to FO &amp;gt; Create Shopping cart Go to BO &amp;gt; See new shopping carts displayed   Individual deletion :
 In the list of Shopping cart &amp;gt; See &amp;ldquo;Non ordered&amp;rdquo; carts &amp;gt; Click dropdown Delete button &amp;gt; Click YES on &amp;ldquo;Delete selected item&amp;rdquo; Message &amp;ldquo;Successful deletion.&amp;rdquo; appears
 In list of Shopping carts, Non-ordered cart has been deleted   Bulk action :</description>
     </item>
@@ -69,7 +69,10 @@ In list of Shopping carts, Non-ordered cart has been deleted   Bulk action :</de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/statistics.html</guid>
-      <description>Statistics </description>
+      <description>Statistics Steps    Step Description Expected result     Go to FO &amp;gt; Add products to Cart Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Non-ordered carts displayed   Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Conversion Rate Converting your visitors to customers
+When a visitor buys an item, he becomes a customer.
+For example :
+If all visitors become customers &amp;gt; should be 100%</description>
     </item>
     
   </channel>
