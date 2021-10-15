@@ -23,7 +23,7 @@ weight: 2
 | Click on Add a product | The addProductTableRow is displayed |
 | Search for pack product and click on it | The "Stock location" value is correct and the "Available" quantity is correct |
 | Click on "Add" | A red alert "{color:#FF0000}Error!{color}<br>{color:#FF0000}Minimum quantity of "2" must be added{color}" is displayed |
-| Increase quantity = minimal quantity | The Quantity is increased |
+| Increase quantity = minimal quantity | The quantity is changed |
 | Click on "Add" | 1. A green alert "The product was successfully added." is displayed and the new product is displayed in the list<br><br>2. The name is correct, the base price is correct, the quantity is correct, the Available is ok and the total is ok |
 | Click on Add a product | The addProductTableRow is displayed |
 | Search for customized product (demo_14) and click on it | The "Stock location" value is correct and the "Available" quantity is correct |

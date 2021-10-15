@@ -1,9 +1,9 @@
 ---
-title: "Delete abandonned carts"
+title: "Delete abandoned carts"
 weight: 5
 ---
 
-# Delete abandonned carts
+# Delete abandoned carts
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
