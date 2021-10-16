@@ -87,7 +87,7 @@ weight: 1
 | Go back to the BO > Cart rules page | The cart rules page is well displayed |
 | Delete the cart rule and confirm the deletion | **A green alert "Successful deletion." is displayed |
 | Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
-| *Case8: Limit to signle customer*<br><br>Set these fields:<br> # Information:<br> ## Name<br> ## Description<br> # Conditions:<br> ## Limit to a single customer = John DOE (pub@prestashop.com)<br> # Actions :<br> ## Discount = 1 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
+| *Case8: Limit to single customer*<br><br>Set these fields:<br> # Information:<br> ## Name<br> ## Description<br> # Conditions:<br> ## Limit to a single customer = John DOE (pub@prestashop.com)<br> # Actions :<br> ## Discount = 1 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the discount is well applied<br><br>Total is ok |
