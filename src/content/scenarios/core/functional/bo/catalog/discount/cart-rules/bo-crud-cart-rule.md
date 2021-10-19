@@ -74,7 +74,7 @@ weight: 1
 | Set these fields:<br> # Information:<br> ## Name<br> ## Description<br> ## Priority = 1<br> # Actions:<br> ## Discount = 2 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
-| Click on "Proceed to checkout" | Check that Cart rulenn°2 is applied *before* Cart rule n°1, Total is OK |
+| Click on "Proceed to checkout" | Check that Cart rule n°2 is applied *before* Cart rule n°1, Total is OK |
 | Remove the product from the Shopping cart page | The product is well removed |
 | Go back to the BO > Cart rules page | The cart rules page is well displayed |
 | Delete the cart rules with bulk action and confirm the deletion | A green alert "The selection has been successfully deleted." is displayed |
@@ -82,17 +82,17 @@ weight: 1
 | *Case7: Status Disabled*<br><br>Set these fields:<br> # Information:<br> ## Name<br> ## Description<br> ## Status = disabled<br> # Actions:<br> ## Discount = 1 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
-| Click on "Proceed to checkout" | The Shopping cart is well displayed and there is no discount disaplayed |
+| Click on "Proceed to checkout" | The Shopping cart is well displayed and there is no discount displayed |
 | Remove the product from the Shopping cart page | The product is well removed |
 | Go back to the BO > Cart rules page | The cart rules page is well displayed |
-| Delete the cart rule and confirm the deletion | **A green alert "Successful deletion." is displayed |
+| Delete the cart rule and confirm the deletion | A green alert "Successful deletion." is displayed |
 | Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
 | *Case8: Limit to single customer*<br><br>Set these fields:<br> # Information:<br> ## Name<br> ## Description<br> # Conditions:<br> ## Limit to a single customer = John DOE (pub@prestashop.com)<br> # Actions :<br> ## Discount = 1 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the discount is well applied<br><br>Total is ok |
 | Click on "View my customer account" | "Your Account" page is displayed |
-| "Your vouchers" page is displayed and check that:<br><br>The  Cart rule is displayed with Value = 1 euro |  |
+| "Your vouchers" page is displayed and check that:<br><br>The Cart rule is displayed with Value = 1 euro |  |
 | Click on "Sign out" | The page "Log in to your account" is displayed |
 | Click on My store and add a product to the cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and no discount is displayed |
@@ -177,7 +177,7 @@ weight: 1
 | Select My Address (United States) and click continue | The shipping method is displayed |
 | Click on "Have a promo code?" | The promo code section is displayed |
 | Set the Code and click on Add | The discount is well applied & the total is ok |
-| Remove the discount | he discount is well removed |
+| Remove the discount | The discount is well removed |
 | Remove the product | The product is well removed |
 | Go back to the BO > Cart rules page | The cart rules page is well displayed |
 | Edit Cart rule | The cart rule page is well displayed |

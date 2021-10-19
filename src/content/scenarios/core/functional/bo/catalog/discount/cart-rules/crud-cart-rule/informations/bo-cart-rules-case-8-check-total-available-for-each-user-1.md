@@ -1,0 +1,35 @@
+---
+title: "BO - Cart rules - Case 8 - Check Total available for each User = 1"
+weight: 8
+---
+
+# BO - Cart rules - Case 8 - Check Total available for each User = 1
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Catalog > Discounts > Cart rules page and Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
+| Create a new discount, set these fields:<br><br># Information:<br>1. Name<br>2. Description<br>3.3 Code<br># Conditions:<br>1. Total available =2<br>2. Total available for each user =1<br># Actions:<br>1. Discount = 1 euro<br><br>and click on Save | An alert "Successful creation." is displayed |
+| Go to FO | The FO is well displayed |
+| Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
+| Click on "Proceed to checkout" | The modal "Product successfully added to your shopping cart" is displayed |
+| Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
+| Click on "Have a promo code?" | The promo code section is displayed |
+| Set the Code and click on Add | The discount is well applied & the total is ok |
+| Click on "Proceed to checkout" | The Checkout page is displayed |
+| Click on "Sign in" > Set Email & Password of "John DOE":<br><br>Address mail: pub@prestashop.com<br>Password: 123456789<br>Click on Continue | The Addresses step is displayed |
+| Click on Continue | The payment step is displayed |
+| Check payment method and check  "I agree to the terms of service and will adhere to them unconditionally."  and click on "Place Order" | The Order Confirmation page is displayed |
+| Click on "My Store" Link | The Home page is well displayed |
+| Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
+| Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
+| Click on "Have a promo code?" | The promo code section is displayed |
+| Set the Code and click on Add | An alert is displayed "You cannot use this voucher anymore (usage limit reached)" |
+| Click on Sign out | The user s not logged anymore |
+| Go to Home page and a product to the cart | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
+| Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
+| Click on "Have a promo code?" | The promo code section is displayed |
+| Set the Code and click on Add | The discount is well applied & the total is ok |
+| Remove the discount | The discount is not applied and the total is ok |
+| Remove the product | The product is well removed |
+| Go back to BO > Catalog > Discounts > Cart rules page | The Cart rule page is well displayed |
+| Delete the cart rule and confirm the deletion | A green alert "Successful deletion." is displayed |
