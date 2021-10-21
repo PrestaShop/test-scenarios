@@ -9,7 +9,7 @@ weight: 3
 | ----- | ----- |
 | Go to BO > Orders > Orders page and view last order created | The Order view page is well displayed<br><br>Check the number of status = 1<br><br>The Order note is not opened by default (exist from PS1.7.8) |
 | Click on Resend email | An alert "The message was successfully sent to the customer." is displayed and the email is well received inbox |
-| Click on "Update status without selecting other sattus" | An alert "The order has already been assigned this status." is displayed |
+| Click on "Update status without selecting other status" | An alert "The order has already been assigned this status." is displayed |
 | Select Canceled and Click on "Update status" | An alert "Successful update." is displayed and check:<br><br>Number status = +1 => 2<br><br>Status = canceled<br><br>Employee name & lastname => ok <br><br>Date => ok |
 | Sign out and sing in with another emplyee | The dashboard is well displayed with the new employee |
 | Go to BO > Orders > View the last Order > change the status to payment accepted in the status block | An alert "Successful update." is well displayed:<br><br>Check the number of statuses = +1 => 3<br><br>Check the name & first name of the new employee<br><br>Check the status = payment accepted |
