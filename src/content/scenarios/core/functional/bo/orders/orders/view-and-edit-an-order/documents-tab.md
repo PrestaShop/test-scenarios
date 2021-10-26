@@ -21,5 +21,3 @@ weight: 4
 | Click on Delivery Slip Number | Launch Download of Delivery Slip |
 | Click on Partial Refund > Choose quantity | Credit slip will be generated<br><br>Message Successful update. is displayed |
 | Click on Credit Slip Number | Credit Slip is downloaded |
-| *Order with documents (Invoice or/and Delivery Slip or/and Credit Slip)* | List of documents available<br>Document count in title correct |
-| Click on column Number | Download is launched (for Invoice or Delivery Slip or Credit Note) |
