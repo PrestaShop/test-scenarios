@@ -15,7 +15,7 @@ weight: 4
 | Click on Number column to Download Invoice | Invoice downloaded |
 | Click Add a note | Button changes to "Edit note"<br><br>Note can be seen in the Invoice in section Notes<br><br>Note can be seen in Documents tab<br><br>Message Successful update. is displayed |
 | Delete note and Save | Note is deleted<br>Button "Add note" appears<br>Message Successful update. is displayed |
-| Click "Enter a payment" | Page scrolls to Payment tab |
+| Click "Enter a payment" | Page scrolls to Payment tab -> Cannot check it with automated tests<br>Amount input is not empty |
 | Change status to Payment Accepted | Button "Enter Payment" should be hidden in Document tab<br>Message Successful update. is displayed |
 | Change Order Status<br>Example : Shipped | Delivery Slip appears in list<br>Message Successful update. is displayed |
 | Click on Delivery Slip Number | Launch Download of Delivery Slip |
