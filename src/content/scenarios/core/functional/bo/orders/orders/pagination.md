@@ -17,7 +17,7 @@ weight: 11
 | Change "items per page" to 50 | Page reloads with all items on the first page = 11 orders<br><br>Only one page of orders is available |
 | Change "items per page" to 100 | Page reloads with all items on the first page = 11 orders<br><br>Only one page of orders is available |
 | Add orders to reach 21 orders total | Items per page : 10 <br><br>You should see 3 pages order orders |
-| Change "items per page" : 20 | Pagination is available : 3 pages are available |
+| Change "items per page" : 20 | Pagination is available : 2 pages are available |
 | Change "Items per page" : 50 / 100 | Only one page of order is available |
 | *Filter*<br><br>By id : ASC or DESC | Pagination should keep its configuration |
 | Filter by Status > Choose a status > Click Search | Order list should be filterer with the payment chosen<br><br>If < to "Items per page" : one page is available with no pagination<br><br>if > to "Items per page" : X pages are available to go through |
