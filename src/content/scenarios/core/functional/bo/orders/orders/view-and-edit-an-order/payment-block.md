@@ -19,7 +19,7 @@ weight: 8
 | Fill Payment line with total amount | Message Successful update. appears |
 | Change currency : Choose currency of choice > Click button Change | Message Successful update. appears<br><br>See that the currency of the order will be updated |
 | Go to BO > Orders > Orders and Choose an Order without a payment | Order details page is displayed |
-| change the status order to Payment accepted | * a "Successful update." is displayed<br> * a status well updated<br> * a new line in the payment tab is added<br> * all data are ok (Date + payment method + amount) |
+| change the status order to Payment accepted | * a "Successful update." is displayed<br> * a status well updated<br> * a new line in the payment tab is added<br> * all data are ok (Date + payment method + amount + invoice) |
 | Click Add a product, search a product, click on it with creating a new invoice and save | a pop-up "Create a new invoice" is displayed |
 | Click on Create | An alert "The product was successfully added." is displayed<br><br>The product is well added<br><br>A new invoice is created<br><br>In the payment tab: Warning appears : <br>Warning *€XX.XX* paid instead of *€XX.XX* |
 | In the payment tab, try to add a payment to the new invoice with total = product added | new line added to the payment |
