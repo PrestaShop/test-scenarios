@@ -12,7 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/create-an-account.html</guid>
-      <description>Create an account </description>
+      <description>Create an account Steps    Step Description Expected result     GO to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button Log in to your account page will open   Click on &amp;ldquo;No account? Create one here&amp;rdquo; Create an account page will open   Fill the form with your personal information &amp;gt; Click Save You are now logged into your account
+Homepage of website is displayed    </description>
     </item>
     
     <item>
@@ -21,7 +22,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/logout.html</guid>
-      <description>Logout </description>
+      <description>Logout Steps    Step Description Expected result     On the FO &amp;gt; Customer account &amp;gt; Click on top right corner &amp;ldquo;Sign out&amp;rdquo; button You are logged out
+Log in to your account page is displayed   Log into your account with email + password &amp;gt; Click &amp;ldquo;Sign in&amp;rdquo; button You are logged in
+Your account page is displayed   Click on &amp;ldquo;Sign out&amp;rdquo; link on the bottom of your account page You are logged out</description>
     </item>
     
     <item>
@@ -30,7 +33,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/password-reminder.html</guid>
-      <description>Password reminder </description>
+      <description>Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on Sign In button &amp;gt; Click on &amp;ldquo;Forgot your password?&amp;rdquo; link Password recovery page is displayed   Enter your customer email address &amp;gt; Click on &amp;ldquo;send reset link&amp;rdquo; Message &amp;ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at email@email.com.&amp;rdquo; is displayed   Check your emails &amp;gt; A &amp;ldquo;Password query confirmation&amp;rdquo; email is sent &amp;gt; Click on the link Recovery password page will open   Fille the form with your New password &amp;gt; Click Change password You will be logged into your account</description>
     </item>
     
     <item>
@@ -39,7 +42,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/login.html</guid>
-      <description>Login </description>
+      <description>Login Steps    Step Description Expected result     Go to FO &amp;gt; Click on Sign In &amp;gt; Enter a wrong email + password combination &amp;gt; Click on Sign In Message Authentication failed. is displayed
+You can&amp;rsquo;t log in   Enter your email + password &amp;gt; Click on &amp;ldquo;Show&amp;rdquo; Password will be displayed clearly   Click on &amp;ldquo;Sign in&amp;rdquo; You are now logged into your customer account    </description>
     </item>
     
   </channel>

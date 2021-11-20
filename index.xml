@@ -305,7 +305,8 @@ Number of products should be 12   Go to the front office 12 featured product sho
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/check-links-in-header.html</guid>
-      <description>Check links in header </description>
+      <description>Check links in header Steps    Step Description Expected result     Go to FO &amp;gt; Click on top left link &amp;ldquo;Contact us&amp;rdquo; Contact form page will open   Click on Sign In button &amp;gt; Enter your email + password &amp;gt; Click Sign In You are now logged in
+Button &amp;ldquo;Sign In&amp;rdquo; is now 2 buttons : &amp;ldquo;Sign Out&amp;rdquo; + &amp;ldquo;your name&amp;rdquo;   Click on your account button in header Your account page is displayed   Go to a product page &amp;gt; Add to cart &amp;gt; Click &amp;ldquo;Continue shopping&amp;rdquo; &amp;gt; Click on top right Cart button Shopping cart is now displayed   Click on Sign out You will be logged out and the cart is now empty    </description>
     </item>
     
     <item>
@@ -494,7 +495,8 @@ Number of products should be 12   Go to the front office 12 featured product sho
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/create-an-account.html</guid>
-      <description>Create an account </description>
+      <description>Create an account Steps    Step Description Expected result     GO to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button Log in to your account page will open   Click on &amp;ldquo;No account? Create one here&amp;rdquo; Create an account page will open   Fill the form with your personal information &amp;gt; Click Save You are now logged into your account
+Homepage of website is displayed    </description>
     </item>
     
     <item>
@@ -2060,7 +2062,8 @@ number of backups = 1   generate new db backup Successful message is displayed</
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/check-links-in-footer.html</guid>
-      <description>Check links in footer </description>
+      <description>Check links in footer Steps    Step Description Expected result     Go to FO &amp;gt; Go to footer See 4 blocks : Products, Our company, Your account and Store Information   Check that all links from Products, Our company work well and redirect to correct page    Case 1 : you are not logged in
+On block Your account, Click on all links All links should redirect to Login Page   Case 2 ; you are logged into your customer account All links will redirect to the correct page   On block Store information &amp;gt; Click on the email address You will be able to send a direct email    </description>
     </item>
     
     <item>
@@ -2824,7 +2827,9 @@ number of order messages = Total of orders messages + 1   Go to create new order
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/logout.html</guid>
-      <description>Logout </description>
+      <description>Logout Steps    Step Description Expected result     On the FO &amp;gt; Customer account &amp;gt; Click on top right corner &amp;ldquo;Sign out&amp;rdquo; button You are logged out
+Log in to your account page is displayed   Log into your account with email + password &amp;gt; Click &amp;ldquo;Sign in&amp;rdquo; button You are logged in
+Your account page is displayed   Click on &amp;ldquo;Sign out&amp;rdquo; link on the bottom of your account page You are logged out</description>
     </item>
     
     <item>
@@ -3581,7 +3586,9 @@ number of languages = total of languages + 1   Go to add new language page Page 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/change-language.html</guid>
-      <description>Change language </description>
+      <description>Change language Steps    Step Description Expected result     Case 1 : there&amp;rsquo;s only one language You will not see the link to change language in the header   Case 2 : If you have 2 or more languages
+Go to FO &amp;gt; Change language from EN to FR See that the page is not in FR
+The url has the /fr/   Switch back to EN FO is now in English</description>
     </item>
     
     <item>
@@ -4102,7 +4109,7 @@ The invoice is created successfully   Add a partial refund product the credit sl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/password-reminder.html</guid>
-      <description>Password reminder </description>
+      <description>Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on Sign In button &amp;gt; Click on &amp;ldquo;Forgot your password?&amp;rdquo; link Password recovery page is displayed   Enter your customer email address &amp;gt; Click on &amp;ldquo;send reset link&amp;rdquo; Message &amp;ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at email@email.com.&amp;rdquo; is displayed   Check your emails &amp;gt; A &amp;ldquo;Password query confirmation&amp;rdquo; email is sent &amp;gt; Click on the link Recovery password page will open   Fille the form with your New password &amp;gt; Click Change password You will be logged into your account</description>
     </item>
     
     <item>
@@ -4835,7 +4842,8 @@ In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 1
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/change-currency.html</guid>
-      <description>Change currency </description>
+      <description>Change currency Steps    Step Description Expected result     Case 1 : You have one currency only The link to change currency will not appear in header of FO   Case 2 : You have 2 or more currencies
+Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another currency See that the price of your product is now in the new currency with the new exchange rate   Switch back to your original currency The prices of products are now in the original currency with the original exchange rate    </description>
     </item>
     
     <item>
@@ -5285,7 +5293,8 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/login.html</guid>
-      <description>Login </description>
+      <description>Login Steps    Step Description Expected result     Go to FO &amp;gt; Click on Sign In &amp;gt; Enter a wrong email + password combination &amp;gt; Click on Sign In Message Authentication failed. is displayed
+You can&amp;rsquo;t log in   Enter your email + password &amp;gt; Click on &amp;ldquo;Show&amp;rdquo; Password will be displayed clearly   Click on &amp;ldquo;Sign in&amp;rdquo; You are now logged into your customer account    </description>
     </item>
     
     <item>
@@ -7531,7 +7540,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/change-order-status-with-dropdown.html</guid>
-      <description>Change order status with dropdown Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed and the Update status button is disabled   Select the same status The button &amp;ldquo;Update status&amp;rdquo; is still disabled   Select Canceled and Click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and check:</description>
+      <description>Change order status with dropdown Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed and the Update status button is disabled   Select the same status The button &amp;ldquo;Update status&amp;rdquo; is still disabled   Select status &amp;lsquo;Canceled&amp;rsquo; and Click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
