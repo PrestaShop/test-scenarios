@@ -11,4 +11,4 @@ weight: 1
 | Modify the Social title, First name, Last name and email > Save | You need to re-enter your password and check Customer data privacy |
 | Click Save | Information is saved<br><br>Message "Information successfully updated." is displayed |
 | Modify your password > Check customer data privacy > Save | Message "Could not update your information, please check your data." is displayed<br><br>In Email/Password : Message "Invalid email/password combination" is displayed |
-| Re enter your curent password and your new password to the form | Message "Information successfully updated." is displayed<br><br>Your password has been updated |
+| Re enter your current password and your new password to the form | Message "Information successfully updated." is displayed<br><br>Your password has been updated |
