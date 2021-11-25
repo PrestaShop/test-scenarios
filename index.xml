@@ -7685,13 +7685,14 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>Add a product</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/add-a-product.html</link>
+      <title>Add a discount</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/add-a-discount.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/add-a-product.html</guid>
-      <description>Add a product Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click &amp;ldquo;View&amp;rdquo; on latest order &amp;gt; Click &amp;ldquo;Add a product&amp;rdquo; in Product block Message &amp;ldquo;The product was successfully added.&amp;rdquo; appears
-Product is added to the list   Type name of the product &amp;gt; Choose the product in the dropdown &amp;gt; Check price and quantity &amp;gt; Click add Product is added to the list</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/add-a-discount.html</guid>
+      <description>Add a discount Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed   Click Add new discount A pop up &amp;ldquo;Add new cart rule&amp;rdquo; is displayed and the &amp;ldquo;Add&amp;rdquo; button is disabled   Set these fields:
+# Name
+# Value = invalid with characters =&amp;gt; 10%</description>
     </item>
     
     <item>
@@ -7816,17 +7817,6 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>Add a discount</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/add-a-discount.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/add-a-discount.html</guid>
-      <description>Add a discount Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed   Click Add new discount A pop up &amp;ldquo;Add new cart rule&amp;rdquo; is displayed and the &amp;ldquo;Add&amp;rdquo; button is disabled   Set these fields:
-# Name
-# Value = invalid with characters =&amp;gt; 10%</description>
-    </item>
-    
-    <item>
       <title>BO - Cart rules - Case 10 - Country restriction</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-10-country-restriction.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7861,6 +7851,17 @@ All products contain the searched Name    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-generation-of-bill.html</guid>
       <description>Check generation of bill Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>Check invoice</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-invoice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-invoice.html</guid>
+      <description>Check invoice Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; View Order &amp;gt; Change status of order Status of order is now &amp;ldquo;Payment accepted&amp;rdquo;
+Message &amp;ldquo;Successful update.&amp;rdquo; appears   Click on View Invoice &amp;gt; Save the order Order is saved in your documents
+Invoice fields should match with info in Order details page   Add a product to the order &amp;gt; Save Message &amp;ldquo;The product was successfully added.</description>
     </item>
     
     <item>
@@ -7970,14 +7971,13 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>Check invoice</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-invoice.html</link>
+      <title>Check multi invoice behaviour</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-multi-invoice-behaviour.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-invoice.html</guid>
-      <description>Check invoice Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; View Order &amp;gt; Change status of order Status of order is now &amp;ldquo;Payment accepted&amp;rdquo;
-Message &amp;ldquo;Successful update.&amp;rdquo; appears   Click on View Invoice &amp;gt; Save the order Order is saved in your documents
-Invoice fields should match with info in Order details page   Add a product to the order &amp;gt; Save Message &amp;ldquo;The product was successfully added.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-multi-invoice-behaviour.html</guid>
+      <description>Check multi invoice behaviour Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Add new order A new order should be created   Click on latest Order created &amp;gt; Update status to &amp;ldquo;Payment accepted&amp;rdquo; to generate an Invoice Status is updated
+An invoice is available   On the latest Order created &amp;gt; Click Add a product &amp;gt; Choose product to add to the order &amp;gt; Choose &amp;ldquo;Create a new Invoice&amp;rdquo; Messages &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -8060,16 +8060,6 @@ Invoice fields should match with info in Order details page   Add a product to t
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-if-the-unsubscribtion-is-working-in-the-module-configuration.html</guid>
       <description>Check if the unsubscribtion is working in the module configuration Steps    Step Description Expected result          </description>
-    </item>
-    
-    <item>
-      <title>Check multi invoice behaviour</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-multi-invoice-behaviour.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-multi-invoice-behaviour.html</guid>
-      <description>Check multi invoice behaviour Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Add new order A new order should be created   Click on latest Order created &amp;gt; Update status to &amp;ldquo;Payment accepted&amp;rdquo; to generate an Invoice Status is updated
-An invoice is available   On the latest Order created &amp;gt; Click Add a product &amp;gt; Choose product to add to the order &amp;gt; Choose &amp;ldquo;Create a new Invoice&amp;rdquo; Messages &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
