@@ -1,6 +1,6 @@
 ---
 title: "Check invoice"
-weight: 12
+weight: 11
 ---
 
 # Check invoice

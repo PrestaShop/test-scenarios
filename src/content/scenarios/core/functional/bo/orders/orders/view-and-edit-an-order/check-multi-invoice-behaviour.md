@@ -1,6 +1,6 @@
 ---
 title: "Check multi invoice behaviour"
-weight: 13
+weight: 12
 ---
 
 # Check multi invoice behaviour

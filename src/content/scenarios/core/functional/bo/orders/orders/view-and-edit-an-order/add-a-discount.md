@@ -1,6 +1,6 @@
 ---
 title: "Add a discount"
-weight: 11
+weight: 10
 ---
 
 # Add a discount
