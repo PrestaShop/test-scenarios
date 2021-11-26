@@ -12,3 +12,4 @@ weight: 1
 | Click Save | Information is saved<br><br>Message "Information successfully updated." is displayed |
 | Modify your password > Check customer data privacy > Save | Message "Could not update your information, please check your data." is displayed<br><br>In Email/Password : Message "Invalid email/password combination" is displayed |
 | Re enter your current password and your new password to the form | Message "Information successfully updated." is displayed<br><br>Your password has been updated |
+| Tick all checkboxes > Save | Message "Information successfully updated." is displayed<br><br>See that checkboxes for partners offer and newsletter are checked |
