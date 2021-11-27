@@ -4,3 +4,9 @@ weight: 4
 ---
 
 # Send message while logged out
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to FO > In footer, click on Our Company > Contact us | Contact form is displayed |
+| Fill the form > Send | Message "Your message has been successfully sent to our team." is displayed |
+| Fill the form again > Send | Message "Your message has been successfully sent to our team." is displayed |
