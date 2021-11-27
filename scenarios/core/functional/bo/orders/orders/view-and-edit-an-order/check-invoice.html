@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1637907513" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1637907513" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1637907513" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1637907513" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1637907513" rel="stylesheet">
-    <link href="../../../../../../../style.css?1637907513" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1637993988" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1637993988" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1637993988" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1637993988" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1637993988" rel="stylesheet">
+    <link href="../../../../../../../style.css?1637993988" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1637907513"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1637993988"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -47929,20 +47929,100 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; Orders &gt; Orders &gt; View Order &gt; Change status of order</td>
+<td>Go to BO &gt; Orders &gt; Orders &gt; View Order created with the <em>virtual</em> product &gt; Change status of order</td>
 <td>Status of order is now &ldquo;Payment accepted&rdquo;<br><br>Message &ldquo;Successful update.&rdquo; appears</td>
 </tr>
 <tr>
 <td>Click on View Invoice &gt; Save the order</td>
-<td>Order is saved in your documents<br><br>Invoice fields should match with info in Order details page</td>
+<td>Order is saved in your documents<br><br>Invoice fields should match with info in Order details page<br><br>and check that the Carrier field is <em>empty</em></td>
 </tr>
 <tr>
-<td>Add a product to the order &gt; Save</td>
-<td>Message &ldquo;The product was successfully added.&rdquo; appears<br><br>Message &ldquo;Successful update.&rdquo; appears</td>
+<td>Go to BO &gt; Orders &gt; Orders &gt; View Order created with the <em>customized</em> product &gt; Change status of order</td>
+<td>Status of order is now &ldquo;Payment accepted&rdquo;<br><br>Message &ldquo;Successful update.&rdquo; appears</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save the order</td>
+<td>Order is saved in your documents<br><br>Invoice fields should match with info in Order details page<br><br>and check that the <em>customization</em> is displayed</td>
+</tr>
+<tr>
+<td>Add a product <em>with a specific price</em> to the order &gt; Save</td>
+<td>Message &ldquo;The product was successfully added.&rdquo; appears</td>
 </tr>
 <tr>
 <td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
-<td>Product block should be updated, new product is displayed</td>
+<td>Product block should be updated, the new product is displayed, and check that column  <em>Base</em> <em>price</em> <em>(Tax excl.)</em> is added with a correct value.</td>
+</tr>
+<tr>
+<td>Remove the product with the specific price</td>
+<td>Message &ldquo;The product was successfully removed.&ldquo;appears</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
+<td>Product block should be updated, only one product is displayed, and check that column  <em>Base</em> <em>price</em> <em>(Tax excl.)</em> is not displayed anymore.</td>
+</tr>
+<tr>
+<td>Add a product <em>with an ecotax</em> to the order &gt; Save</td>
+<td>Message &ldquo;The product was successfully added.&rdquo; appears</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
+<td>Product block should be updated, the new product is displayed, and check that ecotax is displayed with a correct value.</td>
+</tr>
+<tr>
+<td>Click on the dropdown button in the shipping address &gt; Click on &ldquo;Edit existing address&rdquo; and <br><br>Update required fields and save<br> # First name<br> # Last name<br> # Address<br> # Zip/postal code<br> # City</td>
+<td>The modal is closed, the order details page is displayed and the shipping address is updated</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
+<td>Shipping address block should be updated</td>
+</tr>
+<tr>
+<td>Click on the dropdown button in the Invoice address &amp; Click on &ldquo;Edit existing address&rdquo; and <br><br>Update required fields and save<br> # First name<br> # Last name<br> # Address<br> # Zip/postal code<br> # City</td>
+<td>The modal is closed, the order details page is displayed and the invoice address is updated</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
+<td>Invoice address block should be updated</td>
+</tr>
+<tr>
+<td>Click on the Document Tab, Click Add a note, set a note and save</td>
+<td>Message &ldquo;Successful update.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
+<td>The Note block is well added to the invoice</td>
+</tr>
+<tr>
+<td>Scroll down to Carrier &gt; Click on Carrier tab &gt; Click on Edit and Update the carrier</td>
+<td>Message &ldquo;Message Successful update&rdquo; displayed</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
+<td>The  Shipping Costs in the invoice is well updated</td>
+</tr>
+<tr>
+<td>Click Add new discount and <br><br>Set these fields:<br> # Name<br> # Value<br> # Type : Percent<br><br>and click on Save</td>
+<td>An alert &ldquo;Successful update.&rdquo; alert is displayed and<br><br>Discounts = Total products - Value<br><br>A new line is added</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
+<td>A new line for discount is well added in the invoice</td>
+</tr>
+<tr>
+<td>Click on Remove to delete the discount</td>
+<td>An alert &ldquo;Successful update.&rdquo; is displayed<br>The line discount is removed</td>
+</tr>
+<tr>
+<td>Click on View Invoice &gt; Save &gt; Check newly downloaded invoice</td>
+<td>The discount line is removed from the invoice</td>
+</tr>
+<tr>
+<td>In the payment tab, try to add a payment to the invoice</td>
+<td>new line added to the payment</td>
+</tr>
+<tr>
+<td>Download and view the new invoice</td>
+<td>Invoice =&gt; in the Payment Method, the new amount is well added</td>
 </tr>
 </tbody>
 </table>
@@ -47951,9 +48031,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 25, 2021
+  Last updated on November 27, 2021
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/136cbb3f54eb9b33f183315c84b52ccb030c6b1b">"[Update] JIRA XRay Tests" (136cbb3f54)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/e7bc2231d63655a290ff618691e3bae7ebf72fb6">"[Update] JIRA XRay Tests" (e7bc2231d6)</a>
   
 </div>
 
@@ -47974,17 +48054,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1637907513"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1637907513"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1637907513"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1637907513"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1637907513"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1637907513"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1637907513"></script>
-    <script src="../../../../../../../js/learn.js?1637907513"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1637907513"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1637993988"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1637993988"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1637993988"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1637993988"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1637993988"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1637993988"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1637993988"></script>
+    <script src="../../../../../../../js/learn.js?1637993988"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1637993988"></script>
     
-    <script src="../../../../../../../main.js?1637907513"></script>
+    <script src="../../../../../../../main.js?1637993988"></script>
     
     
 
