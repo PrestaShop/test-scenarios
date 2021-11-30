@@ -1138,7 +1138,7 @@
 	"title": "Slider",
 	"tags": [],
 	"description": "",
-	"content": "Slider "
+	"content": "Slider Steps    Step Description Expected result     Go to FO \u0026gt; On Homagepage see Slider \u0026gt; Click on Right arrow Slider should slide to the right   Click on the left arrow Slider should slide to the left   Click anywhere on the slider itself (except arrow column) The page should refreshed with the added link (https://www.prestashop.com/en?utm_source=back-office\u0026amp;utm_medium=v17_homeslider\u0026amp;utm_campaign=back-office-EN\u0026amp;utm_content=download)    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/smarty.html",
@@ -1376,7 +1376,7 @@
 	"title": "Add attachment",
 	"tags": [],
 	"description": "",
-	"content": "Add attachment "
+	"content": "Add attachment Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Click on Contact Us button on header \u0026gt; In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file \u0026gt; Click Open The file name is now displayed in the placeholder of Attachment   In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file \u0026gt; Click Cancel No file is chosen. The previously added file is deleted from form   Fill the form Form is displayed with your data   Add attachment \u0026gt; Click \u0026ldquo;Choose File\u0026rdquo; \u0026gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .csv \u0026gt; Click Send Message \u0026ldquo;Bad file extension\u0026rdquo; is displayed   Choose a file with extension .png .zip .pdf .jpg .jpeg .gif \u0026gt; Click Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/maintenance/add-maintenance-ip.html",
@@ -2524,7 +2524,7 @@
 	"title": "All products",
 	"tags": [],
 	"description": "",
-	"content": "All products "
+	"content": "All products Steps    Step Description Expected result     Go to FO \u0026gt; In Popular Products block \u0026gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check if subcategory blocks are displayed !https://forge.prestashop.com/plugins/servlet/raven/attachment/629/Screenshot+2021-11-29+at+15.36.57.png   Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Faceted search of right column should be displayed !https://forge.prestashop.com/plugins/servlet/raven/tempattachment/6799458067271360521/Screenshot%202021-11-29%20at%2015.44.22.png   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !Screenshot 2021-11-29 at 15.48.20.png    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-pagination.html",
@@ -3196,7 +3196,7 @@
 	"title": "Send message while logged in",
 	"tags": [],
 	"description": "",
-	"content": "Send message while logged in Steps    Step Description Expected result     Go to FO \u0026gt; Log into your customer account You are logged into your customer account   Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed    "
+	"content": "Send message while logged in Steps    Step Description Expected result     Go to FO \u0026gt; Log into your customer account You are logged into your customer account   Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;The message cannot be blank.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Place an order Order is placed   Click on \u0026ldquo;Contact us\u0026rdquo; in header \u0026gt; Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/settings.html",
@@ -3672,7 +3672,7 @@
 	"title": "Consult product quickview",
 	"tags": [],
 	"description": "",
-	"content": "Consult product quickview "
+	"content": "Consult product quickview Steps    Step Description Expected result     In FO \u0026gt; Product list \u0026gt; Click on Quick View button A modal is displayed with the product details\n!Screenshot 2021-11-29 at 16.32.42.png   Change combination of product See that the price will be updated accordingly   Change quantity of product and Click add to cart \u0026gt; Click Continue Shopping Modal \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; is displayed   Click Quick View on another product \u0026gt; Click on the cross x to close the modal The modal is closed   Click Quick View again \u0026gt; Click on any social sharing links A new page will open with the social media   Close the social media link \u0026gt; Close the modal by clocking outside of the modal Quick view modal is now closed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/contact-options.html",
@@ -4071,7 +4071,7 @@
 	"title": "Send message while logged out",
 	"tags": [],
 	"description": "",
-	"content": "Send message while logged out Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed    "
+	"content": "Send message while logged out Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;The message cannot be blank.\u0026rdquo; is displayed   Click on \u0026ldquo;Contact us\u0026rdquo; in header \u0026gt; Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/separator-of-attribute-anchor-on-the-product-links-todo.html",
