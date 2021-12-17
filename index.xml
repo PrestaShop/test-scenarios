@@ -1048,7 +1048,7 @@ all rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/filter-orders-table.html</guid>
-      <description>Filter orders table Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by ID Number of orders &amp;lt; Total of orders
+      <description>Filter orders table Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The orders number &amp;gt; 0   Filter orders by ID Number of orders &amp;lt; Total of orders
 The order id result is equal to the searched ID   Reset all filters Number of orders = Total of orders   Filter orders by Reference Number of orders &amp;lt; Total of orders</description>
     </item>
     
@@ -3046,7 +3046,7 @@ Your account page is displayed   Click on &amp;ldquo;Sign out&amp;rdquo; link on
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/sort-orders.html</guid>
-      <description>Sort orders Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Sort by ID DESC The Orders are sorted by ID DESC   Sort by Reference ASC The orders are sorted by Reference ASC   Sort by Reference DESC The orders are sorted by Reference DESC   Sort by Delivery (Country) ASC The orders are sorted by country ASC   Sort by Delivery (Country) DESC The orders are sorted by country DESC   Sort by Customer ASC The orders are sorted by customer ASC   Sort by Customer DESC The orders are sorted by customer DESC   Sort by Total paid ASC The orders are sorted by total ASC   Sort by Total paid DESC The orders are sorted by total DESC   Sort by Payment method ASC The orders are sorted by payment methods ASC   Sort by Payment method DESC The orders are sorted by payment methods DESC   Sort by Order status name ASC The orders are sorted by oreder status name ASC   Sort by Order status name DESC The orders are sorted by oreder status name DESC   Sort by Date ASC The Orders are sorted by date ASC   Sort by Date DESC The Orders are sorted by date DESC   Sort by ID ASC The orders are sorted by ID ASC    </description>
+      <description>Sort orders Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Sort by ID ASC The orders are sorted by ID ASC   Sort by ID DESC The Orders are sorted by ID DESC   Sort by Reference ASC The orders are sorted by Reference ASC   Sort by Reference DESC The orders are sorted by Reference DESC   Sort by Delivery (Country) ASC The orders are sorted by country ASC   Sort by Delivery (Country) DESC The orders are sorted by country DESC   Sort by Customer ASC The orders are sorted by customer ASC   Sort by Customer DESC The orders are sorted by customer DESC   Sort by Total paid ASC The orders are sorted by total ASC   Sort by Total paid DESC The orders are sorted by total DESC   Sort by Payment method ASC The orders are sorted by payment methods ASC   Sort by Payment method DESC The orders are sorted by payment methods DESC   Sort by Order Status name ASC The orders are sorted by status name ASC   Sort by Order Status name DESC The orders are sorted by status name DESC   Sort by Date ASC The Orders are sorted by date ASC   Sort by Date DESC The Orders are sorted by date DESC    </description>
     </item>
     
     <item>
@@ -4129,15 +4129,13 @@ The invoice is created successfully   Add a partial refund product the credit sl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/preview-order.html</guid>
-      <description>Preview order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page The Orders page is well displayed   Click on the icon to preview the last order created The row order-preview-content is displayed
+      <description>Preview order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page The Orders page is well displayed   Click on the icon loop to preview the last order created The row order-preview-content is displayed
 Check that data are ok:
-# Carrier
+# The Carrier informations
 # Tracking number = empty
-# Shipping details
-# Email
-# Invoice details
-# Number of products
-# Reference of each product</description>
+# Status of Order is correct
+# Product details
+# Invoice details</description>
     </item>
     
     <item>
@@ -5567,8 +5565,8 @@ ecoTax: &amp;lsquo;EU VAT For Virtual Products&amp;rsquo;, Update Successful</de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-edit-order.html</guid>
-      <description>View / Edit order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click View on existing order #5 Page will refresh with Order Details page   Add a product to the Order Message &amp;ldquo;The product was successfully added.&amp;rdquo; appears   Add a Discount to the Order Message &amp;ldquo;Successful update.&amp;rdquo; appears
-New line appear in discount table with discount amount   Update status of Order to &amp;ldquo;Payment accepted&amp;rdquo; Message &amp;ldquo;Successful update.</description>
+      <description>View / Edit order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders The Orders page is well displayed   Click on the icon loop to preview an order created The row order-preview-content is displayed   Add a product to the Order Message &amp;ldquo;The product was successfully added.&amp;rdquo; appears
+The new product is added in the list of Products   Add a Discount to the Order Message &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -6252,7 +6250,7 @@ Message &amp;ldquo;The status has been successfully updated.&amp;rdquo;   Search
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html</guid>
       <description>View customer Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Customer Number of orders &amp;lt; Total of orders
-All orders customer contains the searched customer   Click on the Customer Link Redirection to the customer details page in a new Tab    </description>
+All orders customer contains the searched customer   Click on the Customer Link Redirection to the customer details page in a new Tab   In The Order page &amp;gt; Click to view an Order The Order listing is well displayed   In the Customer Block &amp;gt; Click on &amp;ldquo;View full details&amp;rdquo; The page is refreshed with the customer details page    </description>
     </item>
     
     <item>
@@ -6798,7 +6796,7 @@ Currency is edited. Currency name is updated with mention &amp;ldquo;(Edited)&am
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html</guid>
-      <description>View Guest Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Guest Number of orders &amp;lt; Total of orders
+      <description>View Guest Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Guest name Number of orders &amp;lt; Total of orders
 An order guest contains the searched guest   Click on the guest Link Redirection to the customer details page in a new Tab   Delete the created Guest The guest is well deleted    </description>
     </item>
     

@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1639635581" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1639635581" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1639635581" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1639635581" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1639635581" rel="stylesheet">
-    <link href="../../../../../../style.css?1639635581" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1639721988" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1639721988" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1639721988" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1639721988" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1639721988" rel="stylesheet">
+    <link href="../../../../../../style.css?1639721988" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1639635581"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1639721988"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -47959,32 +47959,36 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; Orders &gt; Orders &gt; Click View on existing order #5</td>
-<td>Page will refresh with Order Details page</td>
+<td>Go to BO &gt; Orders &gt; Orders</td>
+<td>The Orders page is well displayed</td>
+</tr>
+<tr>
+<td>Click on the icon loop to preview an order created</td>
+<td>The row order-preview-content is displayed</td>
 </tr>
 <tr>
 <td>Add a product to the Order</td>
-<td>Message &ldquo;The product was successfully added.&rdquo; appears</td>
+<td>Message &ldquo;The product was successfully added.&rdquo; appears<br><br>The new product is added in the list of Products</td>
 </tr>
 <tr>
 <td>Add a Discount to the Order</td>
 <td>Message &ldquo;Successful update.&rdquo; appears<br><br>New line appear in discount table with discount amount</td>
 </tr>
 <tr>
-<td>Update status of Order to &ldquo;Payment accepted&rdquo;</td>
-<td>Message &ldquo;Successful update.&rdquo; appears<br><br>In Status block, new status is displayed<br><br>New button &ldquo;View Invoice&rdquo; is displayed next to Status dropdown</td>
+<td>Update the Order status to &ldquo;Payment accepted&rdquo;<br>Click on &ldquo;Update status&rdquo; button which is enbaled</td>
+<td>Message &ldquo;Successful update.&rdquo; appears<br><br>In Status block, the new status is displayed<br>The &ldquo;Update status&rdquo; button become disabled<br><br>A new buttons are displayed : &ldquo;View Invoice&rdquo; is displayed next to Status dropdown AND &ldquo;Partial refund&rdquo; is displayed after &ldquo;Print Order&rdquo;</td>
 </tr>
 <tr>
 <td>Click &ldquo;View Invoice&rdquo;</td>
-<td>Invoice is downloaded</td>
+<td>The Invoice is downloaded</td>
 </tr>
 <tr>
 <td>Update Status to &ldquo;Shipped&rdquo;</td>
-<td>Message &ldquo;Successful update.&rdquo; appears<br><br>Status block id updated<br><br>New button &ldquo;View delivery slip&rdquo; is displayed in top banner</td>
+<td>Message &ldquo;Successful update.&rdquo; appears<br><br>Status block is updated with all history of status from recent to old one<br><br>New button &ldquo;View delivery slip&rdquo; is displayed between &ldquo;Print Order&rdquo; and &ldquo;Partial refund&rdquo;</td>
 </tr>
 <tr>
 <td>Click &ldquo;View delivery slip&rdquo;</td>
-<td>Delivery slip is downloaded</td>
+<td>The Delivery slip is downloaded</td>
 </tr>
 <tr>
 <td>Add an Order note to the order</td>
@@ -47992,23 +47996,31 @@
 </tr>
 <tr>
 <td>Go to Documents Tab &gt; Add a note to the Invoice &gt; Save &gt; Download Invoice</td>
-<td>Message &ldquo;Successful update.&rdquo; appears<br><br>Note is displayed<br><br>In Invoice, see new note id displayed</td>
+<td>Message &ldquo;Successful update.&rdquo; appears<br><br>&ldquo;Edit note&rdquo; button is displayed<br>The note is well displayed in the downloaded Invoice</td>
 </tr>
 <tr>
-<td>In Carrier Tab &gt; Edit Carrier &gt; Add a tracking number &gt; Save</td>
+<td>In Carriers Tab &gt; Edit Carrier &gt; Add a tracking number &gt; Update</td>
 <td>Message &ldquo;Successful Update&rdquo; appears<br><br>Tracking number in Carrier tab is updated</td>
 </tr>
 <tr>
-<td>Click button &ldquo;Partial Refund&rdquo; to refund a product &gt;</td>
-<td>Message &ldquo;A partial refund was successfully created.&rdquo; appears<br><br>In Documents Tab, see new document has been created : Credit Slip</td>
+<td>Click button &ldquo;Partial Refund&rdquo; to refund a product</td>
+<td>Message &ldquo;A partial refund was successfully created.&rdquo; appears<br><br>In Documents Tab, the &ldquo;Credit Slip&rdquo; is added</td>
 </tr>
 <tr>
 <td>Add a Payment &gt; Fill all fields &gt; Click Add</td>
-<td>Message &ldquo;Successful Update&rdquo; appears<br><br>In Payment, see a warning : &ldquo;Warning <em>€XX.XX</em> paid instead of <em>€XX.XX&rdquo;</em></td>
+<td>Message &ldquo;Successful Update&rdquo; appears<br><br>In Payment, see a warning : &ldquo;Warning <em>€SUM Of amount in Paymet block</em> paid instead of <em>€Total amount&rdquo;</em></td>
 </tr>
 <tr>
 <td>In Message Block &gt; Add a new message &gt; Click Send message</td>
 <td>Message &ldquo;Comment successfully added.&rdquo; is displayed<br><br>Message is displayed in Messages block</td>
+</tr>
+<tr>
+<td>In Messages Block &gt; Choose your order message &gt; Delay</td>
+<td>An automatic message is added in the Message base</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Send message&rdquo;</td>
+<td>The message is well displayed</td>
 </tr>
 </tbody>
 </table>
@@ -48017,9 +48029,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on October 14, 2021
+  Last updated on December 17, 2021
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/567df02124d775250dae0a0821ebf429abf43825">"[Update] JIRA XRay Tests" (567df02124)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/5c9370f55427f20b64a01997b05af2009ae6db83">"[Update] JIRA XRay Tests" (5c9370f554)</a>
   
 </div>
 
@@ -48040,17 +48052,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1639635581"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1639635581"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1639635581"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1639635581"></script>
-    <script src="../../../../../../js/featherlight.min.js?1639635581"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1639635581"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1639635581"></script>
-    <script src="../../../../../../js/learn.js?1639635581"></script>
-    <script src="../../../../../../js/hugo-learn.js?1639635581"></script>
+    <script src="../../../../../../js/clipboard.min.js?1639721988"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1639721988"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1639721988"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1639721988"></script>
+    <script src="../../../../../../js/featherlight.min.js?1639721988"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1639721988"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1639721988"></script>
+    <script src="../../../../../../js/learn.js?1639721988"></script>
+    <script src="../../../../../../js/hugo-learn.js?1639721988"></script>
     
-    <script src="../../../../../../main.js?1639635581"></script>
+    <script src="../../../../../../main.js?1639721988"></script>
     
     
 
