@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1640240478" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1640240478" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1640240478" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1640240478" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1640240478" rel="stylesheet">
-    <link href="../../../../../../../style.css?1640240478" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1640326997" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1640326997" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1640326997" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1640326997" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1640326997" rel="stylesheet">
+    <link href="../../../../../../../style.css?1640326997" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1640240478"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1640326997"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -47973,12 +47973,68 @@
 <td>Status is updated<br><br>An invoice is available</td>
 </tr>
 <tr>
-<td>On the latest Order created &gt; Click Add a product &gt; Choose product to add to the order &gt; Choose &ldquo;Create a new Invoice&rdquo;</td>
-<td>Messages &ldquo;Successful update.&rdquo; and &ldquo;The product was successfully added.&rdquo; appear<br><br>Product is added to the order<br><br>This order has now multi invoice</td>
+<td>Click on Add a product</td>
+<td>The addProductTableRow is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Add product&rdquo;, search the same product and click on &ldquo;Add&rdquo;</td>
+<td>A red alert &ldquo;This product is already in the invoice #INxxxx, please edit the quantity instead.&rdquo; is displayed and the product cannot be added again</td>
+</tr>
+<tr>
+<td>In the invoice column, select &ldquo;Create a new invoice&rdquo;</td>
+<td>A block &ldquo;addProductNewInvoiceInfo&rdquo; is well displayed<br><br>Check that the carrier name is well displayed &amp; Free shipping option is not selected</td>
+</tr>
+<tr>
+<td>Edit the price of the product and click on Add</td>
+<td>A modal is opened <br>h4. &ldquo;Create a new invoice<br>Are you sure you want to create a new invoice?&rdquo;</td>
+</tr>
+<tr>
+<td>Click on Create</td>
+<td>An alert &ldquo;The product was successfully added.&quot;<br><br>Check that the price of two products is updated<br><br>Check that the new invoice is well added</td>
+</tr>
+<tr>
+<td>In the Documents tab, download the invoice</td>
+<td>check that:<br><br>The product name is correct<br><br>Product reference is ok<br><br>The total is ok</td>
+</tr>
+<tr>
+<td>Edit the price, click on &ldquo;Save&rdquo; and confirm the modification</td>
+<td>A modal is displayed<br>h4. &ldquo;Edit the price<br>×<br>Are you sure you want to edit this product price? It will be applied to all invoices of this order.&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Edit&rdquo;</td>
+<td>Check that the price is updated is the two products</td>
 </tr>
 <tr>
 <td>Click &ldquo;View invoice&rdquo; to download all invoices</td>
-<td>The list of invoices is dowloaded</td>
+<td>The list of invoices is dowloaded<br><br>check that the price of each product is OK and total is ok</td>
+</tr>
+<tr>
+<td>Scroll down to Carrier &gt; Click on Carrier tab &gt; Click on Edit and select a carrier not free</td>
+<td>A green alert &ldquo;Successful update.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on Add a product</td>
+<td>The addProductTableRow is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Add product&rdquo;, search another product</td>
+<td>In the Invoice column, check there are two existing invoices</td>
+</tr>
+<tr>
+<td>In the invoice column, select &ldquo;Create a new invoice&rdquo;</td>
+<td>A block &ldquo;addProductNewInvoiceInfo&rdquo; is well displayed<br><br>Check that the carrier name is well displayed &amp; Free shipping option is not selected</td>
+</tr>
+<tr>
+<td>Select Free shipping and click on Add</td>
+<td>A modal is opened <br>h4. &ldquo;Create a new invoice<br><br>Are you sure you want to create a new invoice?&rdquo;</td>
+</tr>
+<tr>
+<td>Click on Create</td>
+<td>An alert &ldquo;The product was successfully added.&quot;<br><br>- Check that the new invoice is well added<br><br>- Check that a new column is added in the discount block with this name &ldquo;[Generated] CartRule for Free Shipping&rdquo;</td>
+</tr>
+<tr>
+<td>Download the third invoice</td>
+<td>check that:<br><br>The product name is correct<br><br>Product reference is ok<br><br>The shipping cost is free<br><br>The total is ok</td>
 </tr>
 </tbody>
 </table>
@@ -47987,9 +48043,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 25, 2021
+  Last updated on December 24, 2021
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/136cbb3f54eb9b33f183315c84b52ccb030c6b1b">"[Update] JIRA XRay Tests" (136cbb3f54)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/d16a0470ef5016c3ac5bcd7fd27c651cdf3aca16">"[Update] JIRA XRay Tests" (d16a0470ef)</a>
   
 </div>
 
@@ -48010,17 +48066,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1640240479"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1640240479"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1640240479"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1640240479"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1640240479"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1640240479"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1640240479"></script>
-    <script src="../../../../../../../js/learn.js?1640240479"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1640240479"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1640326997"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1640326997"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1640326997"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1640326997"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1640326997"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1640326997"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1640326997"></script>
+    <script src="../../../../../../../js/learn.js?1640326997"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1640326997"></script>
     
-    <script src="../../../../../../../main.js?1640240479"></script>
+    <script src="../../../../../../../main.js?1640326997"></script>
     
     
 

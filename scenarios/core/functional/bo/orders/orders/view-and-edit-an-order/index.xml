@@ -130,7 +130,7 @@ Invoice fields should match with info in Order details page</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-multi-invoice-behaviour.html</guid>
       <description>Check multi invoice behaviour Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Add new order A new order should be created   Click on latest Order created &amp;gt; Update status to &amp;ldquo;Payment accepted&amp;rdquo; to generate an Invoice Status is updated
-An invoice is available   On the latest Order created &amp;gt; Click Add a product &amp;gt; Choose product to add to the order &amp;gt; Choose &amp;ldquo;Create a new Invoice&amp;rdquo; Messages &amp;ldquo;Successful update.</description>
+An invoice is available   Click on Add a product The addProductTableRow is displayed   Click on &amp;ldquo;Add product&amp;rdquo;, search the same product and click on &amp;ldquo;Add&amp;rdquo; A red alert &amp;ldquo;This product is already in the invoice #INxxxx, please edit the quantity instead.</description>
     </item>
     
   </channel>
