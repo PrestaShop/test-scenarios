@@ -19,7 +19,7 @@ weight: 1
 | Reset all filters | Number of orders = Total of orders |
 | Filter orders by Customer | Number of orders < Total of orders<br>All orders customer contains the searched customer |
 | Reset all filters | Number of orders = Total of orders |
-| Filter orders by Total paid | Number of orders < Total of orders<br>All orders total paid contains the searched total paid |
+| Filter orders by Total | Number of orders < Total of orders<br>All orders total contains the searched total |
 | Reset all filters | Number of orders = Total of orders |
 | Filter orders by Payment method | Number of orders < Total of orders<br>All orders payment method contains the searched payment method |
 | Reset all filters | Number of orders = Total of orders |
