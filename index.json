@@ -6139,6 +6139,13 @@
 	"content": "Check the ID in the tab configuration if the email address is linked to a customer Steps    Step Description Expected result          "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/clone-preview-order.html",
+	"title": "CLONE - Preview order",
+	"tags": [],
+	"description": "",
+	"content": "CLONE - Preview order Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders page The Orders page is well displayed   Click on the icon loop to preview the last order created The order preview page is displayed   Check that data are ok:\n# The Carrier informations\n# Tracking number = empty\n# Status of Order is correct\n# Product details\n# Customer details\n# Messages block is well displayed\n# Payment block is well displayed The data are correctly displayed and consistent   Edit the Order:\n# Edit Shipping address\n# Edit Invoice address\n# Edit the quantity of the first product\n# Edit the price of the second product\n# Remove the third product\n# Add another product\n# Change carrier\n# Add a tracking number Successful update.   Go back to the BO \u0026gt; Order \u0026gt; Order list page and click on the icon to preview the last order created again The order preview page is displayed   Check that data are well updated:\n# Carrier\n# Tracking number = not empty\n# Shipping details\n# Email\n# Invoice details\n# Number of products\n# Reference of each product\n# quantity of each product\n# Total Data are correctly displayed and updated    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/display-specific-delivery-time.html",
 	"title": "Display Specific delivery time",
 	"tags": [],
@@ -7669,7 +7676,7 @@
 	"title": "Orders",
 	"tags": [],
 	"description": "",
-	"content": "Orders Categories  Create an order   View and edit an order   Tests  Filter orders table   Sort orders   Preview order   View / Edit order   View customer   View Guest   Bulk actions status   Bulk actions - Open in new tabs   Edit status in order page   Statistics of the page   Pagination   Change order with dropdown - Awaiting for payment to Payment Accepted   Change order with dropdown - default status to Shipped   Export Orders   Help Button    "
+	"content": "Orders Categories  Create an order   View and edit an order   Tests  Filter orders table   Sort orders   Preview order   View / Edit order   View customer   View Guest   Bulk actions status   Bulk actions - Open in new tabs   Edit status in order page   Statistics of the page   Pagination   Change order with dropdown - Awaiting for payment to Payment Accepted   Change order with dropdown - default status to Shipped   Export Orders   Help Button    CLONE - Preview order   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign.html",
