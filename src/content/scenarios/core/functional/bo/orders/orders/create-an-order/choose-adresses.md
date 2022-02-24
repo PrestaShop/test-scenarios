@@ -7,7 +7,7 @@ weight: 7
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Orders > Orders > Click Add new order > Choose a customer > Choose a product > Scroll down to block Addresses > Click Add a new Address | Popup displays |
+| Go to BO > Orders > Orders > Click Add new order > Choose a customer > Choose a product > Scroll down to block Addresses > Click Add a new Address | A Popup of Addresses displays |
 | Fill the fields with dummy info > Add a wrong format Zip Code > Save | A warning should be displayed with a message : <br>Your Zip/Postal code is incorrect. It must be entered as follows: 0000 |
 | Correct the Zip code to match with format > Save | New Address is saved |
 | Go to Customers > Addresses | See that new address has been saved |
