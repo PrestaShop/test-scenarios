@@ -13,3 +13,4 @@ weight: 8
 | Click on the drop-down toggle and click on Duplicate | An alert "Product successfully duplicated." is displayed and the product Name contains "copy of searched Name" |
 | Go to Products list page and delete the duplicated product | The product is weel removed |
 | Reset all filters | Number of products = Total of products |
+| Do the same with bulk action Duplicate (selecting several products) | Duplicate is OK, and duplicate progress bar is OK |
