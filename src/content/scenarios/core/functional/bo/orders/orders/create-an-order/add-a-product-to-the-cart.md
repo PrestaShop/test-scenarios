@@ -1,6 +1,6 @@
 ---
 title: "Add a product to the cart"
-weight: 5
+weight: 6
 ---
 
 # Add a product to the cart
@@ -23,7 +23,7 @@ weight: 5
 | Search for a product with a specific price and click on Add a product | The product is well added to the cart, check that<br> # Image => ok<br> # Reference => ok<br> # Base price => ok<br> # Quantity => ok<br> # Price => ok |
 | Increase the quantity | # The quantity is ok<br> # The base price => ok<br> # The price => ok |
 | Search for a product with ecotax and click on Add a product | The product is well added to the cart, check that<br> # Image => ok<br> # Reference => ok<br> # Base price => ok<br> # Quantity => ok<br> # Price => ok (PS: we have this issue: [https://github.com/PrestaShop/PrestaShop/issues/9855]) |
-| Search a product with a cart rule and add it to the cart | The product and the gift product  are well added to the cart, check that<br> # Image => ok<br> # Reference => ok<br> # Base price => ok<br> # Quantity => ok<br> # Price => ok |
+| Search a product with a cart rule and add it to the cart ( related to pre-condition https://forge.prestashop.com/browse/TEST-2389) | In the Product block check that:<br><br>Two products are well added<br><br>About the gift product, check:<br> # A product is well added<br> # Base price === Gift<br> # Price === Gift<br><br>In the Vouchers block, check that a cart rule line is well displayed and check that<br> # Name => ok<br> # Description => ok<br> # Value === price of the product tax excluded + amount tax excluded<br><br>In the Summary Block, check that:<br><br>Total vouchers (Tax excl.) === 0<br>Total (Tax excl.) === Total Products tax excluded |
 | Change quantity of product | Price should evolve according to quantity of product |
 | Click on Remove | Product should be deleted |
 | Select another currency | The currency is changed<br><br>The price of all products are updated |

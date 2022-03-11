@@ -1,6 +1,6 @@
 ---
 title: "Choose Shipping"
-weight: 8
+weight: 9
 ---
 
 # Choose Shipping

@@ -1,6 +1,6 @@
 ---
 title: "[BO-Add new order] Search - Add - Remove a voucher"
-weight: 6
+weight: 7
 ---
 
 # [BO-Add new order] Search - Add - Remove a voucher

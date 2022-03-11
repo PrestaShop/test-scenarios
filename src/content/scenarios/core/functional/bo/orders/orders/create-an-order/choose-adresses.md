@@ -1,6 +1,6 @@
 ---
 title: "Choose adresses"
-weight: 7
+weight: 8
 ---
 
 # Choose adresses
