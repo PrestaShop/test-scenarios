@@ -291,7 +291,7 @@
 	"title": "Configure ( set Google Analytics Tracking ID)",
 	"tags": [],
 	"description": "",
-	"content": "Configure ( set Google Analytics Tracking ID) "
+	"content": "Configure ( set Google Analytics Tracking ID) Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager page \u0026amp; search the module ps_googleanalytics The module manager is well displayed and the module is displayed as a result   Click on Configure The configuration page is well displayed   Without setting the Google Analytics save A red alert is displayed\nblocked by this issue https://github.com/PrestaShop/PrestaShop/issues/28005   Set an invalid Google Analytics Tracking ID and save A green alert \u0026ldquo;Account ID updated successfully\u0026rdquo; is displayed   Go to FO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page A red message is displayed \u0026ldquo;Invalid or missing web property ID\u0026rdquo; !image-2022-03-22-18-09-18-657.png!   Go back to the module configuration page \u0026amp; set a valid Google Analytics Tracking ID and save A green alert \u0026ldquo;Account ID updated successfully\u0026rdquo; is displayed   Go to FO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page The red message is not displayed\n!image-2022-03-22-18-11-49-877.png!    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-checkpayment/configuration/configure-basic-informations.html",
@@ -1925,6 +1925,13 @@
 	"content": "Enable / disable twitter sharing Steps    Step Description Expected result     Disable Twitter Sharing An automatic registration is made On FO, on a product, the Twitter logo is absent   Enable Twitter sharing An automatic registration is made On FO, on a product, Twitter logo appear\nClick on it, a new page for Twitter site is open    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/enable-back-office-tracking.html",
+	"title": "Enable Back Office Tracking",
+	"tags": [],
+	"description": "",
+	"content": "Enable Back Office Tracking Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager page \u0026amp; search the module ps_googleanalytics The module manager is well displayed and the module is displayed as a result   Click on Configure The configuration page is well displayed   Set a valid Google Analytics Tracking ID and save A green alert \u0026ldquo;Account ID updated successfully\u0026rdquo; \u0026amp; \u0026ldquo;Settings for Enable Back Office tracking updated successfully\u0026rdquo; are displayed   Go to BO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page A red message is displayed\n!image-2022-03-22-18-22-04-703.png!   Go to the module manager page and enable the Enable Back Office tracking A green alert \u0026ldquo;Settings for Enable Back Office tracking updated successfully\u0026rdquo; is displayed   Go to BO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page The red message is not displayed anymore    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/invoice-options/enable-disable-tax-breakdown.html",
 	"title": "Enable Disable Tax Breakdown",
 	"tags": [],
@@ -2063,6 +2070,13 @@
 	"tags": [],
 	"description": "",
 	"content": "FO - Check that all social pictogram is display properly Steps    Step Description Expected result          "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-with-a-guest-account.html",
+	"title": "FO - Create an order with a guest account ",
+	"tags": [],
+	"description": "",
+	"content": "FO - Create an order with a guest account Steps    Step Description Expected result     Open the FO and add the first product to the cart Home page is displayed and the product is added to the cart   Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The shopping cart is displayed and the first product is added to the cart   Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The checkout page is displayed   In the Personal information step, set these fields: # Social title # First name\n# Last name\n# and Email.\n# Select those checkboxes: Customer data privacy and I agree to the terms and conditions and the privacy policy. Click on Continue A guest is well created, the Addresses Step is displayed and The \u0026ldquo;First name\u0026rdquo; \u0026amp; \u0026ldquo;Last name\u0026rdquo; \u0026amp; \u0026ldquo;Country\u0026rdquo; are not empty   In the Addresses Step, set these fields:\n# Address\n# Zip/Postal Code\n# City and click on continue The address is well created and the Shipping step is displayed   Select a carrier and click on \u0026ldquo;Continue\u0026rdquo; The payment step is displayed   Select a payment method, select on \u0026ldquo;I agree to the terms of service and will adhere to them unconditionally.\u0026rdquo; and click on \u0026ldquo;Place Order\u0026rdquo; The order confirmation is displayed   Check the database \u0026amp; the table Prefix_ganalytics A new line is added for the new order    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/newsletter/fo-subscribe-to-newsletter.html",
@@ -2398,7 +2412,7 @@
 	"title": "Uninstall/Install",
 	"tags": [],
 	"description": "",
-	"content": "Uninstall/Install "
+	"content": "Uninstall/Install Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager The Module Manager is well displayed   Click on Upload a module and drop the zip The alert \u0026ldquo;Module installed!\u0026rdquo; is well displayed and the \u0026ldquo;Configure\u0026rdquo; button is well displayed   Refresh the page and search the exact module ps_googleanalytics The module is well displayed   Click on uninstall and confirm the uninstall action without selecting this {color:#172b4d}Option: delete module folder after uninstall.{color} The alert \u0026ldquo;Uninstall action on module ps_googleanalytics succeeded.\u0026rdquo; is displayed   Go to BO \u0026gt; Modules \u0026gt; Module Manager page and search the module ps_googleanalytic # If PS_version = 1.7.8 or previous =\u0026gt; the module is not displayed\n# If the PS_version = 8.x.x =\u0026gt; the module is displayed with Install button   If PS_version = 1.7.8 or previous =\u0026gt; the module is not displayed, Go to BO \u0026gt; Modules \u0026gt; Module Catalog page and search the ps_googlaanalytic module The module is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/installation/uninstall-install.html",
@@ -2982,6 +2996,13 @@
 	"content": "FO - Check that all links are redirecting to the right URL Steps    Step Description Expected result          "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html",
+	"title": "FO - Create an Order by existing customer",
+	"tags": [],
+	"description": "",
+	"content": "FO - Create an Order by existing customer Steps    Step Description Expected result     Go to FO \u0026gt; Add product to the cart \u0026amp; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The \u0026ldquo;Shopping cart\u0026rdquo; page is displayed\u0026quot;   Click on \u0026ldquo;Proceed to checkout The checkout page is displayed   In the Personal information step, click on \u0026ldquo;Sign in\u0026rdquo; The Email \u0026amp; password fields are displayed   Set Email \u0026amp; Password and click on Continue The Address step is displayed   Click on the \u0026ldquo;Continue\u0026rdquo; button The \u0026ldquo;Shipping\u0026rdquo; step is displayed   Click on the \u0026ldquo;Continue\u0026rdquo; button The \u0026ldquo;Payment methods\u0026rdquo; step is displayed   Select a payment method, click on \u0026ldquo;I agree to the terms of service and will adhere to them unconditionally.\u0026rdquo; then click on \u0026ldquo;Place Order\u0026rdquo; The Order confirmation page is displayed   Check the database \u0026amp; the table Prefix_ganalytics A new line is added for the new order    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/credit-slips/generate-credit-slips-by-date.html",
 	"title": "Generate Credit Slips By Date",
 	"tags": [],
@@ -3385,7 +3406,7 @@
 	"title": "Uninstall and delete",
 	"tags": [],
 	"description": "",
-	"content": "Uninstall and delete "
+	"content": "Uninstall and delete Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager The Module Manager is well displayed   Search the exact module ps_googleanalytics The module is well displayed   Click on uninstall and confirm the uninstall action with selecting this Option: delete module folder after uninstall. An alert \u0026ldquo;Uninstall action on module ps_googleanalytics succeeded.\u0026rdquo; is displayed   Refresh the page and search the exact module ps_googleanalytics No result displayed   Check the path +{color:#172b4d}PrestaShop/modules/{color}+ The folder ps_googleanalytic doesn\u0026rsquo;t exist    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/installation/uninstall-and-delete.html",
@@ -6486,7 +6507,7 @@
 	"title": "Configuration",
 	"tags": [],
 	"description": "",
-	"content": "Configuration Categories  BO   FO   Tests  Configure ( set Google Analytics Tracking ID)   "
+	"content": "Configuration Categories  BO   FO   Tests  Configure ( set Google Analytics Tracking ID)   Enable Back Office Tracking   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration.html",
@@ -6990,7 +7011,7 @@
 	"title": "FO",
 	"tags": [],
 	"description": "",
-	"content": "FO Tests  FO - Create an order from the FO    "
+	"content": "FO Tests  FO - Create an order from the FO    FO - Create an order with a guest account    FO - Create an Order by existing customer   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-searchbar/fo.html",

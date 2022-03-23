@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../css/font-awesome.min.css?1647930011" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1647930011" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1647930011" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1647930011" rel="stylesheet">
-    <link href="../../../../css/auto-complete.css?1647930011" rel="stylesheet">
-    <link href="../../../../style.css?1647930011" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1648016062" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1648016062" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1648016062" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1648016062" rel="stylesheet">
+    <link href="../../../../css/auto-complete.css?1648016062" rel="stylesheet">
+    <link href="../../../../style.css?1648016062" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1647930011"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1648016062"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28147,6 +28147,27 @@
  
   
     
+      <li data-nav-id="/scenarios/modules/ps-googleanalytics/configuration/enable-back-office-tracking.html" title="Enable Back Office Tracking" class="dd-item ">
+        <a href="../../../../scenarios/modules/ps-googleanalytics/configuration/enable-back-office-tracking.html">
+        Enable Back Office Tracking
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
     
     <li data-nav-id="/scenarios/modules/ps-googleanalytics/configuration/bo.html" title="BO" class="dd-item
         
@@ -28250,6 +28271,48 @@
       <li data-nav-id="/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-from-the-fo.html" title="FO - Create an order from the FO " class="dd-item ">
         <a href="../../../../scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-from-the-fo.html">
         FO - Create an order from the FO 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-with-a-guest-account.html" title="FO - Create an order with a guest account " class="dd-item ">
+        <a href="../../../../scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-with-a-guest-account.html">
+        FO - Create an order with a guest account 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html" title="FO - Create an Order by existing customer" class="dd-item ">
+        <a href="../../../../scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html">
+        FO - Create an Order by existing customer
         
         </a>
     </li>
@@ -32435,7 +32498,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#configure--set-google-analytics-tracking-id">Configure ( set Google Analytics Tracking ID)</a></li>
+    <li><a href="#configure--set-google-analytics-tracking-id">Configure ( set Google Analytics Tracking ID)</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -48708,6 +48775,21 @@
       
 
       
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
         
     
     
@@ -48719,10 +48801,37 @@
       
       
 
+      
+    
+  
       
     
   
+      
+        
+    
+    
       
+        
+      
+      
+      
+      
+      
+
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
     
   
       
@@ -48737,6 +48846,9 @@
       
       
 
+      
+    
+  
       
         
     
@@ -50698,7 +50810,7 @@
 
   
   
-  <a class="nav nav-next" href="../../../../scenarios/modules/ps-googleanalytics/configuration/bo.html" title="BO" style="margin-right: 0px;">
+  <a class="nav nav-next" href="../../../../scenarios/modules/ps-googleanalytics/configuration/enable-back-office-tracking.html" title="Enable Back Office Tracking" style="margin-right: 0px;">
     <i class="fa fa-chevron-right"></i>
     Next article
   </a>
@@ -50721,14 +50833,53 @@
 
 
 <h1 id="configure--set-google-analytics-tracking-id">Configure ( set Google Analytics Tracking ID)</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Modules &gt; Module Manager page &amp; search the module ps_googleanalytics</td>
+<td>The module manager is well displayed and the module is displayed as a result</td>
+</tr>
+<tr>
+<td>Click on Configure</td>
+<td>The configuration page is well displayed</td>
+</tr>
+<tr>
+<td>Without setting the Google Analytics save</td>
+<td>A red alert is displayed<br><br>blocked by this issue https://github.com/PrestaShop/PrestaShop/issues/28005</td>
+</tr>
+<tr>
+<td>Set an invalid Google Analytics Tracking ID and save</td>
+<td>A green alert &ldquo;Account ID updated successfully&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to FO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page</td>
+<td>A red message is displayed  &ldquo;Invalid or missing web property ID&rdquo;  !image-2022-03-22-18-09-18-657.png!</td>
+</tr>
+<tr>
+<td>Go back to the module configuration page &amp; set a valid Google Analytics Tracking ID and save</td>
+<td>A green alert &ldquo;Account ID updated successfully&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to FO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page</td>
+<td>The red message is not displayed<br><br>!image-2022-03-22-18-11-49-877.png!</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on March 11, 2022
+  Last updated on March 23, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/5e2ca8c511237d8f855574527d36dce1d63db85d">"[Update] JIRA XRay Tests" (5e2ca8c511)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/12d2eebf92ff5120faca88e9ab84996789ccb7c3">"[Update] JIRA XRay Tests" (12d2eebf92)</a>
   
 </div>
 
@@ -50749,17 +50900,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1647930011"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1647930011"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1647930011"></script>
-    <script src="../../../../js/jquery.sticky.js?1647930011"></script>
-    <script src="../../../../js/featherlight.min.js?1647930011"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1647930011"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1647930011"></script>
-    <script src="../../../../js/learn.js?1647930011"></script>
-    <script src="../../../../js/hugo-learn.js?1647930011"></script>
+    <script src="../../../../js/clipboard.min.js?1648016062"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1648016062"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1648016062"></script>
+    <script src="../../../../js/jquery.sticky.js?1648016062"></script>
+    <script src="../../../../js/featherlight.min.js?1648016062"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1648016062"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1648016062"></script>
+    <script src="../../../../js/learn.js?1648016062"></script>
+    <script src="../../../../js/hugo-learn.js?1648016062"></script>
     
-    <script src="../../../../main.js?1647930011"></script>
+    <script src="../../../../main.js?1648016062"></script>
     
     
 

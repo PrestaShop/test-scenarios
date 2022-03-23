@@ -405,7 +405,7 @@ Button &amp;ldquo;Sign In&amp;rdquo; is now 2 buttons : &amp;ldquo;Sign Out&amp;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/configure-set-google-analytics-tracking-id.html</guid>
-      <description>Configure ( set Google Analytics Tracking ID) </description>
+      <description>Configure ( set Google Analytics Tracking ID) Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager page &amp;amp; search the module ps_googleanalytics The module manager is well displayed and the module is displayed as a result   Click on Configure The configuration page is well displayed   Without setting the Google Analytics save A red alert is displayed</description>
     </item>
     
     <item>
@@ -2595,6 +2595,15 @@ Click on it, a new page for Twitter site is open    </description>
     </item>
     
     <item>
+      <title>Enable Back Office Tracking</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/enable-back-office-tracking.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/enable-back-office-tracking.html</guid>
+      <description>Enable Back Office Tracking Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager page &amp;amp; search the module ps_googleanalytics The module manager is well displayed and the module is displayed as a result   Click on Configure The configuration page is well displayed   Set a valid Google Analytics Tracking ID and save A green alert &amp;ldquo;Account ID updated successfully&amp;rdquo; &amp;amp; &amp;ldquo;Settings for Enable Back Office tracking updated successfully&amp;rdquo; are displayed   Go to BO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page A red message is displayed</description>
+    </item>
+    
+    <item>
       <title>Enable Disable Tax Breakdown</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/invoice-options/enable-disable-tax-breakdown.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2774,6 +2783,15 @@ number of order messages = Total of orders messages + 1   Go to create new order
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/configuration/fo-check-that-all-social-pictogram-is-display-properly.html</guid>
       <description>FO - Check that all social pictogram is display properly Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>FO - Create an order with a guest account </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-with-a-guest-account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-with-a-guest-account.html</guid>
+      <description>FO - Create an order with a guest account Steps    Step Description Expected result     Open the FO and add the first product to the cart Home page is displayed and the product is added to the cart   Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The shopping cart is displayed and the first product is added to the cart   Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The checkout page is displayed   In the Personal information step, set these fields: # Social title # First name</description>
     </item>
     
     <item>
@@ -3209,7 +3227,7 @@ L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdqu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/installation/uninstall-install.html</guid>
-      <description>Uninstall/Install </description>
+      <description>Uninstall/Install Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager The Module Manager is well displayed   Click on Upload a module and drop the zip The alert &amp;ldquo;Module installed!&amp;rdquo; is well displayed and the &amp;ldquo;Configure&amp;rdquo; button is well displayed   Refresh the page and search the exact module ps_googleanalytics The module is well displayed   Click on uninstall and confirm the uninstall action without selecting this {color:#172b4d}Option: delete module folder after uninstall.</description>
     </item>
     
     <item>
@@ -3987,6 +4005,15 @@ The validation message is displayed successfully
     </item>
     
     <item>
+      <title>FO - Create an Order by existing customer</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html</guid>
+      <description>FO - Create an Order by existing customer Steps    Step Description Expected result     Go to FO &amp;gt; Add product to the cart &amp;amp; Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The &amp;ldquo;Shopping cart&amp;rdquo; page is displayed&amp;quot;   Click on &amp;ldquo;Proceed to checkout The checkout page is displayed   In the Personal information step, click on &amp;ldquo;Sign in&amp;rdquo; The Email &amp;amp; password fields are displayed   Set Email &amp;amp; Password and click on Continue The Address step is displayed   Click on the &amp;ldquo;Continue&amp;rdquo; button The &amp;ldquo;Shipping&amp;rdquo; step is displayed   Click on the &amp;ldquo;Continue&amp;rdquo; button The &amp;ldquo;Payment methods&amp;rdquo; step is displayed   Select a payment method, click on &amp;ldquo;I agree to the terms of service and will adhere to them unconditionally.</description>
+    </item>
+    
+    <item>
       <title>Generate Credit Slips By Date</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/credit-slips/generate-credit-slips-by-date.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4525,7 +4552,7 @@ L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdqu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/installation/uninstall-and-delete.html</guid>
-      <description>Uninstall and delete </description>
+      <description>Uninstall and delete Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager The Module Manager is well displayed   Search the exact module ps_googleanalytics The module is well displayed   Click on uninstall and confirm the uninstall action with selecting this Option: delete module folder after uninstall. An alert &amp;ldquo;Uninstall action on module ps_googleanalytics succeeded.&amp;rdquo; is displayed   Refresh the page and search the exact module ps_googleanalytics No result displayed   Check the path +{color:#172b4d}PrestaShop/modules/{color}+ The folder ps_googleanalytic doesn&amp;rsquo;t exist    </description>
     </item>
     
     <item>
