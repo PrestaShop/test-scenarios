@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1648016029" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1648016029" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1648016029" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1648016029" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1648016029" rel="stylesheet">
-    <link href="../../../../../../../style.css?1648016029" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1648102518" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1648102518" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1648102518" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1648102518" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1648102518" rel="stylesheet">
+    <link href="../../../../../../../style.css?1648102518" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1648016029"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1648102518"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -50862,15 +50862,31 @@
 <tbody>
 <tr>
 <td>Go to BO &gt; Orders &gt; Orders &gt; click Add new order &gt; Choose Customer &gt; Choose products &gt; Scroll down to Block Shipping</td>
-<td>See 3 options</td>
+<td>Check:<br> * Delivery option = Shop name - Pick up in Store<br> * Shipping price (Tax incl.) = 0.00<br> * Free shipping disabled<br> * Recycled packaging disabled<br> * Gift disabled<br> * Gift message = empty text</td>
 </tr>
 <tr>
-<td>Click on dropdown to choose a Shipping method</td>
-<td>Shipping price will update<br><br>In Summary, Shipping price will update too</td>
+<td>Click on dropdown to choose a Shipping method = My carrier</td>
+<td>In the Shipping block: Shipping price will update = 8.40 <em>tax included</em><br><br>In Summary block:<br> * The shipping price will update too = 7 <em>tax excluded</em><br> * <strong>The <em>Total (Tax excl.)</em> is well updated = Total products <em>+</em> Total shipping (Tax excl.)</strong></td>
 </tr>
 <tr>
 <td>Enable Free shipping</td>
-<td>Shipping price is now 0<br><br>In Summary, Shipping price will update to 0 too</td>
+<td>In the discount block: a new line is added with the name = Free Shipping<br><br>In the Shipping block: the shipping price is now 0<br><br>In Summary block:<br> * the shipping price will update to 0 too<br> * The total tax excluded is well updated</td>
+</tr>
+<tr>
+<td>Enable Recycled packaging</td>
+<td>The Recycled packaging is now enabled</td>
+</tr>
+<tr>
+<td>Enable the Gift</td>
+<td>The gift option is enabled<br><br>In the summary block the total tax excluded is updated =  Total product + Gift-wrapping price ( added in the pre-condition)</td>
+</tr>
+<tr>
+<td>In the Gift message, set a faker message</td>
+<td>The message is well displayed</td>
+</tr>
+<tr>
+<td>Choose a payment, select an order status and click on create order</td>
+<td>The order view page is well displayed<br><br>In the status block: the Recycled packaging is well displayed and the Gift wrapping is well displayed<br><br>In the Carrier block: the gift message is well displayed</td>
 </tr>
 <tr>
 <td>If no shipping is available</td>
@@ -50883,9 +50899,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on March 22, 2022
+  Last updated on March 24, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/e14e0f222b45c3352634e914aeeacf8d3ee4e1ff">"[Update] JIRA XRay Tests" (e14e0f222b)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/4ffd4959c10ec5835cf880742a4ed864d69ee53d">"[Update] JIRA XRay Tests" (4ffd4959c1)</a>
   
 </div>
 
@@ -50906,17 +50922,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1648016029"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1648016029"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1648016029"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1648016029"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1648016029"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1648016029"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1648016029"></script>
-    <script src="../../../../../../../js/learn.js?1648016029"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1648016029"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1648102518"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1648102518"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1648102518"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1648102518"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1648102518"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1648102518"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1648102518"></script>
+    <script src="../../../../../../../js/learn.js?1648102518"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1648102518"></script>
     
-    <script src="../../../../../../../main.js?1648016029"></script>
+    <script src="../../../../../../../main.js?1648102518"></script>
     
     
 

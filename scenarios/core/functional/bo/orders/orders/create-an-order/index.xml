@@ -97,8 +97,13 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; S
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-shipping.html</guid>
-      <description>Choose Shipping Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; click Add new order &amp;gt; Choose Customer &amp;gt; Choose products &amp;gt; Scroll down to Block Shipping See 3 options   Click on dropdown to choose a Shipping method Shipping price will update
-In Summary, Shipping price will update too   Enable Free shipping Shipping price is now 0</description>
+      <description>Choose Shipping Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; click Add new order &amp;gt; Choose Customer &amp;gt; Choose products &amp;gt; Scroll down to Block Shipping Check:
+* Delivery option = Shop name - Pick up in Store
+* Shipping price (Tax incl.) = 0.00
+* Free shipping disabled
+* Recycled packaging disabled
+* Gift disabled
+* Gift message = empty text   Click on dropdown to choose a Shipping method = My carrier In the Shipping block: Shipping price will update = 8.</description>
     </item>
     
     <item>
