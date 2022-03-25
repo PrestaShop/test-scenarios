@@ -315,7 +315,8 @@ Button &amp;ldquo;Sign In&amp;rdquo; is now 2 buttons : &amp;ldquo;Sign Out&amp;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/bo/check-order-from-the-bo.html</guid>
-      <description>Check Order from the BO </description>
+      <description>Check Order from the BO Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders list is displayed successfully   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The order status is updated successfully
+The invoice is created successfully   Add the first partial refund Partial refund is added successfully</description>
     </item>
     
     <item>
@@ -1744,7 +1745,7 @@ L&amp;rsquo;action Upgrade sur le module ps_customersignin a réussi.&amp;rdquo;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/installation/upgrade.html</guid>
-      <description>Upgrade </description>
+      <description>Upgrade Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_googleanalytics The module page should be displayed and module ps_googleanalytics should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
     </item>
     
     <item>
@@ -2867,6 +2868,16 @@ Your account page is displayed   Click on &amp;ldquo;Sign out&amp;rdquo; link on
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/monitoring-products.html</guid>
       <description>Monitoring products Steps    Step Description Expected result     Go to catalog &amp;gt; products page Page title contains &amp;lsquo;Products&amp;rsquo;   Reset all filters Total of products &amp;gt; 0   Create product without image Successful message is displayed   go to catalog &amp;gt; monitoring page Page title contains &amp;lsquo;Monitoring&amp;rsquo;   Filter grid &amp;lsquo;Product without image&amp;rsquo; by the name of product created product is displayed in grid &amp;lsquo;Product without image&amp;rsquo;   Delete product from grid &amp;lsquo;Product without image&amp;rsquo; redirection to products page</description>
+    </item>
+    
+    <item>
+      <title>Multishop case</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/bo/multishop-case.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/bo/multishop-case.html</guid>
+      <description>Multishop case Steps    Step Description Expected result     Enable multistore &amp;gt; Go to configure module Check the attached bloc in configure page :
+!image-2022-03-24-13-46-14-372.png    </description>
     </item>
     
     <item>
@@ -5062,7 +5073,7 @@ Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; appea
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/installation/disable-enable.html</guid>
-      <description>Disable / Enable </description>
+      <description>Disable / Enable Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager The Module Manager is well displayed   Search the exact module ps_googleanalytics The module is well displayed   Click on disable A confirmation popup is displayed   Click on &amp;ldquo;Yes, disable it&amp;rdquo; a green alert is displayed &amp;ldquo;disable action on module ps_googleanalytics succeeded.&amp;rdquo; The extension Tag Assistant Legacy</description>
     </item>
     
     <item>

@@ -221,7 +221,7 @@
 	"title": "Check Order from the BO",
 	"tags": [],
 	"description": "",
-	"content": "Check Order from the BO "
+	"content": "Check Order from the BO Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; \u0026ldquo;Orders\u0026rdquo; page Orders list is displayed successfully   Go to the first order page The order page is displayed successfully   Change the order status to \u0026ldquo;Shipped\u0026rdquo; The order status is updated successfully\nThe invoice is created successfully   Add the first partial refund Partial refund is added successfully\nA new document is created for the credit slips   Add the second partial refund Partial refund is added successfully\nA new document is created for the credit slips   Go to Orders \u0026gt; \u0026ldquo;Credit slips\u0026rdquo; page Credit slips page is opened successfully   Reset all filters and get the credit slips number All filters are reset\nAll credit slips are displayed\nThe credit slip number is equal 2   Go to Customer service \u0026gt; merchandise returns\u0026gt; Enable returns \u0026gt; save Green alerte is displayed \u0026ldquo;The settings have been successfully updated.\u0026rdquo;   Go to the second order page \u0026gt; Click on cancel product The attached page is displayed !image-2022-03-24-14-42-04-332.png   check quantity \u0026gt; click on cancel product\nhttps://github.com/PrestaShop/PrestaShop/issues/26098#issuecomment-1075356614 Product is canceled and the green alert is displayed \u0026gt; Selected products were successfully canceled.\nThe produc is not present in the order and the price is 0.000    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/statsvisits/contenu/check-stats.html",
@@ -1292,7 +1292,7 @@
 	"title": "Upgrade",
 	"tags": [],
 	"description": "",
-	"content": "Upgrade "
+	"content": "Upgrade Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager and search ps_googleanalytics The module page should be displayed and module ps_googleanalytics should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/installation/upgrade.html",
@@ -2133,6 +2133,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Monitoring products Steps    Step Description Expected result     Go to catalog \u0026gt; products page Page title contains \u0026lsquo;Products\u0026rsquo;   Reset all filters Total of products \u0026gt; 0   Create product without image Successful message is displayed   go to catalog \u0026gt; monitoring page Page title contains \u0026lsquo;Monitoring\u0026rsquo;   Filter grid \u0026lsquo;Product without image\u0026rsquo; by the name of product created product is displayed in grid \u0026lsquo;Product without image\u0026rsquo;   Delete product from grid \u0026lsquo;Product without image\u0026rsquo; redirection to products page\nSuccessful delete message is displayed   Reset products grid in products page Number of products After reset = total of products   Go to BO \u0026gt; Catalog \u0026gt; Products Page title contains \u0026lsquo;Products\u0026rsquo;   Create product disabled Successful message is displayed   go to catalog \u0026gt; monitoring page Page title contains \u0026lsquo;Monitoring\u0026rsquo;   Filter grid \u0026lsquo;disabled\u0026rsquo; by the name of product created product is displayed in grid \u0026lsquo;disabled\u0026rsquo;   Delete product from grid \u0026lsquo;disabled\u0026rsquo; redirection to products page\nSuccessful delete message is displayed   Reset products grid in products page Number of products After reset = total of products   Go to BO \u0026gt; Catalog \u0026gt; Products page Page title contains \u0026lsquo;Products\u0026rsquo;   Create product \u0026lsquo;Without Combinations Without Quantity\u0026rsquo; Successful message is displayed   Go to catalog \u0026gt; monitoring page Page title contains \u0026lsquo;Monitoring\u0026rsquo;   Filter grid \u0026lsquo;Without Combinations Without Quantity\u0026rsquo; by the name of product created product is displayed in grid \u0026lsquo;Without Combinations Without Quantity\u0026rsquo;   Delete product from grid \u0026lsquo;Without Combinations Without Quantity\u0026rsquo; redirection to products page\nSuccessful delete message is displayed   Reset products grid in products page Number of products After reset = total of products   Go to BO \u0026gt; Catalog \u0026gt; Products page Page title contains \u0026lsquo;Products\u0026rsquo;   Create product \u0026lsquo;With Combinations Without Quantity\u0026rsquo; Successful message is displayed   go to catalog \u0026gt; monitoring page Page title contains \u0026lsquo;Monitoring\u0026rsquo;   Filter grid \u0026lsquo;With Combinations Without Quantity\u0026rsquo; by the name of product created product is displayed in grid \u0026lsquo;With Combinations Without Quantity\u0026rsquo;   Delete product from grid \u0026lsquo;With Combinations Without Quantity\u0026rsquo; redirection to products page\nSuccessful delete message is displayed   Reset products grid in products page Number of products After reset = total of products   Go to BO \u0026gt; Catalog \u0026gt; Products Page title contains \u0026lsquo;Products\u0026rsquo;   Create product \u0026lsquo;Without price\u0026rsquo; Successful message is displayed   Go to catalog \u0026gt; monitoring page Page title contains \u0026lsquo;Monitoring\u0026rsquo;   Filter grid \u0026lsquo;Without price\u0026rsquo; by the name of product created product is displayed in grid \u0026lsquo;Without price\u0026rsquo;   Delete product from grid \u0026lsquo;Without price\u0026rsquo; Redirection to products page\nSuccessful delete message is displayed   Reset products grid in products page Number of products After reset = total of products   Go to BO \u0026gt; Catalog \u0026gt; Products page Page title contains \u0026lsquo;Products\u0026rsquo;   Create product \u0026lsquo;Without description\u0026rsquo; Successful message is displayed   Go to catalog \u0026gt; monitoring page Page title contains \u0026lsquo;Monitoring\u0026rsquo;   Filter grid \u0026lsquo;Without description\u0026rsquo; by the name of product created Product is displayed in grid \u0026lsquo;Without description   Delete product from grid \u0026lsquo;Without description\u0026rsquo; Redirection to products page\nSuccessful delete message is displayed   Reset products grid in products page Number of products After reset = total of products    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/bo/multishop-case.html",
+	"title": "Multishop case",
+	"tags": [],
+	"description": "",
+	"content": "Multishop case Steps    Step Description Expected result     Enable multistore \u0026gt; Go to configure module Check the attached bloc in configure page :\n!image-2022-03-24-13-46-14-372.png    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/menu-and-navigation/navigate-in-categories/navigate-in-categories-in-the-fil-d-ariane.html",
@@ -3784,7 +3791,7 @@
 	"title": "Disable / Enable",
 	"tags": [],
 	"description": "",
-	"content": "Disable / Enable "
+	"content": "Disable / Enable Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager The Module Manager is well displayed   Search the exact module ps_googleanalytics The module is well displayed   Click on disable A confirmation popup is displayed   Click on \u0026ldquo;Yes, disable it\u0026rdquo; a green alert is displayed \u0026ldquo;disable action on module ps_googleanalytics succeeded.\u0026rdquo; The extension Tag Assistant Legacy\ndisplays \u0026ldquo;add google analytics\u0026rdquo;\n!image-2022-03-24-11-56-15-448.png   Click on enable A green alert is displayed \u0026ldquo;Enable action on module ps_googleanalytics succeeded.\u0026rdquo; And the button enable is changed to configure.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/disable-enable-desktop-and-mobile.html",
@@ -6311,7 +6318,7 @@
 	"title": "BO",
 	"tags": [],
 	"description": "",
-	"content": "BO Tests  Check Order from the BO   "
+	"content": "BO Tests  Check Order from the BO   Multishop case   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands.html",

@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../css/font-awesome.min.css?1648102572" rel="stylesheet">
-    <link href="../../../../../css/syntax-github.css?1648102572" rel="stylesheet">
-    <link href="../../../../../css/featherlight.min.css?1648102572" rel="stylesheet">
-    <link href="../../../../../css/perfect-scrollbar.min.css?1648102572" rel="stylesheet">
-    <link href="../../../../../css/auto-complete.css?1648102572" rel="stylesheet">
-    <link href="../../../../../style.css?1648102572" rel="stylesheet">
+    <link href="../../../../../css/font-awesome.min.css?1648189001" rel="stylesheet">
+    <link href="../../../../../css/syntax-github.css?1648189001" rel="stylesheet">
+    <link href="../../../../../css/featherlight.min.css?1648189001" rel="stylesheet">
+    <link href="../../../../../css/perfect-scrollbar.min.css?1648189001" rel="stylesheet">
+    <link href="../../../../../css/auto-complete.css?1648189001" rel="stylesheet">
+    <link href="../../../../../style.css?1648189001" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../js/jquery-3.3.1.min.js?1648102572"></script>
+    <script src="../../../../../js/jquery-3.3.1.min.js?1648189001"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28215,6 +28215,27 @@
 
             
           
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/ps-googleanalytics/configuration/bo/multishop-case.html" title="Multishop case" class="dd-item ">
+        <a href="../../../../../scenarios/modules/ps-googleanalytics/configuration/bo/multishop-case.html">
+        Multishop case
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
         
         </ul>
       
@@ -32504,7 +32525,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#check-order-from-the-bo">Check Order from the BO</a></li>
+    <li><a href="#check-order-from-the-bo">Check Order from the BO</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -48804,9 +48829,6 @@
     
   
       
-    
-  
-      
         
     
     
@@ -48822,6 +48844,24 @@
       
 
       
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
         
     
     
@@ -50812,7 +50852,7 @@
 
   
   
-  <a class="nav nav-next" href="../../../../../scenarios/modules/ps-googleanalytics/configuration/fo.html" title="FO" style="margin-right: 0px;">
+  <a class="nav nav-next" href="../../../../../scenarios/modules/ps-googleanalytics/configuration/bo/multishop-case.html" title="Multishop case" style="margin-right: 0px;">
     <i class="fa fa-chevron-right"></i>
     Next article
   </a>
@@ -50835,14 +50875,65 @@
 
 
 <h1 id="check-order-from-the-bo">Check Order from the BO</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Orders &gt; &ldquo;Orders&rdquo; page</td>
+<td>Orders list is displayed successfully</td>
+</tr>
+<tr>
+<td>Go to the first order page</td>
+<td>The order page is displayed successfully</td>
+</tr>
+<tr>
+<td>Change the order status to &ldquo;Shipped&rdquo;</td>
+<td>The order status is updated successfully<br>The invoice is created successfully</td>
+</tr>
+<tr>
+<td>Add the first partial refund</td>
+<td>Partial refund is added successfully<br>A new document is created for the credit slips</td>
+</tr>
+<tr>
+<td>Add the second partial refund</td>
+<td>Partial refund is added successfully<br>A new document is created for the credit slips</td>
+</tr>
+<tr>
+<td>Go to Orders &gt; &ldquo;Credit slips&rdquo; page</td>
+<td>Credit slips page is opened successfully</td>
+</tr>
+<tr>
+<td>Reset all filters and get the credit slips number</td>
+<td>All filters are reset<br>All credit slips are displayed<br>The credit slip number is equal 2</td>
+</tr>
+<tr>
+<td>Go to Customer service &gt; merchandise returns&gt; Enable returns &gt; save</td>
+<td>Green alerte is displayed &ldquo;The settings have been successfully updated.&rdquo;</td>
+</tr>
+<tr>
+<td>Go to the second order page &gt; Click on cancel product</td>
+<td>The attached page is displayed <br> !image-2022-03-24-14-42-04-332.png</td>
+</tr>
+<tr>
+<td>check quantity &gt; click on cancel product<br><a href="https://github.com/PrestaShop/PrestaShop/issues/26098#issuecomment-1075356614">https://github.com/PrestaShop/PrestaShop/issues/26098#issuecomment-1075356614</a></td>
+<td>Product is canceled and the green alert is displayed &gt; Selected products were successfully canceled.<br>The produc is not present in the order and the price is 0.000</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on March 23, 2022
+  Last updated on March 25, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/12d2eebf92ff5120faca88e9ab84996789ccb7c3">"[Update] JIRA XRay Tests" (12d2eebf92)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/ac50741621c333d2a5b513f94d658dbb9bed1f4f">"[Update] JIRA XRay Tests" (ac50741621)</a>
   
 </div>
 
@@ -50863,17 +50954,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../js/clipboard.min.js?1648102573"></script>
-    <script src="../../../../../js/perfect-scrollbar.min.js?1648102573"></script>
-    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1648102573"></script>
-    <script src="../../../../../js/jquery.sticky.js?1648102573"></script>
-    <script src="../../../../../js/featherlight.min.js?1648102573"></script>
-    <script src="../../../../../js/html5shiv-printshiv.min.js?1648102573"></script>
-    <script src="../../../../../js/modernizr.custom-3.6.0.js?1648102573"></script>
-    <script src="../../../../../js/learn.js?1648102573"></script>
-    <script src="../../../../../js/hugo-learn.js?1648102573"></script>
+    <script src="../../../../../js/clipboard.min.js?1648189001"></script>
+    <script src="../../../../../js/perfect-scrollbar.min.js?1648189001"></script>
+    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1648189001"></script>
+    <script src="../../../../../js/jquery.sticky.js?1648189001"></script>
+    <script src="../../../../../js/featherlight.min.js?1648189001"></script>
+    <script src="../../../../../js/html5shiv-printshiv.min.js?1648189001"></script>
+    <script src="../../../../../js/modernizr.custom-3.6.0.js?1648189001"></script>
+    <script src="../../../../../js/learn.js?1648189001"></script>
+    <script src="../../../../../js/hugo-learn.js?1648189001"></script>
     
-    <script src="../../../../../main.js?1648102573"></script>
+    <script src="../../../../../main.js?1648189001"></script>
     
     
 
