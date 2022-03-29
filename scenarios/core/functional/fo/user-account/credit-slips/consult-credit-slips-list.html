@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1648448370" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1648448370" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1648448370" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1648448370" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1648448370" rel="stylesheet">
-    <link href="../../../../../../style.css?1648448370" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1648534496" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1648534496" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1648534496" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1648534496" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1648534496" rel="stylesheet">
+    <link href="../../../../../../style.css?1648534496" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1648448370"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1648534496"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -32531,7 +32531,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#consult-credit-slips-list">Consult credit slips list</a></li>
+    <li><a href="#consult-credit-slips-list">Consult credit slips list</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -50877,14 +50881,61 @@
 
 
 <h1 id="consult-credit-slips-list">Consult credit slips list</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Case 1 :</em><br>Go to BO &gt; Customer Service &gt; Merchandise Returns &gt; Enable returns</td>
+<td>Message &ldquo;The settings have been successfully updated.&rdquo; is displayed<br><br>Enable return is set to YES</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Login to customer account &gt; Go to Credit slips tab</td>
+<td>Case 1 : You have no credit slip<br>Credit slips page is displayed with message alert-info &ldquo;You have not received any credit slips.&rdquo;</td>
+</tr>
+<tr>
+<td>Create an order (pre-condition)</td>
+<td></td>
+</tr>
+<tr>
+<td>Go to your account &gt; Go to Order History</td>
+<td>See 1 order with status &ldquo;Awaiting bank wire payment&rdquo;</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders &gt; Choose Order and change status to &ldquo;Shipped&rdquo;</td>
+<td>Order is updated with new Order Status : Shipped</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Order History tab &gt; Refresh</td>
+<td>Status of Order is refresh to Shipped</td>
+</tr>
+<tr>
+<td>Click on Details of order &gt; Check the product you want to return &gt; Add a Merchandise Return message &gt; Click on Request a return</td>
+<td>Merchandise Return page is displayed<br><br>Package status is the following Waiting for confirmation</td>
+</tr>
+<tr>
+<td>Go to BO &gt;Customer Service &gt; Merchandise Returns</td>
+<td>See that one merchandise return is in the list with Status : Waiting for confirmation</td>
+</tr>
+<tr>
+<td>Click on Merchandise return &gt; Change status to Return completed &gt; Save</td>
+<td>Message &ldquo;Successful update.&rdquo; is displayed<br><br>Status is updated to Return completed</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 24, 2021
+  Last updated on March 29, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/8d7748a0bd2c87a5af0955cfb220885c2b75cc14">"[Update] JIRA XRay Tests" (8d7748a0bd)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/1984e10c5003dac2d9f560390878493035bb600f">"[Update] JIRA XRay Tests" (1984e10c50)</a>
   
 </div>
 
@@ -50905,17 +50956,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1648448370"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1648448370"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1648448370"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1648448370"></script>
-    <script src="../../../../../../js/featherlight.min.js?1648448370"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1648448370"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1648448370"></script>
-    <script src="../../../../../../js/learn.js?1648448370"></script>
-    <script src="../../../../../../js/hugo-learn.js?1648448370"></script>
+    <script src="../../../../../../js/clipboard.min.js?1648534496"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1648534496"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1648534496"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1648534496"></script>
+    <script src="../../../../../../js/featherlight.min.js?1648534496"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1648534496"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1648534496"></script>
+    <script src="../../../../../../js/learn.js?1648534496"></script>
+    <script src="../../../../../../js/hugo-learn.js?1648534496"></script>
     
-    <script src="../../../../../../main.js?1648448370"></script>
+    <script src="../../../../../../main.js?1648534496"></script>
     
     
 
