@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1648793924" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1648793924" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1648793924" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1648793924" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1648793924" rel="stylesheet">
-    <link href="../../../../../../style.css?1648793924" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1648880112" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1648880112" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1648880112" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1648880112" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1648880112" rel="stylesheet">
+    <link href="../../../../../../style.css?1648880112" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1648793924"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1648880112"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -12034,9 +12034,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page.html" title="Edit status in order page" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/orders/orders/edit-status-in-order-page.html">
-        Edit status in order page
+      <li data-nav-id="/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html" title="Edit status in order page - default status to Canceled" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html">
+        Edit status in order page - default status to Canceled
         
         </a>
     </li>
@@ -12163,27 +12163,6 @@
       <li data-nav-id="/scenarios/core/functional/bo/orders/orders/help-button.html" title="Help Button " class="dd-item ">
         <a href="../../../../../../scenarios/core/functional/bo/orders/orders/help-button.html">
         Help Button 
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/core/functional/bo/orders/orders/clone-preview-order.html" title="CLONE - Preview order" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/orders/orders/clone-preview-order.html">
-        CLONE - Preview order
         
         </a>
     </li>
@@ -39791,21 +39770,6 @@
       
 
       
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
         
     
     
@@ -50896,23 +50860,63 @@
 </tr>
 <tr>
 <td>Click on the icon loop to preview the last order created</td>
-<td>The row order-preview-content is displayed<br><br>Check that data are ok:<br> # The Carrier informations<br> # Tracking number = empty<br> # Status of Order is correct<br> # Product details<br> # Customer details<br> # Messages block is well displayed<br> # Payment block is well displayed</td>
+<td>The order preview page is displayed</td>
 </tr>
 <tr>
-<td>click on &ldquo;js-preview-more-products-btn&rdquo; (&hellip; x more)&quot;</td>
-<td>all the list of products is well displayed.<br><br>Check that<br><br>Product name =&gt; ok<br><br>Product reference =&gt; ok<br><br>Product quantity =&gt; ok<br><br>Product total =&gt; ok</td>
+<td>Check that data are ok:<br> # The Carrier informations<br> # Tracking number = empty<br> # Status of Order is correct<br> # Product details<br> # Customer details<br> # Messages block is well displayed<br> # Payment block is well displayed</td>
+<td>The data are correctly displayed and consistent</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Open details&rdquo;</td>
-<td>The Order Details page is well displayed</td>
+<td>Check the <em>pagination</em> in the list products block (<em>number of products &gt;= 10</em>)</td>
+<td><em>Pagination</em> is well displayed</td>
 </tr>
 <tr>
-<td>Edit the Order:<br> # Edit Shipping address<br> # Edit Invoice address<br> # Edit the quantity of the first product<br> # Edit the price of the second product<br> # Remove the third product<br> # Add another product<br> # Change carrier<br> # Add a tracking number</td>
-<td>Successful update.</td>
+<td>Try to click on all paginations <em>buttons</em></td>
+<td>The <em>pagination</em> worked well</td>
 </tr>
 <tr>
-<td>Go back to the BO &gt; Order &gt; Order list page and click on the icon to preview the last order created again</td>
-<td>The row order-preview-content is displayed<br><br>Check that data are well updated:<br> # Carrier<br> # Tracking number = not empty<br> # Shipping details<br> # Email<br> # Invoice details<br> # Number of products<br> # Reference of each product<br> # quantity of each product<br> # Total</td>
+<td>Try to edit a product <em>quantity</em> in the <em>second</em> page , then <em>save</em></td>
+<td>the quantity is well updated, even when we move to <em>another</em> page (in the product list block)</td>
+</tr>
+<tr>
+<td>Select <em>20</em> as value for <em>Items per page</em>:</td>
+<td>all the 20 or less products are displayed and no pagination is displayed</td>
+</tr>
+<tr>
+<td>Select <em>8</em> as value for <em>Items per page</em></td>
+<td>only <em>8 products</em> will be <em>displayed</em> in the first page</td>
+</tr>
+<tr>
+<td>Try to <em>delete</em> a product</td>
+<td>the product <em>has been deleted</em> successfully and the <em>number of products</em> has been <em>decreased by one</em></td>
+</tr>
+<tr>
+<td>Edit the <em>price</em> of the <em>second</em> product</td>
+<td>the <em>price</em> is successfully updated</td>
+</tr>
+<tr>
+<td><em>Add</em> another product to the list/cart/order</td>
+<td>the product is successfully <em>added</em> and the number of product has been <em>increased</em> by one</td>
+</tr>
+<tr>
+<td>Edit the order adresses:<br> # Edit <em>Shipping</em> address<br> # Edit <em>Invoice</em> address</td>
+<td>The addresses are Successfully updated</td>
+</tr>
+<tr>
+<td>Edit the carrier:<br> # Change <em>carrier</em><br> # Add a <em>tracking number</em></td>
+<td>The carried has been successfully <em>changed</em> and the <em>tracking number</em> has been <em>saved</em></td>
+</tr>
+<tr>
+<td>Change the <em>status of order</em></td>
+<td>the <em>status</em> has been successfully <em>changed</em></td>
+</tr>
+<tr>
+<td># Go back to the BO &gt; Order &gt; Order list page<br> # click on the icon to preview the last order created again</td>
+<td>The order preview page is displayed</td>
+</tr>
+<tr>
+<td>Check that data are well updated:<br> # Carrier<br> # Tracking number = not empty<br> # Shipping details<br> # Email<br> # Invoice details<br> # Number of products<br> # Reference of each product<br> # quantity of each product<br> # Total</td>
+<td>Data are correctly displayed and updated</td>
 </tr>
 </tbody>
 </table>
@@ -50921,9 +50925,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on March 29, 2022
+  Last updated on April 2, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/1984e10c5003dac2d9f560390878493035bb600f">"[Update] JIRA XRay Tests" (1984e10c50)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/c8c5c28898745205baf98f2806dc96378005f7c5">"[Update] JIRA XRay Tests" (c8c5c28898)</a>
   
 </div>
 
@@ -50944,17 +50948,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1648793924"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1648793924"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1648793924"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1648793924"></script>
-    <script src="../../../../../../js/featherlight.min.js?1648793924"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1648793924"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1648793924"></script>
-    <script src="../../../../../../js/learn.js?1648793924"></script>
-    <script src="../../../../../../js/hugo-learn.js?1648793924"></script>
+    <script src="../../../../../../js/clipboard.min.js?1648880112"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1648880112"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1648880112"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1648880112"></script>
+    <script src="../../../../../../js/featherlight.min.js?1648880112"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1648880112"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1648880112"></script>
+    <script src="../../../../../../js/learn.js?1648880112"></script>
+    <script src="../../../../../../js/hugo-learn.js?1648880112"></script>
     
-    <script src="../../../../../../main.js?1648793924"></script>
+    <script src="../../../../../../main.js?1648880112"></script>
     
     
 

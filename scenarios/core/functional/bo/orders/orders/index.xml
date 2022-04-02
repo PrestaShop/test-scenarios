@@ -31,13 +31,11 @@ The order id result is equal to the searched ID   Reset all filters Number of or
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/preview-order.html</guid>
-      <description>Preview order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page The Orders page is well displayed   Click on the icon loop to preview the last order created The row order-preview-content is displayed
-Check that data are ok:
+      <description>Preview order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page The Orders page is well displayed   Click on the icon loop to preview the last order created The order preview page is displayed   Check that data are ok:
 # The Carrier informations
 # Tracking number = empty
 # Status of Order is correct
-# Product details
-# Customer details</description>
+# Product details</description>
     </item>
     
     <item>
@@ -89,12 +87,12 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
-      <title>Edit status in order page</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page.html</link>
+      <title>Edit status in order page - default status to Canceled</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page.html</guid>
-      <description>Edit status in order page Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to canceled with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Canceled&amp;rdquo;    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html</guid>
+      <description>Edit status in order page - default status to Canceled Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Click on the icon loop to View the last created order the order View page is well displayed   Change last Order status to canceled with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Canceled&amp;rdquo;    </description>
     </item>
     
     <item>
@@ -115,7 +113,7 @@ If all visitors become customers &amp;gt; should be 100%</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html</guid>
-      <description>Pagination Steps    Step Description Expected result     Go to Bo &amp;gt; Orders &amp;gt; Orders List of all Orders appears   number orders ⩽ 10 All orders are on the same page : no pagination available   number orders ⩾ 10 Order are display according to &amp;ldquo;Items by page&amp;rdquo;   Add order from BO or FO until number of orders reaches 11 orders List of orders displays with number of order = 11</description>
+      <description>Pagination Steps    Step Description Expected result     Go to Bo &amp;gt; Orders &amp;gt; Orders List of all Orders appears   number orders ⩽ 10 All orders are on the same page : no pagination available   number orders &amp;gt; 10 Order are display according to &amp;ldquo;Items by page&amp;rdquo;   Add order from BO or FO until number of orders reaches 11 orders List of orders displays with number of order = 11</description>
     </item>
     
     <item>
@@ -124,7 +122,7 @@ If all visitors become customers &amp;gt; should be 100%</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</guid>
-      <description>Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo; An invoice is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Payment Accepted&amp;rdquo;    </description>
+      <description>Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo; An invoice is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Payment Accepted&amp;rdquo; and the an invoice is attached    </description>
     </item>
     
     <item>
@@ -133,7 +131,7 @@ If all visitors become customers &amp;gt; should be 100%</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</guid>
-      <description>Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo;    </description>
+      <description>Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo; and the delivery slip is attached    </description>
     </item>
     
     <item>
@@ -154,18 +152,6 @@ Data is correct    </description>
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html</guid>
       <description>Help Button Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully
 The document language is English   Close the help sidebar The help sidebar is closed successfully    </description>
-    </item>
-    
-    <item>
-      <title>CLONE - Preview order</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/clone-preview-order.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/clone-preview-order.html</guid>
-      <description>CLONE - Preview order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page The Orders page is well displayed   Click on the icon loop to preview the last order created The order preview page is displayed   Check that data are ok:
-# The Carrier informations
-# Tracking number = empty
-# Status of Order is correct</description>
     </item>
     
   </channel>
