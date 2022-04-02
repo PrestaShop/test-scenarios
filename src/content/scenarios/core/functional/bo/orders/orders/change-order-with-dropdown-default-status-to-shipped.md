@@ -11,4 +11,4 @@ weight: 13
 | Change last Order status to Shipped with dropdown | A green alert "Successful update." is displayed and the order status is updated |
 | Click on "View Delivery slip" | A delivery slip is downloaded |
 | Go to FO and sign in with a customer | The "Your account" page is displayed |
-| Click on "Order history and details" | The Order history page is displayed and check that the last status order is "Shipped" |
+| Click on "Order history and details" | The Order history page is displayed and check that the last status order is "Shipped" and the delivery slip is attached |

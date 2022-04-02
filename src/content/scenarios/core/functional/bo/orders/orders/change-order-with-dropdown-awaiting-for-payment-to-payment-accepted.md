@@ -11,4 +11,4 @@ weight: 12
 | Change last Order status to payment accepted with dropdown | A green alert "Successful update." is displayed and the order status is updated |
 | Click on "View invoice" | An invoice is downloaded |
 | Go to FO and sign in with a customer | The "Your account" page is displayed |
-| Click on "Order history and details" | The Order history page is displayed and check that the last status order is "Payment Accepted" |
+| Click on "Order history and details" | The Order history page is displayed and check that the last status order is "Payment Accepted" and the an invoice is attached |
