@@ -7,7 +7,6 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| *Case 1 :*<br>Go to BO > Customer Service > Merchandise Returns > Enable returns | Message "The settings have been successfully updated." is displayed<br><br>Enable return is set to YES |
 | Go to FO > Login to customer account > Go to Credit slips tab | Case 1 : You have no credit slip<br>Credit slips page is displayed with message alert-info "You have not received any credit slips." |
 | Create an order (pre-condition) |  |
 | Go to your account > Go to Order History | See 1 order with status "Awaiting bank wire payment" |
