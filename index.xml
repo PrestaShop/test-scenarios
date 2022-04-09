@@ -33,7 +33,9 @@ Click on Invalid token continue button Access denied is displayed on page.    </
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/activate-merchandise-returns.html</guid>
-      <description>Activate Merchandise returns </description>
+      <description>Activate Merchandise returns Steps    Step Description Expected result     Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Returns &amp;gt; Enable returns Merchandise Returns page is displayed
+Enable returns button is set to NO   Click on Enable returns button Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is displayed
+Enable returns button is set to YES    </description>
     </item>
     
     <item>
@@ -433,9 +435,8 @@ The invoice is created successfully   Add the first partial refund Partial refun
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-credit-slips-list.html</guid>
-      <description>Consult credit slips list Steps    Step Description Expected result     Case 1 :
-Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Returns &amp;gt; Enable returns Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is displayed
-Enable return is set to YES   Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Case 1 : You have no credit slip</description>
+      <description>Consult credit slips list Steps    Step Description Expected result     Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Case 1 : You have no credit slip
+Credit slips page is displayed with message alert-info &amp;ldquo;You have not received any credit slips.&amp;rdquo;   Create an order (pre-condition)    Go to your account &amp;gt; Go to Order History See 1 order with status &amp;ldquo;Awaiting bank wire payment&amp;rdquo;   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Choose Order and change status to &amp;ldquo;Shipped&amp;rdquo; Order is updated with new Order Status : Shipped   Go to FO &amp;gt; Order History tab &amp;gt; Refresh Status of Order is refresh to Shipped   Click on Details of order &amp;gt; Check the product you want to return &amp;gt; Add a Merchandise Return message &amp;gt; Click on Request a return Merchandise Return page is displayed</description>
     </item>
     
     <item>
@@ -5729,7 +5730,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bulk-actions-order-status.html</guid>
-      <description>Bulk actions order status </description>
+      <description>Bulk actions order status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Page titles contains &amp;ldquo;Order settings&amp;rdquo;   Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Create a [new order statuses https://forge.prestashop.com/browse/TEST-3211]   Click on the checkbox on the right of a order statuses The bulked action button is now a possible action   Click on the Bulked Action button at the top of all the order statuses The button is darked</description>
     </item>
     
     <item>
@@ -6468,6 +6469,15 @@ categories are sorted by postion (3 -&amp;gt; 2 -&amp;gt; 1)   Sort categories b
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/contact-us-on-gdpr-page.html</guid>
       <description>Contact us on GDPR page Steps    Step Description Expected result     Go to FO &amp;gt; Log into your account &amp;gt; Click &amp;ldquo;GDPR - Personal data&amp;rdquo; GDPR - Personal data page is displayed   Click &amp;ldquo;contact page&amp;rdquo; link in block Rectification &amp;amp; Erasure requests Contact form is displayed   Send a message through Contact Form Message &amp;ldquo;Your message has been successfully sent to our team.</description>
+    </item>
+    
+    <item>
+      <title>Create a standard simple order status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/create-a-standard-simple-order-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/create-a-standard-simple-order-status.html</guid>
+      <description>Create a standard simple order status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Page titles contains &amp;ldquo;Order settings&amp;rdquo;   Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Button on the top-right corner of the page Page title contains &amp;quot; Order status &amp;quot;   * Set the status names</description>
     </item>
     
     <item>

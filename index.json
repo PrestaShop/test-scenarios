@@ -18,7 +18,7 @@
 	"title": "Activate Merchandise returns",
 	"tags": [],
 	"description": "",
-	"content": "Activate Merchandise returns "
+	"content": "Activate Merchandise returns Steps    Step Description Expected result     Go to BO \u0026gt; Customer Service \u0026gt; Merchandise Returns \u0026gt; Enable returns Merchandise Returns page is displayed\nEnable returns button is set to NO   Click on Enable returns button Message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is displayed\nEnable returns button is set to YES    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/add-a-comment.html",
@@ -312,7 +312,7 @@
 	"title": "Consult credit slips list",
 	"tags": [],
 	"description": "",
-	"content": "Consult credit slips list Steps    Step Description Expected result     Case 1 :\nGo to BO \u0026gt; Customer Service \u0026gt; Merchandise Returns \u0026gt; Enable returns Message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is displayed\nEnable return is set to YES   Go to FO \u0026gt; Login to customer account \u0026gt; Go to Credit slips tab Case 1 : You have no credit slip\nCredit slips page is displayed with message alert-info \u0026ldquo;You have not received any credit slips.\u0026rdquo;   Create an order (pre-condition)    Go to your account \u0026gt; Go to Order History See 1 order with status \u0026ldquo;Awaiting bank wire payment\u0026rdquo;   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Choose Order and change status to \u0026ldquo;Shipped\u0026rdquo; Order is updated with new Order Status : Shipped   Go to FO \u0026gt; Order History tab \u0026gt; Refresh Status of Order is refresh to Shipped   Click on Details of order \u0026gt; Check the product you want to return \u0026gt; Add a Merchandise Return message \u0026gt; Click on Request a return Merchandise Return page is displayed\nPackage status is the following Waiting for confirmation   Go to BO \u0026gt;Customer Service \u0026gt; Merchandise Returns See that one merchandise return is in the list with Status : Waiting for confirmation   Click on Merchandise return \u0026gt; Change status to Return completed \u0026gt; Save Message \u0026ldquo;Successful update.\u0026rdquo; is displayed\nStatus is updated to Return completed   Go to FO \u0026gt; Mechandise returns tab \u0026gt; Refresh Status of \u0026ldquo;Package status\u0026rdquo; is refresh to Return Completed   Go to BO -\u0026gt; Orders -\u0026gt; Orders -\u0026gt; Choose order and click on \u0026ldquo;View\u0026rdquo; button Order detail page is displayed   Click on Return products tab List of products ordered is displayed   Choose the product and click on the Quantity checkbox The quantity of the product is set to 1 / 1\nCase 1: Generate a credit slip checkbox is already checked   Click on Return products button Back to the list of products ordered\nMessage \u0026ldquo;The product was successfully returned.\u0026rdquo; is displayed\nRefunded column of the chosen product is filled by \u0026ldquo;1 (€XX Refunded)\u0026rdquo; text    "
+	"content": "Consult credit slips list Steps    Step Description Expected result     Go to FO \u0026gt; Login to customer account \u0026gt; Go to Credit slips tab Case 1 : You have no credit slip\nCredit slips page is displayed with message alert-info \u0026ldquo;You have not received any credit slips.\u0026rdquo;   Create an order (pre-condition)    Go to your account \u0026gt; Go to Order History See 1 order with status \u0026ldquo;Awaiting bank wire payment\u0026rdquo;   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Choose Order and change status to \u0026ldquo;Shipped\u0026rdquo; Order is updated with new Order Status : Shipped   Go to FO \u0026gt; Order History tab \u0026gt; Refresh Status of Order is refresh to Shipped   Click on Details of order \u0026gt; Check the product you want to return \u0026gt; Add a Merchandise Return message \u0026gt; Click on Request a return Merchandise Return page is displayed\nPackage status is the following Waiting for confirmation   Go to BO \u0026gt;Customer Service \u0026gt; Merchandise Returns See that one merchandise return is in the list with Status : Waiting for confirmation   Click on Merchandise return \u0026gt; Change status to Return completed \u0026gt; Save Message \u0026ldquo;Successful update.\u0026rdquo; is displayed\nStatus is updated to Return completed   Go to FO \u0026gt; Mechandise returns tab \u0026gt; Refresh Status of \u0026ldquo;Package status\u0026rdquo; is refresh to Return Completed   Go to BO -\u0026gt; Orders -\u0026gt; Orders -\u0026gt; Choose order and click on \u0026ldquo;View\u0026rdquo; button Order detail page is displayed   Click on Return products tab List of products ordered is displayed   Choose the product and click on the Quantity checkbox The quantity of the product is set to 1 / 1\nCase 1: Generate a credit slip checkbox is already checked   Click on Return products button Back to the list of products ordered\nMessage \u0026ldquo;The product was successfully returned.\u0026rdquo; is displayed\nRefunded column of the chosen product is filled by \u0026ldquo;1 (€XX Refunded)\u0026rdquo; text    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-merchandise-returns-list.html",
@@ -4274,7 +4274,7 @@
 	"title": "Bulk actions order status",
 	"tags": [],
 	"description": "",
-	"content": "Bulk actions order status "
+	"content": "Bulk actions order status Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings Page titles contains \u0026ldquo;Order settings\u0026rdquo;   Go to Statuses tab Page title contains \u0026ldquo;Statuses\u0026rdquo;   Create a [new order statuses https://forge.prestashop.com/browse/TEST-3211]   Click on the checkbox on the right of a order statuses The bulked action button is now a possible action   Click on the Bulked Action button at the top of all the order statuses The button is darked\n- A drop-down menu should be display option: Delete selected   Clic on \u0026ldquo;Delete Selected\u0026rdquo; button All the order statuses checker are now deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/carriers-tab.html",
@@ -4828,6 +4828,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Contact us on GDPR page Steps    Step Description Expected result     Go to FO \u0026gt; Log into your account \u0026gt; Click \u0026ldquo;GDPR - Personal data\u0026rdquo; GDPR - Personal data page is displayed   Click \u0026ldquo;contact page\u0026rdquo; link in block Rectification \u0026amp; Erasure requests Contact form is displayed   Send a message through Contact Form Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Customer service \u0026gt; Customer service \u0026gt; Click View on your message The message thread is displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/create-a-standard-simple-order-status.html",
+	"title": "Create a standard simple order status",
+	"tags": [],
+	"description": "",
+	"content": "Create a standard simple order status Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings Page titles contains \u0026ldquo;Order settings\u0026rdquo;   Go to Statuses tab Page title contains \u0026ldquo;Statuses\u0026rdquo;   Click on the \u0026ldquo;Add new order status\u0026rdquo; Button on the top-right corner of the page Page title contains \u0026quot; Order status \u0026quot;   * Set the status names\n* Change the color ( it\u0026rsquo;s \u0026ldquo;#\u0026rdquo; with 6 letters or numbers [between 0~9 \u0026amp; A~F])\n* Click on the second Checkbox named \u0026ldquo;Allow a customer to download and view PDF versions of his/her invoices.\u0026quot;\n* Click on the save button You have a green message on the top of the statuses page, The order status that you\u0026rsquo;ve created should be displayed on the list of order statuses with a check box on it left and a down arrow on the right of the Edit button    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-order-with-catalog-cart-rule-on-a-product-or-a-category.html",
@@ -8292,7 +8299,7 @@
 	"title": "Statuses",
 	"tags": [],
 	"description": "",
-	"content": "Statuses Tests  Filter, sort and pagination order status and order return status   CRUD order status   CRUD order return status   Quick Edit Send email / Delivery / invoice   Bulk actions order status   "
+	"content": "Statuses Tests  Filter, sort and pagination order status and order return status   CRUD order status   CRUD order return status   Quick Edit Send email / Delivery / invoice   Bulk actions order status   Create a standard simple order status   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks.html",
