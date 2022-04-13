@@ -5730,7 +5730,8 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bulk-actions-order-status.html</guid>
-      <description>Bulk actions order status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Page titles contains &amp;ldquo;Order settings&amp;rdquo;   Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Create a [new order statuses https://forge.prestashop.com/browse/TEST-3211]   Click on the checkbox on the right of a order statuses The bulked action button is now a possible action   Click on the Bulked Action button at the top of all the order statuses The button is darked</description>
+      <description>Bulk actions order status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Page titles contains &amp;ldquo;Order settings&amp;rdquo;   Go to Statuses tab * Page title contains &amp;ldquo;Statuses&amp;rdquo;
+* All Statuses shouldn&amp;rsquo;t have checkbox and a down arrow on the right of the edit button   Create a [new order statuses https://forge.prestashop.com/browse/TEST-3211]   Click on the checkbox on the left of order statuses The bulked action button is now a possible action   Click on the Bulked Action button at the top of all the order statuses The button is darked</description>
     </item>
     
     <item>
@@ -7009,6 +7010,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>Create a standard simple order return status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/create-a-standard-simple-order-return-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/create-a-standard-simple-order-return-status.html</guid>
+      <description>Create a standard simple order return status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Page titles contains &amp;ldquo;Order settings&amp;rdquo;   Page titles contains &amp;ldquo;Order settings&amp;rdquo; Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order return status&amp;rdquo; Button on the top-right corner of the page Page title contains &amp;quot; Return status &amp;quot;   * Set the status names</description>
+    </item>
+    
+    <item>
       <title>Create an order with an existing customer</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-an-existing-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7621,12 +7631,9 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-shipping.html</guid>
-      <description>Choose Shipping Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; click Add new order &amp;gt; Choose Customer &amp;gt; Choose products &amp;gt; Scroll down to Block Shipping Check:
+      <description>Choose Shipping Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; click Add new order &amp;gt; Search a customer and choose it Check that the Shipping block is not displayed   Search a product and choose it &amp;gt; Scroll down to Block Shipping Check:
 * Delivery option = Shop name - Pick up in Store
-* Shipping price (Tax incl.) = 0.00
-* Free shipping is disabled
-* Recycled packaging is disabled
-* Gift is disabled</description>
+* Shipping price (Tax incl.</description>
     </item>
     
     <item>
