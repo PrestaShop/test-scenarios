@@ -39,7 +39,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/debug-mode.html</guid>
-      <description>Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices&amp;quot; Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory (src/PrestaShopBundle/Controller/Admin/Sell/Order/) and edit the fileOrderController.php&amp;quot; Change the value of the $orderKpiFactory variable. Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine    </description>
+      <description>Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
+- Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine   Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    </description>
     </item>
     
     <item>
@@ -78,7 +79,7 @@ Open an order The order details page is displayed   Send a message regarding an 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/my-profile.html</guid>
-      <description>My Profile Steps    Step Description Expected result     Go to BO &amp;gt; Click top right user icon &amp;gt; Click Your Profile Edit your profile page opens   Edit elements of your profile &amp;gt; Save Message Successful update. appears   Go to Advanced Parameters &amp;gt; Team &amp;gt; Employees &amp;gt; Delete your account Message You cannot disable or delete your own account. appears    </description>
+      <description>My Profile Steps    Step Description Expected result     Go to BO &amp;gt; Click top right user icon &amp;gt; Click Your Profile Edit your profile page opens   Edit elements of your profile &amp;gt; Save Message Successful update. appears   Edit First name with an invalid string Message The &amp;ldquo;First name&amp;rdquo; field is invalid. appears   Edit First name with valid string Message Successful update.</description>
     </item>
     
     <item>

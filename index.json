@@ -998,7 +998,7 @@
 	"title": "Left Menu",
 	"tags": [],
 	"description": "",
-	"content": "Left Menu Steps    Step Description Expected result     Check every item on the menu All children items are displayed (when applicable). All links work as expected   Close the menu The animation is smooth. The menu is now a thinner vertical blue band with a few icons   Check every item on the menu All children items are displayed on a separate block on the right (when applicable). All links work as expected   Go to a specific page in a children block (ex: Orders \u0026gt; Orders). Re-open the menu The corresponding children item is visible (not collapsed) and correctly highlighted    "
+	"content": "Left Menu Steps    Step Description Expected result     Check every item on the menu All children items are displayed (when applicable). All links work as expected   Close the menu The animation is smooth. The menu is now a thinner vertical blue band with a few icons   Check every item on the menu All children items are displayed on a separate block on the right (when applicable). All links work as expected   Go to a specific page in a children block (ex: Orders \u0026gt; Orders). Re-open the menu The corresponding children item is visible (not collapsed) and correctly highlighted   Click on the chevron icon on the top right corner of the menu Menu should be collapsed, only icons are displayed   Resize the page to a smaller size See that the menu is hidden and a hamburger icon is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/order-confirmation/list-of-ordered-products.html",
@@ -1335,6 +1335,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Upgrade Steps    Step Description Expected result          "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/upgrade-ps-facetedsearch-module.html",
+	"title": "Upgrade ps_facetedsearch module",
+	"tags": [],
+	"description": "",
+	"content": "Upgrade ps_facetedsearch module Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/upgrade/upgradeshop.html",
@@ -2107,6 +2114,13 @@
 	"content": "Go to order "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/install-uninstall-ps-facetedsearch-module.html",
+	"title": "Install/Uninstall ps_facetedsearch module",
+	"tags": [],
+	"description": "",
+	"content": "Install/Uninstall ps_facetedsearch module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager The Module Manager is well displayed   Click on Upload a module and drop the zip The alert \u0026ldquo;Module installed!\u0026rdquo; is well displayed and the \u0026ldquo;Configure\u0026rdquo; button is well displayed   Refresh the page and search the exact module ps_facetedsearch The module is well displayed   Click on uninstall and confirm the uninstall action without selecting this {color:#172b4d}Option: delete module folder after uninstall.{color} The alert \u0026ldquo;Uninstall action on module ps_facetedsearch succeeded.\u0026rdquo; is displayed   Go to BO \u0026gt; Modules \u0026gt; Module Manager page and search the module ps_factedsearch # If PS_version = 1.7.8 or previous =\u0026gt; the module is not displayed\n# If the PS_version = 8.x.x =\u0026gt; the module is displayed with Install button   If PS_version = 1.7.8 or previous =\u0026gt; the module is not displayed, Go to BO \u0026gt; Modules \u0026gt; Module Catalog page and search the ps_facetedsearch module The module is well displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customersignin/fo/login-with-an-email-without-account.html",
 	"title": "Login with an email without account",
 	"tags": [],
@@ -2854,6 +2868,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Delete a currency Steps    Step Description Expected result     Go to BO \u0026gt; International \u0026gt; Localization \u0026gt; Currencies \u0026gt; Add 3 currencies : GBP, JPY and USD 3 new currencies are created\nMessage \u0026ldquo;Successful creation\u0026rdquo; appears   Click on the 3-dot button for USD \u0026gt; Delete A popup titled \u0026ldquo;Delete selection\u0026rdquo; appears   Click Delete to confirm the deletion Message \u0026ldquo;Successful deletion.\u0026rdquo; appears\nUSD is no longer in the list of currencies\nCurrency number is updated   Check GBP and JPY \u0026gt; Click on button Bulk Action \u0026gt; Click on Delete Selected \u0026gt; Deleted A popup appears to confirm the deletion\nMessage \u0026ldquo;The selection has been successfully deleted.\u0026rdquo; appears\nGBP and JPY are no longer in the currency list\nNumber of currencies is updated    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/disable-enable-ps-facetedsearch-module.html",
+	"title": "Disable / Enable ps_facetedsearch module",
+	"tags": [],
+	"description": "",
+	"content": "Disable / Enable ps_facetedsearch module "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/display-of-the-product.html",
@@ -3770,7 +3791,7 @@
 	"title": "Debug mode",
 	"tags": [],
 	"description": "",
-	"content": "Debug mode Steps    Step Description Expected result     Go to Orders \u0026gt; Invoices\u0026quot; Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory (src/PrestaShopBundle/Controller/Admin/Sell/Order/) and edit the fileOrderController.php\u0026quot; Change the value of the $orderKpiFactory variable. Go to \u0026ldquo;Orders \u0026gt; Orders\u0026rdquo; in the BO\u0026quot; An exception is displayed   Fix the file and go to Orders \u0026gt; Orders\u0026quot; in the BO\u0026quot; The page works fine    "
+	"content": "Debug mode Steps    Step Description Expected result     Go to Orders \u0026gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/\n- Edit the fileOrderController.php\u0026quot; - Change the value of the $orderKpiFactory variable. - Go to \u0026ldquo;Orders \u0026gt; Orders\u0026rdquo; in the BO\u0026quot; An exception is displayed   Fix the file and go to Orders \u0026gt; Orders\u0026quot; in the BO\u0026quot; The page works fine   Go to BO \u0026gt; Check the top right corner \u0026gt; Debug mode \u0026gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productsbo/deleteproduct.html",
@@ -4179,11 +4200,11 @@
 	"content": "Tax Options Form Steps    Step Description Expected result     Go to BO Login Page is displayed   Sign in Dashboard Page is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Delivery address\u0026rsquo;,\nuseEcoTax: true, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Delivery address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;EU VAT For Virtual Products\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Delivery address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;FR Taux réduit (10%)\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Delivery address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;FR Taux réduit (5.5%)\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Delivery address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;FR Taux standard (20%)\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Delivery address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;FR Taux super réduit (2.1%)\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Invoice address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;EU VAT For Virtual Products\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Invoice address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;FR Taux réduit (10%)\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Invoice address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;FR Taux réduit (5.5%)\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Invoice address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;FR Taux standard (20%)\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Invoice address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;FR Taux super réduit (2.1%)\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Invoice address\u0026rsquo;,\nuseEcoTax: true,\necoTax: \u0026lsquo;No tax\u0026rsquo;, Update Successful\nMessage is displayed   Change Tax Options to :\nenabled: true,\ndisplayInShoppingCart: false,\nbasedOn: \u0026lsquo;Delivery address\u0026rsquo;,\nuseEcoTax: false, Update Successful\nMessage is displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-edit-order.html",
-	"title": "View / Edit order",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/uninstall-and-delete-ps-facetedsearch-module.html",
+	"title": "Uninstall and delete ps_facetedsearch module",
 	"tags": [],
 	"description": "",
-	"content": "View / Edit order Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders The Orders page is well displayed   Click on the icon loop to preview an order created The row order-preview-content is displayed   Add a product to the Order Message \u0026ldquo;The product was successfully added.\u0026rdquo; appears\nThe new product is added in the list of Products   Add a Discount to the Order Message \u0026ldquo;Successful update.\u0026rdquo; appears\nNew line appear in discount table with discount amount   Update the Order status to \u0026ldquo;Payment accepted\u0026rdquo;\nClick on \u0026ldquo;Update status\u0026rdquo; button which is enbaled Message \u0026ldquo;Successful update.\u0026rdquo; appears\nIn Status block, the new status is displayed\nThe \u0026ldquo;Update status\u0026rdquo; button become disabled\nA new buttons are displayed : \u0026ldquo;View Invoice\u0026rdquo; is displayed next to Status dropdown AND \u0026ldquo;Partial refund\u0026rdquo; is displayed after \u0026ldquo;Print Order\u0026rdquo;   Click \u0026ldquo;View Invoice\u0026rdquo; The Invoice is downloaded   Update Status to \u0026ldquo;Shipped\u0026rdquo; Message \u0026ldquo;Successful update.\u0026rdquo; appears\nStatus block is updated with all history of status from recent to old one\nNew button \u0026ldquo;View delivery slip\u0026rdquo; is displayed between \u0026ldquo;Print Order\u0026rdquo; and \u0026ldquo;Partial refund\u0026rdquo;   Click \u0026ldquo;View delivery slip\u0026rdquo; The Delivery slip is downloaded   Add an Order note to the order Message \u0026ldquo;Update successful\u0026rdquo; appears\nNote is displayed   Go to Documents Tab \u0026gt; Add a note to the Invoice \u0026gt; Save \u0026gt; Download Invoice Message \u0026ldquo;Successful update.\u0026rdquo; appears\n\u0026ldquo;Edit note\u0026rdquo; button is displayed\nThe note is well displayed in the downloaded Invoice   In Carriers Tab \u0026gt; Edit Carrier \u0026gt; Add a tracking number \u0026gt; Update Message \u0026ldquo;Successful Update\u0026rdquo; appears\nTracking number in Carrier tab is updated   Click button \u0026ldquo;Partial Refund\u0026rdquo; to refund a product Message \u0026ldquo;A partial refund was successfully created.\u0026rdquo; appears\nIn Documents Tab, the \u0026ldquo;Credit Slip\u0026rdquo; is added   Add a Payment \u0026gt; Fill all fields \u0026gt; Click Add Message \u0026ldquo;Successful Update\u0026rdquo; appears\nIn Payment, see a warning : \u0026ldquo;Warning €SUM Of amount in Paymet block paid instead of €Total amount\u0026rdquo;   In Message Block \u0026gt; Add a new message \u0026gt; Click Send message Message \u0026ldquo;Comment successfully added.\u0026rdquo; is displayed\nMessage is displayed in Messages block   In Messages Block \u0026gt; Choose your order message \u0026gt; Delay An automatic message is added in the Message base   Click on \u0026ldquo;Send message\u0026rdquo; The message is well displayed    "
+	"content": "Uninstall and delete ps_facetedsearch module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager The Module Manager is well displayed   Search the exact module ps_facetedsearch The module is well displayed   Click on uninstall and confirm the uninstall action with selecting this Option: delete module folder after uninstall. An alert \u0026ldquo;Uninstall action on module ps_facetedsearch succeeded.\u0026rdquo; is displayed   Refresh the page and search the exact module ps_facetedsearch No result displayed   Check the path +{color:#172b4d}PrestaShop/modules/{color}+ The folder ps_facetedsearch doesn\u0026rsquo;t exist    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/view-carts.html",
@@ -4191,6 +4212,13 @@
 	"tags": [],
 	"description": "",
 	"content": "View carts Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Shopping carts page The Shopping carts page is well displayed   Filter by Order ID = Non Ordered Number of Shopping carts \u0026lt; Total of shopping carts\nThe list contains the searched ID order   View the first shopping cart The Shopping cart details page is well displayed\nCheck data are ok:\n* Total\n* Customer Information\n* The button \u0026ldquo;Create order from this cart\u0026rdquo; is displayed\n* Products ordered   Click on \u0026ldquo;Create an order from this cart.\u0026rdquo; Redirection to the \u0026ldquo;Add new Order page\u0026rdquo;   Go back to BO \u0026gt; Orders \u0026gt; Shopping carts page and reset the filter Number of Shopping carts = Total of shopping carts   Filter by ID order = the id of the last order created Number of Shopping carts \u0026lt; Total of shopping carts\nThe list contains the searched ID order   View the first shopping cart The Shopping cart page is well displayed\nCheck data are ok:\n* Total\n* Customer Information\n* Order ID\n* Products ordered   Click on the Order ID Redirection to the Order details page   Go back to BO \u0026gt; Orders \u0026gt; Shopping carts page and reset the filter Number of Shopping carts = Total of shopping carts    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html",
+	"title": "View customer",
+	"tags": [],
+	"description": "",
+	"content": "View customer Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number \u0026gt; 0   Filter orders by Customer Number of orders \u0026lt; Total of orders\nAll orders customer contains the searched customer   Click on the Customer Link Redirection to the customer details page in a new Tab    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/upgrade/fo-upgrade-from-1-6-1-24-to-last-build-and-then-exploratory-test-on-fo.html",
@@ -4690,11 +4718,11 @@
 	"content": "Upload a module "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html",
-	"title": "View customer",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html",
+	"title": "View Guest",
 	"tags": [],
 	"description": "",
-	"content": "View customer Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number \u0026gt; 0   Filter orders by Customer Number of orders \u0026lt; Total of orders\nAll orders customer contains the searched customer   Click on the Customer Link Redirection to the customer details page in a new Tab   In The Order page \u0026gt; Click to view an Order The Order listing is well displayed   In the Customer Block \u0026gt; Click on \u0026ldquo;View full details\u0026rdquo; The page is refreshed with the customer details page    "
+	"content": "View Guest Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number \u0026gt; 0   Filter orders by Guest name Number of orders \u0026lt; Total of orders\nAn order guest contains the searched guest   Click on the guest Link Redirection to the customer details page in a new Tab   Delete the created Guest The guest is well deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/view-my-shop.html",
@@ -4765,6 +4793,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Bulk actions shops URLs "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status.html",
+	"title": "Bulk actions status",
+	"tags": [],
+	"description": "",
+	"content": "Bulk actions status Steps    Step Description Expected result     From BO \u0026gt; Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Select the last order from the list, click on Bulk actions button and Click on \u0026ldquo;Change Order Status\u0026rdquo; A modal \u0026ldquo;Choose an order status\u0026rdquo; is displayed   Select \u0026ldquo;Payment accepted and click on \u0026ldquo;Update status\u0026rdquo; An alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the Order status is updated to \u0026ldquo;Payment accepted\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/caching.html",
@@ -5110,13 +5145,6 @@
 	"content": "Upgrade "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html",
-	"title": "View Guest",
-	"tags": [],
-	"description": "",
-	"content": "View Guest Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number \u0026gt; 0   Filter orders by Guest name Number of orders \u0026lt; Total of orders\nAn order guest contains the searched guest   Click on the guest Link Redirection to the customer details page in a new Tab   Delete the created Guest The guest is well deleted    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-add-new-order-search-add-remove-a-voucher.html",
 	"title": "[BO-Add new order] Search - Add - Remove a voucher",
 	"tags": [],
@@ -5180,11 +5208,11 @@
 	"content": "Bulk actions "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status.html",
-	"title": "Bulk actions status",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs.html",
+	"title": "Bulk actions - Open in new tabs",
 	"tags": [],
 	"description": "",
-	"content": "Bulk actions status Steps    Step Description Expected result     From BO \u0026gt; Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Select the last order from the list, click on Bulk actions button and Click on \u0026ldquo;Change Order Status\u0026rdquo; A modal \u0026ldquo;Choose an order status\u0026rdquo; is displayed   Select \u0026ldquo;Payment accepted and click on \u0026ldquo;Update status\u0026rdquo; An alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the Order status is updated to \u0026ldquo;Payment accepted\u0026rdquo;    "
+	"content": "Bulk actions - Open in new tabs Steps    Step Description Expected result     From BO \u0026gt; Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Select more than one order from the list, click on the Bulk actions button and Click on \u0026ldquo;Open in new Tabs\u0026rdquo; The last order is displayed in a new tab   Come back to Orders pasge An alert \u0026ldquo;It looks like you have exceeded the number of tabs allowed. Check your browser settings to open multiple tabs.\u0026rdquo; is displayed   Accept the pop up to open multiple tabs All the orders selected are displayed in different tabs    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/positions/change-position-drag-and-drop.html",
@@ -5460,13 +5488,6 @@
 	"content": "BO - Values - Filter table Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Attributes \u0026amp; Features \u0026gt; Attributes page The Attributes page is displayed   Click \u0026ldquo;View\u0026rdquo; the first attribute: Size Page title = Size \u0026amp; the Values page is well displayed   Reset Filter Number values = Total values   Filter by ID Number values \u0026lt; Total values and the list contains the search ID   Reset Filter Number values = Total values   Filter by Value Number values \u0026lt; Total values and the list contains the search Value   Reset Filter Number values = Total values   Filter by Position Number values \u0026lt; Total values and the list contains the search position   Reset Filter Number values = Total values    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs.html",
-	"title": "Bulk actions - Open in new tabs",
-	"tags": [],
-	"description": "",
-	"content": "Bulk actions - Open in new tabs Steps    Step Description Expected result     From BO \u0026gt; Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Select more than one order from the list, click on the Bulk actions button and Click on \u0026ldquo;Open in new Tabs\u0026rdquo; The last order is displayed in a new tab   Come back to Orders pasge An alert \u0026ldquo;It looks like you have exceeded the number of tabs allowed. Check your browser settings to open multiple tabs.\u0026rdquo; is displayed   Accept the pop up to open multiple tabs All the orders selected are displayed in different tabs    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-quickview/change-image.html",
 	"title": "Change image",
 	"tags": [],
@@ -5516,6 +5537,13 @@
 	"content": "Duplicate Product Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products \u0026lt; Total of products\nAll products contains the searched Name   Click on the drop-down toggle and click on Duplicate An alert \u0026ldquo;Product successfully duplicated.\u0026rdquo; is displayed and the product Name contains \u0026ldquo;copy of searched Name\u0026rdquo;   Go to Products list page and delete the duplicated product The product is weel removed   Reset all filters Number of products = Total of products   Do the same with bulk action Duplicate (selecting several products) Duplicate is OK, and duplicate progress bar is OK    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html",
+	"title": "Edit status in order page - default status to Canceled",
+	"tags": [],
+	"description": "",
+	"content": "Edit status in order page - default status to Canceled Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Click on the icon loop to View the last created order the order View page is well displayed   Change last Order status to canceled with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Canceled\u0026rdquo;    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/edit-url-options.html",
 	"title": "Edit URL options",
 	"tags": [],
@@ -5555,7 +5583,7 @@
 	"title": "My Profile",
 	"tags": [],
 	"description": "",
-	"content": "My Profile Steps    Step Description Expected result     Go to BO \u0026gt; Click top right user icon \u0026gt; Click Your Profile Edit your profile page opens   Edit elements of your profile \u0026gt; Save Message Successful update. appears   Go to Advanced Parameters \u0026gt; Team \u0026gt; Employees \u0026gt; Delete your account Message You cannot disable or delete your own account. appears    "
+	"content": "My Profile Steps    Step Description Expected result     Go to BO \u0026gt; Click top right user icon \u0026gt; Click Your Profile Edit your profile page opens   Edit elements of your profile \u0026gt; Save Message Successful update. appears   Edit First name with an invalid string Message The \u0026ldquo;First name\u0026rdquo; field is invalid. appears   Edit First name with valid string Message Successful update. appears   Go to Advanced Parameters \u0026gt; Team \u0026gt; Employees \u0026gt; Delete your account Message You cannot disable or delete your own account. appears    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/page-for-terms-and-conditions.html",
@@ -5695,7 +5723,7 @@
 	"title": "Choose Shipping",
 	"tags": [],
 	"description": "",
-	"content": "Choose Shipping Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; click Add new order \u0026gt; Search a customer and choose it Check that the Shipping block is not displayed   Search a product and choose it \u0026gt; Scroll down to Block Shipping Check:\n* Delivery option = Shop name - Pick up in Store\n* Shipping price (Tax incl.) = 0.00\n* Free shipping is disabled\n* Recycled packaging is disabled\n* Gift is disabled\n* Gift message = empty text   Click on dropdown to choose a Shipping method = My carrier In the Shipping block: Shipping price will update = 8.40 tax included\nIn Summary block:\n* The Total shipping price will be updated to = 7 tax excluded\n* The Total (Tax excl.) is well updated = Total products + Total shipping (Tax excl.)   Enable Free shipping In the discount block: a new line is added with the name = Free Shipping and the value =0\nIn the Shipping block: the shipping price is now 0\nIn Summary block:\n* the shipping price will update to 0 too\n* The total tax excluded is well updated   Enable Recycled packaging The Recycled packaging is now enabled   go back to create order page and Enable the Gift The gift option is enabled\nIn the summary block:\nthe Total (tax excluded) is updated = Total product + Gift-wrapping price ( added in the pre-condition)\nthe Total (tax included) is updated = Total (tax excluded) + Tax   In the Gift message, set a faker message The message is well displayed   Choose a payment, select an order status and click on create order The order view page is well displayed\nIn the status block: the Recycled packaging and the Gift wrapping are well displayed\nIn the Carrier block: the gift message is well displayed   If no shipping is available Message No carrier can be applied to this order will appear\nNo further block, can\u0026rsquo;t continue to create the order    "
+	"content": "Choose Shipping Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; click Add new order \u0026gt; Search a customer and choose it Check that the Shipping block is not displayed   Search a product and choose it \u0026gt; Scroll down to Block Shipping Check:\n* Delivery option = Shop name - Pick up in Store\n* Shipping price (Tax incl.) = 0.00\n* Free shipping is disabled\n* Recycled packaging is disabled\n* Gift is disabled\n* Gift message = empty text   Click on dropdown to choose a Shipping method = My carrier In the Shipping block: Shipping price will update = 8.40 tax included\nIn Summary block:\n* The Total shipping price will be updated to = 7 tax excluded\n* The Total (Tax excl.) is well updated = Total products + Total shipping (Tax excl.)   Enable Free shipping In the discount block: a new line is added with the name = Free Shipping and the value =0\nIn the Shipping block: the shipping price is now 0\nIn Summary block:\n* the shipping price will update to 0 too\n* The total tax excluded is well updated   Enable Recycled packaging The Recycled packaging is now enabled   go back to create order page and Enable the Gift The gift option is enabled\nIn the summary block:\nthe Total (tax excluded) is updated = Total product + Gift-wrapping price ( added in the pre-condition)\nthe Total (tax included) is updated = Total (tax excluded) + Tax   In the Gift message, set a faker message The message is well displayed   Choose a payment, select an order status and click on create order The order view page is well displayed\nIn the status block: the Recycled packaging and the Gift wrapping are well displayed\nIn the Carrier block: the gift message is well displayed   Go to FO \u0026gt; Sign in the customer and go to Your account \u0026gt; Order History page The Order history page is well displayed   Click on details for last order created The order details page is displayed and check:\n* You have given permission to receive your order in recycled packaging.\n* You have requested gift wrapping for this order.\n* Message $Your_gift_mesage_expression   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; click Add new order \u0026gt; Search a customer and choose it \u0026gt; Search a product \u0026amp; click on it Check that the Shipping block is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/connect-disconnect-to-addons-market-place.html",
@@ -5740,13 +5768,6 @@
 	"content": "Display total discount "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html",
-	"title": "Edit status in order page - default status to Canceled",
-	"tags": [],
-	"description": "",
-	"content": "Edit status in order page - default status to Canceled Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Click on the icon loop to View the last created order the order View page is well displayed   Change last Order status to canceled with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Canceled\u0026rdquo;    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/enable-disable-a-currency.html",
 	"title": "Enable/Disable a currency",
 	"tags": [],
@@ -5759,6 +5780,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Multistore options "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/statistics-of-the-page.html",
+	"title": "Statistics of the page",
+	"tags": [],
+	"description": "",
+	"content": "Statistics of the page Steps    Step Description Expected result     Go to FO \u0026gt; Add products to Cart Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Non-ordered carts displayed   Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Conversion Rate Converting your visitors to customers\nWhen a visitor buys an item, he becomes a customer.\nFor example :\nIf all visitors become customers \u0026gt; should be 100%\nIf half of the visitors become customers \u0026gt; should be 50%   Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Abandoned Carts Same amount of Abandoned carts in the list as well in the Statistics part\nIf you have 2 Non-ordered carts, you should have 2 Abandoned carts in Statistics   Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Average Order Value The result should be the result of : dividing your total revenue by the total number of orders placed   Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Net profit per visitor The result should be : dividing the total revenue by the total number of visitors to your site    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/update-schema-of-urls.html",
@@ -5852,18 +5880,18 @@
 	"content": "Display Shipping "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html",
+	"title": "Pagination",
+	"tags": [],
+	"description": "",
+	"content": "Pagination Steps    Step Description Expected result     Go to Bo \u0026gt; Orders \u0026gt; Orders List of all Orders appears   number orders ⩽ 10 All orders are on the same page : no pagination available   number orders \u0026gt; 10 Order are display according to \u0026ldquo;Items by page\u0026rdquo;   Add order from BO or FO until number of orders reaches 11 orders List of orders displays with number of order = 11\nPagination bar at the bottom of the page displays   Change \u0026ldquo;items per page\u0026rdquo; to 10 Page reloads with 10 items on the first page\nButtons appear to go to the next page   Click on page 2 or arrow \u0026ldquo;\u0026gt;\u0026rdquo; to see the next page Only one order should appear   Change \u0026ldquo;items per page\u0026rdquo; to 20 Page reloads with all items on the first page = 11 orders\nOnly one page of order is available   Change \u0026ldquo;items per page\u0026rdquo; to 50 Page reloads with all items on the first page = 11 orders\nOnly one page of orders is available   Change \u0026ldquo;items per page\u0026rdquo; to 100 Page reloads with all items on the first page = 11 orders\nOnly one page of orders is available   Add orders to reach 21 orders total Items per page : 10\nYou should see 3 pages order orders   Change \u0026ldquo;items per page\u0026rdquo; : 20 Pagination is available : 2 pages are available   Change \u0026ldquo;Items per page\u0026rdquo; : 50 / 100 Only one page of order is available   Filter\nBy id : ASC or DESC Pagination should keep its configuration   Filter by Status \u0026gt; Choose a status \u0026gt; Click Search Order list should be filterer with the payment chosen\nIf \u0026lt; to \u0026ldquo;Items per page\u0026rdquo; : one page is available with no pagination\nif \u0026gt; to \u0026ldquo;Items per page\u0026rdquo; : X pages are available to go through    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/recommended-modules-for-the-page.html",
 	"title": "Recommended modules for the page",
 	"tags": [],
 	"description": "",
 	"content": "Recommended modules for the page Steps    Step Description Expected result     Go to BO \u0026gt; Migrated page like Orders, Products, Customers, etc    Click on button Recommended Modules and Services Popup will open with multiple choices of Modules   Click install on the module of your choice Message Install action on module XXX succeeded. appears\nWhen installed, button will transform to a Configure button   Click on the button Configure The page will refresh with the configuration page of the module   Click previous on browser Previous page will open   Click again on the button Recommended Modules and Services You will see 2 tabs, one \u0026ldquo;Not installed\u0026rdquo;, one \u0026ldquo;Installed\u0026rdquo;   Go to Installed modules tabs \u0026gt; Click on the dropdown arrow and uninstalled your module Message Uninstall action on module XXX succeeded. appears\nThe module is uninstalled   Click on in information addons link New page will open with addons marketplace   Go to a non-migrated page like Customer Service \u0026gt; Click on recommended Modules and Services \u0026gt; Install a module Message Notice! Install action on module XXX succeeded. appears\nModule is well installed   Disable the module you just created Message notice! Disable action on module sendinblue succeeded. appears\nModule is disabled   Click on a service with button Discover A page of the service will open in another tab    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/statistics-of-the-page.html",
-	"title": "Statistics of the page",
-	"tags": [],
-	"description": "",
-	"content": "Statistics of the page Steps    Step Description Expected result     Go to FO \u0026gt; Add products to Cart Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Non-ordered carts displayed   Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Conversion Rate Converting your visitors to customers\nWhen a visitor buys an item, he becomes a customer.\nFor example :\nIf all visitors become customers \u0026gt; should be 100%\nIf half of the visitors become customers \u0026gt; should be 50%   Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Abandoned Carts Same amount of Abandoned carts in the list as well in the Statistics part\nIf you have 2 Non-ordered carts, you should have 2 Abandoned carts in Statistics   Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Average Order Value The result should be the result of : dividing your total revenue by the total number of orders placed   Go to BO \u0026gt; Orders \u0026gt; Shopping carts \u0026gt; See Net profit per visitor The result should be : dividing the total revenue by the total number of visitors to your site    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/test-checker-les-events-sur-prestashop-avec-les-tests.html",
@@ -5899,6 +5927,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Product list page - Delete Bulk actions Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products \u0026lt; Total of products\nAll products contain the searched Name    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html",
+	"title": "Change order with dropdown - Awaiting for payment to Payment Accepted",
+	"tags": [],
+	"description": "",
+	"content": "Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View invoice\u0026rdquo; An invoice is downloaded   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Payment Accepted\u0026rdquo; and the an invoice is attached    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/changing-color-when-changing-combination-color.html",
@@ -5950,13 +5985,6 @@
 	"content": "Onboarding Steps    Step Description Expected result     Check that OnBoarding popup is displayed after first login    Click on Later\u0026quot; Popup is closed, but a reminder is displayed on bottom left of the menu   Resume the onboarding Popup is re-opened   Follow the steps of the onboarding All steps are OK    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html",
-	"title": "Pagination",
-	"tags": [],
-	"description": "",
-	"content": "Pagination Steps    Step Description Expected result     Go to Bo \u0026gt; Orders \u0026gt; Orders List of all Orders appears   number orders ⩽ 10 All orders are on the same page : no pagination available   number orders \u0026gt; 10 Order are display according to \u0026ldquo;Items by page\u0026rdquo;   Add order from BO or FO until number of orders reaches 11 orders List of orders displays with number of order = 11\nPagination bar at the bottom of the page displays   Change \u0026ldquo;items per page\u0026rdquo; to 10 Page reloads with 10 items on the first page\nButtons appear to go to the next page   Click on page 2 or arrow \u0026ldquo;\u0026gt;\u0026rdquo; to see the next page Only one order should appear   Change \u0026ldquo;items per page\u0026rdquo; to 20 Page reloads with all items on the first page = 11 orders\nOnly one page of order is available   Change \u0026ldquo;items per page\u0026rdquo; to 50 Page reloads with all items on the first page = 11 orders\nOnly one page of orders is available   Change \u0026ldquo;items per page\u0026rdquo; to 100 Page reloads with all items on the first page = 11 orders\nOnly one page of orders is available   Add orders to reach 21 orders total Items per page : 10\nYou should see 3 pages order orders   Change \u0026ldquo;items per page\u0026rdquo; : 20 Pagination is available : 2 pages are available   Change \u0026ldquo;Items per page\u0026rdquo; : 50 / 100 Only one page of order is available   Filter\nBy id : ASC or DESC Pagination should keep its configuration   Filter by Status \u0026gt; Choose a status \u0026gt; Click Search Order list should be filterer with the payment chosen\nIf \u0026lt; to \u0026ldquo;Items per page\u0026rdquo; : one page is available with no pagination\nif \u0026gt; to \u0026ldquo;Items per page\u0026rdquo; : X pages are available to go through    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/see-more-less-module.html",
 	"title": "See more / less module",
 	"tags": [],
@@ -5985,11 +6013,11 @@
 	"content": "BO - Cart rules - Case 12 - Group customer restriction Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discounts \u0026gt; Cart rules page and Click on \u0026ldquo;Add new cart rule\u0026rdquo; page The \u0026ldquo;Add new cart rule\u0026rdquo; page is well displayed   Create a new discount, set these fields:\n# Information:\n1. Name\n2. Description\n3. Code\n# Conditions:\n1. Select Customer Group Selection: Unselected groups = Customer + Selected groups = Vistors + Guestss\n# Actions:\n1. Discount = 100 Euro tax included\nand click on Save An alert \u0026ldquo;Successful creation.\u0026rdquo; is displayed   Go to FO The FO is well displayed   Add product to cart and click on Proceed to checkout The Shopping cart is well displayed and the link \u0026ldquo;Have a promo code?\u0026rdquo; is displayed   Click on \u0026ldquo;Have a promo code?\u0026rdquo; The promo code section is displayed   Set the Code and click on Add An alert \u0026ldquo;You cannot use this voucher\u0026rdquo; is displayed   Add product to cart and Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The Shopping cart is well displayed and the link \u0026ldquo;Have a promo code?\u0026rdquo; is displayed   Click on \u0026ldquo;Have a promo code?\u0026rdquo; The promo code section is displayed   Set the Code and click on Add The discount is well applied and the total is ok   Remove discount The discount is well removed   Remove product The product is well removed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html",
-	"title": "Change order with dropdown - Awaiting for payment to Payment Accepted",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html",
+	"title": "Change order with dropdown - default status  to Shipped",
 	"tags": [],
 	"description": "",
-	"content": "Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View invoice\u0026rdquo; An invoice is downloaded   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Payment Accepted\u0026rdquo; and the an invoice is attached    "
+	"content": "Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View Delivery slip\u0026rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Shipped\u0026rdquo; and the delivery slip is attached    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-access-to-the-orders.html",
@@ -6055,13 +6083,6 @@
 	"content": "After autoupgrade, rollback to previous version Steps    Step Description Expected result     Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.   Rollback from the release to PS176x Rollback is OK, and every data are OK.   Rollback from the release to PS177x Rollback is OK, and every data are OK.    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html",
-	"title": "Change order with dropdown - default status  to Shipped",
-	"tags": [],
-	"description": "",
-	"content": "Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View Delivery slip\u0026rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Shipped\u0026rdquo; and the delivery slip is attached    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-if-the-unsubscribtion-is-working-in-the-module-configuration.html",
 	"title": "Check if the unsubscribtion is working in the module configuration",
 	"tags": [],
@@ -6081,6 +6102,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Display discount on product "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html",
+	"title": "Export Orders",
+	"tags": [],
+	"description": "",
+	"content": "Export Orders Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully\nData is correct    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/refresh-list-of-currency.html",
@@ -6111,11 +6139,11 @@
 	"content": "Exploratory session after autoupgrade Steps    Step Description Expected result     Install previous version (specify which one in expected result)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS\u0026hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.    Exploratory test of the version     "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html",
-	"title": "Export Orders",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html",
+	"title": "Help Button ",
 	"tags": [],
 	"description": "",
-	"content": "Export Orders Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully\nData is correct    "
+	"content": "Help Button Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully\nThe document language is English   Close the help sidebar The help sidebar is closed successfully    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/cart/cart/proceed-to-checkout.html",
@@ -6158,13 +6186,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Edit a currency Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html",
-	"title": "Help Button ",
-	"tags": [],
-	"description": "",
-	"content": "Help Button Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully\nThe document language is English   Close the help sidebar The help sidebar is closed successfully    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-access-to-the-cart.html",
@@ -6515,6 +6536,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Configuration Tests  Check the display of the email block in the left column   Check that the entered email in the left column email block is saved   Check that the an email is send with a promo code when I check the box in the create account process   Check that the verification email is send   Check that the confirmation email is send   Check that the text entered in the module is updated in front office   Check that the CSV export by country is working   Check that the CSV export by subscriber is working   Check that the CSV export by partner offer is working   Check that the customer is registred   Check you can\u0026#39;t register an email already registered   Check the \u0026#34;display\u0026#34; button opens the add/edit customer page   Check if the unsubscribtion is working in the module configuration   Search an email address   Check the ID in the tab configuration if the email address is not linked to a customer   Check the ID in the tab configuration if the email address is linked to a customer   Check the ID in the tab configuration if the user register as customer and check the box subscribe   Check the ID in the tab configuration if the user register as customer and uncheck the box subscribe   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration.html",
+	"title": "Configuration",
+	"tags": [],
+	"description": "",
+	"content": "Configuration "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration.html",
@@ -7245,6 +7273,13 @@
 	"content": "Installation Tests  Upgrade   Uninstall/Install   Uninstall and delete   "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation.html",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": "Installation Tests  Upgrade ps_facetedsearch module   Install/Uninstall ps_facetedsearch module   Disable / Enable ps_facetedsearch module   Uninstall and delete ps_facetedsearch module   "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts/installation.html",
 	"title": "Installation",
 	"tags": [],
@@ -7613,7 +7648,7 @@
 	"title": "Modules",
 	"tags": [],
 	"description": "",
-	"content": "Modules   blockreassurance   blockwishlist   contactform   dashactivity   dashtrends   productcomments   ps_banner   ps_categorytree   ps_checkpayment   ps_contactinfo   ps_crossselling   ps_customeraccountlinks   ps_customersignin   ps_customtext   ps_dataprivacy   ps_emailalerts   ps_emailsubscription   ps_featuredproducts   ps_googleanalytics   ps_linklist   ps_searchbar   ps_sharebuttons   ps_shoppingcart   ps_socialfollow   ps_themecusto   statsbestcategories   statsbestcustomers   statsbestmanufacturers   statsbestproducts   statsbestsuppliers   statsbestvouchers   statscarrier   statscatalog   statscheckup   statsdata   statsforecast   statsnewsletter   statspersonalinfos   statsproduct   statsregistrations   statssales   statssearch   statsstock   statsvisits   welcome   "
+	"content": "Modules   blockreassurance   blockwishlist   contactform   dashactivity   dashtrends   productcomments   ps_banner   ps_categorytree   ps_checkpayment   ps_contactinfo   ps_crossselling   ps_customeraccountlinks   ps_customersignin   ps_customtext   ps_dataprivacy   ps_emailalerts   ps_emailsubscription   ps_facetedsearch   ps_featuredproducts   ps_googleanalytics   ps_linklist   ps_searchbar   ps_sharebuttons   ps_shoppingcart   ps_socialfollow   ps_themecusto   statsbestcategories   statsbestcustomers   statsbestmanufacturers   statsbestproducts   statsbestsuppliers   statsbestvouchers   statscarrier   statscatalog   statscheckup   statsdata   statsforecast   statsnewsletter   statspersonalinfos   statsproduct   statsregistrations   statssales   statssearch   statsstock   statsvisits   welcome   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring.html",
@@ -7711,7 +7746,7 @@
 	"title": "Orders",
 	"tags": [],
 	"description": "",
-	"content": "Orders Categories  Create an order   View and edit an order   Tests  Filter orders table   Sort orders   Preview order   View / Edit order   View customer   View Guest   Bulk actions status   Bulk actions - Open in new tabs   Edit status in order page - default status to Canceled   Statistics of the page   Pagination   Change order with dropdown - Awaiting for payment to Payment Accepted   Change order with dropdown - default status to Shipped   Export Orders   Help Button    "
+	"content": "Orders Categories  Create an order   View and edit an order   Tests  Filter orders table   Sort orders   Preview order   View customer   View Guest   Bulk actions status   Bulk actions - Open in new tabs   Edit status in order page - default status to Canceled   Statistics of the page   Pagination   Change order with dropdown - Awaiting for payment to Payment Accepted   Change order with dropdown - default status to Shipped   Export Orders   Help Button    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign.html",
@@ -7999,6 +8034,13 @@
 	"tags": [],
 	"description": "",
 	"content": "ps_emailsubscription Categories  Configuration   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch.html",
+	"title": "ps_facetedsearch",
+	"tags": [],
+	"description": "",
+	"content": "ps_facetedsearch Categories  Configuration   Installation   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts.html",

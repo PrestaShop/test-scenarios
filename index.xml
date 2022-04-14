@@ -1806,6 +1806,15 @@ L&amp;rsquo;action Upgrade sur le module ps_customersignin a réussi.&amp;rdquo;
     </item>
     
     <item>
+      <title>Upgrade ps_facetedsearch module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/upgrade-ps-facetedsearch-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/upgrade-ps-facetedsearch-module.html</guid>
+      <description>Upgrade ps_facetedsearch module Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
+    </item>
+    
+    <item>
       <title>UpgradeShop</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/upgrade/upgradeshop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2836,6 +2845,15 @@ number of order messages = Total of orders messages + 1   Go to create new order
     </item>
     
     <item>
+      <title>Install/Uninstall ps_facetedsearch module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/install-uninstall-ps-facetedsearch-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/install-uninstall-ps-facetedsearch-module.html</guid>
+      <description>Install/Uninstall ps_facetedsearch module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager The Module Manager is well displayed   Click on Upload a module and drop the zip The alert &amp;ldquo;Module installed!&amp;rdquo; is well displayed and the &amp;ldquo;Configure&amp;rdquo; button is well displayed   Refresh the page and search the exact module ps_facetedsearch The module is well displayed   Click on uninstall and confirm the uninstall action without selecting this {color:#172b4d}Option: delete module folder after uninstall.</description>
+    </item>
+    
+    <item>
       <title>Login with an email without account</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customersignin/fo/login-with-an-email-without-account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3821,6 +3839,15 @@ Page title contains Creating a new Customer&amp;quot;   Fill all information : &
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/delete-a-currency.html</guid>
       <description>Delete a currency Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 3 currencies : GBP, JPY and USD 3 new currencies are created
 Message &amp;ldquo;Successful creation&amp;rdquo; appears   Click on the 3-dot button for USD &amp;gt; Delete A popup titled &amp;ldquo;Delete selection&amp;rdquo; appears   Click Delete to confirm the deletion Message &amp;ldquo;Successful deletion.&amp;rdquo; appears</description>
+    </item>
+    
+    <item>
+      <title>Disable / Enable ps_facetedsearch module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/disable-enable-ps-facetedsearch-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/disable-enable-ps-facetedsearch-module.html</guid>
+      <description>Disable / Enable ps_facetedsearch module </description>
     </item>
     
     <item>
@@ -5047,7 +5074,8 @@ Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; appea
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/debug-mode.html</guid>
-      <description>Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices&amp;quot; Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory (src/PrestaShopBundle/Controller/Admin/Sell/Order/) and edit the fileOrderController.php&amp;quot; Change the value of the $orderKpiFactory variable. Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine    </description>
+      <description>Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
+- Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine   Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    </description>
     </item>
     
     <item>
@@ -5599,13 +5627,12 @@ ecoTax: &amp;lsquo;EU VAT For Virtual Products&amp;rsquo;, Update Successful</de
     </item>
     
     <item>
-      <title>View / Edit order</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-edit-order.html</link>
+      <title>Uninstall and delete ps_facetedsearch module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/uninstall-and-delete-ps-facetedsearch-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-edit-order.html</guid>
-      <description>View / Edit order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders The Orders page is well displayed   Click on the icon loop to preview an order created The row order-preview-content is displayed   Add a product to the Order Message &amp;ldquo;The product was successfully added.&amp;rdquo; appears
-The new product is added in the list of Products   Add a Discount to the Order Message &amp;ldquo;Successful update.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/uninstall-and-delete-ps-facetedsearch-module.html</guid>
+      <description>Uninstall and delete ps_facetedsearch module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager The Module Manager is well displayed   Search the exact module ps_facetedsearch The module is well displayed   Click on uninstall and confirm the uninstall action with selecting this Option: delete module folder after uninstall. An alert &amp;ldquo;Uninstall action on module ps_facetedsearch succeeded.&amp;rdquo; is displayed   Refresh the page and search the exact module ps_facetedsearch No result displayed   Check the path +{color:#172b4d}PrestaShop/modules/{color}+ The folder ps_facetedsearch doesn&amp;rsquo;t exist    </description>
     </item>
     
     <item>
@@ -5616,6 +5643,16 @@ The new product is added in the list of Products   Add a Discount to the Order M
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/view-carts.html</guid>
       <description>View carts Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Shopping carts page The Shopping carts page is well displayed   Filter by Order ID = Non Ordered Number of Shopping carts &amp;lt; Total of shopping carts
 The list contains the searched ID order   View the first shopping cart The Shopping cart details page is well displayed</description>
+    </item>
+    
+    <item>
+      <title>View customer</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html</guid>
+      <description>View customer Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Customer Number of orders &amp;lt; Total of orders
+All orders customer contains the searched customer   Click on the Customer Link Redirection to the customer details page in a new Tab    </description>
     </item>
     
     <item>
@@ -6284,13 +6321,13 @@ Message &amp;ldquo;The status has been successfully updated.&amp;rdquo;   Search
     </item>
     
     <item>
-      <title>View customer</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html</link>
+      <title>View Guest</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-customer.html</guid>
-      <description>View customer Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Customer Number of orders &amp;lt; Total of orders
-All orders customer contains the searched customer   Click on the Customer Link Redirection to the customer details page in a new Tab   In The Order page &amp;gt; Click to view an Order The Order listing is well displayed   In the Customer Block &amp;gt; Click on &amp;ldquo;View full details&amp;rdquo; The page is refreshed with the customer details page    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html</guid>
+      <description>View Guest Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Guest name Number of orders &amp;lt; Total of orders
+An order guest contains the searched guest   Click on the guest Link Redirection to the customer details page in a new Tab   Delete the created Guest The guest is well deleted    </description>
     </item>
     
     <item>
@@ -6389,6 +6426,15 @@ categories are sorted by postion (3 -&amp;gt; 2 -&amp;gt; 1)   Sort categories b
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bulk-actions-shops-urls.html</guid>
       <description>Bulk actions shops URLs </description>
+    </item>
+    
+    <item>
+      <title>Bulk actions status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status.html</guid>
+      <description>Bulk actions status Steps    Step Description Expected result     From BO &amp;gt; Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the last order from the list, click on Bulk actions button and Click on &amp;ldquo;Change Order Status&amp;rdquo; A modal &amp;ldquo;Choose an order status&amp;rdquo; is displayed   Select &amp;ldquo;Payment accepted and click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -6840,16 +6886,6 @@ Currency is edited. Currency name is updated with mention &amp;ldquo;(Edited)&am
     </item>
     
     <item>
-      <title>View Guest</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-guest.html</guid>
-      <description>View Guest Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Reset all filters and get the number of orders The order number &amp;gt; 0   Filter orders by Guest name Number of orders &amp;lt; Total of orders
-An order guest contains the searched guest   Click on the guest Link Redirection to the customer details page in a new Tab   Delete the created Guest The guest is well deleted    </description>
-    </item>
-    
-    <item>
       <title>[BO-Add new order] Search - Add - Remove a voucher</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-add-new-order-search-add-remove-a-voucher.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6938,12 +6974,12 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>Bulk actions status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status.html</link>
+      <title>Bulk actions - Open in new tabs</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status.html</guid>
-      <description>Bulk actions status Steps    Step Description Expected result     From BO &amp;gt; Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the last order from the list, click on Bulk actions button and Click on &amp;ldquo;Change Order Status&amp;rdquo; A modal &amp;ldquo;Choose an order status&amp;rdquo; is displayed   Select &amp;ldquo;Payment accepted and click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs.html</guid>
+      <description>Bulk actions - Open in new tabs Steps    Step Description Expected result     From BO &amp;gt; Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select more than one order from the list, click on the Bulk actions button and Click on &amp;ldquo;Open in new Tabs&amp;rdquo; The last order is displayed in a new tab   Come back to Orders pasge An alert &amp;ldquo;It looks like you have exceeded the number of tabs allowed.</description>
     </item>
     
     <item>
@@ -7314,15 +7350,6 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>Bulk actions - Open in new tabs</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-open-in-new-tabs.html</guid>
-      <description>Bulk actions - Open in new tabs Steps    Step Description Expected result     From BO &amp;gt; Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select more than one order from the list, click on the Bulk actions button and Click on &amp;ldquo;Open in new Tabs&amp;rdquo; The last order is displayed in a new tab   Come back to Orders pasge An alert &amp;ldquo;It looks like you have exceeded the number of tabs allowed.</description>
-    </item>
-    
-    <item>
       <title>Change image</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-quickview/change-image.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7391,6 +7418,15 @@ All products contains the searched Name   Click on the drop-down toggle and clic
     </item>
     
     <item>
+      <title>Edit status in order page - default status to Canceled</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html</guid>
+      <description>Edit status in order page - default status to Canceled Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Click on the icon loop to View the last created order the order View page is well displayed   Change last Order status to canceled with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Canceled&amp;rdquo;    </description>
+    </item>
+    
+    <item>
       <title>Edit URL options</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/edit-url-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7443,7 +7479,7 @@ Data is correct    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/my-profile.html</guid>
-      <description>My Profile Steps    Step Description Expected result     Go to BO &amp;gt; Click top right user icon &amp;gt; Click Your Profile Edit your profile page opens   Edit elements of your profile &amp;gt; Save Message Successful update. appears   Go to Advanced Parameters &amp;gt; Team &amp;gt; Employees &amp;gt; Delete your account Message You cannot disable or delete your own account. appears    </description>
+      <description>My Profile Steps    Step Description Expected result     Go to BO &amp;gt; Click top right user icon &amp;gt; Click Your Profile Edit your profile page opens   Edit elements of your profile &amp;gt; Save Message Successful update. appears   Edit First name with an invalid string Message The &amp;ldquo;First name&amp;rdquo; field is invalid. appears   Edit First name with valid string Message Successful update.</description>
     </item>
     
     <item>
@@ -7692,15 +7728,6 @@ All the products contains the searched Name   Click on the drop-down toggle, cli
     </item>
     
     <item>
-      <title>Edit status in order page - default status to Canceled</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html</guid>
-      <description>Edit status in order page - default status to Canceled Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Click on the icon loop to View the last created order the order View page is well displayed   Change last Order status to canceled with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Canceled&amp;rdquo;    </description>
-    </item>
-    
-    <item>
       <title>Enable/Disable a currency</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/enable-disable-a-currency.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7718,6 +7745,18 @@ Currency USD is disabled and displayed in the list   Enable USD from Currency li
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/multistore-options.html</guid>
       <description>Multistore options </description>
+    </item>
+    
+    <item>
+      <title>Statistics of the page</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/statistics-of-the-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/statistics-of-the-page.html</guid>
+      <description>Statistics of the page Steps    Step Description Expected result     Go to FO &amp;gt; Add products to Cart Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Non-ordered carts displayed   Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Conversion Rate Converting your visitors to customers
+When a visitor buys an item, he becomes a customer.
+For example :
+If all visitors become customers &amp;gt; should be 100%</description>
     </item>
     
     <item>
@@ -7850,6 +7889,15 @@ Total (Tax incl.) should be equal to ** Total taxes + Total (Tax excl.)   Add
     </item>
     
     <item>
+      <title>Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html</guid>
+      <description>Pagination Steps    Step Description Expected result     Go to Bo &amp;gt; Orders &amp;gt; Orders List of all Orders appears   number orders ⩽ 10 All orders are on the same page : no pagination available   number orders &amp;gt; 10 Order are display according to &amp;ldquo;Items by page&amp;rdquo;   Add order from BO or FO until number of orders reaches 11 orders List of orders displays with number of order = 11</description>
+    </item>
+    
+    <item>
       <title>Recommended modules for the page</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/recommended-modules-for-the-page.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7857,18 +7905,6 @@ Total (Tax incl.) should be equal to ** Total taxes + Total (Tax excl.)   Add
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/recommended-modules-for-the-page.html</guid>
       <description>Recommended modules for the page Steps    Step Description Expected result     Go to BO &amp;gt; Migrated page like Orders, Products, Customers, etc    Click on button Recommended Modules and Services Popup will open with multiple choices of Modules   Click install on the module of your choice Message Install action on module XXX succeeded. appears
 When installed, button will transform to a Configure button   Click on the button Configure The page will refresh with the configuration page of the module   Click previous on browser Previous page will open   Click again on the button Recommended Modules and Services You will see 2 tabs, one &amp;ldquo;Not installed&amp;rdquo;, one &amp;ldquo;Installed&amp;rdquo;   Go to Installed modules tabs &amp;gt; Click on the dropdown arrow and uninstalled your module Message Uninstall action on module XXX succeeded.</description>
-    </item>
-    
-    <item>
-      <title>Statistics of the page</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/statistics-of-the-page.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/statistics-of-the-page.html</guid>
-      <description>Statistics of the page Steps    Step Description Expected result     Go to FO &amp;gt; Add products to Cart Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Non-ordered carts displayed   Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Conversion Rate Converting your visitors to customers
-When a visitor buys an item, he becomes a customer.
-For example :
-If all visitors become customers &amp;gt; should be 100%</description>
     </item>
     
     <item>
@@ -7917,6 +7953,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/products/bo-product-list-page-delete-bulk-actions.html</guid>
       <description>BO - Product list page - Delete Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products &amp;lt; Total of products
 All products contain the searched Name    </description>
+    </item>
+    
+    <item>
+      <title>Change order with dropdown - Awaiting for payment to Payment Accepted</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</guid>
+      <description>Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo; An invoice is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Payment Accepted&amp;rdquo; and the an invoice is attached    </description>
     </item>
     
     <item>
@@ -7985,15 +8030,6 @@ Invoice fields should match with info in Order details page</description>
     </item>
     
     <item>
-      <title>Pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/pagination.html</guid>
-      <description>Pagination Steps    Step Description Expected result     Go to Bo &amp;gt; Orders &amp;gt; Orders List of all Orders appears   number orders ⩽ 10 All orders are on the same page : no pagination available   number orders &amp;gt; 10 Order are display according to &amp;ldquo;Items by page&amp;rdquo;   Add order from BO or FO until number of orders reaches 11 orders List of orders displays with number of order = 11</description>
-    </item>
-    
-    <item>
       <title>See more / less module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/see-more-less-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8037,12 +8073,12 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>Change order with dropdown - Awaiting for payment to Payment Accepted</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</link>
+      <title>Change order with dropdown - default status  to Shipped</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</guid>
-      <description>Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo; An invoice is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Payment Accepted&amp;rdquo; and the an invoice is attached    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</guid>
+      <description>Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo; and the delivery slip is attached    </description>
     </item>
     
     <item>
@@ -8129,15 +8165,6 @@ An invoice is available   Click on Add a product The addProductTableRow is displ
     </item>
     
     <item>
-      <title>Change order with dropdown - default status  to Shipped</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</guid>
-      <description>Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo; and the delivery slip is attached    </description>
-    </item>
-    
-    <item>
       <title>Check if the unsubscribtion is working in the module configuration</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-if-the-unsubscribtion-is-working-in-the-module-configuration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8162,6 +8189,16 @@ An invoice is available   Click on Add a product The addProductTableRow is displ
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/display-discount-on-product.html</guid>
       <description>Display discount on product </description>
+    </item>
+    
+    <item>
+      <title>Export Orders</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html</guid>
+      <description>Export Orders Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully
+Data is correct    </description>
     </item>
     
     <item>
@@ -8201,13 +8238,13 @@ An invoice is available   Click on Add a product The addProductTableRow is displ
     </item>
     
     <item>
-      <title>Export Orders</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html</link>
+      <title>Help Button </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html</guid>
-      <description>Export Orders Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully
-Data is correct    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html</guid>
+      <description>Help Button Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully
+The document language is English   Close the help sidebar The help sidebar is closed successfully    </description>
     </item>
     
     <item>
@@ -8262,16 +8299,6 @@ Data is correct    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/edit-a-currency.html</guid>
       <description>Edit a currency Steps    Step Description Expected result          </description>
-    </item>
-    
-    <item>
-      <title>Help Button </title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html</guid>
-      <description>Help Button Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully
-The document language is English   Close the help sidebar The help sidebar is closed successfully    </description>
     </item>
     
     <item>
