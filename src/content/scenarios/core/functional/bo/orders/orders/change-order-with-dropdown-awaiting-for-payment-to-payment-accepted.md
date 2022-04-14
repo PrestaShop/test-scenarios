@@ -1,6 +1,6 @@
 ---
 title: "Change order with dropdown - Awaiting for payment to Payment Accepted"
-weight: 12
+weight: 11
 ---
 
 # Change order with dropdown - Awaiting for payment to Payment Accepted

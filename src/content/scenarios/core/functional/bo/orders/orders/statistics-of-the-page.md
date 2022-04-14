@@ -1,6 +1,6 @@
 ---
 title: "Statistics of the page"
-weight: 10
+weight: 9
 ---
 
 # Statistics of the page

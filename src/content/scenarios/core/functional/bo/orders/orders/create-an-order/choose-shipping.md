@@ -15,4 +15,6 @@ weight: 9
 | go back to create order page and Enable the Gift | The gift option is enabled<br><br>In the summary block:<br> the *Total (tax excluded)* is updated =  Total product + Gift-wrapping price ( added in the pre-condition)<br> the *Total (tax included)* is updated = *Total (tax excluded)* + Tax |
 | In the Gift message, set a faker message | The message is well displayed |
 | Choose a payment, select an order status and click on create order | The order view page is well displayed<br><br>In the status block: the Recycled packaging and the Gift wrapping are well displayed<br><br>In the Carrier block: the gift message is well displayed |
-| If no shipping is available | Message No carrier can be applied to this order will appear<br><br>No further block, can't continue to create the order |
+| Go to FO > Sign in the customer and go to Your account > Order History page | The Order history page is well displayed |
+| Click on details for last order created | The order details page is displayed and check:<br><br>* You have given permission to receive your order in recycled packaging.<br>* You have requested gift wrapping for this order.<br>* Message $Your_gift_mesage_expression |
+| Go to BO > Orders > Orders > click Add new order > Search a customer and choose it > Search a product & click on it | Check that the Shipping block is well displayed |

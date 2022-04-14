@@ -11,3 +11,5 @@ weight: 1
 | Close the menu | The animation is smooth. The menu is now a thinner vertical blue band with a few icons |
 | Check every item on the menu | All children items are displayed on a separate block on the right (when applicable). All links work as expected |
 | Go to a specific page in a children block (ex: Orders > Orders). Re-open the menu | The corresponding children item is visible (not collapsed) and correctly highlighted |
+| Click on the chevron icon on the top right corner of the menu | Menu should be collapsed, only icons are displayed |
+| Resize the page to a smaller size | See that the menu is hidden and a hamburger icon is displayed |

@@ -1,6 +1,6 @@
 ---
 title: "Bulk actions status"
-weight: 7
+weight: 6
 ---
 
 # Bulk actions status

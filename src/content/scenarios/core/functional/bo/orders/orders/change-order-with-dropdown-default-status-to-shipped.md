@@ -1,6 +1,6 @@
 ---
 title: "Change order with dropdown - default status  to Shipped"
-weight: 13
+weight: 12
 ---
 
 # Change order with dropdown - default status  to Shipped

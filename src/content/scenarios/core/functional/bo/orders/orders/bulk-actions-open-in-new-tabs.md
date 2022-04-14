@@ -1,6 +1,6 @@
 ---
 title: "Bulk actions - Open in new tabs"
-weight: 8
+weight: 7
 ---
 
 # Bulk actions - Open in new tabs

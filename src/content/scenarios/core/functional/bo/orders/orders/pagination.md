@@ -1,6 +1,6 @@
 ---
 title: "Pagination"
-weight: 11
+weight: 10
 ---
 
 # Pagination

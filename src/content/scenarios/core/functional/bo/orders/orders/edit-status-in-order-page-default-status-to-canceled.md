@@ -1,6 +1,6 @@
 ---
 title: "Edit status in order page - default status to Canceled"
-weight: 9
+weight: 8
 ---
 
 # Edit status in order page - default status to Canceled

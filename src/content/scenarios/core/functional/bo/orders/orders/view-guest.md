@@ -1,6 +1,6 @@
 ---
 title: "View Guest"
-weight: 6
+weight: 5
 ---
 
 # View Guest
