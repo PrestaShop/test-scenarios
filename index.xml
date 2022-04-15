@@ -435,8 +435,8 @@ The invoice is created successfully   Add the first partial refund Partial refun
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-credit-slips-list.html</guid>
-      <description>Consult credit slips list Steps    Step Description Expected result     Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Case 1 : You have no credit slip
-Credit slips page is displayed with message alert-info &amp;ldquo;You have not received any credit slips.&amp;rdquo;   Create an order (pre-condition)    Go to your account &amp;gt; Go to Order History See 1 order with status &amp;ldquo;Awaiting bank wire payment&amp;rdquo;   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Choose Order and change status to &amp;ldquo;Shipped&amp;rdquo; Order is updated with new Order Status : Shipped   Go to FO &amp;gt; Order History tab &amp;gt; Refresh Status of Order is refresh to Shipped   Click on Details of order &amp;gt; Check the product you want to return &amp;gt; Add a Merchandise Return message &amp;gt; Click on Request a return Merchandise Return page is displayed</description>
+      <description>Consult credit slips list Steps    Step Description Expected result     Case 1 : You have no credit slip
+Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Credit slips page is displayed with message alert-info &amp;ldquo;You have not received any credit slips.&amp;rdquo;   Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Case 2 : You have credit slips</description>
     </item>
     
     <item>
