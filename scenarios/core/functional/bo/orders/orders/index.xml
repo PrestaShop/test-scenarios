@@ -64,7 +64,7 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status.html</guid>
-      <description>Bulk actions status Steps    Step Description Expected result     From BO &amp;gt; Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the last order from the list, click on Bulk actions button and Click on &amp;ldquo;Change Order Status&amp;rdquo; A modal &amp;ldquo;Choose an order status&amp;rdquo; is displayed   Select &amp;ldquo;Payment accepted and click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
+      <description>Bulk actions status Steps    Step Description Expected result     From BO &amp;gt; Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the 2 last orders from the list, click on Bulk actions button and Click on &amp;ldquo;Change Order Status&amp;rdquo; A modal &amp;ldquo;Choose an order status&amp;rdquo; is displayed   Select &amp;ldquo;Payment accepted and click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -107,21 +107,23 @@ If all visitors become customers &amp;gt; should be 100%</description>
     </item>
     
     <item>
-      <title>Change order with dropdown - Awaiting for payment to Payment Accepted</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</link>
+      <title>Check Invoice downloaded from list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-invoice-downloaded-from-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</guid>
-      <description>Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo; An invoice is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Payment Accepted&amp;rdquo; and the an invoice is attached    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-invoice-downloaded-from-list.html</guid>
+      <description>Check Invoice downloaded from list Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders page title is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo;
+Check the invoice file An invoice is downloaded
+Check that all informations are visible in the invoice</description>
     </item>
     
     <item>
-      <title>Change order with dropdown - default status  to Shipped</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</link>
+      <title>Check delivery slip downloaded from list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-delivery-slip-downloaded-from-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</guid>
-      <description>Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo; and the delivery slip is attached    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-delivery-slip-downloaded-from-list.html</guid>
+      <description>Check delivery slip downloaded from list Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo; and the delivery slip is attached    </description>
     </item>
     
     <item>

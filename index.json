@@ -126,6 +126,13 @@
 	"content": "BO - Filter And Quick Edit Categories Steps    Step Description Expected result     Go to the Catalog \u0026gt; \u0026ldquo;Categories\u0026rdquo; page Categories listing is displayed correctly   Reset all filters All filters are reset. All categories are displayed   Save the number of categories in a variable Number of categories is saved   Filter By id. Categories list is filtered. Categories listed have the searched ID   Reset all filters All filters are reset. All categories are displayed   Filter by Name Categories list is filtered. Categories listed contains the searched \u0026ldquo;Name\u0026rdquo;   Reset all filters All filters are reset. All categories are displayed   Filter by Description Categories list is filtered. Categories listed contains the searched \u0026ldquo;Description\u0026rdquo;   Reset all filters All filters are reset. All categories are displayed   Filter by Position. Categories list is filtered. Categories listed have the searched Position\u0026quot;   Reset all filters All filters are reset. All categories are displayed   Filter By Displayed. The customer list is filtered. Customers listed have the searched status   Reset all filters All filters are reset. All categories are displayed   Change Displayed to \u0026ldquo;No\u0026rdquo; for \u0026ldquo;first Category\u0026rdquo; An alert \u0026ldquo;The status has been successfully updated.\u0026rdquo; is displayed and the Icon is changed to Not-valid   Change Displayed to \u0026ldquo;YES\u0026rdquo; for \u0026ldquo;first Category\u0026rdquo; An alert \u0026ldquo;The status has been successfully updated.\u0026rdquo; is displayed and theIcon is changed to valid   Reset all Filters Number of categories = Total of categories    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-sort-filter.html",
+	"title": "BO - Outsatnding - Sort &amp; Filter",
+	"tags": [],
+	"description": "",
+	"content": "BO - Outsatnding - Sort \u0026amp; Filter "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/installation/bo-uninstall-the-module.html",
 	"title": "BO - Uninstall the module",
 	"tags": [],
@@ -1449,6 +1456,13 @@
 	"content": "BO - Install the module Steps    Step Description Expected result          "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-view-invoice.html",
+	"title": "BO - Outsatnding - View Invoice",
+	"tags": [],
+	"description": "",
+	"content": "BO - Outsatnding - View Invoice "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/login/bo-password-reminder.html",
 	"title": "BO - Password reminder",
 	"tags": [],
@@ -2602,6 +2616,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Monitoring - Sort \u0026amp; Pagination "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-view-order.html",
+	"title": "BO - Outsatnding - View Order",
+	"tags": [],
+	"description": "",
+	"content": "BO - Outsatnding - View Order "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-suppliers-sort-pagination.html",
@@ -4799,7 +4820,7 @@
 	"title": "Bulk actions status",
 	"tags": [],
 	"description": "",
-	"content": "Bulk actions status Steps    Step Description Expected result     From BO \u0026gt; Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Select the last order from the list, click on Bulk actions button and Click on \u0026ldquo;Change Order Status\u0026rdquo; A modal \u0026ldquo;Choose an order status\u0026rdquo; is displayed   Select \u0026ldquo;Payment accepted and click on \u0026ldquo;Update status\u0026rdquo; An alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the Order status is updated to \u0026ldquo;Payment accepted\u0026rdquo;    "
+	"content": "Bulk actions status Steps    Step Description Expected result     From BO \u0026gt; Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Select the 2 last orders from the list, click on Bulk actions button and Click on \u0026ldquo;Change Order Status\u0026rdquo; A modal \u0026ldquo;Choose an order status\u0026rdquo; is displayed   Select \u0026ldquo;Payment accepted and click on \u0026ldquo;Update status\u0026rdquo; An alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the Order status is updated to \u0026ldquo;Payment accepted\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/caching.html",
@@ -5929,13 +5950,6 @@
 	"content": "BO - Product list page - Delete Bulk actions Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products \u0026lt; Total of products\nAll products contain the searched Name    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html",
-	"title": "Change order with dropdown - Awaiting for payment to Payment Accepted",
-	"tags": [],
-	"description": "",
-	"content": "Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View invoice\u0026rdquo; An invoice is downloaded   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Payment Accepted\u0026rdquo; and the an invoice is attached    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/changing-color-when-changing-combination-color.html",
 	"title": "Changing color when changing combination - Color",
 	"tags": [],
@@ -5955,6 +5969,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Check invoice Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View Order created with the virtual product \u0026gt; Change status of order Status of order is now \u0026ldquo;Payment accepted\u0026rdquo;\nMessage \u0026ldquo;Successful update.\u0026rdquo; appears   Click on View Invoice \u0026gt; Save the order Order is saved in your documents\nInvoice fields should match with info in Order details page\nand check that the Carrier field is empty   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View Order created with the customized product \u0026gt; Change status of order Status of order is now \u0026ldquo;Payment accepted\u0026rdquo;\nMessage \u0026ldquo;Successful update.\u0026rdquo; appears   Click on View Invoice \u0026gt; Save the order Order is saved in your documents\nInvoice fields should match with info in Order details page\nand check that the customization is displayed   Add a product with a specific price to the order \u0026gt; Save Message \u0026ldquo;The product was successfully added.\u0026rdquo; appears   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Product block should be updated, the new product is displayed, and check that column Base price (Tax excl.) is added with a correct value.   Remove the product with the specific price Message \u0026ldquo;The product was successfully removed.\u0026ldquo;appears   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Product block should be updated, only one product is displayed, and check that column Base price (Tax excl.) is not displayed anymore.   Add a product with an ecotax to the order \u0026gt; Save Message \u0026ldquo;The product was successfully added.\u0026rdquo; appears   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Product block should be updated, the new product is displayed, and check that ecotax is displayed with a correct value.   Click on the dropdown button in the shipping address \u0026gt; Click on \u0026ldquo;Edit existing address\u0026rdquo; and Update required fields and save\n# First name\n# Last name\n# Address\n# Zip/postal code\n# City The modal is closed, the order details page is displayed and the shipping address is updated   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Shipping address block should be updated   Click on the dropdown button in the Invoice address \u0026amp; Click on \u0026ldquo;Edit existing address\u0026rdquo; and Update required fields and save\n# First name\n# Last name\n# Address\n# Zip/postal code\n# City The modal is closed, the order details page is displayed and the invoice address is updated   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Invoice address block should be updated   Click on the Document Tab, Click Add a note, set a note and save Message \u0026ldquo;Successful update.\u0026rdquo; is displayed   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice The Note block is well added to the invoice   Scroll down to Carrier \u0026gt; Click on Carrier tab \u0026gt; Click on Edit and Update the carrier Message \u0026ldquo;Message Successful update\u0026rdquo; displayed   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice The Shipping Costs in the invoice is well updated   Click Add new discount and Set these fields:\n# Name\n# Value\n# Type : Percent\nand click on Save An alert \u0026ldquo;Successful update.\u0026rdquo; alert is displayed and\nDiscounts = Total products - Value\nA new line is added   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice A new line for discount is well added in the invoice   Click on Remove to delete the discount An alert \u0026ldquo;Successful update.\u0026rdquo; is displayed\nThe line discount is removed   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice The discount line is removed from the invoice   In the payment tab, try to add a payment to the invoice new line added to the payment   Download and view the new invoice Invoice =\u0026gt; in the Payment Method, the new amount is well added    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-invoice-downloaded-from-list.html",
+	"title": "Check Invoice downloaded from list",
+	"tags": [],
+	"description": "",
+	"content": "Check Invoice downloaded from list Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders page title is displayed correctly   Change last Order status to payment accepted with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View invoice\u0026rdquo;\nCheck the invoice file An invoice is downloaded\nCheck that all informations are visible in the invoice\n-\u0026gt; Order reference\n-\u0026gt; Delivery address\n-\u0026gt; Customer\n-\u0026gt; Total paid   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Payment Accepted\u0026rdquo; and an invoice is attached    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-you-can-t-register-an-email-already-registered.html",
@@ -6013,18 +6034,18 @@
 	"content": "BO - Cart rules - Case 12 - Group customer restriction Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discounts \u0026gt; Cart rules page and Click on \u0026ldquo;Add new cart rule\u0026rdquo; page The \u0026ldquo;Add new cart rule\u0026rdquo; page is well displayed   Create a new discount, set these fields:\n# Information:\n1. Name\n2. Description\n3. Code\n# Conditions:\n1. Select Customer Group Selection: Unselected groups = Customer + Selected groups = Vistors + Guestss\n# Actions:\n1. Discount = 100 Euro tax included\nand click on Save An alert \u0026ldquo;Successful creation.\u0026rdquo; is displayed   Go to FO The FO is well displayed   Add product to cart and click on Proceed to checkout The Shopping cart is well displayed and the link \u0026ldquo;Have a promo code?\u0026rdquo; is displayed   Click on \u0026ldquo;Have a promo code?\u0026rdquo; The promo code section is displayed   Set the Code and click on Add An alert \u0026ldquo;You cannot use this voucher\u0026rdquo; is displayed   Add product to cart and Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The Shopping cart is well displayed and the link \u0026ldquo;Have a promo code?\u0026rdquo; is displayed   Click on \u0026ldquo;Have a promo code?\u0026rdquo; The promo code section is displayed   Set the Code and click on Add The discount is well applied and the total is ok   Remove discount The discount is well removed   Remove product The product is well removed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html",
-	"title": "Change order with dropdown - default status  to Shipped",
-	"tags": [],
-	"description": "",
-	"content": "Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View Delivery slip\u0026rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Shipped\u0026rdquo; and the delivery slip is attached    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-access-to-the-orders.html",
 	"title": "Check access to the orders",
 	"tags": [],
 	"description": "",
 	"content": "Check access to the orders Steps    Step Description Expected result          "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-delivery-slip-downloaded-from-list.html",
+	"title": "Check delivery slip downloaded from list",
+	"tags": [],
+	"description": "",
+	"content": "Check delivery slip downloaded from list Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View Delivery slip\u0026rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Shipped\u0026rdquo; and the delivery slip is attached    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-multi-invoice-behaviour.html",
@@ -6745,7 +6766,7 @@
 	"title": "Customers",
 	"tags": [],
 	"description": "",
-	"content": "Customers Categories  Addresses   Customers   "
+	"content": "Customers Categories  Addresses   Customers   Outstanding   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers.html",
@@ -7746,7 +7767,7 @@
 	"title": "Orders",
 	"tags": [],
 	"description": "",
-	"content": "Orders Categories  Create an order   View and edit an order   Tests  Filter orders table   Sort orders   Preview order   View customer   View Guest   Bulk actions status   Bulk actions - Open in new tabs   Edit status in order page - default status to Canceled   Statistics of the page   Pagination   Change order with dropdown - Awaiting for payment to Payment Accepted   Change order with dropdown - default status to Shipped   Export Orders   Help Button    "
+	"content": "Orders Categories  Create an order   View and edit an order   Tests  Filter orders table   Sort orders   Preview order   View customer   View Guest   Bulk actions status   Bulk actions - Open in new tabs   Edit status in order page - default status to Canceled   Statistics of the page   Pagination   Check Invoice downloaded from list   Check delivery slip downloaded from list   Export Orders   Help Button    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign.html",
@@ -7761,6 +7782,13 @@
 	"tags": [],
 	"description": "",
 	"content": "OrdersBO Tests  FilterOrders   EditOrder   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding.html",
+	"title": "Outstanding",
+	"tags": [],
+	"description": "",
+	"content": "Outstanding Tests  BO - Outsatnding - Sort \u0026amp; Filter   BO - Outsatnding - View Invoice   BO - Outsatnding - View Order   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration.html",

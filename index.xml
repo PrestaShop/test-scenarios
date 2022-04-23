@@ -193,6 +193,15 @@ Set these fields:
     </item>
     
     <item>
+      <title>BO - Outsatnding - Sort &amp; Filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-sort-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-sort-filter.html</guid>
+      <description>BO - Outsatnding - Sort &amp;amp; Filter </description>
+    </item>
+    
+    <item>
       <title>BO - Uninstall the module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/installation/bo-uninstall-the-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1955,6 +1964,15 @@ all rows column name contains &amp;lsquo;todelete&amp;rsquo;   Select All files 
     </item>
     
     <item>
+      <title>BO - Outsatnding - View Invoice</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-view-invoice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-view-invoice.html</guid>
+      <description>BO - Outsatnding - View Invoice </description>
+    </item>
+    
+    <item>
       <title>BO - Password reminder</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/login/bo-password-reminder.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3484,6 +3502,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-monitoring-sort-pagination.html</guid>
       <description>BO - Monitoring - Sort &amp;amp; Pagination </description>
+    </item>
+    
+    <item>
+      <title>BO - Outsatnding - View Order</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-view-order.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-view-order.html</guid>
+      <description>BO - Outsatnding - View Order </description>
     </item>
     
     <item>
@@ -6434,7 +6461,7 @@ categories are sorted by postion (3 -&amp;gt; 2 -&amp;gt; 1)   Sort categories b
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bulk-actions-status.html</guid>
-      <description>Bulk actions status Steps    Step Description Expected result     From BO &amp;gt; Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the last order from the list, click on Bulk actions button and Click on &amp;ldquo;Change Order Status&amp;rdquo; A modal &amp;ldquo;Choose an order status&amp;rdquo; is displayed   Select &amp;ldquo;Payment accepted and click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
+      <description>Bulk actions status Steps    Step Description Expected result     From BO &amp;gt; Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Select the 2 last orders from the list, click on Bulk actions button and Click on &amp;ldquo;Change Order Status&amp;rdquo; A modal &amp;ldquo;Choose an order status&amp;rdquo; is displayed   Select &amp;ldquo;Payment accepted and click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -7956,15 +7983,6 @@ All products contain the searched Name    </description>
     </item>
     
     <item>
-      <title>Change order with dropdown - Awaiting for payment to Payment Accepted</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-awaiting-for-payment-to-payment-accepted.html</guid>
-      <description>Change order with dropdown - Awaiting for payment to Payment Accepted Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo; An invoice is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Payment Accepted&amp;rdquo; and the an invoice is attached    </description>
-    </item>
-    
-    <item>
       <title>Changing color when changing combination - Color</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/changing-color-when-changing-combination-color.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7991,6 +8009,17 @@ All products contain the searched Name    </description>
       <description>Check invoice Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; View Order created with the virtual product &amp;gt; Change status of order Status of order is now &amp;ldquo;Payment accepted&amp;rdquo;
 Message &amp;ldquo;Successful update.&amp;rdquo; appears   Click on View Invoice &amp;gt; Save the order Order is saved in your documents
 Invoice fields should match with info in Order details page</description>
+    </item>
+    
+    <item>
+      <title>Check Invoice downloaded from list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-invoice-downloaded-from-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-invoice-downloaded-from-list.html</guid>
+      <description>Check Invoice downloaded from list Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders page title is displayed correctly   Change last Order status to payment accepted with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View invoice&amp;rdquo;
+Check the invoice file An invoice is downloaded
+Check that all informations are visible in the invoice</description>
     </item>
     
     <item>
@@ -8073,21 +8102,21 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>Change order with dropdown - default status  to Shipped</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/change-order-with-dropdown-default-status-to-shipped.html</guid>
-      <description>Change order with dropdown - default status to Shipped Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo; and the delivery slip is attached    </description>
-    </item>
-    
-    <item>
       <title>Check access to the orders</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-access-to-the-orders.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-access-to-the-orders.html</guid>
       <description>Check access to the orders Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>Check delivery slip downloaded from list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-delivery-slip-downloaded-from-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-delivery-slip-downloaded-from-list.html</guid>
+      <description>Check delivery slip downloaded from list Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert &amp;ldquo;Successful update.&amp;rdquo; is displayed and the order status is updated   Click on &amp;ldquo;View Delivery slip&amp;rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The &amp;ldquo;Your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Order history and details&amp;rdquo; The Order history page is displayed and check that the last status order is &amp;ldquo;Shipped&amp;rdquo; and the delivery slip is attached    </description>
     </item>
     
     <item>
