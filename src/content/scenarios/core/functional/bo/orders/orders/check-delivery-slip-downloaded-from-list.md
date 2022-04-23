@@ -1,9 +1,9 @@
 ---
-title: "Change order with dropdown - default status  to Shipped"
+title: "Check delivery slip downloaded from list"
 weight: 12
 ---
 
-# Change order with dropdown - default status  to Shipped
+# Check delivery slip downloaded from list
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
