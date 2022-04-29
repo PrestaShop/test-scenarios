@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1651126798" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1651126798" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1651126798" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1651126798" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1651126798" rel="stylesheet">
-    <link href="../../../../../../style.css?1651126798" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1651212898" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1651212898" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1651212898" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1651212898" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1651212898" rel="stylesheet">
+    <link href="../../../../../../style.css?1651212898" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1651126798"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1651212898"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -51371,60 +51371,44 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to Bo &gt; Orders &gt; Orders</td>
-<td>List of all Orders appears</td>
+<td>Go to Bo &gt; Orders &gt; Orders list page</td>
+<td>List of all Orders well displayed</td>
 </tr>
 <tr>
-<td><em>number orders <em>⩽</em> 10</em></td>
-<td>All orders are on the same page : no pagination available</td>
+<td>Reset filter and get the number of all orders created</td>
+<td>No filter was applied and the <em>NumOrder</em>= number of orders ( = 5+6 = 11 if it is a fresh install)</td>
 </tr>
 <tr>
-<td><em>number orders <em>&gt;</em> 10</em></td>
-<td>Order are display according to &ldquo;Items by page&rdquo;</td>
+<td>Change &ldquo;items per page&rdquo; to 10<br><br>Get the number of Pages = <em>NumPage</em> = up round (NumbOrder / 10), For example if we have 11 orders, NumPage  = 2</td>
+<td>Page reloads with 10 items on the first page<br><br>Buttons appear to go to the next page<br><br>The number of pages is correct</td>
 </tr>
 <tr>
-<td>Add order from BO or FO until number of orders reaches 11 orders</td>
-<td>List of orders displays with number of order = 11<br><br>Pagination bar at the bottom of the page displays</td>
+<td>Click on the next button</td>
+<td>The next page is well displayed and check (page 2 / <em>NumPage</em>) is correct</td>
 </tr>
 <tr>
-<td>Change &ldquo;items per page&rdquo; to 10</td>
-<td>Page reloads with 10 items on the first page<br><br>Buttons appear to go to the next page</td>
-</tr>
-<tr>
-<td>Click on page 2 or arrow &ldquo;&gt;&rdquo; to see the next page</td>
-<td>Only one order should appear</td>
-</tr>
-<tr>
-<td>Change &ldquo;items per page&rdquo; to 20</td>
-<td>Page reloads with all items on the first page = 11 orders<br><br>Only one page of order is available</td>
+<td>Click on Previous button</td>
+<td>The first page is well displayed</td>
 </tr>
 <tr>
 <td>Change &ldquo;items per page&rdquo; to 50</td>
-<td>Page reloads with all items on the first page = 11 orders<br><br>Only one page of orders is available</td>
+<td>Page reloads with all items on the first page = <em>NumOrder</em> orders<br><br>Only one page of orders is available</td>
 </tr>
 <tr>
-<td>Change &ldquo;items per page&rdquo; to 100</td>
-<td>Page reloads with all items on the first page = 11 orders<br><br>Only one page of orders is available</td>
+<td>Change &ldquo;items per page&rdquo; to 10</td>
+<td>Page reloads with 10 items on the first page<br><br>Buttons appear to go to the next page<br><br>The number of pages is correct</td>
 </tr>
 <tr>
-<td>Add orders to reach 21 orders total</td>
-<td>Items per page : 10<br><br>You should see 3 pages order orders</td>
+<td><em>Sort</em> By Total  DESC</td>
+<td>The first page is well sorted by total DESC</td>
 </tr>
 <tr>
-<td>Change &ldquo;items per page&rdquo; : 20</td>
-<td>Pagination is available : 2 pages are available</td>
+<td>Click on next page</td>
+<td>Check that the second page is well sorted by total DESC</td>
 </tr>
 <tr>
-<td>Change &ldquo;Items per page&rdquo; : 50 / 100</td>
-<td>Only one page of order is available</td>
-</tr>
-<tr>
-<td><em>Filter</em><br><br>By id : ASC or DESC</td>
-<td>Pagination should keep its configuration</td>
-</tr>
-<tr>
-<td>Filter by Status &gt; Choose a status &gt; Click Search</td>
-<td>Order list should be filterer with the payment chosen<br><br>If &lt; to &ldquo;Items per page&rdquo; : one page is available with no pagination<br><br>if &gt; to &ldquo;Items per page&rdquo; : X pages are available to go through</td>
+<td>Filter by the customer John Doe and Click Search</td>
+<td>The order list should be filtered with the customer chosen<br><br>If &lt; to &ldquo;Items per page&rdquo; : one page is available with no pagination<br><br>if &gt; to &ldquo;Items per page&rdquo; : X pages are available to go through</td>
 </tr>
 </tbody>
 </table>
@@ -51433,9 +51417,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on April 27, 2022
+  Last updated on April 29, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/51ae9e0c0e6f3ef91349e52ebebbfbba85322403">"[Update] JIRA XRay Tests" (51ae9e0c0e)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/dd11da4ac1f60c5d7a23cab4d07d719ef465aaa0">"[Update] JIRA XRay Tests" (dd11da4ac1)</a>
   
 </div>
 
@@ -51456,17 +51440,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1651126798"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1651126798"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1651126798"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1651126798"></script>
-    <script src="../../../../../../js/featherlight.min.js?1651126798"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1651126798"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1651126798"></script>
-    <script src="../../../../../../js/learn.js?1651126798"></script>
-    <script src="../../../../../../js/hugo-learn.js?1651126798"></script>
+    <script src="../../../../../../js/clipboard.min.js?1651212898"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1651212898"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1651212898"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1651212898"></script>
+    <script src="../../../../../../js/featherlight.min.js?1651212898"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1651212898"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1651212898"></script>
+    <script src="../../../../../../js/learn.js?1651212898"></script>
+    <script src="../../../../../../js/hugo-learn.js?1651212898"></script>
     
-    <script src="../../../../../../main.js?1651126798"></script>
+    <script src="../../../../../../main.js?1651212898"></script>
     
     
 
