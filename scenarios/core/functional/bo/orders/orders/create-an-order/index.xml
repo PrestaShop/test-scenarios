@@ -83,12 +83,13 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; S
     </item>
     
     <item>
-      <title>Choose adresses</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-adresses.html</link>
+      <title>Choose address</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-address.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-adresses.html</guid>
-      <description>Choose adresses Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Choose a customer &amp;gt; Choose a product &amp;gt; Scroll down to block Addresses &amp;gt; Click Add a new Address A Popup of Addresses displays   Fill the fields with dummy info &amp;gt; Add a wrong format Zip Code &amp;gt; Save A warning should be displayed with a message : Your Zip/Postal code is incorrect.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-address.html</guid>
+      <description>Choose address Steps    Step Description Expected result     Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed.
+Check that the Addresses block displays 2 droplists: for the delivery address and for the invoice.   open the drop down of the delivery part and choose my adress the adress displayed below the drop down is changed to &amp;ldquo;John DOE</description>
     </item>
     
     <item>

@@ -5523,11 +5523,11 @@
 	"content": "Check that the CSV export by subscriber is working Steps    Step Description Expected result          "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-adresses.html",
-	"title": "Choose adresses",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-address.html",
+	"title": "Choose address",
 	"tags": [],
 	"description": "",
-	"content": "Choose adresses Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click Add new order \u0026gt; Choose a customer \u0026gt; Choose a product \u0026gt; Scroll down to block Addresses \u0026gt; Click Add a new Address A Popup of Addresses displays   Fill the fields with dummy info \u0026gt; Add a wrong format Zip Code \u0026gt; Save A warning should be displayed with a message : Your Zip/Postal code is incorrect. It must be entered as follows: 0000   Correct the Zip code to match with format \u0026gt; Save New Address is saved   Go to Customers \u0026gt; Addresses See that new address has been saved   In the Order creation process \u0026gt; Click on dropdown in Delivery and Invoice part See your new address displayed   Change the address \u0026gt; Shipping should be updated If No Carrier available, a message will appear : No carrier can be applied to this order   Click on Edit on an existing address \u0026gt; Update address \u0026gt; Save Popup displays, after saving popup disappears    "
+	"content": "Choose address Steps    Step Description Expected result     Go to BO -\u0026gt; Orders page and click on Add new Order The Create order page is displayed   Search customer \u0026lsquo;John DOE\u0026rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed.\nCheck that the Addresses block displays 2 droplists: for the delivery address and for the invoice.   open the drop down of the delivery part and choose my adress the adress displayed below the drop down is changed to \u0026ldquo;John DOE\nMy Company\n16, Main street 2nd floor\nMiami, Florida 33133\nUnited States\n0102030405\u0026rdquo;   Click on the button edit to modify the delivery adress The popup adress is displayed   Edit all required data and save The popup adress is closed and the adress is modified in the block delivery   Go to the page order then click on view of the order with ID=1 check that shipping adress and the invoice adress are not changed after modification \u0026ldquo;John DOE\nMy Company\n16, Main street 2nd floor\nMiami, Florida 33133\nUnited States\n0102030405\u0026rdquo;   Go to FO ang login with the customer John DOE \u0026gt; Go to the page adresses FO is well displayed\nMy adress is well edit with the data set in the step 5   Go to the page order history and detail and click on details of the first order check that the Delivery address My address is still \u0026ldquo;John DOE\nMy Company\n16, Main street 2nd floor\nMiami, Florida 33133\nUnited States\n0102030405\u0026rdquo;   Go to BO\u0026gt;customers \u0026gt;adress\u0026gt; click on edit of the previous edited adress page adresses is well displayed   restore the default data of the customers Jonh DOE and save The alert \u0026ldquo;update succeful\u0026rdquo; is displayed   Return to BO -\u0026gt; Orders page and click on Add new Order The Create order page is displayed   Search customer \u0026lsquo;John DOE\u0026rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed.\nCheck that the Addresses block displays 2 droplists: for the delivery address and for the invoice.   Click on the button add new adress The popup adress is well displayed   Set all required data to add the adress then click on save The popup adress is closed and the new adress added is presnt in the droplists: for the delivery address and for the invoice.   Click on the droplist of the delivery and choose the new adress added. The adress displayed bellow the blocs delivery is changed to the new adress   Click on the droplist of the invoice and choose the new adress added. The adress displayed bellow the blocs invoices is changed to the new adress   Click on the button edit to modify the delivery adress The popup adress is displayed and contain the data of the new adress added   change all data then save The popup adress is closed and the new adress edited is displayed with the new data in both blocs delivery and invoice   Go to the page customers \u0026gt; adresses check that the new adress edited exist   Click on add new adress the page adresses is opened   Set the customer mail to pub@prestashop.com\nset the remaining data then save the list of adress and green alerte \u0026ldquo;Successful creation.\u0026rdquo; are displayed\nthe new adress is added   Go to BO\u0026gt;order page \u0026gt; add new order \u0026gt; choose customer Jonh DOE The customer-checkout-history block, the cart block and the address block are displayed.\nCheck that the Addresses block displays 2 droplists: for the delivery address and for the invoice.   open the droplist of delivery block check that the adress added from the page customer \u0026gt;adress is well added   open the droplist of invoice block check that the adress added from the page customer \u0026gt;adress is well added   Go to the page customers \u0026gt; adresses\u0026gt; delete the added adress a popup to confirm deletion is displayed with the message \u0026ldquo;Are you sure you want to delete the selected item(s)?\u0026rdquo;   Click on delete the adress is deleted and a green alert \u0026ldquo;Successful deletion.\u0026rdquo; is displayed   Go to BO\u0026gt;order page \u0026gt; add new order \u0026gt; choose customer Jonh DOE The customer-checkout-history block, the cart block and the address block are displayed.\nCheck that the Addresses block displays 2 droplists: for the delivery address and for the invoice.   open the droplist of delivery block the adress delete doesn\u0026rsquo;t exist anymore in the delivery droplist   open the droplist of invoice block the adress delete doesn\u0026rsquo;t exist anymore in the invoice droplist    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-and-add-a-new-customer.html",
@@ -5556,13 +5556,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Duplicate Product Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products \u0026lt; Total of products\nAll products contains the searched Name   Click on the drop-down toggle and click on Duplicate An alert \u0026ldquo;Product successfully duplicated.\u0026rdquo; is displayed and the product Name contains \u0026ldquo;copy of searched Name\u0026rdquo;   Go to Products list page and delete the duplicated product The product is weel removed   Reset all filters Number of products = Total of products   Do the same with bulk action Duplicate (selecting several products) Duplicate is OK, and duplicate progress bar is OK    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/edit-status-in-order-page-default-status-to-canceled.html",
-	"title": "Edit status in order page - default status to Canceled",
-	"tags": [],
-	"description": "",
-	"content": "Edit status in order page - default status to Canceled Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to canceled with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Canceled\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/edit-url-options.html",
@@ -5661,6 +5654,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Uninstall/Install Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manger and search ps_themecusto The module page should be displayed and module ps_themecusto should appear in the module page   Click on uninstall and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -\u0026gt; Module catalog   Go to Module catalog and search ps_themecusto The module catalog page should be displayed and module ps_themecusto should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -\u0026gt; Module manager and search ps_themecusto The module should be displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/update-order-status.html",
+	"title": "Update order status",
+	"tags": [],
+	"description": "",
+	"content": "Update order status Steps    Step Description Expected result     Go to BO\u0026gt; Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to canceled with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Canceled\u0026rdquo;   Go to BO\u0026gt; Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders page title is displayed correctly   Change last Order status to payment accepted with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View invoice\u0026rdquo;\nCheck the invoice file An invoice is downloaded\nCheck that all informations are visible in the invoice\n-\u0026gt; Order reference\n-\u0026gt; Delivery address\n-\u0026gt; Customer\n-\u0026gt; Total paid   Go to FO The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Payment Accepted\u0026rdquo; and an invoice is attached   Go to BO\u0026gt; Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View Delivery slip\u0026rdquo; A delivery slip is downloaded   Go to FO The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Shipped\u0026rdquo; and the delivery slip is attached    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/upgrade.html",
@@ -5971,13 +5971,6 @@
 	"content": "Check invoice Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View Order created with the virtual product \u0026gt; Change status of order Status of order is now \u0026ldquo;Payment accepted\u0026rdquo;\nMessage \u0026ldquo;Successful update.\u0026rdquo; appears   Click on View Invoice \u0026gt; Save the order Order is saved in your documents\nInvoice fields should match with info in Order details page\nand check that the Carrier field is empty   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View Order created with the customized product \u0026gt; Change status of order Status of order is now \u0026ldquo;Payment accepted\u0026rdquo;\nMessage \u0026ldquo;Successful update.\u0026rdquo; appears   Click on View Invoice \u0026gt; Save the order Order is saved in your documents\nInvoice fields should match with info in Order details page\nand check that the customization is displayed   Add a product with a specific price to the order \u0026gt; Save Message \u0026ldquo;The product was successfully added.\u0026rdquo; appears   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Product block should be updated, the new product is displayed, and check that column Base price (Tax excl.) is added with a correct value.   Remove the product with the specific price Message \u0026ldquo;The product was successfully removed.\u0026ldquo;appears   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Product block should be updated, only one product is displayed, and check that column Base price (Tax excl.) is not displayed anymore.   Add a product with an ecotax to the order \u0026gt; Save Message \u0026ldquo;The product was successfully added.\u0026rdquo; appears   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Product block should be updated, the new product is displayed, and check that ecotax is displayed with a correct value.   Click on the dropdown button in the shipping address \u0026gt; Click on \u0026ldquo;Edit existing address\u0026rdquo; and Update required fields and save\n# First name\n# Last name\n# Address\n# Zip/postal code\n# City The modal is closed, the order details page is displayed and the shipping address is updated   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Shipping address block should be updated   Click on the dropdown button in the Invoice address \u0026amp; Click on \u0026ldquo;Edit existing address\u0026rdquo; and Update required fields and save\n# First name\n# Last name\n# Address\n# Zip/postal code\n# City The modal is closed, the order details page is displayed and the invoice address is updated   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice Invoice address block should be updated   Click on the Document Tab, Click Add a note, set a note and save Message \u0026ldquo;Successful update.\u0026rdquo; is displayed   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice The Note block is well added to the invoice   Scroll down to Carrier \u0026gt; Click on Carrier tab \u0026gt; Click on Edit and Update the carrier Message \u0026ldquo;Message Successful update\u0026rdquo; displayed   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice The Shipping Costs in the invoice is well updated   Click Add new discount and Set these fields:\n# Name\n# Value\n# Type : Percent\nand click on Save An alert \u0026ldquo;Successful update.\u0026rdquo; alert is displayed and\nDiscounts = Total products - Value\nA new line is added   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice A new line for discount is well added in the invoice   Click on Remove to delete the discount An alert \u0026ldquo;Successful update.\u0026rdquo; is displayed\nThe line discount is removed   Click on View Invoice \u0026gt; Save \u0026gt; Check newly downloaded invoice The discount line is removed from the invoice   In the payment tab, try to add a payment to the invoice new line added to the payment   Download and view the new invoice Invoice =\u0026gt; in the Payment Method, the new amount is well added    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-invoice-downloaded-from-list.html",
-	"title": "Check Invoice downloaded from list",
-	"tags": [],
-	"description": "",
-	"content": "Check Invoice downloaded from list Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders page title is displayed correctly   Change last Order status to payment accepted with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View invoice\u0026rdquo;\nCheck the invoice file An invoice is downloaded\nCheck that all informations are visible in the invoice\n-\u0026gt; Order reference\n-\u0026gt; Delivery address\n-\u0026gt; Customer\n-\u0026gt; Total paid   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Payment Accepted\u0026rdquo; and an invoice is attached    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-you-can-t-register-an-email-already-registered.html",
 	"title": "Check you can&#39;t register an email already registered",
 	"tags": [],
@@ -5990,6 +5983,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Display detail discount "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html",
+	"title": "Export Orders",
+	"tags": [],
+	"description": "",
+	"content": "Export Orders Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully\nData is correct    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/generate-robots-txt-file.html",
@@ -6041,13 +6041,6 @@
 	"content": "Check access to the orders Steps    Step Description Expected result          "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/check-delivery-slip-downloaded-from-list.html",
-	"title": "Check delivery slip downloaded from list",
-	"tags": [],
-	"description": "",
-	"content": "Check delivery slip downloaded from list Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Change last Order status to Shipped with dropdown A green alert \u0026ldquo;Successful update.\u0026rdquo; is displayed and the order status is updated   Click on \u0026ldquo;View Delivery slip\u0026rdquo; A delivery slip is downloaded   Go to FO and sign in with a customer The \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; The Order history page is displayed and check that the last status order is \u0026ldquo;Shipped\u0026rdquo; and the delivery slip is attached    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/check-multi-invoice-behaviour.html",
 	"title": "Check multi invoice behaviour",
 	"tags": [],
@@ -6067,6 +6060,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Delete discount "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html",
+	"title": "Help Button ",
+	"tags": [],
+	"description": "",
+	"content": "Help Button Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully\nThe document language is English   Close the help sidebar The help sidebar is closed successfully    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/help-card.html",
@@ -6125,13 +6125,6 @@
 	"content": "Display discount on product "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/export-orders.html",
-	"title": "Export Orders",
-	"tags": [],
-	"description": "",
-	"content": "Export Orders Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully\nData is correct    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/refresh-list-of-currency.html",
 	"title": "Refresh list of currency",
 	"tags": [],
@@ -6158,13 +6151,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Exploratory session after autoupgrade Steps    Step Description Expected result     Install previous version (specify which one in expected result)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS\u0026hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.    Exploratory test of the version     "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/help-button.html",
-	"title": "Help Button ",
-	"tags": [],
-	"description": "",
-	"content": "Help Button Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully\nThe document language is English   Close the help sidebar The help sidebar is closed successfully    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/cart/cart/proceed-to-checkout.html",
@@ -6696,7 +6682,7 @@
 	"title": "Create an order",
 	"tags": [],
 	"description": "",
-	"content": "Create an order Tests  create simple order   Create customer   Search for customers   Select previous Cart   Select previous Orders   Add a product to the cart   [BO-Add new order] Search - Add - Remove a voucher   Choose adresses   Choose Shipping   Check Summary and create order   "
+	"content": "Create an order Tests  create simple order   Create customer   Search for customers   Select previous Cart   Select previous Orders   Add a product to the cart   [BO-Add new order] Search - Add - Remove a voucher   Choose address   Choose Shipping   Check Summary and create order   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo.html",
@@ -7767,7 +7753,7 @@
 	"title": "Orders",
 	"tags": [],
 	"description": "",
-	"content": "Orders Categories  Create an order   View and edit an order   Tests  Filter orders table   Sort orders   Preview order   View customer   View Guest   Bulk actions status   Bulk actions - Open in new tabs   Edit status in order page - default status to Canceled   Statistics of the page   Pagination   Check Invoice downloaded from list   Check delivery slip downloaded from list   Export Orders   Help Button    "
+	"content": "Orders Categories  Create an order   View and edit an order   Tests  Filter orders table   Sort orders   Preview order   View customer   View Guest   Bulk actions status   Bulk actions - Open in new tabs   Update order status   Statistics of the page   Pagination   Export Orders   Help Button    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign.html",
