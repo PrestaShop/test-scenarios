@@ -34,7 +34,7 @@ weight: 6
 | In Delivery Time > Choose Specific delivery time to this product > Add info in both fields | In FO > Delivery time is displayed next to the price |
 | Add Shipping fee > Save | Message Settings updated. appears<br><br>Go to FO > Add product to cart > in checkout process step 3 > See that shipping in increases |
 | Check one carrier that is disabled | Message Settings updated. appears<br><br>Go to FO > Add product to cart > in checkout process step 3 > See that there's no shipping available |
-| *In Pricing*<br><br>Edit the Retail price (tax incl.) of your product > Add a Retail price per unit (tax excl.) > Save | Go to FO > See price is updated + new line with price per unit is displayed |
+| *In Pricing*<br><br>Edit the Retail price (tax incl.) of your product > Add a Retail price per unit (tax excl.) and the unit > Save | Go to FO > See price is updated + new line with price per unit is displayed |
 | Add a Specific Price > Add a min quantity > Add a discount > Apply > Save > Click Preview | Message Settings updated. appears<br><br>In FO > New table is displayed with Volume Discounts |
 | Add to cart a product to get Volume Discount > Continue Checkout Process | In Shopping cart, see the price discount |
 | *In Options*<br><br>Click Dropdown And choose option | Message Settings updated. appears<br><br>Everywhere > Product is displayed everywhere (search, categories, home, etc)<br><br>Catalog Only > Product can only be found in the shop (no search)<br><br>Search Only > Product can only be found via search bar<br><br>Nowhere > Product can only be found via link (no search, no display in shop) |
