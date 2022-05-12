@@ -126,11 +126,11 @@
 	"content": "BO - Filter And Quick Edit Categories Steps    Step Description Expected result     Go to the Catalog \u0026gt; \u0026ldquo;Categories\u0026rdquo; page Categories listing is displayed correctly   Reset all filters All filters are reset. All categories are displayed   Save the number of categories in a variable Number of categories is saved   Filter By id. Categories list is filtered. Categories listed have the searched ID   Reset all filters All filters are reset. All categories are displayed   Filter by Name Categories list is filtered. Categories listed contains the searched \u0026ldquo;Name\u0026rdquo;   Reset all filters All filters are reset. All categories are displayed   Filter by Description Categories list is filtered. Categories listed contains the searched \u0026ldquo;Description\u0026rdquo;   Reset all filters All filters are reset. All categories are displayed   Filter by Position. Categories list is filtered. Categories listed have the searched Position\u0026quot;   Reset all filters All filters are reset. All categories are displayed   Filter By Displayed. The customer list is filtered. Customers listed have the searched status   Reset all filters All filters are reset. All categories are displayed   Change Displayed to \u0026ldquo;No\u0026rdquo; for \u0026ldquo;first Category\u0026rdquo; An alert \u0026ldquo;The status has been successfully updated.\u0026rdquo; is displayed and the Icon is changed to Not-valid   Change Displayed to \u0026ldquo;YES\u0026rdquo; for \u0026ldquo;first Category\u0026rdquo; An alert \u0026ldquo;The status has been successfully updated.\u0026rdquo; is displayed and theIcon is changed to valid   Reset all Filters Number of categories = Total of categories    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-sort-filter.html",
-	"title": "BO - Outsatnding - Sort &amp; Filter",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-sort-filter.html",
+	"title": "BO - Outstanding - Sort &amp; Filter",
 	"tags": [],
 	"description": "",
-	"content": "BO - Outsatnding - Sort \u0026amp; Filter "
+	"content": "BO - Outstanding - Sort \u0026amp; Filter "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/installation/bo-uninstall-the-module.html",
@@ -1456,11 +1456,11 @@
 	"content": "BO - Install the module Steps    Step Description Expected result          "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-view-invoice.html",
-	"title": "BO - Outsatnding - View Invoice",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-view-invoice.html",
+	"title": "BO - Outstanding - View Invoice",
 	"tags": [],
 	"description": "",
-	"content": "BO - Outsatnding - View Invoice "
+	"content": "BO - Outstanding - View Invoice "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/login/bo-password-reminder.html",
@@ -2618,11 +2618,11 @@
 	"content": "BO - Monitoring - Sort \u0026amp; Pagination "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-view-order.html",
-	"title": "BO - Outsatnding - View Order",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-view-order.html",
+	"title": "BO - Outstanding - View Order",
 	"tags": [],
 	"description": "",
-	"content": "BO - Outsatnding - View Order "
+	"content": "BO - Outstanding - View Order "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-suppliers-sort-pagination.html",
@@ -5877,7 +5877,7 @@
 	"title": "Check Summary and create order",
 	"tags": [],
 	"description": "",
-	"content": "Check Summary and create order Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click Add new order \u0026gt; Choose existing customer \u0026gt; Add product to cart Check Summary \u0026gt; Total Product \u0026amp; Total (Tax excl.) should be equal\nTotal (Tax incl.) should be equal to ** Total taxes + Total (Tax excl.)   Add a voucher See in Summary that Total vouchers (Tax excl.) has been updated   Delete voucher Total vouchers (Tax excl.) equal to 0\nTotal (Tax incl.) should be updated   Change Delivery Option with a not free carrier Total shipping (Tax excl.) will be updated\nPrice should be tax excluded\nTotal (Tax incl.) should be updated   Fill in \u0026ldquo;Order message\u0026rdquo; \u0026gt; Add a payment \u0026gt; Choose an order status \u0026gt; Click \u0026ldquo;more actions\u0026rdquo; \u0026gt; Choose \u0026ldquo;Send pre-filled order to the customer by email\u0026rdquo; Message The email was sent to your customer. appears   Fill in \u0026ldquo;Order message\u0026rdquo; \u0026gt; Add a payment \u0026gt; Choose an order status \u0026gt; Click \u0026ldquo;more actions\u0026rdquo; \u0026gt; Choose \u0026ldquo;Proceed to checkout in the front office\u0026rdquo; FO opens with Step 2 of checkout process   Come Back to BO \u0026gt; Fill in \u0026ldquo;Order message\u0026rdquo; \u0026gt; Add a payment \u0026gt; Choose an order status \u0026gt; Click button Create Order Order will be created - Order details will be opened in BO    "
+	"content": "Check Summary and create order Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click Add new order \u0026gt; Choose existing customer \u0026gt; Add product to cart Check Summary \u0026gt; Total Product \u0026amp; Total (Tax excl.) should be equal\nTotal (Tax incl.) should be equal to ** Total taxes + Total (Tax excl.)   Add a voucher See in Summary that Total vouchers (Tax excl.) has been updated   Delete voucher Total vouchers (Tax excl.) equal to 0\nTotal (Tax incl.) should be updated   Change Delivery Option with a not free carrier Total shipping (Tax excl.) will be updated\nPrice should be tax excluded\nTotal (Tax incl.) should be updated   Fill in \u0026ldquo;Order message\u0026rdquo; \u0026gt; Add a payment \u0026gt; Choose an order status \u0026gt; Click \u0026ldquo;more actions\u0026rdquo; \u0026gt; Choose \u0026ldquo;Send pre-filled order to the customer by email\u0026rdquo; Message The email was sent to your customer. appears   Fill in \u0026ldquo;Order message\u0026rdquo; \u0026gt; Add a payment \u0026gt; Choose an order status \u0026gt; Click \u0026ldquo;more actions\u0026rdquo; \u0026gt; Choose \u0026ldquo;Proceed to checkout in the front office\u0026rdquo; FO opens with Step 2 of checkout process   Come back to BO \u0026gt; Fill in \u0026ldquo;Order message\u0026rdquo; \u0026gt; Add a payment \u0026gt; Choose an order status \u0026gt; Click button Create Order Order will be created - Order details will be opened in BO    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-customer-is-registred.html",
@@ -7774,7 +7774,7 @@
 	"title": "Outstanding",
 	"tags": [],
 	"description": "",
-	"content": "Outstanding Tests  BO - Outsatnding - Sort \u0026amp; Filter   BO - Outsatnding - View Invoice   BO - Outsatnding - View Order   "
+	"content": "Outstanding Tests  BO - Outstanding - Sort \u0026amp; Filter   BO - Outstanding - View Invoice   BO - Outstanding - View Order   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration.html",
