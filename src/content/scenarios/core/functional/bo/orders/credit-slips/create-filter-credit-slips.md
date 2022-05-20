@@ -10,10 +10,11 @@ weight: 1
 | Go to BO > Orders > "Orders" page | Orders list is displayed successfully |
 | Go to the first order page | The order page is displayed successfully |
 | Change the order status to "Shipped" | The order status is updated successfully<br>The invoice is created successfully |
-| Add the first partial refund | Partial refund is added successfully<br>A new document is created for the credit slips |
-| Add the second partial refund | Partial refund is added successfully<br>A new document is created for the credit slips |
+| Click on "Partial refund" to add the first partial refund | Partial refund is added successfully<br>A new document is created for the credit slips |
+| Add the second partial refund | The message "A partial refund was successfully created" is displayed<br>A new document is created for the credit slips |
+| Click on "View delivery slip" | The file with "DE000001" name is generated successfully with the correct data |
 | Go to Orders > "Credit slips" page | Credit slips page is opened successfully |
-| Reset all filters and get the credit slips number | All filters are reset<br>All credit slips are displayed<br>The credit slip number is equal 2 |
+| Reset all filters and get the credit slips number | All filters are reset<br>All credit slips are displayed<br>The credit slips number is equal 2 |
 | Filter By id_credit_slip<br>Criteria : 1" | Credit slips list is filtered<br>Credit slips listed have 1" in their id_credit_slip" |
 | Reset all filters | All filters are reset<br>All credit slips are displayed |
 | Filter By id_order<br>Criteria : 4" | Credit slips list is filtered<br>Credit slips listed have 4" in their id_order |
