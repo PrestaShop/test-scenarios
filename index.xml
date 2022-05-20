@@ -519,7 +519,7 @@ Homepage of website is displayed    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/credit-slips/create-filter-credit-slips.html</guid>
       <description>Create Filter Credit Slips Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders list is displayed successfully   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The order status is updated successfully
-The invoice is created successfully   Add the first partial refund Partial refund is added successfully</description>
+The invoice is created successfully   Click on &amp;ldquo;Partial refund&amp;rdquo; to add the first partial refund Partial refund is added successfully</description>
     </item>
     
     <item>
@@ -2850,7 +2850,7 @@ number of order messages = Total of orders messages + 1   Go to create new order
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/generate-invoice-by-status.html</guid>
-      <description>Generate Invoice By Status Steps    Step Description Expected result     Go to the Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Go to the second order page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; The status is changed successfully   Go to the Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed correctly   Click on Generate invoice by status and check the error message The error message is displayed successfully &amp;ldquo;You must select at least one order status.</description>
+      <description>Generate Invoice By Status Steps    Step Description Expected result     Go to the Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Go to the second order page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; The status is changed successfully   Go to the Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed correctly   Check the color and number in the square for both status &amp;ldquo;Payment accepted&amp;rdquo; and &amp;ldquo;Shipped&amp;rdquo; The square have &amp;ldquo;1&amp;rdquo; as a number and &amp;ldquo;green&amp;rdquo; as a color   Check the color and number in the square for the others status that haven&amp;rsquo;t been ordered The square have &amp;ldquo;0&amp;rdquo; as a number and &amp;ldquo;red&amp;rdquo; as a color   Click on &amp;ldquo;Generate PDF file by status&amp;rdquo; without checking boxes and check the error message The error message is displayed successfully &amp;ldquo;You must select at least one order status.</description>
     </item>
     
     <item>
@@ -4841,6 +4841,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-help-button.html</guid>
       <description>BO - Files - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The Files page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+    <item>
+      <title>BO - Outsatnding - Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html</guid>
+      <description>BO - Outsatnding - Help card </description>
     </item>
     
     <item>

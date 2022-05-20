@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1652940945" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1652940945" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1652940945" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1652940945" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1652940945" rel="stylesheet">
-    <link href="../../../../../../style.css?1652940945" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1653027399" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1653027399" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1653027399" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1653027399" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1653027399" rel="stylesheet">
+    <link href="../../../../../../style.css?1653027399" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1652940945"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1653027399"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -6511,6 +6511,27 @@
       <li data-nav-id="/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-view-order.html" title="BO - Outstanding - View Order" class="dd-item ">
         <a href="../../../../../../scenarios/core/functional/bo/customers/outstanding/bo-outstanding-view-order.html">
         BO - Outstanding - View Order
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html" title="BO - Outsatnding - Help card" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html">
+        BO - Outsatnding - Help card
         
         </a>
     </li>
@@ -36675,6 +36696,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -51323,16 +51359,28 @@
 <td>Invoices page is displayed correctly</td>
 </tr>
 <tr>
-<td>Click on Generate invoice by status and check the error message</td>
+<td>Check the color and number in the square for both status &ldquo;Payment accepted&rdquo; and &ldquo;Shipped&rdquo;</td>
+<td>The square have &ldquo;1&rdquo; as a number and &ldquo;green&rdquo; as a color</td>
+</tr>
+<tr>
+<td>Check the color and number in the square for the others status that haven&rsquo;t been ordered</td>
+<td>The square have &ldquo;0&rdquo; as a number and &ldquo;red&rdquo; as a color</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Generate PDF file by status&rdquo; without checking boxes and check the error message</td>
 <td>The error message is displayed successfully &ldquo;You must select at least one order status.&rdquo;</td>
 </tr>
 <tr>
-<td>Select the status &ldquo;Cancelled&rdquo; then click on Generate invoice by the status button&quot;</td>
+<td>Select any  status that have &ldquo;zero&rdquo;  and a &ldquo;red&rdquo; color in the square then click on &ldquo;Generate PDF file by status&rdquo; button&quot;</td>
 <td>The error message is displayed successfully &ldquo;No invoice has been found for this status.&rdquo;</td>
 </tr>
 <tr>
-<td>Choose the statuses Payment accepted&quot; and &ldquo;Shipped&rdquo; then click on &ldquo;Generate invoice by status&rdquo;</td>
-<td>The pdf file is generated successfylly</td>
+<td>Choose the statuses Payment accepted&quot; and &ldquo;Shipped&rdquo; together then click on &ldquo;Generate PDF file by status&rdquo;</td>
+<td>The pdf file is generated successfully with &ldquo;invoices&rdquo; as it&rsquo;s name with the correct configured data and check that there is two pages for both orders</td>
+</tr>
+<tr>
+<td>Choose only one status &ldquo;Payment accepted&rdquo; OR &lsquo;&ldquo;Shipped&quot;then click on &ldquo;Generate PDF file by status&rdquo;</td>
+<td>The pdf file is generated successfully with &ldquo;IN000002&rdquo; as it&rsquo;s name with the correct configured data and check that there only one page for the generated order statuses</td>
 </tr>
 </tbody>
 </table>
@@ -51341,9 +51389,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on May 13, 2022
+  Last updated on May 20, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/6a9ca5f67d41698c570a43ddaacb3bcd6fa5d86d">"[Update] JIRA XRay Tests" (6a9ca5f67d)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/9516f4a3c9c11e4c2955c11b3e5d1fbc53652fa0">"[Update] JIRA XRay Tests" (9516f4a3c9)</a>
   
 </div>
 
@@ -51364,17 +51412,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1652940945"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1652940945"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1652940945"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1652940945"></script>
-    <script src="../../../../../../js/featherlight.min.js?1652940945"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1652940945"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1652940945"></script>
-    <script src="../../../../../../js/learn.js?1652940945"></script>
-    <script src="../../../../../../js/hugo-learn.js?1652940945"></script>
+    <script src="../../../../../../js/clipboard.min.js?1653027399"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1653027399"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1653027399"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1653027399"></script>
+    <script src="../../../../../../js/featherlight.min.js?1653027399"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1653027399"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1653027399"></script>
+    <script src="../../../../../../js/learn.js?1653027399"></script>
+    <script src="../../../../../../js/hugo-learn.js?1653027399"></script>
     
-    <script src="../../../../../../main.js?1652940945"></script>
+    <script src="../../../../../../main.js?1653027399"></script>
     
     
 
