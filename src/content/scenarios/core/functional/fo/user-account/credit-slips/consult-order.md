@@ -7,4 +7,8 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| *Case 1 : Create an order with guest account (pre-condition)* |  |
+| Create an order (pre-condition) |  |
+| Connect to BO (pre-condition) |  |
+| Create a credit slip (pre-condition) |  |
+| Go to FO >  Click on customer account page > Go to Credit slips tab | The list of Credit slips received is displayed successfully |
+| Choose a credit slip > Click on the order's ID link | The details page of the order is displayed successfully |
