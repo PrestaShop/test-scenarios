@@ -319,7 +319,7 @@
 	"title": "Consult credit slips list",
 	"tags": [],
 	"description": "",
-	"content": "Consult credit slips list Steps    Step Description Expected result     Case 1 : You have no credit slip\nGo to FO \u0026gt; Login to customer account \u0026gt; Go to Credit slips tab Credit slips page is displayed with message alert-info \u0026ldquo;You have not received any credit slips.\u0026rdquo;   Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Case 2 : You have credit slips\nGo to FO \u0026gt; Login to customer account \u0026gt; Go to Credit slips tab The list of Credit slips received is displayed    "
+	"content": "Consult credit slips list Steps    Step Description Expected result     Case 1 : You have no credit slip\nGo to FO \u0026gt; Login to customer account \u0026gt; Go to Credit slips tab Credit slips page is displayed with message alert-info \u0026ldquo;You have not received any credit slips.\u0026rdquo;   Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Case 2 : You have credit slips\nGo to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab The list of Credit slips received is displayed successfully    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-merchandise-returns-list.html",
@@ -1586,7 +1586,7 @@
 	"title": "Consult order",
 	"tags": [],
 	"description": "",
-	"content": "Consult order Steps    Step Description Expected result     Case 1 : Create an order with guest account (pre-condition)     "
+	"content": "Consult order Steps    Step Description Expected result     Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab The list of Credit slips received is displayed successfully   Choose a credit slip \u0026gt; Click on the order\u0026rsquo;s ID link The details page of the order is displayed successfully    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/cart/modal/continue-shopping.html",
