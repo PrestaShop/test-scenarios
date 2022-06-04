@@ -1393,13 +1393,6 @@
 	"content": "Add a promo code "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/add-attachment.html",
-	"title": "Add attachment",
-	"tags": [],
-	"description": "",
-	"content": "Add attachment Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Click on Contact Us button on header \u0026gt; In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file \u0026gt; Click Open The file name is now displayed in the placeholder of Attachment   In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file \u0026gt; Click Cancel No file is chosen. The previously added file is deleted from form   Fill the form Form is displayed with your data   Add attachment \u0026gt; Click \u0026ldquo;Choose File\u0026rdquo; \u0026gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .csv \u0026gt; Click Send Message \u0026ldquo;Bad file extension\u0026rdquo; is displayed   Choose a file with extension .png .zip .pdf .jpg .jpeg .gif \u0026gt; Click Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/maintenance/add-maintenance-ip.html",
 	"title": "Add maintenance ip",
 	"tags": [],
@@ -2112,6 +2105,13 @@
 	"tags": [],
 	"description": "",
 	"content": "FO - subscribe to newsletter Steps    Step Description Expected result     Go to the FO on the Homepage The FO homepage is displayed   In the newsletter form field, add a email address who is not yet a newsletter subscriber email and click on \u0026ldquo;subscribe\u0026rdquo;\n!image-2021-04-06-16-20-27-389.png! A confirmation message is displayed !image-2021-04-06-16-19-48-272.png!   Go to the BO on the module manager page Module manager page is displayed   Select the \u0026ldquo;newletter\u0026rdquo; module in the list and in the select list form click on \u0026ldquo;configure\u0026rdquo;\n!image-2021-04-06-16-25-51-178.png!\n!image-2021-04-06-16-26-51-597.png! Redirected to the newsletter module configuration page\n!image-2021-04-06-16-27-30-186.png!   In the \u0026ldquo;newsletter registration\u0026rdquo; section , in the table , search for the email address used in step 2 The email address is in the list and the status is \u0026ldquo;subscribed\u0026rdquo;\n!image-2021-04-06-16-31-47-908.png!   Go back to the FO and in the newsletter form field, use again the same email address than step 2\nThen click on \u0026ldquo;subscribe\u0026rdquo; A error message is displayed, it says that the email address is already used\n!image-2021-04-06-16-33-37-842.png!    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-contact-us-add-attachment.html",
+	"title": "FO &gt; Contact us &gt; Add attachment",
+	"tags": [],
+	"description": "",
+	"content": "FO \u0026gt; Contact us \u0026gt; Add attachment Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Click on Contact Us button on header \u0026gt; In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file \u0026gt; Click Cancel an do not upload any file No file is chosen. The previously added file is deleted from form   Fill the form Form is displayed with your data   Add attachment \u0026gt; Click \u0026ldquo;Choose File\u0026rdquo; \u0026gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .csv \u0026gt; Click Send Message \u0026ldquo;Bad file extension\u0026rdquo; is displayed and the placeholder of Attachment is empty   Choose a file with extension .png .zip .pdf .jpg .jpeg .gif .pdf \u0026gt; Click Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Sign in The dashboard page is well displayed   Go to Customer Service \u0026gt; Customer Service page The Customer Service page is well displayed \u0026amp; the last message is well displayed   Click on View of the last message In the first thread, the Attachement link is displayed   Click on on the Attachement link The file uploaded from the FO is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/generate-emails.html",
@@ -6626,7 +6626,7 @@
 	"title": "Contact us",
 	"tags": [],
 	"description": "",
-	"content": "Contact us Tests  Mailto   Add attachment   Send message while logged in   Send message while logged out   "
+	"content": "Contact us Tests  Mailto   FO \u0026gt; Contact us \u0026gt; Add attachment   Send message while logged in   Send message while logged out   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/contactform.html",
