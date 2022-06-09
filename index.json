@@ -2111,7 +2111,7 @@
 	"title": "FO &gt; Contact us &gt; Add attachment",
 	"tags": [],
 	"description": "",
-	"content": "FO \u0026gt; Contact us \u0026gt; Add attachment Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Click on Contact Us button on header \u0026gt; In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file \u0026gt; Click Cancel an do not upload any file No file is chosen. The previously added file is deleted from form   Fill the form Form is displayed with your data   Add attachment \u0026gt; Click \u0026ldquo;Choose File\u0026rdquo; \u0026gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .csv \u0026gt; Click Send Message \u0026ldquo;Bad file extension\u0026rdquo; is displayed and the placeholder of Attachment is empty   Choose a file with extension .png .zip .pdf .jpg .jpeg .gif .pdf \u0026gt; Click Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Sign in The dashboard page is well displayed   Go to Customer Service \u0026gt; Customer Service page The Customer Service page is well displayed \u0026amp; the last message is well displayed   Click on View of the last message In the first thread, the Attachement link is displayed   Click on on the Attachement link The file uploaded from the FO is well displayed    "
+	"content": "FO \u0026gt; Contact us \u0026gt; Add attachment Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Click on Contact Us button on header \u0026gt; In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file \u0026gt; Click Cancel an do not upload any file No file is chosen. The previously added file is deleted from form   Fill the form Form is displayed with your data   Add attachment \u0026gt; Click \u0026ldquo;Choose File\u0026rdquo; \u0026gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .csv \u0026gt; Click Send Message \u0026ldquo;Bad file extension\u0026rdquo; is displayed and the placeholder of Attachment is empty   Choose a file with extension .png .zip .pdf .jpg .jpeg .gif .pdf \u0026gt; Click Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Sign in The dashboard page is well displayed   Go to Customer Service \u0026gt; Customer Service page The Customer Service page is well displayed \u0026amp; the last message is well displayed   Click on View of the last message In the first thread, the Attachement link is displayed   Click on on the Attachement link The file uploaded from the FO is well displayed   Go to Customer Service \u0026gt; Customer Service page, delete the last message and confirm the deletion The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/generate-emails.html",
@@ -2580,7 +2580,7 @@
 	"title": "All products",
 	"tags": [],
 	"description": "",
-	"content": "All products Steps    Step Description Expected result     Go to FO \u0026gt; In Popular Products block \u0026gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check if subcategory blocks are displayed !https://forge.prestashop.com/plugins/servlet/raven/attachment/629/Screenshot+2021-11-29+at+15.36.57.png   Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Faceted search of right column should be displayed !https://forge.prestashop.com/plugins/servlet/raven/tempattachment/6799458067271360521/Screenshot%202021-11-29%20at%2015.44.22.png   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !Screenshot 2021-11-29 at 15.48.20.png    "
+	"content": "All products Steps    Step Description Expected result     Go to FO \u0026gt; In Popular Products block \u0026gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check if subcategory blocks are displayed !https://forge.prestashop.com/plugins/servlet/raven/attachment/629/Screenshot+2021-11-29+at+15.36.57.png   Check the Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Faceted search of right column should be displayed !image-2022-06-08-17-26-03-859.png!   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !Screenshot 2021-11-29 at 15.48.20.png    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-pagination.html",
@@ -2791,6 +2791,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Configure the minimum quantity for out of stock Steps    Step Description Expected result          "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-credit-slip-list-view-pdf-credit-slip-view-order.html",
+	"title": "Consult credit slip list &amp; View PDF Credit slip &amp; View order",
+	"tags": [],
+	"description": "",
+	"content": "Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order Steps    Step Description Expected result     Go to FO \u0026gt; Sign with default customer The Home page is well displayed   Click on View my customer account Your account page is displayed   Click on \u0026ldquo;Credit slips\u0026rdquo; The Credit slips page is well displayed and the information alert \u0026ldquo;You have not received any credit slips.\u0026quot; is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders page \u0026amp; view the last order created from the pre-condition step The Order view page is well displayed   Change the order status to \u0026ldquo;Payment accepted\u0026rdquo; or \u0026ldquo;Shipped\u0026rdquo; The order status is updated successfully   Click on \u0026ldquo;Partial refund\u0026rdquo;, set a quantity and click on the \u0026ldquo;Partial refund\u0026rdquo; button The alert \u0026ldquo;A partial refund was successfully created.\u0026rdquo; is well displayed and the credit slip is well created   Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab * The list of Credit slips received is displayed successfully\n* The Order reference is OK\n* The Credit slip ID is ok   Choose a credit slip \u0026gt; Click on the pdf icon on the \u0026ldquo;View credit slip\u0026rdquo; column The PDF file is downloaded   Click on the file in browser toolbar The pdf file opens on a new tab and is displayed with all details   Go back to FO \u0026gt; Your account \u0026gt; Credit slip page The credit slip page is well displayed   Click on the Order reference The Order details is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-return.html",
@@ -3549,13 +3556,6 @@
 	"content": "Use recycled packaging Steps    Step Description Expected result     Go and login to the BO Logged to the prestashop BO   Go to the shop parameters / order settings page The order settings page is displayed   Enable recycled packaging option and click on save button A success message is displayed   Logout from BO Logged out from BO   Go to the FO The FO homepage is displayed   Go to the FO login page FO login page is displayed   Login with the \u0026ldquo;pub@prestashop.com\u0026rdquo; account Logged in   Add one product to cart and proceed to checkout The checkout first step is displayed   follow the order process up to the stage of selection of the delivery method the delivery method step is displayed   check the \u0026ldquo;recycled packaging\u0026rdquo; checkbox the checkbox is checked   finish the checkout process the checkout process is finished and the order confirmation page is displayed   logout from the FO logged out from the FO   Go to the BO and login The BO dashboard page is displayed   go to the orders page the order page is displayed   In the order list select the previously made order and go to the order detail page the order detail page is displayed   check the order status block a \u0026ldquo;recycled packaging\u0026rdquo; label is visible    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/view-pdf-credit-slip.html",
-	"title": "View PDF Credit slip",
-	"tags": [],
-	"description": "",
-	"content": "View PDF Credit slip Steps    Step Description Expected result     Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab The list of Credit slips received is displayed successfully   Choose a credit slip \u0026gt; Click on the pdf icon on the \u0026ldquo;View credit slip\u0026rdquo; column The PDF file is downloaded   Click on the file in browser toolbar The pdf file opens on a new tab and is displayed with all details    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/vote-for-a-comment.html",
 	"title": "Vote for a comment",
 	"tags": [],
@@ -4155,7 +4155,7 @@
 	"title": "Send message while logged out",
 	"tags": [],
 	"description": "",
-	"content": "Send message while logged out Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;The message cannot be blank.\u0026rdquo; is displayed   Click on \u0026ldquo;Contact us\u0026rdquo; in header \u0026gt; Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed    "
+	"content": "Send message while logged out Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;The message cannot be blank.\u0026rdquo; is displayed   Click on \u0026ldquo;Contact us\u0026rdquo; in header \u0026gt; Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Customer Service \u0026gt; Customer Service page * The Customer Service page is well displayed \u0026amp; the last message is well displayed\n* The email is ok\n* the Messages is ok   Delete the last message \u0026amp; confirm the deletion The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/separator-of-attribute-anchor-on-the-product-links-todo.html",
@@ -6724,7 +6724,7 @@
 	"title": "Credit slips",
 	"tags": [],
 	"description": "",
-	"content": "Credit slips Tests  Consult credit slips list   Consult order   View PDF Credit slip   "
+	"content": "Credit slips Tests  Consult credit slips list   Consult order   Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule.html",
