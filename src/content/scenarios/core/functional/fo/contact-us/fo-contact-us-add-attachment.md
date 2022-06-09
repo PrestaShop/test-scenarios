@@ -18,3 +18,4 @@ weight: 2
 | Go to Customer Service > Customer Service page | The Customer Service page is well displayed & the last message is well displayed |
 | Click on View of the last message | In the first thread, the Attachement link is displayed |
 | Click on on the Attachement link | The file uploaded from the FO is well displayed |
+| Go to Customer Service > Customer Service page, delete the last message and confirm the deletion | The alert "Successful deletion." is well displayed |
