@@ -1,9 +1,9 @@
 ---
-title: "Send message while logged out"
+title: "FO > Send message while logged out"
 weight: 4
 ---
 
-# Send message while logged out
+# FO > Send message while logged out
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
