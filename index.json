@@ -2793,13 +2793,6 @@
 	"content": "Configure the minimum quantity for out of stock Steps    Step Description Expected result          "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-credit-slip-list-view-pdf-credit-slip-view-order.html",
-	"title": "Consult credit slip list &amp; View PDF Credit slip &amp; View order",
-	"tags": [],
-	"description": "",
-	"content": "Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order Steps    Step Description Expected result     Go to FO \u0026gt; Sign with default customer The Home page is well displayed   Click on View my customer account Your account page is displayed   Click on \u0026ldquo;Credit slips\u0026rdquo; The Credit slips page is well displayed and the information alert \u0026ldquo;You have not received any credit slips.\u0026quot; is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders page \u0026amp; view the last order created from the pre-condition step The Order view page is well displayed   Change the order status to \u0026ldquo;Payment accepted\u0026rdquo; or \u0026ldquo;Shipped\u0026rdquo; The order status is updated successfully   Click on \u0026ldquo;Partial refund\u0026rdquo;, set a quantity and click on the \u0026ldquo;Partial refund\u0026rdquo; button The alert \u0026ldquo;A partial refund was successfully created.\u0026rdquo; is well displayed and the credit slip is well created   Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab * The list of Credit slips received is displayed successfully\n* The Order reference is OK\n* The Credit slip ID is ok   Choose a credit slip \u0026gt; Click on the pdf icon on the \u0026ldquo;View credit slip\u0026rdquo; column The PDF file is downloaded   Click on the file in browser toolbar The pdf file opens on a new tab and is displayed with all details   Go back to FO \u0026gt; Your account \u0026gt; Credit slip page The credit slip page is well displayed   Click on the Order reference The Order details is well displayed    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-return.html",
 	"title": "Consult return",
 	"tags": [],
@@ -3066,6 +3059,20 @@
 	"content": "FO - Create an Order by existing customer Steps    Step Description Expected result     Go to FO \u0026gt; Add product to the cart \u0026amp; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The \u0026ldquo;Shopping cart\u0026rdquo; page is displayed\u0026quot;   Click on \u0026ldquo;Proceed to checkout The checkout page is displayed   In the Personal information step, click on \u0026ldquo;Sign in\u0026rdquo; The Email \u0026amp; password fields are displayed   Set Email \u0026amp; Password and click on Continue The Address step is displayed   Click on the \u0026ldquo;Continue\u0026rdquo; button The \u0026ldquo;Shipping\u0026rdquo; step is displayed   Click on the \u0026ldquo;Continue\u0026rdquo; button The \u0026ldquo;Payment methods\u0026rdquo; step is displayed   Select a payment method, click on \u0026ldquo;I agree to the terms of service and will adhere to them unconditionally.\u0026rdquo; then click on \u0026ldquo;Place Order\u0026rdquo; The Order confirmation page is displayed   Check the database \u0026amp; the table Prefix_ganalytics A new line is added for the new order    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slip-list-view-pdf-credit-slip-view-order.html",
+	"title": "FO &gt; Consult credit slip list &amp; View PDF Credit slip &amp; View order",
+	"tags": [],
+	"description": "",
+	"content": "FO \u0026gt; Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order Steps    Step Description Expected result     Go to FO \u0026gt; Sign with default customer The Home page is well displayed   Click on View my customer account Your account page is displayed   Click on \u0026ldquo;Credit slips\u0026rdquo; The Credit slips page is well displayed and the information alert \u0026ldquo;You have not received any credit slips.\u0026quot; is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders page \u0026amp; view the last order created from the pre-condition step The Order view page is well displayed   Change the order status to \u0026ldquo;Payment accepted\u0026rdquo; or \u0026ldquo;Shipped\u0026rdquo; The order status is updated successfully   Click on \u0026ldquo;Partial refund\u0026rdquo;, set a quantity and click on the \u0026ldquo;Partial refund\u0026rdquo; button The alert \u0026ldquo;A partial refund was successfully created.\u0026rdquo; is well displayed and the credit slip is well created   Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab * The list of Credit slips received is displayed successfully\n* The Order reference is OK\n* The Credit slip ID is ok\n* The Date issued is ok   Choose a credit slip \u0026gt; Click on the pdf icon on the \u0026ldquo;View credit slip\u0026rdquo; column The PDF file is downloaded   Click on the file in browser toolbar The pdf file opens on a new tab and is displayed with all details   Go back to FO \u0026gt; Your account \u0026gt; Credit slip page The credit slip page is well displayed   Click on the Order reference The Order details is well displayed   Go Back to FO \u0026gt; Click on customer account page \u0026gt; Go to the Credit slips tab and click On \u0026ldquo;Back to your account\u0026rdquo; link Your account page is well displayed   Go Back to FO \u0026gt; Click on customer account page \u0026gt; Go to the Credit slips tab and click On \u0026ldquo;Home\u0026rdquo; link Your Home page is well displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-a-message-while-logged-in.html",
+	"title": "FO &gt; Send a message while logged in",
+	"tags": [],
+	"description": "",
+	"content": "FO \u0026gt; Send a message while logged in Steps    Step Description Expected result     Go to FO \u0026gt; Log into your customer account created from the pre-condition step You are logged into your customer account   Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us * The contact form is displayed\n* The Email address is not empty and it is the same email address of the customer created in the pre-condition\n* The \u0026ldquo;Order reference\u0026rdquo; select list is not displayed   Fill the form \u0026gt; Send Message \u0026ldquo;The message cannot be blank.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Customer Service \u0026gt; Customer Service page * The Customer Service page is well displayed \u0026amp; the last message is well displayed\n* The email is ok\n* the Messages is ok   Go to FO \u0026gt; Sign in with John Doe You are logged into your customer account   Click on \u0026ldquo;Contact us\u0026rdquo; in header * The contact us page is well displayed\n* The \u0026ldquo;Email address\u0026rdquo; is equal to \u0026ldquo;pub@prestashop.com\u0026rdquo;\n* The \u0026ldquo;Order reference\u0026rdquo; list is well displayed   Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Orders list page and filter the order reference The number of orders === 1   Click on View order * The Order view page is well displayed\n* In the message block: the message is well displayed   Go to BO \u0026gt; Customer Service page and Delete the messages An alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created in the pre-condition The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/credit-slips/generate-credit-slips-by-date.html",
 	"title": "Generate Credit Slips By Date",
 	"tags": [],
@@ -3274,13 +3281,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Select an address "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/send-message-while-logged-in.html",
-	"title": "Send message while logged in",
-	"tags": [],
-	"description": "",
-	"content": "Send message while logged in Steps    Step Description Expected result     Go to FO \u0026gt; Log into your customer account You are logged into your customer account   Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;The message cannot be blank.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Place an order Order is placed   Click on \u0026ldquo;Contact us\u0026rdquo; in header \u0026gt; Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/settings.html",
@@ -3752,13 +3752,6 @@
 	"content": "Connect to Addons market place ? "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/consult-product-quickview.html",
-	"title": "Consult product quickview",
-	"tags": [],
-	"description": "",
-	"content": "Consult product quickview Steps    Step Description Expected result     In FO \u0026gt; Product list \u0026gt; Click on Quick View button A modal is displayed with the product details\n!Screenshot 2021-11-29 at 16.32.42.png   Change combination of product See that the price will be updated accordingly   Change quantity of product and Click add to cart \u0026gt; Click Continue Shopping Modal \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; is displayed   Click Quick View on another product \u0026gt; Click on the cross x to close the modal The modal is closed   Click Quick View again \u0026gt; Click on any social sharing links A new page will open with the social media   Close the social media link \u0026gt; Close the modal by clocking outside of the modal Quick view modal is now closed    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/contact-options.html",
 	"title": "Contact options",
 	"tags": [],
@@ -3990,6 +3983,20 @@
 	"content": "Filter sort pagination shops "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html",
+	"title": "FO &gt; Consult product quickview",
+	"tags": [],
+	"description": "",
+	"content": "FO \u0026gt; Consult product quickview Steps    Step Description Expected result     Go to FO \u0026gt; Product list \u0026gt; Click on the Quick View button for the product \u0026ldquo;The best is yet to come' Framed poster\u0026rdquo; A modal is displayed\nwith the product details\n!https://forge.prestashop.com/plugins/servlet/raven/attachment/637/Screenshot+2021-11-29+at+16.32.42.png   Change combination of product See that the price will be updated accordingly   Change quantity of product and Click add to cart Modal \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; is displayed   Click on the \u0026ldquo;cross\u0026rdquo; button or \u0026ldquo;Continue Shopping\u0026rdquo; button or out side The modal is closed   Click Quick View on another simple product The modal is well displayed   Click on Cross button The modal is closed   Search a customized product and click on Quick view The \u0026ldquo;Add to cart\u0026rdquo; button is disabled   Click on Cross button The modal is closed   Search the product out of stock created in the pre-condition and click on quick view * Add to cart button is disabled\n* Out-of-Stock label is displayed   Close the modal by clicking outside of the modal Quick view modal is now closed   Delete the product created in the pre-condition The product is well deleted    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-message-while-logged-out.html",
+	"title": "FO &gt; Send message while logged out",
+	"tags": [],
+	"description": "",
+	"content": "FO \u0026gt; Send message while logged out Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;The message cannot be blank.\u0026rdquo; is displayed   Click on \u0026ldquo;Contact us\u0026rdquo; in header \u0026gt; Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Customer Service \u0026gt; Customer Service page * The Customer Service page is well displayed \u0026amp; the last message is well displayed\n* The email is ok\n* the Messages is ok   Delete the last message \u0026amp; confirm the deletion The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fuzzy-search.html",
 	"title": "Fuzzy search",
 	"tags": [],
@@ -4149,13 +4156,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Send a message Steps    Step Description Expected result     Go to FO    Login with a customer account    Go to \u0026ldquo;account\u0026rdquo; page    Go to \u0026ldquo;Order history and details\u0026rdquo;    Select an order validated and go to \u0026ldquo;details\u0026rdquo;    In send message section, select a product, write a message and click on send In BO =\u0026gt; Customers Service =\u0026gt; Customers Service the message is displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/send-message-while-logged-out.html",
-	"title": "Send message while logged out",
-	"tags": [],
-	"description": "",
-	"content": "Send message while logged out Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;Invalid email address.\u0026rdquo; is displayed   Fill the form \u0026gt; Send Message \u0026ldquo;The message cannot be blank.\u0026rdquo; is displayed   Click on \u0026ldquo;Contact us\u0026rdquo; in header \u0026gt; Fill the form again \u0026gt; Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Customer Service \u0026gt; Customer Service page * The Customer Service page is well displayed \u0026amp; the last message is well displayed\n* The email is ok\n* the Messages is ok   Delete the last message \u0026amp; confirm the deletion The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/separator-of-attribute-anchor-on-the-product-links-todo.html",
@@ -6626,7 +6626,7 @@
 	"title": "Contact us",
 	"tags": [],
 	"description": "",
-	"content": "Contact us Tests  Mailto   FO \u0026gt; Contact us \u0026gt; Add attachment   Send message while logged in   Send message while logged out   "
+	"content": "Contact us Tests  Mailto   FO \u0026gt; Contact us \u0026gt; Add attachment   FO \u0026gt; Send a message while logged in   FO \u0026gt; Send message while logged out   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/contactform.html",
@@ -6724,7 +6724,7 @@
 	"title": "Credit slips",
 	"tags": [],
 	"description": "",
-	"content": "Credit slips Tests  Consult credit slips list   Consult order   Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order   "
+	"content": "Credit slips Tests  Consult credit slips list   Consult order   FO \u0026gt; Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule.html",
@@ -7158,7 +7158,7 @@
 	"title": "Homepage",
 	"tags": [],
 	"description": "",
-	"content": "Homepage Tests  Slider   Products   All products   Consult product quickview   "
+	"content": "Homepage Tests  Slider   Products   All products   FO \u0026gt; Consult product quickview   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings.html",
