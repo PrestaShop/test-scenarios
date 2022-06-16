@@ -7,43 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Check links in header</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/check-links-in-header.html</link>
+      <title>FO &gt; Check links in header</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-check-links-in-header.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/check-links-in-header.html</guid>
-      <description>Check links in header Steps    Step Description Expected result     Go to FO &amp;gt; Click on top left link &amp;ldquo;Contact us&amp;rdquo; Contact form page will open   Click on Sign In button &amp;gt; Enter your email + password &amp;gt; Click Sign In You are now logged in
-Button &amp;ldquo;Sign In&amp;rdquo; is now 2 buttons : &amp;ldquo;Sign Out&amp;rdquo; + &amp;ldquo;your name&amp;rdquo;   Click on your account button in header Your account page is displayed   Go to a product page &amp;gt; Add to cart &amp;gt; Click &amp;ldquo;Continue shopping&amp;rdquo; &amp;gt; Click on top right Cart button Shopping cart is now displayed   Click on Sign out You will be logged out and the cart is now empty    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-check-links-in-header.html</guid>
+      <description>FO &amp;gt; Check links in header Steps    Step Description Expected result     Go to FO &amp;gt; Click on top left link &amp;ldquo;Contact us&amp;rdquo; Contact form page is well displayed   Click on &amp;ldquo;Sign In&amp;rdquo; link on top right &amp;gt; Enter your email + password with the customer account created from the pre-condition step &amp;gt; Click on &amp;ldquo;Sign In&amp;rdquo; button * You are now logged in</description>
     </item>
     
     <item>
-      <title>Check links in footer</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/check-links-in-footer.html</link>
+      <title>FO &gt; Check links in footer</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-check-links-in-footer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/check-links-in-footer.html</guid>
-      <description>Check links in footer Steps    Step Description Expected result     Go to FO &amp;gt; Go to footer See 4 blocks : Products, Our company, Your account and Store Information   Check that all links from Products, Our company work well and redirect to correct page    Case 1 : you are not logged in
-On block Your account, Click on all links All links should redirect to Login Page   Case 2 ; you are logged into your customer account All links will redirect to the correct page   On block Store information &amp;gt; Click on the email address You will be able to send a direct email    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-check-links-in-footer.html</guid>
+      <description>FO &amp;gt; Check links in footer Steps    Step Description Expected result     Go to FO &amp;gt; Go to footer * See 4 blocks :
+** Products
+** Our company
+** Your account
+** Store Information
+* See also Copyright link at the bottom of the footer: &amp;ldquo;© XXXX - Ecommerce software by PrestaShop™ &amp;quot; link&amp;rdquo;   Go to footer &amp;gt; Products block &amp;gt; click on all links * &amp;ldquo;Prices drop&amp;rdquo; link redirects to &amp;ldquo;Prices drop&amp;rdquo; category page</description>
     </item>
     
     <item>
-      <title>Change language</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/change-language.html</link>
+      <title>FO &gt; Change language</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-change-language.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/change-language.html</guid>
-      <description>Change language Steps    Step Description Expected result     Case 1 : there&amp;rsquo;s only one language You will not see the link to change language in the header   Case 2 : If you have 2 or more languages
-Go to FO &amp;gt; Change language from EN to FR See that the page is not in FR
-The url has the /fr/   Switch back to EN FO is now in English</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-change-language.html</guid>
+      <description>FO &amp;gt; Change language Steps    Step Description Expected result     Case 1: there&amp;rsquo;s only one language You will not see the link to change language in the header   Case 2: If you have 2 or more languages
+Go to FO &amp;gt; Change language from EN to XX language from the list in the header The page changed to XX language
+The url has the /xx/   Switch back to EN FO is now in English</description>
     </item>
     
     <item>
-      <title>Change currency</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/change-currency.html</link>
+      <title>FO &gt; Change currency</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-change-currency.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/change-currency.html</guid>
-      <description>Change currency Steps    Step Description Expected result     Case 1 : You have one currency only The link to change currency will not appear in header of FO   Case 2 : You have 2 or more currencies
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-change-currency.html</guid>
+      <description>FO &amp;gt; Change currency Steps    Step Description Expected result     Case 1: You have one currency only The link to change currency will not appear in header of FO   Case 2: You have 2 or more currencies
 Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another currency See that the price of your product is now in the new currency with the new exchange rate   Switch back to your original currency The prices of products are now in the original currency with the original exchange rate    </description>
     </item>
     

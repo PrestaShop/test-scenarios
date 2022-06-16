@@ -7,43 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Create an account</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/create-an-account.html</link>
+      <title>FO &gt; Create an account</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-create-an-account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/create-an-account.html</guid>
-      <description>Create an account Steps    Step Description Expected result     GO to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button Log in to your account page will open   Click on &amp;ldquo;No account? Create one here&amp;rdquo; Create an account page will open   Fill the form with your personal information &amp;gt; Click Save You are now logged into your account
-Homepage of website is displayed    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-create-an-account.html</guid>
+      <description>FO &amp;gt; Create an account Steps    Step Description Expected result     Go to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button link &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Click on &amp;ldquo;No account? Create one here&amp;rdquo; link at the bottom fo the block Create an account page is displayed   Fill the form with your personal information &amp;gt; Click Save * You are now logged into your account</description>
     </item>
     
     <item>
-      <title>Logout</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/logout.html</link>
+      <title>FO &gt; Logout</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-logout.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/logout.html</guid>
-      <description>Logout Steps    Step Description Expected result     On the FO &amp;gt; Customer account &amp;gt; Click on top right corner &amp;ldquo;Sign out&amp;rdquo; button You are logged out
-Log in to your account page is displayed   Log into your account with email + password &amp;gt; Click &amp;ldquo;Sign in&amp;rdquo; button You are logged in
-Your account page is displayed   Click on &amp;ldquo;Sign out&amp;rdquo; link on the bottom of your account page You are logged out</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-logout.html</guid>
+      <description>FO &amp;gt; Logout Steps    Step Description Expected result     Case 1
+Go to FO &amp;gt; you are logged in with customer account created from the pre-condition step &amp;gt; Click on &amp;ldquo;Sign out&amp;rdquo; button link on the header of the shop * You are logged out
+* Home page is displayed   Case 2
+Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Fill the form with customer account created from the pre-condition step informations &amp;gt; Click &amp;ldquo;Sign in&amp;rdquo; button * You are logged in</description>
     </item>
     
     <item>
-      <title>Password reminder</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/password-reminder.html</link>
+      <title>FO &gt; Password reminder</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-password-reminder.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/password-reminder.html</guid>
-      <description>Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on Sign In button &amp;gt; Click on &amp;ldquo;Forgot your password?&amp;rdquo; link Password recovery page is displayed   Enter your customer email address &amp;gt; Click on &amp;ldquo;send reset link&amp;rdquo; Message &amp;ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at email@email.com.&amp;rdquo; is displayed   Check your emails &amp;gt; A &amp;ldquo;Password query confirmation&amp;rdquo; email is sent &amp;gt; Click on the link Recovery password page will open   Fille the form with your New password &amp;gt; Click Change password You will be logged into your account</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-password-reminder.html</guid>
+      <description>FO &amp;gt; Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign out&amp;rdquo; link button on top right with account created from the pre-condition step * You are logged out of your customer account
+* Home page is displayed   Click on &amp;ldquo;Sign In&amp;rdquo; button link on header on top right &amp;gt; Click on &amp;ldquo;Forgot your password?&amp;rdquo; link &amp;ldquo;Forgot your password&amp;rdquo; page is displayed   Enter your customer email address &amp;gt; Click on &amp;ldquo;send reset link&amp;rdquo; Message &amp;ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at XX@XX.</description>
     </item>
     
     <item>
-      <title>Login</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/login.html</link>
+      <title>FO &gt; Login</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-login.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/login.html</guid>
-      <description>Login Steps    Step Description Expected result     Go to FO &amp;gt; Click on Sign In &amp;gt; Enter a wrong email + password combination &amp;gt; Click on Sign In Message Authentication failed. is displayed
-You can&amp;rsquo;t log in   Enter your email + password &amp;gt; Click on &amp;ldquo;Show&amp;rdquo; Password will be displayed clearly   Click on &amp;ldquo;Sign in&amp;rdquo; You are now logged into your customer account    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-login.html</guid>
+      <description>FO &amp;gt; Login Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign out&amp;rdquo; link button on top right with account created from the pre-condition step * You are logged out of your customer account
+* Home page is displayed   Click on &amp;ldquo;Sign In&amp;rdquo; link button &amp;gt; Enter a wrong email + password combination &amp;gt; Click on &amp;ldquo;Sign In&amp;rdquo; button * An error message &amp;ldquo;Authentication failed&amp;rdquo;.</description>
     </item>
     
   </channel>
