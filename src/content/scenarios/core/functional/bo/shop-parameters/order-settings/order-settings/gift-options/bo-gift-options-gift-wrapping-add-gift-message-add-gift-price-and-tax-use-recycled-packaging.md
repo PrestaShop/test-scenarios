@@ -27,4 +27,3 @@ weight: 1
 | Click on "Your name" link on the header | "Your account" page is displayed |
 | Click on "Order history and details" tab > Click on "Details" link of the last order | * The "Order details" page is displayed<br> * In the 2nd block,  the message about gift wrapping and recycled packaging options is displayed:<br> ** You have given permission to receive your order in recycled packaging. <br> ** You have requested gift wrapping for this order.<br> ** My custom message |
 | Go to BO > Orders > Orders > View latest order | * In "Products" block, a wrapping amount is displayed<br> * In tab Status, Documents, Carriers, Merchandise return tabs, label "recycled packaging" and "gift wrapping" are displayed<br> * In tab Carriers, the note is displayed |
-| Go to BO > Customers list page & delete the customer created in the pre-condition | The alert "Successful deletion." is well displayed |
