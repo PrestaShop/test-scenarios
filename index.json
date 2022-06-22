@@ -539,13 +539,6 @@
 	"content": "Edit Currency restrictions (TODO) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/edit-informations.html",
-	"title": "Edit informations",
-	"tags": [],
-	"description": "",
-	"content": "Edit informations Steps    Step Description Expected result     Go to BO \u0026gt; Log into your customer account \u0026gt; Go to your customer account \u0026gt; Click Block information Personal information form is displayed   Modify the Social title, First name, Last name and email \u0026gt; Save You need to re-enter your password and check Customer data privacy   Click Save Information is saved\nMessage \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed   Modify your password \u0026gt; Check customer data privacy \u0026gt; Save Message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\nIn Email/Password : Message \u0026ldquo;Invalid email/password combination\u0026rdquo; is displayed   Re enter your current password and your new password to the form Message \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed\nYour password has been updated   Tick all checkboxes \u0026gt; Save Message \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed\nSee that checkboxes for partners offer and newsletter are checked    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/permissions/edit-permissions-on-menu.html",
 	"title": "Edit permissions on menu",
 	"tags": [],
@@ -910,6 +903,20 @@
 	"content": "FilterProducts Steps    Step Description Expected result     Go to the Catalog \u0026gt; Products\u0026quot; page\u0026quot; Products listing is displayed correctly   Reset all filters All filters are reset. All products are displayed   Save the numbers of products in a variable Number of products is saved   Filter the list by name. Criteria : Customizable mug\u0026quot; Products list is filtered. Products listed have Customizable mug\u0026quot; in their name\u0026quot;   Reset all filters All filters are reset. All products are displayed. Number of products displayed is equal to the number saved   Filter the list by reference. Criteria : demo_1\u0026quot; Products list is filtered. Products listed have demo_1\u0026quot; in their reference\u0026quot;   Reset all filters All filters are reset. All products are displayed. Number of products displayed is equal to the number saved   Filter the list by category. Criteria : Men\u0026quot; Products list is filtered. Products listed have Men\u0026quot; in their categories\u0026quot;   Reset all filters All filters are reset. All products are displayed. Number of products displayed is equal to the number saved    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-check-links-in-header.html",
+	"title": "FO - Check links in header",
+	"tags": [],
+	"description": "",
+	"content": "FO - Check links in header Steps    Step Description Expected result     Go to FO \u0026gt; Click on top left link \u0026ldquo;Contact us\u0026rdquo; Contact form page is well displayed   Click on \u0026ldquo;Sign In\u0026rdquo; link on top right \u0026gt; Enter your email + password with the customer account created from the pre-condition step \u0026gt; Click on \u0026ldquo;Sign In\u0026rdquo; button * You are now logged in\n* 2 new links are displayed instead of \u0026ldquo;Sign in\u0026rdquo; link : \u0026ldquo;Sign Out\u0026rdquo; + \u0026ldquo;your name\u0026rdquo;   Click on \u0026ldquo;your name\u0026rdquo; account button in header Your account page is displayed   Go to home page \u0026gt; click on a product Product page is well displayed   Click on \u0026ldquo;Add to cart\u0026rdquo; button Add to cart modal is displayed   Click on \u0026ldquo;Continue shopping\u0026rdquo; button on modal \u0026gt; Click on top right Cart button Shopping cart is now displayed   Click on Sign out * You are now logged out\n* The cart is now empty\n* The \u0026ldquo;Sign in\u0026rdquo; link is displayed instead of \u0026ldquo;Sign Out\u0026rdquo; + \u0026ldquo;your name\u0026rdquo; links   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created in the pre-condition The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-create-an-account.html",
+	"title": "FO - Create an account",
+	"tags": [],
+	"description": "",
+	"content": "FO - Create an account Steps    Step Description Expected result     Go to FO \u0026gt; Click on top right \u0026ldquo;Sign In\u0026rdquo; button link \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Click on \u0026ldquo;No account? Create one here\u0026rdquo; link at the bottom fo the block Create an account page is displayed   Fill the form with your personal information \u0026gt; Click Save * You are now logged into your account\n* Redirection automatically to the homepage   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-from-the-fo.html",
 	"title": "FO - Create an order from the FO ",
 	"tags": [],
@@ -917,18 +924,11 @@
 	"content": "FO - Create an order from the FO "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-check-links-in-header.html",
-	"title": "FO &gt; Check links in header",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-edit-informations.html",
+	"title": "FO - Edit informations",
 	"tags": [],
 	"description": "",
-	"content": "FO \u0026gt; Check links in header Steps    Step Description Expected result     Go to FO \u0026gt; Click on top left link \u0026ldquo;Contact us\u0026rdquo; Contact form page is well displayed   Click on \u0026ldquo;Sign In\u0026rdquo; link on top right \u0026gt; Enter your email + password with the customer account created from the pre-condition step \u0026gt; Click on \u0026ldquo;Sign In\u0026rdquo; button * You are now logged in\n* 2 new links are displayed instead of \u0026ldquo;Sign in\u0026rdquo; link : \u0026ldquo;Sign Out\u0026rdquo; + \u0026ldquo;your name\u0026rdquo;   Click on \u0026ldquo;your name\u0026rdquo; account button in header Your account page is displayed   Go to home page \u0026gt; click on a product Product page is well displayed   Click on \u0026ldquo;Add to cart\u0026rdquo; button Add to cart modal is displayed   Click on \u0026ldquo;Continue shopping\u0026rdquo; button on modal \u0026gt; Click on top right Cart button Shopping cart is now displayed   Click on Sign out * You are now logged out\n* The cart is now empty\n* The \u0026ldquo;Sign in\u0026rdquo; link is displayed instead of \u0026ldquo;Sign Out\u0026rdquo; + \u0026ldquo;your name\u0026rdquo; links   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created in the pre-condition The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-create-an-account.html",
-	"title": "FO &gt; Create an account",
-	"tags": [],
-	"description": "",
-	"content": "FO \u0026gt; Create an account Steps    Step Description Expected result     Go to FO \u0026gt; Click on top right \u0026ldquo;Sign In\u0026rdquo; button link \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Click on \u0026ldquo;No account? Create one here\u0026rdquo; link at the bottom fo the block Create an account page is displayed   Fill the form with your personal information \u0026gt; Click Save * You are now logged into your account\n* Redirection automatically to the homepage   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
+	"content": "FO - Edit informations Steps    Step Description Expected result     Go to FO \u0026gt; Go to header and click on \u0026ldquo;Sign in\u0026rdquo; link Login page is displayed   Fill the login form with your logins \u0026gt; Click on the \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Go to header and click on your username \u0026gt; Click on \u0026ldquo;Information\u0026rdquo; tab \u0026ldquo;Your personal information\u0026rdquo; page is displayed   Modify the Social title, First name, Last name and email \u0026gt; Click on \u0026ldquo;save\u0026rdquo; button You need to:\n* re-enter your password\n* check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; checkbox\n* check \u0026ldquo;Customer data privacy\u0026rdquo; checkbox   Click on \u0026ldquo;Save\u0026rdquo; button * New informations is saved\n* Success message \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed   Case 1: Update password with empty \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;Email/Password\u0026rdquo; fields: error message \u0026ldquo;Invalid email/password combination\u0026rdquo; is displayed   Case 2: Update password with same letters on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** Repeats like \u0026ldquo;abcabcabc\u0026rdquo; are only slightly harder to guess than \u0026ldquo;abc\u0026rdquo;\n** Add another word or two. Uncommon words are better.\n** Avoid repeated words and characters   Case 3: Update password with a password below 8 characters or above 72 characters on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** Password must be between 8 and 72 characters long\n** Add another word or two. Uncommon words are better.   Case 4: Update password with an old similar password on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** This is similar to a commonly used password\n** Add another word or two. Uncommon words are better.   Re-enter your current password and your new password to the form * Success message \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed\n* Your password has been updated   Check all checkboxes \u0026gt; Save * Success message \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed\n* See that checkboxes for partners offer and newsletter are checked    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/welcome/contenu/full-onboarding-process.html",
@@ -1708,13 +1708,6 @@
 	"content": "CRUD (TODO) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/crud-address.html",
-	"title": "CRUD address",
-	"tags": [],
-	"description": "",
-	"content": "CRUD address Steps    Step Description Expected result     Go to FO \u0026gt; Log into your customer account \u0026gt; Click on block \u0026ldquo;Add first address\u0026rdquo; New address form is displayed   Fill the address form \u0026gt; Save Message \u0026ldquo;Address successfully added!\u0026rdquo; is displayed\nThe new address is in your account   Click update on your address \u0026gt; modify your Alias, Address, add a Phone Number \u0026gt; Save Message \u0026ldquo;Address successfully added!\u0026rdquo; is displayed\nThe updated address is in your account   Click on \u0026ldquo;Your account\u0026rdquo; on breadcrumb See that the block is now called \u0026ldquo;Addresses\u0026rdquo;   Click on \u0026ldquo;+ Create new address\u0026rdquo; \u0026gt; Fill in the address form \u0026gt; Save Message \u0026ldquo;Address successfully added!\u0026rdquo; is displayed\nYou have now 2 addresses displayed   Click Delete on \u0026ldquo;My home address\u0026rdquo; Message \u0026ldquo;Could not delete the address since it is used in the shopping cart.\u0026rdquo; is displayed   Go to FO \u0026gt; Cart \u0026gt; Step 2 change your 2nd address \u0026gt; Go back to your account \u0026gt; Addresses \u0026gt; Click Delete on \u0026ldquo;My home address\u0026rdquo; Message \u0026ldquo;Address successfully deleted!\u0026rdquo; is displayed\nOnly one address exists in the list    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/categories/crud-categories-and-subcategories.html",
 	"title": "CRUD Categories And Subcategories",
 	"tags": [],
@@ -2079,6 +2072,13 @@
 	"content": "Filter, sort and pagination Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discounts \u0026gt; Catalog price rule The Catalog price rule page is well displayed   Filter by ID Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched ID   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Name Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Name   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Shop Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Shop   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by currency Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched currency   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Group Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Group   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by From Quantity Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Quanity   Reset Filter Number of catalog price rules = Total of catalog price rules   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Reduction type Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched reduction type   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Reduction Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Reduction   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Beginning Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched beginning   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by End Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched End   Reset Filter Number of catalog price rules = Total of catalog price rules   Sort by ID desc The list is sorted by ID desc   Sort by Name asc The list is sorted by name asc   Sort by Name desc The list is sorted by name desc   Sort by Shop asc The list is sorted by shop asc   Sort by Shop desc The list is sorted by shop desc   Sort by currency asc The list is sorted by currency asc   Sort by currency desc The list is sorted by currency desc   Sort by country asc The list is sorted by country asc   Sort by country desc The list is sorted by country desc   Sort by Group asc The list is sorted by group asc   Sort by Group desc The list is sorted by group desc   Sort by From quantity asc The list is sorted by quanity asc   Sort by quantity desc The list is sorted by quantity desc   Sort by Reduction asc The list is sorted by reduction asc   Sort by Reduction desc The list is sorted by Reduction desc   Sort by beginning asc The list is sorted by begining asc   Sort by begining desc The list is sorted by beginning desc   Sort by End asc The list is sorted End asc   Sort by End desc The list is sorted by End desc   Sort by ID asc The list is sorted by ID asc   Select All catalog price rules created, delete with bulk action and confirm the deletion A green alert \u0026ldquo;The selection has been successfully deleted.\u0026rdquo; is displayed    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-check-links-in-footer.html",
+	"title": "FO - Check links in footer",
+	"tags": [],
+	"description": "",
+	"content": "FO - Check links in footer Steps    Step Description Expected result     Go to FO \u0026gt; Go to footer * See 4 blocks :\n** Products\n** Our company\n** Your account\n** Store Information\n* See also Copyright link at the bottom of the footer: \u0026ldquo;© XXXX - Ecommerce software by PrestaShop™ \u0026quot; link\u0026rdquo;   Go to footer \u0026gt; Products block \u0026gt; click on all links * \u0026ldquo;Prices drop\u0026rdquo; link redirects to \u0026ldquo;Prices drop\u0026rdquo; category page\n* \u0026ldquo;New products\u0026rdquo; link redirects to \u0026ldquo;New products\u0026rdquo; category page\n* \u0026ldquo;Best sales\u0026rdquo; link redirects to \u0026ldquo;Best sellers\u0026rdquo; category page   Go to footer \u0026gt; Our company block \u0026gt; click on all links * \u0026ldquo;Delivery\u0026rdquo; link redirects to \u0026ldquo;Delivery\u0026rdquo; page\n* \u0026ldquo;Legal notice\u0026rdquo; link redirects to \u0026ldquo;Legal notice\u0026rdquo; page\n* \u0026ldquo;Terms and conditions of use\u0026rdquo; link redirects to \u0026ldquo;Terms and conditions of use\u0026rdquo; page\n* \u0026ldquo;About us\u0026rdquo; link redirects to \u0026ldquo;About us\u0026rdquo; page\n* \u0026ldquo;Secure payment\u0026rdquo; link redirects to \u0026ldquo;Secure payment\u0026rdquo; page\n* \u0026ldquo;Contact us\u0026rdquo; link redirects to \u0026ldquo;Contact us\u0026rdquo; page\n* \u0026ldquo;Sitemap\u0026rdquo; link redirects to \u0026ldquo;Sitemap\u0026rdquo; page\n* \u0026ldquo;Stores\u0026rdquo; link redirects to \u0026ldquo;Stores\u0026rdquo; page   Case 1: you are logged into your customer account created from the pre-condition step\nGo to footer \u0026gt; Our your account block \u0026gt; click on all links * \u0026ldquo;Information\u0026rdquo; link redirects to \u0026ldquo;Your personal information\u0026rdquo; page\n* \u0026ldquo;Add first address\u0026rdquo; link redirects to \u0026ldquo;New address\u0026rdquo; page\n* \u0026ldquo;Orders\u0026rdquo; link redirects to \u0026ldquo;Order history\u0026rdquo; page\n* \u0026ldquo;Credit slips\u0026rdquo; link redirects to \u0026ldquo;Credit slips\u0026rdquo; page\n* \u0026ldquo;Wishlist\u0026rdquo; link redirects to \u0026ldquo;My wishlists\u0026rdquo; page\n* \u0026ldquo;My alerts\u0026rdquo; link redirects to \u0026ldquo;My alerts\u0026rdquo; page\n* \u0026ldquo;Sign out\u0026rdquo; link logged out of your customer account created from the pre-condition step \u0026amp; redirect to \u0026ldquo;Log in your account\u0026rdquo; page   Case 2: you are not logged in\nGo to footer \u0026gt; Our your account block \u0026gt; click on all links * \u0026ldquo;Order tracking\u0026rdquo; link redirects to \u0026ldquo;Guest order tracking\u0026rdquo; page\n* \u0026ldquo;Sign in\u0026rdquo; link redirects to \u0026ldquo;Log in to your account\u0026rdquo; page\n* \u0026ldquo;Create account\u0026rdquo; link redirects to \u0026ldquo;Create an account\u0026rdquo; page\n* \u0026ldquo;My alerts\u0026rdquo; link redirects to \u0026ldquo;Log in to your account\u0026rdquo; page   Go to footer \u0026gt; Store information block \u0026gt; Click on the email address You will be able to send a direct email   Click on the copyright \u0026ldquo;© XXXX - Ecommerce software by PrestaShop™ \u0026quot; link A new tab is displayed with home page of prestashop.com website   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created in the pre-condition The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/configuration/fo-check-that-all-social-pictogram-is-display-properly.html",
 	"title": "FO - Check that all social pictogram is display properly",
 	"tags": [],
@@ -2093,6 +2093,20 @@
 	"content": "FO - Create an order with a guest account Steps    Step Description Expected result     Open the FO and add the first product to the cart Home page is displayed and the product is added to the cart   Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The shopping cart is displayed and the first product is added to the cart   Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The checkout page is displayed   In the Personal information step, set these fields: # Social title # First name\n# Last name\n# and Email.\n# Select those checkboxes: Customer data privacy and I agree to the terms and conditions and the privacy policy. Click on Continue A guest is well created, the Addresses Step is displayed and The \u0026ldquo;First name\u0026rdquo; \u0026amp; \u0026ldquo;Last name\u0026rdquo; \u0026amp; \u0026ldquo;Country\u0026rdquo; are not empty   In the Addresses Step, set these fields:\n# Address\n# Zip/Postal Code\n# City and click on continue The address is well created and the Shipping step is displayed   Select a carrier and click on \u0026ldquo;Continue\u0026rdquo; The payment step is displayed   Select a payment method, select on \u0026ldquo;I agree to the terms of service and will adhere to them unconditionally.\u0026rdquo; and click on \u0026ldquo;Place Order\u0026rdquo; The order confirmation is displayed   Check the database \u0026amp; the table Prefix_ganalytics A new line is added for the new order    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-crud-address.html",
+	"title": "FO - CRUD address",
+	"tags": [],
+	"description": "",
+	"content": "FO - CRUD address Steps    Step Description Expected result     Go to FO \u0026gt; Go to header and click on your username \u0026gt; Click on tab \u0026ldquo;Add first address\u0026rdquo; \u0026ldquo;New address\u0026rdquo; form page is displayed   Fill the address form \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Success message \u0026ldquo;Address successfully added!\u0026rdquo; is displayed\n* Back to \u0026ldquo;Your addresses\u0026rdquo; page with the new address on your account   Click on \u0026ldquo;Update\u0026rdquo; link at the bottom of your address card \u0026gt; Modify your Alias, Address, add a Phone Number \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Success message \u0026ldquo;Address successfully updated!\u0026rdquo; is displayed\n* Back to \u0026ldquo;Your addresses\u0026rdquo; page with the updated address on your account   Click on \u0026ldquo;Your account\u0026rdquo; on breadcrumb in \u0026ldquo;Your addresses\u0026rdquo; page * Back to \u0026ldquo;Your account page\u0026rdquo;\n* The \u0026ldquo;Add first address\u0026rdquo; tab is now called \u0026ldquo;Addresses\u0026rdquo;   Click on \u0026ldquo;Addresses\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;+ Create new address\u0026rdquo; link at the bottom of the page \u0026ldquo;New address\u0026rdquo; form page is displayed   Fill the address form \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Success message \u0026ldquo;Address successfully added!\u0026rdquo; is displayed\n* Back to \u0026ldquo;Your addresses\u0026rdquo; page with the new address on your account\n* You have now 2 addresses displayed   Go to home page \u0026gt; Add a product on cart \u0026gt; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; button in the modal \u0026gt; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; button in the \u0026ldquo;Shopping cart\u0026rdquo; page * Step 2 with your addresses is displayed\n* The first address added is checked   Click on the shop logo \u0026gt; Click on your username link in the header \u0026gt; Click on \u0026ldquo;Addresses\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Delete\u0026rdquo; link at the bottom of your first address card Error message \u0026ldquo;Could not delete the address since it is used in the shopping cart.\u0026rdquo; is displayed   Click on \u0026ldquo;Cart\u0026rdquo; button on the header \u0026gt; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; button \u0026gt; Select the other address \u0026gt; Click on \u0026ldquo;Continue\u0026rdquo; button * The second address added is well checked\n* Step 3 with your \u0026ldquo;Shipping method\u0026rdquo; is displayed   Click on the shop logo \u0026gt; Click on your username link in the header \u0026gt; Click on \u0026ldquo;Addresses\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Delete\u0026rdquo; link at the bottom of your first address card * Success message \u0026ldquo;Address successfully deleted!\u0026rdquo; is displayed\n* Only one address exists in the list   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-logout.html",
+	"title": "FO - Logout",
+	"tags": [],
+	"description": "",
+	"content": "FO - Logout Steps    Step Description Expected result     Case 1\nGo to FO \u0026gt; you are logged in with default customer account p \u0026gt; Click on \u0026ldquo;Sign out\u0026rdquo; button link on the header of the shop * You are logged out\n* Home page is displayed   Case 2\nGo to header \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; button link The \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Fill the form with customer account created from the pre-condition step informations \u0026gt; Click \u0026ldquo;Sign in\u0026rdquo; button * You are logged in\n* Home page is displayed   Go to header \u0026gt; Click on \u0026ldquo;Your name\u0026rdquo; button link \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Sign out\u0026rdquo; link on the bottom of your account page * You are logged out\n* Log in to your account page is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/newsletter/fo-subscribe-to-newsletter.html",
 	"title": "FO - subscribe to newsletter",
 	"tags": [],
@@ -2100,25 +2114,11 @@
 	"content": "FO - subscribe to newsletter Steps    Step Description Expected result     Go to the FO on the Homepage The FO homepage is displayed   In the newsletter form field, add a email address who is not yet a newsletter subscriber email and click on \u0026ldquo;subscribe\u0026rdquo;\n!image-2021-04-06-16-20-27-389.png! A confirmation message is displayed !image-2021-04-06-16-19-48-272.png!   Go to the BO on the module manager page Module manager page is displayed   Select the \u0026ldquo;newletter\u0026rdquo; module in the list and in the select list form click on \u0026ldquo;configure\u0026rdquo;\n!image-2021-04-06-16-25-51-178.png!\n!image-2021-04-06-16-26-51-597.png! Redirected to the newsletter module configuration page\n!image-2021-04-06-16-27-30-186.png!   In the \u0026ldquo;newsletter registration\u0026rdquo; section , in the table , search for the email address used in step 2 The email address is in the list and the status is \u0026ldquo;subscribed\u0026rdquo;\n!image-2021-04-06-16-31-47-908.png!   Go back to the FO and in the newsletter form field, use again the same email address than step 2\nThen click on \u0026ldquo;subscribe\u0026rdquo; A error message is displayed, it says that the email address is already used\n!image-2021-04-06-16-33-37-842.png!    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-check-links-in-footer.html",
-	"title": "FO &gt; Check links in footer",
-	"tags": [],
-	"description": "",
-	"content": "FO \u0026gt; Check links in footer Steps    Step Description Expected result     Go to FO \u0026gt; Go to footer * See 4 blocks :\n** Products\n** Our company\n** Your account\n** Store Information\n* See also Copyright link at the bottom of the footer: \u0026ldquo;© XXXX - Ecommerce software by PrestaShop™ \u0026quot; link\u0026rdquo;   Go to footer \u0026gt; Products block \u0026gt; click on all links * \u0026ldquo;Prices drop\u0026rdquo; link redirects to \u0026ldquo;Prices drop\u0026rdquo; category page\n* \u0026ldquo;New products\u0026rdquo; link redirects to \u0026ldquo;New products\u0026rdquo; category page\n* \u0026ldquo;Best sales\u0026rdquo; link redirects to \u0026ldquo;Best sellers\u0026rdquo; category page   Go to footer \u0026gt; Our company block \u0026gt; click on all links * \u0026ldquo;Delivery\u0026rdquo; link redirects to \u0026ldquo;Delivery\u0026rdquo; page\n* \u0026ldquo;Legal notice\u0026rdquo; link redirects to \u0026ldquo;Legal notice\u0026rdquo; page\n* \u0026ldquo;Terms and conditions of use\u0026rdquo; link redirects to \u0026ldquo;Terms and conditions of use\u0026rdquo; page\n* \u0026ldquo;About us\u0026rdquo; link redirects to \u0026ldquo;About us\u0026rdquo; page\n* \u0026ldquo;Secure payment\u0026rdquo; link redirects to \u0026ldquo;Secure payment\u0026rdquo; page\n* \u0026ldquo;Contact us\u0026rdquo; link redirects to \u0026ldquo;Contact us\u0026rdquo; page\n* \u0026ldquo;Sitemap\u0026rdquo; link redirects to \u0026ldquo;Sitemap\u0026rdquo; page\n* \u0026ldquo;Stores\u0026rdquo; link redirects to \u0026ldquo;Stores\u0026rdquo; page   Case 1: you are logged into your customer account created from the pre-condition step\nGo to footer \u0026gt; Our your account block \u0026gt; click on all links * \u0026ldquo;Information\u0026rdquo; link redirects to \u0026ldquo;Your personal information\u0026rdquo; page\n* \u0026ldquo;Add first address\u0026rdquo; link redirects to \u0026ldquo;New address\u0026rdquo; page\n* \u0026ldquo;Orders\u0026rdquo; link redirects to \u0026ldquo;Order history\u0026rdquo; page\n* \u0026ldquo;Credit slips\u0026rdquo; link redirects to \u0026ldquo;Credit slips\u0026rdquo; page\n* \u0026ldquo;Wishlist\u0026rdquo; link redirects to \u0026ldquo;My wishlists\u0026rdquo; page\n* \u0026ldquo;My alerts\u0026rdquo; link redirects to \u0026ldquo;My alerts\u0026rdquo; page\n* \u0026ldquo;Sign out\u0026rdquo; link logged out of your customer account created from the pre-condition step \u0026amp; redirect to \u0026ldquo;Log in your account\u0026rdquo; page   Case 2: you are not logged in\nGo to footer \u0026gt; Our your account block \u0026gt; click on all links * \u0026ldquo;Order tracking\u0026rdquo; link redirects to \u0026ldquo;Guest order tracking\u0026rdquo; page\n* \u0026ldquo;Sign in\u0026rdquo; link redirects to \u0026ldquo;Log in to your account\u0026rdquo; page\n* \u0026ldquo;Create account\u0026rdquo; link redirects to \u0026ldquo;Create an account\u0026rdquo; page\n* \u0026ldquo;My alerts\u0026rdquo; link redirects to \u0026ldquo;Log in to your account\u0026rdquo; page   Go to footer \u0026gt; Store information block \u0026gt; Click on the email address You will be able to send a direct email   Click on the copyright \u0026ldquo;© XXXX - Ecommerce software by PrestaShop™ \u0026quot; link A new tab is displayed with home page of prestashop.com website   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created in the pre-condition The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-contact-us-add-attachment.html",
 	"title": "FO &gt; Contact us &gt; Add attachment",
 	"tags": [],
 	"description": "",
 	"content": "FO \u0026gt; Contact us \u0026gt; Add attachment Steps    Step Description Expected result     Go to FO \u0026gt; In footer, click on Our Company \u0026gt; Contact us Contact form is displayed   Click on Contact Us button on header \u0026gt; In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   In contact form click \u0026ldquo;Choose file\u0026rdquo; \u0026gt; Choose your file \u0026gt; Click Cancel an do not upload any file No file is chosen. The previously added file is deleted from form   Fill the form Form is displayed with your data   Add attachment \u0026gt; Click \u0026ldquo;Choose File\u0026rdquo; \u0026gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .csv \u0026gt; Click Send Message \u0026ldquo;Bad file extension\u0026rdquo; is displayed and the placeholder of Attachment is empty   Choose a file with extension .png .zip .pdf .jpg .jpeg .gif .pdf \u0026gt; Click Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Sign in The dashboard page is well displayed   Go to Customer Service \u0026gt; Customer Service page The Customer Service page is well displayed \u0026amp; the last message is well displayed   Click on View of the last message In the first thread, the Attachement link is displayed   Click on on the Attachement link The file uploaded from the FO is well displayed   Go to Customer Service \u0026gt; Customer Service page, delete the last message and confirm the deletion The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-logout.html",
-	"title": "FO &gt; Logout",
-	"tags": [],
-	"description": "",
-	"content": "FO \u0026gt; Logout Steps    Step Description Expected result     Case 1\nGo to FO \u0026gt; you are logged in with customer account created from the pre-condition step \u0026gt; Click on \u0026ldquo;Sign out\u0026rdquo; button link on the header of the shop * You are logged out\n* Home page is displayed   Case 2\nGo to header \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; button link The \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Fill the form with customer account created from the pre-condition step informations \u0026gt; Click \u0026ldquo;Sign in\u0026rdquo; button * You are logged in\n* Home page is displayed   Go to header \u0026gt; Click on \u0026ldquo;Your name\u0026rdquo; button link \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Sign out\u0026rdquo; link on the bottom of your account page * You are logged out\n* Log in to your account page is displayed   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created in the pre-condition The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/generate-emails.html",
@@ -2793,13 +2793,6 @@
 	"content": "Consult return "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/consult-your-vouchers.html",
-	"title": "Consult your vouchers",
-	"tags": [],
-	"description": "",
-	"content": "Consult your vouchers Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discount \u0026gt; Create a new car rule \u0026gt; Save Message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\nNew cart rule is created   Go to FO \u0026gt; Log into your customer account \u0026gt; Click \u0026ldquo;Your vouchers\u0026rdquo; Your vouchers table is displayed with the newly created voucher   Go to BO \u0026gt; Add multiple cart rules with different values Message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\nNew cart rule is created   Go to FO \u0026gt; Log into your customer account \u0026gt; Click \u0026ldquo;Your vouchers\u0026rdquo; Your vouchers table is displayed with the a list of new created vouchers    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-multiple-cart-rule.html",
 	"title": "Create an order with multiple cart rule",
 	"tags": [],
@@ -3038,11 +3031,25 @@
 	"content": "Filter sort pagination shop groups "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-change-language.html",
+	"title": "FO - Change language",
+	"tags": [],
+	"description": "",
+	"content": "FO - Change language Steps    Step Description Expected result     Case 1: there\u0026rsquo;s only one language You will not see the link to change language in the header   Case 2: If you have 2 or more languages\nGo to FO \u0026gt; Change language from EN to XX language from the list in the header The page changed to XX language\nThe url has the /xx/   Switch back to EN FO is now in English\nURL has /en/ at the end    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/configuration/fo-check-that-all-links-are-redirecting-to-the-right-url.html",
 	"title": "FO - Check that all links are redirecting to the right URL",
 	"tags": [],
 	"description": "",
 	"content": "FO - Check that all links are redirecting to the right URL Steps    Step Description Expected result          "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-consult-your-vouchers.html",
+	"title": "FO - Consult your vouchers",
+	"tags": [],
+	"description": "",
+	"content": "FO - Consult your vouchers Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discounts \u0026gt; Click on \u0026ldquo;Add new cart rule\u0026rdquo; button Cart Rules form page is displayed   Fill the form on the 3 tabs \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Success message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\n* New cart rule is created   Go to FO \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Click on your username link in the header \u0026gt; Click on \u0026ldquo;Your vouchers\u0026rdquo; tab Your vouchers table is displayed with the newly created voucher   Go back to BO \u0026gt; Add multiple cart rules with different values * Message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\n* New cart rules are created   Go back to FO \u0026gt; Go to your customer account \u0026gt; Click on \u0026ldquo;Your vouchers\u0026rdquo; tab Your vouchers table is displayed with the a list of new created vouchers    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html",
@@ -3052,11 +3059,11 @@
 	"content": "FO - Create an Order by existing customer Steps    Step Description Expected result     Go to FO \u0026gt; Add product to the cart \u0026amp; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The \u0026ldquo;Shopping cart\u0026rdquo; page is displayed\u0026quot;   Click on \u0026ldquo;Proceed to checkout The checkout page is displayed   In the Personal information step, click on \u0026ldquo;Sign in\u0026rdquo; The Email \u0026amp; password fields are displayed   Set Email \u0026amp; Password and click on Continue The Address step is displayed   Click on the \u0026ldquo;Continue\u0026rdquo; button The \u0026ldquo;Shipping\u0026rdquo; step is displayed   Click on the \u0026ldquo;Continue\u0026rdquo; button The \u0026ldquo;Payment methods\u0026rdquo; step is displayed   Select a payment method, click on \u0026ldquo;I agree to the terms of service and will adhere to them unconditionally.\u0026rdquo; then click on \u0026ldquo;Place Order\u0026rdquo; The Order confirmation page is displayed   Check the database \u0026amp; the table Prefix_ganalytics A new line is added for the new order    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-change-language.html",
-	"title": "FO &gt; Change language",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-password-reminder.html",
+	"title": "FO - Password reminder",
 	"tags": [],
 	"description": "",
-	"content": "FO \u0026gt; Change language Steps    Step Description Expected result     Case 1: there\u0026rsquo;s only one language You will not see the link to change language in the header   Case 2: If you have 2 or more languages\nGo to FO \u0026gt; Change language from EN to XX language from the list in the header The page changed to XX language\nThe url has the /xx/   Switch back to EN FO is now in English\nURL has /en/ at the end    "
+	"content": "FO - Password reminder Steps    Step Description Expected result     Click on \u0026ldquo;Sign In\u0026rdquo; button link on header on top right \u0026gt; Click on \u0026ldquo;Forgot your password?\u0026rdquo; link \u0026ldquo;Forgot your password\u0026rdquo; page is displayed   Enter your customer email address \u0026gt; Click on \u0026ldquo;send reset link\u0026rdquo; Message \u0026ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at XX@XX.XX.\u0026rdquo; is displayed   Check your emails \u0026gt; A \u0026ldquo;Password query confirmation\u0026rdquo; email is sent \u0026gt; Click on the link \u0026ldquo;Reset your password\u0026rdquo; page is displayed   Fille the form \u0026gt; Click \u0026ldquo;Change password\u0026rdquo; button * You are logged into your account\n* Success message \u0026ldquo;Your password has been successfully reset and a confirmation has been sent to your email address: XX@XX.XX\u0026rdquo; is displayed   Click on \u0026ldquo;Sign out\u0026rdquo; button link on the header or at the bottom of \u0026ldquo;Your account\u0026rdquo; page \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Forgot your password?\u0026rdquo; button link \u0026gt; Enter your customer email address \u0026gt; Click on \u0026ldquo;send reset link\u0026rdquo; button An error message is displayed : \u0026ldquo;You can regenerate your password only every 360 minute(s)\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slip-list-view-pdf-credit-slip-view-order.html",
@@ -3064,13 +3071,6 @@
 	"tags": [],
 	"description": "",
 	"content": "FO \u0026gt; Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order Steps    Step Description Expected result     Go to FO \u0026gt; Sign with default customer The Home page is well displayed   Click on View my customer account Your account page is displayed   Click on \u0026ldquo;Credit slips\u0026rdquo; The Credit slips page is well displayed and the information alert \u0026ldquo;You have not received any credit slips.\u0026quot; is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders page \u0026amp; view the last order created from the pre-condition step The Order view page is well displayed   Change the order status to \u0026ldquo;Payment accepted\u0026rdquo; or \u0026ldquo;Shipped\u0026rdquo; The order status is updated successfully   Click on \u0026ldquo;Partial refund\u0026rdquo;, set a quantity and click on the \u0026ldquo;Partial refund\u0026rdquo; button The alert \u0026ldquo;A partial refund was successfully created.\u0026rdquo; is well displayed and the credit slip is well created   Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab * The list of Credit slips received is displayed successfully\n* The Order reference is OK\n* The Credit slip ID is ok\n* The Date issued is ok   Choose a credit slip \u0026gt; Click on the pdf icon on the \u0026ldquo;View credit slip\u0026rdquo; column The PDF file is downloaded   Click on the file in browser toolbar The pdf file opens on a new tab and is displayed with all details   Go back to FO \u0026gt; Your account \u0026gt; Credit slip page The credit slip page is well displayed   Click on the Order reference The Order details is well displayed   Go Back to FO \u0026gt; Click on customer account page \u0026gt; Go to the Credit slips tab and click On \u0026ldquo;Back to your account\u0026rdquo; link Your account page is well displayed   Go Back to FO \u0026gt; Click on customer account page \u0026gt; Go to the Credit slips tab and click On \u0026ldquo;Home\u0026rdquo; link Your Home page is well displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-password-reminder.html",
-	"title": "FO &gt; Password reminder",
-	"tags": [],
-	"description": "",
-	"content": "FO \u0026gt; Password reminder Steps    Step Description Expected result     Click on \u0026ldquo;Sign In\u0026rdquo; button link on header on top right \u0026gt; Click on \u0026ldquo;Forgot your password?\u0026rdquo; link \u0026ldquo;Forgot your password\u0026rdquo; page is displayed   Enter your customer email address \u0026gt; Click on \u0026ldquo;send reset link\u0026rdquo; Message \u0026ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at XX@XX.XX.\u0026rdquo; is displayed   Check your emails \u0026gt; A \u0026ldquo;Password query confirmation\u0026rdquo; email is sent \u0026gt; Click on the link \u0026ldquo;Reset your password\u0026rdquo; page is displayed   Fille the form \u0026gt; Click \u0026ldquo;Change password\u0026rdquo; button * You are logged into your account\n* Success message \u0026ldquo;Your password has been successfully reset and a confirmation has been sent to your email address: XX@XX.XX\u0026rdquo; is displayed   Click on \u0026ldquo;Sign out\u0026rdquo; button link on the header or at the bottom of \u0026ldquo;Your account\u0026rdquo; page \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Forgot your password?\u0026rdquo; button link \u0026gt; Enter your customer email address \u0026gt; Click on \u0026ldquo;send reset link\u0026rdquo; button An error message is displayed : \u0026ldquo;You can regenerate your password only every 360 minute(s)\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-a-message-while-logged-in.html",
@@ -3977,10 +3977,24 @@
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-change-currency.html",
-	"title": "FO &gt; Change currency",
+	"title": "FO - Change currency",
 	"tags": [],
 	"description": "",
-	"content": "FO \u0026gt; Change currency Steps    Step Description Expected result     Case 1: You have one currency only The link to change currency will not appear in header of FO   Case 2: You have 2 or more currencies\nGo to FO \u0026gt; Click on your current currency \u0026gt; Switch to another currency See that the price of your product is now in the new currency with the new exchange rate   Switch back to your original currency The prices of products are now in the original currency with the original exchange rate    "
+	"content": "FO - Change currency Steps    Step Description Expected result     Case 1: You have one currency only The link to change currency will not appear in header of FO   Case 2: You have 2 or more currencies\nGo to FO \u0026gt; Click on your current currency \u0026gt; Switch to another currency See that the price of your product is now in the new currency with the new exchange rate   Switch back to your original currency The prices of products are now in the original currency with the original exchange rate    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-get-gdpr-data-in-pdf.html",
+	"title": "FO - Get GDPR Data in PDF",
+	"tags": [],
+	"description": "",
+	"content": "FO - Get GDPR Data in PDF Steps    Step Description Expected result     Go to FO \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Click on your username link in the header \u0026gt; Go to \u0026ldquo;GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to PDF\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].pdf   Open the file \u0026gt; Check the datas * Header with logo, date and name\n* General info with the informations saved in your account\n* Addresses with all addresses saved in your account\n* Orders with all orders ordered with your account\n* Carts with all carts linked to your account\n* Messages with all messages of your account\n* Last connections with all your connections of your account\n* Module Newsletter subscription / Product comments / Mail alerts with all your informations of your account\nAll those informations should be the same as saved in your account   Go to FO \u0026gt; Place an order Once the order process is done, a recap of the order is displayed with message \u0026ldquo;YOUR ORDER IS CONFIRMED\u0026rdquo;   Go back to your account by clicking on your username in the header \u0026gt; \u0026ldquo;Go to GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to PDF\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].pdf   Open the file \u0026gt; Check the \u0026ldquo;Order\u0026rdquo; datas You have a new order in the \u0026ldquo;Order\u0026rdquo; table   Go to FO \u0026gt; Add products in your cart \u0026gt; Click on \u0026ldquo;Continue shopping\u0026rdquo; button \u0026gt; Go back to your account by clicking on your username in the header \u0026gt; \u0026ldquo;Go to GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to PDF\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].pdf   Open the file \u0026gt; Check the \u0026ldquo;Cart\u0026rdquo; datas \u0026ldquo;Cart\u0026rdquo; table has been updated with the products added to the cart   Go to FO \u0026gt; Go back to your account by clicking on your username in the header \u0026gt; \u0026ldquo;Go to GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Contact page\u0026rdquo; link in \u0026ldquo;Rectification \u0026amp; Erasure requests\u0026rdquo; block \u0026ldquo;Contact us\u0026rdquo; page is displayed   Fill the form \u0026gt; Click on \u0026ldquo;Send\u0026rdquo; button Success message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go back to your account by clicking on your username in the header \u0026gt; \u0026ldquo;Go to GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to PDF\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].pdf   Open the file \u0026gt; Check the \u0026ldquo;Messages\u0026rdquo; datas \u0026ldquo;Messages\u0026rdquo; table has been updated with the newly sent message   Click on \u0026ldquo;Sign out\u0026rdquo; link in the header and click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Click on your username link in the header \u0026gt; Go to \u0026ldquo;GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to PDF\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].pdf   Open the file \u0026gt; Check the \u0026ldquo;Last connections\u0026rdquo; datas \u0026ldquo;Last connections\u0026rdquo; table has been updated with the latest connection data    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-login.html",
+	"title": "FO - Login",
+	"tags": [],
+	"description": "",
+	"content": "FO - Login Steps    Step Description Expected result     Click on \u0026ldquo;Sign In\u0026rdquo; link button \u0026gt; Enter a wrong email + password combination \u0026gt; Click on \u0026ldquo;Sign In\u0026rdquo; button * An error message \u0026ldquo;Authentication failed\u0026rdquo;. is displayed\n* You can\u0026rsquo;t log in   Enter your email + password with demo account \u0026gt; Click on \u0026ldquo;Show\u0026rdquo; Password is displayed clearly   Click on \u0026ldquo;Sign in\u0026rdquo; button * You are now logged into your customer account\n* Home page is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html",
@@ -3988,13 +4002,6 @@
 	"tags": [],
 	"description": "",
 	"content": "FO \u0026gt; Consult product quickview Steps    Step Description Expected result     Go to FO \u0026gt; Product list \u0026gt; Click on the Quick View button for the product \u0026ldquo;The best is yet to come' Framed poster\u0026rdquo; A modal is displayed\nwith the product details\n!https://forge.prestashop.com/plugins/servlet/raven/attachment/637/Screenshot+2021-11-29+at+16.32.42.png   Change combination of product See that the price will be updated accordingly   Change quantity of product and Click add to cart Modal \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; is displayed   Click on the \u0026ldquo;cross\u0026rdquo; button or \u0026ldquo;Continue Shopping\u0026rdquo; button or out side The modal is closed   Click Quick View on another simple product The modal is well displayed   Click on Cross button The modal is closed   Search a customized product and click on Quick view The \u0026ldquo;Add to cart\u0026rdquo; button is disabled   Click on Cross button The modal is closed   Search the product out of stock created in the pre-condition and click on quick view * Add to cart button is disabled\n* Out-of-Stock label is displayed   Close the modal by clicking outside of the modal Quick view modal is now closed   Delete the product created in the pre-condition The product is well deleted    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-login.html",
-	"title": "FO &gt; Login",
-	"tags": [],
-	"description": "",
-	"content": "FO \u0026gt; Login Steps    Step Description Expected result     Click on \u0026ldquo;Sign In\u0026rdquo; link button \u0026gt; Enter a wrong email + password combination \u0026gt; Click on \u0026ldquo;Sign In\u0026rdquo; button * An error message \u0026ldquo;Authentication failed\u0026rdquo;. is displayed\n* You can\u0026rsquo;t log in   Enter your email + password with demo account \u0026gt; Click on \u0026ldquo;Show\u0026rdquo; Password is displayed clearly   Click on \u0026ldquo;Sign in\u0026rdquo; button * You are now logged into your customer account\n* Home page is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-message-while-logged-out.html",
@@ -4016,13 +4023,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Generate favicon and change it "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/get-gdpr-data-in-pdf.html",
-	"title": "Get GDPR Data in PDF",
-	"tags": [],
-	"description": "",
-	"content": "Get GDPR Data in PDF Steps    Step Description Expected result     Go to FO \u0026gt; Log into your customer account \u0026gt; Go to GDPR - Personal data \u0026gt; Click on Get my data to PDF \u0026gt; Save your file You will be able to download your file\nname of the file is personalData-[date_of_the_day].pdf   Open the file \u0026gt; Check the data Header : with logo, date and name\nGeneral info and addressse should be the same as saved in your account   Go to FO \u0026gt; Place an order Once the order process is done, a recap of the order is displayed with message \u0026ldquo;YOUR ORDER IS CONFIRMED\u0026rdquo;   Go back to your account \u0026gt; Go to GDPR - Personal data \u0026gt; Click on Get my data to PDF \u0026gt; Save your file \u0026gt; Open your file See that you have a new order in the Order table   Go to FO \u0026gt; Add products in your cart \u0026gt; Go back to your account \u0026gt; Go to GDPR - Personal data \u0026gt; Click on Get my data to PDF \u0026gt; Save your file \u0026gt; Open your file See that the Cart table has been updated with the products added to the cart   In your account \u0026gt; Send a message through contact form in GDPR page \u0026gt; Go back to GDPR - Personal data \u0026gt; Click on Get my data to PDF \u0026gt; Save your file \u0026gt; Open your file See that the Messages table has been updated with the newly sent message   Sign out and Sign in to your customer account \u0026gt; Go to GDPR - Personal data \u0026gt; Click on Get my data to PDF \u0026gt; Save your file \u0026gt; Open your file See that the Last connections table has been updated with the latest connection data    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/help-card.html",
@@ -4529,18 +4529,18 @@
 	"content": "Filter Stocks By Status Steps    Step Description Expected result     Go to products page page title contains \u0026lsquo;Products\u0026rsquo;   Reset filters total of products \u0026gt; 0   Create disabled product Product created   Go to stocks page Page title contains \u0026lsquo;Stocks\u0026rsquo;   Filter by status = disabled New product created is displayed in list   Go back to products page and delete product Product successfully deleted    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-get-gdpr-data-in-csv.html",
+	"title": "FO - Get GDPR Data in CSV",
+	"tags": [],
+	"description": "",
+	"content": "FO - Get GDPR Data in CSV Steps    Step Description Expected result     Go to FO \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Click on your username link in the header \u0026gt; Go to \u0026ldquo;GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to CSV\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].csv   Open the file \u0026gt; Check the datas * General info with the informations saved in your account\n* Addresses with all addresses saved in your account\n* Orders with all orders ordered with your account\n* Carts with all carts linked to your account\n* Messages with all messages of your account\n* Last connections with all your connections of your account\n* Module Newsletter subscription / Product comments / Mail alerts with all your informations of your account\nAll those informations should be the same as saved in your account   Go to FO \u0026gt; Place an order Once the order process is done, a recap of the order is displayed with message \u0026ldquo;YOUR ORDER IS CONFIRMED\u0026rdquo;   Go back to your account by clicking on your username in the header \u0026gt; \u0026ldquo;Go to GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to CSV\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].csv   Open the file \u0026gt; Check the \u0026ldquo;Order\u0026rdquo; datas You have a new order in the \u0026ldquo;Order\u0026rdquo; table   Go to FO \u0026gt; Add products in your cart \u0026gt; Click on \u0026ldquo;Continue shopping\u0026rdquo; button \u0026gt; Go back to your account by clicking on your username in the header \u0026gt; \u0026ldquo;Go to GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to CSV\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].csv   Open the file \u0026gt; Check the \u0026ldquo;Cart\u0026rdquo; datas \u0026ldquo;Cart\u0026rdquo; table has been updated with the products added to the cart   Go to FO \u0026gt; Go back to your account by clicking on your username in the header \u0026gt; \u0026ldquo;Go to GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Contact page\u0026rdquo; link in \u0026ldquo;Rectification \u0026amp; Erasure requests\u0026rdquo; block \u0026ldquo;Contact us\u0026rdquo; page is displayed   Fill the form \u0026gt; Click on \u0026ldquo;Send\u0026rdquo; button Success message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go back to your account by clicking on your username in the header \u0026gt; \u0026ldquo;Go to GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to CSV\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].csv   Open the file \u0026gt; Check the \u0026ldquo;Messages\u0026rdquo; datas \u0026ldquo;Messages\u0026rdquo; table has been updated with the newly sent message   Click on \u0026ldquo;Sign out\u0026rdquo; link in the header and click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Click on your username link in the header \u0026gt; Go to \u0026ldquo;GDPR - Personal data\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Get my data to CSV\u0026rdquo; button * The file is downloaded on your computer\n* Name of the file is personalData-[date_of_the_day].csv   Open the file \u0026gt; Check the \u0026ldquo;Last connections\u0026rdquo; datas \u0026ldquo;Last connections\u0026rdquo; table has been updated with the latest connection data    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/checkout/personal-information/fo-password-reminder.html",
 	"title": "FO - Password reminder",
 	"tags": [],
 	"description": "",
 	"content": "FO - Password reminder "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/get-gdpr-data-in-csv.html",
-	"title": "Get GDPR Data in CSV",
-	"tags": [],
-	"description": "",
-	"content": "Get GDPR Data in CSV Steps    Step Description Expected result     Go to FO \u0026gt; Log into your customer account \u0026gt; Go to GDPR - Personal data \u0026gt; Click on Get my data to CSV \u0026gt; Save your file You will be able to download your file\nname of the file is personalData-[date_of_the_day].csv   Open the file \u0026gt; Check the data General info and addresses should be the same as saved in your account   Go to FO \u0026gt; Place an order Once the order process is done, a recap of the order is displayed with message \u0026ldquo;YOUR ORDER IS CONFIRMED\u0026rdquo;   Go back to your account \u0026gt; Go to GDPR - Personal data \u0026gt; Click on Get my data to CSV \u0026gt; Save your file \u0026gt; Open your file See that you have a new order in the Order table   Go to FO \u0026gt; Add products in your cart \u0026gt; Go back to your account \u0026gt; Go to GDPR - Personal data \u0026gt; Click on Get my data to CSV \u0026gt; Save your file \u0026gt; Open your file See that the Cart table has been updated with the products added to the cart   In your account \u0026gt; Send a message through contact form in GDPR page \u0026gt; Go back to GDPR - Personal data \u0026gt; Click on Get my data to CSV \u0026gt; Save your file \u0026gt; Open your file See that the Messages table has been updated with the newly sent message   Sign out and Sign in to your customer account \u0026gt; Go to GDPR - Personal data \u0026gt; Click on Get my data to CSV \u0026gt; Save your file \u0026gt; Open your file See that the Last connections table has been updated with the latest connection data    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/help-card.html",
@@ -4893,13 +4893,6 @@
 	"content": "Connect to Addons market place "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/contact-us-on-gdpr-page.html",
-	"title": "Contact us on GDPR page",
-	"tags": [],
-	"description": "",
-	"content": "Contact us on GDPR page Steps    Step Description Expected result     Go to FO \u0026gt; Log into your account \u0026gt; Click \u0026ldquo;GDPR - Personal data\u0026rdquo; GDPR - Personal data page is displayed   Click \u0026ldquo;contact page\u0026rdquo; link in block Rectification \u0026amp; Erasure requests Contact form is displayed   Send a message through Contact Form Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Customer service \u0026gt; Customer service \u0026gt; Click View on your message The message thread is displayed    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/create-a-standard-simple-order-status.html",
 	"title": "Create a standard simple order status",
 	"tags": [],
@@ -5003,6 +4996,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Filter "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-contact-us-on-gdpr-page.html",
+	"title": "FO - Contact us on GDPR page",
+	"tags": [],
+	"description": "",
+	"content": "FO - Contact us on GDPR page Steps    Step Description Expected result     Go to FO \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Go to \u0026ldquo;GDPR - Personal data\u0026rdquo; tab GDPR - Personal data page is displayed   Click \u0026ldquo;contact page\u0026rdquo; link in block Rectification \u0026amp; Erasure requests Contact form is displayed   Send a message through Contact Form Success message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; is displayed   Go to BO \u0026gt; Customer service \u0026gt; Customer service The \u0026ldquo;Customer Service\u0026rdquo; page is displayed   Click on \u0026ldquo;Customer service\u0026rdquo; block \u0026gt; Click on \u0026ldquo;XX New messages\u0026rdquo; The message thread is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/order-confirmation/fo-order-confirmation-contact-us.html",
@@ -5362,6 +5362,13 @@
 	"content": "filter stocks by categories "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-log-out.html",
+	"title": "FO - Log out",
+	"tags": [],
+	"description": "",
+	"content": "FO - Log out Steps    Step Description Expected result     Go to FO \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Go to your account by clicking on your usernema link in the header Your account page is displayed\n- One link \u0026ldquo;Sign out\u0026rdquo; is displayed on the header\n- One link \u0026ldquo;Sign out\u0026rdquo; is displayed at the bottom of your account page,   Click on the header \u0026ldquo;Sign out\u0026rdquo; link * You are log out of your account\n* \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Log in again \u0026gt; Click on \u0026ldquo;Sign out\u0026rdquo; link at the bottom of your account page * You are log out of your account\n* \u0026ldquo;Log in to your account\u0026rdquo; page is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/gamification-module.html",
 	"title": "Gamification module",
 	"tags": [],
@@ -5388,13 +5395,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Help card Steps    Step Description Expected result     Go to BO \u0026gt; Customers \u0026gt; Customers page The Customers page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/log-out.html",
-	"title": "Log out",
-	"tags": [],
-	"description": "",
-	"content": "Log out Steps    Step Description Expected result     Go to FO \u0026gt; Log into your account \u0026gt; Go to your account In your account page, you will see 2 Sign Out buttons :\n- on the header\n- at the bottom of your account page,   Click on the header Sign Out button You will be log out of your account\nPage Log in to your account is displayed   Log in again \u0026gt; Click on Sin out at the bottom of your account page You will be log out of your account\nPage Log in to your account is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/message-block.html",
@@ -7144,7 +7144,7 @@
 	"title": "Header &amp; Footer",
 	"tags": [],
 	"description": "",
-	"content": "Header \u0026amp; Footer Tests  FO \u0026gt; Check links in header   FO \u0026gt; Check links in footer   FO \u0026gt; Change language   FO \u0026gt; Change currency   "
+	"content": "Header \u0026amp; Footer Tests  FO - Check links in header   FO - Check links in footer   FO - Change language   FO - Change currency   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/",
@@ -7571,7 +7571,7 @@
 	"title": "Login",
 	"tags": [],
 	"description": "",
-	"content": "Login Tests  FO \u0026gt; Create an account   FO \u0026gt; Logout   FO \u0026gt; Password reminder   FO \u0026gt; Login   "
+	"content": "Login Tests  FO - Create an account   FO - Logout   FO - Password reminder   FO - Login   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs.html",
@@ -8509,7 +8509,7 @@
 	"title": "User account",
 	"tags": [],
 	"description": "",
-	"content": "User account Categories  Credit slips   Merchandise Returns   Order history   Tests  Edit informations   CRUD address   Consult your vouchers   Get GDPR Data in PDF   Get GDPR Data in CSV   Contact us on GDPR page   Log out   "
+	"content": "User account Categories  Credit slips   Merchandise Returns   Order history   Tests  FO - Edit informations   FO - CRUD address   FO - Consult your vouchers   FO - Get GDPR Data in PDF   FO - Get GDPR Data in CSV   FO - Contact us on GDPR page   FO - Log out   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order.html",
