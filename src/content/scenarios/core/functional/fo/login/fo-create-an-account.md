@@ -1,9 +1,9 @@
 ---
-title: "FO > Create an account"
+title: "FO - Create an account"
 weight: 1
 ---
 
-# FO > Create an account
+# FO - Create an account
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

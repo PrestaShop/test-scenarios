@@ -1,9 +1,9 @@
 ---
-title: "FO > Login"
+title: "FO - Login"
 weight: 4
 ---
 
-# FO > Login
+# FO - Login
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

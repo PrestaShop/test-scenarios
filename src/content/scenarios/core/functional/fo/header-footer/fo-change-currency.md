@@ -1,9 +1,9 @@
 ---
-title: "FO > Change currency"
+title: "FO - Change currency"
 weight: 4
 ---
 
-# FO > Change currency
+# FO - Change currency
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

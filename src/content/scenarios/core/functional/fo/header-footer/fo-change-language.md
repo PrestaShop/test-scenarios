@@ -1,9 +1,9 @@
 ---
-title: "FO > Change language"
+title: "FO - Change language"
 weight: 3
 ---
 
-# FO > Change language
+# FO - Change language
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,9 +1,9 @@
 ---
-title: "FO > Check links in header"
+title: "FO - Check links in header"
 weight: 1
 ---
 
-# FO > Check links in header
+# FO - Check links in header
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,9 +1,9 @@
 ---
-title: "FO > Check links in footer"
+title: "FO - Check links in footer"
 weight: 2
 ---
 
-# FO > Check links in footer
+# FO - Check links in footer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,9 +1,9 @@
 ---
-title: "FO > Password reminder"
+title: "FO - Password reminder"
 weight: 3
 ---
 
-# FO > Password reminder
+# FO - Password reminder
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
