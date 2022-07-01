@@ -14,4 +14,3 @@ weight: 1
 | Click on "Add to cart" button | Add to cart modal is displayed |
 | Click on "Continue shopping" button on modal > Click on top right Cart button | Shopping cart is now displayed |
 | Click on Sign out | * You are now logged out<br> * The cart is now empty<br> * The "Sign in" link is displayed instead of "Sign Out" + "your name" links |
-| Go to BO > Customers list page & delete the customer created in the pre-condition | The alert "Successful deletion." is well displayed |
