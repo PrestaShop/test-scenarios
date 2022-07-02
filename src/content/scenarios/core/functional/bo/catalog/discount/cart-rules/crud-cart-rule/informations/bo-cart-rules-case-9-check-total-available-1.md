@@ -26,6 +26,3 @@ weight: 9
 | Go back to BO > Catalog > Discounts > Cart rules page | The Cart rule page is well displayed |
 | Edit the last cart rule created | The Edit cart rule page is well displayed, check that the total available = 0 |
 | Delete the Cart rule | A green alert "Successful deletion." is displayed |
-| Go to BO > International > Locations > Countries page and searched for "United States | The page is well displayed with the exact filter |
-| Enable United states country with quick access | An alert "The status has been successfully updated." is displayed |
-| Reset Filter | The filter is well reset |
