@@ -1,9 +1,9 @@
 ---
-title: "FO - Consult your vouchers"
+title: "FO - View vouchers"
 weight: 3
 ---
 
-# FO - Consult your vouchers
+# FO - View vouchers
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
