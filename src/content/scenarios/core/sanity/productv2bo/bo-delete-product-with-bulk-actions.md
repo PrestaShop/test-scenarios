@@ -11,7 +11,7 @@ weight: 7
 | Click on "New product" button on the top right of the page > Choose "Standard product" block in the modal | * A modal "Add new product" is displayed<br> * A description by type is displayed. For Standard product:  "A physical product that needs to be shipped." |
 | Click on "Add new product" button | * New Product page on "Description" tab is displayed<br> * "Standard product" type description is displayed below the product name field |
 | Fill the name on "Description" tab > Click on the "Save button" at the bottom of the page | "Successful update" message is displayed |
-| Go to BO > Catalog > Products | Products list page is displayed correctly |
+| Clic on the "< Go to Catalog" button at the bottom-left | Products list page is displayed correctly |
 | Create another standard product by using steps 2 to 5 by changing only the name | * The product is created<br> * "Successful update" message is displayed |
 | Filter with name > Click on "Search" button | Two products are displayed |
 | Check both products with checkboxes > Click on "Bulk Actions" button > Click on "Delete selection" | A modal is displayed with two buttons and a description:<br> * Deleting X selection<br> * Cancel<br> * Delete selection |
