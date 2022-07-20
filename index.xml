@@ -448,34 +448,6 @@ The invoice is created successfully   Add the first partial refund Partial refun
     </item>
     
     <item>
-      <title>Consult credit slips list</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-credit-slips-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-credit-slips-list.html</guid>
-      <description>Consult credit slips list Steps    Step Description Expected result     Case 1 : You have no credit slip
-Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Credit slips page is displayed with message alert-info &amp;ldquo;You have not received any credit slips.&amp;rdquo;   Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Case 2 : You have credit slips</description>
-    </item>
-    
-    <item>
-      <title>Consult merchandise returns list</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-merchandise-returns-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-merchandise-returns-list.html</guid>
-      <description>Consult merchandise returns list Steps    Step Description Expected result     Create an order (pre-condition)    Connect to BO (pre-condition)     </description>
-    </item>
-    
-    <item>
-      <title>Consult order list</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/consult-order-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/consult-order-list.html</guid>
-      <description>Consult order list </description>
-    </item>
-    
-    <item>
       <title>Create a bloc</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration/create-a-bloc.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1251,6 +1223,37 @@ REFERENCE is correct   Filter by STATUS</description>
     </item>
     
     <item>
+      <title>FO - Consult credit slips list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slips-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slips-list.html</guid>
+      <description>FO - Consult credit slips list Steps    Step Description Expected result     Case 1 : You have no credit slip
+Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Credit slips page is displayed with message alert-info &amp;ldquo;You have not received any credit slips.&amp;rdquo;   Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Case 2 : You have credit slips</description>
+    </item>
+    
+    <item>
+      <title>FO - Consult merchandise returns list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-merchandise-returns-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-merchandise-returns-list.html</guid>
+      <description>FO - Consult merchandise returns list Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (the one placed by the pre-condition below) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+* A successful message &amp;ldquo;Successful update.</description>
+    </item>
+    
+    <item>
+      <title>FO - Consult order list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-consult-order-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-consult-order-list.html</guid>
+      <description>FO - Consult order list Steps    Step Description Expected result     Go to FO &amp;gt; Click on you user account name in the header (previously connected with the pre-condition below) &amp;ldquo;Your account&amp;rdquo; page is well displayed with all tabs linked to your account   Case 1: No order has been placed
+Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Order history&amp;rdquo; page with the empty order list is well displayed</description>
+    </item>
+    
+    <item>
       <title>FO - Create an account</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-create-an-account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1275,6 +1278,15 @@ REFERENCE is correct   Filter by STATUS</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-edit-informations.html</guid>
       <description>FO - Edit informations Steps    Step Description Expected result     Go to FO &amp;gt; Go to header and click on &amp;ldquo;Sign in&amp;rdquo; link Login page is displayed   Fill the login form with your logins &amp;gt; Click on the &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Go to header and click on your username &amp;gt; Click on &amp;ldquo;Information&amp;rdquo; tab &amp;ldquo;Your personal information&amp;rdquo; page is displayed   Case 1: Update password with your current password and empty &amp;ldquo;New password&amp;rdquo; field</description>
+    </item>
+    
+    <item>
+      <title>FO - Reorder order from details</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-reorder-order-from-details.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-reorder-order-from-details.html</guid>
+      <description>FO - Reorder order from details Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product    Go to &amp;quot; account&amp;quot; page    Go to &amp;ldquo;Order history and details&amp;rdquo; See the last order   Go to details    Click on &amp;ldquo;reorder&amp;rdquo; Redirect to payement section   Paid the order    Go to &amp;ldquo;Order history and details&amp;rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    </description>
     </item>
     
     <item>
@@ -1420,7 +1432,7 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/mailto.html</guid>
-      <description>Mailto Steps    Step Description Expected result     Go to FO &amp;gt; Scroll down to footer &amp;gt; In store information &amp;gt; Click on Email us email address Client email will open and you will be able to send an email with recipient [email address of shop]    </description>
+      <description>Mailto Steps    Step Description Expected result     Go to FO &amp;gt; Scroll down to footer &amp;gt; In &amp;ldquo;Store information&amp;rdquo; section &amp;gt; Click on Email us email address Client email will open and you will be able to send an email with email address of shop    </description>
     </item>
     
     <item>
@@ -1466,15 +1478,6 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/checkoutfo/orderproduct.html</guid>
       <description>OrderProduct Steps    Step Description Expected result     Go to the FO homepage Home page is displayed correctly   Connect with the user account User is correctly connected   Go to the FO homepage Home page is displayed correctly   Add first product to the cart. Click on Proceed to Checkout&amp;quot; Product is added to the cart. Checkout page is displayed correctly   Check cart details are correct Details about the product are correct: - name - price - quantity - total amount   Continue checkout process to addresses page Addresses page is displayed correctly   Select first address.</description>
-    </item>
-    
-    <item>
-      <title>Reorder order from details</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/reorder-order-from-details.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/reorder-order-from-details.html</guid>
-      <description>Reorder order from details Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product    Go to &amp;quot; account&amp;quot; page    Go to &amp;ldquo;Order history and details&amp;rdquo; See the last order   Go to details    Click on &amp;ldquo;reorder&amp;rdquo; Redirect to payement section   Paid the order    Go to &amp;ldquo;Order history and details&amp;rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    </description>
     </item>
     
     <item>
@@ -1566,7 +1569,7 @@ all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/slider.html</guid>
-      <description>Slider Steps    Step Description Expected result     Go to FO &amp;gt; On Homagepage see Slider &amp;gt; Click on Right arrow Slider should slide to the right   Click on the left arrow Slider should slide to the left   Click anywhere on the slider itself (except arrow column) The page should refreshed with the added link (https://www.prestashop.com/en?utm_source=back-office&amp;amp;utm_medium=v17_homeslider&amp;amp;utm_campaign=back-office-EN&amp;amp;utm_content=download)    </description>
+      <description>Slider Steps    Step Description Expected result     Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right   Click on the left arrow The slider should slide to the left   Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
     </item>
     
     <item>
@@ -2134,15 +2137,6 @@ Category from which to pick products to be displayed should be 3   Go to front o
     </item>
     
     <item>
-      <title>Consult order</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-order.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-order.html</guid>
-      <description>Consult order Steps    Step Description Expected result     Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Go to FO &amp;gt; Click on customer account page &amp;gt; Go to Credit slips tab The list of Credit slips received is displayed successfully   Choose a credit slip &amp;gt; Click on the order&amp;rsquo;s ID link on the &amp;ldquo;Order&amp;rdquo; column The details page of the order is displayed successfully    </description>
-    </item>
-    
-    <item>
       <title>Continue shopping</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/cart/modal/continue-shopping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2505,15 +2499,6 @@ Criteria Rate : Random integer between 1 and 100</description>
     </item>
     
     <item>
-      <title>Download invoice from details</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/download-invoice-from-details.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/download-invoice-from-details.html</guid>
-      <description>Download invoice from details </description>
-    </item>
-    
-    <item>
       <title>Download sample files (TODO)</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/download-sample-files-todo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2820,6 +2805,15 @@ number of order messages = Total of orders messages + 1   Go to create new order
     </item>
     
     <item>
+      <title>FO - Consult order</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-order.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-order.html</guid>
+      <description>FO - Consult order Steps    Step Description Expected result     Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Go to FO &amp;gt; Click on customer account page &amp;gt; Go to Credit slips tab The list of Credit slips received is displayed successfully   Choose a credit slip &amp;gt; Click on the order&amp;rsquo;s ID link on the &amp;ldquo;Order&amp;rdquo; column The details page of the order is displayed successfully    </description>
+    </item>
+    
+    <item>
       <title>FO - Create an order with a guest account </title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-with-a-guest-account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2839,6 +2833,17 @@ number of order messages = Total of orders messages + 1   Go to create new order
     </item>
     
     <item>
+      <title>FO - Download invoice from order details</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-download-invoice-from-order-details.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-download-invoice-from-order-details.html</guid>
+      <description>FO - Download invoice from order details Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (the one placed by the pre-condition below) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+* A successful message &amp;ldquo;Successful update.</description>
+    </item>
+    
+    <item>
       <title>FO - Logout</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-logout.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2848,6 +2853,15 @@ number of order messages = Total of orders messages + 1   Go to create new order
 Go to FO &amp;gt; you are logged in with default customer account p &amp;gt; Click on &amp;ldquo;Sign out&amp;rdquo; button link on the header of the shop * You are logged out
 * Home page is displayed   Case 2
 Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Fill the form with customer account created from the pre-condition step informations &amp;gt; Click &amp;ldquo;Sign in&amp;rdquo; button * You are logged in</description>
+    </item>
+    
+    <item>
+      <title>FO - Reorder order from list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-reorder-order-from-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-reorder-order-from-list.html</guid>
+      <description>FO - Reorder order from list Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product The order is complete and the order confirmation page is displayed   Go to &amp;quot; account&amp;quot; page    Go to &amp;ldquo;Order history and details&amp;rdquo; See the last order   Click on &amp;ldquo;reorder&amp;rdquo; Redirect to payement section   Paid the order    Go to &amp;ldquo;Order history and details&amp;rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    </description>
     </item>
     
     <item>
@@ -3021,15 +3035,6 @@ Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &am
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/refresh-index-and-cache.html</guid>
       <description>Refresh index and cache </description>
-    </item>
-    
-    <item>
-      <title>Reorder order from list</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/reorder-order-from-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/reorder-order-from-list.html</guid>
-      <description>Reorder order from list Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product The order is complete and the order confirmation page is displayed   Go to &amp;quot; account&amp;quot; page    Go to &amp;ldquo;Order history and details&amp;rdquo; See the last order   Click on &amp;ldquo;reorder&amp;rdquo; Redirect to payement section   Paid the order    Go to &amp;ldquo;Order history and details&amp;rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    </description>
     </item>
     
     <item>
@@ -3917,15 +3922,6 @@ Message &amp;ldquo;Successful creation&amp;rdquo; appears   Click on the 3-dot b
     </item>
     
     <item>
-      <title>Download invoice from list</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/download-invoice-from-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/download-invoice-from-list.html</guid>
-      <description>Download invoice from list </description>
-    </item>
-    
-    <item>
       <title>Edit</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/link-widget/edit.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4096,12 +4092,32 @@ The url has the /xx/   Switch back to EN FO is now in English</description>
     </item>
     
     <item>
+      <title>FO - Consult credit slip list &amp; View PDF Credit slip &amp; View order</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slip-list-view-pdf-credit-slip-view-order.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slip-list-view-pdf-credit-slip-view-order.html</guid>
+      <description>FO - Consult credit slip list &amp;amp; View PDF Credit slip &amp;amp; View order Steps    Step Description Expected result     Go to FO &amp;gt; Sign with default customer The Home page is well displayed   Click on View my customer account Your account page is displayed   Click on &amp;ldquo;Credit slips&amp;rdquo; The Credit slips page is well displayed and the information alert &amp;ldquo;You have not received any credit slips.</description>
+    </item>
+    
+    <item>
       <title>FO - Create an Order by existing customer</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html</guid>
       <description>FO - Create an Order by existing customer Steps    Step Description Expected result     Go to FO &amp;gt; Add product to the cart &amp;amp; Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The &amp;ldquo;Shopping cart&amp;rdquo; page is displayed&amp;quot;   Click on &amp;ldquo;Proceed to checkout The checkout page is displayed   In the Personal information step, click on &amp;ldquo;Sign in&amp;rdquo; The Email &amp;amp; password fields are displayed   Set Email &amp;amp; Password and click on Continue The Address step is displayed   Click on the &amp;ldquo;Continue&amp;rdquo; button The &amp;ldquo;Shipping&amp;rdquo; step is displayed   Click on the &amp;ldquo;Continue&amp;rdquo; button The &amp;ldquo;Payment methods&amp;rdquo; step is displayed   Select a payment method, click on &amp;ldquo;I agree to the terms of service and will adhere to them unconditionally.</description>
+    </item>
+    
+    <item>
+      <title>FO - Download invoice from orders list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-download-invoice-from-orders-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-download-invoice-from-orders-list.html</guid>
+      <description>FO - Download invoice from orders list Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (the one placed by the pre-condition below) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+* A successful message &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -4114,6 +4130,16 @@ The url has the /xx/   Switch back to EN FO is now in English</description>
     </item>
     
     <item>
+      <title>FO - Request a merchandise return from order details</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-request-a-merchandise-return-from-order-details.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-request-a-merchandise-return-from-order-details.html</guid>
+      <description>FO - Request a merchandise return from order details Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (the one placed by the pre-condition below) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed</description>
+    </item>
+    
+    <item>
       <title>FO - View vouchers</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-view-vouchers.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4121,15 +4147,6 @@ The url has the /xx/   Switch back to EN FO is now in English</description>
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-view-vouchers.html</guid>
       <description>FO - View vouchers Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Click on &amp;ldquo;Add new cart rule&amp;rdquo; button Cart Rules form page is displayed   Fill the form on the 3 tabs &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Success message &amp;ldquo;Successful creation.&amp;rdquo; is displayed
 * New cart rule is created   Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Click on your username link in the header &amp;gt; Click on &amp;ldquo;Your vouchers&amp;rdquo; tab Your vouchers table is displayed with the newly created voucher   Go back to BO &amp;gt; Add multiple cart rules with different values * Message &amp;ldquo;Successful creation.</description>
-    </item>
-    
-    <item>
-      <title>FO &gt; Consult credit slip list &amp; View PDF Credit slip &amp; View order</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slip-list-view-pdf-credit-slip-view-order.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slip-list-view-pdf-credit-slip-view-order.html</guid>
-      <description>FO &amp;gt; Consult credit slip list &amp;amp; View PDF Credit slip &amp;amp; View order Steps    Step Description Expected result     Go to FO &amp;gt; Sign with default customer The Home page is well displayed   Click on View my customer account Your account page is displayed   Click on &amp;ldquo;Credit slips&amp;rdquo; The Credit slips page is well displayed and the information alert &amp;ldquo;You have not received any credit slips.</description>
     </item>
     
     <item>
@@ -4336,15 +4353,6 @@ The invoice is created successfully   Add a partial refund product the credit sl
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts/contenu/randomly-display-featured-products.html</guid>
       <description>Randomly display featured products Steps    Step Description Expected result     Enable the option Randomly display featured products&amp;quot; A message should appear in green.
 The option should be enabled   Go to front office/check the homepage Product shouldn&amp;rsquo;t be display by id but randomly    </description>
-    </item>
-    
-    <item>
-      <title>Request a merchandise return</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/request-a-merchandise-return.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/request-a-merchandise-return.html</guid>
-      <description>Request a merchandise return </description>
     </item>
     
     <item>
@@ -5380,6 +5388,15 @@ Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another curr
     </item>
     
     <item>
+      <title>FO - Send a message</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-send-a-message.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-send-a-message.html</guid>
+      <description>FO - Send a message Steps    Step Description Expected result     Go to FO    Login with a customer account    Go to &amp;ldquo;account&amp;rdquo; page    Go to &amp;ldquo;Order history and details&amp;rdquo;    Select an order validated and go to &amp;ldquo;details&amp;rdquo;    In send message section, select a product, write a message and click on send In BO =&amp;gt; Customers Service =&amp;gt; Customers Service the message is displayed    </description>
+    </item>
+    
+    <item>
       <title>FO &gt; Consult product quickview</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5582,15 +5599,6 @@ USD, PYG and JPY are in the list of currencies   Search by ISO &amp;ldquo;EUR&am
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/select-previous-cart.html</guid>
       <description>Select previous Cart Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers &amp;gt; Edit John Doe &amp;gt; Add a new password &amp;gt; Save Message &amp;ldquo;Successful update.&amp;rdquo; appears   Go to FO &amp;gt; Log into John Doe&amp;rsquo;s account You are logged into John doe&amp;rsquo;s account   Add products to your cart    Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Add new order &amp;gt; Choose customer John Doe &amp;gt; Click Details on the cart &amp;gt; Click the cross to close the popup Popup opens with Total Cart - Customer information - Order information - Cart Summary   Click Use on the created cart Block cart is updated with the products of the previously created cart   Finalize order New order is created    </description>
-    </item>
-    
-    <item>
-      <title>Send a message</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/send-a-message.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/send-a-message.html</guid>
-      <description>Send a message Steps    Step Description Expected result     Go to FO    Login with a customer account    Go to &amp;ldquo;account&amp;rdquo; page    Go to &amp;ldquo;Order history and details&amp;rdquo;    Select an order validated and go to &amp;ldquo;details&amp;rdquo;    In send message section, select a product, write a message and click on send In BO =&amp;gt; Customers Service =&amp;gt; Customers Service the message is displayed    </description>
     </item>
     
     <item>

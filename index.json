@@ -322,27 +322,6 @@
 	"content": "Consult categories in header menu (with many sub item) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-credit-slips-list.html",
-	"title": "Consult credit slips list",
-	"tags": [],
-	"description": "",
-	"content": "Consult credit slips list Steps    Step Description Expected result     Case 1 : You have no credit slip\nGo to FO \u0026gt; Login to customer account \u0026gt; Go to Credit slips tab Credit slips page is displayed with message alert-info \u0026ldquo;You have not received any credit slips.\u0026rdquo;   Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Case 2 : You have credit slips\nGo to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab The list of Credit slips received is displayed successfully    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-merchandise-returns-list.html",
-	"title": "Consult merchandise returns list",
-	"tags": [],
-	"description": "",
-	"content": "Consult merchandise returns list Steps    Step Description Expected result     Create an order (pre-condition)    Connect to BO (pre-condition)     "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/consult-order-list.html",
-	"title": "Consult order list",
-	"tags": [],
-	"description": "",
-	"content": "Consult order list "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration/create-a-bloc.html",
 	"title": "Create a bloc",
 	"tags": [],
@@ -910,6 +889,27 @@
 	"content": "FO - Check links in header Steps    Step Description Expected result     Go to FO \u0026gt; Click on top left link \u0026ldquo;Contact us\u0026rdquo; Contact form page is well displayed   Click on \u0026ldquo;Sign In\u0026rdquo; link on top right \u0026gt; Enter your email + password with the customer account created from the pre-condition step \u0026gt; Click on \u0026ldquo;Sign In\u0026rdquo; button * You are now logged in\n* 2 new links are displayed instead of \u0026ldquo;Sign in\u0026rdquo; link : \u0026ldquo;Sign Out\u0026rdquo; + \u0026ldquo;your name\u0026rdquo;   Click on \u0026ldquo;your name\u0026rdquo; account button in header Your account page is displayed   Go to home page \u0026gt; click on a product Product page is well displayed   Click on \u0026ldquo;Add to cart\u0026rdquo; button Add to cart modal is displayed   Click on \u0026ldquo;Continue shopping\u0026rdquo; button on modal \u0026gt; Click on top right Cart button Shopping cart is now displayed   Click on Sign out * You are now logged out\n* The cart is now empty\n* The \u0026ldquo;Sign in\u0026rdquo; link is displayed instead of \u0026ldquo;Sign Out\u0026rdquo; + \u0026ldquo;your name\u0026rdquo; links    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slips-list.html",
+	"title": "FO - Consult credit slips list",
+	"tags": [],
+	"description": "",
+	"content": "FO - Consult credit slips list Steps    Step Description Expected result     Case 1 : You have no credit slip\nGo to FO \u0026gt; Login to customer account \u0026gt; Go to Credit slips tab Credit slips page is displayed with message alert-info \u0026ldquo;You have not received any credit slips.\u0026rdquo;   Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Case 2 : You have credit slips\nGo to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab The list of Credit slips received is displayed successfully    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-merchandise-returns-list.html",
+	"title": "FO - Consult merchandise returns list",
+	"tags": [],
+	"description": "",
+	"content": "FO - Consult merchandise returns list Steps    Step Description Expected result     Case 1: Change status in order list page in BO\nGo to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click on status label of an order (the one placed by the pre-condition below) \u0026gt; Change \u0026ldquo;Awaiting XX payment\u0026rdquo; to \u0026ldquo;Delivered\u0026rdquo; status on the list * The order list page is refreshed\n* A successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status label of the order is well changed to \u0026ldquo;Delivered\u0026rdquo;   Case 2: Change status in order details page in BO\nGo to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click on an order (the one placed by the pre-condition below) The order details page is well displayed   Click on status list in top of the page \u0026gt; Choose \u0026ldquo;Delivered\u0026rdquo; in the list \u0026gt; Click on the \u0026ldquo;Update status\u0026rdquo; * The order list page is refreshed\n* A successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status label of the order is well changed to \u0026ldquo;Delivered\u0026rdquo;   Go to FO \u0026gt; Click on your user name account in the header (previously connected with the pre-condition below) * \u0026ldquo;Your account\u0026rdquo; page is well displayed\n* No merchandise returns tab is displayed   Go to BO \u0026gt; Customer Service \u0026gt; Merchandise Returns \u0026gt; Set to \u0026ldquo;Yes\u0026rdquo; the \u0026ldquo;Enable returns\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * The success message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is well displayed\n* The \u0026ldquo;Enable returns\u0026rdquo; switch button is set to \u0026ldquo;Yes\u0026rdquo; and is green   Go to back FO \u0026gt; Click on your user name account in the header (previously connected with the pre-condition below) * \u0026ldquo;Your account\u0026rdquo; page is well displayed\n* A merchandise returns tab is displayed   Case 1: No merchandise return has been requested\nClick on \u0026ldquo;Merchandise returns\u0026rdquo; tab * The \u0026ldquo;Merchandise returns\u0026rdquo; page is displayed with an empty list of merchandise returns of the customer account\n* An information message \u0026ldquo;You have no merchandise return authorizations.\u0026rdquo; is displayed   Case 2: Merchandise return has been requested\nClick on \u0026ldquo;Order history and details\u0026rdquo; tab * The \u0026ldquo;Order history\u0026rdquo; page with the order list is well displayed (with the order placed by the pre-condition below)\n* All informations about orders are displayed on the list (reference / date / total price / payment / status / invoice / \u0026ldquo;Details\u0026rdquo; and \u0026ldquo;Reorder\u0026rdquo; links)\n* At least one order should have \u0026ldquo;Delivered\u0026rdquo; status and an invoice to download (the one placed by the pre-condition below)\n* For the status \u0026ldquo;Awaiting XX payment\u0026rdquo; for example, there is no invoice icon on the column   Choose the order with the \u0026ldquo;Delivered\u0026rdquo; status and click on the \u0026ldquo;Details\u0026rdquo; link in the last column * The \u0026ldquo;Order details\u0026rdquo; page is well displayed\n* All the informations about the order are displayed   Go down to the list of product ordered \u0026gt; Check the product you want to return and the quantity (if it\u0026rsquo;s more than 1) \u0026gt; Add a message on the \u0026ldquo;Merchandise return\u0026rdquo; section (not required) \u0026gt; Click on \u0026ldquo;Request a return\u0026rdquo; * The \u0026ldquo;Merchandise returns\u0026rdquo; page is displayed with the list of merchandise returns of the customer account\n* All informations of the return are displayed (number of order / ID of Return / Package status / Date issued / Returns form)    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-consult-order-list.html",
+	"title": "FO - Consult order list",
+	"tags": [],
+	"description": "",
+	"content": "FO - Consult order list Steps    Step Description Expected result     Go to FO \u0026gt; Click on you user account name in the header (previously connected with the pre-condition below) \u0026ldquo;Your account\u0026rdquo; page is well displayed with all tabs linked to your account   Case 1: No order has been placed\nClick on \u0026ldquo;Order history and details\u0026rdquo; tab * The \u0026ldquo;Order history\u0026rdquo; page with the empty order list is well displayed\n* An information message \u0026ldquo;You have not placed any orders.\u0026rdquo; is displayed   Case 2: At least one order has been placed\nClick on \u0026ldquo;Order history and details\u0026rdquo; tab * The \u0026ldquo;Order history\u0026rdquo; page with the order list is well displayed (with the order placed by the pre-condition below)\n* All informations about orders are displayed on the list (reference / date / total price / payment / status / invoice / \u0026ldquo;Details\u0026rdquo; and \u0026ldquo;Reorder\u0026rdquo; links)   Click on \u0026ldquo;Back to your account\u0026rdquo; link below the order list \u0026ldquo;Your account\u0026rdquo; page is well displayed with all tabs linked to your account   Click on \u0026ldquo;Order history and details\u0026rdquo; tab again * The \u0026ldquo;Order history\u0026rdquo; page with the order list is well displayed (with the order placed by the pre-condition below)\n* All informations about orders are displayed on the list (reference / date / total price / payment / status / invoice / \u0026ldquo;Details\u0026rdquo; and \u0026ldquo;Reorder\u0026rdquo; links)   Click on \u0026ldquo;Home\u0026rdquo; link below the order list \u0026ldquo;Homepage\u0026rdquo; is well displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-create-an-account.html",
 	"title": "FO - Create an account",
 	"tags": [],
@@ -929,6 +929,13 @@
 	"tags": [],
 	"description": "",
 	"content": "FO - Edit informations Steps    Step Description Expected result     Go to FO \u0026gt; Go to header and click on \u0026ldquo;Sign in\u0026rdquo; link Login page is displayed   Fill the login form with your logins \u0026gt; Click on the \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Go to header and click on your username \u0026gt; Click on \u0026ldquo;Information\u0026rdquo; tab \u0026ldquo;Your personal information\u0026rdquo; page is displayed   Case 1: Update password with your current password and empty \u0026ldquo;New password\u0026rdquo; field\nModify the Social title, First name, Last name and email \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * New informations is saved\n* Success message \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed   Case 2: Update password with wrong current password and empty \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;Email/Password\u0026rdquo; fields: error message \u0026ldquo;Invalid email/password combination\u0026rdquo; is displayed   Case 3: Update password with same letters on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** Repeats like \u0026ldquo;abcabcabc\u0026rdquo; are only slightly harder to guess than \u0026ldquo;abc\u0026rdquo;\n** Add another word or two. Uncommon words are better.\n** Avoid repeated words and characters   Case 4: Update password with a password above or equal to 5 and below 8 characters on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** Password must be between 8 and 72 characters long\n** The minimum score must be: Strong\n** Add another word or two. Uncommon words are better.   Case 5: Update password with an old similar password on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** This is similar to a commonly used password\n** Add another word or two. Uncommon words are better.   Case 6: Update password with simple characters on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** The minimum score must be: Strong\n** Add another word or two. Uncommon words are better.   Case 7: Update password with common password on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** This is a very common password\n** Add another word or two. Uncommon words are better.   Case 8: Update password with Top 10 common password on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** This is a top-10 common password\n** Add another word or two. Uncommon words are better.   Case 9: Update password with the same character on \u0026ldquo;New password\u0026rdquo; field\nModify your password \u0026gt; Check \u0026ldquo;I agree to the terms and conditions and the privacy policy\u0026rdquo; \u0026amp; \u0026ldquo;Customer data privacy\u0026rdquo; checkboxes \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Error message \u0026ldquo;Could not update your information, please check your data.\u0026rdquo; is displayed\n* Below \u0026ldquo;New password\u0026rdquo; field, error messages are displayed:\n** Repeats like \u0026ldquo;aaa\u0026rdquo; are easy to guess\n** Add another word or two. Uncommon words are better.\n** Avoid repeated words and characters   Case 10: Update your password with good informations\nRe-enter your current password and your new password to the form * Success message \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed\n* Your password has been updated   Check all checkboxes \u0026gt; Save * Success message \u0026ldquo;Information successfully updated.\u0026rdquo; is displayed\n* See that checkboxes for partners offer and newsletter are checked    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-reorder-order-from-details.html",
+	"title": "FO - Reorder order from details",
+	"tags": [],
+	"description": "",
+	"content": "FO - Reorder order from details Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product    Go to \u0026quot; account\u0026quot; page    Go to \u0026ldquo;Order history and details\u0026rdquo; See the last order   Go to details    Click on \u0026ldquo;reorder\u0026rdquo; Redirect to payement section   Paid the order    Go to \u0026ldquo;Order history and details\u0026rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/welcome/contenu/full-onboarding-process.html",
@@ -1040,7 +1047,7 @@
 	"title": "Mailto",
 	"tags": [],
 	"description": "",
-	"content": "Mailto Steps    Step Description Expected result     Go to FO \u0026gt; Scroll down to footer \u0026gt; In store information \u0026gt; Click on Email us email address Client email will open and you will be able to send an email with recipient [email address of shop]    "
+	"content": "Mailto Steps    Step Description Expected result     Go to FO \u0026gt; Scroll down to footer \u0026gt; In \u0026ldquo;Store information\u0026rdquo; section \u0026gt; Click on Email us email address Client email will open and you will be able to send an email with email address of shop    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-searchbar/fo/make-a-search.html",
@@ -1076,13 +1083,6 @@
 	"tags": [],
 	"description": "",
 	"content": "OrderProduct Steps    Step Description Expected result     Go to the FO homepage Home page is displayed correctly   Connect with the user account User is correctly connected   Go to the FO homepage Home page is displayed correctly   Add first product to the cart. Click on Proceed to Checkout\u0026quot; Product is added to the cart. Checkout page is displayed correctly   Check cart details are correct Details about the product are correct: - name - price - quantity - total amount   Continue checkout process to addresses page Addresses page is displayed correctly   Select first address. Click on Continue\u0026quot; Address is selected. Payment page is displayed correctly   Select Wire payment. Confirm payment Wire is selected. Payment is confirmed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/reorder-order-from-details.html",
-	"title": "Reorder order from details",
-	"tags": [],
-	"description": "",
-	"content": "Reorder order from details Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product    Go to \u0026quot; account\u0026quot; page    Go to \u0026ldquo;Order history and details\u0026rdquo; See the last order   Go to details    Click on \u0026ldquo;reorder\u0026rdquo; Redirect to payement section   Paid the order    Go to \u0026ldquo;Order history and details\u0026rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customersignin/fo/reset-password.html",
@@ -1152,7 +1152,7 @@
 	"title": "Slider",
 	"tags": [],
 	"description": "",
-	"content": "Slider Steps    Step Description Expected result     Go to FO \u0026gt; On Homagepage see Slider \u0026gt; Click on Right arrow Slider should slide to the right   Click on the left arrow Slider should slide to the left   Click anywhere on the slider itself (except arrow column) The page should refreshed with the added link (https://www.prestashop.com/en?utm_source=back-office\u0026amp;utm_medium=v17_homeslider\u0026amp;utm_campaign=back-office-EN\u0026amp;utm_content=download)    "
+	"content": "Slider Steps    Step Description Expected result     Go to FO \u0026gt; On Homepage \u0026gt; See slider and click on right arrow The slider should slide to the right   Click on the left arrow The slider should slide to the left   Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide\n* Example: [https://www.prestashop.com/en?utm_source=back-office\u0026amp;utm_medium=v17_homeslider\u0026amp;utm_campaign=back-office-EN\u0026amp;utm_content=download]    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/smarty.html",
@@ -1582,13 +1582,6 @@
 	"content": "Configure module link "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/consult-order.html",
-	"title": "Consult order",
-	"tags": [],
-	"description": "",
-	"content": "Consult order Steps    Step Description Expected result     Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab The list of Credit slips received is displayed successfully   Choose a credit slip \u0026gt; Click on the order\u0026rsquo;s ID link on the \u0026ldquo;Order\u0026rdquo; column The details page of the order is displayed successfully    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/cart/modal/continue-shopping.html",
 	"title": "Continue shopping",
 	"tags": [],
@@ -1855,13 +1848,6 @@
 	"content": "Display remaining quantities Steps    Step Description Expected result     go to \u0026lsquo;Catalog \u0026gt; Products\u0026rsquo; page page title contains \u0026lsquo;Products\u0026rsquo;   Create a product product is created   go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   update Display remaining quantities to 0 Successful update message is displayed   View my shop and go to created product page product availability is not displayed in product page   update Display remaining quantities to the default value Successful update message is displayed   View my shop and go to created product page product availability is displayed in product page    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/download-invoice-from-details.html",
-	"title": "Download invoice from details",
-	"tags": [],
-	"description": "",
-	"content": "Download invoice from details "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/download-sample-files-todo.html",
 	"title": "Download sample files (TODO)",
 	"tags": [],
@@ -2093,6 +2079,13 @@
 	"content": "FO - Check that all social pictogram is display properly Steps    Step Description Expected result          "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-order.html",
+	"title": "FO - Consult order",
+	"tags": [],
+	"description": "",
+	"content": "FO - Consult order Steps    Step Description Expected result     Create an order (pre-condition)    Connect to BO (pre-condition)    Create a credit slip (pre-condition)    Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab The list of Credit slips received is displayed successfully   Choose a credit slip \u0026gt; Click on the order\u0026rsquo;s ID link on the \u0026ldquo;Order\u0026rdquo; column The details page of the order is displayed successfully    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-with-a-guest-account.html",
 	"title": "FO - Create an order with a guest account ",
 	"tags": [],
@@ -2107,11 +2100,25 @@
 	"content": "FO - CRUD address Steps    Step Description Expected result     Go to FO \u0026gt; Go to header and click on your username \u0026gt; Click on tab \u0026ldquo;Add first address\u0026rdquo; \u0026ldquo;New address\u0026rdquo; form page is displayed   Fill the address form \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Success message \u0026ldquo;Address successfully added!\u0026rdquo; is displayed\n* Back to \u0026ldquo;Your addresses\u0026rdquo; page with the new address on your account   Click on \u0026ldquo;Update\u0026rdquo; link at the bottom of your address card \u0026gt; Modify your Alias, Address, add a Phone Number \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Success message \u0026ldquo;Address successfully updated!\u0026rdquo; is displayed\n* Back to \u0026ldquo;Your addresses\u0026rdquo; page with the updated address on your account   Click on \u0026ldquo;Your account\u0026rdquo; on breadcrumb in \u0026ldquo;Your addresses\u0026rdquo; page * Back to \u0026ldquo;Your account page\u0026rdquo;\n* The \u0026ldquo;Add first address\u0026rdquo; tab is now called \u0026ldquo;Addresses\u0026rdquo;   Click on \u0026ldquo;Addresses\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;+ Create new address\u0026rdquo; link at the bottom of the page \u0026ldquo;New address\u0026rdquo; form page is displayed   Fill the address form \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Success message \u0026ldquo;Address successfully added!\u0026rdquo; is displayed\n* Back to \u0026ldquo;Your addresses\u0026rdquo; page with the new address on your account\n* You have now 2 addresses displayed   Go to home page \u0026gt; Add a product on cart \u0026gt; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; button in the modal \u0026gt; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; button in the \u0026ldquo;Shopping cart\u0026rdquo; page * Step 2 with your addresses is displayed\n* The first address added is checked   Click on the shop logo \u0026gt; Click on your username link in the header \u0026gt; Click on \u0026ldquo;Addresses\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Delete\u0026rdquo; link at the bottom of your first address card Error message \u0026ldquo;Could not delete the address since it is used in the shopping cart.\u0026rdquo; is displayed   Click on \u0026ldquo;Cart\u0026rdquo; button on the header \u0026gt; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; button \u0026gt; Select the other address \u0026gt; Click on \u0026ldquo;Continue\u0026rdquo; button * The second address added is well checked\n* Step 3 with your \u0026ldquo;Shipping method\u0026rdquo; is displayed   Click on the shop logo \u0026gt; Click on your username link in the header \u0026gt; Click on \u0026ldquo;Addresses\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Delete\u0026rdquo; link at the bottom of your first address card * Success message \u0026ldquo;Address successfully deleted!\u0026rdquo; is displayed\n* Only one address exists in the list   Go to BO \u0026gt; Customers list page \u0026amp; delete the customer created The alert \u0026ldquo;Successful deletion.\u0026rdquo; is well displayed    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-download-invoice-from-order-details.html",
+	"title": "FO - Download invoice from order details",
+	"tags": [],
+	"description": "",
+	"content": "FO - Download invoice from order details Steps    Step Description Expected result     Case 1: Change status in order list page in BO\nGo to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click on status label of an order (the one placed by the pre-condition below) \u0026gt; Change \u0026ldquo;Awaiting XX payment\u0026rdquo; to \u0026ldquo;Delivered\u0026rdquo; status on the list * The order list page is refreshed\n* A successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status label of the order is well changed to \u0026ldquo;Delivered\u0026rdquo;   Case 2: Change status in order details page in BO\nGo to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click on an order (the one placed by the pre-condition below) The order details page is well displayed   Click on status list in top of the page \u0026gt; Choose \u0026ldquo;Delivered\u0026rdquo; in the list \u0026gt; Click on the \u0026ldquo;Update status\u0026rdquo; * The order list page is refreshed\n* A successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status label of the order is well changed to \u0026ldquo;Delivered\u0026rdquo;   Go to FO \u0026gt; Click on your user name account in the header (previously connected with the pre-condition below) \u0026ldquo;Your account\u0026rdquo; page is well displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab * The \u0026ldquo;Order history\u0026rdquo; page with the order list is well displayed (with the order placed by the pre-condition below)\n* All informations about orders are displayed on the list (reference / date / total price / payment / status / invoice / \u0026ldquo;Details\u0026rdquo; and \u0026ldquo;Reorder\u0026rdquo; links)\n* At least one order should have \u0026ldquo;Delivered\u0026rdquo; status and an invoice to download (the one placed by the pre-condition below)\n* For the status \u0026ldquo;Awaiting XX payment\u0026rdquo; for example, there is no invoice icon on the column   Choose the order with the \u0026ldquo;Delivered\u0026rdquo; status and click on the \u0026ldquo;Details\u0026rdquo; link in the last column * The \u0026ldquo;Order details\u0026rdquo; page is well displayed\n* All the informations about the order are displayed   Click on the \u0026ldquo;Download your invoice as a PDF file\u0026rdquo; link on the second block Invoice .pdf file is downloaded on your computer with its ID name as \u0026ldquo;XXXX.pdf\u0026rdquo;    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-logout.html",
 	"title": "FO - Logout",
 	"tags": [],
 	"description": "",
 	"content": "FO - Logout Steps    Step Description Expected result     Case 1\nGo to FO \u0026gt; you are logged in with default customer account p \u0026gt; Click on \u0026ldquo;Sign out\u0026rdquo; button link on the header of the shop * You are logged out\n* Home page is displayed   Case 2\nGo to header \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; button link The \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Fill the form with customer account created from the pre-condition step informations \u0026gt; Click \u0026ldquo;Sign in\u0026rdquo; button * You are logged in\n* Home page is displayed   Go to header \u0026gt; Click on \u0026ldquo;Your name\u0026rdquo; button link \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Sign out\u0026rdquo; link on the bottom of your account page * You are logged out\n* Log in to your account page is displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-reorder-order-from-list.html",
+	"title": "FO - Reorder order from list",
+	"tags": [],
+	"description": "",
+	"content": "FO - Reorder order from list Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product The order is complete and the order confirmation page is displayed   Go to \u0026quot; account\u0026quot; page    Go to \u0026ldquo;Order history and details\u0026rdquo; See the last order   Click on \u0026ldquo;reorder\u0026rdquo; Redirect to payement section   Paid the order    Go to \u0026ldquo;Order history and details\u0026rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/newsletter/fo-subscribe-to-newsletter.html",
@@ -2245,13 +2252,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Refresh index and cache "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/reorder-order-from-list.html",
-	"title": "Reorder order from list",
-	"tags": [],
-	"description": "",
-	"content": "Reorder order from list Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product The order is complete and the order confirmation page is displayed   Go to \u0026quot; account\u0026quot; page    Go to \u0026ldquo;Order history and details\u0026rdquo; See the last order   Click on \u0026ldquo;reorder\u0026rdquo; Redirect to payement section   Paid the order    Go to \u0026ldquo;Order history and details\u0026rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/report-a-comment.html",
@@ -2926,13 +2926,6 @@
 	"content": "Display unavailable product attributes on the product page (TODO) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/download-invoice-from-list.html",
-	"title": "Download invoice from list",
-	"tags": [],
-	"description": "",
-	"content": "Download invoice from list "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/link-widget/edit.html",
 	"title": "Edit",
 	"tags": [],
@@ -3059,11 +3052,25 @@
 	"content": "FO - Check that all links are redirecting to the right URL Steps    Step Description Expected result          "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slip-list-view-pdf-credit-slip-view-order.html",
+	"title": "FO - Consult credit slip list &amp; View PDF Credit slip &amp; View order",
+	"tags": [],
+	"description": "",
+	"content": "FO - Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order Steps    Step Description Expected result     Go to FO \u0026gt; Sign with default customer The Home page is well displayed   Click on View my customer account Your account page is displayed   Click on \u0026ldquo;Credit slips\u0026rdquo; The Credit slips page is well displayed and the information alert \u0026ldquo;You have not received any credit slips.\u0026quot; is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders page \u0026amp; view the last order created from the pre-condition step The Order view page is well displayed   Change the order status to \u0026ldquo;Payment accepted\u0026rdquo; or \u0026ldquo;Shipped\u0026rdquo; The order status is updated successfully   Click on \u0026ldquo;Partial refund\u0026rdquo;, set a quantity and click on the \u0026ldquo;Partial refund\u0026rdquo; button The alert \u0026ldquo;A partial refund was successfully created.\u0026rdquo; is well displayed and the credit slip is well created   Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab * The list of Credit slips received is displayed successfully\n* The Order reference is OK\n* The Credit slip ID is ok\n* The Date issued is ok   Choose a credit slip \u0026gt; Click on the pdf icon on the \u0026ldquo;View credit slip\u0026rdquo; column The PDF file is downloaded   Click on the file in browser toolbar The pdf file opens on a new tab and is displayed with all details   Go back to FO \u0026gt; Your account \u0026gt; Credit slip page The credit slip page is well displayed   Click on the Order reference The Order details is well displayed   Go Back to FO \u0026gt; Click on customer account page \u0026gt; Go to the Credit slips tab and click On \u0026ldquo;Back to your account\u0026rdquo; link Your account page is well displayed   Go Back to FO \u0026gt; Click on customer account page \u0026gt; Go to the Credit slips tab and click On \u0026ldquo;Home\u0026rdquo; link Your Home page is well displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html",
 	"title": "FO - Create an Order by existing customer",
 	"tags": [],
 	"description": "",
 	"content": "FO - Create an Order by existing customer Steps    Step Description Expected result     Go to FO \u0026gt; Add product to the cart \u0026amp; Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The \u0026ldquo;Shopping cart\u0026rdquo; page is displayed\u0026quot;   Click on \u0026ldquo;Proceed to checkout The checkout page is displayed   In the Personal information step, click on \u0026ldquo;Sign in\u0026rdquo; The Email \u0026amp; password fields are displayed   Set Email \u0026amp; Password and click on Continue The Address step is displayed   Click on the \u0026ldquo;Continue\u0026rdquo; button The \u0026ldquo;Shipping\u0026rdquo; step is displayed   Click on the \u0026ldquo;Continue\u0026rdquo; button The \u0026ldquo;Payment methods\u0026rdquo; step is displayed   Select a payment method, click on \u0026ldquo;I agree to the terms of service and will adhere to them unconditionally.\u0026rdquo; then click on \u0026ldquo;Place Order\u0026rdquo; The Order confirmation page is displayed   Check the database \u0026amp; the table Prefix_ganalytics A new line is added for the new order    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-download-invoice-from-orders-list.html",
+	"title": "FO - Download invoice from orders list",
+	"tags": [],
+	"description": "",
+	"content": "FO - Download invoice from orders list Steps    Step Description Expected result     Case 1: Change status in order list page in BO\nGo to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click on status label of an order (the one placed by the pre-condition below) \u0026gt; Change \u0026ldquo;Awaiting XX payment\u0026rdquo; to \u0026ldquo;Delivered\u0026rdquo; status on the list * The order list page is refreshed\n* A successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status label of the order is well changed to \u0026ldquo;Delivered\u0026rdquo;   Case 2: Change status in order details page in BO\nGo to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click on an order (the one placed by the pre-condition below) The order details page is well displayed   Click on status list in top of the page \u0026gt; Choose \u0026ldquo;Delivered\u0026rdquo; in the list \u0026gt; Click on the \u0026ldquo;Update status\u0026rdquo; * The order list page is refreshed\n* A successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status label of the order is well changed to \u0026ldquo;Delivered\u0026rdquo;   Go to FO \u0026gt; Click on your user name account in the header (previously connected with the pre-condition below) \u0026ldquo;Your account\u0026rdquo; page is well displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab * The \u0026ldquo;Order history\u0026rdquo; page with the order list is well displayed (with the order placed by the pre-condition below)\n* All informations about orders are displayed on the list (reference / date / total price / payment / status / invoice / \u0026ldquo;Details\u0026rdquo; and \u0026ldquo;Reorder\u0026rdquo; links)\n* At least one order should have \u0026ldquo;Delivered\u0026rdquo; status and an invoice to download (the one placed by the pre-condition below)\n* For the status \u0026ldquo;Awaiting XX payment\u0026rdquo; for example, there is no invoice icon on the column   Choose the order with the \u0026ldquo;Delivered\u0026rdquo; status and click on the \u0026ldquo;PDF\u0026rdquo; icon in \u0026ldquo;Invoice\u0026rdquo; column Invoice .pdf file is downloaded on your computer with its ID name as \u0026ldquo;XXXX.pdf\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/login/fo-password-reminder.html",
@@ -3073,18 +3080,18 @@
 	"content": "FO - Password reminder Steps    Step Description Expected result     Click on \u0026ldquo;Sign In\u0026rdquo; button link on header on top right \u0026gt; Click on \u0026ldquo;Forgot your password?\u0026rdquo; link \u0026ldquo;Forgot your password\u0026rdquo; page is displayed   Enter your customer email address \u0026gt; Click on \u0026ldquo;send reset link\u0026rdquo; Message \u0026ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at XX@XX.XX.\u0026rdquo; is displayed   Check your emails \u0026gt; A \u0026ldquo;Password query confirmation\u0026rdquo; email is sent \u0026gt; Click on the link \u0026ldquo;Reset your password\u0026rdquo; page is displayed   Fille the form \u0026gt; Click \u0026ldquo;Change password\u0026rdquo; button * You are logged into your account\n* Success message \u0026ldquo;Your password has been successfully reset and a confirmation has been sent to your email address: XX@XX.XX\u0026rdquo; is displayed   Click on \u0026ldquo;Sign out\u0026rdquo; button link on the header or at the bottom of \u0026ldquo;Your account\u0026rdquo; page \u0026ldquo;Log in to your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Forgot your password?\u0026rdquo; button link \u0026gt; Enter your customer email address \u0026gt; Click on \u0026ldquo;send reset link\u0026rdquo; button An error message is displayed : \u0026ldquo;You can regenerate your password only every 360 minute(s)\u0026rdquo;    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-request-a-merchandise-return-from-order-details.html",
+	"title": "FO - Request a merchandise return from order details",
+	"tags": [],
+	"description": "",
+	"content": "FO - Request a merchandise return from order details Steps    Step Description Expected result     Case 1: Change status in order list page in BO\nGo to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click on status label of an order (the one placed by the pre-condition below) \u0026gt; Change \u0026ldquo;Awaiting XX payment\u0026rdquo; to \u0026ldquo;Delivered\u0026rdquo; status on the list * The order list page is refreshed\n* A successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status label of the order is well changed to \u0026ldquo;Delivered\u0026rdquo;   Case 2: Change status in order details page in BO\nGo to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click on an order (the one placed by the pre-condition below) The order details page is well displayed   Click on status list in top of the page \u0026gt; Choose \u0026ldquo;Delivered\u0026rdquo; in the list \u0026gt; Click on the \u0026ldquo;Update status\u0026rdquo; * The order list page is refreshed\n* A successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status label of the order is well changed to \u0026ldquo;Delivered\u0026rdquo;   Go to FO \u0026gt; Click on your user name account in the header (previously connected with the pre-condition below) * \u0026ldquo;Your account\u0026rdquo; page is well displayed\n* No merchandise returns tab is displayed   Go to BO \u0026gt; Customer Service \u0026gt; Merchandise Returns \u0026gt; Set to \u0026ldquo;Yes\u0026rdquo; the \u0026ldquo;Enable returns\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * The success message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is well displayed\n* The \u0026ldquo;Enable returns\u0026rdquo; switch button is set to \u0026ldquo;Yes\u0026rdquo; and is green   Go to back FO \u0026gt; Click on your user name account in the header (previously connected with the pre-condition below) * \u0026ldquo;Your account\u0026rdquo; page is well displayed\n* A merchandise returns tab is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab * The \u0026ldquo;Order history\u0026rdquo; page with the order list is well displayed (with the order placed by the pre-condition below)\n* All informations about orders are displayed on the list (reference / date / total price / payment / status / invoice / \u0026ldquo;Details\u0026rdquo; and \u0026ldquo;Reorder\u0026rdquo; links)\n* At least one order should have \u0026ldquo;Delivered\u0026rdquo; status and an invoice to download (the one placed by the pre-condition below)\n* For the status \u0026ldquo;Awaiting XX payment\u0026rdquo; for example, there is no invoice icon on the column   Choose the order with the \u0026ldquo;Delivered\u0026rdquo; status and click on the \u0026ldquo;Details\u0026rdquo; link in the last column * The \u0026ldquo;Order details\u0026rdquo; page is well displayed\n* All the informations about the order are displayed   Go down to the list of product ordered \u0026gt; Check the product you want to return and the quantity (if it\u0026rsquo;s more than 1) \u0026gt; Add a message on the \u0026ldquo;Merchandise return\u0026rdquo; section (not required) \u0026gt; Click on \u0026ldquo;Request a return\u0026rdquo; * The \u0026ldquo;Merchandise returns\u0026rdquo; page is displayed with the list of merchandise returns of the customer account\n* All informations of the return are displayed (number of order / ID of Return / Package status / Date issued / Returns form)    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-view-vouchers.html",
 	"title": "FO - View vouchers",
 	"tags": [],
 	"description": "",
 	"content": "FO - View vouchers Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discounts \u0026gt; Click on \u0026ldquo;Add new cart rule\u0026rdquo; button Cart Rules form page is displayed   Fill the form on the 3 tabs \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Success message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\n* New cart rule is created   Go to FO \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button Home page is displayed   Click on your username link in the header \u0026gt; Click on \u0026ldquo;Your vouchers\u0026rdquo; tab Your vouchers table is displayed with the newly created voucher   Go back to BO \u0026gt; Add multiple cart rules with different values * Message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\n* New cart rules are created   Go back to FO \u0026gt; Go to your customer account \u0026gt; Click on \u0026ldquo;Your vouchers\u0026rdquo; tab Your vouchers table is displayed with the a list of new created vouchers    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/credit-slips/fo-consult-credit-slip-list-view-pdf-credit-slip-view-order.html",
-	"title": "FO &gt; Consult credit slip list &amp; View PDF Credit slip &amp; View order",
-	"tags": [],
-	"description": "",
-	"content": "FO \u0026gt; Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order Steps    Step Description Expected result     Go to FO \u0026gt; Sign with default customer The Home page is well displayed   Click on View my customer account Your account page is displayed   Click on \u0026ldquo;Credit slips\u0026rdquo; The Credit slips page is well displayed and the information alert \u0026ldquo;You have not received any credit slips.\u0026quot; is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders page \u0026amp; view the last order created from the pre-condition step The Order view page is well displayed   Change the order status to \u0026ldquo;Payment accepted\u0026rdquo; or \u0026ldquo;Shipped\u0026rdquo; The order status is updated successfully   Click on \u0026ldquo;Partial refund\u0026rdquo;, set a quantity and click on the \u0026ldquo;Partial refund\u0026rdquo; button The alert \u0026ldquo;A partial refund was successfully created.\u0026rdquo; is well displayed and the credit slip is well created   Go to FO \u0026gt; Click on customer account page \u0026gt; Go to Credit slips tab * The list of Credit slips received is displayed successfully\n* The Order reference is OK\n* The Credit slip ID is ok\n* The Date issued is ok   Choose a credit slip \u0026gt; Click on the pdf icon on the \u0026ldquo;View credit slip\u0026rdquo; column The PDF file is downloaded   Click on the file in browser toolbar The pdf file opens on a new tab and is displayed with all details   Go back to FO \u0026gt; Your account \u0026gt; Credit slip page The credit slip page is well displayed   Click on the Order reference The Order details is well displayed   Go Back to FO \u0026gt; Click on customer account page \u0026gt; Go to the Credit slips tab and click On \u0026ldquo;Back to your account\u0026rdquo; link Your account page is well displayed   Go Back to FO \u0026gt; Click on customer account page \u0026gt; Go to the Credit slips tab and click On \u0026ldquo;Home\u0026rdquo; link Your Home page is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-a-message-while-logged-in.html",
@@ -3239,13 +3246,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Randomly display featured products Steps    Step Description Expected result     Enable the option Randomly display featured products\u0026quot; A message should appear in green.\nThe option should be enabled   Go to front office/check the homepage Product shouldn\u0026rsquo;t be display by id but randomly    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/request-a-merchandise-return.html",
-	"title": "Request a merchandise return",
-	"tags": [],
-	"description": "",
-	"content": "Request a merchandise return "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/respond-to-message.html",
@@ -4018,6 +4018,13 @@
 	"content": "FO - Login Steps    Step Description Expected result     Click on \u0026ldquo;Sign In\u0026rdquo; link button \u0026gt; Enter a wrong email + password combination \u0026gt; Click on \u0026ldquo;Sign In\u0026rdquo; button * An error message \u0026ldquo;Authentication failed\u0026rdquo;. is displayed\n* You can\u0026rsquo;t log in   Enter your email + password with demo account \u0026gt; Click on \u0026ldquo;Show\u0026rdquo; Password is displayed clearly   Click on \u0026ldquo;Sign in\u0026rdquo; button * You are now logged into your customer account\n* Home page is displayed    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-send-a-message.html",
+	"title": "FO - Send a message",
+	"tags": [],
+	"description": "",
+	"content": "FO - Send a message Steps    Step Description Expected result     Go to FO    Login with a customer account    Go to \u0026ldquo;account\u0026rdquo; page    Go to \u0026ldquo;Order history and details\u0026rdquo;    Select an order validated and go to \u0026ldquo;details\u0026rdquo;    In send message section, select a product, write a message and click on send In BO =\u0026gt; Customers Service =\u0026gt; Customers Service the message is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html",
 	"title": "FO &gt; Consult product quickview",
 	"tags": [],
@@ -4170,13 +4177,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Select previous Cart Steps    Step Description Expected result     Go to BO \u0026gt; Customers \u0026gt; Customers \u0026gt; Edit John Doe \u0026gt; Add a new password \u0026gt; Save Message \u0026ldquo;Successful update.\u0026rdquo; appears   Go to FO \u0026gt; Log into John Doe\u0026rsquo;s account You are logged into John doe\u0026rsquo;s account   Add products to your cart    Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Add new order \u0026gt; Choose customer John Doe \u0026gt; Click Details on the cart \u0026gt; Click the cross to close the popup Popup opens with Total Cart - Customer information - Order information - Cart Summary   Click Use on the created cart Block cart is updated with the products of the previously created cart   Finalize order New order is created    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/send-a-message.html",
-	"title": "Send a message",
-	"tags": [],
-	"description": "",
-	"content": "Send a message Steps    Step Description Expected result     Go to FO    Login with a customer account    Go to \u0026ldquo;account\u0026rdquo; page    Go to \u0026ldquo;Order history and details\u0026rdquo;    Select an order validated and go to \u0026ldquo;details\u0026rdquo;    In send message section, select a product, write a message and click on send In BO =\u0026gt; Customers Service =\u0026gt; Customers Service the message is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/separator-of-attribute-anchor-on-the-product-links-todo.html",
@@ -6766,7 +6766,7 @@
 	"title": "Credit slips",
 	"tags": [],
 	"description": "",
-	"content": "Credit slips Tests  Consult credit slips list   Consult order   FO \u0026gt; Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order   "
+	"content": "Credit slips Tests  FO - Consult credit slips list   FO - Consult order   FO - Consult credit slip list \u0026amp; View PDF Credit slip \u0026amp; View order   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule.html",
@@ -7648,7 +7648,7 @@
 	"title": "Merchandise Returns",
 	"tags": [],
 	"description": "",
-	"content": "Merchandise Returns Tests  Consult merchandise returns list   Go to order   Consult return   Print PDF order return   "
+	"content": "Merchandise Returns Tests  FO - Consult merchandise returns list   Go to order   Consult return   Print PDF order return   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns.html",
@@ -7767,14 +7767,14 @@
 	"title": "Order details",
 	"tags": [],
 	"description": "",
-	"content": "Order details Tests  Reorder order from details   Download invoice from details   Request a merchandise return   Send a message   "
+	"content": "Order details Tests  FO - Reorder order from details   FO - Download invoice from order details   FO - Request a merchandise return from order details   FO - Send a message   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history.html",
 	"title": "Order history",
 	"tags": [],
 	"description": "",
-	"content": "Order history Categories  Order details   Tests  Consult order list   Reorder order from list   Download invoice from list   "
+	"content": "Order history Categories  Order details   Tests  FO - Consult order list   FO - Reorder order from list   FO - Download invoice from orders list   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages.html",
