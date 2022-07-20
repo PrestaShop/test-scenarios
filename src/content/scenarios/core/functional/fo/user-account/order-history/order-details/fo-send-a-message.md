@@ -1,9 +1,9 @@
 ---
-title: "Send a message"
+title: "FO - Send a message"
 weight: 4
 ---
 
-# Send a message
+# FO - Send a message
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

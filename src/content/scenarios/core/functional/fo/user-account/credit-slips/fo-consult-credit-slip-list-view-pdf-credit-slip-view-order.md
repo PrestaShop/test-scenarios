@@ -1,9 +1,9 @@
 ---
-title: "FO > Consult credit slip list & View PDF Credit slip & View order"
+title: "FO - Consult credit slip list & View PDF Credit slip & View order"
 weight: 3
 ---
 
-# FO > Consult credit slip list & View PDF Credit slip & View order
+# FO - Consult credit slip list & View PDF Credit slip & View order
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
