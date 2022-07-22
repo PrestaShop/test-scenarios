@@ -1,9 +1,9 @@
 ---
-title: "FO - Consult order"
+title: "FO - Consult order from credit slips list"
 weight: 2
 ---
 
-# FO - Consult order
+# FO - Consult order from credit slips list
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
