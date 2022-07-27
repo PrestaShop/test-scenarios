@@ -7,39 +7,41 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Slider</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/slider.html</link>
+      <title>FO - Slider</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-slider.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/slider.html</guid>
-      <description>Slider Steps    Step Description Expected result     Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right   Click on the left arrow The slider should slide to the left   Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-slider.html</guid>
+      <description>FO - Slider Steps    Step Description Expected result     Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right   Click on the left arrow The slider should slide to the left   Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
     </item>
     
     <item>
-      <title>Products</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/products.html</link>
+      <title>FO - Display some products on homepage</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-display-some-products-on-homepage.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/products.html</guid>
-      <description>Products </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-display-some-products-on-homepage.html</guid>
+      <description>FO - Display some products on homepage Steps    Step Description Expected result     Go to FO &amp;gt; Go below the slider * &amp;ldquo;Popular products&amp;rdquo; block is displayed with 8 products
+* &amp;ldquo;All products&amp;rdquo; link is displayed to go to &amp;ldquo;Home category&amp;rdquo;   Scroll down after the &amp;ldquo;Custom text block&amp;rdquo; * &amp;ldquo;On sale&amp;rdquo; block is displayed with 2 products
+* &amp;ldquo;All sale products&amp;rdquo; link is displayed to go to &amp;ldquo;Prices drop category&amp;rdquo;   Scroll down after the &amp;ldquo;On sale block&amp;rdquo; * &amp;ldquo;New products&amp;rdquo; block is displayed with 8 products</description>
     </item>
     
     <item>
-      <title>All products</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/all-products.html</link>
+      <title>FO - All products</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-all-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/all-products.html</guid>
-      <description>All products Steps    Step Description Expected result     Go to FO &amp;gt; In Popular Products block &amp;gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check the Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-all-products.html</guid>
+      <description>FO - All products Steps    Step Description Expected result     Go to FO &amp;gt; In Popular Products block &amp;gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check the Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !</description>
     </item>
     
     <item>
-      <title>FO &gt; Consult product quickview</title>
+      <title>FO - Consult product quickview</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html</guid>
-      <description>FO &amp;gt; Consult product quickview Steps    Step Description Expected result     Go to FO &amp;gt; Product list &amp;gt; Click on the Quick View button for the product &amp;ldquo;The best is yet to come&#39; Framed poster&amp;rdquo; A modal is displayed
+      <description>FO - Consult product quickview Steps    Step Description Expected result     Go to FO &amp;gt; Product list &amp;gt; Click on the Quick View button for the product &amp;ldquo;The best is yet to come&#39; Framed poster&amp;rdquo; A modal is displayed
 with the product details
 !https://forge.prestashop.com/plugins/servlet/raven/attachment/637/Screenshot+2021-11-29+at+16.32.42.png   Change combination of product See that the price will be updated accordingly   Change quantity of product and Click add to cart Modal &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; is displayed   Click on the &amp;ldquo;cross&amp;rdquo; button or &amp;ldquo;Continue Shopping&amp;rdquo; button or out side The modal is closed   Click Quick View on another simple product The modal is well displayed   Click on Cross button The modal is closed   Search a customized product and click on Quick view The &amp;ldquo;Add to cart&amp;rdquo; button is disabled   Click on Cross button The modal is closed   Search the product out of stock created in the pre-condition and click on quick view * Add to cart button is disabled</description>
     </item>

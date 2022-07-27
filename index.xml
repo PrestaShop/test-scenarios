@@ -1239,7 +1239,7 @@ Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Cred
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-merchandise-returns-list.html</guid>
       <description>FO - Consult merchandise returns list Steps    Step Description Expected result     Case 1: Change status in order list page in BO
-Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (the one placed by the pre-condition below) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (previously placed with the pre-condition) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
 * A successful message &amp;ldquo;Successful update.</description>
     </item>
     
@@ -1281,12 +1281,40 @@ Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Or
     </item>
     
     <item>
+      <title>FO - Mailto</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-mailto.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-mailto.html</guid>
+      <description>FO - Mailto Steps    Step Description Expected result     Go to FO &amp;gt; Scroll down to footer &amp;gt; In &amp;ldquo;Store information&amp;rdquo; section &amp;gt; Click on Email us email address Client email will open and you will be able to send an email with email address of shop    </description>
+    </item>
+    
+    <item>
       <title>FO - Reorder order from details</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-reorder-order-from-details.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-reorder-order-from-details.html</guid>
       <description>FO - Reorder order from details Steps    Step Description Expected result     Go to FO    Login with a customer account    Buy a product    Go to &amp;quot; account&amp;quot; page    Go to &amp;ldquo;Order history and details&amp;rdquo; See the last order   Go to details    Click on &amp;ldquo;reorder&amp;rdquo; Redirect to payement section   Paid the order    Go to &amp;ldquo;Order history and details&amp;rdquo; The reorder order is displayed   Check if the product is the same about the first order Same product are order for the first order and the reorder    </description>
+    </item>
+    
+    <item>
+      <title>FO - Search product bar, consult autocomplete list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fo-search-product-bar-consult-autocomplete-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fo-search-product-bar-consult-autocomplete-list.html</guid>
+      <description>FO - Search product bar, consult autocomplete list Steps    Step Description Expected result     Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) The autocomplete list is displayed with 7 products with all &amp;ldquo;test&amp;rdquo; characters on products title   Case 1: With &amp;ldquo;Mug&amp;rdquo; products
+Click on the search bar on the header &amp;gt; Erase the last word and write another word on it (min 3 characters length) * The autocomplete list is displayed with 5 products with all &amp;ldquo;mug&amp;rdquo; characters on products title</description>
+    </item>
+    
+    <item>
+      <title>FO - Slider</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-slider.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-slider.html</guid>
+      <description>FO - Slider Steps    Step Description Expected result     Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right   Click on the left arrow The slider should slide to the left   Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
     </item>
     
     <item>
@@ -1427,15 +1455,6 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
     </item>
     
     <item>
-      <title>Mailto</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/mailto.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/mailto.html</guid>
-      <description>Mailto Steps    Step Description Expected result     Go to FO &amp;gt; Scroll down to footer &amp;gt; In &amp;ldquo;Store information&amp;rdquo; section &amp;gt; Click on Email us email address Client email will open and you will be able to send an email with email address of shop    </description>
-    </item>
-    
-    <item>
       <title>Make a search</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-searchbar/fo/make-a-search.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1517,15 +1536,6 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
     </item>
     
     <item>
-      <title>Search product, consult autocomplete list</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/search-product-consult-autocomplete-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/search-product-consult-autocomplete-list.html</guid>
-      <description>Search product, consult autocomplete list </description>
-    </item>
-    
-    <item>
       <title>Select a carrier</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/checkout/shipping-method/select-a-carrier.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1561,15 +1571,6 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
       <description>simple Filter Stocks Steps    Step Description Expected result     Go to Catalog stocks Page Page title contains : stocks *
 number of element in grid &amp;gt; 0   filter by name Criteria : &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo; number of element in grid after filter &amp;lt; total of element in grid
 all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo;   reset filter number of element in grid after reset = total of element in grid   filter by reference Criteria : demo_1 number of element in grid after filter &amp;lt; total of element in grid</description>
-    </item>
-    
-    <item>
-      <title>Slider</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/slider.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/slider.html</guid>
-      <description>Slider Steps    Step Description Expected result     Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right   Click on the left arrow The slider should slide to the left   Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
     </item>
     
     <item>
@@ -2814,6 +2815,15 @@ number of order messages = Total of orders messages + 1   Go to create new order
     </item>
     
     <item>
+      <title>FO - Contact us - Add attachment</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-contact-us-add-attachment.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-contact-us-add-attachment.html</guid>
+      <description>FO - Contact us - Add attachment Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Click on Contact Us button on header &amp;gt; In contact form click &amp;ldquo;Choose file&amp;rdquo; &amp;gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   In contact form click &amp;ldquo;Choose file&amp;rdquo; &amp;gt; Choose your file &amp;gt; Click Cancel an do not upload any file No file is chosen.</description>
+    </item>
+    
+    <item>
       <title>FO - Create an order with a guest account </title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-with-a-guest-account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2833,13 +2843,35 @@ number of order messages = Total of orders messages + 1   Go to create new order
     </item>
     
     <item>
+      <title>FO - Display some products on homepage</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-display-some-products-on-homepage.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-display-some-products-on-homepage.html</guid>
+      <description>FO - Display some products on homepage Steps    Step Description Expected result     Go to FO &amp;gt; Go below the slider * &amp;ldquo;Popular products&amp;rdquo; block is displayed with 8 products
+* &amp;ldquo;All products&amp;rdquo; link is displayed to go to &amp;ldquo;Home category&amp;rdquo;   Scroll down after the &amp;ldquo;Custom text block&amp;rdquo; * &amp;ldquo;On sale&amp;rdquo; block is displayed with 2 products
+* &amp;ldquo;All sale products&amp;rdquo; link is displayed to go to &amp;ldquo;Prices drop category&amp;rdquo;   Scroll down after the &amp;ldquo;On sale block&amp;rdquo; * &amp;ldquo;New products&amp;rdquo; block is displayed with 8 products</description>
+    </item>
+    
+    <item>
       <title>FO - Download invoice from order details</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-download-invoice-from-order-details.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-download-invoice-from-order-details.html</guid>
       <description>FO - Download invoice from order details Steps    Step Description Expected result     Case 1: Change status in order list page in BO
-Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (the one placed by the pre-condition below) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (previously placed with the pre-condition) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+* A successful message &amp;ldquo;Successful update.</description>
+    </item>
+    
+    <item>
+      <title>FO - Go to order details page from merchandise returns list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-go-to-order-details-page-from-merchandise-returns-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-go-to-order-details-page-from-merchandise-returns-list.html</guid>
+      <description>FO - Go to order details page from merchandise returns list Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
 * A successful message &amp;ldquo;Successful update.</description>
     </item>
     
@@ -2865,22 +2897,23 @@ Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &am
     </item>
     
     <item>
-      <title>FO - subscribe to newsletter</title>
+      <title>FO - Search a product and validate</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fo-search-a-product-and-validate.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fo-search-a-product-and-validate.html</guid>
+      <description>FO - Search a product and validate Steps    Step Description Expected result     Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) The autocomplete list is displayed with 3 products with all &amp;ldquo;notebook&amp;rdquo; characters on products title   Case 1: Choose a product on the list
+Select &amp;amp; click on the product &amp;ldquo;Mountain fox notebook&amp;rdquo; for example * It well redirected on the product page detail</description>
+    </item>
+    
+    <item>
+      <title>FO - Subscribe to newsletter</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/newsletter/fo-subscribe-to-newsletter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/newsletter/fo-subscribe-to-newsletter.html</guid>
-      <description>FO - subscribe to newsletter Steps    Step Description Expected result     Go to the FO on the Homepage The FO homepage is displayed   In the newsletter form field, add a email address who is not yet a newsletter subscriber email and click on &amp;ldquo;subscribe&amp;rdquo;
+      <description>FO - Subscribe to newsletter Steps    Step Description Expected result     Go to the FO on the Homepage The FO homepage is displayed   In the newsletter form field, add a email address who is not yet a newsletter subscriber email and click on &amp;ldquo;subscribe&amp;rdquo;
 !image-2021-04-06-16-20-27-389.png! A confirmation message is displayed !image-2021-04-06-16-19-48-272.png!   Go to the BO on the module manager page Module manager page is displayed   Select the &amp;ldquo;newletter&amp;rdquo; module in the list and in the select list form click on &amp;ldquo;configure&amp;rdquo;</description>
-    </item>
-    
-    <item>
-      <title>FO &gt; Contact us &gt; Add attachment</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-contact-us-add-attachment.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-contact-us-add-attachment.html</guid>
-      <description>FO &amp;gt; Contact us &amp;gt; Add attachment Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Click on Contact Us button on header &amp;gt; In contact form click &amp;ldquo;Choose file&amp;rdquo; &amp;gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   In contact form click &amp;ldquo;Choose file&amp;rdquo; &amp;gt; Choose your file &amp;gt; Click Cancel an do not upload any file No file is chosen.</description>
     </item>
     
     <item>
@@ -2899,15 +2932,6 @@ Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &am
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/generate-invoice-by-status.html</guid>
       <description>Generate Invoice By Status Steps    Step Description Expected result     Go to the Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Go to the second order page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; The status is changed successfully   Go to the Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed correctly   Check the color and number in the square for both status &amp;ldquo;Payment accepted&amp;rdquo; and &amp;ldquo;Shipped&amp;rdquo; The square have &amp;ldquo;1&amp;rdquo; as a number and &amp;ldquo;green&amp;rdquo; as a color   Check the color and number in the square for the others status that haven&amp;rsquo;t been ordered The square have &amp;ldquo;0&amp;rdquo; as a number and &amp;ldquo;red&amp;rdquo; as a color   Click on &amp;ldquo;Generate PDF file by status&amp;rdquo; without checking boxes and check the error message The error message is displayed successfully &amp;ldquo;You must select at least one order status.</description>
-    </item>
-    
-    <item>
-      <title>Go to order</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/go-to-order.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/go-to-order.html</guid>
-      <description>Go to order </description>
     </item>
     
     <item>
@@ -3011,15 +3035,6 @@ Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &am
     </item>
     
     <item>
-      <title>Products</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/products.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/products.html</guid>
-      <description>Products </description>
-    </item>
-    
-    <item>
       <title>Quick access</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/quick-access.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3071,15 +3086,6 @@ Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &am
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/reset.html</guid>
       <description>Reset </description>
-    </item>
-    
-    <item>
-      <title>Search product, validate</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/search-product-validate.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/search-product-validate.html</guid>
-      <description>Search product, validate </description>
     </item>
     
     <item>
@@ -3465,15 +3471,6 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>All products</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/all-products.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/all-products.html</guid>
-      <description>All products Steps    Step Description Expected result     Go to FO &amp;gt; In Popular Products block &amp;gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check the Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !</description>
-    </item>
-    
-    <item>
       <title>BO - Attributes - Pagination</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-attributes-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3748,15 +3745,6 @@ number of languages = total of languages + 1   Go to add new language page Page 
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration-for-merchant/configure-the-minimum-quantity-for-out-of-stock.html</guid>
       <description>Configure the minimum quantity for out of stock Steps    Step Description Expected result          </description>
-    </item>
-    
-    <item>
-      <title>Consult return</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-return.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/consult-return.html</guid>
-      <description>Consult return </description>
     </item>
     
     <item>
@@ -4072,6 +4060,15 @@ The validation message is displayed successfully
     </item>
     
     <item>
+      <title>FO - All products</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-all-products.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-all-products.html</guid>
+      <description>FO - All products Steps    Step Description Expected result     Go to FO &amp;gt; In Popular Products block &amp;gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check the Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !</description>
+    </item>
+    
+    <item>
       <title>FO - Change language</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/header-footer/fo-change-language.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4101,6 +4098,17 @@ The url has the /xx/   Switch back to EN FO is now in English</description>
     </item>
     
     <item>
+      <title>FO - Consult return details</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-return-details.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-return-details.html</guid>
+      <description>FO - Consult return details Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (previously placed with the pre-condition) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+* A successful message &amp;ldquo;Successful update.</description>
+    </item>
+    
+    <item>
       <title>FO - Create an Order by existing customer</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-by-existing-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4116,7 +4124,7 @@ The url has the /xx/   Switch back to EN FO is now in English</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/fo-download-invoice-from-orders-list.html</guid>
       <description>FO - Download invoice from orders list Steps    Step Description Expected result     Case 1: Change status in order list page in BO
-Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (the one placed by the pre-condition below) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (previously placed with the pre-condition) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
 * A successful message &amp;ldquo;Successful update.</description>
     </item>
     
@@ -4136,7 +4144,30 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-request-a-merchandise-return-from-order-details.html</guid>
       <description>FO - Request a merchandise return from order details Steps    Step Description Expected result     Case 1: Change status in order list page in BO
-Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (the one placed by the pre-condition below) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed</description>
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an orde (previously placed with the pre-condition)r &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+* A successful message &amp;ldquo;Successful update.</description>
+    </item>
+    
+    <item>
+      <title>FO - Search no result</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fo-search-no-result.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fo-search-no-result.html</guid>
+      <description>FO - Search no result Steps    Step Description Expected result     Case 1: With less than 3 characters
+Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (less than 3 characters length) and click on &amp;ldquo;Enter&amp;rdquo; * No autocomplete list is displayed
+* The search bar in the header keep the word written
+* The &amp;ldquo;Search results&amp;rdquo; page is displayed with those content:</description>
+    </item>
+    
+    <item>
+      <title>FO - Send a message while logged in</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-a-message-while-logged-in.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-a-message-while-logged-in.html</guid>
+      <description>FO - Send a message while logged in Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account created from the pre-condition step You are logged into your customer account   Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us * The contact form is displayed
+* The Email address is not empty and it is the same email address of the customer created in the pre-condition</description>
     </item>
     
     <item>
@@ -4147,16 +4178,6 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-view-vouchers.html</guid>
       <description>FO - View vouchers Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Click on &amp;ldquo;Add new cart rule&amp;rdquo; button Cart Rules form page is displayed   Fill the form on the 3 tabs &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Success message &amp;ldquo;Successful creation.&amp;rdquo; is displayed
 * New cart rule is created   Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Click on your username link in the header &amp;gt; Click on &amp;ldquo;Your vouchers&amp;rdquo; tab Your vouchers table is displayed with the newly created voucher   Go back to BO &amp;gt; Add multiple cart rules with different values * Message &amp;ldquo;Successful creation.</description>
-    </item>
-    
-    <item>
-      <title>FO &gt; Send a message while logged in</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-a-message-while-logged-in.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-a-message-while-logged-in.html</guid>
-      <description>FO &amp;gt; Send a message while logged in Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account created from the pre-condition step You are logged into your customer account   Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us * The contact form is displayed
-* The Email address is not empty and it is the same email address of the customer created in the pre-condition</description>
     </item>
     
     <item>
@@ -4404,15 +4425,6 @@ Set &amp;ldquo;Enabled&amp;rdquo; to &amp;ldquo;NO&amp;rdquo; an click on Save A
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/search-module.html</guid>
       <description>Search Module </description>
-    </item>
-    
-    <item>
-      <title>Search no result</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/search-no-result.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/search-no-result.html</guid>
-      <description>Search no result </description>
     </item>
     
     <item>
@@ -5369,6 +5381,17 @@ Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another curr
     </item>
     
     <item>
+      <title>FO - Consult product quickview</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html</guid>
+      <description>FO - Consult product quickview Steps    Step Description Expected result     Go to FO &amp;gt; Product list &amp;gt; Click on the Quick View button for the product &amp;ldquo;The best is yet to come&#39; Framed poster&amp;rdquo; A modal is displayed
+with the product details
+!https://forge.prestashop.com/plugins/servlet/raven/attachment/637/Screenshot+2021-11-29+at+16.32.42.png   Change combination of product See that the price will be updated accordingly   Change quantity of product and Click add to cart Modal &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; is displayed   Click on the &amp;ldquo;cross&amp;rdquo; button or &amp;ldquo;Continue Shopping&amp;rdquo; button or out side The modal is closed   Click Quick View on another simple product The modal is well displayed   Click on Cross button The modal is closed   Search a customized product and click on Quick view The &amp;ldquo;Add to cart&amp;rdquo; button is disabled   Click on Cross button The modal is closed   Search the product out of stock created in the pre-condition and click on quick view * Add to cart button is disabled</description>
+    </item>
+    
+    <item>
       <title>FO - Get GDPR Data in PDF</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-get-gdpr-data-in-pdf.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5388,6 +5411,17 @@ Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another curr
     </item>
     
     <item>
+      <title>FO - Print PDF order return</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-print-pdf-order-return.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-print-pdf-order-return.html</guid>
+      <description>FO - Print PDF order return Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (previously placed with the pre-condition) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
+* A successful message &amp;ldquo;Successful update.</description>
+    </item>
+    
+    <item>
       <title>FO - Send a message</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/order-history/order-details/fo-send-a-message.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5397,23 +5431,12 @@ Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another curr
     </item>
     
     <item>
-      <title>FO &gt; Consult product quickview</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/homepage/fo-consult-product-quickview.html</guid>
-      <description>FO &amp;gt; Consult product quickview Steps    Step Description Expected result     Go to FO &amp;gt; Product list &amp;gt; Click on the Quick View button for the product &amp;ldquo;The best is yet to come&#39; Framed poster&amp;rdquo; A modal is displayed
-with the product details
-!https://forge.prestashop.com/plugins/servlet/raven/attachment/637/Screenshot+2021-11-29+at+16.32.42.png   Change combination of product See that the price will be updated accordingly   Change quantity of product and Click add to cart Modal &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; is displayed   Click on the &amp;ldquo;cross&amp;rdquo; button or &amp;ldquo;Continue Shopping&amp;rdquo; button or out side The modal is closed   Click Quick View on another simple product The modal is well displayed   Click on Cross button The modal is closed   Search a customized product and click on Quick view The &amp;ldquo;Add to cart&amp;rdquo; button is disabled   Click on Cross button The modal is closed   Search the product out of stock created in the pre-condition and click on quick view * Add to cart button is disabled</description>
-    </item>
-    
-    <item>
-      <title>FO &gt; Send message while logged out</title>
+      <title>FO - Send message while logged out</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-message-while-logged-out.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/contact-us/fo-send-message-while-logged-out.html</guid>
-      <description>FO &amp;gt; Send message while logged out Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;The message cannot be blank.</description>
+      <description>FO - Send message while logged out Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;The message cannot be blank.</description>
     </item>
     
     <item>
@@ -5508,15 +5531,6 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <description>Preview email themes Steps    Step Description Expected result     go to design &amp;gt; email themes page title contains &amp;lsquo;Email Theme&amp;rsquo;   Preview email theme &amp;lsquo;classic&amp;rsquo; title contains &amp;lsquo;Preview Theme classic&amp;rsquo;
 number of layouts = 50   Go back to email theme page title contains &amp;lsquo;Email Theme&amp;rsquo;   Preview email theme &amp;lsquo;moder&amp;rsquo; title contains &amp;lsquo;Preview Theme modern&amp;rsquo;
 number of layouts = 50   Go back to email theme page title contains &amp;lsquo;Email Theme&amp;rsquo;    </description>
-    </item>
-    
-    <item>
-      <title>Print PDF order return</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/print-pdf-order-return.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/print-pdf-order-return.html</guid>
-      <description>Print PDF order return </description>
     </item>
     
     <item>
