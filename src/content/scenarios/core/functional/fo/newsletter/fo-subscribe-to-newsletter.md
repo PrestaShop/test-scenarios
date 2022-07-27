@@ -1,9 +1,9 @@
 ---
-title: "FO - subscribe to newsletter"
+title: "FO - Subscribe to newsletter"
 weight: 2
 ---
 
-# FO - subscribe to newsletter
+# FO - Subscribe to newsletter
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

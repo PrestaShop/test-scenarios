@@ -1,9 +1,9 @@
 ---
-title: "FO > Send a message while logged in"
+title: "FO - Send a message while logged in"
 weight: 3
 ---
 
-# FO > Send a message while logged in
+# FO - Send a message while logged in
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

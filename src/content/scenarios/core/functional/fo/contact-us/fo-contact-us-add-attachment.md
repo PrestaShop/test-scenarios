@@ -1,9 +1,9 @@
 ---
-title: "FO > Contact us > Add attachment"
+title: "FO - Contact us - Add attachment"
 weight: 2
 ---
 
-# FO > Contact us > Add attachment
+# FO - Contact us - Add attachment
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

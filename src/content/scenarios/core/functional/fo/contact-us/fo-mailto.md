@@ -1,9 +1,9 @@
 ---
-title: "Mailto"
+title: "FO - Mailto"
 weight: 1
 ---
 
-# Mailto
+# FO - Mailto
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

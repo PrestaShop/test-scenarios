@@ -1,9 +1,9 @@
 ---
-title: "Slider"
+title: "FO - Slider"
 weight: 1
 ---
 
-# Slider
+# FO - Slider
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

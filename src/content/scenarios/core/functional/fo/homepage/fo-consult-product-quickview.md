@@ -1,9 +1,9 @@
 ---
-title: "FO > Consult product quickview"
+title: "FO - Consult product quickview"
 weight: 4
 ---
 
-# FO > Consult product quickview
+# FO - Consult product quickview
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
