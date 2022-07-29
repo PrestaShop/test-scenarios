@@ -212,6 +212,15 @@ Set these fields:
     </item>
     
     <item>
+      <title>BO - Search - Search within word</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-within-word.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-within-word.html</guid>
+      <description>BO - Search - Search within word </description>
+    </item>
+    
+    <item>
       <title>BO - Uninstall the module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/installation/bo-uninstall-the-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1233,14 +1242,13 @@ Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Cred
     </item>
     
     <item>
-      <title>FO - Consult merchandise returns list</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-merchandise-returns-list.html</link>
+      <title>FO - Consult merchandise returns list &amp; Check order details page from merchandise returns list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-merchandise-returns-list-check-order-details-page-from-merchandise-returns-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-merchandise-returns-list.html</guid>
-      <description>FO - Consult merchandise returns list Steps    Step Description Expected result     Case 1: Change status in order list page in BO
-Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (previously placed with the pre-condition) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
-* A successful message &amp;ldquo;Successful update.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-merchandise-returns-list-check-order-details-page-from-merchandise-returns-list.html</guid>
+      <description>FO - Consult merchandise returns list &amp;amp; Check order details page from merchandise returns list Steps    Step Description Expected result     Go to FO &amp;gt; Click on you user account name in the header (previously connected with the pre-condition below) * &amp;ldquo;Your account&amp;rdquo; page is well displayed with all tabs linked to your account
+* A merchandise returns tab is displayed   Case 1: No merchandise return has been requested</description>
     </item>
     
     <item>
@@ -1304,8 +1312,8 @@ Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Or
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fo-search-product-bar-consult-autocomplete-list.html</guid>
-      <description>FO - Search product bar, consult autocomplete list Steps    Step Description Expected result     Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) The autocomplete list is displayed with 7 products with all &amp;ldquo;test&amp;rdquo; characters on products title   Case 1: With &amp;ldquo;Mug&amp;rdquo; products
-Click on the search bar on the header &amp;gt; Erase the last word and write another word on it (min 3 characters length) * The autocomplete list is displayed with 5 products with all &amp;ldquo;mug&amp;rdquo; characters on products title</description>
+      <description>FO - Search product bar, consult autocomplete list Steps    Step Description Expected result     Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) * The autocomplete list is displayed with 7 products
+* The search bar in the header keeps the word written   Click outside The autocomplete list is not displayed   Case 1: With &amp;ldquo;Mug&amp;rdquo; products</description>
     </item>
     
     <item>
@@ -1997,6 +2005,15 @@ all rows column name contains &amp;lsquo;todelete&amp;rsquo;   Select All files 
 # Email address
 # Password
 and save A green alert &amp;ldquo;Successful creation.&amp;rdquo; is displayed and the Employees list page is displayed   Click on the employee icon A drop-down menu for the employee is opened   Click on &amp;ldquo;Sign out&amp;rdquo; The login page is displayed   Click on forgot my password&amp;quot; link&amp;quot; Redirected to reminder page   Enter existing account email address The email field is not empty anymore   Click on send reset link&amp;quot; a confirmation message is displayed   Chek in mail box the mail is arrived   click on the link in the mail box redirected to reset password page   Set and confirm a new password Confirmation message is displayed then redirection to login page   try to login with the old login is refused   Try to login with new password login is accepted and redirection to the Dashboard page    </description>
+    </item>
+    
+    <item>
+      <title>BO - Search - Search exact end match</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-exact-end-match.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-exact-end-match.html</guid>
+      <description>BO - Search - Search exact end match </description>
     </item>
     
     <item>
@@ -3549,6 +3566,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>BO - Search - Fuzzy search</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-fuzzy-search.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-fuzzy-search.html</guid>
+      <description>BO - Search - Fuzzy search Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Search page The Search page is well displayed   In the Search Settings section &amp;gt; Disable &amp;ldquo;Fuzzy search&amp;rdquo; and save The green alert &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is well displayed   Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) &amp;amp; click enter * No autocomplete list is displayed</description>
+    </item>
+    
+    <item>
       <title>BO - Suppliers - Sort &amp; Pagination</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-suppliers-sort-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4103,9 +4129,9 @@ The url has the /xx/   Switch back to EN FO is now in English</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-consult-return-details.html</guid>
-      <description>FO - Consult return details Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+      <description>FO - Consult return details Steps    Step Description Expected result     Change status in order list page in BO
 Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (previously placed with the pre-condition) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
-* A successful message &amp;ldquo;Successful update.</description>
+* A successful message &amp;ldquo;Successful update.&amp;rdquo; is displayed</description>
     </item>
     
     <item>
@@ -4156,8 +4182,8 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/search/fo-search-no-result.html</guid>
       <description>FO - Search no result Steps    Step Description Expected result     Case 1: With less than 3 characters
 Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (less than 3 characters length) and click on &amp;ldquo;Enter&amp;rdquo; * No autocomplete list is displayed
-* The search bar in the header keep the word written
-* The &amp;ldquo;Search results&amp;rdquo; page is displayed with those content:</description>
+* The search bar in the header keeps the word written
+* The &amp;ldquo;Search results&amp;rdquo; page is displayed with the content:</description>
     </item>
     
     <item>
@@ -4917,6 +4943,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>BO - Search - Maximum approximate words allowed by fuzzy search</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-maximum-approximate-words-allowed-by-fuzzy-search.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-maximum-approximate-words-allowed-by-fuzzy-search.html</guid>
+      <description>BO - Search - Maximum approximate words allowed by fuzzy search </description>
+    </item>
+    
+    <item>
       <title>Bulk Actions</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5416,9 +5451,9 @@ with the product details
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/merchandise-returns/fo-print-pdf-order-return.html</guid>
-      <description>FO - Print PDF order return Steps    Step Description Expected result     Case 1: Change status in order list page in BO
+      <description>FO - Print PDF order return Steps    Step Description Expected result     Change status in order list page in BO
 Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an order (previously placed with the pre-condition) &amp;gt; Change &amp;ldquo;Awaiting XX payment&amp;rdquo; to &amp;ldquo;Delivered&amp;rdquo; status on the list * The order list page is refreshed
-* A successful message &amp;ldquo;Successful update.</description>
+* A successful message &amp;ldquo;Successful update.&amp;rdquo; is displayed</description>
     </item>
     
     <item>
@@ -5853,6 +5888,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/features/bo-features-change-position.html</guid>
       <description>BO - Features - Change position Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Features page The Features page is well displayed   Reset filter Number Features = Total Features   Sort by Position asc The list is well sorted by position ( 1 -&amp;gt; 2 -&amp;gt; 3)   Drag &amp;amp; drop the first Feature from the first position to the second position The alert &amp;ldquo;Successful update&amp;rdquo; is displayed, the position of features are updated   Rest the position (Drag &amp;amp; drop the first feature to the first position) The positions are updated and a green alert &amp;ldquo;Successful update&amp;rdquo; is displayed    </description>
+    </item>
+    
+    <item>
+      <title>BO - Search - Minimum word length (in characters)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-minimum-word-length-in-characters.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-minimum-word-length-in-characters.html</guid>
+      <description>BO - Search - Minimum word length (in characters) </description>
     </item>
     
     <item>
@@ -6529,6 +6573,15 @@ categories are sorted by postion (3 -&amp;gt; 2 -&amp;gt; 1)   Sort categories b
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/features/bo-features-help-button.html</guid>
       <description>BO - Features - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Features page The Feature page is displayed   Click on Help The Help documentation is opened in English   Click on Help again The Help documentation is closed    </description>
+    </item>
+    
+    <item>
+      <title>BO - Search - Blacklisted words</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-blacklisted-words.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-blacklisted-words.html</guid>
+      <description>BO - Search - Blacklisted words </description>
     </item>
     
     <item>
