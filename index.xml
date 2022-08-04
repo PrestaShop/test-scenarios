@@ -161,6 +161,16 @@ Set these fields:
     </item>
     
     <item>
+      <title>BO - Enable Disable Invoices</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/invoice-options/bo-enable-disable-invoices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/invoice-options/bo-enable-disable-invoices.html</guid>
+      <description>BO - Enable Disable Invoices Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed successfully   Go to &amp;ldquo;Invoice options&amp;rdquo; section &amp;gt; Set to &amp;ldquo;No&amp;rdquo; the &amp;ldquo;Enable invoices&amp;rdquo; switch button &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * The invoice is disabled successfully. The switch button is set to No and is grey
+* The successful message &amp;ldquo;Update successful&amp;rdquo; is displayed successfully   Go to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders page is displayed successfully   Go to the fourth-order page &amp;gt; Click on it Order details page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update status&amp;rdquo; button * A successful message &amp;ldquo;Successful update&amp;rdquo; is displayed</description>
+    </item>
+    
+    <item>
       <title>BO - Features - Filter table</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/features/bo-features-filter-table.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -200,6 +210,25 @@ Set these fields:
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-filter-products.html</guid>
       <description>BO - Filter Products Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products * Products list page is displayed correctly
 * No filter by default. All products are displayed   Filter the list by ID &amp;gt; Add a number on &amp;ldquo;min&amp;rdquo; and &amp;ldquo;max&amp;rdquo; field below &amp;ldquo;ID&amp;rdquo; in column &amp;gt; Click on &amp;ldquo;Search&amp;rdquo; button on the right of the table * Products list is filtered between the 4 and 10 IDs</description>
+    </item>
+    
+    <item>
+      <title>BO - Generate Invoice By Date</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/bo-generate-invoice-by-date.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/bo-generate-invoice-by-date.html</guid>
+      <description>BO - Generate Invoice By Date Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update Status&amp;rdquo; button * A &amp;ldquo;Successful update.&amp;rdquo; is well displayed
+* The status is changed successfully   Go back to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update Status&amp;rdquo; button * A &amp;ldquo;Successful update.</description>
+    </item>
+    
+    <item>
+      <title>BO - Left Menu</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-left-menu.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-left-menu.html</guid>
+      <description>BO - Left Menu Steps    Step Description Expected result     Check every item on the menu All children items are displayed (when applicable). All links work as expected   Close the menu The animation is smooth. The menu is now a thinner vertical blue band with a few icons   Check every item on the menu All children items are displayed on a separate block on the right (when applicable).</description>
     </item>
     
     <item>
@@ -808,17 +837,6 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO suppliers link pa
     </item>
     
     <item>
-      <title>Enable Disable Invoices</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/invoice-options/enable-disable-invoices.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/invoice-options/enable-disable-invoices.html</guid>
-      <description>Enable Disable Invoices Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed successfully   Disable invoices and save the form The invoice is disabled successfully
-The validation message is displayed successfully
-&amp;ldquo;Update successful&amp;rdquo;   Go to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders page is displayed successfully   Open the fourth-order page Order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully</description>
-    </item>
-    
-    <item>
       <title>Enable display email in FO</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-contactinfo/configuration/enable-display-email-in-fo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1353,15 +1371,6 @@ Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Or
     </item>
     
     <item>
-      <title>Generate Invoice By Date</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/generate-invoice-by-date.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/generate-invoice-by-date.html</guid>
-      <description>Generate Invoice By Date Steps    Step Description Expected result     Go to the Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Click on Update Status to Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Go to the second order page The order page is displayed successfully   Click on Update Status to Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; The status is changed successfully   Go to the Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed correctly   Click on Generate PDF file by date with the current date and check the file existence The pdf file is generated successfully with the correct configured data (see pre-conditions)   Check the error message when there is no invoice in the entered date The error message is displayed successfully</description>
-    </item>
-    
-    <item>
       <title>Guest checkout : Use same invoice address</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/checkout/addresses/guest-checkout-use-same-invoice-address.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1422,15 +1431,6 @@ Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Or
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/installshop/installshop.html</guid>
       <description>InstallShop Steps    Step Description Expected result     Go to the install URL Install page is displayed   Change the language to English Language is changed to English   Click on Next&amp;quot; License Agreements&amp;quot; page is displayed&amp;quot;   Agree to the terms and conditions. Click on Next&amp;quot; System Compatibility&amp;quot; page is displayed&amp;quot;   Click on Next&amp;quot; Shop Informations&amp;quot; page is displayed&amp;quot;   Fill relevant informations: - Shop name Prestashop&amp;quot; - Country &amp;ldquo;France&amp;rdquo; - Name &amp;ldquo;demo demo&amp;rdquo; - Email &amp;ldquo;demo@prestashop.</description>
-    </item>
-    
-    <item>
-      <title>Left Menu</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/left-menu.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/left-menu.html</guid>
-      <description>Left Menu Steps    Step Description Expected result     Check every item on the menu All children items are displayed (when applicable). All links work as expected   Close the menu The animation is smooth. The menu is now a thinner vertical blue band with a few icons   Check every item on the menu All children items are displayed on a separate block on the right (when applicable).</description>
     </item>
     
     <item>
@@ -1973,6 +1973,16 @@ Set these fields and click on Save An alert &amp;ldquo;Successful creation.&amp
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-bulk-actions.html</guid>
       <description>BO - Files - Bulk Actions Steps    Step Description Expected result     go to &amp;lsquo;Catalog &amp;gt; Files&amp;rsquo; page Title contains &amp;lsquo;Files&amp;rsquo;   reset filters Total of files &amp;gt;= 0   filter by name &amp;lsquo;todelete&amp;rsquo; number of files = 2
 all rows column name contains &amp;lsquo;todelete&amp;rsquo;   Select All files All files are selected   Click on the &amp;ldquo;Bulk actions&amp;rdquo; button A dropdown list page   delete files by bulk actions and confirm the deletion The successful message &amp;ldquo;The selection has been successfully deleted.</description>
+    </item>
+    
+    <item>
+      <title>BO - Generate Invoice By Status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/bo-generate-invoice-by-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/bo-generate-invoice-by-status.html</guid>
+      <description>BO - Generate Invoice By Status Steps    Step Description Expected result     Go to the Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update Status&amp;rdquo; button * A &amp;ldquo;Successful update.&amp;rdquo; is well displayed
+* The status is changed successfully   Go back to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update Status&amp;rdquo; button * A &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -2632,7 +2642,8 @@ Click on it, a new page for Twitter site is open    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/invoice-options/enable-disable-tax-breakdown.html</guid>
-      <description>Enable Disable Tax Breakdown Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices&amp;quot; page&amp;quot; Invoices page is displayed successfully   Enable tax breakdown and save the form The tax breakdown is enabled successfully. The validation message is displayed successfully Update successful&amp;quot;   Go to International &amp;gt; &amp;ldquo;taxes&amp;rdquo; page Taxes page is displayed successfully   Go to &amp;ldquo;Tax rules&amp;rdquo; page The tax rules page is displayed successfully   Create new tax rule group.</description>
+      <description>Enable Disable Tax Breakdown Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed successfully   Go to &amp;ldquo;Invoice options&amp;rdquo; section &amp;gt; Set to &amp;ldquo;Yes&amp;rdquo; the &amp;ldquo;Enable tax breakdown&amp;rdquo; switch button &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * The tax breakdown is enabled successfully. The switch button is set to Yes and is green
+* A successful message &amp;ldquo;Update successful&amp;rdquo; is displayed successfully   Go to International &amp;gt; &amp;ldquo;Taxes&amp;rdquo; page Taxes page is displayed successfully   Click on &amp;ldquo;Tax Rules&amp;rdquo; tab The tax rules page is displayed successfully   Click on &amp;ldquo;Add new tax rules group&amp;rdquo; button on the top of the page The &amp;ldquo;Add new&amp;rdquo; page is displayed   Create new tax rule group by adding a name on &amp;ldquo;Tax Rules&amp;rdquo; section &amp;gt; Set to &amp;ldquo;Yes&amp;rdquo; the &amp;ldquo;Enable&amp;rdquo; switch button &amp;gt; Click on &amp;ldquo;Save and stay&amp;rdquo; button * A successful message &amp;ldquo;Successful creation.</description>
     </item>
     
     <item>
@@ -2940,15 +2951,6 @@ Select &amp;amp; click on the product &amp;ldquo;Mountain fox notebook&amp;rdquo
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/generate-emails.html</guid>
       <description>Generate emails </description>
-    </item>
-    
-    <item>
-      <title>Generate Invoice By Status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/generate-invoice-by-status.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/generate-invoice-by-status.html</guid>
-      <description>Generate Invoice By Status Steps    Step Description Expected result     Go to the Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Go to the second order page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; The status is changed successfully   Go to the Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed correctly   Check the color and number in the square for both status &amp;ldquo;Payment accepted&amp;rdquo; and &amp;ldquo;Shipped&amp;rdquo; The square have &amp;ldquo;1&amp;rdquo; as a number and &amp;ldquo;green&amp;rdquo; as a color   Check the color and number in the square for the others status that haven&amp;rsquo;t been ordered The square have &amp;ldquo;0&amp;rdquo; as a number and &amp;ldquo;red&amp;rdquo; as a color   Click on &amp;ldquo;Generate PDF file by status&amp;rdquo; without checking boxes and check the error message The error message is displayed successfully &amp;ldquo;You must select at least one order status.</description>
     </item>
     
     <item>
@@ -4925,6 +4927,16 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>BO - Debug mode</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</guid>
+      <description>BO - Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
+- Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine   Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    </description>
+    </item>
+    
+    <item>
       <title>BO - Files - Help button</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-help-button.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5181,16 +5193,6 @@ Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; appea
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/features/crud-features-and-values.html</guid>
       <description>CRUD features and values </description>
-    </item>
-    
-    <item>
-      <title>Debug mode</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/debug-mode.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/debug-mode.html</guid>
-      <description>Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
-- Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine   Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    </description>
     </item>
     
     <item>
@@ -7782,6 +7784,15 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/view-customer.html</guid>
       <description>View customer Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers&amp;quot; page&amp;quot; The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : firstName.lastName@prestashop.com. Birthday Year : Random integer between 1950 and 2000.</description>
+    </item>
+    
+    <item>
+      <title>WIP - FO - CRUD address</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/wip-fo-crud-address.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/wip-fo-crud-address.html</guid>
+      <description>WIP - FO - CRUD address Steps    Step Description Expected result     1) Go to BO &amp;gt; International &amp;gt; Localization page &amp;amp; Import the italian pack Italian pack imported   Go to BO &amp;gt; International &amp;gt; Locations &amp;gt; Countries tab &amp;amp; edit the Italian country &amp;gt; Enable &amp;ldquo;Do you need a tax identification number?&amp;rdquo; and save Tax identification number should be required in FO &amp;ldquo;add address&amp;rdquo; form   Go to BO &amp;gt; Addresses page &amp;gt; Select dni as a required field DNI should be required in FO &amp;ldquo;add address&amp;rdquo; form foor italian country   Go to FO &amp;gt; Add address with italian country &amp;gt; save Address is added   Go to FO &amp;gt; Go to header and click on your username &amp;gt; Click on tab &amp;ldquo;Add first address&amp;rdquo; &amp;ldquo;New address&amp;rdquo; form page is displayed   Switch the value of the select country field to &amp;ldquo;United States&amp;rdquo; The form updates itself and show the &amp;ldquo;State&amp;rdquo; field.</description>
     </item>
     
     <item>

@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Left Menu</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/left-menu.html</link>
+      <title>BO - Left Menu</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-left-menu.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/left-menu.html</guid>
-      <description>Left Menu Steps    Step Description Expected result     Check every item on the menu All children items are displayed (when applicable). All links work as expected   Close the menu The animation is smooth. The menu is now a thinner vertical blue band with a few icons   Check every item on the menu All children items are displayed on a separate block on the right (when applicable).</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-left-menu.html</guid>
+      <description>BO - Left Menu Steps    Step Description Expected result     Check every item on the menu All children items are displayed (when applicable). All links work as expected   Close the menu The animation is smooth. The menu is now a thinner vertical blue band with a few icons   Check every item on the menu All children items are displayed on a separate block on the right (when applicable).</description>
     </item>
     
     <item>
@@ -34,12 +34,12 @@
     </item>
     
     <item>
-      <title>Debug mode</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/debug-mode.html</link>
+      <title>BO - Debug mode</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/debug-mode.html</guid>
-      <description>Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</guid>
+      <description>BO - Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
 - Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine   Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    </description>
     </item>
     
