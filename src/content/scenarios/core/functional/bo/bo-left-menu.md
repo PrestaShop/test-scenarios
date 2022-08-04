@@ -1,9 +1,9 @@
 ---
-title: "Left Menu"
+title: "BO - Left Menu"
 weight: 1
 ---
 
-# Left Menu
+# BO - Left Menu
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,9 +1,9 @@
 ---
-title: "Debug mode"
+title: "BO - Debug mode"
 weight: 4
 ---
 
-# Debug mode
+# BO - Debug mode
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
