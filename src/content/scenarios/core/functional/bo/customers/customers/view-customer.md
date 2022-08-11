@@ -7,7 +7,7 @@ weight: 8
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to the Customers > Customers" page" | The Customers page is displayed correctly |
+| Go to the Customers > Customers page | The Customers page is displayed correctly |
 | Reset all filters | All filters are reset. All products are displayed |
 | Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : firstName.lastName@prestashop.com. Birthday Year : Random integer between 1950 and 2000. Birthday Month : Random integer between 1 and 12. Birthday Day : Random integer between 1 and 28<br>Customer Enabled : Yes. Partner offers : Random. Group Access : All. Default customer group : Customer. And Save Form | Customer is saved correctly<br>Message is displayed : Successful creation." |
 | In list, Filter By Email. Criteria : firstName.lastName@prestashop.com" | Filter is succeeded |

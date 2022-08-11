@@ -7,4 +7,4 @@ weight: 5
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Click on View my shop" | FO is displayed |
+| Click on View my shop | FO is displayed in another tab |

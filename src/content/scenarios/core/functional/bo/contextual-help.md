@@ -7,4 +7,4 @@ weight: 9
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Open on several migrated and non migrated page the Help" panel" | The help for the page is displayed on a side popin |
+| Open on several migrated and non migrated page the Help panel | The help for the page is displayed on a side popin |
