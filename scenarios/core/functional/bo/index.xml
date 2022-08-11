@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/quick-access.html</guid>
-      <description>Quick access Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on Remove from Quick Access&amp;quot; A message says that the link is successfully removed. Option to remove this page is removed in the Quick Access menu   Refresh the page. Open the Quick Access menu Link is now absent in the list   Click on Add current page to Quick Access&amp;quot;.</description>
+      <description>Quick access Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed &amp;ldquo;Successful update.&amp;rdquo;.   Refresh the page. Open the Quick Access menu Option to remove this page is removed in the Quick Access menu</description>
     </item>
     
     <item>
@@ -30,7 +30,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/search-bar.html</guid>
-      <description>Search bar Steps    Step Description Expected result     Search for orders&amp;quot; Results from modules&amp;quot; and &amp;ldquo;addons&amp;rdquo; are displayed&amp;quot;   Search for John Doe&amp;quot; The customer John Doe&amp;quot; is listed&amp;quot;    </description>
+      <description>Search bar Steps    Step Description Expected result     Search for &amp;ldquo;orders&amp;rdquo; 3 types of results are displayed:
+- feature
+- modules
+- Search docs.prestashop-project.org   Search for John Doe The customer &amp;ldquo;John Doe&amp;rdquo; is listed    </description>
     </item>
     
     <item>
@@ -49,7 +52,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/view-my-shop.html</guid>
-      <description>View my shop Steps    Step Description Expected result     Click on View my shop&amp;quot; FO is displayed    </description>
+      <description>View my shop Steps    Step Description Expected result     Click on View my shop FO is displayed in another tab    </description>
     </item>
     
     <item>
@@ -58,10 +61,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/notifications.html</guid>
-      <description>Notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO
-Login as a customer
-Go to the order history
-Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO</description>
+      <description>Notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO &amp;gt; Login as a customer &amp;gt; Go to the order history &amp;gt; Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO &amp;gt; Refresh the page A 1 appears next to the bell   Open the notification box, then click on Messages The message created earlier appears   Open the notification The message page is opened   Go to FO &amp;gt; Add a product to you cart &amp;gt; And continue the buying process as a Guest Customer Order confirmation page will open   Go back to BO &amp;gt; Refresh the BO See that you have 2 notifications.</description>
     </item>
     
     <item>
@@ -88,7 +88,7 @@ Open an order The order details page is displayed   Send a message regarding an 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/contextual-help.html</guid>
-      <description>Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help&amp;quot; panel&amp;quot; The help for the page is displayed on a side popin    </description>
+      <description>Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin    </description>
     </item>
     
     <item>
@@ -107,7 +107,7 @@ When installed, button will transform to a Configure button   Click on the butto
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/onboarding.html</guid>
-      <description>Onboarding Steps    Step Description Expected result     Check that OnBoarding popup is displayed after first login    Click on Later&amp;quot; Popup is closed, but a reminder is displayed on bottom left of the menu   Resume the onboarding Popup is re-opened   Follow the steps of the onboarding All steps are OK    </description>
+      <description>Onboarding Steps    Step Description Expected result     Check that OnBoarding popup is displayed after first login    Click on Later Popup is closed, but a reminder is displayed on bottom left of the menu   Resume the onboarding Popup is re-opened   Follow the steps of the onboarding All steps are OK    </description>
     </item>
     
     <item>

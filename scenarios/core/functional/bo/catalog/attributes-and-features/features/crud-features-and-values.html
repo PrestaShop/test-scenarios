@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1660112218" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1660112218" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1660112218" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1660112218" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1660112218" rel="stylesheet">
-    <link href="../../../../../../../style.css?1660112218" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1660198626" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1660198626" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1660198626" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1660198626" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1660198626" rel="stylesheet">
+    <link href="../../../../../../../style.css?1660198626" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1660112218"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1660198626"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -33181,7 +33181,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#crud-features-and-values">CRUD features and values</a></li>
+    <li><a href="#crud-features-and-values">CRUD features and values</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -51906,14 +51910,77 @@
 
 
 <h1 id="crud-features-and-values">CRUD features and values</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Create:</em><br><br>Go to BO &gt; Catalog &gt; Attributes &amp; Features &gt; Feature tab &gt; Click Add new Feature</td>
+<td>Add new feature page opens</td>
+</tr>
+<tr>
+<td>Add a name to your feature &gt; Save</td>
+<td>Message &ldquo;Successful creation&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on view on your newly created feature</td>
+<td>See that your new feature has 0 value</td>
+</tr>
+<tr>
+<td>Click Add new value</td>
+<td>New feature value page is displayed</td>
+</tr>
+<tr>
+<td>Add a new value &gt; Click on Save and add another value</td>
+<td>Message &ldquo;Successful creation&rdquo; is displayed<br>New feature value page is displayed</td>
+</tr>
+<tr>
+<td>Add another value &gt; Click on Save</td>
+<td>Successful creation message is displayed</td>
+</tr>
+<tr>
+<td><em>Read:</em><br>Click on View button for Texture Feature</td>
+<td>See that you have 2 new Values (Smooth and Rough)</td>
+</tr>
+<tr>
+<td><em>Update:</em><br>Click on Edit Feature value: Smooth &gt; Add a meta title &gt; Save</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Back to the list&rdquo; button</td>
+<td>You are redirected to the Features list</td>
+</tr>
+<tr>
+<td>Click on Edit for Texture feature &gt; Add a meta title &gt; Enable Indexable &gt; Save</td>
+<td>&ldquo;Successful update&rdquo; message is displayed</td>
+</tr>
+<tr>
+<td><em>Delete:</em><br>Click on View for Texture Feature &gt; Delete value: Smooth &gt; Popup appears &gt; Click on YES</td>
+<td>&ldquo;Successful deletion&rdquo; message is displayed</td>
+</tr>
+<tr>
+<td>Click on Back to the lis button</td>
+<td>You are redirected to Features page</td>
+</tr>
+<tr>
+<td>Click on Delete for Feature: Texture &gt; Popup appears &gt; Click on YES</td>
+<td>&ldquo;Successful deletion&rdquo; message is displayed<br>The last value: Rough has also been deleted</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 24, 2021
+  Last updated on August 11, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/8d7748a0bd2c87a5af0955cfb220885c2b75cc14">"[Update] JIRA XRay Tests" (8d7748a0bd)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/f034fd12fe0ab6658e52f7c0675ae424f5807b1c">"[Update] JIRA XRay Tests" (f034fd12fe)</a>
   
 </div>
 
@@ -51934,17 +52001,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1660112219"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1660112219"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1660112219"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1660112219"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1660112219"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1660112219"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1660112219"></script>
-    <script src="../../../../../../../js/learn.js?1660112219"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1660112219"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1660198626"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1660198626"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1660198626"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1660198626"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1660198626"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1660198626"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1660198626"></script>
+    <script src="../../../../../../../js/learn.js?1660198626"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1660198626"></script>
     
-    <script src="../../../../../../../main.js?1660112219"></script>
+    <script src="../../../../../../../main.js?1660198626"></script>
     
     
 

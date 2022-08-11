@@ -960,7 +960,7 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/filter-and-quick-edit-customers.html</guid>
-      <description>Filter And Quick Edit Customers Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers&amp;quot; page&amp;quot; Customers listing is displayed correctly   Reset all filters All filters are reset. All customers are displayed   Save the numbers of customers in a variable Number of customers is saved   Filter By id Criteria : &amp;lsquo;1&amp;rsquo; Customers list is filtered. Customers listed have 1&amp;quot; in their ID&amp;quot;   Reset all filters All filters are reset All customers are displayed   Filter By Social title Criteria : Mrs.</description>
+      <description>Filter And Quick Edit Customers Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page Customers listing is displayed correctly   Reset all filters All filters are reset. All customers are displayed   Save the numbers of customers in a variable Number of customers is saved   Filter By id Criteria : &amp;lsquo;1&amp;rsquo; Customers list is filtered. Customers listed have 1 in their ID   Reset all filters All filters are reset.</description>
     </item>
     
     <item>
@@ -1576,8 +1576,7 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/simple-filter-stocks.html</guid>
-      <description>simple Filter Stocks Steps    Step Description Expected result     Go to Catalog stocks Page Page title contains : stocks *
-number of element in grid &amp;gt; 0   filter by name Criteria : &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo; number of element in grid after filter &amp;lt; total of element in grid
+      <description>simple Filter Stocks Steps    Step Description Expected result     Go to Catalog &amp;gt; Stocks Stock management page is displayed   Search by name Criteria : &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo; number of element in grid after filter &amp;lt; total of element in grid
 all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo;   reset filter number of element in grid after reset = total of element in grid   filter by reference Criteria : demo_1 number of element in grid after filter &amp;lt; total of element in grid</description>
     </item>
     
@@ -2363,7 +2362,7 @@ number of contacts after creation = total of contacts + 1   filter list by email
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/crud-customer-in-bo.html</guid>
-      <description>CRUD Customer In BO Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers&amp;quot; page&amp;quot; The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Click on Add new customer&amp;quot; New Customer Page is displayed correctly. Page title contains Creating a new Customer&amp;quot;   Fill all information : Social title : Mrs / Mrs.</description>
+      <description>CRUD Customer In BO Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Click on Add new customer New Customer Page is displayed correctly. Page title contains Creating a new Customer   Fill all information with Data below &amp;gt; Save Form Customer is saved correctly.</description>
     </item>
     
     <item>
@@ -3059,7 +3058,7 @@ Select &amp;amp; click on the product &amp;ldquo;Mountain fox notebook&amp;rdquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/quick-access.html</guid>
-      <description>Quick access Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on Remove from Quick Access&amp;quot; A message says that the link is successfully removed. Option to remove this page is removed in the Quick Access menu   Refresh the page. Open the Quick Access menu Link is now absent in the list   Click on Add current page to Quick Access&amp;quot;.</description>
+      <description>Quick access Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed &amp;ldquo;Successful update.&amp;rdquo;.   Refresh the page. Open the Quick Access menu Option to remove this page is removed in the Quick Access menu</description>
     </item>
     
     <item>
@@ -4428,7 +4427,10 @@ The option should be enabled   Go to front office/check the homepage Product sho
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/search-bar.html</guid>
-      <description>Search bar Steps    Step Description Expected result     Search for orders&amp;quot; Results from modules&amp;quot; and &amp;ldquo;addons&amp;rdquo; are displayed&amp;quot;   Search for John Doe&amp;quot; The customer John Doe&amp;quot; is listed&amp;quot;    </description>
+      <description>Search bar Steps    Step Description Expected result     Search for &amp;ldquo;orders&amp;rdquo; 3 types of results are displayed:
+- feature
+- modules
+- Search docs.prestashop-project.org   Search for John Doe The customer &amp;ldquo;John Doe&amp;rdquo; is listed    </description>
     </item>
     
     <item>
@@ -5192,7 +5194,8 @@ Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; appea
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/features/crud-features-and-values.html</guid>
-      <description>CRUD features and values </description>
+      <description>CRUD features and values Steps    Step Description Expected result     Create:
+Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Feature tab &amp;gt; Click Add new Feature Add new feature page opens   Add a name to your feature &amp;gt; Save Message &amp;ldquo;Successful creation&amp;rdquo; is displayed   Click on view on your newly created feature See that your new feature has 0 value   Click Add new value New feature value page is displayed   Add a new value &amp;gt; Click on Save and add another value Message &amp;ldquo;Successful creation&amp;rdquo; is displayed</description>
     </item>
     
     <item>
@@ -6493,7 +6496,7 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/view-my-shop.html</guid>
-      <description>View my shop Steps    Step Description Expected result     Click on View my shop&amp;quot; FO is displayed    </description>
+      <description>View my shop Steps    Step Description Expected result     Click on View my shop FO is displayed in another tab    </description>
     </item>
     
     <item>
@@ -6918,10 +6921,7 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/notifications.html</guid>
-      <description>Notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO
-Login as a customer
-Go to the order history
-Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO</description>
+      <description>Notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO &amp;gt; Login as a customer &amp;gt; Go to the order history &amp;gt; Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO &amp;gt; Refresh the page A 1 appears next to the bell   Open the notification box, then click on Messages The message created earlier appears   Open the notification The message page is opened   Go to FO &amp;gt; Add a product to you cart &amp;gt; And continue the buying process as a Guest Customer Order confirmation page will open   Go back to BO &amp;gt; Refresh the BO See that you have 2 notifications.</description>
     </item>
     
     <item>
@@ -7783,7 +7783,7 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/view-customer.html</guid>
-      <description>View customer Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers&amp;quot; page&amp;quot; The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : firstName.lastName@prestashop.com. Birthday Year : Random integer between 1950 and 2000.</description>
+      <description>View customer Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : firstName.lastName@prestashop.com. Birthday Year : Random integer between 1950 and 2000.</description>
     </item>
     
     <item>
@@ -7890,7 +7890,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/contextual-help.html</guid>
-      <description>Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help&amp;quot; panel&amp;quot; The help for the page is displayed on a side popin    </description>
+      <description>Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin    </description>
     </item>
     
     <item>
@@ -8223,7 +8223,7 @@ Data is correct    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/onboarding.html</guid>
-      <description>Onboarding Steps    Step Description Expected result     Check that OnBoarding popup is displayed after first login    Click on Later&amp;quot; Popup is closed, but a reminder is displayed on bottom left of the menu   Resume the onboarding Popup is re-opened   Follow the steps of the onboarding All steps are OK    </description>
+      <description>Onboarding Steps    Step Description Expected result     Check that OnBoarding popup is displayed after first login    Click on Later Popup is closed, but a reminder is displayed on bottom left of the menu   Resume the onboarding Popup is re-opened   Follow the steps of the onboarding All steps are OK    </description>
     </item>
     
     <item>
