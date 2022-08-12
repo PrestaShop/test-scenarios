@@ -553,6 +553,19 @@ title contains &amp;lsquo;Currencies •&amp;rsquo;   Create new currency</descr
     </item>
     
     <item>
+      <title>Create simple order status restricted to Product selection</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/create-simple-order-status-restricted-to-product-selection.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/create-simple-order-status-restricted-to-product-selection.html</guid>
+      <description>Create simple order status restricted to Product selection Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The Cart rules page is well displayed   Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Set these fields:
+# Information:
+## Name
+## Description
+# Conditions ## Check Product Selection # Actions:</description>
+    </item>
+    
+    <item>
       <title>Create, Check Footer Linkwidget, Delete</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/link-widget/create-check-footer-linkwidget-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8252,7 +8265,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/autoupgrade-from-previous-version.html</guid>
-      <description>Autoupgrade from previous version Steps    Step Description Expected result     Install previous version (last stable version + 2 or 3 most used versions, and 1.6.1.24)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS&amp;hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.</description>
+      <description>Autoupgrade from previous version Steps    Step Description Expected result     Install previous version (last stable version + 2 or 3 most used versions, and 1.7.6.5) You&amp;rsquo;ve a fresh install without the last version   Go to International &amp;gt; Localization &amp;gt; Add a localization pack (Poland for example) You&amp;rsquo;ve a green notification with : &amp;ldquo;Localization pack imported successfully.&amp;rdquo;   Go to Shop Parameters &amp;gt; General &amp;gt; Enable Multistore and clic on &amp;ldquo;Save&amp;rdquo; You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful update&amp;rdquo;   Go to Advenced Parameters &amp;gt; Multistore &amp;gt;Add a new shop group Shop group is now display and you can setup it   Setup your shop group You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful creation&amp;rdquo;   Clic on Add a new shop, setup your shop and clic on Save * You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful creation&amp;rdquo;</description>
     </item>
     
     <item>
@@ -8359,7 +8372,7 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/after-autoupgrade-rollback-to-previous-version.html</guid>
-      <description>After autoupgrade, rollback to previous version Steps    Step Description Expected result     Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.   Rollback from the release to PS176x Rollback is OK, and every data are OK.</description>
+      <description>After autoupgrade, rollback to previous version Steps    Step Description Expected result     In 1-Click Upgrade &amp;gt; go to the section Rollback and choose your backup    Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.</description>
     </item>
     
     <item>
