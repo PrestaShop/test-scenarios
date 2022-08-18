@@ -1,6 +1,6 @@
 ---
 title: "BO - Outsatnding - Help card"
-weight: 4
+weight: 1
 ---
 
 # BO - Outsatnding - Help card
