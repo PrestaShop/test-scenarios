@@ -154,11 +154,11 @@
 	"content": "BO - Left Menu Steps    Step Description Expected result     Check every item on the menu All children items are displayed (when applicable). All links work as expected   Close the menu The animation is smooth. The menu is now a thinner vertical blue band with a few icons   Check every item on the menu All children items are displayed on a separate block on the right (when applicable). All links work as expected   Go to a specific page in a children block (ex: Orders \u0026gt; Orders). Re-open the menu The corresponding children item is visible (not collapsed) and correctly highlighted   Click on the chevron icon on the top right corner of the menu Menu should be collapsed, only icons are displayed   Resize the page to a smaller size See that the menu is hidden and a hamburger icon is displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-sort-filter-pagination.html",
-	"title": "BO - Outstanding - Sort &amp; Filter &amp; Pagination",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html",
+	"title": "BO - Outsatnding - Help card",
 	"tags": [],
 	"description": "",
-	"content": "BO - Outstanding - Sort \u0026amp; Filter \u0026amp; Pagination "
+	"content": "BO - Outsatnding - Help card Steps    Step Description Expected result     Go to BO \u0026gt; Customers \u0026gt; Outstanding page The Outstanding page is well displayed   Click on the Help Card The documentation modal is well displayed in the English language   Click on the Help Card again The documentation modal is closed   Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings and Disable B2B The alert Update successful is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-within-word.html",
@@ -3682,11 +3682,11 @@
 	"content": "BO - Files - Help button Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files page The Files page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html",
-	"title": "BO - Outsatnding - Help card",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-pagination.html",
+	"title": "BO - Outstanding - Pagination",
 	"tags": [],
 	"description": "",
-	"content": "BO - Outsatnding - Help card Steps    Step Description Expected result     Go to BO \u0026gt; Customers \u0026gt; Outstanding page The Outstanding page is well displayed   Click on the Help Card The documentation modal is well displayed in the English language   Click on the Help Card again The documentation modal is closed   Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings and Disable B2B The alert Update successful is well displayed    "
+	"content": "BO - Outstanding - Pagination Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders list page The Orders list page is well displayed   Change the status of all orders created from the pre-condition step to payment accepted The alert \u0026ldquo;Successful update.\u0026rdquo; is well displayed   Go to BO \u0026gt; Customers \u0026gt; Oustanding page The Outstanding page is well displayed   Change \u0026ldquo;items per page\u0026rdquo; to 10\nGet the number of Pages = NumPage = up round (NumbOrder / 10), For example if we have 11 oustandings, NumPage = 2 Page reloads with 10 items on the first page\nButtons appear to go to the next page\nThe number of pages is correct   Click on the next button The next page is well displayed and check (page 2 / NumPage) is correct   Click on Previous button The first page is well displayed   Change \u0026ldquo;items per page\u0026rdquo; to 50 Page reloads with all items on the first page = NumOrder orders\nOnly one page of outstanding is available   Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings and Disable B2B The alert Update successful is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-maximum-approximate-words-allowed-by-fuzzy-search.html",
@@ -4380,6 +4380,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Features - Change position Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Attributes \u0026amp; Features \u0026gt; Features page The Features page is well displayed   Reset filter Number Features = Total Features   Sort by Position asc The list is well sorted by position ( 1 -\u0026gt; 2 -\u0026gt; 3)   Drag \u0026amp; drop the first Feature from the first position to the second position The alert \u0026ldquo;Successful update\u0026rdquo; is displayed, the position of features are updated   Rest the position (Drag \u0026amp; drop the first feature to the first position) The positions are updated and a green alert \u0026ldquo;Successful update\u0026rdquo; is displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-filter-sort.html",
+	"title": "BO - Outstanding - Filter &amp; Sort",
+	"tags": [],
+	"description": "",
+	"content": "BO - Outstanding - Filter \u0026amp; Sort Steps    Step Description Expected result     Go to BO \u0026gt; Orders \u0026gt; Orders list page The Orders list page is well displayed   Change the status of all orders created from the pre-condition step to payment accepted The alert \u0026ldquo;Successful update.\u0026rdquo; is well displayed   Go to BO \u0026gt; Customers \u0026gt; Oustanding page The Outstanding page is well displayed   Reset all filters and get the number of outstanding The outstanding number \u0026gt; 0   Filter outstanding by ID Number of outstanding \u0026lt; Total of outstandings\nThe outstanding id result is equal to the searched ID   Reset all filters Number of outstanding = Total of outstanding   Filter outstanding by Customer Number of outstanding \u0026lt; Total of outstanding\nAll outstanding customer contains the searched customer   Reset all filters Number of outstanding = Total of outstanding   Filter outstanding by Company Number of outstanding \u0026lt; Total of outstanding\nAll outstanding Company contains the searched Company   Reset all filters Number of outstanding = Total of outstanding   Filter outstanding by Risk Number of outstanding \u0026lt; Total of outstanding\nAll outstanding Risk contains the searched Risk   Reset all filters Number of outstanding = Total of outstanding   Filter outstanding by Outstanding allowance Number of outstanding \u0026lt; Total of outstanding\nAll outstanding Outstanding allowance contains the searched Outstanding allowance   Reset all filters Number of outstanding = Total of outstanding   Filter outstanding by Date From To Number of outstanding \u0026lt; Total of outstanding\nAll outstanding date contains the searched date   Reset all filters Number of outstanding = Total of outstanding   Sort by ID ASC The outstanding are sorted by ID ASC   Sort by ID DESC The outstanding are sorted by ID DESC   Sort by Date ASC The outstanding are sorted by Date ASC   Sort by Date DESC The outstanding are sorted by Date DESC   Sort by Customer ASC The outstanding are sorted by Customer ASC   Sort by Customer DESC The outstanding are sorted by Customer DESC   Sort by Customer DESC The outstanding are sorted by Customer DESC   Sort by Company ASC The outstanding are sorted by Company ASC   Sort by Company DESC The outstanding are sorted by Company DESC   Sort by Outstanding allowance ASC The outstanding are sorted by Outstanding allowance ASC   Sort by Outstanding allowance DESC The outstanding are sorted by Outstanding allowance DESC   Go to BO \u0026gt; Customers \u0026gt; Customers page \u0026amp; delete all customers created in the pre-condition The alert Delete successful is well displayed   Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings and Disable B2B The alert Update successful is well displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-minimum-word-length-in-characters.html",
@@ -7893,7 +7900,7 @@
 	"title": "Outstanding",
 	"tags": [],
 	"description": "",
-	"content": "Outstanding Tests  BO - Outstanding - Sort \u0026amp; Filter \u0026amp; Pagination   BO - Outstanding - View Invoice   BO - Outstanding - View Order   BO - Outsatnding - Help card   "
+	"content": "Outstanding Tests  BO - Outsatnding - Help card   BO - Outstanding - View Invoice   BO - Outstanding - View Order   BO - Outstanding - Pagination   BO - Outstanding - Filter \u0026amp; Sort   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration.html",

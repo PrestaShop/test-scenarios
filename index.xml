@@ -232,12 +232,12 @@ Set these fields:
     </item>
     
     <item>
-      <title>BO - Outstanding - Sort &amp; Filter &amp; Pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-sort-filter-pagination.html</link>
+      <title>BO - Outsatnding - Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-sort-filter-pagination.html</guid>
-      <description>BO - Outstanding - Sort &amp;amp; Filter &amp;amp; Pagination </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html</guid>
+      <description>BO - Outsatnding - Help card Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Outstanding page The Outstanding page is well displayed   Click on the Help Card The documentation modal is well displayed in the English language   Click on the Help Card again The documentation modal is closed   Go to BO &amp;gt; Shop Parameters &amp;gt; Customer Settings and Disable B2B The alert Update successful is well displayed    </description>
     </item>
     
     <item>
@@ -4961,12 +4961,12 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>BO - Outsatnding - Help card</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html</link>
+      <title>BO - Outstanding - Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outsatnding-help-card.html</guid>
-      <description>BO - Outsatnding - Help card Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Outstanding page The Outstanding page is well displayed   Click on the Help Card The documentation modal is well displayed in the English language   Click on the Help Card again The documentation modal is closed   Go to BO &amp;gt; Shop Parameters &amp;gt; Customer Settings and Disable B2B The alert Update successful is well displayed    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-pagination.html</guid>
+      <description>BO - Outstanding - Pagination Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders list page The Orders list page is well displayed   Change the status of all orders created from the pre-condition step to payment accepted The alert &amp;ldquo;Successful update.&amp;rdquo; is well displayed   Go to BO &amp;gt; Customers &amp;gt; Oustanding page The Outstanding page is well displayed   Change &amp;ldquo;items per page&amp;rdquo; to 10</description>
     </item>
     
     <item>
@@ -5906,6 +5906,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/features/bo-features-change-position.html</guid>
       <description>BO - Features - Change position Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Features page The Features page is well displayed   Reset filter Number Features = Total Features   Sort by Position asc The list is well sorted by position ( 1 -&amp;gt; 2 -&amp;gt; 3)   Drag &amp;amp; drop the first Feature from the first position to the second position The alert &amp;ldquo;Successful update&amp;rdquo; is displayed, the position of features are updated   Rest the position (Drag &amp;amp; drop the first feature to the first position) The positions are updated and a green alert &amp;ldquo;Successful update&amp;rdquo; is displayed    </description>
+    </item>
+    
+    <item>
+      <title>BO - Outstanding - Filter &amp; Sort</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-filter-sort.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-outstanding-filter-sort.html</guid>
+      <description>BO - Outstanding - Filter &amp;amp; Sort Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders list page The Orders list page is well displayed   Change the status of all orders created from the pre-condition step to payment accepted The alert &amp;ldquo;Successful update.&amp;rdquo; is well displayed   Go to BO &amp;gt; Customers &amp;gt; Oustanding page The Outstanding page is well displayed   Reset all filters and get the number of outstanding The outstanding number &amp;gt; 0   Filter outstanding by ID Number of outstanding &amp;lt; Total of outstandings</description>
     </item>
     
     <item>
