@@ -7,7 +7,7 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Catalog > Products > Click Add new products > Choose pack of products > Enter a name > Add quantity > Add price | Message Settings updated. appears |
+| Go to BO > Catalog > Products > Click Add new products > Choose pack of products > Enter a name > Add quantity > Add price | * Message "Unable to update settings". appears<br> * Message "This pack is empty. You must add at least one product item." appears under the title |
 | Add a *simple product* to the pack > Add a *virtual product* + increase quantity > Add *customizable product* > Save | Message Settings updated. appears |
 | Check Online > Save > Preview product > Add product pack in cart | Page in FO opens with pack of product and is added to cart |
 | Go to BO > Catalog > Products > Unable product from Products list | Message Product successfully deactivated. appears |
