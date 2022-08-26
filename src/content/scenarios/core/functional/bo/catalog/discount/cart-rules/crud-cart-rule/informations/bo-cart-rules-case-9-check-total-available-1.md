@@ -13,16 +13,17 @@ weight: 9
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
 | Click on "Have a promo code?" | The promo code section is displayed |
-| Set the Code and click on Add | The discount is well applied & the total is ok |
+| Set the Code and click on "Add" button | The discount is well applied & the total is ok |
 | Click on "Proceed to checkout" | The Checkout page is displayed |
-| Click on "Sign in" > Set Email & Password of "John DOE":<br><br>Address mail: pub@prestashop.com<br>Password: 123456789<br>Click on Continue | The Addresses step is displayed |
-| Click on Continue | The payment step is displayed |
-| Check payment method and check  "I agree to the terms of service and will adhere to them unconditionally."  and click on "Place Order" | The Order Confirmation page is displayed |
-| Click on "My Store" Link | The Home page is well displayed |
+| Click on "Sign in" tab > Fill the form with your logins > Click on "Continue" button | * You are well logged in<br> * Addresses step is displayed |
+| Select an address and click on "Continue" button | Shipping method step is displayed |
+| Click on Continue | Payment step is displayed |
+| Check payment method and check "I agree to the terms of service and will adhere to them unconditionally." and click on "Place Order" button | The Order Confirmation page is displayed |
+| Click on the logo of the shop | The Home page is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
 | Click on "Have a promo code?" | The promo code section is displayed |
-| Set the Code and click on Add | An alert is displayed "This voucher has already been used" |
+| Set the Code and click on "Add" button | An alert is displayed "This voucher has already been used" |
 | Go back to BO > Catalog > Discounts > Cart rules page | The Cart rule page is well displayed |
-| Edit the last cart rule created | The Edit cart rule page is well displayed, check that the total available = 0 |
-| Delete the Cart rule | A green alert "Successful deletion." is displayed |
+| Edit the last cart rule created | * The Edit cart rule page is well displayed<br> * Check that the total available = 0 on "Conditions" tab |
+| Click on "Cancel" button > Click on the list on the last cart rule created > Choose "Delete" > Click on "Yes" button on the modal | A green alert "Successful deletion." is displayed |
