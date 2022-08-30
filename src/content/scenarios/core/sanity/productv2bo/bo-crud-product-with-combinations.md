@@ -11,7 +11,7 @@ weight: 3
 | Click on "New product" button on the top right of the page > Choose "Product with combinations" block in the modal | * A modal "Add new product" is displayed<br> * A description by type is displayed. For Standard product:  "A product with different variations (size, color, etc.) from which customers can choose." |
 | Click on "Add new product" button | * New Product page on "Description" tab is displayed<br> * "Product with combinations" type description is displayed below the product name field |
 | Fill the main informations on "Description" tab | The content is added |
-| Go to "Specifications" tab > Fill the "Reference" field | The content is added |
+| Go to "Details" tab > Fill the "Reference" field | The content is added |
 | Go to "Combinations" tab > Click on "Generate combinations" button | A "Generate combinations" modal is displayed |
 | Check "Size" and "Color" checkboxes > Click on "Generate XX combinations" button | * All attributes is added on the empty field<br> * "Successfully generated 56 combinations" is displayed |
 | Click on "Cancel" button or the close icon of the modal | The modal is well removed |

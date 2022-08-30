@@ -9,9 +9,9 @@ weight: 4
 | ----- | ----- |
 | Go to BO > Catalog > Products | Products list page is displayed correctly |
 | Click on "New product" button on the top right of the page > Choose "Pack of products" block in the modal | * A modal "Add new product" is displayed<br> * A description by type is displayed. For Pack of products:  "A collection of products from your catalog." |
-| Click on "Add new product" button | * New Product page on "Description" tab is displayed<br> * "Standard product" type description is displayed below the product name field |
+| Click on "Add new product" button | * New Product page on "Description" tab is displayed<br> * "Pack of products" type description is displayed below the product name field |
 | Fill the main informations on "Description" tab | * The content is added |
-| Go to "Specifications" tab > Fill the "Reference" field | * The content is added |
+| Go to "Details" tab > Fill the "Reference" field | * The content is added |
 | Go to "Stock" tab > Edit quantity of the product | * The content is added |
 | Go to "Pricing" tab > Edit "Retail price" section | * The content is added |
 | Click on the "Offline" switch button at the top of the page (below the product name) & Click on the "Save button" at the bottom of the page | * The switch button is set to "Online" and is green<br> * "Successful update" message is displayed<br> * The "Save" button is changed by "Save and publish" button |
