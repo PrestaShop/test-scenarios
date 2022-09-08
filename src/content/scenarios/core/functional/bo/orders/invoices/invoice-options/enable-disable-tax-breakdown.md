@@ -36,3 +36,5 @@ weight: 2
 | Go to Orders > "Orders" page | Orders list is displayed successfully |
 | Click on the first order | The order details page is displayed successfully |
 | Download the invoice by clicking on "View invoice" button | * The invoice is downloaded successfully.<br> * There is one tax in the invoice (30.000 %) |
+| Go to BO > Catalog > Products page and delete the product created | An alert "Product successfully deleted." is displayed |
+| Go to BO > International > Taxes > Tax rules page and delete the tax rule | An alert "Successful deletion" is well displayed |

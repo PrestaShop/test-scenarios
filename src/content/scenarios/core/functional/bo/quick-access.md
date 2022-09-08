@@ -14,7 +14,7 @@ weight: 2
 | Refresh the page. Open the Quick Access menu | Link is now present in the list |
 | Click on Manage Quick Accesses | Quick access page is displayed |
 | Click on Add a new quick access | Add new page is displayed |
-| Add the URL {{index.php?controller=AdminStats}}. Give it a name "Stats". Click on "Save" | Message "Successful creation." is displayed<br>Quick access is created. Link is present in the Quick Access menu |
+| Add the URL +index.php/sell/customers/new+. Give it the name "New customer". Click on "Save" | Message "Successful creation." is displayed<br>Quick access is created. Link is present in the Quick Access menu |
 | Enable "New window" option | Option is enabled<br>"The status has been successfully updated." is displayed |
 | Click on "Quick access" > Click on the link you enabled "new window option" for. | The link is opened on a new window |
 | GO back to previous tab > Check the checkbox in front of the new link > Click on Bulk Actions > Delete selected and confirm | Link is deleted successfully<br>Message "The selection has been successfully deleted." is displayed |
