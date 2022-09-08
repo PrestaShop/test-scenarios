@@ -13,7 +13,7 @@
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/bo-generate-invoice-by-date.html</guid>
       <description>BO - Generate Invoice By Date Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update Status&amp;rdquo; button * A &amp;ldquo;Successful update.&amp;rdquo; is well displayed
-* The status is changed successfully   Go back to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update Status&amp;rdquo; button * A &amp;ldquo;Successful update.</description>
+* The status is changed successfully   Go to the Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed correctly   Go to &amp;ldquo;By date&amp;rdquo; section &amp;gt; Click on &amp;ldquo;Generate PDF file&amp;rdquo; button with the current date &amp;gt; Check the file existence The pdf file is generated successfully with the correct configured data (see pre-conditions)   Change the date to previous period when there is no invoice in the entered date in the &amp;ldquo;By date&amp;rdquo; section &amp;gt; Click on &amp;ldquo;Generate PDF file&amp;rdquo; button An error message &amp;ldquo;No invoice has been found for this period.</description>
     </item>
     
     <item>

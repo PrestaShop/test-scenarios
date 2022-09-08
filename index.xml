@@ -167,7 +167,7 @@ Set these fields:
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/invoice-options/bo-enable-disable-invoices.html</guid>
       <description>BO - Enable Disable Invoices Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed successfully   Go to &amp;ldquo;Invoice options&amp;rdquo; section &amp;gt; Set to &amp;ldquo;No&amp;rdquo; the &amp;ldquo;Enable invoices&amp;rdquo; switch button &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * The invoice is disabled successfully. The switch button is set to No and is grey
-* The successful message &amp;ldquo;Update successful&amp;rdquo; is displayed successfully   Go to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders page is displayed successfully   Go to the fourth-order page &amp;gt; Click on it Order details page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update status&amp;rdquo; button * A successful message &amp;ldquo;Successful update&amp;rdquo; is displayed</description>
+* The successful message &amp;ldquo;Update successful&amp;rdquo; is displayed successfully   Go to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders page is displayed successfully   Go to the the order page created in the pre-condition &amp;gt; Click on it Order details page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update status&amp;rdquo; button * A successful message &amp;ldquo;Successful update&amp;rdquo; is displayed</description>
     </item>
     
     <item>
@@ -219,7 +219,7 @@ Set these fields:
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/invoices/bo-generate-invoice-by-date.html</guid>
       <description>BO - Generate Invoice By Date Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders listing is displayed correctly   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update Status&amp;rdquo; button * A &amp;ldquo;Successful update.&amp;rdquo; is well displayed
-* The status is changed successfully   Go back to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page The order page is displayed successfully   Change the order status to &amp;ldquo;Payment accepted&amp;rdquo; &amp;gt; Click on &amp;ldquo;Update Status&amp;rdquo; button * A &amp;ldquo;Successful update.</description>
+* The status is changed successfully   Go to the Orders &amp;gt; &amp;ldquo;Invoices&amp;rdquo; page Invoices page is displayed correctly   Go to &amp;ldquo;By date&amp;rdquo; section &amp;gt; Click on &amp;ldquo;Generate PDF file&amp;rdquo; button with the current date &amp;gt; Check the file existence The pdf file is generated successfully with the correct configured data (see pre-conditions)   Change the date to previous period when there is no invoice in the entered date in the &amp;ldquo;By date&amp;rdquo; section &amp;gt; Click on &amp;ldquo;Generate PDF file&amp;rdquo; button An error message &amp;ldquo;No invoice has been found for this period.</description>
     </item>
     
     <item>
@@ -6101,9 +6101,9 @@ Carrier details are correct (Date, carrier name, product weight, hipping cost, t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/delete-abandoned-carts.html</guid>
-      <description>Delete abandoned carts Steps    Step Description Expected result     Go to FO &amp;gt; Create Shopping cart Go to BO &amp;gt; See new shopping carts displayed   Individual deletion :
-In the list of Shopping cart &amp;gt; See &amp;ldquo;Non ordered&amp;rdquo; carts &amp;gt; Click dropdown Delete button &amp;gt; Click YES on &amp;ldquo;Delete selected item&amp;rdquo; Message &amp;ldquo;Successful deletion.&amp;rdquo; appears
-In list of Shopping carts, Non-ordered cart has been deleted   Bulk action :</description>
+      <description>Delete abandoned carts Steps    Step Description Expected result     Go to FO &amp;gt; Create Shopping cart Go to BO &amp;gt; See new shopping carts displayed   Bulk action :
+Select multiple &amp;ldquo;Non-ordered&amp;rdquo; carts &amp;gt; Click &amp;ldquo;Bulk actions&amp;rdquo; &amp;gt; Click &amp;ldquo;Delete selected&amp;rdquo; Message &amp;ldquo;The selection has been successfully deleted.&amp;rdquo; appears
+Multiple Non-ordered carts are deleted   Reset all filters Number of shopping carts = Total of shopping carts    </description>
     </item>
     
     <item>
