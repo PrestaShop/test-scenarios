@@ -7,21 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>create simple order</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/create-simple-order.html</link>
+      <title>BO - Order creation - Create simple order</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-create-simple-order.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/create-simple-order.html</guid>
-      <description>create simple order Steps    Step Description Expected result     Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed   choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed   Choose delivery method (free) Delivery method is selected   Choose Payment method Payment method is selected   Choose order status Order status is selected   Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-create-simple-order.html</guid>
+      <description>BO - Order creation - Create simple order Steps    Step Description Expected result     Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed   choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed   Choose delivery method (free) Delivery method is selected   Choose Payment method Payment method is selected   Choose order status Order status is selected   Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
     </item>
     
     <item>
-      <title>Create customer</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/create-customer.html</link>
+      <title>BO - Order creation - Create customer</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-create-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/create-customer.html</guid>
-      <description>Create customer Steps    Step Description Expected result     Go to BO -&amp;gt; Orders page and click on &amp;ldquo;Add new Order&amp;rdquo; Create order page is displayed   Click on &amp;ldquo;Add new customer&amp;rdquo; A modal for adding new customer is displayed   Set these fields:
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-create-customer.html</guid>
+      <description>BO - Order creation - Create customer Steps    Step Description Expected result     Go to BO -&amp;gt; Orders page and click on &amp;ldquo;Add new Order&amp;rdquo; Create order page is displayed   Click on &amp;ldquo;Add new customer&amp;rdquo; A modal for adding new customer is displayed   Set these fields:
 # Social title
 # First name
 # Last name
@@ -31,12 +31,12 @@ and click on &amp;ldquo;Save&amp;rdquo; The customer search display the new cust
     </item>
     
     <item>
-      <title>Search for customers</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/search-for-customers.html</link>
+      <title>BO - Order creation - Search for customers</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-search-for-customers.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/search-for-customers.html</guid>
-      <description>Search for customers Steps    Step Description Expected result     Go to BO -&amp;gt; Customers page and click &amp;ldquo;Add new customer&amp;rdquo; &amp;ldquo;Creating a new Customer&amp;rdquo; page is displayed   Set these fields:
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-search-for-customers.html</guid>
+      <description>BO - Order creation - Search for customers Steps    Step Description Expected result     Go to BO -&amp;gt; Customers page and click &amp;ldquo;Add new customer&amp;rdquo; &amp;ldquo;Creating a new Customer&amp;rdquo; page is displayed   Set these fields:
 # Social title
 # First name
 # Last name
@@ -46,72 +46,71 @@ Set &amp;ldquo;Enabled&amp;rdquo; to &amp;ldquo;NO&amp;rdquo; an click on Save A
     </item>
     
     <item>
-      <title>Select previous Cart</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/select-previous-cart.html</link>
+      <title>BO - Order creation - Select previous Cart</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-select-previous-cart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/select-previous-cart.html</guid>
-      <description>Select previous Cart Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers &amp;gt; Edit John Doe &amp;gt; Add a new password &amp;gt; Save Message &amp;ldquo;Successful update.&amp;rdquo; appears   Go to FO &amp;gt; Log into John Doe&amp;rsquo;s account You are logged into John doe&amp;rsquo;s account   Add products to your cart    Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Add new order &amp;gt; Choose customer John Doe &amp;gt; Click Details on the cart &amp;gt; Click the cross to close the popup Popup opens with Total Cart - Customer information - Order information - Cart Summary   Click Use on the created cart Block cart is updated with the products of the previously created cart   Finalize order New order is created    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-select-previous-cart.html</guid>
+      <description>BO - Order creation - Select previous Cart Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers &amp;gt; Edit John Doe &amp;gt; Add a new password &amp;gt; Save Message &amp;ldquo;Successful update.&amp;rdquo; appears   Go to FO &amp;gt; Log into John Doe&amp;rsquo;s account You are logged into John doe&amp;rsquo;s account   Add products to your cart    Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Add new order &amp;gt; Choose customer John Doe &amp;gt; Click Details on the cart &amp;gt; Click the cross to close the popup Popup opens with Total Cart - Customer information - Order information - Cart Summary   Click Use on the created cart Block cart is updated with the products of the previously created cart   Finalize order New order is created    </description>
     </item>
     
     <item>
-      <title>Select previous Orders</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/select-previous-orders.html</link>
+      <title>BO - Order creation - Select previous Orders</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-select-previous-orders.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/select-previous-orders.html</guid>
-      <description>Select previous Orders Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Add new order &amp;gt; Choose customer John Doe &amp;gt; Click Details on the cart &amp;gt; Click the cross to close the popup Popup opens with Total Cart - Customer information - Order information - Cart Summary   In customer block &amp;gt; Click on Order tab &amp;gt; Click Details See list of Orders previously made by customer</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-select-previous-orders.html</guid>
+      <description>BO - Order creation - Select previous Orders Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Add new order &amp;gt; Choose customer John Doe &amp;gt; Click Details on the cart &amp;gt; Click the cross to close the popup Popup opens with Total Cart - Customer information - Order information - Cart Summary   In customer block &amp;gt; Click on Order tab &amp;gt; Click Details See list of Orders previously made by customer</description>
     </item>
     
     <item>
-      <title>Add a product to the cart</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/add-a-product-to-the-cart.html</link>
+      <title>BO - Order creation - Add a product to the cart</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-add-a-product-to-the-cart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/add-a-product-to-the-cart.html</guid>
-      <description>Add a product to the cart Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Search for an existing customer like John Doe and Choose it Customer John Doe is chosen   Search for a product that doesn&amp;rsquo;t exist an alert is displayed {color:#FF0000}No products found{color}   Search for standard simple product and click Add to cart The product is well added to the cart, check that</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-add-a-product-to-the-cart.html</guid>
+      <description>BO - Order creation - Add a product to the cart Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Search for an existing customer like John Doe and Choose it Customer John Doe is chosen   Search for a product that doesn&amp;rsquo;t exist an alert is displayed {color:#FF0000}No products found{color}   Search for standard simple product and click Add to cart The product is well added to the cart, check that</description>
     </item>
     
     <item>
-      <title>[BO-Add new order] Search - Add - Remove a voucher</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-add-new-order-search-add-remove-a-voucher.html</link>
+      <title>BO - Order creation - Search/ Add/ Remove a voucher</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-search-add-remove-a-voucher.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-add-new-order-search-add-remove-a-voucher.html</guid>
-      <description>[BO-Add new order] Search - Add - Remove a voucher Steps    Step Description Expected result     First check: cart rule without code
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-search-add-remove-a-voucher.html</guid>
+      <description>BO - Order creation - Search/ Add/ Remove a voucher Steps    Step Description Expected result     First check: cart rule without code
 Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Search for an existing customer like John Doe and Choose it Customer John Doe is chosen   Search for the product &amp;ldquo;Mug The adventure begins&amp;rdquo; and click Add to cart The product is well added to the cart, check that</description>
     </item>
     
     <item>
-      <title>Choose address</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-address.html</link>
+      <title>BO - Order creation - Choose address</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-choose-address.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-address.html</guid>
-      <description>Choose address Steps    Step Description Expected result     Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed.
-Check that the Addresses block displays 2 droplists: for the delivery address and for the invoice.   open the drop down of the delivery part and choose my adress the adress displayed below the drop down is changed to &amp;ldquo;John DOE</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-choose-address.html</guid>
+      <description>BO - Order creation - Choose address Steps    Step Description Expected result     Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed.
+Check that the Addresses block displays 2 droplists: for the delivery address and for the invoice.</description>
     </item>
     
     <item>
-      <title>Choose Shipping</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-shipping.html</link>
+      <title>BO - Order creation - Choose Shipping</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-choose-shipping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/choose-shipping.html</guid>
-      <description>Choose Shipping Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; click Add new order &amp;gt; Search a customer and choose it Check that the Shipping block is not displayed   Search a product and choose it &amp;gt; Scroll down to Block Shipping Check:
-* Delivery option = Shop name - Pick up in Store
-* Shipping price (Tax incl.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-choose-shipping.html</guid>
+      <description>BO - Order creation - Choose Shipping Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; click Add new order &amp;gt; Search a customer and choose it Check that the Shipping block is not displayed   Search a product and choose it &amp;gt; Scroll down to Block Shipping Check:
+* Delivery option = Shop name - Pick up in Store</description>
     </item>
     
     <item>
-      <title>Check Summary and create order</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/check-summary-and-create-order.html</link>
+      <title>BO - Order creation - Check Summary and create order</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-check-summary-and-create-order.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/check-summary-and-create-order.html</guid>
-      <description>Check Summary and create order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Choose existing customer Check that Summary block is not visible   Add product to cart Check that summary block is visible
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-check-summary-and-create-order.html</guid>
+      <description>BO - Order creation - Check Summary and create order Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Choose existing customer Check that Summary block is not visible   Add product to cart Check that summary block is visible
 Check Summary &amp;gt; Total Product &amp;amp; Total (Tax excl.) should be equal
-Total (Tax incl.) should be equal to ** Total taxes + Total (Tax excl.</description>
+Total (Tax incl.</description>
     </item>
     
   </channel>
