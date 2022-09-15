@@ -1,6 +1,6 @@
 ---
 title: "[Native] - Cash on delivery (COD) module - Place an order with it"
-weight: 2
+weight: 1
 ---
 
 # [Native] - Cash on delivery (COD) module - Place an order with it

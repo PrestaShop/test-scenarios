@@ -18,7 +18,7 @@ weight: 3
 | Choose the payment method and confirm the order | The confirmation page is displayed correctly |
 | Go to BO > Orders > "Orders" page | Orders list is displayed successfully |
 | Go to the first order page | The order page is displayed successfully |
-| Change the order status to "Payment accepted" | The order status is updated successfully<br>The invoice is created successfully |
+| Change the order status to "Shipped" | The order status is updated successfully<br>The invoice is created successfully |
 | Download the invoice | The invoice is downloaded successfully<br>There are 2 images in the invoice |
 | Delete the invoice from the disk | The invoice is deleted successfully |
 | Go to BO > Orders > Invoices page | The invoices page is well displayed |
