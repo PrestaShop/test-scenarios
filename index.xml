@@ -18,15 +18,6 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>[Natif] - ps category product</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/natif-ps-category-product.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/natif-ps-category-product.html</guid>
-      <description>[Natif] - ps category product </description>
-    </item>
-    
-    <item>
       <title>Access to Menu tab is denied with neither left menu and Url</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/regression/menu/access-to-menu-tab-is-denied-with-neither-left-menu-and-url.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -359,12 +350,22 @@ The order id result is equal to the searched ID   Reset all filters Number of or
     </item>
     
     <item>
-      <title>Category product should be display </title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-product-should-be-display.html</link>
+      <title>Category products module - Disable/Enable module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-product-should-be-display.html</guid>
-      <description>Category product should be display Steps    Step Description Expected result     Go to FO &amp;gt; Clic on a Product The Product page should be displayed and if you scroll down, you can see &amp;ldquo;other products in the same category :&amp;rdquo;   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;category&amp;rdquo; on the search bar to find &amp;ldquo;Products in the same category&amp;rdquo; and clic on the down arrow on the right of &amp;ldquo;Products in the same category&amp;rdquo; There is 4 different proposition : * Disable mobile * Disable * Reset</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-disable-enable-module.html</guid>
+      <description>Category products module - Disable/Enable module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
+    </item>
+    
+    <item>
+      <title>Category products module - Display products&#39; prices</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-products-module-display-products-prices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-products-module-display-products-prices.html</guid>
+      <description>Category products module - Display products&#39; prices Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed
+* &amp;ldquo;Display products&#39; prices&amp;rdquo; is enabled by default</description>
     </item>
     
     <item>
@@ -1495,10 +1496,10 @@ Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Or
     
     <item>
       <title>Installation</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/installation.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/installation.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/installation.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/installation.html</guid>
       <description>Installation Steps    Step Description Expected result     Install the zip The module is correctly installed   Uninstall the module The module is correctly uninstalled   Install a previous version of the module. Update the module The module is correctly updated    </description>
     </item>
     
@@ -1823,15 +1824,6 @@ all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&
     
     <item>
       <title>Upgrade</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/upgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/upgrade.html</guid>
-      <description>Upgrade Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
-    </item>
-    
-    <item>
-      <title>Upgrade</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categorytree/installation/upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -2000,6 +1992,16 @@ L&amp;rsquo;action Upgrade sur le module ps_customersignin a réussi.&amp;rdquo;
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/view.html</guid>
       <description>View Steps    Step Description Expected result     In FO &amp;gt; Go to Contact us Page &amp;gt; Fill Fields &amp;gt; Click Send Message &amp;ldquo;Your message has been successfully sent to our team.&amp;rdquo; appears   Go to BO &amp;gt; Customer Service &amp;gt; Customer Service &amp;gt; In Customer Service Block &amp;gt; Click View on latest thread Thread is displayed   Go back to Customer Service Block &amp;gt; Click dropdown arrow &amp;gt; Click delete &amp;gt; In popup, choose YES Thread is deleted</description>
+    </item>
+    
+    <item>
+      <title>Wording and statistics</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/configuration/wording-and-statistics.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/configuration/wording-and-statistics.html</guid>
+      <description>Wording and statistics Steps    Step Description Expected result     Login in the backoffice. Go to the module&amp;rsquo;s settings page. Click on the Configuration&amp;quot; tab&amp;quot; Settings page is displayed correctly   Change every wording for every language
+Save Settings are saved successfully   Go to the front office and check all the wordings : name of the wishlist. title of the Add to&amp;quot;. name of the &amp;ldquo;Create new&amp;rdquo; in every language&amp;quot; Wordings are correct   Login in the backoffice.</description>
     </item>
     
     <item>
@@ -2248,12 +2250,22 @@ number of backups = 1   generate new db backup Successful message is displayed</
     </item>
     
     <item>
-      <title>Category product - Display Product price</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-product-display-product-price.html</link>
+      <title>Category products module - Disable Mobile/Enable Mobile module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-disable-mobile-enable-mobile-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-product-display-product-price.html</guid>
-      <description>Category product - Display Product price Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;category&amp;rdquo; on the search bar to find &amp;ldquo;Products in the same category&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Products in the same category&amp;rdquo; &amp;ldquo;Configure Products in the same category&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Display products&#39; prices&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on a Product The Product page should be displayed and if you scroll down, you see &amp;ldquo;other products in the same category :&amp;rdquo; with product wich have not their price   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;category&amp;rdquo; on the search bar to find &amp;ldquo;Products in the same category&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Products in the same category&amp;rdquo; &amp;ldquo;Configure Products in the same category&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Display products&#39; prices&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on a Product The Product page should be displayed and if you scroll down, you see &amp;ldquo;other products in the same category :&amp;rdquo; with product with their price    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-disable-mobile-enable-mobile-module.html</guid>
+      <description>Category products module - Disable Mobile/Enable Mobile module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable Mobile&amp;rdquo; option * After loading, a green message &amp;ldquo;Disable mobile action on module ps_categoryproducts succeeded.</description>
+    </item>
+    
+    <item>
+      <title>Category products module- Number of product to display</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-products-module-number-of-product-to-display.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-products-module-number-of-product-to-display.html</guid>
+      <description>Category products module- Number of product to display Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed
+* &amp;ldquo;Display products&#39; prices&amp;rdquo; is enabled by default</description>
     </item>
     
     <item>
@@ -3608,15 +3620,6 @@ L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdqu
     </item>
     
     <item>
-      <title>Uninstall/Install  </title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/uninstall-install.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/uninstall-install.html</guid>
-      <description>Uninstall/Install Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on uninstall and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_banner The module catalog page should be displayed and module ps_banner should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search ps_banner The module should be displayed    </description>
-    </item>
-    
-    <item>
       <title>Update default products order by and order method (TODO)</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/pagination-setting/update-default-products-order-by-and-order-method-todo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3671,13 +3674,13 @@ L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdqu
     </item>
     
     <item>
-      <title>Wording and statistics</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/wording-and-statistics.html</link>
+      <title>Wishlist module - Disable/Enable module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/wishlist-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/wording-and-statistics.html</guid>
-      <description>Wording and statistics Steps    Step Description Expected result     Login in the backoffice. Go to the module&amp;rsquo;s settings page. Click on the Configuration&amp;quot; tab&amp;quot; Settings page is displayed correctly   Change every wording for every language
-Save Settings are saved successfully   Go to the front office and check all the wordings : name of the wishlist. title of the Add to&amp;quot;. name of the &amp;ldquo;Create new&amp;rdquo; in every language&amp;quot; Wordings are correct   Login in the backoffice.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/wishlist-module-disable-enable-module.html</guid>
+      <description>Wishlist module - Disable/Enable module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search blockwishlist The module page list should be displayed and Wishlist module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:
+* Title: &amp;ldquo;Disable module?</description>
     </item>
     
     <item>
@@ -4019,12 +4022,22 @@ number of languages = total of languages + 1   Go to add new language page Page 
     </item>
     
     <item>
-      <title>Category product - Number of product display</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-product-number-of-product-display.html</link>
+      <title>Category products module - BO header buttons</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-products-module-bo-header-buttons.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-product-number-of-product-display.html</guid>
-      <description>Category product - Number of product display Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;category&amp;rdquo; on the search bar to find &amp;ldquo;Products in the same category&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Products in the same category&amp;rdquo; &amp;ldquo;Configure Products in the same category&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Number of product to display&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on a Product The Product page should be displayed and if you scroll down, you see &amp;ldquo;other products in the same category :&amp;rdquo; with three product   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;category&amp;rdquo; on the search bar to find &amp;ldquo;Products in the same category&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Products in the same category&amp;rdquo; &amp;ldquo;Configure Products in the same category&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Number of product to display&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on a Product The Product page should be displayed and if you scroll down, you didn&amp;rsquo;t see &amp;ldquo;other products in the same category :&amp;rdquo;   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;category&amp;rdquo; on the search bar to find &amp;ldquo;Products in the same category&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Products in the same category&amp;rdquo; &amp;ldquo;Configure Products in the same category&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Number of product to display&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Number of product to display&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Number of product to display&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Number of product to display&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed and the number is changed to &amp;ldquo;2&amp;rdquo;   Clic on the field next to &amp;ldquo;Number of product to display&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed and the number is changed to &amp;ldquo;1500&amp;rdquo;   Clic on the field next to &amp;ldquo;Number of product to display&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed and the number is changed to &amp;ldquo;2&amp;rdquo;    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/configuration/category-products-module-bo-header-buttons.html</guid>
+      <description>Category products module - BO header buttons Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed
+* 3 buttons on the header are displayed (Back / Translate / Manage hooks)   Click on &amp;ldquo;Back&amp;rdquo; button The module page list is displayed   Search ps_categoryproducts Products in the same category module is displayed on the list   Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
+    </item>
+    
+    <item>
+      <title>Category products module - Reset module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-reset-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-reset-module.html</guid>
+      <description>Category products module - Reset module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
     </item>
     
     <item>
@@ -4079,6 +4092,15 @@ number of languages = total of languages + 1   Go to add new language page Page 
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/menu-and-navigation/sort-and-filter/clear-all-filters.html</guid>
       <description>Clear all filters </description>
+    </item>
+    
+    <item>
+      <title>CLONE - Category products module - Disable Mobile/Enable Mobile module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-disable-mobile-enable-mobile-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-disable-mobile-enable-mobile-module.html</guid>
+      <description>CLONE - Category products module - Disable Mobile/Enable Mobile module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable Mobile&amp;rdquo; option * After loading, a green message &amp;ldquo;Disable mobile action on module ps_categoryproducts succeeded.</description>
     </item>
     
     <item>
@@ -4908,15 +4930,6 @@ Successful message is displayed   Download and open CSV file of the created quer
     
     <item>
       <title>Uninstall and delete</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/uninstall-and-delete.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/uninstall-and-delete.html</guid>
-      <description>Uninstall and delete Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on uninstall and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
-    </item>
-    
-    <item>
-      <title>Uninstall and delete</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categorytree/installation/uninstall-and-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -5101,15 +5114,6 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
     
     <item>
       <title>Upgrade</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/upgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/upgrade.html</guid>
-      <description>Upgrade Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
-    </item>
-    
-    <item>
-      <title>Upgrade</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/installation/upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -5150,17 +5154,9 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-add-a-product-to-a-list.html</guid>
-      <description>Wishlist module - Add a product to a list Steps    Step Description Expected result     Go to FO &amp;gt; Choose a product &amp;gt; Click on the heart next to the image to add the product to a list or go to the product page details of the chosen product * The heart next to the picture is empty for the product card
-* The heart next to the &amp;ldquo;Add to cart&amp;rdquo; button is empty for product details page   Click on the heart A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:</description>
-    </item>
-    
-    <item>
-      <title> Uninstall/Install</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/uninstall-install.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/uninstall-install.html</guid>
-      <description>Uninstall/Install Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on uninstall and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog   Go to Module catalog and search ps_banner The module catalog page should be displayed and module ps_banner should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -&amp;gt; Module manager and search ps_banner The module should be displayed    </description>
+      <description>Wishlist module - Add a product to a list Steps    Step Description Expected result     Go to FO &amp;gt; Choose a product &amp;gt; Go to the product page details of the chosen product &amp;ldquo;Heart&amp;rdquo; icon next to the &amp;ldquo;Add to cart&amp;rdquo; button is empty   Click &amp;ldquo;heart&amp;rdquo; icon A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:
+* Title: &amp;ldquo;Sign in&amp;rdquo;
+* Description: &amp;ldquo;You need to be logged in to save products in your wishlist.</description>
     </item>
     
     <item>
@@ -5420,6 +5416,16 @@ In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 1
     </item>
     
     <item>
+      <title>Category products module - Upgrade module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-upgrade-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-upgrade-module.html</guid>
+      <description>Category products module - Upgrade module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on &amp;ldquo;Upgrade&amp;rdquo; button at the right of the module A modal is open with:
+* Title: &amp;ldquo;Are you sure you want to upgrade this module?</description>
+    </item>
+    
+    <item>
       <title>CCC</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/ccc.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5471,6 +5477,15 @@ In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 1
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/menu-and-navigation/sort-and-filter/clear-one-filter.html</guid>
       <description>Clear one filter </description>
+    </item>
+    
+    <item>
+      <title>CLONE - Category products module - Reset module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-reset-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-reset-module.html</guid>
+      <description>CLONE - Category products module - Reset module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
     </item>
     
     <item>
@@ -6422,6 +6437,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>Category products module - Uninstall/Install module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-uninstall-install-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-uninstall-install-module.html</guid>
+      <description>Category products module - Uninstall/Install module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+    </item>
+    
+    <item>
       <title>Change position</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/change-position.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6446,6 +6470,16 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/check-the-name-of-a-deleted-user.html</guid>
       <description>Check the name of a deleted user Steps    Step Description Expected result     In the back office, go to customer settings and delete the account of an user who added a comment The customer should be deleted   Go to front office in a product page with a comment of the user we deleted previously The name of the customer shouldn&amp;rsquo;t appear    </description>
+    </item>
+    
+    <item>
+      <title>CLONE - Category products module - Upgrade module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-upgrade-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-upgrade-module.html</guid>
+      <description>CLONE - Category products module - Upgrade module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on &amp;ldquo;Upgrade&amp;rdquo; button at the right of the module A modal is open with:
+* Title: &amp;ldquo;Are you sure you want to upgrade this module?</description>
     </item>
     
     <item>
@@ -6935,15 +6969,6 @@ Message &amp;ldquo;The status has been successfully updated.&amp;rdquo;   Search
     </item>
     
     <item>
-      <title>Uninstall and delete</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/uninstall-and-delete.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation-settings/uninstall-and-delete.html</guid>
-      <description>Uninstall and delete Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_banner The module page should be displayed and module ps_banner should appear in the module page   Click on uninstall and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    </description>
-    </item>
-    
-    <item>
       <title>Uninstall/Install a module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/uninstall-install-a-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6995,6 +7020,17 @@ Message &amp;ldquo;The status has been successfully updated.&amp;rdquo;   Search
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/theme-logo/visit-the-theme-catalog.html</guid>
       <description>Visit the theme Catalog </description>
+    </item>
+    
+    <item>
+      <title>Wishlist module - Edit a product on a wishlist</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-edit-a-product-on-a-wishlist.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-edit-a-product-on-a-wishlist.html</guid>
+      <description>Wishlist module - Edit a product on a wishlist Steps    Step Description Expected result     Go to FO &amp;gt; Choose a product &amp;gt; Go to the product page details of the chosen product &amp;ldquo;Heart&amp;rdquo; icon next to the &amp;ldquo;Add to cart&amp;rdquo; button is empty   Click &amp;ldquo;heart&amp;rdquo; icon A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:
+* Title: &amp;ldquo;Sign in&amp;rdquo;
+* Description: &amp;ldquo;You need to be logged in to save products in your wishlist.</description>
     </item>
     
     <item>
@@ -7153,6 +7189,15 @@ categories are sorted by postion (3 -&amp;gt; 2 -&amp;gt; 1)   Sort categories b
     </item>
     
     <item>
+      <title>Category products module - Uninstall and delete module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-uninstall-and-delete-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-uninstall-and-delete-module.html</guid>
+      <description>Category products module - Uninstall and delete module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+    </item>
+    
+    <item>
       <title>Change combination on popup</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-quickview/change-combination-on-popup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7186,6 +7231,15 @@ categories are sorted by postion (3 -&amp;gt; 2 -&amp;gt; 1)   Sort categories b
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-text-entered-in-the-module-is-updated-in-front-office.html</guid>
       <description>Check that the text entered in the module is updated in front office Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>CLONE - Category products module - Uninstall/Install module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-uninstall-install-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-uninstall-install-module.html</guid>
+      <description>CLONE - Category products module - Uninstall/Install module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
     </item>
     
     <item>
@@ -7617,6 +7671,17 @@ Currency is edited. Currency name is updated with mention &amp;ldquo;(Edited)&am
     </item>
     
     <item>
+      <title>Wishlist module - Delete a product from a wishlist</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-delete-a-product-from-a-wishlist.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-delete-a-product-from-a-wishlist.html</guid>
+      <description>Wishlist module - Delete a product from a wishlist Steps    Step Description Expected result     Go to FO &amp;gt; Choose a product &amp;gt; Go to the product page details of the chosen product &amp;ldquo;Heart&amp;rdquo; icon next to the &amp;ldquo;Add to cart&amp;rdquo; button is empty   Click &amp;ldquo;heart&amp;rdquo; icon A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:
+* Title: &amp;ldquo;Sign in&amp;rdquo;
+* Description: &amp;ldquo;You need to be logged in to save products in your wishlist.</description>
+    </item>
+    
+    <item>
       <title>Wishlist module - Share a list</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-share-a-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7780,6 +7845,15 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; S
     </item>
     
     <item>
+      <title>CLONE - Category products module - Uninstall and delete module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-uninstall-and-delete-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/clone-category-products-module-uninstall-and-delete-module.html</guid>
+      <description>CLONE - Category products module - Uninstall and delete module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+    </item>
+    
+    <item>
       <title>Configure module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/configure-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7888,6 +7962,15 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; S
     </item>
     
     <item>
+      <title>Faceted search - Use tax to filter price</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-tax-to-filter-price.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-tax-to-filter-price.html</guid>
+      <description>Faceted search - Use tax to filter price Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, the price, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Go to Shop Parameters &amp;gt; Customer Settings &amp;gt; Groups &amp;gt; Clic on &amp;ldquo;Edit&amp;rdquo; on the line of &amp;ldquo;Visitor&amp;rdquo; the &amp;ldquo;Customer group&amp;rdquo; page should be displayed   Change &amp;ldquo;Price display method&amp;rdquo; to &amp;ldquo;tax included&amp;rdquo;, scroll down and save a green modal at the top of the &amp;ldquo;groups&amp;rdquo; tab should be display &amp;ldquo;Successful update&amp;rdquo;   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use tax to filter price&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product should be displayed   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use tax to filter price&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product isn&amp;rsquo;t displayed    </description>
+    </item>
+    
+    <item>
       <title>filter stocks by categories</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-categories.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7902,8 +7985,8 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; S
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/fo-log-out.html</guid>
-      <description>FO - Log out Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Go to your account by clicking on your usernema link in the header Your account page is displayed
-- One link &amp;ldquo;Sign out&amp;rdquo; is displayed on the header</description>
+      <description>FO - Log out Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Go to your account by clicking on your username link in the header Your account page is displayed with:
+* All your account tabs</description>
     </item>
     
     <item>
@@ -8238,6 +8321,15 @@ Data is correct    </description>
     </item>
     
     <item>
+      <title>Faceted search - Use rounding to filter price</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-rounding-to-filter-price.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-rounding-to-filter-price.html</guid>
+      <description>Faceted search - Use rounding to filter price Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, the price, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Go to Shop Parameters &amp;gt; General &amp;gt; Change &amp;ldquo;Round mode&amp;rdquo; to &amp;ldquo;Round down to the nearest value&amp;rdquo; and clic on save a green modal at the top of the &amp;ldquo;groups&amp;rdquo; tab should be display &amp;ldquo;Successful update&amp;rdquo;   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use rounding to filter price&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product isn&amp;rsquo;t displayed   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use rounding to filter price&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product should be displayed    </description>
+    </item>
+    
+    <item>
       <title>Help Button</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/help-button.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8537,6 +8629,15 @@ Currency USD is disabled and displayed in the list   Enable USD from Currency li
     </item>
     
     <item>
+      <title>Faceted search - Edit template - Parameters</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-parameters.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-parameters.html</guid>
+      <description>Faceted search - Edit template - Parameters Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   Change the field &amp;quot; Template name &amp;quot; and clic on save * It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;Template 2.</description>
+    </item>
+    
+    <item>
       <title>Mail alerts module - Disable Mobile/Enable Mobile module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-disable-mobile-enable-mobile-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8705,6 +8806,15 @@ When installed, button will transform to a Configure button   Click on the butto
     </item>
     
     <item>
+      <title>Faceted search - Edit template - Sub categories filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-sub-categories-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-sub-categories-filter.html</guid>
+      <description>Faceted search - Edit template - Sub categories filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Sub-categories filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
       <title>Mail alerts module - Merchant notifications - Configure email addresses</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration/configuration-for-merchant/mail-alerts-module-merchant-notifications-configure-email-addresses.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8820,6 +8930,15 @@ All products contain the searched Name    </description>
     </item>
     
     <item>
+      <title>Faceted search - Edit template - Size filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-size-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-size-filter.html</guid>
+      <description>Faceted search - Edit template - Size filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Size&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
       <title>Generate Robots.txt file</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/generate-robots-txt-file.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8919,6 +9038,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title>Faceted search - Edit template - Color filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-color-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-color-filter.html</guid>
+      <description>Faceted search - Edit template - Color filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Color&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
       <title>Help card</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/help-card.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8992,6 +9120,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title>Faceted search - Edit template - Composition filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-composition-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-composition-filter.html</guid>
+      <description>Faceted search - Edit template - Composition filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Feature : Composition&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
       <title>Refresh list of currency</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/refresh-list-of-currency.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9025,6 +9162,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/display-tag-products-new-on-sale-pack.html</guid>
       <description>Display tag products (New, On sale, Pack&amp;hellip;) </description>
+    </item>
+    
+    <item>
+      <title>Faceted search - Edit template - Property filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-property-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-property-filter.html</guid>
+      <description>Faceted search - Edit template - Property filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Feature : Property&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
