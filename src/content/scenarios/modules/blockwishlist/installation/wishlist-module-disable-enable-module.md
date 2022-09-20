@@ -13,6 +13,8 @@ weight: 2
 | Click on the button at the right of the module > Choose on the list "Disable" option | The modal is open again with the same informations (Title / Description / 2 buttons) |
 | The modal is open again with the same informations (Title / Description / 2 buttons) | * After loading, a green message "Disable action on module blockwishlist succeeded." is displayed<br> * The module is disabled, the button at the right of the module is displaying "Enable" |
 | Click on "View my shop" link in the header > Click on the new tab | The new tab is displayed the FO of the shop with the homepage |
-| Click on a product | The product page should be displayed and if you scroll down, the "Other products in the same category :" block is not displayed |
-| Go back to BO > Module list page with ps_categoryproducts module displayed > Click on "Enable" button at the right of the module | * After loading, a green message "Enable action on module blockwishlist succeeded." is displayed<br> * The module is enabled, the button at the right of the module is displaying "Configure" |
-| Go back to FO > Reload the page of the product | The "Other products in the same category :" block should be displayed |
+| Scroll down on the page | All products should not have a "heart" icon on top left of their images |
+| Click on a product | * The product page should be displayed<br> * "Heart" icon should not be displayed beside the "Add to cart" button |
+| Go back to BO > Module list page with blockwishlist module displayed > Click on "Enable" button at the right of the module | * After loading, a green message "Enable action on module blockwishlist succeeded." is displayed<br> * The module is enabled, the button at the right of the module is displaying "Configure" |
+| Go back to FO > Reload the page of the product | "Heart" icon should be displayed beside the "Add to cart" button |
+| Click on "My store" logo > Scroll down on the page | All products should have a "heart" icon on top left of their images |
