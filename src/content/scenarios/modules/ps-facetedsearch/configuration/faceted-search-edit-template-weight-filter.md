@@ -1,6 +1,6 @@
 ---
 title: "Faceted search - Edit template - weight filter"
-weight: 20
+weight: 19
 ---
 
 # Faceted search - Edit template - weight filter

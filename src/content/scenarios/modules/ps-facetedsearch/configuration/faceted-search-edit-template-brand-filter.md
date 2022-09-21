@@ -1,6 +1,6 @@
 ---
 title: " Faceted search - Edit template - Brand filter"
-weight: 16
+weight: 15
 ---
 
 #  Faceted search - Edit template - Brand filter

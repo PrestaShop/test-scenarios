@@ -1,6 +1,6 @@
 ---
 title: "Faceted search - Display unavailable, out of stock last"
-weight: 5
+weight: 4
 ---
 
 # Faceted search - Display unavailable, out of stock last

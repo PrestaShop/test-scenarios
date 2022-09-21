@@ -1,6 +1,6 @@
 ---
 title: "Faceted search - Edit template - Property filter"
-weight: 14
+weight: 13
 ---
 
 # Faceted search - Edit template - Property filter

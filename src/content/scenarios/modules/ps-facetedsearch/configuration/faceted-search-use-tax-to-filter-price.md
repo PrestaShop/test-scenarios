@@ -1,6 +1,6 @@
 ---
 title: "Faceted search - Use tax to filter price"
-weight: 7
+weight: 6
 ---
 
 # Faceted search - Use tax to filter price

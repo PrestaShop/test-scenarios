@@ -1,6 +1,6 @@
 ---
 title: "Faceted search - Edit template - Stock filter"
-weight: 15
+weight: 14
 ---
 
 # Faceted search - Edit template - Stock filter

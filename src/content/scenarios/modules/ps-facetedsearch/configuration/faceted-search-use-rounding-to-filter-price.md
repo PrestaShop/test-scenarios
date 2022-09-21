@@ -1,6 +1,6 @@
 ---
 title: "Faceted search - Use rounding to filter price"
-weight: 8
+weight: 7
 ---
 
 # Faceted search - Use rounding to filter price

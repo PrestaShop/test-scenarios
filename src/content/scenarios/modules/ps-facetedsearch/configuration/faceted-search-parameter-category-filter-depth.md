@@ -1,6 +1,6 @@
 ---
 title: "Faceted search - Parameter Category filter depth"
-weight: 6
+weight: 5
 ---
 
 # Faceted search - Parameter Category filter depth

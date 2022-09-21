@@ -1,9 +1,9 @@
 ---
-title: Crud Cart rule
-menuTitle: Crud Cart rule
+title: CRUD Cart rule
+menuTitle: CRUD Cart rule
 chapter: true
 ---
 
-# Crud Cart rule
+# CRUD Cart rule
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

@@ -1,6 +1,6 @@
 ---
 title: "Faceted search - Edit template - Paper type filter"
-weight: 19
+weight: 18
 ---
 
 # Faceted search - Edit template - Paper type filter
