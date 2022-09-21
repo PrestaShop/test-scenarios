@@ -128,6 +128,30 @@ Set these fields:
     </item>
     
     <item>
+      <title>BO - Cart rules - Conditions - Create simple order status restricted to Product selection</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-create-simple-order-status-restricted-to-product-selection.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-create-simple-order-status-restricted-to-product-selection.html</guid>
+      <description>BO - Cart rules - Conditions - Create simple order status restricted to Product selection Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The Cart rules page is well displayed   Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Set these fields:
+# Information:</description>
+    </item>
+    
+    <item>
+      <title>BO - Cart Rules - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-crud.html</guid>
+      <description>BO - Cart Rules - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The Cart rules page is well displayed   Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Case1: Without Code
+Set these fields:
+# Information:
+## Name
+## Description
+# Actions:</description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Attributes - Filter table</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-filter-table.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -184,6 +208,16 @@ All products id are between 1 and 3   Reset filters Number of products = Total o
     </item>
     
     <item>
+      <title>BO - Catalog - Stocks - simple Filter Stocks</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-simple-filter-stocks.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-simple-filter-stocks.html</guid>
+      <description>BO - Catalog - Stocks - simple Filter Stocks Steps    Step Description Expected result     Go to Catalog &amp;gt; Stocks Stock management page is displayed   Search by name Criteria : &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo; number of element in grid after filter &amp;lt; total of element in grid
+all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo;   reset filter number of element in grid after reset = total of element in grid   filter by reference Criteria : demo_1 number of element in grid after filter &amp;lt; total of element in grid</description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Suppliers - CRUD</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -195,18 +229,35 @@ All products id are between 1 and 3   Reset filters Number of products = Total o
     </item>
     
     <item>
-      <title>BO - CRUD cart rule</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-crud-cart-rule.html</link>
+      <title>BO - Catalog Cart Rules - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-crud-cart-rule.html</guid>
-      <description>BO - CRUD cart rule Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The Cart rules page is well displayed   Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Case1: Without Code
-Set these fields:
-# Information:
-## Name
-## Description
-# Actions:
-## Discount = 20%</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-crud.html</guid>
+      <description>BO - Catalog Cart Rules - CRUD </description>
+    </item>
+    
+    <item>
+      <title>BO - Catalog- Files - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html</guid>
+      <description>BO - Catalog- Files - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; Catalog&amp;gt; Files page Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File&amp;rdquo; Title contains &amp;lsquo;Add new file&amp;rsquo;   Set these fields:
+# name: system.fileName from faker
+# frName: same as name
+# description: lorem.sentence from faker
+# frDescription: same as description
+# filename: name + &amp;lsquo;.text&amp;rsquo; and click on &amp;ldquo;Save&amp;rdquo; The successful message &amp;ldquo;Successful creation.</description>
+    </item>
+    
+    <item>
+      <title>BO - Customers - Filter and Quick Edit</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-filter-and-quick-edit.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-filter-and-quick-edit.html</guid>
+      <description>BO - Customers - Filter and Quick Edit Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page Customers listing is displayed correctly   Reset all filters All filters are reset. All customers are displayed   Save the numbers of customers in a variable Number of customers is saved   Filter By id Criteria : &amp;lsquo;1&amp;rsquo; Customers list is filtered.</description>
     </item>
     
     <item>
@@ -216,20 +267,6 @@ Set these fields:
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-enable-disable-demo-mode-check-stats.html</guid>
       <description>BO - Dashboard - Enable/Disable demo mode + check stats Steps    Step Description Expected result     Go to BO -&amp;gt; Dashboard page The dashboard page is displayed   Enable Demo mode Demo mode is enabled and fake stats are generated.   Disable Demo mode Demo mode is disabled, fake stats are no longer displayed and real states are displayed    </description>
-    </item>
-    
-    <item>
-      <title>BO - Files - CRUD File</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-crud-file.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-crud-file.html</guid>
-      <description>BO - Files - CRUD File Steps    Step Description Expected result     Go to BO &amp;gt; Catalog&amp;gt; Files page Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File&amp;rdquo; Title contains &amp;lsquo;Add new file&amp;rsquo;   Set these fields:
-# name: system.fileName from faker
-# frName: same as name
-# description: lorem.sentence from faker
-# frDescription: same as description
-# filename: name + &amp;lsquo;.text&amp;rsquo; and click on &amp;ldquo;Save&amp;rdquo; The successful message &amp;ldquo;Successful creation.</description>
     </item>
     
     <item>
@@ -360,6 +397,15 @@ The invoice is created successfully   Click on &amp;ldquo;Partial refund&amp;rdq
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-within-word.html</guid>
       <description>BO - Search - Search within word </description>
+    </item>
+    
+    <item>
+      <title>BO - Stocks - Movements - Filter by category, movement type, employee and period</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-filter-by-category-movement-type-employee-and-period.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-filter-by-category-movement-type-employee-and-period.html</guid>
+      <description>BO - Stocks - Movements - Filter by category, movement type, employee and period </description>
     </item>
     
     <item>
@@ -704,19 +750,6 @@ title contains &amp;lsquo;Currencies •&amp;rsquo;   Create new currency</descr
     </item>
     
     <item>
-      <title>Create simple order status restricted to Product selection</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/create-simple-order-status-restricted-to-product-selection.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/create-simple-order-status-restricted-to-product-selection.html</guid>
-      <description>Create simple order status restricted to Product selection Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The Cart rules page is well displayed   Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Set these fields:
-# Information:
-## Name
-## Description
-# Conditions ## Check Product Selection # Actions:</description>
-    </item>
-    
-    <item>
       <title>Create, Check Footer Linkwidget, Delete</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/link-widget/create-check-footer-linkwidget-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -739,15 +772,6 @@ customPages: [{name: &amp;lsquo;Home in footer&amp;rsquo;, url: global.</descrip
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/create-download-and-delete-db-backup.html</guid>
       <description>Create, Download and Delete Db Backup Steps    Step Description Expected result     go to database &amp;gt; sql manager page title contains &amp;lsquo;SQL Manager&amp;rsquo;   go to db backup page title contains &amp;lsquo;DB Backup&amp;rsquo;   get number of db backups number of backups = 0   generate new db backup Successful message is displayed
 number of backups = 1   get name of backup generated and Download it (by clicking on it) File with correct name exist in your download directory   delete backup from table (with drop down button) successful message is displayed</description>
-    </item>
-    
-    <item>
-      <title>CRUD catalog cart rule</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/crud-catalog-cart-rule.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/crud-catalog-cart-rule.html</guid>
-      <description>CRUD catalog cart rule </description>
     </item>
     
     <item>
@@ -1045,12 +1069,22 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
     </item>
     
     <item>
-      <title>Faceted search should be displayed </title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-should-be-displayed.html</link>
+      <title>Faceted search module - Show the number of matching products&#39;s field configuration</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-show-the-number-of-matching-products-s-field-configuration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-should-be-displayed.html</guid>
-      <description>Faceted search should be displayed Steps    Step Description Expected result     Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products Many product should be displayed and you can see at the bottom left many parameters to refined your research   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search &amp;quot; and clic on the down arrow on the right of &amp;ldquo;faceted search&amp;rdquo; There is 4 different proposition : * Disable mobile * Disable * Reset</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-show-the-number-of-matching-products-s-field-configuration.html</guid>
+      <description>Faceted search module - Show the number of matching products&#39;s field configuration Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Click on the switch named &amp;ldquo;Show the number of matching products&amp;rdquo; to disable it &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button A successful message &amp;ldquo;Settings saved successfully&amp;rdquo; is displayed   Click on &amp;ldquo;View my shop&amp;rdquo; link in the header &amp;gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Click on &amp;ldquo;All products&amp;rdquo; at the bottom of &amp;ldquo;Popular products&amp;rdquo; section Many product should be displayed and you can see at the bottom left many parameters without number of matching product on it   Go back to BO &amp;gt; &amp;ldquo;Configure Faceted search&amp;rdquo; page &amp;gt; Click on the switch named &amp;ldquo;Show the number of matching products&amp;rdquo; to enable it &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button A successful message &amp;ldquo;Settings saved successfully&amp;rdquo; is displayed   Go to FO &amp;gt; Reload the page Many product should be displayed and you can see at the bottom left many parameters with number of matching product on it    </description>
+    </item>
+    
+    <item>
+      <title>Faceted search module - Upgrade module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-upgrade-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-upgrade-module.html</guid>
+      <description>Faceted search module - Upgrade module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on &amp;ldquo;Upgrade&amp;rdquo; button at the right of the module A modal is open with:
+* Title: &amp;ldquo;Are you sure you want to upgrade this module?</description>
     </item>
     
     <item>
@@ -1069,15 +1103,6 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/filter.html</guid>
       <description>Filter </description>
-    </item>
-    
-    <item>
-      <title>Filter And Quick Edit Customers</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/filter-and-quick-edit-customers.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/filter-and-quick-edit-customers.html</guid>
-      <description>Filter And Quick Edit Customers Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page Customers listing is displayed correctly   Reset all filters All filters are reset. All customers are displayed   Save the numbers of customers in a variable Number of customers is saved   Filter By id Criteria : &amp;lsquo;1&amp;rsquo; Customers list is filtered. Customers listed have 1 in their ID   Reset all filters All filters are reset.</description>
     </item>
     
     <item>
@@ -1111,15 +1136,6 @@ defaultPage: Orders</description>
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/filter-and-quick-edit-taxes.html</guid>
       <description>Filter And Quick Edit Taxes Steps    Step Description Expected result     Go to BO Login page is displayed   Sign in to Bo Dashboard page is displayed   Go to International -&amp;gt; Taxes Page Taxes Page is displayed   Reset filter and get number of taxes in BO Number of taxes is above 0   Filter by id
 Criteria : 1 First element in grid has id=1</description>
-    </item>
-    
-    <item>
-      <title>Filter by category, movement type, employee and period</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/filter-by-category-movement-type-employee-and-period.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/filter-by-category-movement-type-employee-and-period.html</guid>
-      <description>Filter by category, movement type, employee and period </description>
     </item>
     
     <item>
@@ -1676,16 +1692,6 @@ Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Or
     </item>
     
     <item>
-      <title>simple Filter Stocks</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/simple-filter-stocks.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/simple-filter-stocks.html</guid>
-      <description>simple Filter Stocks Steps    Step Description Expected result     Go to Catalog &amp;gt; Stocks Stock management page is displayed   Search by name Criteria : &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo; number of element in grid after filter &amp;lt; total of element in grid
-all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&amp;rsquo;   reset filter number of element in grid after reset = total of element in grid   filter by reference Criteria : demo_1 number of element in grid after filter &amp;lt; total of element in grid</description>
-    </item>
-    
-    <item>
       <title>Smarty</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/smarty.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1967,15 +1973,6 @@ L&amp;rsquo;action Upgrade sur le module ps_customersignin a réussi.&amp;rdquo;
     </item>
     
     <item>
-      <title>Upgrade ps_facetedsearch module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/upgrade-ps-facetedsearch-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/upgrade-ps-facetedsearch-module.html</guid>
-      <description>Upgrade ps_facetedsearch module Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_facetedsearch The module page should be displayed and module ps_facetedsearch should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    </description>
-    </item>
-    
-    <item>
       <title>UpgradeShop</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/upgrade/upgradeshop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2084,6 +2081,25 @@ Set these fields and click on Save An alert &amp;ldquo;Successful creation.&amp
     </item>
     
     <item>
+      <title>BO - Cart rules - Conditions - Create simple order status restricted to a single customer</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-create-simple-order-status-restricted-to-a-single-customer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-create-simple-order-status-restricted-to-a-single-customer.html</guid>
+      <description>BO - Cart rules - Conditions - Create simple order status restricted to a single customer Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The Cart rules page is well displayed   Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Set these fields:
+# Information:</description>
+    </item>
+    
+    <item>
+      <title>BO - Cart Rules - Filter, sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-filter-sort-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-filter-sort-and-pagination.html</guid>
+      <description>BO - Cart Rules - Filter, sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rule page The cart rule page is well displayed   Filter By ID Number of cart rules &amp;lt; Total cart rules and the list contains the searched ID   Reset Filter Number cart rules = Total of cart rules   Filter by Name Number of cart rules &amp;lt; Total cart rules and the list contains the searched Name   Reset Filter Number cart rules = Total of cart rules   Filter by Priority Number of cart rules &amp;lt; Total cart rules and the list contains the searched priority   Reset Filter Number cart rules = Total of cart rules   Filter by Code Number of cart rules &amp;lt; Total cart rules and the list contains the searched Code   Reset Filter Number cart rules = Total of cart rules   Filter by Quantity Number of cart rules &amp;lt; Total cart rules and the list contains the searched Quantity   Reset Filter Number cart rules = Total of cart rules   Filter by Expiration date Number of cart rules &amp;lt; Total cart rules and the list contains the searched Date   Reset Filter Number cart rules = Total of cart rules   Filter by status Number of cart rules &amp;lt; Total cart rules and the list contains the searched Status   Reset Filter Number cart rules = Total of cart rules   Sort by ID desc Sort by ID desc   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Priority asc The list is sorted by priority asc   Sort by Priority desc The list is sorted by priority desc   Sort by Code asc The list is sorted by code asc   Sort by Code desc The list is sorted by code desc   Sort by Quantity asc The list is sorted by quantity asc   Sort by Quanity desc The list is sorted by Quantity desc   Sort by Expiration date asc The list is sorted by Expiration date asc   Sort by Expiration date desc The list is sorted by Expiration date desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created cart rules All cart rules are well deleted    </description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Attributes - Sort </title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2138,6 +2154,15 @@ Set these fields and click on Save An alert &amp;ldquo;Successful creation.&amp
     </item>
     
     <item>
+      <title>BO - Catalog - Stocks - Sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-sort-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-sort-and-pagination.html</guid>
+      <description>BO - Catalog - Stocks - Sort and pagination </description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Suppliers - Filter, Quick Edit and Bulk Actions</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-filter-quick-edit-and-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2145,6 +2170,25 @@ Set these fields and click on Save An alert &amp;ldquo;Successful creation.&amp
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-filter-quick-edit-and-bulk-actions.html</guid>
       <description>BO - Catalog - Suppliers - Filter, Quick Edit and Bulk Actions Steps    Step Description Expected result     Reset all filters and get the number of suppliers Number Suppliers = Total Suppliers   Filter by ID Number of suppliers &amp;lt; Total suppliers
 The list contains the searched ID   reset filter number of suppliers after reset = total of suppliers   filter supplier by name of first supplier created number of suppliers after filter &amp;lt;= total of suppliers</description>
+    </item>
+    
+    <item>
+      <title>BO - Catalog Cart Rules - Filter, sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-filter-sort-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-filter-sort-and-pagination.html</guid>
+      <description>BO - Catalog Cart Rules - Filter, sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog price rule The Catalog price rule page is well displayed   Filter by ID Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched ID   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Name Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Name   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Shop Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Shop   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by currency Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched currency   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Group Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Group   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by From Quantity Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Quanity   Reset Filter Number of catalog price rules = Total of catalog price rules   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Reduction type Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched reduction type   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Reduction Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Reduction   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Beginning Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched beginning   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by End Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched End   Reset Filter Number of catalog price rules = Total of catalog price rules   Sort by ID desc The list is sorted by ID desc   Sort by Name asc The list is sorted by name asc   Sort by Name desc The list is sorted by name desc   Sort by Shop asc The list is sorted by shop asc   Sort by Shop desc The list is sorted by shop desc   Sort by currency asc The list is sorted by currency asc   Sort by currency desc The list is sorted by currency desc   Sort by country asc The list is sorted by country asc   Sort by country desc The list is sorted by country desc   Sort by Group asc The list is sorted by group asc   Sort by Group desc The list is sorted by group desc   Sort by From quantity asc The list is sorted by quanity asc   Sort by quantity desc The list is sorted by quantity desc   Sort by Reduction asc The list is sorted by reduction asc   Sort by Reduction desc The list is sorted by Reduction desc   Sort by beginning asc The list is sorted by begining asc   Sort by begining desc The list is sorted by beginning desc   Sort by End asc The list is sorted End asc   Sort by End desc The list is sorted by End desc   Sort by ID asc The list is sorted by ID asc   Select All catalog price rules created, delete with bulk action and confirm the deletion A green alert &amp;ldquo;The selection has been successfully deleted.</description>
+    </item>
+    
+    <item>
+      <title>BO - Catalog- Files - Bulk Actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html</guid>
+      <description>BO - Catalog- Files - Bulk Actions Steps    Step Description Expected result     go to &amp;lsquo;Catalog &amp;gt; Files&amp;rsquo; page Title contains &amp;lsquo;Files&amp;rsquo;   reset filters Total of files &amp;gt;= 0   filter by name &amp;lsquo;todelete&amp;rsquo; number of files = 2
+all rows column name contains &amp;lsquo;todelete&amp;rsquo;   Select All files All files are selected   Click on the &amp;ldquo;Bulk actions&amp;rdquo; button A dropdown list page   delete files by bulk actions and confirm the deletion The successful message &amp;ldquo;The selection has been successfully deleted.</description>
     </item>
     
     <item>
@@ -2158,22 +2202,21 @@ The list contains the searched ID   reset filter number of suppliers after reset
     </item>
     
     <item>
+      <title>BO - Customers - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-crud.html</guid>
+      <description>BO - Customers - CRUD Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Click on Add new customer New Customer Page is displayed correctly. Page title contains Creating a new Customer   Fill all information with Data below &amp;gt; Save Form Customer is saved correctly.</description>
+    </item>
+    
+    <item>
       <title>BO - Dashboard - Tips and update (check language)</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-tips-and-update-check-language.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-tips-and-update-check-language.html</guid>
       <description>BO - Dashboard - Tips and update (check language) </description>
-    </item>
-    
-    <item>
-      <title>BO - Files - Bulk Actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-bulk-actions.html</guid>
-      <description>BO - Files - Bulk Actions Steps    Step Description Expected result     go to &amp;lsquo;Catalog &amp;gt; Files&amp;rsquo; page Title contains &amp;lsquo;Files&amp;rsquo;   reset filters Total of files &amp;gt;= 0   filter by name &amp;lsquo;todelete&amp;rsquo; number of files = 2
-all rows column name contains &amp;lsquo;todelete&amp;rsquo;   Select All files All files are selected   Click on the &amp;ldquo;Bulk actions&amp;rdquo; button A dropdown list page   delete files by bulk actions and confirm the deletion The successful message &amp;ldquo;The selection has been successfully deleted.</description>
     </item>
     
     <item>
@@ -2289,6 +2332,15 @@ and click on &amp;ldquo;Save&amp;rdquo; The customer search display the new cust
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-exact-end-match.html</guid>
       <description>BO - Search - Search exact end match </description>
+    </item>
+    
+    <item>
+      <title>BO - Stocks - Movements - Sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-sort-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-sort-and-pagination.html</guid>
+      <description>BO - Stocks - Movements - Sort and pagination </description>
     </item>
     
     <item>
@@ -2475,19 +2527,6 @@ Category from which to pick products to be displayed should be 3   Go to front o
     </item>
     
     <item>
-      <title>Create simple order status restricted to a single customer</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/create-simple-order-status-restricted-to-a-single-customer.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/create-simple-order-status-restricted-to-a-single-customer.html</guid>
-      <description>Create simple order status restricted to a single customer Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The Cart rules page is well displayed   Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Set these fields:
-# Information:
-## Name
-## Description
-# Conditions ## Set a &amp;ldquo;limit to a single customer&amp;rdquo;</description>
-    </item>
-    
-    <item>
       <title>Create Unofficial Currency</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/create-unofficial-currency.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2627,15 +2666,6 @@ number of languages = total of languages + 1   go to FO New language exist in li
       <description>CRUD Contact Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contact&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   go to add new contact page page title contains &amp;lsquo;Add new&amp;rsquo;   Create contact
 (faker data) Successful message is displayed
 number of contacts after creation = total of contacts + 1   filter list by email of created contact Contact appears in the top of the list   go to edit contact page page title contains &amp;lsquo;Edit:&amp;rsquo;   Update contact</description>
-    </item>
-    
-    <item>
-      <title>CRUD Customer In BO</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/crud-customer-in-bo.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/crud-customer-in-bo.html</guid>
-      <description>CRUD Customer In BO Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Click on Add new customer New Customer Page is displayed correctly. Page title contains Creating a new Customer   Fill all information with Data below &amp;gt; Save Form Customer is saved correctly.</description>
     </item>
     
     <item>
@@ -2972,12 +3002,21 @@ Click on it, a new page for Twitter site is open    </description>
     </item>
     
     <item>
-      <title>Faceted search - Display number of matching product</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-number-of-matching-product.html</link>
+      <title>Faceted search module - Show products from subcategories&#39;s field configuration</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-show-products-from-subcategories-s-field-configuration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-number-of-matching-product.html</guid>
-      <description>Faceted search - Display number of matching product Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Show the number of matching products&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products Many product should be displayed and you can see at the bottom left many parameters without number of matching product on it   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Show the number of matching products&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products Many product should be displayed and you can see at the bottom left many parameters with number of matching product on it    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-show-products-from-subcategories-s-field-configuration.html</guid>
+      <description>Faceted search module - Show products from subcategories&#39;s field configuration Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; &amp;ldquo;New product&amp;rdquo; page is displayed   Setup the name the quantity, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   In &amp;ldquo;Categories&amp;rdquo; section of the &amp;ldquo;Basic settings&amp;rdquo; tab, check &amp;ldquo;Clothes&amp;rdquo; and uncheck &amp;ldquo;Home&amp;rdquo; &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button.</description>
+    </item>
+    
+    <item>
+      <title>Faceted search module - Uninstall/Install module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-uninstall-install-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-uninstall-install-module.html</guid>
+      <description>Faceted search module - Uninstall/Install module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
     </item>
     
     <item>
@@ -3052,24 +3091,6 @@ number of order messages = Total of orders messages + 1   Go to create new order
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/menu-and-navigation/sort-and-filter/filter-products.html</guid>
       <description>Filter products </description>
-    </item>
-    
-    <item>
-      <title>Filter, sort and pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/filter-sort-and-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/filter-sort-and-pagination.html</guid>
-      <description>Filter, sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rule page The cart rule page is well displayed   Filter By ID Number of cart rules &amp;lt; Total cart rules and the list contains the searched ID   Reset Filter Number cart rules = Total of cart rules   Filter by Name Number of cart rules &amp;lt; Total cart rules and the list contains the searched Name   Reset Filter Number cart rules = Total of cart rules   Filter by Priority Number of cart rules &amp;lt; Total cart rules and the list contains the searched priority   Reset Filter Number cart rules = Total of cart rules   Filter by Code Number of cart rules &amp;lt; Total cart rules and the list contains the searched Code   Reset Filter Number cart rules = Total of cart rules   Filter by Quantity Number of cart rules &amp;lt; Total cart rules and the list contains the searched Quantity   Reset Filter Number cart rules = Total of cart rules   Filter by Expiration date Number of cart rules &amp;lt; Total cart rules and the list contains the searched Date   Reset Filter Number cart rules = Total of cart rules   Filter by status Number of cart rules &amp;lt; Total cart rules and the list contains the searched Status   Reset Filter Number cart rules = Total of cart rules   Sort by ID desc Sort by ID desc   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Priority asc The list is sorted by priority asc   Sort by Priority desc The list is sorted by priority desc   Sort by Code asc The list is sorted by code asc   Sort by Code desc The list is sorted by code desc   Sort by Quantity asc The list is sorted by quantity asc   Sort by Quanity desc The list is sorted by Quantity desc   Sort by Expiration date asc The list is sorted by Expiration date asc   Sort by Expiration date desc The list is sorted by Expiration date desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created cart rules All cart rules are well deleted    </description>
-    </item>
-    
-    <item>
-      <title>Filter, sort and pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/filter-sort-and-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/filter-sort-and-pagination.html</guid>
-      <description>Filter, sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog price rule The Catalog price rule page is well displayed   Filter by ID Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched ID   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Name Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Name   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Shop Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Shop   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by currency Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched currency   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Group Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Group   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by From Quantity Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Quanity   Reset Filter Number of catalog price rules = Total of catalog price rules   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Reduction type Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched reduction type   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Reduction Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Reduction   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Beginning Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched beginning   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by End Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched End   Reset Filter Number of catalog price rules = Total of catalog price rules   Sort by ID desc The list is sorted by ID desc   Sort by Name asc The list is sorted by name asc   Sort by Name desc The list is sorted by name desc   Sort by Shop asc The list is sorted by shop asc   Sort by Shop desc The list is sorted by shop desc   Sort by currency asc The list is sorted by currency asc   Sort by currency desc The list is sorted by currency desc   Sort by country asc The list is sorted by country asc   Sort by country desc The list is sorted by country desc   Sort by Group asc The list is sorted by group asc   Sort by Group desc The list is sorted by group desc   Sort by From quantity asc The list is sorted by quanity asc   Sort by quantity desc The list is sorted by quantity desc   Sort by Reduction asc The list is sorted by reduction asc   Sort by Reduction desc The list is sorted by Reduction desc   Sort by beginning asc The list is sorted by begining asc   Sort by begining desc The list is sorted by beginning desc   Sort by End asc The list is sorted End asc   Sort by End desc The list is sorted by End desc   Sort by ID asc The list is sorted by ID asc   Select All catalog price rules created, delete with bulk action and confirm the deletion A green alert &amp;ldquo;The selection has been successfully deleted.</description>
     </item>
     
     <item>
@@ -3216,15 +3237,6 @@ Select &amp;amp; click on the product &amp;ldquo;Mountain fox notebook&amp;rdquo
     </item>
     
     <item>
-      <title>Install/Uninstall ps_facetedsearch module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/install-uninstall-ps-facetedsearch-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/install-uninstall-ps-facetedsearch-module.html</guid>
-      <description>Install/Uninstall ps_facetedsearch module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager The Module Manager is well displayed   Click on Upload a module and drop the zip The alert &amp;ldquo;Module installed!&amp;rdquo; is well displayed and the &amp;ldquo;Configure&amp;rdquo; button is well displayed   Refresh the page and search the exact module ps_facetedsearch The module is well displayed   Click on uninstall and confirm the uninstall action without selecting this {color:#172b4d}Option: delete module folder after uninstall.</description>
-    </item>
-    
-    <item>
       <title>Login with an email without account</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customersignin/fo/login-with-an-email-without-account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3368,24 +3380,6 @@ Select &amp;amp; click on the product &amp;ldquo;Mountain fox notebook&amp;rdquo
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/checkout/personal-information/sign-in.html</guid>
       <description>Sign in </description>
-    </item>
-    
-    <item>
-      <title>Sort and pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/sort-and-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/sort-and-pagination.html</guid>
-      <description>Sort and pagination </description>
-    </item>
-    
-    <item>
-      <title>Sort and pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/sort-and-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/sort-and-pagination.html</guid>
-      <description>Sort and pagination </description>
     </item>
     
     <item>
@@ -3727,6 +3721,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>BO - Cart Rules - Quick Edit</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-quick-edit.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-quick-edit.html</guid>
+      <description>BO - Cart Rules - Quick Edit Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The cart rules page is well displayed   Click on the icon status to disable the cart rule A green alert &amp;ldquo;The status has been successfully updated.&amp;rdquo; is displayed and the cart rule is well disabled   Click on the icon status again to enable the cart rule A green alert &amp;ldquo;The status has been successfully updated.</description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Attributes - Pagination</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3783,12 +3786,42 @@ Message is displayed : &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
+      <title>BO - Catalog - Stocks - Update Quantity by setting input</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-update-quantity-by-setting-input.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-update-quantity-by-setting-input.html</guid>
+      <description>BO - Catalog - Stocks - Update Quantity by setting input Steps    Step Description Expected result     Go to catalog Stocks Title contains &amp;lsquo;Stocks *&#39;
+Number of element in grid &amp;gt; 0   Filter by name
+Criteria : &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo; Number of element in grid &amp;lt; Total of elements in grid
+First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   Add Quantity by setting input value</description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Suppliers - Sort &amp; Pagination</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-sort-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-sort-pagination.html</guid>
       <description>BO - Catalog - Suppliers - Sort &amp;amp; Pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Suppliers page The suppliers page is well displayed   Sort by ID desc The list is sorted by ID desc (3-&amp;gt;2-&amp;gt;1)   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Number of products asc The list is sorted by Number of products asc (0-&amp;gt;1-&amp;gt;2)   Sort by Number of products desc The list is sorted by Number of products desc (2-&amp;gt;1-&amp;gt;0)   Sort by Status asc The list is sorted asc   Sort by Status desc The list is sorted by desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete created Suppliers Suppliers well created    </description>
+    </item>
+    
+    <item>
+      <title>BO - Catalog Cart Rules - Quick Edit (TO DELETE ?)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-quick-edit-to-delete.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-quick-edit-to-delete.html</guid>
+      <description>BO - Catalog Cart Rules - Quick Edit (TO DELETE ?) </description>
+    </item>
+    
+    <item>
+      <title>BO - Catalog- Files - Filter, Pagination and Sort</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-and-sort.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-and-sort.html</guid>
+      <description>BO - Catalog- Files - Filter, Pagination and Sort Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The files page is well displayed   Filter By ID Number files &amp;lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files &amp;lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size Number of files &amp;lt; Total of files and the list contains the searched size   Reset Filter Number files = Total files   Filter by Products Number Files &amp;lt; Total Files and the list contain the searched number of Products   Reset Filter Number files = Total files   Sort by ID desc The list is sorted by ID desc (3-&amp;gt;2-&amp;gt;1)   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by File asc The list is sorted by File asc   Sort by File desc The list is sorted bu file desc   Sort by Size asc The list is sorted by Size asc   Sort by Size desc The list is sorted by Size desc   Sort by number of Products asc The list is sorted by number of Products asc   Sort by number of Products desc The list is sorted by number of Products desc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created files All files are well deleted    </description>
     </item>
     
     <item>
@@ -3811,21 +3844,23 @@ Message is displayed : &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
+      <title>BO - Customers - Bulk Actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions.html</guid>
+      <description>BO - Customers - Bulk Actions Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers&amp;quot; page&amp;quot; The Customers page is displayed correctly   The Customers page is displayed correctly All filters are reset
+All products are displayed   Click on Add new customer&amp;quot; New Customer Page is displayed correctly
+Page title contains Creating a new Customer&amp;quot;   Fill all information : &amp;gt; Social title : Mrs / Mrs</description>
+    </item>
+    
+    <item>
       <title>BO - Dashboard - Activity overview</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-activity-overview.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-activity-overview.html</guid>
       <description>BO - Dashboard - Activity overview </description>
-    </item>
-    
-    <item>
-      <title>BO - Filter, Pagination and sort files</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-filter-pagination-and-sort-files.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-filter-pagination-and-sort-files.html</guid>
-      <description>BO - Filter, Pagination and sort files Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The files page is well displayed   Filter By ID Number files &amp;lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files &amp;lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size Number of files &amp;lt; Total of files and the list contains the searched size   Reset Filter Number files = Total files   Filter by Products Number Files &amp;lt; Total Files and the list contain the searched number of Products   Reset Filter Number files = Total files   Sort by ID desc The list is sorted by ID desc (3-&amp;gt;2-&amp;gt;1)   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by File asc The list is sorted by File asc   Sort by File desc The list is sorted bu file desc   Sort by Size asc The list is sorted by Size asc   Sort by Size desc The list is sorted by Size desc   Sort by number of Products asc The list is sorted by number of Products asc   Sort by number of Products desc The list is sorted by number of Products desc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created files All files are well deleted    </description>
     </item>
     
     <item>
@@ -4241,17 +4276,6 @@ vatNumber : &amp;lsquo;&#39;</description>
     </item>
     
     <item>
-      <title>Customers Bulk Actions In BO</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/customers-bulk-actions-in-bo.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/customers-bulk-actions-in-bo.html</guid>
-      <description>Customers Bulk Actions In BO Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers&amp;quot; page&amp;quot; The Customers page is displayed correctly   The Customers page is displayed correctly All filters are reset
-All products are displayed   Click on Add new customer&amp;quot; New Customer Page is displayed correctly
-Page title contains Creating a new Customer&amp;quot;   Fill all information : &amp;gt; Social title : Mrs / Mrs</description>
-    </item>
-    
-    <item>
       <title>default carrier</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/preferences/default-carrier.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4286,15 +4310,6 @@ Page title contains Creating a new Customer&amp;quot;   Fill all information : &
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/delete-a-currency.html</guid>
       <description>Delete a currency Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 3 currencies : GBP, JPY and USD 3 new currencies are created
 Message &amp;ldquo;Successful creation&amp;rdquo; appears   Click on the 3-dot button for USD &amp;gt; Delete A popup titled &amp;ldquo;Delete selection&amp;rdquo; appears   Click Delete to confirm the deletion Message &amp;ldquo;Successful deletion.&amp;rdquo; appears</description>
-    </item>
-    
-    <item>
-      <title>Disable / Enable ps_facetedsearch module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/disable-enable-ps-facetedsearch-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/disable-enable-ps-facetedsearch-module.html</guid>
-      <description>Disable / Enable ps_facetedsearch module </description>
     </item>
     
     <item>
@@ -4435,12 +4450,21 @@ Click on it, a new page for Pinterest site is open    </description>
     </item>
     
     <item>
-      <title>Faceted search - Display  products from subcategories</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-products-from-subcategories.html</link>
+      <title>Faceted search module - Disable/Enable module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-products-from-subcategories.html</guid>
-      <description>Faceted search - Display products from subcategories Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   In the category of the basic settings, check &amp;ldquo;clothes&amp;rdquo; and uncheck &amp;ldquo;Home&amp;rdquo;, Save It.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-disable-enable-module.html</guid>
+      <description>Faceted search module - Disable/Enable module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
+    </item>
+    
+    <item>
+      <title>Faceted search module - Show products only from default category&#39;s field configuration</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-show-products-only-from-default-category-s-field-configuration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-show-products-only-from-default-category-s-field-configuration.html</guid>
+      <description>Faceted search module - Show products only from default category&#39;s field configuration Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Click on the switch named &amp;ldquo;Show products only from default category&amp;rdquo; to enable it &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * A successful message &amp;ldquo;Settings saved successfully&amp;rdquo; is displayed</description>
     </item>
     
     <item>
@@ -4611,6 +4635,15 @@ Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on
     </item>
     
     <item>
+      <title>Module Managers - Alert - Uninstall</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/module-managers-alert-uninstall.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/module-managers-alert-uninstall.html</guid>
+      <description>Module Managers - Alert - Uninstall </description>
+    </item>
+    
+    <item>
       <title>Navigate in categories in side block categories</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/menu-and-navigation/navigate-in-categories/navigate-in-categories-in-side-block-categories.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4698,24 +4731,6 @@ Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/profiles-bulk-actions-todo.html</guid>
       <description>Profiles Bulk Actions (TODO) </description>
-    </item>
-    
-    <item>
-      <title>Quick Edit Cart rule</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/quick-edit-cart-rule.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/quick-edit-cart-rule.html</guid>
-      <description>Quick Edit Cart rule Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The cart rules page is well displayed   Click on the icon status to disable the cart rule A green alert &amp;ldquo;The status has been successfully updated.&amp;rdquo; is displayed and the cart rule is well disabled   Click on the icon status again to enable the cart rule A green alert &amp;ldquo;The status has been successfully updated.</description>
-    </item>
-    
-    <item>
-      <title>Quick Edit Catalog Cart rule (TO DELETE ?)</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/quick-edit-catalog-cart-rule-to-delete.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/quick-edit-catalog-cart-rule-to-delete.html</guid>
-      <description>Quick Edit Catalog Cart rule (TO DELETE ?) </description>
     </item>
     
     <item>
@@ -4862,15 +4877,6 @@ Successful message is displayed   Download and open CSV file of the created quer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration/uninstall.html</guid>
-      <description>Uninstall </description>
-    </item>
-    
-    <item>
-      <title>Uninstall</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/uninstall.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/uninstall.html</guid>
       <description>Uninstall </description>
     </item>
     
@@ -5101,18 +5107,6 @@ L&amp;rsquo;action Uninstall sur le module ps_customersignin a réussi.&amp;rdqu
     </item>
     
     <item>
-      <title>Update Quantity by setting input</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/update-quantity-by-setting-input.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/update-quantity-by-setting-input.html</guid>
-      <description>Update Quantity by setting input Steps    Step Description Expected result     Go to catalog Stocks Title contains &amp;lsquo;Stocks *&#39;
-Number of element in grid &amp;gt; 0   Filter by name
-Criteria : &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo; Number of element in grid &amp;lt; Total of elements in grid
-First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   Add Quantity by setting input value</description>
-    </item>
-    
-    <item>
       <title>Upgrade</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/installation/upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5219,6 +5213,16 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>BO - Cart Rules - Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-bulk-actions.html</guid>
+      <description>BO - Cart Rules - Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The cart rule page is well displayed   Filter by Name &amp;ldquo;Todelete&amp;rdquo; The list contains the searched Name   Select all cart rules and disable cart rules with bulk action {color:#ff0000}There is no alert {color:#172b4d}=&amp;gt; [https://github.com/PrestaShop/PrestaShop/issues/23756]{color}{color}
+{color:#ff0000}{color:#172b4d}Check that cart rules are disabled{color}{color}   Select all cart rules and enable them with bulk action {color:#ff0000}There is no alert =&amp;gt; [https://github.</description>
+    </item>
+    
+    <item>
       <title>BO - Cart rules - Case 4 - Status Disabled</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-4-status-disabled.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5295,12 +5299,42 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title>BO - Catalog - Stocks - Bulk Edit Quantity with Input</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-bulk-edit-quantity-with-input.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-bulk-edit-quantity-with-input.html</guid>
+      <description>BO - Catalog - Stocks - Bulk Edit Quantity with Input Steps    Step Description Expected result     Go to catalog Stocks Title contains &amp;lsquo;Stocks *&#39;
+Number of element in grid &amp;gt; 0   Filter by name
+Criteria : &amp;lsquo;Mountain fox notebook&amp;rsquo; Number of element in grid &amp;lt; Total of elements in grid
+In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 100 in bulk input quantity and click on apply new quantities Successful message : Stock successfully updated</description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Suppliers - Helper card</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-helper-card.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-helper-card.html</guid>
       <description>BO - Catalog - Suppliers - Helper card Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Suppliers page The Suppliers page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+    <item>
+      <title>BO - Catalog Cart Rules - Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-bulk-actions.html</guid>
+      <description>BO - Catalog Cart Rules - Bulk actions </description>
+    </item>
+    
+    <item>
+      <title>BO - Catalog- Files - Help button</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-help-button.html</guid>
+      <description>BO - Catalog- Files - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The Files page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
     </item>
     
     <item>
@@ -5311,6 +5345,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-crud-pack-of-products.html</guid>
       <description>BO - CRUD Pack of products Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly   Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Pack of products&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed
 * A description by type is displayed. For Pack of products: &amp;ldquo;A collection of products from your catalog.</description>
+    </item>
+    
+    <item>
+      <title>BO - Customers - Set and verify required fields</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-set-and-verify-required-fields.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-set-and-verify-required-fields.html</guid>
+      <description>BO - Customers - Set and verify required fields Steps    Step Description Expected result     Go to the Front Office. Click on Sign in&amp;quot;. Click on &amp;ldquo;No account ? Create one here&amp;rdquo; The Create an account&amp;quot; page is displayed&amp;quot;   Create an account with random informations. Leave the checkbox Receive offers from our partners&amp;quot; UNCHECKED. Click on &amp;ldquo;Save&amp;rdquo; The account is successfully created. You are redirected on the homepage, logged in   Login to BO.</description>
     </item>
     
     <item>
@@ -5330,15 +5373,6 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</guid>
       <description>BO - Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
 - Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine   Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    </description>
-    </item>
-    
-    <item>
-      <title>BO - Files - Help button</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-help-button.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-files-help-button.html</guid>
-      <description>BO - Files - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The Files page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
     </item>
     
     <item>
@@ -5430,25 +5464,6 @@ number of addresses = total of addresses + 1   go to add new address page page t
     
     <item>
       <title>Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bulk-actions.html</guid>
-      <description>Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The cart rule page is well displayed   Filter by Name &amp;ldquo;Todelete&amp;rdquo; The list contains the searched Name   Select all cart rules and disable cart rules with bulk action {color:#ff0000}There is no alert {color:#172b4d}=&amp;gt; [https://github.com/PrestaShop/PrestaShop/issues/23756]{color}{color}
-{color:#ff0000}{color:#172b4d}Check that cart rules are disabled{color}{color}   Select all cart rules and enable them with bulk action {color:#ff0000}There is no alert =&amp;gt; [https://github.</description>
-    </item>
-    
-    <item>
-      <title>Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bulk-actions.html</guid>
-      <description>Bulk actions </description>
-    </item>
-    
-    <item>
-      <title>Bulk actions</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/tax-rules/bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -5472,18 +5487,6 @@ number of addresses = total of addresses + 1   go to add new address page page t
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bulk-actions.html</guid>
       <description>Bulk actions </description>
-    </item>
-    
-    <item>
-      <title>Bulk Edit Quantity With Input</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bulk-edit-quantity-with-input.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bulk-edit-quantity-with-input.html</guid>
-      <description>Bulk Edit Quantity With Input Steps    Step Description Expected result     Go to catalog Stocks Title contains &amp;lsquo;Stocks *&#39;
-Number of element in grid &amp;gt; 0   Filter by name
-Criteria : &amp;lsquo;Mountain fox notebook&amp;rsquo; Number of element in grid &amp;lt; Total of elements in grid
-In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 100 in bulk input quantity and click on apply new quantities Successful message : Stock successfully updated</description>
     </item>
     
     <item>
@@ -5826,12 +5829,21 @@ Email logs table is displayed in the page    </description>
     </item>
     
     <item>
-      <title>Faceted search - Display  products only from default category</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-products-only-from-default-category.html</link>
+      <title>Faceted search - Display unavailable, out of stock last</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-unavailable-out-of-stock-last.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-products-only-from-default-category.html</guid>
-      <description>Faceted search - Display products only from default category Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   In the category of the basic settings, check &amp;ldquo;clothes&amp;rdquo; and uncheck &amp;ldquo;Home&amp;rdquo;, Save It.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-unavailable-out-of-stock-last.html</guid>
+      <description>Faceted search - Display unavailable, out of stock last Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Clic on &amp;ldquo;Go to catalog&amp;rdquo; the catalog page of the BO is well displayed   Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Show unavailable, out of stock last&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Clic on the second page at the bottom of the page Many product should be displayed and The product out of stock should be the penultimate of your shop   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Show unavailable, out of stock last&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Clic on the second page at the bottom of the page Many product should be displayed and The product out of stock should be the last one    </description>
+    </item>
+    
+    <item>
+      <title>Faceted search module - Uninstall and delete module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-uninstall-and-delete-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-uninstall-and-delete-module.html</guid>
+      <description>Faceted search module - Uninstall and delete module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
     </item>
     
     <item>
@@ -6097,15 +6109,6 @@ USD, PYG and JPY are in the list of currencies   Search by ISO &amp;ldquo;EUR&am
     </item>
     
     <item>
-      <title>Set and verify required fields</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/set-and-verify-required-fields.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/set-and-verify-required-fields.html</guid>
-      <description>Set and verify required fields Steps    Step Description Expected result     Go to the Front Office. Click on Sign in&amp;quot;. Click on &amp;ldquo;No account ? Create one here&amp;rdquo; The Create an account&amp;quot; page is displayed&amp;quot;   Create an account with random informations. Leave the checkbox Receive offers from our partners&amp;quot; UNCHECKED. Click on &amp;ldquo;Save&amp;rdquo; The account is successfully created. You are redirected on the homepage, logged in   Login to BO.</description>
-    </item>
-    
-    <item>
       <title>Set default country</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/localization/set-default-country.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6207,15 +6210,6 @@ ecoTax: &amp;lsquo;EU VAT For Virtual Products&amp;rsquo;, Update Successful</de
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/installation/theme-customization-module-reset-module.html</guid>
       <description>Theme Customization module - Reset module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_themecusto The module page list should be displayed and Theme Customization module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
-    </item>
-    
-    <item>
-      <title>Uninstall and delete ps_facetedsearch module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/uninstall-and-delete-ps-facetedsearch-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/uninstall-and-delete-ps-facetedsearch-module.html</guid>
-      <description>Uninstall and delete ps_facetedsearch module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module Manager The Module Manager is well displayed   Search the exact module ps_facetedsearch The module is well displayed   Click on uninstall and confirm the uninstall action with selecting this Option: delete module folder after uninstall. An alert &amp;ldquo;Uninstall action on module ps_facetedsearch succeeded.&amp;rdquo; is displayed   Refresh the page and search the exact module ps_facetedsearch No result displayed   Check the path +{color:#172b4d}PrestaShop/modules/{color}+ The folder ps_facetedsearch doesn&amp;rsquo;t exist    </description>
     </item>
     
     <item>
@@ -6357,6 +6351,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>BO - Catalog - Stocks - Filter Stocks by Status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-filter-stocks-by-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-filter-stocks-by-status.html</guid>
+      <description>BO - Catalog - Stocks - Filter Stocks by Status Steps    Step Description Expected result     Go to products page page title contains &amp;lsquo;Products&amp;rsquo;   Reset filters total of products &amp;gt; 0   Create disabled product Product created   Go to stocks page Page title contains &amp;lsquo;Stocks&amp;rsquo;   Filter by status = disabled New product created is displayed in list   Go back to products page and delete product Product successfully deleted    </description>
+    </item>
+    
+    <item>
       <title>BO - CRUD Virtual product</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-crud-virtual-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6364,6 +6367,22 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-crud-virtual-product.html</guid>
       <description>BO - CRUD Virtual product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly   Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Virtual product&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed
 * A description by type is displayed. For Virtual product: &amp;ldquo;An intangible product that doesn&amp;rsquo;t require shipping.</description>
+    </item>
+    
+    <item>
+      <title>BO - Customers - Pagination and sort</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-pagination-and-sort.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-pagination-and-sort.html</guid>
+      <description>BO - Customers - Pagination and sort Steps    Step Description Expected result     Login to BO
+Go to Customers &amp;gt; Customers The Customers page is displayed   Check the pagination is correct:
+- total number of items
+- current page
+- total of pages
+- number of items per page Total number of items should be correct
+Current page should be 1
+total of pages should be 1</description>
     </item>
     
     <item>
@@ -6689,12 +6708,21 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
-      <title>Faceted search - Display unavailable, out of stock last</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-unavailable-out-of-stock-last.html</link>
+      <title>Faceted search - Parameter Category filter depth</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-parameter-category-filter-depth.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-display-unavailable-out-of-stock-last.html</guid>
-      <description>Faceted search - Display unavailable, out of stock last Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Clic on &amp;ldquo;Go to catalog&amp;rdquo; the catalog page of the BO is well displayed   Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Show unavailable, out of stock last&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Clic on the second page at the bottom of the page Many product should be displayed and The product out of stock should be the penultimate of your shop   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Show unavailable, out of stock last&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Clic on the second page at the bottom of the page Many product should be displayed and The product out of stock should be the last one    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-parameter-category-filter-depth.html</guid>
+      <description>Faceted search - Parameter Category filter depth Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products Many product should be displayed and you can see at the left only three different categories   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products Many product should be displayed and you can see at the left more than three different categories   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed and the number is changed to &amp;ldquo;1&amp;rdquo;   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed and the number is changed to &amp;ldquo;1500&amp;rdquo;   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed and the number is changed to &amp;ldquo;1&amp;rdquo;    </description>
+    </item>
+    
+    <item>
+      <title>Faceted search module - Disable Mobile/Enable Mobile module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-disable-mobile-enable-mobile-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-disable-mobile-enable-mobile-module.html</guid>
+      <description>Faceted search module - Disable Mobile/Enable Mobile module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable Mobile&amp;rdquo; option * After loading, a green message &amp;ldquo;Disable mobile action on module ps_facetedsearch succeeded.</description>
     </item>
     
     <item>
@@ -6704,15 +6732,6 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/filter-sort-pagination-shops-urls.html</guid>
       <description>Filter sort pagination shops URLs </description>
-    </item>
-    
-    <item>
-      <title>Filter Stocks By Status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-status.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-status.html</guid>
-      <description>Filter Stocks By Status Steps    Step Description Expected result     Go to products page page title contains &amp;lsquo;Products&amp;rsquo;   Reset filters total of products &amp;gt; 0   Create disabled product Product created   Go to stocks page Page title contains &amp;lsquo;Stocks&amp;rsquo;   Filter by status = disabled New product created is displayed in list   Go back to products page and delete product Product successfully deleted    </description>
     </item>
     
     <item>
@@ -6823,22 +6842,6 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages-bulk-actions-in-bo.html</guid>
       <description>Pages Bulk Actions In BO Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page. Pages page is displayed correctly&amp;quot; Pages page is displayed correctly   Reset all filters of Pages table and get number of elements All filters are reset. All pages are displayed   Go to Add new page page Add new page is displayed correctly   Fill all information : Title : todelete.</description>
-    </item>
-    
-    <item>
-      <title>Pagination and sort</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/pagination-and-sort.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/pagination-and-sort.html</guid>
-      <description>Pagination and sort Steps    Step Description Expected result     Login to BO
-Go to Customers &amp;gt; Customers The Customers page is displayed   Check the pagination is correct:
-- total number of items
-- current page
-- total of pages
-- number of items per page Total number of items should be correct
-Current page should be 1
-total of pages should be 1</description>
     </item>
     
     <item>
@@ -7150,6 +7153,24 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
     </item>
     
     <item>
+      <title>BO - Catalog - Stocks - Display products below low stocks level first</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-display-products-below-low-stocks-level-first.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-display-products-below-low-stocks-level-first.html</guid>
+      <description>BO - Catalog - Stocks - Display products below low stocks level first </description>
+    </item>
+    
+    <item>
+      <title>BO - Customers - Export</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-export.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-export.html</guid>
+      <description>BO - Customers - Export </description>
+    </item>
+    
+    <item>
       <title>BO - Delete product</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-delete-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7368,15 +7389,6 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
     </item>
     
     <item>
-      <title>Display products below low stocks level first</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/display-products-below-low-stocks-level-first.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/display-products-below-low-stocks-level-first.html</guid>
-      <description>Display products below low stocks level first </description>
-    </item>
-    
-    <item>
       <title>Download attachment</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/download-attachment.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7422,21 +7434,21 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
     </item>
     
     <item>
-      <title>Export customers</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/export-customers.html</link>
+      <title>Faceted search - Use tax to filter price</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-tax-to-filter-price.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/export-customers.html</guid>
-      <description>Export customers </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-tax-to-filter-price.html</guid>
+      <description>Faceted search - Use tax to filter price Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, the price, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Go to Shop Parameters &amp;gt; Customer Settings &amp;gt; Groups &amp;gt; Clic on &amp;ldquo;Edit&amp;rdquo; on the line of &amp;ldquo;Visitor&amp;rdquo; the &amp;ldquo;Customer group&amp;rdquo; page should be displayed   Change &amp;ldquo;Price display method&amp;rdquo; to &amp;ldquo;tax included&amp;rdquo;, scroll down and save a green modal at the top of the &amp;ldquo;groups&amp;rdquo; tab should be display &amp;ldquo;Successful update&amp;rdquo;   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use tax to filter price&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product should be displayed   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use tax to filter price&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product isn&amp;rsquo;t displayed    </description>
     </item>
     
     <item>
-      <title>Faceted search - Parameter Category filter depth</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-parameter-category-filter-depth.html</link>
+      <title>Faceted search module - Reset module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-reset-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-parameter-category-filter-depth.html</guid>
-      <description>Faceted search - Parameter Category filter depth Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products Many product should be displayed and you can see at the left only three different categories   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products Many product should be displayed and you can see at the left more than three different categories   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed and the number is changed to &amp;ldquo;1&amp;rdquo;   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A red notification should be displayed and the number is changed to &amp;ldquo;1500&amp;rdquo;   Clic on the field next to &amp;ldquo;Category filter depth (0 for no limits, 1 by default)&amp;rdquo; to setup this field and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed and the number is changed to &amp;ldquo;1&amp;rdquo;    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-reset-module.html</guid>
+      <description>Faceted search module - Reset module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
     </item>
     
     <item>
@@ -7815,6 +7827,24 @@ All products name contains the Searched Name   Click on the drop-down toggle and
     </item>
     
     <item>
+      <title>BO - Catalog - Stocks - Filter Stocks by Categories</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-filter-stocks-by-categories.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-filter-stocks-by-categories.html</guid>
+      <description>BO - Catalog - Stocks - Filter Stocks by Categories </description>
+    </item>
+    
+    <item>
+      <title>BO - Customers - Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-help-card.html</guid>
+      <description>BO - Customers - Help card Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers page The Customers page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+    <item>
       <title>BO - Delete product with bulk actions</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-delete-product-with-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8016,21 +8046,12 @@ When a visitor buys an item, he becomes a customer.</description>
     </item>
     
     <item>
-      <title>Faceted search - Use tax to filter price</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-tax-to-filter-price.html</link>
+      <title>Faceted search - Use rounding to filter price</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-rounding-to-filter-price.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-tax-to-filter-price.html</guid>
-      <description>Faceted search - Use tax to filter price Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, the price, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Go to Shop Parameters &amp;gt; Customer Settings &amp;gt; Groups &amp;gt; Clic on &amp;ldquo;Edit&amp;rdquo; on the line of &amp;ldquo;Visitor&amp;rdquo; the &amp;ldquo;Customer group&amp;rdquo; page should be displayed   Change &amp;ldquo;Price display method&amp;rdquo; to &amp;ldquo;tax included&amp;rdquo;, scroll down and save a green modal at the top of the &amp;ldquo;groups&amp;rdquo; tab should be display &amp;ldquo;Successful update&amp;rdquo;   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use tax to filter price&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product should be displayed   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use tax to filter price&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product isn&amp;rsquo;t displayed    </description>
-    </item>
-    
-    <item>
-      <title>filter stocks by categories</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-categories.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/filter-stocks-by-categories.html</guid>
-      <description>filter stocks by categories </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-rounding-to-filter-price.html</guid>
+      <description>Faceted search - Use rounding to filter price Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, the price, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Go to Shop Parameters &amp;gt; General &amp;gt; Change &amp;ldquo;Round mode&amp;rdquo; to &amp;ldquo;Round down to the nearest value&amp;rdquo; and clic on save a green modal at the top of the &amp;ldquo;groups&amp;rdquo; tab should be display &amp;ldquo;Successful update&amp;rdquo;   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use rounding to filter price&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product isn&amp;rsquo;t displayed   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use rounding to filter price&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product should be displayed    </description>
     </item>
     
     <item>
@@ -8050,15 +8071,6 @@ When a visitor buys an item, he becomes a customer.</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/help-button.html</guid>
       <description>Help button Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies page The Currencies page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
-    </item>
-    
-    <item>
-      <title>Help card</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/help-card.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/help-card.html</guid>
-      <description>Help card Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers page The Customers page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
     </item>
     
     <item>
@@ -8261,6 +8273,24 @@ All products contains the searched Name   Click on the drop-down toggle and clic
     </item>
     
     <item>
+      <title>BO - Catalog - Stocks - Help Button</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-help-button.html</guid>
+      <description>BO - Catalog - Stocks - Help Button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Stocks page The Stocks page well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+    <item>
+      <title>BO - Customers - View</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view.html</guid>
+      <description>BO - Customers - View Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : firstName.lastName@prestashop.com. Birthday Year : Random integer between 1950 and 2000.</description>
+    </item>
+    
+    <item>
       <title>BO - My Profile</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-my-profile.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8361,21 +8391,12 @@ A message is displayed and we are redirected to the main page of the configurati
     </item>
     
     <item>
-      <title>Faceted search - Use rounding to filter price</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-rounding-to-filter-price.html</link>
+      <title>Faceted search - Edit template - Parameters</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-parameters.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-use-rounding-to-filter-price.html</guid>
-      <description>Faceted search - Use rounding to filter price Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on &amp;quot; + New Product&amp;quot; The field to create a new product is displayed   Setup the name the quantity, the price, put the product online and save it A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed   Go to Shop Parameters &amp;gt; General &amp;gt; Change &amp;ldquo;Round mode&amp;rdquo; to &amp;ldquo;Round down to the nearest value&amp;rdquo; and clic on save a green modal at the top of the &amp;ldquo;groups&amp;rdquo; tab should be display &amp;ldquo;Successful update&amp;rdquo;   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use rounding to filter price&amp;rdquo; to disabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product isn&amp;rsquo;t displayed   Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the switch named &amp;ldquo;Use rounding to filter price&amp;rdquo; to enabled it and clic on save A green notification with &amp;ldquo;the settings have been updated&amp;rdquo; is displayed   Go to FO &amp;gt; Clic on &amp;ldquo;All products&amp;rdquo; at the bottom of Popular products &amp;gt; Modify the product price filter Many product should be displayed and your new product should be displayed    </description>
-    </item>
-    
-    <item>
-      <title>Help Button</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/help-button.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/help-button.html</guid>
-      <description>Help Button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Stocks page The Stocks page well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-parameters.html</guid>
+      <description>Faceted search - Edit template - Parameters Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   Change the field &amp;quot; Template name &amp;quot; and clic on save * It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;Template 2.</description>
     </item>
     
     <item>
@@ -8496,15 +8517,6 @@ A message is displayed and we are redirected to the main page of the configurati
     </item>
     
     <item>
-      <title>View customer</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/view-customer.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/view-customer.html</guid>
-      <description>View customer Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : firstName.lastName@prestashop.com. Birthday Year : Random integer between 1950 and 2000.</description>
-    </item>
-    
-    <item>
       <title>WIP - FO - CRUD address</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/user-account/wip-fo-crud-address.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8572,6 +8584,15 @@ All the products contains the searched Name   Click on the drop-down toggle, cli
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-contextual-help.html</guid>
       <description>BO - Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin    </description>
+    </item>
+    
+    <item>
+      <title>BO - Customers - View/edit voucher</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view-edit-voucher.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view-edit-voucher.html</guid>
+      <description>BO - Customers - View/edit voucher </description>
     </item>
     
     <item>
@@ -8660,12 +8681,12 @@ Currency USD is disabled and displayed in the list   Enable USD from Currency li
     </item>
     
     <item>
-      <title>Faceted search - Edit template - Parameters</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-parameters.html</link>
+      <title>Faceted search - Edit template - Sub categories filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-sub-categories-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-parameters.html</guid>
-      <description>Faceted search - Edit template - Parameters Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   Change the field &amp;quot; Template name &amp;quot; and clic on save * It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;Template 2.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-sub-categories-filter.html</guid>
+      <description>Faceted search - Edit template - Sub categories filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Sub-categories filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -8703,15 +8724,6 @@ Currency USD is disabled and displayed in the list   Enable USD from Currency li
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/update-schema-of-urls.html</guid>
       <description>Update Schema of URLs </description>
-    </item>
-    
-    <item>
-      <title>View edit voucher</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/view-edit-voucher.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/view-edit-voucher.html</guid>
-      <description>View edit voucher </description>
     </item>
     
     <item>
@@ -8837,12 +8849,12 @@ When installed, button will transform to a Configure button   Click on the butto
     </item>
     
     <item>
-      <title>Faceted search - Edit template - Sub categories filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-sub-categories-filter.html</link>
+      <title>Faceted search - Edit template - Size filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-size-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-sub-categories-filter.html</guid>
-      <description>Faceted search - Edit template - Sub categories filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Sub-categories filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-size-filter.html</guid>
+      <description>Faceted search - Edit template - Size filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Size&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -8961,12 +8973,12 @@ Data is correct    </description>
     </item>
     
     <item>
-      <title>Faceted search - Edit template - Size filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-size-filter.html</link>
+      <title>Faceted search - Edit template - Color filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-color-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-size-filter.html</guid>
-      <description>Faceted search - Edit template - Size filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Size&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-color-filter.html</guid>
+      <description>Faceted search - Edit template - Color filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Color&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -9078,12 +9090,12 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
-      <title>Faceted search - Edit template - Color filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-color-filter.html</link>
+      <title>Faceted search - Edit template - Composition filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-composition-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-color-filter.html</guid>
-      <description>Faceted search - Edit template - Color filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Color&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-composition-filter.html</guid>
+      <description>Faceted search - Edit template - Composition filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Feature : Composition&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -9151,12 +9163,12 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
-      <title>Faceted search - Edit template - Composition filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-composition-filter.html</link>
+      <title>Faceted search - Edit template - Property filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-property-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-composition-filter.html</guid>
-      <description>Faceted search - Edit template - Composition filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Feature : Composition&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-property-filter.html</guid>
+      <description>Faceted search - Edit template - Property filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Feature : Property&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -9196,12 +9208,12 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
-      <title>Faceted search - Edit template - Property filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-property-filter.html</link>
+      <title>Faceted search - Edit template - Stock filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-stock-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-property-filter.html</guid>
-      <description>Faceted search - Edit template - Property filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Feature : Property&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-stock-filter.html</guid>
+      <description>Faceted search - Edit template - Stock filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Product stock filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -9232,6 +9244,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title> Faceted search - Edit template - Brand filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-brand-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-brand-filter.html</guid>
+      <description>Faceted search - Edit template - Brand filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Product brand filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
       <title>Check the ID in the tab configuration  if the email address is not linked to a customer</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-the-id-in-the-tab-configuration-if-the-email-address-is-not-linked-to-a-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9256,24 +9277,6 @@ The document language is English   Close the help sidebar The help sidebar is cl
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/edit-a-currency.html</guid>
       <description>Edit a currency Steps    Step Description Expected result          </description>
-    </item>
-    
-    <item>
-      <title>Faceted search - Edit template - Stock filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-stock-filter.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-stock-filter.html</guid>
-      <description>Faceted search - Edit template - Stock filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Product stock filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
-    </item>
-    
-    <item>
-      <title> Faceted search - Edit template - Brand filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-brand-filter.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-brand-filter.html</guid>
-      <description>Faceted search - Edit template - Brand filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Product brand filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -9304,6 +9307,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title>Faceted search - Edit template - Condition filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-condition-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-condition-filter.html</guid>
+      <description>Faceted search - Edit template - Condition filter Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on a product to Modify it The product page is displayed   Go to the option tab : * Change the Condition to Used * Clic on Display condition on product page * Clic on save * You see that you can change the condition with a drop list * &amp;ldquo;Display condition on product page&amp;rdquo; is checked * You have a Blue modal with &amp;ldquo;Settings updated&amp;rdquo;   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Product condition filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
       <title>Check the ID in the tab configuration if the user register as customer and check the box subscribe</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-check-the-box-subscribe.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9313,12 +9325,12 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
-      <title>Faceted search - Edit template - Condition filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-condition-filter.html</link>
+      <title>Faceted search - Edit template - Dimension filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-dimension-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-condition-filter.html</guid>
-      <description>Faceted search - Edit template - Condition filter Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Product &amp;gt; Clic on a product to Modify it The product page is displayed   Go to the option tab : * Change the Condition to Used * Clic on Display condition on product page * Clic on save * You see that you can change the condition with a drop list * &amp;ldquo;Display condition on product page&amp;rdquo; is checked * You have a Blue modal with &amp;ldquo;Settings updated&amp;rdquo;   Go to Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Product condition filter&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-dimension-filter.html</guid>
+      <description>Faceted search - Edit template - Dimension filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Dimension&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -9349,12 +9361,12 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
-      <title>Faceted search - Edit template - Dimension filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-dimension-filter.html</link>
+      <title>Faceted search - Edit template - Paper type filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-paper-type-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-dimension-filter.html</guid>
-      <description>Faceted search - Edit template - Dimension filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Dimension&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-paper-type-filter.html</guid>
+      <description>Faceted search - Edit template - Paper type filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Paper type&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
@@ -9364,15 +9376,6 @@ The document language is English   Close the help sidebar The help sidebar is cl
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/product-page/product-page/display-volume-discount.html</guid>
       <description>Display volume discount </description>
-    </item>
-    
-    <item>
-      <title>Faceted search - Edit template - Paper type filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-paper-type-filter.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-edit-template-paper-type-filter.html</guid>
-      <description>Faceted search - Edit template - Paper type filter Steps    Step Description Expected result     Go to BO &amp;gt; Module Manager The module Manager page should be displayed   Writte &amp;ldquo;Faceted&amp;rdquo; on the search bar to find &amp;ldquo;Faceted search&amp;rdquo; and clic on &amp;ldquo;Configure&amp;rdquo; on the right of &amp;ldquo;Faceted search&amp;rdquo; &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Clic on the &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo;, Uncheck &amp;ldquo;Attribute group : Paper type&amp;rdquo; and clic to save It return on the &amp;ldquo;Configure faceted search&amp;rdquo; tab and you have a green modal with &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     
     <item>
