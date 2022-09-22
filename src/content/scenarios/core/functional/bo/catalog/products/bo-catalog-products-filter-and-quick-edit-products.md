@@ -26,3 +26,4 @@ weight: 1
 | Filter product by product name<br>Criteria : 'Hummingbird printed sweater' | Number of products < Total of products<br>All products name contains 'Hummingbird printed sweater' |
 | Disable product | Product is disabled<br>Successful message is displayed |
 | Enable product | Product is enabled<br>The successful message is displayed |
+| Reset filters | Number of products = Total of products |

@@ -17,7 +17,7 @@ weight: 3
 | Go back to BO, on "Configure" page of the module > Change the value by a big number > Click on "Save" button | A successful message "The settings have been updated." is displayed |
 | Go back to FO > Reload the page | The "NEW PRODUCTS" block should not be displayed |
 | Go back to BO, on "Configure" page of the module > Change the value by number with space > Click on "Save" button | A successful message "The settings have been updated." is displayed |
-| Go back to FO > Reload the page | The "NEW PRODUCTS" block should have 8 products displayed |
+| Go back to FO > Reload the page | The "NEW PRODUCTS" block should not be displayed |
 | Go back to BO, on "Configure" page of the module > Change the value by 0 > Click on "Save" button | A successful message "The settings have been updated." is displayed |
 | Go back to FO > Reload the page | The "NEW PRODUCTS" block should be not displayed |
 | Go back to BO, on "Configure" page of the module > Change the value by any other character (text or specific characters) than numbers > Click on "Save" button | A successful message "The settings have been updated." is displayed |

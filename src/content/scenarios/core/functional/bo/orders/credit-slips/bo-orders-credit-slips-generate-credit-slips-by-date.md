@@ -8,6 +8,7 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Orders > "Orders" page | Orders list is displayed successfully |
+| Open the first order page (created in the pre-condition) | Order page is displayed successfully |
 | Change the order status to "Shipped" | The order status is updated successfully<br>The invoice is created successfully |
 | Add a partial refund product | the credit slip document is created successfully |
 | Go to Orders > "Credit slips" page | Credit slips page is displayed successfully |
