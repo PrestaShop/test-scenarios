@@ -8,9 +8,9 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Modules > Module manager and search ps_facetedsearch | The module page list should be displayed and *Faceted search* module should be displayed on the list |
-| Click on "Upgrade" button at the right of the module | A modal is open with:<br> * *Title*: "Are you sure you want to upgrade this module?"<br> * *Description*: "We strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues."<br> * *3 buttons*: "Cancel" / "Go to maintenance page" / "Upgrade anyway" |
+| Click on the button at the right of the module > Choose on the list "Upgrade" option | A modal is open with:<br> * *Title*: "Are you sure you want to upgrade this module?"<br> * *Description*: "We strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues."<br> * *3 buttons*: "Cancel" / "Go to maintenance page" / "Upgrade anyway" |
 | Click on "Cancel" button or the cross on top right or outside | * The modal is removed<br> * The module list page is displayed |
-| Click on "Upgrade" button at the right of the module | The modal is open again with the same informations (Title / Description / 3 buttons) |
+| Click on the button at the right of the module > Choose on the list "Upgrade" option | The modal is open again with the same informations (Title / Description / 3 buttons) |
 | *Case 1: Upgrade with shop on maintenance*<br>Click on "Go to maintenance page" button | The "Maintenance" page is displayed |
 | Set to "No" the "Enable store" switch button > Click on "Save" button | * A "Successful update" message is displayed<br> * "Enable store" is set to "No" and grey<br> * A "Maintenance mode" link is displayed on the header of the store |
 | Click on "View my shop" link in the header > Click on the new tab | The new tab is displayed the FO of the shop with the maintenance page |
