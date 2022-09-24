@@ -13,4 +13,4 @@ weight: 1
 | Choose an address > Click on "Continue" button | The "Shipping method" step is well displayed |
 | Choose a carrier > Click on "Continue" button | The "Payment" step is well displayed |
 | Choose the "Pay by Cash on Delivery" payment > Check the "terms of service" checkbox > Click on "Place order" button | * A "You pay for the merchandise upon delivery" message is displayed when the "Pay by Cash on Delivery" payment is chosen<br> * The "Order confirmation" page is displayed with the payment method "Cash on delivery (COD)" displayed in "Order details" section |
-| Go to BO > Orders > Orders | * Orders list page is displayed<br> * The first order of the list displayed the "Cash on delivery (COD)" payment and a "Processing in progress" status |
+| Go to BO > Orders > Orders | * Orders list page is displayed<br> * The first order of the list displayed the "Cash on delivery (COD)" payment and a "Awaiting Cash On Delivery validation" status |
