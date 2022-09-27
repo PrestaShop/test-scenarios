@@ -8,7 +8,7 @@ weight: 10
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Catalog > Discounts > Cart rules page and Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
-| Create a new discount, set these fields:<br> # Information:<br>1. Name<br>2. Description<br>3. Code<br> # Conditions:<br> ## Select Carrier selection:<br> ### Unselected carrier: PrestaShop<br> ### Selected carriers: My carrier<br> # Actions:<br> ## Discount = 100 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
+| Create a new discount, set these fields:<br> # Information:<br>1. Name<br>2. Description<br>3. Code<br> # Conditions:<br> ## Select Carrier selection:<br> ### Unselected carrier: Click and collect<br> ### Selected carriers: My carrier<br> # Actions:<br> ## Discount = 100 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |

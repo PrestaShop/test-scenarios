@@ -1,9 +1,9 @@
 ---
-title: "FO - Consult merchandise returns list & Check order details page from merchandise returns list"
+title: "FO - Consult merchandise returns list"
 weight: 1
 ---
 
-# FO - Consult merchandise returns list & Check order details page from merchandise returns list
+# FO - Consult merchandise returns list
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
