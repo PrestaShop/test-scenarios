@@ -24,6 +24,7 @@ weight: 5
 | Set to "Yes" the "Enable store" switch button > Click on "Save" button | * A "Successful update" message is displayed<br> * "Enable store" is set to "Yes" and green<br> * The "Maintenance mode" link is removed from the header of the store |
 | Go back to the FO > Reload the page | Homepage is well displayed |
 | Scroll down in the homepage and search the "POPULAR PRODUCTS" block > Click on "All products" link | The "Home" category page is displayed |
+| Scroll down on this page > Click on the second page of the list > Find your product created (pre-condition) with 0 on quantity > Click on it | * The product page details is displayed<br> * The Mail alerts block should be displayed below the share buttons with:<br> ** an empty email field<br> ** a "Notify me when available" button |
 | *Case 2: Upgrade without shop on maintenance*<br>Click on "Upgrade anyway" button | * After loading, a green message "Upgrade action on module ps_emailalerts succeeded." is displayed<br> * The module is upgraded, the button at the right of the module is displaying "Configure" |
 | Reload the page | The module should be:<br> * Upgraded and displayed "Configure" in the right button<br> * Displayed the latest version instead of the current to the new version<br> * Removed the green tag "Upgrade available" |
 | Click on "View my shop" link in the header > Click on the new tab | The new tab is displayed the FO of the shop with the homepage |

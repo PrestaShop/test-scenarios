@@ -14,7 +14,7 @@ weight: 1
 | *Case 1: Upgrade with shop on maintenance*<br>Click on "Go to maintenance page" button | The "Maintenance" page is displayed |
 | Set to "No" the "Enable store" switch button > Click on "Save" button | * A "Successful update" message is displayed<br> * "Enable store" is set to "No" and grey<br> * A "Maintenance mode" link is displayed on the header of the store |
 | Click on "View my shop" link in the header > Click on the new tab | The new tab is displayed the FO of the shop with the maintenance page |
-| Go to BO > Modules > Module manager and search ps_cashondelivery | The module page list should be displayed and *Theme Customization* module should be displayed on the list |
+| Go to BO > Modules > Module manager and search ps_themecusto | The module page list should be displayed and *Theme Customization* module should be displayed on the list |
 | Click on "Upgrade" button at the right of the module | A modal is open with:<br> * *Title*: "Are you sure you want to upgrade this module?"<br> * *2 buttons*: "Cancel" / "Upgrade" |
 | Click on "Cancel" button  or the cross on top right | * The modal is removed<br> * The module list page is displayed |
 | Click on "Upgrade" button at the right of the module | The modal is open again with the same informations (Title / 2 buttons) |

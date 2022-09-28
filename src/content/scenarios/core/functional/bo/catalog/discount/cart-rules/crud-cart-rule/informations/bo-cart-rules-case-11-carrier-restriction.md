@@ -17,7 +17,10 @@ weight: 10
 | Click on "Proceed to checkout" | * Checkout page is displayed<br> * Personal information step is displayed |
 | Click on "Sign in" tab > Fill the form with your logins > Click on "Continue" button | * You are well logged in<br> * Addresses step is displayed |
 | Select an address (France) and click on "Continue" button | Shipping method step is displayed |
-| Select "My Carrier" and click on "Continue" button | Payment step is displayed |
+| Select "Click and collect" carrier on "Continue" button | Payment step is displayed |
+| Click on "Have a promo code?" | The promo code section is displayed |
+| Set the Code and click on "Add" button | An error message is displayed "You cannot use this voucher with this carrier" |
+| Go back on the "Shipping method" step by clicking on "edit" link > Select "My Carrier" carrier and click on "Continue" button | Payment step is displayed |
 | Click on "Have a promo code?" | The promo code section is displayed |
 | Set the Code and click on "Add" button | The discount is well applied & the total is ok |
 | Remove discount by clicking on "trash" icon | The discount is well removed |
