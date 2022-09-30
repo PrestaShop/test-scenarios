@@ -15,5 +15,5 @@ weight: 8
 | Click on "View my shop" link in the header > Click on the new tab | The new tab is displayed the FO of the shop with the homepage |
 | Scroll down in the homepage and search the "POPULAR PRODUCTS" block > Click on "All products" link | The "Home" category page is displayed |
 | Scroll down on this page > Click on the second page of the list > Find your product created (pre-condition) with 0 on quantity > Click on it | * The product page details is displayed<br> * Mail alerts block on the page should be not displayed |
-| Go back to BO > Module list page with ps_newproducts module displayed > Click on "Enable" button at the right of the module | * After loading, a green message "Enable action on module ps_emailalerts succeeded." is displayed<br> * The module is enabled, the button at the right of the module is displaying "Configure" |
+| Go back to BO > Module list page with ps_emailalerts module displayed > Click on "Enable" button at the right of the module | * After loading, a green message "Enable action on module ps_emailalerts succeeded." is displayed<br> * The module is enabled, the button at the right of the module is displaying "Configure" |
 | Go back to FO > Reload the page | The Mail alerts block should be displayed below the share buttons with:<br> * an empty email field<br> * a "Notify me when available" button |

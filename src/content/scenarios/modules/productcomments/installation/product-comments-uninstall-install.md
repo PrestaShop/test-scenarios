@@ -1,9 +1,9 @@
 ---
-title: "Uninstall/Install"
+title: "Product comments - Uninstall/Install"
 weight: 2
 ---
 
-# Uninstall/Install
+# Product comments - Uninstall/Install
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

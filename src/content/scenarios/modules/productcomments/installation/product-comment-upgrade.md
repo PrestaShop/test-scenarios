@@ -1,9 +1,9 @@
 ---
-title: "Upgrade"
+title: "Product Comment - Upgrade"
 weight: 1
 ---
 
-# Upgrade
+# Product Comment - Upgrade
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
