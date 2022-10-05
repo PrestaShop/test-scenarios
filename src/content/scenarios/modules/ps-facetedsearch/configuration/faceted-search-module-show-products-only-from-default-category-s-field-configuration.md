@@ -13,5 +13,5 @@ weight: 3
 | Click on "View my shop" link in the header > Click on the new tab | The new tab is displayed the FO of the shop with the homepage |
 | Click on "All products" at the bottom of "Popular products" section | * "No products available yet" is displayed with description and search bar<br> * Only categories will be showed |
 | Click on the "Art" category | Only products linked to this category are displayed |
-| Go back to BO > "Configure Faceted search" page > Click on the switch named "Show products only from default category" to enabled it > Click on "Save" button | * A successful message "Settings saved successfully" is displayed<br> * "Show product from categories" should be clickable |
+| Go back to BO > "Configure Faceted search" page > Click on the switch named "Show products only from default category" to enabled it > Click on "Save" button | * A successful message "Settings saved successfully" is displayed<br> * "Show product from subcategories" should be clickable |
 | Go to FO > Reload the page | Many product should be displayed and you can see at the bottom left many parameters to refined your research |
