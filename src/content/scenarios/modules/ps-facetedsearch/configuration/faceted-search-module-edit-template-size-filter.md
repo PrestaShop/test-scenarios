@@ -20,7 +20,7 @@ weight: 10
 | In "Filters" > Click on the field of size filter style and choose "Drop down list" > Click on "Save" button | It returns on the "Configure faceted search" page and you have a successful message " Your filter "[name of your template]" was updated successfully. " |
 | Go to FO > Reload the page | Many product should be displayed and you can filter by "size" only with one of them thank to a list, you can't choose many of them |
 | Go back to BO > "Configure Faceted search" page > Click on on "Edit" button on the same line of your template | The "New filters template" tab is displayed |
-| In "Filters" > Click on the field of size filter style and choose "checkbox" > Clic on "Save" button | It returns on the "Configure faceted search" page and you have a successful message " Your filter "[name of your template]" was updated successfully. " |
+| In "Filters" > Click on the field of size filter style and choose "checkbox" > Click on "Save" button | It returns on the "Configure faceted search" page and you have a successful message " Your filter "[name of your template]" was updated successfully. " |
 | Go to FO > Reload the page | Many product should be displayed and you can filter by "size" thank to different check, you can choose many of them |
 | Go back to BO > "Configure Faceted search" page > Click on on "Edit" button on the same line of your template | The "New filters template" tab is displayed |
 | In "Filters" > Click on the drop down list of size filter result limit and choose "2" > Click on "Save" button | It returns on the "Configure faceted search" page and you have a successful message " Your filter "[name of your template]" was updated successfully. " |

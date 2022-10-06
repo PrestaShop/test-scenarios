@@ -18,7 +18,7 @@ weight: 11
 | Go to FO > Reload the page | Many product should be displayed and you can filter by "color" only with one of them, you can't check many of them like previously |
 | Go back to BO > "Configure Faceted search" page > Click on on "Edit" button on the same line of your template | The "New filters template" tab is displayed |
 | In "Filters" > Click on the field of color filter style and choose "Drop down list" > Click on "Save" button | It returns on the "Configure faceted search" page and you have a successful message " Your filter "[name of your template]" was updated successfully. " |
-| Go to FO > Reload the page | Many product should be displayed and you can filter by "size" only with one of them thank to a list, you can't choose many of them |
+| Go to FO > Reload the page | Many product should be displayed and you can filter by "color" only with one of them thank to a list, you can't choose many of them |
 | Go back to BO > "Configure Faceted search" page > Click on on "Edit" button on the same line of your template | The "New filters template" tab is displayed |
 | In "Filters" > Click on the field of color filter style and choose "checkbox" > Click on "Save" button | It returns on the "Configure faceted search" page and you have a successful message " Your filter "[name of your template]" was updated successfully. " |
 | Go to FO > Reload the page | Many product should be displayed and you can filter by "color" thank to different check, you can choose many of them |

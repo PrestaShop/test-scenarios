@@ -1,9 +1,9 @@
 ---
-title: "FO - Print PDF order return"
+title: "FO - Check PDF order return"
 weight: 4
 ---
 
-# FO - Print PDF order return
+# FO - Check PDF order return
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
@@ -18,5 +18,3 @@ weight: 4
 | Go back to FO > Refresh the "Merchandise returns details" page | * No information message is displayed<br> * In the content, the current status of the merchandise return is "*Waiting for package*"<br> * A new block "Reminder" is appeared with content and links about the "returns form" and "contact page" |
 | Click on one of the "returns form" link | The order return .pdf file is downloaded on your computer |
 | Click on the file downloaded in your browser to open it on a new tab | * A new tab with the .pdf document is opened<br> * All main informations of the return is displayed |
-| Click on the "Merchandise returns " link | The Merchandise returns page is well displayed |
-| Click on the "printer" icon > Click on "print" button | * A new window is opened to set parameters of the print<br> * The document is printed |
