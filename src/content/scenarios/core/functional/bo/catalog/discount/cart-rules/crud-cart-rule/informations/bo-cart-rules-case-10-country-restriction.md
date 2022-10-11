@@ -7,7 +7,7 @@ weight: 11
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > International > Locations > Countries page and searched for "United States | The page is well displayed with the exact filter |
+| Go to BO > International > Locations > Countries page and searched any country | The page is well displayed with the exact filter |
 | Enable any country which are not activated (with red cross) with quick access | An alert "The status has been successfully updated." is displayed |
 | Reset Filter | The filter is well reset |
 | Go to Catalog > Discounts | The cart rules page is well displayed |
