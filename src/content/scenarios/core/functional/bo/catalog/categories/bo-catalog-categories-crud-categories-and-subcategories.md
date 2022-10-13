@@ -15,8 +15,9 @@ weight: 2
 | Go to FO by clicking on View my shop | FO page is opened correctly |
 | Go to Sitemap page | Sitemap page is displayed |
 | Check the existence of the new category | The new category exist in categories |
-| Click on "Newcategory" category | The "NewCatgory" category page is displayed<br><br>Check the description and the existence of the Category cover image |
-| Close FO and Go Back to BO | BO is displayed |
+| Click on "Newcategory" category | The "NewCatgory" category page is displayed<br><br>Check the title and the description of the category |
+| Go back to BO > Catalog >Categories page | The categories page is well displayed |
+| Click on View to display the subcategories table related to the created category | The category list is well displayed & page title contains the category Name |
 | In list Filter By Name Criteria : "NewCategory" | Filter is succeeded |
 | Click on the category name | Category Page is displayed correctly Page title contains the category's name "NewCategory" |
 | Click on "Add new category" to create a sub-category | New Category Page is displayed correctly Page title contains "Add new" Parent category is "checked " |

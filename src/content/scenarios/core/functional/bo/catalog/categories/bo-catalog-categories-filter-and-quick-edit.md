@@ -20,6 +20,7 @@ weight: 1
 | Reset all filters | All filters are reset. All categories are displayed |
 | Filter By Displayed. | The customer list is filtered. Customers listed have the searched status |
 | Reset all filters | All filters are reset. All categories are displayed |
-| Change Displayed to "No" for "first Category" | An alert "The status has been successfully updated." is displayed and the Icon is changed to Not-valid |
-| Change Displayed to "YES" for "first Category" | An alert "The status has been successfully updated." is displayed and theIcon is changed to valid |
+| Filter by Name | Categories list is filtered. Categories listed contains the searched  "Name" |
+| Change Displayed to "No" with the quick edit | An alert "The status has been successfully updated." is displayed and the Icon is changed to Not-valid |
+| Change Displayed to "YES" with the quick edit | An alert "The status has been successfully updated." is displayed and theIcon is changed to valid |
 | Reset all Filters | Number of categories = Total of categories |
