@@ -23,8 +23,8 @@ weight: 1
 | Click on "Maintenance mode" link on the header | The "Maintenance" page is displayed |
 | Set to "Yes" the "Enable store" switch button > Click on "Save" button | * A "Successful update" message is displayed<br> * "Enable store" is set to "Yes" and green<br> * The "Maintenance mode" link is removed from the header of the store |
 | Go back to the FO > Reload the page | Homepage is well displayed |
-| Scroll down in the homepage and search the "LEGAL" block and "GDPR" | Le bloc "GDPR" doit être affiché |
+| Click on the user name link in the header (should be logged with pre-condition) | * "Your account" page is displayed<br> * "GDPR - Personnal data" tab should be displayed |
 | *Case 2: Upgrade without shop on maintenance*<br>Click on "Upgrade anyway" button | * After loading, a green message "Upgrade action on module ps_newproducts succeeded." is displayed<br> * The module is upgraded, the button at the right of the module is displaying "Configure" |
 | Reload the page | The module should be:<br> * Upgraded and displayed "Configure" in the right button<br> * Displayed the latest version instead of the current to the new version<br> * Removed the green tag "Upgrade available" |
 | Click on "View my shop" link in the header > Click on the new tab | The new tab is displayed the FO of the shop with the homepage |
-| Scroll down in the homepage and search the "LEGAL" block and "GDPR" | Le bloc "GDPR" doit s'afficher sans erreur |
+| Click on the user name link in the header (should be logged with pre-condition) | * "Your account" page is displayed<br> * "GDPR - Personnal data" tab should be displayed |

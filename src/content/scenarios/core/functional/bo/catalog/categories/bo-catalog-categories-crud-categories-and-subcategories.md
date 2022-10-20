@@ -18,14 +18,15 @@ weight: 2
 | Click on "Newcategory" category | The "NewCatgory" category page is displayed<br><br>Check the title and the description of the category |
 | Go back to BO > Catalog >Categories page | The categories page is well displayed |
 | Click on View to display the subcategories table related to the created category | The category list is well displayed & page title contains the category Name |
-| In list Filter By Name Criteria : "NewCategory" | Filter is succeeded |
 | Click on the category name | Category Page is displayed correctly Page title contains the category's name "NewCategory" |
 | Click on "Add new category" to create a sub-category | New Category Page is displayed correctly Page title contains "Add new" Parent category is "checked " |
 | Fill all information : and Save Form | Category is saved correctly Message is displayed : "Successful creation." |
+| Reset all Filter | Number of subcategories = Total subcategories |
+| Filter by subcategory Name | Filter is succeeded |
 | Go to FO by clicking on View my shop | FO page is opened correctly |
 | Go to Sitemap page | Sitemap page is displayed |
 | Check the existence of the sub category name | The sub category name exist in categories |
-| Click on "Subcategory" category | The "Subcategory" category page is displayed<br><br>Check the description and the existence of the Category cover image |
+| Click on "Subcategory" category | The "Subcategory" category page is displayed<br><br>Check the title and the description of the subCategory |
 | Close FO page and go Back to BO | BO is displayed |
 | Go to the Catalog > "Categories" page | Categories page is displayed correctly |
 | In list Filter By Name Criteria : "NewCategory" | Filter is succeeded |

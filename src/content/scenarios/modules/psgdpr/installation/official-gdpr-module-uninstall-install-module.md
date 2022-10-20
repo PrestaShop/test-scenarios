@@ -1,9 +1,9 @@
 ---
-title: "New GDPR module - Uninstall/Install module"
-weight: 3
+title: "Official GDPR module - Uninstall/Install module"
+weight: 2
 ---
 
-# New GDPR module - Uninstall/Install module
+# Official GDPR module - Uninstall/Install module
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
@@ -13,6 +13,6 @@ weight: 3
 | Click on the button at the right of the module > Choose on the list "Uninstall" | The modal is open again with the same informations (Title / Description / Optional checkbox / Text / 2 buttons) |
 | Click on "Yes, uninstall it" button to confirm the uninstallation of the module | * After loading, a green message "Uninstall action on module ps_gdpr succeeded." is displayed<br> * The module is uninstalled, the button at the right of the module is displaying "Install"<br> * In folders of you shop: yourshop/modules/, the "ps_gdpr" folder should be still on it |
 | Click on "View my shop" link in the header > Click on the new tab | The new tab is displayed the FO of the shop with the homepage |
-| Scroll down in the homepage and search the "Legal" block and "GDPR" | The "GDPR" should be not displayed |
+| Click on the user name link in the header (should be logged with pre-condition) | * "Your account" page is displayed<br> * "GDPR - Personnal data" tab should not be displayed |
 | Go back to BO > Module list page with ps_gdpr module displayed > Click on "Install" button at the right of the module | * After loading, a green message "Install action on module ps_gdpr succeeded." is displayed<br> * The module is installed, the button at the right of the module is displaying "Configure"<br> * In folders of you shop: yourshop/modules/, the "ps_gdpr" folder should be still on it |
-| Go back to FO > Reload the page > Scroll down in the homepage and search the "LEGAL" block and "GDPR" | The "GDPR" should be displayed |
+| Go back to FO > Reload "Your account" page | * "Your account" page is displayed<br> * "GDPR - Personnal data" tab should be displayed |
