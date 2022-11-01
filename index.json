@@ -4536,6 +4536,13 @@
 	"content": "Fuzzy search "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/gdpr-block-module-disable-enable-module.html",
+	"title": "GDPR block module - Disable/Enable module",
+	"tags": [],
+	"description": "",
+	"content": "GDPR block module - Disable/Enable module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search Prestashop Legal Assistant The module page list should be displayed and Prestashop Legal Assistant module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Disable module?\u0026quot;\n* Description: \u0026ldquo;You are about to disable Prestashop Legal Assistant module.\nYour current settings will be saved, but the module will no longer be active.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, disable it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable\u0026rdquo; option The modal is open again with the same informations (Title / Description / 2 buttons)   Click on \u0026ldquo;Yes, disable it\u0026rdquo; button to confirm the reset of the module * After loading, a green message \u0026ldquo;Disable action on module Prestashop Legal Assistant succeeded.\u0026rdquo; is displayed\n* The module is disabled, the button at the right of the module is displaying \u0026ldquo;Enable\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;Prestashop Legal Assistant\u0026rdquo; block The \u0026ldquo;Prestashop Legal Assistant\u0026rdquo; block should not be displayed   Go back to BO \u0026gt; Module list page with Prestashop Legal Assistant module displayed \u0026gt; Click on \u0026ldquo;Enable\u0026rdquo; button at the right of the module * After loading, a green message \u0026ldquo;Enable action on module Prestashop Legal Assistant succeeded.\u0026rdquo; is displayed\n* The module is enabled, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Go back to FO \u0026gt; Reload the page \u0026gt; Scroll down in the homepage and search the \u0026ldquo;Prestashop Legal Assistant\u0026rdquo; block The \u0026ldquo;Prestashop Legal Assistant\u0026rdquo; block should be displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customersignin/fo/login-with-wrong-right-password.html",
 	"title": "Login with wrong/right password",
 	"tags": [],
@@ -8215,7 +8222,7 @@
 	"title": "Installation",
 	"tags": [],
 	"description": "",
-	"content": "Installation Tests  Official GDPR module - Upgrade module   Official GDPR module - Uninstall/Install module   Official GDPR module - Reset module   "
+	"content": "Installation Tests  Official GDPR module - Upgrade module   Official GDPR module - Uninstall/Install module   Official GDPR module - Reset module   GDPR block module - Disable/Enable module   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/statsbestcategories/installation.html",
