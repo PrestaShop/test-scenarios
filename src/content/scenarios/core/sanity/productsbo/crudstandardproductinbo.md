@@ -1,9 +1,9 @@
 ---
-title: "CRUDStandardPRoductInBO"
+title: "CRUDStandardProductInBO"
 weight: 2
 ---
 
-# CRUDStandardPRoductInBO
+# CRUDStandardProductInBO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
