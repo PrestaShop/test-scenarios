@@ -6393,16 +6393,6 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>BO - CRUD Virtual product</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-crud-virtual-product.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-crud-virtual-product.html</guid>
-      <description>BO - CRUD Virtual product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly   Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Virtual product&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed
-* A description by type is displayed. For Virtual product: &amp;ldquo;An intangible product that doesn&amp;rsquo;t require shipping.</description>
-    </item>
-    
-    <item>
       <title>BO - Customer Service - Customer service options</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-customer-service-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7284,6 +7274,15 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
     </item>
     
     <item>
+      <title>BO - Employee page - Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/employees/bo-employee-page-help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/employees/bo-employee-page-help-card.html</guid>
+      <description>BO - Employee page - Help card Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Team &amp;gt; Employee page The employee page is well displayed   Click on the Help button The help side bar is well displayed and the document is displayed in the English language   Close the panel by clicking the Help button again Help Panel is closed    </description>
+    </item>
+    
+    <item>
       <title>BO - International - Localization - Currencies - Filter</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7624,15 +7623,6 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/order-confirmation/fo-order-confirmation-contact-us.html</guid>
       <description>FO - Order confirmation - Contact us Steps    Step Description Expected result     Go to the shop FO The FO homepage shop is displayed   Login to a existing customer account Logged in as customer   Add a product to cart The confirmation modal is displayed   In the &amp;ldquo;add to cart&amp;rdquo; confirmation modal click on the &amp;ldquo;order&amp;rdquo; button Redirected to the cart page   In the cart page click on the order button the checkout process is started and the &amp;ldquo;address selection&amp;rdquo; step is displayed   Click on the &amp;ldquo;next&amp;rdquo; button The delivery mode selection is displayed   Click on &amp;ldquo;next&amp;rdquo; button The payment method is now displayed   Select a paiement method, check the &amp;ldquo;generals conditions&amp;rdquo; checkbox and click on the &amp;ldquo;order&amp;rdquo; button The order is now completed and the &amp;ldquo;order confirmation&amp;rdquo; page is displayed   In the &amp;ldquo;order confirmation&amp;rdquo; page click on the &amp;ldquo;client support&amp;rdquo; link Redirection to the &amp;ldquo;contact us&amp;rdquo; page   In the &amp;ldquo;contact us&amp;rdquo; page, check if the email is correctly pre-filled The email field is filled with the logged in customer email address   Select a order reference The order reference is selected   Add a message in the textarea field The textarea field is filled with the message   Add a attachment file The attachment file is correctly added   click on the &amp;ldquo;send message&amp;rdquo; button A success message is displayed   Go to the BO The BO login page is displayed   Login to the BO Redirected to the BO dashboard page as logged in user   Go to the customer service page The customer service page is displayed   in the customer service page check in the customer service table if the previously send message is correctly displayed The previously send message is displayed and all the informations are correct    </description>
-    </item>
-    
-    <item>
-      <title>Help card</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/employees/help-card.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/employees/help-card.html</guid>
-      <description>Help card Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Team &amp;gt; Employee &amp;gt; Click Help Help panel is displayed   Close the Help Panel with cross button Help Panel is closed   Re-open the Help Panel &amp;gt; Close the panel by clicking the Help button again Help Panel is closed    </description>
     </item>
     
     <item>
@@ -8231,6 +8221,16 @@ Message &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add 
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/installation/wishlist-module-uninstall-and-delete-module.html</guid>
       <description>Wishlist module - Uninstall and delete module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search blockwishlist The module page list should be displayed and Wishlist module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+    </item>
+    
+    <item>
+      <title> BO - CRUD Virtual product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-crud-virtual-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-crud-virtual-product.html</guid>
+      <description>BO - CRUD Virtual product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly   Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Virtual product&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed
+* A description by type is displayed. For Standard product: &amp;quot; An intangible product that doesn&amp;rsquo;t require shipping.</description>
     </item>
     
     <item>
