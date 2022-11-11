@@ -63,6 +63,13 @@
 	"content": "BO - Add URL to the different social media Steps    Step Description Expected result          "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/actions/bo-cart-rules-actions-create-simple-order-status-apply-to-specific-product.html",
+	"title": "BO - Cart rules - Actions - Create simple order status Apply to specific product",
+	"tags": [],
+	"description": "",
+	"content": "BO - Cart rules - Actions - Create simple order status Apply to specific product Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discounts \u0026gt; Cart rules page The Cart rules page is well displayed   Click on \u0026ldquo;Add new cart rule\u0026rdquo; page The \u0026ldquo;Add new cart rule\u0026rdquo; page is well displayed   Set these fields:\n# Information:\n## Name\n## Description\n# Actions:\n## Discount = 20%\n## Apply a discount to : Specific product\nand click on Save An alert \u0026ldquo;Successful creation.\u0026rdquo; is displayed   Go to FO The FO is well displayed   Add product \u0026ldquo;Mountain fox notebook\u0026rdquo; to cart The modal \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; is displayed   Add two other product The modal \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; is displayed   Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The Shopping cart is well displayed and the discount is well aplied for the \u0026ldquo;Mountain fox notebook\u0026rdquo;\nTotal is ok   Remove a product from the Shopping cart page except Mountain fox notebook The product is well removed and the discount is still there   Remove the product \u0026quot; Mountain fox notebook\u0026quot; from the Shopping cart The product is well removed and the discount has disappeared   Remove the last product from the Shopping cart The product is well removed   Go back to the BO \u0026gt; Cart rules page The cart rules page is well displayed   Delete the cart rule and confirm the deletion A green alert \u0026ldquo;Successful deletion.\u0026rdquo; is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-1-create-a-cart-with-without-code.html",
 	"title": "BO - Cart rules - Case 1 - Create a cart with / without Code",
 	"tags": [],
@@ -7046,7 +7053,7 @@
 	"title": "Actions",
 	"tags": [],
 	"description": "",
-	"content": "Actions "
+	"content": "Actions Tests  BO - Cart rules - Actions - Create simple order status Apply to specific product   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-cashondelivery/addons.html",
