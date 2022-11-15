@@ -23,4 +23,4 @@ weight: 4
 | Go back to BO on "Configure" page of the module > Set to "Yes" the "Product availability" switch button > Click on "Save" button | * A successful message "Settings updated successfully" is displayed<br> * The "Product availability" switch button is set to "Yes" and is green |
 | Go back to FO on your product > Reload the page | * A "Out-of-Stock" text is displayed below the quantity and "Add to cart" button<br> * A new block is displayed below the "Share" buttons with a "Notify me when available" button |
 | Click on "Notify me when available" button | * The block is updated and displayed only a successful message "Request notification registered" is displayed<br> * "Notify me when available" button are removed |
-| Reload the page | The block is removed from the product page |
+| Reload the page | new info alert is displayed "You will be notified when available" |
