@@ -7,11 +7,17 @@ weight: 6
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to categories page | Page title contains 'Categories' |
+| go to BO > Catalog > categories page | Page title contains 'Categories' |
 | Reset all filters | Number of categories > 0 |
+| Change the items number to 10 per page | Two pages are displayed and the pagination number = _page 1 /2_ |
+| Click on next | The second page is well displayed & the pagination number = _page 2 / 2_ |
+| Click on previous | The first page is well displayed and the pagination number = _page 1 /2_ |
+| Change the items number to 50 per page | Only one page is displayed  _(page 1 / 1)_ |
 | Sort categories by position desc | successful update message is displayed<br>categories are sorted by postion (3 -> 2 -> 1) |
 | Sort categories by id_category Asc | successful update message is displayed<br>categories are sorted by id_category (1 -> 2 -> 3) |
 | Sort categories by id_category desc | successful update message is displayed<br>categories are sorted by id_category (3 -> 2 -> 1) |
 | Sort categories by name Asc | successful update message is displayed<br>categories are sorted by name (x -> y -> z) |
 | Sort categories by name desc | successful update message is displayed<br>categories are sorted by name (z -> y -> x) |
 | sort categories by position Asc | successful update message is displayed<br>categories are sorted by postion (1 -> 2 -> 3) |
+| Delete all product created in the pre-condition with bulk action | All products well deleted |
+| Rest all filters | Filter are well reset |
