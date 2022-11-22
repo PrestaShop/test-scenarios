@@ -1,9 +1,9 @@
 ---
-title: Products
-menuTitle: Products
+title: ProductsV1
+menuTitle: ProductsV1
 chapter: true
 ---
 
-# Products
+# ProductsV1
 
 {{% children titlePages="Tests" titleSections="Categories" %}}
