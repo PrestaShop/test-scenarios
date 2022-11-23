@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1669098385" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1669098385" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1669098385" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1669098385" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1669098385" rel="stylesheet">
-    <link href="../../../../../../style.css?1669098385" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../style.css?1669184543" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1669098385"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1669184543"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -56919,7 +56919,7 @@
 </tr>
 <tr>
 <td>Click on &ldquo;Add new product&rdquo; button</td>
-<td>* New Product page on &ldquo;Description&rdquo; tab is displayed<br> * &ldquo;Product with combinations&rdquo; type description is displayed below the product name field</td>
+<td>* New Product page on &ldquo;Description&rdquo; tab is displayed<br> * &ldquo;Product with combinations&rdquo; type description is displayed below the product name field<br>* The Combinations tab is well displayed</td>
 </tr>
 <tr>
 <td>Fill the main informations on &ldquo;Description&rdquo; tab</td>
@@ -56930,7 +56930,15 @@
 <td>The content is added</td>
 </tr>
 <tr>
-<td>Go to &ldquo;Combinations&rdquo; tab &gt; Click on &ldquo;Generate combinations&rdquo; button</td>
+<td>Go to the &ldquo;Combinations&rdquo; tab &gt; Click on &ldquo;Attributes &amp; Features&rdquo; link</td>
+<td>The page &ldquo;Attributes &amp; Features&rdquo; is displayed in another tab</td>
+</tr>
+<tr>
+<td>Close the Tab</td>
+<td>The product page is displayed</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Generate combinations&rdquo; button</td>
 <td>A &ldquo;Generate combinations&rdquo; modal is displayed</td>
 </tr>
 <tr>
@@ -56940,6 +56948,86 @@
 <tr>
 <td>Click on &ldquo;Cancel&rdquo; button or the close icon of the modal</td>
 <td>The modal is well removed</td>
+</tr>
+<tr>
+<td>In the Combination product list &gt; Edit those data for the first combination<br>* Reference<br>* Impact on price (tax excl.)<br>* Quantity<br><br>and click on &ldquo;Save list&rdquo;</td>
+<td>A green alert &ldquo;Update successful&rdquo; is displayed<br>The data is well-filled:<br>* Reference<br>* Impact on price (tax excl.)<br>* Impact on price (tax incl.)<br>* Final price (tax excl.)<br>* Quantity</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Edit&rdquo; action for the second combination</td>
+<td>A modal &ldquo;Edit combination&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Edit the combination by changing every data in the modal &gt; and click on Save</td>
+<td>* The green alert &ldquo;Update successful&rdquo; is well displayed<br> * A new line is added below the Stocks:<br> ** &ldquo;Recent stock movements&rdquo; is well displayed<br> ** The employee&rsquo;s firstname &amp; lastname are well displayed<br> ** The quantity = 100 is well displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Cancel&rdquo; or outside</td>
+<td>The modal is closed</td>
+</tr>
+<tr>
+<td>Change the pagination to 100</td>
+<td>Only 1 page is displayed, the visible text =  &ldquo;Viewing 1-56 out of 56 (page 1 / 1)&rdquo;</td>
+</tr>
+<tr>
+<td>Sort by id_combination desc</td>
+<td>table is sorted by id_combination desc (3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by &ldquo;Impact on price (tax excl.)&rdquo; desc</td>
+<td>table is sorted by &ldquo;Impact on price (tax excl.)&rdquo; desc (3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by &ldquo;Impact on price (tax excl.)&rdquo; asc</td>
+<td>table is sorted by &ldquo;Impact on price (tax excl.)&rdquo; asc (1 -&gt; 2 -&gt; 3)</td>
+</tr>
+<tr>
+<td>Sort by &ldquo;Impact on price (tax incl.)&rdquo; desc</td>
+<td>table is sorted by &ldquo;Impact on price (tax incl.)&rdquo; desc (3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by &ldquo;Impact on price (tax incl.)&rdquo; asc</td>
+<td>table is sorted by &ldquo;Impact on price (tax incl.)&rdquo; asc (1 -&gt; 2 -&gt; 3)</td>
+</tr>
+<tr>
+<td>Sort by &ldquo;Quantity&rdquo; desc</td>
+<td>table is sorted by &ldquo;Quantity&rdquo; desc (3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by &ldquo;Quantity&rdquo; asc</td>
+<td>table is sorted by &ldquo;Quantity&rdquo; asc (1 -&gt; 2 -&gt; 3)</td>
+</tr>
+<tr>
+<td>Sort by id_combination asc</td>
+<td>table is sorted by id_combination desc (1 -&gt; 2 -&gt; 3)</td>
+</tr>
+<tr>
+<td>Change Display items to 50</td>
+<td>There are two pages</td>
+</tr>
+<tr>
+<td>Click on Next</td>
+<td>The Second page is displayed</td>
+</tr>
+<tr>
+<td>Click on Previous</td>
+<td>The first page is displayed</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Delete&rdquo; icon to remove any combination</td>
+<td>A modal &ldquo;Delete item&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Cancel&rdquo;</td>
+<td>The modal is closed and the combination is not removed</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Delete&rdquo; icon to remove any combination</td>
+<td>A modal &ldquo;Delete item&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Delete&rdquo;</td>
+<td>* A green alert &ldquo;successful deletion&rdquo; is displayed<br>* The combination is well removed</td>
 </tr>
 <tr>
 <td>Go to &ldquo;Pricing&rdquo; tab &gt; Edit &ldquo;Retail price&rdquo; section</td>
@@ -56980,9 +57068,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 22, 2022
+  Last updated on November 23, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/81049ef4ecd61b114f7633cdebde4498cd2bfdc3">"[Update] JIRA XRay Tests" (81049ef4ec)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/63214c1505ff53eba7b83d1e5b95373d75f91981">"[Update] JIRA XRay Tests" (63214c1505)</a>
   
 </div>
 
@@ -57003,17 +57091,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1669098385"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1669098385"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1669098385"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1669098385"></script>
-    <script src="../../../../../../js/featherlight.min.js?1669098385"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1669098385"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1669098385"></script>
-    <script src="../../../../../../js/learn.js?1669098385"></script>
-    <script src="../../../../../../js/hugo-learn.js?1669098385"></script>
+    <script src="../../../../../../js/clipboard.min.js?1669184543"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1669184543"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1669184543"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1669184543"></script>
+    <script src="../../../../../../js/featherlight.min.js?1669184543"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1669184543"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1669184543"></script>
+    <script src="../../../../../../js/learn.js?1669184543"></script>
+    <script src="../../../../../../js/hugo-learn.js?1669184543"></script>
     
-    <script src="../../../../../../main.js?1669098385"></script>
+    <script src="../../../../../../main.js?1669184543"></script>
     
     
 

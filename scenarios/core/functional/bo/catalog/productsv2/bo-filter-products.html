@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1669098386" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1669098386" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1669098386" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1669098386" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1669098386" rel="stylesheet">
-    <link href="../../../../../../style.css?1669098386" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1669184543" rel="stylesheet">
+    <link href="../../../../../../style.css?1669184543" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1669098386"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1669184543"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -56915,6 +56915,10 @@
 </tr>
 <tr>
 <td>Filter the list by ID &gt; Add a number on &ldquo;min&rdquo; and &ldquo;max&rdquo; field below &ldquo;ID&rdquo; in column &gt; Click on &ldquo;Search&rdquo; button on the right of the table</td>
+<td>A red alert &ldquo;ID: Maximum value must be higher than minimum value.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Filter the list by ID &gt; Add a number on &ldquo;min&rdquo; and &ldquo;max&rdquo; field below &ldquo;ID&rdquo; in column &gt; Click on &ldquo;Search&rdquo; button on the right of the table</td>
 <td>* Products list is filtered between the 4 and 10 IDs<br> * A &ldquo;Reset&rdquo; button on the right of the table below the &ldquo;Search&rdquo; button is displayed</td>
 </tr>
 <tr>
@@ -56947,11 +56951,19 @@
 </tr>
 <tr>
 <td>Filter the list by price &gt; Add a number on &ldquo;min&rdquo; and &ldquo;max&rdquo; field below &ldquo;Price&rdquo; in column &gt; Click on &ldquo;Search&rdquo; button on the right of the table</td>
+<td>A red alert &ldquo;Price (tax excl.): Maximum value must be higher than minimum value.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Filter the list by price &gt; Add a number on &ldquo;min&rdquo; and &ldquo;max&rdquo; field below &ldquo;Price&rdquo; in column &gt; Click on &ldquo;Search&rdquo; button on the right of the table</td>
 <td>* Products list is filtered between the 10 and 15 prices<br> * A &ldquo;Reset&rdquo; button on the right of the table below the &ldquo;Search&rdquo; button is displayed</td>
 </tr>
 <tr>
 <td>Click on &ldquo;Reset&rdquo; button</td>
 <td>* All filters are reset.<br> * All products are displayed.</td>
+</tr>
+<tr>
+<td>Filter the list by quantity &gt; Add a number on &ldquo;min&rdquo; and &ldquo;max&rdquo; field below &ldquo;Quantity&rdquo; in column &gt; Click on &ldquo;Search&rdquo; button on the right of the table</td>
+<td>A red alert &ldquo;Quantity: Maximum value must be higher than minimum value.&rdquo; is displayed</td>
 </tr>
 <tr>
 <td>Filter the list by quantity &gt; Add a number on &ldquo;min&rdquo; and &ldquo;max&rdquo; field below &ldquo;Quantity&rdquo; in column &gt; Click on &ldquo;Search&rdquo; button on the right of the table</td>
@@ -56973,6 +56985,22 @@
 <td>Click on &ldquo;Reset&rdquo; button</td>
 <td>* All filters are reset.<br> * All products are displayed.</td>
 </tr>
+<tr>
+<td>Click on &ldquo;Filter by categories&rdquo; and select &ldquo;Home&rdquo; category</td>
+<td>* The button is updated to &ldquo;Filter by categories (Home)&quot;<br>* The button &ldquo;Clear filter&rdquo; is visible<br>* The position Column is visible</td>
+</tr>
+<tr>
+<td>Filter the list by Position in column &gt; Click on &ldquo;Search&rdquo; button on the right of the table</td>
+<td>* Products list is filtered by position.<br>* Products listed have &ldquo;1&rdquo; in their position<br>* A &ldquo;Reset&rdquo; button on the right of the table below the &ldquo;Search&rdquo; button is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Reset&rdquo; button</td>
+<td>* All filters are reset.<br> * All products are displayed.</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Clear filter&rdquo;</td>
+<td>* The button is updated from &ldquo;Filter by categories (Home)&rdquo; to &ldquo;Filter by categories&rdquo;<br>* The button &ldquo;Clear filter&rdquo; is not visible<br>* The position Column is not visible<br>* The Home category is not selected in the &ldquo;Filter by categories&rdquo; drop-down</td>
+</tr>
 </tbody>
 </table>
 
@@ -56980,9 +57008,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 22, 2022
+  Last updated on November 23, 2022
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/81049ef4ecd61b114f7633cdebde4498cd2bfdc3">"[Update] JIRA XRay Tests" (81049ef4ec)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/63214c1505ff53eba7b83d1e5b95373d75f91981">"[Update] JIRA XRay Tests" (63214c1505)</a>
   
 </div>
 
@@ -57003,17 +57031,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1669098386"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1669098386"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1669098386"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1669098386"></script>
-    <script src="../../../../../../js/featherlight.min.js?1669098386"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1669098386"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1669098386"></script>
-    <script src="../../../../../../js/learn.js?1669098386"></script>
-    <script src="../../../../../../js/hugo-learn.js?1669098386"></script>
+    <script src="../../../../../../js/clipboard.min.js?1669184544"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1669184544"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1669184544"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1669184544"></script>
+    <script src="../../../../../../js/featherlight.min.js?1669184544"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1669184544"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1669184544"></script>
+    <script src="../../../../../../js/learn.js?1669184544"></script>
+    <script src="../../../../../../js/hugo-learn.js?1669184544"></script>
     
-    <script src="../../../../../../main.js?1669098386"></script>
+    <script src="../../../../../../main.js?1669184544"></script>
     
     
 
