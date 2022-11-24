@@ -1,6 +1,6 @@
 ---
 title: "BO - Delete product"
-weight: 6
+weight: 8
 ---
 
 # BO - Delete product
