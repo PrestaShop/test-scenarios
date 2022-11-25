@@ -1,9 +1,9 @@
 ---
-title: Webservice
-menuTitle: Webservice
+title: TLS Check
+menuTitle: TLS Check
 chapter: true
 ---
 
-# Webservice
+# TLS Check
 
 {{% children titlePages="Tests" titleSections="Categories" %}}
