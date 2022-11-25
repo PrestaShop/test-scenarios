@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resource Endpoint on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint.html</link>
+    <description>Recent content in Resource Endpoint on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check a resource endpoint using hook-status without access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-without-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-without-access-token.html</guid>
+      <description>Check a resource endpoint using hook-status without access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without access token * Receive a response where the HTTP Code is 401
+* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;    </description>
+    </item>
+    
+    <item>
+      <title>Check a resource endpoint using hook-status with an invalid access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-an-invalid-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-an-invalid-access-token.html</guid>
+      <description>Check a resource endpoint using hook-status with an invalid access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token * Receive a response where the HTTP Code is 401
+* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;    </description>
+    </item>
+    
+    <item>
+      <title>Check a resource endpoint using hook-status with a valid but expired access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-but-expired-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-but-expired-access-token.html</guid>
+      <description>Check a resource endpoint using hook-status with a valid but expired access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token * Receive a response where the HTTP Code is 401
+* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;    </description>
+    </item>
+    
+    <item>
+      <title>Check a resource endpoint using hook-status with a valid access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-access-token.html</guid>
+      <description>Check a resource endpoint using hook-status with a valid access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with a valid access token * Receive a response where the HTTP Code is 200
+* Receive a response in JSON
+* Receive a response which contains the id of the hook and if it’s active (true / false)    </description>
+    </item>
+    
+  </channel>
+</rss>

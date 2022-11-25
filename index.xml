@@ -68,6 +68,15 @@ If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly
     </item>
     
     <item>
+      <title>Basic Test</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/basic-test.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/basic-test.html</guid>
+      <description>Basic Test </description>
+    </item>
+    
+    <item>
       <title>BO - Add URL to the different social media</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/configuration/bo-add-url-to-the-different-social-media.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -191,10 +200,10 @@ all rows column &amp;lsquo;id_profile&amp;rsquo; contains &amp;lsquo;4&amp;rsquo
     
     <item>
       <title>BO - Advanced Parameters - Webservice - Filter sort pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-filter-sort-pagination.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-filter-sort-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-filter-sort-pagination.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-filter-sort-pagination.html</guid>
       <description>BO - Advanced Parameters - Webservice - Filter sort pagination </description>
     </item>
     
@@ -1033,6 +1042,16 @@ Number of products should be 12   Go to the front office 12 featured product sho
     </item>
     
     <item>
+      <title>Check a resource endpoint using hook-status without access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-without-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-without-access-token.html</guid>
+      <description>Check a resource endpoint using hook-status without access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without access token * Receive a response where the HTTP Code is 401
+* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;    </description>
+    </item>
+    
+    <item>
       <title>Check footer links</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customeraccountlinks/fo/check-footer-links.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1067,6 +1086,15 @@ The invoice is created successfully   Add the first partial refund Partial refun
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/statsvisits/contenu/check-stats.html</guid>
       <description>Check stats Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>Check the authorization endpoint with oauth2 in GET method </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-get-method.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-get-method.html</guid>
+      <description>Check the authorization endpoint with oauth2 in GET method Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/oauth2/token in GET method Receive a response where the HTTP code is 405    </description>
     </item>
     
     <item>
@@ -1776,6 +1804,25 @@ Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Or
     </item>
     
     <item>
+      <title>Request the endpoint using hook-status without HTTPS</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-without-https.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-without-https.html</guid>
+      <description>Request the endpoint using hook-status without HTTPS Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without HTTPS Receive a response where the HTTP code is 301
+Redirect to the endpoint in HTTPS    </description>
+    </item>
+    
+    <item>
+      <title>Request the endpoint with only new-api</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/basic-test/request-the-endpoint-with-only-new-api.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/basic-test/request-the-endpoint-with-only-new-api.html</guid>
+      <description>Request the endpoint with only new-api Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/ Receive a response where the HTTP code is 404    </description>
+    </item>
+    
+    <item>
       <title>Reset password</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customersignin/fo/reset-password.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2170,10 +2217,10 @@ Number of profiles = Total of profiles + 1   Filter list by new name Number of p
     
     <item>
       <title>BO - Advanced Parameters - Webservice - CRUD (TODO)</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-crud-todo.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-crud-todo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-crud-todo.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-crud-todo.html</guid>
       <description>BO - Advanced Parameters - Webservice - CRUD (TODO) </description>
     </item>
     
@@ -2883,12 +2930,31 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO brands link page 
     </item>
     
     <item>
+      <title>Check a resource endpoint using hook-status with an invalid access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-an-invalid-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-an-invalid-access-token.html</guid>
+      <description>Check a resource endpoint using hook-status with an invalid access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token * Receive a response where the HTTP Code is 401
+* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;    </description>
+    </item>
+    
+    <item>
       <title>Check that the entered email in the left column email block is saved</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-entered-email-in-the-left-column-email-block-is-saved.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-entered-email-in-the-left-column-email-block-is-saved.html</guid>
       <description>Check that the entered email in the left column email block is saved Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>Check the authorization endpoint with oauth2 in POST method without informations</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-without-informations.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-without-informations.html</guid>
+      <description>Check the authorization endpoint with oauth2 in POST method without informations Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token with oauth2 in POST method without informations Receive a response where the HTTP code is 400    </description>
     </item>
     
     <item>
@@ -3493,6 +3559,24 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     </item>
     
     <item>
+      <title>Request the endpoint using hook-status in TLS1.0 with a valid access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-0-with-a-valid-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-0-with-a-valid-access-token.html</guid>
+      <description>Request the endpoint using hook-status in TLS1.0 with a valid access token </description>
+    </item>
+    
+    <item>
+      <title>Request the endpoint with hook-status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/basic-test/request-the-endpoint-with-hook-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/basic-test/request-the-endpoint-with-hook-status.html</guid>
+      <description>Request the endpoint with hook-status Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status Receive a response where the HTTP code is 400    </description>
+    </item>
+    
+    <item>
       <title>Theme Customization module - Pages configuration tab </title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/configuration/theme-customization-module-pages-configuration-tab.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3811,10 +3895,10 @@ Successful message is displayed   Download and open CSV file of the created quer
     
     <item>
       <title>BO - Advanced Parameters - Webservice - Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-bulk-actions.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-bulk-actions.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-bulk-actions.html</guid>
       <description>BO - Advanced Parameters - Webservice - Bulk actions </description>
     </item>
     
@@ -4532,6 +4616,16 @@ The maintenance text is the default one   In Custom maintenance text, edit your
     </item>
     
     <item>
+      <title>Check a resource endpoint using hook-status with a valid but expired access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-but-expired-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-but-expired-access-token.html</guid>
+      <description>Check a resource endpoint using hook-status with a valid but expired access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token * Receive a response where the HTTP Code is 401
+* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;    </description>
+    </item>
+    
+    <item>
       <title>Check email data</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/contactform/configuration/check-email-data.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4556,6 +4650,15 @@ The maintenance text is the default one   In Custom maintenance text, edit your
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration/configuration-for-customer/check-that-the-entered-email-in-the-footer-email-block-is-saved.html</guid>
       <description>Check that the entered email in the footer email block is saved Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>Check the authorization endpoint with oauth2 in POST method with informations but undefined (notUsed)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-informations-but-undefined-notused.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-informations-but-undefined-notused.html</guid>
+      <description>Check the authorization endpoint with oauth2 in POST method with informations but undefined (notUsed) Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token in POST with informations but undefined (notUsed) Receive a response where the HTTP code is 400    </description>
     </item>
     
     <item>
@@ -4960,6 +5063,15 @@ The option should be enabled   Go to front office/check the homepage Product sho
     </item>
     
     <item>
+      <title>Request the endpoint using hook-status in TLS1.1 with a valid access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-1-with-a-valid-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-1-with-a-valid-access-token.html</guid>
+      <description>Request the endpoint using hook-status in TLS1.1 with a valid access token </description>
+    </item>
+    
+    <item>
       <title>Share a list</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5313,10 +5425,10 @@ Email logs table is displayed in the page    </description>
     
     <item>
       <title>BO - Advanced Parameters - Webservice - Quick edit enable/disable</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-quick-edit-enable-disable.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-quick-edit-enable-disable.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-quick-edit-enable-disable.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-quick-edit-enable-disable.html</guid>
       <description>BO - Advanced Parameters - Webservice - Quick edit enable/disable </description>
     </item>
     
@@ -5871,12 +5983,32 @@ All orders customer contains the searched customer   Click on the Customer Link 
     </item>
     
     <item>
+      <title>Check a resource endpoint using hook-status with a valid access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-access-token.html</guid>
+      <description>Check a resource endpoint using hook-status with a valid access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with a valid access token * Receive a response where the HTTP Code is 200
+* Receive a response in JSON
+* Receive a response which contains the id of the hook and if it’s active (true / false)    </description>
+    </item>
+    
+    <item>
       <title>Check that the verification email is send</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-verification-email-is-send.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-verification-email-is-send.html</guid>
       <description>Check that the verification email is send Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>Check the authorization endpoint with oauth2 in POST method with informations but invalid (clientId &#43; clientSecret)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-informations-but-invalid-clientid-clientsecret.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-informations-but-invalid-clientid-clientsecret.html</guid>
+      <description>Check the authorization endpoint with oauth2 in POST method with informations but invalid (clientId + clientSecret) Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token in POST with informations but invalid (clientId + clientSecret) Receive a response where the HTTP Code is 401    </description>
     </item>
     
     <item>
@@ -6230,6 +6362,15 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     </item>
     
     <item>
+      <title>Request the endpoint using hook-status in TLS1.2 with a valid access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-2-with-a-valid-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-2-with-a-valid-access-token.html</guid>
+      <description>Request the endpoint using hook-status in TLS1.2 with a valid access token </description>
+    </item>
+    
+    <item>
       <title>Reset</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/dashactivity/installation/reset.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6394,10 +6535,10 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     
     <item>
       <title>BO - Advanced Parameters - Webservice - Configuration</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-configuration.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-configuration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-configuration.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-configuration.html</guid>
       <description>BO - Advanced Parameters - Webservice - Configuration </description>
     </item>
     
@@ -6855,6 +6996,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>Check the authorization endpoint with oauth2 in POST method with valid informations (clientId &#43; clientSecret) and undefined (notUsed parameter)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-valid-informations-clientid-clientsecret-and-undefined-notused-parameter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-valid-informations-clientid-clientsecret-and-undefined-notused-parameter.html</guid>
+      <description>Check the authorization endpoint with oauth2 in POST method with valid informations (clientId + clientSecret) and undefined (notUsed parameter) Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) and undefined (notUsed parameter) Receive a response where the HTTP Code is 200    </description>
+    </item>
+    
+    <item>
       <title>Check the name of a deleted user</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/check-the-name-of-a-deleted-user.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7063,6 +7213,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>Request the endpoint using hook-status in TLS1.3 with a valid access token</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-3-with-a-valid-access-token.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-3-with-a-valid-access-token.html</guid>
+      <description>Request the endpoint using hook-status in TLS1.3 with a valid access token </description>
+    </item>
+    
+    <item>
       <title>Search a currency by enable/disable</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/search-a-currency-by-enable-disable.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7190,10 +7349,10 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     
     <item>
       <title>BO - Advanced Parameters - Webservice - Help card</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-help-card.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-help-card.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-help-card.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-help-card.html</guid>
       <description>BO - Advanced Parameters - Webservice - Help card </description>
     </item>
     
@@ -7583,6 +7742,17 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-text-entered-in-the-module-is-updated-in-front-office.html</guid>
       <description>Check that the text entered in the module is updated in front office Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>Check the authorization endpoint with oauth2 in POST method with valid informations (clientId &#43; clientSecret)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-valid-informations-clientid-clientsecret.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-valid-informations-clientid-clientsecret.html</guid>
+      <description>Check the authorization endpoint with oauth2 in POST method with valid informations (clientId + clientSecret) Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) * Receive a response where the HTTP Code is 200
+* Receive a response in JSON
+* Receive a response which contains this object { &amp;ldquo;token_type&amp;rdquo;:&amp;ldquo;Bearer&amp;rdquo; &amp;ldquo;expires_in&amp;rdquo;:3000, &amp;ldquo;access_token&amp;rdquo;:&amp;quot;%access_token%&amp;quot;, }    </description>
     </item>
     
     <item>
@@ -8613,7 +8783,7 @@ A message is displayed and we are redirected to the main page of the configurati
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/reset-symbol-format-settings.html</guid>
-      <description>Reset symbol / format settings Steps    Step Description Expected result     Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps   Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated   Click the round arrow to Reset it Currency should be reset</description>
+      <description>Reset symbol / format settings Steps    Step Description Expected result     Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps   Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated   Click Save List of currencies is updated with new Symbol   Edit the currency &amp;gt; Click the round arrow to Reset it Currency should be reset</description>
     </item>
     
     <item>
