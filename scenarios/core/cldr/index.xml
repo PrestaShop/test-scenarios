@@ -31,7 +31,8 @@
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/delete-a-currency.html</guid>
       <description>Delete a currency Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 3 currencies : GBP, JPY and USD 3 new currencies are created
-Message &amp;ldquo;Successful creation&amp;rdquo; appears   Click on the 3-dot button for USD &amp;gt; Delete A popup titled &amp;ldquo;Delete selection&amp;rdquo; appears   Click Delete to confirm the deletion Message &amp;ldquo;Successful deletion.&amp;rdquo; appears</description>
+Message &amp;ldquo;Successful creation&amp;rdquo; appears   Go to Localization Tab &amp;gt; Change default currency to USD &amp;gt; Save Popup appears to confirm
+Message &amp;ldquo;Update successful&amp;rdquo; appears   Click on the 3-dot button for USD &amp;gt; Delete Message &amp;ldquo;You cannot delete the default currency&amp;rdquo; appears   Go to Localization Tab &amp;gt; Change default currency back to EUR &amp;gt; Save Popup appears to confirm</description>
     </item>
     
     <item>
@@ -41,7 +42,7 @@ Message &amp;ldquo;Successful creation&amp;rdquo; appears   Click on the 3-dot b
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/search-a-currency-by-iso-code.html</guid>
       <description>Search a currency by ISO code Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 3 new currencies : USD, PYG and JPY Message &amp;ldquo;Successful creation.&amp;quot;
-USD, PYG and JPY are in the list of currencies   Search by ISO &amp;ldquo;EUR&amp;rdquo; &amp;gt; Click Search Currency Euro is displayed   Search by ISO : &amp;ldquo;US&amp;rdquo; Currency US Dollar is displayed   Search by ISO : &amp;ldquo;PY&amp;rdquo; 2 currencies are displayed : Japanese Yen and Paraguayan Guarani   Search by ISO : &amp;ldquo;P&amp;rdquo; 3 currencies are displayed : British Pound, Japanese Yen and Paraguayan Guarani   Click Reset All currencies are displayed    </description>
+USD, PYG and JPY are in the list of currencies   Search by ISO &amp;ldquo;EUR&amp;rdquo; &amp;gt; Click Search Currency Euro is displayed   Search by ISO : &amp;ldquo;US&amp;rdquo; Currency US Dollar is displayed   Search by ISO : &amp;ldquo;PY&amp;rdquo; 2 currencies are displayed : Japanese Yen and Paraguayan Guarani   Search by ISO : &amp;ldquo;P&amp;rdquo; 3 currencies are displayed : British Pound, Japanese Yen and Paraguayan Guarani   Search by ISO : &amp;ldquo;ABC&amp;rdquo; No currency is displayed</description>
     </item>
     
     <item>
@@ -52,7 +53,7 @@ USD, PYG and JPY are in the list of currencies   Search by ISO &amp;ldquo;EUR&am
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/search-a-currency-by-enable-disable.html</guid>
       <description>Search a currency by enable/disable Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add a new currency : USD &amp;gt; Save USD currency is created
 Message &amp;ldquo;Successful creation.&amp;rdquo;   Disable currency USD by switching the toggle button USD is disabled
-Message &amp;ldquo;The status has been successfully updated.&amp;rdquo;   Search by Enabled : YES &amp;gt; Click Search Currency Euro should be the only currency available   Search by Enabled : NO &amp;gt; Click Search Currency USD Should be the only currency available   Add a new currency &amp;gt; Choose GBP &amp;gt; Save Message &amp;ldquo;Successful creation.</description>
+Message &amp;ldquo;The status has been successfully updated.&amp;rdquo;   Search by Enabled : YES &amp;gt; Click Search Currency Euro should be the only currency available   Search by Enabled : NO &amp;gt; Click Search Currency USD should be the only currency available   Enable currency USD by switching the toggle button USD is enabled</description>
     </item>
     
     <item>
