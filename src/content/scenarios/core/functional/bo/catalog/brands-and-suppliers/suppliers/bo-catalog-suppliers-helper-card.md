@@ -9,4 +9,4 @@ weight: 4
 | ----- | ----- |
 | Go to BO > Catalog > Brands & Suppliers > Suppliers page | The Suppliers page is well displayed |
 | Click on Help | The documentation modal is opened in English |
-| Close the modal | The modal is well closed |
+| Close the modal OR Click on the Help button again | The modal is well closed |

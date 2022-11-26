@@ -12,4 +12,5 @@ weight: 4
 | Search by ISO : "US" | Currency US Dollar is displayed |
 | Search by ISO : "PY" | 2 currencies are displayed : Japanese Yen and Paraguayan Guarani |
 | Search by ISO : "P" | 3 currencies are displayed : British Pound, Japanese Yen and Paraguayan Guarani |
+| Search by ISO : "ABC" | No currency is displayed<br><br>Message "No records found" is displayed in list |
 | Click Reset | All currencies are displayed |

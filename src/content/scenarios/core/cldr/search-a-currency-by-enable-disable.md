@@ -10,7 +10,8 @@ weight: 5
 | Go to BO > International > Localization > Currencies > Add a new currency : USD > Save | USD currency is created<br><br>Message "Successful creation." |
 | Disable currency USD by switching the toggle button | USD is disabled<br><br>Message "The status has been successfully updated." |
 | Search by Enabled : YES > Click Search | Currency Euro should be the only currency available |
-| Search by Enabled : NO > Click Search | Currency USD Should be the only currency available |
+| Search by Enabled : NO > Click Search | Currency USD should be the only currency available |
+| Enable currency USD by switching the toggle button | USD is enabled<br><br>In the filter section you should see : "No records found" |
 | Add a new currency > Choose GBP > Save | Message "Successful creation."<br><br>GBP will not appear |
 | Search by Enable : YES > Click Search | GBP and EUR will be displayed |
 | Reset your search | All 3 currencies should be displayed |

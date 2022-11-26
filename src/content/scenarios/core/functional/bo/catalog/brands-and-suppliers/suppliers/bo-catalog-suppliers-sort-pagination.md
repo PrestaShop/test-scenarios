@@ -20,4 +20,4 @@ weight: 3
 | Click on Next | The Second page is displayed |
 | Click on Previous | The first page is displayed |
 | Change Display items to 50 | Pagination = 1 |
-| Delete created Suppliers | Suppliers well created |
+| Delete created Suppliers | Suppliers well deleted with message "Successful deletion" |
