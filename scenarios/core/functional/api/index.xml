@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API on PrestaShop Tests</title>
+    <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api.html</link>
+    <description>Recent content in API on PrestaShop Tests</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic Test</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/basic-test.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/basic-test.html</guid>
+      <description>Basic Test Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/ Receive a response where the HTTP code is 404   Request the endpoint /admin-dev/new-api/hook-status Receive a response where the HTTP code is 400    </description>
+    </item>
+    
+    <item>
+      <title>TLS Check</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/tls-check.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/tls-check.html</guid>
+      <description>TLS Check Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without HTTPS Receive a response where the HTTP code is 301
+Redirect to the endpoint in HTTPS   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.0 with a valid access token Receive a response where the HTTP code is 426
+Receive a response where the header “Upgrade” is present   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.</description>
+    </item>
+    
+  </channel>
+</rss>

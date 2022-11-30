@@ -42,11 +42,18 @@
 	"content": "Add a product to a list Steps    Step Description Expected result     Browse through the catalog and open a product page The heart next to the picture is empty   Click on the heart A modal appears, telling you to log in before you can add products to your wishlists. There is a Sign In\u0026quot; button\u0026quot;   Click on the Sign In\u0026quot; button. Log in as a customer\u0026quot; You are logged in   Go to the customer account. Click on the Wishlist\u0026quot; block\u0026quot; Default wishlist is displayed. There is a (0) next to the title   Click on the default wishlist The wishlist opens. It\u0026rsquo;s empty   Browse through the catalog and open a product page. The product must be a single product with a lot of stock The heart next to the picture is empty   Change the quantity to 5. Click on the heart A modal appears, asking you to select a wishlist to add the product to   Select the default wishlist The modal closes and the heart is now filled (even after a refresh of the page)   Go to the Wishlist in your customer account section. Open the default wishlist The item is saved, with its quantity as 5   Browse through the catalog and open a product page. The product must be a single product with ZERO stock. Click on the heart A modal appears, asking you to select a wishlist to add the product to   Select the CUSTOM wishlist The modal closes and the heart is now filled (even after a refresh of the page)   Go to the Wishlist in your customer account section. Open the custom wishlist The item is saved, with its quantity as 0   Browse through the catalog and open a product page. The product must be a single product with a minimal quantity. Change the quantity to a number below the minimal quantity. Click on the heart A modal appears, asking you to select a wishlist to add the product to   Select the CUSTOM wishlist The modal closes and the heart is now filled (even after a refresh of the page)   Go to the Wishlist in your customer account section. Open the custom wishlist The item is saved, with its quantity as the minimal quantity set in the product setting   Browse through the catalog and open a product page. The product must be a product with combinations. Select a specific combination (NOT the default one). Click on the heart A modal appears, asking you to select a wishlist to add the product to   Select the custom wishlist The modal closes and the heart is now filled   Change the combination The heart empties   Get back to the saved combination The heart refills automatically   Go to the Wishlist in your customer account section. Open the custom wishlist The item is saved, for the specific combination    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/basic-test.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/internal-authentification-server/authorization-endpoint.html",
+	"title": "Authorization Endpoint",
+	"tags": [],
+	"description": "",
+	"content": "Authorization Endpoint Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/oauth2/token in GET method Receive a response where the HTTP code is 405   Request the endpoint /admin-dev/api/oauth2/token with oauth2 in POST method without informations Receive a response where the HTTP code is 400   Request the endpoint /admin-dev/api/oauth2/token in POST with informations but undefined (notUsed) Receive a response where the HTTP code is 400   Request the endpoint /admin-dev/api/oauth2/token in POST with informations but invalid (clientId + clientSecret) Receive a response where the HTTP Code is 401   Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) and undefined (notUsed parameter) Receive a response where the HTTP Code is 200   Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) * Receive a response where the HTTP Code is 200\n* Receive a response in JSON\n* Receive a response which contains this object { \u0026ldquo;token_type\u0026rdquo;:\u0026ldquo;Bearer\u0026rdquo; \u0026ldquo;expires_in\u0026rdquo;:3000, \u0026ldquo;access_token\u0026rdquo;:\u0026quot;%access_token%\u0026quot;, }    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/basic-test.html",
 	"title": "Basic Test",
 	"tags": [],
 	"description": "",
-	"content": "Basic Test "
+	"content": "Basic Test Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/ Receive a response where the HTTP code is 404   Request the endpoint /admin-dev/new-api/hook-status Receive a response where the HTTP code is 400    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/configuration/bo-add-url-to-the-different-social-media.html",
@@ -756,13 +763,6 @@
 	"content": "Change the position of the bloc in products pages Steps    Step Description Expected result     Select principal column\u0026quot; \u0026quot; A message should be display in green   Go to the front office in a product page The bloc reassurance should be display   Select None\u0026quot; \u0026quot; A message should be display in green   Go to the front office in a product page The bloc reassurance shouldn\u0026rsquo;t be display    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-without-access-token.html",
-	"title": "Check a resource endpoint using hook-status without access token",
-	"tags": [],
-	"description": "",
-	"content": "Check a resource endpoint using hook-status without access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without access token * Receive a response where the HTTP Code is 401\n* Receive a response where the Header \u0026lsquo;WWW-Authenticate: Bearer\u0026rsquo;    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customeraccountlinks/fo/check-footer-links.html",
 	"title": "Check footer links",
 	"tags": [],
@@ -789,13 +789,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Check stats Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-get-method.html",
-	"title": "Check the authorization endpoint with oauth2 in GET method ",
-	"tags": [],
-	"description": "",
-	"content": "Check the authorization endpoint with oauth2 in GET method Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/oauth2/token in GET method Receive a response where the HTTP code is 405    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-the-display-of-the-email-block-in-the-left-column.html",
@@ -1335,20 +1328,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Product Comment - Upgrade Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager and search productcomments The module page should be displayed and module productcomments should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-without-https.html",
-	"title": "Request the endpoint using hook-status without HTTPS",
-	"tags": [],
-	"description": "",
-	"content": "Request the endpoint using hook-status without HTTPS Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without HTTPS Receive a response where the HTTP code is 301\nRedirect to the endpoint in HTTPS    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/basic-test/request-the-endpoint-with-only-new-api.html",
-	"title": "Request the endpoint with only new-api",
-	"tags": [],
-	"description": "",
-	"content": "Request the endpoint with only new-api Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/ Receive a response where the HTTP code is 404    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customersignin/fo/reset-password.html",
@@ -2184,25 +2163,11 @@
 	"content": "Change the position in the footer Steps    Step Description Expected result     Select the top of the footer\u0026quot; A message should be display in green   Go to the front office The bloc should be hooked in the top of the footer   Select the bottom of the footer\u0026quot; A message should be display in green   Go to the front office The bloc should be hooked in the bottom of the footer   Select None\u0026quot; A message should be display in green   Go to the front office The bloc should be displayed in the footer    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-an-invalid-access-token.html",
-	"title": "Check a resource endpoint using hook-status with an invalid access token",
-	"tags": [],
-	"description": "",
-	"content": "Check a resource endpoint using hook-status with an invalid access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token * Receive a response where the HTTP Code is 401\n* Receive a response where the Header \u0026lsquo;WWW-Authenticate: Bearer\u0026rsquo;    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-entered-email-in-the-left-column-email-block-is-saved.html",
 	"title": "Check that the entered email in the left column email block is saved",
 	"tags": [],
 	"description": "",
 	"content": "Check that the entered email in the left column email block is saved Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-without-informations.html",
-	"title": "Check the authorization endpoint with oauth2 in POST method without informations",
-	"tags": [],
-	"description": "",
-	"content": "Check the authorization endpoint with oauth2 in POST method without informations Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token with oauth2 in POST method without informations Receive a response where the HTTP code is 400    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/catalogfo/checkproduct.html",
@@ -2653,18 +2618,11 @@
 	"content": "Report a comment Steps    Step Description Expected result     Click on the flag to report a comment A popup appear   confirm that you want to report the comment A popup appear with a message    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-0-with-a-valid-access-token.html",
-	"title": "Request the endpoint using hook-status in TLS1.0 with a valid access token",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/internal-authentification-server/resource-endpoint.html",
+	"title": "Resource Endpoint",
 	"tags": [],
 	"description": "",
-	"content": "Request the endpoint using hook-status in TLS1.0 with a valid access token "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/basic-test/request-the-endpoint-with-hook-status.html",
-	"title": "Request the endpoint with hook-status",
-	"tags": [],
-	"description": "",
-	"content": "Request the endpoint with hook-status Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status Receive a response where the HTTP code is 400    "
+	"content": "Resource Endpoint Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without access token * Receive a response where the HTTP Code is 401\n* Receive a response where the Header \u0026lsquo;WWW-Authenticate: Bearer\u0026rsquo;   Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token * Receive a response where the HTTP Code is 401\n* Receive a response where the Header \u0026lsquo;WWW-Authenticate: Bearer\u0026rsquo;   Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token * Receive a response where the HTTP Code is 401\n* Receive a response where the Header \u0026lsquo;WWW-Authenticate: Bearer\u0026rsquo;   Request the endpoint /admin-dev/new-api/hook-status/1 with a valid access token * Receive a response where the HTTP Code is 200\n* Receive a response in JSON\n* Receive a response which contains the id of the hook and if it’s active (true / false)    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/configuration/theme-customization-module-pages-configuration-tab.html",
@@ -2679,6 +2637,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Theme Customization module - Uninstall/Install module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_themecusto The module page list should be displayed and Theme Customization module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Uninstall\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Uninstall module?\u0026quot;\n* Description: \u0026ldquo;You are about to uninstall Theme Customization module. This will definitely disable the module and delete all its files\u0026rdquo;\n* Optional checkbox: \u0026ldquo;Optional: delete module folder after uninstall.\u0026quot;\n* Text: \u0026ldquo;This action cannot be undone.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, uninstall it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Uninstall\u0026rdquo; The modal is open again with the same informations (Title / Description / Optional checkbox / Text / 2 buttons)   Click on \u0026ldquo;Yes, uninstall it\u0026rdquo; button to confirm the uninstallation of the module * After loading, a green message \u0026ldquo;Uninstall action on module ps_themecusto succeeded.\u0026rdquo; is displayed\n* The module is uninstalled, the button at the right of the module is displaying \u0026ldquo;Install\u0026rdquo;\n* In folders of you shop: yourshop/modules/, the \u0026ldquo;ps_themecusto\u0026rdquo; folder should be still on it   Go to Design \u0026gt; Theme \u0026amp; Logo * The \u0026ldquo;Theme \u0026amp; Logo\u0026rdquo; page is well displayed\n* The \u0026ldquo;Pages Configuration\u0026rdquo; \u0026amp; \u0026ldquo;Advanced Customization\u0026rdquo; tabs are not available   Go back to Modules \u0026gt; Module Manager \u0026gt;Search ps_themecusto module \u0026gt; Click on \u0026ldquo;Install\u0026rdquo; button at the right of the module * After loading, a green message \u0026ldquo;Install action on module ps_themecusto succeeded.\u0026rdquo; is displayed\n* The module is installed, the button at the right of the module is displaying \u0026ldquo;Disable Mobile\u0026rdquo;\n* In folders of you shop: yourshop/modules/, the \u0026ldquo;ps_themecusto\u0026rdquo; folder should be still on it   Go to Design \u0026gt; Theme \u0026amp; Logo * The \u0026ldquo;Theme \u0026amp; Logo\u0026rdquo; page is well displayed\n* The \u0026ldquo;Pages Configuration\u0026rdquo; \u0026amp; \u0026ldquo;Advanced Customization\u0026rdquo; tabs are available    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/tls-check.html",
+	"title": "TLS Check",
+	"tags": [],
+	"description": "",
+	"content": "TLS Check Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without HTTPS Receive a response where the HTTP code is 301\nRedirect to the endpoint in HTTPS   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.0 with a valid access token Receive a response where the HTTP code is 426\nReceive a response where the header “Upgrade” is present   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.1 with a valid access token Receive a response where the HTTP code is 426\nReceive a response where the header “Upgrade” is present   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.2 with a valid access token Receive a response where the HTTP code is 200   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.3 with a valid access token Receive a response where the HTTP code is 200    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-and-delete.html",
@@ -3437,13 +3402,6 @@
 	"content": "Change Sort and Sort order option Steps    Step Description Expected result     Change the sort option by By name\u0026quot; and sort order option by \u0026ldquo;ascending\u0026rdquo; save\u0026quot; Option should be saved   Go to FO scrolldown to the bottom click on the link all product\u0026quot;.\u0026quot; Category should be order by name ascending   Change the sort order by Descending\u0026quot; and save\u0026quot; Option should be saved   Go to FO scrolldown to the bottom click on the link all product\u0026quot;.\u0026quot; Category should be order by name descending   Change the sort option by By position\u0026quot; and sort order option by \u0026ldquo;ascending\u0026rdquo; save\u0026quot; Option should be saved   Go to FO scrolldown to the bottom click on the link all product\u0026quot;.\u0026quot; Category should be position by name ascending   Change the sort order by Descending\u0026quot; and save\u0026quot; tion should be saved   Go to FO scrolldown to the bottom click on the link all product\u0026quot;.\u0026quot; Category should be order by position descending    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-but-expired-access-token.html",
-	"title": "Check a resource endpoint using hook-status with a valid but expired access token",
-	"tags": [],
-	"description": "",
-	"content": "Check a resource endpoint using hook-status with a valid but expired access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token * Receive a response where the HTTP Code is 401\n* Receive a response where the Header \u0026lsquo;WWW-Authenticate: Bearer\u0026rsquo;    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/contactform/configuration/check-email-data.html",
 	"title": "Check email data",
 	"tags": [],
@@ -3463,13 +3421,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Check that the entered email in the footer email block is saved Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-informations-but-undefined-notused.html",
-	"title": "Check the authorization endpoint with oauth2 in POST method with informations but undefined (notUsed)",
-	"tags": [],
-	"description": "",
-	"content": "Check the authorization endpoint with oauth2 in POST method with informations but undefined (notUsed) Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token in POST with informations but undefined (notUsed) Receive a response where the HTTP code is 400    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration/configuration-for-merchant/configure-the-minimum-quantity-for-out-of-stock.html",
@@ -3771,13 +3722,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Randomly display featured products Steps    Step Description Expected result     Enable the option Randomly display featured products\u0026quot; A message should appear in green.\nThe option should be enabled   Go to front office/check the homepage Product shouldn\u0026rsquo;t be display by id but randomly    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-1-with-a-valid-access-token.html",
-	"title": "Request the endpoint using hook-status in TLS1.1 with a valid access token",
-	"tags": [],
-	"description": "",
-	"content": "Request the endpoint using hook-status in TLS1.1 with a valid access token "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html",
@@ -4452,25 +4396,11 @@
 	"content": "Category products module - Upgrade module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Upgrade\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Are you sure you want to upgrade this module?\u0026quot;\n* Description: \u0026ldquo;We strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026quot;\n* 3 buttons: \u0026ldquo;Cancel\u0026rdquo; / \u0026ldquo;Go to maintenance page\u0026rdquo; / \u0026ldquo;Upgrade anyway\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Upgrade\u0026rdquo; option The modal is open again with the same informations (Title / Description / 3 buttons)   Case 1: Upgrade with shop on maintenance\nClick on \u0026ldquo;Go to maintenance page\u0026rdquo; button The \u0026ldquo;Maintenance\u0026rdquo; page is displayed   Set to \u0026ldquo;No\u0026rdquo; the \u0026ldquo;Enable store\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* \u0026ldquo;Enable store\u0026rdquo; is set to \u0026ldquo;No\u0026rdquo; and grey\n* A \u0026ldquo;Maintenance mode\u0026rdquo; link is displayed on the header of the store   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the maintenance page   Go back to BO \u0026gt; Modules \u0026gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list   Click on \u0026ldquo;Upgrade\u0026rdquo; button at the right of the module A modal is open with:\n* Title: \u0026ldquo;Are you sure you want to upgrade this module?\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; / \u0026ldquo;Upgrade\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right * The modal is removed\n* The module list page is displayed   Click on \u0026ldquo;Upgrade\u0026rdquo; button at the right of the module The modal is open again with the same informations (Title / 2 buttons)   Click on \u0026ldquo;Upgrade\u0026rdquo; button in the modal * After loading, a green message \u0026ldquo;Upgrade action on module ps_categoryproducts succeeded.\u0026rdquo; is displayed\n* The module is upgraded, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Reload the page The module should be:\n* Upgraded and displayed \u0026ldquo;Configure\u0026rdquo; in the right button\n* Displayed the latest version instead of the current to the new version\n* Removed the green tag \u0026ldquo;Upgrade available\u0026rdquo;   Click on \u0026ldquo;Maintenance mode\u0026rdquo; link on the header The \u0026ldquo;Maintenance\u0026rdquo; page is displayed   Set to \u0026ldquo;Yes\u0026rdquo; the \u0026ldquo;Enable store\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* \u0026ldquo;Enable store\u0026rdquo; is set to \u0026ldquo;Yes\u0026rdquo; and green\n* The \u0026ldquo;Maintenance mode\u0026rdquo; link is removed from the header of the store   Go back to the FO \u0026gt; Reload the page Homepage is well displayed   Click on a product The product page should be displayed and if you scroll down, the \u0026ldquo;Other products in the same category :\u0026rdquo; block should be displayed   Case 2: Upgrade without shop on maintenance\nClick on \u0026ldquo;Upgrade anyway\u0026rdquo; button * After loading, a green message \u0026ldquo;Upgrade action on module ps_categoryproducts succeeded.\u0026rdquo; is displayed\n* The module is upgraded, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Reload the page The module should be:\n* Upgraded and displayed \u0026ldquo;Configure\u0026rdquo; in the right button\n* Displayed the latest version instead of the current to the new version\n* Removed the green tag \u0026ldquo;Upgrade available\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Click on a product The product page should be displayed and if you scroll down, the \u0026ldquo;Other products in the same category :\u0026rdquo; block should be displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint/check-a-resource-endpoint-using-hook-status-with-a-valid-access-token.html",
-	"title": "Check a resource endpoint using hook-status with a valid access token",
-	"tags": [],
-	"description": "",
-	"content": "Check a resource endpoint using hook-status with a valid access token Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 with a valid access token * Receive a response where the HTTP Code is 200\n* Receive a response in JSON\n* Receive a response which contains the id of the hook and if it’s active (true / false)    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-verification-email-is-send.html",
 	"title": "Check that the verification email is send",
 	"tags": [],
 	"description": "",
 	"content": "Check that the verification email is send Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-informations-but-invalid-clientid-clientsecret.html",
-	"title": "Check the authorization endpoint with oauth2 in POST method with informations but invalid (clientId + clientSecret)",
-	"tags": [],
-	"description": "",
-	"content": "Check the authorization endpoint with oauth2 in POST method with informations but invalid (clientId + clientSecret) Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token in POST with informations but invalid (clientId + clientSecret) Receive a response where the HTTP Code is 401    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/check-the-name-of-a-deleted-user-with-anonymize-last-name-option-enable.html",
@@ -4737,13 +4667,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Quick edit statuses "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-2-with-a-valid-access-token.html",
-	"title": "Request the endpoint using hook-status in TLS1.2 with a valid access token",
-	"tags": [],
-	"description": "",
-	"content": "Request the endpoint using hook-status in TLS1.2 with a valid access token "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/dashactivity/installation/reset.html",
@@ -5208,13 +5131,6 @@
 	"content": "Check that the confirmation email is send Steps    Step Description Expected result          "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-valid-informations-clientid-clientsecret-and-undefined-notused-parameter.html",
-	"title": "Check the authorization endpoint with oauth2 in POST method with valid informations (clientId + clientSecret) and undefined (notUsed parameter)",
-	"tags": [],
-	"description": "",
-	"content": "Check the authorization endpoint with oauth2 in POST method with valid informations (clientId + clientSecret) and undefined (notUsed parameter) Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) and undefined (notUsed parameter) Receive a response where the HTTP Code is 200    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/check-the-name-of-a-deleted-user.html",
 	"title": "Check the name of a deleted user",
 	"tags": [],
@@ -5374,13 +5290,6 @@
 	"tags": [],
 	"description": "",
 	"content": "New products block module - Disable/Enable module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_newproducts The module page list should be displayed and New products block module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Disable module?\u0026quot;\n* Description: \u0026ldquo;You are about to disable New products block module.\nYour current settings will be saved, but the module will no longer be active.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, disable it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable\u0026rdquo; option The modal is open again with the same informations (Title / Description / 2 buttons)   Click on \u0026ldquo;Yes, disable it\u0026rdquo; button to confirm the reset of the module * After loading, a green message \u0026ldquo;Disable action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is disabled, the button at the right of the module is displaying \u0026ldquo;Enable\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should not be displayed   Go back to BO \u0026gt; Module list page with ps_newproducts module displayed \u0026gt; Click on \u0026ldquo;Enable\u0026rdquo; button at the right of the module * After loading, a green message \u0026ldquo;Enable action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is enabled, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Go back to FO \u0026gt; Reload the page \u0026gt; Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should be displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check/request-the-endpoint-using-hook-status-in-tls1-3-with-a-valid-access-token.html",
-	"title": "Request the endpoint using hook-status in TLS1.3 with a valid access token",
-	"tags": [],
-	"description": "",
-	"content": "Request the endpoint using hook-status in TLS1.3 with a valid access token "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/search-a-currency-by-enable-disable.html",
@@ -5773,13 +5682,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Check that the text entered in the module is updated in front office Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint/check-the-authorization-endpoint-with-oauth2-in-post-method-with-valid-informations-clientid-clientsecret.html",
-	"title": "Check the authorization endpoint with oauth2 in POST method with valid informations (clientId + clientSecret)",
-	"tags": [],
-	"description": "",
-	"content": "Check the authorization endpoint with oauth2 in POST method with valid informations (clientId + clientSecret) Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) * Receive a response where the HTTP Code is 200\n* Receive a response in JSON\n* Receive a response which contains this object { \u0026ldquo;token_type\u0026rdquo;:\u0026ldquo;Bearer\u0026rdquo; \u0026ldquo;expires_in\u0026rdquo;:3000, \u0026ldquo;access_token\u0026rdquo;:\u0026quot;%access_token%\u0026quot;, }    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-order-with-catalog-cart-rule-on-a-product-or-a-category.html",
@@ -7277,7 +7179,7 @@
 	"title": "Advanced Parameters",
 	"tags": [],
 	"description": "",
-	"content": "Advanced Parameters Categories  Administration   Database   Email   Experimental Features   Import   Informations   Logs   Multistore   Performance   Team   Webservice-AAA   Webservice1   "
+	"content": "Advanced Parameters Categories  Administration   Database   Email   Experimental Features   Import   Informations   Logs   Multistore   Performance   Team   Webservice1   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance/affichage.html",
@@ -7294,11 +7196,11 @@
 	"content": "Alerts Tests  BO - Modules - Alerts tab - Disable / Enable desktop and mobile   BO - Modules - Alerts tab - Reset   BO - Modules - Alerts tab - Uninstall   BO - Modules - Alerts tab - Bulk actions   BO - Modules - Alerts tab - Upload a module   BO - Modules - Alerts tab - Connect to Addons market place   BO - Modules - Alerts tab - Configure module   BO - Modules - Alerts tab - Upgrade   "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api.html",
 	"title": "API",
 	"tags": [],
 	"description": "",
-	"content": "API Categories  Basic Test   Client Credential Grant Flow - Internal Authentification Server   TLS Check   "
+	"content": "API Categories  Client Credential Grant Flow   Tests  Basic Test   TLS Check   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance/apparence.html",
@@ -7320,20 +7222,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Attributes And Features Categories  Attributes   Features   "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/authorization-endpoint.html",
-	"title": "Authorization Endpoint",
-	"tags": [],
-	"description": "",
-	"content": "Authorization Endpoint Tests  Check the authorization endpoint with oauth2 in GET method    Check the authorization endpoint with oauth2 in POST method without informations   Check the authorization endpoint with oauth2 in POST method with informations but undefined (notUsed)   Check the authorization endpoint with oauth2 in POST method with informations but invalid (clientId \u0026#43; clientSecret)   Check the authorization endpoint with oauth2 in POST method with valid informations (clientId \u0026#43; clientSecret) and undefined (notUsed parameter)   Check the authorization endpoint with oauth2 in POST method with valid informations (clientId \u0026#43; clientSecret)   "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/basic-test.html",
-	"title": "Basic Test",
-	"tags": [],
-	"description": "",
-	"content": "Basic Test Tests  Request the endpoint with only new-api   Request the endpoint with hook-status   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance.html",
@@ -7476,11 +7364,11 @@
 	"content": "CLDR Tests  Add a currency pre-saved   Add a custom currency   Delete a currency   Search a currency by ISO code   Search a currency by enable/disable   Reset currency default settings   Edit symbol / format currency   Reset symbol / format settings   Enable/Disable a currency   Check in create order the currency available   Check generation of bill   Check access to the orders   Refresh list of currency   Reset the search   Edit a currency   Check access to the cart   "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server.html",
-	"title": "Client Credential Grant Flow - Internal Authentification Server",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow.html",
+	"title": "Client Credential Grant Flow",
 	"tags": [],
 	"description": "",
-	"content": "Client Credential Grant Flow - Internal Authentification Server Categories  Authorization Endpoint   Resource Endpoint   "
+	"content": "Client Credential Grant Flow Categories  Internal Authentification Server   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions.html",
@@ -8159,7 +8047,7 @@
 	"title": "Functional",
 	"tags": [],
 	"description": "",
-	"content": "Functional Categories  BO   FO   "
+	"content": "Functional Categories  API   BO   FO   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general.html",
@@ -8589,6 +8477,13 @@
 	"content": "InstallShop Tests  InstallShop   "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/internal-authentification-server.html",
+	"title": "Internal Authentification Server",
+	"tags": [],
+	"description": "",
+	"content": "Internal Authentification Server Tests  Authorization Endpoint   Resource Endpoint   "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international.html",
 	"title": "International",
 	"tags": [],
@@ -8881,20 +8776,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Outstanding Tests  BO - Customers - Outstanding - Help card   BO - Customers - Outstanding - View Invoice   BO - Customers - Outstanding - View Order   BO - Customers - Outstanding - Pagination   BO - Customers - Outstanding - Filter \u0026amp; Sort   "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1.html",
-	"title": "P1",
-	"tags": [],
-	"description": "",
-	"content": "P1 Categories  API   "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p2.html",
-	"title": "P2",
-	"tags": [],
-	"description": "",
-	"content": "P2 "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration.html",
@@ -9289,13 +9170,6 @@
 	"content": "Regression Categories  Checkout   Currencies   FO   menu   "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/client-credential-grant-flow-internal-authentification-server/resource-endpoint.html",
-	"title": "Resource Endpoint",
-	"tags": [],
-	"description": "",
-	"content": "Resource Endpoint Tests  Check a resource endpoint using hook-status without access token   Check a resource endpoint using hook-status with an invalid access token   Check a resource endpoint using hook-status with a valid but expired access token   Check a resource endpoint using hook-status with a valid access token   "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity.html",
 	"title": "Sanity",
 	"tags": [],
@@ -9625,13 +9499,6 @@
 	"content": "Titles Tests  Filter, sort and pagination   CRUD   Bulk actions   "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa/p1/api/tls-check.html",
-	"title": "TLS Check",
-	"tags": [],
-	"description": "",
-	"content": "TLS Check Tests  Request the endpoint using hook-status without HTTPS   Request the endpoint using hook-status in TLS1.0 with a valid access token   Request the endpoint using hook-status in TLS1.1 with a valid access token   Request the endpoint using hook-status in TLS1.2 with a valid access token   Request the endpoint using hook-status in TLS1.3 with a valid access token   "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo.html",
 	"title": "Trafic and Seo",
 	"tags": [],
@@ -9679,13 +9546,6 @@
 	"tags": [],
 	"description": "",
 	"content": "View and edit an order Tests  BO - Order details - Customer block   BO - Order details - Product block   BO - Order details - Status tab   BO - Order details - Documents tab   BO - Order details - Carriers tab   BO - Order details - Merchandise returns tab   BO - Order details - Message block   BO - Order details - Payment block   BO - Order details - Change order status with dropdown   BO - Order details - Add a discount   BO - Order details - Check invoice   BO - Order details - Check multi invoice behaviour   "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice-aaa.html",
-	"title": "Webservice-AAA",
-	"tags": [],
-	"description": "",
-	"content": "Webservice-AAA Categories  P1   P2   Tests  Basic Test   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1.html",
