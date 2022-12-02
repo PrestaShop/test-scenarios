@@ -37,7 +37,7 @@ weight: 3
 | Click on "Cancel" | The modal is closed and the combination is not removed |
 | Click on the "Delete" icon to remove any combination | A modal "Delete item" is displayed |
 | Click on "Delete" | * A green alert "successful deletion" is displayed<br>* The combination is well removed |
-| Click on the Seclect "Color" and try to filter by a color | * All combinations displayed are filtered by color<br>* The "Color" expression is changed to "Color(1)"<br>* The button "Clear filter" is well displayed |
+| Click on the Seclect "Size" and try to filter by a Size | * All combinations displayed are filtered by Size<br>* The "Color" expression is changed to "Size(1)"<br>* The button "Clear filter" is well displayed |
 | Select All combinations & edit the combinations | A modal "Edit x combinations" is displayed |
 | Click on Stocks > Enable those fields:<br>* "Edit quantity" <br>* "Minimum order quantity"<br>* "Stock location" | The data is well filled |
 | Click on Retail price > Enable those fields:<br>* Cost price (tax excl.)<br>* Impact on price (tax incl.)<br>* Impact on weight | The data is well filled |
