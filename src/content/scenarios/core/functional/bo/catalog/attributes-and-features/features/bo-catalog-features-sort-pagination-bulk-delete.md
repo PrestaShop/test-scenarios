@@ -7,7 +7,7 @@ weight: 3
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Catalog > Attributes & Features > Features page | The Features page is displayed |
+| Go to BO > Catalog > Attributes & Features > Features | The Features page is displayed |
 | Sort by ID desc | The list is sorted by ID desc (3->2->1) |
 | Sort by Name asc | The list is sorted by Name asc (a->b->c) |
 | Sort by Name desc | The list is sorted by Name desc (c->b->a) |
@@ -18,7 +18,8 @@ weight: 3
 | Click on Next | The Second page is displayed |
 | Click on Previous | The first page is displayed |
 | Change Display items to 50 | Pagination = 1 |
-| Filter by Name ("Todelete": data created as a pre-condition) | Number Features=19 and the list contains the searched Name |
+| Create 2 Feature (data created as a pre-condition) | Message Successful creation is displayed<br><br>List of features is updated |
+| Filter on Name "fa" | Filter is successful<br><br>Filtered result has 2 Features |
 | Click on Bulk action button | A drop down is displayed |
 | Click on "Select All" | All Features are selected |
 | Click on Bulk action button | A drop down is displayed |
