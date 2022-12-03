@@ -12,12 +12,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html</guid>
-      <description>BO - Catalog- Files - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; Catalog&amp;gt; Files page Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File&amp;rdquo; Title contains &amp;lsquo;Add new file&amp;rsquo;   Set these fields:
-# name: system.fileName from faker
-# frName: same as name
-# description: lorem.sentence from faker
-# frDescription: same as description
-# filename: name + &amp;lsquo;.text&amp;rsquo; and click on &amp;ldquo;Save&amp;rdquo; The successful message &amp;ldquo;Successful creation.</description>
+      <description>BO - Catalog- Files - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files Files page is displayed
+Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File&amp;rdquo; Title contains &amp;lsquo;Add new file&amp;rsquo;   Set these fields:
+- File name
+- Description
+- File Message &amp;ldquo;Successful creation.&amp;rdquo; is displayed
+The list of files is updated.   Click on the 3-dot button &amp;gt; View file File should be downloaded</description>
     </item>
     
     <item>
