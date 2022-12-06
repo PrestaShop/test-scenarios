@@ -69,6 +69,15 @@ If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly
     
     <item>
       <title>Authorization Endpoint</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/authorization-endpoint.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/authorization-endpoint.html</guid>
+      <description>Authorization Endpoint Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/oauth2/token in GET method Receive a response where the HTTP code is 405   Request the endpoint /admin-dev/api/oauth2/token with oauth2 in POST method without informations Receive a response where the HTTP code is 400   Request the endpoint /admin-dev/api/oauth2/token in POST with informations but undefined (notUsed) Receive a response where the HTTP code is 400   Request the endpoint /admin-dev/api/oauth2/token in POST with informations but invalid (clientId + clientSecret) Receive a response where the HTTP Code is 401   Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) and undefined (notUsed parameter) Receive a response where the HTTP Code is 200   Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) * Receive a response where the HTTP Code is 200</description>
+    </item>
+    
+    <item>
+      <title>Authorization Endpoint</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/internal-authentification-server/authorization-endpoint.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -233,11 +242,7 @@ all rows column &amp;lsquo;id_profile&amp;rsquo; contains &amp;lsquo;4&amp;rsquo
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-1-create-a-cart-with-without-code.html</guid>
       <description>BO - Cart rules - Case 1 - Create a cart with / without Code Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Case1: Without Code
-Set these fields:
-# Information:
-## Name
-## Description
-# Actions:</description>
+Set these fields and click on Save An alert &amp;ldquo;Successful creation.</description>
     </item>
     
     <item>
@@ -3511,6 +3516,17 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/report-a-comment.html</guid>
       <description>Report a comment Steps    Step Description Expected result     Click on the flag to report a comment A popup appear   confirm that you want to report the comment A popup appear with a message    </description>
+    </item>
+    
+    <item>
+      <title>Resource Endpoint</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/resource-endpoint.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/resource-endpoint.html</guid>
+      <description>Resource Endpoint Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without access token * Receive a response where the HTTP Code is 401
+* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;   Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token * Receive a response where the HTTP Code is 401
+* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;   Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token * Receive a response where the HTTP Code is 401</description>
     </item>
     
     <item>
