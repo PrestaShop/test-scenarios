@@ -8,7 +8,7 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Catalog > Discounts > Cart rules page and Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
-| *Case1: Without Code*<br><br>Set these fields:<br> # Information:<br> ## Name<br> ## Description<br> # Actions:<br> ## Discount = 20%<br><br>and click on Save | An alert "Successful creation." is displayed |
+| *Case1: Without Code*<br><br>Set these fields and click on Save | An alert "Successful creation." is displayed |
 | Go to FO,  Add product to cart and click on "Proceed to checkout" | The Shopping cart is well displayed and the discount is well applied<br><br>Total is ok |
 | Remove the product from the Shopping cart page | The product is well removed |
 | Go back to the BO > Cart rules page and Edit the last cart rule created | The Edit cart rule page is well displayed |
