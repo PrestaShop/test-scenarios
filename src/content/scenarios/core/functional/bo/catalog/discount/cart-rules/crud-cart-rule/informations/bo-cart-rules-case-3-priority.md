@@ -8,9 +8,9 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Catalog > Discounts > Cart rules page and Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
-| Created a new discount, set these fields:<br> # Information:<br>1. Name<br>2. Description<br>3. Priority = 2<br> # Actions:<br>1. Discount = 1 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
+| Created a new discount, set these fields:<br> # Information:<br>1. Name<br>2. Description<br>3. Priority = 2<br> # Conditions:<br> ## Put a Valid date (From : currentDate-1, To : currentdate)<br> # Actions:<br>1. Discount = 1 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
-| Create another discount, set these fields:<br> # Information:<br>1. Name<br>2. Description<br>3. Priority = 1<br> # Actions:<br>1. Discount = 2 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
+| Create another discount, set these fields:<br> # Information:<br>1. Name<br>2. Description<br>3. Priority = 1<br> # Conditions:<br> ## Put a Valid date (From : currentDate-1, To : currentdate)<br> # Actions:<br>1. Discount = 2 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | Check that Cart rule n°2 is applied before Cart rule n°1, Total is OK |

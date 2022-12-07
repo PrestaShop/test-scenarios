@@ -8,7 +8,7 @@ weight: 8
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Catalog > Discounts > Cart rules page and Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
-| Create a new discount, set these fields:<br><br># Information:<br>1. Name<br>2. Description<br>3.3 Code<br># Conditions:<br>1. Total available =2<br>2. Total available for each user =1<br># Actions:<br>1. Discount = 1 euro<br><br>and click on Save | An alert "Successful creation." is displayed |
+| Create a new discount, set these fields:<br> # Information:<br>1. Name<br>2. Description<br>3. Code<br> # Conditions:<br>1. Total available =2<br>2. Total available for each user =1<br> # Actions:<br>1. Discount = 1 euro<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
@@ -23,7 +23,7 @@ weight: 8
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
 | Click on "Have a promo code?" | The promo code section is displayed |
 | Set the Code and click on Add | An alert is displayed "You cannot use this voucher anymore (usage limit reached)" |
-| Click on Sign out | The user s not logged anymore |
+| Click on Sign out | The user is not logged anymore |
 | Go to Home page and add a product to the cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the link "Have a promo code?" is displayed |
 | Click on "Have a promo code?" | The promo code section is displayed |

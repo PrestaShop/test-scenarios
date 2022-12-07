@@ -8,12 +8,12 @@ weight: 5
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Catalog > Discounts > Cart rules page and Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
-| Create a new discount, set these fields:<br> # Information:<br> 1. Name<br> 2. Description<br> # Conditions:<br>1. Limit to a single customer = John DOE (pub@prestashop.com)<br> # Actions :<br> 1. Discount = 1 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
+| Created a new discount, set these fields:<br> # Information:<br>1. Name<br>2. Description<br>3. Priority = 2<br> # Conditions:<br> ##  Limit to a single customer = John DOE (pub@prestashop.com)<br> ## Put a Valid date (From : currentDate-1, To : currentdate)<br> # Actions:<br>1. Discount = 1 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and the discount is well applied<br><br>Total is ok |
 | Click on "View my customer account" | "Your Account" page is displayed |
-| "Your vouchers" page is displayed and check that:<br><br>The Cart rule is displayed with Value = 1 euro |  |
+| Click on "Vouchers" | "Your vouchers" page is displayed and check that:<br><br>The Cart rule is displayed with Value = 1 euro |
 | Click on "Sign out" | The page "Log in to your account" is displayed |
 | Click on My store and add a product to the cart | The modal "Product successfully added to your shopping cart" is displayed |
 | Click on "Proceed to checkout" | The Shopping cart is well displayed and no discount is displayed |

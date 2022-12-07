@@ -19,12 +19,14 @@ weight: 2
 | Filter by Code | Number of cart rules < Total Cart rules and the list contains the searched Voucher |
 | Click on "Edit" and Click on Conditions Tab | Check that *Limit to a single customer = John DOE (pub@prestashop.com)* |
 | Click on Actions | Check that *Amount discount = 100 - Total of the last Order* |
+| Click on Cancel | The Carl rule filtered by Code is displayed |
 | Reset Filter and Filter by Name | The list contains the searched vouchers |
-| Select all discounts, delete with bulk action and confirm the deletion | A green alert "The selection has been successfully deleted." is displayed |
+| Select all discounts, delete with bulk action and confirm the deletion | A green alert "The selection has been successfully deleted." is displayed<br><br> <br><br>"No records found" is displayed in the list page |
 | Go back to Cart rules page (list) > Reset Filter | The filter is well reset |
 | Click on "Add new cart rule" page <br><br>*Case2: Partial use disabled*<br><br>Set these fields and click on Save | An alert "Successful creation." is displayed |
 | Go to FO, Add product to cart and Click on "Proceed to checkout" | The Shopping cart is well displayed and the discount is well applied<br><br>Total is ok = *0* |
-| Click on "Proceed to checkout" and place order | The Order confirmation page is displayed |
+| Click on "Proceed to checkout" to the Payment step | "No payment needed for this order" is displayed |
+| Click to agree the terms of service and place order | The Order confirmation page is displayed |
 | Click on Your account link and Click on "Vouchers" | "Your vouchers" page is displayed and check that there is no second cart rule created |
 | Go back to the BO > Cart rules page | The cart rules page is well displayed and the number of cart rules = Total cart rules |
 | Delete the cart rule and confirm the deletion | A green alert "Successful deletion." is displayed |
