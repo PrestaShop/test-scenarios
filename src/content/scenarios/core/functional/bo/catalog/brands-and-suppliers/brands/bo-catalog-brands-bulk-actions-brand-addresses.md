@@ -7,7 +7,7 @@ weight: 6
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Catalog > Brand & Supllier > Brands page | The Brands page is displayed |
-| Filter Addresses by firstname <br>Criteria: AddressToDelete | Number of Addresses < Total of Addresses and in Addresses table all rows, column firstname contain 'AddressToDelete' |
-| Select All addresses, delete with bulk Actions and confirm the deletion | The successful message "Successful deletion." is displayed |
-| reset addresses filter | number of Addresses after creation = Total of Addresses |
+| Go to BO > Catalog > Brands & Suppliers > Brands | The Brands page is displayed |
+| Filter Addresses by First name | Number of Addresses < Total of Addresses<br><br>Addresses table is well filtered with "manufacturer" |
+| Select All addresses > Bulk action > Deleted selected > Confirm the deletion | The successful message "Successful deletion." is displayed<br><br>"No record founds" in Addresses table |
+| Reset addresses filter | Number of Addresses after creation = Total of Addresses |
