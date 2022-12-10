@@ -13,3 +13,4 @@ weight: 1
 | Request the endpoint /admin-dev/api/oauth2/token in POST with informations but invalid (clientId + clientSecret) | Receive a response where the HTTP Code is 401 |
 | Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) and undefined (notUsed parameter) | Receive a response where the HTTP Code is 200 |
 | Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) | * Receive a response where the HTTP Code is 200<br> * Receive a response in JSON<br> * Receive a response which contains this object <br><br>{   "token_type":"Bearer"   "expires_in":3000,   "access_token":"%access_token%", } |
+| Request with [http://prestashop/admin-dev/api/oauth2/token] using POST method | Return an access token by PrestaShop |
