@@ -8,16 +8,16 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go BO > Catalog > Brands & Suppliers > Suppliers page | The Suppliers page is well displayed |
-| Click on "Add new Supplier" button | new supplier page is displayed <br>title contains 'add new' |
-| Set these fields<br> # Name : random company name from faker<br> # description : random lorem sentence from faker<br> # homePhone : random phone from faker with format 01########<br> # mobilePhone : random phone from faker with format 06########<br> # address : random address from faker<br> # secondaryAddress : random secondaryAddress from faker<br> # postalCode : random zip code from faker<br> # city : random city from faker<br> # country : random country between ['France', 'Netherlands', 'United Kingdom', 'Germany'] (united states must be added to test bug with state input)<br> # logo : generated in test<br> # metatitle : name of supplier<br> # metadescription : random lorem sentence drom faker<br> # metaKewords : array of 2 lorem word from faker<br> # enabled : true by default<br> # products : number = 0 and click on Save | An alert "Successful creation." is displayed |
+| Click on "Add new Supplier" button | Add new supplier page is displayed <br>Title contains 'Add new' |
+| Set the form fields with the following Data > Save | An alert "Successful creation." is displayed<br><br>See that the column Number of products = 0 |
 | Filter by Name (Created Supplier) | Number suppliers < Total suppliers & the list contains the searched Name |
-| Click on "View" supplier created | View page is displayed <br>title = name of supplier created |
-| return to suppliers page | suppliers page is displayed <br>title contains suppliers |
-| Edit the searched supplier | edit page is displayed <br>title contains 'edit:' |
-| Set these fields:<br> # Name : random company name from faker<br> # description : random lorem sentence from faker<br> # homePhone : random phone from faker with format 01########<br> # mobilePhone : random phone from faker with format 06########<br> # address : random address from faker<br> # secondaryAddress : random secondaryAddress from faker<br> # postalCode : random zip code from faker<br> # city : random city from faker<br> # country : random country between ['France', 'Netherlands', 'United Kingdom', 'Germany'] (united states must be added to test bug with state input)<br> # logo : generated in test<br> # metatitle : name of supplier<br> # metadescription : random lorem sentence from faker<br> # metaKewords : array of 2 lorem word from faker<br> # enabled : true by default<br> # products : number = 0 and click on Save | The supplier is updated and the green alert "Successful update." is displayed |
+| Click on "View" supplier created | View page is displayed <br>Title = name of supplier created |
+| Return to suppliers page | Suppliers page is displayed <br>Title contains Suppliers |
+| Edit the searched supplier | Edit page is displayed <br>Title contains 'Edit:' |
+| Set the form fields with the following Data > Save | The supplier is updated and the green alert "Successful update." is displayed<br><br>See that the column Number of products = 0 |
 | Reset Filter | Number of suppliers = Total suppliers |
-| Filter by Name (Edited Supplier) | Number of suppliers < Total suppliers and the list contains the searched name |
-| view edited supplier | view page is displayed <br>title = name of edited supplier |
-| return to suppliers page | suppliers page is displayed <br>title contains suppliers |
-| delete supplier created and confirm the deletion | The successful message "Successful deletion." is displayed |
-| Rest Filter | Number Suppliers = Total Suppliers |
+| Filter by Name (Edited Supplier) | Number of suppliers < Total suppliers<br><br>The list contains the searched name |
+| View edited supplier | View page is displayed <br>Title = Name of edited supplier |
+| Return to suppliers page | Suppliers page is displayed <br>Title contains suppliers |
+| Delete supplier created > confirm the deletion | The successful message "Successful deletion." is displayed |
+| Reset Filter | Number Suppliers = Total Suppliers |
