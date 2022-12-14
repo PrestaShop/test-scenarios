@@ -566,7 +566,7 @@ title contains : Currencies *   reset all filters Total of currencies &amp;gt; 0
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/localization/bo-international-localization-import-localization-pack.html</guid>
-      <description>BO - International - Localization - Import localization pack Steps    Step Description Expected result     go to localization page page title contains &amp;lsquo;Localization&amp;rsquo;   import &amp;lsquo;Chilean&amp;rsquo; pack of localization Successful message is displayed   go to FO FO is displaed   Change language Spanish language exist   change currency to Peso Currency Peso exist   Go back to BO and go to languages page Page title contains &amp;lsquo;Languages&amp;rsquo;   filter languages bu name &amp;lsquo;Español (Spanish)&amp;rsquo; First element of list contains &amp;lsquo;Español (Spanish)&amp;rsquo;   delete language successful message is displayed   go to currencies page page title contains &amp;lsquo;Currencies&amp;rsquo;   filter by iso code &amp;lsquo;CLP&amp;rsquo; First element of list contains &amp;lsquo;CLP&amp;rsquo;   delete currency &amp;lsquo;CLP&amp;rsquo; Successful message is displayed   reset filter all currencies are displayed    </description>
+      <description>BO - International - Localization - Import localization pack Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization page Page is well displayed and title contains &amp;lsquo;Localization&amp;rsquo;   Localization pack you want to import &amp;gt; Choose &amp;lsquo;Chile&amp;rsquo; &amp;gt; Import Successful message &amp;ldquo;Localization pack imported successfully.&amp;rdquo; is displayed   Go to FO FO is well displayed   Change the language to Español Spanish language exists and FO is in Spanish   Change currency to Peso Currency Peso exists and currency is changed to CLP   Go back to BO &amp;gt; International &amp;gt; Localization &amp;gt; Languages page Page is well displayed and title contains &amp;lsquo;Languages&amp;rsquo;   Filter languages by name &amp;lsquo;Español (Spanish)&amp;rsquo; First element of list contains &amp;lsquo;Español (Spanish)&amp;rsquo;   Delete language Alert &amp;ldquo;Successful deletion&amp;rdquo; is displayed.</description>
     </item>
     
     <item>
@@ -575,7 +575,7 @@ title contains : Currencies *   reset all filters Total of currencies &amp;gt; 0
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/languages/bo-international-localization-languages-filter.html</guid>
-      <description>BO - International - Localization - Languages - Filter Steps    Step Description Expected result     go to localization page title contains &amp;lsquo;Localization&amp;rsquo;   go to languages page title contains &amp;lsquo;Languages&amp;rsquo;   reset filter Total of languages &amp;gt; 0   filter by &amp;lsquo;id_lang&amp;rsquo; &amp;lsquo;1&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;id_lang&amp;rsquo; contains &amp;lsquo;1&amp;rsquo;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;name&amp;rsquo; &amp;lsquo;English (English)&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;name&amp;rsquo; contains &amp;lsquo;English (English)&amp;rsquo;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;iso_code&amp;rsquo; &amp;lsquo;en&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;iso_code&amp;rsquo; contains &amp;lsquo;en&amp;rsquo;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;language_code&amp;rsquo; &amp;lsquo;en-us&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;language_code&amp;rsquo; contains &amp;lsquo;en-us&amp;rsquo;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;date_format_lite&amp;rsquo; &amp;rsquo;m/d/Y&#39; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;date_format_lite&amp;rsquo; contains &amp;rsquo;m/d/Y&#39;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;date_format_full&amp;rsquo; &amp;rsquo;m/d/Y H:i:s&#39; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;date_format_full&amp;rsquo; contains &amp;rsquo;m/d/Y H:i:s&#39;   reset filter Number of languages = Total of languages   filter by &amp;lsquo;active&amp;rsquo; &amp;lsquo;true&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column &amp;lsquo;active&amp;rsquo; contains &amp;lsquo;true&amp;rsquo;   reset filter Number of languages = Total of languages    </description>
+      <description>BO - International - Localization - Languages - Filter Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization page &amp;gt; Languages tab Page is well displayed and title contains &amp;lsquo;Languages&amp;rsquo;   Filter by ID = 1 Number of languages after reset &amp;lt; Total of languages All rows column ID contains &amp;lsquo;1&amp;rsquo;   Reset filter Number of languages = Total of languages   Filter by Name = &amp;lsquo;English (English)&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column Name contains &amp;lsquo;English (English)&amp;rsquo;   Reset filter Number of languages = Total of languages   Filter by ISO code = &amp;lsquo;en&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column ISO code contains &amp;lsquo;en&amp;rsquo;   Reset filter Number of languages = Total of languages   Filter by Language code = &amp;lsquo;en-us&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column Language code contains &amp;lsquo;en-us&amp;rsquo;   Reset filter Number of languages = Total of languages   Filter by Date format = &amp;rsquo;m/d/Y&#39; Number of languages after reset &amp;lt; Total of languages All rows column Date format contains &amp;rsquo;m/d/Y&#39;   Reset filter Number of languages = Total of languages   Filter by Data format (full) = &amp;rsquo;m/d/Y H:i:s&#39; Number of languages after reset &amp;lt; Total of languages All rows column Date format (full) contains &amp;rsquo;m/d/Y H:i:s&#39;   Reset filter Number of languages = Total of languages   Filter by Active = &amp;lsquo;true&amp;rsquo; Number of languages after reset &amp;lt; Total of languages All rows column Active contains &amp;lsquo;true&amp;rsquo;   Reset filter Number of languages = Total of languages    </description>
     </item>
     
     <item>
@@ -1137,15 +1137,6 @@ The invoice is created successfully   Add the first partial refund Partial refun
     </item>
     
     <item>
-      <title>CLONE - FO - Login - Create an account</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/clone-fo-login-create-an-account.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/clone-fo-login-create-an-account.html</guid>
-      <description>CLONE - FO - Login - Create an account Steps    Step Description Expected result     Go to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button link &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Click on &amp;ldquo;No account? Create one here&amp;rdquo; link at the bottom fo the block Create an account page is displayed   Fill the form with your personal information &amp;gt; Click Save * You are now logged into your account</description>
-    </item>
-    
-    <item>
       <title>Computing precision FO</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/regression/currencies/computing-precision-fo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1342,7 +1333,7 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/experimental-features/enable-disabled-experimental-product-page-v2.html</guid>
-      <description>Enable/Disabled Experimental Product Page V2 Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Experimental Features page The Experimental Features page is displayed and the button &amp;ldquo;Experimental product page&amp;rdquo; is disabled by default   Enable the &amp;ldquo;Experimental product page&amp;rdquo;, click on save and confirm the activation An alert &amp;ldquo;Update successful&amp;rdquo; is displayed   Go to BO &amp;gt; Catalog &amp;gt; Products page the new Button &amp;ldquo;New product&amp;rdquo; is displayed   Clic on &amp;ldquo;New product&amp;rdquo; A selection of different type of product should be display   Go to BO &amp;gt; Advanced Parameters &amp;gt; Experimental Features page The Experimental Features page is displayed and the button &amp;ldquo;Experimental product page&amp;rdquo; is enabled   Disable the &amp;ldquo;Experimental product page&amp;rdquo;, click on save, and confirm the deactivation An alert &amp;ldquo;Update successful&amp;rdquo; is displayed   Go to BO &amp;gt; Catalog &amp;gt; Products page &amp;gt; Clic on &amp;ldquo;New Product&amp;rdquo; The product page v1 should be display    </description>
+      <description>Enable/Disabled Experimental Product Page V2 Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; New &amp;amp; Experimental Features page The New &amp;amp; Experimental Features page is displayed and the button &amp;ldquo;New product page - Single store&amp;rdquo; is disabled by default   Enable the &amp;ldquo;New product page - Single store&amp;rdquo; &amp;gt; Save and confirm the activation An alert &amp;ldquo;Update successful&amp;rdquo; is displayed   Go to BO &amp;gt; Catalog &amp;gt; Products page The Button &amp;ldquo;New product&amp;rdquo; is displayed   Click on &amp;ldquo;New product&amp;rdquo; A selection of different types of product should be displayed   Go to BO &amp;gt; Advanced Parameters &amp;gt; New &amp;amp; Experimental Features page The Experimental Features page is displayed and the button &amp;ldquo;Experimental product page&amp;rdquo; is enabled   Disable the &amp;ldquo;Experimental product page&amp;rdquo; &amp;gt; Save &amp;gt; Confirm the deactivation An alert &amp;ldquo;Update successful&amp;rdquo; is displayed   Go to BO &amp;gt; Catalog &amp;gt; Products page &amp;gt; Click on &amp;ldquo;New Product&amp;rdquo; The product page v1 should be displayed    </description>
     </item>
     
     <item>
@@ -1567,6 +1558,15 @@ REFERENCE is correct   Filter by STATUS</description>
     </item>
     
     <item>
+      <title>FO - Header &amp; Footer - Check links in header</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-check-links-in-header.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-check-links-in-header.html</guid>
+      <description>FO - Header &amp;amp; Footer - Check links in header Steps    Step Description Expected result     Go to FO &amp;gt; Click on top left link &amp;ldquo;Contact us&amp;rdquo; Contact form page is well displayed   Click on &amp;ldquo;Sign In&amp;rdquo; link on top right &amp;gt; Enter your email + password with the customer account created from the pre-condition step &amp;gt; Click on &amp;ldquo;Sign In&amp;rdquo; button * You are now logged in</description>
+    </item>
+    
+    <item>
       <title>FO - Homepage - Slider</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-slider.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1582,6 +1582,15 @@ REFERENCE is correct   Filter by STATUS</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/login/fo-login-create-an-account.html</guid>
       <description>FO - Login - Create an account Steps    Step Description Expected result     Go to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button link &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Click on &amp;ldquo;No account? Create one here&amp;rdquo; link at the bottom fo the block Create an account page is displayed   Fill the form with your personal information &amp;gt; Click Save * You are now logged into your account</description>
+    </item>
+    
+    <item>
+      <title>FO - Login - Create an account</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/fo-login-create-an-account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/fo-login-create-an-account.html</guid>
+      <description>FO - Login - Create an account Steps    Step Description Expected result     Go to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button link &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Click on &amp;ldquo;Create your acccount&amp;rdquo; button at the bottom fo the block Create an account page is displayed   Fill the form with your personal information &amp;gt; Click Save * You are now logged into your account</description>
     </item>
     
     <item>
@@ -1609,6 +1618,16 @@ REFERENCE is correct   Filter by STATUS</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-sort-the-products.html</guid>
       <description>FO - Menu and Navigation - Sort and filter - Sort the products </description>
+    </item>
+    
+    <item>
+      <title>FO - Newsletter - Subscribe to newsletter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/newsletter/fo-newsletter-subscribe-to-newsletter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/newsletter/fo-newsletter-subscribe-to-newsletter.html</guid>
+      <description>FO - Newsletter - Subscribe to newsletter Steps    Step Description Expected result     Go to the FO on the Homepage The FO homepage is displayed   In the newsletter form field, add a email address who is not yet a newsletter subscriber email and click on &amp;ldquo;subscribe&amp;rdquo;
+!image-2021-04-06-16-20-27-389.png! A confirmation message is displayed !image-2021-04-06-16-19-48-272.png!   Go to the BO on the module manager page Module manager page is displayed   Select the &amp;ldquo;newletter&amp;rdquo; module in the list and in the select list form click on &amp;ldquo;configure&amp;rdquo;</description>
     </item>
     
     <item>
@@ -1673,6 +1692,15 @@ Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Cred
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/user-account/fo-user-account-edit-informations.html</guid>
+      <description>FO - User account - Edit informations Steps    Step Description Expected result     Go to FO &amp;gt; Go to header and click on &amp;ldquo;Sign in&amp;rdquo; link Login page is displayed   Fill the login form with your logins &amp;gt; Click on the &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Go to header and click on your username &amp;gt; Click on &amp;ldquo;Information&amp;rdquo; tab &amp;ldquo;Your personal information&amp;rdquo; page is displayed   Case 1: Update password with your current password and empty &amp;ldquo;New password&amp;rdquo; field</description>
+    </item>
+    
+    <item>
+      <title>FO - User account - Edit informations</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-edit-informations.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-edit-informations.html</guid>
       <description>FO - User account - Edit informations Steps    Step Description Expected result     Go to FO &amp;gt; Go to header and click on &amp;ldquo;Sign in&amp;rdquo; link Login page is displayed   Fill the login form with your logins &amp;gt; Click on the &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Go to header and click on your username &amp;gt; Click on &amp;ldquo;Information&amp;rdquo; tab &amp;ldquo;Your personal information&amp;rdquo; page is displayed   Case 1: Update password with your current password and empty &amp;ldquo;New password&amp;rdquo; field</description>
     </item>
     
@@ -2785,7 +2813,7 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO brands link page 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/maintenance/bo-shop-parameters-general-maintenance-add-maintenance-ip.html</guid>
-      <description>BO - Shop Parameters - General - Maintenance - Add maintenance IP Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Enable store = NO &amp;gt; Save Message &amp;ldquo;Successful update.&amp;rdquo; appears   Click &amp;ldquo;View my shop&amp;rdquo; In FO, you shouldn&amp;rsquo;t be able to see your site   Go to BO &amp;gt; Advanced Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Click &amp;ldquo;add my IP&amp;rdquo; &amp;gt; Save Your IP is added to the list</description>
+      <description>BO - Shop Parameters - General - Maintenance - Add maintenance IP Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Enable store = NO &amp;gt; Save Message &amp;ldquo;Successful update.&amp;rdquo; appears   Click &amp;ldquo;View my shop&amp;rdquo; In FO, you shouldn&amp;rsquo;t be able to see your site   Go to BO &amp;gt; Advanced Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Click &amp;ldquo;Add my IP&amp;rdquo; &amp;gt; Save Your IP is added to the list</description>
     </item>
     
     <item>
@@ -2941,18 +2969,6 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO brands link page 
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts/contenu/choose-the-category-to-display.html</guid>
       <description>Choose the category to display Steps    Step Description Expected result     Change the option Category from which to pick products to be displayed&amp;quot; to 3&amp;quot; A message should appear in green.
 Category from which to pick products to be displayed should be 3   Go to front office The featured product should be the one in category 3    </description>
-    </item>
-    
-    <item>
-      <title>CLONE - FO - Login - Logout</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/clone-fo-login-logout.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/clone-fo-login-logout.html</guid>
-      <description>CLONE - FO - Login - Logout Steps    Step Description Expected result     Case 1
-Go to FO &amp;gt; you are logged in with default customer account p &amp;gt; Click on &amp;ldquo;Sign out&amp;rdquo; button link on the header of the shop * You are logged out
-* Home page is displayed   Case 2
-Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Fill the form with customer account created from the pre-condition step informations &amp;gt; Click &amp;ldquo;Sign in&amp;rdquo; button * You are logged in</description>
     </item>
     
     <item>
@@ -3319,6 +3335,20 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     </item>
     
     <item>
+      <title>FO - Header &amp; Footer - Check links in footer</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-check-links-in-footer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-check-links-in-footer.html</guid>
+      <description>FO - Header &amp;amp; Footer - Check links in footer Steps    Step Description Expected result     Go to FO &amp;gt; Go to footer * See 4 blocks :
+** Products
+** Our company
+** Your account
+** Store Information
+* See also Copyright link at the bottom of the footer: &amp;ldquo;© XXXX - Ecommerce software by PrestaShop™ &amp;quot; link&amp;rdquo;   Go to footer &amp;gt; Products block &amp;gt; click on all links * &amp;ldquo;Prices drop&amp;rdquo; link redirects to &amp;ldquo;Prices drop&amp;rdquo; category page</description>
+    </item>
+    
+    <item>
       <title>FO - Homepage - Display some products</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-display-some-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3335,6 +3365,18 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/login/fo-login-logout.html</guid>
+      <description>FO - Login - Logout Steps    Step Description Expected result     Case 1
+Go to FO &amp;gt; you are logged in with default customer account p &amp;gt; Click on &amp;ldquo;Sign out&amp;rdquo; button link on the header of the shop * You are logged out
+* Home page is displayed   Case 2
+Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Fill the form with customer account created from the pre-condition step informations &amp;gt; Click &amp;ldquo;Sign in&amp;rdquo; button * You are logged in</description>
+    </item>
+    
+    <item>
+      <title>FO - Login - Logout</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/fo-login-logout.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/fo-login-logout.html</guid>
       <description>FO - Login - Logout Steps    Step Description Expected result     Case 1
 Go to FO &amp;gt; you are logged in with default customer account p &amp;gt; Click on &amp;ldquo;Sign out&amp;rdquo; button link on the header of the shop * You are logged out
 * Home page is displayed   Case 2
@@ -3430,6 +3472,16 @@ Select &amp;amp; click on the product &amp;ldquo;Mountain fox notebook&amp;rdquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/user-account/fo-user-account-crud-address.html</guid>
+      <description>FO - User account - CRUD address Steps    Step Description Expected result     Go to FO &amp;gt; Go to header and click on your username &amp;gt; Click on tab &amp;ldquo;Add first address&amp;rdquo; &amp;ldquo;New address&amp;rdquo; form page is displayed   Fill the address form &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Success message &amp;ldquo;Address successfully added!&amp;rdquo; is displayed
+* Back to &amp;ldquo;Your addresses&amp;rdquo; page with the new address on your account   Click on &amp;ldquo;Update&amp;rdquo; link at the bottom of your address card &amp;gt; Modify your Alias, Address, add a Phone Number &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Success message &amp;ldquo;Address successfully updated!</description>
+    </item>
+    
+    <item>
+      <title>FO - User account - CRUD address</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-crud-address.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-crud-address.html</guid>
       <description>FO - User account - CRUD address Steps    Step Description Expected result     Go to FO &amp;gt; Go to header and click on your username &amp;gt; Click on tab &amp;ldquo;Add first address&amp;rdquo; &amp;ldquo;New address&amp;rdquo; form page is displayed   Fill the address form &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Success message &amp;ldquo;Address successfully added!&amp;rdquo; is displayed
 * Back to &amp;ldquo;Your addresses&amp;rdquo; page with the new address on your account   Click on &amp;ldquo;Update&amp;rdquo; link at the bottom of your address card &amp;gt; Modify your Alias, Address, add a Phone Number &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Success message &amp;ldquo;Address successfully updated!</description>
     </item>
@@ -4412,7 +4464,7 @@ The validation message is displayed successfully
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-fuzzy-search.html</guid>
-      <description>BO - Search - Fuzzy search Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Search page The Search page is well displayed   In the Search Settings section &amp;gt; Disable &amp;ldquo;Fuzzy search&amp;rdquo; and save The green alert &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is well displayed   Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) &amp;amp; click enter * No autocomplete list is displayed</description>
+      <description>BO - Search - Fuzzy search Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Search page The Search page is well displayed   In the Search Settings section &amp;gt; Disable &amp;ldquo;Fuzzy search&amp;rdquo; and Save The green alert &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is well displayed   Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) &amp;amp; click enter * No autocomplete list is displayed</description>
     </item>
     
     <item>
@@ -4637,15 +4689,6 @@ The maintenance text is the default one   In Custom maintenance text, edit your
     </item>
     
     <item>
-      <title>CLONE - FO - Login - Password reminder</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/clone-fo-login-password-reminder.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/clone-fo-login-password-reminder.html</guid>
-      <description>CLONE - FO - Login - Password reminder Steps    Step Description Expected result     Click on &amp;ldquo;Sign In&amp;rdquo; button link on header on top right &amp;gt; Click on &amp;ldquo;Forgot your password?&amp;rdquo; link &amp;ldquo;Forgot your password&amp;rdquo; page is displayed   Enter your customer email address &amp;gt; Click on &amp;ldquo;send reset link&amp;rdquo; Message &amp;ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at XX@XX.</description>
-    </item>
-    
-    <item>
       <title>Configure the minimum quantity for out of stock</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration/configuration-for-merchant/configure-the-minimum-quantity-for-out-of-stock.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4858,6 +4901,16 @@ Go to FO &amp;gt; Change language from EN to XX language from the list in the he
     </item>
     
     <item>
+      <title>FO - Header &amp; Footer - Change language</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-language.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-language.html</guid>
+      <description>FO - Header &amp;amp; Footer - Change language Steps    Step Description Expected result     *Case 1: Disable french language Go to FO You will not see the link to change language in the header   *Case 2: Enable french language
+Go to FO &amp;gt; Change language from EN to XX language from the list in the header The page changed to XX language</description>
+    </item>
+    
+    <item>
       <title>FO - Homepage - All products</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-all-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4872,6 +4925,15 @@ Go to FO &amp;gt; Change language from EN to XX language from the list in the he
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/login/fo-login-password-reminder.html</guid>
+      <description>FO - Login - Password reminder Steps    Step Description Expected result     Click on &amp;ldquo;Sign In&amp;rdquo; button link on header on top right &amp;gt; Click on &amp;ldquo;Forgot your password?&amp;rdquo; link &amp;ldquo;Forgot your password&amp;rdquo; page is displayed   Enter your customer email address &amp;gt; Click on &amp;ldquo;send reset link&amp;rdquo; Message &amp;ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at XX@XX.</description>
+    </item>
+    
+    <item>
+      <title>FO - Login - Password reminder</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/fo-login-password-reminder.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/fo-login-password-reminder.html</guid>
       <description>FO - Login - Password reminder Steps    Step Description Expected result     Click on &amp;ldquo;Sign In&amp;rdquo; button link on header on top right &amp;gt; Click on &amp;ldquo;Forgot your password?&amp;rdquo; link &amp;ldquo;Forgot your password&amp;rdquo; page is displayed   Enter your customer email address &amp;gt; Click on &amp;ldquo;send reset link&amp;rdquo; Message &amp;ldquo;If this email address has been registered in our shop, you will receive a link to reset your password at XX@XX.</description>
     </item>
     
@@ -4987,6 +5049,16 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/user-account/fo-user-account-view-vouchers.html</guid>
+      <description>FO - User account - View vouchers Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Click on &amp;ldquo;Add new cart rule&amp;rdquo; button Cart Rules form page is displayed   Fill the form on the 3 tabs &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Success message &amp;ldquo;Successful creation.&amp;rdquo; is displayed
+* New cart rule is created   Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Click on your username link in the header &amp;gt; Click on &amp;ldquo;Your vouchers&amp;rdquo; tab Your vouchers table is displayed with the newly created voucher   Go back to BO &amp;gt; Add multiple cart rules with different values * Message &amp;ldquo;Successful creation.</description>
+    </item>
+    
+    <item>
+      <title>FO - User account - View vouchers</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-view-vouchers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-view-vouchers.html</guid>
       <description>FO - User account - View vouchers Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Click on &amp;ldquo;Add new cart rule&amp;rdquo; button Cart Rules form page is displayed   Fill the form on the 3 tabs &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Success message &amp;ldquo;Successful creation.&amp;rdquo; is displayed
 * New cart rule is created   Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Click on your username link in the header &amp;gt; Click on &amp;ldquo;Your vouchers&amp;rdquo; tab Your vouchers table is displayed with the newly created voucher   Go back to BO &amp;gt; Add multiple cart rules with different values * Message &amp;ldquo;Successful creation.</description>
     </item>
@@ -5975,16 +6047,6 @@ All orders customer contains the searched customer   Click on the Customer Link 
     </item>
     
     <item>
-      <title>CLONE - FO - Login</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/clone-fo-login.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/clone-fo-login.html</guid>
-      <description>CLONE - FO - Login Steps    Step Description Expected result     Click on &amp;ldquo;Sign In&amp;rdquo; link button &amp;gt; Enter a wrong email + password combination &amp;gt; Click on &amp;ldquo;Sign In&amp;rdquo; button * An error message &amp;ldquo;Authentication failed&amp;rdquo;. is displayed
-* You can&amp;rsquo;t log in   Enter your email + password with demo account &amp;gt; Click on &amp;ldquo;Show&amp;rdquo; Password is displayed clearly   Click on &amp;ldquo;Sign in&amp;rdquo; button * You are now logged into your customer account</description>
-    </item>
-    
-    <item>
       <title>Create an order with a cart rule using % &#43; Gift &#43; free shipping</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-a-cart-rule-using-gift-free-shipping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6159,6 +6221,16 @@ Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another curr
     </item>
     
     <item>
+      <title>FO - Header &amp; Footer - Change currency</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-currency.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-currency.html</guid>
+      <description>FO - Header &amp;amp; Footer - Change currency Steps    Step Description Expected result     Case 1: You have one currency only The link to change currency will not appear in header of FO   Case 2: You have 2 or more currencies
+Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another currency See that the price of your product is now in the new currency with the new exchange rate   Switch back to your original currency The prices of products are now in the original currency with the original exchange rate    </description>
+    </item>
+    
+    <item>
       <title>FO - Homepage - Consult product quickview</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-consult-product-quickview.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6175,6 +6247,16 @@ with the product details
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/login/fo-login.html</guid>
+      <description>FO - Login Steps    Step Description Expected result     Click on &amp;ldquo;Sign In&amp;rdquo; link button &amp;gt; Enter a wrong email + password combination &amp;gt; Click on &amp;ldquo;Sign In&amp;rdquo; button * An error message &amp;ldquo;Authentication failed&amp;rdquo;. is displayed
+* You can&amp;rsquo;t log in   Enter your email + password with demo account &amp;gt; Click on &amp;ldquo;Show&amp;rdquo; Password is displayed clearly   Click on &amp;ldquo;Sign in&amp;rdquo; button * You are now logged into your customer account</description>
+    </item>
+    
+    <item>
+      <title>FO - Login</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/fo-login.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/login/fo-login.html</guid>
       <description>FO - Login Steps    Step Description Expected result     Click on &amp;ldquo;Sign In&amp;rdquo; link button &amp;gt; Enter a wrong email + password combination &amp;gt; Click on &amp;ldquo;Sign In&amp;rdquo; button * An error message &amp;ldquo;Authentication failed&amp;rdquo;. is displayed
 * You can&amp;rsquo;t log in   Enter your email + password with demo account &amp;gt; Click on &amp;ldquo;Show&amp;rdquo; Password is displayed clearly   Click on &amp;ldquo;Sign in&amp;rdquo; button * You are now logged into your customer account</description>
     </item>
@@ -6248,6 +6330,15 @@ with the product details
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/user-account/fo-user-account-get-gdpr-data-in-pdf.html</guid>
+      <description>FO - User account - Get GDPR Data in PDF Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Click on your username link in the header &amp;gt; Go to &amp;ldquo;GDPR - Personal data&amp;rdquo; tab &amp;gt; Click on &amp;ldquo;Get my data to PDF&amp;rdquo; button * The file is downloaded on your computer</description>
+    </item>
+    
+    <item>
+      <title>FO - User account - Get GDPR Data in PDF</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-get-gdpr-data-in-pdf.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-get-gdpr-data-in-pdf.html</guid>
       <description>FO - User account - Get GDPR Data in PDF Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Click on your username link in the header &amp;gt; Go to &amp;ldquo;GDPR - Personal data&amp;rdquo; tab &amp;gt; Click on &amp;ldquo;Get my data to PDF&amp;rdquo; button * The file is downloaded on your computer</description>
     </item>
     
@@ -7113,6 +7204,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>FO - User account - Get GDPR Data in CSV</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-get-gdpr-data-in-csv.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-get-gdpr-data-in-csv.html</guid>
+      <description>FO - User account - Get GDPR Data in CSV Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Click on your username link in the header &amp;gt; Go to &amp;ldquo;GDPR - Personal data&amp;rdquo; tab &amp;gt; Click on &amp;ldquo;Get my data to CSV&amp;rdquo; button * The file is downloaded on your computer</description>
+    </item>
+    
+    <item>
       <title>GDPR block module - Disable/Enable module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/gdpr-block-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7791,6 +7891,16 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
     </item>
     
     <item>
+      <title>FO - User account - Log out</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-log-out.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-log-out.html</guid>
+      <description>FO - User account - Log out Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed   Go to your account by clicking on your username link in the header Your account page is displayed with:
+* All your account tabs</description>
+    </item>
+    
+    <item>
       <title>Legal Assistant block module - Disable Mobile/Enable Mobile module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/legal-assistant-block-module-disable-mobile-enable-mobile-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8223,7 +8333,7 @@ When a visitor buys an item, he becomes a customer.</description>
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/bo-shop-parameters-order-settings-terms-of-service.html</guid>
       <description>BO - Shop Parameters - Order Settings - Terms of service Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Disable &amp;ldquo;Terms of service&amp;rdquo; &amp;gt; Save Terms of service = NO
 Page for terms and conditions = None
-Message &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add product to cart &amp;gt; Proceed to checkout Step 4 : no terms &amp;amp; conditions is requested to pursue order</description>
+Alert &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add product to cart &amp;gt; Proceed to checkout Step 4 : no terms &amp;amp; conditions is requested to pursue order</description>
     </item>
     
     <item>
@@ -8323,6 +8433,15 @@ Message &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add 
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-consult-product-quickview.html</guid>
       <description>FO - Search - Consult product quickview </description>
+    </item>
+    
+    <item>
+      <title>FO - User account - Contact us on GDPR page</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-contact-us-on-gdpr-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/fo-user-account-contact-us-on-gdpr-page.html</guid>
+      <description>FO - User account - Contact us on GDPR page Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button &amp;ldquo;Your account&amp;rdquo; page is displayed   Go to &amp;ldquo;GDPR - Personal data&amp;rdquo; tab GDPR - Personal data page is displayed   Click &amp;ldquo;contact page&amp;rdquo; link in &amp;ldquo;Rectification &amp;amp; Erasure requests&amp;rdquo; section Contact form is displayed   Send a message through Contact Form Success message &amp;ldquo;Your message has been successfully sent to our team.</description>
     </item>
     
     <item>
