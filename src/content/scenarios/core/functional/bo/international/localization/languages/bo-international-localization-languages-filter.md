@@ -7,20 +7,18 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to localization page | title contains 'Localization' |
-| go to languages page | title contains 'Languages' |
-| reset filter | Total of languages > 0 |
-| filter by 'id_lang' '1' | Number of languages after reset < Total of languages <br>All rows column 'id_lang' contains '1' |
-| reset filter | Number of languages = Total of languages |
-| filter by 'name' 'English (English)' | Number of languages after reset < Total of languages <br>All rows column 'name' contains 'English (English)' |
-| reset filter | Number of languages = Total of languages |
-| filter by 'iso_code' 'en' | Number of languages after reset < Total of languages <br>All rows column 'iso_code' contains 'en' |
-| reset filter | Number of languages = Total of languages |
-| filter by 'language_code' 'en-us' | Number of languages after reset < Total of languages <br>All rows column 'language_code' contains 'en-us' |
-| reset filter | Number of languages = Total of languages |
-| filter by 'date_format_lite' 'm/d/Y' | Number of languages after reset < Total of languages <br>All rows column 'date_format_lite' contains 'm/d/Y' |
-| reset filter | Number of languages = Total of languages |
-| filter by 'date_format_full' 'm/d/Y H:i:s' | Number of languages after reset < Total of languages <br>All rows column 'date_format_full' contains 'm/d/Y H:i:s' |
-| reset filter | Number of languages = Total of languages |
-| filter by 'active' 'true' | Number of languages after reset < Total of languages <br>All rows column 'active' contains 'true' |
-| reset filter | Number of languages = Total of languages |
+| Go to BO > International > Localization page > Languages tab | Page is well displayed and title contains 'Languages' |
+| Filter by ID = 1 | Number of languages after reset < Total of languages <br>All rows column ID contains '1' |
+| Reset filter | Number of languages = Total of languages |
+| Filter by Name = 'English (English)' | Number of languages after reset < Total of languages <br>All rows column Name contains 'English (English)' |
+| Reset filter | Number of languages = Total of languages |
+| Filter by ISO code = 'en' | Number of languages after reset < Total of languages <br>All rows column ISO code contains 'en' |
+| Reset filter | Number of languages = Total of languages |
+| Filter by Language code = 'en-us' | Number of languages after reset < Total of languages <br>All rows column Language code contains 'en-us' |
+| Reset filter | Number of languages = Total of languages |
+| Filter by Date format = 'm/d/Y' | Number of languages after reset < Total of languages <br>All rows column Date format contains 'm/d/Y' |
+| Reset filter | Number of languages = Total of languages |
+| Filter by Data format (full) = 'm/d/Y H:i:s' | Number of languages after reset < Total of languages <br>All rows column Date format (full) contains 'm/d/Y H:i:s' |
+| Reset filter | Number of languages = Total of languages |
+| Filter by Active = 'true' | Number of languages after reset < Total of languages <br>All rows column Active contains 'true' |
+| Reset filter | Number of languages = Total of languages |

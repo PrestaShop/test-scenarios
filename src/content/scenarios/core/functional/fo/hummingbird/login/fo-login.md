@@ -1,9 +1,9 @@
 ---
-title: "CLONE - FO - Login"
+title: "FO - Login"
 weight: 4
 ---
 
-# CLONE - FO - Login
+# FO - Login
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

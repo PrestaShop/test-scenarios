@@ -7,15 +7,15 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to localization page | page title contains 'Localization' |
-| import 'Chilean' pack of localization | Successful message is displayed |
-| go to FO | FO is displaed |
-| Change language | Spanish language exist |
-| change currency to Peso | Currency Peso exist |
-| Go back to BO and go to languages page | Page title contains 'Languages' |
-| filter languages bu name 'Español (Spanish)' | First element of list contains 'Español (Spanish)' |
-| delete language | successful message is displayed |
-| go to currencies page | page title contains 'Currencies' |
-| filter by iso code 'CLP' | First element of list contains 'CLP' |
-| delete currency 'CLP' | Successful message is displayed |
-| reset filter | all currencies are displayed |
+| Go to BO > International > Localization page | Page is well displayed and title contains 'Localization' |
+| Localization pack you want to import > Choose 'Chile' > Import | Successful message "Localization pack imported successfully." is displayed |
+| Go to FO | FO is well displayed |
+| Change the language to Español | Spanish language exists and FO is in Spanish |
+| Change currency to Peso | Currency Peso exists and currency is changed to CLP |
+| Go back to BO > International > Localization > Languages page | Page is well displayed and title contains 'Languages' |
+| Filter languages by name 'Español (Spanish)' | First element of list contains 'Español (Spanish)' |
+| Delete language | Alert "Successful deletion" is displayed. |
+| Go to Currencies tab | Page is well displayed and title contains 'Currencies' |
+| Filter by ISO code 'CLP' | First element of list contains 'CLP' |
+| Delete currency 'CLP' | Alert "Successful deletion" is displayed |
+| Reset filter | All currencies are displayed but CLP |

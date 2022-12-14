@@ -9,6 +9,7 @@ weight: 2
 | ----- | ----- |
 | Go to BO > Advanced Parameters > General > Maintenance tab > Enable store = NO > Save | Message "Successful update." appears |
 | Click "View my shop" | In FO, you shouldn't be able to see your site |
-| Go to BO > Advanced Parameters > General > Maintenance tab > Click "add my IP" > Save | Your IP is added to the list<br><br>Message "Successful update." appears |
-| Add your IP by copy-paste > Save | Message "Successful update." appears |
+| Go to BO > Advanced Parameters > General > Maintenance tab > Click "Add my IP" > Save | Your IP is added to the list<br><br>Message "Successful update." appears |
+| Click "View my shop" | Your FO should be displayed as usual |
+| Go to BO > Advanced Parameters > General > Maintenance tab > Add your IP by copy-paste > Save | Message "Successful update." appears |
 | Click "View my shop" | Your FO should be displayed as usual |

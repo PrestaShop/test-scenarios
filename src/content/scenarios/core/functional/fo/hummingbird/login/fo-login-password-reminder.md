@@ -1,9 +1,9 @@
 ---
-title: "CLONE - FO - Login - Password reminder"
+title: "FO - Login - Password reminder"
 weight: 3
 ---
 
-# CLONE - FO - Login - Password reminder
+# FO - Login - Password reminder
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
