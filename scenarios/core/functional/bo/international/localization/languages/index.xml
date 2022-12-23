@@ -21,9 +21,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/languages/bo-international-localization-languages-crud.html</guid>
-      <description>BO - International - Localization - Languages - CRUD Steps    Step Description Expected result     Go to languages page Page title contains &amp;lsquo;Languages&amp;rsquo;   reset filters Total of languages &amp;gt; 0   go to add new language page page title contains &amp;lsquo;Add new&amp;rsquo;   Create new languages
-(iso code : de, other data from faker) Successful message is displayed
-number of languages = total of languages + 1   go to FO New language exist in list of languages   go back to BO and filter by name of created language First element in list is the language created   go to edit language page page title contains &amp;lsquo;Edit :&amp;rsquo;   Edit language (disble language too)</description>
+      <description>BO - International - Localization - Languages - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Languages tab Page title contains &amp;lsquo;Languages&amp;rsquo;   Click on Add new language button Page title contains &amp;lsquo;Add new&amp;rsquo;   Fill all the fields with Faker data &amp;gt; Save Message &amp;ldquo;Successful creation&amp;rdquo; is displayed
+Number of languages = total of languages + 1   Go to FO &amp;gt; Click on language dropdown New language exists in list of languages   Go back to BO and Filter by Name of created language Filter is successful, newly created language is displayed   Click on Edit on the filtered language Page title contains &amp;lsquo;Edit :&amp;rsquo;   Edit language and disable it Message &amp;ldquo;Successful update&amp;rdquo; is displayed   Go to FO &amp;gt; Click on language dropdown Language is not displayed in dropdown list   Go back to BO &amp;gt; Reset filter &amp;gt; Filter by the new name of updated language Filter is successful, newly edited language is displayed   Delete language Message &amp;ldquo;Successful deletion&amp;rdquo; is displayed</description>
     </item>
     
     <item>

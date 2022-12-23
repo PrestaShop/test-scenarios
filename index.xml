@@ -374,8 +374,8 @@ The list of files is updated.   Click on the 3-dot button &amp;gt; View file Fil
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-enable.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Enable Steps    Step Description Expected result     Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Returns &amp;gt; Enable returns Merchandise Returns page is displayed
-Enable returns button is set to NO   Click on Enable returns button Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is displayed
+      <description>BO - Customer Service - Merchandise returns - Enable Steps    Step Description Expected result     Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is displayed
+See Enable returns button is set to NO   Click on Enable returns switch button Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is displayed
 Enable returns button is set to YES    </description>
     </item>
     
@@ -1540,6 +1540,15 @@ REFERENCE is correct   Filter by STATUS</description>
     </item>
     
     <item>
+      <title>FO - Contact us - Mailto</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-mailto.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-mailto.html</guid>
+      <description>FO - Contact us - Mailto Steps    Step Description Expected result     Go to FO &amp;gt; Scroll down to footer &amp;gt; In &amp;ldquo;Store information&amp;rdquo; section &amp;gt; Click on Email us email address Client email will open and you will be able to send an email with email address of shop    </description>
+    </item>
+    
+    <item>
       <title>FO - Create an order from the FO </title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/fo/fo-create-an-order-from-the-fo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2309,7 +2318,7 @@ Filtered result is Brand : Studio Design   Reset filter No more filter is applie
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-monitoring-products.html</guid>
-      <description>BO - Catalog - Monitoring - Monitoring products Steps    Step Description Expected result     Go to catalog &amp;gt; products page Page title contains &amp;lsquo;Products&amp;rsquo;   Reset all filters Total of products &amp;gt; 0   Create product without image Successful message is displayed   go to catalog &amp;gt; monitoring page Page title contains &amp;lsquo;Monitoring&amp;rsquo;   Filter grid &amp;lsquo;Product without image&amp;rsquo; by the name of product created product is displayed in grid &amp;lsquo;Product without image&amp;rsquo;   Delete product from grid &amp;lsquo;Product without image&amp;rsquo; redirection to products page</description>
+      <description>BO - Catalog - Monitoring - Monitoring products Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Page title contains &amp;lsquo;Products&amp;rsquo;   Create product without image Alert &amp;ldquo;Settings updated.&amp;rdquo; is displayed   Go to BO &amp;gt; Catalog &amp;gt; Monitoring Page title contains &amp;lsquo;Monitoring&amp;rsquo;   Scroll down to block &amp;ldquo;Product without image&amp;rdquo; &amp;gt; Filter by the name of product created Product is displayed in block &amp;lsquo;Product without image&amp;rsquo;   Delete product from block &amp;lsquo;Product without image&amp;rsquo; Redirection to Products page</description>
     </item>
     
     <item>
@@ -2318,7 +2327,7 @@ Filtered result is Brand : Studio Design   Reset filter No more filter is applie
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-sort-pagination.html</guid>
-      <description>BO - Catalog - Products - Sort &amp;amp; pagination Steps    Step Description Expected result     Go to products page Page title contains &amp;lsquo;Products&amp;rsquo;   Sort by id_product desc table is sorted by id_product desc (3 -&amp;gt; 2 -&amp;gt; 1)   Sort by name asc table is sorted by name asc (a -&amp;gt; b -&amp;gt; c)   Sort by name desc table is sorted by name desc (c -&amp;gt; b -&amp;gt; a)   Sort by reference asc table is sorted by reference asc (a -&amp;gt; b -&amp;gt; c)   Sort by reference desc table is sorted by reference desc (c -&amp;gt; b -&amp;gt; a)   Sort by name_category asc table is sorted by name_category asc (a -&amp;gt; b -&amp;gt; c)   Sort by name_category desc table is sorted by name_category asc (c -&amp;gt; b -&amp;gt; a)   Sort by price (Tax exclud) asc table is sorted by price (Tax exclud) asc (1 -&amp;gt; 2 -&amp;gt; 3)   Sort by price (Tax exclud) desc table is sorted by price (Tax exclud) desc (3 -&amp;gt; 2 -&amp;gt; 1)   Sort by sav_quantity asc table is sorted by sav_quantity desc (1 -&amp;gt; 2 -&amp;gt; 3)   Sort by sav_quantity asc table is sorted by sav_quantity desc (3 -&amp;gt; 2 -&amp;gt; 1)   Sort by id_product asc table is sorted by id_product desc (1 -&amp;gt; 2 -&amp;gt; 3)   Create 3 products from BO 3 Products are created   Change Display items to 20 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete the Created products Products are well deleted    </description>
+      <description>BO - Catalog - Products - Sort &amp;amp; pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Page title contains &amp;lsquo;Products&amp;rsquo;   Sort by id_product acs table is sorted by id_product desc (1 -&amp;gt; 2 -&amp;gt; 3)   Sort by name asc table is sorted by name asc (a -&amp;gt; b -&amp;gt; c)   Sort by name desc table is sorted by name desc (c -&amp;gt; b -&amp;gt; a)   Sort by reference asc table is sorted by reference asc (a -&amp;gt; b -&amp;gt; c)   Sort by reference desc table is sorted by reference desc (c -&amp;gt; b -&amp;gt; a)   Sort by name_category asc table is sorted by name_category asc (a -&amp;gt; b -&amp;gt; c)   Sort by name_category desc table is sorted by name_category asc (c -&amp;gt; b -&amp;gt; a)   Sort by price (Tax excl.</description>
     </item>
     
     <item>
@@ -2355,8 +2364,7 @@ The list contains the searched ID   Reset filter Number of Suppliers after reset
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html</guid>
-      <description>BO - Catalog- Files - Bulk Actions Steps    Step Description Expected result     go to &amp;lsquo;Catalog &amp;gt; Files&amp;rsquo; page Title contains &amp;lsquo;Files&amp;rsquo;   reset filters Total of files &amp;gt;= 0   filter by name &amp;lsquo;todelete&amp;rsquo; number of files = 2
-all rows column name contains &amp;lsquo;todelete&amp;rsquo;   Select All files All files are selected   Click on the &amp;ldquo;Bulk actions&amp;rdquo; button A dropdown list page   delete files by bulk actions and confirm the deletion The successful message &amp;ldquo;The selection has been successfully deleted.</description>
+      <description>BO - Catalog- Files - Bulk Actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page Title contains &amp;lsquo;Files&amp;rsquo;   Select 1 file &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; id displayed   Select 2 files &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; id displayed   Select all files &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; is displayed</description>
     </item>
     
     <item>
@@ -2385,7 +2393,7 @@ all rows column name contains &amp;lsquo;todelete&amp;rsquo;   Select All files 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-change-status.html</guid>
-      <description>BO - Customer Service - Change status Steps    Step Description Expected result     Go to FO &amp;gt; Contact us page &amp;gt; Fill the fields &amp;gt; Click Send Message &amp;ldquo;Your message has been successfully sent to our team.&amp;rdquo; appears   Go to BO &amp;gt; Customer Service &amp;gt; Customer Service See the latest message sent from FO in Customer Service block   Click on the message &amp;gt; Click &amp;ldquo;Mark as handled&amp;rdquo; The button transforms into &amp;ldquo;Re-open&amp;rdquo;</description>
+      <description>BO - Customer Service - Change status Steps    Step Description Expected result     Go to FO &amp;gt; Contact us page &amp;gt; Fill the fields &amp;gt; Click Send Message &amp;ldquo;Your message has been successfully sent to our team.&amp;rdquo; appears   Go to BO &amp;gt; Customer Service &amp;gt; Customer Service See that the latest message sent from FO is displayed in Customer Service block   Click on the message &amp;gt; Click &amp;ldquo;Mark as handled&amp;rdquo; Message &amp;ldquo;The status has been successfully updated.</description>
     </item>
     
     <item>
@@ -2568,9 +2576,8 @@ title contains : Currencies *   reset all filters Total of currencies &amp;gt; 0
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/languages/bo-international-localization-languages-crud.html</guid>
-      <description>BO - International - Localization - Languages - CRUD Steps    Step Description Expected result     Go to languages page Page title contains &amp;lsquo;Languages&amp;rsquo;   reset filters Total of languages &amp;gt; 0   go to add new language page page title contains &amp;lsquo;Add new&amp;rsquo;   Create new languages
-(iso code : de, other data from faker) Successful message is displayed
-number of languages = total of languages + 1   go to FO New language exist in list of languages   go back to BO and filter by name of created language First element in list is the language created   go to edit language page page title contains &amp;lsquo;Edit :&amp;rsquo;   Edit language (disble language too)</description>
+      <description>BO - International - Localization - Languages - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Languages tab Page title contains &amp;lsquo;Languages&amp;rsquo;   Click on Add new language button Page title contains &amp;lsquo;Add new&amp;rsquo;   Fill all the fields with Faker data &amp;gt; Save Message &amp;ldquo;Successful creation&amp;rdquo; is displayed
+Number of languages = total of languages + 1   Go to FO &amp;gt; Click on language dropdown New language exists in list of languages   Go back to BO and Filter by Name of created language Filter is successful, newly created language is displayed   Click on Edit on the filtered language Page title contains &amp;lsquo;Edit :&amp;rsquo;   Edit language and disable it Message &amp;ldquo;Successful update&amp;rdquo; is displayed   Go to FO &amp;gt; Click on language dropdown Language is not displayed in dropdown list   Go back to BO &amp;gt; Reset filter &amp;gt; Filter by the new name of updated language Filter is successful, newly edited language is displayed   Delete language Message &amp;ldquo;Successful deletion&amp;rdquo; is displayed</description>
     </item>
     
     <item>
@@ -2579,7 +2586,9 @@ number of languages = total of languages + 1   go to FO New language exist in li
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/countries/bo-international-locations-countries-crud.html</guid>
-      <description>BO - International - Locations - Countries - CRUD Steps    Step Description Expected result     Scenario 1 : create a zone    Go to bo -&amp;gt; locations -&amp;gt; Zones The Zones page is displayed correctly   Reset all filters All filters are reset. All zones are displayed   Click on add a new zones&amp;quot; New Zone Page is displayed correctly   Fill all information :Name : Zone test.</description>
+      <description>BO - International - Locations - Countries - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Locations &amp;gt; Zones The Zones page is displayed correctly   Click on Add new zone Add new Zone Page is displayed correctly   Fill all information &amp;gt; Click on save New zone is saved correctly.
+Message is displayed &amp;ldquo;Successful creation&amp;rdquo;
+Redirection to Zone page   Filter by Zone = &amp;ldquo;Zone test&amp;rdquo; Filter is succeeded</description>
     </item>
     
     <item>
@@ -3297,6 +3306,15 @@ Click on it, a new page for Twitter site is open    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-add-attachment.html</guid>
+      <description>FO - Contact us - Add attachment Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Click on Contact Us button on header &amp;gt; In contact form click &amp;ldquo;Choose file&amp;rdquo; &amp;gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   Fill the form Form is displayed with your data   Add attachment &amp;gt; Click &amp;ldquo;Choose File&amp;rdquo; &amp;gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .</description>
+    </item>
+    
+    <item>
+      <title>FO - Contact us - Add attachment</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-add-attachment.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-add-attachment.html</guid>
       <description>FO - Contact us - Add attachment Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Click on Contact Us button on header &amp;gt; In contact form click &amp;ldquo;Choose file&amp;rdquo; &amp;gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   Fill the form Form is displayed with your data   Add attachment &amp;gt; Click &amp;ldquo;Choose File&amp;rdquo; &amp;gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .</description>
     </item>
     
@@ -4063,7 +4081,7 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-and-sort.html</guid>
-      <description>BO - Catalog- Files - Filter, Pagination and Sort Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The files page is well displayed   Filter By ID Number files &amp;lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files &amp;lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size Number of files &amp;lt; Total of files and the list contains the searched size   Reset Filter Number files = Total files   Filter by Products Number Files &amp;lt; Total Files and the list contain the searched number of Products   Reset Filter Number files = Total files   Sort by ID desc The list is sorted by ID desc (3-&amp;gt;2-&amp;gt;1)   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by File asc The list is sorted by File asc   Sort by File desc The list is sorted bu file desc   Sort by Size asc The list is sorted by Size asc   Sort by Size desc The list is sorted by Size desc   Sort by number of Products asc The list is sorted by number of Products asc   Sort by number of Products desc The list is sorted by number of Products desc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created files All files are well deleted    </description>
+      <description>BO - Catalog- Files - Filter, Pagination and Sort Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The files page is well displayed   Filter By ID Number files &amp;lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files &amp;lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size</description>
     </item>
     
     <item>
@@ -4877,6 +4895,16 @@ Click on it, a new page for Pinterest site is open    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-send-a-message-while-logged-in.html</guid>
+      <description>FO - Contact us - Send a message while logged in Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account created from the pre-condition step You are logged into your customer account   Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us * The contact form is displayed
+* The Email address is not empty and it is the same email address of the customer created in the pre-condition</description>
+    </item>
+    
+    <item>
+      <title>FO - Contact us - Send a message while logged in</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-send-a-message-while-logged-in.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-send-a-message-while-logged-in.html</guid>
       <description>FO - Contact us - Send a message while logged in Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account created from the pre-condition step You are logged into your customer account   Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us * The contact form is displayed
 * The Email address is not empty and it is the same email address of the customer created in the pre-condition</description>
     </item>
@@ -6207,6 +6235,15 @@ In the comment part the last name of the user should be displayed   Go to the ba
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-send-message-while-logged-out.html</guid>
+      <description>FO - Contact us - Send message while logged out Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;The message cannot be blank.</description>
+    </item>
+    
+    <item>
+      <title>FO - Contact us - Send message while logged out</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-send-message-while-logged-out.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-send-message-while-logged-out.html</guid>
       <description>FO - Contact us - Send message while logged out Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;The message cannot be blank.</description>
     </item>
     
@@ -7680,7 +7717,7 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/shopping-carts/bo-orders-shopping-carts-export-carts.html</guid>
-      <description>BO - Orders - Shopping carts - Export carts Steps    Step Description Expected result     Go to FO &amp;gt; Create multiple carts with different products    Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; Click on Export carts A csv file is downloaded   Open the csv file, and see the same info as in the BO     </description>
+      <description>BO - Orders - Shopping carts - Export carts Steps    Step Description Expected result     Go to FO &amp;gt; Create multiple carts with different products    Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; Click on Export carts A .csv file is downloaded with a filename format : cart_date_hour.csv   Open the .csv file and see the same info as in the BO     </description>
     </item>
     
     <item>
@@ -9094,8 +9131,8 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-enable-disable.html</guid>
-      <description>BO - Catalog - Products - Enable &amp;amp; Disable Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products &amp;lt; Total of products
-All products contain the searched Name   Click on the drop-down toggle and click on Disable An alert &amp;ldquo;Product(s) successfully deactivated.</description>
+      <description>BO - Catalog - Products - Enable &amp;amp; Disable Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products The Product list page is displayed   Filter by Product Name Number of products &amp;lt; Total of products
+All products contain the searched Name   Click on the switch toggle and click on Disable An alert &amp;ldquo;Product successfully deactivated.&amp;rdquo; is displayed and the product is disabled   Click on the switch toggle and click on Enable An alert &amp;ldquo;Product successfully activated.</description>
     </item>
     
     <item>
