@@ -7,10 +7,7 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to 'Catalog > Files' page | Title contains 'Files' |
-| reset filters | Total of files >= 0 |
-| filter by name 'todelete' | number of files = 2<br>all rows column name contains 'todelete' |
-| Select All files | All files are selected |
-| Click on the "Bulk actions" button | A dropdown list page |
-| delete files by bulk actions and confirm the deletion | The successful message "The selection has been successfully deleted." is displayed |
-| reset filter | number of files = total of files |
+| Go to BO > Catalog > Files page | Title contains 'Files' |
+| Select 1 file > Click Bulk actions > Delete selected > Delete | Green alert "The selection has been successfully deleted" id displayed |
+| Select 2 files > Click Bulk actions > Delete selected > Delete | Green alert "The selection has been successfully deleted" id displayed |
+| Select all files > Click Bulk actions > Delete selected > Delete | Green alert "The selection has been successfully deleted" is displayed<br><br>All files are deleted<br><br>See the card "Upload files here" is displayed |

@@ -8,5 +8,5 @@ weight: 6
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to FO > Create multiple carts with different products |  |
-| Go to BO > Orders > Shopping carts > Click on Export carts | A csv file is downloaded |
-| Open the csv file, and see the same info as in the BO |  |
+| Go to BO > Orders > Shopping carts > Click on Export carts | A .csv file is downloaded with a filename format : cart_date_hour.csv |
+| Open the .csv file and see the same info as in the BO |  |

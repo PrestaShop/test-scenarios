@@ -12,7 +12,7 @@ weight: 3
 | Reset Filter | Number files = Total files |
 | Filter by Name | Number files < Total files and the list contains the searched name |
 | Reset Filter | Number files = Total files |
-| Filter by Size | Number of files < Total of files and the list contains the searched size |
+| Filter by Size<br><br>(doesn't work: https://github.com/PrestaShop/PrestaShop/issues/11054) | Number of files < Total of files and the list contains the searched size |
 | Reset Filter | Number files = Total files |
 | Filter by Products | Number Files < Total Files and the list contain the searched number of Products |
 | Reset Filter | Number files = Total files |
