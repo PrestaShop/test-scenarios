@@ -7,10 +7,10 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| *Create:*<br><br>Go to BO > Catalog > Attributes & Features > Feature tab > Click Add new Feature | Add new feature page opens |
+| *Create:*<br><br>Go to BO > Catalog > Attributes & Features > Features tab > Click Add new feature | Add New Feature page opens |
 | Add a name to your feature > Save | Message "Successful creation" is displayed |
 | Click on view on your newly created feature | See that your new feature has 0 value |
-| Click Add new value | New feature value page is displayed |
+| Click Add new feature value | New feature value page is displayed |
 | Add a new value > Click on Save and add another value | Message "Successful creation" is displayed<br>New feature value page is displayed |
 | Add another value > Click on Save | Successful creation message is displayed |
 | *Read:*<br>Click on View button for Texture Feature | See that you have 2 new Values (Smooth and Rough) |
