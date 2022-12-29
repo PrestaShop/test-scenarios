@@ -1134,6 +1134,13 @@
 	"content": "FO - Checkout - Show details "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/fo-checkout-show-details.html",
+	"title": "FO - Checkout - Show details",
+	"tags": [],
+	"description": "",
+	"content": "FO - Checkout - Show details "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-mailto.html",
 	"title": "FO - Contact us - Mailto",
 	"tags": [],
@@ -1170,6 +1177,13 @@
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-slider.html",
+	"title": "FO - Homepage - Slider",
+	"tags": [],
+	"description": "",
+	"content": "FO - Homepage - Slider Steps    Step Description Expected result     Go to FO \u0026gt; On Homepage \u0026gt; See slider and click on right arrow The slider should slide to the right   Click on the left arrow The slider should slide to the left   Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide\n* Example: [https://www.prestashop.com/en?utm_source=back-office\u0026amp;utm_medium=v17_homeslider\u0026amp;utm_campaign=back-office-EN\u0026amp;utm_content=download]    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-slider.html",
 	"title": "FO - Homepage - Slider",
 	"tags": [],
 	"description": "",
@@ -1225,6 +1239,13 @@
 	"content": "FO - Order confirmation - List of ordered products "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-list-of-ordered-products.html",
+	"title": "FO - Order confirmation - List of ordered products",
+	"tags": [],
+	"description": "",
+	"content": "FO - Order confirmation - List of ordered products "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-add-to-cart.html",
 	"title": "FO - Product Page - Add to cart",
 	"tags": [],
@@ -1247,6 +1268,13 @@
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-product-bar-consult-autocomplete-list.html",
+	"title": "FO - Search - Search product bar, consult autocomplete list",
+	"tags": [],
+	"description": "",
+	"content": "FO - Search - Search product bar, consult autocomplete list Steps    Step Description Expected result     Go to FO \u0026gt; Click on the search bar on the header \u0026gt; Write a word on it (min 3 characters length) * The autocomplete list is displayed with 7 products\n* The search bar in the header keeps the word written   Click outside The autocomplete list is not displayed   Case 1: With \u0026ldquo;Mug\u0026rdquo; products\nClick on the search bar on the header \u0026gt; Erase the last word and write another word on it (min 3 characters length) * The autocomplete list is displayed with 5 products with all \u0026ldquo;mug\u0026rdquo; characters on the products title\n* The search bar in the header keeps the word written   Case 2: With \u0026ldquo;T-sh\u0026rdquo; products\nClick on the search bar on the header \u0026gt; Erase the last word and write another word on it (min 3 characters length) * The autocomplete list is displayed with 1 product with all \u0026ldquo;t-sh\u0026rdquo; characters on the products title\n* The search bar in the header keeps the word written   Case 3: With \u0026ldquo;Notebook\u0026rdquo; products\nClick on the search bar on the header \u0026gt; Erase the last word and write another word on it (min 3 characters length) * The autocomplete list is displayed with 3 products with all \u0026ldquo;notebook\u0026rdquo; characters on the products title\n* The search bar in the header keeps the word written   Case 4: With less than 3 characters\nClick on the search bar on the header \u0026gt; Erase the last word and write another word on it (less than 3 characters length) No autocomplete list is displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-search-product-bar-consult-autocomplete-list.html",
 	"title": "FO - Search - Search product bar, consult autocomplete list",
 	"tags": [],
 	"description": "",
@@ -2443,6 +2471,13 @@
 	"content": "FO - Checkout - Add a promo code "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/fo-checkout-add-a-promo-code.html",
+	"title": "FO - Checkout - Add a promo code",
+	"tags": [],
+	"description": "",
+	"content": "FO - Checkout - Add a promo code "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/addresses/fo-checkout-addresses-use-another-address-for-invoice-as-a-guest.html",
 	"title": "FO - Checkout - Addresses - Use another address for invoice as a guest",
 	"tags": [],
@@ -2520,6 +2555,13 @@
 	"content": "FO - Homepage - Display some products Steps    Step Description Expected result     Go to FO \u0026gt; Go below the slider * \u0026ldquo;Popular products\u0026rdquo; block is displayed with 8 products\n* \u0026ldquo;All products\u0026rdquo; link is displayed to go to \u0026ldquo;Home category\u0026rdquo;   Scroll down after the \u0026ldquo;Custom text block\u0026rdquo; * \u0026ldquo;On sale\u0026rdquo; block is displayed with 2 products\n* \u0026ldquo;All sale products\u0026rdquo; link is displayed to go to \u0026ldquo;Prices drop category\u0026rdquo;   Scroll down after the \u0026ldquo;On sale block\u0026rdquo; * \u0026ldquo;New products\u0026rdquo; block is displayed with 8 products\n* \u0026ldquo;All new products\u0026rdquo; link is displayed to go to \u0026ldquo;New products category\u0026rdquo;   Scroll down after the \u0026ldquo;New products block\u0026rdquo; * \u0026ldquo;Best sellers\u0026rdquo; block is displayed with 1 product\n* \u0026ldquo;All best sellers\u0026rdquo; link is displayed to go to \u0026ldquo;Best sales category\u0026rdquo;    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-display-some-products.html",
+	"title": "FO - Homepage - Display some products",
+	"tags": [],
+	"description": "",
+	"content": "FO - Homepage - Display some products Steps    Step Description Expected result     Go to FO \u0026gt; Go below the slider * \u0026ldquo;Popular products\u0026rdquo; block is displayed with 8 products\n* \u0026ldquo;All products\u0026rdquo; link is displayed to go to \u0026ldquo;Home category\u0026rdquo;   Scroll down after the \u0026ldquo;Custom text block\u0026rdquo; * \u0026ldquo;On sale\u0026rdquo; block is displayed with 2 products\n* \u0026ldquo;All sale products\u0026rdquo; link is displayed to go to \u0026ldquo;Prices drop category\u0026rdquo;   Scroll down after the \u0026ldquo;On sale block\u0026rdquo; * \u0026ldquo;New products\u0026rdquo; block is displayed with 8 products\n* \u0026ldquo;All new products\u0026rdquo; link is displayed to go to \u0026ldquo;New products category\u0026rdquo;   Scroll down after the \u0026ldquo;New products block\u0026rdquo; * \u0026ldquo;Best sellers\u0026rdquo; block is displayed with 1 product\n* \u0026ldquo;All best sellers\u0026rdquo; link is displayed to go to \u0026ldquo;Best sales category\u0026rdquo;    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/login/fo-login-logout.html",
 	"title": "FO - Login - Logout",
 	"tags": [],
@@ -2584,6 +2626,13 @@
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-a-product-and-validate.html",
+	"title": "FO - Search - Search a product and validate",
+	"tags": [],
+	"description": "",
+	"content": "FO - Search - Search a product and validate Steps    Step Description Expected result     Go to FO \u0026gt; Click on the search bar on the header \u0026gt; Write a word on it (min 3 characters length) The autocomplete list is displayed with 3 products with all \u0026ldquo;notebook\u0026rdquo; characters on products title   Case 1: Choose a product on the list\nSelect \u0026amp; click on the product \u0026ldquo;Mountain fox notebook\u0026rdquo; for example * It well redirected on the product page detail\n* The search bar in the header is empty   Click on logo link and go to home page The Home page is displayed   Case 2: Click on \u0026ldquo;Enter\u0026rdquo;\n* Click on the search bar on the header \u0026gt; Write a word on it (min 3 characters length)\n* Click on enter when the list is displayed * The \u0026ldquo;Search results\u0026rdquo; page is displayed with all \u0026ldquo;Mountain fox notebook\u0026rdquo; characters\n* The search bar in the header keep the word written    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-search-a-product-and-validate.html",
 	"title": "FO - Search - Search a product and validate",
 	"tags": [],
 	"description": "",
@@ -3626,6 +3675,13 @@
 	"content": "FO - Checkout - Display of total (price, vouchers, shipping, promo\u0026hellip;) "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/fo-checkout-display-of-total-price-vouchers-shipping-promo.html",
+	"title": "FO - Checkout - Display of total (price, vouchers, shipping, promo...)",
+	"tags": [],
+	"description": "",
+	"content": "FO - Checkout - Display of total (price, vouchers, shipping, promo\u0026hellip;) "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-header-display.html",
 	"title": "FO - Checkout - Personal Information - Header display",
 	"tags": [],
@@ -3676,6 +3732,13 @@
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-all-products.html",
+	"title": "FO - Homepage - All products",
+	"tags": [],
+	"description": "",
+	"content": "FO - Homepage - All products Steps    Step Description Expected result     Go to FO \u0026gt; In Popular Products block \u0026gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check the Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !Screenshot 2021-11-29 at 15.48.20.png    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-all-products.html",
 	"title": "FO - Homepage - All products",
 	"tags": [],
 	"description": "",
@@ -3746,6 +3809,13 @@
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-no-result.html",
+	"title": "FO - Search - Search no result",
+	"tags": [],
+	"description": "",
+	"content": "FO - Search - Search no result Steps    Step Description Expected result     Case 1: With less than 3 characters\nGo to FO \u0026gt; Click on the search bar on the header \u0026gt; Write a word on it (less than 3 characters length) and click on \u0026ldquo;Enter\u0026rdquo; * No autocomplete list is displayed\n* The search bar in the header keeps the word written\n* The \u0026ldquo;Search results\u0026rdquo; page is displayed with the content:\n** Title: No matches were found for your search\n** Description: Please try other keywords to describe what you are looking for.\n** A search bar with the word written   Case 2: Without any characters\nGo to FO \u0026gt; Click on the search bar on the header \u0026gt; Click on \u0026ldquo;Enter\u0026rdquo; The \u0026ldquo;Search results\u0026rdquo; page is displayed with those content:\n* Title: No matches were found for your search\n* Description: Please try other keywords to describe what you are looking for.\n* An empty search bar    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-search-no-result.html",
 	"title": "FO - Search - Search no result",
 	"tags": [],
 	"description": "",
@@ -4127,7 +4197,7 @@
 	"title": "BO - Catalog - Brands - CRUD Brand And Address",
 	"tags": [],
 	"description": "",
-	"content": "BO - Catalog - Brands - CRUD Brand And Address Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Brands \u0026amp; Suppliers \u0026gt; Brands page The Brands page is well displayed   Click on \u0026ldquo;Add new brand\u0026rdquo; Title of page = Add new   Set the form fields with the following Data \u0026gt; Save The successful message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\nNumber of brands after creation = Total of brands + 1\nSee columns :\nAddresses = \u0026lsquo;\u0026ndash;'\nProducts = \u0026lsquo;0\u0026rsquo;   Click on \u0026ldquo;Add new brand address\u0026rdquo; Title of page = Add new address   Set the form fields with the following Data \u0026gt; Save The successful message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\nnumber of Addresses after creation = Total of Addresses + 1   Filter brand by Name Filter is successful Number of brands after filter \u0026lt; Total of brands\nFirst row column name in table contain \u0026lsquo;name of created brand\u0026rsquo;   View Brand Title of page = Name of brand created\nNumber of Address in list = 1\nFirst row in Addresses list, column name = ${Address.firstName} ${Address.lastName}   Return to Brands page Page title = Brands   Reset Brand filters Number of brands after reset = Total of brands + 1   Filter Brands list by Name of Brand created Filter is successful Number of Brands after filter \u0026lt; Total of brands\nfirst row column name in table contain \u0026lsquo;name of created brand\u0026rsquo;   go to edit page page title = \u0026lsquo;Edit:\u0026rsquo;   edit brand\nCriteria : - name : company name from faker - logo : name with no special chars (.png)\n- short description : lorem sentence from faker\n- short description fr : same as short description\n- description : lorem sentence from faker\n- description fr : same as description\n- metaTitle : same as name\n- metaTitle fr : same as metatitle\n- metaDescription : lorem sentence from faker\n- metaDescription fr : same as metaDescription\n- metaKeywords : array of 2 lorem word from faker - metaKeywords fr : same as metaKeywords\n- enabled : true - addresses : 0\n- products : 0 The successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\nnumber of brands after reset = Total of brands + 1   filter address by brand name (edited brand) in table Addresses, first row column brand name = \u0026lsquo;name of edited brand\u0026rsquo;   reset filter Addresses number of Addresses after reset = Total of Addresses + 1   filter address by brand name (edited brand) in table Addresses, first row column brand name = \u0026lsquo;name of edited brand\u0026rsquo;   go to edit page title of page = \u0026lsquo;Brands *\u0026rsquo;   Update Address data and click on Save The successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed   reset filter Addresses number of Addresses after reset = Total of Addresses + 1   filter brand by name filter is successful number of brands after filter \u0026lt; Total of brands\nfirst row column name in table contain \u0026lsquo;name of edited brand\u0026rsquo;   view brand title of page = name of brand edited\nNumber of Address in list = 1\nFirst row in Addresses list, column name = ${Address.firstName} ${Address.lastName}   return to brands page page title = Brands *   reset brand filters number of brands after reset = Total of brands + 1   filter Brands list by name of brand edited filter is successful number of brands after filter \u0026lt; Total of brands\nfirst row column name in table contain \u0026lsquo;name of edited brand\u0026rsquo;   Delete brand Successful deletion message is displayed   filter Address by firstname and lastname of edited address in Address list first row column Brandname = \u0026lsquo;\u0026ndash;\u0026rsquo;   Reset brand address filter number of brands address after reset = Total of brands address   filter address list by firstname and lastname First row in Addresses list, column firstname = Address.firstName\ncolumn lastname = Address.lastName   Delete Address Successful message is displayed   reset filter address number of Addresses after reset = Total of Addresses    "
+	"content": "BO - Catalog - Brands - CRUD Brand And Address Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Brands \u0026amp; Suppliers \u0026gt; Brands page The Brands page is well displayed   Click on \u0026ldquo;Add new brand\u0026rdquo; Title of page = Add new   Set the form fields with the following Data \u0026gt; Save The successful message \u0026ldquo;Successful creation\u0026rdquo; is displayed\nNumber of brands after creation = Total of brands + 1\nSee columns :\nAddresses = \u0026lsquo;\u0026ndash;'\nProducts = \u0026lsquo;0\u0026rsquo;   Click on \u0026ldquo;Add new brand address\u0026rdquo; Title of page = Add new address   Set the form fields with the following Data \u0026gt; Save The successful message \u0026ldquo;Successful creation\u0026rdquo; is displayed\nnumber of Addresses after creation = Total of Addresses + 1   Filter brand by Name Filter is successful Number of brands after filter \u0026lt; Total of brands\nFirst row column name in table contain \u0026lsquo;name of created brand\u0026rsquo;   View Brand Title of page = Name of brand created\nNumber of Address in list = 1\nFirst row in Addresses list, column name = ${Address.firstName} ${Address.lastName}   Return to Brands page Page title = Brands   Reset Brand filters Number of brands after reset = Total of brands + 1   Filter Brands list by Name of Brand created Filter is successful Number of Brands after filter \u0026lt; Total of brands\nfirst row column name in table contain \u0026lsquo;name of created brand\u0026rsquo;   Click on Edit page title = \u0026lsquo;Edit:\u0026rsquo;   Update the info with the following data \u0026gt; Save The successful message \u0026ldquo;Successful update\u0026rdquo; is displayed\nnumber of brands after reset = Total of brands + 1   Filter Address by Brand name (edited brand) In table Addresses, first row column brand name = \u0026lsquo;name of edited brand\u0026rsquo;   Click on Edit title of page = \u0026lsquo;Brands *\u0026rsquo;   Update Address data \u0026gt; Save The successful message \u0026ldquo;Successful update\u0026rdquo; is displayed   Reset filter Addresses Number of Addresses after reset = Total of Addresses + 1   Filter Brand by name Filter is successful Number of brands after filter \u0026lt; Total of brands\nFirst row column name in table contain \u0026lsquo;name of edited brand\u0026rsquo;   View brand Title of page = name of brand edited\nNumber of Address in list = 1\nFirst row in Addresses list, column name = ${Address.firstName} ${Address.lastName}   Click Edit on Address \u0026gt; Edit Address \u0026gt; Save The successful message \u0026ldquo;Successful update\u0026rdquo; is displayed   Reset Brand filters Number of brands after reset = Total of brands + 1   Filter Brands list by Name of Brand edited Filter is successful Number of brands after filter \u0026lt; Total of brands\nFirst row column name in table contain \u0026lsquo;name of edited brand\u0026rsquo;   Delete Brand \u0026ldquo;Successful deletion\u0026rdquo; message is displayed\nNo records found is table   Reset filter Brand Number of Brand after reset = Total of Brands   Filter Address by First name and Last name of edited Address In Address list first row column Brand = \u0026lsquo;\u0026ndash;\u0026rsquo;   Reset brand address filter Number of brands address after reset = Total of brands address   Filter Address list by First name and Last name First row in Addresses list, column firstname = Address.firstName\ncolumn lastname = Address.lastName   Delete Address \u0026ldquo;Successful deletion\u0026rdquo; message is displayed   Reset filter Address Number of Addresses after reset = Total of Addresses    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/categories/bo-catalog-categories-change-position-of-categories.html",
@@ -4620,6 +4690,13 @@
 	"content": "FO - Checkout - Display of highlighted cart rules "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/fo-checkout-display-of-highlighted-cart-rules.html",
+	"title": "FO - Checkout - Display of highlighted cart rules",
+	"tags": [],
+	"description": "",
+	"content": "FO - Checkout - Display of highlighted cart rules "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-create-an-account.html",
 	"title": "FO - Checkout - Personal Information - Create an account",
 	"tags": [],
@@ -4663,6 +4740,13 @@
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-consult-product-quickview.html",
+	"title": "FO - Homepage - Consult product quickview",
+	"tags": [],
+	"description": "",
+	"content": "FO - Homepage - Consult product quickview Steps    Step Description Expected result     Go to FO \u0026gt; Product list \u0026gt; Click on the Quick View button for the 3rd product \u0026ldquo;The best is yet to come' Framed poster\u0026rdquo; A modal is displayed\nwith the product details\n!https://forge.prestashop.com/plugins/servlet/raven/attachment/637/Screenshot+2021-11-29+at+16.32.42.png   Change combination of product See that the price will be updated accordingly   Change quantity of product and Click add to cart Modal \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; is displayed   Click on the \u0026ldquo;cross\u0026rdquo; button or \u0026ldquo;Continue Shopping\u0026rdquo; button or out side The modal is closed   Click Quick View on another simple product ( the 6th product \u0026ldquo;MUG THE BEST IS YET TO COME\u0026rdquo;) The modal is well displayed and the data is ok * Images\n* Title\n* Price\n* Tax\n* Description\n* Quantity\n* Add to cart button   Change quantity of product and Click add to cart Modal \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; is displayed   Click on Cross button The modal is closed   Click on All products link The Home 2 page is well displayed   Scroll down and click on the next page The second page is well displayed   Click on Quick view for the last demo product \u0026ldquo;customized product\u0026rdquo; (CUSTOMIZABLE MUG) and click on Quick view The modal is well displayed and the data is ok * Images\n* Title\n* Price\n* Tax\n* Description\n* Quantity\n* Add to cart button \u0026ldquo;Add to cart\u0026rdquo; button is disabled   Click on Cross button The modal is closed   Click on quick view on the last product (out of stock created in the pre-condition) and click on quick view * Add to cart button is disabled\n* Out-of-Stock label is displayed   Close the modal by clicking outside of the modal Quick view modal is now closed   Delete the product created in the pre-condition The product is well deleted    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-consult-product-quickview.html",
 	"title": "FO - Homepage - Consult product quickview",
 	"tags": [],
 	"description": "",
@@ -4716,6 +4800,13 @@
 	"tags": [],
 	"description": "",
 	"content": "FO - Product Page - Product Quickview - Display of the product "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-consult-results-list.html",
+	"title": "FO - Search - Consult results list",
+	"tags": [],
+	"description": "",
+	"content": "FO - Search - Consult results list "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-fuzzy-search.html",
@@ -5383,6 +5474,13 @@
 	"content": "FO - Search - Consult results list "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-sort-results-list.html",
+	"title": "FO - Search - Sort results list",
+	"tags": [],
+	"description": "",
+	"content": "FO - Search - Sort results list "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/user-account/fo-user-account-get-gdpr-data-in-csv.html",
 	"title": "FO - User account - Get GDPR Data in CSV",
 	"tags": [],
@@ -5894,6 +5992,13 @@
 	"content": "FO - Product Page - Product Quickview - Change combination on popup "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-consult-product-quickview.html",
+	"title": "FO - Search - Consult product quickview",
+	"tags": [],
+	"description": "",
+	"content": "FO - Search - Consult product quickview "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-sort-results-list.html",
 	"title": "Fo - Search - Sort results list",
 	"tags": [],
@@ -6367,7 +6472,7 @@
 	"title": " BO - CRUD Virtual product",
 	"tags": [],
 	"description": "",
-	"content": "BO - CRUD Virtual product Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products Products list page is displayed correctly   Click on \u0026ldquo;New product\u0026rdquo; button on the top right of the page \u0026gt; Choose \u0026ldquo;Virtual product\u0026rdquo; block in the modal * A modal \u0026ldquo;Add new product\u0026rdquo; is displayed\n* A description by type is displayed. For Standard product: \u0026quot; An intangible product that doesn\u0026rsquo;t require shipping. You can also add a downloadable file.\u0026quot;   Click on \u0026ldquo;Add new product\u0026rdquo; button * New Product page on \u0026ldquo;Description\u0026rdquo; tab is displayed\n* \u0026ldquo;Virtual product\u0026rdquo; type description is displayed below the product name field   Fill the main informations on \u0026ldquo;Description\u0026rdquo; tab The content is added   Go to \u0026ldquo;Details\u0026rdquo; tab \u0026gt; Fill the \u0026ldquo;Reference\u0026rdquo; field The content is added   Go to \u0026ldquo;Virtual product\u0026rdquo; tab \u0026gt; Edit quantity of the product The content is added   Clic on the \u0026ldquo;Add downloadable file\u0026rdquo; switch * The switch should be set to \u0026ldquo;on\u0026rdquo; * A panel to set up the files appears   Setup the download file The download panel should be completed (except for the date part)   Go to \u0026ldquo;Pricing\u0026rdquo; tab \u0026gt; Edit \u0026ldquo;Retail price\u0026rdquo; section * \u0026ldquo;Retail price (tax incl.)\u0026rdquo; field should be \u0026ldquo;15\u0026rdquo;\n* The content is aded   Click on the \u0026ldquo;Offline\u0026rdquo; switch button at the bottom of the name (at the left of the \u0026ldquo;Virtual product\u0026rdquo;) \u0026amp; Click on the \u0026ldquo;Save button\u0026rdquo; * The switch button is set to \u0026ldquo;Online\u0026rdquo; and is green\n* \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* The \u0026ldquo;Save\u0026rdquo; button is changed by \u0026ldquo;Save and publish\u0026rdquo; button   Click on \u0026ldquo;Preview\u0026rdquo; button at the bottom of the page and check all data is correct on the preview * New tab is opened to show the product in FO.\n* Product is displayed correctly.\n* Data is correct on the preview in FO   Add the product to cart and Process to checkout You will create a new Order with this product   Go to Bo \u0026gt; Orders \u0026gt; Orders \u0026gt; Click view on latest Orders You last order should be Displayed   Update Status of the order by Payement accepted a Message \u0026ldquo;Succesfull update\u0026rdquo; should be displayed   Go back in the FO \u0026gt; Clic on your account name \u0026gt; Order History and Details All your order should be displayed   Clic details on the latest order The order that you\u0026rsquo;ve just take should be displayed   Scroll Down and you can click on \u0026ldquo;Download\u0026rdquo; at the bottom of the product name Download should be started   Go back to browser tab of the BO \u0026gt; Edit the product by changing every data on each tab above \u0026gt; Click on \u0026ldquo;Save and publish\u0026rdquo; button \u0026ldquo;Successful update\u0026rdquo; message is displayed   Click on \u0026ldquo;Preview\u0026rdquo; button at the bottom of the page and check all data is correct on the preview * New tab is opened to show the product in FO.\n* Product is displayed correctly.\n* Data is correct on the preview in FO   Go to back to browser tab of the BO \u0026gt; Click on \u0026ldquo;Delete\u0026rdquo; button at the bottom of the page A modal is displayed with two buttons:\n* Cancel\n* Delete   Click on \u0026ldquo;Delete\u0026rdquo; button * Products list page is displayed\n* \u0026ldquo;Successful deletion\u0026rdquo; message is displayed\n* The product is well removed    "
+	"content": "BO - CRUD Virtual product Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products Products list page is displayed correctly   Click on \u0026ldquo;New product\u0026rdquo; button on the top right of the page \u0026gt; Choose \u0026ldquo;Virtual product\u0026rdquo; block in the modal * A modal \u0026ldquo;Add new product\u0026rdquo; is displayed\n* A description by type is displayed. For Standard product: \u0026quot; An intangible product that doesn\u0026rsquo;t require shipping. You can also add a downloadable file.\u0026quot;   Click on \u0026ldquo;Add new product\u0026rdquo; button * New Product page on \u0026ldquo;Description\u0026rdquo; tab is displayed\n* \u0026ldquo;Virtual product\u0026rdquo; type description is displayed below the product name field   Fill the main informations on \u0026ldquo;Description\u0026rdquo; tab The content is added   Go to \u0026ldquo;Details\u0026rdquo; tab \u0026gt; Fill the \u0026ldquo;Reference\u0026rdquo; field The content is added   Go to \u0026ldquo;Virtual product\u0026rdquo; tab \u0026gt; Edit quantity of the product The content is added   Click on the \u0026ldquo;Add downloadable file\u0026rdquo; switch * The switch should be set to \u0026ldquo;on\u0026rdquo; * A panel to set up the files appears   Setup the download file The download panel is completed   Go to \u0026ldquo;Pricing\u0026rdquo; tab \u0026gt; Edit \u0026ldquo;Retail price\u0026rdquo; section * \u0026ldquo;Retail price (tax incl.)\u0026rdquo; field should be \u0026ldquo;15\u0026rdquo;\n* The content is aded   Click on the \u0026ldquo;Offline\u0026rdquo; switch button on the header \u0026gt; Click on Save * The switch button is set to \u0026ldquo;Online\u0026rdquo; and is green\n* \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* The \u0026ldquo;Save\u0026rdquo; button is changed by \u0026ldquo;Save and publish\u0026rdquo; button   Click on \u0026ldquo;Preview\u0026rdquo; button at the bottom of the page and check all data is correct on the preview * New tab is opened to show the product in FO.\n* Product is displayed correctly.\n* Data is correct on the preview in FO   Add the product to cart \u0026gt; Proceed to checkout A new Order is created   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; Click view on the latest Order You last Order should be displayed   Update Status of the Order by Payment accepted Message \u0026ldquo;Successfull update\u0026rdquo; should be displayed   Go back to the FO \u0026gt; Click on your account name \u0026gt; Order History and Details All your orders should be displayed   Click Details on the latest order The order that you\u0026rsquo;ve just made should be displayed   Scroll down to the Product section of the order \u0026gt; Click on \u0026ldquo;Download\u0026rdquo; at the bottom of the product name Download should be started   Go back to browser tab of the BO \u0026gt; Edit the product by changing every data on each tab above \u0026gt; Click on \u0026ldquo;Save and publish\u0026rdquo; button \u0026ldquo;Successful update\u0026rdquo; message is displayed   Click on \u0026ldquo;Preview\u0026rdquo; button at the bottom of the page and check all data is correct on the preview * New tab is opened to show the product in FO.\n* Product is displayed correctly.\n* Data is correct on the preview in FO   Go to back to browser tab of the BO \u0026gt; Click on \u0026ldquo;Delete\u0026rdquo; button at the bottom of the page A modal is displayed with two buttons:\n* Cancel\n* Delete   Click on \u0026ldquo;Delete\u0026rdquo; button * Products list page is displayed\n* \u0026ldquo;Successful deletion\u0026rdquo; message is displayed\n* The product is well removed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/upgrade/fo-upgrade-from-1-7-7-8-to-last-build-and-then-exploratory-test-on-fo.html",
@@ -7515,7 +7620,7 @@
 	"title": "Checkout",
 	"tags": [],
 	"description": "",
-	"content": "Checkout "
+	"content": "Checkout Tests  FO - Checkout - Show details   FO - Checkout - Add a promo code   FO - Checkout - Display of total (price, vouchers, shipping, promo...)   FO - Checkout - Display of highlighted cart rules   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/regression/checkout.html",
@@ -8313,7 +8418,7 @@
 	"title": "Homepage",
 	"tags": [],
 	"description": "",
-	"content": "Homepage "
+	"content": "Homepage Tests  FO - Homepage - Slider   FO - Homepage - Display some products   FO - Homepage - All products   FO - Homepage - Consult product quickview   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird.html",
@@ -8950,7 +9055,7 @@
 	"title": "Order confirmation",
 	"tags": [],
 	"description": "",
-	"content": "Order confirmation "
+	"content": "Order confirmation Tests  FO - Order confirmation - List of ordered products   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/user-account/order-history/order-details.html",
@@ -9461,7 +9566,7 @@
 	"title": "Search",
 	"tags": [],
 	"description": "",
-	"content": "Search "
+	"content": "Search Tests  FO - Search - Search product bar, consult autocomplete list   FO - Search - Search a product and validate   FO - Search - Search no result   FO - Search - Consult results list   FO - Search - Sort results list   FO - Search - Consult product quickview   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/search-engines.html",
