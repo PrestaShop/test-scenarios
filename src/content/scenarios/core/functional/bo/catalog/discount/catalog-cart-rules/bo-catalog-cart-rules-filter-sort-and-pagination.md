@@ -12,14 +12,11 @@ weight: 2
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
 | Filter by Name | Number of catalog price rules < Total of catalog price rules and the list contains the searched Name |
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
-| Search by Shop | Number of catalog price rules < Total of catalog price rules and the list contains the searched Shop |
+| Filter by currency | Number of catalog price rules < Total of catalog price rules and the list contains the searched currency |
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
-| Search by currency | Number of catalog price rules < Total of catalog price rules and the list contains the searched currency |
+| Filter by Group | Number of catalog price rules < Total of catalog price rules and the list contains the searched Group |
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
-| Search by Group | Number of catalog price rules < Total of catalog price rules and the list contains the searched Group |
-| Reset Filter | Number of catalog price rules = Total of catalog price rules |
-| Search by From Quantity | Number of catalog price rules < Total of catalog price rules and the list contains the searched Quanity |
-| Reset Filter | Number of catalog price rules = Total of catalog price rules |
+| Filter by From quantity | Number of catalog price rules < Total of catalog price rules and the list contains the searched Quanity |
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
 | Search by Reduction type | Number of catalog price rules < Total of catalog price rules and the list contains the searched reduction type |
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
@@ -32,20 +29,18 @@ weight: 2
 | Sort by ID desc | The list is sorted by ID desc |
 | Sort by Name asc | The list is sorted by name asc |
 | Sort by Name desc | The list is sorted by name desc |
-| Sort by Shop asc | The list is sorted by shop asc |
-| Sort by Shop desc | The list is sorted by shop desc |
-| Sort by currency asc | The list is sorted by currency asc |
-| Sort by currency desc | The list is sorted by currency desc |
-| Sort by country asc | The list is sorted by country asc |
-| Sort by country desc | The list is sorted by country desc |
+| Sort by Currency asc | The list is sorted by Currency asc |
+| Sort by Currency desc | The list is sorted by Currency desc |
+| Sort by Country asc | The list is sorted by Country asc |
+| Sort by Country desc | The list is sorted by Country desc |
 | Sort by Group asc | The list is sorted by group asc |
 | Sort by Group desc | The list is sorted by group desc |
 | Sort by From quantity asc | The list is sorted by  quanity asc |
-| Sort by quantity desc | The list is sorted by quantity desc |
+| Sort by From quantity desc | The list is sorted by quantity desc |
 | Sort by Reduction asc | The list is sorted by reduction asc |
 | Sort by Reduction desc | The list is sorted by Reduction desc |
-| Sort by beginning asc | The list is sorted by begining asc |
-| Sort by begining desc | The list is sorted by beginning desc |
+| Sort by Beginning asc | The list is sorted by Begining asc |
+| Sort by Beginning desc | The list is sorted by Beginning desc |
 | Sort by End asc | The list is sorted End asc |
 | Sort by End desc | The list is sorted by End desc |
 | Sort by ID asc | The list is sorted by ID asc |
