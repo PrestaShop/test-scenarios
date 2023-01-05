@@ -8,9 +8,8 @@ weight: 8
 | Step Description | Expected result |
 | ----- | ----- |
 | Clic on the "Generate theme image settings" button at the top right | A modal should be displayed |
-| * Clic on the down arrow next to the first Image type create | * An other button should be dropped down |
-| * Clic on the "Delete" button | * A new modal named "Are your sure you want to delete this image seeting?" should be dislpayed |
-| * Clic on the red Delete button | * A progress bar wil be displayed during the deletion <br> * The first image should be deleted<br> * Image relative to this image type should not be removed |
-| * Clic on the down arrow next to the last Image type create | * An other button should be dropped down |
-| * Clic on the "Delete" button | * A new modal named "Are your sure you want to delete this image seeting?" should be dislpayed |
-| * Check the box named "Delete the images linked to this image setting"<br> * Clic on the red Delete button | * A progress bar wil be displayed during the deletion <br> * The second image should be deleted<br> * Images relative to this image type are removed |
+| *Case : You don't have yml file for your theme with image type* <br> * Clic on the "import" button | * You'll have a red alert with the message " Your themes doesn't have image types configured" <br> * You still have 0 image type |
+| *Case : You have yml file for your theme with image type* <br> * Clic on the "import" button | * You'll have a success message "The settings have been successfully updated" <br> * You'll have your image type |
+| *Case : You have the same yml file for your theme with image type* <br> * Clic on the "import" button | * You'll have a red alert with the message " Your themes doesn't have image types configured" <br> * You still have the same image type |
+| *Case : You have the same name on your image type but not the same size on your yml*  <br> * Clic on the "import" button | * You'll have a red alert with the message " Your themes doesn't have image types configured" <br> * You still have the same image type |
+| *Case :* *You have the same size on your image type but not the same name on your yml*   <br> * Clic on the "import" button | * You'll have a success message "The settings have been successfully updated" <br> * You'll have twice your image type |
