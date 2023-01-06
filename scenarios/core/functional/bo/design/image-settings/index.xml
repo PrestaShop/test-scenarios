@@ -87,5 +87,28 @@
       <description>BO - Design - Image Settings - Image Generation options Steps    Step Description Expected result     Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;   Case : Your server support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be enable   Check the JPEG checkbox ( you should have 3 checkboxes checked ) You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo;   Case : Your server support Avif * Check The AVIF * Uncheck All other image&amp;rsquo;s format * The checkbox of AVIF should be greyed</description>
     </item>
     
+    <item>
+      <title>BO - Design - Image Settings - Regenerate thumbnail</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-regenerate-thumbnail.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-regenerate-thumbnail.html</guid>
+      <description>BO - Design - Image Settings - Regenerate thumbnail Steps    Step Description Expected result     * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options
+* Check all the format you can do * Clic on the &amp;ldquo;Save&amp;rdquo; button * All the format should be checked
+* You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo;   * Scroll down to Regenerate thumbnails.</description>
+    </item>
+    
+    <item>
+      <title>BO - Design - Image Settings - Autoupgrade 8.0 -&gt; 8.1 (or more)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-autoupgrade-8-0-8-1-or-more.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-autoupgrade-8-0-8-1-or-more.html</guid>
+      <description>BO - Design - Image Settings - Autoupgrade 8.0 -&amp;gt; 8.1 (or more) Steps    Step Description Expected result     Case : Your image setting is set on : Use JPEG
+* Do the Autoupgrade from to 8.0 to 8.1 ( or more )
+* Go to BO &amp;gt; Design &amp;gt; Image Settings * You should have your shop in 8.1 (or more)
+* On your image settings your should have</description>
+    </item>
+    
   </channel>
 </rss>

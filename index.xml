@@ -4052,7 +4052,8 @@ Successful message is displayed   Download and open CSV file of the created quer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-quick-edit.html</guid>
-      <description>BO - Cart Rules - Quick Edit Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The cart rules page is well displayed   Click on the icon status to disable the cart rule A green alert &amp;ldquo;The status has been successfully updated.&amp;rdquo; is displayed and the cart rule is well disabled   Click on the icon status again to enable the cart rule A green alert &amp;ldquo;The status has been successfully updated.</description>
+      <description>BO - Cart Rules - Quick Edit Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The cart rules page is well displayed   Click on the icon status to disable the cart rule A green alert &amp;ldquo;The status has been successfully updated.&amp;rdquo; is displayed
+The cart rule is well disabled   Click on the icon status again to enable the cart rule A green alert &amp;ldquo;The status has been successfully updated.</description>
     </item>
     
     <item>
@@ -9301,6 +9302,17 @@ All products contain the searched Name   Click on the switch toggle and click on
     </item>
     
     <item>
+      <title>BO - Design - Image Settings - Regenerate thumbnail</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-regenerate-thumbnail.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-regenerate-thumbnail.html</guid>
+      <description>BO - Design - Image Settings - Regenerate thumbnail Steps    Step Description Expected result     * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options
+* Check all the format you can do * Clic on the &amp;ldquo;Save&amp;rdquo; button * All the format should be checked
+* You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo;   * Scroll down to Regenerate thumbnails.</description>
+    </item>
+    
+    <item>
       <title>BO - Modules - Configure module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9442,6 +9454,18 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-delete-bulk-actions.html</guid>
       <description>BO - Catalog - Products - Delete Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products &amp;lt; Total of products
 All products contain the searched Name   Click on the drop-down toggle and click on Delete A confirm modal &amp;ldquo;Delete Products?</description>
+    </item>
+    
+    <item>
+      <title>BO - Design - Image Settings - Autoupgrade 8.0 -&gt; 8.1 (or more)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-autoupgrade-8-0-8-1-or-more.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-autoupgrade-8-0-8-1-or-more.html</guid>
+      <description>BO - Design - Image Settings - Autoupgrade 8.0 -&amp;gt; 8.1 (or more) Steps    Step Description Expected result     Case : Your image setting is set on : Use JPEG
+* Do the Autoupgrade from to 8.0 to 8.1 ( or more )
+* Go to BO &amp;gt; Design &amp;gt; Image Settings * You should have your shop in 8.1 (or more)
+* On your image settings your should have</description>
     </item>
     
     <item>
