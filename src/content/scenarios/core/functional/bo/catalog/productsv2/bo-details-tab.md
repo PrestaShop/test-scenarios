@@ -1,0 +1,21 @@
+---
+title: "BO - Details Tab"
+weight: 17
+---
+
+# BO - Details Tab
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Catalog > New product > Standard product > Add new product | Product creation page is well displayed |
+| Add a title to your product > Switch to Online > Click Save | Successful update message is displayed |
+| Go to Tab Details > Add References > Click Save and publish | Tab Details is red<br><br>For UPC barcode, EAN-13 or JAN barcode, ISBN there's a error message:<br>"lorem ipsum" is invalid |
+| Edit the References with new data > Click Save and publish | Successful update message is displayed |
+| In Features > Add 2 features > Save and publish | Successful update message is displayed<br><br>My 2 features are well updated.<br><br>My Customized Feature "Lorem Ipsum" is well displayed in FO > Product page > Product details |
+| Delete both of the Features with trash icon > Delete > Save and publish | Successful update message is displayed<br><br>In FO > data sheet is empty in product page |
+| In Attached files > Click on Manage all files | A new tab in opened for Catalog > Files page<br><br>No files exists |
+| Search file "hello world" | No results found for "hello world" |
+| Click Add new file > Fill fields > Click Save | The file was successfully added. alert is displayed<br><br>A new file is available in the product |
+| Click the cross to delete the file > Confirm deletion | Message No files attached is displayed |
+| Enable Display condition on product page > Choose Used in dropdown > Click Save and publish | Successful update message is displayed<br><br>In FO, in product page > Product Details > See Condition Used |
+| In Customization > Click Add 4 customization fields > Save and publish | Successful update message is displayed<br><br>In FO, see 4 customization fields |
