@@ -7042,6 +7042,13 @@
 	"content": "BO - Design - Image Settings - Autoupgrade 8.0 -\u0026gt; 8.1 (or more) Steps    Step Description Expected result     Case : Your image setting is set on : Use JPEG\n* Do the Autoupgrade from to 8.0 to 8.1 ( or more )\n* Go to BO \u0026gt; Design \u0026gt; Image Settings * You should have your shop in 8.1 (or more)\n* On your image settings your should have\nThe checkboxe is checked with JPEG The Fallback is set to JPEG   Case : Your image setting is set on : Use PNG only if the base image is in PNG format.\n* Do the Autoupgrade from to 8.0 to 8.1 ( or more )\n* Go to BO \u0026gt; Design \u0026gt; Image Settings * You should have your shop in 8.1 (or more)\n* On your image settings your should have : the checkboxe is checked with JPEG and PNG The Fallback is set to JPEG   Case : Your image setting is set on : Use PNG for all images\n* Do the Autoupgrade from to 8.0 to 8.1 ( or more )\n* Go to BO \u0026gt; Design \u0026gt; Image Settings * You should have your shop in 8.1 (or more)\n* On your image settings your should have : the checkboxe is checked with PNG The Fallback is set to PNG   Case : Your image setting is set on : Use WebP only if the base image is in WebP format.\n* Do the Autoupgrade from to 8.0 to 8.1 ( or more )\n* Go to BO \u0026gt; Design \u0026gt; Image Settings * You should have your shop in 8.1 (or more)\n* On your image settings your should have : the checkboxe is checked with JPEG and WebP The Fallback is set to JPEG   Case : Your image setting is set on : Use WebP for all images.\n* Do the Autoupgrade from to 8.0 to 8.1 ( or more )\n* Go to BO \u0026gt; Design \u0026gt; Image Settings * You should have your shop in 8.1 (or more)\n* On your image settings your should have : the checkboxe is checked with WebP The Fallback is set to WebP    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-header.html",
+	"title": "BO - Header",
+	"tags": [],
+	"description": "",
+	"content": "BO - Header Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products \u0026gt; Edit an existing product Product page is well displayed   Edit product name \u0026gt; Click Save and publish Successful update message is displayed   Switch language to FR \u0026gt; Edit the product name \u0026gt; Click Save and publish Successful update message is displayed   Go to Pricing Tab \u0026gt; Edit Retail price \u0026gt; Click Save and publish Successful update message is displayed\nPrice in header is updated: €116.67 tax excl.\n€140.00 tax incl. (tax rule: 20%)   Go to Stocks tab \u0026gt; Add 10 items \u0026gt; Click Save and publish Successful update message is displayed\nStock in header is updated:\n310 in stock   Subtract 75 items \u0026gt; Click Save and publish Successful update message is displayed\nStock in header is updated:\n235 in stock   Go to Description Tab \u0026gt; Add Image \u0026gt; Select Image \u0026gt; Use as cover image \u0026gt; Add caption \u0026gt; Save Image Settings \u0026gt; Refresh page Alert Settings updated is displayed\nImage in header is updated   Click on Standard product \u0026gt; Choose Virtual product \u0026gt; Change Product Type \u0026gt; Confirm Change Product Type Successful update message is displayed\nIn header the product type has changed\nIn tabs, a new tab is displayed \u0026ldquo;Virtual product\u0026rdquo;   Go to Details Tab \u0026gt; Change reference \u0026gt; Add a MPN \u0026gt; Save and publish Successful update message is displayed\nIn header:\nReference is updated\nMPN is added   Switch to Offline \u0026gt; Click Save Successful update message is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-see-more-less-module.html",
 	"title": "BO - Modules - See more / less module",
 	"tags": [],
@@ -7133,6 +7140,13 @@
 	"content": "BO - Cart rules - Case 12 - Group customer restriction Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discounts \u0026gt; Cart rules page and Click on \u0026ldquo;Add new cart rule\u0026rdquo; page The \u0026ldquo;Add new cart rule\u0026rdquo; page is well displayed   Create a new discount, set these fields:\n# Information:\n1. Name\n2. Description\n3. Code\n# Conditions:\n## Select Customer Group Selection: ### Unselected groups = Customer\n### Selected groups = Visitor + Guests\n# Actions:\n## Discount = 100 Euro tax included\nand click on Save An alert \u0026ldquo;Successful creation.\u0026rdquo; is displayed   Go to FO \u0026gt; Click on \u0026ldquo;Sign in\u0026rdquo; link in the header \u0026gt; Fill the form with your logins and click on \u0026ldquo;Sign in\u0026rdquo; button * \u0026ldquo;Home\u0026rdquo; page is well displayed\n* You are logged in   Add product to cart and click on Proceed to checkout The Shopping cart is well displayed and the link \u0026ldquo;Have a promo code?\u0026rdquo; is displayed   Click on \u0026ldquo;Have a promo code?\u0026rdquo; The promo code section is displayed   Set the Code and click on \u0026ldquo;Add\u0026rdquo; button An alert \u0026ldquo;You cannot use this voucher\u0026rdquo; is displayed   Click on \u0026ldquo;Sign out\u0026rdquo; link on the header * You are logged out\n* The product is removed from the cart   Add again a product to cart and Click on \u0026ldquo;Proceed to checkout\u0026rdquo; The Shopping cart is well displayed and the link \u0026ldquo;Have a promo code?\u0026rdquo; is displayed   Click on \u0026ldquo;Have a promo code?\u0026rdquo; The promo code section is displayed   Set the Code and click on \u0026ldquo;Add\u0026rdquo; button The discount is well applied and the total is ok   Remove discount by clicking on \u0026ldquo;trash\u0026rdquo; icon The discount is well removed   Remove product by clicking on \u0026ldquo;trash\u0026rdquo; icon The product is well removed    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-footer.html",
+	"title": "BO - Footer",
+	"tags": [],
+	"description": "",
+	"content": "BO - Footer Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Edit a standard product Product page is well displayed   In Footer \u0026gt; Click on Duplicate \u0026gt; Confirm Duplication in Popup Duplication of product has succeeded : copy of product is displayed\nSuccessful duplication message is displayed   Click on Preview Product page in FO is displayed\nMessage \u0026ldquo;This product is not visible to your customers.\u0026rdquo; is displayed   In product page BO \u0026gt; Click on Delete \u0026gt; Confirm deletion Message \u0026ldquo;Successful deletion\u0026rdquo; is displayed\nList of product is displayed   Click on edit a product \u0026gt; Click on New product \u0026gt; Choose Standard product \u0026gt; Add new product \u0026gt; Add a product name \u0026gt; Click on Save Message \u0026ldquo;Successful update\u0026rdquo; is displayed   Click on Go to catalog List of products is well displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-read-more-about-module.html",
 	"title": "BO - Modules - Read more about module",
 	"tags": [],
@@ -7203,6 +7217,13 @@
 	"content": "BO - After autoupgrade, rollback to previous version Steps    Step Description Expected result     In 1-Click Upgrade \u0026gt; go to the section Rollback and choose your backup    Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.   Rollback from the release to PS176x Rollback is OK, and every data are OK.   Rollback from the release to PS177x Rollback is OK, and every data are OK.   Rollback from the release to PS178x Rollback is OK and every data is OK    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-description-tab.html",
+	"title": "BO - Description Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Description Tab Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; New product \u0026gt; Standard product \u0026gt; Add new product Product creation page is well displayed   Add a title to your product \u0026gt; Switch to Online \u0026gt; Click Save Successful update message is displayed   Add multiple image to product \u0026gt; Select one product \u0026gt; Use as cover image \u0026gt; Add a caption \u0026gt; Save image settings Alert Settings updated is displayed   Click on the magnifying glass \u0026gt; Image is zoomed \u0026gt; Click on the cross to close the image Product page v2 is well displayed   Click on replace the selection button \u0026gt; Choose your image Alert Image replaced is displayed   Click on the trash button \u0026gt; Delete Alert The selection has been successfully deleted. is displayed   Select 1 image \u0026gt; Click on Select all button \u0026gt; Click the cross to close the window Product page is still well displayed   Add a Summary and a Description \u0026gt; Click Save and publish Message Successful update is displayed   In Categories \u0026gt; Click on Add categories button \u0026gt; Check Clothes \u0026gt; Open dropdown \u0026gt; Check Men \u0026gt; Click Apply Categories Clothes and Men are added to the Categories\nClothes and Men categories can be deleted with the cross   Change Default category to Clothes \u0026gt; Click Save and publish Home and Men categories can be deleted with the cross\nClothes Category does not have a cross\nMessage Successful update is displayed   In Brand \u0026gt; Choose the Brand Graphic Corner \u0026gt; Click Save and publish Message Successful update is displayed   In Related Products \u0026gt; Search \u0026ldquo;shirt\u0026rdquo; \u0026gt; Click the first product that is shown (Hummingbird printed t-shirt) Message Successful update is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html",
 	"title": "BO - Modules - Upgrade",
 	"tags": [],
@@ -7243,6 +7264,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Refresh list of currency Steps    Step Description Expected result          "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-combinations-tab.html",
+	"title": "BO - Combinations Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Combinations Tab "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html",
@@ -7287,6 +7315,13 @@
 	"content": "Search an email address Steps    Step Description Expected result          "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-pack-tab.html",
+	"title": "BO - Pack Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Pack Tab "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-the-id-in-the-tab-configuration-if-the-email-address-is-not-linked-to-a-customer.html",
 	"title": "Check the ID in the tab configuration  if the email address is not linked to a customer",
 	"tags": [],
@@ -7313,6 +7348,13 @@
 	"tags": [],
 	"description": "",
 	"content": "FO - Product Page - Display \u0026quot;On sale\u0026quot; label "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-virtual-product-tab.html",
+	"title": "BO - Virtual Product Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Virtual Product Tab "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-access-to-the-cart.html",
@@ -7343,6 +7385,13 @@
 	"content": "FO - Product Page - Display Specific delivery time "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-details-tab.html",
+	"title": "BO - Details Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Details Tab Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; New product \u0026gt; Standard product \u0026gt; Add new product Product creation page is well displayed   Add a title to your product \u0026gt; Switch to Online \u0026gt; Click Save Successful update message is displayed   Go to Tab Details \u0026gt; Add References \u0026gt; Click Save and publish Tab Details is red\nFor UPC barcode, EAN-13 or JAN barcode, ISBN there\u0026rsquo;s a error message:\n\u0026ldquo;lorem ipsum\u0026rdquo; is invalid   Edit the References with new data \u0026gt; Click Save and publish Successful update message is displayed   In Features \u0026gt; Add 2 features \u0026gt; Save and publish Successful update message is displayed\nMy 2 features are well updated.\nMy Customized Feature \u0026ldquo;Lorem Ipsum\u0026rdquo; is well displayed in FO \u0026gt; Product page \u0026gt; Product details   Delete both of the Features with trash icon \u0026gt; Delete \u0026gt; Save and publish Successful update message is displayed\nIn FO \u0026gt; data sheet is empty in product page   In Attached files \u0026gt; Click on Manage all files A new tab in opened for Catalog \u0026gt; Files page\nNo files exists   Search file \u0026ldquo;hello world\u0026rdquo; No results found for \u0026ldquo;hello world\u0026rdquo;   Click Add new file \u0026gt; Fill fields \u0026gt; Click Save The file was successfully added. alert is displayed\nA new file is available in the product   Click the cross to delete the file \u0026gt; Confirm deletion Message No files attached is displayed   Enable Display condition on product page \u0026gt; Choose Used in dropdown \u0026gt; Click Save and publish Successful update message is displayed\nIn FO, in product page \u0026gt; Product Details \u0026gt; See Condition Used   In Customization \u0026gt; Click Add 4 customization fields \u0026gt; Save and publish Successful update message is displayed\nIn FO, see 4 customization fields    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-check-the-box-subscribe.html",
 	"title": "Check the ID in the tab configuration if the user register as customer and check the box subscribe",
 	"tags": [],
@@ -7362,6 +7411,13 @@
 	"tags": [],
 	"description": "",
 	"content": "FO - Product Page - Out-of-Stock behaviour "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-stocks-tab.html",
+	"title": "BO - Stocks Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Stocks Tab Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; New product \u0026gt; Standard product \u0026gt; Add new product Product creation page is well displayed   Add a title to your product \u0026gt; Switch to Online \u0026gt; Click Save Successful update message is displayed   Go to Tab Stocks \u0026gt; Add quantity 300 Successful update message is displayed\nIn Header, stock is updated\nIn Recent stock movements, see the Quantity added by Employee with the Date \u0026amp; Time   Fill other fields in Stocks \u0026gt; Save and publish Successful update message is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-uncheck-the-box-subscribe.html",
@@ -7385,6 +7441,13 @@
 	"content": "FO - Product Page - Display pack content and link to product "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-shipping-tab.html",
+	"title": "BO - Shipping Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shipping Tab "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-edit-template-product-weight-filter.html",
 	"title": "Faceted search module - Edit template - Product weight filter",
 	"tags": [],
@@ -7399,11 +7462,25 @@
 	"content": "FO - Product Page - Display volume discount "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-pricing-tab.html",
+	"title": "BO - Pricing Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Pricing Tab "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-edit-template-product-price-filter.html",
 	"title": "Faceted search module - Edit template - Product price filter",
 	"tags": [],
 	"description": "",
 	"content": "Faceted search module - Edit template - Product price filter Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module \u0026ldquo;Configure Faceted search\u0026rdquo; should be displayed   Click on \u0026ldquo;Edit\u0026rdquo; button on the same line of your template The \u0026ldquo;New filters template\u0026rdquo; tab is displayed   In \u0026ldquo;Filters\u0026rdquo; block \u0026gt; Set \u0026ldquo;Product price filter\u0026rdquo; switch button to disable \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button It returns on the \u0026ldquo;Configure faceted search\u0026rdquo; page and you have a successful message \u0026quot; Your filter \u0026ldquo;[name of your template]\u0026rdquo; was updated successfully. \u0026quot;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Click on \u0026ldquo;All products\u0026rdquo; at the bottom of \u0026ldquo;Popular products\u0026rdquo; section Many product should be displayed and you can\u0026rsquo;t filter by \u0026ldquo;price\u0026rdquo;   Go back to BO \u0026gt; \u0026ldquo;Configure Faceted search\u0026rdquo; page \u0026gt; Click on on \u0026ldquo;Edit\u0026rdquo; button on the same line of your template The \u0026ldquo;New filters template\u0026rdquo; tab is displayed   In \u0026ldquo;Filters\u0026rdquo; \u0026gt; Check \u0026ldquo;Product price filter\u0026rdquo; \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button It returns on the \u0026ldquo;Configure faceted search\u0026rdquo; page and you have a successful message \u0026quot; Your filter \u0026ldquo;[name of your template]\u0026rdquo; was updated successfully. \u0026quot;   Go to FO \u0026gt; Reload the page Many product should be displayed and you can filter by \u0026ldquo;price\u0026rdquo; with a slider    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-seo-tab.html",
+	"title": "BO - SEO Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - SEO Tab "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-add-new-template.html",
@@ -7413,11 +7490,25 @@
 	"content": "Faceted search module - Add new template Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module \u0026ldquo;Configure Faceted search\u0026rdquo; should be displayed   Click on \u0026ldquo;Add new template\u0026rdquo; button below your template * The \u0026ldquo;New filters template\u0026rdquo; section is displayed\n* You can configure it as you want and saved it    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-options-tab.html",
+	"title": "BO - Options Tab",
+	"tags": [],
+	"description": "",
+	"content": "BO - Options Tab "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-bo-header-buttons.html",
 	"title": "Faceted search module - BO header buttons",
 	"tags": [],
 	"description": "",
 	"content": "Faceted search module - BO header buttons Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module \u0026ldquo;Configure Faceted search\u0026rdquo; should be displayed   Click on \u0026ldquo;Back\u0026rdquo; button The module page list is displayed   Search ps_facetedsearch Faceted search module is displayed on the list   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module \u0026ldquo;Configure Faceted search\u0026rdquo; should be displayed   Click on \u0026ldquo;Translate\u0026rdquo; button \u0026ldquo;Translate this module\u0026rdquo; modal is opened to choose a translation   Click anywhere on the window or on the cross of the modal on top right corner * The modal is removed\n* The \u0026ldquo;Configure\u0026rdquo; page of the module is displayed   Click on \u0026ldquo;Manage hooks\u0026rdquo; button \u0026ldquo;Positions\u0026rdquo; page is displayed with this product on its hook    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-multistore.html",
+	"title": "BO - Multistore",
+	"tags": [],
+	"description": "",
+	"content": "BO - Multistore "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/actions.html",
@@ -9356,7 +9447,7 @@
 	"title": "ProductsV2",
 	"tags": [],
 	"description": "",
-	"content": "ProductsV2 Tests  BO - Filter Products   BO - CRUD Standard product   BO - CRUD Product with combinations   BO - CRUD Pack of products   BO - CRUD Virtual product   BO - Duplicate product   BO - Delete product   BO - Product enable - disable - duplicate - delete with bulk actions   BO - Catalog - Product V2 Page - Create \u0026amp; Edit a Product   "
+	"content": "ProductsV2 Tests  BO - Filter Products   BO - CRUD Standard product   BO - CRUD Product with combinations   BO - CRUD Pack of products   BO - CRUD Virtual product   BO - Duplicate product   BO - Delete product   BO - Product enable - disable - duplicate - delete with bulk actions   BO - Catalog - Product V2 Page - Create \u0026amp; Edit a Product   BO - Header   BO - Footer   BO - Description Tab   BO - Combinations Tab   BO - Pack Tab   BO - Virtual Product Tab   BO - Details Tab   BO - Stocks Tab   BO - Shipping Tab   BO - Pricing Tab   BO - SEO Tab   BO - Options Tab   BO - Multistore   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo.html",
