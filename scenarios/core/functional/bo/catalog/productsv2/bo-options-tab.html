@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1673331988" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1673331988" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1673331988" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1673331988" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1673331988" rel="stylesheet">
-    <link href="../../../../../../style.css?1673331988" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1673418403" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1673418403" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1673418403" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1673418403" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1673418403" rel="stylesheet">
+    <link href="../../../../../../style.css?1673418403" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1673331988"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1673418403"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38308,7 +38308,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---options-tab">BO - Options Tab</a></li>
+    <li><a href="#bo---options-tab">BO - Options Tab</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60098,14 +60102,69 @@
 
 
 <h1 id="bo---options-tab">BO - Options Tab</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; New product &gt; Standard product &gt; Add new product</td>
+<td>Product creation page is well displayed</td>
+</tr>
+<tr>
+<td>Add a title to your product &gt; Switch to Online &gt; Click Save</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Click Preview</td>
+<td>The product is displayed</td>
+</tr>
+<tr>
+<td>Check Catalog only &gt; Click Save and publish &gt; Preview &gt; Click the Category related to the product in breadcrumb (in FO)</td>
+<td>See the created product in the catalog</td>
+</tr>
+<tr>
+<td>Check Search only &gt; Save and publish &gt; Preview &gt; Click the Category related to the product in breadcrumb (in FO)</td>
+<td>The product created is not available in catalog</td>
+</tr>
+<tr>
+<td>Check Nowhere &gt; Save and publish &gt; Preview &gt; Click the Category related to the product in breadcrumb (in FO)</td>
+<td>The product created is not available in catalog</td>
+</tr>
+<tr>
+<td>In FO &gt; Search the product with its name</td>
+<td>Search result page is displayed. The created product is not displayed.</td>
+</tr>
+<tr>
+<td>Go back to Product page &gt; Add a quantity 100 &gt; In Options tab, check Everywhere &gt; Disable Available for order option &gt; Save and publish &gt; Preview</td>
+<td>Message Successful update is displayed<br><br>In FO, the Add to cart button is greyed out.</td>
+</tr>
+<tr>
+<td>Disable Show price &gt; Save and publish</td>
+<td>Message Successful update is displayed<br><br>In FO, the price is not displayed</td>
+</tr>
+<tr>
+<td>Enable Show price &gt; Enable Web only (not sold in your retail store) &gt; Save and publish</td>
+<td>Message Successful update is displayed<br><br>In FO, on the product page, see the tag Online Only displayed on the product image.</td>
+</tr>
+<tr>
+<td>In Suppliers block &gt; Check Accessories supplier &gt; Save and publish</td>
+<td>2 new blocks are displayed:<br>- Default supplier<br>- Supplier reference(s)</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on January 10, 2023
+  Last updated on January 11, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/78d6071c968a41e1c0b4829141c7e0bae43103d4">"[Update] JIRA XRay Tests" (78d6071c96)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/57706b724ee22754071715585f588c31cc007059">"[Update] JIRA XRay Tests" (57706b724e)</a>
   
 </div>
 
@@ -60126,17 +60185,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1673331989"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1673331989"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1673331989"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1673331989"></script>
-    <script src="../../../../../../js/featherlight.min.js?1673331989"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1673331989"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1673331989"></script>
-    <script src="../../../../../../js/learn.js?1673331989"></script>
-    <script src="../../../../../../js/hugo-learn.js?1673331989"></script>
+    <script src="../../../../../../js/clipboard.min.js?1673418403"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1673418403"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1673418403"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1673418403"></script>
+    <script src="../../../../../../js/featherlight.min.js?1673418403"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1673418403"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1673418403"></script>
+    <script src="../../../../../../js/learn.js?1673418403"></script>
+    <script src="../../../../../../js/hugo-learn.js?1673418403"></script>
     
-    <script src="../../../../../../main.js?1673331989"></script>
+    <script src="../../../../../../main.js?1673418403"></script>
     
     
 
