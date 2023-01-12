@@ -42,7 +42,7 @@ weight: 3
 | Click on Stocks > Enable those fields:<br>* "Edit quantity" <br>* "Minimum order quantity"<br>* "Stock location" | The data is well filled |
 | Click on Retail price > Enable those fields:<br>* Cost price (tax excl.)<br>* Impact on price (tax incl.)<br>* Impact on weight | The data is well filled |
 | Click on Specific references > Enable those fields:<br>* Reference | The data is well filled |
-| Click on "Apply to 4 combinations" | The modal "Edit x combinations" is closed<br>The modal "Editing combinations" is displayed:<br>- 100% is displayed<br>- The close button is displayed |
+| Click on "Apply to XX combinations" | The modal "Edit x combinations" is closed<br>The modal "Editing combinations" is displayed:<br>- 100% is displayed<br>- The close button is displayed |
 | Click on Close button | * The modal "Editing combinations" is closed<br>* The quantity for each combination is increased<br>* The Reference for each combination is updated<br>* * The "Impact on price (tax excl.)" for each combination is updated<br>* The bulk action button is disabled |
 | Go to "Pricing" tab > Edit "Retail price" section | * "Retail price (tax incl.)"  field shoul be  "18"<br> * The content is added |
 | Click on the "Offline" switch button at the bottom of the page (at the left of the "Save button") & Click on the "Save button" | * The switch button is set to "Online" and is green<br> * "Successful update" message is displayed<br> * The "Save" button is changed by "Save and publish" button<br>* Check the header of the product<br> ** The cover image is well displayed<br> ** Price tax excl. = €15.00<br> ** Price tax incl. = €18.00 tax incl. (tax rule: 20%)<br> ** the sum of the quantity in stock of all combinations<br> ** Reference: 12345 |
