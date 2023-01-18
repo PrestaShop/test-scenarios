@@ -2697,7 +2697,7 @@ Redirection to Zone page   Filter by Zone = &amp;ldquo;Zone test&amp;rdquo; Filt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-category.html</guid>
-      <description>BO - Modules - Filter by category Steps    Step Description Expected result     go to modules page Page title contains &amp;lsquo;Module manager&amp;rsquo;   filter module bu category : Administration Module block 1 title is Administration   filter module bu category : Design &amp;amp; Navigation Module block 1 title is Design &amp;amp; Navigation   filter module bu category : Promotions &amp;amp; Marketing Module block 1 title is Promotions &amp;amp; Marketing   filter module bu category : Product Page Module block 1 title is Product Page   filter module bu category : Payment Module block 1 title is Payment   filter module bu category : Shipping &amp;amp; Logistics Module block 1 title is Shipping &amp;amp; Logistics   filter module bu category : Traffic &amp;amp; Marketplaces Module block 1 title is Traffic &amp;amp; Marketplaces   filter module bu category : Customers Module block 1 title is Customers   filter module bu category : Facebook &amp;amp; Social Networks Module block 1 title is Facebook &amp;amp; Social Networks   filter module bu category : Specialized Platforms Module block 1 title is Specialized Platforms   filter module bu category : Other Module block 1 title is Other    </description>
+      <description>BO - Modules - Filter by category Steps    Step Description Expected result     go to modules page Page title contains &amp;lsquo;Module manager&amp;rsquo;   filter module by category : Administration Module block 1 title is Administration   filter module by category : Design &amp;amp; Navigation Module block 1 title is Design &amp;amp; Navigation   filter module by category : Payment Module block 1 title is Payment   filter module by category : Traffic &amp;amp; Marketplaces Module block 1 title is Traffic &amp;amp; Marketplaces   filter module by category : Theme modules Module block 1 title is Theme modules   filter module bu category : Other Module block 1 title is Other    </description>
     </item>
     
     <item>
@@ -4221,14 +4221,14 @@ lastName : faker.</description>
     </item>
     
     <item>
-      <title>BO - Customers - Bulk Actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions.html</link>
+      <title>BO - Customers - Bulk Actions, Pagination and Sort</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions-pagination-and-sort.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions.html</guid>
-      <description>BO - Customers - Bulk Actions Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers&amp;quot; page&amp;quot; The Customers page is displayed correctly   The Customers page is displayed correctly All filters are reset
-All products are displayed   Click on Add new customer&amp;quot; New Customer Page is displayed correctly
-Page title contains Creating a new Customer&amp;quot;   Fill all information : &amp;gt; Social title : Mrs / Mrs</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions-pagination-and-sort.html</guid>
+      <description>BO - Customers - Bulk Actions, Pagination and Sort Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers page The Customers page is displayed correctly   The Customers page is displayed correctly All filters are reset
+All Customers are displayed   Click on Add new customer New Customer Page is displayed correctly
+Page title contains Creating a new Customer   Fill all information &amp;gt; Click on Save Customer is saved correctly</description>
     </item>
     
     <item>
@@ -5754,12 +5754,12 @@ Message &amp;ldquo;The settings have been successfully updated.</description>
     </item>
     
     <item>
-      <title>BO - Customers - Addresses - Bulk Actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions.html</link>
+      <title>BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions-sort-and-pagination-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions.html</guid>
-      <description>BO - Customers - Addresses - Bulk Actions Steps    Step Description Expected result     Go to customers &amp;gt; addresses page Page title contains &amp;lsquo;Addresses&amp;rsquo;   reset all filters Number of addresses &amp;gt; 0   go to add new address page page title contains &amp;lsquo;Add new&amp;rsquo;   Create first address address: &amp;lsquo;todelete&amp;rsquo; Successful message is displayed
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions-sort-and-pagination-filter.html</guid>
+      <description>BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter Steps    Step Description Expected result     Go to customers &amp;gt; addresses page Page title contains &amp;lsquo;Addresses&amp;rsquo;   reset all filters Number of addresses &amp;gt; 0   go to add new address page page title contains &amp;lsquo;Add new&amp;rsquo;   Create first address address: &amp;lsquo;todelete&amp;rsquo; Successful message is displayed
 number of addresses = total of addresses + 1   go to add new address page page title contains &amp;lsquo;Add new&amp;rsquo;   Create second address address: &amp;lsquo;todelete&amp;rsquo; Successful message is displayed</description>
     </item>
     
@@ -5778,7 +5778,7 @@ number of addresses = total of addresses + 1   go to add new address page page t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-set-and-verify-required-fields.html</guid>
-      <description>BO - Customers - Set and verify required fields Steps    Step Description Expected result     Go to the Front Office. Click on Sign in&amp;quot;. Click on &amp;ldquo;No account ? Create one here&amp;rdquo; The Create an account&amp;quot; page is displayed&amp;quot;   Create an account with random informations. Leave the checkbox Receive offers from our partners&amp;quot; UNCHECKED. Click on &amp;ldquo;Save&amp;rdquo; The account is successfully created. You are redirected on the homepage, logged in   Login to BO.</description>
+      <description>BO - Customers - Set and verify required fields Steps    Step Description Expected result     Go to the Front Office. Click on Sign in&amp;quot;. Click on &amp;ldquo;No account ? Create one here&amp;rdquo; The Create an account page is displayed   Create an account with random informations. Leave the checkbox Receive offers from our partners&amp;quot; UNCHECKED. Click on &amp;ldquo;Save&amp;rdquo; The account is successfully created. You are redirected on the homepage, logged in   Login to BO.</description>
     </item>
     
     <item>
@@ -7656,7 +7656,7 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-export.html</guid>
-      <description>BO - Customers - Export </description>
+      <description>BO - Customers - Export Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers page Customers listing is displayed correctly   Export order to csv file &amp;gt; Save file to computer The file is downloaded successfully   Open .csv file &amp;gt; Check that data is correct There should be 13 columns with the correct info    </description>
     </item>
     
     <item>
@@ -8771,7 +8771,8 @@ All products contains the searched Name   Click on the drop-down toggle and clic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view.html</guid>
-      <description>BO - Customers - View Steps    Step Description Expected result     Go to the Customers &amp;gt; Customers page The Customers page is displayed correctly   Reset all filters All filters are reset. All products are displayed   Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : firstName.lastName@prestashop.com. Birthday Year : Random integer between 1950 and 2000.</description>
+      <description>BO - Customers - View Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers page The Customers page is displayed correctly   Fill all information &amp;gt; Save Form Customer is saved correctly
+Message is displayed : Successful creation   In list, Filter By Email. Criteria : firstName.lastName@prestashop.com&amp;quot; Filter is succeeded   View Customer The Customer information page is displayed correctly</description>
     </item>
     
     <item>
@@ -9515,7 +9516,7 @@ Invoice fields should match with info in Order details page</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-export-orders.html</guid>
-      <description>BO - Orders - Export Orders Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully
+      <description>BO - Orders - Export Orders Steps    Step Description Expected result     Go to the Orders &amp;gt; Orders page Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully
 Data is correct    </description>
     </item>
     

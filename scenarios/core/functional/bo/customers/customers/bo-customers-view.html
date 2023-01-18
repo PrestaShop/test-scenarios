@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1673936655" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1673936655" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1673936655" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1673936655" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1673936655" rel="stylesheet">
-    <link href="../../../../../../style.css?1673936655" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1674023071" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1674023071" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1674023071" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1674023071" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1674023071" rel="stylesheet">
+    <link href="../../../../../../style.css?1674023071" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1673936655"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1674023071"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -7013,9 +7013,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions.html" title="BO - Customers - Addresses - Bulk Actions" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions.html">
-        BO - Customers - Addresses - Bulk Actions
+      <li data-nav-id="/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions-sort-and-pagination-filter.html" title="BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions-sort-and-pagination-filter.html">
+        BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter
         
         </a>
     </li>
@@ -7162,9 +7162,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions.html" title="BO - Customers - Bulk Actions" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions.html">
-        BO - Customers - Bulk Actions
+      <li data-nav-id="/scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions-pagination-and-sort.html" title="BO - Customers - Bulk Actions, Pagination and Sort" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/customers/customers/bo-customers-bulk-actions-pagination-and-sort.html">
+        BO - Customers - Bulk Actions, Pagination and Sort
         
         </a>
     </li>
@@ -60112,16 +60112,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to the Customers &gt; Customers page</td>
+<td>Go to BO &gt; Customers &gt; Customers page</td>
 <td>The Customers page is displayed correctly</td>
 </tr>
 <tr>
-<td>Reset all filters</td>
-<td>All filters are reset. All products are displayed</td>
-</tr>
-<tr>
-<td>Fill all information : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>. Birthday Year : Random integer between 1950 and 2000. Birthday Month : Random integer between 1 and 12. Birthday Day : Random integer between 1 and 28<br>Customer Enabled : Yes. Partner offers : Random. Group Access : All. Default customer group : Customer. And Save Form</td>
-<td>Customer is saved correctly<br>Message is displayed : Successful creation.&quot;</td>
+<td>Fill all information &gt; Save Form</td>
+<td>Customer is saved correctly<br><br>Message is displayed : Successful creation</td>
 </tr>
 <tr>
 <td>In list, Filter By Email. Criteria : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>&quot;</td>
@@ -60129,151 +60125,127 @@
 </tr>
 <tr>
 <td>View Customer</td>
-<td>The Customer information page is displayed correctly. Page Title contains Information about customer&quot;. All information are correct. Customer has 0 orders. Customer has 0 Carts. Customer has 0 Messages. Customer has 0 vouchers. Customer has 3 groups&quot;</td>
+<td>The Customer information page is displayed correctly<br><br>Page Title contains Information about customer<br><br>All information is correct<br><br>Customer has 0 Orders.<br>Customer has 0 Carts.<br>Customer has 0 Messages.<br>Customer has 0 Vouchers.<br>Customer has 3 Groups</td>
 </tr>
 <tr>
-<td>Go to Fo by clicking on View My shop</td>
-<td>Fo page Open on home Page</td>
+<td>Click View My shop</td>
+<td>FO page opens on Homepage</td>
 </tr>
 <tr>
 <td>Add the product to the cart</td>
-<td>There is one product in the cart</td>
+<td>Product successfully added to your shopping cart</td>
 </tr>
 <tr>
-<td>Click on Proceed to checkout&quot; button&quot;</td>
-<td>The purchase form is displayed correctly</td>
+<td>Click on &ldquo;Proceed to checkout&rdquo; button on popup &gt; Click &ldquo;Proceed to checkout&rdquo; button on Order form</td>
+<td>Order form is well displayed</td>
 </tr>
 <tr>
-<td>Sign in with the created account. Criteria : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>&quot;</td>
-<td>The customer is logged successfully</td>
+<td>Click on Sign In in Step 1 &gt; Click Continue</td>
+<td>The customer is logged successfully<br><br>The form is updated on Step 2</td>
 </tr>
 <tr>
-<td>Add new address with fake values: Company : Random. Address : Random. Zip : Random. City : Paris. Country : France. Phone : Random</td>
-<td></td>
+<td>On Step 2, add new address with fake values &gt; Click Continue</td>
+<td>Step 2 Addresses is well saved<br><br>The form is updated on Step 3</td>
 </tr>
 <tr>
-<td>Go to delivery step and add a comment</td>
-<td>The delivery step is displayed correctly</td>
+<td>On Step 3, choose a carrier &gt; Add a comment &gt; Click Continue</td>
+<td>Step 3 Shipping method is well saved<br><br>The form is updated on Step 4</td>
 </tr>
 <tr>
-<td>Go to the payment step</td>
-<td>The payment step is displayed correctly</td>
+<td>On Step 4, choose the payment method (Payments by check) &gt; Agree to Terms and conditions &gt; Confirm the order</td>
+<td>The Order confirmation page is displayed correctly</td>
 </tr>
 <tr>
-<td>Choose the payment method and confirm the order</td>
-<td>The confirmation page is displayed correctly</td>
-</tr>
-<tr>
-<td>Close FO page and go Back to BO</td>
-<td>BO is displayed</td>
-</tr>
-<tr>
-<td>Go to the Customers &gt; Customers&quot; page&quot;</td>
-<td>The Customers page is displayed correctly</td>
-</tr>
-<tr>
-<td>In list, Filter By Email. Criteria : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>&quot;</td>
-<td>Filter is succeeded</td>
+<td>Close FO and go back to BO &gt; Customers &gt; Customers page</td>
+<td>The Customers page is displayed correctly with the filter still on (Filter By Email. Criteria : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>)</td>
 </tr>
 <tr>
 <td>View Customer</td>
-<td>The Customer information page is displayed correctly. Page Title contains Information about customer&quot;. All information are correct.. Customer has 1 orders. Customer has 1 Carts. Customer has 1 Viewed product. Customer has 1 Messages. Customer has 0 vouchers. Customer has 2 Last emails. Customer has 1 Last connections. Customer has 3 groups&quot;</td>
+<td>The Customer information page is displayed correctly.<br><br>Page Title contains Information about customer.<br><br>All information are correct.<br><br>Customer has 1 Orders.<br>Customer has 1 Cart.<br>Customer has 1 Viewed product.<br>Customer has 1 Message.<br>Customer has 0 Vouchers.<br>Customer has 2 Last emails.<br>Customer has 1 Last connections.<br>Customer has 3 Groups.</td>
 </tr>
 <tr>
-<td>Check orders</td>
-<td>The order information is displayed correctly. Date is dare today. Payment mod is Bank transfer. Order status is Awaiting bank wire payment. Price is €0.00</td>
+<td>Check block Orders</td>
+<td>The order information is displayed correctly.<br><br>Date is today.<br>Payment method is Payments by check.<br>Order status is Awaiting check payment.<br>Price is €0.00.</td>
 </tr>
 <tr>
-<td>Check carts</td>
-<td>The cart information is displayed correctly. Date is date today. Final price is 22.94</td>
+<td>Check block Carts</td>
+<td>The cart information is displayed correctly.<br><br>Date is today.<br>Final price is equal to total price of the cart.</td>
 </tr>
 <tr>
-<td>Check address</td>
-<td>The address information is displayed correctly. Company is correct. First name and last name are correct. address is correct. country is correct. phone is correct</td>
+<td>In block Add private note &gt; Fill form &gt; Save</td>
+<td>Private note is saved correctly.<br><br>Message is displayed : &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
-<td>Check messages</td>
-<td>The message information is displayed correctly. Date is date today. Status is open. The message is correct</td>
+<td>Check block Messages</td>
+<td>The message information is displayed correctly.<br><br>Status is open.<br>The message is correct.<br>Sent on date is today</td>
 </tr>
 <tr>
-<td>Check last connection</td>
-<td>The last connection information is displayed correctly. Date is date today. The connection is direct link</td>
+<td>Check block Last connections</td>
+<td>The last connection information is displayed correctly.<br><br>Date is today.<br>The origin is the shop&rsquo;s name.<br>The IP address is correct.</td>
 </tr>
 <tr>
-<td>Check groups</td>
-<td>The groups information is displayed correctly. Group displayed is the customer default group</td>
+<td>Check block Groups</td>
+<td>The groups information is displayed correctly.<br><br>All groups access are displayed.</td>
 </tr>
 <tr>
-<td>Add private note</td>
-<td>Private note is saved correctly. Message is displayed : Successful update.&quot;</td>
+<td>Check block Addresses</td>
+<td>The address information is displayed correctly.<br><br>First name and Last name are correct.<br>Address is correct.<br>Country is correct.</td>
 </tr>
 <tr>
-<td>Click on edit customer information</td>
-<td>Form Edit Customer is displayed correctly. Page Title contains Editing customer&quot;</td>
+<td>Click on Edit customer information (first block)</td>
+<td>Form Edit Customer is displayed correctly.<br><br>Page Title contains Editing customer</td>
 </tr>
 <tr>
-<td>Edit customer with other fake values : Social title : Mrs / Mrs. First name : Random. Last name : Random. Email : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>. Birthday Year : Random integer between 1950 and 2000. Birthday Month : Random integer between 1 and 12. Birthday Day : Random integer between 1 and 28. Customer Enabled : No. Partner offers : Random. Group Access : All. Default customer group : Visitor. And Save Form</td>
-<td>Customer is saved correctly. Message is displayed : Successful update.&quot;</td>
+<td>Edit customer with other fake values &gt; Save Form</td>
+<td>Customer is saved correctly.<br><br>Message is displayed : Successful update.<br><br>Page Information about customer is displayed</td>
 </tr>
 <tr>
-<td>View Customer</td>
-<td>The Customer information page is displayed correctly. Page Title contains Information about customer&quot;. All information are correct. Customer group is visitor&quot;</td>
+<td>Go to Customers list</td>
+<td>See the Customer group is Visitor</td>
 </tr>
 <tr>
-<td>Click on view order</td>
-<td>Form View order is displayed correctly. Page Title contains Order&quot;</td>
+<td>Click on View Customer &gt; View Order</td>
+<td>View order page is displayed correctly.</td>
 </tr>
 <tr>
-<td>Edit order status to shipped and save</td>
-<td>Order status is saved correctly. Message is displayed : Successful update.&quot;</td>
+<td>Edit Order status to Shipped &gt; Update Status</td>
+<td>Order status is saved correctly.<br><br>Message is displayed : Successful update</td>
 </tr>
 <tr>
-<td>Go to the Customers &gt; Customers&quot; page&quot;</td>
-<td>The Customers page is displayed correctly</td>
-</tr>
-<tr>
-<td>In list, Filter By Email. Criteria : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>&quot;</td>
-<td>Filter is succeeded</td>
-</tr>
-<tr>
-<td>View Customer</td>
+<td>Go to the Customers &gt; Customers page &gt; View Customer</td>
 <td>The Customer information page is displayed correctly</td>
 </tr>
 <tr>
-<td>Check order status</td>
-<td>The status is changed successfully. The final price is displayed successfully</td>
+<td>Check Order status</td>
+<td>The status is changed successfully (Shipped).<br><br>The final price is displayed successfully</td>
 </tr>
 <tr>
-<td>Check purchased product number and purchased product</td>
-<td>The purchased product is correct. The product purchased number is 1</td>
+<td>In block Purchased product &gt; Check Name and Quantity</td>
+<td>The purchased product is correct.<br>The product purchased number is 1</td>
 </tr>
 <tr>
-<td>Click on edit address button</td>
-<td>Form edit address is displayed correctly. Page Title contains Edit&quot;</td>
+<td>Click on edit Address button</td>
+<td>Form edit address is displayed correctly. Page Title contains Edit</td>
 </tr>
 <tr>
-<td>Edit address with fake values : Company : Random. First name : Random. Last name : Random. Email : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>. Address : Random. City : Paris. Country : France. Phone : Random. And Save Form</td>
-<td>Address is saved correctly. Message is displayed : Successful update.&quot;</td>
+<td>Edit address with fake values &gt; Click on Save</td>
+<td>Address is saved correctly.<br>Message is displayed : Successful update.</td>
 </tr>
 <tr>
-<td>View Customer</td>
+<td>In block Addresses</td>
 <td>The edited address is displayed correctly</td>
 </tr>
 <tr>
-<td>Click on view cart button</td>
-<td>Form view cart is displayed correctly. Page Title contains Cart&quot;</td>
+<td>Click on view Cart button</td>
+<td>Form view cart is displayed correctly.<br>Page Title contains Cart</td>
 </tr>
 <tr>
-<td>Go to the Customers &gt; Customers&quot; page&quot;</td>
+<td>Go back to the Customers &gt; Customers list</td>
 <td>The Customers page is displayed correctly</td>
 </tr>
 <tr>
-<td>In list, Filter By Email. Criteria : <a href="mailto:firstName.lastName@prestashop.com">firstName.lastName@prestashop.com</a>&quot;</td>
-<td>Filter is succeeded</td>
-</tr>
-<tr>
-<td>Delete customer</td>
-<td>Customer is deleted successfully</td>
+<td>Delete customer &gt; Confirm deletion &gt; Reset filter</td>
+<td>Customer is deleted successfully, with message Successful deletion<br><br>List of customers is updated</td>
 </tr>
 </tbody>
 </table>
@@ -60282,9 +60254,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 21, 2022
+  Last updated on January 18, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/7840e4ce5b6668266e447f28b28f5950611927fd">"[Update] JIRA XRay Tests" (7840e4ce5b)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/003c2fef6e0748ecde497199b56eb751d1c18595">"[Update] JIRA XRay Tests" (003c2fef6e)</a>
   
 </div>
 
@@ -60305,17 +60277,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1673936656"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1673936656"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1673936656"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1673936656"></script>
-    <script src="../../../../../../js/featherlight.min.js?1673936656"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1673936656"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1673936656"></script>
-    <script src="../../../../../../js/learn.js?1673936656"></script>
-    <script src="../../../../../../js/hugo-learn.js?1673936656"></script>
+    <script src="../../../../../../js/clipboard.min.js?1674023071"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1674023071"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1674023071"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1674023071"></script>
+    <script src="../../../../../../js/featherlight.min.js?1674023071"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1674023071"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1674023071"></script>
+    <script src="../../../../../../js/learn.js?1674023071"></script>
+    <script src="../../../../../../js/hugo-learn.js?1674023071"></script>
     
-    <script src="../../../../../../main.js?1673936656"></script>
+    <script src="../../../../../../main.js?1674023071"></script>
     
     
 
