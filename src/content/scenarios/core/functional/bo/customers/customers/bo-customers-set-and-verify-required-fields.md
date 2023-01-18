@@ -7,7 +7,7 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to the Front Office. Click on Sign in". Click on "No account ? Create one here" | The Create an account" page is displayed" |
+| Go to the Front Office. Click on Sign in". Click on "No account ? Create one here" | The Create an account page is displayed |
 | Create an account with random informations. Leave the checkbox Receive offers from our partners" UNCHECKED. Click on "Save" | The account is successfully created. You are redirected on the homepage, logged in |
 | Login to BO. Go to Customers > Customers | Customers page is shown |
 | Click on Set required fields for this section" | the Required fields" block appears at the bottom of the page" |
