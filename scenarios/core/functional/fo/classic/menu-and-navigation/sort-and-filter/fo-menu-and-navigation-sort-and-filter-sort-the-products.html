@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1674023110" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1674023110" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1674023110" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674023110" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1674023110" rel="stylesheet">
-    <link href="../../../../../../../style.css?1674023110" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1674109524" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1674109524" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1674109524" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674109524" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1674109524" rel="stylesheet">
+    <link href="../../../../../../../style.css?1674109524" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674023110"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674109524"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -3464,9 +3464,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-table-pagination-for-values.html" title="BO - Catalog - Attributes - Sort table &amp; Pagination for Values" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-table-pagination-for-values.html">
-        BO - Catalog - Attributes - Sort table &amp; Pagination for Values
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-pagination-and-bulk-delete-values.html" title="BO - Catalog - Attributes - Sort, Pagination and bulk delete Values" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-pagination-and-bulk-delete-values.html">
+        BO - Catalog - Attributes - Sort, Pagination and bulk delete Values
         
         </a>
     </li>
@@ -6818,9 +6818,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-and-bulk-delete.html" title="BO - Customer Service - Order Messages - Filter and Bulk Delete" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-and-bulk-delete.html">
-        BO - Customer Service - Order Messages - Filter and Bulk Delete
+      <li data-nav-id="/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-bulk-delete-sort-and-pagination.html" title="BO - Customer Service - Order Messages - Filter / Bulk Delete / Sort and Pagination" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-bulk-delete-sort-and-pagination.html">
+        BO - Customer Service - Order Messages - Filter / Bulk Delete / Sort and Pagination
         
         </a>
     </li>
@@ -38314,7 +38314,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#fo---menu-and-navigation---sort-and-filter---sort-the-products">FO - Menu and Navigation - Sort and filter - Sort the products</a></li>
+    <li><a href="#fo---menu-and-navigation---sort-and-filter---sort-the-products">FO - Menu and Navigation - Sort and filter - Sort the products</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60104,14 +60108,53 @@
 
 
 <h1 id="fo---menu-and-navigation---sort-and-filter---sort-the-products">FO - Menu and Navigation - Sort and filter - Sort the products</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to products page</td>
+<td>The sort should default to &ldquo;Relevance&rdquo;</td>
+</tr>
+<tr>
+<td>Sort products by Name, A to Z</td>
+<td>Product are sorted by name (x -&gt; y -&gt; z)</td>
+</tr>
+<tr>
+<td>Sort products by Name, Z to A</td>
+<td>Product are sorted by name (z -&gt; y -&gt; x)</td>
+</tr>
+<tr>
+<td>Sort products by Price, low to high</td>
+<td>Product are sorted by Price (1 -&gt; 2 -&gt; 3)</td>
+</tr>
+<tr>
+<td>Sort products by Price, high to low</td>
+<td>Product are sorted by Price (3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort products by Best sellers</td>
+<td>Product are sorted by Best sellers (3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort products by Relevance</td>
+<td>Product are sorted by Relevance</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on January 12, 2023
+  Last updated on January 19, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/524a9fc76036bf3f06c4568b775e42397f8314a6">"[Update] JIRA XRay Tests" (524a9fc760)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/b44e3d7cc5216f21b78f0196a1cc4e92aae4373f">"[Update] JIRA XRay Tests" (b44e3d7cc5)</a>
   
 </div>
 
@@ -60132,17 +60175,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1674023110"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674023110"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674023110"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1674023110"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1674023110"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674023110"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674023110"></script>
-    <script src="../../../../../../../js/learn.js?1674023110"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1674023110"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1674109524"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674109524"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674109524"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1674109524"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1674109524"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674109524"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674109524"></script>
+    <script src="../../../../../../../js/learn.js?1674109524"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1674109524"></script>
     
-    <script src="../../../../../../../main.js?1674023110"></script>
+    <script src="../../../../../../../main.js?1674109524"></script>
     
     
 

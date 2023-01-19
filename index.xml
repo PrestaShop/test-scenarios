@@ -1644,7 +1644,7 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-sort-the-products.html</guid>
-      <description>FO - Menu and Navigation - Sort and filter - Sort the products </description>
+      <description>FO - Menu and Navigation - Sort and filter - Sort the products Steps    Step Description Expected result     Go to products page The sort should default to &amp;ldquo;Relevance&amp;rdquo;   Sort products by Name, A to Z Product are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort products by Name, Z to A Product are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort products by Price, low to high Product are sorted by Price (1 -&amp;gt; 2 -&amp;gt; 3)   Sort products by Price, high to low Product are sorted by Price (3 -&amp;gt; 2 -&amp;gt; 1)   Sort products by Best sellers Product are sorted by Best sellers (3 -&amp;gt; 2 -&amp;gt; 1)   Sort products by Relevance Product are sorted by Relevance    </description>
     </item>
     
     <item>
@@ -2443,12 +2443,12 @@ The list contains the searched ID   Reset filter Number of Suppliers after reset
     </item>
     
     <item>
-      <title>BO - Customer Service - Order Messages - Filter and Bulk Delete</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-and-bulk-delete.html</link>
+      <title>BO - Customer Service - Order Messages - Filter / Bulk Delete / Sort and Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-bulk-delete-sort-and-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-and-bulk-delete.html</guid>
-      <description>BO - Customer Service - Order Messages - Filter and Bulk Delete Steps    Step Description Expected result     go to order messages page Title contains &amp;lsquo;Order Messages •&amp;rsquo;   reset all filters Total of orders messages &amp;gt; 0   Go to create new order message page Title contains &amp;lsquo;Add new&amp;rsquo;   Create new order message Criteria : {name: &amp;lsquo;todelete&amp;rsquo;} Successful message is displayed</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-bulk-delete-sort-and-pagination.html</guid>
+      <description>BO - Customer Service - Order Messages - Filter / Bulk Delete / Sort and Pagination Steps    Step Description Expected result     go to order messages page Title contains &amp;lsquo;Order Messages •&amp;rsquo;   reset all filters Total of orders messages &amp;gt; 0   Go to create new order message page Title contains &amp;lsquo;Add new&amp;rsquo;   Create new order message Criteria : {name: &amp;lsquo;todelete&amp;rsquo;} Successful message is displayed</description>
     </item>
     
     <item>
@@ -9071,12 +9071,12 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
-      <title>BO - Catalog - Attributes - Sort table &amp; Pagination for Values</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-table-pagination-for-values.html</link>
+      <title>BO - Catalog - Attributes - Sort, Pagination and bulk delete Values</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-pagination-and-bulk-delete-values.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-table-pagination-for-values.html</guid>
-      <description>BO - Catalog - Attributes - Sort table &amp;amp; Pagination for Values Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features page The Attributes page is displayed   Reset filter Number of Attributes = Total Attributes   Filter Attribute by Name = Color Number Attributes &amp;lt; Total Attributes and the searched list contains the Color Name   Click on View button Page title = &amp;lsquo;Color&amp;rsquo; &amp;amp; The Colors List page is displayed   Sort by ID desc The page is well displayed and sort by ID desc ( 3-&amp;gt;2-&amp;gt;1)   Sort by Value asc The list is sorted by value asc (a-&amp;gt;b-&amp;gt;c)   Sort by value desc the list is sorted by value desc (c-&amp;gt;b-&amp;gt;a)   Sort by color asc The list is sorted by color asc   Sort by color desc The list is sorted by color desc   Sort by Position asc The list is sorted by position asc   Sort by Position desc The list page is sorted by position desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 20 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete the Created values Values are well deleted    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-pagination-and-bulk-delete-values.html</guid>
+      <description>BO - Catalog - Attributes - Sort, Pagination and bulk delete Values Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features page The Attributes page is displayed   Reset filter Number of Attributes = Total Attributes   Filter Attribute by Name = Color Number Attributes &amp;lt; Total Attributes and the searched list contains the Color Name   Click on View button Page title = &amp;lsquo;Color&amp;rsquo; &amp;amp; The Colors List page is displayed   Sort by ID desc The page is well displayed and sort by ID desc ( 3-&amp;gt;2-&amp;gt;1)   Sort by Value asc The list is sorted by value asc (a-&amp;gt;b-&amp;gt;c)   Sort by value desc the list is sorted by value desc (c-&amp;gt;b-&amp;gt;a)   Sort by color asc The list is sorted by color asc   Sort by color desc The list is sorted by color desc   Sort by Position asc The list is sorted by position asc   Sort by Position desc The list page is sorted by position desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 20 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete the Created values by bulk actions Values are well deleted    </description>
     </item>
     
     <item>
