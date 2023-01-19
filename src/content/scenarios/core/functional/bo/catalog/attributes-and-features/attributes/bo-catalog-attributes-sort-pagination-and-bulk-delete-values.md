@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog - Attributes - Sort table & Pagination for Values"
+title: "BO - Catalog - Attributes - Sort, Pagination and bulk delete Values"
 weight: 9
 ---
 
-# BO - Catalog - Attributes - Sort table & Pagination for Values
+# BO - Catalog - Attributes - Sort, Pagination and bulk delete Values
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
@@ -23,4 +23,4 @@ weight: 9
 | Click on Next | The Second page is displayed |
 | Click on Previous | The first page is displayed |
 | Change Display items to 50 | Pagination = 1 |
-| Delete the Created values | Values are well deleted |
+| Delete the Created values by bulk actions | Values are well deleted |
