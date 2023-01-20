@@ -7,10 +7,18 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to modules page | Page title contains 'Module manager' |
-| filter module by category : Administration | Module block 1 title is Administration |
-| filter module by category : Design & Navigation | Module block 1 title is Design & Navigation |
-| filter module by category : Payment | Module block 1 title is Payment |
-| filter module by category : Traffic & Marketplaces | Module block 1 title is Traffic & Marketplaces |
-| filter module by category : Theme modules | Module block 1 title is Theme modules |
-| filter module bu category : Other | Module block 1 title is Other |
+| Login in BO | Dashboarb page should be displayed |
+| Go to modules page > Module manager | The displayed page title should contains 'Module manager' |
+| Click on the section *Category* and select the filter modules by Categoty : *Administration* | The block title of The displayed result  should be  *Administration* |
+| Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name<br><br> <br>*Example* (Administration 28) <br>the total of the displayed modules = 28 ) |  |
+| Click on the section *Category* and select the filter modules by Categoty : *Design & Navigation* | The block title of The displayed result  should be  *Design & Navigation* |
+| Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name |  |
+| Click on the section *Category* and select the filter modules by Categoty :*Payment* | The block title of The displayed result  should be  *Payment* |
+| Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name |  |
+| Click on the section *Category* and select the filter modules by Categoty : *Traffic & Marketplaces* | The block title of The displayed result  should be  *Traffic & Marketplaces* |
+| Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name |  |
+| Click on the section *Category* and select the filter modules by Categoty :  *Theme modules* | The block title of The displayed result  should be   *Theme modules* |
+| Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name |  |
+| Click on the section *Category* and select the filter modules by Categoty :  *Other* | The block title of The displayed result  should be   *Other* |
+| Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name |  |
+| Click on the section *Category* and select the filter modules by Categoty :  *All categories* | The displayed page should contain different module search title : Administration / Design & Navigation / Promotions & Marketing / Payment / Traffic & Marketplaces / Theme modules / Other |
