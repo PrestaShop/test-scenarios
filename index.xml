@@ -685,7 +685,7 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-status.html</guid>
-      <description>BO - Modules - Filter by status Steps    Step Description Expected result     Go to modules manager page page title contains &amp;lsquo;Module manager&amp;rsquo;   filter modules bu status : enabled all modules displayed are enabled   filter modules by status : disabled all modules displayed are disabled    </description>
+      <description>BO - Modules - Filter by status Steps    Step Description Expected result     strong textLogin in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Click on the section Status and select the filter modules by status : enabled modules all the displayed modules should should be enabled   Click on the section Status and select the filter modules by status : disabled modules all the displayed modules should be disabled   Click on the section Status and select the filter modules by status : installed modules All the installed module should be displayed   Choose a module and click on the dropDown button and choose the action uninstall A success message should be appear   Click on the section Status and select the filter modules by status : Uninstalled modules The displayed page should contains the uninstalled chosen module and the button install should be exist   Click on the section Status and select the filter modules by status : Show all modules The displayed result should contain all the modules with different status : installed / disabled / enabled / and uninstalled    </description>
     </item>
     
     <item>
@@ -1626,7 +1626,8 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-display-of-tag-products-new-promo-pack.html</guid>
-      <description>FO - Menu and Navigation - Navigate and display - Display of tag products (New, Promo, Pack&amp;hellip;) </description>
+      <description>FO - Menu and Navigation - Navigate and display - Display of tag products (New, Promo, Pack&amp;hellip;) Steps    Step Description Expected result     Go to FO &amp;gt; Click on product &amp;ldquo;THE BEST IS YET TO COME&#39; FRAMED POSTER&amp;rdquo; Product &amp;ldquo;THE BEST IS YET TO COME&#39; FRAMED POSTER&amp;rdquo; is well displayed
+See the blue tag &amp;ldquo;NEW&amp;rdquo; displayed   Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings &amp;gt; Edit &amp;ldquo;Number of days for which the product is considered &amp;lsquo;new&amp;rsquo;&amp;rdquo; = 0 &amp;gt; Save Message Update successful is displayed   Go to FO &amp;gt; Product THE BEST IS YET TO COME&#39; FRAMED POSTER &amp;gt; Refresh See the Tag &amp;ldquo;NEW&amp;rdquo; is not displayed anymore   Go to BO &amp;gt; Edit product THE BEST IS YET TO COME&#39; FRAMED POSTER &amp;gt; Go to Tab Pricing Pricing Tab is displayed   Go to Specific Prices &amp;gt; Click Add a specific price &amp;gt; Set data with following info &amp;gt; Apply &amp;gt; Save Message Settings updated is displayed   Click Preview on product Product page in FO is displayed</description>
     </item>
     
     <item>
@@ -1681,7 +1682,11 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-add-to-cart.html</guid>
-      <description>FO - Product Page - Add to cart </description>
+      <description>FO - Product Page - Add to cart Steps    Step Description Expected result     On page of a not customizable product
+Click on &amp;ldquo;Add to cart&amp;rdquo; You will see :
+* &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; message
+* Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)   Click on Proceed To Checkout Page Shopping cart
+Recap of your cart (number of item, subtotal, shipping, Total(tax incl.</description>
     </item>
     
     <item>
@@ -1690,7 +1695,10 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-add-to-cart.html</guid>
-      <description>FO - Product Page - Product Quickview - Add to cart </description>
+      <description>FO - Product Page - Product Quickview - Add to cart Steps    Step Description Expected result     On quickview of a non custom product
+Click on &amp;ldquo;Add to cart&amp;rdquo; You will see :
+* &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; message
+* Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)   Click on Proceed To Checkout Page Shopping cart</description>
     </item>
     
     <item>
@@ -2697,7 +2705,7 @@ Redirection to Zone page   Filter by Zone = &amp;ldquo;Zone test&amp;rdquo; Filt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-category.html</guid>
-      <description>BO - Modules - Filter by category Steps    Step Description Expected result     go to modules page Page title contains &amp;lsquo;Module manager&amp;rsquo;   filter module by category : Administration Module block 1 title is Administration   filter module by category : Design &amp;amp; Navigation Module block 1 title is Design &amp;amp; Navigation   filter module by category : Payment Module block 1 title is Payment   filter module by category : Traffic &amp;amp; Marketplaces Module block 1 title is Traffic &amp;amp; Marketplaces   filter module by category : Theme modules Module block 1 title is Theme modules   filter module bu category : Other Module block 1 title is Other    </description>
+      <description>BO - Modules - Filter by category Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules page &amp;gt; Module manager The displayed page title should contains &amp;lsquo;Module manager&amp;rsquo;   Click on the section Category and select the filter modules by Categoty : Administration The block title of The displayed result should be Administration   Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name</description>
     </item>
     
     <item>
@@ -4445,7 +4453,8 @@ number of languages = total of languages + 1   Go to add new language page Page 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-search.html</guid>
-      <description>BO - Modules - Search </description>
+      <description>BO - Modules - Search Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button
+Example statsstock The searched module should be displayed Example Available quantities    </description>
     </item>
     
     <item>
@@ -5979,7 +5988,7 @@ basedOn: &amp;lsquo;Delivery address&amp;rsquo;,</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-disable-enable-desktop-and-mobile.html</guid>
-      <description>BO - Modules - Disable / Enable desktop and mobile </description>
+      <description>BO - Modules - Disable / Enable desktop and mobile Steps    Step Description Expected result     {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;    </description>
     </item>
     
     <item>
@@ -6416,7 +6425,7 @@ with the product details
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-display-on-sale-bandeau.html</guid>
-      <description>FO - Menu and Navigation - Navigate and display - Display &amp;quot;On sale&amp;quot; bandeau </description>
+      <description>FO - Menu and Navigation - Navigate and display - Display &amp;quot;On sale&amp;quot; bandeau Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;HUMMINGBIRD PRINTED T-SHIRT&amp;rdquo; Product page opens   Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click on HUMMINGBIRD PRINTED T-SHIRT &amp;gt; Go to tab Pricing &amp;gt; Go to &amp;ldquo;Display the &amp;ldquo;On sale!&amp;rdquo; flag on the product page, and on product listings.</description>
     </item>
     
     <item>
