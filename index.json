@@ -487,7 +487,7 @@
 	"title": "BO - Modules - Alerts tab - Disable / Enable desktop and mobile",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Alerts tab - Disable / Enable desktop and mobile "
+	"content": "BO - Modules - Alerts tab - Disable / Enable desktop and mobile Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;alerts The module notifications page should be displayed .   search a module module ps_checkpayment should appear in the module page   Click on action : Disable mobile A message should be displayed in green : \u0026ldquo;Disable mobile action on module ps_checkpayment succeeded.\u0026rdquo;   Click on action : Enable mobile A message should be displayed in green :\n\u0026ldquo;Enable mobile action on module ps_checkpayment succeeded.\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-status.html",
@@ -1215,7 +1215,7 @@
 	"title": "FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)",
 	"tags": [],
 	"description": "",
-	"content": "FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items) "
+	"content": "FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items) Steps    Step Description Expected result     Go to FO \u0026gt; Hover on one of Categories Sub-menu is displayed with MEN and WOMEN categories    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-sort-the-products.html",
@@ -1257,7 +1257,7 @@
 	"title": "FO - Product Page - Product Quickview - Add to cart",
 	"tags": [],
 	"description": "",
-	"content": "FO - Product Page - Product Quickview - Add to cart Steps    Step Description Expected result     On quickview of a non custom product\nClick on \u0026ldquo;Add to cart\u0026rdquo; You will see :\n* \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; message\n* Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)   Click on Proceed To Checkout Page Shopping cart\nRecap of your cart (number of item, subtotal, shipping, Total(tax incl.) = Quickview recap of your cart (number of item, subtotal, shipping, Total(tax incl.)   On quickview of a custom product\nClick on \u0026ldquo;Add to cart\u0026rdquo; \u0026ldquo;Add to cart\u0026rdquo; button should be greyed\nYou can\u0026rsquo;t click on \u0026ldquo;Add to cart\u0026rdquo;\nThe mouse pointer must be different on this button (crossed-out circle logo)    "
+	"content": "FO - Product Page - Product Quickview - Add to cart Steps    Step Description Expected result     In FO, in quickview of a non custom product \u0026gt; Click on \u0026ldquo;Add to cart\u0026rdquo; You will see :\n* \u0026ldquo;Product successfully added to your shopping cart\u0026rdquo; message\n* Recap in popup of your cart (number of item, subtotal, shipping, Total(tax incl.)   Click on Proceed To Checkout Shopping cart is displayed\nRecap of your cart (number of item, subtotal, shipping, Total(tax incl.)   Go to \u0026ldquo;CUSTOMIZABLE MUG\u0026rdquo; \u0026gt; Click on quickview \u0026gt; Click on \u0026ldquo;Add to cart\u0026rdquo; \u0026ldquo;Add to cart\u0026rdquo; button should be greyed\nYou can\u0026rsquo;t click on \u0026ldquo;Add to cart\u0026rdquo;\nThe mouse pointer must be different on this button (crossed-out circle logo)    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/user-account/order-history/order-details/fo-reorder-order-from-details.html",
@@ -2006,7 +2006,7 @@
 	"title": "BO - Modules - Alerts tab - Reset",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Alerts tab - Reset "
+	"content": "BO - Modules - Alerts tab - Reset Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;alerts The module notifications page should be displayed   search a module module ps_checkpayment should appear in the module page   Click on action REST and confirm the REST message by clicking on \u0026ldquo;Yes ,rest it \u0026quot; A message should be displayed in green : \u0026ldquo;Reset action on module ps_checkpayment succeeded.\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-category.html",
@@ -2580,7 +2580,7 @@
 	"title": "FO - Menu and Navigation - Navigate and display - Pagination",
 	"tags": [],
 	"description": "",
-	"content": "FO - Menu and Navigation - Navigate and display - Pagination "
+	"content": "FO - Menu and Navigation - Navigate and display - Pagination Steps    Step Description Expected result     Go to FO \u0026gt; Homepage \u0026gt; In popular product block \u0026gt; Click All products Home category is displayed   Scroll down to bottom of the page \u0026gt; See pagination is displayed See in pagination navigation : 2 pages of products and \u0026ldquo;Showing 1-12 of 19 item(s)\u0026rdquo; message   Click on \u0026ldquo;Next\u0026rdquo; On pagination navigation, see Showing 19-19 of 19 item(s) and \u0026ldquo;Previous\u0026rdquo; button is displayed. Next button is hidden.   Go to BO \u0026gt; Shop Parameters \u0026gt; Products Settings \u0026gt; Scroll down to Pagination block \u0026gt; Edit Products per page = 6 \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go back to FO \u0026gt; Refresh page of Home category See only 6 products are displayed\nSee in pagination navigation : 4 pages of products and \u0026ldquo;Showing 1-6 of 19 item(s)\u0026rdquo; message   Click on \u0026ldquo;Next\u0026rdquo; Page 2 is displayed\nPagination navigation displays : Showing 7-12 of 19 item(s)\nPrevious and Next buttons are displayed and clickable   Go back to BO \u0026gt; Shop Parameters \u0026gt; Products Settings \u0026gt; Scroll down to Pagination block \u0026gt; Edit Products per page = 20 \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Homepage \u0026gt; In popular product block \u0026gt; Click All products See Showing 1-19 of 19 item(s) displayed\nPagination navigation bar is not displayed.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html",
@@ -3301,7 +3301,7 @@
 	"title": "BO - Modules - Alerts tab - Uninstall",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Alerts tab - Uninstall "
+	"content": "BO - Modules - Alerts tab - Uninstall Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;Alerts The module notifications page should be displayed .   search a module module ps_checkpayment should appear in the module page   Click on uninstall\u0026quot; and confirm the uninstall message by clicking on \u0026ldquo;Yes uninstall it \u0026quot; A message should be displayed in green : \u0026ldquo;Uninstall action on module ps_checkpayment succeeded.\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-search.html",
@@ -3763,7 +3763,7 @@
 	"title": "FO - Menu and Navigation - Navigate and display - Quickview of product",
 	"tags": [],
 	"description": "",
-	"content": "FO - Menu and Navigation - Navigate and display - Quickview of product "
+	"content": "FO - Menu and Navigation - Navigate and display - Quickview of product Steps    Step Description Expected result     Go to FO \u0026gt; Homepage \u0026gt; Click quick view on HUMMINGBIRD PRINTED SWEATER product A popup will appear with the product info (images, name, price, tax, description, combinations, quantity, add to cart button, share buttons)   Click Add to cart button The Quick view popup will disappear and the Add to cart popup will appear   Click on Continue Shopping button The popup will disappear   Click on the Quick view button of MUG THE ADVENTURE BEGINS product A popup will appear with the product info (images, name, price, tax, description, quantity, add to cart button, share buttons)   Click the top right cross to close the popup Quick view popup is closed   Click on quick view for CUSTOMIZABLE MUG product A popup will appear with the product info (images, name, price, tax, description, quantity, add to cart button, share buttons)\nAdd to cart button is greyed out and can\u0026rsquo;t be clicked   Click outside of the popup Popup is closed, Homepage is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-side-block-categories.html",
@@ -5212,7 +5212,7 @@
 	"title": "BO - Modules - Alerts tab - Upload a module",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Alerts tab - Upload a module "
+	"content": "BO - Modules - Alerts tab - Upload a module Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;alerts The module notifications page should be displayed   click on button \u0026ldquo;upload a module \u0026quot; -\u0026gt;drop any module archive (.zip) A message should be displayed \u0026ldquo;Module installed! \u0026quot;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-reset.html",

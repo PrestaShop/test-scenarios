@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1674196339" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1674196339" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1674196339" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674196339" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1674196339" rel="stylesheet">
-    <link href="../../../../../../../style.css?1674196339" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1674282447" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1674282447" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1674282447" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674282447" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1674282447" rel="stylesheet">
+    <link href="../../../../../../../style.css?1674282447" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674196339"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674282447"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38314,7 +38314,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#fo---menu-and-navigation---navigate-and-display---pagination">FO - Menu and Navigation - Navigate and display - Pagination</a></li>
+    <li><a href="#fo---menu-and-navigation---navigate-and-display---pagination">FO - Menu and Navigation - Navigate and display - Pagination</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60104,14 +60108,57 @@
 
 
 <h1 id="fo---menu-and-navigation---navigate-and-display---pagination">FO - Menu and Navigation - Navigate and display - Pagination</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to FO &gt; Homepage &gt; In popular product block &gt; Click All products</td>
+<td>Home category is displayed</td>
+</tr>
+<tr>
+<td>Scroll down to bottom of the page &gt; See pagination is displayed</td>
+<td>See in pagination navigation : 2 pages of products and &ldquo;Showing 1-12 of 19 item(s)&rdquo; message</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Next&rdquo;</td>
+<td>On pagination navigation, see Showing 19-19 of 19 item(s) and &ldquo;Previous&rdquo; button is displayed. Next button is hidden.</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Products Settings &gt; Scroll down to Pagination block &gt; Edit Products per page = 6 &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go back to FO &gt; Refresh page of Home category</td>
+<td>See only 6 products are displayed<br><br>See in pagination navigation : 4 pages of products and &ldquo;Showing 1-6 of 19 item(s)&rdquo; message</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Next&rdquo;</td>
+<td>Page 2 is displayed<br><br>Pagination navigation displays : Showing 7-12 of 19 item(s)<br><br>Previous and Next buttons are displayed and clickable</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Shop Parameters &gt; Products Settings &gt; Scroll down to Pagination block &gt; Edit Products per page = 20 &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Homepage &gt; In popular product block &gt; Click All products</td>
+<td>See Showing 1-19 of 19 item(s) displayed<br>Pagination navigation bar is not displayed.</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on January 19, 2023
+  Last updated on January 21, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/b44e3d7cc5216f21b78f0196a1cc4e92aae4373f">"[Update] JIRA XRay Tests" (b44e3d7cc5)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/44761a1952d0a3f2289f08db28ea6cd625b51ca9">"[Update] JIRA XRay Tests" (44761a1952)</a>
   
 </div>
 
@@ -60132,17 +60179,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1674196339"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674196339"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674196339"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1674196339"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1674196339"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674196339"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674196339"></script>
-    <script src="../../../../../../../js/learn.js?1674196339"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1674196339"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1674282448"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674282448"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674282448"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1674282448"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1674282448"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674282448"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674282448"></script>
+    <script src="../../../../../../../js/learn.js?1674282448"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1674282448"></script>
     
-    <script src="../../../../../../../main.js?1674196339"></script>
+    <script src="../../../../../../../main.js?1674282448"></script>
     
     
 
