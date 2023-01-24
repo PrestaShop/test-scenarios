@@ -4,3 +4,11 @@ weight: 7
 ---
 
 # BO - Modules - Bulk actions
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Login in BO > Go to modules manager page | The page title should contains 'Module manager' |
+| Check that the Bulk action section is *Disabled* |  |
+| Select module form the displayed modules list | Check that the bulk actions is enabled |
+| Click on the bulk actions section > and check that the : i<br>nstall / uninstall / disable / enable / reset / enable mobile / disable mobile , options are exists | The options list of the section bulk actions is well checked ! |
+| Choose an aoption from the displayed list > confirm the displayed pop-up<br><br>Examle : click on *Disable* action | A success messages contains "Disable action on module "  .. should be appear |

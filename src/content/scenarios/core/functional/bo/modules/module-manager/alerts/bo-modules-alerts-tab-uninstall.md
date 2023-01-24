@@ -8,5 +8,4 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to back office -> Modules -> Module manager>Alerts | The module notifications  page should be displayed . |
-| search a module | module ps_checkpayment should appear in the module page |
-| Click on uninstall" and confirm the uninstall message by clicking on "Yes uninstall it " | A message should be displayed in green : "Uninstall action on module ps_checkpayment succeeded." |
+| Choose one of the modules to configure ->Click on uninstall" and confirm the uninstall message by clicking on "Yes uninstall it " | A message should be displayed in green : "Uninstall action on module ps_checkpayment succeeded." |

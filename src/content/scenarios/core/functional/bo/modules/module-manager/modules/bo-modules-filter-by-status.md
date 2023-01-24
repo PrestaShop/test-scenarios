@@ -7,7 +7,7 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| *strong text*Login in BO | Dashboarb page should be displayed |
+| Login in BO | Dashboarb page should be displayed |
 | Go to modules manager page | The page title should contains 'Module manager' |
 | Click on the section Status and select the filter modules by status : *enabled modules* | all the displayed modules should should be  *enabled* |
 | Click on the section Status and select the filter modules by status : *disabled modules* | all the displayed modules should be *disabled* |
