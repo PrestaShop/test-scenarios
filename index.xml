@@ -676,7 +676,7 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-disable-enable-desktop-and-mobile.html</guid>
-      <description>BO - Modules - Alerts tab - Disable / Enable desktop and mobile Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;alerts The module notifications page should be displayed .   search a module module ps_checkpayment should appear in the module page   Click on action : Disable mobile A message should be displayed in green : &amp;ldquo;Disable mobile action on module ps_checkpayment succeeded.</description>
+      <description>BO - Modules - Alerts tab - Disable / Enable desktop and mobile Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;alerts The module notifications page should be displayed .   Choose one of the modules to configure-&amp;gt; Click on action : Disable mobile A message should be displayed in green : &amp;ldquo;Disable mobile action on module ps_checkpayment succeeded.</description>
     </item>
     
     <item>
@@ -685,7 +685,7 @@ Click on log in&amp;quot; Redirected to BO dashvoard    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-status.html</guid>
-      <description>BO - Modules - Filter by status Steps    Step Description Expected result     strong textLogin in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Click on the section Status and select the filter modules by status : enabled modules all the displayed modules should should be enabled   Click on the section Status and select the filter modules by status : disabled modules all the displayed modules should be disabled   Click on the section Status and select the filter modules by status : installed modules All the installed module should be displayed   Choose a module and click on the dropDown button and choose the action uninstall A success message should be appear   Click on the section Status and select the filter modules by status : Uninstalled modules The displayed page should contains the uninstalled chosen module and the button install should be exist   Click on the section Status and select the filter modules by status : Show all modules The displayed result should contain all the modules with different status : installed / disabled / enabled / and uninstalled    </description>
+      <description>BO - Modules - Filter by status Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Click on the section Status and select the filter modules by status : enabled modules all the displayed modules should should be enabled   Click on the section Status and select the filter modules by status : disabled modules all the displayed modules should be disabled   Click on the section Status and select the filter modules by status : installed modules All the installed module should be displayed   Choose a module and click on the dropDown button and choose the action uninstall A success message should be appear   Click on the section Status and select the filter modules by status : Uninstalled modules The displayed page should contains the uninstalled chosen module and the button install should be exist   Click on the section Status and select the filter modules by status : Show all modules The displayed result should contain all the modules with different status : installed / disabled / enabled / and uninstalled    </description>
     </item>
     
     <item>
@@ -903,7 +903,8 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO suppliers link pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-filter-by-category-movement-type-employee-and-period.html</guid>
-      <description>BO - Stocks - Movements - Filter by category, movement type, employee and period </description>
+      <description>BO - Stocks - Movements - Filter by category, movement type, employee and period Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Edit Stock of ALL products &amp;gt; Save Alert Update successful   Go to Catalog &amp;gt; Stock management &amp;gt; Stock &amp;gt; Movement Tab Movement Tab is well displayed
+30 elements are displayed per page in Movements Tab   Click on Advanced filters &amp;gt; Click Filter by movement type dropdown See 2 choices :</description>
     </item>
     
     <item>
@@ -1509,7 +1510,7 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-order-as-a-guest.html</guid>
-      <description>FO - Checkout - Personal Information - Order as a guest </description>
+      <description>FO - Checkout - Personal Information - Order as a guest Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     
     <item>
@@ -1527,7 +1528,14 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-show-details.html</guid>
-      <description>FO - Checkout - Show details </description>
+      <description>FO - Checkout - Show details Steps    Step Description Expected result     On checkout page
+Click on &amp;ldquo;show details&amp;rdquo; The complete list of products present in the cart must be displayed
+For each product must be filled in:
+- The picture
+- the name
+- the quantity
+- all the selected combinations (color, size&amp;hellip;)
+- the unit price   Click on a product image A new tab should open on the product page   Click on a product name A new tab should open on the product page   Click on &amp;ldquo;show details&amp;rdquo; The full list of products in the cart should no longer be displayed    </description>
     </item>
     
     <item>
@@ -2446,7 +2454,7 @@ The list contains the searched ID   Reset filter Number of Suppliers after reset
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Update and manage options </description>
+      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Check that there is at least one merchandise return The merchandise return is displayed in the list with &amp;ldquo;Waiting for confirmation&amp;rdquo; status   Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed    </description>
     </item>
     
     <item>
@@ -2695,7 +2703,7 @@ Redirection to Zone page   Filter by Zone = &amp;ldquo;Zone test&amp;rdquo; Filt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-reset.html</guid>
-      <description>BO - Modules - Alerts tab - Reset Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;alerts The module notifications page should be displayed   search a module module ps_checkpayment should appear in the module page   Click on action REST and confirm the REST message by clicking on &amp;ldquo;Yes ,rest it &amp;quot; A message should be displayed in green : &amp;ldquo;Reset action on module ps_checkpayment succeeded.</description>
+      <description>BO - Modules - Alerts tab - Reset Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;alerts The module notifications page should be displayed   Choose one of the modules to configure -&amp;gt;Click on action REST and confirm the REST message by clicking on &amp;ldquo;Yes ,rest it &amp;quot; A message should be displayed in green : &amp;ldquo;Reset action on module ps_checkpayment succeeded.</description>
     </item>
     
     <item>
@@ -2929,7 +2937,8 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO brands link page 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-sort-and-pagination.html</guid>
-      <description>BO - Stocks - Movements - Sort and pagination </description>
+      <description>BO - Stocks - Movements - Sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Edit Stock of all products &amp;gt; Save Alert Update successful   Go to Catalog &amp;gt; Stock management &amp;gt; Stock &amp;gt; Movement Tab Movement Tab is well displayed
+30 elements are displayed per page in Movements Tab   Sort by ID asc Sort by ID asc   Sort by Product name asc The list is sorted by Product name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Product name desc The list is sorted by Product name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Reference asc The list is sorted by Reference asc (a-&amp;gt;b-&amp;gt;c)   Sort by Reference desc The list is sorted by Reference desc (c-&amp;gt;b-&amp;gt;a)   Sort by Date &amp;amp; Time asc The list is sorted by Date &amp;amp; Time asc (a-&amp;gt;b-&amp;gt;c)   Sort by Date &amp;amp; Time desc The list is sorted by Date &amp;amp; Time desc (c-&amp;gt;b-&amp;gt;a)   Sort by ID desc The list is sorted by ID desc   Scroll down to pagination &amp;gt; Click page 2 List is updated with page 2   Scroll down to pagination &amp;gt; Click page 1 List is updated with page 1    </description>
     </item>
     
     <item>
@@ -3341,7 +3350,7 @@ Click on it, a new page for Twitter site is open    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-sign-in.html</guid>
-      <description>FO - Checkout - Personal Information - Sign in </description>
+      <description>FO - Checkout - Personal Information - Sign in Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     
     <item>
@@ -4184,7 +4193,7 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-manage.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Manage </description>
+      <description>BO - Customer Service - Merchandise returns - Manage Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is well displayed   {color:#C1C7D0} This step was calling test issue TEST-871 (possibly downgraded){color}    Go to BO &amp;gt; SELL &amp;gt; Orders &amp;gt; View the created order The created order page details is well created   Update the order status to Shipped OR Delivered and click on &amp;ldquo;Update Status&amp;rdquo; button The &amp;ldquo;Successful update&amp;rdquo; message is well displayed   Go to FO &amp;gt; Connect with the customer of the Order &amp;gt; Click on Orders history page All existing orders are well displayed in the list   Click on the order with the Delivered OR Shipped status &amp;gt; Details The order details page is well displayed with all provided information of The Order</description>
     </item>
     
     <item>
@@ -4443,7 +4452,7 @@ number of languages = total of languages + 1   Go to add new language page Page 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-uninstall.html</guid>
-      <description>BO - Modules - Alerts tab - Uninstall Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;Alerts The module notifications page should be displayed .   search a module module ps_checkpayment should appear in the module page   Click on uninstall&amp;quot; and confirm the uninstall message by clicking on &amp;ldquo;Yes uninstall it &amp;quot; A message should be displayed in green : &amp;ldquo;Uninstall action on module ps_checkpayment succeeded.</description>
+      <description>BO - Modules - Alerts tab - Uninstall Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;Alerts The module notifications page should be displayed .   Choose one of the modules to configure -&amp;gt;Click on uninstall&amp;quot; and confirm the uninstall message by clicking on &amp;ldquo;Yes uninstall it &amp;quot; A message should be displayed in green : &amp;ldquo;Uninstall action on module ps_checkpayment succeeded.</description>
     </item>
     
     <item>
@@ -4452,8 +4461,7 @@ number of languages = total of languages + 1   Go to add new language page Page 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-search.html</guid>
-      <description>BO - Modules - Search Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button
-Example statsstock The searched module should be displayed Example Available quantities    </description>
+      <description>BO - Modules - Search Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )    </description>
     </item>
     
     <item>
@@ -4692,15 +4700,6 @@ The maintenance text is the default one   In Custom maintenance text, edit your
     
     <item>
       <title>Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bulk-actions.html</guid>
-      <description>Bulk actions </description>
-    </item>
-    
-    <item>
-      <title>Bulk actions</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -4788,6 +4787,15 @@ The maintenance text is the default one   In Custom maintenance text, edit your
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration/configuration-for-merchant/configure-the-minimum-quantity-for-out-of-stock.html</guid>
       <description>Configure the minimum quantity for out of stock Steps    Step Description Expected result          </description>
+    </item>
+    
+    <item>
+      <title>Contact - Stores - Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html</guid>
+      <description>Contact - Stores - Bulk actions </description>
     </item>
     
     <item>
@@ -5987,7 +5995,7 @@ basedOn: &amp;lsquo;Delivery address&amp;rsquo;,</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-disable-enable-desktop-and-mobile.html</guid>
-      <description>BO - Modules - Disable / Enable desktop and mobile Steps    Step Description Expected result     {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;    </description>
+      <description>BO - Modules - Disable / Enable desktop and mobile Steps    Step Description Expected result     {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    If the searched module is already Enabled &amp;gt; click on the button Disable &amp;gt; confirm the displayed pop-up A success message contains &amp;ldquo;Disable action&amp;rdquo; should be appear   If the searched module is already Disabled &amp;gt; click on the button Enable A success message contains &amp;ldquo;Enable action&amp;rdquo; should be appear   Click on the drop-down button A list of action should be available   Choose the action Disable Mobile A success message contain &amp;ldquo;Disable mobile&amp;rdquo; should be appear   Click on the drop-down button &amp;gt; click on the action Enable mobile A success message contains &amp;ldquo;Enable mobile&amp;rdquo; should be appear    </description>
     </item>
     
     <item>
@@ -6299,7 +6307,7 @@ In the comment part the last name of the user should be displayed   Go to the ba
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/addresses/fo-checkout-addresses-crud-address.html</guid>
-      <description>FO - Checkout - Addresses - CRUD address </description>
+      <description>FO - Checkout - Addresses - CRUD address Steps    Step Description Expected result     In FO &amp;gt; Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Sign In with your customer Step 2 of checkout process is displayed   Fill and required fields &amp;gt; Continue Step 3 of checkout process is displayed   Edit Step 2 &amp;gt; Edit Address &amp;gt; Fill all optional fields &amp;gt; Continue Step 3 of checkout process is displayed   In FO &amp;gt; After creation of your customer account &amp;gt; Click on your name on the top right corner Your account page is displayed   Click on &amp;ldquo;Add first address&amp;rdquo; New address page is displayed</description>
     </item>
     
     <item>
@@ -7026,7 +7034,7 @@ total of pages should be 1</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-reset.html</guid>
-      <description>BO - Modules - Reset </description>
+      <description>BO - Modules - Reset Steps    Step Description Expected result     {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    Click on the drop-down button &amp;gt; Click on Reset option &amp;gt;Confirm the displayed pop-up A success message contains &amp;ldquo;Reset action&amp;rdquo; should be appear    </description>
     </item>
     
     <item>
@@ -7791,7 +7799,7 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-uninstall.html</guid>
-      <description>BO - Modules - Uninstall </description>
+      <description>BO - Modules - Uninstall Steps    Step Description Expected result     {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    Click on the drop-down button &amp;gt; Click on Uninstall option &amp;gt;Confirm the displayed pop-up A success message contains &amp;ldquo;uninstall action&amp;rdquo; should be appear   Check that the button Install exists next to module name     </description>
     </item>
     
     <item>
@@ -8432,7 +8440,7 @@ All products name contains the Searched Name   Click on the drop-down toggle and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-configure-module.html</guid>
-      <description>BO - Modules - Alerts tab - Configure module </description>
+      <description>BO - Modules - Alerts tab - Configure module Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;Alerts The module notifications page should be displayed .   Choose one of the modules to configure -&amp;gt;click on Configure button Configuration page should be displayed   Add a company name, an address and save Information should be saved    </description>
     </item>
     
     <item>
@@ -8441,7 +8449,7 @@ All products name contains the Searched Name   Click on the drop-down toggle and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-bulk-actions.html</guid>
-      <description>BO - Modules - Bulk actions </description>
+      <description>BO - Modules - Bulk actions Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Check that the Bulk action section is Disabled    Select module form the displayed modules list Check that the bulk actions is enabled   Click on the bulk actions section &amp;gt; and check that the : i</description>
     </item>
     
     <item>
@@ -8871,7 +8879,8 @@ Message is displayed : Successful creation   In list, Filter By Email. Criteria 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upload-a-module.html</guid>
-      <description>BO - Modules - Upload a module </description>
+      <description>BO - Modules - Upload a module Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page * The page title should contains &amp;lsquo;Module manager&amp;rsquo;
+Check that the button upload module exist in the header of the page   Click on the button Upload module A pop-up contains &amp;lsquo;Drop your module archive here or select file&amp;rsquo; appears   Case 1 : Drop the module you want to install Case 2 : Select the file of the module you want to install The installing process begins &amp;gt; a sucess message should appears   Check that the module is well installed and exist in the list of modules     </description>
     </item>
     
     <item>

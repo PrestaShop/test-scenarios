@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1674455352" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1674455352" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1674455352" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674455352" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1674455352" rel="stylesheet">
-    <link href="../../../../../../../style.css?1674455352" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1674541931" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1674541931" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1674541931" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674541931" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1674541931" rel="stylesheet">
+    <link href="../../../../../../../style.css?1674541931" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674455352"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674541931"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -14880,9 +14880,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/contact/stores/bulk-actions.html" title="Bulk actions" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/contact/stores/bulk-actions.html">
-        Bulk actions
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html" title="Contact - Stores - Bulk actions" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html">
+        Contact - Stores - Bulk actions
         
         </a>
     </li>
@@ -38314,7 +38314,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---stocks---movements---sort-and-pagination">BO - Stocks - Movements - Sort and pagination</a></li>
+    <li><a href="#bo---stocks---movements---sort-and-pagination">BO - Stocks - Movements - Sort and pagination</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60104,14 +60108,73 @@
 
 
 <h1 id="bo---stocks---movements---sort-and-pagination">BO - Stocks - Movements - Sort and pagination</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Edit Stock of all products &gt; Save</td>
+<td>Alert Update successful</td>
+</tr>
+<tr>
+<td>Go to Catalog &gt; Stock management &gt; Stock &gt; Movement Tab</td>
+<td>Movement Tab is well displayed<br><br>30 elements are displayed per page in Movements Tab</td>
+</tr>
+<tr>
+<td>Sort by ID asc</td>
+<td>Sort by ID asc</td>
+</tr>
+<tr>
+<td>Sort by Product name asc</td>
+<td>The list is sorted by Product name asc (a-&gt;b-&gt;c)</td>
+</tr>
+<tr>
+<td>Sort by Product name desc</td>
+<td>The list is sorted by Product name desc (c-&gt;b-&gt;a)</td>
+</tr>
+<tr>
+<td>Sort by Reference asc</td>
+<td>The list is sorted by Reference asc (a-&gt;b-&gt;c)</td>
+</tr>
+<tr>
+<td>Sort by Reference desc</td>
+<td>The list is sorted by Reference desc (c-&gt;b-&gt;a)</td>
+</tr>
+<tr>
+<td>Sort by Date &amp; Time asc</td>
+<td>The list is sorted by Date &amp; Time asc (a-&gt;b-&gt;c)</td>
+</tr>
+<tr>
+<td>Sort by Date &amp; Time desc</td>
+<td>The list is sorted by Date &amp; Time desc (c-&gt;b-&gt;a)</td>
+</tr>
+<tr>
+<td>Sort by ID desc</td>
+<td>The list is sorted by ID desc</td>
+</tr>
+<tr>
+<td>Scroll down to pagination &gt; Click page 2</td>
+<td>List is updated with page 2</td>
+</tr>
+<tr>
+<td>Scroll down to pagination &gt; Click page 1</td>
+<td>List is updated with page 1</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 21, 2022
+  Last updated on January 24, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/7840e4ce5b6668266e447f28b28f5950611927fd">"[Update] JIRA XRay Tests" (7840e4ce5b)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/4f0a675defd9585f0cdd1991341a5f5bdd4bdcda">"[Update] JIRA XRay Tests" (4f0a675def)</a>
   
 </div>
 
@@ -60132,17 +60195,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1674455352"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674455352"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674455352"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1674455352"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1674455352"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674455352"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674455352"></script>
-    <script src="../../../../../../../js/learn.js?1674455352"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1674455352"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1674541931"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674541931"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674541931"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1674541931"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1674541931"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674541931"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674541931"></script>
+    <script src="../../../../../../../js/learn.js?1674541931"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1674541931"></script>
     
-    <script src="../../../../../../../main.js?1674455352"></script>
+    <script src="../../../../../../../main.js?1674541931"></script>
     
     
 

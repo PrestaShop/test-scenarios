@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1674455389" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1674455389" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1674455389" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674455389" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1674455389" rel="stylesheet">
-    <link href="../../../../../../../style.css?1674455389" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1674541968" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1674541968" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1674541968" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674541968" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1674541968" rel="stylesheet">
+    <link href="../../../../../../../style.css?1674541968" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674455389"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674541968"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -14880,9 +14880,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/contact/stores/bulk-actions.html" title="Bulk actions" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/contact/stores/bulk-actions.html">
-        Bulk actions
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html" title="Contact - Stores - Bulk actions" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html">
+        Contact - Stores - Bulk actions
         
         </a>
     </li>
@@ -38314,7 +38314,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#fo---checkout---addresses---crud-address">FO - Checkout - Addresses - CRUD address</a></li>
+    <li><a href="#fo---checkout---addresses---crud-address">FO - Checkout - Addresses - CRUD address</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60104,14 +60108,73 @@
 
 
 <h1 id="fo---checkout---addresses---crud-address">FO - Checkout - Addresses - CRUD address</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>In FO &gt; Add a product to the cart &gt; Proceed to checkout &gt; Sign In with your customer</td>
+<td>Step 2 of checkout process is displayed</td>
+</tr>
+<tr>
+<td>Fill and required fields &gt; Continue</td>
+<td>Step 3 of checkout process is displayed</td>
+</tr>
+<tr>
+<td>Edit Step 2 &gt; Edit Address &gt; Fill all optional fields &gt; Continue</td>
+<td>Step 3 of checkout process is displayed</td>
+</tr>
+<tr>
+<td>In FO &gt; After creation of your customer account &gt; Click on your name on the top right corner</td>
+<td>Your account page is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Add first address&rdquo;</td>
+<td>New address page is displayed<br><br>Name, Last name and countries are already filled in.</td>
+</tr>
+<tr>
+<td>Fill in the fields &gt; Save</td>
+<td>Message Address successfully added. is displayed</td>
+</tr>
+<tr>
+<td>Click on Update</td>
+<td>Update your address Page is displayed<br><br>See that Alias has been automatically updated</td>
+</tr>
+<tr>
+<td>Fill in all the optional fields &gt; Save</td>
+<td>Message Address successfully updated. is displayed</td>
+</tr>
+<tr>
+<td>Click on +Create a new address &gt; Fill all fields (optional and non-optional) &gt; Save</td>
+<td>Message Address successfully added. is displayed</td>
+</tr>
+<tr>
+<td>Delete the latest address created</td>
+<td>Message Address successfully deleted. is displayed</td>
+</tr>
+<tr>
+<td>Click on Your account in breadcrumb</td>
+<td>See Address block has changed name.<br> It was called &ldquo;Add first address&rdquo; , it is now called &ldquo;Addresses&rdquo;</td>
+</tr>
+<tr>
+<td>Delete the only address that is displayed</td>
+<td>Message Address successfully deleted. is displayed<br><br>Alert &ldquo;No addresses are available. [Add a new address</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on December 13, 2022
+  Last updated on January 24, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/157ad82b1334a527e2bc8bc37dc664574d880503">"[Update] JIRA XRay Tests" (157ad82b13)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/4f0a675defd9585f0cdd1991341a5f5bdd4bdcda">"[Update] JIRA XRay Tests" (4f0a675def)</a>
   
 </div>
 
@@ -60132,17 +60195,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1674455389"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674455389"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674455389"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1674455389"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1674455389"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674455389"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674455389"></script>
-    <script src="../../../../../../../js/learn.js?1674455389"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1674455389"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1674541968"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674541968"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674541968"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1674541968"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1674541968"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674541968"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674541968"></script>
+    <script src="../../../../../../../js/learn.js?1674541968"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1674541968"></script>
     
-    <script src="../../../../../../../main.js?1674455389"></script>
+    <script src="../../../../../../../main.js?1674541968"></script>
     
     
 
