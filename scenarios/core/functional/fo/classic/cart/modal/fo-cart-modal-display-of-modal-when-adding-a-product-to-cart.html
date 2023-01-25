@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../style.css?1674541968" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1674628089" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1674628089" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1674628089" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674628089" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1674628089" rel="stylesheet">
+    <link href="../../../../../../../style.css?1674628089" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674541968"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674628089"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -1005,9 +1005,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/bo-notifications.html" title="BO - Notifications" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/bo-notifications.html">
-        BO - Notifications
+      <li data-nav-id="/scenarios/core/functional/bo/bo-check-notifications.html" title="BO - check notifications" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/bo-check-notifications.html">
+        BO - check notifications
         
         </a>
     </li>
@@ -19151,9 +19151,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html" title="FO - Checkout - Shipping method - Select a carrier" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html">
-        FO - Checkout - Shipping method - Select a carrier
+      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html" title="FO - Checkout - Shipping method - Add order message" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html">
+        FO - Checkout - Shipping method - Add order message
         
         </a>
     </li>
@@ -19172,9 +19172,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html" title="FO - Checkout - Shipping method - Add order message" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html">
-        FO - Checkout - Shipping method - Add order message
+      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html" title="FO - Checkout - Shipping method - Select a carrier" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html">
+        FO - Checkout - Shipping method - Select a carrier
         
         </a>
     </li>
@@ -38314,7 +38314,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#fo---cart---modal---display-of-modal-when-adding-a-product-to-cart">FO - Cart - Modal - Display of modal when adding a product to cart</a></li>
+    <li><a href="#fo---cart---modal---display-of-modal-when-adding-a-product-to-cart">FO - Cart - Modal - Display of modal when adding a product to cart</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60104,14 +60108,33 @@
 
 
 <h1 id="fo---cart---modal---display-of-modal-when-adding-a-product-to-cart">FO - Cart - Modal - Display of modal when adding a product to cart</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>on a not customizable product page<br>if selected quantity &lt; available quantity of the product<br><br> <br><br>Click to Add to cart</td>
+<td>A modal should appear with the following information:<br> * &ldquo;Product successfully added to your shopping cart&rdquo;<br> * Product picture<br> * Product Name<br> * Product unit price<br> * All Product combinations added<br> * Quantity of product added<br> * Number of items in your cart<br> * Subtotal of your cart<br> * Shipping price<br> * Total (tax incl.) of your cart<br> * &ldquo;CONTINUE SHOPPING&rdquo; button<br> * &ldquo;PROCEED TO CHEECKOUT&rdquo; button<br> * Button to close the modal</td>
+</tr>
+<tr>
+<td>on a not customizable product quickview<br>if selected quantity &lt; available quantity of the product<br><br> <br><br>Click to Add to cart</td>
+<td>A modal should appear with the following information:<br> * &ldquo;Product successfully added to your shopping cart&rdquo;<br> * Product picture<br> * Product Name<br> * Product unit price<br> * All Product combinations added<br> * Quantity of product added<br> * Number of items in your cart<br> * Subtotal of your cart<br> * Shipping price<br> * Total (tax incl.) of your cart<br> * &ldquo;CONTINUE SHOPPING&rdquo; button<br> * &ldquo;PROCEED TO CHEECKOUT&rdquo; button<br> * Button to close the modal</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on January 21, 2023
+  Last updated on January 25, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/44761a1952d0a3f2289f08db28ea6cd625b51ca9">"[Update] JIRA XRay Tests" (44761a1952)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/e48f1a9e925e9de2d34663c5aaf907fb3d462435">"[Update] JIRA XRay Tests" (e48f1a9e92)</a>
   
 </div>
 
@@ -60132,17 +60155,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1674541968"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674541968"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674541968"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1674541968"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1674541968"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674541968"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674541968"></script>
-    <script src="../../../../../../../js/learn.js?1674541968"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1674541968"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1674628089"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674628089"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674628089"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1674628089"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1674628089"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674628089"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674628089"></script>
+    <script src="../../../../../../../js/learn.js?1674628089"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1674628089"></script>
     
-    <script src="../../../../../../../main.js?1674541968"></script>
+    <script src="../../../../../../../main.js?1674628089"></script>
     
     
 

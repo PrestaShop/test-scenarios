@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1674541968" rel="stylesheet">
-    <link href="../../../../../../../style.css?1674541968" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1674628090" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1674628090" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1674628090" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674628090" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1674628090" rel="stylesheet">
+    <link href="../../../../../../../style.css?1674628090" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674541968"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674628090"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -1005,9 +1005,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/bo-notifications.html" title="BO - Notifications" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/bo-notifications.html">
-        BO - Notifications
+      <li data-nav-id="/scenarios/core/functional/bo/bo-check-notifications.html" title="BO - check notifications" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/bo-check-notifications.html">
+        BO - check notifications
         
         </a>
     </li>
@@ -19151,9 +19151,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html" title="FO - Checkout - Shipping method - Select a carrier" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html">
-        FO - Checkout - Shipping method - Select a carrier
+      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html" title="FO - Checkout - Shipping method - Add order message" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html">
+        FO - Checkout - Shipping method - Add order message
         
         </a>
     </li>
@@ -19172,9 +19172,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html" title="FO - Checkout - Shipping method - Add order message" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html">
-        FO - Checkout - Shipping method - Add order message
+      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html" title="FO - Checkout - Shipping method - Select a carrier" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html">
+        FO - Checkout - Shipping method - Select a carrier
         
         </a>
     </li>
@@ -60119,51 +60119,47 @@
 <tbody>
 <tr>
 <td>In FO &gt; Add a product to the cart &gt; Proceed to checkout &gt; Sign In with your customer</td>
-<td>Step 2 of checkout process is displayed</td>
+<td>You are signed in<br><br>Step 2 (Addresses) of checkout process is displayed</td>
 </tr>
 <tr>
-<td>Fill and required fields &gt; Continue</td>
+<td>In Step 2, fill all required fields &gt; Continue</td>
 <td>Step 3 of checkout process is displayed</td>
 </tr>
 <tr>
-<td>Edit Step 2 &gt; Edit Address &gt; Fill all optional fields &gt; Continue</td>
+<td>Click Edit on Step 2 &gt; Edit Address &gt; Fill all optional fields &gt; Continue</td>
 <td>Step 3 of checkout process is displayed</td>
 </tr>
 <tr>
-<td>In FO &gt; After creation of your customer account &gt; Click on your name on the top right corner</td>
-<td>Your account page is displayed</td>
+<td>Click Edit on Step 2 &gt; Click Add new address &gt; Fill all fields &gt; Continue</td>
+<td>Step 3 of checkout process is displayed</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Add first address&rdquo;</td>
-<td>New address page is displayed<br><br>Name, Last name and countries are already filled in.</td>
+<td>Click on Billing address differs from shipping address</td>
+<td>A new block appears : Your Invoice Address</td>
 </tr>
 <tr>
-<td>Fill in the fields &gt; Save</td>
-<td>Message Address successfully added. is displayed</td>
+<td>Click on Add a new address in Your Invoice Address Block</td>
+<td>A form is displayed in Your Invoice Address</td>
 </tr>
 <tr>
-<td>Click on Update</td>
-<td>Update your address Page is displayed<br><br>See that Alias has been automatically updated</td>
+<td>Add an Alias to this address &gt; Fill all fields &gt; Continue</td>
+<td>Step 3 of checkout process is displayed</td>
 </tr>
 <tr>
-<td>Fill in all the optional fields &gt; Save</td>
-<td>Message Address successfully updated. is displayed</td>
+<td>Click Edit Step 2 &gt; Delete your first created address</td>
+<td>Message Address successfully deleted. is displayed</td>
 </tr>
 <tr>
-<td>Click on +Create a new address &gt; Fill all fields (optional and non-optional) &gt; Save</td>
-<td>Message Address successfully added. is displayed</td>
+<td>Choose the same address for Shipping Address &amp; Your Invoice Address &gt; Click Continue</td>
+<td>Step 3 of checkout process is displayed</td>
 </tr>
 <tr>
-<td>Delete the latest address created</td>
-<td>Message Address successfully deleted. is displayed</td>
+<td>Click Edit Step 2 &gt; Check the second address</td>
+<td>Only one address block is displayed<br><br>Step 3 of checkout process is displayed</td>
 </tr>
 <tr>
-<td>Click on Your account in breadcrumb</td>
-<td>See Address block has changed name.<br> It was called &ldquo;Add first address&rdquo; , it is now called &ldquo;Addresses&rdquo;</td>
-</tr>
-<tr>
-<td>Delete the only address that is displayed</td>
-<td>Message Address successfully deleted. is displayed<br><br>Alert &ldquo;No addresses are available. [Add a new address</td>
+<td>Click Edit Step 2 &gt; Delete all addresses</td>
+<td>Message Address successfully deleted. is displayed<br><br>Address creation form is displayed</td>
 </tr>
 </tbody>
 </table>
@@ -60172,9 +60168,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on January 24, 2023
+  Last updated on January 25, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/4f0a675defd9585f0cdd1991341a5f5bdd4bdcda">"[Update] JIRA XRay Tests" (4f0a675def)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/e48f1a9e925e9de2d34663c5aaf907fb3d462435">"[Update] JIRA XRay Tests" (e48f1a9e92)</a>
   
 </div>
 
@@ -60195,17 +60191,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1674541968"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674541968"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674541968"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1674541968"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1674541968"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674541968"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674541968"></script>
-    <script src="../../../../../../../js/learn.js?1674541968"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1674541968"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1674628090"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674628090"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674628090"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1674628090"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1674628090"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674628090"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674628090"></script>
+    <script src="../../../../../../../js/learn.js?1674628090"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1674628090"></script>
     
-    <script src="../../../../../../../main.js?1674541968"></script>
+    <script src="../../../../../../../main.js?1674628090"></script>
     
     
 

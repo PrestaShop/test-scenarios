@@ -7,21 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FO - Checkout - Shipping method - Select a carrier</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</guid>
-      <description>FO - Checkout - Shipping method - Select a carrier </description>
-    </item>
-    
-    <item>
       <title>FO - Checkout - Shipping method - Add order message</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
-      <description>FO - Checkout - Shipping method - Add order message </description>
+      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Add in the input
+&amp;ldquo;Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit123456789&amp;amp;é&amp;rdquo;&#39;(-è_çà)=+°&amp;amp;~#{[ `^@]}^$ù*!:;,&amp;lt;&amp;gt;?./§%µ¤²&amp;quot;   Select a other carrier the order message should not change   Click to Continue You will need to be redirected to the payment tab    </description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Shipping method - Select a carrier</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</guid>
+      <description>FO - Checkout - Shipping method - Select a carrier Steps    Step Description Expected result     with a delivery address in Europe I should only see carriers that deliver to Europe
+for each deliverer I need to see:
+* a logo
+* a name
+* a delay
+* the price of shipping   Select a carrier with Free Shipping Shipping should be &amp;ldquo;Free&amp;rdquo; at checkout   Select a carrier without Free Shipping Shipping prices should be visible at checkout &amp;ldquo;Shipping&amp;rdquo;</description>
     </item>
     
     <item>

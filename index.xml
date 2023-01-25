@@ -840,7 +840,8 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO suppliers link pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/maintenance/bo-shop-parameters-general-maintenance-enable-disable-shop.html</guid>
-      <description>BO - Shop Parameters - General - Maintenance - Enable / disable shop Steps    Step Description Expected result     go to shop parameters &amp;gt; general page page title contains &amp;lsquo;Preferences&amp;rsquo;   go to maintenance tab Page title contains &amp;lsquo;Maintenance&amp;rsquo;   Disable shop successful update message is displayed   View my shop Maintenance text &amp;lsquo;We are currently updating our shop and will be back really soon.</description>
+      <description>BO - Shop Parameters - General - Maintenance - Enable / disable shop Steps    Step Description Expected result     go to shop parameters &amp;gt; general page page title contains &amp;lsquo;Preferences&amp;rsquo;   go to maintenance tab Page title contains &amp;lsquo;Maintenance&amp;rsquo;   * Disable shop
+* Enable store for legged-in employees successful update message is displayed   View my shop Home page is displayed successfully   Return on BO : * Let the shop disabled</description>
     </item>
     
     <item>
@@ -1483,7 +1484,13 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-display-of-modal-when-adding-a-product-to-cart.html</guid>
-      <description>FO - Cart - Modal - Display of modal when adding a product to cart </description>
+      <description>FO - Cart - Modal - Display of modal when adding a product to cart Steps    Step Description Expected result     on a not customizable product page
+if selected quantity &amp;lt; available quantity of the product
+Click to Add to cart A modal should appear with the following information:
+* &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo;
+* Product picture
+* Product Name
+* Product unit price</description>
     </item>
     
     <item>
@@ -1514,12 +1521,13 @@ REFERENCE is correct   Filter by STATUS</description>
     </item>
     
     <item>
-      <title>FO - Checkout - Shipping method - Select a carrier</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</link>
+      <title>FO - Checkout - Shipping method - Add order message</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</guid>
-      <description>FO - Checkout - Shipping method - Select a carrier </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
+      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Add in the input
+&amp;ldquo;Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit123456789&amp;amp;é&amp;rdquo;&#39;(-è_çà)=+°&amp;amp;~#{[ `^@]}^$ù*!:;,&amp;lt;&amp;gt;?./§%µ¤²&amp;quot;   Select a other carrier the order message should not change   Click to Continue You will need to be redirected to the payment tab    </description>
     </item>
     
     <item>
@@ -2454,7 +2462,7 @@ The list contains the searched ID   Reset filter Number of Suppliers after reset
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Check that there is at least one merchandise return The merchandise return is displayed in the list with &amp;ldquo;Waiting for confirmation&amp;rdquo; status   Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed    </description>
+      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Check that there is at least one merchandise return The merchandise return is displayed in the list with &amp;ldquo;Waiting for confirmation&amp;rdquo; status with the blue color   Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed   Click on the dropdwon list of status and change the status to &amp;ldquo;Waiting for package&amp;rdquo; and click on Save and stay Successful update alert is well displayed</description>
     </item>
     
     <item>
@@ -3354,12 +3362,17 @@ Click on it, a new page for Twitter site is open    </description>
     </item>
     
     <item>
-      <title>FO - Checkout - Shipping method - Add order message</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</link>
+      <title>FO - Checkout - Shipping method - Select a carrier</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
-      <description>FO - Checkout - Shipping method - Add order message </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</guid>
+      <description>FO - Checkout - Shipping method - Select a carrier Steps    Step Description Expected result     with a delivery address in Europe I should only see carriers that deliver to Europe
+for each deliverer I need to see:
+* a logo
+* a name
+* a delay
+* the price of shipping   Select a carrier with Free Shipping Shipping should be &amp;ldquo;Free&amp;rdquo; at checkout   Select a carrier without Free Shipping Shipping prices should be visible at checkout &amp;ldquo;Shipping&amp;rdquo;</description>
     </item>
     
     <item>
@@ -6307,7 +6320,8 @@ In the comment part the last name of the user should be displayed   Go to the ba
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/addresses/fo-checkout-addresses-crud-address.html</guid>
-      <description>FO - Checkout - Addresses - CRUD address Steps    Step Description Expected result     In FO &amp;gt; Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Sign In with your customer Step 2 of checkout process is displayed   Fill and required fields &amp;gt; Continue Step 3 of checkout process is displayed   Edit Step 2 &amp;gt; Edit Address &amp;gt; Fill all optional fields &amp;gt; Continue Step 3 of checkout process is displayed   In FO &amp;gt; After creation of your customer account &amp;gt; Click on your name on the top right corner Your account page is displayed   Click on &amp;ldquo;Add first address&amp;rdquo; New address page is displayed</description>
+      <description>FO - Checkout - Addresses - CRUD address Steps    Step Description Expected result     In FO &amp;gt; Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Sign In with your customer You are signed in
+Step 2 (Addresses) of checkout process is displayed   In Step 2, fill all required fields &amp;gt; Continue Step 3 of checkout process is displayed   Click Edit on Step 2 &amp;gt; Edit Address &amp;gt; Fill all optional fields &amp;gt; Continue Step 3 of checkout process is displayed   Click Edit on Step 2 &amp;gt; Click Add new address &amp;gt; Fill all fields &amp;gt; Continue Step 3 of checkout process is displayed   Click on Billing address differs from shipping address A new block appears : Your Invoice Address   Click on Add a new address in Your Invoice Address Block A form is displayed in Your Invoice Address   Add an Alias to this address &amp;gt; Fill all fields &amp;gt; Continue Step 3 of checkout process is displayed   Click Edit Step 2 &amp;gt; Delete your first created address Message Address successfully deleted.</description>
     </item>
     
     <item>
@@ -6334,7 +6348,7 @@ In the comment part the last name of the user should be displayed   Go to the ba
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-create-an-account.html</guid>
-      <description>FO - Checkout - Personal Information - Create an account </description>
+      <description>FO - Checkout - Personal Information - Create an account Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     
     <item>
@@ -7320,7 +7334,7 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-password-reminder.html</guid>
-      <description>FO - Checkout - Personal Information - Password reminder </description>
+      <description>FO - Checkout - Personal Information - Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     
     <item>
@@ -7648,6 +7662,15 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
     </item>
     
     <item>
+      <title>BO - check notifications</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-check-notifications.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-check-notifications.html</guid>
+      <description>BO - check notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO &amp;gt; Login as a customer &amp;gt; Go to the order history &amp;gt; Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO &amp;gt; Refresh the page A 1 appears next to the bell   Open the notification box, then click on Messages The message created earlier appears   Open the notification The message page is opened   Go to FO &amp;gt; Add a product to you cart &amp;gt; And continue the buying process as a Guest Customer Order confirmation page will open   Go back to BO &amp;gt; Refresh the BO See that you have 2 notifications.</description>
+    </item>
+    
+    <item>
       <title>BO - CRUD Virtual product</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-crud-virtual-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7809,15 +7832,6 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-connect-to-addons-market-place.html</guid>
       <description>BO - Modules - Updates tab - Connect to Addons market place </description>
-    </item>
-    
-    <item>
-      <title>BO - Notifications</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-notifications.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-notifications.html</guid>
-      <description>BO - Notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO &amp;gt; Login as a customer &amp;gt; Go to the order history &amp;gt; Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO &amp;gt; Refresh the page A 1 appears next to the bell   Open the notification box, then click on Messages The message created earlier appears   Open the notification The message page is opened   Go to FO &amp;gt; Add a product to you cart &amp;gt; And continue the buying process as a Guest Customer Order confirmation page will open   Go back to BO &amp;gt; Refresh the BO See that you have 2 notifications.</description>
     </item>
     
     <item>
@@ -8440,7 +8454,7 @@ All products name contains the Searched Name   Click on the drop-down toggle and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-configure-module.html</guid>
-      <description>BO - Modules - Alerts tab - Configure module Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;Alerts The module notifications page should be displayed .   Choose one of the modules to configure -&amp;gt;click on Configure button Configuration page should be displayed   Add a company name, an address and save Information should be saved    </description>
+      <description>BO - Modules - Alerts tab - Configure module Steps    Step Description Expected result     Go to back office -&amp;gt; Modules -&amp;gt; Module manager&amp;gt;Alerts The module notifications page should be displayed .   Choose one of the modules to configure -&amp;gt;click on Configure button Configuration page should be displayed   Add a company name, an address and save Information should be saved</description>
     </item>
     
     <item>
@@ -9336,7 +9350,8 @@ All products contain the searched Name   Click on the switch toggle and click on
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</guid>
-      <description>BO - Modules - Configure module </description>
+      <description>BO - Modules - Configure module Steps    Step Description Expected result     {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    Click on the button configure The page title should contains &amp;lsquo;Configure &#39; and the page sub-title should contains the module&amp;rsquo;s name
+Example : Configure suplier list    </description>
     </item>
     
     <item>
@@ -9501,7 +9516,7 @@ All products contain the searched Name   Click on the drop-down toggle and click
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-see-more-less-module.html</guid>
-      <description>BO - Modules - See more / less module </description>
+      <description>BO - Modules - See more / less module Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Scroll in the existing modules &amp;gt; click on the button See more Other modules should appears   Click on the button See less Some modules disappears from the list    </description>
     </item>
     
     <item>
@@ -9641,7 +9656,7 @@ Successful duplication message is displayed   Click on Preview Product page in F
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-read-more-about-module.html</guid>
-      <description>BO - Modules - Read more about module </description>
+      <description>BO - Modules - Read more about module Steps    Step Description Expected result     {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    Check the description of the module &amp;gt; click on the link read more More informations related to the module appears    </description>
     </item>
     
     <item>
@@ -9742,7 +9757,7 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html</guid>
-      <description>BO - Modules - Upgrade </description>
+      <description>BO - Modules - Upgrade Steps    Step Description Expected result     {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    Click on the drop-down button &amp;gt; choose the action Upgrade &amp;gt; confirm the displayed pop-up (upgrade any way) A success message contains &amp;ldquo;Upgrade action on module ..&amp;rdquo; appears   {color:#C1C7D0} This step was calling test issue TEST-876 (possibly downgraded){color}    Click on the drop down button &amp;gt; check that the upgrade option is not available     </description>
     </item>
     
     <item>
