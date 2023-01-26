@@ -4,3 +4,8 @@ weight: 2
 ---
 
 # BO - Design - Theme & Logo - Export current theme
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to Improve > Design > Theme & Logo | Theme & Logo page is displayed correctly |
+| Click to "Export current theme" | Your theme has been correctly exported: /var/www/html/develop/themes/classic.zip |

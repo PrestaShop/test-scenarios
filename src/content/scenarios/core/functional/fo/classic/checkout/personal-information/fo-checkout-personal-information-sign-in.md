@@ -11,7 +11,6 @@ weight: 2
 | Click on ADD TO CART | The pop-up of PROCEED TO CHECKOUT is well displayed |
 | Click on PROCEED TO CHECKOUT | The SHOPPING CART is well displayed |
 | Click on PROCEED TO CHECKOUT | The PERSONAL INFORMATION is well displayed. |
-| Fill the *Sign in* form and click on CONTINUE | The ADDRESSES page is displayed |
-| Go to ADDRESS page and select the address that will be used personal address and continue | The SHIPPING METHOD is displayed |
-| Go to SHIPPING METHOD and continue | The PAYMENT page is displayed |
-| Go to PAYMENT page | Order confirmation and YOUR ORDER IS CONFIRMED message is displayed. |
+| Fill the *Sign in* form and click on CONTINUE | The step 2 :ADDRESSES page is displayed |
+| Click EDIT step 1 and CONTINUE | the page show <br> * Connected as [John DOE|http://127.0.0.1:8081/develop/en/identity]..<br> * Not you? [Log out|http://127.0.0.1:8081/develop/en/?mylogout=]<br><br>_If you sign out now, your cart will be emptied._ |
+| Click on logout | The page show <br>_There are no more items in your cart_ |
