@@ -8,7 +8,7 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to International ->locations> Zones | the zones page is displayed |
-| Filter by ID<br>Criteria: 1" | Zone  list is filtered<br><br>Zone  listed have 1" in their ID" |
+| Filter by ID<br>Criteria: 1" | Zone  list is filtered<br><br>Zone  lists have only "1" and nothing else in their ID |
 | Reset all filters | All filters are reset<br>All Zones are displayed |
 | Filter by zone <br><br>exemple : Africa | Zone list is filtered<br>zone listed have "Africa" in their zone name |
 | Reset all filters | All filters are reset<br>All Zones are displayed |
