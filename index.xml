@@ -593,7 +593,8 @@ title contains : Currencies *   reset all filters Total of currencies &amp;gt; 0
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/states/bo-international-locations-states-filter-and-quick-edit.html</guid>
-      <description>BO - International - Locations - States - Filter and Quick edit Steps    Step Description Expected result     Go to International -&amp;gt;locations&amp;gt; States the States page is displayed    </description>
+      <description>BO - International - Locations - States - Filter and Quick edit Steps    Step Description Expected result     Go to International -&amp;gt;locations&amp;gt; States the States page is displayed   Reset all filters All filters are reset. All states are displayed   Filter by ID of state created states list is filtered. states listed have the searched ID
+the ID of the state is well displayed on the top   Reset all filters All filters are reset.</description>
     </item>
     
     <item>
@@ -604,7 +605,7 @@ title contains : Currencies *   reset all filters Total of currencies &amp;gt; 0
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/zones/bo-international-locations-zones-filter-and-quick-edit.html</guid>
       <description>BO - International - Locations - Zones - Filter and Quick edit Steps    Step Description Expected result     Go to International -&amp;gt;locations&amp;gt; Zones the zones page is displayed   Filter by ID
 Criteria: 1&amp;quot; Zone list is filtered
-Zone listed have 1&amp;quot; in their ID&amp;quot;   Reset all filters All filters are reset
+Zone lists have only &amp;ldquo;1&amp;rdquo; and nothing else in their ID   Reset all filters All filters are reset
 All Zones are displayed   Filter by zone exemple : Africa Zone list is filtered</description>
     </item>
     
@@ -2460,12 +2461,12 @@ The list contains the searched ID   Reset filter Number of Suppliers after reset
     </item>
     
     <item>
-      <title>BO - Customer Service - Merchandise returns - Update and manage options</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</link>
+      <title>BO - Customer Service - Merchandise returns - Delete product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-delete-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Check that there is at least one merchandise return The merchandise return is displayed in the list with &amp;ldquo;Waiting for confirmation&amp;rdquo; status with the blue color   Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed   Click on the dropdwon list of status and change the status to &amp;ldquo;Waiting for package&amp;rdquo; and click on Save and stay Successful update alert is well displayed</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-delete-product.html</guid>
+      <description>BO - Customer Service - Merchandise returns - Delete product Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   {color:#C1C7D0} This step was calling test issue TEST-871 (possibly downgraded){color}    Go to BO &amp;gt; SELL &amp;gt; Orders &amp;gt; View the created order with two products The order page details is well displayed   Update the order status to Shipped OR Delivered and click on &amp;ldquo;Update Status&amp;rdquo; button The &amp;ldquo;Successful update&amp;rdquo; message is well displayed   Go to FO &amp;gt; Connect with the customer of the Order &amp;gt; Click on Orders history page All existing orders are well displayed in the list   Click on the order with the Delivered OR Shipped status &amp;gt; Details The order details page is well displayed with all provided information of the Order</description>
     </item>
     
     <item>
@@ -4209,12 +4210,12 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
     </item>
     
     <item>
-      <title>BO - Customer Service - Merchandise returns - Manage</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-manage.html</link>
+      <title>BO - Customer Service - Merchandise returns - Add</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-add.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-manage.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Manage Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is well displayed   {color:#C1C7D0} This step was calling test issue TEST-871 (possibly downgraded){color}    Go to BO &amp;gt; SELL &amp;gt; Orders &amp;gt; View the created order The created order page details is well created   Update the order status to Shipped OR Delivered and click on &amp;ldquo;Update Status&amp;rdquo; button The &amp;ldquo;Successful update&amp;rdquo; message is well displayed   Go to FO &amp;gt; Connect with the customer of the Order &amp;gt; Click on Orders history page All existing orders are well displayed in the list   Click on the order with the Delivered OR Shipped status &amp;gt; Details The order details page is well displayed with all provided information of The Order</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-add.html</guid>
+      <description>BO - Customer Service - Merchandise returns - Add Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is well displayed   {color:#C1C7D0} This step was calling test issue TEST-871 (possibly downgraded){color}    Go to BO &amp;gt; SELL &amp;gt; Orders &amp;gt; View the created order The created order page details is well created   Update the order status to Shipped OR Delivered and click on &amp;ldquo;Update Status&amp;rdquo; button The &amp;ldquo;Successful update&amp;rdquo; message is well displayed   Go to FO &amp;gt; Connect with the customer of the Order &amp;gt; Click on Orders history page All existing orders are well displayed in the list   Click on the order with the Delivered OR Shipped status &amp;gt; Details The order details page is well displayed with all provided information of The Order</description>
     </item>
     
     <item>
@@ -4412,7 +4413,7 @@ number of languages = total of languages + 1   Go to add new language page Page 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/states/bo-international-locations-states-bulk-actions.html</guid>
-      <description>BO - International - Locations - States - Bulk actions </description>
+      <description>BO - International - Locations - States - Bulk actions Steps    Step Description Expected result     Go to International -&amp;gt;locations&amp;gt; States the States page is displayed   Reset all filters All filters are reset. All states are displayed   Select All states and Disable selection all them An alert &amp;ldquo;The status has been successfully updated.&amp;rdquo; is displayed and all states are disabled in the grid   Select All states and Enable selection all them An alert &amp;ldquo;The status has been successfully updated.</description>
     </item>
     
     <item>
@@ -5794,6 +5795,15 @@ Message &amp;ldquo;The settings have been successfully updated.</description>
     </item>
     
     <item>
+      <title>BO - Customer Service - Merchandise returns - Update </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update.html</guid>
+      <description>BO - Customer Service - Merchandise returns - Update Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   {color:#C1C7D0} This step was calling test issue TEST-873 (possibly downgraded){color}    Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed   Click on the dropdwon list of status and change the status to &amp;ldquo;Waiting for package&amp;rdquo; and click on Save and stay Successful update alert is well displayed</description>
+    </item>
+    
+    <item>
       <title>BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions-sort-and-pagination-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5948,7 +5958,8 @@ number of layouts = 50   Go back to email theme page title contains &amp;lsquo;E
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/states/bo-international-locations-states-sort-and-pagination.html</guid>
-      <description>BO - International - Locations - States - Sort and pagination </description>
+      <description>BO - International - Locations - States - Sort and pagination Steps    Step Description Expected result     Go to International -&amp;gt;locations&amp;gt; States the States page is displayed   Reset all filters All filters are reset. All states are displayed   Change the items number to 20 per page one page is displayed and the pagination number = page 1 /18
+display :20/353   Click on next The second page is well displayed &amp;amp; the pagination number = page 2 / 18   Click on previous The first page is well displayed and the pagination number = page 1 /18   Change the items number to 100 per page Only one page is displayed (page 1 / 8)   Sort state by ID desc states are sorted by postion (353 -&amp;gt; 352 -&amp;gt; &amp;hellip;)   Sort state by name desc states are sorted by name ( z-&amp;gt; y -&amp;gt; &amp;hellip;)   Sort state by ISO code desc states are sorted by ISO code ( z-&amp;gt; y -&amp;gt; &amp;hellip;)   Sort state by zone desc states are sorted by zone ( z-&amp;gt; y -&amp;gt; &amp;hellip;)   Sort state by country desc states are sorted by country ( z-&amp;gt; y -&amp;gt; &amp;hellip;)    </description>
     </item>
     
     <item>
@@ -6862,6 +6873,15 @@ List of brands is updated   Select all brands and disable them A successful aler
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-customer-service-options.html</guid>
       <description>BO - Customer Service - Customer service options </description>
+    </item>
+    
+    <item>
+      <title>BO - Customer Service - Merchandise returns - Update and manage options</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</guid>
+      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Check that there is at least one merchandise return The merchandise return is displayed in the list with &amp;ldquo;Waiting for confirmation&amp;rdquo; status with the blue color   Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed   Click on the dropdwon list of status and change the status to &amp;ldquo;Waiting for package&amp;rdquo; and click on Save and stay Successful update alert is well displayed</description>
     </item>
     
     <item>

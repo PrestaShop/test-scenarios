@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1674714758" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1674714758" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1674714758" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674714758" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1674714758" rel="stylesheet">
-    <link href="../../../../../../../style.css?1674714758" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1674800866" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1674800866" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1674800866" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1674800866" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1674800866" rel="stylesheet">
+    <link href="../../../../../../../style.css?1674800866" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674714758"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1674800866"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -6711,9 +6711,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html" title="BO - Customer Service - Merchandise returns - Update and manage options" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html">
-        BO - Customer Service - Merchandise returns - Update and manage options
+      <li data-nav-id="/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-delete-product.html" title="BO - Customer Service - Merchandise returns - Delete product" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-delete-product.html">
+        BO - Customer Service - Merchandise returns - Delete product
         
         </a>
     </li>
@@ -6732,9 +6732,51 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-manage.html" title="BO - Customer Service - Merchandise returns - Manage" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-manage.html">
-        BO - Customer Service - Merchandise returns - Manage
+      <li data-nav-id="/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-add.html" title="BO - Customer Service - Merchandise returns - Add" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-add.html">
+        BO - Customer Service - Merchandise returns - Add
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update.html" title="BO - Customer Service - Merchandise returns - Update " class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update.html">
+        BO - Customer Service - Merchandise returns - Update 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html" title="BO - Customer Service - Merchandise returns - Update and manage options" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html">
+        BO - Customer Service - Merchandise returns - Update and manage options
         
         </a>
     </li>
@@ -38314,7 +38356,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---international---locations---states---sort-and-pagination">BO - International - Locations - States - Sort and pagination</a></li>
+    <li><a href="#bo---international---locations---states---sort-and-pagination">BO - International - Locations - States - Sort and pagination</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -42289,6 +42335,36 @@
       
       
 
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
       
         
     
@@ -60104,14 +60180,69 @@
 
 
 <h1 id="bo---international---locations---states---sort-and-pagination">BO - International - Locations - States - Sort and pagination</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to International -&gt;locations&gt; States</td>
+<td>the States  page is displayed</td>
+</tr>
+<tr>
+<td>Reset all filters</td>
+<td>All filters are reset. All states are displayed</td>
+</tr>
+<tr>
+<td>Change the items number to 20 per page</td>
+<td>one page is  displayed and the pagination number = <em>page 1 /18</em><br><br><em>display :20/353</em></td>
+</tr>
+<tr>
+<td>Click on next</td>
+<td>The second page is well displayed &amp; the pagination number = <em>page 2 / 18</em></td>
+</tr>
+<tr>
+<td>Click on previous</td>
+<td>The first page is well displayed and the pagination number = <em>page 1 /18</em></td>
+</tr>
+<tr>
+<td>Change the items number to 100 per page</td>
+<td>Only one page is displayed  <em>(page 1 / 8)</em></td>
+</tr>
+<tr>
+<td>Sort state by ID desc</td>
+<td>states are sorted by postion (353 -&gt; 352 -&gt; &hellip;)</td>
+</tr>
+<tr>
+<td>Sort state by name desc</td>
+<td>states are sorted by name  ( z-&gt; y -&gt; &hellip;)</td>
+</tr>
+<tr>
+<td>Sort state by ISO code  desc</td>
+<td>states are sorted by ISO code   ( z-&gt; y -&gt; &hellip;)</td>
+</tr>
+<tr>
+<td>Sort state by zone  desc</td>
+<td>states are sorted by zone  ( z-&gt; y -&gt; &hellip;)</td>
+</tr>
+<tr>
+<td>Sort state by country  desc</td>
+<td>states are sorted by country  ( z-&gt; y -&gt; &hellip;)</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on January 25, 2023
+  Last updated on January 27, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/e48f1a9e925e9de2d34663c5aaf907fb3d462435">"[Update] JIRA XRay Tests" (e48f1a9e92)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/0eca4ec0f65b3c7c283e6928889cbee3021eeb01">"[Update] JIRA XRay Tests" (0eca4ec0f6)</a>
   
 </div>
 
@@ -60132,17 +60263,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1674714758"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674714758"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674714758"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1674714758"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1674714758"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674714758"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674714758"></script>
-    <script src="../../../../../../../js/learn.js?1674714758"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1674714758"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1674800867"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1674800867"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1674800867"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1674800867"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1674800867"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1674800867"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1674800867"></script>
+    <script src="../../../../../../../js/learn.js?1674800867"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1674800867"></script>
     
-    <script src="../../../../../../../main.js?1674714758"></script>
+    <script src="../../../../../../../main.js?1674800867"></script>
     
     
 
