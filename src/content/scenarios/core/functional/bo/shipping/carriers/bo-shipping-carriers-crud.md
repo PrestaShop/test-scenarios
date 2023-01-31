@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Carriers - CRUD"
-weight: 2
+weight: 1
 ---
 
 # BO - Shipping - Carriers - CRUD
