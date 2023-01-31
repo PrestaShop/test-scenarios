@@ -424,7 +424,7 @@
 	"title": "BO - International - Locations - States - Filter and Quick edit",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Locations - States - Filter and Quick edit Steps    Step Description Expected result     Go to International -\u0026gt;locations\u0026gt; States the States page is displayed   Reset all filters All filters are reset. All states are displayed   Filter by ID of state created states list is filtered. states listed have the searched ID\nthe ID of the state is well displayed on the top   Reset all filters All filters are reset. All states are displayed   Filter by name of state created state list is filtered\nstate listed have \u0026ldquo;test\u0026rdquo; in their state name   Reset all filters All filters are reset. All states are displayed   Filter by ISO code of state created state list is filtered\nstate listed have \u0026ldquo;ttt\u0026rdquo; in their state ISO code   Reset all filters All filters are reset. All states are displayed   Filter by zone name of the state created state list is filtered\nstate listed have \u0026ldquo;Africa \u0026quot; in their state zone   Reset all filters All filters are reset. All states are displayed   Filter by Country of state created state list is filtered\nstate listed have \u0026ldquo;Mexico \u0026quot; in their state Country   Reset all filters All filters are reset. All states are displayed   Filter by Enabled status of state created state list is filtered\nstate listed have \u0026ldquo;enabled status \u0026quot; in their state status   Reset all filters All filters are reset. All states are displayed   click on edit button of the state created \u0026gt;edit the name \u0026gt;click on save New state is saved correctly.\nMessage is displayed \u0026ldquo;Update successful\u0026rdquo;\nRedirection to states page    "
+	"content": "BO - International - Locations - States - Filter and Quick edit Steps    Step Description Expected result     Go to International -\u0026gt;locations\u0026gt; States the States page is displayed   Reset all filters All filters are reset. All states are displayed   Filter by ID of state created states list is filtered. states listed have the searched ID\nthe ID of the state is well displayed on the top   Reset all filters All filters are reset. All states are displayed   Filter by name of state created state list is filtered\nstate listed have \u0026ldquo;test\u0026rdquo; in their state name   Reset all filters All filters are reset. All states are displayed   Filter by ISO code of state created state list is filtered\nstate listed have \u0026ldquo;ttt\u0026rdquo; in their state ISO code   Reset all filters All filters are reset. All states are displayed   Filter by zone name of the state created state list is filtered\nstate listed have \u0026ldquo;Africa \u0026quot; in their state zone   Reset all filters All filters are reset. All states are displayed   Filter by Country of state created state list is filtered\nstate listed have \u0026ldquo;Mexico \u0026quot; in their state Country   Reset all filters All filters are reset. All states are displayed   Filter by Enabled status of state created state list is filtered\nstate listed have \u0026ldquo;enabled status \u0026quot; in their state status   Reset all filters All filters are reset. All states are displayed   choose a state and click on edit button \u0026gt;edit the name \u0026gt;click on save New state is saved correctly.\nMessage is displayed \u0026ldquo;Update successful\u0026rdquo;\nRedirection to states page    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/zones/bo-international-locations-zones-filter-and-quick-edit.html",
@@ -567,11 +567,11 @@
 	"content": "BO - Payments - Install module link "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/payment/preferences/bo-payments-preferences-edit-currency-restrictions-todo.html",
-	"title": "BO - Payments - Preferences - Edit Currency restrictions (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/payment/preferences/bo-payments-preferences-edit-currency-restrictions.html",
+	"title": "BO - Payments - Preferences - Edit Currency restrictions",
 	"tags": [],
 	"description": "",
-	"content": "BO - Payments - Preferences - Edit Currency restrictions (TODO) "
+	"content": "BO - Payments - Preferences - Edit Currency restrictions Steps    Step Description Expected result     Go to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Block Currency restrictions Currency restrictions block is displayed\nCurrency Euro is checked   Go to BO \u0026gt; International \u0026gt; Localization \u0026gt; Currencies \u0026gt; Add new currency \u0026gt; Select an existing currency (Azerbaijani Manat (AZN)) \u0026gt; Save Successful creation message is displayed   Go back to BO \u0026gt; Payment \u0026gt; Preferences See Azerbaijani Manat (AZN) is available and not checked   Go to FO \u0026gt; Change Currency to Azerbaijani Manat (AZN) \u0026gt; Add product to cart \u0026gt; Proceed to checkout In Step 4 - Payment, See alert : Unfortunately, there is no payment method available.   Go back to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Check Bank Transfer for Azerbaijani Manat (AZN) \u0026gt; Save Message Successful update is displayed   Go back to FO \u0026gt; Refresh \u0026gt; Check Pay by bank wire Order can be placed   Go back to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Uncheck Bank Transfer and COD for Euro Message Successful update is displayed   Go back to Homepage FO \u0026gt; Change currency to Euro \u0026gt; Add product to cart \u0026gt; Proceed to checkout Until Step 4 In step 4, only Payment by check is available    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-within-word.html",
@@ -581,11 +581,11 @@
 	"content": "BO - Search - Search within word "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-filter-sort-pagination.html",
-	"title": "BO - Shipping - Carriers - Filter, sort, pagination",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-crud.html",
+	"title": "BO - Shipping - Carriers - CRUD",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shipping - Carriers - Filter, sort, pagination "
+	"content": "BO - Shipping - Carriers - CRUD "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/preferences/bo-shipping-preferences-handling.html",
@@ -1985,7 +1985,7 @@
 	"title": "BO - International - Translations - Add or update languages",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Translations - Add or update languages "
+	"content": "BO - International - Translations - Add or update languages Steps    Step Description Expected result     On Bo \u0026gt; International \u0026gt; Translation The translation page should display correctly   Select on Update a language : English (English) Click to Add or update a language The translations have been successfully added.   Select on Add a language : Brezhoneg (Breton) Click to Add or update a language The translations have been successfully added.   On Modify translations\nSelect your language Brezhoneg language should be added    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-catalog/module-catalog/bo-module-catalog-filter-by-category.html",
@@ -2086,11 +2086,11 @@
 	"content": "BO - Payments - Configure module link Steps    Step Description Expected result     Go to BO \u0026gt; Payment \u0026gt; Payment Methods Payment Methods page is displayed   In list of Active payment \u0026gt; Click Configure on Bank Transfer Bank Transfer configuration page is displayed   Fill the required fields \u0026gt; Click Save Alert Settings updated is displayed   Go Payment \u0026gt; Payment Methods \u0026gt; In list of Active payment \u0026gt; Click Configure on Payment by check Payment by check configuration page is displayed   Fill the required fields \u0026gt; Click Save Alert Settings updated is displayed   Go to Payment \u0026gt; Payment Methods See Cash on delivery Payment method displayed but not configurable    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/payment/preferences/bo-payments-preferences-edit-group-restrictions-todo.html",
-	"title": "BO - Payments - Preferences - Edit Group restrictions (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/payment/preferences/bo-payments-preferences-edit-group-restrictions.html",
+	"title": "BO - Payments - Preferences - Edit Group restrictions",
 	"tags": [],
 	"description": "",
-	"content": "BO - Payments - Preferences - Edit Group restrictions (TODO) "
+	"content": "BO - Payments - Preferences - Edit Group restrictions Steps    Step Description Expected result     Go to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Scroll to Group restrictions block Currency restrictions block is displayed\nAll Payment methods are checked for all Groups    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-quick-access.html",
@@ -2107,11 +2107,11 @@
 	"content": "BO - Search - Search exact end match "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-crud.html",
-	"title": "BO - Shipping - Carriers - CRUD",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-filter-sort-pagination.html",
+	"title": "BO - Shipping - Carriers - Filter, sort, pagination",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shipping - Carriers - CRUD "
+	"content": "BO - Shipping - Carriers - Filter, sort, pagination Steps    Step Description Expected result     Go to BO\u0026gt;Shipping \u0026gt; Carriers the Carriers page is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/preferences/bo-shipping-preferences-sort-by-order-by.html",
@@ -4400,7 +4400,7 @@
 	"title": "BO - International - Locations - States - Sort and pagination",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Locations - States - Sort and pagination Steps    Step Description Expected result     Go to International -\u0026gt;locations\u0026gt; States the States page is displayed   Reset all filters All filters are reset. All states are displayed   Change the items number to 20 per page one page is displayed and the pagination number = page 1 /18\ndisplay :20/353   Click on next The second page is well displayed \u0026amp; the pagination number = page 2 / 18   Click on previous The first page is well displayed and the pagination number = page 1 /18   Change the items number to 100 per page Only one page is displayed (page 1 / 8)   Sort state by ID desc states are sorted by postion (353 -\u0026gt; 352 -\u0026gt; \u0026hellip;)   Sort state by name desc states are sorted by name ( z-\u0026gt; y -\u0026gt; \u0026hellip;)   Sort state by ISO code desc states are sorted by ISO code ( z-\u0026gt; y -\u0026gt; \u0026hellip;)   Sort state by zone desc states are sorted by zone ( z-\u0026gt; y -\u0026gt; \u0026hellip;)   Sort state by country desc states are sorted by country ( z-\u0026gt; y -\u0026gt; \u0026hellip;)    "
+	"content": "BO - International - Locations - States - Sort and pagination Steps    Step Description Expected result     Go to International -\u0026gt;locations\u0026gt; States the States page is displayed   Reset all filters All filters are reset. All states are displayed   Change the items number to 20 per page one page is displayed and the pagination number = page 1 /18\ndisplay :20/353   Click on next The second page is well displayed \u0026amp; the pagination number = page 2 / 18   Click on previous The first page is well displayed and the pagination number = page 1 /18   Change the items number to 100 per page Only one page is displayed (page 1 / 4)   Sort state by ID desc states are sorted by postion (353 -\u0026gt; 352 -\u0026gt; \u0026hellip;)   Sort state by name desc states are sorted by name ( z-\u0026gt; y -\u0026gt; \u0026hellip;)   Sort state by ISO code desc states are sorted by ISO code ( z-\u0026gt; y -\u0026gt; \u0026hellip;)   Sort state by zone desc states are sorted by zone ( z-\u0026gt; y -\u0026gt; \u0026hellip;)   Sort state by country desc states are sorted by country ( z-\u0026gt; y -\u0026gt; \u0026hellip;)    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/zones/bo-international-locations-zones-sort-and-pagination.html",
@@ -6605,7 +6605,7 @@
 	"title": "BO - Modules - Alerts tab - Upgrade",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Alerts tab - Upgrade "
+	"content": "BO - Modules - Alerts tab - Upgrade Steps    Step Description Expected result     On BO \u0026gt; Improve \u0026gt; Modules \u0026gt; Module Manager The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Click on Alerts The page title should contains \u0026lsquo;Module notifications\u0026rsquo;   Choose a modules than can be upgrade Click to upgrade A modal should appear with this text:\n{color:#414a56}\u0026ldquo;Are you sure you want to upgrade this module?{color}\nWe strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026quot;\nand with three buttons:\n-Cancel\n- Go to maintenance page\n- Upgrade anyway   Click to Upgrade anyway Upgrade action on module ps_checkpayment succeeded.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-upgrade.html",
@@ -7669,7 +7669,7 @@
 	"title": "Carriers",
 	"tags": [],
 	"description": "",
-	"content": "Carriers Tests  BO - Shipping - Carriers - Filter, sort, pagination   BO - Shipping - Carriers - CRUD   BO - Shipping - Carriers - Bulk actions   BO - Shipping - Carriers - Quick Edit status and free shipping   BO - Shipping - Carriers - Change position   BO - Shipping - Carriers - Install module   BO - Shipping - Carriers - Read more about module   "
+	"content": "Carriers Tests  BO - Shipping - Carriers - CRUD   BO - Shipping - Carriers - Filter, sort, pagination   BO - Shipping - Carriers - Bulk actions   BO - Shipping - Carriers - Quick Edit status and free shipping   BO - Shipping - Carriers - Change position   BO - Shipping - Carriers - Install module   BO - Shipping - Carriers - Read more about module   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart.html",
@@ -9363,7 +9363,7 @@
 	"title": "Preferences",
 	"tags": [],
 	"description": "",
-	"content": "Preferences Tests  BO - Payments - Preferences - Edit Currency restrictions (TODO)   BO - Payments - Preferences - Edit Group restrictions (TODO)   BO - Payments - Preferences - Edit Country restrictions   BO - Payments - Preferences - Edit Carrier restrictions   "
+	"content": "Preferences Tests  BO - Payments - Preferences - Edit Currency restrictions   BO - Payments - Preferences - Edit Group restrictions   BO - Payments - Preferences - Edit Country restrictions   BO - Payments - Preferences - Edit Carrier restrictions   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/preferences.html",
