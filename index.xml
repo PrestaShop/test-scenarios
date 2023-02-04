@@ -2837,7 +2837,7 @@ and click on &amp;ldquo;Save&amp;rdquo; The customer search display the new cust
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/payment/preferences/bo-payments-preferences-edit-group-restrictions.html</guid>
       <description>BO - Payments - Preferences - Edit Group restrictions Steps    Step Description Expected result     Go to BO &amp;gt; Payment &amp;gt; Preferences &amp;gt; Scroll to Group restrictions block Currency restrictions block is displayed
-All Payment methods are checked for all Groups    </description>
+All Payment methods are checked for all Groups   Click on Bank Transfer to uncheck the payment method for all groups &amp;gt; Save Message Successful update is displayed   Go to FO &amp;gt; Add product to cart &amp;gt; Process to checkout until Step 4 (Payment) See only 2 payments available : COD and Check   Go back to BO &amp;gt; Uncheck COD and Payment by check &amp;gt; Save Message Successful update is displayed   Go to FO &amp;gt; Refresh the page See only bank wire payment available    </description>
     </item>
     
     <item>
@@ -2864,7 +2864,7 @@ All Payment methods are checked for all Groups    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-filter-sort-pagination.html</guid>
-      <description>BO - Shipping - Carriers - Filter, sort, pagination Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Carriers the Carriers page is displayed    </description>
+      <description>BO - Shipping - Carriers - Filter, sort, pagination Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Carriers the Carriers page is displayed   Reset all filters All filters are reset. All carriers are displayed   Sort carrier by ID desc carriers are sorted by postion (4 -&amp;gt; 3 -&amp;gt; &amp;hellip;)   Filter by ID of carrier created carriers list is filtered by ID</description>
     </item>
     
     <item>
@@ -2873,7 +2873,9 @@ All Payment methods are checked for all Groups    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/preferences/bo-shipping-preferences-sort-by-order-by.html</guid>
-      <description>BO - Shipping - Preferences - Sort by Order By </description>
+      <description>BO - Shipping - Preferences - Sort by Order By Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Preferences the Preferences page is displayed   Go to Carrier options&amp;gt; change the sort by and order by
+&amp;gt; click save An alert &amp;ldquo;Update successful.&amp;rdquo; is displayed.   Go to FO&amp;gt;Cart&amp;gt;shipping method The order of shipping method is :
+* Click and collect</description>
     </item>
     
     <item>
@@ -4615,7 +4617,7 @@ The validation message is displayed successfully
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-bulk-actions.html</guid>
-      <description>BO - Shipping - Carriers - Bulk actions </description>
+      <description>BO - Shipping - Carriers - Bulk actions Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Carriers the Carriers page is displayed   Select All carriers and Click Bulck action &amp;gt; disable selection all them All filters are reset. All carriers are displayed   Select All carriers and Click Bulck action &amp;gt; enable selection all them An alert &amp;ldquo;The status has been successfully updated.</description>
     </item>
     
     <item>

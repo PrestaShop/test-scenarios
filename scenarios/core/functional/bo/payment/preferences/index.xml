@@ -23,7 +23,7 @@ Currency Euro is checked   Go to BO &amp;gt; International &amp;gt; Localization
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/payment/preferences/bo-payments-preferences-edit-group-restrictions.html</guid>
       <description>BO - Payments - Preferences - Edit Group restrictions Steps    Step Description Expected result     Go to BO &amp;gt; Payment &amp;gt; Preferences &amp;gt; Scroll to Group restrictions block Currency restrictions block is displayed
-All Payment methods are checked for all Groups    </description>
+All Payment methods are checked for all Groups   Click on Bank Transfer to uncheck the payment method for all groups &amp;gt; Save Message Successful update is displayed   Go to FO &amp;gt; Add product to cart &amp;gt; Process to checkout until Step 4 (Payment) See only 2 payments available : COD and Check   Go back to BO &amp;gt; Uncheck COD and Payment by check &amp;gt; Save Message Successful update is displayed   Go to FO &amp;gt; Refresh the page See only bank wire payment available    </description>
     </item>
     
     <item>
