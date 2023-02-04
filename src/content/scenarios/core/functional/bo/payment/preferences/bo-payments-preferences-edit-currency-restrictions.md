@@ -15,3 +15,4 @@ weight: 1
 | Go back to FO > Refresh > Check Pay by bank wire | Order can be placed |
 | Go back to BO > Payment > Preferences > Uncheck Bank Transfer and COD for Euro | Message Successful update is displayed |
 | Go back to Homepage FO > Change currency to Euro > Add product to cart > Proceed to checkout Until Step 4 | In step 4, only Payment by check is available |
+| Go back to BO > Check all boxed to make all currency available for every payment > Save | Message Successful update is displayed |
