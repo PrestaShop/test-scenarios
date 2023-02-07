@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1675665145" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1675665145" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1675665145" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1675665145" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1675665145" rel="stylesheet">
-    <link href="../../../../../../../style.css?1675665145" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1675751152" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1675751152" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1675751152" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1675751152" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1675751152" rel="stylesheet">
+    <link href="../../../../../../../style.css?1675751152" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1675665145"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1675751152"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38356,7 +38356,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---advanced-parameters---team---permissions---edit-menu">BO - Advanced Parameters - Team - Permissions - Edit (Menu)</a></li>
+    <li><a href="#bo---advanced-parameters---team---permissions---edit-menu">BO - Advanced Parameters - Team - Permissions - Edit (Menu)</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60176,14 +60180,61 @@
 
 
 <h1 id="bo---advanced-parameters---team---permissions---edit-menu">BO - Advanced Parameters - Team - Permissions - Edit (Menu)</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GO to BO &gt; Advanced Parameters &gt; Team &gt; Permissions</td>
+<td>SuperAdmin profile is displayed with message : Administrator permissions cannot be modified.</td>
+</tr>
+<tr>
+<td>Click on Logistician Profile</td>
+<td>2 blocks are displayed : Menu and Modules</td>
+</tr>
+<tr>
+<td>On Menu block &gt; Click on Check All twice</td>
+<td>Everything in Menu block is unchecked<br><br>Update successful message is displayed</td>
+</tr>
+<tr>
+<td>Click on the check buttons for View, Add, Edit and Delete.</td>
+<td>See that everything is checked for all lines<br><br>Update successful message is displayed</td>
+</tr>
+<tr>
+<td>Refresh the page</td>
+<td>See that all five columns are check (except for the line &ldquo;More&rdquo;)<br><br>Update successful message is displayed</td>
+</tr>
+<tr>
+<td>Click twice on All column to uncheck everything &gt; Click All for Orders</td>
+<td>See that everything is checked for lines : Sell, Orders, Catalog, Customers, Customer service and Stats<br><br>Update successful message is displayed</td>
+</tr>
+<tr>
+<td>Click on Translator Profile</td>
+<td>See these permissions already checked :<br>- Sell<br>- Catalog<br>- Products<br>- Categories<br>- Improve<br>- International<br>- Localization<br>- Localization<br>- Translations					<br>- Configure					<br>- Shop Parameters<br>- Search					<br>- Search</td>
+</tr>
+<tr>
+<td>Click on a few unchecked tickboxes</td>
+<td>Update successful message is displayed</td>
+</tr>
+<tr>
+<td>Refresh the page</td>
+<td>The tickboxed you checked should be saved</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 16, 2022
+  Last updated on February 7, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/94a97a7ce6ead35e5df5d9b8b2980ad70bcf4183">"[Update] JIRA XRay Tests" (94a97a7ce6)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/fae74073368d6552a6b94227a77c9393682029a6">"[Update] JIRA XRay Tests" (fae7407336)</a>
   
 </div>
 
@@ -60204,17 +60255,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1675665146"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1675665146"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1675665146"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1675665146"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1675665146"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1675665146"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1675665146"></script>
-    <script src="../../../../../../../js/learn.js?1675665146"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1675665146"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1675751152"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1675751152"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1675751152"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1675751152"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1675751152"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1675751152"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1675751152"></script>
+    <script src="../../../../../../../js/learn.js?1675751152"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1675751152"></script>
     
-    <script src="../../../../../../../main.js?1675665146"></script>
+    <script src="../../../../../../../main.js?1675751152"></script>
     
     
 
