@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Image Settings - Import Image type"
+title: "BO - Design - Image Settings - Import Image type - feature not integrated -"
 weight: 8
 ---
 
-# BO - Design - Image Settings - Import Image type
+# BO - Design - Image Settings - Import Image type - feature not integrated -
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
