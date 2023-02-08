@@ -163,7 +163,7 @@ If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs/bo-advanced-parameters-logs-filter-sort-pagination.html</guid>
-      <description>BO - Advanced Parameters - Logs - Filter sort pagination </description>
+      <description>BO - Advanced Parameters - Logs - Filter sort pagination Steps    Step Description Expected result     Go to BO&amp;gt;Advanced Parameters&amp;gt;Logs Page title contains &amp;lsquo;Logs&amp;rsquo;   Change the items number to 100 per page 4 pages are displayed and the pagination number = page 1 /4   Click on next The second page is well displayed &amp;amp; the pagination number = page 2 / 4   Click on previous The first page is well displayed and the pagination number = page 1 /4   Change the items number to 50 per page 8 pages are displayed and the pagination number = page 1 /8   Sort logs by ID desc logs are sorted by ID (3 -&amp;gt; 2 -&amp;gt; 1)   Sort logs by ID asc logs are sorted by ID (1 -&amp;gt; 2 -&amp;gt; 3)   Sort logs by Employee desc logs are sorted by Employee (z -&amp;gt; y -&amp;gt; x)   Sort logs by Employee asc logs are sorted by Employee (a -&amp;gt; b -&amp;gt; c)   Sort logs by Severity desc logs are sorted by Severity (4 -&amp;gt; 3 -&amp;gt; 2)   Sort logs by Severity asc logs are sorted by Severity (1 -&amp;gt; 2 -&amp;gt; 3)   Sort logs by Message desc logs are sorted by Message (z -&amp;gt; y -&amp;gt; x)   Sort logs by Message asc logs are sorted by Message (a -&amp;gt; b -&amp;gt; c)   Sort logs by Object type desc logs are sorted by Object type (4 -&amp;gt; 3 -&amp;gt; 2)   Sort logs by Object type asc logs are sorted by Object type (1 -&amp;gt; 2 -&amp;gt; 3)   Sort logs by Object ID desc logs are sorted by Object ID (4 -&amp;gt; 3 -&amp;gt; 2)   Sort logs by Object ID asc logs are sorted by Object ID (1 -&amp;gt; 2 -&amp;gt; 3)   Sort logs by Shop context desc logs are sorted by Shop context (z -&amp;gt; y -&amp;gt; x)   Sort logs by Shop context asc logs are sorted by Shop context (a -&amp;gt; b -&amp;gt; c)   Sort logs by Language asc logs are sorted by Language (a -&amp;gt; b -&amp;gt; c)   Sort logs by Language desc logs are sorted by Language (z -&amp;gt; y -&amp;gt; x)   Sort logs by Error code desc logs are sorted by Error code (4 -&amp;gt; 3 -&amp;gt; 2)   Sort logs by Error code asc logs are sorted by Error code (1 -&amp;gt; 2 -&amp;gt; 3)   Sort logs by Date asc logs are sorted by Date (2023 -&amp;gt; 2022 -&amp;gt; 2021)   Sort logs by Date desc logs are sorted by Date (2021 -&amp;gt; 2022 -&amp;gt; 2023)   Filter By id.</description>
     </item>
     
     <item>
@@ -2249,7 +2249,11 @@ number of backups = 1   generate new db backup Successful message is displayed</
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs/bo-advanced-parameters-logs-logs-by-email.html</guid>
-      <description>BO - Advanced Parameters - Logs - Logs by email </description>
+      <description>BO - Advanced Parameters - Logs - Logs by email Steps    Step Description Expected result     Go to BO&amp;gt;Advanced Parameters&amp;gt;Logs Page title contains &amp;lsquo;Logs&amp;rsquo;   Click to droplist Minimum severity level * None
+* Informative only
+* Warning
+* Error
+* Major issus (crash)!   Add a invalid email to &amp;ldquo;Send emails to&amp;rdquo; and Save Invalid email: demo@prestashop..   Add a valid email to &amp;ldquo;Send emails to&amp;rdquo; and Save Successful update    </description>
     </item>
     
     <item>
@@ -8404,12 +8408,12 @@ All products name contains the Searched Name   Click on the drop-down toggle and
     </item>
     
     <item>
-      <title>BO - Design - Image Settings - Delete Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-bulk-actions.html</link>
+      <title>BO - Design - Image Settings - Delete Bulk actions -  feature not integrated -</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-bulk-actions-feature-not-integrated.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-bulk-actions.html</guid>
-      <description>BO - Design - Image Settings - Delete Bulk actions Steps    Step Description Expected result     Do the Precondition &amp;ldquo;BO - Image Settings - Create an Image type random&amp;rdquo; four times You&amp;rsquo;ll have four new image type   * Clic on the checkbox next to the first two Image type create The checkbox should be checked next to them   * Clic on the &amp;ldquo;Bulk actions&amp;rdquo; Button</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-bulk-actions-feature-not-integrated.html</guid>
+      <description>BO - Design - Image Settings - Delete Bulk actions - feature not integrated - Steps    Step Description Expected result     Do the Precondition &amp;ldquo;BO - Image Settings - Create an Image type random&amp;rdquo; four times You&amp;rsquo;ll have four new image type   * Clic on the checkbox next to the first two Image type create The checkbox should be checked next to them   * Clic on the &amp;ldquo;Bulk actions&amp;rdquo; Button</description>
     </item>
     
     <item>
@@ -8862,12 +8866,12 @@ Message is displayed : Successful creation   In list, Filter By Email. Criteria 
     </item>
     
     <item>
-      <title>BO - Design - Image Settings - Import Image type</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-import-image-type.html</link>
+      <title>BO - Design - Image Settings - Import Image type - feature not integrated -</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-import-image-type-feature-not-integrated.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-import-image-type.html</guid>
-      <description>BO - Design - Image Settings - Import Image type Steps    Step Description Expected result     Clic on the &amp;ldquo;Generate theme image settings&amp;rdquo; button at the top right A modal should be displayed   Case : You don&amp;rsquo;t have yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have 0 image type   Case : You have yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a success message &amp;ldquo;The settings have been successfully updated&amp;rdquo; * You&amp;rsquo;ll have your image type   Case : You have the same yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have the same image type   Case : You have the same name on your image type but not the same size on your yml * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have the same image type   Case : You have the same size on your image type but not the same name on your yml * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a success message &amp;ldquo;The settings have been successfully updated&amp;rdquo; * You&amp;rsquo;ll have twice your image type    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-import-image-type-feature-not-integrated.html</guid>
+      <description>BO - Design - Image Settings - Import Image type - feature not integrated - Steps    Step Description Expected result     Clic on the &amp;ldquo;Generate theme image settings&amp;rdquo; button at the top right A modal should be displayed   Case : You don&amp;rsquo;t have yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have 0 image type   Case : You have yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a success message &amp;ldquo;The settings have been successfully updated&amp;rdquo; * You&amp;rsquo;ll have your image type   Case : You have the same yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have the same image type   Case : You have the same name on your image type but not the same size on your yml * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have the same image type   Case : You have the same size on your image type but not the same name on your yml * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a success message &amp;ldquo;The settings have been successfully updated&amp;rdquo; * You&amp;rsquo;ll have twice your image type    </description>
     </item>
     
     <item>
@@ -9182,7 +9186,7 @@ All the products contains the searched Name   Click on the drop-down toggle, cli
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options.html</guid>
-      <description>BO - Design - Image Settings - Image Generation options Steps    Step Description Expected result     Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;   Case : Your server support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be enable   Check the JPEG checkbox ( you should have 3 checkboxes checked ) You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo;   Case : Your server support Avif * Check The AVIF * Uncheck All other image&amp;rsquo;s format * The checkbox of AVIF should be greyed</description>
+      <description>BO - Design - Image Settings - Image Generation options Steps    Step Description Expected result     Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;</description>
     </item>
     
     <item>
@@ -9528,15 +9532,13 @@ All products contain the searched Name   Click on the drop-down toggle and click
     </item>
     
     <item>
-      <title>BO - Design - Image Settings - Autoupgrade 8.0 -&gt; 8.1 (or more)</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-autoupgrade-8-0-8-1-or-more.html</link>
+      <title>BO - Design - Image Settings - Image Generation on creation</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-on-creation.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-autoupgrade-8-0-8-1-or-more.html</guid>
-      <description>BO - Design - Image Settings - Autoupgrade 8.0 -&amp;gt; 8.1 (or more) Steps    Step Description Expected result     Case : Your image setting is set on : Use JPEG
-* Do the Autoupgrade from to 8.0 to 8.1 ( or more )
-* Go to BO &amp;gt; Design &amp;gt; Image Settings * You should have your shop in 8.1 (or more)
-* On your image settings your should have</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-on-creation.html</guid>
+      <description>BO - Design - Image Settings - Image Generation on creation Steps    Step Description Expected result     * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * JPEG should be greyed * You can&amp;rsquo;t unchecked the JPEG format   * Go to catalog &amp;gt; Product
+* Create a product with image You should have images on jpg and Webp on the folder [yourshop]/img/p/[idof your product]   * Go to catalog &amp;gt; Categories</description>
     </item>
     
     <item>
@@ -9676,6 +9678,18 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
 2. Description
 3. Code
 # Conditions:</description>
+    </item>
+    
+    <item>
+      <title>BO - Design - Image Settings - Delete all images format -  feature not integrated -</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-all-images-format-feature-not-integrated.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-all-images-format-feature-not-integrated.html</guid>
+      <description>BO - Design - Image Settings - Delete all images format - feature not integrated - Steps    Step Description Expected result     * Clic on the &amp;ldquo;Bulk actions&amp;rdquo; Button
+* Clic on &amp;ldquo;Select all&amp;rdquo;
+* Clic on the &amp;ldquo;Delete selected&amp;rdquo; button * You&amp;rsquo;ll have three other selection on the slide up &amp;ldquo;Select all&amp;rdquo;, &amp;ldquo;Unselect all&amp;rdquo; and &amp;ldquo;Delete selected&amp;rdquo;
+* A new modal named &amp;ldquo;Are your sure you want to delete this image seeting?</description>
     </item>
     
     <item>
