@@ -7,6 +7,8 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Add in the input<br><br>"Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit123456789&é"'(-è_çà)=+°&~#\{[|`\^@]}^$ù*!:;,<>?./§%µ¤²" | All the character should be visible |
-| Select a other carrier | the order message should not change |
+| In FO > Add a product to the cart > Proceed to checkout > Sign In with your customer | You are signed in<br><br>Step 2 (Addresses) of checkout process is displayed |
+| Choose an address > Continue | Step 3 of checkout process is displayed |
+| Choose a shipping method and add a text in the input text > continue | All the character should be visible |
+| click on edit button of step 3 > Select an other carrier | the order message should not change |
 | Click to Continue | You will need to be redirected to the payment tab |
