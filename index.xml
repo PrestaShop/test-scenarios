@@ -1531,8 +1531,8 @@ Click to Add to cart A modal should appear with the following information:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
-      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Add in the input
-&amp;ldquo;Morbi a metus. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nullam sapien sem, ornare ac, nonummy non, lobortis a, enim. Nunc tincidunt ante vitae massa. Duis ante orci, molestie vitae, vehicula venenatis, tincidunt ac, pede. Nulla accumsan, elit sit123456789&amp;amp;é&amp;rdquo;&#39;(-è_çà)=+°&amp;amp;~#{[ `^@]}^$ù*!:;,&amp;lt;&amp;gt;?./§%µ¤²&amp;quot;   Select a other carrier the order message should not change   Click to Continue You will need to be redirected to the payment tab    </description>
+      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     In FO &amp;gt; Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Sign In with your customer You are signed in
+Step 2 (Addresses) of checkout process is displayed   Choose an address &amp;gt; Continue Step 3 of checkout process is displayed   Choose a shipping method and add a text in the input text &amp;gt; continue All the character should be visible   click on edit button of step 3 &amp;gt; Select an other carrier the order message should not change   Click to Continue You will need to be redirected to the payment tab    </description>
     </item>
     
     <item>
@@ -2868,7 +2868,7 @@ All Payment methods are checked for all Groups   Click on Bank Transfer to unche
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-filter-sort-pagination.html</guid>
-      <description>BO - Shipping - Carriers - Filter, sort, pagination Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Carriers the Carriers page is displayed   Reset all filters All filters are reset. All carriers are displayed   Sort carrier by ID desc carriers are sorted by postion (4 -&amp;gt; 3 -&amp;gt; &amp;hellip;)   Filter by ID of carrier created carriers list is filtered by ID</description>
+      <description>BO - Shipping - Carriers - Filter, sort, pagination Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Carriers the Carriers page is displayed   Reset all filters All filters are reset. All carriers are displayed   Sort carrier by ID desc carriers are sorted by ID (4 -&amp;gt; 3 -&amp;gt; &amp;hellip;)   Sort carrier by ID asc carriers are sorted by ID (1 -&amp;gt; 2 -&amp;gt; &amp;hellip;)   Filter by ID of carrier created carriers list is filtered by ID</description>
     </item>
     
     <item>
@@ -4621,7 +4621,8 @@ The validation message is displayed successfully
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-bulk-actions.html</guid>
-      <description>BO - Shipping - Carriers - Bulk actions Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Carriers the Carriers page is displayed   Select All carriers and Click Bulck action &amp;gt; disable selection all them All filters are reset. All carriers are displayed   Select All carriers and Click Bulck action &amp;gt; enable selection all them An alert &amp;ldquo;The status has been successfully updated.</description>
+      <description>BO - Shipping - Carriers - Bulk actions Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Carriers the Carriers page is displayed   Select All carriers and Click Bulck action &amp;gt; disable selection all them The status has been successfully updated.
+All filters are reset. All carriers are displayed   Select All carriers and Click Bulck action &amp;gt; enable selection all them An alert &amp;ldquo;The status has been successfully updated.</description>
     </item>
     
     <item>
@@ -4630,7 +4631,7 @@ The validation message is displayed successfully
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/preferences/bo-shipping-preferences-default-carrier.html</guid>
-      <description>BO - Shipping - Preferences - Default carrier </description>
+      <description>BO - Shipping - Preferences - Default carrier Steps    Step Description Expected result     Go to BO&amp;gt;Shipping &amp;gt; Preferences the Preferences page is displayed   Go to Carrier options&amp;gt; change the Default carrier&amp;gt; click save An alert &amp;ldquo;Update successful.&amp;rdquo; is displayed.   Go to FO&amp;gt;Cart&amp;gt;shipping method The default shipping method is : My cheap carrier   Go to Carrier options&amp;gt; change the Default carrier&amp;gt; click save An alert &amp;ldquo;Update successful.</description>
     </item>
     
     <item>
