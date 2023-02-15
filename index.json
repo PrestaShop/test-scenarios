@@ -4564,6 +4564,13 @@
 	"content": "BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links (TODO) "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-enable-disable-accented-url.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Enable, disable accented URL",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Enable, disable accented URL "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-cashondelivery/installation/cash-on-delivery-cod-module-reset-module.html",
 	"title": "Cash on delivery (COD) module - Reset module",
 	"tags": [],
@@ -4632,13 +4639,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Enable B2B mode (TODO) "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/enable-disable-accented-url-todo.html",
-	"title": "Enable, disable accented URL (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "Enable, disable accented URL (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/configuration/enable-disable-anonymization-of-the-user-s-last-name.html",
@@ -5334,18 +5334,18 @@
 	"content": "BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-bulk-actions.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Bulk actions",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Bulk actions "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-view-my-shop.html",
 	"title": "BO - View my shop",
 	"tags": [],
 	"description": "",
 	"content": "BO - View my shop Steps    Step Description Expected result     Click on View my shop FO is displayed in another tab    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bulk-actions.html",
-	"title": "Bulk actions",
-	"tags": [],
-	"description": "",
-	"content": "Bulk actions "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-cashondelivery/installation/cash-on-delivery-cod-module-disable-enable-module.html",
@@ -6370,6 +6370,13 @@
 	"content": "BO - Shop Parameters - Product Settings - Default pack stock management "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-set-up-urls.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Set up URLs",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Set up URLs "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-csv-export-by-country-is-working.html",
 	"title": "Check that the CSV export by country is working",
 	"tags": [],
@@ -6459,13 +6466,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Mail alerts module - Reset module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Reset\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Reset module?\u0026quot;\n* Description: \u0026ldquo;You\u0026rsquo;re about to reset Mail alerts module.\nThis will restore the defaults settings.\nThis action cannot be undone.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, reset it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module * The \u0026ldquo;Configure\u0026rdquo; page is displayed\n* There are 2 sections: \u0026ldquo;Customer notifications\u0026rdquo; and \u0026ldquo;Merchant notifications\u0026rdquo;\n* In \u0026ldquo;Customer notifications\u0026rdquo; section, \u0026ldquo;Product availability\u0026rdquo; switch button is set to \u0026ldquo;Yes\u0026rdquo; by default   Change \u0026ldquo;Product availability\u0026rdquo; switch button is set to \u0026ldquo;No\u0026rdquo; for example \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;Settings updated successfully\u0026rdquo; is displayed   Go back to Modules \u0026gt; Module manager \u0026gt; Module list page with ps_emailalerts module displayed \u0026gt; Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Reset\u0026rdquo; option * The module page list should be displayed and module ps_emailalerts should be displayed on the list\n* The modal is open again with the same informations (Title / Description / 2 buttons)   Click on \u0026ldquo;Yes, reset it\u0026rdquo; button to confirm the reset of the module After loading, a green message \u0026ldquo;Reset action on module ps_emailalerts succeeded.\u0026rdquo; is displayed   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module * The \u0026ldquo;Configure\u0026rdquo; page is displayed\n* \u0026ldquo;Product availability\u0026rdquo; switch button is reseted to \u0026ldquo;Yes\u0026rdquo; (default value of the module)    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/set-ups-urls.html",
-	"title": "Set ups Urls",
-	"tags": [],
-	"description": "",
-	"content": "Set ups Urls "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/uninstall-and-delete.html",
@@ -6664,6 +6664,13 @@
 	"content": "BO - Shop Parameters - Order Settings - Page for terms and conditions Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; in dropdown of Page for terms and conditions, choose page Secure Payment \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; appears   Go to FO \u0026gt; Add a product to cart \u0026gt; Checkout until step 4 - Payment \u0026gt; Click link \u0026ldquo;Terms of service\u0026rdquo; Popup opens with content of page \u0026ldquo;Secure Payment\u0026rdquo;   Go to BO \u0026gt; Design \u0026gt; Pages \u0026gt; Add a new page \u0026gt; Fill fields \u0026gt; Save New page is created\nMessage \u0026ldquo;Successful creation.\u0026rdquo;   Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; in dropdown of Page for terms and conditions, choose newly created page \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; appears   Go to FO \u0026gt; Add a product to cart \u0026gt; Checkout until step 4 - Payment \u0026gt; Click link \u0026ldquo;Terms of service\u0026rdquo; Popup opens with content of page \u0026ldquo;terms\u0026rdquo;    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-set-shop-url.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Set shop URL",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Set shop URL "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-csv-export-by-subscriber-is-working.html",
 	"title": "Check that the CSV export by subscriber is working",
 	"tags": [],
@@ -6739,13 +6746,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Reset symbol / format settings Steps    Step Description Expected result     Go to International \u0026gt; Localization \u0026gt; Currencies \u0026gt; Edit the currency \u0026gt; Click Edit symbol / format Popup opens with 2 steps   Add symbol of your choice + choose format \u0026gt; Apply Popup disappears and List of currencies will be updated   Click Save List of currencies is updated with new Symbol   Edit the currency \u0026gt; Click the round arrow to Reset it Currency should be reset\nMessage \u0026ldquo;Your symbol and format customizations have been successfully reset for this language.\u0026rdquo; appears   Click Save Symbol is reset in the List of currencies Message \u0026ldquo;Successful update\u0026rdquo; appears    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/set-shop-url.html",
-	"title": "Set shop URL",
-	"tags": [],
-	"description": "",
-	"content": "Set shop URL "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/upgrade/fo-upgrade-from-1-7-4-to-last-build-and-then-exploratory-test-on-fo.html",
@@ -6979,6 +6979,13 @@
 	"content": "BO - Recommended modules for the page Steps    Step Description Expected result     Go to BO \u0026gt; Migrated page like Orders, Products, Customers, etc    Click on button Recommended Modules and Services Popup will open with multiple choices of Modules   Click install on the module of your choice Message Install action on module XXX succeeded. appears\nWhen installed, button will transform to a Configure button   Click on the button Configure The page will refresh with the configuration page of the module   Click previous on browser Previous page will open   Click again on the button Recommended Modules and Services You will see 2 tabs, one \u0026ldquo;Not installed\u0026rdquo;, one \u0026ldquo;Installed\u0026rdquo;   Go to Installed modules tabs \u0026gt; Click on the dropdown arrow and uninstalled your module Message Uninstall action on module XXX succeeded. appears\nThe module is uninstalled   Click on in information addons link New page will open with addons marketplace   Go to a non-migrated page like Customer Service \u0026gt; Click on recommended Modules and Services \u0026gt; Install a module Message Notice! Install action on module XXX succeeded. appears\nModule is well installed   Disable the module you just created Message notice! Disable action on module sendinblue succeeded. appears\nModule is disabled   Click on a service with button Discover A page of the service will open in another tab    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-seo-options.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - SEO Options",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - SEO Options "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-in-create-order-the-currency-available.html",
 	"title": "Check in create order the currency available",
 	"tags": [],
@@ -7019,13 +7026,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Mail alerts module - Merchant notifications - Configure email addresses Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module * The \u0026ldquo;Configure\u0026rdquo; page is displayed\n* There are 2 sections: \u0026ldquo;Customer notifications\u0026rdquo; and \u0026ldquo;Merchant notifications\u0026rdquo;\n* On \u0026ldquo;Merchant notifications\u0026rdquo;: \u0026ldquo;Email addresses\u0026rdquo; is set with your email by default (xx@xx.com)   Go to Catalog \u0026gt; Products (open it in a new tab) \u0026gt; Click on the product created to go to its product details page (pre-condition) \u0026gt; On \u0026ldquo;Basic settings\u0026rdquo; tab, set 2 in \u0026ldquo;Quantity field \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;Settings updated.\u0026rdquo; is displayed   Go to your email (pre-condition) \u0026gt; Check email received The \u0026ldquo;Product out of stock\u0026rdquo; email is sent at your email saved: xx@xx.com   Go back to BO, on \u0026ldquo;Configure\u0026rdquo; page of the module \u0026gt; Add a new address below the first one \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A successful message \u0026ldquo;Settings updated successfully\u0026rdquo; is displayed\n* Both emails are saved in \u0026ldquo;Email addresses\u0026rdquo; field   Go to back to your product details page tab \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button without change nothing A successful message \u0026ldquo;Settings updated.\u0026rdquo; is displayed   Go to your email (pre-condition) \u0026gt; Check email received The \u0026ldquo;Product out of stock\u0026rdquo; email is sent at your email saved: * [xx@xx.com   Go back to BO, on \u0026ldquo;Configure\u0026rdquo; page of the module \u0026gt; Add a new address beside the first one \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button An error message \u0026ldquo;Invalid email: xx@xx.com tt@tt.com\u0026rdquo; is displayed   Add a new address beside the first one with a \u0026ldquo;,\u0026rdquo; between those addresses \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;Settings updated.\u0026rdquo; is displayed   Go to back to your product details page tab \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button without change nothing A successful message \u0026ldquo;Settings updated.\u0026rdquo; is displayed   Go to your email (pre-condition) \u0026gt; Check email received The \u0026ldquo;Product out of stock\u0026rdquo; email is sent at your email saved: * [xx@xx.com   Go back to BO, on \u0026ldquo;Configure\u0026rdquo; page of the module \u0026gt; Replace the first email by another incorrect one \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button An error message \u0026ldquo;Invalid email: ee@ff.\u0026rdquo; is displayed   Replace the incorrect one by some numbers or text without\u0026rdquo;@\u0026quot; \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button An error message \u0026ldquo;Invalid email: 12345\u0026rdquo; or \u0026ldquo;Invalid email: test\u0026rdquo; is displayed   Replace the incorrect one by any specific characters \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button An error message \u0026ldquo;Invalid email: **¨¨^^@\u0026rdquo; is displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/update-seo-options.html",
-	"title": "Update SEO Options",
-	"tags": [],
-	"description": "",
-	"content": "Update SEO Options "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/upgrade/fo-upgrade-from-1-7-6-to-last-build-and-then-exploratory-test-on-fo.html",
@@ -7189,6 +7189,13 @@
 	"content": "BO - Orders - Help Button Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders\u0026quot; page\u0026quot; Orders listing is displayed correctly   Open the help sidebar The help sidebar is opened successfully\nThe document language is English   Close the help sidebar The help sidebar is closed successfully    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-help-card.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Help card",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Help card "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-access-to-the-orders.html",
 	"title": "Check access to the orders",
 	"tags": [],
@@ -7222,13 +7229,6 @@
 	"tags": [],
 	"description": "",
 	"content": "FO - Product Page - Write a review Steps    Step Description Expected result     Go to prestashop FO and login Logged in   Go to prestashop homepage Prestashop homepage is displayed   Go to a product detail page product detail page is displayed   Click on the \u0026ldquo;be the first to write your review\u0026rdquo; button A modal is displayed   In the modal add:\n# a number of stars for the notation\n# a title for the review\n# a content for the review\nThen click on \u0026ldquo;send\u0026rdquo; button the modal closes and another modal opens.\nThe new modal contains the following information:\n# a confirmation message \u0026ldquo;review sent\u0026rdquo;\n# an informational message \u0026ldquo;Your comment has been submitted and will be available once approved by a moderator.\u0026quot;\n# an \u0026ldquo;ok\u0026rdquo; button to close the modal   In the new modal, click on the \u0026ldquo;OK\u0026rdquo; button The modal is closed and we are on the product detail page   logout from FO logged out   Go to the prestashop BO and login logged in and the BO dashboard page is displayed   Go to the module manager page module manager page is displayed   in the searchbar, search for the \u0026ldquo;product comments\u0026rdquo; module the product comment module is displayed   click on the \u0026ldquo;configure\u0026rdquo; button Redirected to the \u0026ldquo;product comment\u0026rdquo; module configuration page   In the \u0026ldquo;reviews waiting for approval\u0026rdquo; section, check if the review made in FO is visible and the content is correct The review is in the table and the information (rating, review title, review content) are correct   Click on the \u0026ldquo;approve\u0026rdquo; button refresh of the page and the review is now visible in the \u0026ldquo;approved review\u0026rdquo; table   logout from BO Logged out   Go to the FO and login logged in   go to the product page for which we left a comment in the previous steps the product page is displayed   check the comment section the comment we just approved is visible and the content is correct   Go back to the BO and delete the review The review is deleted and is not visible anymore in FO    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/seo-and-urls-help-card.html",
-	"title": "SEO and URLS - Help card",
-	"tags": [],
-	"description": "",
-	"content": "SEO and URLS - Help card "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html",
@@ -9720,7 +9720,7 @@
 	"title": "Seo and Urls",
 	"tags": [],
 	"description": "",
-	"content": "Seo and Urls Tests  Filter Seo Pages   CRUD Seo page   Enable, disable friendly URL (TODO)   Enable, disable accented URL (TODO)   Bulk actions   Sort and pagination   Set ups Urls   Set shop URL   Update Schema of URLs   Update SEO Options   Generate Robots.txt file   SEO and URLS - Help card   "
+	"content": "Seo and Urls Tests  Filter Seo Pages   CRUD Seo page   Enable, disable friendly URL (TODO)   BO - Shop Parameters - SEO \u0026amp; URLs - Enable, disable accented URL   BO - Shop Parameters - SEO \u0026amp; URLs - Bulk actions   Sort and pagination   BO - Shop Parameters - SEO \u0026amp; URLs - Set up URLs   BO - Shop Parameters - SEO \u0026amp; URLs - Set shop URL   Update Schema of URLs   BO - Shop Parameters - SEO \u0026amp; URLs - SEO Options   Generate Robots.txt file   BO - Shop Parameters - SEO \u0026amp; URLs - Help card   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping.html",
