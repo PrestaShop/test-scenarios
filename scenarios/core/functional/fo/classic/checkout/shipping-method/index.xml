@@ -12,8 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
-      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     In FO &amp;gt; Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Sign In with your customer You are signed in
-Step 2 (Addresses) of checkout process is displayed   Choose an address &amp;gt; Continue Step 3 of checkout process is displayed   Choose a shipping method and add a text in the input text &amp;gt; continue All the character should be visible   click on edit button of step 3 &amp;gt; Select an other carrier the order message should not change   Click to Continue You will need to be redirected to the payment tab    </description>
+      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are logged in   Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Add an address &amp;gt; Continue Step 3 - Shipping method is displayed   Add a comment about your order &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method &amp;gt; Select another carrier &amp;gt; Continue See that the message is well saved and has not changed</description>
     </item>
     
     <item>
@@ -22,12 +21,7 @@ Step 2 (Addresses) of checkout process is displayed   Choose an address &amp;gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</guid>
-      <description>FO - Checkout - Shipping method - Select a carrier Steps    Step Description Expected result     with a delivery address in Europe I should only see carriers that deliver to Europe
-for each deliverer I need to see:
-* a logo
-* a name
-* a delay
-* the price of shipping   Select a carrier with Free Shipping Shipping should be &amp;ldquo;Free&amp;rdquo; at checkout   Select a carrier without Free Shipping Shipping prices should be visible at checkout &amp;ldquo;Shipping&amp;rdquo;</description>
+      <description>FO - Checkout - Shipping method - Select a carrier Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are now logged in   Click on a product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 2 of checkout process is displayed : Addresses   Choose My address (Address in the US) &amp;gt; Continue Step 3 - Shipping method is displayed.</description>
     </item>
     
     <item>

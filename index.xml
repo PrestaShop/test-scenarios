@@ -1531,8 +1531,7 @@ Click to Add to cart A modal should appear with the following information:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
-      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     In FO &amp;gt; Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Sign In with your customer You are signed in
-Step 2 (Addresses) of checkout process is displayed   Choose an address &amp;gt; Continue Step 3 of checkout process is displayed   Choose a shipping method and add a text in the input text &amp;gt; continue All the character should be visible   click on edit button of step 3 &amp;gt; Select an other carrier the order message should not change   Click to Continue You will need to be redirected to the payment tab    </description>
+      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are logged in   Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Add an address &amp;gt; Continue Step 3 - Shipping method is displayed   Add a comment about your order &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method &amp;gt; Select another carrier &amp;gt; Continue See that the message is well saved and has not changed</description>
     </item>
     
     <item>
@@ -3380,7 +3379,7 @@ Click on it, a new page for Twitter site is open    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-sign-in.html</guid>
-      <description>FO - Checkout - Personal Information - Sign in Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
+      <description>FO - Checkout - Personal Information - Sign in Steps    Step Description Expected result     Go to FO &amp;gt; Click on product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 1 of checkout process is displayed : Personal Information   Click on Sign in &amp;gt; Enter email + password &amp;gt; Click on Continue Error message Authentication failed. is displayed   Enter a correct combination of email + password &amp;gt; Click on Continue Step 2 - Addresses is displayed   Click on Edit button of Step 1 &amp;gt; Continue The page shows Step 1 :</description>
     </item>
     
     <item>
@@ -3389,12 +3388,7 @@ Click on it, a new page for Twitter site is open    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</guid>
-      <description>FO - Checkout - Shipping method - Select a carrier Steps    Step Description Expected result     with a delivery address in Europe I should only see carriers that deliver to Europe
-for each deliverer I need to see:
-* a logo
-* a name
-* a delay
-* the price of shipping   Select a carrier with Free Shipping Shipping should be &amp;ldquo;Free&amp;rdquo; at checkout   Select a carrier without Free Shipping Shipping prices should be visible at checkout &amp;ldquo;Shipping&amp;rdquo;</description>
+      <description>FO - Checkout - Shipping method - Select a carrier Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are now logged in   Click on a product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 2 of checkout process is displayed : Addresses   Choose My address (Address in the US) &amp;gt; Continue Step 3 - Shipping method is displayed.</description>
     </item>
     
     <item>
@@ -7380,7 +7374,7 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-password-reminder.html</guid>
-      <description>FO - Checkout - Personal Information - Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
+      <description>FO - Checkout - Personal Information - Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 1 of checkout process is displayed : Personal Information   Click on Sign in &amp;gt; Click on Forgot your password? The Reset your password page is displayed   Enter a random email address &amp;gt; Send reset link Success alert is displayed :</description>
     </item>
     
     <item>
