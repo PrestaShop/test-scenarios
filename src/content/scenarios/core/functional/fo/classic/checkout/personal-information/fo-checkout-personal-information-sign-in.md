@@ -7,10 +7,8 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO > Click on product | The product is displayed |
-| Click on ADD TO CART | The pop-up of PROCEED TO CHECKOUT is well displayed |
-| Click on PROCEED TO CHECKOUT | The SHOPPING CART is well displayed |
-| Click on PROCEED TO CHECKOUT | The PERSONAL INFORMATION is well displayed. |
-| Fill the *Sign in* form and click on CONTINUE | The step 2 :ADDRESSES page is displayed |
-| Click EDIT step 1 and CONTINUE | the page show <br> * Connected as [John DOE|http://127.0.0.1:8081/develop/en/identity]..<br> * Not you? [Log out|http://127.0.0.1:8081/develop/en/?mylogout=]<br><br>_If you sign out now, your cart will be emptied._ |
-| Click on logout | The page show <br>_There are no more items in your cart_ |
+| Go to FO > Click on product > Add to cart > Proceed to checkout > Proceed to checkout | Step 1 of checkout process is displayed : Personal Information |
+| Click on Sign in > Enter email + password > Click on Continue | Error message Authentication failed. is displayed |
+| Enter a correct combination of email + password > Click on Continue | Step 2 - Addresses is displayed |
+| Click on Edit button of Step 1 > Continue | The page shows Step 1 :<br> * Connected as [John DOE|http://127.0.0.1:8081/develop/en/identity].<br> * Not you? [Log out|http://127.0.0.1:8081/develop/en/?mylogout=]<br><br>_If you sign out now, your cart will be emptied._ |
+| Click on Log out | You are now logged out.<br><br>The cart is displayed :<br> _There are no more items in your cart_ |

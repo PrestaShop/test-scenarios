@@ -7,7 +7,10 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| with a delivery address in Europe | I should only see carriers that deliver to Europe<br><br>for each deliverer I need to see:<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping |
-| Select a carrier with Free Shipping | Shipping should be "Free" at checkout |
-| Select a carrier without Free Shipping | Shipping prices should be visible at checkout "Shipping"<br><br>The amount of the shipping price must be added to the total amount |
-| with a delivery address in North America | I should only see carriers that deliver to North America<br><br>for each deliverer I need to see:<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping |
+| Go to FO > Log into your customer account | You are now logged in |
+| Click on a product > Add to cart > Proceed to checkout > Proceed to checkout | Step 2 of checkout process is displayed : Addresses |
+| Choose My address (Address in the US) > Continue | Step 3 - Shipping method is displayed.<br><br>Only My _carrier_ is displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping |
+| Click on Continue | Step 4 is displayed with alert : Unfortunately, there is no payment method available.<br><br>You can't proceed to checkout |
+| Click the Edit button on Step 2 - Addresses > Choose "Mon adresse" is checked (address in France) > Continue | Step 3 - Shipping method is displayed.<br><br>_Click and collect_ and _My carrier_ are displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping |
+| Choose Click and collect > Continue | Step 4 - Payment is displayed |
+| Choose Payment by bank wire > Agree to the terms and conditions > Place order | YOUR ORDER IS CONFIRMED |
