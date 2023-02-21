@@ -1531,7 +1531,7 @@ Click to Add to cart A modal should appear with the following information:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
-      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are logged in   Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Add an address &amp;gt; Continue Step 3 - Shipping method is displayed   Add a comment about your order &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method &amp;gt; Select another carrier &amp;gt; Continue See that the message is well saved and has not changed</description>
+      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are logged in   Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Add an address &amp;gt; Continue Step 3 - Shipping method is displayed   Add a comment about your order &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method &amp;gt; Select another carrier &amp;amp; edit message &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method See that the message is well saved and has not changed   Continue &amp;gt; Choose a payment method &amp;gt; Agree to terms and conditions &amp;gt; Place order YOUR ORDER IS CONFIRMED   Click on your account in top-right corner &amp;gt; Order history and details &amp;gt; Details &amp;gt; Scroll down to block Messages See your message is displayed correctly    </description>
     </item>
     
     <item>
@@ -7763,7 +7763,10 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-actions.html</guid>
-      <description>BO - Design - Image Settings - Delete actions Steps    Step Description Expected result     Do the Precondition &amp;ldquo;BO - Image Settings - Create an Image type random&amp;rdquo; twice You&amp;rsquo;ll have two new image type   * Clic on the down arrow next to the first Image type create * An other button should be dropped down   * Clic on the &amp;ldquo;Delete&amp;rdquo; button * A new modal named &amp;ldquo;Are your sure you want to delete this image seeting?</description>
+      <description>BO - Design - Image Settings - Delete actions Steps    Step Description Expected result     * Do the Precondition &amp;ldquo;BO - Image Settings - Create an Image type random&amp;rdquo; twice
+* Scroll down and click on &amp;ldquo;Regenerate thumbnails&amp;rdquo;
+* Clic on &amp;ldquo;Regenerate&amp;rdquo; on the modal * You&amp;rsquo;ll have two new image type
+* You&amp;rsquo;ll have a new modal * You&amp;rsquo;ll have products on the new format in [nameofyourshop]/img/p if you setup your image type for product   * Clic on the down arrow next to the first Image type create * An other button should be dropped down   * Clic on the &amp;ldquo;Delete&amp;rdquo; button * A new modal named &amp;ldquo;Are your sure you want to delete this image seeting?</description>
     </item>
     
     <item>
