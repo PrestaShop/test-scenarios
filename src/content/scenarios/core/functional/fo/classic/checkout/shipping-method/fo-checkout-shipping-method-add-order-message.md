@@ -10,7 +10,7 @@ weight: 1
 | Go to FO > Log into your customer account | You are logged in |
 | Add a product to the cart > Proceed to checkout > Proceed to checkout  > Add an address > Continue | Step 3 - Shipping method is displayed |
 | Add a comment about your order > Continue | Step 4 - Payment is displayed |
-| Click on edit button of Step 3 - Shipping method > Select another carrier > Continue | See that the message is well saved and has not changed<br><br>Step 4 - Payment is displayed |
+| Click on edit button of Step 3 - Shipping method > Select another carrier & edit message > Continue | Step 4 - Payment is displayed |
 | Click on edit button of Step 3 - Shipping method | See that the message is well saved and has not changed |
 | Continue > Choose a payment method > Agree to terms and conditions > Place order | YOUR ORDER IS CONFIRMED |
 | Click on your account in top-right corner > Order history and details > Details > Scroll down to block Messages | See your message is displayed correctly |
