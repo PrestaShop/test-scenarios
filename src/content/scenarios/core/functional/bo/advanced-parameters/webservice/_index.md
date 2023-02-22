@@ -1,9 +1,9 @@
 ---
-title: Webservice1
-menuTitle: Webservice1
+title: Webservice
+menuTitle: Webservice
 chapter: true
 ---
 
-# Webservice1
+# Webservice
 
 {{% children titlePages="Tests" titleSections="Categories" %}}
