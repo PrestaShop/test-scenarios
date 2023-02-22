@@ -154,7 +154,7 @@
 	"content": "BO - Advanced parameters - Team - Profiles - Filter Steps    Step Description Expected result     go to \u0026lsquo;Advanced parameters \u0026gt; Team \u0026gt; Profiles\u0026rsquo; page title contains \u0026lsquo;Profiles\u0026rsquo;   reset filter Total of profiles after reset = Total of profiles   Filter by id_profile\nvalue 4\u0026quot; Number of profiles \u0026lt; Total of profiles\nall rows column \u0026lsquo;id_profile\u0026rsquo; contains \u0026lsquo;4\u0026rsquo;   reset filter Total of profiles after reset = Total of profiles   Filter by name\nvalue Logistician\u0026quot; Number of profiles \u0026lt; Total of profiles\nall rows column \u0026lsquo;name\u0026rsquo; contains \u0026lsquo;Logistician\u0026rsquo;   reset filter Total of profiles after reset = Total of profiles    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-filter-sort-pagination.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-filter-sort-pagination.html",
 	"title": "BO - Advanced Parameters - Webservice - Filter sort pagination",
 	"tags": [],
 	"description": "",
@@ -1526,6 +1526,13 @@
 	"content": "Upgrade Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager and search ps_dataprivacy The module page should be displayed and module ps_dataprivacy should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-faviconnotificationbo/installation/upgrade.html",
+	"title": "Upgrade",
+	"tags": [],
+	"description": "",
+	"content": "Upgrade "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts/installation/upgrade.html",
 	"title": "Upgrade",
 	"tags": [],
@@ -1694,7 +1701,7 @@
 	"content": "BO - Advanced parameters - Team - Profiles - CRUD Steps    Step Description Expected result     go to \u0026lsquo;Advanced parameters \u0026gt; Team \u0026gt; Profiles\u0026rsquo; page title contains \u0026lsquo;Profiles\u0026rsquo;   reset filter Total of profiles \u0026gt; 0   go to add new profile title contains \u0026lsquo;Add new\u0026rsquo;   create profile\nCriteria :\nname: faker.name.jobType() from faker Successful message is displayed\nNumber of profiles = Total of profiles + 1   Filter list by new name Number of profiles \u0026lt; Total of profiles + 1\nall rows column \u0026lsquo;name\u0026rsquo; contain the new name   Go to edit profile page title contains \u0026lsquo;Edit\u0026rsquo;   update profile\nCriteria :\nname: faker.name.jobType() from faker Successful message is displayed\nNumber of profiles = Total of profiles + 1   Filter list by new name Number of profiles \u0026lt; Total of profiles + 1\nall rows column \u0026lsquo;name\u0026rsquo; contain the updated name   Delete profile Successful message is displayed\nNumber of profiles = Total of profiles   reset filter Total of profiles \u0026gt; 0    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-crud-todo.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-crud-todo.html",
 	"title": "BO - Advanced Parameters - Webservice - CRUD (TODO)",
 	"tags": [],
 	"description": "",
@@ -2772,6 +2779,13 @@
 	"content": "TLS Check Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without HTTPS Receive a response where the HTTP code is 301\nRedirect to the endpoint in HTTPS   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.0 with a valid access token Receive a response where the HTTP code is 426\nReceive a response where the header “Upgrade” is present   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.1 with a valid access token Receive a response where the HTTP code is 426\nReceive a response where the header “Upgrade” is present   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.2 with a valid access token Receive a response where the HTTP code is 200   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.3 with a valid access token Receive a response where the HTTP code is 200    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-faviconnotificationbo/installation/uninstall-install.html",
+	"title": "Uninstall / Install",
+	"tags": [],
+	"description": "",
+	"content": "Uninstall / Install "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-and-delete.html",
 	"title": "Uninstall and delete",
 	"tags": [],
@@ -2996,7 +3010,7 @@
 	"content": "BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-bulk-actions.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-bulk-actions.html",
 	"title": "BO - Advanced Parameters - Webservice - Bulk actions",
 	"tags": [],
 	"description": "",
@@ -4004,6 +4018,13 @@
 	"content": "Uninstall and delete Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manger and search ps_dataprivacy The module page should be displayed and module ps_dataprivacy should appear in the module page   Click on uninstall\u0026quot; and confirm the deletion message by clicking on ok\u0026quot; A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-faviconnotificationbo/installation/uninstall-and-delete.html",
+	"title": "Uninstall and delete",
+	"tags": [],
+	"description": "",
+	"content": "Uninstall and delete "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts/installation/uninstall-and-delete.html",
 	"title": "Uninstall and delete",
 	"tags": [],
@@ -4165,7 +4186,7 @@
 	"content": "BO - Advanced parameters - Team - Profiles - Sort pagination "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-quick-edit-enable-disable.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-quick-edit-enable-disable.html",
 	"title": "BO - Advanced Parameters - Webservice - Quick edit enable/disable",
 	"tags": [],
 	"description": "",
@@ -5019,7 +5040,7 @@
 	"content": "BO - Advanced parameters - Team - Profiles - Help card "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-configuration.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-configuration.html",
 	"title": "BO - Advanced Parameters - Webservice - Configuration",
 	"tags": [],
 	"description": "",
@@ -5635,7 +5656,7 @@
 	"content": "BO - Advanced parameters - Team - Employees - Help card Steps    Step Description Expected result     Go to BO \u0026gt; Advanced Parameters \u0026gt; Team \u0026gt; Employee page The employee page is well displayed   Click on the Help button The help side bar is well displayed and the document is displayed in the English language   Close the panel by clicking the Help button again Help Panel is closed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1/bo-advanced-parameters-webservice-help-card.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-help-card.html",
 	"title": "BO - Advanced Parameters - Webservice - Help card",
 	"tags": [],
 	"description": "",
@@ -6797,11 +6818,11 @@
 	"content": "BO - Customers - View/edit voucher "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options.html",
-	"title": "BO - Design - Image Settings - Image Generation options",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-automated-version.html",
+	"title": "BO - Design - Image Settings - Image Generation options - automated version",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Image Settings - Image Generation options Steps    Step Description Expected result     Case : Your server doesn\u0026rsquo;t support Avif * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be disable * You\u0026rsquo;ll see an error message next to the Avif : \u0026ldquo;Your server does not support Avif formar, for more infomation visit this link\u0026rdquo;\n* JPEG should be greyed * You can\u0026rsquo;t unchecked the JPEG format   Case : Your server support Avif * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be enable\n* JPEG should be greyed * You can\u0026rsquo;t unchecked the JPEG format   Check the PNG checkbox ( you should have 3 checkboxes checked ) You should have a message \u0026ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation\u0026rdquo;    "
+	"content": "BO - Design - Image Settings - Image Generation options - automated version Steps    Step Description Expected result     Case : Your server support Avif * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be enable\n* JPEG should be greyed * You can\u0026rsquo;t unchecked the JPEG format   Check the PNG checkbox ( you should have 3 checkboxes checked ) You should have a message \u0026ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-catalog/module-catalog/bo-module-catalog-connect-to-addons-marketplace.html",
@@ -7245,6 +7266,13 @@
 	"content": "BO - Description Tab Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; New product \u0026gt; Standard product \u0026gt; Add new product Product creation page is well displayed   Add a title to your product \u0026gt; Switch to Online \u0026gt; Click Save Successful update message is displayed   Add multiple image to product \u0026gt; Select one product \u0026gt; Use as cover image \u0026gt; Add a caption \u0026gt; Save image settings Alert Settings updated is displayed   Click on the magnifying glass \u0026gt; Image is zoomed \u0026gt; Click on the cross to close the image Product page v2 is well displayed   Click on replace the selection button \u0026gt; Choose your image Alert Image replaced is displayed   Click on the trash button \u0026gt; Delete Alert The selection has been successfully deleted. is displayed   Select 1 image \u0026gt; Click on Select all button \u0026gt; Click the cross to close the window Product page is still well displayed   Add a Summary and a Description \u0026gt; Click Save and publish Message Successful update is displayed   In Categories \u0026gt; Click on Add categories button \u0026gt; Check Clothes \u0026gt; Open dropdown \u0026gt; Check Men \u0026gt; Click Apply Categories Clothes and Men are added to the Categories\nClothes and Men categories can be deleted with the cross   Change Default category to Clothes \u0026gt; Click Save and publish Home and Men categories can be deleted with the cross\nClothes Category does not have a cross\nMessage Successful update is displayed   In Brand \u0026gt; Choose the Brand Graphic Corner \u0026gt; Click Save and publish Message Successful update is displayed   In Related Products \u0026gt; Search \u0026ldquo;shirt\u0026rdquo; \u0026gt; Click the first product that is shown (Hummingbird printed t-shirt) Message Successful update is displayed    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-qa-analyst-version.html",
+	"title": "BO - Design - Image Settings - Image Generation options - qa analyst version",
+	"tags": [],
+	"description": "",
+	"content": "BO - Design - Image Settings - Image Generation options - qa analyst version Steps    Step Description Expected result     Case : Your server doesn\u0026rsquo;t support Avif * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be disable * You\u0026rsquo;ll see an error message next to the Avif : \u0026ldquo;Your server does not support Avif formar, for more infomation visit this link\u0026rdquo;\n* JPEG should be greyed * You can\u0026rsquo;t unchecked the JPEG format   Check the PNG checkbox ( you should have 3 checkboxes checked ) You should have a message \u0026ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation\u0026rdquo;    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html",
 	"title": "BO - Modules - Upgrade",
 	"tags": [],
@@ -7585,7 +7613,7 @@
 	"title": "Advanced Parameters",
 	"tags": [],
 	"description": "",
-	"content": "Advanced Parameters Categories  Administration   Database   Email   Experimental Features   Import   Informations   Logs   Multistore   Performance   Team   Webservice1   "
+	"content": "Advanced Parameters Categories  Administration   Database   Email   Experimental Features   Import   Informations   Logs   Multistore   Performance   Team   Webservice   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance/affichage.html",
@@ -8020,6 +8048,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Contenu Tests  Check KPIs in Dashboard   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-faviconnotificationbo/contenu.html",
+	"title": "Contenu",
+	"tags": [],
+	"description": "",
+	"content": "Contenu "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts/contenu.html",
@@ -8572,7 +8607,7 @@
 	"title": "Image Settings",
 	"tags": [],
 	"description": "",
-	"content": "Image Settings Tests  BO - Design - Image Settings - Filter   BO - Design - Image Settings - CRUD   BO - Design - Image Settings - Images generation options   BO - Design - Image Settings - Regenerate thumbnails   BO - Design - Image Settings - Sort and Pagination   BO - Design - Image Settings - Delete actions   BO - Design - Image Settings - Delete Bulk actions - feature not integrated -   BO - Design - Image Settings - Import Image type - feature not integrated -   BO - Design - Image Settings - Image Generation options   BO - Design - Image Settings - Regenerate thumbnail   BO - Design - Image Settings - Image Generation on creation   BO - Design - Image Settings - Delete all images format - feature not integrated -   "
+	"content": "Image Settings Tests  BO - Design - Image Settings - Filter   BO - Design - Image Settings - CRUD   BO - Design - Image Settings - Images generation options   BO - Design - Image Settings - Regenerate thumbnails   BO - Design - Image Settings - Sort and Pagination   BO - Design - Image Settings - Delete actions   BO - Design - Image Settings - Delete Bulk actions - feature not integrated -   BO - Design - Image Settings - Import Image type - feature not integrated -   BO - Design - Image Settings - Image Generation options - automated version   BO - Design - Image Settings - Regenerate thumbnail   BO - Design - Image Settings - Image Generation on creation   BO - Design - Image Settings - Delete all images format - feature not integrated -   BO - Design - Image Settings - Image Generation options - qa analyst version   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import.html",
@@ -8727,6 +8762,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Installation Tests  Faceted search module - Upgrade module   Faceted search module - Uninstall/Install module   Faceted search module - Disable/Enable module   Faceted search module - Uninstall and delete module   Faceted search module - Disable Mobile/Enable Mobile module   Faceted search module - Reset module   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-faviconnotificationbo/installation.html",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": "Installation Tests  Upgrade   Uninstall / Install   Uninstall and delete   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts/installation.html",
@@ -9132,7 +9174,7 @@
 	"title": "Modules",
 	"tags": [],
 	"description": "",
-	"content": "Modules   blockreassurance   blockwishlist   contactform   dashactivity   dashtrends   productcomments   ps_banner   ps_cashondelivery   ps_categoryproducts   ps_categorytree   ps_checkpayment   ps_contactinfo   ps_crossselling   ps_customeraccountlinks   ps_customersignin   ps_customtext   ps_dataprivacy   ps_emailalerts   ps_emailsubscription   ps_facetedsearch   ps_featuredproducts   ps_googleanalytics   ps_linklist   ps_newproducts   ps_searchbar   ps_sharebuttons   ps_shoppingcart   ps_socialfollow   ps_themecusto   psgdpr   statsbestcategories   statsbestcustomers   statsbestmanufacturers   statsbestproducts   statsbestsuppliers   statsbestvouchers   statscarrier   statscatalog   statscheckup   statsdata   statsforecast   statsnewsletter   statspersonalinfos   statsproduct   statsregistrations   statssales   statssearch   statsstock   statsvisits   welcome     Test Checker les events sur prestashop avec les tests   "
+	"content": "Modules   blockreassurance   blockwishlist   contactform   dashactivity   dashtrends   productcomments   ps_banner   ps_cashondelivery   ps_categoryproducts   ps_categorytree   ps_checkpayment   ps_contactinfo   ps_crossselling   ps_customeraccountlinks   ps_customersignin   ps_customtext   ps_dataprivacy   ps_emailalerts   ps_emailsubscription   ps_facetedsearch   ps_faviconnotificationbo   ps_featuredproducts   ps_googleanalytics   ps_linklist   ps_newproducts   ps_searchbar   ps_sharebuttons   ps_shoppingcart   ps_socialfollow   ps_themecusto   psgdpr   statsbestcategories   statsbestcustomers   statsbestmanufacturers   statsbestproducts   statsbestsuppliers   statsbestvouchers   statscarrier   statscatalog   statscheckup   statsdata   statsforecast   statsnewsletter   statspersonalinfos   statsproduct   statsregistrations   statssales   statssearch   statsstock   statsvisits   welcome     Test Checker les events sur prestashop avec les tests   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring.html",
@@ -9581,6 +9623,13 @@
 	"tags": [],
 	"description": "",
 	"content": "ps_facetedsearch Categories  Configuration   Installation   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-faviconnotificationbo.html",
+	"title": "ps_faviconnotificationbo",
+	"tags": [],
+	"description": "",
+	"content": "ps_faviconnotificationbo Categories  Contenu   Installation   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts.html",
@@ -10059,11 +10108,11 @@
 	"content": "View and edit an order Tests  BO - Order details - Customer block   BO - Order details - Product block   BO - Order details - Status tab   BO - Order details - Documents tab   BO - Order details - Carriers tab   BO - Order details - Merchandise returns tab   BO - Order details - Message block   BO - Order details - Payment block   BO - Order details - Change order status with dropdown   BO - Order details - Add a discount   BO - Order details - Check invoice   BO - Order details - Check multi invoice behaviour   "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice1.html",
-	"title": "Webservice1",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice.html",
+	"title": "Webservice",
 	"tags": [],
 	"description": "",
-	"content": "Webservice1 Tests  BO - Advanced Parameters - Webservice - Filter sort pagination   BO - Advanced Parameters - Webservice - CRUD (TODO)   BO - Advanced Parameters - Webservice - Bulk actions   BO - Advanced Parameters - Webservice - Quick edit enable/disable   BO - Advanced Parameters - Webservice - Configuration   BO - Advanced Parameters - Webservice - Help card   "
+	"content": "Webservice Tests  BO - Advanced Parameters - Webservice - Filter sort pagination   BO - Advanced Parameters - Webservice - CRUD (TODO)   BO - Advanced Parameters - Webservice - Bulk actions   BO - Advanced Parameters - Webservice - Quick edit enable/disable   BO - Advanced Parameters - Webservice - Configuration   BO - Advanced Parameters - Webservice - Help card   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/welcome.html",
