@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Image Settings - Image Generation options - automated version"
+title: "BO - Design - Image Settings - Image Generation options - Automated version"
 weight: 9
 ---
 
-# BO - Design - Image Settings - Image Generation options - automated version
+# BO - Design - Image Settings - Image Generation options - Automated version
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
