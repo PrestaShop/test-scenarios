@@ -1894,7 +1894,7 @@
 	"title": "BO - Design - Positions - Filter modules",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Positions - Filter modules "
+	"content": "BO - Design - Positions - Filter modules Steps    Step Description Expected result     Go to BO \u0026gt; Design \u0026gt; Positions Positions Page is displayed\nAll hooks are displayed   Click on Show dropdown \u0026gt; Click on Linklist module See hook displayFooter is displayed with Link List module highlighted   Click on Show dropdown \u0026gt; Search for Wishlist module with search bar See that 5 hooks are used by Wishlist module :\ndisplayAdminCustomers\ndisplayCustomerAccount\ndisplayFooter\ndisplayMyAccountBlock\ndisplayProductActions\nIn all hooks, Wishlist module should be highlighted   Click on Show dropdown \u0026gt; Select All modules All hooks should be displayed, no modules are highlighted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/advanced-customization/bo-design-theme-logo-advanced-customization-check-links.html",
@@ -2293,7 +2293,7 @@
 	"title": "CRUD",
 	"tags": [],
 	"description": "",
-	"content": "CRUD "
+	"content": "CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings \u0026gt; Titles Tab Title page is displayed   Click on Add new social title Title creation page is displayed   Fill all fields \u0026gt; Click on Save Alert Successful creation is displayed   Click on Add new social title \u0026gt; Add an image \u0026gt; Click on Save See the error message The field name is required at least in English (English). is displayed   Add a title \u0026gt; Click on Save Alert Successful creation is displayed   Click on Edit for the last created Title \u0026gt; Edit the Social Title \u0026gt; Edit the Gender \u0026gt; Click on Save Alert Successful update is displayed   For the last 2 created Social titles : Click On Delete with the dropdown \u0026gt; Yes Alert Successful deletion is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/crud.html",
@@ -3203,7 +3203,7 @@
 	"title": "BO - Design - Positions - Search a hook",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Positions - Search a hook "
+	"content": "BO - Design - Positions - Search a hook Steps    Step Description Expected result     Go to BO \u0026gt; Design \u0026gt; Positions Positions Page is displayed   In Search for a hook field \u0026gt; Search for displayAttributeGroupForm Hook displayAttributeGroupForm is displayed and highlighted   In Search for a hook field \u0026gt; Search for displayhelloworld Nothing is displayed   Delete everything in the search hook field All hooks are displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/advanced-customization/bo-design-theme-logo-advanced-customization-upload-child-theme.html",
@@ -4372,7 +4372,7 @@
 	"title": "BO - Design - Positions - Display non-positionable hooks",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Positions - Display non-positionable hooks "
+	"content": "BO - Design - Positions - Display non-positionable hooks Steps    Step Description Expected result     Go to BO \u0026gt; Design \u0026gt; Positions Positions Page is displayed   {color:#C1C7D0} This step was calling test issue TEST-953 (possibly downgraded){color}    Click on Display non-positionable hooks See that non-positionable hooks are displayed\nExamples:\nactionAdminControllerSetMedia\nactionAfterCreateFeatureFormHandler   {color:#C1C7D0} This step was calling test issue TEST-954 (possibly downgraded){color}    Click on Display non-positionable hooks See that non-positionable hooks are displayed\nExamples:\nactionAdminControllerSetMedia\nactionAfterCreateFeatureFormHandler    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/theme-logo/bo-design-theme-logo-change-it.html",
@@ -5471,7 +5471,7 @@
 	"title": "FO - Checkout - Personal Information - Password reminder",
 	"tags": [],
 	"description": "",
-	"content": "FO - Checkout - Personal Information - Password reminder Steps    Step Description Expected result     Go to FO \u0026gt; Click on product \u0026gt; Add to cart \u0026gt; Proceed to checkout \u0026gt; Proceed to checkout Step 1 of checkout process is displayed : Personal Information   Click on Sign in \u0026gt; Click on Forgot your password? The Reset your password page is displayed   Enter a random email address \u0026gt; Send reset link Success alert is displayed :\n_If this email address has been registered in our shop, you will receive a link to reset your password at [test@prestashop.com.   Click on the cart \u0026gt; Proceed to checkout \u0026gt; Sign in \u0026gt; Forgot your password ? \u0026gt; Enter email \u0026gt; Send reset link Success alert is displayed :\n_If this email address has been registered in our shop, you will receive a link to reset your password at [test@prestashop.com.   Open the Password query confirmation email \u0026gt; Click on the reset link Reset your password page is displayed   Enter your New password + Confirmation \u0026gt; Click Change password You are now logged into your account\nSuccess message is displayed : Your password has been successfully reset and a confirmation has been sent to your email address: pub@prestashop.com   Click on Sign out \u0026gt; Enter Email + your new Password \u0026gt; Click Sign In You are now logged into your account    "
+	"content": "FO - Checkout - Personal Information - Password reminder Steps    Step Description Expected result     Go to FO \u0026gt; Click on product \u0026gt; Add to cart \u0026gt; Proceed to checkout \u0026gt; Proceed to checkout Step 1 of checkout process is displayed : Personal Information   Click on Sign in \u0026gt; Click on Forgot your password? The Reset your password page is displayed   Enter email \u0026gt; Send reset link Success alert is displayed :\n_If this email address has been registered in our shop, you will receive a link to reset your password at [test@prestashop.com.   Open the Password query confirmation email \u0026gt; Click on the reset link Reset your password page is displayed   Enter your New password + Confirmation \u0026gt; Click Change password You are now logged into your account\nSuccess message is displayed : Your password has been successfully reset and a confirmation has been sent to your email address: pub@prestashop.com   Click on Sign out \u0026gt; Enter Email + your new Password \u0026gt; Click Sign In You are now logged into your account    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-gift-message.html",
