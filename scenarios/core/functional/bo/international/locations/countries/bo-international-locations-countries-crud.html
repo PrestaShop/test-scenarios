@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1677480533" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1677480533" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1677480533" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1677480533" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1677480533" rel="stylesheet">
-    <link href="../../../../../../../style.css?1677480533" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1677565777" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1677565777" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1677565777" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1677565777" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1677565777" rel="stylesheet">
+    <link href="../../../../../../../style.css?1677565777" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1677480533"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1677565777"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60539,36 +60539,60 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; International &gt; Locations &gt; Zones</td>
-<td>The Zones page is displayed correctly</td>
+<td>Go to BO &gt; International &gt; Locations &gt; Tab Countries</td>
+<td>The Countries page is displayed correctly</td>
 </tr>
 <tr>
-<td>Click on Add new zone</td>
-<td>Add new Zone Page is displayed correctly</td>
+<td>Click on Add new country</td>
+<td>Add new Country Page is displayed correctly</td>
 </tr>
 <tr>
-<td>Fill all information &gt; Click on save</td>
-<td>New zone is saved correctly.<br><br>Message is displayed &ldquo;Successful creation&rdquo;<br><br>Redirection to Zone page</td>
+<td>Fill the required information with following data &gt; Click on Save</td>
+<td>See this warning :<br>There are 2 errors.<br> # This ISO code already exists.You cannot create two countries with the same ISO code.<br> # The call_prefix field is invalid.</td>
 </tr>
 <tr>
-<td>Filter by Zone = &ldquo;Zone test&rdquo;</td>
-<td>Filter is succeeded<br><br>Zone test is displayed</td>
+<td>Edit the required info &gt; Click on Save</td>
+<td>Message Successful creation is displayed<br><br>&ldquo;my country&rdquo; is displayed in the Countries list</td>
 </tr>
 <tr>
-<td>Click on Zone test</td>
-<td>Edit Zone Page is displayed correctly.<br><br>Page title contains Zone test</td>
+<td>Check the country number on top of the list</td>
+<td>It is now : total country + 1 = 242</td>
 </tr>
 <tr>
-<td>Edit the name of the Zone by ZoneTest &gt; Click on save</td>
-<td>New zone is saved correctly.<br><br>Message is displayed &ldquo;Update successful&rdquo;<br><br>Redirection to Zone page</td>
+<td>Click on Edit on the latest Country created &gt; Fill with the following info &gt; Click on Save</td>
+<td>Message Successful update is displayed</td>
 </tr>
 <tr>
-<td>Delete zone created</td>
-<td>Message is displayed : Successful deletion.&quot;<br><br>No records found</td>
+<td>Filter by ISO code = &ldquo;ZE&rdquo;</td>
+<td>Filter has succeeded<br><br>My country is displayed<br><br>The total country number on top of the list is now : 1</td>
 </tr>
 <tr>
-<td>Reset filter</td>
-<td>All zones are displayed</td>
+<td><em>Pre-condition</em> : Create a Customer<br><br>In FO &gt; Log into Customer account &gt; In Homepage Customer account &gt; Click on Add first Address &gt; Fill all fields &gt; Save</td>
+<td>See in field Country : &ldquo;my country&rdquo; is available<br><br>Message Address successfully added. is displayed</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Check the Country &gt; Bulk action &gt; Disable selection</td>
+<td>Message The status has been successfully updated. is displayed</td>
+</tr>
+<tr>
+<td>In FO &gt; Customer account &gt; Addresses &gt; Click on Update &gt; Save</td>
+<td>Can&rsquo;t save : the Country &ldquo;my country&rdquo; is not available</td>
+</tr>
+<tr>
+<td>Select France &gt; Save</td>
+<td>Message Address successfully updated. is displayed</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Check again the Country &gt; Bulk action &gt; Delete selected &gt; OK</td>
+<td>Message The selection has been successfully deleted is displayed<br><br>No records found</td>
+</tr>
+<tr>
+<td>Reset the filter</td>
+<td>List of countries is displayed</td>
+</tr>
+<tr>
+<td>Check the country number on top of the list</td>
+<td>It is now : total country - 1 = 241</td>
 </tr>
 </tbody>
 </table>
@@ -60577,9 +60601,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on December 23, 2022
+  Last updated on February 28, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/19565c7d61055910e623aa5a04b0b720047e8986">"[Update] JIRA XRay Tests" (19565c7d61)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/9e493dd46bee96676d715cecc17936ddf32f18f6">"[Update] JIRA XRay Tests" (9e493dd46b)</a>
   
 </div>
 
@@ -60600,17 +60624,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1677480533"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1677480533"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1677480533"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1677480533"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1677480533"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1677480533"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1677480533"></script>
-    <script src="../../../../../../../js/learn.js?1677480533"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1677480533"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1677565777"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1677565777"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1677565777"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1677565777"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1677565777"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1677565777"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1677565777"></script>
+    <script src="../../../../../../../js/learn.js?1677565777"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1677565777"></script>
     
-    <script src="../../../../../../../main.js?1677480533"></script>
+    <script src="../../../../../../../main.js?1677565777"></script>
     
     
 
