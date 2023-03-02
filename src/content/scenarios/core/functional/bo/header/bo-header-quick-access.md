@@ -1,9 +1,9 @@
 ---
-title: "BO - Quick access"
-weight: 2
+title: "BO - Header - Quick access"
+weight: 1
 ---
 
-# BO - Quick access
+# BO - Header - Quick access
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

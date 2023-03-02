@@ -1,6 +1,6 @@
 ---
 title: "BO - Gamification module"
-weight: 7
+weight: 3
 ---
 
 # BO - Gamification module

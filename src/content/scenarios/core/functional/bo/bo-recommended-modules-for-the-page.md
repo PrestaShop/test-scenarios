@@ -1,6 +1,6 @@
 ---
 title: "BO - Recommended modules for the page"
-weight: 10
+weight: 4
 ---
 
 # BO - Recommended modules for the page

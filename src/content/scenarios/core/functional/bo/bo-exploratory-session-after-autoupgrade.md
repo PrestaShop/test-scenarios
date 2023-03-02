@@ -1,6 +1,6 @@
 ---
 title: "BO - Exploratory session after autoupgrade"
-weight: 14
+weight: 8
 ---
 
 # BO - Exploratory session after autoupgrade

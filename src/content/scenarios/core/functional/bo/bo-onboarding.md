@@ -1,6 +1,6 @@
 ---
 title: "BO - Onboarding"
-weight: 11
+weight: 5
 ---
 
 # BO - Onboarding

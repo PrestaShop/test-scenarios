@@ -1,9 +1,9 @@
 ---
-title: "BO - View my shop"
-weight: 5
+title: "BO - Header - View my shop"
+weight: 3
 ---
 
-# BO - View my shop
+# BO - Header - View my shop
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,9 +1,9 @@
 ---
-title: "BO - check notifications"
-weight: 6
+title: "BO - Header - Check notifications"
+weight: 4
 ---
 
-# BO - check notifications
+# BO - Header - Check notifications
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

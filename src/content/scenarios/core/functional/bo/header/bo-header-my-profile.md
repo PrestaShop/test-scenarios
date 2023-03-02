@@ -1,9 +1,9 @@
 ---
-title: "BO - My Profile"
-weight: 8
+title: "BO - Header - My Profile"
+weight: 5
 ---
 
-# BO - My Profile
+# BO - Header - My Profile
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

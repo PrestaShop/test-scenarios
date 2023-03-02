@@ -1,9 +1,9 @@
 ---
-title: "BO - Search bar"
-weight: 3
+title: "BO - Header - Search bar"
+weight: 2
 ---
 
-# BO - Search bar
+# BO - Header - Search bar
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,6 +1,6 @@
 ---
 title: "BO - Debug mode"
-weight: 4
+weight: 2
 ---
 
 # BO - Debug mode
