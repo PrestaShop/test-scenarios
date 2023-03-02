@@ -541,6 +541,15 @@ staticPages: [&amp;lsquo;Contact us&amp;rsquo;]</description>
     </item>
     
     <item>
+      <title>BO - Header - Quick access</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-quick-access.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-quick-access.html</guid>
+      <description>BO - Header - Quick access Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed &amp;ldquo;Successful update.&amp;rdquo;.   Refresh the page. Open the Quick Access menu Option to remove this page is removed in the Quick Access menu</description>
+    </item>
+    
+    <item>
       <title>BO - International - Localization - Currencies - Create Official Currency</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-create-official-currency.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2533,6 +2542,16 @@ First row column id = 2   reset all filters Number of products after reset = tot
     </item>
     
     <item>
+      <title>BO - Debug mode</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</guid>
+      <description>BO - Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
+- Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine   Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    </description>
+    </item>
+    
+    <item>
       <title>BO - Design - Email Theme - Generate emails</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-generate-emails.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2614,6 +2633,18 @@ You are about to reset Main menu</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-catalog/bo-design-theme-catalog-discover-and-discover-all.html</guid>
       <description>BO - Design - Theme Catalog - Discover and discover all </description>
+    </item>
+    
+    <item>
+      <title>BO - Header - Search bar</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-search-bar.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-search-bar.html</guid>
+      <description>BO - Header - Search bar Steps    Step Description Expected result     Search for &amp;ldquo;orders&amp;rdquo; 3 types of results are displayed:
+- feature
+- modules
+- Search docs.prestashop-project.org   Search for John Doe The customer &amp;ldquo;John Doe&amp;rdquo; is listed    </description>
     </item>
     
     <item>
@@ -2854,15 +2885,6 @@ and click on &amp;ldquo;Save&amp;rdquo; The customer search display the new cust
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/payment/preferences/bo-payments-preferences-edit-group-restrictions.html</guid>
       <description>BO - Payments - Preferences - Edit Group restrictions Steps    Step Description Expected result     Go to BO &amp;gt; Payment &amp;gt; Preferences &amp;gt; Scroll to Group restrictions block Currency restrictions block is displayed
 All Payment methods are checked for all Groups   Click on Bank Transfer to uncheck the payment method for all groups &amp;gt; Save Message Successful update is displayed   Go to FO &amp;gt; Add product to cart &amp;gt; Process to checkout until Step 4 (Payment) See only 2 payments available : COD and Check   Go back to BO &amp;gt; Uncheck COD and Payment by check &amp;gt; Save Message Successful update is displayed   Go to FO &amp;gt; Refresh the page See only bank wire payment available    </description>
-    </item>
-    
-    <item>
-      <title>BO - Quick access</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-quick-access.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-quick-access.html</guid>
-      <description>BO - Quick access Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on &amp;ldquo;Remove from Quick Access&amp;rdquo; A message says that the link is successfully removed &amp;ldquo;Successful update.&amp;rdquo;.   Refresh the page. Open the Quick Access menu Option to remove this page is removed in the Quick Access menu</description>
     </item>
     
     <item>
@@ -4388,6 +4410,24 @@ You are about to uninstall Link List</description>
     </item>
     
     <item>
+      <title>BO - Gamification module</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-gamification-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-gamification-module.html</guid>
+      <description>BO - Gamification module Steps    Step Description Expected result     Go to Modules &amp;gt; Module Manager &amp;gt; Search &amp;ldquo;gamification&amp;rdquo; Merchant Expertise module is displayed in list of Modules   Click Configure Merchant Expertise page is displayed   Filter Type, Status and Level Badges will update according to filter    </description>
+    </item>
+    
+    <item>
+      <title>BO - Header - View my shop</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-view-my-shop.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-view-my-shop.html</guid>
+      <description>BO - Header - View my shop Steps    Step Description Expected result     Click on View my shop FO is displayed in another tab    </description>
+    </item>
+    
+    <item>
       <title>BO - International - Localization - Currencies - Exchange rate</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-exchange-rate.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4617,18 +4657,6 @@ The validation message is displayed successfully
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-fuzzy-search.html</guid>
       <description>BO - Search - Fuzzy search Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Search page The Search page is well displayed   In the Search Settings section &amp;gt; Disable &amp;ldquo;Fuzzy search&amp;rdquo; and Save The green alert &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is well displayed   Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) &amp;amp; click enter * No autocomplete list is displayed</description>
-    </item>
-    
-    <item>
-      <title>BO - Search bar</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-search-bar.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-search-bar.html</guid>
-      <description>BO - Search bar Steps    Step Description Expected result     Search for &amp;ldquo;orders&amp;rdquo; 3 types of results are displayed:
-- feature
-- modules
-- Search docs.prestashop-project.org   Search for John Doe The customer &amp;ldquo;John Doe&amp;rdquo; is listed    </description>
     </item>
     
     <item>
@@ -5877,16 +5905,6 @@ number of addresses = total of addresses + 1   go to add new address page page t
     </item>
     
     <item>
-      <title>BO - Debug mode</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</guid>
-      <description>BO - Debug mode Steps    Step Description Expected result     Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/
-- Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed   Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine   Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    </description>
-    </item>
-    
-    <item>
       <title>BO - Design - Email Theme - Preview email themes</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-preview-email-themes.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5951,6 +5969,15 @@ actionAfterCreateFeatureFormHandler   {color:#C1C7D0} This step was calling test
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration/bo-design-theme-logo-page-configuration-connect-to-addons-market-place.html</guid>
       <description>BO - Design - Theme &amp;amp; Logo - Page Configuration - Connect to Addons market place </description>
+    </item>
+    
+    <item>
+      <title>BO - Header - Check notifications</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-check-notifications.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-check-notifications.html</guid>
+      <description>BO - Header - Check notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO &amp;gt; Login as a customer &amp;gt; Go to the order history &amp;gt; Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO &amp;gt; Refresh the page A 1 appears next to the bell   Open the notification box, then click on Messages The message created earlier appears   Open the notification The message page is opened   Go to FO &amp;gt; Add a product to you cart &amp;gt; And continue the buying process as a Guest Customer Order confirmation page will open   Go back to BO &amp;gt; Refresh the BO See that you have 2 notifications.</description>
     </item>
     
     <item>
@@ -6146,6 +6173,16 @@ All orders customer contains the searched customer   Click on the Customer Link 
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/payment/preferences/bo-payments-preferences-edit-carrier-restrictions.html</guid>
       <description>BO - Payments - Preferences - Edit Carrier restrictions </description>
+    </item>
+    
+    <item>
+      <title>BO - Recommended modules for the page</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-recommended-modules-for-the-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-recommended-modules-for-the-page.html</guid>
+      <description>BO - Recommended modules for the page Steps    Step Description Expected result     Go to BO &amp;gt; Migrated page like Orders, Products, Customers, etc    Click on button Recommended Modules and Services Popup will open with multiple choices of Modules   Click install on the module of your choice Message Install action on module XXX succeeded. appears
+When installed, button will transform to a Configure button   Click on the button Configure The page will refresh with the configuration page of the module   Click previous on browser Previous page will open   Click again on the button Recommended Modules and Services You will see 2 tabs, one &amp;ldquo;Not installed&amp;rdquo;, one &amp;ldquo;Installed&amp;rdquo;   Go to Installed modules tabs &amp;gt; Click on the dropdown arrow and uninstalled your module Message Uninstall action on module XXX succeeded.</description>
     </item>
     
     <item>
@@ -7030,6 +7067,16 @@ total of pages should be 1</description>
     </item>
     
     <item>
+      <title>BO - Header - My Profile</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-my-profile.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-my-profile.html</guid>
+      <description>BO - Header - My Profile Steps    Step Description Expected result     Go to BO &amp;gt; Click top right user icon &amp;gt; Click on &amp;ldquo;Your Profile&amp;rdquo; button Edit your profile page is displayed   Edit &amp;ldquo;First name&amp;rdquo; and &amp;ldquo;Last name&amp;rdquo; &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Message &amp;ldquo;Successful update&amp;rdquo; is displayed
+* &amp;ldquo;First name&amp;rdquo; &amp;amp; &amp;ldquo;Last name&amp;rdquo; fields have saved the new name</description>
+    </item>
+    
+    <item>
       <title>BO - International - Localization - Currencies - Edit</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-edit.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7128,6 +7175,18 @@ total of pages should be 1</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-upload-a-module.html</guid>
       <description>BO - Modules - Updates tab - Upload a module </description>
+    </item>
+    
+    <item>
+      <title>BO - Onboarding</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html</guid>
+      <description>BO - Onboarding Steps    Step Description Expected result     After first login, check that &amp;ldquo;OnBoarding&amp;rdquo; popup is displayed Modal has got:
+* Images and background image
+* Title: &amp;ldquo;Welcome to your shop!&amp;quot;
+* Description: &amp;ldquo;Hi! My name is Preston and I&amp;rsquo;m here to show you around.You will discover a few essential steps before you can launch your shop: Create your first product, customize your shop, configure shipping and payments&amp;hellip; Let&amp;rsquo;s get started!</description>
     </item>
     
     <item>
@@ -7261,15 +7320,6 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-bulk-actions.html</guid>
       <description>BO - Shop Parameters - SEO &amp;amp; URLs - Bulk actions </description>
-    </item>
-    
-    <item>
-      <title>BO - View my shop</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-view-my-shop.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-view-my-shop.html</guid>
-      <description>BO - View my shop Steps    Step Description Expected result     Click on View my shop FO is displayed in another tab    </description>
     </item>
     
     <item>
@@ -7661,6 +7711,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>BO - Autoupgrade from previous version</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-autoupgrade-from-previous-version.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-autoupgrade-from-previous-version.html</guid>
+      <description>BO - Autoupgrade from previous version Steps    Step Description Expected result     Install previous version (last stable version + 2 or 3 most used versions, and 1.7.6.5) You&amp;rsquo;ve a fresh install without the last version   Go to International &amp;gt; Localization &amp;gt; Add a localization pack (Poland for example) You&amp;rsquo;ve a green notification with : &amp;ldquo;Localization pack imported successfully.&amp;rdquo;   Go to Shop Parameters &amp;gt; General &amp;gt; Enable Multistore and clic on &amp;ldquo;Save&amp;rdquo; You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful update&amp;rdquo;   Go to Advenced Parameters &amp;gt; Multistore &amp;gt;Add a new shop group Shop group is now display and you can setup it   Setup your shop group You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful creation&amp;rdquo;   Clic on Add a new shop, setup your shop and clic on Save * You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful creation&amp;rdquo;</description>
+    </item>
+    
+    <item>
       <title>BO - Cart rules - Case 6 - Invalid Time</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-6-invalid-time.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7732,12 +7791,13 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
     </item>
     
     <item>
-      <title>BO - check notifications</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-check-notifications.html</link>
+      <title>BO - Contextual help</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-contextual-help.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-check-notifications.html</guid>
-      <description>BO - check notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO &amp;gt; Login as a customer &amp;gt; Go to the order history &amp;gt; Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO &amp;gt; Refresh the page A 1 appears next to the bell   Open the notification box, then click on Messages The message created earlier appears   Open the notification The message page is opened   Go to FO &amp;gt; Add a product to you cart &amp;gt; And continue the buying process as a Guest Customer Order confirmation page will open   Go back to BO &amp;gt; Refresh the BO See that you have 2 notifications.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-contextual-help.html</guid>
+      <description>BO - Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin
+Title is : Discovering the Administration Area    </description>
     </item>
     
     <item>
@@ -8342,6 +8402,15 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
     </item>
     
     <item>
+      <title>BO - After autoupgrade, rollback to previous version</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</guid>
+      <description>BO - After autoupgrade, rollback to previous version Steps    Step Description Expected result     In 1-Click Upgrade &amp;gt; go to the section Rollback and choose your backup    Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.</description>
+    </item>
+    
+    <item>
       <title>BO - Cart rules - Case 7 - Total Order &lt; Minimum amount</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-7-total-order-minimum-amount.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8483,15 +8552,6 @@ All products name contains the Searched Name   Click on the drop-down toggle and
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-duplicate-product.html</guid>
       <description>BO - Duplicate product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly   Filter with reference &amp;gt; Click on &amp;ldquo;Search&amp;rdquo; button Only one product is displayed   Duplicate the product by using the &amp;ldquo;three dots&amp;rdquo; icon on the right &amp;gt; Click on Duplicate A modal is displayed with two buttons:
 * Cancel</description>
-    </item>
-    
-    <item>
-      <title>BO - Gamification module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-gamification-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-gamification-module.html</guid>
-      <description>BO - Gamification module Steps    Step Description Expected result     Go to Modules &amp;gt; Module Manager &amp;gt; Search &amp;ldquo;gamification&amp;rdquo; Merchant Expertise module is displayed in list of Modules   Click Configure Merchant Expertise page is displayed   Filter Type, Status and Level Badges will update according to filter    </description>
     </item>
     
     <item>
@@ -8925,6 +8985,15 @@ Message is displayed : Successful creation   In list, Filter By Email. Criteria 
     </item>
     
     <item>
+      <title>BO - Exploratory session after autoupgrade</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html</guid>
+      <description>BO - Exploratory session after autoupgrade Steps    Step Description Expected result     Install previous version (specify which one in expected result)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS&amp;hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.</description>
+    </item>
+    
+    <item>
       <title>BO - International - Localization - Set time zone</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/localization/bo-international-localization-set-time-zone.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8969,17 +9038,6 @@ Message is displayed : Successful creation   In list, Filter By Email. Criteria 
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upload-a-module.html</guid>
       <description>BO - Modules - Upload a module Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page * The page title should contains &amp;lsquo;Module manager&amp;rsquo;
 Check that the button upload module exist in the header of the page   Click on the button Upload module A pop-up contains &amp;lsquo;Drop your module archive here or select file&amp;rsquo; appears   Case 1 : Drop the module you want to install Case 2 : Select the file of the module you want to install The installing process begins &amp;gt; a sucess message should appears   Check that the module is well installed and exist in the list of modules     </description>
-    </item>
-    
-    <item>
-      <title>BO - My Profile</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-my-profile.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-my-profile.html</guid>
-      <description>BO - My Profile Steps    Step Description Expected result     Go to BO &amp;gt; Click top right user icon &amp;gt; Click on &amp;ldquo;Your Profile&amp;rdquo; button Edit your profile page is displayed   Edit &amp;ldquo;First name&amp;rdquo; and &amp;ldquo;Last name&amp;rdquo; &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * Message &amp;ldquo;Successful update&amp;rdquo; is displayed
-* &amp;ldquo;First name&amp;rdquo; &amp;amp; &amp;ldquo;Last name&amp;rdquo; fields have saved the new name
-* The title of &amp;ldquo;Edit&amp;rdquo; page has changed by the new name: &amp;ldquo;Edit: World Hello&amp;rdquo;   Edit &amp;ldquo;First name&amp;rdquo; and &amp;ldquo;Last name&amp;rdquo; fields with invalid string (with number for example) &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button * An error message &amp;lsquo;The &amp;ldquo;First name&amp;rdquo; field is invalid.</description>
     </item>
     
     <item>
@@ -9192,15 +9250,6 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-delete-product.html</guid>
       <description>BO - Catalog - Products - Delete product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Products page is displayed   Reset all filters Number of products = Total of products   Filter Products by Name Number of products &amp;lt; Total of products
 All the products contains the searched Name   Click on the drop-down toggle, click on &amp;ldquo;Delete&amp;rdquo; and confirm the deletion An alert &amp;ldquo;Product successfully deleted.</description>
-    </item>
-    
-    <item>
-      <title>BO - Contextual help</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-contextual-help.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-contextual-help.html</guid>
-      <description>BO - Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin    </description>
     </item>
     
     <item>
@@ -9461,16 +9510,6 @@ Total (Tax incl.</description>
     </item>
     
     <item>
-      <title>BO - Recommended modules for the page</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-recommended-modules-for-the-page.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-recommended-modules-for-the-page.html</guid>
-      <description>BO - Recommended modules for the page Steps    Step Description Expected result     Go to BO &amp;gt; Migrated page like Orders, Products, Customers, etc    Click on button Recommended Modules and Services Popup will open with multiple choices of Modules   Click install on the module of your choice Message Install action on module XXX succeeded. appears
-When installed, button will transform to a Configure button   Click on the button Configure The page will refresh with the configuration page of the module   Click previous on browser Previous page will open   Click again on the button Recommended Modules and Services You will see 2 tabs, one &amp;ldquo;Not installed&amp;rdquo;, one &amp;ldquo;Installed&amp;rdquo;   Go to Installed modules tabs &amp;gt; Click on the dropdown arrow and uninstalled your module Message Uninstall action on module XXX succeeded.</description>
-    </item>
-    
-    <item>
       <title>BO - Shop Parameters - SEO &amp; URLs - SEO Options</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-seo-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9593,18 +9632,6 @@ All products contain the searched Name   Click on the drop-down toggle and click
     </item>
     
     <item>
-      <title>BO - Onboarding</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html</guid>
-      <description>BO - Onboarding Steps    Step Description Expected result     After first login, check that &amp;ldquo;OnBoarding&amp;rdquo; popup is displayed Modal has got:
-* Images and background image
-* Title: &amp;ldquo;Welcome to your shop!&amp;quot;
-* Description: &amp;ldquo;Hi! My name is Preston and I&amp;rsquo;m here to show you around.You will discover a few essential steps before you can launch your shop: Create your first product, customize your shop, configure shipping and payments&amp;hellip; Let&amp;rsquo;s get started!</description>
-    </item>
-    
-    <item>
       <title>BO - Order details - Check invoice</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-check-invoice.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9688,15 +9715,6 @@ Data is correct    </description>
       <description>[BO] Upgrade from 1.7.6 to last build and then exploratory test on BO Steps    Step Description Expected result     On a fresh 1.7.6.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.
 Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.
 Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</description>
-    </item>
-    
-    <item>
-      <title>BO - Autoupgrade from previous version</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-autoupgrade-from-previous-version.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-autoupgrade-from-previous-version.html</guid>
-      <description>BO - Autoupgrade from previous version Steps    Step Description Expected result     Install previous version (last stable version + 2 or 3 most used versions, and 1.7.6.5) You&amp;rsquo;ve a fresh install without the last version   Go to International &amp;gt; Localization &amp;gt; Add a localization pack (Poland for example) You&amp;rsquo;ve a green notification with : &amp;ldquo;Localization pack imported successfully.&amp;rdquo;   Go to Shop Parameters &amp;gt; General &amp;gt; Enable Multistore and clic on &amp;ldquo;Save&amp;rdquo; You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful update&amp;rdquo;   Go to Advenced Parameters &amp;gt; Multistore &amp;gt;Add a new shop group Shop group is now display and you can setup it   Setup your shop group You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful creation&amp;rdquo;   Clic on Add a new shop, setup your shop and clic on Save * You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful creation&amp;rdquo;</description>
     </item>
     
     <item>
@@ -9819,15 +9837,6 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
-      <title>BO - After autoupgrade, rollback to previous version</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</guid>
-      <description>BO - After autoupgrade, rollback to previous version Steps    Step Description Expected result     In 1-Click Upgrade &amp;gt; go to the section Rollback and choose your backup    Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.</description>
-    </item>
-    
-    <item>
       <title>BO - Description Tab</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-description-tab.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9906,15 +9915,6 @@ The document language is English   Close the help sidebar The help sidebar is cl
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-combinations-tab.html</guid>
       <description>BO - Combinations Tab </description>
-    </item>
-    
-    <item>
-      <title>BO - Exploratory session after autoupgrade</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html</guid>
-      <description>BO - Exploratory session after autoupgrade Steps    Step Description Expected result     Install previous version (specify which one in expected result)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS&amp;hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.</description>
     </item>
     
     <item>

@@ -385,6 +385,13 @@
 	"content": "BO - Filter Products Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products * Products list page is displayed correctly\n* No filter by default. All products are displayed   Filter the list by ID \u0026gt; Add a number on \u0026ldquo;min\u0026rdquo; and \u0026ldquo;max\u0026rdquo; field below \u0026ldquo;ID\u0026rdquo; in column \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button on the right of the table * Products list is filtered between the 4 and 10 IDs\n* A \u0026ldquo;Reset\u0026rdquo; button on the right of the table below the \u0026ldquo;Search\u0026rdquo; button is displayed   Click on \u0026ldquo;Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.   Filter the list by name \u0026gt; Add a name on \u0026ldquo;Search name\u0026rdquo; field below \u0026ldquo;Name\u0026rdquo; in column \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button on the right of the table * Products list is filtered by name.\n* Products listed have \u0026ldquo;Mug\u0026rdquo; in their name\n* A \u0026ldquo;Reset\u0026rdquo; button on the right of the table below the \u0026ldquo;Search\u0026rdquo; button is displayed   Click on \u0026ldquo;Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.   Filter the list by reference \u0026gt; Add a reference on \u0026ldquo;Search reference\u0026rdquo; field below \u0026ldquo;Reference\u0026rdquo; in column \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button on the right of the table * Products list is filtered by reference.\n* Products listed have \u0026ldquo;demo_1\u0026rdquo; in their reference\n* A \u0026ldquo;Reset\u0026rdquo; button on the right of the table below the \u0026ldquo;Search\u0026rdquo; button is displayed   Click on \u0026ldquo;Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.   Filter the list by category \u0026gt; Add a category on \u0026ldquo;Search category\u0026rdquo; field below \u0026ldquo;Category\u0026rdquo; in column \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button on the right of the table * Products list is filtered by category.\n* Products listed have \u0026ldquo;Home\u0026rdquo; in their category\n* A \u0026ldquo;Reset\u0026rdquo; button on the right of the table below the \u0026ldquo;Search\u0026rdquo; button is displayed   Click on \u0026ldquo;Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.   Filter the list by price \u0026gt; Add a number on \u0026ldquo;min\u0026rdquo; and \u0026ldquo;max\u0026rdquo; field below \u0026ldquo;Price\u0026rdquo; in column \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button on the right of the table * Products list is filtered between the 10 and 15 prices\n* A \u0026ldquo;Reset\u0026rdquo; button on the right of the table below the \u0026ldquo;Search\u0026rdquo; button is displayed   Click on \u0026ldquo;Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.   Filter the list by quantity \u0026gt; Add a number on \u0026ldquo;min\u0026rdquo; and \u0026ldquo;max\u0026rdquo; field below \u0026ldquo;Quantity\u0026rdquo; in column \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button on the right of the table * Products list is filtered between the 100 and 500 quantities\n* A \u0026ldquo;Reset\u0026rdquo; button on the right of the table below the \u0026ldquo;Search\u0026rdquo; button is displayed   Click on \u0026ldquo;Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.   Filter the list by status \u0026gt; Select \u0026ldquo;Yes\u0026rdquo; on the select list below \u0026ldquo;Status\u0026rdquo; in column \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button on the right of the table * Products list is filtered by status which products are online\n* A \u0026ldquo;Reset\u0026rdquo; button on the right of the table below the \u0026ldquo;Search\u0026rdquo; button is displayed   Filter the list by status \u0026gt; Select \u0026ldquo;No\u0026rdquo; on the select list below \u0026ldquo;Status\u0026rdquo; in column \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button on the right of the table * Products list is filtered by status which products are offline\n* \u0026ldquo;No records found\u0026rdquo; message is displayed\n* A \u0026ldquo;Reset\u0026rdquo; button on the right of the table below the \u0026ldquo;Search\u0026rdquo; button is displayed   Click on \u0026ldquo;Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-quick-access.html",
+	"title": "BO - Header - Quick access",
+	"tags": [],
+	"description": "",
+	"content": "BO - Header - Quick access Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on \u0026ldquo;Remove from Quick Access\u0026rdquo; A message says that the link is successfully removed \u0026ldquo;Successful update.\u0026rdquo;.   Refresh the page. Open the Quick Access menu Option to remove this page is removed in the Quick Access menu\nLink is now absent in the list   Click on Add current page to Quick Access. Rename this link. Link is correctly added.\nOption to add this page is removed in the Quick Access menu   Refresh the page. Open the Quick Access menu Link is now present in the list   Click on Manage Quick Accesses Quick access page is displayed   Click on Add a new quick access Add new page is displayed   Add the URL +index.php/sell/customers/new+. Give it the name \u0026ldquo;New customer\u0026rdquo;. Click on \u0026ldquo;Save\u0026rdquo; Message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\nQuick access is created. Link is present in the Quick Access menu   Enable \u0026ldquo;New window\u0026rdquo; option Option is enabled\n\u0026ldquo;The status has been successfully updated.\u0026rdquo; is displayed   Click on \u0026ldquo;Quick access\u0026rdquo; \u0026gt; Click on the link you enabled \u0026ldquo;new window option\u0026rdquo; for. The link is opened on a new window   GO back to previous tab \u0026gt; Check the checkbox in front of the new link \u0026gt; Click on Bulk Actions \u0026gt; Delete selected and confirm Link is deleted successfully\nMessage \u0026ldquo;The selection has been successfully deleted.\u0026rdquo; is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-create-official-currency.html",
 	"title": "BO - International - Localization - Currencies - Create Official Currency",
 	"tags": [],
@@ -1862,6 +1869,13 @@
 	"content": "BO - Dashboard - Tips and update (check language) "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html",
+	"title": "BO - Debug mode",
+	"tags": [],
+	"description": "",
+	"content": "BO - Debug mode Steps    Step Description Expected result     Go to Orders \u0026gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/\n- Edit the fileOrderController.php\u0026quot; - Change the value of the $orderKpiFactory variable. - Go to \u0026ldquo;Orders \u0026gt; Orders\u0026rdquo; in the BO\u0026quot; An exception is displayed   Fix the file and go to Orders \u0026gt; Orders\u0026quot; in the BO\u0026quot; The page works fine   Go to BO \u0026gt; Check the top right corner \u0026gt; Debug mode \u0026gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-generate-emails.html",
 	"title": "BO - Design - Email Theme - Generate emails",
 	"tags": [],
@@ -1923,6 +1937,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Design - Theme Catalog - Discover and discover all "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-search-bar.html",
+	"title": "BO - Header - Search bar",
+	"tags": [],
+	"description": "",
+	"content": "BO - Header - Search bar Steps    Step Description Expected result     Search for \u0026ldquo;orders\u0026rdquo; 3 types of results are displayed:\n- feature\n- modules\n- Search docs.prestashop-project.org   Search for John Doe The customer \u0026ldquo;John Doe\u0026rdquo; is listed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/installation/bo-install-the-module.html",
@@ -2098,13 +2119,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Payments - Preferences - Edit Group restrictions Steps    Step Description Expected result     Go to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Scroll to Group restrictions block Currency restrictions block is displayed\nAll Payment methods are checked for all Groups   Click on Bank Transfer to uncheck the payment method for all groups \u0026gt; Save Message Successful update is displayed   Go to FO \u0026gt; Add product to cart \u0026gt; Process to checkout until Step 4 (Payment) See only 2 payments available : COD and Check   Go back to BO \u0026gt; Uncheck COD and Payment by check \u0026gt; Save Message Successful update is displayed   Go to FO \u0026gt; Refresh the page See only bank wire payment available    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-quick-access.html",
-	"title": "BO - Quick access",
-	"tags": [],
-	"description": "",
-	"content": "BO - Quick access Steps    Step Description Expected result     Check all links in Quick access All links work as expected   Click on a link in the list. Click on \u0026ldquo;Remove from Quick Access\u0026rdquo; A message says that the link is successfully removed \u0026ldquo;Successful update.\u0026rdquo;.   Refresh the page. Open the Quick Access menu Option to remove this page is removed in the Quick Access menu\nLink is now absent in the list   Click on Add current page to Quick Access. Rename this link. Link is correctly added.\nOption to add this page is removed in the Quick Access menu   Refresh the page. Open the Quick Access menu Link is now present in the list   Click on Manage Quick Accesses Quick access page is displayed   Click on Add a new quick access Add new page is displayed   Add the URL +index.php/sell/customers/new+. Give it the name \u0026ldquo;New customer\u0026rdquo;. Click on \u0026ldquo;Save\u0026rdquo; Message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\nQuick access is created. Link is present in the Quick Access menu   Enable \u0026ldquo;New window\u0026rdquo; option Option is enabled\n\u0026ldquo;The status has been successfully updated.\u0026rdquo; is displayed   Click on \u0026ldquo;Quick access\u0026rdquo; \u0026gt; Click on the link you enabled \u0026ldquo;new window option\u0026rdquo; for. The link is opened on a new window   GO back to previous tab \u0026gt; Check the checkbox in front of the new link \u0026gt; Click on Bulk Actions \u0026gt; Delete selected and confirm Link is deleted successfully\nMessage \u0026ldquo;The selection has been successfully deleted.\u0026rdquo; is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-exact-end-match.html",
@@ -3227,6 +3241,20 @@
 	"content": "BO - Design - Theme \u0026amp; Logo - Page Configuration - Uninstall Steps    Step Description Expected result     Go to Improve \u0026gt; Design \u0026gt; Theme \u0026amp; Logo Theme \u0026amp; Logo page is displayed correctly   Click on \u0026ldquo;Pages Configuration\u0026rdquo; Pages Configuration page is displayed correctly   On Footer \u0026gt; Link List \u0026gt; Uninstall A modale should appear :\nh4. Uninstall module?\nYou are about to uninstall Link List\nThis will definitely disable the module.   Click to Yes, uninstall it Notice!\nAction on the module successfully completed   On footer \u0026gt; Link List \u0026gt; Install Notice!\nAction on the module successfully completed    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-gamification-module.html",
+	"title": "BO - Gamification module",
+	"tags": [],
+	"description": "",
+	"content": "BO - Gamification module Steps    Step Description Expected result     Go to Modules \u0026gt; Module Manager \u0026gt; Search \u0026ldquo;gamification\u0026rdquo; Merchant Expertise module is displayed in list of Modules   Click Configure Merchant Expertise page is displayed   Filter Type, Status and Level Badges will update according to filter    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-view-my-shop.html",
+	"title": "BO - Header - View my shop",
+	"tags": [],
+	"description": "",
+	"content": "BO - Header - View my shop Steps    Step Description Expected result     Click on View my shop FO is displayed in another tab    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-exchange-rate.html",
 	"title": "BO - International - Localization - Currencies - Exchange rate",
 	"tags": [],
@@ -3393,13 +3421,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Search - Fuzzy search Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Search page The Search page is well displayed   In the Search Settings section \u0026gt; Disable \u0026ldquo;Fuzzy search\u0026rdquo; and Save The green alert \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is well displayed   Go to FO \u0026gt; Click on the search bar on the header \u0026gt; Write a word on it (min 3 characters length) \u0026amp; click enter * No autocomplete list is displayed\n* The search bar in the header keeps the word written\n* The \u0026ldquo;Search results\u0026rdquo; page is displayed with the content:\n** Title: No matches were found for your search\n** Description: Please try other keywords to describe what you are looking for.\n** A search bar with \u0026ldquo;test\u0026rdquo; displayed   Go to BO \u0026gt; Sho Parameters \u0026gt; Search page \u0026amp; Enable the \u0026ldquo;Fuzzy search\u0026rdquo; \u0026gt; Save A green alert \u0026ldquo;The settings have been successfully updated.\u0026rdquo;   Go to FO \u0026gt; Click on the search bar on the header \u0026gt; Write a word on it (min 3 characters length) and click enter * The autocomplete list is displayed with 7 products\n* The search bar in the header keeps the word written\n* The \u0026ldquo;Search results\u0026rdquo; page is displayed with 7 products    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-search-bar.html",
-	"title": "BO - Search bar",
-	"tags": [],
-	"description": "",
-	"content": "BO - Search bar Steps    Step Description Expected result     Search for \u0026ldquo;orders\u0026rdquo; 3 types of results are displayed:\n- feature\n- modules\n- Search docs.prestashop-project.org   Search for John Doe The customer \u0026ldquo;John Doe\u0026rdquo; is listed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-bulk-actions.html",
@@ -4333,13 +4354,6 @@
 	"content": "BO - Dashboard - Products and sales "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html",
-	"title": "BO - Debug mode",
-	"tags": [],
-	"description": "",
-	"content": "BO - Debug mode Steps    Step Description Expected result     Go to Orders \u0026gt; Invoices Symfony toolbar is displayed at the bottom of the page   Toggle display of the toolbar Toolbar is toggled on and off   Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/\n- Edit the fileOrderController.php\u0026quot; - Change the value of the $orderKpiFactory variable. - Go to \u0026ldquo;Orders \u0026gt; Orders\u0026rdquo; in the BO\u0026quot; An exception is displayed   Fix the file and go to Orders \u0026gt; Orders\u0026quot; in the BO\u0026quot; The page works fine   Go to BO \u0026gt; Check the top right corner \u0026gt; Debug mode \u0026gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message   Click on the debug mode link You are redirected to Performance Page   Disable debug mode and save On the top right corner, the debug mode link is no longer displayed    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-preview-email-themes.html",
 	"title": "BO - Design - Email Theme - Preview email themes",
 	"tags": [],
@@ -4387,6 +4401,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Design - Theme \u0026amp; Logo - Page Configuration - Connect to Addons market place "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-check-notifications.html",
+	"title": "BO - Header - Check notifications",
+	"tags": [],
+	"description": "",
+	"content": "BO - Header - Check notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO \u0026gt; Login as a customer \u0026gt; Go to the order history \u0026gt; Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO \u0026gt; Refresh the page A 1 appears next to the bell   Open the notification box, then click on Messages The message created earlier appears   Open the notification The message page is opened   Go to FO \u0026gt; Add a product to you cart \u0026gt; And continue the buying process as a Guest Customer Order confirmation page will open   Go back to BO \u0026gt; Refresh the BO See that you have 2 notifications.\n1 for the order\n1 for the customer   Click on both notifications The Order detail page and the Customer detail page will open    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-edit-official-and-unofficial-currency.html",
@@ -4527,6 +4548,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Payments - Preferences - Edit Carrier restrictions "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-recommended-modules-for-the-page.html",
+	"title": "BO - Recommended modules for the page",
+	"tags": [],
+	"description": "",
+	"content": "BO - Recommended modules for the page Steps    Step Description Expected result     Go to BO \u0026gt; Migrated page like Orders, Products, Customers, etc    Click on button Recommended Modules and Services Popup will open with multiple choices of Modules   Click install on the module of your choice Message Install action on module XXX succeeded. appears\nWhen installed, button will transform to a Configure button   Click on the button Configure The page will refresh with the configuration page of the module   Click previous on browser Previous page will open   Click again on the button Recommended Modules and Services You will see 2 tabs, one \u0026ldquo;Not installed\u0026rdquo;, one \u0026ldquo;Installed\u0026rdquo;   Go to Installed modules tabs \u0026gt; Click on the dropdown arrow and uninstalled your module Message Uninstall action on module XXX succeeded. appears\nThe module is uninstalled   Click on in information addons link New page will open with addons marketplace   Go to a non-migrated page like Customer Service \u0026gt; Click on recommended Modules and Services \u0026gt; Install a module Message Notice! Install action on module XXX succeeded. appears\nModule is well installed   Disable the module you just created Message notice! Disable action on module sendinblue succeeded. appears\nModule is disabled   Click on a service with button Discover A page of the service will open in another tab    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-maximum-approximate-words-allowed-by-fuzzy-search.html",
@@ -5187,6 +5215,13 @@
 	"content": "BO - Design - Theme \u0026amp; Logo - Visit the theme Catalog "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-my-profile.html",
+	"title": "BO - Header - My Profile",
+	"tags": [],
+	"description": "",
+	"content": "BO - Header - My Profile Steps    Step Description Expected result     Go to BO \u0026gt; Click top right user icon \u0026gt; Click on \u0026ldquo;Your Profile\u0026rdquo; button Edit your profile page is displayed   Edit \u0026ldquo;First name\u0026rdquo; and \u0026ldquo;Last name\u0026rdquo; \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Message \u0026ldquo;Successful update\u0026rdquo; is displayed\n* \u0026ldquo;First name\u0026rdquo; \u0026amp; \u0026ldquo;Last name\u0026rdquo; fields have saved the new name\n* The title of \u0026ldquo;Edit\u0026rdquo; page has changed by the new name: \u0026ldquo;Edit: World Hello\u0026rdquo;   Edit \u0026ldquo;First name\u0026rdquo; and \u0026ldquo;Last name\u0026rdquo; fields with invalid string (with number for example) \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * An error message \u0026lsquo;The \u0026ldquo;First name\u0026rdquo; field is invalid.' is displayed\n* \u0026ldquo;First name\u0026rdquo; \u0026amp; \u0026ldquo;Last name\u0026rdquo; fields have saved the datas with numbers   Edit \u0026ldquo;First name\u0026rdquo; without invalid characters \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Message \u0026lsquo;The \u0026ldquo;Last name\u0026rdquo; field is invalid.' is displayed\n* \u0026ldquo;First name\u0026rdquo; field has saved the datas   Add avatar with svg extension \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button An error message \u0026ldquo;An unexpected error occurred. [PrestaShop\\PrestaShop\\Core\\Image\\Uploader\\Exception\\UploadedImageConstraintException code 2]: Image format \u0026ldquo;svg\u0026rdquo;, not recognized, allowed formats are: gif, jpg, jpeg, jpe, png, webp\u0026rdquo; is displayed   Add avatar with valid extension \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;Successful update\u0026rdquo; is displayed   Case 1: your email account has a gravatar account\nSet to \u0026ldquo;Yes\u0026rdquo; the Enable gravatar\u0026quot; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button \u0026gt; Click on \u0026ldquo;Your profile button\u0026rdquo; * A successful message \u0026ldquo;Successful update\u0026rdquo; is displayed\n* The \u0026ldquo;Enable gravatar\u0026rdquo; switch button is set to \u0026ldquo;Yes\u0026rdquo; and is green\n* Your gravatar image is displayed on \u0026ldquo;Your profile section\u0026rdquo;   Case 2: your email account has not a gravatar account\nSet to \u0026ldquo;Yes\u0026rdquo; the Enable gravatar\u0026quot; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button \u0026gt; Click on \u0026ldquo;Your profile button\u0026rdquo; * A successful message \u0026ldquo;Successful update\u0026rdquo; is displayed\n* The \u0026ldquo;Enable gravatar\u0026rdquo; switch button is set to \u0026ldquo;Yes\u0026rdquo; and is green\n* No image is displayed on \u0026ldquo;Your profile section\u0026rdquo;   Edit all the others fields \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;Successful update\u0026rdquo; is displayed   Click top-right icon \u0026gt; Logout You are redirected to the BO login page   Log into your BO with new credentials * You are redirected to the Delivery slips page\n* Your language is FR   Go to Advanced Parameters \u0026gt; Team \u0026gt; Employees \u0026gt; Delete your account An error message \u0026ldquo;You cannot disable or delete your own account.\u0026rdquo; is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-edit.html",
 	"title": "BO - International - Localization - Currencies - Edit",
 	"tags": [],
@@ -5262,6 +5297,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Modules - Updates tab - Upload a module "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html",
+	"title": "BO - Onboarding",
+	"tags": [],
+	"description": "",
+	"content": "BO - Onboarding Steps    Step Description Expected result     After first login, check that \u0026ldquo;OnBoarding\u0026rdquo; popup is displayed Modal has got:\n* Images and background image\n* Title: \u0026ldquo;Welcome to your shop!\u0026quot;\n* Description: \u0026ldquo;Hi! My name is Preston and I\u0026rsquo;m here to show you around.You will discover a few essential steps before you can launch your shop: Create your first product, customize your shop, configure shipping and payments\u0026hellip; Let\u0026rsquo;s get started!\u0026quot;\n* 2 buttons: \u0026ldquo;Later\u0026rdquo; \u0026amp; \u0026ldquo;Start\u0026rdquo;   Click on \u0026ldquo;Later\u0026rdquo; button or the cross on top right * Modal is closed\n* A reminder is displayed on bottom left of the menu   Click on \u0026ldquo;Resume\u0026rdquo; button at the bottom of the left menu Modal is re-opened with same informations   Click on \u0026ldquo;Start\u0026rdquo; button * \u0026ldquo;Start\u0026rdquo; button is loading\n* First step of \u0026ldquo;Onboarding\u0026rdquo; is displayed on product page   Follow the steps of the onboarding by clicking on \u0026ldquo;Next\u0026rdquo; button (5 main steps à the bottom dispatched with 10 small steps) * All steps are OK\n* Another modal is opened at the end with:\n** Title: \u0026ldquo;Over to you!\u0026quot;\n** Description: \u0026ldquo;You\u0026rsquo;ve seen the essential, but there\u0026rsquo;s a lot more to explore.\nSome resources can help you go further:\u0026quot;\n** 4 links tab:\n*** \u0026ldquo;Starter Guide\u0026rdquo;: [http://doc.prestashop.com/display/PS17/Getting+Started]\n*** \u0026ldquo;Forum\u0026rdquo;: [https://www.prestashop.com/forums/]\n*** \u0026ldquo;Training\u0026rdquo;: [https://www.prestashop.com/en/training]\n*** \u0026ldquo;Video tutorial\u0026rdquo;: [https://www.youtube.com/user/prestashop]\n** 1 button: \u0026ldquo;I\u0026rsquo;m ready\u0026rdquo;   Click on \u0026ldquo;I\u0026rsquo;m ready' button or the cross on top right Onboarding is removed and done    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-select-previous-orders.html",
@@ -5360,13 +5402,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Bulk actions "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-view-my-shop.html",
-	"title": "BO - View my shop",
-	"tags": [],
-	"description": "",
-	"content": "BO - View my shop Steps    Step Description Expected result     Click on View my shop FO is displayed in another tab    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-cashondelivery/installation/cash-on-delivery-cod-module-disable-enable-module.html",
@@ -5663,6 +5698,13 @@
 	"content": "BO - Advanced Parameters - Webservice - Help card "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-autoupgrade-from-previous-version.html",
+	"title": "BO - Autoupgrade from previous version",
+	"tags": [],
+	"description": "",
+	"content": "BO - Autoupgrade from previous version Steps    Step Description Expected result     Install previous version (last stable version + 2 or 3 most used versions, and 1.7.6.5) You\u0026rsquo;ve a fresh install without the last version   Go to International \u0026gt; Localization \u0026gt; Add a localization pack (Poland for example) You\u0026rsquo;ve a green notification with : \u0026ldquo;Localization pack imported successfully.\u0026rdquo;   Go to Shop Parameters \u0026gt; General \u0026gt; Enable Multistore and clic on \u0026ldquo;Save\u0026rdquo; You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful update\u0026rdquo;   Go to Advenced Parameters \u0026gt; Multistore \u0026gt;Add a new shop group Shop group is now display and you can setup it   Setup your shop group You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;   Clic on Add a new shop, setup your shop and clic on Save * You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;\n* You\u0026rsquo;re now on the view of the group Sidekick   Clic on \u0026quot; Click here to set a URL for this shop\u0026quot; \u0026gt; set up the Virtual URL \u0026gt; clic on \u0026ldquo;Save\u0026rdquo; You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;   Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    Go to Shipping \u0026gt; Carriers \u0026gt; Add new Carrier and in the tab Multistore check the two shop \u0026gt; finish the registration of a new carrier You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;   On each shop, add a discount You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;   On FO, for each shop, add a customer    Make 2 or 3 orders with new products    In orders \u0026gt; Orders \u0026gt; Change some status orders (on each shop) You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful update\u0026rdquo;   Install some new modules and configure them (partner, PS\u0026hellip;) Configuration is OK   Go to 1-Click Upgrade and Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK. You didn\u0026rsquo;t see any issue    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-6-invalid-time.html",
 	"title": "BO - Cart rules - Case 6 - Invalid Time",
 	"tags": [],
@@ -5712,11 +5754,11 @@
 	"content": "BO - Catalog - Stocks - Display products below low stocks level first "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-check-notifications.html",
-	"title": "BO - check notifications",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-contextual-help.html",
+	"title": "BO - Contextual help",
 	"tags": [],
 	"description": "",
-	"content": "BO - check notifications Steps    Step Description Expected result     Click on the notification icon The notifications are listed   Refresh the page The number next to the bell disappears   Go to the FO \u0026gt; Login as a customer \u0026gt; Go to the order history \u0026gt; Open an order The order details page is displayed   Send a message regarding an item from the form at the bottom of the page Message is sent successfully   Go to the BO \u0026gt; Refresh the page A 1 appears next to the bell   Open the notification box, then click on Messages The message created earlier appears   Open the notification The message page is opened   Go to FO \u0026gt; Add a product to you cart \u0026gt; And continue the buying process as a Guest Customer Order confirmation page will open   Go back to BO \u0026gt; Refresh the BO See that you have 2 notifications.\n1 for the order\n1 for the customer   Click on both notifications The Order detail page and the Customer detail page will open    "
+	"content": "BO - Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin\nTitle is : Discovering the Administration Area    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-crud-virtual-product.html",
@@ -6174,6 +6216,13 @@
 	"content": "BO - Advanced Parameters - Performance - Clear cache Steps    Step Description Expected result     Go to BO \u0026gt; Configure \u0026gt; Advanced parameters \u0026gt; Performance The Performance page is displayed   Click to Clear cache All caches cleared successfully    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html",
+	"title": "BO - After autoupgrade, rollback to previous version",
+	"tags": [],
+	"description": "",
+	"content": "BO - After autoupgrade, rollback to previous version Steps    Step Description Expected result     In 1-Click Upgrade \u0026gt; go to the section Rollback and choose your backup    Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.   Rollback from the release to PS176x Rollback is OK, and every data are OK.   Rollback from the release to PS177x Rollback is OK, and every data are OK.   Rollback from the release to PS178x Rollback is OK and every data is OK    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-7-total-order-minimum-amount.html",
 	"title": "BO - Cart rules - Case 7 - Total Order &lt; Minimum amount",
 	"tags": [],
@@ -6277,13 +6326,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Duplicate product Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products Products list page is displayed correctly   Filter with reference \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button Only one product is displayed   Duplicate the product by using the \u0026ldquo;three dots\u0026rdquo; icon on the right \u0026gt; Click on Duplicate A modal is displayed with two buttons:\n* Cancel\n* Duplicate   Click on \u0026ldquo;Duplicate\u0026rdquo; button An alert \u0026ldquo;Product successfully duplicated.\u0026rdquo; is displayed\nThe product Name contains \u0026ldquo;copy of searched Name\u0026rdquo;   Click on the Duplicate button on the footer of the product page \u0026gt; Duplicate An alert \u0026ldquo;Product successfully duplicated.\u0026rdquo; is displayed\nThe product Name contains \u0026ldquo;copy of copy of searched Name\u0026rdquo;   Go to the Products list page and delete the 2 duplicated products The products are well removed   Click on \u0026ldquo;X Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-gamification-module.html",
-	"title": "BO - Gamification module",
-	"tags": [],
-	"description": "",
-	"content": "BO - Gamification module Steps    Step Description Expected result     Go to Modules \u0026gt; Module Manager \u0026gt; Search \u0026ldquo;gamification\u0026rdquo; Merchant Expertise module is displayed in list of Modules   Click Configure Merchant Expertise page is displayed   Filter Type, Status and Level Badges will update according to filter    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/currencies/bo-international-localization-currencies-help-button.html",
@@ -6608,6 +6650,13 @@
 	"content": "BO - Design - Theme \u0026amp; Logo - Reset to default "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html",
+	"title": "BO - Exploratory session after autoupgrade",
+	"tags": [],
+	"description": "",
+	"content": "BO - Exploratory session after autoupgrade Steps    Step Description Expected result     Install previous version (specify which one in expected result)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS\u0026hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.    Exploratory test of the version     "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/localization/bo-international-localization-set-time-zone.html",
 	"title": "BO - International - Localization - Set time zone",
 	"tags": [],
@@ -6641,13 +6690,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Modules - Upload a module Steps    Step Description Expected result     Login in BO \u0026gt; Go to modules manager page * The page title should contains \u0026lsquo;Module manager\u0026rsquo;\nCheck that the button upload module exist in the header of the page   Click on the button Upload module A pop-up contains \u0026lsquo;Drop your module archive here or select file\u0026rsquo; appears   Case 1 : Drop the module you want to install Case 2 : Select the file of the module you want to install The installing process begins \u0026gt; a sucess message should appears   Check that the module is well installed and exist in the list of modules     "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-my-profile.html",
-	"title": "BO - My Profile",
-	"tags": [],
-	"description": "",
-	"content": "BO - My Profile Steps    Step Description Expected result     Go to BO \u0026gt; Click top right user icon \u0026gt; Click on \u0026ldquo;Your Profile\u0026rdquo; button Edit your profile page is displayed   Edit \u0026ldquo;First name\u0026rdquo; and \u0026ldquo;Last name\u0026rdquo; \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Message \u0026ldquo;Successful update\u0026rdquo; is displayed\n* \u0026ldquo;First name\u0026rdquo; \u0026amp; \u0026ldquo;Last name\u0026rdquo; fields have saved the new name\n* The title of \u0026ldquo;Edit\u0026rdquo; page has changed by the new name: \u0026ldquo;Edit: World Hello\u0026rdquo;   Edit \u0026ldquo;First name\u0026rdquo; and \u0026ldquo;Last name\u0026rdquo; fields with invalid string (with number for example) \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * An error message \u0026lsquo;The \u0026ldquo;First name\u0026rdquo; field is invalid.' is displayed\n* \u0026ldquo;First name\u0026rdquo; \u0026amp; \u0026ldquo;Last name\u0026rdquo; fields have saved the datas with numbers   Edit \u0026ldquo;First name\u0026rdquo; without invalid characters \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * Message \u0026lsquo;The \u0026ldquo;Last name\u0026rdquo; field is invalid.' is displayed\n* \u0026ldquo;First name\u0026rdquo; field has saved the datas   Add avatar with svg extension \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button An error message \u0026ldquo;An unexpected error occurred. [PrestaShop\\PrestaShop\\Core\\Image\\Uploader\\Exception\\UploadedImageConstraintException code 2]: Image format \u0026ldquo;svg\u0026rdquo;, not recognized, allowed formats are: gif, jpg, jpeg, jpe, png, webp\u0026rdquo; is displayed   Add avatar with valid extension \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;Successful update\u0026rdquo; is displayed   Case 1: your email account has a gravatar account\nSet to \u0026ldquo;Yes\u0026rdquo; the Enable gravatar\u0026quot; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button \u0026gt; Click on \u0026ldquo;Your profile button\u0026rdquo; * A successful message \u0026ldquo;Successful update\u0026rdquo; is displayed\n* The \u0026ldquo;Enable gravatar\u0026rdquo; switch button is set to \u0026ldquo;Yes\u0026rdquo; and is green\n* Your gravatar image is displayed on \u0026ldquo;Your profile section\u0026rdquo;   Case 2: your email account has not a gravatar account\nSet to \u0026ldquo;Yes\u0026rdquo; the Enable gravatar\u0026quot; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button \u0026gt; Click on \u0026ldquo;Your profile button\u0026rdquo; * A successful message \u0026ldquo;Successful update\u0026rdquo; is displayed\n* The \u0026ldquo;Enable gravatar\u0026rdquo; switch button is set to \u0026ldquo;Yes\u0026rdquo; and is green\n* No image is displayed on \u0026ldquo;Your profile section\u0026rdquo;   Edit all the others fields \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;Successful update\u0026rdquo; is displayed   Click top-right icon \u0026gt; Logout You are redirected to the BO login page   Log into your BO with new credentials * You are redirected to the Delivery slips page\n* Your language is FR   Go to Advanced Parameters \u0026gt; Team \u0026gt; Employees \u0026gt; Delete your account An error message \u0026ldquo;You cannot disable or delete your own account.\u0026rdquo; is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-choose-address.html",
@@ -6802,13 +6844,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Catalog - Products - Delete product Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products page The Products page is displayed   Reset all filters Number of products = Total of products   Filter Products by Name Number of products \u0026lt; Total of products\nAll the products contains the searched Name   Click on the drop-down toggle, click on \u0026ldquo;Delete\u0026rdquo; and confirm the deletion An alert \u0026ldquo;Product successfully deleted.\u0026rdquo; is displayed and the total products = total products - 1   Reset all filters Number of products = Total of products    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-contextual-help.html",
-	"title": "BO - Contextual help",
-	"tags": [],
-	"description": "",
-	"content": "BO - Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view-edit-voucher.html",
@@ -6993,13 +7028,6 @@
 	"content": "BO - Orders - Pagination Steps    Step Description Expected result     Go to Bo \u0026gt; Orders \u0026gt; Orders list page List of all Orders well displayed   Reset filter and get the number of all orders created No filter was applied and the NumOrder= number of orders ( = 5+6 = 11 if it is a fresh install)   Change \u0026ldquo;items per page\u0026rdquo; to 10\nGet the number of Pages = NumPage = up round (NumbOrder / 10), For example if we have 11 orders, NumPage = 2 Page reloads with 10 items on the first page\nButtons appear to go to the next page\nThe number of pages is correct   Click on the next button The next page is well displayed and check (page 2 / NumPage) is correct   Click on Previous button The first page is well displayed   Change \u0026ldquo;items per page\u0026rdquo; to 50 Page reloads with all items on the first page = NumOrder orders\nOnly one page of orders is available   Change \u0026ldquo;items per page\u0026rdquo; to 10 Page reloads with 10 items on the first page\nButtons appear to go to the next page\nThe number of pages is correct   Sort By Total DESC The first page is well sorted by total DESC   Click on next page Check that the second page is well sorted by total DESC   Filter by the customer John Doe and Click Search The order list should be filtered with the customer chosen\nIf \u0026lt; to \u0026ldquo;Items per page\u0026rdquo; : one page is available with no pagination\nif \u0026gt; to \u0026ldquo;Items per page\u0026rdquo; : X pages are available to go through    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-recommended-modules-for-the-page.html",
-	"title": "BO - Recommended modules for the page",
-	"tags": [],
-	"description": "",
-	"content": "BO - Recommended modules for the page Steps    Step Description Expected result     Go to BO \u0026gt; Migrated page like Orders, Products, Customers, etc    Click on button Recommended Modules and Services Popup will open with multiple choices of Modules   Click install on the module of your choice Message Install action on module XXX succeeded. appears\nWhen installed, button will transform to a Configure button   Click on the button Configure The page will refresh with the configuration page of the module   Click previous on browser Previous page will open   Click again on the button Recommended Modules and Services You will see 2 tabs, one \u0026ldquo;Not installed\u0026rdquo;, one \u0026ldquo;Installed\u0026rdquo;   Go to Installed modules tabs \u0026gt; Click on the dropdown arrow and uninstalled your module Message Uninstall action on module XXX succeeded. appears\nThe module is uninstalled   Click on in information addons link New page will open with addons marketplace   Go to a non-migrated page like Customer Service \u0026gt; Click on recommended Modules and Services \u0026gt; Install a module Message Notice! Install action on module XXX succeeded. appears\nModule is well installed   Disable the module you just created Message notice! Disable action on module sendinblue succeeded. appears\nModule is disabled   Click on a service with button Discover A page of the service will open in another tab    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-seo-options.html",
 	"title": "BO - Shop Parameters - SEO &amp; URLs - SEO Options",
 	"tags": [],
@@ -7091,13 +7119,6 @@
 	"content": "BO - Modules - See more / less module Steps    Step Description Expected result     Login in BO \u0026gt; Go to modules manager page The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Scroll in the existing modules \u0026gt; click on the button See more Other modules should appears   Click on the button See less Some modules disappears from the list    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html",
-	"title": "BO - Onboarding",
-	"tags": [],
-	"description": "",
-	"content": "BO - Onboarding Steps    Step Description Expected result     After first login, check that \u0026ldquo;OnBoarding\u0026rdquo; popup is displayed Modal has got:\n* Images and background image\n* Title: \u0026ldquo;Welcome to your shop!\u0026quot;\n* Description: \u0026ldquo;Hi! My name is Preston and I\u0026rsquo;m here to show you around.You will discover a few essential steps before you can launch your shop: Create your first product, customize your shop, configure shipping and payments\u0026hellip; Let\u0026rsquo;s get started!\u0026quot;\n* 2 buttons: \u0026ldquo;Later\u0026rdquo; \u0026amp; \u0026ldquo;Start\u0026rdquo;   Click on \u0026ldquo;Later\u0026rdquo; button or the cross on top right * Modal is closed\n* A reminder is displayed on bottom left of the menu   Click on \u0026ldquo;Resume\u0026rdquo; button at the bottom of the left menu Modal is re-opened with same informations   Click on \u0026ldquo;Start\u0026rdquo; button * \u0026ldquo;Start\u0026rdquo; button is loading\n* First step of \u0026ldquo;Onboarding\u0026rdquo; is displayed on product page   Follow the steps of the onboarding by clicking on \u0026ldquo;Next\u0026rdquo; button (5 main steps à the bottom dispatched with 10 small steps) * All steps are OK\n* Another modal is opened at the end with:\n** Title: \u0026ldquo;Over to you!\u0026quot;\n** Description: \u0026ldquo;You\u0026rsquo;ve seen the essential, but there\u0026rsquo;s a lot more to explore.\nSome resources can help you go further:\u0026quot;\n** 4 links tab:\n*** \u0026ldquo;Starter Guide\u0026rdquo;: [http://doc.prestashop.com/display/PS17/Getting+Started]\n*** \u0026ldquo;Forum\u0026rdquo;: [https://www.prestashop.com/forums/]\n*** \u0026ldquo;Training\u0026rdquo;: [https://www.prestashop.com/en/training]\n*** \u0026ldquo;Video tutorial\u0026rdquo;: [https://www.youtube.com/user/prestashop]\n** 1 button: \u0026ldquo;I\u0026rsquo;m ready\u0026rdquo;   Click on \u0026ldquo;I\u0026rsquo;m ready' button or the cross on top right Onboarding is removed and done    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-check-invoice.html",
 	"title": "BO - Order details - Check invoice",
 	"tags": [],
@@ -7159,13 +7180,6 @@
 	"tags": [],
 	"description": "",
 	"content": "[BO] Upgrade from 1.7.6 to last build and then exploratory test on BO Steps    Step Description Expected result     On a fresh 1.7.6.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.\nThen upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.\nDescribe everything tested in \u0026ldquo;Actual result\u0026rdquo; field.    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-autoupgrade-from-previous-version.html",
-	"title": "BO - Autoupgrade from previous version",
-	"tags": [],
-	"description": "",
-	"content": "BO - Autoupgrade from previous version Steps    Step Description Expected result     Install previous version (last stable version + 2 or 3 most used versions, and 1.7.6.5) You\u0026rsquo;ve a fresh install without the last version   Go to International \u0026gt; Localization \u0026gt; Add a localization pack (Poland for example) You\u0026rsquo;ve a green notification with : \u0026ldquo;Localization pack imported successfully.\u0026rdquo;   Go to Shop Parameters \u0026gt; General \u0026gt; Enable Multistore and clic on \u0026ldquo;Save\u0026rdquo; You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful update\u0026rdquo;   Go to Advenced Parameters \u0026gt; Multistore \u0026gt;Add a new shop group Shop group is now display and you can setup it   Setup your shop group You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;   Clic on Add a new shop, setup your shop and clic on Save * You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;\n* You\u0026rsquo;re now on the view of the group Sidekick   Clic on \u0026quot; Click here to set a URL for this shop\u0026quot; \u0026gt; set up the Virtual URL \u0026gt; clic on \u0026ldquo;Save\u0026rdquo; You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;   Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    Go to Shipping \u0026gt; Carriers \u0026gt; Add new Carrier and in the tab Multistore check the two shop \u0026gt; finish the registration of a new carrier You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;   On each shop, add a discount You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful creation\u0026rdquo;   On FO, for each shop, add a customer    Make 2 or 3 orders with new products    In orders \u0026gt; Orders \u0026gt; Change some status orders (on each shop) You\u0026rsquo;ve a green notification with : \u0026ldquo;Successful update\u0026rdquo;   Install some new modules and configure them (partner, PS\u0026hellip;) Configuration is OK   Go to 1-Click Upgrade and Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK. You didn\u0026rsquo;t see any issue    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/informations/bo-cart-rules-case-12-group-customer-restriction.html",
@@ -7252,13 +7266,6 @@
 	"content": "FO - Product Page - Write a review Steps    Step Description Expected result     Go to prestashop FO and login Logged in   Go to prestashop homepage Prestashop homepage is displayed   Go to a product detail page product detail page is displayed   Click on the \u0026ldquo;be the first to write your review\u0026rdquo; button A modal is displayed   In the modal add:\n# a number of stars for the notation\n# a title for the review\n# a content for the review\nThen click on \u0026ldquo;send\u0026rdquo; button the modal closes and another modal opens.\nThe new modal contains the following information:\n# a confirmation message \u0026ldquo;review sent\u0026rdquo;\n# an informational message \u0026ldquo;Your comment has been submitted and will be available once approved by a moderator.\u0026quot;\n# an \u0026ldquo;ok\u0026rdquo; button to close the modal   In the new modal, click on the \u0026ldquo;OK\u0026rdquo; button The modal is closed and we are on the product detail page   logout from FO logged out   Go to the prestashop BO and login logged in and the BO dashboard page is displayed   Go to the module manager page module manager page is displayed   in the searchbar, search for the \u0026ldquo;product comments\u0026rdquo; module the product comment module is displayed   click on the \u0026ldquo;configure\u0026rdquo; button Redirected to the \u0026ldquo;product comment\u0026rdquo; module configuration page   In the \u0026ldquo;reviews waiting for approval\u0026rdquo; section, check if the review made in FO is visible and the content is correct The review is in the table and the information (rating, review title, review content) are correct   Click on the \u0026ldquo;approve\u0026rdquo; button refresh of the page and the review is now visible in the \u0026ldquo;approved review\u0026rdquo; table   logout from BO Logged out   Go to the FO and login logged in   go to the product page for which we left a comment in the previous steps the product page is displayed   check the comment section the comment we just approved is visible and the content is correct   Go back to the BO and delete the review The review is deleted and is not visible anymore in FO    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html",
-	"title": "BO - After autoupgrade, rollback to previous version",
-	"tags": [],
-	"description": "",
-	"content": "BO - After autoupgrade, rollback to previous version Steps    Step Description Expected result     In 1-Click Upgrade \u0026gt; go to the section Rollback and choose your backup    Rollback from the Release to PS16124 Rollback is OK, and every data are OK.   Rollback from The release to PS174x Rollback is OK, and every data are OK.   Rollback from the Release to PS175x Rollback is OK, and every data are OK.   Rollback from the release to PS176x Rollback is OK, and every data are OK.   Rollback from the release to PS177x Rollback is OK, and every data are OK.   Rollback from the release to PS178x Rollback is OK and every data is OK    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-description-tab.html",
 	"title": "BO - Description Tab",
 	"tags": [],
@@ -7320,13 +7327,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Combinations Tab "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html",
-	"title": "BO - Exploratory session after autoupgrade",
-	"tags": [],
-	"description": "",
-	"content": "BO - Exploratory session after autoupgrade Steps    Step Description Expected result     Install previous version (specify which one in expected result)    Add a localization pack (Poland for example)    Enable Multistore, create a new shop on a new shop group    Add one product of each following type (standard with customization, virtual, pack, combination) on each shop    On each shop, add a carrier    On each shop, add a discount    On FO, for each shop, add a customer    Make 2 or 3 orders with new products    Change some status orders (on each shop)    Install some new modules and configure them (partner, PS\u0026hellip;) Configuration is OK   Upgrade to the tested build Everything is OK during upgrade   Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.    Exploratory test of the version     "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-edit-template-product-stock-filter.html",
@@ -7676,7 +7676,7 @@
 	"title": "BO",
 	"tags": [],
 	"description": "",
-	"content": "BO Categories  Advanced Parameters   Catalog   Customer Service   Customers   Dashboard   Design   International   Login   Modules   Orders   Payment   Shipping   Shop Parameters   Tests  BO - Left Menu   BO - Quick access   BO - Search bar   BO - Debug mode   BO - View my shop   BO - check notifications   BO - Gamification module   BO - My Profile   BO - Contextual help   BO - Recommended modules for the page   BO - Onboarding   BO - Autoupgrade from previous version   BO - After autoupgrade, rollback to previous version   BO - Exploratory session after autoupgrade   "
+	"content": "BO Categories  Advanced Parameters   Catalog   Customer Service   Customers   Dashboard   Design   Header   International   Login   Modules   Orders   Payment   Shipping   Shop Parameters   Tests  BO - Left Menu   BO - Debug mode   BO - Gamification module   BO - Recommended modules for the page   BO - Onboarding   BO - Autoupgrade from previous version   BO - After autoupgrade, rollback to previous version   BO - Exploratory session after autoupgrade   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/bo.html",
@@ -8201,7 +8201,7 @@
 	"title": "Dashboard",
 	"tags": [],
 	"description": "",
-	"content": "Dashboard Tests  BO - Dashboard - Enable/Disable demo mode \u0026#43; check stats   BO - Dashboard - Tips and update (check language)   BO - Dashboard - Activity overview   BO - Dashboard - Products and sales   BO - Dashboard - Marketplace connection   "
+	"content": "Dashboard Tests  BO - Dashboard - Enable/Disable demo mode \u0026#43; check stats   BO - Dashboard - Tips and update (check language)   BO - Dashboard - Activity overview   BO - Dashboard - Products and sales   BO - Dashboard - Marketplace connection   BO - Contextual help   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/dashtrends.html",
@@ -8559,6 +8559,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Groups Tests  Filter, sort and pagination   CRUD   Update Default groups options   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header.html",
+	"title": "Header",
+	"tags": [],
+	"description": "",
+	"content": "Header Tests  BO - Header - Quick access   BO - Header - Search bar   BO - Header - View my shop   BO - Header - Check notifications   BO - Header - My Profile   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/header-footer.html",
