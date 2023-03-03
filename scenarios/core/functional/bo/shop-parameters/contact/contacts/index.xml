@@ -12,8 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/filter-contacts.html</guid>
-      <description>Filter Contacts Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters&amp;gt;Contact&amp;rsquo; page title contains &amp;lsquo;Contacts&amp;rsquo;   reset filter Total of contacts &amp;gt; 0   filter by &amp;lsquo;id_contact&amp;rsquo; &amp;lsquo;2&amp;rsquo; Number of contacts &amp;lt; total of contacts
-all rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   reset filter Number of contacts after reset = total of contacts   filter by &amp;lsquo;name&amp;rsquo; &amp;lsquo;Customer service&amp;rsquo; Number of contacts &amp;lt; total of contacts</description>
+      <description>Filter Contacts Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact &amp;gt; Contact tab Contacts page is well displayed   Filter by id_contact = 2 &amp;gt; Click Search Number of contacts &amp;lt; total of contacts
+All rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   Click on Reset Filter is reset
+Number of contacts after reset = total of contacts   Filter by name = Customer service Number of contacts &amp;lt; total of contacts</description>
     </item>
     
     <item>
@@ -22,9 +23,9 @@ all rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/crud-contact.html</guid>
-      <description>CRUD Contact Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contact&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   go to add new contact page page title contains &amp;lsquo;Add new&amp;rsquo;   Create contact
-(faker data) Successful message is displayed
-number of contacts after creation = total of contacts + 1   filter list by email of created contact Contact appears in the top of the list   go to edit contact page page title contains &amp;lsquo;Edit:&amp;rsquo;   Update contact</description>
+      <description>CRUD Contact Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains &amp;lsquo;Add new:&amp;rsquo;   Create contact
+(faker data) Message Successful creation is displayed
+Number of contacts after creation = total of contacts + 1   Filter list by email with latest email of created contact Contact is displayed in list   Click on the pen to edit the contact Page title contains &amp;lsquo;Edit:&amp;rsquo;   Update contact</description>
     </item>
     
     <item>
@@ -33,7 +34,7 @@ number of contacts after creation = total of contacts + 1   filter list by email
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bulk-actions.html</guid>
-      <description>Bulk actions Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contacts&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   Create 2 contacts Number of contacts after creation = total of contacts + 2   filter list by title 2 contacts in list are displayed   delete contacts by bulk actions successful message is displayed   reset filter Number of contacts after deletion = total of contacts    </description>
+      <description>Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts Tab Contacts page is well displayed   Create 2 contacts using the following test Number of contacts after creation = total of contacts + 2   {color:#C1C7D0} This step was calling test issue TEST-1096 (possibly downgraded){color}    Check the 2 newly created Contact &amp;gt; Bulk actions &amp;gt; Delete selected &amp;gt; Delete Message The selection has been successfully deleted is displayed</description>
     </item>
     
     <item>
@@ -42,9 +43,9 @@ number of contacts after creation = total of contacts + 1   filter list by email
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/sort-contacts.html</guid>
-      <description>Sort Contacts Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contacts&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   Sort By id_contact desc list is sorted by id_contact desc
-(3 -&amp;gt; 2 -&amp;gt; 1)   Sort By name asc list is sorted by name asc
-(a -&amp;gt; b -&amp;gt; c)   Sort By name desc list is sorted by name desc</description>
+      <description>Sort Contacts Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts Tab Contacts page is well displayed   Sort by id_contact desc List is sorted by id_contact desc
+(3 -&amp;gt; 2 -&amp;gt; 1)   Sort By title asc List is sorted by title asc
+(a -&amp;gt; b -&amp;gt; c)   Sort by title desc List is sorted by title desc</description>
     </item>
     
   </channel>

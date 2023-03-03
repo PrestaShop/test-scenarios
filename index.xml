@@ -1385,8 +1385,9 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/filter-contacts.html</guid>
-      <description>Filter Contacts Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters&amp;gt;Contact&amp;rsquo; page title contains &amp;lsquo;Contacts&amp;rsquo;   reset filter Total of contacts &amp;gt; 0   filter by &amp;lsquo;id_contact&amp;rsquo; &amp;lsquo;2&amp;rsquo; Number of contacts &amp;lt; total of contacts
-all rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   reset filter Number of contacts after reset = total of contacts   filter by &amp;lsquo;name&amp;rsquo; &amp;lsquo;Customer service&amp;rsquo; Number of contacts &amp;lt; total of contacts</description>
+      <description>Filter Contacts Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact &amp;gt; Contact tab Contacts page is well displayed   Filter by id_contact = 2 &amp;gt; Click Search Number of contacts &amp;lt; total of contacts
+All rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   Click on Reset Filter is reset
+Number of contacts after reset = total of contacts   Filter by name = Customer service Number of contacts &amp;lt; total of contacts</description>
     </item>
     
     <item>
@@ -1881,10 +1882,10 @@ Click on &amp;ldquo;Order history and details&amp;rdquo; tab * The &amp;ldquo;Or
     
     <item>
       <title>Official GDPR module - Upgrade module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-upgrade-module.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-upgrade-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-upgrade-module.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-upgrade-module.html</guid>
       <description>Official GDPR module - Upgrade module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_gdpr The module page list should be displayed and GDPR module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Upgrade&amp;rdquo; option A modal is open with:
 * Title: &amp;ldquo;Are you sure you want to upgrade this module?</description>
     </item>
@@ -2356,21 +2357,21 @@ Set these fields and click on Save An alert &amp;ldquo;Successful creation.&amp
     </item>
     
     <item>
-      <title>BO - Cart Rules - Filter, sort and pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-filter-sort-and-pagination.html</link>
+      <title>BO - Cart Rules - Sort, pagination and bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-sort-pagination-and-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-filter-sort-and-pagination.html</guid>
-      <description>BO - Cart Rules - Filter, sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rule page The cart rule page is well displayed   Filter By ID Number of cart rules &amp;lt; Total cart rules and the list contains the searched ID   Reset Filter Number cart rules = Total of cart rules   Filter by Name Number of cart rules &amp;lt; Total cart rules and the list contains the searched Name   Reset Filter Number cart rules = Total of cart rules   Filter by Priority Number of cart rules &amp;lt; Total cart rules and the list contains the searched priority   Reset Filter Number cart rules = Total of cart rules   Filter by Code Number of cart rules &amp;lt; Total cart rules and the list contains the searched Code   Reset Filter Number cart rules = Total of cart rules   Filter by Quantity Number of cart rules &amp;lt; Total cart rules and the list contains the searched Quantity   Reset Filter Number cart rules = Total of cart rules   Filter by Expiration date Number of cart rules &amp;lt; Total cart rules and the list contains the searched Date   Reset Filter Number cart rules = Total of cart rules   Filter by status Number of cart rules &amp;lt; Total cart rules and the list contains the searched Status   Reset Filter Number cart rules = Total of cart rules   Sort by ID desc Sort by ID desc   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Priority asc The list is sorted by priority asc   Sort by Priority desc The list is sorted by priority desc   Sort by Code asc The list is sorted by code asc   Sort by Code desc The list is sorted by code desc   Sort by Quantity asc The list is sorted by quantity asc   Sort by Quanity desc The list is sorted by Quantity desc   Sort by Expiration date asc The list is sorted by Expiration date asc   Sort by Expiration date desc The list is sorted by Expiration date desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created cart rules All cart rules are well deleted    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-sort-pagination-and-bulk-actions.html</guid>
+      <description>BO - Cart Rules - Sort, pagination and bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rule page The cart rule page is well displayed   Sort by ID desc Sort by ID desc   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Priority asc The list is sorted by priority asc   Sort by Priority desc The list is sorted by priority desc   Sort by Code asc The list is sorted by code asc   Sort by Code desc The list is sorted by code desc   Sort by Quantity asc The list is sorted by quantity asc   Sort by Quanity desc The list is sorted by Quantity desc   Sort by Expiration date asc The list is sorted by Expiration date asc   Sort by Expiration date desc The list is sorted by Expiration date desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created cart rules by bulk actions All cart rules are well deleted    </description>
     </item>
     
     <item>
-      <title>BO - Catalog - Attributes - Sort </title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort.html</link>
+      <title>BO - Catalog - Attributes - Sort, Pagination and bulk delete</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-pagination-and-bulk-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort.html</guid>
-      <description>BO - Catalog - Attributes - Sort Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes page The Attributes page well displayed   Sort by ID desc The list is well sorted by id_attribute desc (3-&amp;gt;2-&amp;gt;1)   Sort by name asc The list is sorted by name asc (a-&amp;gt;b-&amp;gt;c)   Sort by name desc The list is sorted by name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Position asc The list is sorted by position asc (1-&amp;gt;2-&amp;gt;3)   Sort by ID asc The list is sorted by ID asc (1-&amp;gt;2-&amp;gt;3)    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/attributes-and-features/attributes/bo-catalog-attributes-sort-pagination-and-bulk-delete.html</guid>
+      <description>BO - Catalog - Attributes - Sort, Pagination and bulk delete Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Attributes page The Attributes page well displayed   Sort by ID desc The list is well sorted by id_attribute desc (3-&amp;gt;2-&amp;gt;1)   Sort by name asc The list is sorted by name asc (a-&amp;gt;b-&amp;gt;c)   Sort by name desc The list is sorted by name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Position asc The list is sorted by position asc (1-&amp;gt;2-&amp;gt;3)   Sort by ID asc The list is sorted by ID asc (1-&amp;gt;2-&amp;gt;3)   Change Display items to 20 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete the Created attributes by bulk actions Attributes are well deleted    </description>
     </item>
     
     <item>
@@ -2430,12 +2431,12 @@ Filtered result is Brand : Studio Design   Reset filter No more filter is applie
     </item>
     
     <item>
-      <title>BO - Catalog - Suppliers - Filter, Quick Edit and Bulk Actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-filter-quick-edit-and-bulk-actions.html</link>
+      <title>BO - Catalog - Suppliers - Filter and Quick Edit</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-filter-and-quick-edit.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-filter-quick-edit-and-bulk-actions.html</guid>
-      <description>BO - Catalog - Suppliers - Filter, Quick Edit and Bulk Actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Suppliers Number Suppliers = Total Suppliers   Filter by ID Number of suppliers &amp;lt; Total suppliers
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-filter-and-quick-edit.html</guid>
+      <description>BO - Catalog - Suppliers - Filter and Quick Edit Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Suppliers Number Suppliers = Total Suppliers   Filter by ID Number of suppliers &amp;lt; Total suppliers
 The list contains the searched ID   Reset filter Number of Suppliers after reset = Total Suppliers   Filter Supplier by Name Number of suppliers after filter &amp;lt;= total of suppliers</description>
     </item>
     
@@ -3171,9 +3172,9 @@ Redirection to store page    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/crud-contact.html</guid>
-      <description>CRUD Contact Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contact&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   go to add new contact page page title contains &amp;lsquo;Add new&amp;rsquo;   Create contact
-(faker data) Successful message is displayed
-number of contacts after creation = total of contacts + 1   filter list by email of created contact Contact appears in the top of the list   go to edit contact page page title contains &amp;lsquo;Edit:&amp;rsquo;   Update contact</description>
+      <description>CRUD Contact Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains &amp;lsquo;Add new:&amp;rsquo;   Create contact
+(faker data) Message Successful creation is displayed
+Number of contacts after creation = total of contacts + 1   Filter list by email with latest email of created contact Contact is displayed in list   Click on the pen to edit the contact Page title contains &amp;lsquo;Edit:&amp;rsquo;   Update contact</description>
     </item>
     
     <item>
@@ -3706,10 +3707,10 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     
     <item>
       <title>Official GDPR module - Uninstall/Install module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-uninstall-install-module.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-uninstall-install-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-uninstall-install-module.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-uninstall-install-module.html</guid>
       <description>Official GDPR module - Uninstall/Install module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_gdpr The module page list should be displayed and GDPR module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:
 * Title: &amp;ldquo;Uninstall module?</description>
     </item>
@@ -4133,13 +4134,12 @@ Successful message is displayed   Download and open CSV file of the created quer
     </item>
     
     <item>
-      <title>BO - Cart Rules - Quick Edit</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-quick-edit.html</link>
+      <title>BO - Cart Rules - Filter, Quick Edit and bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-filter-quick-edit-and-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-quick-edit.html</guid>
-      <description>BO - Cart Rules - Quick Edit Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The cart rules page is well displayed   Click on the icon status to disable the cart rule A green alert &amp;ldquo;The status has been successfully updated.&amp;rdquo; is displayed
-The cart rule is well disabled   Click on the icon status again to enable the cart rule A green alert &amp;ldquo;The status has been successfully updated.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-filter-quick-edit-and-bulk-actions.html</guid>
+      <description>BO - Cart Rules - Filter, Quick Edit and bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The cart rules page is well displayed   Filter By ID Number of cart rules &amp;lt; Total cart rules and the list contains the searched ID   Reset Filter Number cart rules = Total of cart rules   Filter by Name Number of cart rules &amp;lt; Total cart rules and the list contains the searched Name   Reset Filter Number cart rules = Total of cart rules   Filter by Priority Number of cart rules &amp;lt; Total cart rules and the list contains the searched priority   Reset Filter Number cart rules = Total of cart rules   Filter by Code Number of cart rules &amp;lt; Total cart rules and the list contains the searched Code   Reset Filter Number cart rules = Total of cart rules   Filter by Quantity Number of cart rules &amp;lt; Total cart rules and the list contains the searched Quantity   Reset Filter Number cart rules = Total of cart rules   Filter by Expiration date Number of cart rules &amp;lt; Total cart rules and the list contains the searched Date   Reset Filter Number cart rules = Total of cart rules   Filter by status Number of cart rules &amp;lt; Total cart rules and the list contains the searched Status   Reset Filter Number cart rules = Total of cart rules   Click on the icon status to disable the cart rule A green alert &amp;ldquo;The status has been successfully updated.</description>
     </item>
     
     <item>
@@ -4211,12 +4211,12 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
     </item>
     
     <item>
-      <title>BO - Catalog - Suppliers - Sort &amp; Pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-sort-pagination.html</link>
+      <title>BO - Catalog - Suppliers - Sort, Pagination and bulk delete</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-sort-pagination-and-bulk-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-sort-pagination.html</guid>
-      <description>BO - Catalog - Suppliers - Sort &amp;amp; Pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Suppliers page The suppliers page is well displayed   Sort by ID desc The list is sorted by ID desc (3-&amp;gt;2-&amp;gt;1)   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Number of products asc The list is sorted by Number of products asc (0-&amp;gt;1-&amp;gt;2)   Sort by Number of products desc The list is sorted by Number of products desc (2-&amp;gt;1-&amp;gt;0)   Sort by Status asc The list is sorted asc   Sort by Status desc The list is sorted by desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete created Suppliers Suppliers well deleted with message &amp;ldquo;Successful deletion&amp;rdquo;    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers/bo-catalog-suppliers-sort-pagination-and-bulk-delete.html</guid>
+      <description>BO - Catalog - Suppliers - Sort, Pagination and bulk delete Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Suppliers page The suppliers page is well displayed   Sort by ID desc The list is sorted by ID desc (3-&amp;gt;2-&amp;gt;1)   Sort by Name asc The list is sorted by Name asc (a-&amp;gt;b-&amp;gt;c)   Sort by Name desc The list is sorted by Name desc (c-&amp;gt;b-&amp;gt;a)   Sort by Number of products asc The list is sorted by Number of products asc (0-&amp;gt;1-&amp;gt;2)   Sort by Number of products desc The list is sorted by Number of products desc (2-&amp;gt;1-&amp;gt;0)   Sort by Status asc The list is sorted asc   Sort by Status desc The list is sorted by desc   Sort by ID asc The list is sorted by ID asc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete created Suppliers Suppliers well deleted with message &amp;ldquo;Successful deletion&amp;rdquo;    </description>
     </item>
     
     <item>
@@ -4229,12 +4229,12 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
     </item>
     
     <item>
-      <title>BO - Catalog- Files - Filter, Pagination and Sort</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-and-sort.html</link>
+      <title>BO - Catalog- Files - Filter, Pagination, Sort and bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-sort-and-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-and-sort.html</guid>
-      <description>BO - Catalog- Files - Filter, Pagination and Sort Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The files page is well displayed   Filter By ID Number files &amp;lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files &amp;lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-sort-and-bulk-actions.html</guid>
+      <description>BO - Catalog- Files - Filter, Pagination, Sort and bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The files page is well displayed   Filter By ID Number files &amp;lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files &amp;lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size</description>
     </item>
     
     <item>
@@ -4775,7 +4775,7 @@ The maintenance text is the default one   In Custom maintenance text, edit your
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bulk-actions.html</guid>
-      <description>Bulk actions Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contacts&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   Create 2 contacts Number of contacts after creation = total of contacts + 2   filter list by title 2 contacts in list are displayed   delete contacts by bulk actions successful message is displayed   reset filter Number of contacts after deletion = total of contacts    </description>
+      <description>Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts Tab Contacts page is well displayed   Create 2 contacts using the following test Number of contacts after creation = total of contacts + 2   {color:#C1C7D0} This step was calling test issue TEST-1096 (possibly downgraded){color}    Check the 2 newly created Contact &amp;gt; Bulk actions &amp;gt; Delete selected &amp;gt; Delete Message The selection has been successfully deleted is displayed</description>
     </item>
     
     <item>
@@ -5312,10 +5312,10 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     
     <item>
       <title>Official GDPR module - Reset module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-reset-module.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-reset-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-reset-module.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-reset-module.html</guid>
       <description>Official GDPR module - Reset module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_gdpr The module page list should be displayed and GDPR module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:
 * Title: &amp;ldquo;Reset module?</description>
     </item>
@@ -6677,10 +6677,10 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     
     <item>
       <title>New products block module - Uninstall and delete module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/new-products-block-module-uninstall-and-delete-module.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/new-products-block-module-uninstall-and-delete-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/new-products-block-module-uninstall-and-delete-module.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/new-products-block-module-uninstall-and-delete-module.html</guid>
       <description>New products block module - Uninstall and delete module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search Legal Assistant The module page list should be displayed and Legal Assistant block module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
     </item>
     
@@ -6736,9 +6736,9 @@ USD, PYG and JPY are in the list of currencies   Search by ISO &amp;ldquo;EUR&am
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/sort-contacts.html</guid>
-      <description>Sort Contacts Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Contacts&amp;rsquo; page page title contains &amp;lsquo;Contacts&amp;rsquo;   reset all filters Total of contacts &amp;gt; 0   Sort By id_contact desc list is sorted by id_contact desc
-(3 -&amp;gt; 2 -&amp;gt; 1)   Sort By name asc list is sorted by name asc
-(a -&amp;gt; b -&amp;gt; c)   Sort By name desc list is sorted by name desc</description>
+      <description>Sort Contacts Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts Tab Contacts page is well displayed   Sort by id_contact desc List is sorted by id_contact desc
+(3 -&amp;gt; 2 -&amp;gt; 1)   Sort By title asc List is sorted by title asc
+(a -&amp;gt; b -&amp;gt; c)   Sort by title desc List is sorted by title desc</description>
     </item>
     
     <item>
@@ -7531,10 +7531,10 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     
     <item>
       <title>GDPR block module - Disable/Enable module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/gdpr-block-module-disable-enable-module.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/gdpr-block-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/gdpr-block-module-disable-enable-module.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/gdpr-block-module-disable-enable-module.html</guid>
       <description>GDPR block module - Disable/Enable module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search Prestashop Legal Assistant The module page list should be displayed and Prestashop Legal Assistant module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
     </item>
     
@@ -8241,10 +8241,10 @@ Title is : Discovering the Administration Area    </description>
     
     <item>
       <title>Legal Assistant block module - Disable Mobile/Enable Mobile module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/legal-assistant-block-module-disable-mobile-enable-mobile-module.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/legal-assistant-block-module-disable-mobile-enable-mobile-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/legal-assistant-block-module-disable-mobile-enable-mobile-module.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/legal-assistant-block-module-disable-mobile-enable-mobile-module.html</guid>
       <description>Legal Assistant block module - Disable Mobile/Enable Mobile module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search Legal Assistant The module page list should be displayed and Legal Assistant block module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable Mobile&amp;rdquo; option * After loading, a green message &amp;ldquo;Disable mobile action on module Legal Assistant succeeded.</description>
     </item>
     
