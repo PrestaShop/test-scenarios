@@ -7,13 +7,12 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to 'Shop parameters>Contact' page | title contains 'Contacts' |
-| reset filter | Total of contacts > 0 |
-| filter by 'id_contact' '2' | Number of contacts < total of contacts<br>all rows column 'id_contact' contains '2' |
-| reset filter | Number of contacts after reset = total of contacts |
-| filter by 'name' 'Customer service' | Number of contacts < total of contacts<br>all rows column 'name' contains 'Customer service' |
-| reset filter | Number of contacts after reset = total of contacts |
-| filter by 'email' 'demo@prestashop.com' | Number of contacts < total of contacts<br>all rows column 'email' contains 'demo@prestashop.com' |
-| reset filter | Number of contacts after reset = total of contacts |
-| filter by 'description' 'For any question about a product, an order' | Number of contacts < total of contacts<br>all rows column 'description' contains 'For any question about a product, an order' |
-| reset filter | Number of contacts after reset = total of contacts |
+| Go to BO > Shop parameters > Contact > Contact tab | Contacts page is well displayed |
+| Filter by id_contact = 2 > Click Search | Number of contacts < total of contacts<br><br>All rows column 'id_contact' contains '2' |
+| Click on Reset | Filter is reset<br><br>Number of contacts after reset = total of contacts |
+| Filter by name = Customer service | Number of contacts < total of contacts<br><br>All rows column 'name' contains 'Customer service' |
+| Click on Reset | Filter is reset<br><br>Number of contacts after reset = total of contacts |
+| Filter by email = demo@prestashop.com | Number of contacts < total of contacts<br><br>All rows column 'email' contains 'demo@prestashop.com' |
+| Click on Reset | Filter is reset<br><br>Number of contacts after reset = total of contacts |
+| Filter by description = For any question about a product, an order | Number of contacts < total of contacts<br><br>All rows column 'description' contains 'For any question about a product, an order' |
+| Click on Reset | Filter is reset<br><br>Number of contacts after reset = total of contacts |

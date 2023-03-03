@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog- Files - Filter, Pagination and Sort"
+title: "BO - Catalog- Files - Filter, Pagination, Sort and bulk actions"
 weight: 3
 ---
 
-# BO - Catalog- Files - Filter, Pagination and Sort
+# BO - Catalog- Files - Filter, Pagination, Sort and bulk actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
@@ -29,4 +29,4 @@ weight: 3
 | Click on Next | The Second page is displayed |
 | Click on Previous | The first page is displayed |
 | Change Display items to 50 | Pagination = 1 |
-| Delete all created files | All files are well deleted |
+| Delete all created files by bulk actions | All files are well deleted |

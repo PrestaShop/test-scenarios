@@ -7,13 +7,12 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to 'Shop parameters > Contacts' page | page title contains 'Contacts' |
-| reset all filters | Total of contacts > 0 |
-| Sort By id_contact desc | list is sorted by id_contact desc<br>(3 -> 2 -> 1) |
-| Sort By name asc | list is sorted by name asc<br>(a -> b -> c) |
-| Sort By name desc | list is sorted by name desc<br>(c -> b -> a) |
-| Sort By email asc | list is sorted by email asc<br>(a -> b -> c) |
-| Sort By email desc | list is sorted by email desc<br>(c -> b -> a) |
-| Sort By description asc | list is sorted by description asc<br>(a -> b -> c) |
-| Sort By description desc | list is sorted by description desc<br>(c -> b -> a) |
-| Sort By id_contact asc | list is sorted by id_contact asc<br>(1 -> 2 -> 3) |
+| Go to BO > Shop parameters > Contacts > Contacts Tab | Contacts page is well displayed |
+| Sort by id_contact desc | List is sorted by id_contact desc<br>(3 -> 2 -> 1) |
+| Sort By title asc | List is sorted by title asc<br>(a -> b -> c) |
+| Sort by title desc | List is sorted by title desc<br>(c -> b -> a) |
+| Sort by email asc | List is sorted by email asc<br>(a -> b -> c) |
+| Sort by email desc | List is sorted by email desc<br>(c -> b -> a) |
+| Sort by description asc | List is sorted by description asc<br>(a -> b -> c) |
+| Sort by description desc | List is sorted by description desc<br>(c -> b -> a) |
+| Sort by id_contact asc | List is sorted by id_contact asc<br>(1 -> 2 -> 3) |

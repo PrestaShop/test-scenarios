@@ -7,9 +7,7 @@ weight: 3
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to 'Shop parameters > Contacts' page | page title contains 'Contacts' |
-| reset all filters | Total of contacts > 0 |
-| Create 2 contacts | Number of contacts after creation = total of contacts + 2 |
-| filter list by title | 2 contacts in list are displayed |
-| delete contacts by bulk actions | successful message is displayed |
-| reset filter | Number of contacts after deletion = total of contacts |
+| Go to BO > Shop parameters > Contacts > Contacts Tab | Contacts page is well displayed |
+| Create 2 contacts using the following test | Number of contacts after creation = total of contacts + 2 |
+| {color:#C1C7D0} This step was calling test issue TEST-1096 (possibly downgraded){color} |  |
+| Check the 2 newly created Contact > Bulk actions > Delete selected > Delete | Message The selection has been successfully deleted is displayed<br><br>Number of contacts after deletion = original total of contacts |

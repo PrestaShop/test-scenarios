@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog - Suppliers - Filter, Quick Edit and Bulk Actions"
+title: "BO - Catalog - Suppliers - Filter and Quick Edit"
 weight: 2
 ---
 
-# BO - Catalog - Suppliers - Filter, Quick Edit and Bulk Actions
+# BO - Catalog - Suppliers - Filter and Quick Edit
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,9 +1,9 @@
 ---
-title: psgdpr
-menuTitle: psgdpr
+title: ps_gdpr
+menuTitle: ps_gdpr
 chapter: true
 ---
 
-# psgdpr
+# ps_gdpr
 
 {{% children titlePages="Tests" titleSections="Categories" %}}

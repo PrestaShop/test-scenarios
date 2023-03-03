@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog - Suppliers - Sort & Pagination"
+title: "BO - Catalog - Suppliers - Sort, Pagination and bulk delete"
 weight: 3
 ---
 
-# BO - Catalog - Suppliers - Sort & Pagination
+# BO - Catalog - Suppliers - Sort, Pagination and bulk delete
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
