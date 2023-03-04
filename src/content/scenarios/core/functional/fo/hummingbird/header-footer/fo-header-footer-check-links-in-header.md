@@ -9,7 +9,7 @@ weight: 1
 | ----- | ----- |
 | Go to FO > Click on top left link "Contact us" | Contact form page is well displayed |
 | Click on "Sign In" link on top right > Enter your email + password with the customer account created from the pre-condition step > Click on "Sign In" button | * You are now logged in<br> * One link with select list is displayed instead of "Sign in" link : "your name" |
-| Click on "your name" | the select option is displayed |
+| Click on "your name" | the select option is displayed  rgrdgsthb |
 | Click on "your account" link in the select | Your account page is displayed |
 | Click on "your name" | the select option is displayed |
 | Click on "your account" link in the select | Your account page is displayed |
