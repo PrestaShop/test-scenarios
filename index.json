@@ -6857,7 +6857,7 @@
 	"title": "BO - Design - Image Settings - Image Generation options - Automated version",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Image Settings - Image Generation options - Automated version Steps    Step Description Expected result     Case : Your server support Avif * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be enable\n* JPEG should be greyed * You can\u0026rsquo;t unchecked the JPEG format   Check the PNG checkbox ( you should have 3 checkboxes checked ) You should have a message \u0026ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation\u0026rdquo;    "
+	"content": "BO - Design - Image Settings - Image Generation options - Automated version Steps    Step Description Expected result     Case : Your server support Avif * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be enable\n* JPEG/PNG should be greyed * You can\u0026rsquo;t unchecked the JPEG/PNG format   Check the Webp checkbox ( you should have 3 checkboxes checked ) You should have a message \u0026ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-catalog/module-catalog/bo-module-catalog-connect-to-addons-marketplace.html",
@@ -7102,7 +7102,7 @@
 	"title": "BO - Design - Image Settings - Image Generation on creation",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Image Settings - Image Generation on creation Steps    Step Description Expected result     * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * JPEG should be greyed * You can\u0026rsquo;t unchecked the JPEG format   * Go to catalog \u0026gt; Product\n* Create a product with image You should have images on jpg and Webp on the folder [yourshop]/img/p/[idof your product]   * Go to catalog \u0026gt; Categories\n* Clic on \u0026quot; Add a new Categorie\u0026quot; You should have different images on the same name on the folder [yourshop]/img/c/[idofyourcategories]    "
+	"content": "BO - Design - Image Settings - Image Generation on creation Steps    Step Description Expected result     * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options\n* Check WebP format * JPEG/PNG should be checked * JPEG/PNG should be greyed * You can\u0026rsquo;t unchecked the JPEG/PNG format\n* Webp should be checked   * Go to catalog \u0026gt; Product\n* Create a product with image You should have images on jpg and Webp on the folder [yourshop]/img/p/[idof your product]   * Go to catalog \u0026gt; Categories\n* Clic on \u0026quot; Add a new Categorie\u0026quot; You should have different images' format on the same name on the folder [yourshop]/img/c/[idofyourcategories]    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-header.html",
@@ -7277,7 +7277,7 @@
 	"title": "BO - Design - Image Settings - Image Generation options - qa analyst version",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Image Settings - Image Generation options - qa analyst version Steps    Step Description Expected result     Case : Your server doesn\u0026rsquo;t support Avif * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be disable * You\u0026rsquo;ll see an error message next to the Avif : \u0026ldquo;Your server does not support Avif formar, for more infomation visit this link\u0026rdquo;\n* JPEG should be greyed * You can\u0026rsquo;t unchecked the JPEG format   Check the PNG checkbox ( you should have 3 checkboxes checked ) You should have a message \u0026ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation\u0026rdquo;    "
+	"content": "BO - Design - Image Settings - Image Generation options - qa analyst version Steps    Step Description Expected result     Case : Your server doesn\u0026rsquo;t support Avif * Go to BO \u0026gt; Design \u0026gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be disable * You\u0026rsquo;ll see an error message next to the Avif : \u0026ldquo;Your server does not support Avif formar, for more infomation visit this link\u0026rdquo;\n* JPEG/PNG should be greyed * You can\u0026rsquo;t unchecked the JPEG/PNG format    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html",

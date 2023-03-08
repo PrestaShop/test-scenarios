@@ -87,8 +87,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-automated-version.html</guid>
-      <description>BO - Design - Image Settings - Image Generation options - Automated version Steps    Step Description Expected result     Case : Your server support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be enable
-* JPEG should be greyed * You can&amp;rsquo;t unchecked the JPEG format   Check the PNG checkbox ( you should have 3 checkboxes checked ) You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo;    </description>
+      <description>BO - Design - Image Settings - Image Generation options - Automated version Steps    Step Description Expected result     Case : Your server support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be enable
+* JPEG/PNG should be greyed * You can&amp;rsquo;t unchecked the JPEG/PNG format   Check the Webp checkbox ( you should have 3 checkboxes checked ) You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo;    </description>
     </item>
     
     <item>
@@ -108,8 +108,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-on-creation.html</guid>
-      <description>BO - Design - Image Settings - Image Generation on creation Steps    Step Description Expected result     * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * JPEG should be greyed * You can&amp;rsquo;t unchecked the JPEG format   * Go to catalog &amp;gt; Product
-* Create a product with image You should have images on jpg and Webp on the folder [yourshop]/img/p/[idof your product]   * Go to catalog &amp;gt; Categories</description>
+      <description>BO - Design - Image Settings - Image Generation on creation Steps    Step Description Expected result     * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options
+* Check WebP format * JPEG/PNG should be checked * JPEG/PNG should be greyed * You can&amp;rsquo;t unchecked the JPEG/PNG format
+* Webp should be checked   * Go to catalog &amp;gt; Product</description>
     </item>
     
     <item>
@@ -130,7 +131,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-qa-analyst-version.html</guid>
-      <description>BO - Design - Image Settings - Image Generation options - qa analyst version Steps    Step Description Expected result     Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG and WebP should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;</description>
+      <description>BO - Design - Image Settings - Image Generation options - qa analyst version Steps    Step Description Expected result     Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;</description>
     </item>
     
   </channel>
