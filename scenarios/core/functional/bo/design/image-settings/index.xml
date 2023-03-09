@@ -82,13 +82,22 @@
     </item>
     
     <item>
+      <title>BO - Design - Image Settings - Image Generation options - QA Analyst version</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-qa-analyst-version.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-qa-analyst-version.html</guid>
+      <description>BO - Design - Image Settings - Image Generation options - QA Analyst version Steps    Step Description Expected result     Case : Your server support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be enable
+* JPEG/PNG should be greyed * You can&amp;rsquo;t unchecked the JPEG/PNG format   Check the Webp checkbox ( you should have 3 checkboxes checked ) You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo;    </description>
+    </item>
+    
+    <item>
       <title>BO - Design - Image Settings - Image Generation options - Automated version</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-automated-version.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-automated-version.html</guid>
-      <description>BO - Design - Image Settings - Image Generation options - Automated version Steps    Step Description Expected result     Case : Your server support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be enable
-* JPEG/PNG should be greyed * You can&amp;rsquo;t unchecked the JPEG/PNG format   Check the Webp checkbox ( you should have 3 checkboxes checked ) You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo;    </description>
+      <description>BO - Design - Image Settings - Image Generation options - Automated version Steps    Step Description Expected result     Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;</description>
     </item>
     
     <item>
@@ -123,15 +132,6 @@
 * Clic on &amp;ldquo;Select all&amp;rdquo;
 * Clic on the &amp;ldquo;Delete selected&amp;rdquo; button * You&amp;rsquo;ll have three other selection on the slide up &amp;ldquo;Select all&amp;rdquo;, &amp;ldquo;Unselect all&amp;rdquo; and &amp;ldquo;Delete selected&amp;rdquo;
 * A new modal named &amp;ldquo;Are your sure you want to delete this image seeting?</description>
-    </item>
-    
-    <item>
-      <title>BO - Design - Image Settings - Image Generation options - qa analyst version</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-qa-analyst-version.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-qa-analyst-version.html</guid>
-      <description>BO - Design - Image Settings - Image Generation options - qa analyst version Steps    Step Description Expected result     Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;</description>
     </item>
     
   </channel>
