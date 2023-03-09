@@ -13,4 +13,4 @@ weight: 9
 | Go to Tab Localization > Select Default currency = USD > Save | A popup is display with message:<br>"Before changing the default currency, we strongly recommend that you enable maintenance mode. Indeed, any change on the default currency requires a manual adjustment of the price of each product and its combinations." |
 | Click OK on the popup | Popup disappears<br><br>Message "Update successful"<br><br>USD is now the default currency |
 | Go back to Tab Currencies > Disable Euro | Message "The status has been successfully updated."<br><br>Currency Euro is disabled |
-| Change your default currency to Euro and delete currency USD | Message "Successful deletion." |
+| Enable Euro, Change your default currency to Euro and delete currency USD | Message "Successful deletion." |
