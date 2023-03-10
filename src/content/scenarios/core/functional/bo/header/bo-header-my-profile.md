@@ -17,5 +17,5 @@ weight: 5
 | *Case 2: your email account has not a gravatar account*<br> Set to "Yes" the Enable gravatar" switch button > Click on "Save" button > Click on "Your profile button" | * A successful message "Successful update" is displayed<br> * The "Enable gravatar" switch button is set to "Yes" and is green<br> * No image is displayed on "Your profile section" |
 | Edit all the others fields > Click on "Save" button | A successful message "Successful update" is displayed |
 | Click top-right icon > Logout | You are redirected to the BO login page |
-| Log into your BO with new credentials | * You are redirected to the Delivery slips page<br> * Your language is FR |
+| Log into your BO with new credentials | * You are redirected to the Delivery slips page<br> * Your language is EN |
 | Go to Advanced Parameters > Team > Employees > Delete your account | An error message "You cannot disable or delete your own account."  is displayed |
