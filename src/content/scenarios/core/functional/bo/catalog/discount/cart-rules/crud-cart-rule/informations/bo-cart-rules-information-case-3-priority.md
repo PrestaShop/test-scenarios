@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 3 - Priority"
+title: "BO - Cart rules - Information - Case 3 - Priority"
 weight: 3
 ---
 
-# BO - Cart rules - Case 3 - Priority
+# BO - Cart rules - Information - Case 3 - Priority
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

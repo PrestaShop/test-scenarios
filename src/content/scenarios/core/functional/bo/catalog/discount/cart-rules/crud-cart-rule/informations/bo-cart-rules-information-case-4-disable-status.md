@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 4 - Status Disabled"
+title: "BO - Cart rules - Information - Case 4 -  Disable status"
 weight: 4
 ---
 
-# BO - Cart rules - Case 4 - Status Disabled
+# BO - Cart rules - Information - Case 4 -  Disable status
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

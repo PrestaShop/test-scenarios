@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Case 6 - Invalid Time"
-weight: 6
+weight: 4
 ---
 
 # BO - Cart rules - Case 6 - Invalid Time

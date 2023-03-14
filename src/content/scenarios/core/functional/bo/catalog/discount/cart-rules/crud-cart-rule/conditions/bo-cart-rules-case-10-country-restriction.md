@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Case 10 - Country restriction"
-weight: 11
+weight: 8
 ---
 
 # BO - Cart rules - Case 10 - Country restriction

@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Case 12 - Group customer restriction"
-weight: 12
+weight: 9
 ---
 
 # BO - Cart rules - Case 12 - Group customer restriction

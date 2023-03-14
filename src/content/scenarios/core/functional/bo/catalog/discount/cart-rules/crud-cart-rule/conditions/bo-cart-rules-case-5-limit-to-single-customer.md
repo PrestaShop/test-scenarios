@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Case 5 - Limit to single customer"
-weight: 5
+weight: 3
 ---
 
 # BO - Cart rules - Case 5 - Limit to single customer
