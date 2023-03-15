@@ -7,7 +7,7 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to products page | The sort should default to "Relevance" |
+| Go to all products page | The sort should default to "Relevance" |
 | Sort products by Name, A to Z | Product are sorted by name (x -> y -> z) |
 | Sort products by Name, Z to A | Product are sorted by name (z -> y -> x) |
 | Sort products by Price, low to high | Product are sorted by Price (1 -> 2 -> 3) |

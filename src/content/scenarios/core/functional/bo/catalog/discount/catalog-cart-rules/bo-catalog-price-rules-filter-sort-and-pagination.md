@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog Cart Rules - Filter, sort and pagination"
+title: "BO - Catalog Price Rules - Filter, sort and pagination"
 weight: 2
 ---
 
-# BO - Catalog Cart Rules - Filter, sort and pagination
+# BO - Catalog Price Rules - Filter, sort and pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
