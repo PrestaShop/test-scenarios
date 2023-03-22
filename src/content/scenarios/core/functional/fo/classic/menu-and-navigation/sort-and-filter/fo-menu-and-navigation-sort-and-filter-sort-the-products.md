@@ -8,9 +8,9 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to all products page | The sort should default to "Relevance" |
-| Sort products by Name, A to Z | Product are sorted by name (x -> y -> z) |
-| Sort products by Name, Z to A | Product are sorted by name (z -> y -> x) |
-| Sort products by Price, low to high | Product are sorted by Price (1 -> 2 -> 3) |
-| Sort products by Price, high to low | Product are sorted by Price (3 -> 2 -> 1) |
-| Sort products by Best sellers | Product are sorted by Best sellers (3 -> 2 -> 1) |
-| Sort products by Relevance | Product are sorted by Relevance |
+| Sort products by Name, A to Z | Products are sorted by name (x -> y -> z) |
+| Sort products by Name, Z to A | Products are sorted by name (z -> y -> x) |
+| Sort products by Price, low to high | Products are sorted by Price (1 -> 2 -> 3) |
+| Sort products by Price, high to low | Products are sorted by Price (3 -> 2 -> 1) |
+| Sort products by Best sellers | Products are sorted by Best sellers (3 -> 2 -> 1) |
+| Sort products by Relevance | Products are sorted by ID product in FO |
