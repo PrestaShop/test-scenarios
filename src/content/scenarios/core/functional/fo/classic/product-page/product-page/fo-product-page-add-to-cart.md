@@ -7,8 +7,10 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| On page of a not customizable product<br><br>Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
+| Go to FO> click on  a not customizable product image | The page of the product is well displayed |
+| On page of the product<br><br>Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
 | Click on Proceed To Checkout | Page Shopping cart<br><br>Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)  = Quickview recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
+| Go to All products > choose  a not required customization product |  |
 | On a product page with not required customization<br><br>Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
 | On a product page with required text customization<br><br> <br><br>Click on "Add to cart" | "Add to cart" button should be greyed<br><br>You can't click on "Add to cart"<br><br>The mouse pointer must be different on this button (crossed-out circle logo) |
 | Add to input text 260 character | Only 250 character should be added |

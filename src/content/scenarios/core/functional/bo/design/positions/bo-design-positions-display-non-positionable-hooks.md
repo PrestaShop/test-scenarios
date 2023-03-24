@@ -11,4 +11,4 @@ weight: 4
 | {color:#C1C7D0} This step was calling test issue TEST-953 (possibly downgraded){color} |  |
 | Click on Display non-positionable hooks | See that non-positionable hooks are displayed<br><br>Examples:<br>actionAdminControllerSetMedia<br>actionAfterCreateFeatureFormHandler |
 | {color:#C1C7D0} This step was calling test issue TEST-954 (possibly downgraded){color} |  |
-| Click on Display non-positionable hooks | See that non-positionable hooks are displayed<br><br>Examples:<br>actionAdminControllerSetMedia<br>actionAfterCreateFeatureFormHandler |
+| Click on Display non-positionable hooks | See that positionable hooks are displayed<br><br>Examples:<br>displayAdminCustomers<br><br>displayAdminOrder |
