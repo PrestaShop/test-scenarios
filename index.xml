@@ -109,7 +109,8 @@ If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-general.html</guid>
-      <description>BO - Advanced Parameters - Administration - General </description>
+      <description>BO - Advanced Parameters - Administration - General Steps    Step Description Expected result     With a fresh install
+BO &amp;gt; Advanced Parameters &amp;gt; Administration &amp;gt; General The page should display correctly   Click on the switch button &amp;ldquo;Check the cookie&amp;rsquo;s IP address The switch button must be on No   Click to &amp;ldquo;Save&amp;rdquo; &amp;ldquo;Update successful&amp;rdquo; notification   Click on the switch button &amp;ldquo;Check the cookie&amp;rsquo;s IP address The switch button must be on Yes   Click to &amp;ldquo;Save&amp;rdquo; &amp;ldquo;Update successful&amp;rdquo; notification   Modify the Lifetime of front office cookies</description>
     </item>
     
     <item>
@@ -909,7 +910,8 @@ message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO suppliers link pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/pagination-setting/bo-shop-parameters-product-settings-update-number-of-product-displayed-on-fo-todo.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Update number of product displayed on FO (TODO) </description>
+      <description>BO - Shop Parameters - Product Settings - Update number of product displayed on FO (TODO) Steps    Step Description Expected result     On BO &amp;gt; Configure &amp;gt; Shop Paramaters &amp;gt; Product Settings The page should display correctly   Change Products per page
+Click to Save &amp;ldquo;Update successful&amp;rdquo; notification   On FO The page should display correctly   Click to &amp;ldquo;All products&amp;rdquo; The page should display correctly</description>
     </item>
     
     <item>
@@ -1675,7 +1677,7 @@ See the blue tag &amp;ldquo;NEW&amp;rdquo; displayed   Go to BO &amp;gt; Shop Pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-sort-the-products.html</guid>
-      <description>FO - Menu and Navigation - Sort and filter - Sort the products Steps    Step Description Expected result     Go to all products page The sort should default to &amp;ldquo;Relevance&amp;rdquo;   Sort products by Name, A to Z Products are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort products by Name, Z to A Products are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort products by Price, low to high Products are sorted by Price (1 -&amp;gt; 2 -&amp;gt; 3)   Sort products by Price, high to low Products are sorted by Price (3 -&amp;gt; 2 -&amp;gt; 1)   Sort products by Best sellers Products are sorted by Best sellers (3 -&amp;gt; 2 -&amp;gt; 1)   Sort products by Relevance Products are sorted by ID product in FO    </description>
+      <description>FO - Menu and Navigation - Sort and filter - Sort the products Steps    Step Description Expected result     Go to all products page The sort should default to &amp;ldquo;Relevance&amp;rdquo;   Sort products by Name, A to Z Products are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort products by Name, Z to A Products are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort products by Price, low to high Products are sorted by Price (1 -&amp;gt; 2 -&amp;gt; 3)   Sort products by Price, high to low Products are sorted by Price (3 -&amp;gt; 2 -&amp;gt; 1)   Sort products by Relevance Products are sorted by ID product desc (3 -&amp;gt; 2 -&amp;gt; 1) in FO   Sort products by Sales, highest to lowest No sales yet, so the products are sorted by Relevance   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Changed the Order status of the latest order (ID : 5) to &amp;ldquo;Payment accepted&amp;rdquo; Message Successful update is displayed   Go back to FO &amp;gt; All Products &amp;gt; Refresh See that the first product shown is Brown bear cushion Color : Black</description>
     </item>
     
     <item>
@@ -1712,11 +1714,10 @@ See the blue tag &amp;ldquo;NEW&amp;rdquo; displayed   Go to BO &amp;gt; Shop Pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-add-to-cart.html</guid>
-      <description>FO - Product Page - Add to cart Steps    Step Description Expected result     On page of a not customizable product
+      <description>FO - Product Page - Add to cart Steps    Step Description Expected result     Go to FO&amp;gt; click on a not customizable product image The page of the product is well displayed   On page of the product
 Click on &amp;ldquo;Add to cart&amp;rdquo; You will see :
 * &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; message
-* Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)   Click on Proceed To Checkout Page Shopping cart
-Recap of your cart (number of item, subtotal, shipping, Total(tax incl.</description>
+* Recap of your cart (number of item, subtotal, shipping, Total(tax incl.</description>
     </item>
     
     <item>
@@ -5975,7 +5976,7 @@ number of layouts = 50   Go back to email theme page title contains &amp;lsquo;E
       <description>BO - Design - Positions - Display non-positionable hooks Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Positions Positions Page is displayed   {color:#C1C7D0} This step was calling test issue TEST-953 (possibly downgraded){color}    Click on Display non-positionable hooks See that non-positionable hooks are displayed
 Examples:
 actionAdminControllerSetMedia
-actionAfterCreateFeatureFormHandler   {color:#C1C7D0} This step was calling test issue TEST-954 (possibly downgraded){color}    Click on Display non-positionable hooks See that non-positionable hooks are displayed</description>
+actionAfterCreateFeatureFormHandler   {color:#C1C7D0} This step was calling test issue TEST-954 (possibly downgraded){color}    Click on Display non-positionable hooks See that positionable hooks are displayed</description>
     </item>
     
     <item>

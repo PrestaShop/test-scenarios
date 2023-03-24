@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1679553023" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1679553023" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1679553023" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1679553023" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1679553023" rel="stylesheet">
-    <link href="../../../../../../style.css?1679553023" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1679639579" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1679639579" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1679639579" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1679639579" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1679639579" rel="stylesheet">
+    <link href="../../../../../../style.css?1679639579" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1679553023"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1679639579"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38775,7 +38775,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---advanced-parameters---administration---general">BO - Advanced Parameters - Administration - General</a></li>
+    <li><a href="#bo---advanced-parameters---administration---general">BO - Advanced Parameters - Administration - General</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60794,14 +60798,65 @@
 
 
 <h1 id="bo---advanced-parameters---administration---general">BO - Advanced Parameters - Administration - General</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>With a fresh install<br><br>BO &gt; Advanced Parameters &gt; Administration &gt; General</td>
+<td>The page should display correctly</td>
+</tr>
+<tr>
+<td>Click on the switch button &ldquo;Check the cookie&rsquo;s IP address</td>
+<td>The switch button must be on No</td>
+</tr>
+<tr>
+<td>Click to &ldquo;Save&rdquo;</td>
+<td>&ldquo;Update successful&rdquo; notification</td>
+</tr>
+<tr>
+<td>Click on the switch button &ldquo;Check the cookie&rsquo;s IP address</td>
+<td>The switch button must be on Yes</td>
+</tr>
+<tr>
+<td>Click to &ldquo;Save&rdquo;</td>
+<td>&ldquo;Update successful&rdquo; notification</td>
+</tr>
+<tr>
+<td>Modify the Lifetime of front office cookies<br><br>And click to Save</td>
+<td>&ldquo;Update successful&rdquo; notification<br><br>Lifetime of front office cookies = 500 hours</td>
+</tr>
+<tr>
+<td>Modify the Lifetime of back office cookies<br><br>And click to Save</td>
+<td>&ldquo;Update successful&rdquo; notification<br><br>Lifetime of back office cookies = 500 hours</td>
+</tr>
+<tr>
+<td>Change Cookie SameSite to Strict<br><br>Click to Save</td>
+<td>&ldquo;Update successful&rdquo;<br><br>Cookie SameSite = Strict</td>
+</tr>
+<tr>
+<td>Change Cookie SameSite to None<br><br>Click to Save</td>
+<td>&ldquo;The SameSite=None is only available in secure mode&rdquo;<br><br>Cookie SameSite = Strict</td>
+</tr>
+<tr>
+<td>Change Cookie SameSite to Lax<br><br>Click to Save</td>
+<td>&ldquo;Update successful&rdquo;<br><br>Cookie SameSite = Lax</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 16, 2022
+  Last updated on March 24, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/94a97a7ce6ead35e5df5d9b8b2980ad70bcf4183">"[Update] JIRA XRay Tests" (94a97a7ce6)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/ed605574cd778e3ed98c4b864d2b6686eb348a4b">"[Update] JIRA XRay Tests" (ed605574cd)</a>
   
 </div>
 
@@ -60822,17 +60877,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1679553023"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1679553023"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1679553023"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1679553023"></script>
-    <script src="../../../../../../js/featherlight.min.js?1679553023"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1679553023"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1679553023"></script>
-    <script src="../../../../../../js/learn.js?1679553023"></script>
-    <script src="../../../../../../js/hugo-learn.js?1679553023"></script>
+    <script src="../../../../../../js/clipboard.min.js?1679639579"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1679639579"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1679639579"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1679639579"></script>
+    <script src="../../../../../../js/featherlight.min.js?1679639579"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1679639579"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1679639579"></script>
+    <script src="../../../../../../js/learn.js?1679639579"></script>
+    <script src="../../../../../../js/hugo-learn.js?1679639579"></script>
     
-    <script src="../../../../../../main.js?1679553023"></script>
+    <script src="../../../../../../main.js?1679639579"></script>
     
     
 
