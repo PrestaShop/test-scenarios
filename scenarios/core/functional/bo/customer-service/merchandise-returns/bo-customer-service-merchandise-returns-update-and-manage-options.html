@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1679639598" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1679639598" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1679639598" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1679639598" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1679639598" rel="stylesheet">
-    <link href="../../../../../../style.css?1679639598" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1679725947" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1679725947" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1679725947" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1679725947" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1679725947" rel="stylesheet">
+    <link href="../../../../../../style.css?1679725947" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1679639598"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1679725947"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -15480,9 +15480,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/crud.html" title="CRUD" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/shop-parameters/customers-setting/titles/crud.html">
-        CRUD
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customers-setting-titles-crud-title.html" title="BO - Shop parameters - Customers setting - Titles - CRUD title" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customers-setting-titles-crud-title.html">
+        BO - Shop parameters - Customers setting - Titles - CRUD title
         
         </a>
     </li>
@@ -60812,88 +60812,40 @@
 <td>The Merchandise returns page is well displayed</td>
 </tr>
 <tr>
-<td>Check that there is at least one merchandise return</td>
-<td>The merchandise return is displayed in the list with &ldquo;Waiting for confirmation&rdquo; status with the blue color</td>
+<td>Enable the returns of product and click on Save</td>
+<td>The toggle is well enabled and a message &ldquo;The settings have been successfully updated.&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Click on the line of the returned product</td>
-<td>Then desired Return Merchandise Authorization details are well displayed</td>
+<td>Check that there is a help message under the Enable returns</td>
+<td>The help message is : &ldquo;Would you like to allow merchandise returns in your shop? &quot;</td>
 </tr>
 <tr>
-<td>Click on the dropdwon list of status and change the status to &ldquo;Waiting for package&rdquo; and click on Save and stay</td>
-<td>Successful update alert is well displayed<br><br>Status: The default status which is displayed at the top of the list is &ldquo;Waiting for package&rdquo;<br><br>Returns form: A pdf file named &ldquo;Print out&rdquo; is displayed</td>
+<td>Click on the Time limit of validity and change the number of days as desired and click on Save</td>
+<td>The new number is well-updated and a message &ldquo;The settings have been successfully updated.&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Click on the pdf</td>
-<td>The pdf file is generated with this name &ldquo;Returns Prefix 000001&rdquo; <br><br>The default one is : RE000001</td>
+<td>Check that there is a help message under the Time limit of validity</td>
+<td>The help message is : &ldquo;How many days after the delivery date does the customer have to return a product?&rdquo;</td>
 </tr>
 <tr>
-<td>Click on the generated pdf</td>
-<td>All informations about the order return are well displayed</td>
+<td>Click on the Returns prefix and change the prefix used for the downloadable pdf file</td>
+<td>The new value is well-updated and a message &ldquo;The settings have been successfully updated.&rdquo; is well displayed</td>
 </tr>
 <tr>
-<td>Come back to the edit Return Merchandise Authorization page <br><br>Click on Cancel</td>
-<td>The status of the merchandise return is changed to &ldquo;Waiting for package&rdquo; with the purple color <br><br>The date issued is updated by the current date</td>
+<td>Check that there is a help message under the Returns prefix</td>
+<td>The help message is : Prefix used for return name (e.g. RE00001).</td>
 </tr>
 <tr>
-<td>Go to FO &gt; Connect with the customer &gt; Click on the Merchandise Returns page</td>
-<td>All information related to the returned order are well displayed  : <br> * Table title: Here is a list of pending merchandise returns<br> * Order Column: The reference of the order with a link to access to the order<br> * Return Column: The reference of the merchandise return with a link to access to the return details <br> * Package status: Waiting for package<br> * Date issued: The updated date of the returned merchandise<br> * Returns form: The generated pdf &ldquo;Print out&rdquo; is displayed</td>
+<td>Check that there is a returned merchandise returns and click on it</td>
+<td>The edit page for &ldquo;Return Merchandise Authorization&rdquo; is well displayed</td>
 </tr>
 <tr>
-<td>Come back to BO &gt; SELL &gt; Customer Service &gt; Merchandise returns &gt; Click again on the line of the Merchandise return</td>
-<td>The edit Merchandise return page is well displayed</td>
+<td>Change the status to &ldquo;Waiting for package&rdquo; and click on Save and stay</td>
+<td>A generated file in the Returnd form is displayed called &ldquo;Print out&rdquo;</td>
 </tr>
 <tr>
-<td>Change the status to &ldquo;Package received&rdquo; and click on Save and stay</td>
-<td>Successful update alert is well displayed<br><br>Status: The default status which is displayed at the top of the list is &ldquo;Package received&rdquo;<br><br>The returns form pdf is disappeared and the value is set to: &ldquo;- -&rdquo;</td>
-</tr>
-<tr>
-<td>Click on Cancel</td>
-<td>The status of the merchandise return is changed to &ldquo;Package received&rdquo; with the green color <br><br>The date issued= the current date</td>
-</tr>
-<tr>
-<td>Come back to FO &gt;  Click on the Merchandise Returns page</td>
-<td>All information related to the returned order are well displayed  : <br> * Table title: Here is a list of pending merchandise returns<br> * Order Column: The reference of the order with a link to access to the order<br> * Return Column: The reference of the merchandise return with a link to access to the return details <br> * Package status: Package Received<br> * Date issued: The updated date of the returned merchandise<br> * Returns form: The value is &ldquo;-&rdquo;</td>
-</tr>
-<tr>
-<td>Come back to BO &gt; SELL &gt; Customer Service &gt; Merchandise returns &gt; Click again on the line of the Merchandise return</td>
-<td>The edit Merchandise return page is well displayed</td>
-</tr>
-<tr>
-<td>Change the status to &ldquo;Return denied&rdquo; and click on Save and stay</td>
-<td>Successful update alert is well displayed<br><br>Status: The default status which is displayed at the top of the list is &ldquo;Return denied&rdquo;</td>
-</tr>
-<tr>
-<td>Click on Cancel</td>
-<td>The status of the merchandise return is changed to &ldquo;Return denied&rdquo; with the red color <br><br>The date issued= the current date</td>
-</tr>
-<tr>
-<td>Come back to FO &gt; Click on the Merchandise Returns page</td>
-<td>All information related to the returned order are well displayed  : <br> * Table title: Here is a list of pending merchandise returns<br> * Order Column: The reference of the order with a link to access to the order<br> * Return Column: The reference of the merchandise return with a link to access to the return details <br> * Package status: Return denied<br> * Date issued: The updated date of the returned merchandise<br> * Returns form: The value is &ldquo;-&rdquo;</td>
-</tr>
-<tr>
-<td>Come back to BO &gt; SELL &gt; Customer Service &gt; Merchandise returns &gt; Click again on the line of the Merchandise return</td>
-<td>The edit Merchandise return page is well displayed</td>
-</tr>
-<tr>
-<td>Change the status to &ldquo;Return completed&rdquo; and click on Save and stay</td>
-<td>Successful update alert is well displayed<br><br>Status: The default status which is displayed at the top of the list is &ldquo;Return completed&rdquo;</td>
-</tr>
-<tr>
-<td>Click on Cancel</td>
-<td>The status of the merchandise return is changed to &ldquo;Return completed&rdquo; with the dark green color <br><br>The date issued= the current date</td>
-</tr>
-<tr>
-<td>Come back to FO &gt; Click on the Merchandise Returns page</td>
-<td>All information related to the returned order are well displayed  : <br> * Table title: Here is a list of pending merchandise returns<br> * Order Column: The reference of the order with a link to access to the order<br> * Return Column: The reference of the merchandise return with a link to access to the return details <br> * Package status: Return completed<br> * Date issued: The updated date of the returned merchandise<br> * Returns form: The value is &ldquo;-&rdquo;</td>
-</tr>
-<tr>
-<td>Come back to BO &gt; SELL &gt; Customer Service &gt; Merchandise returns &gt; Click again on the line of the Merchandise return</td>
-<td>The edit Merchandise return page is well displayed</td>
-</tr>
-<tr>
-<td>Click on Delete of the product line</td>
-<td>An error message is displayed &ldquo;You need at least one product.&quot;<br><br>The principal page of Merchandise returns is displayed again</td>
+<td>Click on the file</td>
+<td>A pdf with the defined prefix in the Returns prefix is downloaded (XXX000001.pdf)</td>
 </tr>
 </tbody>
 </table>
@@ -60902,9 +60854,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on March 22, 2023
+  Last updated on March 25, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/af2242ecb2d07401f14e2d4f56b8b9538746fb19">"[Update] JIRA XRay Tests" (af2242ecb2)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/c5c3b3bd13161cd3bdc16c64deddb90c5dd1ff33">"[Update] JIRA XRay Tests" (c5c3b3bd13)</a>
   
 </div>
 
@@ -60925,17 +60877,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1679639598"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1679639598"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1679639598"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1679639598"></script>
-    <script src="../../../../../../js/featherlight.min.js?1679639598"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1679639598"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1679639598"></script>
-    <script src="../../../../../../js/learn.js?1679639598"></script>
-    <script src="../../../../../../js/hugo-learn.js?1679639598"></script>
+    <script src="../../../../../../js/clipboard.min.js?1679725947"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1679725947"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1679725947"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1679725947"></script>
+    <script src="../../../../../../js/featherlight.min.js?1679725947"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1679725947"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1679725947"></script>
+    <script src="../../../../../../js/learn.js?1679725947"></script>
+    <script src="../../../../../../js/hugo-learn.js?1679725947"></script>
     
-    <script src="../../../../../../main.js?1679639598"></script>
+    <script src="../../../../../../main.js?1679725947"></script>
     
     
 

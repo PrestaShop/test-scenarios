@@ -1434,7 +1434,9 @@ Number of contacts after reset = total of contacts   Filter by name = Customer s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/filter-quick-edit.html</guid>
-      <description>Filter, quick edit </description>
+      <description>Filter, quick edit Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact&amp;gt;Stores &amp;gt; Stores tab Stores page is well displayed   Filter by id_store = 2 &amp;gt; Click Search Number of Stores &amp;lt; total of stores
+All rows column &amp;lsquo;id_store&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   Click on Reset Filter is reset
+Number of stores after reset = total of stores   Filter by name = Dade County Number of stores &amp;lt; total of stores</description>
     </item>
     
     <item>
@@ -2919,6 +2921,15 @@ All Payment methods are checked for all Groups   Click on Bank Transfer to unche
     </item>
     
     <item>
+      <title>BO - Shop parameters - Customers setting - Titles - CRUD title</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customers-setting-titles-crud-title.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customers-setting-titles-crud-title.html</guid>
+      <description>BO - Shop parameters - Customers setting - Titles - CRUD title Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Customer Settings &amp;gt; Titles Tab Title page is displayed   Click on Add new social title Title creation page is displayed   Fill all fields &amp;gt; Click on Save Alert Successful creation is displayed   Click on Add new social title &amp;gt; Add an image &amp;gt; Click on Save See the error message The field name is required at least in English (English).</description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - General - Enable / Disable Brands</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3128,16 +3139,8 @@ Redirection to store page    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/crud.html</guid>
-      <description>CRUD </description>
-    </item>
-    
-    <item>
-      <title>CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/crud.html</guid>
-      <description>CRUD Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Customer Settings &amp;gt; Titles Tab Title page is displayed   Click on Add new social title Title creation page is displayed   Fill all fields &amp;gt; Click on Save Alert Successful creation is displayed   Click on Add new social title &amp;gt; Add an image &amp;gt; Click on Save See the error message The field name is required at least in English (English).</description>
+      <description>CRUD Steps    Step Description Expected result     Go to Bo&amp;gt;Shop Parameters&amp;gt;Customer Settings&amp;gt;Groups The page should display correctly   Click to &amp;ldquo;Add new group&amp;rdquo; The &amp;ldquo;Add new&amp;rdquo; page should display correctly   Create a new Customer group
+Click to Save &amp;ldquo;Successful creation&amp;rdquo; Notification   Click to &amp;ldquo;Tester&amp;rdquo; The detail page will be displayed correctly   Click to &amp;ldquo;Groups&amp;rdquo; The groups page will be displayed correctly</description>
     </item>
     
     <item>
@@ -6983,7 +6986,7 @@ List of brands is updated   Select all brands and disable them A successful aler
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Check that there is at least one merchandise return The merchandise return is displayed in the list with &amp;ldquo;Waiting for confirmation&amp;rdquo; status with the blue color   Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed   Click on the dropdwon list of status and change the status to &amp;ldquo;Waiting for package&amp;rdquo; and click on Save and stay Successful update alert is well displayed</description>
+      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Enable the returns of product and click on Save The toggle is well enabled and a message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is displayed   Check that there is a help message under the Enable returns The help message is : &amp;ldquo;Would you like to allow merchandise returns in your shop?</description>
     </item>
     
     <item>
