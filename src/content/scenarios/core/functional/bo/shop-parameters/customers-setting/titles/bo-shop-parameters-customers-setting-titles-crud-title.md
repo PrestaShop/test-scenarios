@@ -1,9 +1,9 @@
 ---
-title: "CRUD"
+title: "BO - Shop parameters - Customers setting - Titles - CRUD title"
 weight: 2
 ---
 
-# CRUD
+# BO - Shop parameters - Customers setting - Titles - CRUD title
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
