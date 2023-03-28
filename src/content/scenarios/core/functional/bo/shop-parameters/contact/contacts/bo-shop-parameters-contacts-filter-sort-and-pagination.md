@@ -1,9 +1,9 @@
 ---
-title: "Sort Contacts"
+title: "BO - Shop Parameters - Contacts - Filter, sort and pagination"
 weight: 4
 ---
 
-# Sort Contacts
+# BO - Shop Parameters - Contacts - Filter, sort and pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

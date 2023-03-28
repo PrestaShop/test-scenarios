@@ -1,9 +1,9 @@
 ---
-title: "CRUD Contact"
+title: "BO - Shop Parameters - Contacts - CRUD"
 weight: 2
 ---
 
-# CRUD Contact
+# BO - Shop Parameters - Contacts - CRUD
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

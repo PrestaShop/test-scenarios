@@ -1,9 +1,9 @@
 ---
-title: "Enable/Disabled Experimental Product Page V2"
+title: "BO - Advanced Parameters - Experimental Features - Enable/Disabled PPV2"
 weight: 1
 ---
 
-# Enable/Disabled Experimental Product Page V2
+# BO - Advanced Parameters - Experimental Features - Enable/Disabled PPV2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

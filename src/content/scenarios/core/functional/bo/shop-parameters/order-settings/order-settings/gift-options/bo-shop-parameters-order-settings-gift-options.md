@@ -1,9 +1,9 @@
 ---
-title: "BO > Gift options: Gift wrapping & Add gift message & Add gift price and tax & Use recycled packaging"
+title: "BO - Shop Parameters - Order Settings -  Gift options"
 weight: 1
 ---
 
-# BO > Gift options: Gift wrapping & Add gift message & Add gift price and tax & Use recycled packaging
+# BO - Shop Parameters - Order Settings -  Gift options
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

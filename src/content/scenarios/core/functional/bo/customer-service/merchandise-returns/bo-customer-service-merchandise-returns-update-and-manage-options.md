@@ -13,7 +13,7 @@ weight: 5
 | Click on the Time limit of validity and change the number of days as desired and click on Save | The new number is well-updated and a message "The settings have been successfully updated." is displayed |
 | Check that there is a help message under the Time limit of validity | The help message is : "How many days after the delivery date does the customer have to return a product?" |
 | Click on the Returns prefix and change the prefix used for the downloadable pdf file | The new value is well-updated and a message "The settings have been successfully updated." is well displayed |
-| Check that there is a help message under the Returns prefix | The help message is : Prefix used for return name (e.g. RE00001). |
+| Check that there is a help message under the Returns prefix | The help message is : "Prefix used for return name (e.g. RE00001)." |
 | Check that there is a returned merchandise returns and click on it | The edit page for "Return Merchandise Authorization" is well displayed |
-| Change the status to "Waiting for package" and click on Save and stay | A generated file in the Returnd form is displayed called "Print out" |
+| Change the status to "Waiting for package" and click on Save and stay | A generated file in the Returns form is displayed called "Print out" |
 | Click on the file | A pdf with the defined prefix in the Returns prefix is downloaded (XXX000001.pdf) |

@@ -1,9 +1,9 @@
 ---
-title: "enable, disable send email after registration"
+title: "BO - Shop Parameters - Customer Settings - Send an email after registration"
 weight: 2
 ---
 
-# enable, disable send email after registration
+# BO - Shop Parameters - Customer Settings - Send an email after registration
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

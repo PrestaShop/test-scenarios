@@ -1,9 +1,9 @@
 ---
-title: "Enable, disable redisplay cart at login"
+title: "BO - Shop Parameters - Customer Settings - Re-display cart at login"
 weight: 1
 ---
 
-# Enable, disable redisplay cart at login
+# BO - Shop Parameters - Customer Settings - Re-display cart at login
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
