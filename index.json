@@ -98,6 +98,13 @@
 	"content": "BO - Advanced parameters - Email - Sort and pagination "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/experimental-features/bo-advanced-parameters-experimental-features-enable-disabled-ppv2.html",
+	"title": "BO - Advanced Parameters - Experimental Features - Enable/Disabled PPV2",
+	"tags": [],
+	"description": "",
+	"content": "BO - Advanced Parameters - Experimental Features - Enable/Disabled PPV2 Steps    Step Description Expected result     Go to BO \u0026gt; Advanced Parameters \u0026gt; New \u0026amp; Experimental Features page The New \u0026amp; Experimental Features page is displayed and the button \u0026ldquo;New product page - Single store\u0026rdquo; is disabled by default   Enable the \u0026ldquo;New product page - Single store\u0026rdquo; \u0026gt; Save and confirm the activation An alert \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to BO \u0026gt; Catalog \u0026gt; Products page The Button \u0026ldquo;New product\u0026rdquo; is displayed   Click on \u0026ldquo;New product\u0026rdquo; A selection of different types of product should be displayed   Go to BO \u0026gt; Advanced Parameters \u0026gt; New \u0026amp; Experimental Features page The Experimental Features page is displayed and the button \u0026ldquo;Experimental product page\u0026rdquo; is enabled   Disable the \u0026ldquo;Experimental product page\u0026rdquo; \u0026gt; Save \u0026gt; Confirm the deactivation An alert \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to BO \u0026gt; Catalog \u0026gt; Products page \u0026gt; Click on \u0026ldquo;New Product\u0026rdquo; The product page v1 should be displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-import-file.html",
 	"title": "BO - Advanced parameters - Import - Import file",
 	"tags": [],
@@ -602,6 +609,27 @@
 	"content": "BO - Shipping - Preferences - Handling "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-filter-sort-and-pagination.html",
+	"title": "BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-re-display-cart-at-login.html",
+	"title": "BO - Shop Parameters - Customer Settings - Re-display cart at login",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Re-display cart at login Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; Customer Settings\u0026rsquo; page page title contains \u0026lsquo;Customer Settings\u0026rsquo;   enable re-display cart at login Successful message is displayed   Go to FO Login with customer account\nAdd product to cart and go to checkout page log out nothing is displayed in cart   Login with customer account Product added to cart is displayed in cart   Go back to BO and disable re-display cart at login Successful message is displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customer-settings-titles-filter-sort-and-pagination.html",
+	"title": "BO - Shop Parameters - Customer Settings - Titles - Filter, sort and pagination",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Titles - Filter, sort and pagination "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-supplier.html",
 	"title": "BO - Shop Parameters - General - Enable / Disable Supplier",
 	"tags": [],
@@ -614,6 +642,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - General - Maintenance - Enable / disable shop Steps    Step Description Expected result     go to shop parameters \u0026gt; general page page title contains \u0026lsquo;Preferences\u0026rsquo;   go to maintenance tab Page title contains \u0026lsquo;Maintenance\u0026rsquo;   * Disable shop\n* Enable store for legged-in employees successful update message is displayed   View my shop Home page is displayed successfully   Return on BO : * Let the shop disabled\n* Disable store for legged-in employees successful update message is displayed   View my shop Maintenance text \u0026lsquo;We are currently updating our shop and will be back really soon. Thanks for your patience.\u0026rsquo; is displayed   Go to BO and update maintenance text successful update message is displayed   View my shop New maintenance text is displayed   Go to BO and reset the default maintenance text successful update message is displayed   click add my ip and save successful update message is displayed   View my shop Home page is displayed successfully   Go back to BO, delete the ip address and enable the store successful update message is displayed   View my shop Home page is displayed successfully    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/gift-options/bo-shop-parameters-order-settings-gift-options.html",
+	"title": "BO - Shop Parameters - Order Settings -  Gift options",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Order Settings - Gift options Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Gift options \u0026gt; Set \u0026ldquo;Offer gift wrapping\u0026rdquo; switch button to YES \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add a product to cart \u0026gt; Proceed to checkout until step 3 - Shipping method Option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; is displayed   Check option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; A new field appears \u0026ldquo;If you\u0026rsquo;d like, you can add a note to the gift:\u0026rdquo;   Continue the checkout process \u0026gt; Place order The order is now confirmed   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order In the middle of the page on Status, Documents, Carriers, Merchandise returns tabs, the label \u0026ldquo;Gift wrapping\u0026rdquo; is displayed in green at the bottom of the block   Go to FO \u0026gt; Add a product to cart \u0026gt; Proceed to checkout until step 3 - Shipping method Option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; is displayed   Check option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; A new field appears \u0026ldquo;If you\u0026rsquo;d like, you can add a note to the gift:\u0026rdquo;   Add a note \u0026gt; Continue the checkout process \u0026gt; Place order The order is now confirmed   Click on \u0026ldquo;Your name\u0026rdquo; link on the header \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Details\u0026rdquo; link of the last order * The \u0026ldquo;Order details\u0026rdquo; page is displayed\n* In the 2nd block, the message about gift wrapping option is displayed:\n** You have requested gift wrapping for this order.\n** My custom message   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order \u0026gt; Click on \u0026ldquo;Carriers\u0026rdquo; tab in the middle of the page * In Carrier tab, the note is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;gift wrapping\u0026rdquo; are displayed   Go to Shop parameters \u0026gt; Order Settings \u0026gt; Add price + tax \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add product to cart \u0026gt; Proceed to checkout \u0026gt; in Step 3, check wrapping gift checbkox + add a note * The checkbox text has changed. This text is added \u0026ldquo;(additional cost of €XX tax incl.)\u0026quot;\n* A \u0026ldquo;Gift wrapping\u0026rdquo; line with tax included is displayed   Continue order \u0026gt; Place order * The order is now confirmed\n* The price for gift wrapping line is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order * In \u0026ldquo;Products\u0026rdquo; block, a wrapping amount is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;gift wrapping\u0026rdquo; are displayed\n* In tab Carriers, the note is displayed   Go to Shop parameters \u0026gt; Order Settings \u0026gt; Set \u0026ldquo;Recycled packaging\u0026rdquo; switch button to YES \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add product to cart \u0026gt; Proceed to checkout \u0026gt; in Step 3, check wrapping gift box + check recycled packaging box + add a note \u0026gt; Place order * The order is now confirmed\n* The price for gift wrapping line is displayed   Click on \u0026ldquo;Your name\u0026rdquo; link on the header \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Details\u0026rdquo; link of the last order * The \u0026ldquo;Order details\u0026rdquo; page is displayed\n* In the 2nd block, the message about gift wrapping and recycled packaging options is displayed:\n** You have given permission to receive your order in recycled packaging. ** You have requested gift wrapping for this order.\n** My custom message   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order * In \u0026ldquo;Products\u0026rdquo; block, a wrapping amount is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;recycled packaging\u0026rdquo; and \u0026ldquo;gift wrapping\u0026rdquo; are displayed\n* In tab Carriers, the note is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-final-summary-todo.html",
@@ -658,6 +693,20 @@
 	"content": "BO - Shop Parameters - Product Settings - Update number of product displayed on FO (TODO) Steps    Step Description Expected result     On BO \u0026gt; Configure \u0026gt; Shop Paramaters \u0026gt; Product Settings The page should display correctly   Change Products per page\nClick to Save \u0026ldquo;Update successful\u0026rdquo; notification   On FO The page should display correctly   Click to \u0026ldquo;All products\u0026rdquo; The page should display correctly\nOnly 3 products should be visible on this page   Click to \u0026ldquo;All products\u0026rdquo; The page should display correctly\nOnly 3 products should be visible on this page   On BO \u0026gt; Configure \u0026gt; Shop Paramaters \u0026gt; Product Settings The page should display correctly   Change Products per page\nClick to Save \u0026ldquo;Update successful\u0026rdquo; notification   On FO The page should display correctly   Click to \u0026ldquo;All products\u0026rdquo; The page should display correctly\nOnly 12 products should be visible on this page    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/bo-shop-parameters-traffic-and-seo-filter.html",
+	"title": "BO - Shop Parameters - Traffic and SEO - Filter",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Traffic and SEO - Filter "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/search-engines/bo-shop-parameters-traffic-and-seo-search-engines-filter-sort-and-pagination.html",
+	"title": "BO - Shop Parameters - Traffic and SEO - Search Engines - Filter, Sort and Pagination",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Traffic and SEO - Search Engines - Filter, Sort and Pagination "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-filter-by-category-movement-type-employee-and-period.html",
 	"title": "BO - Stocks - Movements - Filter by category, movement type, employee and period",
 	"tags": [],
@@ -670,13 +719,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Uninstall the module Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/gift-options/bo-gift-options-gift-wrapping-add-gift-message-add-gift-price-and-tax-use-recycled-packaging.html",
-	"title": "BO &gt; Gift options: Gift wrapping &amp; Add gift message &amp; Add gift price and tax &amp; Use recycled packaging",
-	"tags": [],
-	"description": "",
-	"content": "BO \u0026gt; Gift options: Gift wrapping \u0026amp; Add gift message \u0026amp; Add gift price and tax \u0026amp; Use recycled packaging Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Gift options \u0026gt; Set \u0026ldquo;Offer gift wrapping\u0026rdquo; switch button to YES \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add a product to cart \u0026gt; Proceed to checkout until step 3 - Shipping method Option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; is displayed   Check option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; A new field appears \u0026ldquo;If you\u0026rsquo;d like, you can add a note to the gift:\u0026rdquo;   Continue the checkout process \u0026gt; Place order The order is now confirmed   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order In the middle of the page on Status, Documents, Carriers, Merchandise returns tabs, the label \u0026ldquo;Gift wrapping\u0026rdquo; is displayed in green at the bottom of the block   Go to FO \u0026gt; Add a product to cart \u0026gt; Proceed to checkout until step 3 - Shipping method Option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; is displayed   Check option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; A new field appears \u0026ldquo;If you\u0026rsquo;d like, you can add a note to the gift:\u0026rdquo;   Add a note \u0026gt; Continue the checkout process \u0026gt; Place order The order is now confirmed   Click on \u0026ldquo;Your name\u0026rdquo; link on the header \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Details\u0026rdquo; link of the last order * The \u0026ldquo;Order details\u0026rdquo; page is displayed\n* In the 2nd block, the message about gift wrapping option is displayed:\n** You have requested gift wrapping for this order.\n** My custom message   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order \u0026gt; Click on \u0026ldquo;Carriers\u0026rdquo; tab in the middle of the page * In Carrier tab, the note is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;gift wrapping\u0026rdquo; are displayed   Go to Shop parameters \u0026gt; Order Settings \u0026gt; Add price + tax \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add product to cart \u0026gt; Proceed to checkout \u0026gt; in Step 3, check wrapping gift checbkox + add a note * The checkbox text has changed. This text is added \u0026ldquo;(additional cost of €XX tax incl.)\u0026quot;\n* A \u0026ldquo;Gift wrapping\u0026rdquo; line with tax included is displayed   Continue order \u0026gt; Place order * The order is now confirmed\n* The price for gift wrapping line is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order * In \u0026ldquo;Products\u0026rdquo; block, a wrapping amount is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;gift wrapping\u0026rdquo; are displayed\n* In tab Carriers, the note is displayed   Go to Shop parameters \u0026gt; Order Settings \u0026gt; Set \u0026ldquo;Recycled packaging\u0026rdquo; switch button to YES \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add product to cart \u0026gt; Proceed to checkout \u0026gt; in Step 3, check wrapping gift box + check recycled packaging box + add a note \u0026gt; Place order * The order is now confirmed\n* The price for gift wrapping line is displayed   Click on \u0026ldquo;Your name\u0026rdquo; link on the header \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Details\u0026rdquo; link of the last order * The \u0026ldquo;Order details\u0026rdquo; page is displayed\n* In the 2nd block, the message about gift wrapping and recycled packaging options is displayed:\n** You have given permission to receive your order in recycled packaging. ** You have requested gift wrapping for this order.\n** My custom message   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order * In \u0026ldquo;Products\u0026rdquo; block, a wrapping amount is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;recycled packaging\u0026rdquo; and \u0026ldquo;gift wrapping\u0026rdquo; are displayed\n* In tab Carriers, the note is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-filter-orders-table.html",
@@ -945,13 +987,6 @@
 	"content": "Enable display email in FO Steps    Step Description Expected result     Click on the switch button to enable the display of email in FO The switch button should be blue   Click on the button save A message should appear   Go to the front office The email should be displayed in the footer   Click on the contact us button in the header The email should be displayed in the column    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/enable-disable-redisplay-cart-at-login.html",
-	"title": "Enable, disable redisplay cart at login",
-	"tags": [],
-	"description": "",
-	"content": "Enable, disable redisplay cart at login Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; Customer Settings\u0026rsquo; page page title contains \u0026lsquo;Customer Settings\u0026rsquo;   enable re-display cart at login Successful message is displayed   Go to FO Login with customer account\nAdd product to cart and go to checkout page log out nothing is displayed in cart   Login with customer account Product added to cart is displayed in cart   Go back to BO and disable re-display cart at login Successful message is displayed    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-shoppingcart/configuration/enable-disable-ajax-cart.html",
 	"title": "Enable/Disable ajax cart",
 	"tags": [],
@@ -987,13 +1022,6 @@
 	"content": "Enable/Disable notification new order Steps    Step Description Expected result          "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/experimental-features/enable-disabled-experimental-product-page-v2.html",
-	"title": "Enable/Disabled Experimental Product Page V2",
-	"tags": [],
-	"description": "",
-	"content": "Enable/Disabled Experimental Product Page V2 Steps    Step Description Expected result     Go to BO \u0026gt; Advanced Parameters \u0026gt; New \u0026amp; Experimental Features page The New \u0026amp; Experimental Features page is displayed and the button \u0026ldquo;New product page - Single store\u0026rdquo; is disabled by default   Enable the \u0026ldquo;New product page - Single store\u0026rdquo; \u0026gt; Save and confirm the activation An alert \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to BO \u0026gt; Catalog \u0026gt; Products page The Button \u0026ldquo;New product\u0026rdquo; is displayed   Click on \u0026ldquo;New product\u0026rdquo; A selection of different types of product should be displayed   Go to BO \u0026gt; Advanced Parameters \u0026gt; New \u0026amp; Experimental Features page The Experimental Features page is displayed and the button \u0026ldquo;Experimental product page\u0026rdquo; is enabled   Disable the \u0026ldquo;Experimental product page\u0026rdquo; \u0026gt; Save \u0026gt; Confirm the deactivation An alert \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to BO \u0026gt; Catalog \u0026gt; Products page \u0026gt; Click on \u0026ldquo;New Product\u0026rdquo; The product page v1 should be displayed    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-show-the-number-of-matching-products-s-field-configuration.html",
 	"title": "Faceted search module - Show the number of matching products&#39;s field configuration",
 	"tags": [],
@@ -1008,13 +1036,6 @@
 	"content": "Faceted search module - Upgrade module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Upgrade\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Are you sure you want to upgrade this module?\u0026quot;\n* Description: \u0026ldquo;We strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026quot;\n* 3 buttons: \u0026ldquo;Cancel\u0026rdquo; / \u0026ldquo;Go to maintenance page\u0026rdquo; / \u0026ldquo;Upgrade anyway\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Upgrade\u0026rdquo; option The modal is open again with the same informations (Title / Description / 3 buttons)   Case 1: Upgrade with shop on maintenance\nClick on \u0026ldquo;Go to maintenance page\u0026rdquo; button The \u0026ldquo;Maintenance\u0026rdquo; page is displayed   Set to \u0026ldquo;No\u0026rdquo; the \u0026ldquo;Enable store\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* \u0026ldquo;Enable store\u0026rdquo; is set to \u0026ldquo;No\u0026rdquo; and grey\n* A \u0026ldquo;Maintenance mode\u0026rdquo; link is displayed on the header of the store   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the maintenance page   Go back to BO \u0026gt; Modules \u0026gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on \u0026ldquo;Upgrade\u0026rdquo; button at the right of the module A modal is open with:\n* Title: \u0026ldquo;Are you sure you want to upgrade this module?\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; / \u0026ldquo;Upgrade\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right * The modal is removed\n* The module list page is displayed   Click on \u0026ldquo;Upgrade\u0026rdquo; button at the right of the module The modal is open again with the same informations (Title / 2 buttons)   Click on \u0026ldquo;Upgrade\u0026rdquo; button in the modal * After loading, a green message \u0026ldquo;Upgrade action on module ps_facetedsearch succeeded.\u0026rdquo; is displayed\n* The module is upgraded, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Reload the page The module should be:\n* Upgraded and displayed \u0026ldquo;Configure\u0026rdquo; in the right button\n* Displayed the latest version instead of the current to the new version\n* Removed the green tag \u0026ldquo;Upgrade available\u0026rdquo;   Click on \u0026ldquo;Maintenance mode\u0026rdquo; link on the header The \u0026ldquo;Maintenance\u0026rdquo; page is displayed   Set to \u0026ldquo;Yes\u0026rdquo; the \u0026ldquo;Enable store\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* \u0026ldquo;Enable store\u0026rdquo; is set to \u0026ldquo;Yes\u0026rdquo; and green\n* The \u0026ldquo;Maintenance mode\u0026rdquo; link is removed from the header of the store   Go back to the FO \u0026gt; Reload the page Homepage is well displayed   Click on a category in main menu \u0026ldquo;Category\u0026rdquo; page is displayed with faceted search on the left   Case 2: Upgrade without shop on maintenance\nClick on \u0026ldquo;Upgrade anyway\u0026rdquo; button * After loading, a green message \u0026ldquo;Upgrade action on module ps_facetedsearch succeeded.\u0026rdquo; is displayed\n* The module is upgraded, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Reload the page The module should be:\n* Upgraded and displayed \u0026ldquo;Configure\u0026rdquo; in the right button\n* Displayed the latest version instead of the current to the new version\n* Removed the green tag \u0026ldquo;Upgrade available\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Click on a category in main menu \u0026ldquo;Category\u0026rdquo; page is displayed with faceted search on the left    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/filter.html",
-	"title": "Filter",
-	"tags": [],
-	"description": "",
-	"content": "Filter "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/filter-contacts.html",
 	"title": "Filter Contacts",
 	"tags": [],
@@ -1027,13 +1048,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Filter Seo Pages "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/search-engines/filter-sort-and-pagination.html",
-	"title": "Filter Sort and pagination",
-	"tags": [],
-	"description": "",
-	"content": "Filter Sort and pagination "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/filter-sort-pagination.html",
@@ -1055,20 +1069,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Filter, quick edit Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contact\u0026gt;Stores \u0026gt; Stores tab Stores page is well displayed   Filter by id_store = 2 \u0026gt; Click Search Number of Stores \u0026lt; total of stores\nAll rows column \u0026lsquo;id_store\u0026rsquo; contains \u0026lsquo;2\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by name = Dade County Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;name\u0026rsquo; contains \u0026lsquo;Dade County\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by email = 3030 SW 8th St Miami Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;email\u0026rsquo; contains \u0026lsquo;3030 SW 8th St Miami\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by City = Miami Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;City\u0026rsquo; contains \u0026lsquo;Miami\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by Zip/Postal code = 33181 Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;Zip/Postal code\u0026rsquo; contains \u0026lsquo;33181\u0026rsquo;   Filter by State : Florida Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;State\u0026rsquo; contains \u0026lsquo;Florida\u0026rsquo;   Filter by County : United States Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;Country ' contains \u0026lsquo;United States\u0026rsquo;    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/filter-sort-and-pagination.html",
-	"title": "Filter, sort and pagination",
-	"tags": [],
-	"description": "",
-	"content": "Filter, sort and pagination "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/filter-sort-and-pagination.html",
-	"title": "Filter, sort and pagination",
-	"tags": [],
-	"description": "",
-	"content": "Filter, sort and pagination "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/ordersbo/filterorders.html",
@@ -2142,11 +2142,32 @@
 	"content": "BO - Shipping - Preferences - Sort by Order By Steps    Step Description Expected result     Go to BO\u0026gt;Shipping \u0026gt; Preferences the Preferences page is displayed   Go to Carrier options\u0026gt; change the sort by and order by\n\u0026gt; click save An alert \u0026ldquo;Update successful.\u0026rdquo; is displayed.   Go to FO\u0026gt;Cart\u0026gt;shipping method The order of shipping method is :\n* Click and collect\n* My carrier\n* My cheap carrier\n* My light carrier   Go to Carrier options\u0026gt; change the sort by and order by\n\u0026gt; click save An alert \u0026ldquo;Update successful.\u0026rdquo; is displayed.   Go to FO\u0026gt;Cart\u0026gt;shipping method The order of shipping method is :\n* My light carrier\n* My cheap carrier\n* My carrier\n* Click and collect   Go to Carrier options\u0026gt; change the sort by and order by\n\u0026gt; click save An alert \u0026ldquo;Update successful.\u0026rdquo; is displayed.   Go to FO\u0026gt;Cart\u0026gt;shipping method The order of shipping method is :\n* My carrier\n* My cheap carrier\n* My light carrier\n* Click and collect   Go to Carrier options\u0026gt; change the sort by and order by\n\u0026gt; click save An alert \u0026ldquo;Update successful.\u0026rdquo; is displayed.   Go to FO\u0026gt;Cart\u0026gt;shipping method The order of shipping method is :\n* Click and collect\n* My light carrier\n* My cheap carrier\n* My carrier    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customers-setting-titles-crud-title.html",
-	"title": "BO - Shop parameters - Customers setting - Titles - CRUD title",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-crud.html",
+	"title": "BO - Shop Parameters - Contacts - CRUD",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop parameters - Customers setting - Titles - CRUD title Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings \u0026gt; Titles Tab Title page is displayed   Click on Add new social title Title creation page is displayed   Fill all fields \u0026gt; Click on Save Alert Successful creation is displayed   Click on Add new social title \u0026gt; Add an image \u0026gt; Click on Save See the error message The field name is required at least in English (English). is displayed   Add a title \u0026gt; Click on Save Alert Successful creation is displayed   Click on Edit for the last created Title \u0026gt; Edit the Social Title \u0026gt; Edit the Gender \u0026gt; Click on Save Alert Successful update is displayed   For the last 2 created Social titles : Click On Delete with the dropdown \u0026gt; Yes Alert Successful deletion is displayed    "
+	"content": "BO - Shop Parameters - Contacts - CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains \u0026lsquo;Add new:\u0026rsquo;   Create contact\n(faker data) Message Successful creation is displayed\nNumber of contacts after creation = total of contacts + 1   Filter list by email with latest email of created contact Contact is displayed in list   Click on the pen to edit the contact Page title contains \u0026lsquo;Edit:\u0026rsquo;   Update contact\n(faker data) Message Successful update is displayed\nNumber of contacts after creation = total of contacts + 1\nFiltered contact in list is still displayed with updated data   Click 3-dot button \u0026gt; Delete \u0026gt; Delete Message Successful deletion is displayed\nNo records found is displayed in list   Click on Reset All original contacts are displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-crud.html",
+	"title": "BO - Shop Parameters - Customer Settings - Groups - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Groups - CRUD Steps    Step Description Expected result     Go to Bo\u0026gt;Shop Parameters\u0026gt;Customer Settings\u0026gt;Groups The page should display correctly   Click to \u0026ldquo;Add new group\u0026rdquo; The \u0026ldquo;Add new\u0026rdquo; page should display correctly   Create a new Customer group\nClick to Save \u0026ldquo;Successful creation\u0026rdquo; Notification   Click to \u0026ldquo;Tester\u0026rdquo; The detail page will be displayed correctly   Click to \u0026ldquo;Groups\u0026rdquo; The groups page will be displayed correctly\nVisitor/Guest/Customer/Tester   Click to Edit for Tester groups The Edit page will be displayed correctly   Modify this Customer group \u0026ldquo;Successful update\u0026rdquo; notification\nChange applied   Click to \u0026ldquo;To be deleted\u0026rdquo; delete button The modal will be displayed correctly\n\u0026ldquo;Delete selected item?\nName : To be deleted\u0026rdquo;   Click to Yes \u0026ldquo;Successful deletion\u0026rdquo; notification\nDeletion applied    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-send-an-email-after-registration.html",
+	"title": "BO - Shop Parameters - Customer Settings - Send an email after registration",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Send an email after registration Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; Customer Settings\u0026rsquo; page page title contains \u0026lsquo;Customer Settings\u0026rsquo;   disable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to \u0026lsquo;Advanced parameters \u0026gt; E-mail\u0026rsquo; page email is not present in list   go to \u0026lsquo;Shop parameters \u0026gt; Customer Settings\u0026rsquo; page page title contains \u0026lsquo;Customer Settings\u0026rsquo;   enable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to \u0026lsquo;Advanced parameters \u0026gt; E-mail\u0026rsquo; page email is present in list   delete customers created from BO Customers were deleted    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customer-settings-titles-crud.html",
+	"title": "BO - Shop parameters - Customer Settings - Titles - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop parameters - Customer Settings - Titles - CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings \u0026gt; Titles Tab Title page is displayed   Click on Add new social title Title creation page is displayed   Fill all fields \u0026gt; Click on Save Alert Successful creation is displayed   Click on Add new social title \u0026gt; Add an image \u0026gt; Click on Save See the error message The field name is required at least in English (English). is displayed   Add a title \u0026gt; Click on Save Alert Successful creation is displayed   Click on Edit for the last created Title \u0026gt; Edit the Social Title \u0026gt; Edit the Gender \u0026gt; Click on Save Alert Successful update is displayed   For the last 2 created Social titles : Click On Delete with the dropdown \u0026gt; Yes Alert Successful deletion is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html",
@@ -2203,6 +2224,20 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Update default products order by and order method (TODO) "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/bo-shop-parameters-traffic-and-seo-refresh-index-and-cache.html",
+	"title": "BO - Shop Parameters - Traffic and SEO - Refresh index and cache",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Traffic and SEO - Refresh index and cache "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/search-engines/bo-shop-parameters-traffic-and-seo-search-engines-crud.html",
+	"title": "BO - Shop Parameters - Traffic and SEO - Search Engines - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Traffic and SEO - Search Engines - CRUD "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-sort-and-pagination.html",
@@ -2303,13 +2338,6 @@
 	"content": "CRUD Steps    Step Description Expected result     Go to Shop Parameters -\u0026gt;Contact -\u0026gt;Stores The stores page is displayed   Click on add new store Add new store is displayed correctly   Fill all information -\u0026gt; click on save New store is saved correctly.\nMessage is displayed \u0026ldquo;Successful creation\u0026rdquo;\nRedirection to store page    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/crud.html",
-	"title": "CRUD",
-	"tags": [],
-	"description": "",
-	"content": "CRUD Steps    Step Description Expected result     Go to Bo\u0026gt;Shop Parameters\u0026gt;Customer Settings\u0026gt;Groups The page should display correctly   Click to \u0026ldquo;Add new group\u0026rdquo; The \u0026ldquo;Add new\u0026rdquo; page should display correctly   Create a new Customer group\nClick to Save \u0026ldquo;Successful creation\u0026rdquo; Notification   Click to \u0026ldquo;Tester\u0026rdquo; The detail page will be displayed correctly   Click to \u0026ldquo;Groups\u0026rdquo; The groups page will be displayed correctly\nVisitor/Guest/Customer/Tester   Click to Edit for Tester groups The Edit page will be displayed correctly   Modify this Customer group \u0026ldquo;Successful update\u0026rdquo; notification\nChange applied   Click to \u0026ldquo;To be deleted\u0026rdquo; delete button The modal will be displayed correctly\n\u0026ldquo;Delete selected item?\nName : To be deleted\u0026rdquo;   Click to Yes \u0026ldquo;Successful deletion\u0026rdquo; notification\nDeletion applied    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/crud.html",
 	"title": "CRUD",
 	"tags": [],
@@ -2322,20 +2350,6 @@
 	"tags": [],
 	"description": "",
 	"content": "CRUD "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/search-engines/crud.html",
-	"title": "CRUD",
-	"tags": [],
-	"description": "",
-	"content": "CRUD "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/crud-contact.html",
-	"title": "CRUD Contact",
-	"tags": [],
-	"description": "",
-	"content": "CRUD Contact Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains \u0026lsquo;Add new:\u0026rsquo;   Create contact\n(faker data) Message Successful creation is displayed\nNumber of contacts after creation = total of contacts + 1   Filter list by email with latest email of created contact Contact is displayed in list   Click on the pen to edit the contact Page title contains \u0026lsquo;Edit:\u0026rsquo;   Update contact\n(faker data) Message Successful update is displayed\nNumber of contacts after creation = total of contacts + 1\nFiltered contact in list is still displayed with updated data   Click 3-dot button \u0026gt; Delete \u0026gt; Delete Message Successful deletion is displayed\nNo records found is displayed in list   Click on Reset All original contacts are displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/crud-seo-page.html",
@@ -2413,13 +2427,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Enable Back Office Tracking Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager page \u0026amp; search the module ps_googleanalytics The module manager is well displayed and the module is displayed as a result   Click on Configure The configuration page is well displayed   Set a valid Google Analytics Tracking ID and save A green alert \u0026ldquo;Account ID updated successfully\u0026rdquo; \u0026amp; \u0026ldquo;Settings for Enable Back Office tracking updated successfully\u0026rdquo; are displayed   Go to BO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page A red message is displayed\n!image-2022-03-22-18-22-04-703.png!   Go to the module manager page and enable the Enable Back Office tracking A green alert \u0026ldquo;Settings for Enable Back Office tracking updated successfully\u0026rdquo; is displayed   Go to BO, Click on Enable on the Tag Assistant Legacy (by Google) and refresh the page The red message is not displayed anymore    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/enable-disable-send-email-after-registration.html",
-	"title": "enable, disable send email after registration",
-	"tags": [],
-	"description": "",
-	"content": "enable, disable send email after registration Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; Customer Settings\u0026rsquo; page page title contains \u0026lsquo;Customer Settings\u0026rsquo;   disable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to \u0026lsquo;Advanced parameters \u0026gt; E-mail\u0026rsquo; page email is not present in list   go to \u0026lsquo;Shop parameters \u0026gt; Customer Settings\u0026rsquo; page page title contains \u0026lsquo;Customer Settings\u0026rsquo;   enable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to \u0026lsquo;Advanced parameters \u0026gt; E-mail\u0026rsquo; page email is present in list   delete customers created from BO Customers were deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/contactform/configuration/enable-disable-email-copy-to-merchant.html",
@@ -2742,13 +2749,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Product comments - Uninstall/Install Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manger and search productcomments The module page should be displayed and module productcomments appear in the module page   Click on uninstall\u0026quot; and confirm the uninstall message by clicking on ok\u0026quot; A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -\u0026gt; Module catalog   Go to Module catalog and search productcomments The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -\u0026gt; Module manager and search productcomments\u0026quot; The module should be displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/refresh-index-and-cache.html",
-	"title": "Refresh index and cache",
-	"tags": [],
-	"description": "",
-	"content": "Refresh index and cache "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/report-a-comment.html",
@@ -3157,13 +3157,6 @@
 	"content": "BO - Customer Service - Respond to message Steps    Step Description Expected result     In FO \u0026gt; Go to Contact us Page \u0026gt; Fill Fields \u0026gt; Click Send Message \u0026ldquo;Your message has been successfully sent to our team.\u0026rdquo; appears   Go to BO \u0026gt; Customer Service \u0026gt; Customer Service \u0026gt; In Customer Service Block \u0026gt; Click View on latest thread Thread is displayed   Scroll to block \u0026ldquo;Your answer to XXX\u0026rdquo; \u0026gt; Add a response \u0026gt; Click Send The Thread is updated with your message\nMessage \u0026ldquo;The message was successfully sent to the customer.\u0026rdquo; is displayed\nOrders and messages timeline Block is updated with your message\nThread status is \u0026ldquo;Closed\u0026rdquo;    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-customer-settings-password-reset-delay.html",
-	"title": "BO - Customer Settings - Password reset delay",
-	"tags": [],
-	"description": "",
-	"content": "BO - Customer Settings - Password reset delay "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-crud.html",
 	"title": "BO - Customers - Addresses - CRUD",
 	"tags": [],
@@ -3444,6 +3437,34 @@
 	"content": "BO - Shipping - Preferences - Default carrier Steps    Step Description Expected result     Go to BO\u0026gt;Shipping \u0026gt; Preferences the Preferences page is displayed   Go to Carrier options\u0026gt; change the Default carrier\u0026gt; click save An alert \u0026ldquo;Update successful.\u0026rdquo; is displayed.   Go to FO\u0026gt;Cart\u0026gt;shipping method The default shipping method is : My cheap carrier   Go to Carrier options\u0026gt; change the Default carrier\u0026gt; click save An alert \u0026ldquo;Update successful.\u0026rdquo; is displayed.   Go to FO\u0026gt;Cart\u0026gt;shipping method The default shipping method is : My carrier   Go to Carrier options\u0026gt; change the Default carrier\u0026gt; click save An alert \u0026ldquo;Update successful.\u0026rdquo; is displayed.   Go to FO\u0026gt;Cart\u0026gt;shipping method The default shipping method is : Click and collect    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-bulk-actions.html",
+	"title": "BO - Shop Parameters - Contacts - Bulk actions",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Bulk actions Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts Tab Contacts page is well displayed   Create 2 contacts using the following test Number of contacts after creation = total of contacts + 2   {color:#C1C7D0} This step was calling test issue TEST-1096 (possibly downgraded){color}    Check the 2 newly created Contact \u0026gt; Bulk actions \u0026gt; Delete selected \u0026gt; Delete Message The selection has been successfully deleted is displayed\nNumber of contacts after deletion = original total of contacts    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-default-groups-options.html",
+	"title": "BO - Shop Parameters - Customer Settings - Groups - Default groups options",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Groups - Default groups options "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-password-reset-delay.html",
+	"title": "BO - Shop Parameters - Customer Settings - Password reset delay",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Password reset delay "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customer-settings-titles-bulk-actions.html",
+	"title": "BO - Shop Parameters - Customer Settings - Titles - Bulk actions",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Titles - Bulk actions "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-ssl.html",
 	"title": "BO - Shop Parameters - General - Enable / disable SSL",
 	"tags": [],
@@ -3493,6 +3514,20 @@
 	"content": "BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO) "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/bo-shop-parameters-traffic-and-seo-crud.html",
+	"title": "BO - Shop Parameters - Traffic and SEO - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Traffic and SEO - CRUD "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/search-engines/bo-shop-parameters-traffic-and-seo-search-engines-bulk-action.html",
+	"title": "BO - Shop Parameters - Traffic and SEO - Search Engines - Bulk action",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Traffic and SEO - Search Engines - Bulk action "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/installation/bo-upgrade-the-module.html",
 	"title": "BO - Upgrade the module",
 	"tags": [],
@@ -3505,27 +3540,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Bulk action "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/search-engines/bulk-action.html",
-	"title": "Bulk action",
-	"tags": [],
-	"description": "",
-	"content": "Bulk action "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bulk-actions.html",
-	"title": "Bulk actions",
-	"tags": [],
-	"description": "",
-	"content": "Bulk actions Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts Tab Contacts page is well displayed   Create 2 contacts using the following test Number of contacts after creation = total of contacts + 2   {color:#C1C7D0} This step was calling test issue TEST-1096 (possibly downgraded){color}    Check the 2 newly created Contact \u0026gt; Bulk actions \u0026gt; Delete selected \u0026gt; Delete Message The selection has been successfully deleted is displayed\nNumber of contacts after deletion = original total of contacts    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bulk-actions.html",
-	"title": "Bulk actions",
-	"tags": [],
-	"description": "",
-	"content": "Bulk actions "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bulk-actions.html",
@@ -3610,13 +3624,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Create an order with multiple cart rule Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/crud.html",
-	"title": "CRUD",
-	"tags": [],
-	"description": "",
-	"content": "CRUD "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productsbo/crudstandardproductwithcombinationsinbo.html",
@@ -4109,13 +4116,6 @@
 	"content": "Uninstall and delete Steps    Step Description Expected result          "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/update-default-groups-options.html",
-	"title": "Update Default groups options",
-	"tags": [],
-	"description": "",
-	"content": "Update Default groups options "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/installation/upgrade.html",
 	"title": "Upgrade",
 	"tags": [],
@@ -4585,6 +4585,20 @@
 	"content": "BO - Shipping - Carriers - Quick Edit status and free shipping "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-filter-sort-and-pagination.html",
+	"title": "BO - Shop Parameters - Contacts - Filter, sort and pagination",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Filter, sort and pagination Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts Tab Contacts page is well displayed   Sort by id_contact desc List is sorted by id_contact desc\n(3 -\u0026gt; 2 -\u0026gt; 1)   Sort By title asc List is sorted by title asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by title desc List is sorted by title desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by email asc List is sorted by email asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by email desc List is sorted by email desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by description asc List is sorted by description asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by description desc List is sorted by description desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by id_contact asc List is sorted by id_contact asc\n(1 -\u0026gt; 2 -\u0026gt; 3)    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-enable-b2b-mode.html",
+	"title": "BO - Shop Parameters - Customer Settings - Enable B2B mode",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Enable B2B mode "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html",
 	"title": "BO - Shop Parameters - General - Enable / disable multistore",
 	"tags": [],
@@ -4695,13 +4709,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Disable / Enable Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module Manager The Module Manager is well displayed   Search the exact module ps_googleanalytics The module is well displayed   Click on disable A confirmation popup is displayed   Click on \u0026ldquo;Yes, disable it\u0026rdquo; a green alert is displayed \u0026ldquo;disable action on module ps_googleanalytics succeeded.\u0026rdquo; The extension Tag Assistant Legacy\ndisplays \u0026ldquo;add google analytics\u0026rdquo;\n!image-2022-03-24-11-56-15-448.png   Click on enable A green alert is displayed \u0026ldquo;Enable action on module ps_googleanalytics succeeded.\u0026rdquo; And the button enable is changed to configure.    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/enable-b2b-mode-todo.html",
-	"title": "Enable B2B mode (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "Enable B2B mode (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/configuration/enable-disable-anonymization-of-the-user-s-last-name.html",
@@ -4984,13 +4991,6 @@
 	"content": "Select a bloc in the picture \u0026amp; Configure a module Steps    Step Description Expected result     Select a bloc in the picture menu in the right should open the right bloc   Click on configure The module configuration should open    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/sort-contacts.html",
-	"title": "Sort Contacts",
-	"tags": [],
-	"description": "",
-	"content": "Sort Contacts Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts Tab Contacts page is well displayed   Sort by id_contact desc List is sorted by id_contact desc\n(3 -\u0026gt; 2 -\u0026gt; 1)   Sort By title asc List is sorted by title asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by title desc List is sorted by title desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by email asc List is sorted by email asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by email desc List is sorted by email desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by description asc List is sorted by description asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by description desc List is sorted by description desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by id_contact asc List is sorted by id_contact asc\n(1 -\u0026gt; 2 -\u0026gt; 3)    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/installation/theme-customization-module-reset-module.html",
 	"title": "Theme Customization module - Reset module",
 	"tags": [],
@@ -5031,13 +5031,6 @@
 	"tags": [],
 	"description": "",
 	"content": "[FO] Upgrade from 1.6.1.24 to last build and then exploratory test on FO Steps    Step Description Expected result     On a fresh 1.6.1.24 install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.\nThen upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.\nDescribe everything tested in \u0026ldquo;Actual result\u0026rdquo; field.    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/ask-for-birth-date-todo.html",
-	"title": "Ask for birth date (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "Ask for birth date (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-help-card.html",
@@ -5149,7 +5142,7 @@
 	"title": "BO - Customer Service - Merchandise returns - Update and manage options",
 	"tags": [],
 	"description": "",
-	"content": "BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO \u0026gt; SELL \u0026gt; Customer Service \u0026gt; Merchandise Returns The Merchandise returns page is well displayed   Enable the returns of product and click on Save The toggle is well enabled and a message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is displayed   Check that there is a help message under the Enable returns The help message is : \u0026ldquo;Would you like to allow merchandise returns in your shop? \u0026quot;   Click on the Time limit of validity and change the number of days as desired and click on Save The new number is well-updated and a message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is displayed   Check that there is a help message under the Time limit of validity The help message is : \u0026ldquo;How many days after the delivery date does the customer have to return a product?\u0026rdquo;   Click on the Returns prefix and change the prefix used for the downloadable pdf file The new value is well-updated and a message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is well displayed   Check that there is a help message under the Returns prefix The help message is : Prefix used for return name (e.g. RE00001).   Check that there is a returned merchandise returns and click on it The edit page for \u0026ldquo;Return Merchandise Authorization\u0026rdquo; is well displayed   Change the status to \u0026ldquo;Waiting for package\u0026rdquo; and click on Save and stay A generated file in the Returnd form is displayed called \u0026ldquo;Print out\u0026rdquo;   Click on the file A pdf with the defined prefix in the Returns prefix is downloaded (XXX000001.pdf)    "
+	"content": "BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO \u0026gt; SELL \u0026gt; Customer Service \u0026gt; Merchandise Returns The Merchandise returns page is well displayed   Enable the returns of product and click on Save The toggle is well enabled and a message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is displayed   Check that there is a help message under the Enable returns The help message is : \u0026ldquo;Would you like to allow merchandise returns in your shop? \u0026quot;   Click on the Time limit of validity and change the number of days as desired and click on Save The new number is well-updated and a message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is displayed   Check that there is a help message under the Time limit of validity The help message is : \u0026ldquo;How many days after the delivery date does the customer have to return a product?\u0026rdquo;   Click on the Returns prefix and change the prefix used for the downloadable pdf file The new value is well-updated and a message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is well displayed   Check that there is a help message under the Returns prefix The help message is : \u0026ldquo;Prefix used for return name (e.g. RE00001).\u0026rdquo;   Check that there is a returned merchandise returns and click on it The edit page for \u0026ldquo;Return Merchandise Authorization\u0026rdquo; is well displayed   Change the status to \u0026ldquo;Waiting for package\u0026rdquo; and click on Save and stay A generated file in the Returns form is displayed called \u0026ldquo;Print out\u0026rdquo;   Click on the file A pdf with the defined prefix in the Returns prefix is downloaded (XXX000001.pdf)    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-sort-and-pagination.html",
@@ -5367,6 +5360,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shipping - Carriers - Change position "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-ask-for-birth-date.html",
+	"title": "BO - Shop Parameters - Customer Settings - Ask for birth date",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Ask for birth date "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-display-brands-best-sellers.html",
@@ -5950,6 +5950,13 @@
 	"content": "BO - Shipping - Carriers - Install module "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-enable-partner-offers.html",
+	"title": "BO - Shop Parameters - Customer Settings - Enable partner offers",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Customer Settings - Enable partner offers "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-mode.html",
 	"title": "BO - Shop Parameters - General - Round mode",
 	"tags": [],
@@ -6032,13 +6039,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Edit search settings "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/enable-partner-offers-todo.html",
-	"title": "Enable partner offers (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "Enable partner offers (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-reset-module.html",
@@ -7329,6 +7329,13 @@
 	"content": "BO - Combinations Tab "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-product-image-format.html",
+	"title": "BO - Design - Image Settings - Check product image format ",
+	"tags": [],
+	"description": "",
+	"content": "BO - Design - Image Settings - Check product image format Steps    Step Description Expected result     * Go to BO \u0026gt; Design \u0026gt; Image settings\n* Scroll down to have image generation option * JPEG/PNG should be checked * You can\u0026rsquo;t unchecked the JPEG/PNG format\n* Base format should be : \u0026ldquo;Use PNG only if the base image is in PNG format\u0026rdquo;   Check the checkboxes next to Webp The checkbox should be checked and the Webp is enabled   * Go to Catalog \u0026gt; Product * Clic on \u0026ldquo;Add new product\u0026rdquo;\n* Select Standard product * Clic on \u0026ldquo;Add New product * You should have all your product * A modal appear\n* Standard product is Selected\n* You have the page to create a product   * Set a product with a name and an image in PNG * Put it online * Clic on \u0026ldquo;Save\u0026rdquo; * You should have the name on the product name and an image on the image selection * The checkboxes is now green and it\u0026rsquo;s writte : \u0026ldquo;Online\u0026rdquo; * You have a green modal and it say : \u0026ldquo;Successful update\u0026rdquo;   * Go to Catalog \u0026gt; Product * Clic on \u0026ldquo;Add new product\u0026rdquo;\n* Select Standard product * Clic on \u0026ldquo;Add New product * You should have all your product * A modal appear\n* Standard product is Selected\n* You have the page to create a product   * Set a product with a name and an image in JPEG * Put it online * Clic on \u0026ldquo;Save\u0026rdquo; * You should have the name on the product name and an image on the image selection * The checkboxes is now green and it\u0026rsquo;s writte : \u0026ldquo;Online\u0026rdquo; * You have a green modal and it say : \u0026ldquo;Successful update\u0026rdquo;   * Go to Catalog \u0026gt; Product * Clic on \u0026ldquo;Add new product\u0026rdquo;\n* Select Standard product * Clic on \u0026ldquo;Add New product * You should have all your product * A modal appear\n* Standard product is Selected\n* You have the page to create a product   * Set a product with a name and an image in Webp * Put it online * Clic on \u0026ldquo;Save\u0026rdquo; * You should have the name on the product name and an image on the image selection * The checkboxes is now green and it\u0026rsquo;s writte : \u0026ldquo;Online\u0026rdquo; * You have a green modal and it say : \u0026ldquo;Successful update\u0026rdquo;   * Go to your folder [yourshop]/img/p/[id of your product png]\n* Drag and drop [id]_large_default.jpg on [https://www.checkfiletype.com/] * There is many image on jpg and Webp\n* The website should say that your image is on PNG   * Go to your folder [yourshop]/img/p/[id of your product JPEG]\n* Drag and drop [id]_large_default.jpg on [https://www.checkfiletype.com/] * There is many image on jpg and Webp\n* The website should say that your image is on JPEG   * Go to your folder [yourshop]/img/p/[id of your product Webp]\n* Drag and drop [id]_large_default.webp on [https://www.checkfiletype.com/] * There is many image on jpg and Webp\n* The website should say that your image is on Webp   * * Go to FO * Scrol down and clic on \u0026ldquo;All product\u0026rdquo;\n* Right click on a product * Select inspect\n* Look at the end of the \u0026lt;source * You\u0026rsquo;ll see your shop\n* You\u0026rsquo;ll see many product with pagination\n* you\u0026rsquo;ll see many option * you should see the details of product\u0026rsquo;s image under a Picture tag\n* You\u0026rsquo;ll see in wich type of files, the picture tag will send the image    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-edit-template-product-stock-filter.html",
 	"title": "Faceted search module - Edit template - Product stock filter",
 	"tags": [],
@@ -7362,6 +7369,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Search an email address Steps    Step Description Expected result          "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-category-image-format.html",
+	"title": "BO - Design - Image Settings - Check category image format ",
+	"tags": [],
+	"description": "",
+	"content": "BO - Design - Image Settings - Check category image format Steps    Step Description Expected result     * Go to BO \u0026gt; Design \u0026gt; Image settings\n* Scroll down to have image generation option * JPEG/PNG should be checked * You can\u0026rsquo;t unchecked the JPEG/PNG format\n* Base format should be : \u0026ldquo;Use PNG only if the base image is in PNG format\u0026rdquo;   Check the checkboxes next to Webp The checkbox should be checked and the Webp is enabled   * Go to Catalog \u0026gt; categories * Clic on \u0026ldquo;Add new category\u0026rdquo; * You should have all your categories * You have the page to create a category   * Set a category with a name and three image in PNG * Clic on \u0026ldquo;Save\u0026rdquo; * You should have the name on the category name and the url of image on image selection * You have a green modal and it say : \u0026ldquo;Successful update\u0026rdquo;   * Go to Catalog \u0026gt; categories * Clic on \u0026ldquo;Add new category\u0026rdquo; * You should have all your categories * You have the page to create a category   * Set a category with a name and three image in JPEG * Clic on \u0026ldquo;Save\u0026rdquo; * You should have the name on the category name and the url of image on image selection * You have a green modal and it say : \u0026ldquo;Successful update\u0026rdquo;   Go to your folder [yourshop]/img/c There is no image on Webp   Drag and drop [idofyour category PNG]_category_default.jpg on [https://www.checkfiletype.com/] The website should say that your image is on PNG   Drag and drop [idofyour category JPEG]_category_default.jpg on [https://www.checkfiletype.com/] The website should say that your image is on JPEG   * Go to FO * Scrol down and clic on \u0026ldquo;All product\u0026rdquo;\n* Right click on a category * Select inspect\n* look at the end of the \u0026lt;source * You\u0026rsquo;ll see your shop\n* You\u0026rsquo;ll see on the top some category\n* you\u0026rsquo;ll see many option * you should see the details of category\u0026rsquo;s image under a Picture tag\n* This will show you witch type of product it\u0026rsquo;s selected   If the source is on Webp * Go to your folder [yourshop]/img/c * Now there is some _category__default image on Webp    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-pack-tab.html",
@@ -8040,7 +8054,7 @@
 	"title": "Contacts",
 	"tags": [],
 	"description": "",
-	"content": "Contacts Tests  Filter Contacts   CRUD Contact   Bulk actions   Sort Contacts   "
+	"content": "Contacts Tests  Filter Contacts   BO - Shop Parameters - Contacts - CRUD   BO - Shop Parameters - Contacts - Bulk actions   BO - Shop Parameters - Contacts - Filter, sort and pagination   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance/contenu.html",
@@ -8187,7 +8201,7 @@
 	"title": "Customers",
 	"tags": [],
 	"description": "",
-	"content": "Customers Tests  Enable, disable redisplay cart at login   enable, disable send email after registration   BO - Customer Settings - Password reset delay   Enable B2B mode (TODO)   Ask for birth date (TODO)   Enable partner offers (TODO)   "
+	"content": "Customers Tests  BO - Shop Parameters - Customer Settings - Re-display cart at login   BO - Shop Parameters - Customer Settings - Send an email after registration   BO - Shop Parameters - Customer Settings - Password reset delay   BO - Shop Parameters - Customer Settings - Enable B2B mode   BO - Shop Parameters - Customer Settings - Ask for birth date   BO - Shop Parameters - Customer Settings - Enable partner offers   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting.html",
@@ -8418,7 +8432,7 @@
 	"title": "Experimental Features",
 	"tags": [],
 	"description": "",
-	"content": "Experimental Features Tests  Enable/Disabled Experimental Product Page V2   "
+	"content": "Experimental Features Tests  BO - Advanced Parameters - Experimental Features - Enable/Disabled PPV2   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server.html",
@@ -8565,14 +8579,14 @@
 	"title": "Gift options",
 	"tags": [],
 	"description": "",
-	"content": "Gift options Tests  BO \u0026gt; Gift options: Gift wrapping \u0026amp; Add gift message \u0026amp; Add gift price and tax \u0026amp; Use recycled packaging   "
+	"content": "Gift options Tests  BO - Shop Parameters - Order Settings - Gift options   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups.html",
 	"title": "Groups",
 	"tags": [],
 	"description": "",
-	"content": "Groups Tests  Filter, sort and pagination   CRUD   Update Default groups options   "
+	"content": "Groups Tests  BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination   BO - Shop Parameters - Customer Settings - Groups - CRUD   BO - Shop Parameters - Customer Settings - Groups - Default groups options   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header.html",
@@ -8628,7 +8642,7 @@
 	"title": "Image Settings",
 	"tags": [],
 	"description": "",
-	"content": "Image Settings Tests  BO - Design - Image Settings - Filter   BO - Design - Image Settings - CRUD   BO - Design - Image Settings - Images generation options   BO - Design - Image Settings - Regenerate thumbnails   BO - Design - Image Settings - Sort and Pagination   BO - Design - Image Settings - Delete actions   BO - Design - Image Settings - Delete Bulk actions - feature not integrated -   BO - Design - Image Settings - Import Image type - feature not integrated -   BO - Design - Image Settings - Image Generation options - QA Analyst version   BO - Design - Image Settings - Image Generation options - Automated version   BO - Design - Image Settings - Regenerate thumbnail   BO - Design - Image Settings - Image Generation on creation   BO - Design - Image Settings - Delete all images format - feature not integrated -   "
+	"content": "Image Settings Tests  BO - Design - Image Settings - Filter   BO - Design - Image Settings - CRUD   BO - Design - Image Settings - Images generation options   BO - Design - Image Settings - Regenerate thumbnails   BO - Design - Image Settings - Sort and Pagination   BO - Design - Image Settings - Delete actions   BO - Design - Image Settings - Delete Bulk actions - feature not integrated -   BO - Design - Image Settings - Import Image type - feature not integrated -   BO - Design - Image Settings - Image Generation options - QA Analyst version   BO - Design - Image Settings - Image Generation options - Automated version   BO - Design - Image Settings - Regenerate thumbnail   BO - Design - Image Settings - Image Generation on creation   BO - Design - Image Settings - Delete all images format - feature not integrated -   BO - Design - Image Settings - Check product image format    BO - Design - Image Settings - Check category image format    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import.html",
@@ -9741,7 +9755,7 @@
 	"title": "Referrers",
 	"tags": [],
 	"description": "",
-	"content": "Referrers Tests  Filter   Refresh index and cache   CRUD   "
+	"content": "Referrers Tests  BO - Shop Parameters - Traffic and SEO - Filter   BO - Shop Parameters - Traffic and SEO - Refresh index and cache   BO - Shop Parameters - Traffic and SEO - CRUD   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/regression.html",
@@ -9797,7 +9811,7 @@
 	"title": "Search Engines",
 	"tags": [],
 	"description": "",
-	"content": "Search Engines Tests  Filter Sort and pagination   CRUD   Bulk action   "
+	"content": "Search Engines Tests  BO - Shop Parameters - Traffic and SEO - Search Engines - Filter, Sort and Pagination   BO - Shop Parameters - Traffic and SEO - Search Engines - CRUD   BO - Shop Parameters - Traffic and SEO - Search Engines - Bulk action   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls.html",
@@ -10084,7 +10098,7 @@
 	"title": "Titles",
 	"tags": [],
 	"description": "",
-	"content": "Titles Tests  Filter, sort and pagination   BO - Shop parameters - Customers setting - Titles - CRUD title   Bulk actions   "
+	"content": "Titles Tests  BO - Shop Parameters - Customer Settings - Titles - Filter, sort and pagination   BO - Shop parameters - Customer Settings - Titles - CRUD   BO - Shop Parameters - Customer Settings - Titles - Bulk actions   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo.html",
