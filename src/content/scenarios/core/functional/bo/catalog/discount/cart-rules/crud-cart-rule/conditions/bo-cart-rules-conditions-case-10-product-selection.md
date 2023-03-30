@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Conditions - Create simple order status restricted to Product selection"
+title: "BO - Cart rules - Conditions - Case 10 - Product selection"
 weight: 1
 ---
 
-# BO - Cart rules - Conditions - Create simple order status restricted to Product selection
+# BO - Cart rules - Conditions - Case 10 - Product selection
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

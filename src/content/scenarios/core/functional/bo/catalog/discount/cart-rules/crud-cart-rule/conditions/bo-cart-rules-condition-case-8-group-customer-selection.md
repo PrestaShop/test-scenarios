@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 12 - Group customer restriction"
-weight: 9
+title: "BO - Cart rules - Condition - Case 8 - Group customer selection"
+weight: 8
 ---
 
-# BO - Cart rules - Case 12 - Group customer restriction
+# BO - Cart rules - Condition - Case 8 - Group customer selection
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

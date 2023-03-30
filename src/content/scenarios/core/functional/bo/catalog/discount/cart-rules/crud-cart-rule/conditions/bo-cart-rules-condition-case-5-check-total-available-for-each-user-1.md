@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 8 - Check Total available for each User = 1"
-weight: 6
+title: "BO - Cart rules - Condition - Case 5 - Check Total available for each User = 1"
+weight: 5
 ---
 
-# BO - Cart rules - Case 8 - Check Total available for each User = 1
+# BO - Cart rules - Condition - Case 5 - Check Total available for each User = 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

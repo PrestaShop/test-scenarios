@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 11 - Carrier restriction"
-weight: 10
+title: "BO - Cart rules - Condition - Case 7 - Carrier selection"
+weight: 9
 ---
 
-# BO - Cart rules - Case 11 - Carrier restriction
+# BO - Cart rules - Condition - Case 7 - Carrier selection
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

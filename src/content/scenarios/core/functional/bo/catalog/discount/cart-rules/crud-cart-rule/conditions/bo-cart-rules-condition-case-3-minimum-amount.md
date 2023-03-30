@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 7 - Total Order < Minimum amount"
-weight: 5
+title: "BO - Cart rules - Condition - Case 3 - Minimum amount"
+weight: 4
 ---
 
-# BO - Cart rules - Case 7 - Total Order < Minimum amount
+# BO - Cart rules - Condition - Case 3 - Minimum amount
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

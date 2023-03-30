@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 10 - Country restriction"
-weight: 8
+title: "BO - Cart rules - Condition - Case 6 - Country selection"
+weight: 7
 ---
 
-# BO - Cart rules - Case 10 - Country restriction
+# BO - Cart rules - Condition - Case 6 - Country selection
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

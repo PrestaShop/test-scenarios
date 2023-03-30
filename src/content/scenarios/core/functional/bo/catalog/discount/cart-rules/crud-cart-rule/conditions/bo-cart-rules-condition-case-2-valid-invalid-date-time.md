@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 6 - Invalid Time"
-weight: 4
+title: "BO - Cart rules - Condition - Case 2 - Valid/Invalid Date Time"
+weight: 3
 ---
 
-# BO - Cart rules - Case 6 - Invalid Time
+# BO - Cart rules - Condition - Case 2 - Valid/Invalid Date Time
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

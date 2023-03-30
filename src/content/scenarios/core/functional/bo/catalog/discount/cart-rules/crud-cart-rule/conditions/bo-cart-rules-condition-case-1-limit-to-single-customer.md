@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Case 5 - Limit to single customer"
-weight: 3
+title: "BO - Cart rules - Condition - Case 1 - Limit to single customer"
+weight: 2
 ---
 
-# BO - Cart rules - Case 5 - Limit to single customer
+# BO - Cart rules - Condition - Case 1 - Limit to single customer
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
