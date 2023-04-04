@@ -9,7 +9,8 @@ weight: 2
 | ----- | ----- |
 | Go to BO > SELL > Customer Service > Merchandise Returns | The Merchandise returns page is well displayed |
 | {color:#C1C7D0} This step was calling test issue TEST-871 (possibly downgraded){color} |  |
-| Go to BO > SELL > Orders > View the created order with two products | The order page details is well displayed |
+| Click to save | "The settings have been successfully updated." notification |
+| Go to BO > SELL > Orders > Ordres > View the created order with two products | The order page details is well displayed |
 | Update the order status to Shipped OR Delivered and click on "Update Status" button | The "Successful update" message is well displayed |
 | Go to FO > Connect with the customer of the Order > Click on Orders history page | All existing orders are well displayed in the list |
 | Click on the order with the Delivered OR Shipped status > Details | The order details page is well displayed with all provided information of the Order<br><br>A checkboxes to select the product A and product B are displayed in the table and a new section related to MERCHANDISE RETURN is also displayed<br>h3. |

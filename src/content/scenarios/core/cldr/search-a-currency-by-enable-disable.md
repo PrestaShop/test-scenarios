@@ -13,5 +13,5 @@ weight: 5
 | Search by Enabled : NO > Click Search | Currency USD should be the only currency available |
 | Enable currency USD by switching the toggle button | USD is enabled<br><br>In the filter section you should see : "No records found" |
 | Add a new currency > Choose GBP > Save | Message "Successful creation."<br><br>GBP will not appear |
-| Search by Enable : YES > Click Search | GBP and EUR will be displayed |
 | Reset your search | All 3 currencies should be displayed |
+| POST-Conditions<br><br>Delete 2 newly created currencies : Check US Dollar + British Pound > Bulk Action > Delete selected > Delete | US Dollar and British Pound are deleted.<br><br>Message "The selection has been successfully deleted" |
