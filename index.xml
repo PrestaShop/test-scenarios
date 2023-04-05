@@ -884,8 +884,8 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-supplier.html</guid>
-      <description>BO - Shop Parameters - General - Enable / Disable Supplier Steps    Step Description Expected result     Go to shop parameters -&amp;gt; General page page title contains &amp;lsquo;Preferences&amp;rsquo;   enable &amp;lsquo;display supplier&amp;rsquo; successful update message is displayed   go to suppliers page page title contains &amp;lsquo;Suppliers&amp;rsquo;
-message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO suppliers link page is displayed   Go to shop parameters -&amp;gt; General page page title contains &amp;lsquo;Preferences&amp;rsquo;   disable &amp;lsquo;display supplier&amp;rsquo; successful update message is displayed   go to suppliers page page title contains &amp;lsquo;Suppliers&amp;rsquo;</description>
+      <description>BO - Shop Parameters - General - Enable / Disable Supplier Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters -&amp;gt; General Page title contains &amp;lsquo;Preferences&amp;rsquo;   Enable Display suppliers &amp;gt; Save Message Successful update is displayed   Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Tab Suppliers Page title contains &amp;lsquo;Suppliers&amp;rsquo;
+Blue alert is displayed : &amp;ldquo;The display of your suppliers is enabled on your store.</description>
     </item>
     
     <item>
@@ -2981,8 +2981,7 @@ Number of contacts after creation = total of contacts + 1   Filter list by email
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</guid>
-      <description>BO - Shop Parameters - General - Enable / Disable Brands Steps    Step Description Expected result     Go to shop parameters -&amp;gt; General page page title contains &amp;lsquo;Preferences&amp;rsquo;   enable &amp;lsquo;display brands&amp;rsquo; successful update message is displayed   go to brands page page title contains &amp;lsquo;Brands&amp;rsquo;
-message alert contains &amp;lsquo;enable&amp;rsquo;   go to FO brands link page is displayed   Go to shop parameters -&amp;gt; General page page title contains &amp;lsquo;Preferences&amp;rsquo;   disable &amp;lsquo;display brands&amp;rsquo; successful update message is displayed   go to brands page page title contains &amp;lsquo;brands&amp;rsquo;</description>
+      <description>BO - Shop Parameters - General - Enable / Disable Brands Steps    Step Description Expected result     Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Brands See that Brands page is displayed.   Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers Blue alert is displayed : &amp;ldquo;The display of your brands is enabled on your store.</description>
     </item>
     
     <item>
@@ -7326,7 +7325,7 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-bulk-actions.html</guid>
       <description>BO - Shop Parameters - Order Statuses - Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Page titles contains &amp;ldquo;Order settings&amp;rdquo;   Go to Statuses tab * Page title contains &amp;ldquo;Statuses&amp;rdquo;
-* All Statuses shouldn&amp;rsquo;t have checkbox and a down arrow on the right of the edit button   Create a [new order statuses https://forge.</description>
+* All Statuses shouldn&amp;rsquo;t have checkbox and a down arrow on the right of the edit button   Create a [new order status https://forge.</description>
     </item>
     
     <item>
@@ -8101,12 +8100,12 @@ Title is : Discovering the Administration Area    </description>
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Order Statuses - Create a standard simple</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-standard-simple.html</link>
+      <title>BO - Shop Parameters - Order Statuses - Create a new order status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-new-order-status.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-standard-simple.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - Create a standard simple Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Page titles contains &amp;ldquo;Order settings&amp;rdquo;   Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Button on the top-right corner of the page Page title contains &amp;quot; Order status &amp;quot;   * Set the status names</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-new-order-status.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Create a new order status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
     </item>
     
     <item>
@@ -8714,12 +8713,13 @@ Alert &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add pr
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Order Statuses - Create a standard simple order return status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-standard-simple-order-return-status.html</link>
+      <title>BO - Shop Parameters - Order Statuses - Create a new order return status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-new-order-return-status.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-standard-simple-order-return-status.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - Create a standard simple order return status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Page titles contains &amp;ldquo;Order settings&amp;rdquo;   Page titles contains &amp;ldquo;Order settings&amp;rdquo; Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order return status&amp;rdquo; Button on the top-right corner of the page Page title contains &amp;quot; Return status &amp;quot;   * Set the status names</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-new-order-return-status.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Create a new order return status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Tab Statuses Page titles contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order return status&amp;rdquo; Page title contains &amp;ldquo;Return status&amp;rdquo;   Fill all fields &amp;gt; Save Message Successful creation is displayed
+Newly created return status is displayed in Return statuses block</description>
     </item>
     
     <item>
