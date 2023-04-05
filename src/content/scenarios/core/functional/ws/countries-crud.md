@@ -28,3 +28,5 @@ weight: 1
 | Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries/\{fetchedId} | The response HTTP Code is 404 |
 | Filter the column “ID” with value \{fetchedId} and click on the button Search | The number of filtered rows is equal to 0. |
 | Reset filters | Filters are reset |
+| {color:#C1C7D0} This step was calling test issue TEST-6069 (possibly downgraded){color} |  |
+| {color:#C1C7D0} This step was calling test issue TEST-6070 (possibly downgraded){color} |  |
