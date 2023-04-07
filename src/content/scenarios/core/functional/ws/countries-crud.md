@@ -28,5 +28,12 @@ weight: 1
 | Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries/\{fetchedId} | The response HTTP Code is 404 |
 | Filter the column “ID” with value \{fetchedId} and click on the button Search | The number of filtered rows is equal to 0. |
 | Reset filters | Filters are reset |
-| {color:#C1C7D0} This step was calling test issue TEST-6069 (possibly downgraded){color} |  |
-| {color:#C1C7D0} This step was calling test issue TEST-6070 (possibly downgraded){color} |  |
+| In BO, Go to Advanced Parameters > Webservice | Webservice Page is displayed correctly |
+| Filter the field "Key" with value XXXX and click on the button Search | The number of filtered rows is equal to 1 |
+| On the first row, click on the button "Three points" | The dropdown is displayed |
+| Click on the Delete Button in the dropdown | A modal appeared |
+| Click on the Delete Button in the modal | The message "Successful deletion" is displayed<br>The number of filtered rows is equal to 0. |
+| Reset filters | No record founds is displayed |
+| In BO, Go to Advanced Parameters > Webservice | Webservice Page is displayed correctly |
+| Set unchecked the checkbox “Enable PrestaShop's webservice” | The checkbox “Enable PrestaShop's webservice” is not checked |
+| Click on Save button | The message “Update successful” is displayed |
