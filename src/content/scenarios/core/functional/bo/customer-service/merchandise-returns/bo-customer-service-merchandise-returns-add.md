@@ -8,7 +8,8 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > SELL > Customer Service > Merchandise Returns | Merchandise Returns page is well displayed |
-| {color:#C1C7D0} This step was calling test issue TEST-871 (possibly downgraded){color} |  |
+| Go to BO > Customer Service > Merchandise Returns | Merchandise Returns page is displayed<br><br>See Enable returns button is set to NO |
+| Click on Enable returns switch button | Message "The settings have been successfully updated." is displayed<br><br>Enable returns button is set to YES |
 | Go to BO > SELL > Orders > View the created order | The created order page details is well created |
 | Update the order status to Shipped OR Delivered and click on "Update Status" button | The "Successful update" message is well displayed |
 | Go to FO > Connect with the customer of the Order > Click on Orders history page | All existing orders are well displayed in the list |
