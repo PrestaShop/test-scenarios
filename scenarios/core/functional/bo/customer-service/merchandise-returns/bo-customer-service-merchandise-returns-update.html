@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1680849372" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1680849372" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1680849372" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1680849372" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1680849372" rel="stylesheet">
-    <link href="../../../../../../style.css?1680849372" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1680881373" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1680881373" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1680881373" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1680881373" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1680881373" rel="stylesheet">
+    <link href="../../../../../../style.css?1680881373" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1680849372"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1680881373"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61015,8 +61015,52 @@
 <td>The Merchandise returns page is well displayed</td>
 </tr>
 <tr>
-<td>{color:#C1C7D0} This step was calling test issue TEST-873 (possibly downgraded){color}</td>
-<td></td>
+<td>Go to BO &gt; SELL &gt; Customer Service &gt; Merchandise Returns</td>
+<td>Merchandise Returns page is well displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Customer Service &gt; Merchandise Returns</td>
+<td>Merchandise Returns page is displayed<br><br>See Enable returns button is set to NO</td>
+</tr>
+<tr>
+<td>Click on Enable returns switch button</td>
+<td>Message &ldquo;The settings have been successfully updated.&rdquo; is displayed<br><br>Enable returns button is set to YES</td>
+</tr>
+<tr>
+<td>Go to BO &gt; SELL &gt; Orders &gt; View the created order</td>
+<td>The created order page details is well created</td>
+</tr>
+<tr>
+<td>Update the order status to Shipped OR Delivered and click on &ldquo;Update Status&rdquo; button</td>
+<td>The &ldquo;Successful update&rdquo; message is well displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Connect with the customer of the Order &gt; Click on Orders history page</td>
+<td>All existing orders are well displayed in the list</td>
+</tr>
+<tr>
+<td>Click on the order with the Delivered OR Shipped status &gt; Details</td>
+<td>The order details page is well displayed with all provided information of The Order<br><br>A checkbox to select the product is displayed in the table and A new section related to MERCHANDISE RETURN is also displayed<br>h3.</td>
+</tr>
+<tr>
+<td><em>Case 1</em> : Return a product X without adding a message<br><br>Click on the checkbox to select the desired product and select the quantity to return <br><br>Then, click on the &ldquo;REQUEST A RETURN&rdquo; button</td>
+<td>An error message is displayed &ldquo;Please provide an explanation for your RMA.&rdquo;</td>
+</tr>
+<tr>
+<td><em>Case 2</em> : Return a product X with a message<br><br>Click on the checkbox to select the desired product, select the quantity to return and add a message in the MERCHANDISE RETURN BLOCK<br>Then, click on the &ldquo;REQUEST A RETURN&rdquo; button</td>
+<td>The page is refreshed and the Merchandise returns page is well displayed with all returned products<br> * Table title: Here is a list of pending merchandise returns<br> * Order Column: The reference of the order with a link to access to the order<br> * Return Column: The reference of the merchandise return with a link to access to the return details <br> * Package status: The default first status is &ldquo;Waiting for confirmation&rdquo;<br> * Date issued: The date of the returned merchandise<br> * Returns form: The default value is &ldquo;-&rdquo;</td>
+</tr>
+<tr>
+<td>Come back to BO &gt; SELL &gt; Customer Service &gt; Merchandise returns</td>
+<td>The returned merchandise is well displayed in the list with &ldquo;Waiting for confirmation&rdquo; status<br><br>The number of Merchandise returns done is also displayed</td>
+</tr>
+<tr>
+<td>Click on the desired merchandise retrun</td>
+<td>The  Return Merchandise Authorization (RMA) page is well displayed with all related information : <br> * Customer: The customer name is displayed <br> * Order: The order ID with the updated date is displayed<br> * Customer explanation: The message which is putted in the Merchandise Return block in FO<br> * Status: The default status is &ldquo;Waiting for confirmation&rdquo;<br> * Products: The informations related to the returned product are displayed with a &ldquo;Delete&rdquo; button action <br> * Returns form : &ldquo;- -&rdquo; as a value</td>
+</tr>
+<tr>
+<td>Click on Cancel</td>
+<td>Merchandise return page is displayed</td>
 </tr>
 <tr>
 <td>Click on the line of the returned product</td>
@@ -61097,9 +61141,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on April 6, 2023
+  Last updated on April 7, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/8f0876da2fff0b2848d9e205f1297bc8f781429d">"[Update] JIRA XRay Tests" (8f0876da2f)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/ac3129cc4c2915adae6be3764845325e75910212">"Fixed called tests in tests (content)" (ac3129cc4c2)</a>
   
 </div>
 
@@ -61120,17 +61164,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1680849372"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1680849372"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1680849372"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1680849372"></script>
-    <script src="../../../../../../js/featherlight.min.js?1680849372"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1680849372"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1680849372"></script>
-    <script src="../../../../../../js/learn.js?1680849372"></script>
-    <script src="../../../../../../js/hugo-learn.js?1680849372"></script>
+    <script src="../../../../../../js/clipboard.min.js?1680881373"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1680881373"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1680881373"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1680881373"></script>
+    <script src="../../../../../../js/featherlight.min.js?1680881373"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1680881373"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1680881373"></script>
+    <script src="../../../../../../js/learn.js?1680881373"></script>
+    <script src="../../../../../../js/hugo-learn.js?1680881373"></script>
     
-    <script src="../../../../../../main.js?1680849372"></script>
+    <script src="../../../../../../main.js?1680881373"></script>
     
     
 
