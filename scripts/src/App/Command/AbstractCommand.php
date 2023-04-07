@@ -200,7 +200,23 @@ abstract class AbstractCommand extends Command
         $result = curl_exec($ch);
         curl_close($ch);
 
-        return  json_decode($result, true);
+        $data = json_decode($result, true);
+
+        $finalData = [];
+        foreach ($data as $datum) {
+            if (preg_match('/This step was calling test issue ([A-Z0-9\-]+)/', $datum['step']['raw'], $matches)) {
+                $testKeyCalled = $matches[1];
+
+                $calledData = $this->getTestSteps($apiKey, $testKeyCalled);
+                foreach($calledData as $calledDatum) {
+                    $finalData[] = $calledDatum;
+                }
+            } else {
+                $finalData[] = $datum;
+            }
+        }
+
+        return $finalData;
     }
 
     protected function getParentContent(string $suiteName, int $weight, bool $withTitle = false): string
