@@ -1712,7 +1712,7 @@
 	"title": "BO - Advanced parameters - Team - Profiles - CRUD",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced parameters - Team - Profiles - CRUD Steps    Step Description Expected result     go to \u0026lsquo;Advanced parameters \u0026gt; Team \u0026gt; Profiles\u0026rsquo; page title contains \u0026lsquo;Profiles\u0026rsquo;   reset filter Total of profiles \u0026gt; 0   go to add new profile title contains \u0026lsquo;Add new\u0026rsquo;   create profile\nCriteria :\nname: faker.name.jobType() from faker Successful message is displayed\nNumber of profiles = Total of profiles + 1   Filter list by new name Number of profiles \u0026lt; Total of profiles + 1\nall rows column \u0026lsquo;name\u0026rsquo; contain the new name   Go to edit profile page title contains \u0026lsquo;Edit\u0026rsquo;   update profile\nCriteria :\nname: faker.name.jobType() from faker Successful message is displayed\nNumber of profiles = Total of profiles + 1   Filter list by new name Number of profiles \u0026lt; Total of profiles + 1\nall rows column \u0026lsquo;name\u0026rsquo; contain the updated name   Delete profile Successful message is displayed\nNumber of profiles = Total of profiles   reset filter Total of profiles \u0026gt; 0    "
+	"content": "BO - Advanced parameters - Team - Profiles - CRUD Steps    Step Description Expected result     go to \u0026lsquo;Advanced parameters \u0026gt; Team \u0026gt; Profiles\u0026rsquo; page title contains \u0026lsquo;Profiles\u0026rsquo;   reset filter Total of profiles \u0026gt; 0   go to add new profile title contains \u0026lsquo;Add new\u0026rsquo;   create profile\nCriteria :\nname: faker.name.jobType() from faker Successful message is displayed\nNumber of profiles = Total of profiles + 1   Filter list by new name Number of profiles \u0026lt; Total of profiles + 1\nall rows column \u0026lsquo;name\u0026rsquo; contain the new name   Go to edit profile page title contains \u0026lsquo;Edit\u0026rsquo;   update profile\nCriteria :\nname: faker.name.jobType() from faker Successful update message is displayed   Filter list by new name Number of profiles \u0026lt; Total of profiles + 1\nall rows column \u0026lsquo;name\u0026rsquo; contain the updated name   Delete profile Successful message is displayed\nNumber of profiles = Total of profiles   reset filter Total of profiles \u0026gt; 0    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-crud-todo.html",
@@ -3028,7 +3028,7 @@
 	"title": "BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO)",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO) "
+	"content": "BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO) Steps    Step Description Expected result     go to \u0026lsquo;Advanced parameters \u0026gt; Team \u0026gt; Profiles\u0026rsquo; page Title contains \u0026lsquo;Profiles\u0026rsquo;   reset filter Total of profiles after reset = Total of profiles   create profile\nCriteria :\nname: testname Successful creation message is displayed\nNumber of profiles = Total of profiles + 1   Select the new profile created and delete it with Bulk actions \u0026gt;click on Delete Successful deletion\nTotal of profiles after reset = Total of profiles    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-bulk-actions.html",
