@@ -13,7 +13,7 @@ weight: 2
 | create profile<br>Criteria :<br>name: faker.name.jobType() from faker | Successful message is displayed<br>Number of profiles = Total of profiles + 1 |
 | Filter list by new name | Number of profiles < Total of profiles + 1<br>all rows column 'name' contain the new name |
 | Go to edit profile page | title contains 'Edit' |
-| update profile<br>Criteria :<br>name: faker.name.jobType() from faker | Successful message is displayed<br>Number of profiles = Total of profiles + 1 |
+| update profile<br>Criteria :<br>name: faker.name.jobType() from faker | Successful update message is displayed |
 | Filter list by new name | Number of profiles < Total of profiles + 1<br>all rows column 'name' contain the updated name |
 | Delete profile | Successful message is displayed<br>Number of profiles = Total of profiles |
 | reset filter | Total of profiles > 0 |
