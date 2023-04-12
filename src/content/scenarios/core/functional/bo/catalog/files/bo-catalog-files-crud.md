@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog- Files - CRUD"
+title: "BO - Catalog - Files - CRUD"
 weight: 1
 ---
 
-# BO - Catalog- Files - CRUD
+# BO - Catalog - Files - CRUD
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

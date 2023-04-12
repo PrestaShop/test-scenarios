@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog- Files - Filter, Pagination, Sort and bulk actions"
+title: "BO - Catalog - Files - Filter, Pagination, Sort and bulk actions"
 weight: 3
 ---
 
-# BO - Catalog- Files - Filter, Pagination, Sort and bulk actions
+# BO - Catalog - Files - Filter, Pagination, Sort and bulk actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

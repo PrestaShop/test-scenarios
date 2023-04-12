@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog- Files - Bulk Actions"
+title: "BO - Catalog - Files - Bulk Actions"
 weight: 2
 ---
 
-# BO - Catalog- Files - Bulk Actions
+# BO - Catalog - Files - Bulk Actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,9 +1,9 @@
 ---
-title: "BO - Catalog- Files - Help button"
+title: "BO - Catalog - Files - Help button"
 weight: 4
 ---
 
-# BO - Catalog- Files - Help button
+# BO - Catalog - Files - Help button
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
