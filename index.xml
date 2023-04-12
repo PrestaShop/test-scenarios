@@ -319,6 +319,20 @@ Brands list is well filtered on ID = 1   Reset filter Number of brands after res
     </item>
     
     <item>
+      <title>BO - Catalog - Files - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html</guid>
+      <description>BO - Catalog - Files - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files Files page is displayed
+Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File&amp;rdquo; Title contains &amp;lsquo;Add new file&amp;rsquo;   Set these fields:
+- File name
+- Description
+- File Message &amp;ldquo;Successful creation.&amp;rdquo; is displayed
+The list of files is updated.   Click on the 3-dot button &amp;gt; View file File should be downloaded</description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Monitoring - Delete Empty Category</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-delete-empty-category.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -364,20 +378,6 @@ all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-crud.html</guid>
       <description>BO - Catalog Cart Rules - CRUD </description>
-    </item>
-    
-    <item>
-      <title>BO - Catalog- Files - CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html</guid>
-      <description>BO - Catalog- Files - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files Files page is displayed
-Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File&amp;rdquo; Title contains &amp;lsquo;Add new file&amp;rsquo;   Set these fields:
-- File name
-- Description
-- File Message &amp;ldquo;Successful creation.&amp;rdquo; is displayed
-The list of files is updated.   Click on the 3-dot button &amp;gt; View file File should be downloaded</description>
     </item>
     
     <item>
@@ -2424,6 +2424,15 @@ Filtered result is Brand : Studio Design   Reset filter No more filter is applie
     </item>
     
     <item>
+      <title>BO - Catalog - Files - Bulk Actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html</guid>
+      <description>BO - Catalog - Files - Bulk Actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page Title contains &amp;lsquo;Files&amp;rsquo;   Select 1 file &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; id displayed   Select 2 files &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; id displayed   Select all files &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; is displayed</description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Monitoring - Monitoring products</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-monitoring-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2467,15 +2476,6 @@ The list contains the searched ID   Reset filter Number of Suppliers after reset
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-price-rules-filter-sort-and-pagination.html</guid>
       <description>BO - Catalog Price Rules - Filter, sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog price rule The Catalog price rule page is well displayed   Filter by ID Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched ID   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Name Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Name   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by currency Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched currency   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Group Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Group   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by From quantity Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Quanity   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Reduction type Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched reduction type   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Reduction Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Reduction   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Beginning Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched beginning   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by End Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched End   Reset Filter Number of catalog price rules = Total of catalog price rules   Sort by ID desc The list is sorted by ID desc   Sort by Name asc The list is sorted by name asc   Sort by Name desc The list is sorted by name desc   Sort by Currency asc The list is sorted by Currency asc   Sort by Currency desc The list is sorted by Currency desc   Sort by Country asc The list is sorted by Country asc   Sort by Country desc The list is sorted by Country desc   Sort by Group asc The list is sorted by group asc   Sort by Group desc The list is sorted by group desc   Sort by From quantity asc The list is sorted by quanity asc   Sort by From quantity desc The list is sorted by quantity desc   Sort by Reduction asc The list is sorted by reduction asc   Sort by Reduction desc The list is sorted by Reduction desc   Sort by Beginning asc The list is sorted by Begining asc   Sort by Beginning desc The list is sorted by Beginning desc   Sort by End asc The list is sorted End asc   Sort by End desc The list is sorted by End desc   Sort by ID asc The list is sorted by ID asc   Select All catalog price rules created, delete with bulk action and confirm the deletion A green alert &amp;ldquo;The selection has been successfully deleted.</description>
-    </item>
-    
-    <item>
-      <title>BO - Catalog- Files - Bulk Actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html</guid>
-      <description>BO - Catalog- Files - Bulk Actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page Title contains &amp;lsquo;Files&amp;rsquo;   Select 1 file &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; id displayed   Select 2 files &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; id displayed   Select all files &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Green alert &amp;ldquo;The selection has been successfully deleted&amp;rdquo; is displayed</description>
     </item>
     
     <item>
@@ -4216,6 +4216,15 @@ Message is displayed : &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
+      <title>BO - Catalog - Files - Filter, Pagination, Sort and bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-sort-and-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-sort-and-bulk-actions.html</guid>
+      <description>BO - Catalog - Files - Filter, Pagination, Sort and bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The files page is well displayed   Filter By ID Number files &amp;lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files &amp;lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size</description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Monitoring - Sort &amp; Pagination</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-sort-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4261,15 +4270,6 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-quick-edit-to-delete.html</guid>
       <description>BO - Catalog Cart Rules - Quick Edit (TO DELETE ?) </description>
-    </item>
-    
-    <item>
-      <title>BO - Catalog- Files - Filter, Pagination, Sort and bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-sort-and-bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-sort-and-bulk-actions.html</guid>
-      <description>BO - Catalog- Files - Filter, Pagination, Sort and bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The files page is well displayed   Filter By ID Number files &amp;lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files &amp;lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size</description>
     </item>
     
     <item>
@@ -5819,6 +5819,15 @@ Go to BO &amp;gt; Catalog &amp;gt; Attributes &amp;amp; Features &amp;gt; Featur
     </item>
     
     <item>
+      <title>BO - Catalog - Files - Help button</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-help-button.html</guid>
+      <description>BO - Catalog - Files - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The Files page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
+    </item>
+    
+    <item>
       <title>BO - Catalog - Monitoring - Help card</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-help-card.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5866,15 +5875,6 @@ In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 1
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-bulk-actions.html</guid>
       <description>BO - Catalog Cart Rules - Bulk actions </description>
-    </item>
-    
-    <item>
-      <title>BO - Catalog- Files - Help button</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-help-button.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-help-button.html</guid>
-      <description>BO - Catalog- Files - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Files page The Files page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
     </item>
     
     <item>

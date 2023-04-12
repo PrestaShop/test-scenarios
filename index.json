@@ -224,6 +224,13 @@
 	"content": "BO - Catalog - Features - Filter table Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Attributes \u0026amp; Features \u0026gt; Features page The Features page is well displayed   Reset all Filters Number Features = Total Features   Filter by ID Number Features \u0026lt; Total Features and the list contains the searched ID   Reset all Filters Number Features = Total Features   Filter by Name Number Features \u0026lt; Total Features and the list contains the searched Name   Reset all Filters Number Features = Total Features   Filter by Position Number Features \u0026lt; Total Features and the list contains the searched Position   Reset all Filters Number Features = Total Features    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html",
+	"title": "BO - Catalog - Files - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Catalog - Files - CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files Files page is displayed\nTitle contains \u0026lsquo;Files\u0026rsquo;   Click on \u0026ldquo;Create New File\u0026rdquo; Title contains \u0026lsquo;Add new file\u0026rsquo;   Set these fields:\n- File name\n- Description\n- File Message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\nThe list of files is updated.   Click on the 3-dot button \u0026gt; View file File should be downloaded\nName of file is correct   Click on the edit button Title contains \u0026lsquo;Edit:\u0026rsquo;   Click on Download current file button File should be downloaded\nName of file is correct   Set these fields:\n- File name\n- Description\n- File Message \u0026ldquo;Successful update.\u0026rdquo; is displayed   Click on the 3-dot button \u0026gt; View file File should be downloaded\nName of file is correct   Delete the file and confirm the deletion Message \u0026ldquo;Successful deletion.\u0026rdquo; is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-delete-empty-category.html",
 	"title": "BO - Catalog - Monitoring - Delete Empty Category",
 	"tags": [],
@@ -257,13 +264,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Catalog Cart Rules - CRUD "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-crud.html",
-	"title": "BO - Catalog- Files - CRUD",
-	"tags": [],
-	"description": "",
-	"content": "BO - Catalog- Files - CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files Files page is displayed\nTitle contains \u0026lsquo;Files\u0026rsquo;   Click on \u0026ldquo;Create New File\u0026rdquo; Title contains \u0026lsquo;Add new file\u0026rsquo;   Set these fields:\n- File name\n- Description\n- File Message \u0026ldquo;Successful creation.\u0026rdquo; is displayed\nThe list of files is updated.   Click on the 3-dot button \u0026gt; View file File should be downloaded\nName of file is correct   Click on the edit button Title contains \u0026lsquo;Edit:\u0026rsquo;   Click on Download current file button File should be downloaded\nName of file is correct   Set these fields:\n- File name\n- Description\n- File Message \u0026ldquo;Successful update.\u0026rdquo; is displayed   Click on the 3-dot button \u0026gt; View file File should be downloaded\nName of file is correct   Delete the file and confirm the deletion Message \u0026ldquo;Successful deletion.\u0026rdquo; is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-enable.html",
@@ -1771,6 +1771,13 @@
 	"content": "BO - Catalog - Features - Filter Values Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Attributes \u0026amp; Features \u0026gt; Features page The Features page is well displayed   View the first Feature Page title = Composition and the Values list page is displayed   Reset Filter Number Values = Total Values   Filter by ID Number Values \u0026lt; Total Values and the list contains the searched ID   Reset Filter Number Values = Total Values   Filter by Value Number Values \u0026lt; Total Values and the list contains the searched value   Reset Filter Number Values = Total Values    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html",
+	"title": "BO - Catalog - Files - Bulk Actions",
+	"tags": [],
+	"description": "",
+	"content": "BO - Catalog - Files - Bulk Actions Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files page Title contains \u0026lsquo;Files\u0026rsquo;   Select 1 file \u0026gt; Click Bulk actions \u0026gt; Delete selected \u0026gt; Delete Green alert \u0026ldquo;The selection has been successfully deleted\u0026rdquo; id displayed   Select 2 files \u0026gt; Click Bulk actions \u0026gt; Delete selected \u0026gt; Delete Green alert \u0026ldquo;The selection has been successfully deleted\u0026rdquo; id displayed   Select all files \u0026gt; Click Bulk actions \u0026gt; Delete selected \u0026gt; Delete Green alert \u0026ldquo;The selection has been successfully deleted\u0026rdquo; is displayed\nAll files are deleted\nSee the card \u0026ldquo;Upload files here\u0026rdquo; is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-monitoring-products.html",
 	"title": "BO - Catalog - Monitoring - Monitoring products",
 	"tags": [],
@@ -1804,13 +1811,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Catalog Price Rules - Filter, sort and pagination Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Discounts \u0026gt; Catalog price rule The Catalog price rule page is well displayed   Filter by ID Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched ID   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Name Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Name   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by currency Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched currency   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Group Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Group   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by From quantity Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Quanity   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Reduction type Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched reduction type   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Reduction Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched Reduction   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Beginning Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched beginning   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by End Number of catalog price rules \u0026lt; Total of catalog price rules and the list contains the searched End   Reset Filter Number of catalog price rules = Total of catalog price rules   Sort by ID desc The list is sorted by ID desc   Sort by Name asc The list is sorted by name asc   Sort by Name desc The list is sorted by name desc   Sort by Currency asc The list is sorted by Currency asc   Sort by Currency desc The list is sorted by Currency desc   Sort by Country asc The list is sorted by Country asc   Sort by Country desc The list is sorted by Country desc   Sort by Group asc The list is sorted by group asc   Sort by Group desc The list is sorted by group desc   Sort by From quantity asc The list is sorted by quanity asc   Sort by From quantity desc The list is sorted by quantity desc   Sort by Reduction asc The list is sorted by reduction asc   Sort by Reduction desc The list is sorted by Reduction desc   Sort by Beginning asc The list is sorted by Begining asc   Sort by Beginning desc The list is sorted by Beginning desc   Sort by End asc The list is sorted End asc   Sort by End desc The list is sorted by End desc   Sort by ID asc The list is sorted by ID asc   Select All catalog price rules created, delete with bulk action and confirm the deletion A green alert \u0026ldquo;The selection has been successfully deleted.\u0026rdquo; is displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-bulk-actions.html",
-	"title": "BO - Catalog- Files - Bulk Actions",
-	"tags": [],
-	"description": "",
-	"content": "BO - Catalog- Files - Bulk Actions Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files page Title contains \u0026lsquo;Files\u0026rsquo;   Select 1 file \u0026gt; Click Bulk actions \u0026gt; Delete selected \u0026gt; Delete Green alert \u0026ldquo;The selection has been successfully deleted\u0026rdquo; id displayed   Select 2 files \u0026gt; Click Bulk actions \u0026gt; Delete selected \u0026gt; Delete Green alert \u0026ldquo;The selection has been successfully deleted\u0026rdquo; id displayed   Select all files \u0026gt; Click Bulk actions \u0026gt; Delete selected \u0026gt; Delete Green alert \u0026ldquo;The selection has been successfully deleted\u0026rdquo; is displayed\nAll files are deleted\nSee the card \u0026ldquo;Upload files here\u0026rdquo; is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-crud-standard-product.html",
@@ -3087,6 +3087,13 @@
 	"content": "BO - Catalog - Features - Sort \u0026amp; Pagination \u0026amp; Bulk delete Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Attributes \u0026amp; Features \u0026gt; Features The Features page is displayed   Sort by ID desc The list is sorted by ID desc (3-\u0026gt;2-\u0026gt;1)   Sort by Name asc The list is sorted by Name asc (a-\u0026gt;b-\u0026gt;c)   Sort by Name desc The list is sorted by Name desc (c-\u0026gt;b-\u0026gt;a)   Sort by Position asc The list is sorted by position asc (1-\u0026gt;2-\u0026gt;3)   Sort by Position desc The list is sorted by position desc (3-\u0026gt;2-\u0026gt;1)   Sort by ID asc The list is sorted by ID asc   Change Display items to 20 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Create 2 Feature (data created as a pre-condition) Message Successful creation is displayed\nList of features is updated   Filter on Name \u0026ldquo;fa\u0026rdquo; Filter is successful\nFiltered result has 2 Features   Click on Bulk action button A drop down is displayed   Click on \u0026ldquo;Select All\u0026rdquo; All Features are selected   Click on Bulk action button A drop down is displayed   Click on \u0026ldquo;Delete selected\u0026rdquo; and confirm the deletion A green alert \u0026ldquo;The selection has been successfully deleted.\u0026rdquo; is displayed and the list empty   Reset Filter Number of Features = 2    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-sort-and-bulk-actions.html",
+	"title": "BO - Catalog - Files - Filter, Pagination, Sort and bulk actions",
+	"tags": [],
+	"description": "",
+	"content": "BO - Catalog - Files - Filter, Pagination, Sort and bulk actions Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files page The files page is well displayed   Filter By ID Number files \u0026lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files \u0026lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size\n(doesn\u0026rsquo;t work: https://github.com/PrestaShop/PrestaShop/issues/11054) Number of files \u0026lt; Total of files and the list contains the searched size   Reset Filter Number files = Total files   Filter by Products Number Files \u0026lt; Total Files and the list contain the searched number of Products   Reset Filter Number files = Total files   Sort by ID desc The list is sorted by ID desc (3-\u0026gt;2-\u0026gt;1)   Sort by Name asc The list is sorted by Name asc (a-\u0026gt;b-\u0026gt;c)   Sort by Name desc The list is sorted by Name desc (c-\u0026gt;b-\u0026gt;a)   Sort by File asc The list is sorted by File asc   Sort by File desc The list is sorted bu file desc   Sort by Size asc The list is sorted by Size asc   Sort by Size desc The list is sorted by Size desc   Sort by number of Products asc The list is sorted by number of Products asc   Sort by number of Products desc The list is sorted by number of Products desc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created files by bulk actions All files are well deleted    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-sort-pagination.html",
 	"title": "BO - Catalog - Monitoring - Sort &amp; Pagination",
 	"tags": [],
@@ -3120,13 +3127,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Catalog Cart Rules - Quick Edit (TO DELETE ?) "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-filter-pagination-sort-and-bulk-actions.html",
-	"title": "BO - Catalog- Files - Filter, Pagination, Sort and bulk actions",
-	"tags": [],
-	"description": "",
-	"content": "BO - Catalog- Files - Filter, Pagination, Sort and bulk actions Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files page The files page is well displayed   Filter By ID Number files \u0026lt; Total Files and the list contains the searched ID   Reset Filter Number files = Total files   Filter by Name Number files \u0026lt; Total files and the list contains the searched name   Reset Filter Number files = Total files   Filter by Size\n(doesn\u0026rsquo;t work: https://github.com/PrestaShop/PrestaShop/issues/11054) Number of files \u0026lt; Total of files and the list contains the searched size   Reset Filter Number files = Total files   Filter by Products Number Files \u0026lt; Total Files and the list contain the searched number of Products   Reset Filter Number files = Total files   Sort by ID desc The list is sorted by ID desc (3-\u0026gt;2-\u0026gt;1)   Sort by Name asc The list is sorted by Name asc (a-\u0026gt;b-\u0026gt;c)   Sort by Name desc The list is sorted by Name desc (c-\u0026gt;b-\u0026gt;a)   Sort by File asc The list is sorted by File asc   Sort by File desc The list is sorted bu file desc   Sort by Size asc The list is sorted by Size asc   Sort by Size desc The list is sorted by Size desc   Sort by number of Products asc The list is sorted by number of Products asc   Sort by number of Products desc The list is sorted by number of Products desc   Change Display items to 10 There are two pages   Click on Next The Second page is displayed   Click on Previous The first page is displayed   Change Display items to 50 Pagination = 1   Delete all created files by bulk actions All files are well deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-crud-product-with-combinations.html",
@@ -4277,6 +4277,13 @@
 	"content": "BO - Catalog - Features - CRUD features and values Steps    Step Description Expected result     Create:\nGo to BO \u0026gt; Catalog \u0026gt; Attributes \u0026amp; Features \u0026gt; Features tab \u0026gt; Click Add new feature Add New Feature page opens   Add a name to your feature \u0026gt; Save Message \u0026ldquo;Successful creation\u0026rdquo; is displayed   Click on view on your newly created feature See that your new feature has 0 value   Click Add new feature value New feature value page is displayed   Add a new value \u0026gt; Click on Save and add another value Message \u0026ldquo;Successful creation\u0026rdquo; is displayed\nNew feature value page is displayed   Add another value \u0026gt; Click on Save Successful creation message is displayed   Read:\nClick on View button for Texture Feature See that you have 2 new Values (Smooth and Rough)   Update:\nClick on Edit Feature value: Smooth \u0026gt; Add a meta title \u0026gt; Save Successful update message is displayed   Click on \u0026ldquo;Back to the list\u0026rdquo; button You are redirected to the Features list   Click on Edit for Texture feature \u0026gt; Add a meta title \u0026gt; Enable Indexable \u0026gt; Save \u0026ldquo;Successful update\u0026rdquo; message is displayed   Delete:\nClick on View for Texture Feature \u0026gt; Delete value: Smooth \u0026gt; Popup appears \u0026gt; Click on YES \u0026ldquo;Successful deletion\u0026rdquo; message is displayed   Click on Back to the lis button You are redirected to Features page   Click on Delete for Feature: Texture \u0026gt; Popup appears \u0026gt; Click on YES \u0026ldquo;Successful deletion\u0026rdquo; message is displayed\nThe last value: Rough has also been deleted    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-help-button.html",
+	"title": "BO - Catalog - Files - Help button",
+	"tags": [],
+	"description": "",
+	"content": "BO - Catalog - Files - Help button Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files page The Files page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring/bo-catalog-monitoring-help-card.html",
 	"title": "BO - Catalog - Monitoring - Help card",
 	"tags": [],
@@ -4310,13 +4317,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Catalog Cart Rules - Bulk actions "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/files/bo-catalog-files-help-button.html",
-	"title": "BO - Catalog- Files - Help button",
-	"tags": [],
-	"description": "",
-	"content": "BO - Catalog- Files - Help button Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Files page The Files page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-crud-pack-of-products.html",
@@ -8467,7 +8467,7 @@
 	"title": "Files",
 	"tags": [],
 	"description": "",
-	"content": "Files Tests  BO - Catalog- Files - CRUD   BO - Catalog- Files - Bulk Actions   BO - Catalog- Files - Filter, Pagination, Sort and bulk actions   BO - Catalog- Files - Help button   "
+	"content": "Files Tests  BO - Catalog - Files - CRUD   BO - Catalog - Files - Bulk Actions   BO - Catalog - Files - Filter, Pagination, Sort and bulk actions   BO - Catalog - Files - Help button   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo.html",
