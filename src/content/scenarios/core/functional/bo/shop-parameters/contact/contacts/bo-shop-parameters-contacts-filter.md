@@ -1,9 +1,9 @@
 ---
-title: "Filter Contacts"
+title: "BO - Shop Parameters - Contacts - Filter"
 weight: 1
 ---
 
-# Filter Contacts
+# BO - Shop Parameters - Contacts - Filter
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -1,9 +1,9 @@
 ---
-title: "Filter, quick edit"
+title: "BO - Shop Parameters - Contacts - Stores - Filter, quick edit"
 weight: 1
 ---
 
-# Filter, quick edit
+# BO - Shop Parameters - Contacts - Stores - Filter, quick edit
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

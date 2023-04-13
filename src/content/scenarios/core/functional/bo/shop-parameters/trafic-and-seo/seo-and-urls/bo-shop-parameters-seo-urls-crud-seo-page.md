@@ -1,9 +1,9 @@
 ---
-title: "CRUD Seo page"
+title: "BO - Shop Parameters - SEO & URLs - CRUD SEO page"
 weight: 2
 ---
 
-# CRUD Seo page
+# BO - Shop Parameters - SEO & URLs - CRUD SEO page
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
