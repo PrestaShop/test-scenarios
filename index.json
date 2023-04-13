@@ -609,6 +609,20 @@
 	"content": "BO - Shipping - Preferences - Handling "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-filter.html",
+	"title": "BO - Shop Parameters - Contacts - Filter",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Filter Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contact \u0026gt; Contact tab Contacts page is well displayed   Filter by id_contact = 2 \u0026gt; Click Search Number of contacts \u0026lt; total of contacts\nAll rows column \u0026lsquo;id_contact\u0026rsquo; contains \u0026lsquo;2\u0026rsquo;   Click on Reset Filter is reset\nNumber of contacts after reset = total of contacts   Filter by name = Customer service Number of contacts \u0026lt; total of contacts\nAll rows column \u0026lsquo;name\u0026rsquo; contains \u0026lsquo;Customer service\u0026rsquo;   Click on Reset Filter is reset\nNumber of contacts after reset = total of contacts   Filter by email = demo@prestashop.com Number of contacts \u0026lt; total of contacts\nAll rows column \u0026lsquo;email\u0026rsquo; contains \u0026lsquo;demo@prestashop.com\u0026rsquo;   Click on Reset Filter is reset\nNumber of contacts after reset = total of contacts   Filter by description = For any question about a product, an order Number of contacts \u0026lt; total of contacts\nAll rows column \u0026lsquo;description\u0026rsquo; contains \u0026lsquo;For any question about a product, an order\u0026rsquo;   Click on Reset Filter is reset\nNumber of contacts after reset = total of contacts    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-filter-quick-edit.html",
+	"title": "BO - Shop Parameters - Contacts - Stores - Filter, quick edit",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Stores - Filter, quick edit Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contact\u0026gt;Stores \u0026gt; Stores tab Stores page is well displayed   Filter by id_store = 2 \u0026gt; Click Search Number of Stores \u0026lt; total of stores\nAll rows column \u0026lsquo;id_store\u0026rsquo; contains \u0026lsquo;2\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by name = Dade County Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;name\u0026rsquo; contains \u0026lsquo;Dade County\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by email = 3030 SW 8th St Miami Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;email\u0026rsquo; contains \u0026lsquo;3030 SW 8th St Miami\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by City = Miami Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;City\u0026rsquo; contains \u0026lsquo;Miami\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by Zip/Postal code = 33181 Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;Zip/Postal code\u0026rsquo; contains \u0026lsquo;33181\u0026rsquo;   Filter by State : Florida Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;State\u0026rsquo; contains \u0026lsquo;Florida\u0026rsquo;   Filter by County : United States Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;Country ' contains \u0026lsquo;United States\u0026rsquo;    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-filter-sort-and-pagination.html",
 	"title": "BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination",
 	"tags": [],
@@ -691,6 +705,27 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Update number of product displayed on FO (TODO) Steps    Step Description Expected result     On BO \u0026gt; Configure \u0026gt; Shop Paramaters \u0026gt; Product Settings The page should display correctly   Change Products per page\nClick to Save \u0026ldquo;Update successful\u0026rdquo; notification   On FO The page should display correctly   Click to \u0026ldquo;All products\u0026rdquo; The page should display correctly\nOnly 3 products should be visible on this page   Click to \u0026ldquo;All products\u0026rdquo; The page should display correctly\nOnly 3 products should be visible on this page   On BO \u0026gt; Configure \u0026gt; Shop Paramaters \u0026gt; Product Settings The page should display correctly   Change Products per page\nClick to Save \u0026ldquo;Update successful\u0026rdquo; notification   On FO The page should display correctly   Click to \u0026ldquo;All products\u0026rdquo; The page should display correctly\nOnly 12 products should be visible on this page    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-filter-sort-pagination.html",
+	"title": "BO - Shop Parameters - Search - Filter, sort, pagination",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Filter, sort, pagination "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination.html",
+	"title": "BO - Shop Parameters - Search - Tags - Filter, sort, pagination",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Tags - Filter, sort, pagination "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-filter-seo-pages.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Filter SEO Pages",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Filter SEO Pages "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/bo-shop-parameters-traffic-and-seo-filter.html",
@@ -1041,41 +1076,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Faceted search module - Upgrade module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Upgrade\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Are you sure you want to upgrade this module?\u0026quot;\n* Description: \u0026ldquo;We strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026quot;\n* 3 buttons: \u0026ldquo;Cancel\u0026rdquo; / \u0026ldquo;Go to maintenance page\u0026rdquo; / \u0026ldquo;Upgrade anyway\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Upgrade\u0026rdquo; option The modal is open again with the same informations (Title / Description / 3 buttons)   Case 1: Upgrade with shop on maintenance\nClick on \u0026ldquo;Go to maintenance page\u0026rdquo; button The \u0026ldquo;Maintenance\u0026rdquo; page is displayed   Set to \u0026ldquo;No\u0026rdquo; the \u0026ldquo;Enable store\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* \u0026ldquo;Enable store\u0026rdquo; is set to \u0026ldquo;No\u0026rdquo; and grey\n* A \u0026ldquo;Maintenance mode\u0026rdquo; link is displayed on the header of the store   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the maintenance page   Go back to BO \u0026gt; Modules \u0026gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on \u0026ldquo;Upgrade\u0026rdquo; button at the right of the module A modal is open with:\n* Title: \u0026ldquo;Are you sure you want to upgrade this module?\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; / \u0026ldquo;Upgrade\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right * The modal is removed\n* The module list page is displayed   Click on \u0026ldquo;Upgrade\u0026rdquo; button at the right of the module The modal is open again with the same informations (Title / 2 buttons)   Click on \u0026ldquo;Upgrade\u0026rdquo; button in the modal * After loading, a green message \u0026ldquo;Upgrade action on module ps_facetedsearch succeeded.\u0026rdquo; is displayed\n* The module is upgraded, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Reload the page The module should be:\n* Upgraded and displayed \u0026ldquo;Configure\u0026rdquo; in the right button\n* Displayed the latest version instead of the current to the new version\n* Removed the green tag \u0026ldquo;Upgrade available\u0026rdquo;   Click on \u0026ldquo;Maintenance mode\u0026rdquo; link on the header The \u0026ldquo;Maintenance\u0026rdquo; page is displayed   Set to \u0026ldquo;Yes\u0026rdquo; the \u0026ldquo;Enable store\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* \u0026ldquo;Enable store\u0026rdquo; is set to \u0026ldquo;Yes\u0026rdquo; and green\n* The \u0026ldquo;Maintenance mode\u0026rdquo; link is removed from the header of the store   Go back to the FO \u0026gt; Reload the page Homepage is well displayed   Click on a category in main menu \u0026ldquo;Category\u0026rdquo; page is displayed with faceted search on the left   Case 2: Upgrade without shop on maintenance\nClick on \u0026ldquo;Upgrade anyway\u0026rdquo; button * After loading, a green message \u0026ldquo;Upgrade action on module ps_facetedsearch succeeded.\u0026rdquo; is displayed\n* The module is upgraded, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Reload the page The module should be:\n* Upgraded and displayed \u0026ldquo;Configure\u0026rdquo; in the right button\n* Displayed the latest version instead of the current to the new version\n* Removed the green tag \u0026ldquo;Upgrade available\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Click on a category in main menu \u0026ldquo;Category\u0026rdquo; page is displayed with faceted search on the left    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/filter-contacts.html",
-	"title": "Filter Contacts",
-	"tags": [],
-	"description": "",
-	"content": "Filter Contacts Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contact \u0026gt; Contact tab Contacts page is well displayed   Filter by id_contact = 2 \u0026gt; Click Search Number of contacts \u0026lt; total of contacts\nAll rows column \u0026lsquo;id_contact\u0026rsquo; contains \u0026lsquo;2\u0026rsquo;   Click on Reset Filter is reset\nNumber of contacts after reset = total of contacts   Filter by name = Customer service Number of contacts \u0026lt; total of contacts\nAll rows column \u0026lsquo;name\u0026rsquo; contains \u0026lsquo;Customer service\u0026rsquo;   Click on Reset Filter is reset\nNumber of contacts after reset = total of contacts   Filter by email = demo@prestashop.com Number of contacts \u0026lt; total of contacts\nAll rows column \u0026lsquo;email\u0026rsquo; contains \u0026lsquo;demo@prestashop.com\u0026rsquo;   Click on Reset Filter is reset\nNumber of contacts after reset = total of contacts   Filter by description = For any question about a product, an order Number of contacts \u0026lt; total of contacts\nAll rows column \u0026lsquo;description\u0026rsquo; contains \u0026lsquo;For any question about a product, an order\u0026rsquo;   Click on Reset Filter is reset\nNumber of contacts after reset = total of contacts    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/filter-seo-pages.html",
-	"title": "Filter Seo Pages",
-	"tags": [],
-	"description": "",
-	"content": "Filter Seo Pages "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/filter-sort-pagination.html",
-	"title": "Filter sort pagination",
-	"tags": [],
-	"description": "",
-	"content": "Filter sort pagination "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/filter-sort-pagination.html",
-	"title": "Filter sort pagination",
-	"tags": [],
-	"description": "",
-	"content": "Filter sort pagination "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/filter-quick-edit.html",
-	"title": "Filter, quick edit",
-	"tags": [],
-	"description": "",
-	"content": "Filter, quick edit Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contact\u0026gt;Stores \u0026gt; Stores tab Stores page is well displayed   Filter by id_store = 2 \u0026gt; Click Search Number of Stores \u0026lt; total of stores\nAll rows column \u0026lsquo;id_store\u0026rsquo; contains \u0026lsquo;2\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by name = Dade County Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;name\u0026rsquo; contains \u0026lsquo;Dade County\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by email = 3030 SW 8th St Miami Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;email\u0026rsquo; contains \u0026lsquo;3030 SW 8th St Miami\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by City = Miami Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;City\u0026rsquo; contains \u0026lsquo;Miami\u0026rsquo;   Click on Reset Filter is reset\nNumber of stores after reset = total of stores   Filter by Zip/Postal code = 33181 Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;Zip/Postal code\u0026rsquo; contains \u0026lsquo;33181\u0026rsquo;   Filter by State : Florida Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;State\u0026rsquo; contains \u0026lsquo;Florida\u0026rsquo;   Filter by County : United States Number of stores \u0026lt; total of stores\nAll rows column \u0026lsquo;Country ' contains \u0026lsquo;United States\u0026rsquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/ordersbo/filterorders.html",
@@ -1838,7 +1838,7 @@
 	"title": "BO - Customer Service - Merchandise returns - Delete product",
 	"tags": [],
 	"description": "",
-	"content": "BO - Customer Service - Merchandise returns - Delete product Steps    Step Description Expected result     Go to BO \u0026gt; SELL \u0026gt; Customer Service \u0026gt; Merchandise Returns The Merchandise returns page is well displayed   Go to BO \u0026gt; Customer Service \u0026gt; Merchandise Returns Merchandise Returns page is displayed\nSee Enable returns button is set to NO   Click on Enable returns switch button Message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is displayed\nEnable returns button is set to YES   Click to save \u0026ldquo;The settings have been successfully updated.\u0026rdquo; notification   Go to BO \u0026gt; SELL \u0026gt; Orders \u0026gt; Ordres \u0026gt; View the created order with two products The order page details is well displayed   Update the order status to Shipped OR Delivered and click on \u0026ldquo;Update Status\u0026rdquo; button The \u0026ldquo;Successful update\u0026rdquo; message is well displayed   Go to FO \u0026gt; Connect with the customer of the Order \u0026gt; Click on Orders history page All existing orders are well displayed in the list   Click on the order with the Delivered OR Shipped status \u0026gt; Details The order details page is well displayed with all provided information of the Order\nA checkboxes to select the product A and product B are displayed in the table and a new section related to MERCHANDISE RETURN is also displayed\nh3.   Click on the checkboxes to select the product A and product B, select the quantity to return and add a message in the MERCHANDISE RETURN BLOCK\nThen, click on the \u0026ldquo;REQUEST A RETURN\u0026rdquo; button The page is refreshed and the Merchandise returns page is well displayed with all returned products\n* Table title: Here is a list of pending merchandise returns\n* Order Column: The reference of the order with a link to access to the order\n* Return Column: The reference of the merchandise return with a link to access to the return details * Package status: The default first status is \u0026ldquo;Waiting for confirmation\u0026rdquo;\n* Date issued: The date of the returned merchandise\n* Returns form: The default value is \u0026ldquo;-\u0026rdquo;   Come back to BO \u0026gt; SELL \u0026gt; Customer Service \u0026gt; Merchandise returns The returned merchandise is well displayed in the list with \u0026ldquo;Waiting for confirmation\u0026rdquo; status\nThe number of Merchandise returns done is also displayed   Click on the desired merchandise retrun The Return Merchandise Authorization (RMA) page is well displayed with all related information : * Customer: The customer name is displayed * Order: The order ID with the updated date is displayed\n* Customer explanation: The message which is putted in the Merchandise Return block in FO\n* Status: The default status is \u0026ldquo;Waiting for confirmation\u0026rdquo;\n* Products: The information related to the returned products A and B are displayed with a \u0026ldquo;Delete\u0026rdquo; button action for each product\n* Returns form : \u0026ldquo;- -\u0026rdquo; as a value   Click on Delete of the product line The INVALID SECURITY TOKEN alert is displayed with bot o=information : -Take me out of here!\n-I understand the risks and I really want to display this page   Case 1 : Click on take me out of here The page is redirected to the dashboard page   Case 2 : Click on I understand the risks and I really want to display this page The \u0026ldquo;Successful update\u0026rdquo; message is displayed\nThe Merchandise returns page is displayed   Click again the edit the same merchandise return The edit Return Merchandise Authorization (RMA) is displayed\nOnly one product is displayed   Click on Delete of the product line An error message is displayed \u0026ldquo;You need at least one product.\u0026quot;\nThe principal page of Merchandise returns is displayed again   Click on the cross to delete the alert The alert is disappearing    "
+	"content": "BO - Customer Service - Merchandise returns - Delete product Steps    Step Description Expected result     Go to BO \u0026gt; SELL \u0026gt; Customer Service \u0026gt; Merchandise Returns The Merchandise returns page is well displayed   Go to BO \u0026gt; Customer Service \u0026gt; Merchandise Returns Merchandise Returns page is displayed\nSee Enable returns button is set to NO   Click on Enable returns switch button Message \u0026ldquo;The settings have been successfully updated.\u0026rdquo; is displayed\nEnable returns button is set to YES   Click to save \u0026ldquo;The settings have been successfully updated.\u0026rdquo; notification   Go to BO \u0026gt; SELL \u0026gt; Orders \u0026gt; Ordres \u0026gt; View the created order with three products The order page details is well displayed   Update the order status to Shipped OR Delivered and click on \u0026ldquo;Update Status\u0026rdquo; button The \u0026ldquo;Successful update\u0026rdquo; message is well displayed   Go to FO \u0026gt; Connect with the customer of the Order \u0026gt; Click on Orders history page All existing orders are well displayed in the list   Click on the order with the Delivered OR Shipped status \u0026gt; Details The order details page is well displayed   Click on the checkboxes to select the product A and product B, and C select the quantity to return and add a message in the MERCHANDISE RETURN BLOCK\nThen, click on the \u0026ldquo;REQUEST A RETURN\u0026rdquo; button The page is refreshed and the Merchandise returns page is well displayed with all returned products   Come back to BO \u0026gt; SELL \u0026gt; Customer Service \u0026gt; Merchandise returns The returned merchandise is well displayed in the list with \u0026ldquo;Waiting for confirmation\u0026rdquo; status\nThe number of Merchandise returns done is also displayed   Click on the desired merchandise retrun The Return Merchandise Authorization (RMA) page is well displayed with all related information : * Customer: The customer name is displayed * Order: The order ID with the updated date is displayed\n* Customer explanation: The message which is putted in the Merchandise Return block in FO\n* Status: The default status is \u0026ldquo;Waiting for confirmation\u0026rdquo;\n* Products: The information related to the returned products A and B are displayed with a \u0026ldquo;Delete\u0026rdquo; button action for each product\n* Returns form : \u0026ldquo;- -\u0026rdquo; as a value   Click on Delete of the product line The INVALID SECURITY TOKEN alert is displayed with bot o=information : -Take me out of here!\n-I understand the risks and I really want to display this page   Case 1 : Click on take me out of here The page is redirected to the dashboard page   Go back to merchandise returns \u0026gt; Edit page The first product is deleted successfully   Case 2 : Click on I understand the risks and I really want to display this page The \u0026ldquo;Successful update\u0026rdquo; message is displayed\nThe Merchandise returns page is displayed   Click again the edit the same merchandise return The edit Return Merchandise Authorization (RMA) is displayed\nOnly one product is displayed   Click on Delete of the product line An error message is displayed \u0026ldquo;You need at least one product.\u0026quot;\nThe principal page of Merchandise returns is displayed again   Click on the cross to delete the alert The alert is disappearing   POST-condition\nDisable merchandise returns     "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-bulk-delete-sort-and-pagination.html",
@@ -2156,6 +2156,13 @@
 	"content": "BO - Shop Parameters - Contacts - CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains \u0026lsquo;Add new:\u0026rsquo;   Create contact\n(faker data) Message Successful creation is displayed\nNumber of contacts after creation = total of contacts + 1   Filter list by email with latest email of created contact Contact is displayed in list   Click on the pen to edit the contact Page title contains \u0026lsquo;Edit:\u0026rsquo;   Update contact\n(faker data) Message Successful update is displayed\nNumber of contacts after creation = total of contacts + 1\nFiltered contact in list is still displayed with updated data   Click 3-dot button \u0026gt; Delete \u0026gt; Delete Message Successful deletion is displayed\nNo records found is displayed in list   Click on Reset All original contacts are displayed    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-crud.html",
+	"title": "BO - Shop Parameters - Contacts - Stores - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Stores - CRUD Steps    Step Description Expected result     Go to Shop Parameters -\u0026gt;Contact -\u0026gt;Stores The stores page is displayed   Click on add new store Add new store is displayed correctly   Fill all information -\u0026gt; click on save New store is saved correctly.\nMessage is displayed \u0026ldquo;Successful creation\u0026rdquo;\nRedirection to store page    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-crud.html",
 	"title": "BO - Shop Parameters - Customer Settings - Groups - CRUD",
 	"tags": [],
@@ -2231,6 +2238,27 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Update default products order by and order method (TODO) "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html",
+	"title": "BO - Shop Parameters - Search - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - CRUD "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-crud.html",
+	"title": "BO - Shop Parameters - Search - Tags - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Tags - CRUD "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-crud-seo-page.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - CRUD SEO page",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - CRUD SEO page Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; SEO and Urls\u0026rsquo; page Title contains \u0026lsquo;SEO \u0026amp; URLs\u0026rsquo;   reset filters Total of Seo pages \u0026gt; 0   Go to new Seo URL page Title contains \u0026lsquo;SEO \u0026amp; URLs •\u0026rsquo;   Create new Seo URL Criteria : page: \u0026lsquo;order-return\u0026rsquo;\ntitle: \u0026lsquo;Order return\u0026rsquo;\nFr title: same as title\nmetaDescription: lorem.sentence from faker\nfrMetaDescription: same as description\nmetaKeywords: 2 lorem.word from faker\nfrMetaKeywords: same as metaKeywords\nfriendlyUrl: \u0026lsquo;order-return\u0026rsquo;\nfrFriendlyUrl: same as friendlyUrl Successful message is displayed number of Seo pages = Total of Seo pages + 1   filter by seo page name At least one Seo Page is displayed\nfirst row column page name contain \u0026lsquo;order-return\u0026rsquo;   Click on edit first seo page in table title contains \u0026lsquo;SEO \u0026amp; URLs\u0026rsquo;   Edit SEO URL Criteria : page: \u0026lsquo;pdf-order-return\u0026rsquo;\ntitle: \u0026lsquo;Pdf Order return\u0026rsquo;\nFr title: same as title\nmetaDescription: lorem.sentence from faker\nfrMetaDescription: same as description\nmetaKeywords: 2 lorem.word from faker\nfrMetaKeywords: same as metaKeywords\nfriendlyUrl: \u0026lsquo;pdf-order-return\u0026rsquo;\nfrFriendlyUrl: same as friendlyUrl Successful message is displayed   reset filter number of Seo pages = Total of Seo pages + 1   filter by seo page name At least one Seo Page is displayed\nfirst row column page name contain \u0026lsquo;pdf-order-return\u0026rsquo;   Click on delete first row in table Successful message is displayed   reset filter number of Seo pages = Total of Seo pages    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/bo-shop-parameters-traffic-and-seo-refresh-index-and-cache.html",
@@ -2336,34 +2364,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Create an order with amount cart rule Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/crud.html",
-	"title": "CRUD",
-	"tags": [],
-	"description": "",
-	"content": "CRUD Steps    Step Description Expected result     Go to Shop Parameters -\u0026gt;Contact -\u0026gt;Stores The stores page is displayed   Click on add new store Add new store is displayed correctly   Fill all information -\u0026gt; click on save New store is saved correctly.\nMessage is displayed \u0026ldquo;Successful creation\u0026rdquo;\nRedirection to store page    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/crud.html",
-	"title": "CRUD",
-	"tags": [],
-	"description": "",
-	"content": "CRUD "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/crud.html",
-	"title": "CRUD",
-	"tags": [],
-	"description": "",
-	"content": "CRUD "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/crud-seo-page.html",
-	"title": "CRUD Seo page",
-	"tags": [],
-	"description": "",
-	"content": "CRUD Seo page Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; SEO and Urls\u0026rsquo; page Title contains \u0026lsquo;SEO \u0026amp; URLs\u0026rsquo;   reset filters Total of Seo pages \u0026gt; 0   Go to new Seo URL page Title contains \u0026lsquo;SEO \u0026amp; URLs •\u0026rsquo;   Create new Seo URL Criteria : page: \u0026lsquo;order-return\u0026rsquo;\ntitle: \u0026lsquo;Order return\u0026rsquo;\nFr title: same as title\nmetaDescription: lorem.sentence from faker\nfrMetaDescription: same as description\nmetaKeywords: 2 lorem.word from faker\nfrMetaKeywords: same as metaKeywords\nfriendlyUrl: \u0026lsquo;order-return\u0026rsquo;\nfrFriendlyUrl: same as friendlyUrl Successful message is displayed number of Seo pages = Total of Seo pages + 1   filter by seo page name At least one Seo Page is displayed\nfirst row column page name contain \u0026lsquo;order-return\u0026rsquo;   Click on edit first seo page in table title contains \u0026lsquo;SEO \u0026amp; URLs\u0026rsquo;   Edit SEO URL Criteria : page: \u0026lsquo;pdf-order-return\u0026rsquo;\ntitle: \u0026lsquo;Pdf Order return\u0026rsquo;\nFr title: same as title\nmetaDescription: lorem.sentence from faker\nfrMetaDescription: same as description\nmetaKeywords: 2 lorem.word from faker\nfrMetaKeywords: same as metaKeywords\nfriendlyUrl: \u0026lsquo;pdf-order-return\u0026rsquo;\nfrFriendlyUrl: same as friendlyUrl Successful message is displayed   reset filter number of Seo pages = Total of Seo pages + 1   filter by seo page name At least one Seo Page is displayed\nfirst row column page name contain \u0026lsquo;pdf-order-return\u0026rsquo;   Click on delete first row in table Successful message is displayed   reset filter number of Seo pages = Total of Seo pages    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productsbo/crudstandardproductinbo.html",
@@ -3451,6 +3451,13 @@
 	"content": "BO - Shop Parameters - Contacts - Bulk actions Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts Tab Contacts page is well displayed   Create 2 contacts using the following test Number of contacts after creation = total of contacts + 2   Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains \u0026lsquo;Add new:\u0026rsquo;   Create contact\n(faker data) Message Successful creation is displayed\nNumber of contacts after creation = total of contacts + 1   Filter list by email with latest email of created contact Contact is displayed in list   Click on the pen to edit the contact Page title contains \u0026lsquo;Edit:\u0026rsquo;   Update contact\n(faker data) Message Successful update is displayed\nNumber of contacts after creation = total of contacts + 1\nFiltered contact in list is still displayed with updated data   Click 3-dot button \u0026gt; Delete \u0026gt; Delete Message Successful deletion is displayed\nNo records found is displayed in list   Click on Reset All original contacts are displayed   Check the 2 newly created Contact \u0026gt; Bulk actions \u0026gt; Delete selected \u0026gt; Delete Message The selection has been successfully deleted is displayed\nNumber of contacts after deletion = original total of contacts    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-bulk-actions.html",
+	"title": "BO - Shop Parameters - Contacts - Stores - Bulk actions",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Stores - Bulk actions "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-default-groups-options.html",
 	"title": "BO - Shop Parameters - Customer Settings - Groups - Default groups options",
 	"tags": [],
@@ -3521,6 +3528,27 @@
 	"content": "BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO) "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-bulk-actions.html",
+	"title": "BO - Shop Parameters - Search - Bulk actions",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Bulk actions "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-bulk-actions.html",
+	"title": "BO - Shop Parameters - Search - Tags - Bulk actions",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Tags - Bulk actions "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-enable-disable-friendly-url-todo.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Enable, disable friendly URL (TODO)",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Enable, disable friendly URL (TODO) "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/bo-shop-parameters-traffic-and-seo-crud.html",
 	"title": "BO - Shop Parameters - Traffic and SEO - CRUD",
 	"tags": [],
@@ -3540,20 +3568,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Upgrade the module Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bulk-action.html",
-	"title": "Bulk action",
-	"tags": [],
-	"description": "",
-	"content": "Bulk action "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bulk-actions.html",
-	"title": "Bulk actions",
-	"tags": [],
-	"description": "",
-	"content": "Bulk actions "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-cashondelivery/installation/cash-on-delivery-cod-module-uninstall-and-delete-module.html",
@@ -3612,13 +3626,6 @@
 	"content": "Configure the minimum quantity for out of stock Steps    Step Description Expected result          "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html",
-	"title": "Contact - Stores - Bulk actions",
-	"tags": [],
-	"description": "",
-	"content": "Contact - Stores - Bulk actions "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-multiple-cart-rule.html",
 	"title": "Create an order with multiple cart rule",
 	"tags": [],
@@ -3666,13 +3673,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Enable / disable pinterest sharing Steps    Step Description Expected result     Disable Pinterest Sharing An automatic registration is made On FO, on a product, the Pinterest logo is absent   Enable Pinterest sharing An automatic registration is made On FO, on a product, Pinterest logo appear\nClick on it, a new page for Pinterest site is open    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/enable-disable-friendly-url-todo.html",
-	"title": "Enable, disable friendly URL (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "Enable, disable friendly URL (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/configuration/enable-disable-the-vote-on-a-comment.html",
@@ -4599,6 +4599,13 @@
 	"content": "BO - Shop Parameters - Contacts - Filter, sort and pagination Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Contacts \u0026gt; Contacts Tab Contacts page is well displayed   Sort by id_contact desc List is sorted by id_contact desc\n(3 -\u0026gt; 2 -\u0026gt; 1)   Sort By title asc List is sorted by title asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by title desc List is sorted by title desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by email asc List is sorted by email asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by email desc List is sorted by email desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by description asc List is sorted by description asc\n(a -\u0026gt; b -\u0026gt; c)   Sort by description desc List is sorted by description desc\n(c -\u0026gt; b -\u0026gt; a)   Sort by id_contact asc List is sorted by id_contact asc\n(1 -\u0026gt; 2 -\u0026gt; 3)    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-pagination.html",
+	"title": "BO - Shop Parameters - Contacts - Stores - Pagination",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Stores - Pagination "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-enable-b2b-mode.html",
 	"title": "BO - Shop Parameters - Customer Settings - Enable B2B mode",
 	"tags": [],
@@ -4646,6 +4653,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links (TODO) "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-quick-edit-statuses.html",
+	"title": "BO - Shop Parameters - Search - Quick edit statuses",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Quick edit statuses "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-enable-disable-accented-url.html",
@@ -4961,20 +4975,6 @@
 	"tags": [],
 	"description": "",
 	"content": "New products block module - Uninstall and delete module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search Legal Assistant The module page list should be displayed and Legal Assistant block module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Uninstall\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Uninstall module?\u0026quot;\n* Description: \u0026ldquo;You are about to uninstall New products block module. This will definitely disable the module and delete all its files\u0026rdquo;\n* Optional checkbox: \u0026ldquo;Optional: delete module folder after uninstall.\u0026quot;\n* Text: \u0026ldquo;This action cannot be undone.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, uninstall it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Uninstall\u0026rdquo; The modal is open again with the same informations (Title / Description / Optional checkbox / Text / 2 buttons)   Check the optional checkbox \u0026ldquo;Optional: delete module folder after uninstall.\u0026rdquo; \u0026gt; Click on \u0026ldquo;Yes, uninstall it\u0026rdquo; button to confirm the uninstallation of the module * After loading, a green message \u0026ldquo;Uninstall action on module Legal Assistant succeeded.\u0026rdquo; is displayed\n* The module is uninstalled, the button at the right of the module is displaying \u0026ldquo;Install\u0026rdquo;\n* In folders of you shop: yourshop/modules/, the \u0026ldquo;Legal Assistant\u0026rdquo; folder should be removed   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;Legal Assistant\u0026rdquo; block The \u0026ldquo;Legal Assistant\u0026rdquo; block should be not displayed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/pagination.html",
-	"title": "pagination",
-	"tags": [],
-	"description": "",
-	"content": "pagination "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/quick-edit-statuses.html",
-	"title": "Quick edit statuses",
-	"tags": [],
-	"description": "",
-	"content": "Quick edit statuses "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/dashactivity/installation/reset.html",
@@ -5369,6 +5369,13 @@
 	"content": "BO - Shipping - Carriers - Change position "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-update-contact-details.html",
+	"title": "BO - Shop Parameters - Contacts - Stores - Update contact details",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Stores - Update contact details "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-ask-for-birth-date.html",
 	"title": "BO - Shop Parameters - Customer Settings - Ask for birth date",
 	"tags": [],
@@ -5416,6 +5423,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html",
+	"title": "BO - Shop Parameters - Search - Indexing",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Indexing "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-bulk-actions.html",
@@ -5593,13 +5607,6 @@
 	"content": "GDPR block module - Disable/Enable module Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search Prestashop Legal Assistant The module page list should be displayed and Prestashop Legal Assistant module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Disable module?\u0026quot;\n* Description: \u0026ldquo;You are about to disable Prestashop Legal Assistant module.\nYour current settings will be saved, but the module will no longer be active.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, disable it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable\u0026rdquo; option The modal is open again with the same informations (Title / Description / 2 buttons)   Click on \u0026ldquo;Yes, disable it\u0026rdquo; button to confirm the reset of the module * After loading, a green message \u0026ldquo;Disable action on module Prestashop Legal Assistant succeeded.\u0026rdquo; is displayed\n* The module is disabled, the button at the right of the module is displaying \u0026ldquo;Enable\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;Prestashop Legal Assistant\u0026rdquo; block The \u0026ldquo;Prestashop Legal Assistant\u0026rdquo; block should not be displayed   Go back to BO \u0026gt; Module list page with Prestashop Legal Assistant module displayed \u0026gt; Click on \u0026ldquo;Enable\u0026rdquo; button at the right of the module * After loading, a green message \u0026ldquo;Enable action on module Prestashop Legal Assistant succeeded.\u0026rdquo; is displayed\n* The module is enabled, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Go back to FO \u0026gt; Reload the page \u0026gt; Scroll down in the homepage and search the \u0026ldquo;Prestashop Legal Assistant\u0026rdquo; block The \u0026ldquo;Prestashop Legal Assistant\u0026rdquo; block should be displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/indexing.html",
-	"title": "Indexing",
-	"tags": [],
-	"description": "",
-	"content": "Indexing "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration/configuration-for-customer/mail-alerts-module-customer-notifications-enable-disable-order-edit.html",
 	"title": "Mail alerts module - Customer notifications - Enable/Disable order edit",
 	"tags": [],
@@ -5647,13 +5654,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Uninstall/Install a module Steps    Step Description Expected result     Go to back office -\u0026gt; Design -\u0026gt; Theme \u0026amp; logo -\u0026gt; configuration page The configuration page should be displayed   The module page should be displayed and module ps_themecusto should appear in the module page A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled   Click on install A message should appear in green to indicate that the module is installed and module should be install    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/update-contact-details.html",
-	"title": "Update contact details",
-	"tags": [],
-	"description": "",
-	"content": "Update contact details "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-edit-a-product-on-a-wishlist.html",
@@ -5957,6 +5957,13 @@
 	"content": "BO - Shipping - Carriers - Install module "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-sort.html",
+	"title": "BO - Shop Parameters - Contacts - Stores - Sort",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Contacts - Stores - Sort "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-enable-partner-offers.html",
 	"title": "BO - Shop Parameters - Customer Settings - Enable partner offers",
 	"tags": [],
@@ -5997,6 +6004,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO) "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-sort-and-pagination.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Sort and pagination",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Sort and pagination "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-cashondelivery/installation/cash-on-delivery-cod-module-disable-mobile-enable-mobile-module.html",
@@ -6158,20 +6172,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Setup number of comment by page Steps    Step Description Expected result     Change the number of comment by page to 3 Change should be apply in BO   In the front office, go to a product page with more than 3 comments See the pagination    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/sort.html",
-	"title": "sort",
-	"tags": [],
-	"description": "",
-	"content": "sort "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/sort-and-pagination.html",
-	"title": "Sort and pagination",
-	"tags": [],
-	"description": "",
-	"content": "Sort and pagination "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/installation/theme-customization-module-disable-mobile-enable-mobile-module.html",
@@ -6454,6 +6454,13 @@
 	"content": "BO - Shop Parameters - Product Settings - Default pack stock management "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-edit-weight-settings.html",
+	"title": "BO - Shop Parameters - Search - Edit weight settings",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Edit weight settings "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-set-up-urls.html",
 	"title": "BO - Shop Parameters - SEO &amp; URLs - Set up URLs",
 	"tags": [],
@@ -6480,13 +6487,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Edit symbol / format currency Steps    Step Description Expected result     Go to International \u0026gt; Localization \u0026gt; Currencies \u0026gt; Edit the currency \u0026gt; Click Edit symbol / format Popup opens with 2 steps   Add symbol of your choice + choose format \u0026gt; Apply Popup disappears and List of currencies will be updated   Click the round arrow to Reset it Currency should be reset\nMessage \u0026ldquo;Your symbol and format customizations have been successfully reset for this language.\u0026rdquo; appears   Edit symbol and format for all (French + English) \u0026gt; Save List of currencies displays + see that Symbol column is updated\nMessage \u0026ldquo;Successful update.\u0026rdquo; appears   Edit again the currency \u0026gt; Click on \u0026ldquo;Restore default settings\u0026rdquo; \u0026gt; Save Popup displays for \u0026ldquo;loading currency data\u0026rdquo;\nTable is updated with default settings    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-weight-settings.html",
-	"title": "Edit weight settings",
-	"tags": [],
-	"description": "",
-	"content": "Edit weight settings "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-use-rounding-to-filter-price-field-configuration.html",
@@ -6923,6 +6923,13 @@
 	"content": "BO - Product enable - disable - duplicate - delete with bulk actions Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products Products list page is displayed correctly   Click on \u0026ldquo;New product\u0026rdquo; button on the top right of the page \u0026gt; Choose \u0026ldquo;Standard product\u0026rdquo; block in the modal * A modal \u0026ldquo;Add new product\u0026rdquo; is displayed\n* A description by type is displayed. For Standard product: \u0026ldquo;A physical product that needs to be shipped.\u0026rdquo;   Click on \u0026ldquo;Add new product\u0026rdquo; button * New Product page on \u0026ldquo;Description\u0026rdquo; tab is displayed\n* \u0026ldquo;Standard product\u0026rdquo; type description is displayed below the product name field   Fill the name on \u0026ldquo;Description\u0026rdquo; tab \u0026gt; Click on the \u0026ldquo;Save button\u0026rdquo; at the bottom of the page \u0026ldquo;Successful update\u0026rdquo; message is displayed   Clic on the \u0026ldquo;\u0026lt; Go to Catalog\u0026rdquo; button at the bottom-left Products list page is displayed correctly   Create another standard product by using steps 2 to 5 by changing only the name * The product is created\n* \u0026ldquo;Successful update\u0026rdquo; message is displayed   Filter with name \u0026gt; Click on \u0026ldquo;Search\u0026rdquo; button Two products are displayed   Check both products with checkboxes \u0026gt; Click on \u0026ldquo;Bulk Actions\u0026rdquo; button \u0026gt; Click on \u0026ldquo;Deactivate selection\u0026rdquo; A modal is displayed with two buttons and a description:\n* *Title*: Deactivate selection\n* *Buttons*: * * Cancel\n* * Deactivate selection   Click on Deactivate selection button A modal is displayed\n* Title = \u0026ldquo;Deactivating 2 products\u0026rdquo; * Description \u0026ldquo;Deactivating 2 / 2 products 100%\u0026quot;\n* Button = \u0026ldquo;Close\u0026rdquo;   Click on Close button * The modal is closed\n* The products are disabled   Check both products with checkboxes \u0026gt; Click on \u0026ldquo;Bulk Actions\u0026rdquo; button \u0026gt; Click on \u0026ldquo;Activate selection\u0026rdquo; A modal is displayed with two buttons and a description:\n* *Title*: Activate selection\n* *Buttons*: * * Cancel\n* * Activate selection   Click on Activate selection button A modal is displayed\n* Title = \u0026ldquo;Activating 2 products\u0026rdquo; * Description \u0026ldquo;Activating 2 / 2 products 100%\u0026quot;\n* Button = \u0026ldquo;Close\u0026rdquo;   Click on Close button * The modal is closed\n* The products are enabled   Check both products with checkboxes \u0026gt; Click on \u0026ldquo;Bulk Actions\u0026rdquo; button \u0026gt; Click on \u0026ldquo;Duplicate selection\u0026rdquo; A modal is displayed with two buttons and a description:\n* *Title*: Duplicate selection\n* *Buttons*: * * Cancel\n* * Duplicate selection   Click on \u0026ldquo;Duplicate\u0026rdquo; A modal is displayed\n* *Title* = Duplicating 2 products\n* *Description* = Duplicating 2 / 2 products 100%\n* *Buttons*:\n* * Cancel\n* * Close   Click on \u0026ldquo;Close\u0026rdquo; * The modal is closed\n* The total products filtered = 4   Check all products with checkboxes \u0026gt; Click on \u0026ldquo;Bulk Actions\u0026rdquo; button \u0026gt; Click on \u0026ldquo;Delete selection\u0026rdquo; A modal is displayed with two buttons and a description:\n* Deleting X selection\n* Cancel\n* Delete selection   Click on \u0026ldquo;Delete selection\u0026rdquo; button A new modal is displayed with some informations:\n* title: \u0026ldquo;Deleting X products\u0026rdquo;\n* description: \u0026ldquo;Deleting X / X products\u0026rdquo;\n* a progress bar\n* \u0026ldquo;Close\u0026rdquo; button   Click on \u0026ldquo;Close\u0026rdquo; button * \u0026ldquo;No records found\u0026rdquo; text is displayed instead of the product list\n* Products are well removed   Click on \u0026ldquo;Reset\u0026rdquo; button * All filters are reset.\n* All products are displayed.    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-update-schema-of-urls.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Update Schema of URLs",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Update Schema of URLs "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-csv-export-by-partner-offer-is-working.html",
 	"title": "Check that the CSV export by partner offer is working",
 	"tags": [],
@@ -6977,13 +6984,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Mail alerts module - Merchant notifications - Enable/Disable returns Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module * The \u0026ldquo;Configure\u0026rdquo; page is displayed\n* There are 2 sections: \u0026ldquo;Customer notifications\u0026rdquo; and \u0026ldquo;Merchant notifications\u0026rdquo;\n* On \u0026ldquo;Merchant notifications\u0026rdquo;: \u0026ldquo;Returns\u0026rdquo; is set to \u0026ldquo;Yes\u0026rdquo;   Go to Orders \u0026gt; Orders \u0026gt; Change status to \u0026ldquo;Delivered\u0026rdquo; of the order just placed (pre-condition) by clicking on the status list * After page loading, a successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status changed from your payment status to \u0026ldquo;Delivered\u0026rdquo;   Go to FO \u0026gt; Click on username account on the header Your account page is displayed   Click on \u0026ldquo;Order history and details tab\u0026rdquo; \u0026gt; Click on \u0026ldquo;Details\u0026rdquo; link on the first order (the one withe \u0026ldquo;Delivered status\u0026rdquo;) The \u0026ldquo;Order details\u0026rdquo; page of the order is displayed   Scroll down and check the product you want to return and a quantity \u0026gt; Add a message on \u0026ldquo;Merchandise return\u0026rdquo; section \u0026gt; Click on \u0026ldquo;Request a return\u0026rdquo; button * The \u0026ldquo;Merchandise returns\u0026rdquo; page is displayed\n* A list of customer\u0026rsquo;s return is displayed with all details (order\u0026rsquo;s id / return\u0026rsquo;s id / package status / date issued / returns form)   Go to your email (pre-condition) \u0026gt; Check email received The \u0026ldquo;New return from order #number - ID\u0026rdquo; email is sent   Go back to BO on \u0026ldquo;Configure\u0026rdquo; page of Mail alerts module \u0026gt; Set to \u0026ldquo;No\u0026rdquo; the \u0026ldquo;Returns\u0026rdquo; switch button in the section \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;Settings updated successfully\u0026rdquo; is displayed   Go to Orders \u0026gt; Orders \u0026gt; Change status to \u0026ldquo;Delivered\u0026rdquo; of an order by clicking on the status list * After page loading, a successful message \u0026ldquo;Successful update.\u0026rdquo; is displayed\n* The status changed from your payment status to \u0026ldquo;Delivered\u0026rdquo;   Go to FO \u0026gt; Click on \u0026ldquo;Your account\u0026rdquo; link in breadcrumb of \u0026ldquo;Merchandise returns\u0026rdquo; page Your account page is displayed   Click on \u0026ldquo;Order history and details tab\u0026rdquo; \u0026gt; Click on \u0026ldquo;Details\u0026rdquo; link on another order with \u0026ldquo;Delivered\u0026rdquo; status than the first one The \u0026ldquo;Order details\u0026rdquo; page of the order is displayed   Scroll down and check the product you want to return and a quantity \u0026gt; Add a message on \u0026ldquo;Merchandise return\u0026rdquo; section \u0026gt; Click on \u0026ldquo;Request a return\u0026rdquo; button * The \u0026ldquo;Merchandise returns\u0026rdquo; page is displayed\n* A list of customer\u0026rsquo;s return is displayed with all details (order\u0026rsquo;s id / return\u0026rsquo;s id / package status / date issued / returns form)   Go to your email (pre-condition) \u0026gt; Check email received The \u0026ldquo;New return from order #number - ID\u0026rdquo; email must not be sent    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/update-schema-of-urls.html",
-	"title": "Update Schema of URLs",
-	"tags": [],
-	"description": "",
-	"content": "Update Schema of URLs "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/upgrade/bo-upgrade-from-1-7-4-to-last-build-and-then-exploratory-test-on-bo.html",
@@ -7140,6 +7140,13 @@
 	"content": "BO - Orders - Export Orders Steps    Step Description Expected result     Go to the Orders \u0026gt; Orders page Orders listing is displayed correctly   Export order to csv file The file is downloaded successfully\nData is correct    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-generate-robots-txt-file.html",
+	"title": "BO - Shop Parameters - SEO &amp; URLs - Generate Robots.txt file",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Generate Robots.txt file "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-generation-of-bill.html",
 	"title": "Check generation of bill",
 	"tags": [],
@@ -7173,13 +7180,6 @@
 	"tags": [],
 	"description": "",
 	"content": "FO - Product Page - Changing color when changing combination - Color "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/generate-robots-txt-file.html",
-	"title": "Generate Robots.txt file",
-	"tags": [],
-	"description": "",
-	"content": "Generate Robots.txt file "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/upgrade/bo-upgrade-from-1-7-6-to-last-build-and-then-exploratory-test-on-bo.html",
@@ -8068,7 +8068,7 @@
 	"title": "Contacts",
 	"tags": [],
 	"description": "",
-	"content": "Contacts Tests  Filter Contacts   BO - Shop Parameters - Contacts - CRUD   BO - Shop Parameters - Contacts - Bulk actions   BO - Shop Parameters - Contacts - Filter, sort and pagination   "
+	"content": "Contacts Tests  BO - Shop Parameters - Contacts - Filter   BO - Shop Parameters - Contacts - CRUD   BO - Shop Parameters - Contacts - Bulk actions   BO - Shop Parameters - Contacts - Filter, sort and pagination   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance/contenu.html",
@@ -9804,7 +9804,7 @@
 	"title": "Search",
 	"tags": [],
 	"description": "",
-	"content": "Search Categories  Edit Search Settings   Tests  Filter sort pagination   CRUD   Bulk action   Quick edit statuses   Indexing   Edit search settings   Edit weight settings   "
+	"content": "Search Categories  Edit Search Settings   Tests  BO - Shop Parameters - Search - Filter, sort, pagination   BO - Shop Parameters - Search - CRUD   BO - Shop Parameters - Search - Bulk actions   BO - Shop Parameters - Search - Quick edit statuses   BO - Shop Parameters - Search - Indexing   Edit search settings   BO - Shop Parameters - Search - Edit weight settings   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search.html",
@@ -9832,7 +9832,7 @@
 	"title": "Seo and Urls",
 	"tags": [],
 	"description": "",
-	"content": "Seo and Urls Tests  Filter Seo Pages   CRUD Seo page   Enable, disable friendly URL (TODO)   BO - Shop Parameters - SEO \u0026amp; URLs - Enable, disable accented URL   BO - Shop Parameters - SEO \u0026amp; URLs - Bulk actions   Sort and pagination   BO - Shop Parameters - SEO \u0026amp; URLs - Set up URLs   BO - Shop Parameters - SEO \u0026amp; URLs - Set shop URL   Update Schema of URLs   BO - Shop Parameters - SEO \u0026amp; URLs - SEO Options   Generate Robots.txt file   BO - Shop Parameters - SEO \u0026amp; URLs - Help card   "
+	"content": "Seo and Urls Tests  BO - Shop Parameters - SEO \u0026amp; URLs - Filter SEO Pages   BO - Shop Parameters - SEO \u0026amp; URLs - CRUD SEO page   BO - Shop Parameters - SEO \u0026amp; URLs - Enable, disable friendly URL (TODO)   BO - Shop Parameters - SEO \u0026amp; URLs - Enable, disable accented URL   BO - Shop Parameters - SEO \u0026amp; URLs - Bulk actions   BO - Shop Parameters - SEO \u0026amp; URLs - Sort and pagination   BO - Shop Parameters - SEO \u0026amp; URLs - Set up URLs   BO - Shop Parameters - SEO \u0026amp; URLs - Set shop URL   BO - Shop Parameters - SEO \u0026amp; URLs - Update Schema of URLs   BO - Shop Parameters - SEO \u0026amp; URLs - SEO Options   BO - Shop Parameters - SEO \u0026amp; URLs - Generate Robots.txt file   BO - Shop Parameters - SEO \u0026amp; URLs - Help card   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping.html",
@@ -10035,7 +10035,7 @@
 	"title": "Stores",
 	"tags": [],
 	"description": "",
-	"content": "Stores Tests  Filter, quick edit   CRUD   Contact - Stores - Bulk actions   pagination   Update contact details   sort   "
+	"content": "Stores Tests  BO - Shop Parameters - Contacts - Stores - Filter, quick edit   BO - Shop Parameters - Contacts - Stores - CRUD   BO - Shop Parameters - Contacts - Stores - Bulk actions   BO - Shop Parameters - Contacts - Stores - Pagination   BO - Shop Parameters - Contacts - Stores - Update contact details   BO - Shop Parameters - Contacts - Stores - Sort   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/brands-and-suppliers/suppliers.html",
@@ -10056,7 +10056,7 @@
 	"title": "Tags",
 	"tags": [],
 	"description": "",
-	"content": "Tags Tests  Filter sort pagination   CRUD   Bulk actions   "
+	"content": "Tags Tests  BO - Shop Parameters - Search - Tags - Filter, sort, pagination   BO - Shop Parameters - Search - Tags - CRUD   BO - Shop Parameters - Search - Tags - Bulk actions   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/tax-rules.html",

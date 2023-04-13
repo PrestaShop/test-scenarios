@@ -851,6 +851,27 @@ Currency Euro is checked   Go to BO &amp;gt; International &amp;gt; Localization
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Contacts - Filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-filter.html</guid>
+      <description>BO - Shop Parameters - Contacts - Filter Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact &amp;gt; Contact tab Contacts page is well displayed   Filter by id_contact = 2 &amp;gt; Click Search Number of contacts &amp;lt; total of contacts
+All rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   Click on Reset Filter is reset
+Number of contacts after reset = total of contacts   Filter by name = Customer service Number of contacts &amp;lt; total of contacts</description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Contacts - Stores - Filter, quick edit</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-filter-quick-edit.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-filter-quick-edit.html</guid>
+      <description>BO - Shop Parameters - Contacts - Stores - Filter, quick edit Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact&amp;gt;Stores &amp;gt; Stores tab Stores page is well displayed   Filter by id_store = 2 &amp;gt; Click Search Number of Stores &amp;lt; total of stores
+All rows column &amp;lsquo;id_store&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   Click on Reset Filter is reset</description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-filter-sort-and-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -960,6 +981,33 @@ Blue alert is displayed : &amp;ldquo;The display of your suppliers is enabled on
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/pagination-setting/bo-shop-parameters-product-settings-update-number-of-product-displayed-on-fo-todo.html</guid>
       <description>BO - Shop Parameters - Product Settings - Update number of product displayed on FO (TODO) Steps    Step Description Expected result     On BO &amp;gt; Configure &amp;gt; Shop Paramaters &amp;gt; Product Settings The page should display correctly   Change Products per page
 Click to Save &amp;ldquo;Update successful&amp;rdquo; notification   On FO The page should display correctly   Click to &amp;ldquo;All products&amp;rdquo; The page should display correctly</description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Search - Filter, sort, pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-filter-sort-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-filter-sort-pagination.html</guid>
+      <description>BO - Shop Parameters - Search - Filter, sort, pagination </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Search - Tags - Filter, sort, pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination.html</guid>
+      <description>BO - Shop Parameters - Search - Tags - Filter, sort, pagination </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - SEO &amp; URLs - Filter SEO Pages</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-filter-seo-pages.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-filter-seo-pages.html</guid>
+      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Filter SEO Pages </description>
     </item>
     
     <item>
@@ -1420,55 +1468,6 @@ Click on it, a new page for Facebook site is open    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-upgrade-module.html</guid>
       <description>Faceted search module - Upgrade module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Upgrade&amp;rdquo; option A modal is open with:</description>
-    </item>
-    
-    <item>
-      <title>Filter Contacts</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/filter-contacts.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/filter-contacts.html</guid>
-      <description>Filter Contacts Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact &amp;gt; Contact tab Contacts page is well displayed   Filter by id_contact = 2 &amp;gt; Click Search Number of contacts &amp;lt; total of contacts
-All rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   Click on Reset Filter is reset
-Number of contacts after reset = total of contacts   Filter by name = Customer service Number of contacts &amp;lt; total of contacts</description>
-    </item>
-    
-    <item>
-      <title>Filter Seo Pages</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/filter-seo-pages.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/filter-seo-pages.html</guid>
-      <description>Filter Seo Pages </description>
-    </item>
-    
-    <item>
-      <title>Filter sort pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/filter-sort-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/filter-sort-pagination.html</guid>
-      <description>Filter sort pagination </description>
-    </item>
-    
-    <item>
-      <title>Filter sort pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/filter-sort-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/filter-sort-pagination.html</guid>
-      <description>Filter sort pagination </description>
-    </item>
-    
-    <item>
-      <title>Filter, quick edit</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/filter-quick-edit.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/filter-quick-edit.html</guid>
-      <description>Filter, quick edit Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact&amp;gt;Stores &amp;gt; Stores tab Stores page is well displayed   Filter by id_store = 2 &amp;gt; Click Search Number of Stores &amp;lt; total of stores
-All rows column &amp;lsquo;id_store&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   Click on Reset Filter is reset
-Number of stores after reset = total of stores   Filter by name = Dade County Number of stores &amp;lt; total of stores</description>
     </item>
     
     <item>
@@ -2950,6 +2949,17 @@ Number of contacts after creation = total of contacts + 1   Filter list by email
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Contacts - Stores - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-crud.html</guid>
+      <description>BO - Shop Parameters - Contacts - Stores - CRUD Steps    Step Description Expected result     Go to Shop Parameters -&amp;gt;Contact -&amp;gt;Stores The stores page is displayed   Click on add new store Add new store is displayed correctly   Fill all information -&amp;gt; click on save New store is saved correctly.
+Message is displayed &amp;ldquo;Successful creation&amp;rdquo;
+Redirection to store page    </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Customer Settings - Groups - CRUD</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3046,6 +3056,33 @@ Number of contacts after creation = total of contacts + 1   Filter list by email
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/pagination-setting/bo-shop-parameters-product-settings-update-default-products-order-by-and-order-method-todo.html</guid>
       <description>BO - Shop Parameters - Product Settings - Update default products order by and order method (TODO) </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Search - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html</guid>
+      <description>BO - Shop Parameters - Search - CRUD </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Search - Tags - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-crud.html</guid>
+      <description>BO - Shop Parameters - Search - Tags - CRUD </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - SEO &amp; URLs - CRUD SEO page</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-crud-seo-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-crud-seo-page.html</guid>
+      <description>BO - Shop Parameters - SEO &amp;amp; URLs - CRUD SEO page Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; SEO and Urls&amp;rsquo; page Title contains &amp;lsquo;SEO &amp;amp; URLs&amp;rsquo;   reset filters Total of Seo pages &amp;gt; 0   Go to new Seo URL page Title contains &amp;lsquo;SEO &amp;amp; URLs •&amp;rsquo;   Create new Seo URL Criteria : page: &amp;lsquo;order-return&amp;rsquo;</description>
     </item>
     
     <item>
@@ -3184,46 +3221,6 @@ Category from which to pick products to be displayed should be 3   Go to front o
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-fo/create-an-order-with-amount-cart-rule.html</guid>
       <description>Create an order with amount cart rule Steps    Step Description Expected result          </description>
-    </item>
-    
-    <item>
-      <title>CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/crud.html</guid>
-      <description>CRUD Steps    Step Description Expected result     Go to Shop Parameters -&amp;gt;Contact -&amp;gt;Stores The stores page is displayed   Click on add new store Add new store is displayed correctly   Fill all information -&amp;gt; click on save New store is saved correctly.
-Message is displayed &amp;ldquo;Successful creation&amp;rdquo;
-Redirection to store page    </description>
-    </item>
-    
-    <item>
-      <title>CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/crud.html</guid>
-      <description>CRUD </description>
-    </item>
-    
-    <item>
-      <title>CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/crud.html</guid>
-      <description>CRUD </description>
-    </item>
-    
-    <item>
-      <title>CRUD Seo page</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/crud-seo-page.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/crud-seo-page.html</guid>
-      <description>CRUD Seo page Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; SEO and Urls&amp;rsquo; page Title contains &amp;lsquo;SEO &amp;amp; URLs&amp;rsquo;   reset filters Total of Seo pages &amp;gt; 0   Go to new Seo URL page Title contains &amp;lsquo;SEO &amp;amp; URLs •&amp;rsquo;   Create new Seo URL Criteria : page: &amp;lsquo;order-return&amp;rsquo;
-title: &amp;lsquo;Order return&amp;rsquo;
-Fr title: same as title</description>
     </item>
     
     <item>
@@ -4715,6 +4712,15 @@ All filters are reset. All carriers are displayed   Select All carriers and Clic
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Contacts - Stores - Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-bulk-actions.html</guid>
+      <description>BO - Shop Parameters - Contacts - Stores - Bulk actions </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Customer Settings - Groups - Default groups options</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-default-groups-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4806,6 +4812,33 @@ The maintenance text is the default one   In Custom maintenance text, edit your
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Search - Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-bulk-actions.html</guid>
+      <description>BO - Shop Parameters - Search - Bulk actions </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Search - Tags - Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-bulk-actions.html</guid>
+      <description>BO - Shop Parameters - Search - Tags - Bulk actions </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - SEO &amp; URLs - Enable, disable friendly URL (TODO)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-enable-disable-friendly-url-todo.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-enable-disable-friendly-url-todo.html</guid>
+      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Enable, disable friendly URL (TODO) </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Traffic and SEO - CRUD</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers/bo-shop-parameters-traffic-and-seo-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4830,24 +4863,6 @@ The maintenance text is the default one   In Custom maintenance text, edit your
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-socialfollow/installation/bo-upgrade-the-module.html</guid>
       <description>BO - Upgrade the module Steps    Step Description Expected result          </description>
-    </item>
-    
-    <item>
-      <title>Bulk action</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bulk-action.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bulk-action.html</guid>
-      <description>Bulk action </description>
-    </item>
-    
-    <item>
-      <title>Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bulk-actions.html</guid>
-      <description>Bulk actions </description>
     </item>
     
     <item>
@@ -4924,15 +4939,6 @@ The maintenance text is the default one   In Custom maintenance text, edit your
     </item>
     
     <item>
-      <title>Contact - Stores - Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/contact-stores-bulk-actions.html</guid>
-      <description>Contact - Stores - Bulk actions </description>
-    </item>
-    
-    <item>
       <title>Create an order with multiple cart rule</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-multiple-cart-rule.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4996,15 +5002,6 @@ Message &amp;ldquo;Update successful&amp;rdquo; appears   Click on the 3-dot but
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-sharebuttons/configuration/enable-disable-pinterest-sharing.html</guid>
       <description>Enable / disable pinterest sharing Steps    Step Description Expected result     Disable Pinterest Sharing An automatic registration is made On FO, on a product, the Pinterest logo is absent   Enable Pinterest sharing An automatic registration is made On FO, on a product, Pinterest logo appear
 Click on it, a new page for Pinterest site is open    </description>
-    </item>
-    
-    <item>
-      <title>Enable, disable friendly URL (TODO)</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/enable-disable-friendly-url-todo.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/enable-disable-friendly-url-todo.html</guid>
-      <description>Enable, disable friendly URL (TODO) </description>
     </item>
     
     <item>
@@ -6262,6 +6259,15 @@ When installed, button will transform to a Configure button   Click on the butto
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Contacts - Stores - Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-pagination.html</guid>
+      <description>BO - Shop Parameters - Contacts - Stores - Pagination </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Customer Settings - Enable B2B mode</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-enable-b2b-mode.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6322,6 +6328,15 @@ When installed, button will transform to a Configure button   Click on the butto
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-separator-of-attribute-anchor-on-the-product-links-todo.html</guid>
       <description>BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links (TODO) </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Search - Quick edit statuses</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-quick-edit-statuses.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-quick-edit-statuses.html</guid>
+      <description>BO - Shop Parameters - Search - Quick edit statuses </description>
     </item>
     
     <item>
@@ -6740,24 +6755,6 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/new-products-block-module-uninstall-and-delete-module.html</guid>
       <description>New products block module - Uninstall and delete module Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search Legal Assistant The module page list should be displayed and Legal Assistant block module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
-    </item>
-    
-    <item>
-      <title>pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/pagination.html</guid>
-      <description>pagination </description>
-    </item>
-    
-    <item>
-      <title>Quick edit statuses</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/quick-edit-statuses.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/quick-edit-statuses.html</guid>
-      <description>Quick edit statuses </description>
     </item>
     
     <item>
@@ -7295,6 +7292,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Contacts - Stores - Update contact details</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-update-contact-details.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-update-contact-details.html</guid>
+      <description>BO - Shop Parameters - Contacts - Stores - Update contact details </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Customer Settings - Ask for birth date</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-ask-for-birth-date.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7356,6 +7362,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-label-out-of-stock-products-with-denied-backorders.html</guid>
       <description>BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Search - Indexing</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html</guid>
+      <description>BO - Shop Parameters - Search - Indexing </description>
     </item>
     
     <item>
@@ -7584,15 +7599,6 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
-      <title>Indexing</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/indexing.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/indexing.html</guid>
-      <description>Indexing </description>
-    </item>
-    
-    <item>
       <title>Mail alerts module - Customer notifications - Enable/Disable order edit</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration/configuration-for-customer/mail-alerts-module-customer-notifications-enable-disable-order-edit.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7656,15 +7662,6 @@ Message &amp;ldquo;The status has been successfully updated.&amp;rdquo;   Search
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/uninstall-install-a-module.html</guid>
       <description>Uninstall/Install a module Steps    Step Description Expected result     Go to back office -&amp;gt; Design -&amp;gt; Theme &amp;amp; logo -&amp;gt; configuration page The configuration page should be displayed   The module page should be displayed and module ps_themecusto should appear in the module page A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled   Click on install A message should appear in green to indicate that the module is installed and module should be install    </description>
-    </item>
-    
-    <item>
-      <title>Update contact details</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/update-contact-details.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/update-contact-details.html</guid>
-      <description>Update contact details </description>
     </item>
     
     <item>
@@ -8076,6 +8073,15 @@ Title is : Discovering the Administration Area    </description>
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Contacts - Stores - Sort</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-sort.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-sort.html</guid>
+      <description>BO - Shop Parameters - Contacts - Stores - Sort </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Customer Settings - Enable partner offers</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-enable-partner-offers.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8127,6 +8133,15 @@ Title is : Discovering the Administration Area    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-oos-allowed-denied-backorders-todo.html</guid>
       <description>BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO) </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - SEO &amp; URLs - Sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-sort-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-sort-and-pagination.html</guid>
+      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Sort and pagination </description>
     </item>
     
     <item>
@@ -8337,24 +8352,6 @@ Currency is edited. Currency name is updated with mention &amp;ldquo;(Edited)&am
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/configuration/setup-number-of-comment-by-page.html</guid>
       <description>Setup number of comment by page Steps    Step Description Expected result     Change the number of comment by page to 3 Change should be apply in BO   In the front office, go to a product page with more than 3 comments See the pagination    </description>
-    </item>
-    
-    <item>
-      <title>sort</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/sort.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/sort.html</guid>
-      <description>sort </description>
-    </item>
-    
-    <item>
-      <title>Sort and pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/sort-and-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/sort-and-pagination.html</guid>
-      <description>Sort and pagination </description>
     </item>
     
     <item>
@@ -8735,6 +8732,15 @@ Newly created return status is displayed in Return statuses block</description>
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Search - Edit weight settings</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-edit-weight-settings.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-edit-weight-settings.html</guid>
+      <description>BO - Shop Parameters - Search - Edit weight settings </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - SEO &amp; URLs - Set up URLs</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-set-up-urls.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8768,15 +8774,6 @@ Newly created return status is displayed in Return statuses block</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/edit-symbol-format-currency.html</guid>
       <description>Edit symbol / format currency Steps    Step Description Expected result     Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps   Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated   Click the round arrow to Reset it Currency should be reset</description>
-    </item>
-    
-    <item>
-      <title>Edit weight settings</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-weight-settings.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-weight-settings.html</guid>
-      <description>Edit weight settings </description>
     </item>
     
     <item>
@@ -9372,6 +9369,15 @@ When a visitor buys an item, he becomes a customer.</description>
     </item>
     
     <item>
+      <title>BO - Shop Parameters - SEO &amp; URLs - Update Schema of URLs</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-update-schema-of-urls.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-update-schema-of-urls.html</guid>
+      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Update Schema of URLs </description>
+    </item>
+    
+    <item>
       <title>Check that the CSV export by partner offer is working</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/check-that-the-csv-export-by-partner-offer-is-working.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9444,15 +9450,6 @@ Currency USD is disabled and displayed in the list   Enable USD from Currency li
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailalerts/configuration/configuration-for-merchant/mail-alerts-module-merchant-notifications-enable-disable-returns.html</guid>
       <description>Mail alerts module - Merchant notifications - Enable/Disable returns Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list   Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed
 * There are 2 sections: &amp;ldquo;Customer notifications&amp;rdquo; and &amp;ldquo;Merchant notifications&amp;rdquo;</description>
-    </item>
-    
-    <item>
-      <title>Update Schema of URLs</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/update-schema-of-urls.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/update-schema-of-urls.html</guid>
-      <description>Update Schema of URLs </description>
     </item>
     
     <item>
@@ -9670,6 +9667,15 @@ Data is correct    </description>
     </item>
     
     <item>
+      <title>BO - Shop Parameters - SEO &amp; URLs - Generate Robots.txt file</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-generate-robots-txt-file.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-generate-robots-txt-file.html</guid>
+      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Generate Robots.txt file </description>
+    </item>
+    
+    <item>
       <title>Check generation of bill</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-generation-of-bill.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9712,15 +9718,6 @@ Data is correct    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-changing-color-when-changing-combination-color.html</guid>
       <description>FO - Product Page - Changing color when changing combination - Color </description>
-    </item>
-    
-    <item>
-      <title>Generate Robots.txt file</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/generate-robots-txt-file.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/generate-robots-txt-file.html</guid>
-      <description>Generate Robots.txt file </description>
     </item>
     
     <item>
