@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Statuses - Create a new order status"
-weight: 6
+weight: 1
 ---
 
 # BO - Shop Parameters - Order Statuses - Create a new order status

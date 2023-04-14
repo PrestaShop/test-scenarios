@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Merchandise returns - Update and manage options"
-weight: 5
+weight: 3
 ---
 
 # BO - Customer Service - Merchandise returns - Update and manage options
