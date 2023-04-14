@@ -381,14 +381,12 @@ all element in grid column name contains &amp;lsquo;Hummingbird printed t-shirt&
     </item>
     
     <item>
-      <title>BO - Customer Service - Merchandise returns - Enable</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-enable.html</link>
+      <title>BO - Customer Service - Merchandise returns - Delete product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-delete-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-enable.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Enable Steps    Step Description Expected result     Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is displayed
-See Enable returns button is set to NO   Click on Enable returns switch button Message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is displayed
-Enable returns button is set to YES    </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-delete-product.html</guid>
+      <description>BO - Customer Service - Merchandise returns - Delete product Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Click to save &amp;ldquo;The settings have been successfully updated.&amp;rdquo; notification   Go to BO &amp;gt; SELL &amp;gt; Orders &amp;gt; Ordres &amp;gt; View the created order with three products The order page details is well displayed    Click on the checkboxes to select the product A and product B, and C select the quantity to return and add a message in the MERCHANDISE RETURN BLOCK</description>
     </item>
     
     <item>
@@ -910,13 +908,12 @@ Blue alert is displayed : &amp;ldquo;The display of your suppliers is enabled on
     </item>
     
     <item>
-      <title>BO - Shop Parameters - General - Maintenance - Enable / disable shop</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/maintenance/bo-shop-parameters-general-maintenance-enable-disable-shop.html</link>
+      <title>BO - Shop Parameters - General - Maintenance</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/maintenance/bo-shop-parameters-general-maintenance.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/maintenance/bo-shop-parameters-general-maintenance-enable-disable-shop.html</guid>
-      <description>BO - Shop Parameters - General - Maintenance - Enable / disable shop Steps    Step Description Expected result     go to shop parameters &amp;gt; general page page title contains &amp;lsquo;Preferences&amp;rsquo;   go to maintenance tab Page title contains &amp;lsquo;Maintenance&amp;rsquo;   * Disable shop
-* Enable store for legged-in employees successful update message is displayed   View my shop Home page is displayed successfully   Return on BO : * Let the shop disabled</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/maintenance/bo-shop-parameters-general-maintenance.html</guid>
+      <description>BO - Shop Parameters - General - Maintenance Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Tab Maintenance Maintenance page is displayed   Enable store = NO &amp;gt; Save Message &amp;ldquo;Successful update.&amp;rdquo; appears   Click &amp;ldquo;View my shop&amp;rdquo; FO is displayed   Go to BO &amp;gt; Advanced Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Enable store for logged-in employees = NO &amp;gt; Save Message &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -935,6 +932,25 @@ Blue alert is displayed : &amp;ldquo;The display of your suppliers is enabled on
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-final-summary-todo.html</guid>
       <description>BO - Shop Parameters - Order Settings - Enable / disable final summary (TODO) </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Order Statuses - Create a new order return status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-statuses-create-a-new-order-return-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-statuses-create-a-new-order-return-status.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Create a new order return status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Tab Statuses Page titles contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order return status&amp;rdquo; Page title contains &amp;ldquo;Return status&amp;rdquo;   Fill all fields &amp;gt; Save Message Successful creation is displayed
+Newly created return status is displayed in Return statuses block</description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Order Statuses - Create a new order status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-create-a-new-order-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-create-a-new-order-status.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Create a new order status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
     </item>
     
     <item>
@@ -2507,13 +2523,12 @@ The list contains the searched ID   Reset filter Number of Suppliers after reset
     </item>
     
     <item>
-      <title>BO - Customer Service - Merchandise returns - Delete product</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-delete-product.html</link>
+      <title>BO - Customer Service - Merchandise returns - Update status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-status.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-delete-product.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Delete product Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is displayed
-See Enable returns button is set to NO   Click on Enable returns switch button Message &amp;ldquo;The settings have been successfully updated.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-status.html</guid>
+      <description>BO - Customer Service - Merchandise returns - Update status Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed   Click on the dropdwon list of status and change the status to &amp;ldquo;Waiting for package&amp;rdquo; and click on Save and stay Successful update alert is well displayed</description>
     </item>
     
     <item>
@@ -4290,13 +4305,12 @@ First row column name = &amp;lsquo;Mountain fox - Vector graphics&amp;rsquo;   A
     </item>
     
     <item>
-      <title>BO - Customer Service - Merchandise returns - Add</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-add.html</link>
+      <title>BO - Customer Service - Merchandise returns - Update and manage options</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-add.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Add Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is well displayed   Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is displayed
-See Enable returns button is set to NO   Click on Enable returns switch button Message &amp;ldquo;The settings have been successfully updated.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</guid>
+      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Enable the returns of product and click on Save The toggle is well enabled and a message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is displayed   Check that there is a help message under the Enable returns The help message is : &amp;ldquo;Would you like to allow merchandise returns in your shop?</description>
     </item>
     
     <item>
@@ -5905,15 +5919,6 @@ Message &amp;ldquo;The settings have been successfully updated.</description>
     </item>
     
     <item>
-      <title>BO - Customer Service - Merchandise returns - Update </title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Update Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is well displayed   Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Returns Merchandise Returns page is displayed</description>
-    </item>
-    
-    <item>
       <title>BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/addresses/bo-customers-addresses-bulk-actions-sort-and-pagination-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6982,15 +6987,6 @@ List of brands is updated   Select all brands and disable them A successful aler
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-customer-service-options.html</guid>
       <description>BO - Customer Service - Customer service options </description>
-    </item>
-    
-    <item>
-      <title>BO - Customer Service - Merchandise returns - Update and manage options</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Update and manage options Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Enable the returns of product and click on Save The toggle is well enabled and a message &amp;ldquo;The settings have been successfully updated.&amp;rdquo; is displayed   Check that there is a help message under the Enable returns The help message is : &amp;ldquo;Would you like to allow merchandise returns in your shop?</description>
     </item>
     
     <item>
@@ -8109,15 +8105,6 @@ Title is : Discovering the Administration Area    </description>
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Order Statuses - Create a new order status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-new-order-status.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-new-order-status.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - Create a new order status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
-    </item>
-    
-    <item>
       <title>BO - Shop Parameters - Product Settings - Enable display discounted price (TODO)</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-price-todo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8713,16 +8700,6 @@ Alert &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add pr
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Order Statuses - Create a new order return status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-new-order-return-status.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-create-a-new-order-return-status.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - Create a new order return status Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Tab Statuses Page titles contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order return status&amp;rdquo; Page title contains &amp;ldquo;Return status&amp;rdquo;   Fill all fields &amp;gt; Save Message Successful creation is displayed
-Newly created return status is displayed in Return statuses block</description>
-    </item>
-    
-    <item>
       <title>BO - Shop Parameters - Product Settings - Default pack stock management</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-default-pack-stock-management.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9056,7 +9033,7 @@ Message is displayed : Successful creation   In list, Filter By Email. Criteria 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-upgrade.html</guid>
-      <description>BO - Modules - Alerts tab - Upgrade Steps    Step Description Expected result     On BO &amp;gt; Improve &amp;gt; Modules &amp;gt; Module Manager The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Click on Alerts The page title should contains &amp;lsquo;Module notifications&amp;rsquo;   Choose a modules than can be upgrade Click to upgrade A modal should appear with this text:
+      <description>BO - Modules - Alerts tab - Upgrade Steps    Step Description Expected result     On BO &amp;gt; Improve &amp;gt; Modules &amp;gt; Module Manager The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Click on Alerts The page title should contains &amp;lsquo;Module alerts&amp;rsquo;   Choose a modules than can be upgrade Click to upgrade A modal should appear with this text:
 {color:#414a56}&amp;ldquo;Are you sure you want to upgrade this module?</description>
     </item>
     
