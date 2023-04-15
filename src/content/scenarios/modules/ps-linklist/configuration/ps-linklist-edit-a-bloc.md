@@ -1,9 +1,9 @@
 ---
-title: "Edit a bloc"
+title: "ps_linklist - Edit a bloc"
 weight: 2
 ---
 
-# Edit a bloc
+# ps_linklist - Edit a bloc
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

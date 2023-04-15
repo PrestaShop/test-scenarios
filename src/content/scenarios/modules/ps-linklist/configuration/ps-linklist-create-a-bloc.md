@@ -1,9 +1,9 @@
 ---
-title: "Create a bloc"
+title: "ps_linklist - Create a bloc"
 weight: 1
 ---
 
-# Create a bloc
+# ps_linklist - Create a bloc
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
