@@ -959,13 +959,6 @@
 	"content": "Countries : CRUD Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries The response HTTP Code is 200\nThe XML code has a prestashop root node\nThe root node has a countries node\nThe countries node has children nodes named country with not empty attributes id (numeric), and xlink:href (string)   Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/countries] with body (next cell) The response HTTP Code is 201\nThe XML code has a prestashop root node\nThe root node has a country node.\nThe country node has a children node named id with an integer   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries/{fetchedId} The response HTTP Code is 200\nThe XML code has a prestashop root node\nThe root node has a country node.\nAll nodes have same data like in post data   In BO, Go to International \u0026gt; Locations Locations Page is displayed correctly.   Click on Countries Tab Countries Page is displayed correctly   Filter the column “ID” with value {fetchedId} and click on the button Search The number of filtered rows is equal to 1.   Click on Edit button at the end of the row Edit Country Page is displayed correctly    Check the consistency of each following field on the form and the XML Value: * Name in English\n* Name in French * Zone * Currency\n* Call Prefix\n* ISO Code\n* Active\n* Contains States\n* Do you need a tax identification number?\n* ZIP/Postal code format\n* Display tax label (e.g. \u0026ldquo;Tax incl.\u0026quot;)   Reset filters Filters are reset   Request with method PUT and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/countries]/{fetchedId} with body (next cell) The XML code has a prestashop root node\nThe root node has a country node.\nThe country node has a children node named id with an integer   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries/{fetchedId} The response HTTP Code is 200\nThe XML code has a prestashop root node\nThe root node has a country node.\nAll nodes have same data like in post data   In BO, Go to International \u0026gt; Locations Locations Page is displayed correctly.   Click on Countries Tab Countries Page is displayed correctly.   Filter the column “ID” with value {fetchedId} and click on the button Search The number of filtered rows is equal to 1   Click on Edit button at the end of the row Edit Country Page is displayed correctly   Check the consistency of each following field on the form and the XML Value: * Name in English\n* Name in French * Zone * Currency\n* Call Prefix\n* ISO Code\n* Active\n* Contains States\n* Do you need a tax identification number?\n* ZIP/Postal code format\n* Display tax label (e.g. \u0026ldquo;Tax incl.\u0026quot;) Alls values are consistent   Reset filters Filters are reset   Request with method DELETE and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/countries]/{fetchedId} The response HTTP Code is 200   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries/{fetchedId} The response HTTP Code is 404   Filter the column “ID” with value {fetchedId} and click on the button Search The number of filtered rows is equal to 0.   Reset filters Filters are reset   In BO, Go to Advanced Parameters \u0026gt; Webservice Webservice Page is displayed correctly   Filter the field \u0026ldquo;Key\u0026rdquo; with value XXXX and click on the button Search The number of filtered rows is equal to 1   On the first row, click on the button \u0026ldquo;Three points\u0026rdquo; The dropdown is displayed   Click on the Delete Button in the dropdown A modal appeared   Click on the Delete Button in the modal The message \u0026ldquo;Successful deletion\u0026rdquo; is displayed\nThe number of filtered rows is equal to 0.   Reset filters No record founds is displayed   In BO, Go to Advanced Parameters \u0026gt; Webservice Webservice Page is displayed correctly   Set unchecked the checkbox “Enable PrestaShop\u0026rsquo;s webservice” The checkbox “Enable PrestaShop\u0026rsquo;s webservice” is not checked   Click on Save button The message “Update successful” is displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration/create-a-bloc.html",
-	"title": "Create a bloc",
-	"tags": [],
-	"description": "",
-	"content": "Create a bloc Steps    Step Description Expected result          "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/create-a-list.html",
 	"title": "Create a list",
 	"tags": [],
@@ -1426,6 +1419,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Product Comment - Upgrade Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager and search productcomments The module page should be displayed and module productcomments should appear in the module page   Click on upgrade The message should appear in green to indicate that the module is upgraded   Refresh the page The module should be upgraded to the last version    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration/ps-linklist-create-a-bloc.html",
+	"title": "ps_linklist - Create a bloc",
+	"tags": [],
+	"description": "",
+	"content": "ps_linklist - Create a bloc Steps    Step Description Expected result          "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-customersignin/fo/reset-password.html",
@@ -2408,13 +2408,6 @@
 	"content": "Edit a bloc Steps    Step Description Expected result     Click on the edit button The edition page of the module should appear   Change title and description of the first language install. Change title and description of the second language install and Save the change A message should appear. Title and description should be upgraded for all languages   Go to front office In the front office the bloc should be upgraded for all languages    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration/edit-a-bloc.html",
-	"title": "Edit a bloc",
-	"tags": [],
-	"description": "",
-	"content": "Edit a bloc Steps    Step Description Expected result          "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html",
 	"title": "Edit and delete a list",
 	"tags": [],
@@ -2770,6 +2763,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Product comments - Uninstall/Install Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manger and search productcomments The module page should be displayed and module productcomments appear in the module page   Click on uninstall\u0026quot; and confirm the uninstall message by clicking on ok\u0026quot; A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and available on Modules -\u0026gt; Module catalog   Go to Module catalog and search productcomments The module catalog page should be displayed and module ps_contactinfo should appear in the module page   Click on install A message should appear in green to indicate that the module is installed   Go to Modules -\u0026gt; Module manager and search productcomments\u0026quot; The module should be displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration/ps-linklist-edit-a-bloc.html",
+	"title": "ps_linklist - Edit a bloc",
+	"tags": [],
+	"description": "",
+	"content": "ps_linklist - Edit a bloc Steps    Step Description Expected result          "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/fo/report-a-comment.html",
@@ -3668,13 +3668,6 @@
 	"content": "Delete a bloc Steps    Step Description Expected result     Click on the delete button A confirmation message should appear   Confirm the deletion message by clicking on ok In the back office the bloc disabled shouldn\u0026rsquo;t be displayed   Go to front office In the front office the bloc disabled shouldn\u0026rsquo;t be displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration/delete-a-bloc.html",
-	"title": "Delete a bloc",
-	"tags": [],
-	"description": "",
-	"content": "Delete a bloc Steps    Step Description Expected result          "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/delete-a-currency.html",
 	"title": "Delete a currency",
 	"tags": [],
@@ -3960,6 +3953,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Product Comments - Uninstall and delete Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manger and search productcomments The module page should be displayed and module productcomments should appear in the module page   Click on uninstall\u0026quot; and confirm the deletion message by clicking on ok\u0026quot; A message should appear in green to indicate that the module is uninstalled   Refresh the page The module should be uninstalled and removed from the module folder    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-linklist/configuration/ps-linklist-delete-a-bloc.html",
+	"title": "ps_linklist - Delete a bloc",
+	"tags": [],
+	"description": "",
+	"content": "ps_linklist - Delete a bloc Steps    Step Description Expected result          "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-featuredproducts/contenu/randomly-display-featured-products.html",
@@ -7970,7 +7970,7 @@
 	"title": "Configuration",
 	"tags": [],
 	"description": "",
-	"content": "Configuration Tests  Create a bloc   Edit a bloc   Delete a bloc   "
+	"content": "Configuration Tests  ps_linklist - Create a bloc   ps_linklist - Edit a bloc   ps_linklist - Delete a bloc   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-newproducts/configuration.html",
