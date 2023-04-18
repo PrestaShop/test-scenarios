@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1681713193" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1681713193" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1681713193" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1681713193" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1681713193" rel="stylesheet">
-    <link href="../../../../../../../style.css?1681713193" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1681799651" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1681799651" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1681799651" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1681799651" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1681799651" rel="stylesheet">
+    <link href="../../../../../../../style.css?1681799651" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1681713193"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1681799651"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38957,7 +38957,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#fo---cart---change-quantity">FO - Cart - Change quantity</a></li>
+    <li><a href="#fo---cart---change-quantity">FO - Cart - Change quantity</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -61053,14 +61057,85 @@
 
 
 <h1 id="fo---cart---change-quantity">FO - Cart - Change quantity</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>* Go to FO <br> * Clic &ldquo;Hummingbird Printed T-shirt&rdquo;<br> * Clic on &ldquo;Add to cart&rdquo;<br> * Clic on Proceed to checkout</td>
+<td>* You should see you shop<br> * You&rsquo;ll see the page of your product<br> * You&rsquo;ll have a modal named &ldquo;Product successfully added to your shopping cart&rdquo;<br> * Your cart is displayed</td>
+</tr>
+<tr>
+<td>Clic on the up arrow next to the product&rsquo;s number</td>
+<td>You should have one more product on your card</td>
+</tr>
+<tr>
+<td>Clic on the down arrow next to the product&rsquo;s number</td>
+<td>You should have one less product on your card</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Writte 3 and press enter</td>
+<td>* You can now writte on it <br> * You should have 3 products</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Writte -6 and press enter</td>
+<td>* You can now writte on it <br> * You should have 3 products</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Writte +6 and press enter</td>
+<td>* You can now writte on it <br> * You should have 6 products</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Writte 0 and press enter</td>
+<td>* You can now writte on it <br> * You should have 6 products and the red messages &ldquo;The minimum purchase order quantity for the product Hummingbird printed t-shirt is 1.&rdquo;</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Writte 64 and press enter</td>
+<td>* You can now writte on it<br> * You should have 64 products</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Writte &ldquo;azerty&rdquo; and press enter</td>
+<td>* You can now writte on it <br> * You should have 64 products</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Writte 2400 and press enter</td>
+<td>* You can now writte on it <br> * You should have 2400 products but the button &ldquo;proceed checkout&rdquo; should be greyed and you have a red message &ldquo;The product is no longer available in this quantity.&rdquo;</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Writte 3 and press enter</td>
+<td>* You can now writte on it <br> * You should have 3 products</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Scroll up until the product&rsquo;s number is less than 300<br> * Clic outside of the number of product</td>
+<td>* You can now writte on it<br> * You should have more product on your card <br> * The number should be incremented</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Scroll up until the product&rsquo;s number is more than 300<br> * Clic outside of the number of product</td>
+<td>* You can now writte on it<br> * You should have more product on your card <br> * The number should be incremented  but the button &ldquo;proceed checkout&rdquo; should be greyed and you have a red message &ldquo;The product is no longer available in this quantity.&rdquo;</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number <br> * Scroll down until the product&rsquo;s number is more than 1<br> * Clic outside of the number of product</td>
+<td>* You can now writte on it<br> * You should have less product on your card<br> * The number should be incremented</td>
+</tr>
+<tr>
+<td>* Clic on the product&rsquo;s number<br> * Scroll down until the product&rsquo;s number is less than 1<br> * Clic outside of the number of product</td>
+<td>* You can now writte on it<br> * You should have less product on your card<br> * The number should be the same that previously</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on December 13, 2022
+  Last updated on April 18, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/157ad82b1334a527e2bc8bc37dc664574d880503">"[Update] JIRA XRay Tests" (157ad82b133)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/456edf81578532672dbc9fec968e92604b00437f">"[Update] JIRA XRay Tests" (456edf81578)</a>
   
 </div>
 
@@ -61081,17 +61156,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1681713194"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1681713194"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1681713194"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1681713194"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1681713194"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1681713194"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1681713194"></script>
-    <script src="../../../../../../../js/learn.js?1681713194"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1681713194"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1681799651"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1681799651"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1681799651"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1681799651"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1681799651"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1681799651"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1681799651"></script>
+    <script src="../../../../../../../js/learn.js?1681799651"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1681799651"></script>
     
-    <script src="../../../../../../../main.js?1681713194"></script>
+    <script src="../../../../../../../main.js?1681799651"></script>
     
     
 
