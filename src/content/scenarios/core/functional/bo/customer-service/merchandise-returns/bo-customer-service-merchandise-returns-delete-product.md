@@ -8,6 +8,7 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > SELL > Customer Service > Merchandise Returns | The Merchandise returns page is well displayed |
+| Enable merchandise returns |  |
 | Click to save | "The settings have been successfully updated." notification |
 | Go to BO > SELL > Orders > Ordres > View the created order with three products | The order page details is well displayed |
 | |Click on the checkboxes to select the product A and product B, and C select the quantity to return and add a message in the MERCHANDISE RETURN BLOCK<br>Then, click on the "REQUEST A RETURN" button| | The page is refreshed and the Merchandise returns page is well displayed with all returned products |
