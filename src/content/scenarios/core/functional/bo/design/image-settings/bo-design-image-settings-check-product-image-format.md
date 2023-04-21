@@ -9,7 +9,7 @@ weight: 14
 | ----- | ----- |
 | * Go to BO > Design > Image settings<br> * Scroll down to have image generation option | * JPEG/PNG  should be checked <br> * You can't unchecked the JPEG/PNG format<br> * Base format should be : "Use PNG only if the base image is in PNG format" |
 | Check the checkboxes next to Webp | The checkbox should be checked and the Webp is enabled |
-| * Go to Catalog > Product <br> * Clic on "Add new product"<br> * Select Standard product <br> * Clic on "Add New product | * You should have all your product <br> * A modal appear<br> * Standard product is Selected<br> * You have the page to create a product |
+| * Go to Catalog > Product <br> * Click on "Add new product"<br> * Select Standard product <br> * Click on "Add New product | * You should have all your product <br> * A modal appear<br> * Standard product is Selected<br> * You have the page to create a product |
 | * Set a product with a name and an image in PNG <br> * Put it online <br> * Clic on "Save" | * You should have the name on the product name and an image on the image selection <br> * The checkboxes is now green and it's writte : "Online" <br> * You have a green modal and it say : "Successful update" |
 | * Go to Catalog > Product <br> * Clic on "Add new product"<br> * Select Standard product <br> * Clic on "Add New product | * You should have all your product <br> * A modal appear<br> * Standard product is Selected<br> * You have the page to create a product |
 | * Set a product with a name and an image in JPEG <br> * Put it online <br> * Clic on "Save" | * You should have the name on the product name and an image on the image selection <br> * The checkboxes is now green and it's writte : "Online" <br> * You have a green modal and it say : "Successful update" |
