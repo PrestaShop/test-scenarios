@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1682404250" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1682404250" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1682404250" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1682404250" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1682404250" rel="stylesheet">
-    <link href="../../../../../../../style.css?1682404250" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1682490683" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1682490683" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1682490683" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1682490683" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1682490683" rel="stylesheet">
+    <link href="../../../../../../../style.css?1682490683" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1682404250"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1682490683"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61071,40 +61071,40 @@
 <td>Stores page is well displayed</td>
 </tr>
 <tr>
-<td>Filter by id_store = 2 &gt; Click Search</td>
-<td>Number of Stores &lt; total of stores<br><br>All rows column &lsquo;id_store&rsquo; contains &lsquo;2&rsquo;</td>
+<td>Filter by id_store = 6 -&gt; Click Search</td>
+<td>Number of Stores &lt; total of stores<br><br>All rows column &lsquo;id_store&rsquo; contains &lsquo;6&rsquo;</td>
 </tr>
 <tr>
 <td>Click on Reset</td>
 <td>Filter is reset<br><br>Number of stores after reset = total of stores</td>
 </tr>
 <tr>
-<td>Filter by name = Dade County</td>
-<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;name&rsquo; contains &lsquo;Dade County&rsquo;</td>
+<td>Filter by name = testname</td>
+<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;name&rsquo; contains &lsquo;testname&rsquo;</td>
 </tr>
 <tr>
 <td>Click on Reset</td>
 <td>Filter is reset<br><br>Number of stores after reset = total of stores</td>
 </tr>
 <tr>
-<td>Filter by email = 3030 SW 8th St Miami</td>
-<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;email&rsquo; contains &lsquo;3030 SW 8th St Miami&rsquo;</td>
+<td>Filter by Address = rue de test</td>
+<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;Address&rsquo; contains ' rue de test '</td>
 </tr>
 <tr>
 <td>Click on Reset</td>
 <td>Filter is reset<br><br>Number of stores after reset = total of stores</td>
 </tr>
 <tr>
-<td>Filter by City = Miami</td>
-<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;City&rsquo; contains &lsquo;Miami&rsquo;</td>
+<td>Filter by City = test</td>
+<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;City&rsquo; contains &lsquo;test&rsquo;</td>
 </tr>
 <tr>
 <td>Click on Reset</td>
 <td>Filter is reset<br><br>Number of stores after reset = total of stores</td>
 </tr>
 <tr>
-<td>Filter by  Zip/Postal code = 33181</td>
-<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;Zip/Postal code&rsquo; contains &lsquo;33181&rsquo;</td>
+<td>Filter by  Zip/Postal code = 11111</td>
+<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;Zip/Postal code&rsquo; contains &lsquo;11111&rsquo;</td>
 </tr>
 <tr>
 <td>Filter by State : Florida</td>
@@ -61114,6 +61114,30 @@
 <td>Filter by County : United States</td>
 <td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;Country ' contains &lsquo;United States&rsquo;</td>
 </tr>
+<tr>
+<td>Filter by State : Hawaii</td>
+<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;State  ' contains &lsquo;Hawaii&rsquo;</td>
+</tr>
+<tr>
+<td>Filter by Phone = +220 23 022 100</td>
+<td>Number of stores &lt; total of stores<br><br>All rows column &lsquo;Phone   ' +220 23 022 100&rsquo;</td>
+</tr>
+<tr>
+<td>Filter by Fax  = 74 500 600</td>
+<td>Number of stores &lt; total of stores<br><br>All rows column  Fax  ' 74 500 600&rsquo;</td>
+</tr>
+<tr>
+<td>Filter list by name with latest name of created store</td>
+<td>the store  is displayed in list</td>
+</tr>
+<tr>
+<td>Click on the pen to edit the store</td>
+<td>Page title contains : Edit testname</td>
+</tr>
+<tr>
+<td>Update the store</td>
+<td>Message Successful update is displayed<br><br>Number of stores after creation = total of stores + 1<br><br>Filtered stores in list is still displayed with updated data</td>
+</tr>
 </tbody>
 </table>
 
@@ -61121,9 +61145,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on April 13, 2023
+  Last updated on April 26, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/775dfd21792e39bcdddf575c6adf6370d9aa28c6">"[Update] JIRA XRay Tests" (775dfd21792)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/c8592dcfe14a99832456de1696949db24cfc3b52">"[Update] JIRA XRay Tests" (c8592dcfe14)</a>
   
 </div>
 
@@ -61144,17 +61168,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1682404250"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1682404250"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1682404250"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1682404250"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1682404250"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1682404250"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1682404250"></script>
-    <script src="../../../../../../../js/learn.js?1682404250"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1682404250"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1682490683"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1682490683"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1682490683"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1682490683"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1682490683"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1682490683"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1682490683"></script>
+    <script src="../../../../../../../js/learn.js?1682490683"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1682490683"></script>
     
-    <script src="../../../../../../../main.js?1682404250"></script>
+    <script src="../../../../../../../main.js?1682490683"></script>
     
     
 
