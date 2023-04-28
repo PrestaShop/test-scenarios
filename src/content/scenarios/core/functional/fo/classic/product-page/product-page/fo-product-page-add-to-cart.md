@@ -8,7 +8,7 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to FO> click on  a not customizable product image | The page of the product is well displayed |
-| On page of the product<br><br>Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
+| On page of the product> Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
 | Click on Proceed To Checkout | Page Shopping cart<br><br>Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)  = Quickview recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
 | Go to All products > choose  a not required customization product |  |
 | On a product page with not required customization<br><br>Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
