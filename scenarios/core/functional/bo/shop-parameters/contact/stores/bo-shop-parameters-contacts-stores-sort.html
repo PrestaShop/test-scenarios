@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1682577092" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1682577092" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1682577092" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1682577092" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1682577092" rel="stylesheet">
-    <link href="../../../../../../../style.css?1682577092" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1682664088" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1682664088" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1682664088" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1682664088" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1682664088" rel="stylesheet">
+    <link href="../../../../../../../style.css?1682664088" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1682577092"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1682664088"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38957,7 +38957,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---shop-parameters---contacts---stores---sort">BO - Shop Parameters - Contacts - Stores - Sort</a></li>
+    <li><a href="#bo---shop-parameters---contacts---stores---sort">BO - Shop Parameters - Contacts - Stores - Sort</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -61053,14 +61057,105 @@
 
 
 <h1 id="bo---shop-parameters---contacts---stores---sort">BO - Shop Parameters - Contacts - Stores - Sort</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shop parameters &gt; Contacts &gt; Stores Tab</td>
+<td>Stores page is well displayed</td>
+</tr>
+<tr>
+<td>Sort by ID  desc</td>
+<td>List is sorted by ID desc<br>(3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by ID asc</td>
+<td>List is sorted by ID asc<br>(1 -&gt; 2 -&gt; 3)</td>
+</tr>
+<tr>
+<td>Sort by Name  asc</td>
+<td>List is sorted by Name asc<br>(a -&gt; b -&gt; c)</td>
+</tr>
+<tr>
+<td>Sort by Name desc</td>
+<td>List is sorted by Name desc<br>(c -&gt; b -&gt; a)</td>
+</tr>
+<tr>
+<td>Sort by Address desc</td>
+<td>List is sorted by Address desc<br>(c -&gt; b -&gt; a)</td>
+</tr>
+<tr>
+<td>Sort by Address asc</td>
+<td>List is sorted by Address asc<br> (a -&gt; b -&gt; c)</td>
+</tr>
+<tr>
+<td>Sort by City  asc</td>
+<td>List is sorted by City asc<br>(a -&gt; b -&gt; c)</td>
+</tr>
+<tr>
+<td>Sort by City desc</td>
+<td>List is sorted by City desc<br>(c -&gt; b -&gt; a)</td>
+</tr>
+<tr>
+<td>Sort by Zip/Postal code asc</td>
+<td>List is sorted by Zip/Postal code asc<br>(1 -&gt; 2 -&gt; 3)</td>
+</tr>
+<tr>
+<td>Sort by Zip/Postal code desc</td>
+<td>List is sorted by Zip/Postal code desc<br>(3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by State asc</td>
+<td>List is sorted by State desc<br>(a -&gt; b -&gt; c)</td>
+</tr>
+<tr>
+<td>Sort by State desc</td>
+<td>List is sorted by State desc<br>(c -&gt; b -&gt; a)</td>
+</tr>
+<tr>
+<td>Sort by Country asc</td>
+<td>List is sorted by Country asc<br>(a -&gt; b -&gt; c)</td>
+</tr>
+<tr>
+<td>Sort by Country desc</td>
+<td>List is sorted by Country desc<br>(c -&gt; b -&gt; a)</td>
+</tr>
+<tr>
+<td>Sort by Phone asc</td>
+<td>List is sorted by Phone asc<br>(1 -&gt; 2 -&gt; 3)</td>
+</tr>
+<tr>
+<td>Sort by Phone desc</td>
+<td>List is sorted by Phone desc<br>(3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by Phone desc</td>
+<td>List is sorted by Phone desc<br>(3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by Fax desc</td>
+<td>List is sorted by Fax desc<br>(3 -&gt; 2 -&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by Fax Asc</td>
+<td>List is sorted by Fax Asc<br>(1 -&gt; 2 -&gt; 3)</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on April 13, 2023
+  Last updated on April 28, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/775dfd21792e39bcdddf575c6adf6370d9aa28c6">"[Update] JIRA XRay Tests" (775dfd21792)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/d691aeb570afe56714916ff5d5a37e4b9ca3382c">"[Update] JIRA XRay Tests" (d691aeb570a)</a>
   
 </div>
 
@@ -61081,17 +61176,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1682577093"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1682577093"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1682577093"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1682577093"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1682577093"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1682577093"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1682577093"></script>
-    <script src="../../../../../../../js/learn.js?1682577093"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1682577093"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1682664088"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1682664088"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1682664088"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1682664088"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1682664088"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1682664088"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1682664088"></script>
+    <script src="../../../../../../../js/learn.js?1682664088"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1682664088"></script>
     
-    <script src="../../../../../../../main.js?1682577093"></script>
+    <script src="../../../../../../../main.js?1682664088"></script>
     
     
 
