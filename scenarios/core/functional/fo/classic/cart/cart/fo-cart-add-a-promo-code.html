@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1683009462" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1683009462" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1683009462" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1683009462" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1683009462" rel="stylesheet">
-    <link href="../../../../../../../style.css?1683009462" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1683095632" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1683095632" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1683095632" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1683095632" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1683095632" rel="stylesheet">
+    <link href="../../../../../../../style.css?1683095632" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1683009462"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1683095632"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38957,7 +38957,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#fo---cart---add-a-promo-code">FO - Cart - Add a promo code</a></li>
+    <li><a href="#fo---cart---add-a-promo-code">FO - Cart - Add a promo code</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -61053,14 +61057,61 @@
 
 
 <h1 id="fo---cart---add-a-promo-code">FO - Cart - Add a promo code</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>* Go to BO <br> * Go to Catalog &gt; Discounts<br> * Click on Add new cart rule</td>
+<td>* You should see the dashoboard of your shop <br> * You should see all the cart rules created if there is some one <br> * You should be on the modal to create a cart rules</td>
+</tr>
+<tr>
+<td>* Set up your cart rules <br> * Clic on save</td>
+<td>* Every specified field should be set <br> * You should see your new cart rules added on the list of cart rules</td>
+</tr>
+<tr>
+<td>* Go to FO <br> * Clic &ldquo;Hummingbird Printed T-shirt&rdquo;<br> * Clic on &ldquo;Add to cart&rdquo;<br> * Clic on Proceed to checkout</td>
+<td>* You should see you shop<br> * You&rsquo;ll see the page of your product<br> * You&rsquo;ll have a modal named &ldquo;Product successfully added to your shopping cart&rdquo;<br> * Your cart is displayed</td>
+</tr>
+<tr>
+<td>* Clic on &ldquo;Have a promo code ? &ldquo;<br> * Write &ldquo;reduc&rdquo; on the new field <br> * Clic on &ldquo;Add&rdquo; button</td>
+<td>* A new field should be displayed<br> * the field should have what you writted<br> * The name of your cart rules  should be add after the total and there is a new line named &ldquo;Discount(s)&rdquo;</td>
+</tr>
+<tr>
+<td>* Clic on &ldquo;Have a promo code ? &ldquo;<br> * Write &ldquo;reduc&rdquo; on the new field <br> * Clic on &ldquo;Add&rdquo; button</td>
+<td>* A new field should be displayed<br> * the field should have what you writted<br> * You should have a red message with &ldquo;This voucher is already in your cart&rdquo;</td>
+</tr>
+<tr>
+<td>* Write &ldquo;reduction&rdquo; on the field for promo code <br> * Clic on &ldquo;Add&rdquo; button</td>
+<td>* the field should have what you writted<br> * You should have a red message with &ldquo;This voucher does not exist.&rdquo;</td>
+</tr>
+<tr>
+<td>* Erase all what you writted in the field for promo code <br> * Clic on &ldquo;Add&rdquo; button</td>
+<td>* the field should have what you writted<br> * You should have a red message with &ldquo;You must enter a voucher code.&rdquo;</td>
+</tr>
+<tr>
+<td>Clic on the dustbin next to the price of your &ldquo;reduction&rdquo;</td>
+<td>* The line reduction and you reduction shouldn&rsquo;t be displayed <br> * You have the grey message : &quot; Take advantage of our exclusive offers: &quot; and your promo code with is name below</td>
+</tr>
+<tr>
+<td>* Clic on the Promo code in orange <br> * Clic on &ldquo;Add&rdquo; button</td>
+<td>* A new field should be displayed and the field should have the promo code writted<br> * The name of your cart rules  should be add after the total and there is a new line named &ldquo;Discount(s)&rdquo;</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on December 13, 2022
+  Last updated on May 3, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/157ad82b1334a527e2bc8bc37dc664574d880503">"[Update] JIRA XRay Tests" (157ad82b133)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/ce0771f09e77d0aa849430b3986603835433d172">"[Update] JIRA XRay Tests" (ce0771f09e7)</a>
   
 </div>
 
@@ -61081,17 +61132,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1683009462"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1683009462"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1683009462"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1683009462"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1683009462"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1683009462"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1683009462"></script>
-    <script src="../../../../../../../js/learn.js?1683009462"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1683009462"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1683095632"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1683095632"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1683095632"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1683095632"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1683095632"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1683095632"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1683095632"></script>
+    <script src="../../../../../../../js/learn.js?1683095632"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1683095632"></script>
     
-    <script src="../../../../../../../main.js?1683009462"></script>
+    <script src="../../../../../../../main.js?1683095632"></script>
     
     
 
