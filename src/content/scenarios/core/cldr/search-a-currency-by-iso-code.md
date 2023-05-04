@@ -7,7 +7,7 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > International > Localization > Currencies > Add 3 new currencies : USD, PYG and JPY | Message "Successful creation."<br><br>USD, PYG and JPY are in the list of currencies |
+| Go to BO > International > Localization > Currencies > Add 4 new currencies : USD, PYG, JPY and GBP | Message "Successful creation."<br><br>USD, PYG, JPY and GBP are in the list of currencies |
 | Search by ISO "EUR" > Click Search | Currency Euro is displayed |
 | Search by ISO : "US" | Currency US Dollar is displayed |
 | Search by ISO : "PY" | 2 currencies are displayed : Japanese Yen and Paraguayan Guarani |
