@@ -357,11 +357,11 @@
 	"content": "BO - Design - Image Settings - Filter "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/link-widget/bo-design-link-widget-create-check-footer-link-widget-delete.html",
-	"title": "BO - Design - Link Widget - Create, Check Footer Link widget, Delete",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/link-widget/bo-design-link-list-create-check-footer-link-widget-delete.html",
+	"title": "BO - Design - Link list - Create, Check Footer Link widget, Delete",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Link Widget - Create, Check Footer Link widget, Delete Steps    Step Description Expected result     go to link Widget page title contains \u0026lsquo;Link Widget\u0026rsquo;   go to add new link widget page title contains \u0026lsquo;Link Widget\u0026rsquo;   create link widget criteria : name: \u0026lsquo;Footer test block\u0026rsquo;\nfrName: \u0026lsquo;Footer test block\u0026rsquo;\nhook: \u0026lsquo;displayFooter\u0026rsquo;\ncontentPages: [\u0026lsquo;Delivery\u0026rsquo;]\nproductsPages: [\u0026lsquo;New products\u0026rsquo;]\nstaticPages: [\u0026lsquo;Contact us\u0026rsquo;]\ncustomPages: [{name: \u0026lsquo;Home in footer\u0026rsquo;, url: global.FO.URL}] Successful message is displayed Total of linkwidget for displayFooter hook \u0026gt; 0   Go to Fo and change language to \u0026lsquo;en\u0026rsquo; Footer contain block title \u0026lsquo;Footer test block\u0026rsquo;\nLinks in footer contains all links created   Go back to BO and delete the link Widget created Successful message is displayed\nnumber of link widget for displayFooter hook after deletion \u0026lt; Total of link widget for displayFooter hook    "
+	"content": "BO - Design - Link list - Create, Check Footer Link widget, Delete Steps    Step Description Expected result     go to BO \u0026gt; Design \u0026gt; link List title contains \u0026lsquo;Link list\u0026rsquo;   Clic on \u0026ldquo;New block\u0026rdquo; title contains \u0026lsquo;new Link block\u0026rsquo;   Set up the block\nand clic on Save Successful message is displayed Total of block for displayFooter hook \u0026gt; 0   Go to Fo and change language to \u0026lsquo;en\u0026rsquo; Footer contain block title \u0026lsquo;Footer test block\u0026rsquo;\nLinks in footer contains all links created   Go back to BO and delete the link Widget created Successful message is displayed\nnumber of block for displayFooter hook after deletion \u0026lt; Total of block for displayFooter hook before deletion    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-filter-and-quick-edit.html",
@@ -9062,7 +9062,7 @@
 	"title": "Link widget",
 	"tags": [],
 	"description": "",
-	"content": "Link widget Tests  BO - Design - Link Widget - Create, Check Footer Link widget, Delete   BO - Design - Link Widget - Change position   BO - Design - Link Widget - Edit   BO - Design - Link Widget - Create and check different link widgets   BO - Design - Link Widget - Sort Link List   "
+	"content": "Link widget Tests  BO - Design - Link list - Create, Check Footer Link widget, Delete   BO - Design - Link Widget - Change position   BO - Design - Link Widget - Edit   BO - Design - Link Widget - Create and check different link widgets   BO - Design - Link Widget - Sort Link List   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/front-office/lists.html",
