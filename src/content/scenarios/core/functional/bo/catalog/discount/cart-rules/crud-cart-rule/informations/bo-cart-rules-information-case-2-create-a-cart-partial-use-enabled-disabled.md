@@ -14,7 +14,7 @@ weight: 2
 | Choose an address > Click on "Continue" button | Shipping method step is displayed |
 | Choose a shipping method > Click on "Continue" button | Payment step is displayed |
 | Check the "Terms of service" checkbox > Click on "Place order" button | The Order confirmation page is displayed |
-| Click on Your account link and Click on "Vouchers" | "Your vouchers" page is displayed and check that:<br><br>The second Cart rule is created with Value = 100 (old discount amount) - Total of last order |
+| Click on Your account link and Click on "Vouchers" | "Your vouchers" page is displayed and check that:<br>The initial Cart rule has been modified with: <br>Code = automatically generated code<br>Quantity = 1<br>Value = 100 (old discount amount) - Total of last order |
 | Go back to the BO > Cart rules page | The cart rules page is well displayed and the number of cart rules = Total cart rules + 1 |
 | Filter by Code | Number of cart rules < Total Cart rules and the list contains the searched Voucher |
 | Click on "Edit" and Click on Conditions Tab | Check that *Limit to a single customer = John DOE (pub@prestashop.com)* |
@@ -27,6 +27,6 @@ weight: 2
 | Go to FO, Add product to cart and Click on "Proceed to checkout" | The Shopping cart is well displayed and the discount is well applied<br><br>Total is ok = *0* |
 | Click on "Proceed to checkout" to the Payment step | "No payment needed for this order" is displayed |
 | Click to agree the terms of service and place order | The Order confirmation page is displayed |
-| Click on Your account link and Click on "Vouchers" | "Your vouchers" page is displayed and check that there is no second cart rule created |
+| Click on Your account link and Click on "Vouchers" | "Your vouchers" page is displayed and check that the Quantity = 0 |
 | Go back to the BO > Cart rules page | The cart rules page is well displayed and the number of cart rules = Total cart rules |
 | Delete the cart rule and confirm the deletion | A green alert "Successful deletion." is displayed |

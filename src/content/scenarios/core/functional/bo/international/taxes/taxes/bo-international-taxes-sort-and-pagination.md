@@ -1,9 +1,9 @@
 ---
-title: "BO - International - Taxes - Sort"
+title: "BO - International - Taxes - Sort and pagination"
 weight: 5
 ---
 
-# BO - International - Taxes - Sort
+# BO - International - Taxes - Sort and pagination
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

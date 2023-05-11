@@ -7,12 +7,12 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to 'Shop parameters > Customer Settings' page | page title contains 'Customer Settings' |
-| disable send an email after registration | Successful message is displayed |
-| Create new customer in FO | Customer is created |
-| go to 'Advanced parameters > E-mail' page | email is not present in list |
-| go to 'Shop parameters > Customer Settings' page | page title contains 'Customer Settings' |
-| enable send an email after registration | Successful message is displayed |
-| Create new customer in FO | Customer is created |
-| go to 'Advanced parameters > E-mail' page | email is present in list |
-| delete customers created from BO | Customers were deleted |
+| Go to BO > Shop parameters > Customer Settings | Customer settings page is displayed |
+| Send an email after registration > NO > Save | Update successful alert is displayed |
+| Go to FO > Click Sign in > Click No account? Create one here | Customer is created |
+| Go to BO > Advanced parameters > E-mail | Welcome email is not present in list |
+| Go to BO > Shop parameters > Customer Settings | Customer settings page is displayed |
+| Send an email after registration > YES > Save | Successful message is displayed |
+| Go to FO > Click Sign in > Click No account? Create one here | Customer is created |
+| Go to BO > Advanced parameters > E-mail | Welcome email is present in list |
+| Go to BO > Customers > Customers > Delete customers created from FO | Customers were deleted |

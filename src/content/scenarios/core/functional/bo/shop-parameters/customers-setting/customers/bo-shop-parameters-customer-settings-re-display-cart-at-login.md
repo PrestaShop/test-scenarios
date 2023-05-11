@@ -7,8 +7,8 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to 'Shop parameters > Customer Settings' page | page title contains 'Customer Settings' |
-| enable re-display cart at login | Successful message is displayed |
-| Go to FO <br>Login with customer account<br>Add product to cart and go to checkout page <br>log out | nothing is displayed in cart |
+| Go to BO > Shop parameters > Customer Settings | Customer settings page is displayed |
+| Re-display cart at login > YES > Save | Update successful alert is displayed |
+| Go to FO > Log into customer account > Add product to cart > Click Proceed to checkout > Click Sign out | Customer is logged out<br>Cart is empty |
 | Login with customer account | Product added to cart is displayed in cart |
-| Go back to BO and disable re-display cart at login | Successful message is displayed |
+| Go back to BO > Shop parameters > Customer Settings > Re-display cart at login > NO > Save | Customer settings page is displayed |
