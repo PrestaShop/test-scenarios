@@ -913,8 +913,7 @@ All rows column &amp;lsquo;id_store&amp;rsquo; contains &amp;lsquo;6&amp;rsquo; 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-re-display-cart-at-login.html</guid>
-      <description>BO - Shop Parameters - Customer Settings - Re-display cart at login Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   enable re-display cart at login Successful message is displayed   Go to FO Login with customer account
-Add product to cart and go to checkout page log out nothing is displayed in cart   Login with customer account Product added to cart is displayed in cart   Go back to BO and disable re-display cart at login Successful message is displayed    </description>
+      <description>BO - Shop Parameters - Customer Settings - Re-display cart at login Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Customer Settings Customer settings page is displayed   Re-display cart at login &amp;gt; YES &amp;gt; Save Update successful alert is displayed   Go to FO &amp;gt; Log into customer account &amp;gt; Add product to cart &amp;gt; Click Proceed to checkout &amp;gt; Click Sign out Customer is logged out</description>
     </item>
     
     <item>
@@ -1006,7 +1005,7 @@ Newly created return status is displayed in Return statuses block</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-catalog-mode.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Enable, disable catalog mode Steps    Step Description Expected result     Go to shop parameters &amp;gt; product settings page page title contains &amp;lsquo;Product Settings&amp;rsquo;   enable catalog mode Successful update message is displayed   disable show prices Successful update message is displayed   View my shop Price is not visible in FO   Go to first product product price is not visible</description>
+      <description>BO - Shop Parameters - Product Settings - Enable, disable catalog mode Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings Product Settings page is displayed   Catalog mode &amp;gt; YES &amp;gt; Save Update successful alert is displayed   disable show prices Successful update message is displayed   View my shop Price is not visible in FO   Open a product Product price is not visible</description>
     </item>
     
     <item>
@@ -1015,7 +1014,7 @@ Newly created return status is displayed in Return statuses block</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-disable-display-available-quantities.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Enable, disable display available quantities Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo;   disable display available quantities on the product page Success message is displayed   View my shop and go to first product page Quantity is not displayed in product page   enable display available quantities on the product page Success message is displayed   View my shop and go to first product page Quantity is displayed in product page    </description>
+      <description>BO - Shop Parameters - Product Settings - Enable, disable display available quantities Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Product Settings Product Settings is displayed   Display available quantities on the product page &amp;gt; NO &amp;gt; Save Update successful alert is displayed   View my shop and go to first product page Quantity is not displayed in product page   enable display available quantities on the product page Success message is displayed   View my shop and go to first product page Quantity is displayed in product page    </description>
     </item>
     
     <item>
@@ -1348,13 +1347,10 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-display-of-modal-when-adding-a-product-to-cart.html</guid>
-      <description>FO - Cart - Modal - Display of modal when adding a product to cart Steps    Step Description Expected result     on a not customizable product page
+      <description>FO - Cart - Modal - Display of modal when adding a product to cart Steps    Step Description Expected result     Go to FO&amp;gt; All products The Home page is well displayed   on a not customizable product page
 if selected quantity &amp;lt; available quantity of the product
 Click to Add to cart A modal should appear with the following information:
-* &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo;
-* Product picture
-* Product Name
-* Product unit price</description>
+* &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo;</description>
     </item>
     
     <item>
@@ -3008,7 +3004,7 @@ Number of stores after creation = total of stores + 1   Filter list by name with
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-send-an-email-after-registration.html</guid>
-      <description>BO - Shop Parameters - Customer Settings - Send an email after registration Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   disable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to &amp;lsquo;Advanced parameters &amp;gt; E-mail&amp;rsquo; page email is not present in list   go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   enable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to &amp;lsquo;Advanced parameters &amp;gt; E-mail&amp;rsquo; page email is present in list   delete customers created from BO Customers were deleted    </description>
+      <description>BO - Shop Parameters - Customer Settings - Send an email after registration Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Customer Settings Customer settings page is displayed   Send an email after registration &amp;gt; NO &amp;gt; Save Update successful alert is displayed   Go to FO &amp;gt; Click Sign in &amp;gt; Click No account? Create one here Customer is created   Go to BO &amp;gt; Advanced parameters &amp;gt; E-mail Welcome email is not present in list   Go to BO &amp;gt; Shop parameters &amp;gt; Customer Settings Customer settings page is displayed   Send an email after registration &amp;gt; YES &amp;gt; Save Successful message is displayed   Go to FO &amp;gt; Click Sign in &amp;gt; Click No account?</description>
     </item>
     
     <item>
@@ -7176,12 +7172,12 @@ total of pages should be 1</description>
     </item>
     
     <item>
-      <title>BO - International - Taxes - Sort</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-sort.html</link>
+      <title>BO - International - Taxes - Sort and pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-sort-and-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-sort.html</guid>
-      <description>BO - International - Taxes - Sort Steps    Step Description Expected result     Go to taxes page Page title contains &amp;lsquo;Taxes&amp;rsquo;   Sort by id_tax desc list is sorted by id_tax desc
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-sort-and-pagination.html</guid>
+      <description>BO - International - Taxes - Sort and pagination Steps    Step Description Expected result     Go to taxes page Page title contains &amp;lsquo;Taxes&amp;rsquo;   Sort by id_tax desc list is sorted by id_tax desc
 (3 -&amp;gt; 2 -&amp;gt; 1)   Sort by name asc list is sorted by name asc
 (a -&amp;gt; b -&amp;gt; c)   Sort by name desc list is sorted by name desc</description>
     </item>

@@ -12,8 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-re-display-cart-at-login.html</guid>
-      <description>BO - Shop Parameters - Customer Settings - Re-display cart at login Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   enable re-display cart at login Successful message is displayed   Go to FO Login with customer account
-Add product to cart and go to checkout page log out nothing is displayed in cart   Login with customer account Product added to cart is displayed in cart   Go back to BO and disable re-display cart at login Successful message is displayed    </description>
+      <description>BO - Shop Parameters - Customer Settings - Re-display cart at login Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Customer Settings Customer settings page is displayed   Re-display cart at login &amp;gt; YES &amp;gt; Save Update successful alert is displayed   Go to FO &amp;gt; Log into customer account &amp;gt; Add product to cart &amp;gt; Click Proceed to checkout &amp;gt; Click Sign out Customer is logged out</description>
     </item>
     
     <item>
@@ -22,7 +21,7 @@ Add product to cart and go to checkout page log out nothing is displayed in cart
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-send-an-email-after-registration.html</guid>
-      <description>BO - Shop Parameters - Customer Settings - Send an email after registration Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   disable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to &amp;lsquo;Advanced parameters &amp;gt; E-mail&amp;rsquo; page email is not present in list   go to &amp;lsquo;Shop parameters &amp;gt; Customer Settings&amp;rsquo; page page title contains &amp;lsquo;Customer Settings&amp;rsquo;   enable send an email after registration Successful message is displayed   Create new customer in FO Customer is created   go to &amp;lsquo;Advanced parameters &amp;gt; E-mail&amp;rsquo; page email is present in list   delete customers created from BO Customers were deleted    </description>
+      <description>BO - Shop Parameters - Customer Settings - Send an email after registration Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Customer Settings Customer settings page is displayed   Send an email after registration &amp;gt; NO &amp;gt; Save Update successful alert is displayed   Go to FO &amp;gt; Click Sign in &amp;gt; Click No account? Create one here Customer is created   Go to BO &amp;gt; Advanced parameters &amp;gt; E-mail Welcome email is not present in list   Go to BO &amp;gt; Shop parameters &amp;gt; Customer Settings Customer settings page is displayed   Send an email after registration &amp;gt; YES &amp;gt; Save Successful message is displayed   Go to FO &amp;gt; Click Sign in &amp;gt; Click No account?</description>
     </item>
     
     <item>
