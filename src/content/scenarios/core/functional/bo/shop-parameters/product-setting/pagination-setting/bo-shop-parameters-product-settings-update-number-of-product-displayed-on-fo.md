@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Product Settings - Update number of product displayed on FO (TODO)"
+title: "BO - Shop Parameters - Product Settings - Update number of product displayed on FO"
 weight: 1
 ---
 
-# BO - Shop Parameters - Product Settings - Update number of product displayed on FO (TODO)
+# BO - Shop Parameters - Product Settings - Update number of product displayed on FO
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

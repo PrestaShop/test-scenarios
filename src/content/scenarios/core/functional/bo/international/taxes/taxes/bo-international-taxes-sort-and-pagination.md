@@ -14,3 +14,8 @@ weight: 5
 | Sort by rate asc | list is sorted by rate asc<br>(1 -> 2 -> 3) |
 | Sort by rate desc | list is sorted by rate desc<br>(3 -> 2 -> 1) |
 | Sort by id_tax asc | list is sorted by id_tax asc<br>(1 -> 2 -> 3) |
+| Reset all filters | All filters are reset. All states are displayed |
+| Change the items number to 20 per page | one page is  displayed and the pagination is _Viewing 1-20 out of 32 (page 1 / 2)_ |
+| Click on next | The second page is well displayed & the pagination is _Viewing 21-32 out of 32 (page 2 / 2)_ |
+| Click on previous | The first page is well displayed and the pagination is _Viewing 21-32 out of 32 (page 2 / 2)_ |
+| Change the items number to 100 per page | Only one page is displayed  _Viewing 1-32 out of 32 (page 1 / 1)_ |

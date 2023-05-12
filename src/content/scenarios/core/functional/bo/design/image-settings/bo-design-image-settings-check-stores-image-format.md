@@ -11,7 +11,7 @@ weight: 16
 | Check the checkboxes next to Webp | The checkbox should be checked and the Webp is enabled |
 | * Go to Shop Parameters > Contact > Stores<br> * Clic on "Add new store" | * You should have all your stores <br> * You have the page to create a store |
 | * Set a store with a name, address Zip code, City, Country, Latitude / Longitude and a picture in PNG <br> * Clic on "Save" | * You should have your store with all the required field set <br> * You have a green modal and it say : "Successful update" |
-| * Go to Shop Parameters > Contact > Stores<br> * Clic on "Add new store" | * You should have all your categories <br> * You have the page to create a category |
+| * Go to Shop Parameters > Contact > Stores<br> * Clic on "Add new store" | * You should have all your stores <br> * You have the page to create a store |
 | * Set a store with a name, address Zip code, City, Country, Latitude / Longitude and a picture in JPEG <br> * Clic on "Save" | * You should have your store with all the required field set <br> * You have a green modal and it say : "Successful update" |
 | Go to your folder [yourshop]/img/st | There is no image on Webp |
 | Drag and drop [idofyour store in PNG]_stores_default.jpg on [https://www.checkfiletype.com/] | The website should say that your image is on PNG |
