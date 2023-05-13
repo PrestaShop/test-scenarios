@@ -1,9 +1,9 @@
 ---
-title: "BO - Modules - Alerts tab - Disable / Enable desktop and mobile"
+title: "BO - Modules - Alerts tab - Disable / Enable mobile"
 weight: 1
 ---
 
-# BO - Modules - Alerts tab - Disable / Enable desktop and mobile
+# BO - Modules - Alerts tab - Disable / Enable mobile
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

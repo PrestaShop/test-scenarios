@@ -23,5 +23,5 @@ weight: 1
 | Filter by Phone = +220 23 022 100 | Number of stores < total of stores<br><br>All rows column 'Phone   ' +220 23 022 100' |
 | Filter by Fax  = 74 500 600 | Number of stores < total of stores<br><br>All rows column  Fax  ' 74 500 600' |
 | Filter list by name with latest name of created store | the store  is displayed in list |
-| Click on the pen to edit the store | Page title contains : Edit testname |
-| Update the store | Message Successful update is displayed<br><br>Number of stores after creation = total of stores + 1<br><br>Filtered stores in list is still displayed with updated data |
+| On the _*Enabled*_ column>Click on icon check to edit the status | the mark check green is changed to red cross and a successful message "_The status has been successfully updated_." is dipalyed |
+| On the _*Enabled*_ column>Click on icon check to edit the status | the red cross mark is changed to check green and a successful message "_The status has been successfully updated_." is dipalyed |

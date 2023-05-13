@@ -7,19 +7,12 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO> click on  a not customizable product image | The page of the product is well displayed |
-| On page of the product> Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
-| Click on Proceed To Checkout | Page Shopping cart<br><br>Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)  = Quickview recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
-| Go to All products > choose  a not required customization product |  |
-| On a product page with not required customization<br><br>Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
-| On a product page with required text customization<br><br> <br><br>Click on "Add to cart" | "Add to cart" button should be greyed<br><br>You can't click on "Add to cart"<br><br>The mouse pointer must be different on this button (crossed-out circle logo) |
-| Add to input text 260 character | Only 250 character should be added |
-| Click to "Save Customization" | It should be written in bold under the text entry "Your cutomization: blablablablablabla...." |
-| Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
-| On a product page with required image customization<br><br> <br><br>Click on "Add to cart" | "Add to cart" button should be greyed<br><br>You can't click on "Add to cart"<br><br>The mouse pointer must be different on this button (crossed-out circle logo) |
-| Click to "Choose File" and select a .gif/.jpg/.jpeg/.jpe/.png/.webp | Name of your file should be added to the left of the button "Choose File" |
-| Click to "Save Customization" | A thumbnail of the image should be visible above the "Choose File" button<br><br>"Remove Image" should be visible to the right of the thumbnail<br><br>The name of the file should be deleted to the left of "Choose File" button<br><br>"Add to cart" button should not longer be greyed<br><br>The mouse pointer should not longer be different on the "Add to cart" button (crossed-out circle logo) |
-| Click on "Remove Image" | Thumbnail should be deleted <br><br>"Add to cart" button should be greyed<br><br>You can't click on "Add to cart"<br><br>The mouse pointer must be different on this button (crossed-out circle logo) |
-| Click to "No selected file" and select a .gif/.jpg/.jpeg/.jpe/.png/.webp | Name of your file should be added to the left of the button "Choose File" |
-| Click to "Save Customization" | A thumbnail of the image should be visible above the "Choose File" button<br><br>"Remove Image" should be visible to the right of the thumbnail<br><br>The name of the file should be deleted to the left of "Choose File" button<br><br>"Add to cart" button should not longer be greyed<br><br>The mouse pointer should not longer be different on the "Add to cart" button (crossed-out circle logo) |
-| Click on "Add to cart" | You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
+| Go to FO> click on  an existing product image | The page of the product is well displayed |
+| Click on quantity and set it to 5 | The quantity value is updated |
+| On page of the product> Click on "Add to cart" | The modal is well displayed.<br><br>You will see :<br> * "Product successfully added to your shopping cart" message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.) |
+| Click on _*Continue Shopping*_ button | The modal is gone and all product page is dispalyed |
+| Go to All products > choose  an other product and click on _*Quick view*_ button | The pop-up of the product is well displayed |
+| Put a quantity and Add to cart | The modal is well dispalyed when adding a product to cart and a successful message "_*Product successfully added to your shopping cart*_" is displayed with the quantity chosen. |
+| Click on _*PROCEED TO CHECKOUT*_ button | The _*SHOPPING CART*_ page is well displayed |
+| Edit the quantity of product in the cart | The product's quantity and price are updated. |
+| Click on product trash icon | The product is deleted from the cart. |
