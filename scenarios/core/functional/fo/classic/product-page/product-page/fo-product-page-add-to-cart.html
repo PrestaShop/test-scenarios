@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1683873187" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1683873187" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1683873187" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1683873187" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1683873187" rel="stylesheet">
-    <link href="../../../../../../../style.css?1683873187" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1683960008" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1683960008" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1683960008" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1683960008" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1683960008" rel="stylesheet">
+    <link href="../../../../../../../style.css?1683960008" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1683873187"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1683960008"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -11777,9 +11777,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-disable-enable-desktop-and-mobile.html" title="BO - Modules - Alerts tab - Disable / Enable desktop and mobile" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-disable-enable-desktop-and-mobile.html">
-        BO - Modules - Alerts tab - Disable / Enable desktop and mobile
+      <li data-nav-id="/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-disable-enable-mobile.html" title="BO - Modules - Alerts tab - Disable / Enable mobile" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-disable-enable-mobile.html">
+        BO - Modules - Alerts tab - Disable / Enable mobile
         
         </a>
     </li>
@@ -61031,68 +61031,40 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to FO&gt; click on  a not customizable product image</td>
+<td>Go to FO&gt; click on  an existing product image</td>
 <td>The page of the product is well displayed</td>
 </tr>
 <tr>
+<td>Click on quantity and set it to 5</td>
+<td>The quantity value is updated</td>
+</tr>
+<tr>
 <td>On page of the product&gt; Click on &ldquo;Add to cart&rdquo;</td>
-<td>You will see :<br> * &ldquo;Product successfully added to your shopping cart&rdquo; message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)</td>
+<td>The modal is well displayed.<br><br>You will see :<br> * &ldquo;Product successfully added to your shopping cart&rdquo; message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)</td>
 </tr>
 <tr>
-<td>Click on Proceed To Checkout</td>
-<td>Page Shopping cart<br><br>Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)  = Quickview recap of your cart (number of item, subtotal, shipping, Total(tax incl.)</td>
+<td>Click on <em><em>Continue Shopping</em></em> button</td>
+<td>The modal is gone and all product page is dispalyed</td>
 </tr>
 <tr>
-<td>Go to All products &gt; choose  a not required customization product</td>
-<td></td>
+<td>Go to All products &gt; choose  an other product and click on <em><em>Quick view</em></em> button</td>
+<td>The pop-up of the product is well displayed</td>
 </tr>
 <tr>
-<td>On a product page with not required customization<br><br>Click on &ldquo;Add to cart&rdquo;</td>
-<td>You will see :<br> * &ldquo;Product successfully added to your shopping cart&rdquo; message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)</td>
+<td>Put a quantity and Add to cart</td>
+<td>The modal is well dispalyed when adding a product to cart and a successful message &ldquo;<em><em>Product successfully added to your shopping cart</em></em>&rdquo; is displayed with the quantity chosen.</td>
 </tr>
 <tr>
-<td>On a product page with required text customization<br><br> <br><br>Click on &ldquo;Add to cart&rdquo;</td>
-<td>&ldquo;Add to cart&rdquo; button should be greyed<br><br>You can&rsquo;t click on &ldquo;Add to cart&rdquo;<br><br>The mouse pointer must be different on this button (crossed-out circle logo)</td>
+<td>Click on <em><em>PROCEED TO CHECKOUT</em></em> button</td>
+<td>The <em><em>SHOPPING CART</em></em> page is well displayed</td>
 </tr>
 <tr>
-<td>Add to input text 260 character</td>
-<td>Only 250 character should be added</td>
+<td>Edit the quantity of product in the cart</td>
+<td>The product&rsquo;s quantity and price are updated.</td>
 </tr>
 <tr>
-<td>Click to &ldquo;Save Customization&rdquo;</td>
-<td>It should be written in bold under the text entry &ldquo;Your cutomization: blablablablablabla&hellip;.&rdquo;</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Add to cart&rdquo;</td>
-<td>You will see :<br> * &ldquo;Product successfully added to your shopping cart&rdquo; message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)</td>
-</tr>
-<tr>
-<td>On a product page with required image customization<br><br> <br><br>Click on &ldquo;Add to cart&rdquo;</td>
-<td>&ldquo;Add to cart&rdquo; button should be greyed<br><br>You can&rsquo;t click on &ldquo;Add to cart&rdquo;<br><br>The mouse pointer must be different on this button (crossed-out circle logo)</td>
-</tr>
-<tr>
-<td>Click to &ldquo;Choose File&rdquo; and select a .gif/.jpg/.jpeg/.jpe/.png/.webp</td>
-<td>Name of your file should be added to the left of the button &ldquo;Choose File&rdquo;</td>
-</tr>
-<tr>
-<td>Click to &ldquo;Save Customization&rdquo;</td>
-<td>A thumbnail of the image should be visible above the &ldquo;Choose File&rdquo; button<br><br>&ldquo;Remove Image&rdquo; should be visible to the right of the thumbnail<br><br>The name of the file should be deleted to the left of &ldquo;Choose File&rdquo; button<br><br>&ldquo;Add to cart&rdquo; button should not longer be greyed<br><br>The mouse pointer should not longer be different on the &ldquo;Add to cart&rdquo; button (crossed-out circle logo)</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Remove Image&rdquo;</td>
-<td>Thumbnail should be deleted <br><br>&ldquo;Add to cart&rdquo; button should be greyed<br><br>You can&rsquo;t click on &ldquo;Add to cart&rdquo;<br><br>The mouse pointer must be different on this button (crossed-out circle logo)</td>
-</tr>
-<tr>
-<td>Click to &ldquo;No selected file&rdquo; and select a .gif/.jpg/.jpeg/.jpe/.png/.webp</td>
-<td>Name of your file should be added to the left of the button &ldquo;Choose File&rdquo;</td>
-</tr>
-<tr>
-<td>Click to &ldquo;Save Customization&rdquo;</td>
-<td>A thumbnail of the image should be visible above the &ldquo;Choose File&rdquo; button<br><br>&ldquo;Remove Image&rdquo; should be visible to the right of the thumbnail<br><br>The name of the file should be deleted to the left of &ldquo;Choose File&rdquo; button<br><br>&ldquo;Add to cart&rdquo; button should not longer be greyed<br><br>The mouse pointer should not longer be different on the &ldquo;Add to cart&rdquo; button (crossed-out circle logo)</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Add to cart&rdquo;</td>
-<td>You will see :<br> * &ldquo;Product successfully added to your shopping cart&rdquo; message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)</td>
+<td>Click on product trash icon</td>
+<td>The product is deleted from the cart.</td>
 </tr>
 </tbody>
 </table>
@@ -61101,9 +61073,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on May 11, 2023
+  Last updated on May 13, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/722325e6e2e7d7e6ff9a98b1179b38c6dd1c2124">"[Update] JIRA XRay Tests" (722325e6e2e)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/c30ebd365dbacf1c63a6c66273c86a1cc7f0e0a2">"[Update] JIRA XRay Tests" (c30ebd365db)</a>
   
 </div>
 
@@ -61124,17 +61096,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1683873188"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1683873188"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1683873188"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1683873188"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1683873188"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1683873188"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1683873188"></script>
-    <script src="../../../../../../../js/learn.js?1683873188"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1683873188"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1683960008"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1683960008"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1683960008"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1683960008"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1683960008"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1683960008"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1683960008"></script>
+    <script src="../../../../../../../js/learn.js?1683960008"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1683960008"></script>
     
-    <script src="../../../../../../../main.js?1683873188"></script>
+    <script src="../../../../../../../main.js?1683960008"></script>
     
     
 
