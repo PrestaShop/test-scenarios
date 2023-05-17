@@ -473,7 +473,7 @@
 	"title": "BO - International - Locations - Zones - Filter and Quick edit",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Locations - Zones - Filter and Quick edit Steps    Step Description Expected result     Go to International -\u0026gt;locations\u0026gt; Zones the zones page is displayed   Filter by ID\nCriteria: 1\u0026quot; Zone list is filtered\nZone lists have only \u0026ldquo;1\u0026rdquo; and nothing else in their ID   Reset all filters All filters are reset\nAll Zones are displayed   Filter by zone exemple : Africa Zone list is filtered\nzone listed have \u0026ldquo;Africa\u0026rdquo; in their zone name   Reset all filters All filters are reset\nAll Zones are displayed   Filter by Enabled set the filter :YES click on search button Zone list is filtered\nzone listed have only zones enabled .   Reset all filters All filters are reset\nAll Zones are displayed   Filter by Enabled set the filter :NO\nclick on search button Zone list is filtered\nzone listed have only zones disabled .   Reset all filters All filters are reset\nAll Zones are displayed    "
+	"content": "BO - International - Locations - Zones - Filter and Quick edit Steps    Step Description Expected result     Go to International -\u0026gt;locations\u0026gt; Zones the zones page is displayed   Filter by ID\nCriteria: 1\u0026quot; Zone list is filtered\nZone lists have only \u0026ldquo;1\u0026rdquo; and nothing else in their ID   Reset all filters All filters are reset\nAll Zones are displayed   Filter by zone exemple : Africa Zone list is filtered\nzone listed have \u0026ldquo;Africa\u0026rdquo; in their zone name   Reset all filters All filters are reset\nAll Zones are displayed   Filter by Enabled set the filter :YES click on search button Zone list is filtered\nzone listed have only zones enabled .   Reset all filters All filters are reset\nAll Zones are displayed   Filter by Enabled set the filter :NO\nclick on search button Zone list is filtered\nzone listed have only zones disabled .   Reset all filters All filters are reset\nAll Zones are displayed   Click on Edit the zones page edit is displayed   Change Name and Active and click on save \u0026ldquo;Update successful\u0026rdquo; notification\nZone page diplayed\nID 1 have \u0026ldquo;Test\u0026rdquo; as Name and is Disable   Click on Edit the zones page edit is displayed   Change Name and Active and click on save \u0026ldquo;Update successful\u0026rdquo; notification\nZone page diplayed\nID 1 have \u0026ldquo;Europe\u0026rdquo; as Name and is Enable    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/tax-rules/bo-international-tax-rules-filter-sort-and-pagination.html",
@@ -753,7 +753,7 @@
 	"title": "BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions "
+	"content": "BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions Steps    Step Description Expected result     Go to Bo \u0026gt; Shop parameters \u0026gt; Search Title page contains \u0026lsquo;Search\u0026rsquo;   Click to \u0026ldquo;Add new alias\u0026rdquo; Title page contains \u0026lsquo;Add new\u0026rsquo;   Create 19 new alias \u0026ldquo;Successful creation\u0026rdquo; notification\nYou\u0026rsquo;ve got 21 alias   Click to \u0026ldquo;Display\u0026rdquo; You\u0026rsquo;ve got 20 alias in this page and 2 pages   Click to page 2 Page 2 is displayed, you\u0026rsquo;ve got 1 alias on this page and you\u0026rsquo;ve got 2 page   Click to \u0026ldquo;Display\u0026rdquo; You\u0026rsquo;ve got 21 alias on this page and 1 page   Sort by Aliases acs table is sorted by Aliases desc (a \u0026gt; b\u0026gt; c)   Sort by Aliases desc table is sorted by Aliases desc (c \u0026gt; b\u0026gt; a)   Sort by Search acs table is sorted by Search desc (a \u0026gt; b\u0026gt; c)   Sort by Search desc table is sorted by Search desc (c \u0026gt; b\u0026gt; a)   Filter Search by Aliases Number of Search \u0026lt; Total of Search\nAll Search name contains \u0026lsquo;bloose\u0026rsquo;   Reset filter Number of search = Total of search   Filter Search by Search Number of Search \u0026lt; Total of Search\nAll Search name contains \u0026lsquo;blouse\u0026rsquo;   Reset filter Number of search = Total of search   Click to the checkbox of 3 Searches Searches checked   click to \u0026ldquo;Bulk actions\u0026rdquo; \u0026gt; \u0026ldquo;Disable selection\u0026rdquo; \u0026ldquo;The status has been successfully updated.\u0026rdquo; notification\nTheses 3 Searches are disable   Click to the checkbox of 1 Search Search checked   click to \u0026ldquo;Bulk actions\u0026rdquo; \u0026gt; \u0026ldquo;Enable selection\u0026rdquo; \u0026ldquo;The status has been successfully updated.\u0026rdquo; notification\nThis search are enable   Filter Search by Status Number of Searches \u0026lt; Total of Searches\nAll Search statuses are \u0026lsquo;Disable\u0026rsquo;   Reset filter Number of search = Total of search   Filter Search by Status Number of Searches \u0026lt; Total of Searches\nAll Search statuses are \u0026lsquo;Enable\u0026rsquo;   Reset filter Number of search = Total of search   Click on bulk actions \u0026gt; select all All searches are selected   Click on bulk actions \u0026gt; unselect all All searches are unselected   Filter by Aliases Number of Searches = 19   Click on \u0026ldquo;Bulk action\u0026rdquo; \u0026gt; \u0026ldquo;Select all\u0026rdquo; \u0026gt; \u0026ldquo;Bulk actions\u0026rdquo; \u0026gt; \u0026ldquo;Delete selected\u0026rdquo; \u0026ldquo;Delete selected items?\u0026rdquo; Modal   Click to OK \u0026ldquo;The selection has been successfully deleted\u0026rdquo; notification   Reset filter Number of searches = Total of searches (3)\n1 page, pagination is deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination.html",
@@ -3556,11 +3556,11 @@
 	"content": "BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-bulk-actions.html",
-	"title": "BO - Shop Parameters - Search - Bulk actions",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-quick-edit-statuses.html",
+	"title": "BO - Shop Parameters - Search - Quick edit statuses",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Search - Bulk actions "
+	"content": "BO - Shop Parameters - Search - Quick edit statuses "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-bulk-actions.html",
@@ -4508,11 +4508,11 @@
 	"content": "BO - Module Catalog - Discover "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-bulk-actions.html",
-	"title": "BO - Modules - Alerts tab - Bulk actions",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-connect-to-addons-market-place.html",
+	"title": "BO - Modules - Alerts tab - Connect to Addons market place",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Alerts tab - Bulk actions "
+	"content": "BO - Modules - Alerts tab - Connect to Addons market place "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-disable-enable-desktop-and-mobile.html",
@@ -4522,11 +4522,11 @@
 	"content": "BO - Modules - Disable / Enable desktop and mobile Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Set the name of a module in the search bar \u0026gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   If the searched module is already Enabled \u0026gt; click on the button Disable \u0026gt; confirm the displayed pop-up A success message contains \u0026ldquo;Disable action\u0026rdquo; should be appear   If the searched module is already Disabled \u0026gt; click on the button Enable A success message contains \u0026ldquo;Enable action\u0026rdquo; should be appear   Click on the drop-down button A list of action should be available   Choose the action Disable Mobile A success message contain \u0026ldquo;Disable mobile\u0026rdquo; should be appear   Click on the drop-down button \u0026gt; click on the action Enable mobile A success message contains \u0026ldquo;Enable mobile\u0026rdquo; should be appear    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-bulk-actions.html",
-	"title": "BO - Modules - Updates tab - Bulk actions",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-connect-to-addons-market-place.html",
+	"title": "BO - Modules - Updates tab - Connect to Addons market place",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Updates tab - Bulk actions "
+	"content": "BO - Modules - Updates tab - Connect to Addons market place "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-select-previous-cart.html",
@@ -4662,11 +4662,11 @@
 	"content": "BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links (TODO) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-quick-edit-statuses.html",
-	"title": "BO - Shop Parameters - Search - Quick edit statuses",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html",
+	"title": "BO - Shop Parameters - Search - Indexing",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Search - Quick edit statuses "
+	"content": "BO - Shop Parameters - Search - Indexing "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-enable-disable-accented-url.html",
@@ -5299,11 +5299,11 @@
 	"content": "BO - Module Catalog - Install "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-upload-a-module.html",
-	"title": "BO - Modules - Alerts tab - Upload a module",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-configure-module.html",
+	"title": "BO - Modules - Alerts tab - Configure module",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Alerts tab - Upload a module Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;alerts The module notifications page should be displayed   click on button \u0026ldquo;upload a module \u0026quot; -\u0026gt;drop any module archive (.zip) A message should be displayed \u0026ldquo;Module installed! \u0026quot;    "
+	"content": "BO - Modules - Alerts tab - Configure module Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;Alerts The module notifications page should be displayed .   Choose one of the modules to configure -\u0026gt;click on Configure button Configuration page should be displayed   Add a company name, an address and save Information should be saved\n\u0026ldquo;Setting updated\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-reset.html",
@@ -5313,11 +5313,11 @@
 	"content": "BO - Modules - Reset Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Set the name of a module in the search bar \u0026gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   Click on the drop-down button \u0026gt; Click on Reset option \u0026gt;Confirm the displayed pop-up A success message contains \u0026ldquo;Reset action\u0026rdquo; should be appear    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-upload-a-module.html",
-	"title": "BO - Modules - Updates tab - Upload a module",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-configure-module.html",
+	"title": "BO - Modules - Updates tab - Configure module",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Updates tab - Upload a module "
+	"content": "BO - Modules - Updates tab - Configure module "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html",
@@ -5432,13 +5432,6 @@
 	"content": "BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html",
-	"title": "BO - Shop Parameters - Search - Indexing",
-	"tags": [],
-	"description": "",
-	"content": "BO - Shop Parameters - Search - Indexing "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-bulk-actions.html",
 	"title": "BO - Shop Parameters - SEO &amp; URLs - Bulk actions",
 	"tags": [],
@@ -5493,6 +5486,13 @@
 	"tags": [],
 	"description": "",
 	"content": "DeleteProductWithBulkActions Steps    Step Description Expected result     Go to the Catalog \u0026gt; Products\u0026quot; page\u0026quot; Products page is displayed correctly   Reset all filters. Save number of products in a variable All products are listed in the page   Click on New product\u0026quot;. Create a simple product (check C4 step 5). Click on \u0026ldquo;Save\u0026rdquo; Product is created correctly   Go to the Catalog \u0026gt; Products\u0026quot; page\u0026quot; Products page is displayed correctly   Click on New product\u0026quot;. Create a simple product (check C4 step 5). Give it a name with a part shared with the first product. Click on \u0026ldquo;Save\u0026rdquo; Product is created correctly   Go to the Catalog \u0026gt; Products\u0026quot; page\u0026quot; Products page is displayed correctly   Filter with reference. Criteria: parts of the name shared by the two products Only two products are listed   Check both products. Click on Bulk Action \u0026gt; Delete Both products are deleted   Reset all filters All products are listed in the page. Total of products is lowered by two    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings.html",
+	"title": "Edit search settings",
+	"tags": [],
+	"description": "",
+	"content": "Edit search settings "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-category-filter-depth-field-configuration.html",
@@ -5887,11 +5887,11 @@
 	"content": "BO - Module Catalog - Configure after install "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-connect-to-addons-market-place.html",
-	"title": "BO - Modules - Alerts tab - Connect to Addons market place",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-upgrade.html",
+	"title": "BO - Modules - Alerts tab - Upgrade",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Alerts tab - Connect to Addons market place "
+	"content": "BO - Modules - Alerts tab - Upgrade Steps    Step Description Expected result     On BO \u0026gt; Improve \u0026gt; Modules \u0026gt; Module Manager The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Click on Alerts The page title should contains \u0026lsquo;Module alerts\u0026rsquo;   Choose a modules than can be upgrade Click to upgrade A modal should appear with this text:\n{color:#414a56}\u0026ldquo;Are you sure you want to upgrade this module?{color}\nWe strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026quot;\nand with three buttons:\n-Cancel\n- Go to maintenance page\n- Upgrade anyway   Click to Upgrade anyway Upgrade action on module ps_checkpayment succeeded.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-uninstall.html",
@@ -5901,11 +5901,11 @@
 	"content": "BO - Modules - Uninstall Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Set the name of a module in the search bar \u0026gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   Click on the drop-down button \u0026gt; Click on Uninstall option \u0026gt;Confirm the displayed pop-up A success message contains \u0026ldquo;uninstall action\u0026rdquo; should be appear   Check that the button Install exists next to module name     "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-connect-to-addons-market-place.html",
-	"title": "BO - Modules - Updates tab - Connect to Addons market place",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-upgrade.html",
+	"title": "BO - Modules - Updates tab - Upgrade",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Updates tab - Connect to Addons market place "
+	"content": "BO - Modules - Updates tab - Upgrade Steps    Step Description Expected result     On Bo \u0026gt; Modules \u0026gt; Modules Manager \u0026gt; Updates Module notifications Updates page displayed   If module can be upgraded \u0026ndash;\u0026gt; Click on \u0026ldquo;Upgrade\u0026rdquo; h4. \u0026ldquo;Are you sure you want to upgrade this module?\nWe strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026rdquo; Modale   Click on \u0026ldquo;Upgrade anyway\u0026rdquo; Upgrade action on \u0026ldquo;Module_Test\u0026rdquo; succeeded.\nYou can now see the \u0026ldquo;Configure button\u0026rdquo;   Refresh the page Module Test isn\u0026rsquo;t displayed on this page    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-add-a-product-to-the-cart.html",
@@ -5992,6 +5992,13 @@
 	"content": "BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO) "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-edit-weight-settings.html",
+	"title": "BO - Shop Parameters - Search - Edit weight settings",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Search - Edit weight settings "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-sort-and-pagination.html",
 	"title": "BO - Shop Parameters - SEO &amp; URLs - Sort and pagination",
 	"tags": [],
@@ -6025,13 +6032,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Create order with catalog cart rule on a product or a category Steps    Step Description Expected result          "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings.html",
-	"title": "Edit search settings",
-	"tags": [],
-	"description": "",
-	"content": "Edit search settings "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-reset-module.html",
@@ -6349,25 +6349,11 @@
 	"content": "BO - Module Catalog - Read more "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-configure-module.html",
-	"title": "BO - Modules - Alerts tab - Configure module",
-	"tags": [],
-	"description": "",
-	"content": "BO - Modules - Alerts tab - Configure module Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;Alerts The module notifications page should be displayed .   Choose one of the modules to configure -\u0026gt;click on Configure button Configuration page should be displayed   Add a company name, an address and save Information should be saved\n\u0026ldquo;Setting updated\u0026rdquo;    "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-bulk-actions.html",
 	"title": "BO - Modules - Bulk actions",
 	"tags": [],
 	"description": "",
 	"content": "BO - Modules - Bulk actions Steps    Step Description Expected result     Login in BO \u0026gt; Go to modules manager page The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Check that the Bulk action section is Disabled    Select module form the displayed modules list Check that the bulk actions is enabled   Click on the bulk actions section \u0026gt; and check that the : i\nnstall / uninstall / disable / enable / reset / enable mobile / disable mobile , options are exists The options list of the section bulk actions is well checked !   Choose an aoption from the displayed list \u0026gt; confirm the displayed pop-up\nExamle : click on Disable action A success messages contains \u0026ldquo;Disable action on module \u0026quot; .. should be appear    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-configure-module.html",
-	"title": "BO - Modules - Updates tab - Configure module",
-	"tags": [],
-	"description": "",
-	"content": "BO - Modules - Updates tab - Configure module "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-search-add-remove-a-voucher.html",
@@ -6424,13 +6410,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Default pack stock management "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-edit-weight-settings.html",
-	"title": "BO - Shop Parameters - Search - Edit weight settings",
-	"tags": [],
-	"description": "",
-	"content": "BO - Shop Parameters - Search - Edit weight settings "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-set-up-urls.html",
@@ -6669,20 +6648,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Module Catalog - Upload module "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-upgrade.html",
-	"title": "BO - Modules - Alerts tab - Upgrade",
-	"tags": [],
-	"description": "",
-	"content": "BO - Modules - Alerts tab - Upgrade Steps    Step Description Expected result     On BO \u0026gt; Improve \u0026gt; Modules \u0026gt; Module Manager The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Click on Alerts The page title should contains \u0026lsquo;Module alerts\u0026rsquo;   Choose a modules than can be upgrade Click to upgrade A modal should appear with this text:\n{color:#414a56}\u0026ldquo;Are you sure you want to upgrade this module?{color}\nWe strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026quot;\nand with three buttons:\n-Cancel\n- Go to maintenance page\n- Upgrade anyway   Click to Upgrade anyway Upgrade action on module ps_checkpayment succeeded.    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-upgrade.html",
-	"title": "BO - Modules - Updates tab - Upgrade",
-	"tags": [],
-	"description": "",
-	"content": "BO - Modules - Updates tab - Upgrade "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upload-a-module.html",
@@ -7634,7 +7599,7 @@
 	"title": "Alerts",
 	"tags": [],
 	"description": "",
-	"content": "Alerts Tests  BO - Modules - Alerts tab - Disable / Enable mobile   BO - Modules - Alerts tab - Reset   BO - Modules - Alerts tab - Uninstall   BO - Modules - Alerts tab - Bulk actions   BO - Modules - Alerts tab - Upload a module   BO - Modules - Alerts tab - Connect to Addons market place   BO - Modules - Alerts tab - Configure module   BO - Modules - Alerts tab - Upgrade   "
+	"content": "Alerts Tests  BO - Modules - Alerts tab - Disable / Enable mobile   BO - Modules - Alerts tab - Reset   BO - Modules - Alerts tab - Uninstall   BO - Modules - Alerts tab - Connect to Addons market place   BO - Modules - Alerts tab - Configure module   BO - Modules - Alerts tab - Upgrade   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/api.html",
@@ -9790,7 +9755,7 @@
 	"title": "Search",
 	"tags": [],
 	"description": "",
-	"content": "Search Categories  Edit Search Settings   Tests  BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions   BO - Shop Parameters - Search - CRUD   BO - Shop Parameters - Search - Bulk actions   BO - Shop Parameters - Search - Quick edit statuses   BO - Shop Parameters - Search - Indexing   Edit search settings   BO - Shop Parameters - Search - Edit weight settings   "
+	"content": "Search Categories  Edit Search Settings   Tests  BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions   BO - Shop Parameters - Search - CRUD   BO - Shop Parameters - Search - Quick edit statuses   BO - Shop Parameters - Search - Indexing   Edit search settings   BO - Shop Parameters - Search - Edit weight settings   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search.html",
@@ -10126,7 +10091,7 @@
 	"title": "Updates",
 	"tags": [],
 	"description": "",
-	"content": "Updates Tests  BO - Modules - Updates tab - Disable / Enable desktop and mobile   BO - Modules - Updates tab - Reset   BO - Modules - Updates tab - Uninstall   BO - Modules - Updates tab - Bulk actions   BO - Modules - Updates tab - Upload a module   BO - Modules - Updates tab - Connect to Addons market place   BO - Modules - Updates tab - Configure module   BO - Modules - Updates tab - Upgrade   "
+	"content": "Updates Tests  BO - Modules - Updates tab - Disable / Enable desktop and mobile   BO - Modules - Updates tab - Reset   BO - Modules - Updates tab - Uninstall   BO - Modules - Updates tab - Connect to Addons market place   BO - Modules - Updates tab - Configure module   BO - Modules - Updates tab - Upgrade   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/upgrade.html",
