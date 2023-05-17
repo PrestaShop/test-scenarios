@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Updates tab - Configure module"
-weight: 7
+weight: 5
 ---
 
 # BO - Modules - Updates tab - Configure module

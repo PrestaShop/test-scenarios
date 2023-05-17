@@ -1,6 +1,6 @@
 ---
 title: "Edit search settings"
-weight: 6
+weight: 5
 ---
 
 # Edit search settings

@@ -16,3 +16,7 @@ weight: 1
 | Reset all filters | All filters are reset<br>All Zones are displayed |
 | Filter by Enabled <br><br>set the filter :NO<br><br>click on search button | Zone list is filtered<br>zone listed have only zones disabled . |
 | Reset all filters | All filters are reset<br>All Zones are displayed |
+| Click on Edit | the zones page edit is displayed |
+| Change Name and Active and click on save | "Update successful" notification<br><br>Zone page diplayed<br><br>ID 1 have "Test" as Name and is Disable |
+| Click on Edit | the zones page edit is displayed |
+| Change Name and Active and click on save | "Update successful" notification<br><br>Zone page diplayed<br><br>ID 1 have "Europe" as Name and is Enable |
