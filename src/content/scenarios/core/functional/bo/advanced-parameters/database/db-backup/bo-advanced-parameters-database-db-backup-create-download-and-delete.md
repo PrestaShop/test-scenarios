@@ -10,6 +10,6 @@ weight: 1
 | go to database > sql manager page | title contains 'SQL Manager' |
 | go to db backup page | title contains 'DB Backup' |
 | get number of db backups | number of backups = 0 |
-| generate new db backup | Successful message is displayed<br>number of backups = 1 |
+| Click on "I have read the disclaimer , Please create a new backup " | Successful message is displayed ="<br>It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.<br> "<br><br>number of backups = 1 |
 | get name of backup generated and Download it (by clicking on it) | File with correct name exist in your download directory |
-| delete backup from table (with drop down button) | successful message is displayed<br>number of backups = 0 |
+| delete backup from table (with drop down button) | successful message is displayed "Successful deletion"<br><br><br>number of backups = 0 |
