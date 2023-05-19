@@ -109,7 +109,7 @@
 	"title": "BO - Advanced Parameters - Database - DB Backup - Create, Download and Delete",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced Parameters - Database - DB Backup - Create, Download and Delete Steps    Step Description Expected result     go to database \u0026gt; sql manager page title contains \u0026lsquo;SQL Manager\u0026rsquo;   go to db backup page title contains \u0026lsquo;DB Backup\u0026rsquo;   get number of db backups number of backups = 0   generate new db backup Successful message is displayed\nnumber of backups = 1   get name of backup generated and Download it (by clicking on it) File with correct name exist in your download directory   delete backup from table (with drop down button) successful message is displayed\nnumber of backups = 0    "
+	"content": "BO - Advanced Parameters - Database - DB Backup - Create, Download and Delete Steps    Step Description Expected result     go to database \u0026gt; sql manager page title contains \u0026lsquo;SQL Manager\u0026rsquo;   go to db backup page title contains \u0026lsquo;DB Backup\u0026rsquo;   get number of db backups number of backups = 0   Click on \u0026ldquo;I have read the disclaimer , Please create a new backup \u0026quot; Successful message is displayed =\u0026quot;\nIt appears the backup was successful, however you must download and carefully verify the backup file before proceeding.\n\u0026ldquo;\nnumber of backups = 1   get name of backup generated and Download it (by clicking on it) File with correct name exist in your download directory   delete backup from table (with drop down button) successful message is displayed \u0026ldquo;Successful deletion\u0026rdquo;\nnumber of backups = 0    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-crud.html",
@@ -1684,7 +1684,7 @@
 	"title": "BO - Advanced Parameters - Database - DB Backup - Bulk Delete",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced Parameters - Database - DB Backup - Bulk Delete Steps    Step Description Expected result     go to database \u0026gt; sql manager page title contains \u0026lsquo;SQL Manager\u0026rsquo;   go to db backup page title contains \u0026lsquo;DB Backup\u0026rsquo;   get number of db backups number of backups = 0   generate new db backup Successful message is displayed\nnumber of backups = 1   generate new db backup Successful message is displayed\nnumber of backups = 2   Select all backups and delete them with bulk actions Successful message is displayed\nnumber of backups = 0    "
+	"content": "BO - Advanced Parameters - Database - DB Backup - Bulk Delete Steps    Step Description Expected result     go to database \u0026gt; sql manager page title contains \u0026lsquo;SQL Manager\u0026rsquo;   go to db backup page title contains \u0026lsquo;DB Backup\u0026rsquo;   get number of db backups number of backups = 0   Click on \u0026ldquo;I have read the declaimer .Please generate new db backup \u0026quot; Successful message is displayed\nnumber of backups = 1   generate new db backup Successful message is displayed\nnumber of backups = 2   Select all backups and delete them with bulk actions Successful message is displayed\nnumber of backups = 0    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-export.html",
