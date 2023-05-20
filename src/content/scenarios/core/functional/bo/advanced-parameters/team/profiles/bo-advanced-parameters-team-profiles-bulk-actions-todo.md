@@ -8,6 +8,6 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Advanced parameters > Team > Profiles | Profile page is displayed |
-| create profile<br>Criteria :<br>name: testname | Successful  creation message is displayed<br>Number of profiles = Total of profiles + 1 |
-| reset filter | Total of profiles after reset = Total of profiles |
-| Select  the new profile created and  delete it with Bulk  actions >click on Delete | Successful deletion<br><br>Total of profiles after reset = Total of profiles |
+| Click Add new profile > Save | Successful creation alert is displayed<br>Number of profiles = Total of profiles + 1 |
+| Select the new profile created > Click Bulk actions > Delete selected > Delete | Successful deletion alert is displayed<br><br>Total of profiles after reset = Total of profiles |
+| Select all Profiles > Bulk Action > Delete selected > Delete | "You cannot delete your own profile" alert is displayed |
