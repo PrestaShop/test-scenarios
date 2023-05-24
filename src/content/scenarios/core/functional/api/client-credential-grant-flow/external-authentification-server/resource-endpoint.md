@@ -10,7 +10,6 @@ weight: 2
 | Request the endpoint /admin-dev/new-api/hook-status/1 without access token | * Receive a response where the HTTP Code is 401<br> * Receive a response where the Header 'WWW-Authenticate: Bearer' |
 | Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token | * Receive a response where the HTTP Code is 401<br> * Receive a response where the Header 'WWW-Authenticate: Bearer' |
 | Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token | * Receive a response where the HTTP Code is 401<br> * Receive a response where the Header 'WWW-Authenticate: Bearer' |
-| Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token | * Receive a response where the HTTP Code is 401<br> * Receive a response where the Header 'WWW-Authenticate: Bearer' |
 | Request the endpoint /admin-dev/new-api/feature_flags without access token  using a GET method | * Receive a response where the HTTP Code is 401 |
 | Install this module on PrestaShop (see attachment) <br><br>Request the endpoint /admin-dev/new-api/feature_flags with an invalid access token using a GET method | * Receive a response where the HTTP Code is 401 |
 | Install this module on PrestaShop (See attachement)<br><br>Request the endpoint /admin-dev/new-api/feature_flags with a valid but expired access token  using a GET method | * Receive a response where the HTTP Code is 401 |
