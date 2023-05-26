@@ -14,5 +14,4 @@ weight: 3
 | * Clic on "Have a promo code ? "<br> * Write "reduc" on the new field <br> * Clic on "Add" button | * A new field should be displayed<br> * the field should have what you writted<br> * You should have a red message with "This voucher is already in your cart" |
 | * Write "reduction" on the field for promo code <br> * Clic on "Add" button | * the field should have what you writted<br> * You should have a red message with "This voucher does not exist." |
 | * Erase all what you writted in the field for promo code <br> * Clic on "Add" button | * the field should have what you writted<br> * You should have a red message with "You must enter a voucher code." |
-| Clic on the dustbin next to the price of your "reduction" | * The line reduction and you reduction shouldn't be displayed <br> * You have the grey message : " Take advantage of our exclusive offers: " and your promo code with is name below |
-| * Clic on the Promo code in orange <br> * Clic on "Add" button | * A new field should be displayed and the field should have the promo code writted<br> * The name of your cart rules  should be add after the total and there is a new line named "Discount(s)" |
+| Delete promo code in BO |  |
