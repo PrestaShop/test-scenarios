@@ -613,7 +613,7 @@
 	"title": "BO - Payments - Preferences - Edit Currency restrictions",
 	"tags": [],
 	"description": "",
-	"content": "BO - Payments - Preferences - Edit Currency restrictions Steps    Step Description Expected result     Go to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Block Currency restrictions Currency restrictions block is displayed\nCurrency Euro is checked   Go to BO \u0026gt; International \u0026gt; Localization \u0026gt; Currencies \u0026gt; Add new currency \u0026gt; Select an existing currency (Azerbaijani Manat (AZN)) \u0026gt; Save Successful creation message is displayed   Go back to BO \u0026gt; Payment \u0026gt; Preferences See Azerbaijani Manat (AZN) is available and not checked   Go to FO \u0026gt; Change Currency to Azerbaijani Manat (AZN) \u0026gt; Add product to cart \u0026gt; Proceed to checkout In Step 4 - Payment, See alert : Unfortunately, there is no payment method available.   Go back to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Check Bank Transfer for Azerbaijani Manat (AZN) \u0026gt; Save Message Successful update is displayed   Go back to FO \u0026gt; Refresh \u0026gt; Check Pay by bank wire Order can be placed   Go back to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Uncheck Bank Transfer and COD for Euro Message Successful update is displayed   Go back to Homepage FO \u0026gt; Change currency to Euro \u0026gt; Add product to cart \u0026gt; Proceed to checkout Until Step 4 In step 4, only Payment by check is available   Go back to BO \u0026gt; Check all boxed to make all currency available for every payment \u0026gt; Save Message Successful update is displayed    "
+	"content": "BO - Payments - Preferences - Edit Currency restrictions Steps    Step Description Expected result     Go to BO \u0026gt; International \u0026gt; Localization \u0026gt; Currencies \u0026gt; Add new currency \u0026gt; Select an existing currency (Azerbaijani Manat (AZN)) \u0026gt; Save Successful creation message is displayed   Go to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Block Currency restrictions Currency restrictions block is displayed\nCurrency Euro is checked\nSee Azerbaijani Manat (AZN) is available and not checked   Go to FO \u0026gt; Change Currency to Azerbaijani Manat (AZN) \u0026gt; Add product to cart \u0026gt; Proceed to checkout In Step 4 - Payment, See alert : Unfortunately, there is no payment method available.   Go back to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Check Bank Transfer for Azerbaijani Manat (AZN) \u0026gt; Save Message Successful update is displayed   Go back to FO \u0026gt; Refresh \u0026gt; Check Pay by bank wire Order can be placed   Go back to BO \u0026gt; Payment \u0026gt; Preferences \u0026gt; Uncheck Bank Transfer and COD for Euro Message Successful update is displayed   Go back to Homepage FO \u0026gt; Change currency to Euro \u0026gt; Add product to cart \u0026gt; Proceed to checkout Until Step 4 In step 4, only Payment by check is available   Go back to BO \u0026gt; Check all boxed to make all currency available for every payment \u0026gt; Save Message Successful update is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-search-within-word.html",
@@ -3052,11 +3052,11 @@
 	"content": "BO - Advanced parameters - Team - Employees - Bulk Actions (TODO) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-bulk-actions-todo.html",
-	"title": "BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-bulk-actions.html",
+	"title": "BO - Advanced parameters - Team - Profiles - Bulk Actions",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO) Steps    Step Description Expected result     Go to BO \u0026gt; Advanced parameters \u0026gt; Team \u0026gt; Profiles Profile page is displayed   Click Add new profile \u0026gt; Save Successful creation alert is displayed\nNumber of profiles = Total of profiles + 1   Select the new profile created \u0026gt; Click Bulk actions \u0026gt; Delete selected \u0026gt; Delete Successful deletion alert is displayed\nTotal of profiles after reset = Total of profiles   Select all Profiles \u0026gt; Bulk Action \u0026gt; Delete selected \u0026gt; Delete \u0026ldquo;You cannot delete your own profile\u0026rdquo; alert is displayed    "
+	"content": "BO - Advanced parameters - Team - Profiles - Bulk Actions Steps    Step Description Expected result     Go to BO \u0026gt; Advanced parameters \u0026gt; Team \u0026gt; Profiles Profile page is displayed   Click Add new profile \u0026gt; Save Successful creation alert is displayed\nNumber of profiles = Total of profiles + 1   Select the new profile created \u0026gt; Click Bulk actions \u0026gt; Delete selected \u0026gt; Delete Successful deletion alert is displayed\nTotal of profiles after reset = Total of profiles   Select all Profiles \u0026gt; Bulk Action \u0026gt; Delete selected \u0026gt; Delete \u0026ldquo;You cannot delete your own profile\u0026rdquo; alert is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-bulk-actions.html",
@@ -9524,7 +9524,7 @@
 	"title": "Profiles",
 	"tags": [],
 	"description": "",
-	"content": "Profiles Tests  BO - Advanced parameters - Team - Profiles - Filter   BO - Advanced parameters - Team - Profiles - CRUD   BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO)   BO - Advanced parameters - Team - Profiles - Sort pagination   BO - Advanced parameters - Team - Profiles - Help card   "
+	"content": "Profiles Tests  BO - Advanced parameters - Team - Profiles - Filter   BO - Advanced parameters - Team - Profiles - CRUD   BO - Advanced parameters - Team - Profiles - Bulk Actions   BO - Advanced parameters - Team - Profiles - Sort pagination   BO - Advanced parameters - Team - Profiles - Help card   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-banner.html",
