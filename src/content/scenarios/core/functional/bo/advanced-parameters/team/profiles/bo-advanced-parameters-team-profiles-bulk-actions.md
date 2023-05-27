@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO)"
+title: "BO - Advanced parameters - Team - Profiles - Bulk Actions"
 weight: 3
 ---
 
-# BO - Advanced parameters - Team - Profiles - Bulk Actions (TODO)
+# BO - Advanced parameters - Team - Profiles - Bulk Actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
