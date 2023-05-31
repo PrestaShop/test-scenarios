@@ -700,18 +700,18 @@
 	"content": "BO - Shop Parameters - Order Settings - Enable / disable final summary (TODO) "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-statuses-create-a-new-order-return-status.html",
-	"title": "BO - Shop Parameters - Order Statuses - Create a new order return status",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-crud.html",
+	"title": "BO - Shop Parameters - Order Statuses - CRUD",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Order Statuses - Create a new order return status Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Tab Statuses Page titles contains \u0026ldquo;Statuses\u0026rdquo;   Click on the \u0026ldquo;Add new order return status\u0026rdquo; Page title contains \u0026ldquo;Return status\u0026rdquo;   Fill all fields \u0026gt; Save Message Successful creation is displayed\nNewly created return status is displayed in Return statuses block\nLatest Order status can be Checked, Edited and Deleted    "
+	"content": "BO - Shop Parameters - Order Statuses - CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Go to Statuses tab Page title contains \u0026ldquo;Statuses\u0026rdquo;   Click on the \u0026ldquo;Add new order status\u0026rdquo; Add new Order status page is displayed   Fill all fields \u0026gt; Save Message Successful creation is displayed\nNewly created order status is displayed in Statuses block\nLatest Order status can be Checked, Edited and Deleted   Choose the new status added and click on Edit button The page Edit is displayed   Edit Status name, icon and color and click on save The page Status is displayed automatically and a Successful update message is displayed   Choose the new status added and click dropdown button and choose the Delete button A popup message is appeare :\nDelete selected item?\nName: Status name_tested   Click on Yes The status is deleted    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-create-a-new-order-status.html",
-	"title": "BO - Shop Parameters - Order Statuses - Create a new order status",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-statuses-crud-order-return-status.html",
+	"title": "BO - Shop Parameters - Order Statuses - CRUD order return status",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Order Statuses - Create a new order status Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Go to Statuses tab Page title contains \u0026ldquo;Statuses\u0026rdquo;   Click on the \u0026ldquo;Add new order status\u0026rdquo; Add new Order status page is displayed   Fill all fields \u0026gt; Save Message Successful creation is displayed\nNewly created order status is displayed in Statuses block\nLatest Order status can be Checked, Edited and Deleted    "
+	"content": "BO - Shop Parameters - Order Statuses - CRUD order return status Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Tab Statuses Page titles contains \u0026ldquo;Statuses\u0026rdquo;   Click on the \u0026ldquo;Add new order return status\u0026rdquo; Page title contains \u0026ldquo;Return status\u0026rdquo;   Fill all fields \u0026gt; Save The page Status is displayed automatically and a Successful creation message is displayed   Choose the new status added and click on Edit button The page Edit is displayed   Edit Status name, icon and color and click on save The page Status is displayed automatically and a Successful update message is displayed   Choose the new status added and click dropdown button and choose the Delete button A popup message is appeare :\nDelete selected item?\nName: Status name_tested   Click on Yes The status is deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-sort-and-pagination-order-status-and-order-return-status.html",
@@ -2188,7 +2188,7 @@
 	"title": "BO - Shop Parameters - Contacts - Stores - CRUD",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Contacts - Stores - CRUD Steps    Step Description Expected result     Go to Shop Parameters -\u0026gt;Contact -\u0026gt;Stores The stores page is displayed   Click on add new store Add new store is displayed correctly   Fill all information -\u0026gt; click on save New store is saved correctly.\nMessage is displayed \u0026ldquo;Successful creation\u0026rdquo;\nRedirection to store page\nNumber of stores after creation = total of stores + 1   Filter list by name with latest name of created store the store is displayed in list   click on the drop down button \u0026gt;Delete \u0026gt;click on the popup message \u0026lsquo;yes\u0026rsquo; Message Successful deletion is displayed    "
+	"content": "BO - Shop Parameters - Contacts - Stores - CRUD Steps    Step Description Expected result     Go to Shop Parameters -\u0026gt;Contact -\u0026gt;Stores The stores page is displayed   Click on add new store Add new store is displayed correctly   Fill all information -\u0026gt; click on save New store is saved correctly.\nMessage is displayed \u0026ldquo;Successful creation\u0026rdquo;\nRedirection to store page\nNumber of stores after creation = total of stores + 1   Click on Edit button of the last created Store The page Edit is displayed   Edit name, Adress and City and click on save The page Store is displayed with Successful update message   Filter list by name with latest name of created store the store is displayed in list   click on the drop down button \u0026gt;Delete \u0026gt;click on the popup message \u0026lsquo;yes\u0026rsquo; Message Successful deletion is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-crud.html",
@@ -2209,7 +2209,7 @@
 	"title": "BO - Shop parameters - Customer Settings - Titles - CRUD",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop parameters - Customer Settings - Titles - CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings \u0026gt; Titles Tab Title page is displayed   Click on Add new social title Title creation page is displayed   Fill all fields \u0026gt; Click on Save Alert Successful creation is displayed   Click on Add new social title \u0026gt; Add an image \u0026gt; Click on Save See the error message The field name is required at least in English (English). is displayed   Add a title \u0026gt; Click on Save Alert Successful creation is displayed   Click on Edit for the last created Title \u0026gt; Edit the Social Title \u0026gt; Edit the Gender \u0026gt; Click on Save Alert Successful update is displayed   For the last 2 created Social titles : Click On Delete with the dropdown \u0026gt; Yes Alert Successful deletion is displayed    "
+	"content": "BO - Shop parameters - Customer Settings - Titles - CRUD Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings \u0026gt; Titles Tab Title page is displayed   Click on Add new social title Title creation page is displayed   Fill all fields \u0026gt; Click on Save Alert Successful creation is displayed   Click on Edit for the last created Title \u0026gt; Edit the Social Title \u0026gt; Edit the Gender \u0026gt; Click on Save Alert Successful update is displayed   For the last 2 created Social titles : Click On Delete with the dropdown \u0026gt; Yes Alert Successful deletion is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html",
@@ -3336,7 +3336,7 @@
 	"title": "BO - International - Locations - Zones - Bulk actions",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Locations - Zones - Bulk actions Steps    Step Description Expected result     Go to International -\u0026gt;locations\u0026gt; Zones the zones page is displayed   Check a zone with ID \u0026ldquo;1\u0026rdquo;-\u0026gt; click on Disable selection The status has been successfully updated.\nthe zone is well disabled   Check a zone with ID\u0026quot;1\u0026quot; -\u0026gt;click on Enable selection The status has been successfully updated.\nthe zone is well enabled   Check a zone with ID\u0026quot;1\u0026quot; -\u0026gt;click on Delete selection A modale should appear : h4. Delete selection\nAre you sure you want to delete the selected item(s)?   Click on Delete The selection has been successfully deleted The zone is well deleted    "
+	"content": "BO - International - Locations - Zones - Bulk actions Steps    Step Description Expected result     Go to International -\u0026gt;locations\u0026gt; Zones the zones page is displayed   Check the new zone added with ID \u0026ldquo;9\u0026rdquo; and ID \u0026ldquo;10\u0026rdquo; -\u0026gt; click on Disable selection The status has been successfully updated.\nthe zone is well disabled   Check the new zone added with ID \u0026ldquo;9\u0026rdquo; and ID \u0026ldquo;10\u0026rdquo; -\u0026gt; click on Disable selection The status has been successfully updated.\nthe zone is well enabled   Check the new zone added with ID \u0026ldquo;9\u0026rdquo; and ID \u0026ldquo;10\u0026rdquo; -\u0026gt; click on Disable selection A modale should appear : h4. Delete selection\nAre you sure you want to delete the selected item(s)?   Click on Delete The selection has been successfully deleted The zone is well deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/tax-rules/bo-international-tax-rules-crud.html",
@@ -9727,7 +9727,7 @@
 	"title": "Return statuses",
 	"tags": [],
 	"description": "",
-	"content": "Return statuses Tests  BO - Shop Parameters - Order Statuses - Create a new order return status   "
+	"content": "Return statuses Tests  BO - Shop Parameters - Order Statuses - CRUD order return status   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity.html",
@@ -9979,7 +9979,7 @@
 	"title": "Statuses",
 	"tags": [],
 	"description": "",
-	"content": "Statuses Tests  BO - Shop Parameters - Order Statuses - Create a new order status   "
+	"content": "Statuses Tests  BO - Shop Parameters - Order Statuses - CRUD   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks.html",
