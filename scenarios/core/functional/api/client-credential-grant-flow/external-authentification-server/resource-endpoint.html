@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1685514866" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1685514866" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1685514866" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1685514866" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1685514866" rel="stylesheet">
-    <link href="../../../../../../style.css?1685514866" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1685601289" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1685601289" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1685601289" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1685601289" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1685601289" rel="stylesheet">
+    <link href="../../../../../../style.css?1685601289" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1685514866"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1685601289"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -60845,6 +60845,34 @@
 </thead>
 <tbody>
 <tr>
+<td>Login in BO &gt; Go to modules manager page</td>
+<td>* The page title should contains &lsquo;Module manager&rsquo;<br>Check that the button <em>upload module</em> exist in the header of the page</td>
+</tr>
+<tr>
+<td>Click on the button Upload module</td>
+<td>A pop-up contains <em>&lsquo;Drop your module archive here or select file</em>&rsquo; appears</td>
+</tr>
+<tr>
+<td>Drop the module &ldquo;Keycloak Connector Demo&rdquo; you want to install</td>
+<td>The installing process begins &gt; a sucess message should appears</td>
+</tr>
+<tr>
+<td>Check that the module is well installed and exist in the list of modules</td>
+<td></td>
+</tr>
+<tr>
+<td>Click on the button configure</td>
+<td>The page title should contains &lsquo;Configure ' and the page sub-title should contains the  module&rsquo;s name</td>
+</tr>
+<tr>
+<td>Define the Keycloak realm endpoint (for example <em>http://127.0.0.1:8003/realms/master</em>)<br>Click on Save</td>
+<td>* The configuration page is refreshed<br> * The success message &ldquo;Successful update&rdquo; is well displayed</td>
+</tr>
+<tr>
+<td>Request [http://localhost:8080/realms/master/protocol/openid-connect/token] using POST data</td>
+<td>Return the access token by Keycloak</td>
+</tr>
+<tr>
 <td>Request the endpoint /admin-dev/new-api/hook-status/1 without access token</td>
 <td>* Receive a response where the HTTP Code is 401<br> * Receive a response where the Header &lsquo;WWW-Authenticate: Bearer&rsquo;</td>
 </tr>
@@ -60853,24 +60881,12 @@
 <td>* Receive a response where the HTTP Code is 401<br> * Receive a response where the Header &lsquo;WWW-Authenticate: Bearer&rsquo;</td>
 </tr>
 <tr>
-<td>Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token</td>
+<td>Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token from Keycloak</td>
 <td>* Receive a response where the HTTP Code is 401<br> * Receive a response where the Header &lsquo;WWW-Authenticate: Bearer&rsquo;</td>
 </tr>
 <tr>
-<td>Request the endpoint /admin-dev/new-api/feature_flags without access token  using a GET method</td>
-<td>* Receive a response where the HTTP Code is 401</td>
-</tr>
-<tr>
-<td>Install this module on PrestaShop (see attachment) <br><br>Request the endpoint /admin-dev/new-api/feature_flags with an invalid access token using a GET method</td>
-<td>* Receive a response where the HTTP Code is 401</td>
-</tr>
-<tr>
-<td>Install this module on PrestaShop (See attachement)<br><br>Request the endpoint /admin-dev/new-api/feature_flags with a valid but expired access token  using a GET method</td>
-<td>* Receive a response where the HTTP Code is 401</td>
-</tr>
-<tr>
-<td>Install this module on PrestaShop (See attachement)<br><br>Request the endpoint /admin-dev/new-api/feature_flags with a valid access token  using a GET method</td>
-<td>* Receive a response where the HTTP Code is 200<br> * Receive a response in JSON<br> * [ {&ldquo;id&rdquo;: 1,&ldquo;name&rdquo;: &ldquo;product_page_v2&rdquo;,&ldquo;enabled&rdquo;: false,&ldquo;labelWording&rdquo;: &ldquo;New product page - Single store&rdquo;,&ldquo;labelDomain&rdquo;: &ldquo;Admin.Advparameters.Feature&rdquo;,&ldquo;descriptionWording&rdquo;: &ldquo;This page benefits from increased performance and includes new features such as a new combination management system.&rdquo;,&ldquo;descriptionDomain&rdquo;: &ldquo;Admin.Advparameters.Help&rdquo;,&ldquo;stability&rdquo;: &ldquo;beta&rdquo;},<br>{&ldquo;id&rdquo;: 2,&ldquo;name&rdquo;: &ldquo;product_page_v2_multi_shop&rdquo;,&ldquo;enabled&rdquo;: false,&ldquo;labelWording&rdquo;: &ldquo;New product page - Multi store&rdquo;,&ldquo;labelDomain&rdquo;: &ldquo;Admin.Advparameters.Feature&rdquo;,&ldquo;descriptionWording&rdquo;: &ldquo;Access the new product page, even in a multistore context. This is a work in progress and some features are not available.&rdquo;,&ldquo;descriptionDomain&rdquo;: &ldquo;Admin.Advparameters.Help&rdquo;,&ldquo;stability&rdquo;: &ldquo;beta&rdquo;}<br>]</td>
+<td>Request the endpoint /admin-dev/new-api/hook-status/1 with a valid token from Keycloak</td>
+<td>* Receive a response where the HTTP Code is 200<br> * Receive a response in JSON<br> * Receive a response which contains the id of the hook and if it’s active (true / false)</td>
 </tr>
 </tbody>
 </table>
@@ -60879,9 +60895,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on May 27, 2023
+  Last updated on June 1, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/4f9bf1853f915d044939cb47ae430066927c03bd">"[Update] JIRA XRay Tests" (4f9bf1853f9)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/40a6964a84db35b7f1fff8a2b77643d3c0c118bd">"[Update] JIRA XRay Tests" (40a6964a84d)</a>
   
 </div>
 
@@ -60902,17 +60918,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1685514866"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1685514866"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1685514866"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1685514866"></script>
-    <script src="../../../../../../js/featherlight.min.js?1685514866"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1685514866"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1685514866"></script>
-    <script src="../../../../../../js/learn.js?1685514866"></script>
-    <script src="../../../../../../js/hugo-learn.js?1685514866"></script>
+    <script src="../../../../../../js/clipboard.min.js?1685601289"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1685601289"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1685601289"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1685601289"></script>
+    <script src="../../../../../../js/featherlight.min.js?1685601289"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1685601289"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1685601289"></script>
+    <script src="../../../../../../js/learn.js?1685601289"></script>
+    <script src="../../../../../../js/hugo-learn.js?1685601289"></script>
     
-    <script src="../../../../../../main.js?1685514866"></script>
+    <script src="../../../../../../main.js?1685601289"></script>
     
     
 

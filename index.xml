@@ -3948,9 +3948,8 @@ Click on it, a new page for Twitter site is open    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/resource-endpoint.html</guid>
-      <description>Resource Endpoint Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without access token * Receive a response where the HTTP Code is 401
-* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;   Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token * Receive a response where the HTTP Code is 401
-* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo;   Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token * Receive a response where the HTTP Code is 401</description>
+      <description>Resource Endpoint Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page * The page title should contains &amp;lsquo;Module manager&amp;rsquo;
+Check that the button upload module exist in the header of the page   Click on the button Upload module A pop-up contains &amp;lsquo;Drop your module archive here or select file&amp;rsquo; appears   Drop the module &amp;ldquo;Keycloak Connector Demo&amp;rdquo; you want to install The installing process begins &amp;gt; a sucess message should appears   Check that the module is well installed and exist in the list of modules    Click on the button configure The page title should contains &amp;lsquo;Configure &#39; and the page sub-title should contains the module&amp;rsquo;s name   Define the Keycloak realm endpoint (for example http://127.</description>
     </item>
     
     <item>
