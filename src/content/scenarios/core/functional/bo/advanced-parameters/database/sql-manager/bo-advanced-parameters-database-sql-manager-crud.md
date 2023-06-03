@@ -12,3 +12,4 @@ weight: 1
 | add a SQL query name and SQL query | SQL Manager page is well displayed<br><br>Successful message is displayed .<br><br>the SQL Manager table is empty +1 |
 | click on the dropdown-toggle > edit | the SQL Manager page of the latest sql query created is well displayed |
 | change the informations of the SQL query | succesful message is displayed "Successful update"<br><br>the informations of the SQL query are updated |
+| Click on the dropdown -toggle > Delete | succesful message is displayed "Successful deletion"<br><br>the SQL manager table =0 |
