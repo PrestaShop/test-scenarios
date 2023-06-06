@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Default pack stock management"
-weight: 7
+weight: 6
 ---
 
 # BO - Shop Parameters - Product Settings - Default pack stock management
