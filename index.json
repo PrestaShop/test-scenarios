@@ -53,7 +53,7 @@
 	"title": "Basic Test",
 	"tags": [],
 	"description": "",
-	"content": "Basic Test Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/ Receive a response where the HTTP code is 404   Request the endpoint /admin-dev/new-api/hook-status Receive a response where the HTTP code is 404    "
+	"content": "Basic Test Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/ Receive a response where the HTTP code is 404   Request the endpoint /admin-dev/new-api/hook-status Receive a response where the HTTP code is 405    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance/apparence/blockreassurance-change-colors.html",
@@ -721,11 +721,11 @@
 	"content": "BO - Shop Parameters - Order Statuses - Sort and Pagination : order status and order return status "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-allow-ordering-of-out-of-stock-products-todo.html",
-	"title": "BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-allow-ordering-of-out-of-stock-products-enable-stock-management.html",
+	"title": "BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products &amp; Enable stock management",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products (TODO) "
+	"content": "BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products \u0026amp; Enable stock management Steps    Step Description Expected result     Go in BO \u0026gt; Catalog \u0026gt; Product Product page displayed   Click on a quantity of a product Quantities page of product displayed   Modify quantity and click on save Settings updated. notification    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-catalog-mode.html",
@@ -2247,13 +2247,6 @@
 	"content": "BO - Shop Parameters - Product Settings - Display remaining quantities Steps    Step Description Expected result     go to \u0026lsquo;Catalog \u0026gt; Products\u0026rsquo; page page title contains \u0026lsquo;Products\u0026rsquo;   Create a product product is created   go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   update Display remaining quantities to 0 Successful update message is displayed   View my shop and go to created product page product availability is not displayed in product page   update Display remaining quantities to the default value Successful update message is displayed   View my shop and go to created product page product availability is displayed in product page    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-enable-stock-management-todo.html",
-	"title": "BO - Shop Parameters - Product Settings - Enable stock management (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "BO - Shop Parameters - Product Settings - Enable stock management (TODO) "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-new-days-number.html",
 	"title": "BO - Shop Parameters - Product Settings - New days number",
 	"tags": [],
@@ -2266,6 +2259,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Update default products order by and order method (TODO) "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-of-in-stock-products-todo.html",
+	"title": "BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO)",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html",
@@ -3542,18 +3542,18 @@
 	"content": "BO - Shop Parameters - Product Settings - Display unavailable product attributes on the product page (TODO) "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-enable-delivery-time-in-stocks-products-todo.html",
+	"title": "BO - Shop Parameters - Product Settings - Enable delivery time in stocks products (TODO)",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Product Settings - Enable delivery time in stocks products (TODO) "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-max-size-short-description.html",
 	"title": "BO - Shop Parameters - Product Settings - Max size short description",
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Max size short description Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   Update max size of short description to 5 Successful update message is displayed   Should go to products page page title contains \u0026lsquo;Products\u0026rsquo;   Try to create product with description \u0026gt; 5 Error messages are displayed\n1. \u0026lsquo;Unable to update settings.'\n2. \u0026lsquo;This value is too long. It should have 5 characters or less.\u0026rsquo;   go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   Update max size of short description to default value : 800 Successful update message is displayed   Should go to products page page title contains \u0026lsquo;Products\u0026rsquo;   create product with description 800 Successful update setting message is displayed   delete product Product should be deleted    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-of-in-stock-products-todo.html",
-	"title": "BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-quick-edit-statuses.html",
@@ -4197,7 +4197,7 @@
 	"title": "BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination "
+	"content": "BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination Steps    Step Description Expected result     Go to advanced Parameters \u0026gt; Database \u0026gt; SQL Manager SQL Manager page is well displayed\nthe SQL Manager table is empty = 0   Go to advanced Parameters \u0026gt; Database \u0026gt; SQL Manager SQL Manager page is well displayed\nthe SQL Manager table is empty = 0   Click on \u0026ldquo;Add new SQL query \u0026quot; new pas will display with\n* a form contains a sql query name field and a sql query field .\n* a list of MYSQL Tables * list of attributes for this MYSQL Table   add a SQL query name and SQL query SQL Manager page is well displayed\nSuccessful message is displayed .\nthe SQL Manager table is empty +1   click on the dropdown-toggle \u0026gt; edit the SQL Manager page of the latest sql query created is well displayed   change the informations of the SQL query succesful message is displayed \u0026ldquo;Successful update\u0026rdquo;\nthe informations of the SQL query are updated   Click on the dropdown -toggle \u0026gt; Delete succesful message is displayed \u0026ldquo;Successful deletion\u0026rdquo;\nthe SQL manager table =0   create 20 new SQL query SQL Manager page is well displayed\nthe SQL Manager table = 20   Reset all filters All filters are reset , the query sql are displayed   Sort SQL Manager by ID desc SQL Manager are sorted by ID (4 -\u0026gt; 3 -\u0026gt; \u0026hellip;)   Sort SQL Manager by ID asc SQL Manager are sorted by ID (1 -\u0026gt; 2 -\u0026gt; 3\u0026hellip;)   Sort SQL Manager by SQL query name desc SQL Manager are sorted by SQL query name ( z-\u0026gt; y -\u0026gt; \u0026hellip;)   Sort SQL Manager by SQL query name asc SQL Manager are sorted by SQL query name ( a-\u0026gt; b -\u0026gt;c \u0026hellip;)   Sort SQL Manager by SQL query desc SQL Manager are sorted by SQL query ( z-\u0026gt; y -\u0026gt; \u0026hellip;)   Sort SQL Manager by SQL query asc SQL Manager are sorted by SQL query ( a-\u0026gt; b -\u0026gt;c \u0026hellip;)   Filter by ID list is filtered by ID\nthe ID of the carrier is well displayed on the top    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-enable-disable-log-emails.html",
@@ -4641,18 +4641,18 @@
 	"content": "BO - Shop Parameters - Order Statuses - Quick edit, send email / Delivery / invoice "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-enable-delivery-time-in-stocks-products-todo.html",
-	"title": "BO - Shop Parameters - Product Settings - Enable delivery time in stocks products (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "BO - Shop Parameters - Product Settings - Enable delivery time in stocks products (TODO) "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-force-update-friendly-url.html",
 	"title": "BO - Shop Parameters - Product Settings - Enable, disable, force update friendly url",
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Enable, disable, force update friendly url Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   Enable force update friendly URL Successful message is displayed   Go to product page and create a product Setting updated message is displayed   Update name if the product Frindly URL was updated too   delete product Successful message is displayed   go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   disable force update friendly URL Successful message is displayed    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-label-out-of-stock-products-with-denied-backorders.html",
+	"title": "BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-separator-of-attribute-anchor-on-the-product-links-todo.html",
@@ -5425,11 +5425,11 @@
 	"content": "BO - Shop Parameters - Product Settings - Enable, disable default activation status Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   enable default activation status Successful update message is displayed   go to \u0026lsquo;Catalog \u0026gt; Products\u0026rsquo; page page title contains \u0026lsquo;Products\u0026rsquo;   Go to create product Switch product online is \u0026lsquo;ON\u0026rsquo;   go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   Disable default activation status Successful update message is displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-label-out-of-stock-products-with-denied-backorders.html",
-	"title": "BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-oos-allowed-denied-backorders-todo.html",
+	"title": "BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO)",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders "
+	"content": "BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-bulk-actions.html",
@@ -5978,18 +5978,18 @@
 	"content": "BO - Shop Parameters - Order Settings - Delayed shipping "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-default-pack-stock-management.html",
+	"title": "BO - Shop Parameters - Product Settings - Default pack stock management",
+	"tags": [],
+	"description": "",
+	"content": "BO - Shop Parameters - Product Settings - Default pack stock management "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-price-todo.html",
 	"title": "BO - Shop Parameters - Product Settings - Enable display discounted price (TODO)",
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Product Settings - Enable display discounted price (TODO) "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-oos-allowed-denied-backorders-todo.html",
-	"title": "BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO)",
-	"tags": [],
-	"description": "",
-	"content": "BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO) "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-edit-weight-settings.html",
@@ -6403,13 +6403,6 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Shop Parameters - Order Settings - Terms of service Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Disable \u0026ldquo;Terms of service\u0026rdquo; \u0026gt; Save Terms of service = NO\nPage for terms and conditions = None\nAlert \u0026ldquo;Update successful\u0026rdquo; appears   Go to FO \u0026gt; Add product to cart \u0026gt; Proceed to checkout Step 4 : no terms \u0026amp; conditions is requested to pursue order\nPlace order can be clicked   Go to Shop Parameters \u0026gt; Enable Terms of service \u0026gt; Choose Page for terms and conditions to display \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; appears   Go to FO \u0026gt; Add product to cart \u0026gt; Proceed to checkout At Step 4, a check need to be done in order to place the order\n\u0026ldquo;I agree to the [terms of service   Click button Place Order The button is grayed out and can\u0026rsquo;t be clicked   Click the link \u0026ldquo;terms of service\u0026rdquo; \u0026gt; close the popup \u0026gt; Tick the bock \u0026gt; Click Place Order button Order is now confirmed    "
-},
-{
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-default-pack-stock-management.html",
-	"title": "BO - Shop Parameters - Product Settings - Default pack stock management",
-	"tags": [],
-	"description": "",
-	"content": "BO - Shop Parameters - Product Settings - Default pack stock management "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-set-up-urls.html",
@@ -9489,7 +9482,7 @@
 	"title": "Products stocks setting",
 	"tags": [],
 	"description": "",
-	"content": "Products stocks setting Tests  BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products (TODO)   BO - Shop Parameters - Product Settings - Enable stock management (TODO)   BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO)   BO - Shop Parameters - Product Settings - Enable delivery time in stocks products (TODO)   BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders   BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO)   BO - Shop Parameters - Product Settings - Default pack stock management   "
+	"content": "Products stocks setting Tests  BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products \u0026amp; Enable stock management   BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO)   BO - Shop Parameters - Product Settings - Enable delivery time in stocks products (TODO)   BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders   BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO)   BO - Shop Parameters - Product Settings - Default pack stock management   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productsbo.html",
