@@ -9,8 +9,8 @@ weight: 4
 | ----- | ----- |
 | Go to advanced Parameters > Database > SQL Manager | SQL Manager page is well displayed<br><br>the SQL Manager table is empty  = 0 |
 | Go to advanced Parameters > Database > SQL Manager | SQL Manager page is well displayed<br><br>the SQL Manager table is empty  = 0 |
-| Click on "Add new SQL query " | new pas will display with<br> * a form contains a sql query name field and a sql query field .<br> * a list of MYSQL Tables <br> * list of attributes for this MYSQL  Table |
-| add a SQL query name and SQL query | SQL Manager page is well displayed<br><br>Successful message is displayed .<br><br>the SQL Manager table is empty +1 |
+| Click on "Add new SQL query " | new page will display with<br> * a form contains a sql query name field and a sql query field .<br> * a list of MYSQL Tables <br> * list of attributes for this MYSQL  Table |
+| add a SQL query name and SQL query | SQL Manager page is well displayed<br><br>Successful message is displayed .<br><br>the SQL Manager table +1 |
 | click on the dropdown-toggle > edit | the SQL Manager page of the latest sql query created is well displayed |
 | change the informations of the SQL query | succesful message is displayed "Successful update"<br><br>the informations of the SQL query are updated |
 | Click on the dropdown -toggle > Delete | succesful message is displayed "Successful deletion"<br><br>the SQL manager table =0 |
@@ -22,4 +22,9 @@ weight: 4
 | Sort SQL Manager  by SQL query name asc | SQL Manager are sorted by SQL query name  ( a-> b ->c ...) |
 | Sort SQL Manager  by SQL query  desc | SQL Manager are sorted by SQL query   ( z-> y -> ...) |
 | Sort SQL Manager  by SQL query  asc | SQL Manager are sorted by SQL query   ( a-> b ->c ...) |
-| Filter by ID | list is filtered by ID<br><br>the ID of the carrier is well displayed on the top |
+| Filter by ID | SQL Manager  list is filtered by ID=3 |
+| Filter by  SQL query name | SQL Manager  list is filtered by SQL query name  =test |
+| Filter by   SQL query | SQL Manager  list is filtered by SQL query =  select * from ps_access |
+| Change the items number to 10 per page | 2 pages are displayed (page 1/2) |
+| Go to page 2 | 2 pages are displayed (page 2/2) |
+| Change the items number to 100 per page | Only one page is displayed  _(page 1 / 1)_ |
