@@ -7,6 +7,17 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
+| Go to BO -> Orders page and click on Add new Order | The Create order page is displayed |
+| Search customer 'John DOE' and choose it | The customer-checkout-history block, the cart block and the address block are displayed |
+| choose product with quantity = 4 and add it to cart | The product table is displayed, the Shipping block is displayed and the summary block is displayed |
+| Choose delivery method (free) | Delivery method is selected |
+| Choose Payment method | Payment method is selected |
+| Choose order status | Order status is selected |
+| Click on "Create the order" | The order details page is displayed with exact data:<br><br># Order status<br># Order Price<br># Shipping Address<br># Invoice Address<br># Product name |
+| On BO>Orders>Orders | Orders page displayed |
+| Click on your last order created | Order page displayed |
+| Change the status to Shipped and click to Update status | Successful notification<br><br>Partial refund button diplayed |
+| Click on Partial refund > change Quantity 0 by 1 and click to Partial refund | "A partial refund was successfully created." notification |
 | Go to BO > SELL > Customer Service > Merchandise Returns | The Merchandise returns page is well displayed |
 | Click on the line of the returned product | Then desired Return Merchandise Authorization details are well displayed |
 | Click on the dropdwon list of status and change the status to "Waiting for package" and click on Save and stay | Successful update alert is well displayed<br><br>Status: The default status which is displayed at the top of the list is "Waiting for package"<br><br>Returns form: A pdf file named "Print out" is displayed |
