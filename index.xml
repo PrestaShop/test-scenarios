@@ -1000,7 +1000,8 @@ Newly created order status is displayed in Statuses block</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-allow-ordering-of-out-of-stock-products-enable-stock-management.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products &amp;amp; Enable stock management Steps    Step Description Expected result     Go in BO &amp;gt; Catalog &amp;gt; Product Product page displayed   Click on a quantity of a product Quantities page of product displayed   Modify quantity and click on save Settings updated. notification    </description>
+      <description>BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products &amp;amp; Enable stock management Steps    Step Description Expected result     Go in BO &amp;gt; Catalog &amp;gt; Product Product page displayed   Click on a quantity of a product Quantities page of product displayed   Click to preview Product page of this product displayed on FO
+ADD TO CART button is grayed out</description>
     </item>
     
     <item>
@@ -1042,12 +1043,14 @@ You&amp;rsquo;ve got 21 alias   Click to &amp;ldquo;Display&amp;rdquo; You&amp;r
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Search - Tags - Filter, sort, pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination.html</link>
+      <title>BO - Shop Parameters - Search - Tags - Filter, sort, pagination, Bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination.html</guid>
-      <description>BO - Shop Parameters - Search - Tags - Filter, sort, pagination </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination-bulk-actions.html</guid>
+      <description>BO - Shop Parameters - Search - Tags - Filter, sort, pagination, Bulk actions Steps    Step Description Expected result     Go to Shop Parameters &amp;gt;Search &amp;gt; Tags Tags page is well displayed
+Tags table is empty = 0   Go to Shop Parameters &amp;gt;Search &amp;gt; Tags Tags page is well displayed
+Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new tag page will display   fill the blanks of the Name , Language &amp;gt; double click on a product / or choose a product a click on add</description>
     </item>
     
     <item>
@@ -1370,7 +1373,9 @@ REFERENCE is correct   Filter by STATUS</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/payment/fo-checkout-payment-choose-a-payment-method.html</guid>
-      <description>FO - Checkout - Payment - Choose a payment method </description>
+      <description>FO - Checkout - Payment - Choose a payment method Steps    Step Description Expected result     On FO &amp;gt; Product page
+click to quick view of a product quickview displayed   Click to Add to cart &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; notificaiton   Click to proceed to checkout Shopping cart displayed
+Shopping cart contain the product   Click to proceed to checkout Shopping cart displayed</description>
     </item>
     
     <item>
@@ -2281,12 +2286,12 @@ and save A green alert &amp;ldquo;Successful creation.&amp;rdquo; is displayed a
     </item>
     
     <item>
-      <title>BO - Advanced Parameters - Database - DB Backup - Bulk Delete</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-bulk-delete.html</link>
+      <title>BO - Advanced Parameters - Database - DB Backup - Pagination , Bulk Delete</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-pagination-bulk-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-bulk-delete.html</guid>
-      <description>BO - Advanced Parameters - Database - DB Backup - Bulk Delete Steps    Step Description Expected result     go to database &amp;gt; sql manager page title contains &amp;lsquo;SQL Manager&amp;rsquo;   go to db backup page title contains &amp;lsquo;DB Backup&amp;rsquo;   get number of db backups number of backups = 0   Click on &amp;ldquo;I have read the declaimer .Please generate new db backup &amp;quot; Successful message is displayed</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-pagination-bulk-delete.html</guid>
+      <description>BO - Advanced Parameters - Database - DB Backup - Pagination , Bulk Delete Steps    Step Description Expected result     go to database &amp;gt; sql manager page title contains &amp;lsquo;SQL Manager&amp;rsquo;   go to db backup page title contains &amp;lsquo;DB Backup&amp;rsquo;   get number of db backups number of backups = 0   Click on &amp;ldquo;I have read the declaimer .Please generate new db backup &amp;quot; Successful message is displayed</description>
     </item>
     
     <item>
@@ -2552,7 +2557,7 @@ The list contains the searched ID   Reset filter Number of Suppliers after reset
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-status.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Update status Steps    Step Description Expected result     Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed   Click on the line of the returned product Then desired Return Merchandise Authorization details are well displayed   Click on the dropdwon list of status and change the status to &amp;ldquo;Waiting for package&amp;rdquo; and click on Save and stay Successful update alert is well displayed</description>
+      <description>BO - Customer Service - Merchandise returns - Update status Steps    Step Description Expected result     Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed   choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed   Choose delivery method (free) Delivery method is selected   Choose Payment method Payment method is selected   Choose order status Order status is selected   Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
     </item>
     
     <item>
@@ -3106,7 +3111,7 @@ Number of stores after creation = total of stores + 1   Click on Edit button o
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-crud.html</guid>
       <description>BO - Shop Parameters - Search - Tags - CRUD Steps    Step Description Expected result     Go to Shop Parameters &amp;gt;Search &amp;gt; Tags Tags page is well displayed
-Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new tag page will display    </description>
+Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new tag page will display   fill the blanks of the Name , Language &amp;gt; double click on a product / or choose a product a click on add</description>
     </item>
     
     <item>
@@ -4852,15 +4857,6 @@ The maintenance text is the default one   In Custom maintenance text, edit your
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-quick-edit-statuses.html</guid>
       <description>BO - Shop Parameters - Search - Quick edit statuses </description>
-    </item>
-    
-    <item>
-      <title>BO - Shop Parameters - Search - Tags - Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-bulk-actions.html</guid>
-      <description>BO - Shop Parameters - Search - Tags - Bulk actions </description>
     </item>
     
     <item>
@@ -7314,9 +7310,7 @@ An order guest contains the searched guest   Click on the guest Link Redirection
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-sort-pagination.html</guid>
-      <description>BO - Shop Parameters - Contacts - Stores - Sort &amp;amp; pagination Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Stores Tab Stores page is well displayed   Sort by ID desc List is sorted by ID desc
-(3 -&amp;gt; 2 -&amp;gt; 1)   Sort by ID asc List is sorted by ID asc
-(1 -&amp;gt; 2 -&amp;gt; 3)   Sort by Name asc List is sorted by Name asc</description>
+      <description>BO - Shop Parameters - Contacts - Stores - Sort &amp;amp; pagination Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Stores Tab Stores page is well displayed   Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains &amp;lsquo;Add new:&amp;rsquo;   Create contact</description>
     </item>
     
     <item>

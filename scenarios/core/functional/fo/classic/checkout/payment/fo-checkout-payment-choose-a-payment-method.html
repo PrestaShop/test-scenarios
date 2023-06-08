@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1686120272" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1686120272" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1686120272" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1686120272" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1686120272" rel="stylesheet">
-    <link href="../../../../../../../style.css?1686120272" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1686206561" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1686206561" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1686206561" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1686206561" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1686206561" rel="stylesheet">
+    <link href="../../../../../../../style.css?1686206561" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1686120272"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1686206561"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -1305,9 +1305,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-bulk-delete.html" title="BO - Advanced Parameters - Database - DB Backup - Bulk Delete" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-bulk-delete.html">
-        BO - Advanced Parameters - Database - DB Backup - Bulk Delete
+      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-pagination-bulk-delete.html" title="BO - Advanced Parameters - Database - DB Backup - Pagination , Bulk Delete" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-pagination-bulk-delete.html">
+        BO - Advanced Parameters - Database - DB Backup - Pagination , Bulk Delete
         
         </a>
     </li>
@@ -17506,9 +17506,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination.html" title="BO - Shop Parameters - Search - Tags - Filter, sort, pagination" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination.html">
-        BO - Shop Parameters - Search - Tags - Filter, sort, pagination
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination-bulk-actions.html" title="BO - Shop Parameters - Search - Tags - Filter, sort, pagination, Bulk actions" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-filter-sort-pagination-bulk-actions.html">
+        BO - Shop Parameters - Search - Tags - Filter, sort, pagination, Bulk actions
         
         </a>
     </li>
@@ -17530,27 +17530,6 @@
       <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-crud.html" title="BO - Shop Parameters - Search - Tags - CRUD" class="dd-item ">
         <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-crud.html">
         BO - Shop Parameters - Search - Tags - CRUD
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-bulk-actions.html" title="BO - Shop Parameters - Search - Tags - Bulk actions" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/search/tags/bo-shop-parameters-search-tags-bulk-actions.html">
-        BO - Shop Parameters - Search - Tags - Bulk actions
         
         </a>
     </li>
@@ -38810,7 +38789,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#fo---checkout---payment---choose-a-payment-method">FO - Checkout - Payment - Choose a payment method</a></li>
+    <li><a href="#fo---checkout---payment---choose-a-payment-method">FO - Checkout - Payment - Choose a payment method</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -49149,21 +49132,6 @@
       
       
 
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
       
         
     
@@ -60801,14 +60769,73 @@
 
 
 <h1 id="fo---checkout---payment---choose-a-payment-method">FO - Checkout - Payment - Choose a payment method</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>On FO &gt; Product page<br><br>click to quick view of a product</td>
+<td>quickview displayed</td>
+</tr>
+<tr>
+<td>Click to Add to cart</td>
+<td>&ldquo;Product successfully added to your shopping cart&rdquo; notificaiton</td>
+</tr>
+<tr>
+<td>Click to proceed to checkout</td>
+<td>Shopping cart displayed<br><br>Shopping cart contain the product</td>
+</tr>
+<tr>
+<td>Click to proceed to checkout</td>
+<td>Shopping cart displayed<br><br>Shopping cart contain the product</td>
+</tr>
+<tr>
+<td>Click on Sign in, fill the input and click to continue</td>
+<td>Adressess page displayed</td>
+</tr>
+<tr>
+<td>Click to continue</td>
+<td>SHIPPING METHOD displayed</td>
+</tr>
+<tr>
+<td>Click to continue</td>
+<td>PAYMENT displayed</td>
+</tr>
+<tr>
+<td>Click on Pay by Check</td>
+<td>Please send us your check including the following details:<br><br>Amount€14.28 (tax incl.)<br><br>Payee___________<br><br>Send your check to this address___________</td>
+</tr>
+<tr>
+<td>Click on Pay by Cash on Delivery</td>
+<td>You pay for the merchandise upon delivery</td>
+</tr>
+<tr>
+<td>Click on Pay by bank wire</td>
+<td>Please transfer the invoice amount to our bank account. You will receive our order confirmation by email containing bank details and order number.</td>
+</tr>
+<tr>
+<td>Check I agree to the [terms of service</td>
+<td>http://localhost/ps8101/en/content/3-terms-and-conditions-of-use] and will adhere to them unconditionally.</td>
+</tr>
+<tr>
+<td>Click on Place order</td>
+<td>Order confirmation page displayed<br><br>Payment method : Bank transfer</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on June 6, 2023
+  Last updated on June 8, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/662c9b659c13ac8eb6d6dceeed8f309922f05fc1">"[Update] JIRA XRay Tests" (662c9b659c1)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/b28741452208acede28422772ed82d0472a8ae98">"[Update] JIRA XRay Tests" (b2874145220)</a>
   
 </div>
 
@@ -60829,17 +60856,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1686120273"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1686120273"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1686120273"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1686120273"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1686120273"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1686120273"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1686120273"></script>
-    <script src="../../../../../../../js/learn.js?1686120273"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1686120273"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1686206562"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1686206562"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1686206562"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1686206562"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1686206562"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1686206562"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1686206562"></script>
+    <script src="../../../../../../../js/learn.js?1686206562"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1686206562"></script>
     
-    <script src="../../../../../../../main.js?1686120273"></script>
+    <script src="../../../../../../../main.js?1686206562"></script>
     
     
 
