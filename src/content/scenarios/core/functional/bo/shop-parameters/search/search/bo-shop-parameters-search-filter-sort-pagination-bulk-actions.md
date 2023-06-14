@@ -9,10 +9,13 @@ weight: 1
 | ----- | ----- |
 | Go to Bo > Shop parameters > Search | Title page contains 'Search' |
 | Click to "Add new alias" | Title page contains 'Add new' |
-| Create 19 new alias | "Successful creation" notification<br><br>You've got 21 alias |
-| Click to "Display" | You've got 20 alias in this page and 2 pages |
-| Click to page 2 | Page 2 is displayed, you've got 1 alias on this page and you've got 2 page |
-| Click to "Display" | You've got 21 alias on this page and 1 page |
+| Create 39 new alias | "Successful creation" notification<br><br>You've got 41 alias |
+| Click on the number next to "Display" and select a number | You've got 20 alias in this page and 3 pages |
+| Click to page 3 | Page 3 is displayed, you've got 1 alias on this page and you've got 3 page |
+| Click on the left arrow next to the First page | Page 2 is displayed, you've got 20 alias on this page and you've got 3 page |
+| Click on the left arrow next to the First page | Page 1 is displayed, you've got 20 alias on this page and you've got 3 page |
+| Click on the double right arrow next to the last page | Page 3 is displayed, you've got 1 alias on this page and you've got 3 page |
+| Click on the number next to "Display" and select a number | You've got 41 alias on this page and 1 page |
 | Sort by Aliases acs | table is sorted by Aliases desc (a > b> c) |
 | Sort by Aliases desc | table is sorted by Aliases desc (c > b> a) |
 | Sort by Search acs | table is sorted by Search desc (a > b> c) |
@@ -28,10 +31,10 @@ weight: 1
 | Filter Search by Status | Number of Searches < Total of Searches<br>All Search statuses are 'Disable' |
 | Reset filter | Number of search = Total of search |
 | Filter Search by Status | Number of Searches < Total of Searches<br>All Search statuses are 'Enable' |
-| Reset filter | Number of search = Total of search |
+| Filter Search by status | Number of search = Total of search |
 | Click on bulk actions > select all | All searches are selected |
 | Click on bulk actions > unselect all | All searches are unselected |
-| Filter by Aliases | Number of Searches = 19 |
+| Filter by Aliases | Number of Searches = 39 |
 | Click on "Bulk action" > "Select all" > "Bulk actions" > "Delete selected" | "Delete selected items?" Modal |
 | Click to OK | "The selection has been successfully deleted" notification |
-| Reset filter | Number of searches = Total of searches (3)<br><br>1 page, pagination is deleted |
+| Reset filter | Number of searches = Total of searches <br><br>1 page, pagination is deleted |
