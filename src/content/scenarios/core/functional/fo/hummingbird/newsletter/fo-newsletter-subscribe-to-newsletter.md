@@ -8,8 +8,8 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to the FO on the Homepage | The FO homepage is displayed |
-| In the newsletter form field, add a email address who is not yet a newsletter subscriber email and click on "subscribe"<br><br>!image-2021-04-06-16-20-27-389.png! | A confirmation message is displayed <br>!image-2021-04-06-16-19-48-272.png! |
+| In the newsletter form field(in page bottom), add a email address who is not yet a newsletter subscriber email and click on "Subscribe" button<br><br> <br><br>!image-2023-06-15-16-31-15-437.png|width=888,height=115! | A confirmation message is displayed <br><br><br><br> <br><br>!image-2023-06-15-16-51-18-222.png! |
 | Go to the BO on the module manager page | Module manager page is displayed |
-| Select the "newletter" module in the list and in the select list form click on "configure"<br><br>!image-2021-04-06-16-25-51-178.png!<br>!image-2021-04-06-16-26-51-597.png! | Redirected to the newsletter module configuration page<br> !image-2021-04-06-16-27-30-186.png! |
-| In the "newsletter registration" section , in the table , search for the email address used in step 2 | The email address is in the list and the status is "subscribed"<br>!image-2021-04-06-16-31-47-908.png! |
-| Go back to the FO and in the newsletter form field, use again the same email address than step 2<br>Then click on "subscribe" | A error message is displayed, it says that the email address is already used<br> !image-2021-04-06-16-33-37-842.png! |
+| Select the "Newsletter" module in the list and in the select list form click on "Configure"<br><br><br>!image-2023-06-15-17-01-24-202.png! | Redirect to the "Newsletter subscription" page<br>!image-2023-06-15-17-05-24-885.png! |
+| In the "Newsletter registrations" section , in the table , search for the email address used in step 2 | The email address is in the list and the status is "subscribed"<br><br><br><br>!image-2023-06-15-17-26-13-838.png! |
+| Go back to the FO and in the newsletter form field, use again the same email address than step 2<br>Then click on "Subscribe" button | A error message is displayed:  "This email address is already registered."<br><br><br><br>!image-2023-06-15-17-28-22-654.png! |
