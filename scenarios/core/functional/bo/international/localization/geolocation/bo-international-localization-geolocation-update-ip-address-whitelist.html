@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1686811121" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1686811121" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1686811121" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1686811121" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1686811121" rel="stylesheet">
-    <link href="../../../../../../../style.css?1686811121" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1686897877" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1686897877" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1686897877" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1686897877" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1686897877" rel="stylesheet">
+    <link href="../../../../../../../style.css?1686897877" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1686811121"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1686897877"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38932,7 +38932,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---international---localization---geolocation---update-ip-address-whitelist">BO - International - Localization - Geolocation - Update IP address whitelist</a></li>
+    <li><a href="#bo---international---localization---geolocation---update-ip-address-whitelist">BO - International - Localization - Geolocation - Update IP address whitelist</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60970,14 +60974,65 @@
 
 
 <h1 id="bo---international---localization---geolocation---update-ip-address-whitelist">BO - International - Localization - Geolocation - Update IP address whitelist</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Localization &gt; Geolocation</td>
+<td>You&rsquo;ll have the message &ldquo;Since December 30, 2019, you need to register for a [MaxMind</td>
+</tr>
+<tr>
+<td>Enable &ldquo;Geolocation by IP adresse&rdquo; and save</td>
+<td>You should have the red notification &ldquo;The geolocation database is unavailable&rdquo;</td>
+</tr>
+<tr>
+<td>* Download this files https://drive.google.com/file/d/18IsSSAURvOgwKb_ZI6wiXpgscujx1lDT/view?usp=sharing<br> * Put it in [yourshopfiles]/app/Ressources/geoip <br> * Reload the webpage</td>
+<td>* You&rsquo;ll have a file .mmdb<br> * you should only have index.php and the geolite-city mmdb<br> * you&rsquo;ll not have the yellow notification</td>
+</tr>
+<tr>
+<td>Enable &ldquo;Geolocation by IP adresse&rdquo; and save</td>
+<td>You should have the green notification &ldquo;Update successful&rdquo;</td>
+</tr>
+<tr>
+<td>Modify your files FrontController.php in [yourshopfile]/classes/controler and save</td>
+<td>Your frontController should be modified</td>
+</tr>
+<tr>
+<td>Go to FO</td>
+<td>You should see the FO as usual</td>
+</tr>
+<tr>
+<td>* Return to BO &gt; Localization &gt; Geolocation <br> * In IP addresse whitelist, Erase &ldquo;127&rdquo; from the list <br> * Clic on Save</td>
+<td>* The Geolocation page is displayed<br> * The first in the list should be &quot; ::1 &ldquo;<br> * You&rsquo;ve a green notification Update successful</td>
+</tr>
+<tr>
+<td>Go to FO</td>
+<td>You should see a &ldquo;403 Forbidden &quot; and &quot; You cannot access this store from your country. We apologize for the inconvenience. &quot;</td>
+</tr>
+<tr>
+<td>* Return to BO &gt; Localization &gt; Geolocation <br> * Disable &ldquo;geolocation by IP address&rdquo; and Save</td>
+<td>* The Geolocation page is displayed<br> * You&rsquo;ve a green notification Update successful</td>
+</tr>
+<tr>
+<td>Go to FO</td>
+<td>You should see the FO as usual</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on June 14, 2023
+  Last updated on June 16, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/35a5aeba2b4ad204becb9c7e981847b221576d16">"[Update] JIRA XRay Tests" (35a5aeba2b4)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/b33722d6b78ca66a446d052483d9442b34806182">"[Update] JIRA XRay Tests" (b33722d6b78)</a>
   
 </div>
 
@@ -60998,17 +61053,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1686811121"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1686811121"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1686811121"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1686811121"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1686811121"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1686811121"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1686811121"></script>
-    <script src="../../../../../../../js/learn.js?1686811121"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1686811121"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1686897877"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1686897877"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1686897877"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1686897877"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1686897877"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1686897877"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1686897877"></script>
+    <script src="../../../../../../../js/learn.js?1686897877"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1686897877"></script>
     
-    <script src="../../../../../../../main.js?1686811121"></script>
+    <script src="../../../../../../../main.js?1686897877"></script>
     
     
 
