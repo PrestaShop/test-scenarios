@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1687329714" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1687329714" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1687329714" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1687329714" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1687329714" rel="stylesheet">
-    <link href="../../../../../../style.css?1687329714" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1687415939" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1687415939" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1687415939" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1687415939" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1687415939" rel="stylesheet">
+    <link href="../../../../../../style.css?1687415939" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1687329714"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1687415939"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38926,7 +38926,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---advanced-parameters---import---import-file">BO - Advanced parameters - Import - Import file</a></li>
+    <li><a href="#bo---advanced-parameters---import---import-file">BO - Advanced parameters - Import - Import file</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60964,14 +60968,89 @@
 
 
 <h1 id="bo---advanced-parameters---import---import-file">BO - Advanced parameters - Import - Import file</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO&gt; Advanced Parameters&gt; Import<br><br>In <em>Download sample csv files</em> section, click on <em><em>Sample Customers file</em></em></td>
+<td>Customers_import csv file is downloaded</td>
+</tr>
+<tr>
+<td>Choose <em>Customer</em> on  +<em>What do you want to import?</em>+ section</td>
+<td>The <em>Customers</em> is selected in <em>select form control</em></td>
+</tr>
+<tr>
+<td>on <em><em>Select a file to import</em></em> section choose the csv file downloaded</td>
+<td>a message &ldquo;xxxxx-customers_import.csv&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Click on <em>Next step</em> button</td>
+<td><em>Match your data</em> page is displayed</td>
+</tr>
+<tr>
+<td>Verify that each column of the source file is matched to one of the destination columns.<br><br>Click on save</td>
+<td>h4. Importing your data&hellip;  <br><br>popup is displayed<br><br>and <em><em>Data imported</em></em><br><em><em>Look at your listings to make sure it&rsquo;s all there as you wished.</em></em>  message is displayed</td>
+</tr>
+<tr>
+<td>Click on close button</td>
+<td>The page is returned back to the first page</td>
+</tr>
+<tr>
+<td>In <em>Download sample csv files</em> section, click on <em><em>Sample Suppliers file</em></em></td>
+<td>Suppliers_import csv file is downloaded</td>
+</tr>
+<tr>
+<td>Choose <em>Suppliers</em> on  +<em>What do you want to import?</em>+ section</td>
+<td>The <em>Suppliers</em> is selected in <em>select form control</em></td>
+</tr>
+<tr>
+<td>on <em><em>Select a file to import</em></em> section choose the csv file downloaded</td>
+<td>a message &ldquo;xxxxx-customers_import.csv&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Click on pencil button of the file downloaded<br><br>!image-2023-06-21-11-54-56-405.png!</td>
+<td>The import file section and downloaded files are displayed !image-2023-06-21-11-54-31-390.png!</td>
+</tr>
+<tr>
+<td>Click on <em>Choose from history / FTP</em></td>
+<td>History of uploaded files is displayed<br><br>!image-2023-06-21-11-56-05-910.png!</td>
+</tr>
+<tr>
+<td>Click on dropdown toggle and delete the file</td>
+<td>the file is deleted</td>
+</tr>
+<tr>
+<td>on <em><em>Select a file to import</em></em> section choose the suppliers csv file downloaded</td>
+<td>a message &ldquo;xxxxx-suppliers_import.csv&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Click on <em>Next step</em> button</td>
+<td><em>Match your data</em> page is displayed</td>
+</tr>
+<tr>
+<td>Verify that each column of the source file is matched to one of the destination columns.<br><br>Click on save</td>
+<td>h4. Importing your data&hellip;  <br><br>popup is displayed<br><br>and <em><em>Data imported</em></em><br><em><em>Look at your listings to make sure it&rsquo;s all there as you wished.</em></em>  message is displayed</td>
+</tr>
+<tr>
+<td>Click on close button</td>
+<td>The page is returned back to the first page</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 16, 2022
+  Last updated on June 22, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/94a97a7ce6ead35e5df5d9b8b2980ad70bcf4183">"[Update] JIRA XRay Tests" (94a97a7ce6e)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/1d8f8e166217b43f8361e8d650e75d2d6632398a">"[Update] JIRA XRay Tests" (1d8f8e16621)</a>
   
 </div>
 
@@ -60992,17 +61071,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1687329714"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1687329714"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1687329714"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1687329714"></script>
-    <script src="../../../../../../js/featherlight.min.js?1687329714"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1687329714"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1687329714"></script>
-    <script src="../../../../../../js/learn.js?1687329714"></script>
-    <script src="../../../../../../js/hugo-learn.js?1687329714"></script>
+    <script src="../../../../../../js/clipboard.min.js?1687415939"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1687415939"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1687415939"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1687415939"></script>
+    <script src="../../../../../../js/featherlight.min.js?1687415939"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1687415939"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1687415939"></script>
+    <script src="../../../../../../js/learn.js?1687415939"></script>
+    <script src="../../../../../../js/hugo-learn.js?1687415939"></script>
     
-    <script src="../../../../../../main.js?1687329714"></script>
+    <script src="../../../../../../main.js?1687415939"></script>
     
     
 

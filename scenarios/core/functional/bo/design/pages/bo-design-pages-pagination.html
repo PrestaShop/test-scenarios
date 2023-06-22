@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1687329740" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1687329740" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1687329740" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1687329740" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1687329740" rel="stylesheet">
-    <link href="../../../../../../style.css?1687329740" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1687415961" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1687415961" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1687415961" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1687415961" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1687415961" rel="stylesheet">
+    <link href="../../../../../../style.css?1687415961" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1687329740"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1687415961"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38926,7 +38926,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---design---pages---pagination">BO - Design - Pages - Pagination</a></li>
+    <li><a href="#bo---design---pages---pagination">BO - Design - Pages - Pagination</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60964,14 +60968,153 @@
 
 
 <h1 id="bo---design---pages---pagination">BO - Design - Pages - Pagination</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to Design &gt; Pages</td>
+<td>Pages page is displayed correctly</td>
+</tr>
+<tr>
+<td>Go to Design&gt;Pages&quot; page. Pages page is displayed correctly&quot;</td>
+<td>Pages page is displayed correctly</td>
+</tr>
+<tr>
+<td>Reset all filters of Categories table and get number of elements</td>
+<td>All filters are reset. All categories are displayed</td>
+</tr>
+<tr>
+<td>Go to Add new page category page</td>
+<td>Add new page category is displayed correctly</td>
+</tr>
+<tr>
+<td>Fill all information : Name : Random. Description : Random. Displayed : Yes. And Save Form</td>
+<td>Category saved successfully</td>
+</tr>
+<tr>
+<td>Go back to pages page</td>
+<td>Pages page is displayed correctly</td>
+</tr>
+<tr>
+<td>Check the category number</td>
+<td>The category number is correct</td>
+</tr>
+<tr>
+<td>Search for the new category and check result</td>
+<td>The new category is displayed correctly in the table</td>
+</tr>
+<tr>
+<td>Go to FO&gt;Site map and check the new category</td>
+<td>The new category is displayed in Site map page</td>
+</tr>
+<tr>
+<td>Click on view category</td>
+<td>View category page is displayed correctly</td>
+</tr>
+<tr>
+<td>Go to add new page</td>
+<td>Add new page is displayed correctly</td>
+</tr>
+<tr>
+<td>Fill all information : Title : Random Meta Title : Random. Meta description : Random. Meta keyword : Random. Content : Random. Indexation by search engines : Yes. Displayed : Yes. And Save Form</td>
+<td>Page is saved correctly</td>
+</tr>
+<tr>
+<td>Search for the created page and check result</td>
+<td>The page is displayed correctly in the table</td>
+</tr>
+<tr>
+<td>Go to Edit page</td>
+<td>Edit page is displayed correctly</td>
+</tr>
+<tr>
+<td>Preview the page in FO</td>
+<td>The page is displayed correctly in FO</td>
+</tr>
+<tr>
+<td>Click on view category</td>
+<td>View category page is displayed correctly</td>
+</tr>
+<tr>
+<td>Search for the created page</td>
+<td>The page is displayed successuflly</td>
+</tr>
+<tr>
+<td>Update the created page. Fill all information : Title : Random. Meta Title : Random. Meta description : Random. Meta keyword : Random. Content : Random. Indexation by search engines : Yes. Displayed : NO; And Save Form</td>
+<td>Page is saved correctly</td>
+</tr>
+<tr>
+<td>Go to edit page</td>
+<td>Edit page is displayed correctly</td>
+</tr>
+<tr>
+<td>Preview the page in FO</td>
+<td>The page is displayed correctly in FO</td>
+</tr>
+<tr>
+<td>Click on cancel button</td>
+<td>The Pages page is displayed correctly</td>
+</tr>
+<tr>
+<td>Click on view category</td>
+<td>The view category page is displayed correctly</td>
+</tr>
+<tr>
+<td>Search for the updated page to delete</td>
+<td>The updated page is displyayed correctly afer search</td>
+</tr>
+<tr>
+<td>Delete the updated page</td>
+<td>The page is deleted successfully</td>
+</tr>
+<tr>
+<td>Click on back to list</td>
+<td>Pages page is displayed correctly</td>
+</tr>
+<tr>
+<td>Delete the created category</td>
+<td>The category is deleted successfully</td>
+</tr>
+<tr>
+<td>Reset filter</td>
+<td>All filters are reset. All categories are displayed</td>
+</tr>
+<tr>
+<td>create 20 new pages in category &ldquo;home&rdquo;</td>
+<td>pages table =20</td>
+</tr>
+<tr>
+<td>Reset all filters</td>
+<td>All filters are reset , the query sql are  displayed</td>
+</tr>
+<tr>
+<td>Change the items number to 10 per page</td>
+<td>2 pages are displayed (page 1/2)</td>
+</tr>
+<tr>
+<td>Go to page 2</td>
+<td>2 pages are displayed (page 2/2)</td>
+</tr>
+<tr>
+<td>Change the items number to 100 per page</td>
+<td>Only one page is displayed  <em>(page 1 / 1)</em></td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 23, 2022
+  Last updated on June 22, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/a4f70d0056c8b637c51a9ecd18e7983978c73f1d">"[Update] JIRA XRay Tests" (a4f70d0056c)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/1d8f8e166217b43f8361e8d650e75d2d6632398a">"[Update] JIRA XRay Tests" (1d8f8e16621)</a>
   
 </div>
 
@@ -60992,17 +61135,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1687329740"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1687329740"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1687329740"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1687329740"></script>
-    <script src="../../../../../../js/featherlight.min.js?1687329740"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1687329740"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1687329740"></script>
-    <script src="../../../../../../js/learn.js?1687329740"></script>
-    <script src="../../../../../../js/hugo-learn.js?1687329740"></script>
+    <script src="../../../../../../js/clipboard.min.js?1687415961"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1687415961"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1687415961"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1687415961"></script>
+    <script src="../../../../../../js/featherlight.min.js?1687415961"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1687415961"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1687415961"></script>
+    <script src="../../../../../../js/learn.js?1687415961"></script>
+    <script src="../../../../../../js/hugo-learn.js?1687415961"></script>
     
-    <script src="../../../../../../main.js?1687329740"></script>
+    <script src="../../../../../../main.js?1687415961"></script>
     
     
 
