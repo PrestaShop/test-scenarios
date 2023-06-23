@@ -1445,7 +1445,7 @@ For each product must be filled in:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-mailto.html</guid>
-      <description>FO - Contact us - Mailto Steps    Step Description Expected result     Go to FO &amp;gt; Scroll down to footer &amp;gt; In &amp;ldquo;Store information&amp;rdquo; section &amp;gt; Click on Email us email address Client email will open and you will be able to send an email with email address of shop    </description>
+      <description>FO - Contact us - Mailto Steps    Step Description Expected result     Go to FO &amp;gt; Scroll down to footer &amp;gt; In &amp;ldquo;Store information&amp;rdquo; section &amp;gt; Click on Email address below(Shop E-mail address) A mail window will open and you will be able to send an email to the shop email adsress    </description>
     </item>
     
     <item>
@@ -2640,7 +2640,8 @@ First row column id = 2   reset all filters Number of products after reset = tot
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-crud.html</guid>
-      <description>BO - Design - Image Settings - CRUD </description>
+      <description>BO - Design - Image Settings - CRUD Steps    Step Description Expected result     Go to Design &amp;gt; Image Settings the image settings page is well displayed   Click on &amp;ldquo;Add new image type &amp;quot; a new page is displayed with title &amp;quot; Add new&amp;rdquo;   fill the blanks with the informations &amp;gt;Save a green alert display &amp;ldquo;Successful creation&amp;rdquo;
+the image settings list +1   Click on button &amp;ldquo;edit &amp;quot; the image settings page of the latest image type created is well displayed with title &amp;ldquo;Edit: test_type&amp;rdquo;    </description>
     </item>
     
     <item>
@@ -3415,7 +3416,10 @@ Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-add-attachment.html</guid>
-      <description>FO - Contact us - Add attachment Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Click on Contact Us button on header &amp;gt; In contact form click &amp;ldquo;Choose file&amp;rdquo; &amp;gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   Fill the form Form is displayed with your data   Add attachment &amp;gt; Click &amp;ldquo;Choose File&amp;rdquo; &amp;gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .</description>
+      <description>FO - Contact us - Add attachment Steps    Step Description Expected result     Go to FO &amp;gt; In footer, in on &amp;ldquo;Our company&amp;rdquo; section &amp;gt;Click on &amp;ldquo;Contact us&amp;rdquo; link Contact us form is displayed :
+* Subject fiels * Email address
+* Attachement
+* Message   Click on Contact Us button on header &amp;gt; In contact form click &amp;ldquo;Choose file&amp;rdquo; &amp;gt; Choose your file and upload it The file name is now displayed in the placeholder of Attachment   Fill the form Form is displayed with your data   Add attachment &amp;gt; Click &amp;ldquo;Choose File&amp;rdquo; &amp;gt; Choose your file The file name is now displayed in the placeholder of Attachment   Choose a file with extension .</description>
     </item>
     
     <item>
@@ -3483,9 +3487,8 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-display-some-products.html</guid>
-      <description>FO - Homepage - Display some products Steps    Step Description Expected result     Go to FO &amp;gt; Go below the slider * &amp;ldquo;Popular products&amp;rdquo; block is displayed with 8 products
-* &amp;ldquo;All products&amp;rdquo; link is displayed to go to &amp;ldquo;Home category&amp;rdquo;   Scroll down after the &amp;ldquo;Custom text block&amp;rdquo; * &amp;ldquo;On sale&amp;rdquo; block is displayed with 2 products
-* &amp;ldquo;All sale products&amp;rdquo; link is displayed to go to &amp;ldquo;Prices drop category&amp;rdquo;   Scroll down after the &amp;ldquo;On sale block&amp;rdquo; * &amp;ldquo;New products&amp;rdquo; block is displayed with 8 products</description>
+      <description>FO - Homepage - Display some products Steps    Step Description Expected result     Go to FO &amp;gt; Go below the slider Custom Text Block is displayed   Scroll down after the &amp;ldquo;Custom text block&amp;rdquo; * &amp;ldquo;Popular Products &amp;quot; section is dislayed : 8 products cards displayed
+* &amp;ldquo;All products&amp;rdquo; button is displayed   Scroll down after the &amp;ldquo;All products&amp;rdquo; button. ps_banner is well displayed</description>
     </item>
     
     <item>
@@ -6529,7 +6532,7 @@ Step 2 (Addresses) of checkout process is displayed   Create new address &amp;gt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/contact-us/fo-contact-us-send-message-while-logged-out.html</guid>
-      <description>FO - Contact us - Send message while logged out Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;The message cannot be blank.</description>
+      <description>FO - Contact us - Send message while logged out Steps    Step Description Expected result     Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact us form is well displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.&amp;rdquo; is displayed   Fill the form &amp;gt; Send Message &amp;ldquo;The message cannot be blank.</description>
     </item>
     
     <item>
@@ -7978,16 +7981,6 @@ Title is : Discovering the Administration Area    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/languages/bo-international-localization-languages-help-button.html</guid>
       <description>BO - International - Localization - Languages - Help button Steps    Step Description Expected result     Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Languages page The languages page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
-    </item>
-    
-    <item>
-      <title>BO - International - Taxes - Pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-pagination.html</guid>
-      <description>BO - International - Taxes - Pagination Steps    Step Description Expected result     Go to International &amp;gt; Taxes &amp;gt; Taxes Taxes page is well displayed
-number of taxes = 32 taxes   Change the items number to 10 per page 1 page is displayed (page 1/4)   Go to page 3 page 3 is displayed (page 3/4)   Change the items number to 50 per page taxe page is displayed (page 1/1 )    </description>
     </item>
     
     <item>
