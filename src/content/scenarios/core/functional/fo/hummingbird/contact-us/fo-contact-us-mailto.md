@@ -7,4 +7,4 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO > Scroll down to footer > In "Store information" section > Click on Email us email address | Client email will open and you will be able to send an email with email address of shop |
+| Go to FO > Scroll down to footer > In "Store information" section > Click on Email address below(Shop E-mail address) | A mail window will open and you will be able to send an email to the shop email adsress |

@@ -7,7 +7,7 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO > In footer, click on Our Company > Contact us | Contact form is displayed |
+| Go to FO > In footer, click on Our Company > Contact us | Contact us form is well displayed |
 | Fill the form > Send | Message "Invalid email address." is displayed |
 | Fill the form > Send | Message "Invalid email address." is displayed |
 | Fill the form > Send | Message "The message cannot be blank." is displayed |
