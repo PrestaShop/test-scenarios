@@ -9,5 +9,5 @@ weight: 3
 | ----- | ----- |
 | Go to FO > In Popular Products block > Click All products | All product from Category Home will be displayed <br><br>Link should look like mywebsite.com/2-home |
 | Check the Category card block should be displayed | !Screenshot 2021-11-29 at 15.45.33.png|width=413,height=117! |
-| Sorting and pagination should be displayed | !Screenshot 2021-11-29 at 15.47.12.png|width=893,height=62!!Screenshot 2021-11-29 at 15.47.17.png|width=846,height=55! |
+| Sorting and pagination should be displayed | !https://forge.prestashop.com/plugins/servlet/raven/attachment/1353/sort.png!<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1352/pagination.png! |
 | The products list is displayed | !Screenshot 2021-11-29 at 15.48.20.png|width=216,height=151! |
