@@ -888,7 +888,11 @@ Currency Euro is checked</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shipping/preferences/bo-shipping-preferences-handling.html</guid>
-      <description>BO - Shipping - Preferences - Handling </description>
+      <description>BO - Shipping - Preferences - Handling Steps    Step Description Expected result     Go to BO &amp;gt; Shipping &amp;gt; Preferences Preferences pages is displayed
+In Handling block, see the following :
+Handling charges : 2€ (tax excl.)
+Free shipping starts at 0€
+Free shipping starts at 0   Go to BO &amp;gt; Shipping &amp;gt; Carriers &amp;gt; Edit Click and collect &amp;gt; Go to Step 2 : Shipping locations and costs &amp;gt; Disable Free shipping &amp;gt; Finish See that Add handling cost is enabled</description>
     </item>
     
     <item>
@@ -1613,7 +1617,7 @@ You will see :</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-search-product-bar-consult-autocomplete-list.html</guid>
-      <description>FO - Search - Search product bar, consult autocomplete list Steps    Step Description Expected result     Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) * The autocomplete list is displayed with 7 products
+      <description>FO - Search - Search product bar, consult autocomplete list Steps    Step Description Expected result     Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) * The autocomplete list is displayed with 2 products
 * The search bar in the header keeps the word written   Click outside The autocomplete list is not displayed   Case 1: With &amp;ldquo;Mug&amp;rdquo; products</description>
     </item>
     
@@ -2641,7 +2645,7 @@ First row column id = 2   reset all filters Number of products after reset = tot
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-crud.html</guid>
       <description>BO - Design - Image Settings - CRUD Steps    Step Description Expected result     Go to Design &amp;gt; Image Settings the image settings page is well displayed   Click on &amp;ldquo;Add new image type &amp;quot; a new page is displayed with title &amp;quot; Add new&amp;rdquo;   fill the blanks with the informations &amp;gt;Save a green alert display &amp;ldquo;Successful creation&amp;rdquo;
-the image settings list +1   Click on button &amp;ldquo;edit &amp;quot; the image settings page of the latest image type created is well displayed with title &amp;ldquo;Edit: test_type&amp;rdquo;    </description>
+the image settings list +1   Click on button &amp;ldquo;edit &amp;quot; the image settings page of the latest image type created is well displayed with title &amp;ldquo;Edit: test_type&amp;rdquo;   change the informations of image setting created succesful message is displayed &amp;ldquo;Successful update&amp;rdquo;</description>
     </item>
     
     <item>
@@ -5155,7 +5159,8 @@ Go to FO &amp;gt; Change language from EN to XX language from the list in the he
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-all-products.html</guid>
-      <description>FO - Homepage - All products Steps    Step Description Expected result     Go to FO &amp;gt; In Popular Products block &amp;gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check the Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Sorting and pagination should be displayed !Screenshot 2021-11-29 at 15.47.12.png   The products list is displayed !</description>
+      <description>FO - Homepage - All products Steps    Step Description Expected result     Go to FO &amp;gt; In Popular Products block &amp;gt; Click All products All product from Category Home will be displayed Link should look like mywebsite.com/2-home   Check the Category card block should be displayed !Screenshot 2021-11-29 at 15.45.33.png   Sorting and pagination should be displayed !https://forge.prestashop.com/plugins/servlet/raven/attachment/1353/sort.png!
+!https://forge.prestashop.com/plugins/servlet/raven/attachment/1352/pagination.png!   The products list is displayed !</description>
     </item>
     
     <item>

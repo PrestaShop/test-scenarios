@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1687502512" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1687502512" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1687502512" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1687502512" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1687502512" rel="stylesheet">
-    <link href="../../../../../../style.css?1687502512" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1687588879" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1687588879" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1687588879" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1687588879" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1687588879" rel="stylesheet">
+    <link href="../../../../../../style.css?1687588879" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1687502512"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1687588879"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -38905,7 +38905,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---shipping---preferences---handling">BO - Shipping - Preferences - Handling</a></li>
+    <li><a href="#bo---shipping---preferences---handling">BO - Shipping - Preferences - Handling</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -60928,14 +60932,45 @@
 
 
 <h1 id="bo---shipping---preferences---handling">BO - Shipping - Preferences - Handling</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shipping &gt; Preferences</td>
+<td>Preferences pages is displayed<br><br>In Handling block, see the following :<br>Handling charges : 2€ (tax excl.)<br>Free shipping starts at 0€<br>Free shipping starts at 0</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shipping &gt; Carriers &gt; Edit Click and collect &gt; Go to Step 2 : Shipping locations and costs &gt; Disable Free shipping &gt; Finish</td>
+<td>See that Add handling cost is enabled<br><br>Alert Successful update is displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Add a product to cart &gt; Proceed to checkout until Step 3 - Shipping Method</td>
+<td>See that Click and collect carrier is not free anymore, now it is 2.40€</td>
+</tr>
+<tr>
+<td>Proceed to checkout until the end</td>
+<td>Shipping and handling cost is 2.40€ (tax incl.)</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Shipping &gt; Carriers &gt; Edit Click and collect &gt; Step 2 &gt; Free shipping Enable &gt; Finish</td>
+<td>Alert Successful update is displayed</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on June 22, 2023
+  Last updated on June 24, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/1d8f8e166217b43f8361e8d650e75d2d6632398a">"[Update] JIRA XRay Tests" (1d8f8e16621)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/426d7e9c060ec9fd8ff95bf536358e1b50d44b77">"[Update] JIRA XRay Tests" (426d7e9c060)</a>
   
 </div>
 
@@ -60956,17 +60991,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1687502512"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1687502512"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1687502512"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1687502512"></script>
-    <script src="../../../../../../js/featherlight.min.js?1687502512"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1687502512"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1687502512"></script>
-    <script src="../../../../../../js/learn.js?1687502512"></script>
-    <script src="../../../../../../js/hugo-learn.js?1687502512"></script>
+    <script src="../../../../../../js/clipboard.min.js?1687588879"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1687588879"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1687588879"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1687588879"></script>
+    <script src="../../../../../../js/featherlight.min.js?1687588879"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1687588879"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1687588879"></script>
+    <script src="../../../../../../js/learn.js?1687588879"></script>
+    <script src="../../../../../../js/hugo-learn.js?1687588879"></script>
     
-    <script src="../../../../../../main.js?1687502512"></script>
+    <script src="../../../../../../main.js?1687588879"></script>
     
     
 
