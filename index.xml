@@ -497,7 +497,7 @@ Criteria : name : lorem.word from faker</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-filter.html</guid>
-      <description>BO - Design - Image Settings - Filter </description>
+      <description>BO - Design - Image Settings - Filter Steps    Step Description Expected result     Go to Design &amp;gt; Image Settings the image settings page is well displayed    </description>
     </item>
     
     <item>
@@ -922,7 +922,7 @@ All rows column &amp;lsquo;id_store&amp;rsquo; contains &amp;lsquo;6&amp;rsquo; 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-filter-sort-and-pagination.html</guid>
-      <description>BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination </description>
+      <description>BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Customer Settings &amp;gt; Groups Customers - Groups page is well displayed   In Groups section &amp;gt; Fill all information :Groupe Name Discount%   Reset all filters of Groups table All filters are reset. All Groups are displayed   filter by ID.</description>
     </item>
     
     <item>
@@ -1363,11 +1363,34 @@ REFERENCE is correct   Filter by STATUS</description>
     </item>
     
     <item>
+      <title>FO - Cart - Change quantity</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-change-quantity.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-change-quantity.html</guid>
+      <description>FO - Cart - Change quantity Steps    Step Description Expected result     * Go to FO * Clic &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo;
+* Clic on &amp;ldquo;Add to cart&amp;rdquo;
+* Clic on Proceed to checkout * You should see you shop
+* You&amp;rsquo;ll see the page of your product
+* You&amp;rsquo;ll have a modal named &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo;
+* Your cart is displayed   Clic on the up arrow next to the product&amp;rsquo;s number You should have one more product on your card   Clic on the down arrow next to the product&amp;rsquo;s number You should have one less product on your card   * Clic on the product&amp;rsquo;s number * Writte 3 and press enter * You can now writte on it * You should have 3 products   * Clic on the product&amp;rsquo;s number * Writte -6 and press enter * You can now writte on it * You should have 3 products   * Clic on the product&amp;rsquo;s number * Writte +6 and press enter * You can now writte on it * You should have 6 products   * Clic on the product&amp;rsquo;s number * Writte 64 and press enter * You can now writte on it</description>
+    </item>
+    
+    <item>
       <title>FO - Cart - Modal - Display of modal when adding a product to cart</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-display-of-modal-when-adding-a-product-to-cart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-display-of-modal-when-adding-a-product-to-cart.html</guid>
+      <description>FO - Cart - Modal - Display of modal when adding a product to cart Steps    Step Description Expected result     Go to FO&amp;gt; All products The Home page is well displayed   Choose an existing product and click on Quick view The pop-up of the product is well displayed   Choose a quantity and click on ADD TO CART button The modal is well dispalyed when adding a product to cart and a successful message &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; is displayed with the quantity and size chosen.</description>
+    </item>
+    
+    <item>
+      <title>FO - Cart - Modal - Display of modal when adding a product to cart</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-display-of-modal-when-adding-a-product-to-cart.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-display-of-modal-when-adding-a-product-to-cart.html</guid>
       <description>FO - Cart - Modal - Display of modal when adding a product to cart Steps    Step Description Expected result     Go to FO&amp;gt; All products The Home page is well displayed   Choose an existing product and click on Quick view The pop-up of the product is well displayed   Choose a quantity and click on ADD TO CART button The modal is well dispalyed when adding a product to cart and a successful message &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; is displayed with the quantity and size chosen.</description>
     </item>
     
@@ -1397,6 +1420,15 @@ Shopping cart contain the product   Click to proceed to checkout Personal inform
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-order-as-a-guest.html</guid>
+      <description>FO - Checkout - Personal Information - Order as a guest Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Personal Information - Order as a guest</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-order-as-a-guest.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-order-as-a-guest.html</guid>
       <description>FO - Checkout - Personal Information - Order as a guest Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     
@@ -1526,6 +1558,16 @@ See the blue tag &amp;ldquo;NEW&amp;rdquo; displayed   Go to BO &amp;gt; Shop Pa
     </item>
     
     <item>
+      <title>FO - Menu and Navigation - Navigate and display - Display of tag products (New, Promo, Pack...)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-display-of-tag-products-new-promo-pack.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-display-of-tag-products-new-promo-pack.html</guid>
+      <description>FO - Menu and Navigation - Navigate and display - Display of tag products (New, Promo, Pack&amp;hellip;) Steps    Step Description Expected result     Go to FO &amp;gt; Click on product &amp;ldquo;THE BEST IS YET TO COME&#39; FRAMED POSTER&amp;rdquo; Product &amp;ldquo;THE BEST IS YET TO COME&#39; FRAMED POSTER&amp;rdquo; is well displayed
+See the blue tag &amp;ldquo;NEW&amp;rdquo; displayed   Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings &amp;gt; Edit &amp;ldquo;Number of days for which the product is considered &amp;lsquo;new&amp;rsquo;&amp;rdquo; = 0 &amp;gt; Save Message Update successful is displayed   Go to FO &amp;gt; Product THE BEST IS YET TO COME&#39; FRAMED POSTER &amp;gt; Refresh See the Tag &amp;ldquo;NEW&amp;rdquo; is not displayed anymore   Go to BO &amp;gt; Edit product THE BEST IS YET TO COME&#39; FRAMED POSTER &amp;gt; Go to Tab Pricing Pricing Tab is displayed   Go to Specific Prices &amp;gt; Click Add a specific price &amp;gt; Set data with following info &amp;gt; Apply &amp;gt; Save Message Settings updated is displayed   Click Preview on product Product page in FO is displayed</description>
+    </item>
+    
+    <item>
       <title>FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-consult-categories-with-many-sub-items.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1535,11 +1577,29 @@ See the blue tag &amp;ldquo;NEW&amp;rdquo; displayed   Go to BO &amp;gt; Shop Pa
     </item>
     
     <item>
+      <title>FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-consult-categories-with-many-sub-items.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-consult-categories-with-many-sub-items.html</guid>
+      <description>FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items) Steps    Step Description Expected result     Go to all products page Product page is diplayed   Click on add icon of Clothes category Men and Women subcategories show up   Click on Accessories category Accessories page is displayed   Click on HOME ACCESSORIES the page is well displayed    </description>
+    </item>
+    
+    <item>
       <title>FO - Menu and Navigation - Sort and filter - Sort the products</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-sort-the-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-sort-the-products.html</guid>
+      <description>FO - Menu and Navigation - Sort and filter - Sort the products Steps    Step Description Expected result     Go to all products page The sort should default to &amp;ldquo;Relevance&amp;rdquo;   Sort products by Name, A to Z Products are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort products by Name, Z to A Products are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort products by Price, low to high Products are sorted by Price (1 -&amp;gt; 2 -&amp;gt; 3)   Sort products by Price, high to low Products are sorted by Price (3 -&amp;gt; 2 -&amp;gt; 1)   Sort products by Relevance Products are sorted by ID product desc (3 -&amp;gt; 2 -&amp;gt; 1) in FO   Sort products by Sales, highest to lowest No sales yet, so the products are sorted by Relevance   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Changed the Order status of the latest order (ID : 5) to &amp;ldquo;Payment accepted&amp;rdquo; Message Successful update is displayed   Go back to FO &amp;gt; All Products &amp;gt; Refresh See that the first product shown is Brown bear cushion Color : Black</description>
+    </item>
+    
+    <item>
+      <title>FO - Menu and Navigation - Sort and filter - Sort the products</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-sort-the-products.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-sort-the-products.html</guid>
       <description>FO - Menu and Navigation - Sort and filter - Sort the products Steps    Step Description Expected result     Go to all products page The sort should default to &amp;ldquo;Relevance&amp;rdquo;   Sort products by Name, A to Z Products are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort products by Name, Z to A Products are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort products by Price, low to high Products are sorted by Price (1 -&amp;gt; 2 -&amp;gt; 3)   Sort products by Price, high to low Products are sorted by Price (3 -&amp;gt; 2 -&amp;gt; 1)   Sort products by Relevance Products are sorted by ID product desc (3 -&amp;gt; 2 -&amp;gt; 1) in FO   Sort products by Sales, highest to lowest No sales yet, so the products are sorted by Relevance   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Changed the Order status of the latest order (ID : 5) to &amp;ldquo;Payment accepted&amp;rdquo; Message Successful update is displayed   Go back to FO &amp;gt; All Products &amp;gt; Refresh See that the first product shown is Brown bear cushion Color : Black</description>
     </item>
     
@@ -1582,11 +1642,32 @@ You will see :</description>
     </item>
     
     <item>
+      <title>FO - Product Page - Add to cart</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-to-cart.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-to-cart.html</guid>
+      <description>FO - Product Page - Add to cart Steps    Step Description Expected result     Go to FO&amp;gt; click on an existing product image The page of the product is well displayed   Click on quantity and set it to 5 The quantity value is updated   On page of the product&amp;gt; Click on &amp;ldquo;Add to cart&amp;rdquo; The modal is well displayed.
+You will see :</description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Product Quickview - Add to cart</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-add-to-cart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-add-to-cart.html</guid>
+      <description>FO - Product Page - Product Quickview - Add to cart Steps    Step Description Expected result     In FO, in quickview of a non custom product &amp;gt; Click on &amp;ldquo;Add to cart&amp;rdquo; You will see :
+* &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; message
+* Recap in popup of your cart (number of item, subtotal, shipping, Total(tax incl.)   Click on Proceed To Checkout Shopping cart is displayed</description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Product Quickview - Add to cart</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-add-to-cart.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-add-to-cart.html</guid>
       <description>FO - Product Page - Product Quickview - Add to cart Steps    Step Description Expected result     In FO, in quickview of a non custom product &amp;gt; Click on &amp;ldquo;Add to cart&amp;rdquo; You will see :
 * &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; message
 * Recap in popup of your cart (number of item, subtotal, shipping, Total(tax incl.)   Click on Proceed To Checkout Shopping cart is displayed</description>
@@ -2226,6 +2307,15 @@ Click on it, a new page for Facebook site is open    </description>
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/blockwishlist/configuration/wording-and-statistics.html</guid>
       <description>Wording and statistics Steps    Step Description Expected result     Login in the backoffice. Go to the module&amp;rsquo;s settings page. Click on the Configuration&amp;quot; tab&amp;quot; Settings page is displayed correctly   Change every wording for every language
 Save Settings are saved successfully   Go to the front office and check all the wordings : name of the wishlist. title of the Add to&amp;quot;. name of the &amp;ldquo;Create new&amp;rdquo; in every language&amp;quot; Wordings are correct   Login in the backoffice.</description>
+    </item>
+    
+    <item>
+      <title> FO - Menu and Navigation - Navigate and display - Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-pagination.html</guid>
+      <description>FO - Menu and Navigation - Navigate and display - Pagination Steps    Step Description Expected result     Go to FO &amp;gt; Homepage &amp;gt; In popular product block &amp;gt; Click All products Home category is displayed   Scroll down to bottom of the page &amp;gt; See pagination is displayed See in pagination navigation : 2 pages of products and &amp;ldquo;Showing 1-12 of 19 item(s)&amp;rdquo; message   Click on &amp;ldquo;Next&amp;rdquo; On pagination navigation, see Showing 19-19 of 19 item(s) and &amp;ldquo;Previous&amp;rdquo; button is displayed.</description>
     </item>
     
     <item>
@@ -3343,11 +3433,34 @@ Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new t
     </item>
     
     <item>
+      <title>FO - Cart - Delete product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-delete-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-delete-product.html</guid>
+      <description>FO - Cart - Delete product Steps    Step Description Expected result     * Go to FO * Clic &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo;
+* Clic on &amp;ldquo;Add to cart&amp;rdquo;
+* Clic on Proceed to checkout * You should see you shop
+* You&amp;rsquo;ll see the page of your product
+* You&amp;rsquo;ll have a modal named &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo;
+* Your cart is displayed   Clic on the down arrow next to the product&amp;rsquo;s number * You should have 0 on your product on your card during 1 second * You should have the message &amp;ldquo;There are no more items in your cart&amp;rdquo; in your shopping cart.</description>
+    </item>
+    
+    <item>
       <title>FO - Cart - Modal - Continue shopping</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-continue-shopping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-continue-shopping.html</guid>
+      <description>FO - Cart - Modal - Continue shopping </description>
+    </item>
+    
+    <item>
+      <title>FO - Cart - Modal - Continue shopping</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-continue-shopping.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-continue-shopping.html</guid>
       <description>FO - Cart - Modal - Continue shopping </description>
     </item>
     
@@ -3393,6 +3506,15 @@ Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-sign-in.html</guid>
+      <description>FO - Checkout - Personal Information - Sign in Steps    Step Description Expected result     Go to FO &amp;gt; Click on product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 1 of checkout process is displayed : Personal Information   Click on Sign in &amp;gt; Enter email + password &amp;gt; Click on Continue Error message Authentication failed. is displayed   Enter a correct combination of email + password &amp;gt; Click on Continue Step 2 - Addresses is displayed   Click on Edit button of Step 1 &amp;gt; Continue The page shows Step 1 :</description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Personal Information - Sign in</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-sign-in.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-sign-in.html</guid>
       <description>FO - Checkout - Personal Information - Sign in Steps    Step Description Expected result     Go to FO &amp;gt; Click on product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 1 of checkout process is displayed : Personal Information   Click on Sign in &amp;gt; Enter email + password &amp;gt; Click on Continue Error message Authentication failed. is displayed   Enter a correct combination of email + password &amp;gt; Click on Continue Step 2 - Addresses is displayed   Click on Edit button of Step 1 &amp;gt; Continue The page shows Step 1 :</description>
     </item>
     
@@ -3536,11 +3658,29 @@ Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &am
     </item>
     
     <item>
+      <title>FO - Menu and Navigation - Navigate in Categories - Breadcrumb</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</guid>
+      <description>FO - Menu and Navigation - Navigate in Categories - Breadcrumb </description>
+    </item>
+    
+    <item>
       <title>FO - Menu and Navigation - Sort and filter - Filter products</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</guid>
+      <description>FO - Menu and Navigation - Sort and filter - Filter products </description>
+    </item>
+    
+    <item>
+      <title>FO - Menu and Navigation - Sort and filter - Filter products</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</guid>
       <description>FO - Menu and Navigation - Sort and filter - Filter products </description>
     </item>
     
@@ -3564,6 +3704,15 @@ Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &am
     </item>
     
     <item>
+      <title>FO - Order confirmation - Display of product customization</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-display-of-product-customization.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-display-of-product-customization.html</guid>
+      <description>FO - Order confirmation - Display of product customization </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Change quantity</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-change-quantity.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3573,11 +3722,29 @@ Go to header &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button link The &am
     </item>
     
     <item>
+      <title>FO - Product Page - Change quantity</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-change-quantity.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-change-quantity.html</guid>
+      <description>FO - Product Page - Change quantity </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Product Quickview - Change quantity</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-change-quantity.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-change-quantity.html</guid>
+      <description>FO - Product Page - Product Quickview - Change quantity </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Product Quickview - Change quantity</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-change-quantity.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-change-quantity.html</guid>
       <description>FO - Product Page - Product Quickview - Change quantity </description>
     </item>
     
@@ -4446,7 +4613,7 @@ Page title contains Creating a new Customer   Fill all information &amp;gt; Clic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-crud-page-category.html</guid>
-      <description>BO - Design - Pages - CRUD Page Category Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page. Pages page is displayed correctly&amp;quot; Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information : Name : Random.</description>
+      <description>BO - Design - Pages - CRUD Page Category Steps    Step Description Expected result     Go to Design&amp;gt;Pages Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information Category saved successfully   Go back to pages page Pages page is displayed correctly   Check the category number The category number is correct   Search for the new category and check result The new category is displayed correctly in the table   Go to Edit page category and click on save button The page category is edited correctly   Delete the created category The category is deleted successfully   Go to add new page Add new page is displayed correctly   Fill all information Page is saved correctly   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly   Delete the updated page The page is deleted successfully   Click on back to list Pages page is displayed correctly   Reset filter All filters are reset.</description>
     </item>
     
     <item>
@@ -4781,7 +4948,7 @@ All filters are reset. All carriers are displayed   Select All carriers and Clic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/groups/bo-shop-parameters-customer-settings-groups-default-groups-options.html</guid>
-      <description>BO - Shop Parameters - Customer Settings - Groups - Default groups options </description>
+      <description>BO - Shop Parameters - Customer Settings - Groups - Default groups options Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Customer Settings &amp;gt; Groups Customers - Groups page is well displayed   Check that the section Default groups options is exist Default groups options section is exist   Check that the default value selected for the visitor group is Visitor The default value selected for the visitor group is Visitor   Click on the dropdown list Visitors group The drop-down list Vistors groups contains :</description>
     </item>
     
     <item>
@@ -5042,11 +5209,30 @@ Message &amp;ldquo;Update successful&amp;rdquo; appears   Click on the 3-dot but
     </item>
     
     <item>
+      <title>FO - Cart - Add a promo code</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-add-a-promo-code.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-add-a-promo-code.html</guid>
+      <description>FO - Cart - Add a promo code Steps    Step Description Expected result     * Go to BO * Go to Catalog &amp;gt; Discounts
+* Click on Add new cart rule * You should see the dashoboard of your shop * You should see all the cart rules created if there is some one * You should be on the modal to create a cart rules   * Set up your cart rules * Clic on save * Every specified field should be set * You should see your new cart rules added on the list of cart rules   * Go to FO * Clic &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo;</description>
+    </item>
+    
+    <item>
       <title>FO - Cart - Modal - Proceed to checkout</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-proceed-to-checkout.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-proceed-to-checkout.html</guid>
+      <description>FO - Cart - Modal - Proceed to checkout </description>
+    </item>
+    
+    <item>
+      <title>FO - Cart - Modal - Proceed to checkout</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-proceed-to-checkout.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-proceed-to-checkout.html</guid>
       <description>FO - Cart - Modal - Proceed to checkout </description>
     </item>
     
@@ -5083,6 +5269,15 @@ Message &amp;ldquo;Update successful&amp;rdquo; appears   Click on the 3-dot but
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-header-display.html</guid>
+      <description>FO - Checkout - Personal Information - Header display </description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Personal Information - Header display</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-header-display.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-header-display.html</guid>
       <description>FO - Checkout - Personal Information - Header display </description>
     </item>
     
@@ -5195,11 +5390,29 @@ Go to FO &amp;gt; Change language from EN to XX language from the list in the he
     </item>
     
     <item>
+      <title>FO - Menu and Navigation - Navigate and display - Quickview of product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-quickview-of-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-quickview-of-product.html</guid>
+      <description>FO - Menu and Navigation - Navigate and display - Quickview of product Steps    Step Description Expected result     Go to FO &amp;gt; Homepage &amp;gt; Click quick view on HUMMINGBIRD PRINTED SWEATER product A popup will appear with the product info (images, name, price, tax, description, combinations, quantity, add to cart button, share buttons)   Click Add to cart button The Quick view popup will disappear and the Add to cart popup will appear   Click on Continue Shopping button The popup will disappear   Click on the Quick view button of MUG THE ADVENTURE BEGINS product A popup will appear with the product info (images, name, price, tax, description, quantity, add to cart button, share buttons)   Click the top right cross to close the popup Quick view popup is closed   Click on quick view for CUSTOMIZABLE MUG product A popup will appear with the product info (images, name, price, tax, description, quantity, add to cart button, share buttons)</description>
+    </item>
+    
+    <item>
       <title>FO - Menu and Navigation - Navigate in Categories -Side block categories</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-side-block-categories.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-side-block-categories.html</guid>
+      <description>FO - Menu and Navigation - Navigate in Categories -Side block categories </description>
+    </item>
+    
+    <item>
+      <title>FO - Menu and Navigation - Navigate in Categories -Side block categories</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-side-block-categories.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-side-block-categories.html</guid>
       <description>FO - Menu and Navigation - Navigate in Categories -Side block categories </description>
     </item>
     
@@ -5213,11 +5426,29 @@ Go to FO &amp;gt; Change language from EN to XX language from the list in the he
     </item>
     
     <item>
+      <title>FO - Menu and Navigation - Sort and filter - Clear all filters</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-all-filters.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-all-filters.html</guid>
+      <description>FO - Menu and Navigation - Sort and filter - Clear all filters </description>
+    </item>
+    
+    <item>
       <title>FO - Order confirmation - Order details and totals</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/order-confirmation/fo-order-confirmation-order-details-and-totals.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/order-confirmation/fo-order-confirmation-order-details-and-totals.html</guid>
+      <description>FO - Order confirmation - Order details and totals </description>
+    </item>
+    
+    <item>
+      <title>FO - Order confirmation - Order details and totals</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-order-details-and-totals.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-order-details-and-totals.html</guid>
       <description>FO - Order confirmation - Order details and totals </description>
     </item>
     
@@ -5231,11 +5462,29 @@ Go to FO &amp;gt; Change language from EN to XX language from the list in the he
     </item>
     
     <item>
+      <title>FO - Product Page - Display of the product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-of-the-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-of-the-product.html</guid>
+      <description>FO - Product Page - Display of the product </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Product Quickview - Share links</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-share-links.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-share-links.html</guid>
+      <description>FO - Product Page - Product Quickview - Share links </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Product Quickview - Share links</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-share-links.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-share-links.html</guid>
       <description>FO - Product Page - Product Quickview - Share links </description>
     </item>
     
@@ -6293,7 +6542,7 @@ When installed, button will transform to a Configure button   Click on the butto
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-update-contact-details.html</guid>
-      <description>BO - Shop Parameters - Contacts - Stores - Update contact details </description>
+      <description>BO - Shop Parameters - Contacts - Stores - Update contact details Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Stores Tab Stores page is well displayed   Click on the Edit button of the store in the table the Edit page is displayed   Edit the store form and click on Save the page is returned to store page and Successful update message is displayed    </description>
     </item>
     
     <item>
@@ -6468,11 +6717,29 @@ When installed, button will transform to a Configure button   Click on the butto
     </item>
     
     <item>
+      <title>FO - Cart - Display products</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-products.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-products.html</guid>
+      <description>FO - Cart - Display products </description>
+    </item>
+    
+    <item>
       <title>FO - Cart - Modal - Close modal</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-close-modal.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-close-modal.html</guid>
+      <description>FO - Cart - Modal - Close modal </description>
+    </item>
+    
+    <item>
+      <title>FO - Cart - Modal - Close modal</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-close-modal.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-close-modal.html</guid>
       <description>FO - Cart - Modal - Close modal </description>
     </item>
     
@@ -6611,11 +6878,29 @@ with the product details
     </item>
     
     <item>
+      <title>FO - Menu and Navigation - Navigate and display - Display &#34;On sale&#34; bandeau</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-display-on-sale-bandeau.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigation-and-display/fo-menu-and-navigation-navigate-and-display-display-on-sale-bandeau.html</guid>
+      <description>FO - Menu and Navigation - Navigate and display - Display &amp;quot;On sale&amp;quot; bandeau Steps    Step Description Expected result     Go to FO &amp;gt; Click on &amp;ldquo;HUMMINGBIRD PRINTED T-SHIRT&amp;rdquo; Product page opens   Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click on HUMMINGBIRD PRINTED T-SHIRT &amp;gt; Go to tab Pricing &amp;gt; Go to &amp;ldquo;Display the &amp;ldquo;On sale!&amp;rdquo; flag on the product page, and on product listings.</description>
+    </item>
+    
+    <item>
       <title>FO - Menu and Navigation - Sort and filter - Clear one filter</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html</guid>
+      <description>FO - Menu and Navigation - Sort and filter - Clear one filter </description>
+    </item>
+    
+    <item>
+      <title>FO - Menu and Navigation - Sort and filter - Clear one filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html</guid>
       <description>FO - Menu and Navigation - Sort and filter - Clear one filter </description>
     </item>
     
@@ -6629,6 +6914,15 @@ with the product details
     </item>
     
     <item>
+      <title>FO - Order confirmation - Recap of payment method</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-recap-of-payment-method.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-recap-of-payment-method.html</guid>
+      <description>FO - Order confirmation - Recap of payment method </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Change image</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-change-image.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6638,11 +6932,29 @@ with the product details
     </item>
     
     <item>
+      <title>FO - Product Page - Change image</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-change-image.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-change-image.html</guid>
+      <description>FO - Product Page - Change image </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Product Quickview - Display of the product</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-display-of-the-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-display-of-the-product.html</guid>
+      <description>FO - Product Page - Product Quickview - Display of the product </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Product Quickview - Display of the product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-display-of-the-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-display-of-the-product.html</guid>
       <description>FO - Product Page - Product Quickview - Display of the product </description>
     </item>
     
@@ -7085,7 +7397,7 @@ total of pages should be 1</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-sort-and-pagination.html</guid>
-      <description>BO - Design - Image Settings - Sort and Pagination </description>
+      <description>BO - Design - Image Settings - Sort and Pagination Steps    Step Description Expected result     Go to Design &amp;gt; Image Settings the image settings page is well displayed   Go to Design &amp;gt; Image Settings the image settings page is well displayed   Click on &amp;ldquo;Add new image type &amp;quot; a new page is displayed with title &amp;quot; Add new&amp;rdquo;   fill the blanks with the informations &amp;gt;Save a green alert display &amp;ldquo;Successful creation&amp;rdquo;</description>
     </item>
     
     <item>
@@ -7103,7 +7415,7 @@ total of pages should be 1</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-bulk-actions.html</guid>
-      <description>BO - Design - Pages - Bulk Actions Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page. Pages page is displayed correctly&amp;quot; Pages page is displayed correctly   Reset all filters of Pages table and get number of elements All filters are reset. All pages are displayed   Go to Add new page page Add new page is displayed correctly   Fill all information : Title : todelete.</description>
+      <description>BO - Design - Pages - Bulk Actions Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page Pages page is displayed correctly   Reset all filters of Pages table and get number of elements All filters are reset. All pages are displayed   Go to Add new page page Add new page is displayed correctly   Fill all information and Save Form Page is saved correctly   filter by Title.</description>
     </item>
     
     <item>
@@ -7507,6 +7819,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>FO - Cart - Display modal product customization</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-modal-product-customization.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-modal-product-customization.html</guid>
+      <description>FO - Cart - Display modal product customization </description>
+    </item>
+    
+    <item>
       <title>FO - Checkout - Addresses - Billing address when logged in</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/addresses/fo-checkout-addresses-billing-address-when-logged-in.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7543,6 +7864,15 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>FO - Order confirmation - Popular products</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-popular-products.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-popular-products.html</guid>
+      <description>FO - Order confirmation - Popular products </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Product Quickview - Close</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-close.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7552,11 +7882,29 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>FO - Product Page - Product Quickview - Close</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-close.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-close.html</guid>
+      <description>FO - Product Page - Product Quickview - Close </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Share links</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-share-links.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-share-links.html</guid>
+      <description>FO - Product Page - Share links </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Share links</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-share-links.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-share-links.html</guid>
       <description>FO - Product Page - Share links </description>
     </item>
     
@@ -8218,11 +8566,29 @@ We strongly advise you to upgrade the modules on maintenance mode to avoid any c
     </item>
     
     <item>
+      <title>FO - Cart - Display discount on product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-discount-on-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-discount-on-product.html</guid>
+      <description>FO - Cart - Display discount on product </description>
+    </item>
+    
+    <item>
       <title>FO - Order confirmation - Contact us</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/order-confirmation/fo-order-confirmation-contact-us.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/order-confirmation/fo-order-confirmation-contact-us.html</guid>
+      <description>FO - Order confirmation - Contact us Steps    Step Description Expected result     Go to the shop FO The FO homepage shop is displayed   Login to a existing customer account Logged in as customer   Add a product to cart The confirmation modal is displayed   In the &amp;ldquo;add to cart&amp;rdquo; confirmation modal click on the &amp;ldquo;order&amp;rdquo; button Redirected to the cart page   In the cart page click on the order button the checkout process is started and the &amp;ldquo;address selection&amp;rdquo; step is displayed   Click on the &amp;ldquo;next&amp;rdquo; button The delivery mode selection is displayed   Click on &amp;ldquo;next&amp;rdquo; button The payment method is now displayed   Select a paiement method, check the &amp;ldquo;generals conditions&amp;rdquo; checkbox and click on the &amp;ldquo;order&amp;rdquo; button The order is now completed and the &amp;ldquo;order confirmation&amp;rdquo; page is displayed   In the &amp;ldquo;order confirmation&amp;rdquo; page click on the &amp;ldquo;client support&amp;rdquo; link Redirection to the &amp;ldquo;contact us&amp;rdquo; page   In the &amp;ldquo;contact us&amp;rdquo; page, check if the email is correctly pre-filled The email field is filled with the logged in customer email address   Select a order reference The order reference is selected   Add a message in the textarea field The textarea field is filled with the message   Add a attachment file The attachment file is correctly added   click on the &amp;ldquo;send message&amp;rdquo; button A success message is displayed   Go to the BO The BO login page is displayed   Login to the BO Redirected to the BO dashboard page as logged in user   Go to the customer service page The customer service page is displayed   in the customer service page check in the customer service table if the previously send message is correctly displayed The previously send message is displayed and all the informations are correct    </description>
+    </item>
+    
+    <item>
+      <title>FO - Order confirmation - Contact us</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-contact-us.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-order-confirmation-contact-us.html</guid>
       <description>FO - Order confirmation - Contact us Steps    Step Description Expected result     Go to the shop FO The FO homepage shop is displayed   Login to a existing customer account Logged in as customer   Add a product to cart The confirmation modal is displayed   In the &amp;ldquo;add to cart&amp;rdquo; confirmation modal click on the &amp;ldquo;order&amp;rdquo; button Redirected to the cart page   In the cart page click on the order button the checkout process is started and the &amp;ldquo;address selection&amp;rdquo; step is displayed   Click on the &amp;ldquo;next&amp;rdquo; button The delivery mode selection is displayed   Click on &amp;ldquo;next&amp;rdquo; button The payment method is now displayed   Select a paiement method, check the &amp;ldquo;generals conditions&amp;rdquo; checkbox and click on the &amp;ldquo;order&amp;rdquo; button The order is now completed and the &amp;ldquo;order confirmation&amp;rdquo; page is displayed   In the &amp;ldquo;order confirmation&amp;rdquo; page click on the &amp;ldquo;client support&amp;rdquo; link Redirection to the &amp;ldquo;contact us&amp;rdquo; page   In the &amp;ldquo;contact us&amp;rdquo; page, check if the email is correctly pre-filled The email field is filled with the logged in customer email address   Select a order reference The order reference is selected   Add a message in the textarea field The textarea field is filled with the message   Add a attachment file The attachment file is correctly added   click on the &amp;ldquo;send message&amp;rdquo; button A success message is displayed   Go to the BO The BO login page is displayed   Login to the BO Redirected to the BO dashboard page as logged in user   Go to the customer service page The customer service page is displayed   in the customer service page check in the customer service table if the previously send message is correctly displayed The previously send message is displayed and all the informations are correct    </description>
     </item>
     
@@ -8236,12 +8602,30 @@ We strongly advise you to upgrade the modules on maintenance mode to avoid any c
     </item>
     
     <item>
+      <title>FO - Product Page - Download attachment</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-download-attachment.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-download-attachment.html</guid>
+      <description>FO - Product Page - Download attachment </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Product Quickview - Change combination on popup</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-change-combination-on-popup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-change-combination-on-popup.html</guid>
       <description>FO - Product Page - Product Quickview - Change combination on popup </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Product Quickview - Select color on hover on product list</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-select-color-on-hover-on-product-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-select-color-on-hover-on-product-list.html</guid>
+      <description>FO - Product Page - Product Quickview - Select color on hover on product list </description>
     </item>
     
     <item>
@@ -8552,7 +8936,7 @@ All products name contains the Searched Name   Click on the drop-down toggle and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-pagination.html</guid>
-      <description>BO - Design - Pages - Pagination Steps    Step Description Expected result     Go to Design &amp;gt; Pages Pages page is displayed correctly   Go to Design&amp;gt;Pages&amp;quot; page. Pages page is displayed correctly&amp;quot; Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information : Name : Random.</description>
+      <description>BO - Design - Pages - Pagination Steps    Step Description Expected result     Go to Design &amp;gt; Pages Pages page is displayed correctly   Go to Design&amp;gt;Pages Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information Category saved successfully   Go back to pages page Pages page is displayed correctly   Check the category number The category number is correct   Search for the new category and check result The new category is displayed correctly in the table   Go to Edit page category and click on save button The page category is edited correctly   Delete the created category The category is deleted successfully   Go to add new page Add new page is displayed correctly   Fill all information Page is saved correctly   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly   Delete the updated page The page is deleted successfully   Click on back to list Pages page is displayed correctly   Reset filter All filters are reset.</description>
     </item>
     
     <item>
@@ -8696,6 +9080,15 @@ Alert &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add pr
     </item>
     
     <item>
+      <title>CLONE - FO - Product Page - Product Quickview - Change combination on popup</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/clone-fo-product-page-product-quickview-change-combination-on-popup.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/clone-fo-product-page-product-quickview-change-combination-on-popup.html</guid>
+      <description>CLONE - FO - Product Page - Product Quickview - Change combination on popup </description>
+    </item>
+    
+    <item>
       <title>Create an order with an existing customer</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-an-existing-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8732,11 +9125,29 @@ Alert &amp;ldquo;Update successful&amp;rdquo; appears   Go to FO &amp;gt; Add pr
     </item>
     
     <item>
+      <title>FO - Cart - Display combination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-combination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-combination.html</guid>
+      <description>FO - Cart - Display combination </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Add a text customization</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-add-a-text-customization.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-add-a-text-customization.html</guid>
+      <description>FO - Product Page - Add a text customization </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Add a text customization</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-a-text-customization.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-a-text-customization.html</guid>
       <description>FO - Product Page - Add a text customization </description>
     </item>
     
@@ -9102,6 +9513,15 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
     </item>
     
     <item>
+      <title>FO - Cart - Display number of item</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-number-of-item.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-number-of-item.html</guid>
+      <description>FO - Cart - Display number of item </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Add a file customization</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-add-a-file-customization.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9111,11 +9531,29 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
     </item>
     
     <item>
+      <title>FO - Product Page - Add a file customization</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-a-file-customization.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-a-file-customization.html</guid>
+      <description>FO - Product Page - Add a file customization </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Product Quickview - Change image</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-change-image.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-quickview/fo-product-page-product-quickview-change-image.html</guid>
+      <description>FO - Product Page - Product Quickview - Change image </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Product Quickview - Change image</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-change-image.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-change-image.html</guid>
       <description>FO - Product Page - Product Quickview - Change image </description>
     </item>
     
@@ -9345,11 +9783,29 @@ Currency USD is disabled and displayed in the list   Enable USD from Currency li
     </item>
     
     <item>
+      <title>FO - Cart - Display total discount</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-total-discount.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-total-discount.html</guid>
+      <description>FO - Cart - Display total discount </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Add a required customization</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-add-a-required-customization.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-add-a-required-customization.html</guid>
+      <description>FO - Product Page - Add a required customization </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Add a required customization</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-a-required-customization.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-a-required-customization.html</guid>
       <description>FO - Product Page - Add a required customization </description>
     </item>
     
@@ -9506,11 +9962,29 @@ Total (Tax incl.</description>
     </item>
     
     <item>
+      <title>FO - Cart - Display Shipping</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-shipping.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-shipping.html</guid>
+      <description>FO - Cart - Display Shipping </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Change combination</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-change-combination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-change-combination.html</guid>
+      <description>FO - Product Page - Change combination </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Change combination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-change-combination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-change-combination.html</guid>
       <description>FO - Product Page - Change combination </description>
     </item>
     
@@ -9641,11 +10115,29 @@ Data is correct    </description>
     </item>
     
     <item>
+      <title>FO - Cart - Display detail discount</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-detail-discount.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-detail-discount.html</guid>
+      <description>FO - Cart - Display detail discount </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Changing color when changing combination - Color</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-changing-color-when-changing-combination-color.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-changing-color-when-changing-combination-color.html</guid>
+      <description>FO - Product Page - Changing color when changing combination - Color </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Changing color when changing combination - Color</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-changing-color-when-changing-combination-color.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-changing-color-when-changing-combination-color.html</guid>
       <description>FO - Product Page - Changing color when changing combination - Color </description>
     </item>
     
@@ -9756,6 +10248,24 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title>FO - Cart - Delete discount</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-delete-discount.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-delete-discount.html</guid>
+      <description>FO - Cart - Delete discount </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Display discount on product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-discount-on-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-discount-on-product.html</guid>
+      <description>FO - Product Page - Display discount on product </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Write a review</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-write-a-review.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9822,12 +10332,30 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title>FO - Cart - Continue Shopping</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-continue-shopping.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-continue-shopping.html</guid>
+      <description>FO - Cart - Continue Shopping </description>
+    </item>
+    
+    <item>
       <title>FO - Product Page - Display discount on product</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-display-discount-on-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-display-discount-on-product.html</guid>
       <description>FO - Product Page - Display discount on product </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Display tag products (New, On sale, Pack...)</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-tag-products-new-on-sale-pack.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-tag-products-new-on-sale-pack.html</guid>
+      <description>FO - Product Page - Display tag products (New, On sale, Pack&amp;hellip;) </description>
     </item>
     
     <item>
@@ -9884,6 +10412,24 @@ The document language is English   Close the help sidebar The help sidebar is cl
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-proceed-to-checkout.html</guid>
       <description>FO - Cart - Proceed to checkout </description>
+    </item>
+    
+    <item>
+      <title>FO - Cart - Proceed to checkout</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-proceed-to-checkout.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-proceed-to-checkout.html</guid>
+      <description>FO - Cart - Proceed to checkout </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Display &#34;On sale&#34; label</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-on-sale-label.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-on-sale-label.html</guid>
+      <description>FO - Product Page - Display &amp;quot;On sale&amp;quot; label </description>
     </item>
     
     <item>
@@ -9961,6 +10507,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title>FO - Product Page - Display Specific delivery time</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-specific-delivery-time.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-specific-delivery-time.html</guid>
+      <description>FO - Product Page - Display Specific delivery time </description>
+    </item>
+    
+    <item>
       <title>ps_emailsubscription - Check the ID in the tab configuration  if the email address is not linked to a customer</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/ps-emailsubscription-check-the-id-in-the-tab-configuration-if-the-email-address-is-not-linked-to-a-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -10017,6 +10572,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
     </item>
     
     <item>
+      <title>FO - Product Page - Out-of-Stock behaviour</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-out-of-stock-behaviour.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-out-of-stock-behaviour.html</guid>
+      <description>FO - Product Page - Out-of-Stock behaviour </description>
+    </item>
+    
+    <item>
       <title>ps_emailsubscription - Check the ID in the tab configuration  if the email address is linked to a customer</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/ps-emailsubscription-check-the-id-in-the-tab-configuration-if-the-email-address-is-linked-to-a-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -10052,6 +10616,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-edit-template-dimension-filter.html</guid>
       <description>Faceted search module - Edit template - Dimension filter Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list   Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed   Click on &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed   In &amp;ldquo;Filters&amp;rdquo; block &amp;gt; Set &amp;ldquo;Attribute group : Dimension&amp;rdquo; switch button to disable &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button It returns on the &amp;ldquo;Configure faceted search&amp;rdquo; page and you have a successful message &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Display pack content and link to product</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-pack-content-and-link-to-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-pack-content-and-link-to-product.html</guid>
+      <description>FO - Product Page - Display pack content and link to product </description>
     </item>
     
     <item>
@@ -10097,6 +10670,15 @@ The document language is English   Close the help sidebar The help sidebar is cl
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-display-pack-content-and-link-to-product.html</guid>
       <description>FO - Product Page - Display pack content and link to product </description>
+    </item>
+    
+    <item>
+      <title>FO - Product Page - Display volume discount</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-volume-discount.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-display-volume-discount.html</guid>
+      <description>FO - Product Page - Display volume discount </description>
     </item>
     
     <item>
