@@ -497,7 +497,7 @@ Criteria : name : lorem.word from faker</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-filter.html</guid>
-      <description>BO - Design - Image Settings - Filter Steps    Step Description Expected result     Go to Design &amp;gt; Image Settings the image settings page is well displayed    </description>
+      <description>BO - Design - Image Settings - Filter Steps    Step Description Expected result     Go to Design &amp;gt; Image Settings the image settings page is well displayed   Go to Design &amp;gt; Image Settings the image settings page is well displayed   Click on &amp;ldquo;Add new image type &amp;quot; a new page is displayed with title &amp;quot; Add new&amp;rdquo;   fill the blanks with the informations &amp;gt;Save a green alert display &amp;ldquo;Successful creation&amp;rdquo;</description>
     </item>
     
     <item>
@@ -1404,11 +1404,31 @@ REFERENCE is correct   Filter by STATUS</description>
     </item>
     
     <item>
+      <title>FO - Checkout - Addresses - Guest checkout : Use same invoice address</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-guest-checkout-use-same-invoice-address.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-guest-checkout-use-same-invoice-address.html</guid>
+      <description>FO - Checkout - Addresses - Guest checkout : Use same invoice address </description>
+    </item>
+    
+    <item>
       <title>FO - Checkout - Payment - Choose a payment method</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/payment/fo-checkout-payment-choose-a-payment-method.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/payment/fo-checkout-payment-choose-a-payment-method.html</guid>
+      <description>FO - Checkout - Payment - Choose a payment method Steps    Step Description Expected result     On FO &amp;gt; Product page
+click to quick view of a product quickview displayed   Click to Add to cart &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; notificaiton   Click to proceed to checkout Shopping cart displayed
+Shopping cart contain the product   Click to proceed to checkout Personal information is displayed</description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Payment - Choose a payment method</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/payment/fo-checkout-payment-choose-a-payment-method.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/payment/fo-checkout-payment-choose-a-payment-method.html</guid>
       <description>FO - Checkout - Payment - Choose a payment method Steps    Step Description Expected result     On FO &amp;gt; Product page
 click to quick view of a product quickview displayed   Click to Add to cart &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; notificaiton   Click to proceed to checkout Shopping cart displayed
 Shopping cart contain the product   Click to proceed to checkout Personal information is displayed</description>
@@ -1438,6 +1458,15 @@ Shopping cart contain the product   Click to proceed to checkout Personal inform
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
+      <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are logged in   Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Add an address &amp;gt; Continue Step 3 - Shipping method is displayed   Add a comment about your order &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method &amp;gt; Select another carrier &amp;amp; edit message &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method See that the message is well saved and has not changed   Continue &amp;gt; Choose a payment method &amp;gt; Agree to terms and conditions &amp;gt; Place order YOUR ORDER IS CONFIRMED   Click on your account in top-right corner &amp;gt; Order history and details &amp;gt; Details &amp;gt; Scroll down to block Messages See your message is displayed correctly    </description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Shipping method - Add order message</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/shipping-method/fo-checkout-shipping-method-add-order-message.html</guid>
       <description>FO - Checkout - Shipping method - Add order message Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are logged in   Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Add an address &amp;gt; Continue Step 3 - Shipping method is displayed   Add a comment about your order &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method &amp;gt; Select another carrier &amp;amp; edit message &amp;gt; Continue Step 4 - Payment is displayed   Click on edit button of Step 3 - Shipping method See that the message is well saved and has not changed   Continue &amp;gt; Choose a payment method &amp;gt; Agree to terms and conditions &amp;gt; Place order YOUR ORDER IS CONFIRMED   Click on your account in top-right corner &amp;gt; Order history and details &amp;gt; Details &amp;gt; Scroll down to block Messages See your message is displayed correctly    </description>
     </item>
     
@@ -3492,11 +3521,29 @@ Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new t
     </item>
     
     <item>
+      <title>FO - Checkout - Addresses - Use another address for invoice as a guest</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-use-another-address-for-invoice-as-a-guest.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-use-another-address-for-invoice-as-a-guest.html</guid>
+      <description>FO - Checkout - Addresses - Use another address for invoice as a guest </description>
+    </item>
+    
+    <item>
       <title>FO - Checkout - Payment - Place order</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/payment/fo-checkout-payment-place-order.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/payment/fo-checkout-payment-place-order.html</guid>
+      <description>FO - Checkout - Payment - Place order </description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Payment - Place order</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/payment/fo-checkout-payment-place-order.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/payment/fo-checkout-payment-place-order.html</guid>
       <description>FO - Checkout - Payment - Place order </description>
     </item>
     
@@ -3524,6 +3571,15 @@ Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</guid>
+      <description>FO - Checkout - Shipping method - Select a carrier Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are now logged in   Click on a product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 2 of checkout process is displayed : Addresses   Choose My address (Address in the US) &amp;gt; Continue Step 3 - Shipping method is displayed.</description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Shipping method - Select a carrier</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/shipping-method/fo-checkout-shipping-method-select-a-carrier.html</guid>
       <description>FO - Checkout - Shipping method - Select a carrier Steps    Step Description Expected result     Go to FO &amp;gt; Log into your customer account You are now logged in   Click on a product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 2 of checkout process is displayed : Addresses   Choose My address (Address in the US) &amp;gt; Continue Step 3 - Shipping method is displayed.</description>
     </item>
     
@@ -5246,6 +5302,15 @@ Message &amp;ldquo;Update successful&amp;rdquo; appears   Click on the 3-dot but
     </item>
     
     <item>
+      <title>FO - Checkout - Addresses - Select an address</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-select-an-address.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-select-an-address.html</guid>
+      <description>FO - Checkout - Addresses - Select an address </description>
+    </item>
+    
+    <item>
       <title>FO - Checkout - Display of total (price, vouchers, shipping, promo...)</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping-promo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6006,7 +6071,8 @@ Email logs table is displayed in the page    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-sort-pagination.html</guid>
-      <description>BO - Advanced parameters - Team - Employees - Sort pagination </description>
+      <description>BO - Advanced parameters - Team - Employees - Sort pagination Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; employees&amp;rsquo; page title contains &amp;lsquo;Employees&amp;rsquo;
+employees list is well displayed   Go to BO &amp;gt; Advanced Parameters &amp;gt; Team Employees Page opens   Click button Add an employee &amp;gt; Fill in fields &amp;gt; Choose Permission Profile : SuperAdmin &amp;gt; Choose Default Page : Order &amp;gt; Save Message Successful creation.</description>
     </item>
     
     <item>
@@ -6015,7 +6081,8 @@ Email logs table is displayed in the page    </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-sort-pagination.html</guid>
-      <description>BO - Advanced parameters - Team - Profiles - Sort pagination </description>
+      <description>BO - Advanced parameters - Team - Profiles - Sort pagination Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;
+profiles list is well displayed   go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles &amp;gt; 0   go to add new profile title contains &amp;lsquo;Add new&amp;rsquo;   create profile</description>
     </item>
     
     <item>
@@ -6262,7 +6329,7 @@ number of layouts = 50   Go back to email theme page title contains &amp;lsquo;E
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-categories-bulk-actions.html</guid>
-      <description>BO - Design - Pages - Categories Bulk Actions Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page. Pages page is displayed correctly&amp;quot; Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category page is displayed correctly   Fill all information : Name : todelete.</description>
+      <description>BO - Design - Pages - Categories Bulk Actions Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category page is displayed correctly   Fill all information : Name : todelete.</description>
     </item>
     
     <item>
@@ -6409,7 +6476,7 @@ basedOn: &amp;lsquo;Delivery address&amp;rsquo;,</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-connect-to-addons-market-place.html</guid>
-      <description>BO - Modules - Alerts tab - Connect to Addons market place Steps    Step Description Expected result     Go Module &amp;gt;Module Manager &amp;gt;Alerts alert page is well displayed    </description>
+      <description>BO - Modules - Alerts tab - Connect to Addons market place </description>
     </item>
     
     <item>
@@ -6754,6 +6821,16 @@ Step 2 (Addresses) of checkout process is displayed   Create new address &amp;gt
     </item>
     
     <item>
+      <title>FO - Checkout - Addresses - CRUD address</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-crud-address.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-crud-address.html</guid>
+      <description>FO - Checkout - Addresses - CRUD address Steps    Step Description Expected result     In FO &amp;gt; Add a product to the cart &amp;gt; Proceed to checkout &amp;gt; Sign In with your customer You are signed in
+Step 2 (Addresses) of checkout process is displayed   Create new address &amp;gt; Continue Step 3 of checkout process is displayed   Click Edit on Step 2 (Address) &amp;gt; Click on edit Address &amp;gt; Fill all fields (optional + non-optional) &amp;gt; Continue Step 3 of checkout process is displayed   Click Edit on Step 2 (Address) &amp;gt; Click Add new address &amp;gt; Fill all fields &amp;gt; Continue Step 3 of checkout process is displayed   Click on Billing address differs from shipping address A new block appears : Your Invoice Address   Click on Add a new address in Your Invoice Address Block A form is displayed in Your Invoice Address   Add an Alias to this address &amp;gt; Fill all fields &amp;gt; Continue Step 3 of checkout process is displayed   Click Edit Step 2 &amp;gt; Delete your third created address Message Address successfully deleted.</description>
+    </item>
+    
+    <item>
       <title>FO - Checkout - Display of highlighted cart rules</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-highlighted-cart-rules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6777,6 +6854,15 @@ Step 2 (Addresses) of checkout process is displayed   Create new address &amp;gt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-create-an-account.html</guid>
+      <description>FO - Checkout - Personal Information - Create an account Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Personal Information - Create an account</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-create-an-account.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-create-an-account.html</guid>
       <description>FO - Checkout - Personal Information - Create an account Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     
@@ -7406,7 +7492,7 @@ total of pages should be 1</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/link-widget/bo-design-link-widget-sort-link-list.html</guid>
-      <description>BO - Design - Link Widget - Sort Link List </description>
+      <description>BO - Design - Link Widget - Sort Link List Steps    Step Description Expected result     Go to Design &amp;gt;Link list Link list is well displayed   Sort by by ID asc link list are sorted by ID (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;)   Sort by by ID desc link list are sorted by ID (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;)   Sort by by Name of the block asc link list are sorted by Name of the block (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;)   Sort by Name of the block desc link list are sorted by Name of the block (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;)   Sort by Position asc link list are sorted by Position (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;)   Sort by Position desc link list are sorted by Position (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;)    </description>
     </item>
     
     <item>
@@ -7837,11 +7923,29 @@ An order guest contains the searched guest   Click on the guest Link Redirection
     </item>
     
     <item>
+      <title>FO - Checkout - Addresses - Billing address when logged in</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-billing-address-when-logged-in.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-billing-address-when-logged-in.html</guid>
+      <description>FO - Checkout - Addresses - Billing address when logged in </description>
+    </item>
+    
+    <item>
       <title>FO - Checkout - Personal Information - Password reminder</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-password-reminder.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-password-reminder.html</guid>
+      <description>FO - Checkout - Personal Information - Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 1 of checkout process is displayed : Personal Information   Click on Sign in &amp;gt; Click on Forgot your password? The Reset your password page is displayed   Enter email &amp;gt; Send reset link Success alert is displayed :</description>
+    </item>
+    
+    <item>
+      <title>FO - Checkout - Personal Information - Password reminder</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-password-reminder.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-password-reminder.html</guid>
       <description>FO - Checkout - Personal Information - Password reminder Steps    Step Description Expected result     Go to FO &amp;gt; Click on product &amp;gt; Add to cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout Step 1 of checkout process is displayed : Personal Information   Click on Sign in &amp;gt; Click on Forgot your password? The Reset your password page is displayed   Enter email &amp;gt; Send reset link Success alert is displayed :</description>
     </item>
     
