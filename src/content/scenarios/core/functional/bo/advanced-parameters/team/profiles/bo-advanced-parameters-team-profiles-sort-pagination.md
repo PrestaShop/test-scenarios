@@ -20,10 +20,10 @@ weight: 4
 | reset filter | Total of profiles > 0 |
 | create 20 new profiles | profiles page is well displayed<br><br>the profiles table  = 20 |
 | Reset all filters | All filters are reset , the profiles are  displayed |
-| Sort by by ID asc | profiles  list are sorted by ID (1-> 2 ->3 ...) |
-| Sort by by ID desc | profiles  list are sorted by ID (3-> 2 ->1...) |
-| Sort by by name asc | profiles  list are sorted by name (1-> 2 ->3 ...) |
-| Sort by by name desc | profiles  list are sorted by name (3-> 2 ->1...) |
+| Sort  by ID asc | profiles  list are sorted by ID (1-> 2 ->3 ...) |
+| Sort  by ID desc | profiles  list are sorted by ID (3-> 2 ->1...) |
+| Sort  by name asc | profiles  list are sorted by name (a-> b ->c ...) |
+| Sort  by name desc | profiles  list are sorted by name (c-> b ->a...) |
 | Change the items number to 10 per page | 2 pages are displayed (page 1/2) |
 | Go to page 2 | 2 pages are displayed (page 2/2) |
 | Change the items number to 50 per page | Only one page is displayed  _(page 1 / 1)_ |
