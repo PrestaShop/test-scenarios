@@ -21,4 +21,5 @@ weight: 1
 | Reset all filters | All filters are reset. All states are displayed |
 | Filter by Enabled status of state created | state  list is filtered<br>state listed have "enabled status  " in their state  status |
 | Reset all filters | All filters are reset. All states are displayed |
-| choose a state and click on edit button >edit the name >click  on save | New state is saved correctly.<br><br>Message is displayed "Update successful"<br><br>Redirection to states page |
+| choose a state and click on check icon in the Enabled section | Enabled state changes to : X<br><br>This message is displayed "The status has been successfully updated." |
+| Filter by Disaabled status of state you've just changed its status | state  list is filtered<br>state listed have "disabled status  " in the state  status |
