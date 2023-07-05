@@ -1420,7 +1420,7 @@ REFERENCE is correct   Filter by STATUS</description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/payment/fo-checkout-payment-choose-a-payment-method.html</guid>
       <description>FO - Checkout - Payment - Choose a payment method Steps    Step Description Expected result     On FO &amp;gt; Product page
-click to quick view of a product quickview displayed   Click to Add to cart &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; notificaiton   Click to proceed to checkout Shopping cart displayed
+click to quick view of a product quickview displayed   Click to Add to cart &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; notificaiton   Click to proceed to checkout SHOPPING CART displayed
 Shopping cart contain the product   Click to proceed to checkout Personal information is displayed</description>
     </item>
     
@@ -3536,7 +3536,9 @@ Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/payment/fo-checkout-payment-place-order.html</guid>
-      <description>FO - Checkout - Payment - Place order </description>
+      <description>FO - Checkout - Payment - Place order Steps    Step Description Expected result     On FO &amp;gt; Product page
+click to quick view of a product quickview displayed   Click to Add to cart &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; notificaiton   Click to proceed to checkout SHOPPING CART displayed
+Shopping cart contain the product   Click to proceed to checkout Personal information is displayed</description>
     </item>
     
     <item>
@@ -5335,7 +5337,7 @@ Message &amp;ldquo;Update successful&amp;rdquo; appears   Click on the 3-dot but
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-header-display.html</guid>
-      <description>FO - Checkout - Personal Information - Header display </description>
+      <description>FO - Checkout - Personal Information - Header display Steps    Step Description Expected result     FO &amp;gt; Click on &amp;ldquo;Quick view &amp;quot; for any product A modal opens containing item details (Title, price, description,..)   Click on ADD TO CART button A modal is displayed containing this message: &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo;   Click on &amp;ldquo;PROCEED TO CHECKOUT&amp;rdquo; button The SHOPPING CART page is well displayed   Click on &amp;ldquo;PROCEED TO CHECKOUT&amp;rdquo; in SHOPPING CART page The &amp;ldquo;PERSONAL INFORMATION&amp;rdquo; page is well displayed with empty fields   Fill the Order as a guest form without filling in the password and the birthdate &amp;gt; click on &amp;ldquo;CONTINUE&amp;rdquo; button The ADDRESSES page is well displayed</description>
     </item>
     
     <item>
@@ -9375,7 +9377,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-edit-url-options.html</guid>
-      <description>BO - Advanced Parameters - Multistore - Edit URL options Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Multistore Multistore page opens   * Click on your main shop url in Multitsore Tree * Click button Edit
+      <description>BO - Advanced Parameters - Multistore - Edit URL options Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Multistore Multistore page opens   * Click on your shop 1 url in Multitsore Tree * Click button Edit
 * Disable option &amp;ldquo;Is it the main URL for this shop?&amp;rdquo; and Disable the shop
 * click on &amp;ldquo;save&amp;rdquo; button An error message will appear : There are 2 errors.</description>
     </item>
