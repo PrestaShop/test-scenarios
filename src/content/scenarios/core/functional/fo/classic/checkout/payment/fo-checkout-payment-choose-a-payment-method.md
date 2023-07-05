@@ -9,7 +9,7 @@ weight: 1
 | ----- | ----- |
 | On FO > Product page<br><br>click to quick view of a product | quickview displayed |
 | Click to Add to cart | "Product successfully added to your shopping cart" notificaiton |
-| Click to proceed to checkout | Shopping cart displayed<br><br>Shopping cart contain the product |
+| Click to proceed to checkout | SHOPPING CART displayed<br><br>Shopping cart contain the product |
 | Click to proceed to checkout | Personal information is displayed<br><br>You've the your cart on the right |
 | Click on Sign in, fill the input and click to continue | Adressess page displayed |
 | Click to continue | SHIPPING METHOD displayed |
