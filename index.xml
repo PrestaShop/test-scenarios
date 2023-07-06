@@ -513,11 +513,29 @@ and clic on Save Successful message is displayed Total of block for displayFoote
     
     <item>
       <title>BO - Design - Pages - Filter and Quick Edit</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-filter-and-quick-edit.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-filter-and-quick-edit.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-filter-and-quick-edit.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-filter-and-quick-edit.html</guid>
       <description>BO - Design - Pages - Filter and Quick Edit Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page&amp;quot; Pages page is displayed correctly   Reset all filters All filters are reset. All pages are displayed   Save the pages number in a variable Number of pages is saved   filter by ID. Criteria : 1&amp;quot; Pages list is filtered. Pages listed have 1&amp;quot; in their ID&amp;quot;   Reset all filters All filters are reset.</description>
+    </item>
+    
+    <item>
+      <title>BO - Design - Pages - Filter and Quick Edit Categories</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/categories/bo-design-pages-filter-and-quick-edit-categories.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/categories/bo-design-pages-filter-and-quick-edit-categories.html</guid>
+      <description>BO - Design - Pages - Filter and Quick Edit Categories Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page. Pages page is displayed correctly&amp;quot; Pages page is displayed correctly   Go to Add new page category Add new page category is displayed correctly   Fill all information : Name : Random. Description : Random. Displayed : Yes And Save Form Category saved successfully   Go back to Categories list Categories list is displayed correctly   Fill all information : Name : Random.</description>
+    </item>
+    
+    <item>
+      <title>BO - Design - Pages - Help button</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-help-button.html</guid>
+      <description>BO - Design - Pages - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Pages page The Pages page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
     </item>
     
     <item>
@@ -687,7 +705,11 @@ All Zones are displayed   Filter by zone exemple : Africa Zone list is filtered
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/translations/bo-international-translations-modify-translations-and-check-result.html</guid>
-      <description>BO - International - Translations - Modify translations and check result </description>
+      <description>BO - International - Translations - Modify translations and check result Steps    Step Description Expected result     BO &amp;gt; International &amp;gt;Translations The Translations page is well displayed, Modify translations section is displayed with two input fields :
+* Type of translation
+* Select your language   Case 1:Back office translations
+Go to Modify translations section
+Click on Modify button Translations page is well displayed</description>
     </item>
     
     <item>
@@ -2424,7 +2446,7 @@ and save A green alert &amp;ldquo;Successful creation.&amp;rdquo; is displayed a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-pagination-bulk-delete.html</guid>
-      <description>BO - Advanced Parameters - Database - DB Backup - Pagination , Bulk Delete Steps    Step Description Expected result     go to database &amp;gt; sql manager page title contains &amp;lsquo;SQL Manager&amp;rsquo;   go to db backup page title contains &amp;lsquo;DB Backup&amp;rsquo;   get number of db backups number of backups = 0   Click on &amp;ldquo;I have read the declaimer .Please generate new db backup &amp;quot; Successful message is displayed</description>
+      <description>BO - Advanced Parameters - Database - DB Backup - Pagination , Bulk Delete Steps    Step Description Expected result     go to database &amp;gt; sql manager page title contains &amp;lsquo;SQL Manager&amp;rsquo;   go to db backup page title contains &amp;lsquo;DB Backup&amp;rsquo;   get number of db backups number of backups = 0   generate 11 new db backup Successful message is displayed</description>
     </item>
     
     <item>
@@ -2778,12 +2800,30 @@ the image settings list +1   Click on button &amp;ldquo;edit &amp;quot; the imag
     </item>
     
     <item>
-      <title>BO - Design - Pages - Filter and Quick Edit Categories</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-filter-and-quick-edit-categories.html</link>
+      <title>BO - Design - Pages - Bulk Actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-filter-and-quick-edit-categories.html</guid>
-      <description>BO - Design - Pages - Filter and Quick Edit Categories Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page. Pages page is displayed correctly&amp;quot; Pages page is displayed correctly   Go to Add new page category Add new page category is displayed correctly   Fill all information : Name : Random. Description : Random. Displayed : Yes And Save Form Category saved successfully   Go back to Categories list Categories list is displayed correctly   Fill all information : Name : Random.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-bulk-actions.html</guid>
+      <description>BO - Design - Pages - Bulk Actions Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page Pages page is displayed correctly   Reset all filters of Pages table and get number of elements All filters are reset. All pages are displayed   Go to Add new page page Add new page is displayed correctly   Fill all information and Save Form Page is saved correctly   filter by Title.</description>
+    </item>
+    
+    <item>
+      <title>BO - Design - Pages - Categories Bulk Actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/categories/bo-design-pages-categories-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/categories/bo-design-pages-categories-bulk-actions.html</guid>
+      <description>BO - Design - Pages - Categories Bulk Actions Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category page is displayed correctly   Fill all information : Name : todelete.</description>
+    </item>
+    
+    <item>
+      <title>BO - Design - Pages - CRUD Page Category</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-crud-page-category.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-crud-page-category.html</guid>
+      <description>BO - Design - Pages - CRUD Page Category Steps    Step Description Expected result     Go to Design&amp;gt;Pages Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information Category saved successfully   Go back to pages page Pages page is displayed correctly   Check the category number The category number is correct   Search for the new category and check result The new category is displayed correctly in the table   Go to Edit page category and click on save button The page category is edited correctly   Delete the created category The category is deleted successfully   Go to add new page Add new page is displayed correctly   Fill all information Page is saved correctly   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly   Delete the updated page The page is deleted successfully   Click on back to list Pages page is displayed correctly   Reset filter All filters are reset.</description>
     </item>
     
     <item>
@@ -4260,7 +4300,7 @@ Check that the button upload module exist in the header of the page   Click on t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/tls-check.html</guid>
-      <description>TLS Check Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/hook-status/1 without HTTPS Receive a response where the HTTP code is 301
+      <description>TLS Check Steps    Step Description Expected result     Request the endpoint /admin-dev/api/oauth2/token without HTTPS Receive a response where the HTTP code is 301
 Redirect to the endpoint in HTTPS   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.0 with a valid access token Receive a response where the HTTP code is 426
 Receive a response where the header “Upgrade” is present   Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.</description>
     </item>
@@ -4667,12 +4707,12 @@ Page title contains Creating a new Customer   Fill all information &amp;gt; Clic
     </item>
     
     <item>
-      <title>BO - Design - Pages - CRUD Page Category</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-crud-page-category.html</link>
+      <title>BO - Design - Pages - Sort</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-sort.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-crud-page-category.html</guid>
-      <description>BO - Design - Pages - CRUD Page Category Steps    Step Description Expected result     Go to Design&amp;gt;Pages Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information Category saved successfully   Go back to pages page Pages page is displayed correctly   Check the category number The category number is correct   Search for the new category and check result The new category is displayed correctly in the table   Go to Edit page category and click on save button The page category is edited correctly   Delete the created category The category is deleted successfully   Go to add new page Add new page is displayed correctly   Fill all information Page is saved correctly   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly   Delete the updated page The page is deleted successfully   Click on back to list Pages page is displayed correctly   Reset filter All filters are reset.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-sort.html</guid>
+      <description>BO - Design - Pages - Sort Steps    Step Description Expected result     Go to Design &amp;gt; Pages Pages page is displayed correctly   Reset all filters All filters are reset. All pages are displayed   Sort pages with ID asc Pages are sorted by ID (1 -&amp;gt; 2 -&amp;gt; 3&amp;hellip;)   Sort Pages by ID desc Pages are sorted by ID (4 -&amp;gt; 3 -&amp;gt; &amp;hellip;)   Sort pages by URL asc pages are sorted by url ( a-&amp;gt; b -&amp;gt;c &amp;hellip;)   Sort pages by URL desc pages are sorted by url ( c-&amp;gt; b -&amp;gt;a &amp;hellip;)   Sort pages by Title asc pages are sorted by title ( a-&amp;gt; b -&amp;gt;c &amp;hellip;)   Sort pages by Title desc pages are sorted by title ( c-&amp;gt; b -&amp;gt;a &amp;hellip;)   Sort pages by Meta Title asc Pages are sorted by Meta title ( a-&amp;gt; b -&amp;gt;c &amp;hellip;)   Sort pages by Meta Title desc Pages are sorted by Meta title ( c-&amp;gt; b -&amp;gt;a &amp;hellip;)   Sort pages by status asc page are sorted by status (disabled &amp;ndash;&amp;gt; enabled)   Sort pages by status desc page are sorted by status (enabled &amp;ndash;&amp;gt; disabled)    </description>
     </item>
     
     <item>
@@ -6228,7 +6268,7 @@ In all rows, column name = &amp;lsquo;Mountain fox notebook&amp;rsquo;   Enter 1
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-bulk-actions.html</guid>
-      <description>BO - Catalog Cart Rules - Bulk actions Steps    Step Description Expected result     Go to Catalog &amp;gt;discounts &amp;gt;catalog price rules the catalog price rules page is well displayed   Go to Catalog &amp;gt; discounts &amp;gt; catalog price rules catalog price rules is well diplayed   Click on &amp;ldquo;Add new catalog price rule &amp;quot; button The Add new catalog price rule page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   click on edit an edit page is displayed with the tiltle of the catalog price rule   Change the name of the created catalog price rule to &amp;ldquo;new_test&amp;rdquo; The catalog price rule page is displayed and the green alert &amp;ldquo;Successful update&amp;rdquo; is displayed   Delete the price rule and confirm the deletion The price rule is well deleted and the alert &amp;ldquo;Successful deletion&amp;rdquo; is displayed   create 4 price rules the number of catalog price rules is =4   select the two price rules with ID [1 , 2] -&amp;gt; click on Bulk actions -&amp;gt; unselect all the 2 price rules are unselected   select the two price rules with ID [1 , 2] -&amp;gt; click on Bulk actions -&amp;gt; delete selected the two price rules are well deleted with a green message &amp;ldquo;The selection has been successfully deleted&amp;rdquo;    </description>
+      <description>BO - Catalog Cart Rules - Bulk actions Steps    Step Description Expected result     Go to Catalog &amp;gt;discounts &amp;gt;catalog price rules the catalog price rules page is well displayed   Go to Catalog &amp;gt; discounts &amp;gt; catalog price rules catalog price rules is well diplayed   Click on &amp;ldquo;Add new catalog price rule &amp;quot; button The Add new catalog price rule page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   click on edit an edit page is displayed with the tiltle of the catalog price rule   Change the name of the created catalog price rule to &amp;ldquo;new_test&amp;rdquo; The catalog price rule page is displayed and the green alert &amp;ldquo;Successful update&amp;rdquo; is displayed   Delete the price rule and confirm the deletion The price rule is well deleted and the alert &amp;ldquo;Successful deletion&amp;rdquo; is displayed   create 2 price rules the number of catalog price rules is =2   select the two price rules with ID [1 , 2] -&amp;gt; click on Bulk actions -&amp;gt; delete selected the two price rules are well deleted with a green message &amp;ldquo;The selection has been successfully deleted&amp;rdquo;    </description>
     </item>
     
     <item>
@@ -6327,12 +6367,12 @@ number of layouts = 50   Go back to email theme page title contains &amp;lsquo;E
     </item>
     
     <item>
-      <title>BO - Design - Pages - Categories Bulk Actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-categories-bulk-actions.html</link>
+      <title>BO - Design - Pages - Pagination</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-categories-bulk-actions.html</guid>
-      <description>BO - Design - Pages - Categories Bulk Actions Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category page is displayed correctly   Fill all information : Name : todelete.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-pagination.html</guid>
+      <description>BO - Design - Pages - Pagination Steps    Step Description Expected result     Go to Design &amp;gt; Pages Pages page is displayed correctly   Go to Design&amp;gt;Pages Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information Category saved successfully   Go back to pages page Pages page is displayed correctly   Check the category number The category number is correct   Search for the new category and check result The new category is displayed correctly in the table   Go to Edit page category and click on save button The page category is edited correctly   Delete the created category The category is deleted successfully   Go to add new page Add new page is displayed correctly   Fill all information Page is saved correctly   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly   Delete the updated page The page is deleted successfully   Click on back to list Pages page is displayed correctly   Reset filter All filters are reset.</description>
     </item>
     
     <item>
@@ -7499,15 +7539,6 @@ total of pages should be 1</description>
     </item>
     
     <item>
-      <title>BO - Design - Pages - Bulk Actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-bulk-actions.html</guid>
-      <description>BO - Design - Pages - Bulk Actions Steps    Step Description Expected result     Go to Design&amp;gt;Pages&amp;quot; page Pages page is displayed correctly   Reset all filters of Pages table and get number of elements All filters are reset. All pages are displayed   Go to Add new page page Add new page is displayed correctly   Fill all information and Save Form Page is saved correctly   filter by Title.</description>
-    </item>
-    
-    <item>
       <title>BO - Design - Positions - Unhook module in list by Bulk actions</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/positions/bo-design-positions-unhook-module-in-list-by-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8381,15 +8412,6 @@ Title is : Discovering the Administration Area    </description>
     </item>
     
     <item>
-      <title>BO - Design - Pages - Sort</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-sort.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-sort.html</guid>
-      <description>BO - Design - Pages - Sort Steps    Step Description Expected result     Go to Design &amp;gt; Pages Pages page is displayed correctly   Reset all filters All filters are reset. All pages are displayed   Sort pages with ID asc Pages are sorted by ID (1 -&amp;gt; 2 -&amp;gt; 3&amp;hellip;)   Sort Pages by ID desc Pages are sorted by ID (4 -&amp;gt; 3 -&amp;gt; &amp;hellip;)   Sort pages by URL asc pages are sorted by url ( a-&amp;gt; b -&amp;gt;c &amp;hellip;)   Sort pages by URL desc pages are sorted by url ( c-&amp;gt; b -&amp;gt;a &amp;hellip;)   Sort pages by Title asc pages are sorted by title ( a-&amp;gt; b -&amp;gt;c &amp;hellip;)   Sort pages by Title desc pages are sorted by title ( c-&amp;gt; b -&amp;gt;a &amp;hellip;)   Sort pages by Meta Title asc Pages are sorted by Meta title ( a-&amp;gt; b -&amp;gt;c &amp;hellip;)   Sort pages by Meta Title desc Pages are sorted by Meta title ( c-&amp;gt; b -&amp;gt;a &amp;hellip;)   Sort pages by status asc page are sorted by status (disabled &amp;ndash;&amp;gt; enabled)   Sort pages by status desc page are sorted by status (enabled &amp;ndash;&amp;gt; disabled)    </description>
-    </item>
-    
-    <item>
       <title>BO - Design - Positions - Edit Hook</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/positions/bo-design-positions-edit-hook.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9038,15 +9060,6 @@ All products name contains the Searched Name   Click on the drop-down toggle and
     </item>
     
     <item>
-      <title>BO - Design - Pages - Pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-pagination.html</guid>
-      <description>BO - Design - Pages - Pagination Steps    Step Description Expected result     Go to Design &amp;gt; Pages Pages page is displayed correctly   Go to Design&amp;gt;Pages Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information Category saved successfully   Go back to pages page Pages page is displayed correctly   Check the category number The category number is correct   Search for the new category and check result The new category is displayed correctly in the table   Go to Edit page category and click on save button The page category is edited correctly   Delete the created category The category is deleted successfully   Go to add new page Add new page is displayed correctly   Fill all information Page is saved correctly   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly   Delete the updated page The page is deleted successfully   Click on back to list Pages page is displayed correctly   Reset filter All filters are reset.</description>
-    </item>
-    
-    <item>
       <title>BO - Design - Positions - Change position (drag and drop)</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/positions/bo-design-positions-change-position-drag-and-drop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9478,15 +9491,6 @@ Message is displayed : Successful creation   In list, Filter By Email. Criteria 
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-import-image-type-feature-not-integrated.html</guid>
       <description>BO - Design - Image Settings - Import Image type - feature not integrated - Steps    Step Description Expected result     Clic on the &amp;ldquo;Generate theme image settings&amp;rdquo; button at the top right A modal should be displayed   Case : You don&amp;rsquo;t have yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have 0 image type   Case : You have yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a success message &amp;ldquo;The settings have been successfully updated&amp;rdquo; * You&amp;rsquo;ll have your image type   Case : You have the same yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have the same image type   Case : You have the same name on your image type but not the same size on your yml * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have the same image type   Case : You have the same size on your image type but not the same name on your yml * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a success message &amp;ldquo;The settings have been successfully updated&amp;rdquo; * You&amp;rsquo;ll have twice your image type    </description>
-    </item>
-    
-    <item>
-      <title>BO - Design - Pages - Help button</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-help-button.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-help-button.html</guid>
-      <description>BO - Design - Pages - Help button Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Pages page The Pages page is well displayed   Click on Help The documentation modal is opened in English   Close the modal The modal is well closed    </description>
     </item>
     
     <item>
