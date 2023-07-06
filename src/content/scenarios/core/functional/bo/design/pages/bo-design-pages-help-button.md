@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Pages - Help button"
-weight: 8
+weight: 1
 ---
 
 # BO - Design - Pages - Help button
