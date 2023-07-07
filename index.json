@@ -98,6 +98,13 @@
 	"content": "blockreassurance - Upgrade Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page   Click on upgrade A message in green should be displayed   Refresh the page The module should be upgraded to the last version    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server/bo-advanced-parameter-authorization-server-crud.html",
+	"title": "BO - Advanced Parameter - Authorization Server - CRUD",
+	"tags": [],
+	"description": "",
+	"content": "BO - Advanced Parameter - Authorization Server - CRUD Steps    Step Description Expected result     In BO, Go to Advanced Parameters \u0026gt; New \u0026amp; Experimental Features New \u0026amp; Experimental Features Page is displayed correctly   Set checked the checkbox “Authorization server\u0026quot; The checkbox “Authorization server” is checked   Click on Save button The message “Update successful” is displayed   In BO, Go to Advanced Parameters \u0026gt; Authorization Server Authorization Server Page is displayed correctly.\nNo records found in the table   Click on the button \u0026ldquo;Add new authorized app\u0026rdquo; New authorized application Page is displayed correctly   Fill the form with following data (App Name : \u0026ldquo;Application XYZ\u0026rdquo;, Description: \u0026ldquo;Description ABC\u0026rdquo;)\nClick on Save button The message “Successful creation” is displayed\nThere is 1 application in the list   Click on the edit button on the first row Editing application Page is displayed correctly   Fill the form with following data (App Name : \u0026ldquo;Application UVW\u0026rdquo;, Description: \u0026ldquo;Description DEF\u0026rdquo;)\nClick on Save button The message “Successful update” is displayed\nThere is 1 application in the list   On the first row, click on the button “Three points” The dropdown is displayed.   Click on the Delete Button in the dropdown A modal appeared   Click on the Confirm Button in the modal The message “Successful deletion” is displayed\nNo records found in the table   In BO, Go to Advanced Parameters \u0026gt; New \u0026amp; Experimental Features New \u0026amp; Experimental Features Page is displayed correctly   Set unchecked the checkbox “Authorization server\u0026quot; The checkbox “Authorization server” is unchecked   Click on Save button The message “Update successful” is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-general.html",
 	"title": "BO - Advanced Parameters - Administration - General",
 	"tags": [],
@@ -1778,11 +1785,18 @@
 	"content": "BO - Login- Password reminder Steps    Step Description Expected result     Go to BO -\u0026gt; Advanced Parameters -\u0026gt; Team -\u0026gt; Employees page and click on \u0026ldquo;Add new employee\u0026rdquo; Employees page is displayed and \u0026ldquo;Add new employee\u0026rdquo; page is displayed   Set these fields:\n# First name\n# Last name\n# Email address\n# Password\nand save A green alert \u0026ldquo;Successful creation.\u0026rdquo; is displayed and the Employees list page is displayed   Click on the employee icon A drop-down menu for the employee is opened   Click on \u0026ldquo;Sign out\u0026rdquo; The login page is displayed   Click on forgot my password\u0026quot; link\u0026quot; Redirected to reminder page   Enter existing account email address The email field is not empty anymore   Click on send reset link\u0026quot; a confirmation message is displayed   Chek in mail box the mail is arrived   click on the link in the mail box redirected to reset password page   Set and confirm a new password Confirmation message is displayed then redirection to login page   try to login with the old login is refused   Try to login with new password login is accepted and redirection to the Dashboard page    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server/bo-advanced-parameter-authorization-server-view-detail.html",
+	"title": "BO - Advanced Parameter - Authorization Server - View detail",
+	"tags": [],
+	"description": "",
+	"content": "BO - Advanced Parameter - Authorization Server - View detail Steps    Step Description Expected result     In BO, Go to Advanced Parameters \u0026gt; New \u0026amp; Experimental Features New \u0026amp; Experimental Features Page is displayed correctly   Set checked the checkbox “Authorization server\u0026quot; The checkbox “Authorization server” is checked   Click on Save button The message “Update successful” is displayed   In BO, Go to Advanced Parameters \u0026gt; Authorization Server Authorization Server Page is displayed correctly.\nNo records found in the table   Click on the button \u0026ldquo;Add new authorized app\u0026rdquo; New authorized application Page is displayed correctly   Fill the form with following data (App Name : \u0026ldquo;Application XYZ\u0026rdquo;, Description: \u0026ldquo;Description ABC\u0026rdquo;)\nClick on Save button The message “Successful creation” is displayed\nThere is 1 application in the list   In BO, Go to Advanced Parameters \u0026gt; Authorization Server Authorization Server Page is displayed correctly.\n1 record found in the table   On the first row, click on the row * Application information Page is displayed correctly\n* Application name \u0026amp; Description are displayed\n* No record founds for API access   In BO, Go to Advanced Parameters \u0026gt; Authorization Server Authorization Server Page is displayed correctly.\n1 record found in the table   On the first row, click on the button “Three points” The dropdown is displayed   Click on the Delete Button in the dropdown A modal appeared   Click on the Confirm Button in the modal The message “Successful deletion” is displayed\nNo records found in the table   In BO, Go to Advanced Parameters \u0026gt; New \u0026amp; Experimental Features New \u0026amp; Experimental Features Page is displayed correctly   Set unchecked the checkbox “Authorization server\u0026quot; The checkbox “Authorization server” is unchecked   Click on Save button The message “Update successful” is displayed    "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-upload-quota.html",
 	"title": "BO - Advanced Parameters - Administration - Upload quota",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced Parameters - Administration - Upload quota "
+	"content": "BO - Advanced Parameters - Administration - Upload quota Steps    Step Description Expected result     With a fresh install\nBO \u0026gt; Advanced Parameters \u0026gt; Administration \u0026gt; Upload quota The page is will displayed showing default values for Upload quota section :\n* Maximum size for attached files : 8\n* Maximum size for a downloadable product : 2\n* Maximum size for a product\u0026rsquo;s image : 2   Case 1 : Set size for attached files\nSet the size in Maximum size for attached files field \u0026gt; Click Save button * Update successful message is displayed\n* Under the field Maximum size for attached files this message is written : Set the maximum size allowed for attachment files (in megabytes). This value has to be lower than or equal to the maximum file upload allotted by your server (currently: 3 MB).   BO \u0026gt; Catalog \u0026gt; Files \u0026gt; Click on Add new file button \u0026gt; Add data \u0026gt; Click on Save button Error message is displayed :\nUpload error. Please check your server configurations for the maximum upload size allowed.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-pagination-bulk-delete.html",
@@ -1845,7 +1859,7 @@
 	"title": "BO - Advanced Parameters - Team - Permissions - Edit (Modules)",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced Parameters - Team - Permissions - Edit (Modules) "
+	"content": "BO - Advanced Parameters - Team - Permissions - Edit (Modules) Steps    Step Description Expected result     GO to BO \u0026gt; Advanced Parameters \u0026gt; Team \u0026gt; Permissions SuperAdmin profile is selected with message : Administrator permissions cannot be modified.\nThree Profiles are displayed : * Logistician\n* Translator\n* Commercial   Click on Logistician Profile * 2 blocks are displayed : Menu and Modules\n* The Modules block is all unchecked   On Modules block \u0026gt; Click on View checkbox twice * All checkbox cases are unchecked\n* \u0026ldquo;Update successful \u0026quot; message is displayed   Click on the checkbox cases for View, Configure and Uninstall. All chechboxes are well checked for all lines\nUpdate successful message is displayed   Refresh the page \u0026gt; Click on Logistician See that all three columns are checked   Click twice on All column to uncheck everything See that everything is unchecked for the lines Update successful message is displayed   Click on Translator Profile All Modules are unchecked   Click on a few unchecked tickboxes Update successful message is displayed   Refresh the page \u0026gt; Click on Translator The checkboxes you checked should be saved   Click on Commercial Profile All Modules are unchecked   Click on a few unchecked tickboxes Update successful message is displayed   Refresh the page \u0026gt; Click on Commercial The checkboxes you checked should be saved    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-crud.html",
@@ -3777,7 +3791,7 @@
 	"title": "BO - Shop Parameters - Traffic and SEO - Search Engines - Bulk action",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Traffic and SEO - Search Engines - Bulk action "
+	"content": "BO - Shop Parameters - Traffic and SEO - Search Engines - Bulk action Steps    Step Description Expected result     Go to BO - Shop Parameters - Traffic \u0026amp; SEO - Search Engines * Search Engines Page is displayed\n* Bulk actions button is disabled   Check one Checkbox The Bulk actions button is enabled   Click on Bulk actions button Delete selected sub-button appears   Click on Delete selected button A modal appears :\n!https://forge.prestashop.com/plugins/servlet/raven/tempattachment/7468014264247928276/bulk1.png   Case 1 :\nClick on Cancel button * The Modal disappears\n* The Search Engines page is well displayed\n* The selected item is still checked (aol)   Case 2 :\nClick on Delete button * This message is displayed : \u0026ldquo;The selection has been successfully deleted.\u0026quot;\n* The Search Engines page is displayed\n* The item selected (aol) is not in the engines list\n* Bulk button is disabled   Click on the checkbox to select all search Engines\n!https://forge.prestashop.com/plugins/servlet/raven/tempattachment/6975361743330636649/bulk2.png width=512,height=49!   Click on Bulk actions button \u0026gt; Click on Delete selected A modal appears :\n!https://forge.prestashop.com/plugins/servlet/raven/tempattachment/7468014264247928276/bulk1.png   Case 1 :\nClick on Cancel button * The Modal disappears\n* The Search Engines page is well displayed\n* The selected item still checked (all the page items)   Case 2 :\nClick on Delete button * This message is displayed : \u0026ldquo;The selection has been successfully deleted.\u0026quot;\n* The Search Engines page is empty\n* Bulk actions button disappears    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-cashondelivery/installation/cash-on-delivery-cod-module-uninstall-and-delete-module.html",
@@ -5415,7 +5429,7 @@
 	"title": "BO - Advanced parameters - Team - Profiles - Help card",
 	"tags": [],
 	"description": "",
-	"content": "BO - Advanced parameters - Team - Profiles - Help card "
+	"content": "BO - Advanced parameters - Team - Profiles - Help card Steps    Step Description Expected result     BO \u0026gt; Advanced Parameters \u0026gt; Team \u0026gt; Profiles Profiles page is well displayed   Click on Help button in top right corner Help card is displayed from the right side of the page   Case1\nClick on {color:#4c9aff}x{color} button in the Help card header\nCase 2\nClick any where in Profiles page\nCase 3 Click on Help button The Help card disappears    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-configuration.html",
@@ -8096,7 +8110,7 @@
 	"title": "Advanced Parameters",
 	"tags": [],
 	"description": "",
-	"content": "Advanced Parameters Categories  Administration   Database   Email   Experimental Features   Import   Informations   Logs   Multistore   Performance   Team   Webservice   "
+	"content": "Advanced Parameters Categories  Administration   Authorization Server   Database   Email   Experimental Features   Import   Informations   Logs   Multistore   Performance   Team   Webservice   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance/affichage.html",
@@ -8139,6 +8153,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Attributes And Features Categories  Attributes   Features   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server.html",
+	"title": "Authorization Server",
+	"tags": [],
+	"description": "",
+	"content": "Authorization Server Tests  BO - Advanced Parameter - Authorization Server - CRUD   BO - Advanced Parameter - Authorization Server - View detail   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/blockreassurance.html",
