@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1688971478" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1688971478" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1688971478" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1688971478" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1688971478" rel="stylesheet">
-    <link href="../../../../../../style.css?1688971478" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1689057353" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1689057353" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1689057353" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1689057353" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1689057353" rel="stylesheet">
+    <link href="../../../../../../style.css?1689057353" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1688971478"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1689057353"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64564,12 +64564,20 @@
 <td>The page is will displayed showing default values for <em>Upload quota</em> section :<br> *  Maximum size for attached files : 8<br> * Maximum size for a downloadable product : 2<br> * Maximum size for a product&rsquo;s image : 2</td>
 </tr>
 <tr>
-<td><em>Case 1 : Set size for attached files</em><br><br>Set the size in <em>Maximum size for attached files</em> field  &gt;  Click <em>Save</em> button</td>
+<td>Set the size in <em>Maximum size for attached files</em> field  &gt;  Click <em>Save</em> button</td>
 <td>* Update successful message is displayed<br><br> * Under the field <em>Maximum size for attached files</em> this message is written : Set the maximum size allowed for attachment files (in megabytes). This value has to be lower than or equal to the maximum file upload allotted by your server (currently: 3 MB).</td>
 </tr>
 <tr>
-<td>BO &gt; Catalog &gt; Files &gt; Click on <em>Add new file</em> button &gt; Add data &gt; Click on <em>Save</em> button</td>
+<td><em>Case 1 : <em>The uploaded file is over the size limit configured</em></em><br><br>BO &gt; Catalog &gt; Files &gt; Click on <em>Add new file</em> button &gt; Add data &gt; Click on <em>Save</em> button</td>
 <td>Error message is displayed :<br>Upload error. Please check your server configurations for the maximum upload size allowed.</td>
+</tr>
+<tr>
+<td><em>Case 2 : <em>The uploaded file is under/equals the size limit configured</em></em><br><br>BO &gt; Catalog &gt; Files &gt; Click on <em>Add new file</em> button &gt; Add data &gt; Click on <em>Save</em> button</td>
+<td>This message is displayed :  &ldquo;Successful creation&rdquo;<br><br>Files page is well dislayed, showing a table with 4 cells  containing your uploaded file informations:<br> * ID :<br> * Name : <br> * File :<br> * Size :<br> * Products :</td>
+</tr>
+<tr>
+<td>Set the size in  <em>Maximum size for a downloadable product</em> field  &gt;  Click <em>Save</em> button</td>
+<td>* Update successful message is displayed<br><br> * Under the field <em>Maximum size for a downloadable product</em> this message is written : Define the upload limit for a downloadable product (in megabytes). This value has to be lower or equal to the maximum file upload allotted by your server (currently: 2 MB).</td>
 </tr>
 </tbody>
 </table>
@@ -64578,9 +64586,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 7, 2023
+  Last updated on July 11, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/3f3a690087e0485c2dfd7e3375efac67aabf0867">"[Update] JIRA XRay Tests" (3f3a690087e)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/850abb26605410e69c23f1185cc3c9c130ef234a">"[Update] JIRA XRay Tests" (850abb26605)</a>
   
 </div>
 
@@ -64601,17 +64609,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1688971479"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1688971479"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1688971479"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1688971479"></script>
-    <script src="../../../../../../js/featherlight.min.js?1688971479"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1688971479"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1688971479"></script>
-    <script src="../../../../../../js/learn.js?1688971479"></script>
-    <script src="../../../../../../js/hugo-learn.js?1688971479"></script>
+    <script src="../../../../../../js/clipboard.min.js?1689057353"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1689057353"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689057353"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1689057353"></script>
+    <script src="../../../../../../js/featherlight.min.js?1689057353"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689057353"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689057353"></script>
+    <script src="../../../../../../js/learn.js?1689057353"></script>
+    <script src="../../../../../../js/hugo-learn.js?1689057353"></script>
     
-    <script src="../../../../../../main.js?1688971479"></script>
+    <script src="../../../../../../main.js?1689057353"></script>
     
     
 
