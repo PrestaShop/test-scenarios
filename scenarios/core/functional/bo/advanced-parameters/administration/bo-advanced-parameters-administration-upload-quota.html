@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1689057353" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1689057353" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1689057353" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1689057353" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1689057353" rel="stylesheet">
-    <link href="../../../../../../style.css?1689057353" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1689143746" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1689143746" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1689143746" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1689143746" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1689143746" rel="stylesheet">
+    <link href="../../../../../../style.css?1689143746" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1689057353"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1689143746"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64576,8 +64576,32 @@
 <td>This message is displayed :  &ldquo;Successful creation&rdquo;<br><br>Files page is well dislayed, showing a table with 4 cells  containing your uploaded file informations:<br> * ID :<br> * Name : <br> * File :<br> * Size :<br> * Products :</td>
 </tr>
 <tr>
-<td>Set the size in  <em>Maximum size for a downloadable product</em> field  &gt;  Click <em>Save</em> button</td>
+<td>BO &gt; Advanced Parameters &gt; Administration &gt; Upload quota<br><br>Set the size in  <em>Maximum size for a downloadable product</em> field  &gt;  Click <em>Save</em> button</td>
 <td>* Update successful message is displayed<br><br> * Under the field <em>Maximum size for a downloadable product</em> this message is written : Define the upload limit for a downloadable product (in megabytes). This value has to be lower or equal to the maximum file upload allotted by your server (currently: 2 MB).</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Click Add new product &gt; Choose Virtual Product &gt; Enter name + price + quantity + Switch Online button to ON &gt;  Click Save button</td>
+<td>This message is displayed : Successful update</td>
+</tr>
+<tr>
+<td><em>Case 1 :</em> <em><em>The uploaded file is over the size limit configured</em></em><br><br>Click on Virtual product tab &gt; Switch Add downloadable file ON &gt; Add data &gt; Click on Save and publish button</td>
+<td>* Error message is displayed<br> * The button Save and publish is disabled<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1387/size-down.png</td>
+</tr>
+<tr>
+<td><em>Case 2 :</em> <em><em>The uploaded file is under the size limit configured</em></em><br><br>Click on Virtual product tab &gt; Switch Add downloadable file ON &gt; Add data &gt; Click on Save and publish button</td>
+<td>* This message is displayed : Successful update<br> * The button Save and publish is disabled</td>
+</tr>
+<tr>
+<td>BO &gt; Advanced Parameters &gt; Administration &gt; Upload quota<br><br>Set the Maximum size for a product&rsquo;s image &gt; Click Save button</td>
+<td>This message is displayed : Update successful<br><br>Under the field this sentence is displayed : Define the upload limit for an image (in megabytes). This value has to be lower or equal to the maximum file upload allotted by your server (currently: 1 MB).</td>
+</tr>
+<tr>
+<td><em>Case 1 : The product image size is over the limit configured</em><br><br>BO &gt; Catalog &gt; Products &gt; Click New product button &gt; choose Standard product &gt;  Click on Add new product &gt; click on image field  and add any image</td>
+<td>This error message is displayed in the top right corner : Max file size allowed is &ldquo;1048576&rdquo; bytes</td>
+</tr>
+<tr>
+<td><em>Case 2 : The product image size is under the limit configured</em><br><br>BO &gt; Catalog &gt; Products &gt; Click New product button &gt; choose Standard product &gt;  Click on Add new product &gt; click on image field  and add any image</td>
+<td>The image is well added and displayed in product description</td>
 </tr>
 </tbody>
 </table>
@@ -64586,9 +64610,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 11, 2023
+  Last updated on July 12, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/850abb26605410e69c23f1185cc3c9c130ef234a">"[Update] JIRA XRay Tests" (850abb26605)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/42ce72426e833b07ed8439c5c64224407ca9b31f">"[Update] JIRA XRay Tests" (42ce72426e8)</a>
   
 </div>
 
@@ -64609,17 +64633,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1689057353"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1689057353"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689057353"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1689057353"></script>
-    <script src="../../../../../../js/featherlight.min.js?1689057353"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689057353"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689057353"></script>
-    <script src="../../../../../../js/learn.js?1689057353"></script>
-    <script src="../../../../../../js/hugo-learn.js?1689057353"></script>
+    <script src="../../../../../../js/clipboard.min.js?1689143746"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1689143746"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689143746"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1689143746"></script>
+    <script src="../../../../../../js/featherlight.min.js?1689143746"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689143746"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689143746"></script>
+    <script src="../../../../../../js/learn.js?1689143746"></script>
+    <script src="../../../../../../js/hugo-learn.js?1689143746"></script>
     
-    <script src="../../../../../../main.js?1689057353"></script>
+    <script src="../../../../../../main.js?1689143746"></script>
     
     
 
