@@ -1244,10 +1244,11 @@ The invoice is created successfully   Add the first partial refund Partial refun
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/countries-crud.html</guid>
-      <description>Countries : CRUD Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries The response HTTP Code is 200
+      <description>Countries : CRUD Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank The response HTTP Code is 200.
+The XML is valid.
 The XML code has a prestashop root node
-The root node has a countries node
-The countries node has children nodes named country with not empty attributes id (numeric), and xlink:href (string)   Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+The root node has a country node
+The country node has children nodes which are empty and without attributes   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.</description>
     </item>
     
     <item>
@@ -4730,7 +4731,8 @@ Page title contains Creating a new Customer   Fill all information &amp;gt; Clic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/link-widget/bo-design-link-widget-edit.html</guid>
-      <description>BO - Design - Link Widget - Edit </description>
+      <description>BO - Design - Link Widget - Edit Steps    Step Description Expected result     go to BO &amp;gt; Design &amp;gt; Link List The page &amp;lsquo;Link List&amp;rsquo; is well displayed
+The &amp;lsquo;displayFooter Footer&amp;rsquo; table contains two items by default   Go to displayFooter Footer (2) table &amp;gt; Click on Edit icon for the first line (Products ) &amp;lsquo;Edit the link block&amp;rsquo; section is displayed   Set up the block and clic kon Save In BO :</description>
     </item>
     
     <item>
@@ -5092,7 +5094,10 @@ All filters are reset. All carriers are displayed   Select All carriers and Clic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/titles/bo-shop-parameters-customer-settings-titles-bulk-actions.html</guid>
-      <description>BO - Shop Parameters - Customer Settings - Titles - Bulk actions </description>
+      <description>BO - Shop Parameters - Customer Settings - Titles - Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Customer Settings &amp;gt; Titles Tab Title page is displayed   Click on Bulk actions button A drop down menu displays three options :
+* Select all
+* Unselect all
+* Delete selected   Case 1 : Select all option</description>
     </item>
     
     <item>
@@ -8373,16 +8378,6 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
     </item>
     
     <item>
-      <title>BO - Contextual help</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-contextual-help.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-contextual-help.html</guid>
-      <description>BO - Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin
-Title is : Discovering the Administration Area    </description>
-    </item>
-    
-    <item>
       <title>BO - CRUD Virtual product</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-crud-virtual-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8408,6 +8403,16 @@ Title is : Discovering the Administration Area    </description>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-export.html</guid>
       <description>BO - Customers - Export Steps    Step Description Expected result     Go to BO &amp;gt; Customers &amp;gt; Customers page Customers listing is displayed correctly   Export order to csv file &amp;gt; Save file to computer The file is downloaded successfully   Open .csv file &amp;gt; Check that data is correct There should be 13 columns with the correct info    </description>
+    </item>
+    
+    <item>
+      <title>BO - Dashboard - Contextual help</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-contextual-help.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-contextual-help.html</guid>
+      <description>BO - Dashboard - Contextual help Steps    Step Description Expected result     Open on several migrated and non migrated page the Help panel The help for the page is displayed on a side popin
+Title is : Discovering the Administration Area    </description>
     </item>
     
     <item>

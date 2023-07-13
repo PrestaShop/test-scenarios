@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1689143795" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1689143795" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1689143795" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1689143795" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1689143795" rel="stylesheet">
-    <link href="../../../../../../../style.css?1689143795" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1689230185" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1689230185" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1689230185" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1689230185" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1689230185" rel="stylesheet">
+    <link href="../../../../../../../style.css?1689230185" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1689143795"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1689230185"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -7555,9 +7555,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/dashboard/bo-contextual-help.html" title="BO - Contextual help" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/dashboard/bo-contextual-help.html">
-        BO - Contextual help
+      <li data-nav-id="/scenarios/core/functional/bo/dashboard/bo-dashboard-contextual-help.html" title="BO - Dashboard - Contextual help" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/dashboard/bo-dashboard-contextual-help.html">
+        BO - Dashboard - Contextual help
         
         </a>
     </li>
@@ -41169,7 +41169,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---shop-parameters---customer-settings---titles---bulk-actions">BO - Shop Parameters - Customer Settings - Titles - Bulk actions</a></li>
+    <li><a href="#bo---shop-parameters---customer-settings---titles---bulk-actions">BO - Shop Parameters - Customer Settings - Titles - Bulk actions</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -64552,14 +64556,57 @@
 
 
 <h1 id="bo---shop-parameters---customer-settings---titles---bulk-actions">BO - Shop Parameters - Customer Settings - Titles - Bulk actions</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Customer Settings &gt; Titles Tab</td>
+<td>Title page is displayed</td>
+</tr>
+<tr>
+<td>Click on <em>Bulk actions</em> button</td>
+<td>A drop down menu displays three options :<br> * Select all<br> * Unselect all<br> * Delete selected</td>
+</tr>
+<tr>
+<td><em>Case 1 : Select all option</em><br><br>Click on Select all</td>
+<td>All checkboxes displayed in Titles page are well checked !</td>
+</tr>
+<tr>
+<td><em>Case 2 : Unselect all option</em><br><br>Click on Unselect all</td>
+<td>The selected checkboxes became unselected</td>
+</tr>
+<tr>
+<td><em><em>case 3 : Delete selected option with no selected items</em></em><br><br>Click on <em>Bulk actions</em> button &gt; Click on <em>Delete</em> selected option &gt; Click <em>OK</em> on the modal</td>
+<td>Error message is displayed : You must select at least one element to delete.</td>
+</tr>
+<tr>
+<td><em>case 3 : Delete selected option with no selected items</em><br><br>Click on <em>Bulk actions</em> button &gt; Click on <em>Delete</em> selected option &gt; Click <em>Annuler (Cancel)</em> on the modal</td>
+<td>The modal disappears.<br><br>Title page is well displayed</td>
+</tr>
+<tr>
+<td><em>case 4 : Delete selected option with selected items</em><br><br>Click on <em>Bulk actions</em> button &gt; Click on <em>Select all</em> option &gt; Click on <em>Delete</em> <em>selected</em> option &gt; Click <em>OK</em> on the modal</td>
+<td>This message is displayed : The selection has been successfully deleted.<br><br>The Titles table is empty<br><br>The Bulk actions button disappears</td>
+</tr>
+<tr>
+<td><em>case 4 : Delete selected option with selected items</em><br><br>Click on <em>Bulk actions</em> button &gt; Click on <em>Select all</em> option &gt; Click on <em>Delete</em> <em>selected</em> option &gt; Click <em>Annuler (cancel)</em> on the modal</td>
+<td>The modal disappears<br><br>The Titles table is displayed with the checked Titles</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 11, 2023
+  Last updated on July 13, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/850abb26605410e69c23f1185cc3c9c130ef234a">"[Update] JIRA XRay Tests" (850abb26605)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/eaf329996fc03f313c0f3c7e3ccd4c9c7c7a3e85">"[Update] JIRA XRay Tests" (eaf329996fc)</a>
   
 </div>
 
@@ -64580,17 +64627,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1689143795"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1689143795"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1689143795"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1689143795"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1689143795"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1689143795"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1689143795"></script>
-    <script src="../../../../../../../js/learn.js?1689143795"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1689143795"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1689230185"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1689230185"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1689230185"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1689230185"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1689230185"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1689230185"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1689230185"></script>
+    <script src="../../../../../../../js/learn.js?1689230185"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1689230185"></script>
     
-    <script src="../../../../../../../main.js?1689143795"></script>
+    <script src="../../../../../../../main.js?1689230185"></script>
     
     
 

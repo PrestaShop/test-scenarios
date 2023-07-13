@@ -12,10 +12,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/countries-crud.html</guid>
-      <description>Countries : CRUD Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries The response HTTP Code is 200
+      <description>Countries : CRUD Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank The response HTTP Code is 200.
+The XML is valid.
 The XML code has a prestashop root node
-The root node has a countries node
-The countries node has children nodes named country with not empty attributes id (numeric), and xlink:href (string)   Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+The root node has a country node
+The country node has children nodes which are empty and without attributes   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.</description>
     </item>
     
   </channel>
