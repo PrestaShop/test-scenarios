@@ -7,6 +7,8 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
+| Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank | The response HTTP Code is 200.<br>The XML is valid.<br>The XML code has a *prestashop* root node<br>The root node has a *country* node<br>The *country* node has children nodes which are empty and without attributes |
+| Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=synopsis | The response HTTP Code is 200.<br>The XML is valid.<br>The XML code has a prestashop root node<br>The root node has a country node<br>The country node has children nodes which are empty and more than one attribute including one named format. |
 | Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries | The response HTTP Code is 200<br>The XML code has a prestashop root node<br>The root node has a countries node<br>The countries node has children nodes named country with not empty attributes id (numeric), and xlink:href (string) |
 | Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/countries] with body (next cell) | The response HTTP Code is 201<br>The XML code has a prestashop root node<br>The root node has a country node.<br>The country node has a children node named id with an integer |
 | Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries/\{fetchedId} | The response HTTP Code is 200<br>The XML code has a prestashop root node<br>The root node has a country node.<br>All nodes have same data like in post data |

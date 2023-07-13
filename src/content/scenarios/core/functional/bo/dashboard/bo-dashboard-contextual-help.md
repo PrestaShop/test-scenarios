@@ -1,9 +1,9 @@
 ---
-title: "BO - Contextual help"
+title: "BO - Dashboard - Contextual help"
 weight: 6
 ---
 
-# BO - Contextual help
+# BO - Dashboard - Contextual help
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
