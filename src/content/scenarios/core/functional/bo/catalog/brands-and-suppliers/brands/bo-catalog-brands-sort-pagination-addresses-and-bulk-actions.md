@@ -1,26 +1,17 @@
 ---
-title: "BO - Catalog - Brands - Sort & Pagination brands and addresses"
-weight: 3
+title: "BO - Catalog - Brands - Sort & Pagination Addresses and Bulk Actions"
+weight: 6
 ---
 
-# BO - Catalog - Brands - Sort & Pagination brands and addresses
+# BO - Catalog - Brands - Sort & Pagination Addresses and Bulk Actions
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Catalog > Brands & Suppliers > Brands page | Page title contains 'Brands' |
-| Sort brands by ID desc | Brands are sorted by ID (3 -> 2 -> 1) |
-| Sort brands by Name asc | Brands are sorted by Name (a -> b -> c) |
-| Sort brands by Name desc | Brands are sorted by name (c -> b -> a) |
-| Sort brands by Status asc | Brands are sorted by Status asc (enabled -> disabled) |
-| Sort by brands by Status desc | Brands are sorted by Status desc (disabled -> enabled) |
-| Sort brands by ID asc | Brands are sorted by ID (1 -> 2 -> 3) |
-| Change Display items to 10 | There are 2 pages |
-| Click on Next | The Second page is displayed |
-| Click on Previous | The First page is displayed |
-| Change Display items to 50 | Pagination = 1 |
+| Go to BO > Catalog > Brands & Suppliers > Brands | The Brands page is displayed |
+| Reset addresses filter | Number of Addresses after creation = Total of Addresses |
+| Sort Addresses by Brand desc | Addresses are sorted by Brand (c -> b -> a) |
 | Sort Addresses by ID desc | Addresses are sorted by ID (3 -> 2 -> 1) |
 | Sort Addresses by Brand asc | Addresses are sorted by brand (a -> b -> c) |
-| Sort Addresses by Brand desc | Addresses are sorted by Brand (c -> b -> a) |
 | Sort Addresses by First name asc | Addresses are sorted by First name (a -> b -> c) |
 | Sort Addresses by First name desc | Addresses are sorted by First name (c -> b -> a) |
 | Sort Addresses by Last name asc | Addresses are sorted by Last name (a -> b -> c) |
@@ -35,4 +26,5 @@ weight: 3
 | Click on Next | The Second page is displayed |
 | Click on Previous | The First page is displayed |
 | Change Display items to 50 | Pagination = 1 |
-| Delete the Created brands & addresses | Brands and Addresses are well deleted |
+| Filter Addresses by First name | Number of Addresses < Total of Addresses<br><br>Addresses table is well filtered with "manufacturer" |
+| Select created addresses > Bulk action > Deleted selected > Confirm the deletion | The successful message "Successful deletion." is displayed |

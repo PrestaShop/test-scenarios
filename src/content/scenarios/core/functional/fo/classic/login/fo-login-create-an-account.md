@@ -9,5 +9,5 @@ weight: 1
 | ----- | ----- |
 | Go to FO > Click on top right "Sign In" button link | "Log in to your account" page is displayed |
 | Click on "No account? Create one here" link at the bottom fo the block | Create an account page is displayed |
-| Fill the form with your personal information > Click Save | * You are now logged into your account<br> * Redirection automatically to the homepage |
+| Fill the form with your personal information > Click Save | * You are now logged into your account<br> * Redirection automatically to the homepage<br> * An email "Welcome!" should be received |
 | Go to BO > Customers list page & delete the customer created | The alert "Successful deletion." is well displayed |
