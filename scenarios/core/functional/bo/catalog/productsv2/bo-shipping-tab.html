@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1689230154" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1689230154" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1689230154" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1689230154" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1689230154" rel="stylesheet">
-    <link href="../../../../../../style.css?1689230154" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1689316830" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1689316830" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1689316830" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1689316830" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1689316830" rel="stylesheet">
+    <link href="../../../../../../style.css?1689316830" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1689230154"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1689316830"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -3768,9 +3768,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-brands-and-addresses.html" title="BO - Catalog - Brands - Sort &amp; Pagination brands and addresses" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-brands-and-addresses.html">
-        BO - Catalog - Brands - Sort &amp; Pagination brands and addresses
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-brands-and-bulk-actions.html" title="BO - Catalog - Brands - Sort &amp; Pagination Brands and Bulk Actions" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-brands-and-bulk-actions.html">
+        BO - Catalog - Brands - Sort &amp; Pagination Brands and Bulk Actions
         
         </a>
     </li>
@@ -3831,9 +3831,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-bulk-actions-brand-addresses.html" title="BO - Catalog - Brands - Bulk Actions Brand Addresses" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-bulk-actions-brand-addresses.html">
-        BO - Catalog - Brands - Bulk Actions Brand Addresses
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-addresses-and-bulk-actions.html" title="BO - Catalog - Brands - Sort &amp; Pagination Addresses and Bulk Actions" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-addresses-and-bulk-actions.html">
+        BO - Catalog - Brands - Sort &amp; Pagination Addresses and Bulk Actions
         
         </a>
     </li>
@@ -41163,7 +41163,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---shipping-tab">BO - Shipping Tab</a></li>
+    <li><a href="#bo---shipping-tab">BO - Shipping Tab</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -64546,14 +64550,69 @@
 
 
 <h1 id="bo---shipping-tab">BO - Shipping Tab</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; New product &gt; Standard product &gt; Add new product &gt; Add a title to your product &gt; Switch to Online &gt; Add a quantity = 10 &gt; Click Save</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Go to Shipping Tab &gt; Edit the Package Dimension : <br>Width : 12 cm<br>Height : 12 cm<br>Depth : 12 cm<br>Weight : 12 kg<br>&gt; Click Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Edit Delivery Time &gt; Check &ldquo;None&rdquo; &gt; Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Edit Delivery Time &gt; Check Default delivery time: N/A - N/A &gt; Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Edit Delivery Time &gt; Check : Specific delivery time to this product &gt; Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Click on Preview</td>
+<td>FO is displayed<br><br>&ldquo;1 Day&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>In Tab Stocks &gt; Edit Product Quantity = 0 &gt; When out of stock block &gt; Allow Orders &gt; Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Click on Preview</td>
+<td>FO is displayed<br><br>&ldquo;12 Days&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>In Shipping fees block = 10€ &gt; Save and publish &gt; Preview &gt; Add product to cart &gt; Follow checkout process</td>
+<td>See Step 3 - Shipping Method = 20.40€ instead of 8.40€</td>
+</tr>
+<tr>
+<td>Go back to Product edition page &gt; Available carriers &gt; Click All carriers &gt; Check &ldquo;1 - Click and collect (Pick up in-store)&rdquo; &gt; Save and publish</td>
+<td>1 - Click and collect (Pick up in-store) is the Only selected carriers (1)</td>
+</tr>
+<tr>
+<td>Go back to FO checkout page &gt; Refresh page</td>
+<td>Only Click and collect is available</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 12, 2023
+  Last updated on July 14, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/42ce72426e833b07ed8439c5c64224407ca9b31f">"[Update] JIRA XRay Tests" (42ce72426e8)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/9cfc569e5f056dd56032ec4a14129291e560a021">"[Update] JIRA XRay Tests" (9cfc569e5f0)</a>
   
 </div>
 
@@ -64574,17 +64633,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1689230154"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1689230154"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689230154"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1689230154"></script>
-    <script src="../../../../../../js/featherlight.min.js?1689230154"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689230154"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689230154"></script>
-    <script src="../../../../../../js/learn.js?1689230154"></script>
-    <script src="../../../../../../js/hugo-learn.js?1689230154"></script>
+    <script src="../../../../../../js/clipboard.min.js?1689316830"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1689316830"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689316830"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1689316830"></script>
+    <script src="../../../../../../js/featherlight.min.js?1689316830"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689316830"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689316830"></script>
+    <script src="../../../../../../js/learn.js?1689316830"></script>
+    <script src="../../../../../../js/hugo-learn.js?1689316830"></script>
     
-    <script src="../../../../../../main.js?1689230154"></script>
+    <script src="../../../../../../main.js?1689316830"></script>
     
     
 

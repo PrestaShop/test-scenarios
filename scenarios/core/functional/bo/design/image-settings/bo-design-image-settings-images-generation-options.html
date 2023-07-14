@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1689230161" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1689230161" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1689230161" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1689230161" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1689230161" rel="stylesheet">
-    <link href="../../../../../../style.css?1689230161" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1689316837" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1689316837" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1689316837" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1689316837" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1689316837" rel="stylesheet">
+    <link href="../../../../../../style.css?1689316837" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1689230161"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1689316837"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -3768,9 +3768,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-brands-and-addresses.html" title="BO - Catalog - Brands - Sort &amp; Pagination brands and addresses" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-brands-and-addresses.html">
-        BO - Catalog - Brands - Sort &amp; Pagination brands and addresses
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-brands-and-bulk-actions.html" title="BO - Catalog - Brands - Sort &amp; Pagination Brands and Bulk Actions" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-brands-and-bulk-actions.html">
+        BO - Catalog - Brands - Sort &amp; Pagination Brands and Bulk Actions
         
         </a>
     </li>
@@ -3831,9 +3831,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-bulk-actions-brand-addresses.html" title="BO - Catalog - Brands - Bulk Actions Brand Addresses" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-bulk-actions-brand-addresses.html">
-        BO - Catalog - Brands - Bulk Actions Brand Addresses
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-addresses-and-bulk-actions.html" title="BO - Catalog - Brands - Sort &amp; Pagination Addresses and Bulk Actions" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/catalog/brands-and-suppliers/brands/bo-catalog-brands-sort-pagination-addresses-and-bulk-actions.html">
+        BO - Catalog - Brands - Sort &amp; Pagination Addresses and Bulk Actions
         
         </a>
     </li>
@@ -41163,7 +41163,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---design---image-settings---images-generation-options">BO - Design - Image Settings - Images generation options</a></li>
+    <li><a href="#bo---design---image-settings---images-generation-options">BO - Design - Image Settings - Images generation options</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -64546,14 +64550,85 @@
 
 
 <h1 id="bo---design---image-settings---images-generation-options">BO - Design - Image Settings - Images generation options</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Case 1 : Using JPEG base image</em><br><br><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
+</tr>
+<tr>
+<td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>* Go to your folder [yourshop]/img/p/[id of your new product <em>jpg</em>]<br> * Right Click on image &gt; Click on  properties</td>
+<td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * Image size = 238.3 KB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1395/Desktop-screenshot.png</td>
+</tr>
+<tr>
+<td><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
+</tr>
+<tr>
+<td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>* Go to your folder [yourshop]/img/p/[id of your new product png]<br> * Right Click on image &gt; Click on  properties</td>
+<td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * The image size = 25.8 kB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1398/Desktop-screenshot%20(1).png</td>
+</tr>
+<tr>
+<td><em>Case 2 : Using WebP base image</em><br><br><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
+</tr>
+<tr>
+<td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>* Go to your folder [yourshop]/img/p/[id of your new product png]<br> * Right Click on image &gt; Click on  properties</td>
+<td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * The image size = 40.6kB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1405/webP-prop.png</td>
+</tr>
+<tr>
+<td><em>Case 2 : Using WebP base image</em><br><br><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
+</tr>
+<tr>
+<td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>* Go to your folder [yourshop]/img/p/[id of your new product png]<br> * Right Click on image &gt; Click on  properties</td>
+<td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * The image size = 7.3kB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1410/webP2-prop.png</td>
+</tr>
+<tr>
+<td><em>Case 3 : Using PNG base image</em><br><br><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
+</tr>
+<tr>
+<td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>* Go to your folder [yourshop]/img/p/[id of your new product png]<br> * Right Click on image &gt; Click on  properties</td>
+<td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * The image size = 1MB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1414/Desktop-screenshot%20(2).png!</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 12, 2023
+  Last updated on July 14, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/42ce72426e833b07ed8439c5c64224407ca9b31f">"[Update] JIRA XRay Tests" (42ce72426e8)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/9cfc569e5f056dd56032ec4a14129291e560a021">"[Update] JIRA XRay Tests" (9cfc569e5f0)</a>
   
 </div>
 
@@ -64574,17 +64649,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1689230161"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1689230161"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689230161"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1689230161"></script>
-    <script src="../../../../../../js/featherlight.min.js?1689230161"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689230161"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689230161"></script>
-    <script src="../../../../../../js/learn.js?1689230161"></script>
-    <script src="../../../../../../js/hugo-learn.js?1689230161"></script>
+    <script src="../../../../../../js/clipboard.min.js?1689316838"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1689316838"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689316838"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1689316838"></script>
+    <script src="../../../../../../js/featherlight.min.js?1689316838"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689316838"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689316838"></script>
+    <script src="../../../../../../js/learn.js?1689316838"></script>
+    <script src="../../../../../../js/hugo-learn.js?1689316838"></script>
     
-    <script src="../../../../../../main.js?1689230161"></script>
+    <script src="../../../../../../main.js?1689316838"></script>
     
     
 
