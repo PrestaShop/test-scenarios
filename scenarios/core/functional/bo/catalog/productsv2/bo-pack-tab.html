@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1689576367" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1689576367" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1689576367" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1689576367" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1689576367" rel="stylesheet">
-    <link href="../../../../../../style.css?1689576367" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1689662736" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1689662736" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1689662736" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1689662736" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1689662736" rel="stylesheet">
+    <link href="../../../../../../style.css?1689662736" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1689576367"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1689662736"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41163,7 +41163,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---pack-tab">BO - Pack Tab</a></li>
+    <li><a href="#bo---pack-tab">BO - Pack Tab</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -64546,14 +64550,69 @@
 
 
 <h1 id="bo---pack-tab">BO - Pack Tab</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; New product &gt; Choose Pack of products &gt; Add new product &gt; Add title : My pack &gt; Save</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Go to Pack Tab &gt; Search by product name : &ldquo;shirt&rdquo; &gt; Choose &ldquo;Hummingbird printed t-shirt: Size - S, Color - White&rdquo; &gt; Save and publish</td>
+<td>1 product is available in the Pack product<br><br>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Search by reference &ldquo;demo_14&rdquo; &gt; Choose Customizable mug &gt; Save and publish</td>
+<td>2 products are available in the Pack product<br><br>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Edit quantity of Hummingbird printed t-shirt = 4 &gt; Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Delete Customizable mug &gt; Delete &gt; Save and publish</td>
+<td>1 product is available in the Pack product<br><br>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Search by reference &ldquo;demo_9&rdquo; &gt; Choose &ldquo;Brown bear notebook: Paper Type - Ruled&rdquo; &gt; Save an publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Add Stock = 100 &gt; Go to Pricing &gt; Edit Retail price (tax incl.) = 25€ &gt; Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Click Preview</td>
+<td>Product page is displayed:<br>Price is 25€ Instead of €107.26<br><br>This pack contains<br> - Hummingbird printed t-shirt: Size - S, Color - White x4<br> - Brown bear notebook: Paper Type - Ruled x1</td>
+</tr>
+<tr>
+<td>Add to cart &gt; Proceed to checkout</td>
+<td>YOUR ORDER IS CONFIRMED</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Edit &ldquo;My pack&rdquo; &gt; Pack tab</td>
+<td>See that Stock = 99</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Edit &ldquo;My pack&rdquo; &gt; Pack tab</td>
+<td>Recent stock movements</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on January 10, 2023
+  Last updated on July 18, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/78d6071c968a41e1c0b4829141c7e0bae43103d4">"[Update] JIRA XRay Tests" (78d6071c968)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/3006aebe11c25b35fc53e089f317147de3b1987f">"[Update] JIRA XRay Tests" (3006aebe11c)</a>
   
 </div>
 
@@ -64574,17 +64633,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1689576367"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1689576367"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689576367"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1689576367"></script>
-    <script src="../../../../../../js/featherlight.min.js?1689576367"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689576367"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689576367"></script>
-    <script src="../../../../../../js/learn.js?1689576367"></script>
-    <script src="../../../../../../js/hugo-learn.js?1689576367"></script>
+    <script src="../../../../../../js/clipboard.min.js?1689662736"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1689662736"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1689662736"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1689662736"></script>
+    <script src="../../../../../../js/featherlight.min.js?1689662736"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1689662736"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1689662736"></script>
+    <script src="../../../../../../js/learn.js?1689662736"></script>
+    <script src="../../../../../../js/hugo-learn.js?1689662736"></script>
     
-    <script src="../../../../../../main.js?1689576367"></script>
+    <script src="../../../../../../main.js?1689662736"></script>
     
     
 
