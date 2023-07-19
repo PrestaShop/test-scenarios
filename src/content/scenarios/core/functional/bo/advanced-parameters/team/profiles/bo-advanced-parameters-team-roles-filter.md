@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced parameters - Team - Profiles - Filter"
+title: "BO - Advanced parameters - Team - Roles - Filter"
 weight: 1
 ---
 
-# BO - Advanced parameters - Team - Profiles - Filter
+# BO - Advanced parameters - Team - Roles - Filter
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

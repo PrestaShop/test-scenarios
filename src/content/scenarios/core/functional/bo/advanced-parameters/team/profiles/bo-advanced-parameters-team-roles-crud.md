@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced parameters - Team - Profiles - CRUD"
+title: "BO - Advanced parameters - Team - Roles - CRUD"
 weight: 2
 ---
 
-# BO - Advanced parameters - Team - Profiles - CRUD
+# BO - Advanced parameters - Team - Roles - CRUD
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

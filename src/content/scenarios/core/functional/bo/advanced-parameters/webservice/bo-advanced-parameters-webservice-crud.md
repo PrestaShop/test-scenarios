@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced Parameters - Webservice - CRUD (TODO)"
+title: "BO - Advanced Parameters - Webservice - CRUD"
 weight: 2
 ---
 
-# BO - Advanced Parameters - Webservice - CRUD (TODO)
+# BO - Advanced Parameters - Webservice - CRUD
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
