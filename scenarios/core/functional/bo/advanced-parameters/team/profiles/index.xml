@@ -7,46 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BO - Advanced parameters - Team - Profiles - Filter</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-filter.html</link>
+      <title>BO - Advanced parameters - Team - Roles - Filter</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-filter.html</guid>
-      <description>BO - Advanced parameters - Team - Profiles - Filter Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles after reset = Total of profiles   Filter by id_profile
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-filter.html</guid>
+      <description>BO - Advanced parameters - Team - Roles - Filter Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles after reset = Total of profiles   Filter by id_profile
 value 4&amp;quot; Number of profiles &amp;lt; Total of profiles
 all rows column &amp;lsquo;id_profile&amp;rsquo; contains &amp;lsquo;4&amp;rsquo;   reset filter Total of profiles after reset = Total of profiles   Filter by name</description>
     </item>
     
     <item>
-      <title>BO - Advanced parameters - Team - Profiles - CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-crud.html</link>
+      <title>BO - Advanced parameters - Team - Roles - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-crud.html</guid>
-      <description>BO - Advanced parameters - Team - Profiles - CRUD Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles &amp;gt; 0   go to add new profile title contains &amp;lsquo;Add new&amp;rsquo;   create profile
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-crud.html</guid>
+      <description>BO - Advanced parameters - Team - Roles - CRUD Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles &amp;gt; 0   go to add new profile title contains &amp;lsquo;Add new&amp;rsquo;   create profile
 Criteria :
 name: faker.name.jobType() from faker Successful message is displayed
 Number of profiles = Total of profiles + 1   Filter list by new name Number of profiles &amp;lt; Total of profiles + 1</description>
     </item>
     
     <item>
-      <title>BO - Advanced parameters - Team - Profiles - Bulk Actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-bulk-actions.html</link>
+      <title>BO - Advanced parameters - Team - Roles - pagination and Bulk Actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-pagination-and-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-bulk-actions.html</guid>
-      <description>BO - Advanced parameters - Team - Profiles - Bulk Actions Steps    Step Description Expected result     Go to BO &amp;gt; Advanced parameters &amp;gt; Team &amp;gt; Profiles Profile page is displayed   Click Add new profile &amp;gt; Save Successful creation alert is displayed
-Number of profiles = Total of profiles + 1   Select the new profile created &amp;gt; Click Bulk actions &amp;gt; Delete selected &amp;gt; Delete Successful deletion alert is displayed</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-pagination-and-bulk-actions.html</guid>
+      <description>BO - Advanced parameters - Team - Roles - pagination and Bulk Actions Steps    Step Description Expected result     Go to BO &amp;gt; Advanced parameters &amp;gt; Team &amp;gt; Profiles Profile page is displayed   Create 10 roles Successful creation alert is displayed
+Number of profiles = Total of profiles + 10   Change the items number to 10 per page The number of pages should be displayed (page 1 / 2)   Click on next The page number should be displayed (page 2 / 2)   Click on previous Page number should be displayed</description>
     </item>
     
     <item>
-      <title>BO - Advanced parameters - Team - Profiles - Sort pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-sort-pagination.html</link>
+      <title>BO - Advanced parameters - Team - Roles - Sort</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-sort.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-sort-pagination.html</guid>
-      <description>BO - Advanced parameters - Team - Profiles - Sort pagination Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;
-profiles list is well displayed   go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;   reset filter Total of profiles &amp;gt; 0   go to add new profile title contains &amp;lsquo;Add new&amp;rsquo;   create profile</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-sort.html</guid>
+      <description>BO - Advanced parameters - Team - Roles - Sort Steps    Step Description Expected result     go to &amp;lsquo;Advanced parameters &amp;gt; Team &amp;gt; Profiles&amp;rsquo; page title contains &amp;lsquo;Profiles&amp;rsquo;
+profiles list is well displayed   Reset all filters All filters are reset , the profiles are displayed   Sort by ID asc profiles list are sorted by ID (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;)   Sort by ID desc profiles list are sorted by ID (3-&amp;gt; 2 -&amp;gt;1&amp;hellip;)   Sort by name asc profiles list are sorted by name (a-&amp;gt; b -&amp;gt;c &amp;hellip;)   Sort by name desc profiles list are sorted by name (c-&amp;gt; b -&amp;gt;a&amp;hellip;)    </description>
     </item>
     
     <item>
