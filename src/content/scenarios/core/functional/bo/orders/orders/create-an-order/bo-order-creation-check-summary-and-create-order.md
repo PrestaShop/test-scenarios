@@ -14,6 +14,6 @@ weight: 10
 | Change Delivery Option with a not free carrier | *Total shipping (Tax excl.)* will be updated<br><br>Price should be tax excluded<br><br>*Total (Tax incl.)* should be updated |
 | Case1<br><br>The payment is not selected (Choose by default), click on Create Order | The order is not created, the payment is required |
 | Case2<br><br>The Order status is not selected (Choose by default), click on Create Order | The order is not created, the order status is required |
-| Fill in "Order message" > Add a payment > Choose an order status > Click "more actions" > Choose "Send pre-filled order to the customer by email" | Message The email was sent to your customer. appears |
+| Fill in "Order message" > Add a payment > Choose an order status > Click "more actions" > Choose "Send pre-filled order to the customer by email" | * Message "The email was sent to your customer." appears<br> * An email should be received<br> ** the subject contains "Process the payment of your order"<br> ** the body contains "A new order has been generated on your behalf." |
 | Fill in "Order message" > Add a payment > Choose an order status > Click "more actions" > Choose "Proceed to checkout in the front office" | FO opens with Step 2 of checkout process |
 | Come back to BO > Fill in "Order message" > Add a payment > Choose an order status > Click button Create Order | Order will be created - Order details will be opened in BO<br><br>In the Messages block > Check the Order message is well displayed |
