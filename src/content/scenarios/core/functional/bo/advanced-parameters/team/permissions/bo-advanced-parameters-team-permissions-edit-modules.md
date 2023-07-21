@@ -13,9 +13,3 @@ weight: 2
 | Click on the checkbox cases for View, Configure and Uninstall. | All chechboxes are well checked for all lines<br><br>Update successful message is displayed |
 | Refresh the page > Click on Logistician | See that all three columns are checked |
 | Click twice on All column to uncheck everything | See that everything is unchecked for the lines <br><br>Update successful message is displayed |
-| Click on Translator Profile | All Modules are unchecked |
-| Click on a few unchecked tickboxes | Update successful message is displayed |
-| Refresh the page > Click on Translator | The checkboxes you checked should be saved |
-| Click on Commercial Profile | All Modules are unchecked |
-| Click on a few unchecked tickboxes | Update successful message is displayed |
-| Refresh the page > Click on Commercial | The checkboxes you checked should be saved |
