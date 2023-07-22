@@ -17,4 +17,8 @@ weight: 15
 | Click Preview | Product page is displayed:<br>Price is 25€ Instead of €107.26<br><br>This pack contains<br> - Hummingbird printed t-shirt: Size - S, Color - White x4<br> - Brown bear notebook: Paper Type - Ruled x1 |
 | Add to cart > Proceed to checkout | YOUR ORDER IS CONFIRMED |
 | Go back to BO > Edit "My pack" > Pack tab | See that Stock = 99 |
-| Go back to BO > Edit "My pack" > Pack tab | Recent stock movements |
+| Go to BO > Orders > Change order status to : Delivered | Successful update message is displayed |
+| Go back to BO > Edit "My pack" > Pack tab > Stocks | See in Recent stock movements :<br><br>Date & Time : Shipped products<br><br>Quantity : -1 |
+| Go back to BO > Edit "My pack" > Pack tab > Pack quantities > Check "Decrement products in pack only." > Save | Successful update Message is displayed |
+| Click Preview > In FO > Add product to cart > Proceed to order | YOUR ORDER IS CONFIRMED |
+| Go to BO > Products listing | See that both products have decreased their quantity.<br><br>Hummingbird printed t-shirt = 2396<br>Brown bear notebook = 1199 |
