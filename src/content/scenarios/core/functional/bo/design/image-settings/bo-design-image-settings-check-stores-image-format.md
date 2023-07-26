@@ -16,5 +16,5 @@ weight: 16
 | Go to your folder [yourshop]/img/st | There is no image on Webp |
 | Drag and drop [idofyour store in PNG]_stores_default.jpg on [https://www.checkfiletype.com/] | The website should say that your image is on PNG |
 | Drag and drop [idofyour store in JPEG]_store_default.jpg on [https://www.checkfiletype.com/] | The website should say that your image is on JPEG |
-| * Go to FO <br> * Go at the bottom of the page and clic on "Store"<br> * Right click on a store s image <br> * Select inspect<br> * look at the end of the <source | * You'll see your shop<br> * You'll see all the different shop <br> * you'll see many option <br> * you should see the details of store's image under a Picture tag<br> * This will show you witch type of product it's selected |
+| * Go to FO <br> * Go at the bottom of the page and clic on "Store"<br> * Right click on a store s image <br> * Select inspect<br> * look at the end of the <source | * You'll see your shop<br> * You'll see all the different shop <br> * you'll see many option <br> * you should see the details of store's image under a Picture tag<br> * This will show you witch type of image it's selected |
 | *If the source is on Webp* <br> * Go to your folder [yourshop]/img/st | * Now there is some _stores_default_ image on Webp |
