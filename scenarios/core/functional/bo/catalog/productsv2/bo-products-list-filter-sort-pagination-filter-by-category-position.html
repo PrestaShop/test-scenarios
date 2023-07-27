@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../style.css?1690353376" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1690440423" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1690440423" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1690440423" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1690440423" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1690440423" rel="stylesheet">
+    <link href="../../../../../../style.css?1690440423" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1690353376"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1690440423"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41205,7 +41205,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---products-list---filter--sort-pagination-filter-by-category-position">BO - Products list - Filter &amp; Sort, Pagination, Filter by category, Position</a></li>
+    <li><a href="#bo---products-list---filter--sort-pagination-filter-by-category-position">BO - Products list - Filter &amp; Sort, Pagination, Filter by category, Position</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -64618,14 +64622,113 @@
 
 
 <h1 id="bo---products-list---filter--sort-pagination-filter-by-category-position">BO - Products list - Filter &amp; Sort, Pagination, Filter by category, Position</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Filter by ID and click on search</td>
+<td>Only products from 2 to 5 are displayed</td>
+</tr>
+<tr>
+<td>Click on reset button</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Filter by Name</td>
+<td>only mug products are displayed</td>
+</tr>
+<tr>
+<td>Click on reset button</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Filter by Reference</td>
+<td>Only products that have the number 2 are displayed</td>
+</tr>
+<tr>
+<td>Click on reset button</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Filter by Category</td>
+<td>Only products that belong to the Art category are displayed</td>
+</tr>
+<tr>
+<td>Click on reset button</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Filter by Price (tax excl.)</td>
+<td>Only products' price from 15 to 25 are displayed</td>
+</tr>
+<tr>
+<td>Click on reset button</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Filter by Quantity</td>
+<td>Only products' quantities from 1000 to 1200 are displayed</td>
+</tr>
+<tr>
+<td>Click on reset button</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Filter by Status</td>
+<td>Only products with status = OFF are displayed</td>
+</tr>
+<tr>
+<td>Click on reset button</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Click on Filter by categories button and Expand, choose clothes category</td>
+<td>Only clothes poducts are displayed</td>
+</tr>
+<tr>
+<td>Click on clear filter</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Click on Filter by categories button and Expand, choose Art category</td>
+<td>Only art poducts are displayed</td>
+</tr>
+<tr>
+<td>Click on Filter by categories button and click on Unselect</td>
+<td>The filter is no more displayed and all products are displayed</td>
+</tr>
+<tr>
+<td>Change Display items to 10</td>
+<td>There are three pages</td>
+</tr>
+<tr>
+<td>Click on Next</td>
+<td>The Second page is displayed</td>
+</tr>
+<tr>
+<td>Click on Previous</td>
+<td>The first page is displayed</td>
+</tr>
+<tr>
+<td>Change Display items to 50</td>
+<td>Pagination = 1</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 26, 2023
+  Last updated on July 27, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/c7659cece5539ff3a861bc67bf5b2820326b300a">"[Update] JIRA XRay Tests" (c7659cece55)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/bdaeec256108fe8236c6ccd6d925cd1d546a72ea">"[Update] JIRA XRay Tests" (bdaeec25610)</a>
   
 </div>
 
@@ -64646,17 +64749,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1690353377"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1690353377"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1690353377"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1690353377"></script>
-    <script src="../../../../../../js/featherlight.min.js?1690353377"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1690353377"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1690353377"></script>
-    <script src="../../../../../../js/learn.js?1690353377"></script>
-    <script src="../../../../../../js/hugo-learn.js?1690353377"></script>
+    <script src="../../../../../../js/clipboard.min.js?1690440424"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1690440424"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1690440424"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1690440424"></script>
+    <script src="../../../../../../js/featherlight.min.js?1690440424"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1690440424"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1690440424"></script>
+    <script src="../../../../../../js/learn.js?1690440424"></script>
+    <script src="../../../../../../js/hugo-learn.js?1690440424"></script>
     
-    <script src="../../../../../../main.js?1690353377"></script>
+    <script src="../../../../../../main.js?1690440424"></script>
     
     
 

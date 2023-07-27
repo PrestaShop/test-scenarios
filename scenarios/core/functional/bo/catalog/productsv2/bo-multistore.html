@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1690353376" rel="stylesheet">
-    <link href="../../../../../../style.css?1690353376" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1690440422" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1690440422" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1690440422" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1690440422" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1690440422" rel="stylesheet">
+    <link href="../../../../../../style.css?1690440422" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1690353376"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1690440422"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41205,7 +41205,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---multistore">BO - Multistore</a></li>
+    <li><a href="#bo---multistore">BO - Multistore</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -64618,14 +64622,125 @@
 
 
 <h1 id="bo---multistore">BO - Multistore</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to Shop Parameters &gt; enable multistore &gt;save</td>
+<td>A success message will appear : &ldquo;Successful update  &quot;</td>
+</tr>
+<tr>
+<td>Go to advanced Parameters &gt;multistore</td>
+<td>multistore page is well displayed</td>
+</tr>
+<tr>
+<td>Click on add new Store</td>
+<td>a page is diplayed with a title : &ldquo;add new &quot;</td>
+</tr>
+<tr>
+<td>fill the blanks of the new store</td>
+<td>A success message will appear : &ldquo;Successful creation  &quot;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;set a URL for this shop&rdquo; &gt; set the virtual URL &gt;save</td>
+<td>A success message will appear : &ldquo;Successful update  &ldquo;<br><br>the new shop page is well displayed .</td>
+</tr>
+<tr>
+<td>Go to Catalog &gt; Products</td>
+<td>the product page of the default shop is&quot;PrestaShop&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on the multishop top &ndash; bar</td>
+<td>a multishop modal is displayed : <br> * All stores <br> * Group Default : * PrestaShop      * new shop</td>
+</tr>
+<tr>
+<td>click on the new shop</td>
+<td>the products of the new shop are displayed with a top-bar title new shop  .</td>
+</tr>
+<tr>
+<td>click on &ldquo;view my store&rdquo;</td>
+<td>the FO of the new shop &ldquo;newshop &quot; is diplayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products</td>
+<td>Products list page is displayed correctly</td>
+</tr>
+<tr>
+<td>Click on &ldquo;New product&rdquo; button on the top right of the page &gt; Choose &ldquo;Standard product&rdquo; block in the modal</td>
+<td>* A modal &ldquo;Add new product&rdquo; is displayed<br> * A description by type is displayed. For Standard product:  &ldquo;A physical product that needs to be shipped.&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Add new product&rdquo; button</td>
+<td>* New Product page on &ldquo;Description&rdquo; tab is displayed<br> * &ldquo;Standard product&rdquo; type description is displayed below the product name field</td>
+</tr>
+<tr>
+<td>Fill the main informations on &ldquo;Description&rdquo; tab</td>
+<td>The content is added</td>
+</tr>
+<tr>
+<td>Go to &ldquo;Details&rdquo; tab &gt; Fill the &ldquo;Reference&rdquo; field</td>
+<td>The content is added</td>
+</tr>
+<tr>
+<td>Go to &ldquo;Stock&rdquo; tab &gt; Edit quantity of the product</td>
+<td>The content is added</td>
+</tr>
+<tr>
+<td>Click on Save button</td>
+<td>* A green alert &ldquo;Successful update&rdquo; is displayed<br> * A new line is added below the Stocks:<br> ** &ldquo;Recent stock movements&rdquo; is well displayed<br> ** The employee&rsquo;s firstname &amp; lastname are well displayed<br> ** The quantity = 100 is well displayed</td>
+</tr>
+<tr>
+<td>Go to &ldquo;Pricing&rdquo; tab &gt; Edit &ldquo;Retail price&rdquo; section</td>
+<td>* &ldquo;Retail price (tax incl.)&rdquo;  field should be &ldquo;15&rdquo;<br> * The content is aded</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Offline&rdquo; switch button at the bottom of the page (at the left of the &ldquo;Save button&rdquo;) &amp; Click on the &ldquo;Save button&rdquo;</td>
+<td>* The switch button is set to &ldquo;Online&rdquo; and is green<br> * &ldquo;Successful update&rdquo; message is displayed<br> * The &ldquo;Save&rdquo; button is changed by &ldquo;Save and publish&rdquo; button<br>* Check the header of the product<br> ** The cover image is well displayed<br> ** Price tax excl. = €15.00<br> ** Price tax incl. = €18.00 tax incl. (tax rule: 20%)<br> ** 100 in stock<br> ** Reference: 12345</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Preview&rdquo; button at the bottom of the page and check all data is correct on the preview</td>
+<td>* New tab is opened to show the product in FO.<br> * Product is displayed correctly.<br> * Data is correct on the preview in FO</td>
+</tr>
+<tr>
+<td>Go to back to browser tab of the BO &gt; Edit the product by changing every data on each tab above &gt; Click on &ldquo;Save and publish&rdquo; button</td>
+<td>* A &ldquo;Successful update&rdquo; message is displayed<br> * Check the header of the product:<br> ** Price tax excl. = €20.00<br> ** Price tax incl. = €22.00 tax incl. (tax rule: 10%)<br> ** 200 in stock<br> ** Reference: 1234567</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Preview&rdquo; button at the bottom of the page and check all data is correct on the preview</td>
+<td>* New tab is opened to show the product in FO.<br> * Product is displayed correctly.<br> * Data is correct on the preview in FO</td>
+</tr>
+<tr>
+<td>Go to back to browser tab of the BO &gt; Click on &ldquo;Delete&rdquo; button at the bottom of the page</td>
+<td>A modal is displayed with two buttons:<br> * Cancel<br> * Delete</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Delete&rdquo; button</td>
+<td>* Products list page is displayed<br> * &ldquo;Successful deletion&rdquo; message is displayed<br> * The product is well removed</td>
+</tr>
+<tr>
+<td>in the new store  &ldquo;new shop&rdquo; , the product page created  &gt; click on &ldquo;Apply changes to all stores&rdquo;&gt; save</td>
+<td>A success message will appear : &ldquo;Successful update  &quot;</td>
+</tr>
+<tr>
+<td>change the shop to &ldquo;PrestaShop &quot;</td>
+<td>the product page of PrestaShop is displayed &gt; see the product created is well displayed in this shop</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 22, 2023
+  Last updated on July 27, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/93f531ae5e62b6c4d4991d7c77e689cce2a1cbc3">"[Update] JIRA XRay Tests" (93f531ae5e6)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/bdaeec256108fe8236c6ccd6d925cd1d546a72ea">"[Update] JIRA XRay Tests" (bdaeec25610)</a>
   
 </div>
 
@@ -64646,17 +64761,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1690353376"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1690353376"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1690353376"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1690353376"></script>
-    <script src="../../../../../../js/featherlight.min.js?1690353376"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1690353376"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1690353376"></script>
-    <script src="../../../../../../js/learn.js?1690353376"></script>
-    <script src="../../../../../../js/hugo-learn.js?1690353376"></script>
+    <script src="../../../../../../js/clipboard.min.js?1690440423"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1690440423"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1690440423"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1690440423"></script>
+    <script src="../../../../../../js/featherlight.min.js?1690440423"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1690440423"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1690440423"></script>
+    <script src="../../../../../../js/learn.js?1690440423"></script>
+    <script src="../../../../../../js/hugo-learn.js?1690440423"></script>
     
-    <script src="../../../../../../main.js?1690353376"></script>
+    <script src="../../../../../../main.js?1690440423"></script>
     
     
 
