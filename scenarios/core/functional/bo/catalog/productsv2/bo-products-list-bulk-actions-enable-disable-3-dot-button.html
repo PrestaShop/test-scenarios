@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1690440423" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1690440423" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1690440423" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1690440423" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1690440423" rel="stylesheet">
-    <link href="../../../../../../style.css?1690440423" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1690526077" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1690526077" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1690526077" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1690526077" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1690526077" rel="stylesheet">
+    <link href="../../../../../../style.css?1690526077" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1690440423"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1690526077"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -1912,9 +1912,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-download-sample-files-todo.html" title="BO - Advanced parameters - Import - Download sample files (TODO)" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-download-sample-files-todo.html">
-        BO - Advanced parameters - Import - Download sample files (TODO)
+      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-download-sample-files.html" title="BO - Advanced parameters - Import - Download sample files" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-download-sample-files.html">
+        BO - Advanced parameters - Import - Download sample files
         
         </a>
     </li>
@@ -2631,9 +2631,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-bulk-actions-todo.html" title="BO - Advanced parameters - Team - Employees - Bulk Actions (TODO)" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-bulk-actions-todo.html">
-        BO - Advanced parameters - Team - Employees - Bulk Actions (TODO)
+      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-bulk-actions.html" title="BO - Advanced parameters - Team - Employees - Bulk Actions" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-bulk-actions.html">
+        BO - Advanced parameters - Team - Employees - Bulk Actions
         
         </a>
     </li>
@@ -41205,7 +41205,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---products-list---bulk-actions-enabledisable-3-dot-button">BO - Products list - Bulk actions, Enable/Disable, 3-dot button</a></li>
+    <li><a href="#bo---products-list---bulk-actions-enabledisable-3-dot-button">BO - Products list - Bulk actions, Enable/Disable, 3-dot button</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -64618,14 +64622,81 @@
 
 
 <h1 id="bo---products-list---bulk-actions-enabledisable-3-dot-button">BO - Products list - Bulk actions, Enable/Disable, 3-dot button</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products</td>
+<td>All products should be displayed</td>
+</tr>
+<tr>
+<td>Enable the checkbox near the &ldquo;Min &amp; Max&rdquo; of ID</td>
+<td>All checkbox of product present in this page is enabled</td>
+</tr>
+<tr>
+<td>Disable the checkbox near the &ldquo;Min &amp; Max&rdquo; of ID</td>
+<td>All checkbox of product present in this page is disabled</td>
+</tr>
+<tr>
+<td>Enable the checkbox near the &ldquo;Min &amp; Max&rdquo; of ID</td>
+<td>All checkbox of product present in this page is enabled</td>
+</tr>
+<tr>
+<td>* Clic on the Bulk actions button <br> * Clic on &ldquo;Deactivate selection&rdquo;<br> * Clic on &ldquo;Deactivate selection&rdquo;<br> * Clic on &ldquo;Close&rdquo;</td>
+<td>* A pop up is displayed with : &ldquo;activate selection&rdquo; &ldquo;Deactivate selection&rdquo; &ldquo;Duplicate selection&rdquo; &ldquo;Delete Selection&rdquo; <br> * A pop up is displayed with &ldquo;Deactivate selection&rdquo; <br> * A loading is displayed <br> * All product selected should be disabled (Status off)</td>
+</tr>
+<tr>
+<td>* Clic on the Bulk actions button <br> * Clic on &ldquo;Activate selection&rdquo;<br> * Clic on &ldquo;Cancel&rdquo;</td>
+<td>* A pop up is displayed <br> * A pop up is displayed with &ldquo;Activate selection&rdquo; <br> * The pop up should be closed and you still have your product selected</td>
+</tr>
+<tr>
+<td>* Clic on the Bulk actions button <br> * Clic on &ldquo;Activate selection&rdquo;<br> * Clic on &ldquo;Activate selection&rdquo;<br> * Clic on &ldquo;Close&rdquo;</td>
+<td>* A pop up is displayed <br> * A pop up is displayed with &ldquo;Activate selection&rdquo; <br> * A loading is displayed <br> * All product selected should be enabled (Status on)</td>
+</tr>
+<tr>
+<td>* Clic on the Bulk actions button <br> * Clic on &ldquo;Dupplicate selection&rdquo;<br> * Clic on &ldquo;Dupplicate selection&rdquo;<br> * Clic on &ldquo;Close&rdquo;</td>
+<td>* A pop up is displayed <br> * A pop up is displayed with &ldquo;Dupplicate selection&rdquo; <br> * A loading is displayed <br> * All product selected should be dupplicate and disabled</td>
+</tr>
+<tr>
+<td>* Clic on the Bulk actions button <br> * Clic on &ldquo;Delete selection&rdquo;<br> * Clic on &ldquo;Delete selection&rdquo;<br> * Clic on &ldquo;Close&rdquo;</td>
+<td>* A pop up is displayed <br> * A pop up is displayed with &ldquo;Delete selection&rdquo; <br> * A loading is displayed <br> * All product selected should be deleted</td>
+</tr>
+<tr>
+<td>* Clic on the Bulk actions button <br> * Clic on &ldquo;Delete selection&rdquo;<br> * Clic on &ldquo;Delete selection&rdquo;<br> * Clic on &ldquo;Stop processing&rdquo; during the load <br> * Clic on &ldquo;Close&rdquo;</td>
+<td>* A pop up is displayed <br> * A pop up is displayed with &ldquo;Delete selection&rdquo; <br> * A loading is displayed <br> * Two yellow alert will be displayed <br>&quot; View 1 error logs&quot;<br>&ldquo;Something went wrong with IDs [number of IDs you selected] the operation was aborted&rdquo;<br> * Product until the ID showed in the error message will be deleted</td>
+</tr>
+<tr>
+<td>* On the first product, clic on the three dot <br> * Clic on &ldquo;Preview&rdquo;</td>
+<td>* a pop up is displayed with &ldquo;Preview&rdquo;, &ldquo;Dupplicate&rdquo; and &ldquo;Delete&rdquo;<br> * The product will be displayed on the FO<br>If you use it on a product disabled, you&rsquo;ll se a baneer with &ldquo;This product is not visible to your customers&rdquo;</td>
+</tr>
+<tr>
+<td>* On the first product, clic on the three dot <br> * Clic on &ldquo;Dupplicate&rdquo;<br> * Clic on &ldquo;Go to catalog&rdquo;</td>
+<td>* a pop up is displayed<br> * The new product is displayed on BO with the same details than the previous, it name is &ldquo;copy of [name of your previous product&rdquo; and you have a green notification &ldquo;Successful duplication&rdquo;<br> * All product should be displayed</td>
+</tr>
+<tr>
+<td>* On the first product, clic on the three dot <br> * Clic on &ldquo;Delete&rdquo;<br> * Clic on &ldquo;Cancel&rdquo;</td>
+<td>* a pop up is displayed<br> * A new pop up is displayed named &ldquo;Delete selection&rdquo;<br> * All pop up is disabled</td>
+</tr>
+<tr>
+<td>* On the first product, clic on the three dot <br> * Clic on &ldquo;Delete&rdquo;<br> * Clic on &ldquo;Delete&rdquo;</td>
+<td>* a pop up is displayed<br> * A new pop up is displayed named &ldquo;Delete selection&rdquo;<br> * The product is deleted and you&rsquo;ll have a green notification &ldquo;Successful deletion&rdquo;</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 26, 2023
+  Last updated on July 28, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/c7659cece5539ff3a861bc67bf5b2820326b300a">"[Update] JIRA XRay Tests" (c7659cece55)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/d78f8286b28fc7d42e9db945d8076d797df277e9">"[Update] JIRA XRay Tests" (d78f8286b28)</a>
   
 </div>
 
@@ -64646,17 +64717,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1690440423"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1690440423"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1690440423"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1690440423"></script>
-    <script src="../../../../../../js/featherlight.min.js?1690440423"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1690440423"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1690440423"></script>
-    <script src="../../../../../../js/learn.js?1690440423"></script>
-    <script src="../../../../../../js/hugo-learn.js?1690440423"></script>
+    <script src="../../../../../../js/clipboard.min.js?1690526077"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1690526077"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1690526077"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1690526077"></script>
+    <script src="../../../../../../js/featherlight.min.js?1690526077"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1690526077"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1690526077"></script>
+    <script src="../../../../../../js/learn.js?1690526077"></script>
+    <script src="../../../../../../js/hugo-learn.js?1690526077"></script>
     
-    <script src="../../../../../../main.js?1690440423"></script>
+    <script src="../../../../../../main.js?1690526077"></script>
     
     
 

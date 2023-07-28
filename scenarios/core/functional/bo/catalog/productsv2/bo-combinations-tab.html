@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1690440421" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1690440421" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1690440421" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1690440421" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1690440421" rel="stylesheet">
-    <link href="../../../../../../style.css?1690440421" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1690526075" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1690526075" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1690526075" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1690526075" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1690526075" rel="stylesheet">
+    <link href="../../../../../../style.css?1690526075" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1690440421"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1690526075"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -1912,9 +1912,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-download-sample-files-todo.html" title="BO - Advanced parameters - Import - Download sample files (TODO)" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-download-sample-files-todo.html">
-        BO - Advanced parameters - Import - Download sample files (TODO)
+      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-download-sample-files.html" title="BO - Advanced parameters - Import - Download sample files" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-download-sample-files.html">
+        BO - Advanced parameters - Import - Download sample files
         
         </a>
     </li>
@@ -2631,9 +2631,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-bulk-actions-todo.html" title="BO - Advanced parameters - Team - Employees - Bulk Actions (TODO)" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-bulk-actions-todo.html">
-        BO - Advanced parameters - Team - Employees - Bulk Actions (TODO)
+      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-bulk-actions.html" title="BO - Advanced parameters - Team - Employees - Bulk Actions" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/advanced-parameters/team/employees/bo-advanced-parameters-team-employees-bulk-actions.html">
+        BO - Advanced parameters - Team - Employees - Bulk Actions
         
         </a>
     </li>
@@ -41205,7 +41205,11 @@
     <div id="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#bo---combinations-tab">BO - Combinations Tab</a></li>
+    <li><a href="#bo---combinations-tab">BO - Combinations Tab</a>
+      <ul>
+        <li><a href="#steps">Steps</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -64618,14 +64622,129 @@
 
 
 <h1 id="bo---combinations-tab">BO - Combinations Tab</h1>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products</td>
+<td>Products list page is well displayed</td>
+</tr>
+<tr>
+<td>Click on <em>New product</em> button on the top right of the page &gt; Choose &ldquo;Product with combinations&rdquo; block in the modal</td>
+<td>* A modal  is displayed with 4 product types :Standard product,Product with combinations,Pack of products,Virtual product<br><br> * A description by type is displayed . For Product with combinations:  &ldquo;A product with different variations (size, color, etc.) from which customers can choose.&rdquo;</td>
+</tr>
+<tr>
+<td>Click on <em>Add new product</em> button in the modal</td>
+<td>* New Product page on &ldquo;Description&rdquo; tab is displayed<br> * &ldquo;Product with combinations&rdquo; type description is displayed below the product name field<br> * The Combinations tab is well displayed</td>
+</tr>
+<tr>
+<td>Fill the main fields on &ldquo;Description&rdquo; tab &gt; Click on <em>Save and publish</em> button</td>
+<td>* &ldquo;Product image&rdquo; uploaded with image<br> * &ldquo;Product name&rdquo; field filled with &ldquo;my product&rdquo;<br> * &ldquo;Summary&rdquo; field filled with &ldquo;summary&rdquo;<br> * &ldquo;Description&rdquo; field filled with &ldquo;description&rdquo;</td>
+</tr>
+<tr>
+<td>Go to the &ldquo;Combinations&rdquo; tab &gt; Click on &ldquo;Attributes &amp; Features&rdquo; link</td>
+<td>The page &ldquo;Attributes &quot; is displayed in another tab</td>
+</tr>
+<tr>
+<td>Go to the &ldquo;Combinations&rdquo; tab &gt; Click on &ldquo;Learn more&rdquo; button</td>
+<td>The page &ldquo;PrestaShop 1.7 documentation &quot; is displayed in a new tab</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Generate combinations&rdquo; button</td>
+<td>A &ldquo;Generate combinations&rdquo; modal is displayed with :<br> * Search for attributes&hellip; field<br> * Size<br> * Color<br> * Dimension<br> * Paper Type<br> * Cancel button : enabled<br> * Generate combinations button: disabled</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Cancel&rdquo; button or the close icon of the modal</td>
+<td>The modal is well removed</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Generate combinations&rdquo; button &gt; Check &ldquo;Size&rdquo; and &ldquo;Color&rdquo; checkboxes &gt; Click on &ldquo;Generate XX combinations&rdquo; button</td>
+<td>* All attributes are added on the Search for attributes&hellip; field<br> * The button is enabled and named : Generate 56 combinations<br> * &ldquo;Successfully generated 56 combinations&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>In the Combination product list &gt; Edit those data for the first combination<br> * Reference<br> * Impact on price (tax excl.)<br> * Quantity<br><br>and click on &ldquo;Save list&rdquo; button</td>
+<td>A green alert &ldquo;Update successful&rdquo; is displayed<br>The data is well-filled:<br> * Reference<br> * Impact on price (tax excl.)<br> * Impact on price (tax incl.)<br> * Final price (tax excl.)<br> * Quantity</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Edit&rdquo; action for the second combination</td>
+<td>A modal  is displayed</td>
+</tr>
+<tr>
+<td>Edit the fields in the modal &gt; and click on Save</td>
+<td>* The green alert &ldquo;Update successful&rdquo; is well displayed<br> * A new line is added below the Stocks:<br> ** &ldquo;Recent stock movements&rdquo; is well displayed<br> ** The employee&rsquo;s firstname &amp; lastname are well displayed<br> ** The quantity = 50 is well displayed</td>
+</tr>
+<tr>
+<td>Click on <em>Previous combination</em> button in the modal</td>
+<td>The first combination edited in <em>Step 9</em> is displayed</td>
+</tr>
+<tr>
+<td>Click on <em>Next combination</em> button in the modal two times</td>
+<td>The third combination in well displayed with empty fields</td>
+</tr>
+<tr>
+<td>Click on <em>Cancel</em> button in the modal</td>
+<td>* The modal is closed<br> * Manage product combinations page is displayed</td>
+</tr>
+<tr>
+<td>Go to <em>When out of stock</em> section in page botttom &gt; Select <em>Deny orders</em> option &gt; Click on <em>Save</em> button</td>
+<td>The message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Click on the product with combination &ldquo;my product&rdquo; &gt; Select Size : L</td>
+<td>The <em>ADD TO CART</em> button is disabled</td>
+</tr>
+<tr>
+<td>Back to BO &gt; Combinations &gt; <em>When out of stock</em> section &gt; Select <em>Allow orders</em> &gt; Click on <em>Save and publish</em> button</td>
+<td>The message &ldquo;Successful update&rdquo; is well displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Click on the product with combination &ldquo;my product&rdquo; &gt; Select Size : L</td>
+<td>The <em>ADD TO CART</em> button is Enabled</td>
+</tr>
+<tr>
+<td>Back to <em>BO &gt; Combinations &gt; When out of stock</em> section <em>&gt;</em> Select <em>Use default behavior(Deny orders) &gt;</em> Click on <em>Save and publish</em> button</td>
+<td>The message &ldquo;Successful update &quot; is displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Click on the product with combination &ldquo;my product&rdquo; &gt; Select Size : L</td>
+<td>The <em>ADD TO CART</em> button is Disabled</td>
+</tr>
+<tr>
+<td><em>BO &gt; Combinations &gt; When out of stock</em> section <em>&gt;</em> Click on <em>Edit default behavior</em> link</td>
+<td>New tab is opened displaying <em>Product Settings</em> page</td>
+</tr>
+<tr>
+<td>Combinations &gt; Go to the page buttom and fill the  field &gt; Click on <em>Save and publish</em> button</td>
+<td>&ldquo;Successful update&rdquo; message is well displayed</td>
+</tr>
+<tr>
+<td>Go to <em>Fo</em> &gt; Click on &ldquo;my product&rdquo;</td>
+<td>* ADD TO CART button is enabled<br> * <em>Product Available</em> is displayed just under the button</td>
+</tr>
+<tr>
+<td>BO &gt; Combinations &gt; When out of stock section &gt; Select <em>Allow orders</em> <br><br>Fill the <em>Label when out of stock (and backorders allowed) :</em> Product is Unavailable <br><br>Click on <em>Save and publish</em> button</td>
+<td>The message &ldquo;Successful update&rdquo; is well displayed</td>
+</tr>
+<tr>
+<td>Go to <em>Fo</em> &gt; Click on &ldquo;my product&rdquo;</td>
+<td>* ADD TO CART button is enabled<br> * <em>Product is Unavailable</em> is displayed just under the button</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on July 26, 2023
+  Last updated on July 28, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/c7659cece5539ff3a861bc67bf5b2820326b300a">"[Update] JIRA XRay Tests" (c7659cece55)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/d78f8286b28fc7d42e9db945d8076d797df277e9">"[Update] JIRA XRay Tests" (d78f8286b28)</a>
   
 </div>
 
@@ -64646,17 +64765,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1690440421"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1690440421"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1690440421"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1690440421"></script>
-    <script src="../../../../../../js/featherlight.min.js?1690440421"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1690440421"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1690440421"></script>
-    <script src="../../../../../../js/learn.js?1690440421"></script>
-    <script src="../../../../../../js/hugo-learn.js?1690440421"></script>
+    <script src="../../../../../../js/clipboard.min.js?1690526075"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1690526075"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1690526075"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1690526075"></script>
+    <script src="../../../../../../js/featherlight.min.js?1690526075"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1690526075"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1690526075"></script>
+    <script src="../../../../../../js/learn.js?1690526075"></script>
+    <script src="../../../../../../js/hugo-learn.js?1690526075"></script>
     
-    <script src="../../../../../../main.js?1690440421"></script>
+    <script src="../../../../../../main.js?1690526075"></script>
     
     
 
