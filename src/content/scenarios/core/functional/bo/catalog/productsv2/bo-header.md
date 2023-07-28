@@ -15,5 +15,5 @@ weight: 11
 | Subtract 75 items > Click Save and publish | Successful update message is displayed<br><br>Stock in header is updated:<br>235 in stock |
 | Go to Description Tab > Add Image > Select Image > Use as cover image > Add caption > Save Image Settings > Refresh page | Alert Settings updated is displayed<br><br>Image in header is updated |
 | Click on Standard product > Choose Virtual product > Change Product Type > Confirm Change Product Type | Successful update message is displayed<br><br>In header the product type has changed<br><br>In tabs, a new tab is displayed "Virtual product" |
-| Go to Details Tab > Change reference > Add a MPN > Save and publish | Successful update message is displayed<br><br>In header:<br>Reference is updated<br>MPN is added |
-| Switch to Offline > Click Save | Successful update message is displayed |
+| Go to Details Tab > Change reference > Add a MPN > Add a UPC barcode > Add a EAN-13 or JAN barcode > Add ISBN > Save and publish | Successful update message is displayed<br><br>In header:<br>Reference is updated<br>MPN is added<br> UPC barcode is added<br> EAN-13 or JAN barcode is added <br>ISBN is added |
+| Switch to Offline > Click Save and Publish | Successful update message is displayed |

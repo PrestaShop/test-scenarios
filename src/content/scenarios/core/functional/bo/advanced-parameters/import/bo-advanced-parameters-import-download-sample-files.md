@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced parameters - Import - Download sample files (TODO)"
+title: "BO - Advanced parameters - Import - Download sample files"
 weight: 2
 ---
 
-# BO - Advanced parameters - Import - Download sample files (TODO)
+# BO - Advanced parameters - Import - Download sample files
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

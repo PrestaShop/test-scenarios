@@ -9,7 +9,7 @@ weight: 21
 | ----- | ----- |
 | Go to BO > Catalog > New product > Standard product > Add new product | Product creation page is well displayed |
 | Add a title to your product > Switch to Online > Click Save | Successful update message is displayed |
-| In block Search engine optimization > Fill all fields | SEO tab is red<br>Error message : "lorem ipsum" is invalid - Language: English (English) |
+| Click on SEO tab  > Fill all fields > Click on Save and publish | * SEO tab is red<br> * Friendly URL field is red<br> * Error message : "lorem ipsum" is invalid - Language: English (English) is displayed |
 | Edit Friendly URL > Save and publish | Successful update message is displayed |
 | Click on button Reset URL > Save and publish | Successful update message is displayed<br><br>The URL is reset to the original one |
 | Switch product status to Offline > Save and publish | Successful update message is displayed |
