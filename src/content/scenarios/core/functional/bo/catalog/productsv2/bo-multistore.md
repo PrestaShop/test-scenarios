@@ -7,15 +7,15 @@ weight: 23
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to Shop Parameters > enable multistore >save | A success message will appear : "Successful update  " |
-| Go to advanced Parameters >multistore | multistore page is well displayed |
-| Click on add new Store | a page is diplayed with a title : "add new " |
-| fill the blanks of the new store | A success message will appear : "Successful creation  " |
-| Click on "set a URL for this shop" > set the virtual URL >save | A success message will appear : "Successful update  "<br><br>the new shop page is well displayed . |
-| Go to Catalog > Products | the product page of the default shop is"PrestaShop" is displayed |
-| Click on the multishop top -- bar | a multishop modal is displayed : <br> * All stores <br> * Group Default : * PrestaShop      * new shop |
-| click on the new shop | the products of the new shop are displayed with a top-bar title new shop  . |
-| click on "view my store" | the FO of the new shop "newshop " is diplayed |
+| Go to  BO > Shop Parameters > General > Enable multistore > Save | A success message will appear : "Successful update" |
+| Go to Advanced Parameters > Multistore | Multistore page is well displayed |
+| Click on Add a new store | A page is displayed with the title : "Add new" |
+| Enter the following data of the new store | A success message will appear : "Successful creation" |
+| Click on "Click here to set a URL for this shop." > Set the virtual URL > Save | A success message will appear : "Successful creation"<br><br>The new shop page is well displayed. |
+| Go to Catalog > Products | The listing of products is displayed for the initial store |
+| Click on the multishop header | A multishop modal is displayed : <br> * All stores <br> * Group Default<br> ** initial store     <br> ** new shop |
+| Click on "new shop" | The listing of products is displayed for your "new shop" store.<br><br>The multishop header is displayed with "new shop" store and color : #00a7ac |
+| Click on "View my store" | The FO/URL of the new shop is displayed |
 | Go to BO > Catalog > Products | Products list page is displayed correctly |
 | Click on "New product" button on the top right of the page > Choose "Standard product" block in the modal | * A modal "Add new product" is displayed<br> * A description by type is displayed. For Standard product:  "A physical product that needs to be shipped." |
 | Click on "Add new product" button | * New Product page on "Description" tab is displayed<br> * "Standard product" type description is displayed below the product name field |
@@ -30,5 +30,7 @@ weight: 23
 | Click on "Preview" button at the bottom of the page and check all data is correct on the preview | * New tab is opened to show the product in FO.<br> * Product is displayed correctly.<br> * Data is correct on the preview in FO |
 | Go to back to browser tab of the BO > Click on "Delete" button at the bottom of the page | A modal is displayed with two buttons:<br> * Cancel<br> * Delete |
 | Click on "Delete" button | * Products list page is displayed<br> * "Successful deletion" message is displayed<br> * The product is well removed |
-| in the new store  "new shop" , the product page created  > click on "Apply changes to all stores"> save | A success message will appear : "Successful update  " |
-| change the shop to "PrestaShop " | the product page of PrestaShop is displayed > see the product created is well displayed in this shop |
+| Edit your product > Click on multistore header : Select stores > Check your "new shop" > Save > Go back to product listing > Change your context shop to "new shop" | See your new product added to new store |
+| Edit your latest product > Edit the product name > Check "Apply changes to all stores" > Save and publish | A success message will appear : "Successful creation" |
+| Go back to product listing | The product name has been well saved |
+| Change context shop to initial store | The product name has been well saved |
