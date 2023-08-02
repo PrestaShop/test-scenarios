@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced parameters - Team - Profiles - Help card"
+title: "BO - Advanced parameters - Team - Roles - Help card"
 weight: 5
 ---
 
-# BO - Advanced parameters - Team - Profiles - Help card
+# BO - Advanced parameters - Team - Roles - Help card
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

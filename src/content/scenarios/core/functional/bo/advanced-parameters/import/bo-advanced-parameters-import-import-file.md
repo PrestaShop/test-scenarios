@@ -7,9 +7,9 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO> Advanced Parameters> Import<br><br>In _Download sample csv files_ section, click on *_Sample Customers file_* | Customers_import csv file is downloaded |
-| Choose _Customers_ on  +_What do you want to import?_+ section(drop-down menu) | The _Customers_ is selected in _select form control_ |
-| on _*Select a file to import*_ section choose the csv file downloaded | a message "xxxxx-customers_import.csv" is displayed. |
+| Go to BO> Advanced Parameters> Import<br><br>In _Download sample csv files_ section, click on *_Sample Alias file_* | Alias_import csv file is downloaded |
+| Choose _Alias_ on  +_What do you want to import?_+ section(drop-down menu) | The _alias_ is selected in _select form control_ |
+| on _*Select a file to import*_ section choose the csv file downloaded | a message "xxxxx-alias_import.csv" is displayed. |
 | Click on _Next step_ button | _Match your data_ page is displayed |
 | Verify that each column of the source file is matched to one of the destination columns.<br><br>Click on Import button. | h4. Importing your data...  <br><br>popup is displayed<br><br>and *_Data imported_*<br>*_Look at your listings to make sure it's all there as you wished._*  message is displayed |
 | Click on close button | The page is returned back to the first page |
