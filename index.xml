@@ -201,7 +201,7 @@ the SQL Manager table is empty = 0   Click on &amp;ldquo;Add new SQL query &amp
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-import-file.html</guid>
       <description>BO - Advanced parameters - Import - Import file Steps    Step Description Expected result     Go to BO&amp;gt; Advanced Parameters&amp;gt; Import
-In Download sample csv files section, click on Sample Customers file Customers_import csv file is downloaded   Choose Customers on +What do you want to import?+ section(drop-down menu) The Customers is selected in select form control   on Select a file to import section choose the csv file downloaded a message &amp;ldquo;xxxxx-customers_import.</description>
+In Download sample csv files section, click on Sample Alias file Alias_import csv file is downloaded   Choose Alias on +What do you want to import?+ section(drop-down menu) The alias is selected in select form control   on Select a file to import section choose the csv file downloaded a message &amp;ldquo;xxxxx-alias_import.</description>
     </item>
     
     <item>
@@ -714,11 +714,12 @@ All Zones are displayed   Filter by zone exemple : Africa Zone list is filtered
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/translations/bo-international-translations-modify-translations-and-check-result.html</guid>
-      <description>BO - International - Translations - Modify translations and check result Steps    Step Description Expected result     BO &amp;gt; International &amp;gt;Translations The Translations page is well displayed, Modify translations section is displayed with two input fields :
+      <description>BO - International - Translations - Modify translations and check result Steps    Step Description Expected result     BO &amp;gt; International &amp;gt; Translations The Translations page is well displayed.
+Modify translations section is displayed with two input fields :
 * Type of translation
-* Select your language   Case 1:Back office translations
-Go to Modify translations section
-Click on Modify button Translations page is well displayed</description>
+* Select your language   Case 1: Back office translations
+Go to Modify translations section &amp;gt; Use following data.
+Click on Modify button Translations page is well displayed   Scroll down the list to Generate field</description>
     </item>
     
     <item>
@@ -1131,7 +1132,7 @@ Tags table is empty = 0   Click on &amp;ldquo;Add new Tag&amp;rdquo; Add new t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/movements/bo-stocks-movements-filter-by-category-movement-type-employee-and-period.html</guid>
-      <description>BO - Stocks - Movements - Filter by category, movement type, employee and period Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Edit Stock of ALL products &amp;gt; Save Alert Update successful   Go to Catalog &amp;gt; Stock management &amp;gt; Stock &amp;gt; Movement Tab Movement Tab is well displayed
+      <description>BO - Stocks - Movements - Filter by category, movement type, employee and period Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Stock &amp;gt; Bulk edit quantity : + 120 &amp;gt; Apply new quantity Alert Stock successfully updated   Go to Catalog &amp;gt; Stock management &amp;gt; Stock &amp;gt; Movement Tab Movement Tab is well displayed
 30 elements are displayed per page in Movements Tab   Click on Advanced filters &amp;gt; Click Filter by movement type dropdown See 2 choices :</description>
     </item>
     
@@ -2852,7 +2853,7 @@ the image settings list +1   Click on button &amp;ldquo;edit &amp;quot; the imag
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-crud-page-category.html</guid>
-      <description>BO - Design - Pages - CRUD Page Category Steps    Step Description Expected result     Go to Design&amp;gt;Pages Pages page is displayed correctly   Reset all filters of Categories table and get number of elements All filters are reset. All categories are displayed   Go to Add new page category page Add new page category is displayed correctly   Fill all information Category saved successfully   Go back to pages page Pages page is displayed correctly   Check the category number The category number is correct   Search for the new category and check result The new category is displayed correctly in the table   Go to Edit page category and click on save button The page category is edited correctly   Delete the created category The category is deleted successfully   Go to add new page Add new page is displayed correctly   Fill all information Page is saved correctly   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly   Delete the updated page The page is deleted successfully   Click on back to list Pages page is displayed correctly   Reset filter All filters are reset.</description>
+      <description>BO - Design - Pages - CRUD Page Category Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Pages Pages page is displayed correctly   Click Add new page category Add new CMS Category page is displayed correctly   Fill all information &amp;gt; Save Category saved successfully with message Successful creation   Click button Back to list Pages page is displayed correctly   Check the category number The category number is correct : 1   Filter the new category by name : Prestashop The new category is displayed correctly in the table   Click 3-dot button &amp;gt; Edit page category with following information &amp;gt; Save The page category is edited correctly with Successful update message   Click back to list button The category displayed is edited   Delete the created category The category is deleted successfully with message Successful deletion   Click Add new page button Add new page is displayed correctly   Fill all information &amp;gt; Save Page is saved correctly with message Successful creation   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly</description>
     </item>
     
     <item>
@@ -4409,7 +4410,7 @@ Describe everything tested in &amp;ldquo;Actual result&amp;rdquo; field.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-notifications.html</guid>
-      <description>BO - Advanced Parameters - Administration - Notifications Steps    Step Description Expected result     Go to BO&amp;gt; Advanced Parameters&amp;gt; Administration&amp;gt; Notifications form The notifications are enabled for new orders, new customers, and new messages   Disabled all notifications and click on save button Update successful message is displayed and the bell icon is gone   Enable the notifications for new customers and click on save button Update successful message is displayed and the bell icon is displayed with customers notifications   Disabled the notifications for new customers</description>
+      <description>BO - Advanced Parameters - Administration - Notifications Steps    Step Description Expected result     Go to BO&amp;gt; Advanced Parameters&amp;gt; Administration&amp;gt; Notifications form The notifications are enabled for new orders, new customers, and new messages   Disabled all notifications and click on save button Update successful message is displayed and the bell icon is gone   Enable the notifications for new customers and click on save button Update successful message is displayed and the bell icon is displayed with customers notifications   Go to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button link &amp;ldquo;Log in to your account&amp;rdquo; page is displayed   Click on &amp;ldquo;No account?</description>
     </item>
     
     <item>
@@ -7410,12 +7411,12 @@ the SQL Manager table is empty = 0   Click on &amp;ldquo;Add new SQL query &amp
     </item>
     
     <item>
-      <title>BO - Advanced parameters - Team - Profiles - Help card</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-help-card.html</link>
+      <title>BO - Advanced parameters - Team - Roles - Help card</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-help-card.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-profiles-help-card.html</guid>
-      <description>BO - Advanced parameters - Team - Profiles - Help card Steps    Step Description Expected result     BO &amp;gt; Advanced Parameters &amp;gt; Team &amp;gt; Profiles Profiles page is well displayed   Click on Help button on top right corner Help card is displayed from the right side of the page   Case1
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/team/profiles/bo-advanced-parameters-team-roles-help-card.html</guid>
+      <description>BO - Advanced parameters - Team - Roles - Help card Steps    Step Description Expected result     BO &amp;gt; Advanced Parameters &amp;gt; Team &amp;gt; Profiles Profiles page is well displayed   Click on Help button on top right corner Help card is displayed from the right side of the page   Case1
 Click on {color:#4c9aff}x{color} button in the Help card header
 Case 2</description>
     </item>
@@ -7631,7 +7632,7 @@ Image Settings table = 21   Reset all filters All filters are reset , the imag
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/languages/bo-international-localization-languages-quick-edit.html</guid>
-      <description>BO - International - Localization - Languages - Quick edit </description>
+      <description>BO - International - Localization - Languages - Quick edit Steps    Step Description Expected result     Go to International&amp;gt; Localization&amp;gt; Languages tab Languages page is displayed   Go to Enabled column&amp;gt; disabled the language of ID = 2 The status has been successfully updated.   Eabled the language of ID = 2 The status has been successfully updated.    </description>
     </item>
     
     <item>
