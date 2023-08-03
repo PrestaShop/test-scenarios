@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-6949
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

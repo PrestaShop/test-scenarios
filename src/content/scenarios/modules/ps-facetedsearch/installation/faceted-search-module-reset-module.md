@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # Faceted search module - Reset module
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4259
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

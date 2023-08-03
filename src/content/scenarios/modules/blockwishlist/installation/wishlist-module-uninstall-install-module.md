@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # Wishlist module - Uninstall/Install module
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4229
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

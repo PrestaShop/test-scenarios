@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # FO - Cart - Add a promo code
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1281
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

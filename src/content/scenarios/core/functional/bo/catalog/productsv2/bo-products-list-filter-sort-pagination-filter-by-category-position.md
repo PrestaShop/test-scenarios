@@ -4,6 +4,11 @@ weight: 24
 ---
 
 # BO - Products list - Filter & Sort, Pagination, Filter by category, Position
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-7213
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

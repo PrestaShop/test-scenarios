@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # Uninstall/Install a module
+## Details
+* **Component** : ps_themecusto
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-434
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

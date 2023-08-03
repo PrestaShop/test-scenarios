@@ -4,6 +4,12 @@ weight: 14
 ---
 
 # BO - Design - Image Settings - Check product image format 
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-6017
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/13_checkProductImageFormat.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

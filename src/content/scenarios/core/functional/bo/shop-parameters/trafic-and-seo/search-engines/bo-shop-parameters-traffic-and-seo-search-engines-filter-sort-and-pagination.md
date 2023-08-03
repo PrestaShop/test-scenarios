@@ -4,6 +4,12 @@ weight: 1
 ---
 
 # BO - Shop Parameters - Traffic and SEO - Search Engines - Filter, Sort and Pagination
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1117
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

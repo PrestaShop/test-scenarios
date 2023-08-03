@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # FO - Checkout - Shipping method - Add gift message
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1311
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

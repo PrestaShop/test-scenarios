@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # Official GDPR module - Legal Assistant block module - Disable Mobile/Enable Mobile module
+## Details
+* **Component** : psgdpr
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4528
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

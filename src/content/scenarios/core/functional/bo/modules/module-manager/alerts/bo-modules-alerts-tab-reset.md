@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Modules - Alerts tab - Reset
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-888
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

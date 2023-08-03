@@ -4,6 +4,11 @@ weight: 7
 ---
 
 # Mail alerts module - Merchant notifications - Enable/Disable out of stock
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4122
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

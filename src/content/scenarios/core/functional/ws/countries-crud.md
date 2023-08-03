@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Countries : CRUD
+## Details
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-6064
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/campaigns/functional/WS/01_countriesCRUD.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

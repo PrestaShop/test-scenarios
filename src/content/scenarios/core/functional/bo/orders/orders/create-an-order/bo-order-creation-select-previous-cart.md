@@ -4,6 +4,13 @@ weight: 4
 ---
 
 # BO - Order creation - Select previous Cart
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3096
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/createOrders/04_selectPreviousCarts.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

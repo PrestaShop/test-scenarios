@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # Wishlist module - Add a product to a list
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3950
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

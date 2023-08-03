@@ -4,6 +4,12 @@ weight: 3
 ---
 
 # BO - Shipping - Preferences - Default carrier
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-978
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

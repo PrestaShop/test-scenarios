@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # [FO] Upgrade from 1.6.1.24 to last build and then exploratory test on FO
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1581
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

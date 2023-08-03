@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # FO - Cart - Delete product
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1280
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

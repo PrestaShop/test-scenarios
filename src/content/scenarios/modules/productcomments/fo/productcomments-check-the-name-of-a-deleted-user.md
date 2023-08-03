@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # productcomments - Check the name of a deleted user
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-597
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

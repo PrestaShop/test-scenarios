@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Theme Customization module - Available on Addons Marketplace
+## Details
+* **Component** : ps_themecusto
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4154
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

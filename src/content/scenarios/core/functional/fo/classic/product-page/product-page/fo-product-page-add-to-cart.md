@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # FO - Product Page - Add to cart
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1256
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

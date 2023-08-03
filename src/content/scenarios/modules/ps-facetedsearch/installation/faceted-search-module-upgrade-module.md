@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Faceted search module - Upgrade module
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3226
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

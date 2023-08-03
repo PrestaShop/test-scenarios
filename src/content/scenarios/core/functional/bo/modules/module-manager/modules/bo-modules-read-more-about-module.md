@@ -4,6 +4,11 @@ weight: 12
 ---
 
 # BO - Modules - Read more about module
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-885
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

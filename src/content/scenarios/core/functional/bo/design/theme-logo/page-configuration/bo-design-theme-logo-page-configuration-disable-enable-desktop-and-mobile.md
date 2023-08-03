@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # BO - Design - Theme & Logo - Page Configuration - Disable / Enable desktop and mobile
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-925
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

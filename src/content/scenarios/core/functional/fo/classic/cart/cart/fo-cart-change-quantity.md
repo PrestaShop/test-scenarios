@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # FO - Cart - Change quantity
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1279
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

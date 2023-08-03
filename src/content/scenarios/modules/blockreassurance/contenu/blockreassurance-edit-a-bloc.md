@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # blockreassurance - Edit a bloc
+## Details
+* **Component** : blockreassurance
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-544
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

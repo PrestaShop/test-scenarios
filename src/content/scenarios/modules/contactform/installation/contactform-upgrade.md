@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # contactform - Upgrade
+## Details
+* **Component** : contactform
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-562
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

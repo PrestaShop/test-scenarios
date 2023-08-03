@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # BO - Design - Theme & Logo - Add new theme
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-915
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

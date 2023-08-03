@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # Theme Customization module - Advanced Customization tab 
+## Details
+* **Component** : ps_themecusto
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4167
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

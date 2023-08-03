@@ -4,6 +4,13 @@ weight: 2
 ---
 
 # Wishlist module - Statistics tab settings
+## Details
+* **Component** : blockwishlist
+* **Status** : Automated
+* **Automated on** : 9.0.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4233
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/02_configuration/02_statisticsTabSettings.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

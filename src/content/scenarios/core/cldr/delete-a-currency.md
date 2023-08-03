@@ -4,6 +4,12 @@ weight: 3
 ---
 
 # Delete a currency
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1363
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/03_deleteCurrency.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

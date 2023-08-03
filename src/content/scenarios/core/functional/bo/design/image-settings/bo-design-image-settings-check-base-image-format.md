@@ -4,6 +4,13 @@ weight: 17
 ---
 
 # BO - Design - Image Settings - Check base image format 
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-6094
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/16_checkBaseImageFormat.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

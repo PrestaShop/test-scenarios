@@ -4,6 +4,12 @@ weight: 2
 ---
 
 # FO - Homepage - Display some products
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1226
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

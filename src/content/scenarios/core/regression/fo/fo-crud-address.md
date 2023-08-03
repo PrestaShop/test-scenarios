@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # [FO] - CRUD address
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3654
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

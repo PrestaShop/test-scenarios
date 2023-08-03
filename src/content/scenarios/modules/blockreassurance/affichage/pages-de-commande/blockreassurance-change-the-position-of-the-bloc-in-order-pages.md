@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # blockreassurance - Change the position of the bloc in order pages
+## Details
+* **Component** : blockreassurance
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-551
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

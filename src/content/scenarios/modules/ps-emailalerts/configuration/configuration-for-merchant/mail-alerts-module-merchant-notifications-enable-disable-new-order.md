@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # Mail alerts module - Merchant notifications - Enable/Disable new order
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4121
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

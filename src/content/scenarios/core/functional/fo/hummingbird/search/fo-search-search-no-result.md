@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # FO - Search - Search no result
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5104
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

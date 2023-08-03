@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Advanced Parameters - Team - Permissions - Edit (Modules)
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1162
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

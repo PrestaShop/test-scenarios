@@ -4,6 +4,12 @@ weight: 1
 ---
 
 # BO - Cart Rules - CRUD
+## Details
+* **Component** : Core
+* **Status** : Blocked
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-830
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

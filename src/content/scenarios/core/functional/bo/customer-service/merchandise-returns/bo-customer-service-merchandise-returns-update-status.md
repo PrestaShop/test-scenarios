@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Customer Service - Merchandise returns - Update status
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5411
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

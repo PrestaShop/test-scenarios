@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # BO - Design - Theme & Logo - Page Configuration - Uninstall
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-927
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

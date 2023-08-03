@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # Theme Customization module - Reset module
+## Details
+* **Component** : ps_themecusto
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4159
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

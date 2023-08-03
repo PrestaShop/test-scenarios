@@ -4,6 +4,11 @@ weight: 19
 ---
 
 # BO - Shipping Tab
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5215
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

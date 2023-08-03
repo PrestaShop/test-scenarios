@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # FO - Header & Footer - Check links in footer
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4971
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

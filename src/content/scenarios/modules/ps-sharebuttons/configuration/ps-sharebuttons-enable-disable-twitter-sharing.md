@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_sharebuttons - Enable / disable twitter sharing
+## Details
+* **Component** : ps_sharebuttons
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1598
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

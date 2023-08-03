@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # FO - Cart - Delete product
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-6994
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

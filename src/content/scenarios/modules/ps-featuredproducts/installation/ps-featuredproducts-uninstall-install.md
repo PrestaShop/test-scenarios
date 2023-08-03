@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_featuredproducts - Uninstall/Install
+## Details
+* **Component** : ps_featuredproducts
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-665
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

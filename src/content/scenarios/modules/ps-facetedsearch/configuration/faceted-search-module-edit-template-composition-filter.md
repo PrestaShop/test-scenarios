@@ -4,6 +4,11 @@ weight: 12
 ---
 
 # Faceted search module - Edit template - Composition filter
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4222
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

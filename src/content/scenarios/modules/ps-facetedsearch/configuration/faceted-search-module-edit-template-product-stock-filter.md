@@ -4,6 +4,12 @@ weight: 14
 ---
 
 # Faceted search module - Edit template - Product stock filter
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4232
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # Mail alerts module - Customer notifications - Enable/Disable product availability
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4145
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

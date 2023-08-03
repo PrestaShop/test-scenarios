@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # Mail alerts module - Uninstall/Install module
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4115
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

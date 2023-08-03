@@ -4,6 +4,13 @@ weight: 6
 ---
 
 # BO - Order creation - Add a product to the cart
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-753
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/createOrders/06_addProductToTheCart.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # productcomments - Vote for a comment
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-595
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

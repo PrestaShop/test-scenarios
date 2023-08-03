@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # New products block module - Configure settings of \"Products to display\" field
+## Details
+* **Component** : ps_newproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3890
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

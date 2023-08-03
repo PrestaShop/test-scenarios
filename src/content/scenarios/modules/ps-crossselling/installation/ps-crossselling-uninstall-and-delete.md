@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # ps_crossselling - Uninstall and delete
+## Details
+* **Component** : ps_crossselling
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-618
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

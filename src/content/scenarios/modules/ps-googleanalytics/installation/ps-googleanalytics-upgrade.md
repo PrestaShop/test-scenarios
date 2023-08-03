@@ -4,6 +4,10 @@ weight: 1
 ---
 
 # ps_googleanalytics - Upgrade
+## Details
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2412
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

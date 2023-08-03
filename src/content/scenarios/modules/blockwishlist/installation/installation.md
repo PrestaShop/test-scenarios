@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Installation
+## Details
+* **Component** : blockwishlist
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-554
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # Faceted search module - Disable Mobile/Enable Mobile module
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4257
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

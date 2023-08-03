@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # BO - Customer Service - Merchandise returns - Delete product
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-872
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

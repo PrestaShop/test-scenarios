@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_checkpayment - Upgrade
+## Details
+* **Component** : ps_checkpayment
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-605
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

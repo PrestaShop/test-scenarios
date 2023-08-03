@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # contactform - Uninstall/Install
+## Details
+* **Component** : contactform
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-563
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

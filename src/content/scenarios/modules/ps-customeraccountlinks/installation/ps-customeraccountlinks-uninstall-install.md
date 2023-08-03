@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_customeraccountlinks - Uninstall/Install
+## Details
+* **Component** : ps_customeraccountlinks
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-623
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 7
 ---
 
 # Faceted search module - Use rounding to filter price field configuration
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4206
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

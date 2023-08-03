@@ -4,3 +4,8 @@ weight: 2
 ---
 
 # FO - Product Page - Change quantity
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1257
+

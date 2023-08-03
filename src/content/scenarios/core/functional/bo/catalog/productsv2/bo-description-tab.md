@@ -4,6 +4,11 @@ weight: 13
 ---
 
 # BO - Description Tab
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5209
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

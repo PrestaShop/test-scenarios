@@ -4,6 +4,13 @@ weight: 4
 ---
 
 # Faceted search module - Uninstall and delete module
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3230
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/01_installation/04_uninstallAndDeleteModule.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

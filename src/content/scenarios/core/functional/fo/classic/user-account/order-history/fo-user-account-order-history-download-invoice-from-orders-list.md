@@ -4,6 +4,12 @@ weight: 3
 ---
 
 # FO - User account - Order history - Download invoice from orders list
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1208
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

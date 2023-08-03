@@ -1,9 +1,14 @@
 ---
 title: "BO - Autoupgrade from previous version"
-weight: 6
+weight: 5
 ---
 
 # BO - Autoupgrade from previous version
+## Details
+* **Component** : Core
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-714
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

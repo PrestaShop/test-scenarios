@@ -4,6 +4,12 @@ weight: 6
 ---
 
 # FO - Order confirmation - Contact us
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-7012
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

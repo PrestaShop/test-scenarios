@@ -4,6 +4,11 @@ weight: 18
 ---
 
 # BO - Stocks Tab
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5214
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

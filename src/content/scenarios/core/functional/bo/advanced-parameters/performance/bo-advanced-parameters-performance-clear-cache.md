@@ -4,6 +4,11 @@ weight: 7
 ---
 
 # BO - Advanced Parameters - Performance - Clear cache
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1140
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

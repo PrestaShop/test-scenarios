@@ -1,9 +1,14 @@
 ---
 title: "BO - Exploratory session after autoupgrade"
-weight: 8
+weight: 7
 ---
 
 # BO - Exploratory session after autoupgrade
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2348
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

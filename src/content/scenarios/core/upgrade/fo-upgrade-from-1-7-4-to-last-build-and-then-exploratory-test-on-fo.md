@@ -4,6 +4,11 @@ weight: 9
 ---
 
 # [FO] Upgrade from 1.7.4 to last build and then exploratory test on FO
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2537
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

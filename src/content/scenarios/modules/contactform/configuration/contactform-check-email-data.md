@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # contactform - Check email data
+## Details
+* **Component** : contactform
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-567
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

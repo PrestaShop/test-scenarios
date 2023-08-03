@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Cash on delivery (COD) module - Place an order with it
+## Details
+* **Component** : ps_cashondelivery
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4113
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

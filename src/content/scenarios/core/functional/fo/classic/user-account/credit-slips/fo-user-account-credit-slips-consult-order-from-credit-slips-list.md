@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # FO - User account - Credit Slips - Consult order from credit slips list
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1214
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

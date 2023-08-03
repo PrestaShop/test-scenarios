@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # TLS Check
+## Details
+* **Component** : Core
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4901
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

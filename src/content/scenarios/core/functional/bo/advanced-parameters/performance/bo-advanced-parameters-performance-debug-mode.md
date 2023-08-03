@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Advanced Parameters - Performance - Debug mode
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1135
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

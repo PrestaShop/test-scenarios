@@ -4,6 +4,11 @@ weight: 13
 ---
 
 # BO - Design - Image Settings - Delete all images format -  feature not integrated -
+## Details
+* **Component** : Core
+* **Status** : Blocked
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5514
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

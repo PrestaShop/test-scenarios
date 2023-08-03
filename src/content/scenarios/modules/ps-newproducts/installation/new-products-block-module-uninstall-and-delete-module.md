@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # New products block module - Uninstall and delete module
+## Details
+* **Component** : ps_newproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3991
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # FO - Contact us - Send a message while logged in
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5071
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

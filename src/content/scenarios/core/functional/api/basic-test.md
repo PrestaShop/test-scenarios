@@ -4,6 +4,13 @@ weight: 1
 ---
 
 # Basic Test
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4837
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_basicTest.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

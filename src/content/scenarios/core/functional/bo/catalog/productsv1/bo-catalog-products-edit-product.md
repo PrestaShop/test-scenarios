@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # BO - Catalog - Products - Edit Product
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-785
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

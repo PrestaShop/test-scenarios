@@ -4,6 +4,13 @@ weight: 1
 ---
 
 # BO - Filter Products
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3349
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/sanity/01_filterProducts.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

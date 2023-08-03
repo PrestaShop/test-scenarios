@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_featuredproducts - Choose the category to display
+## Details
+* **Component** : ps_featuredproducts
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-668
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

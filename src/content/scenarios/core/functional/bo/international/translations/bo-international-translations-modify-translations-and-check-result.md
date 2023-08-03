@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # BO - International - Translations - Modify translations and check result
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1034
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

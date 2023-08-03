@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # BO - Modules - Updates tab - Upgrade
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-902
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

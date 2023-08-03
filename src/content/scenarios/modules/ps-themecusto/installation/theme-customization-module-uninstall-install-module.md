@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # Theme Customization module - Uninstall/Install module
+## Details
+* **Component** : ps_themecusto
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4157
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

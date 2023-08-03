@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Advanced Parameters - Logs - Logs by email
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1175
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

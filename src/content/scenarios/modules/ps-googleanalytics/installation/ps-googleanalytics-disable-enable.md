@@ -4,6 +4,10 @@ weight: 4
 ---
 
 # ps_googleanalytics - Disable / Enable
+## Details
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2415
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

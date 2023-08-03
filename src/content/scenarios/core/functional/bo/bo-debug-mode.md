@@ -1,9 +1,14 @@
 ---
 title: "BO - Debug mode"
-weight: 2
+weight: 1
 ---
 
 # BO - Debug mode
+## Details
+* **Component** : Core
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-705
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

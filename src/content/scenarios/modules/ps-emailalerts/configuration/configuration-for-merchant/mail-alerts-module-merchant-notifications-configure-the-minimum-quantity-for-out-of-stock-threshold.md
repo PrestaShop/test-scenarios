@@ -4,6 +4,11 @@ weight: 8
 ---
 
 # Mail alerts module - Merchant notifications - Configure the minimum quantity for out of stock (Threshold)
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4123
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

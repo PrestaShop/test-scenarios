@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # BO - Customer Service - Customer service options
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-867
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

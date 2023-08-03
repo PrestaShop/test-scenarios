@@ -4,6 +4,12 @@ weight: 4
 ---
 
 # Search a currency by ISO code
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1364
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/04_searchCurrencyByISOCode.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

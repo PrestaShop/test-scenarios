@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Add a product to a list
+## Details
+* **Component** : blockwishlist
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-559
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

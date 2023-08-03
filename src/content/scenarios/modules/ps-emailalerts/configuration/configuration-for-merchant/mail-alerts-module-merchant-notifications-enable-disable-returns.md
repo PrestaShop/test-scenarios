@@ -4,6 +4,11 @@ weight: 9
 ---
 
 # Mail alerts module - Merchant notifications - Enable/Disable returns
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4124
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

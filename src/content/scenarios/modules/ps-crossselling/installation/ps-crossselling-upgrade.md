@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_crossselling - Upgrade
+## Details
+* **Component** : ps_crossselling
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-616
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

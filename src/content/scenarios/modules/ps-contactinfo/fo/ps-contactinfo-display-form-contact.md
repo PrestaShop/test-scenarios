@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_contactinfo - Display form contact
+## Details
+* **Component** : ps_contactinfo
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-615
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

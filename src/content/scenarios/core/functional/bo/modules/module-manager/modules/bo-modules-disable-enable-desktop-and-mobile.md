@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # BO - Modules - Disable / Enable desktop and mobile
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-877
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # New products block module - Configure settings of \"Number of days for which the product is considered \'new\'\" field
+## Details
+* **Component** : ps_newproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4135
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

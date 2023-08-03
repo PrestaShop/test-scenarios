@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # FO - User account - Merchandise Returns - Go to order details page from merchandise returns list
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1217
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,13 @@ weight: 1
 ---
 
 # FO - Header & Footer - Check links in header
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 9.0.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4970
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/02_headerAndFooter/01_checkLinksInHeader.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

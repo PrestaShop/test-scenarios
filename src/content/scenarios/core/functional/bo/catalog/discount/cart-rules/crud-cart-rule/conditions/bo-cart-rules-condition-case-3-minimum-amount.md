@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # BO - Cart rules - Condition - Case 3 - Minimum amount
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2684
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

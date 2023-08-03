@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # Wishlist module - Edit a product on a wishlist
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4204
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

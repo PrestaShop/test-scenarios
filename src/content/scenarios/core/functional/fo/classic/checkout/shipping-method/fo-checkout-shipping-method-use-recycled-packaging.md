@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # FO - Checkout - Shipping method - Use recycled packaging
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1309
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

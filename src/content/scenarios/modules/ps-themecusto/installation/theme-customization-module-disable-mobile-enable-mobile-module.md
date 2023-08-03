@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # Theme Customization module - Disable Mobile/Enable Mobile module
+## Details
+* **Component** : ps_themecusto
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4161
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

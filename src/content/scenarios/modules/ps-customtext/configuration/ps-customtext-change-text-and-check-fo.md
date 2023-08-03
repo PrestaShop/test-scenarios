@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_customtext - Change text and check FO
+## Details
+* **Component** : ps_customtext
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-630
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

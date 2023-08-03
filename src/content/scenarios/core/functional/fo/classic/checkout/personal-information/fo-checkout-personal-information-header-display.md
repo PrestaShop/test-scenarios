@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # FO - Checkout - Personal Information - Header display
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1299
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

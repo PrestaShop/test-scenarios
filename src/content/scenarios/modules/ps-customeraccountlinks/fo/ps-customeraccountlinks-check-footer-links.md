@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_customeraccountlinks - Check footer links
+## Details
+* **Component** : ps_customeraccountlinks
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-625
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

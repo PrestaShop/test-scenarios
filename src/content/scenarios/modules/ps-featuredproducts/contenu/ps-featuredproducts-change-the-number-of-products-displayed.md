@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_featuredproducts - Change the number of products displayed
+## Details
+* **Component** : ps_featuredproducts
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-667
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

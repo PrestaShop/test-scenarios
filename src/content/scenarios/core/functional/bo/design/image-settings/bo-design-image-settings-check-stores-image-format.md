@@ -4,6 +4,12 @@ weight: 16
 ---
 
 # BO - Design - Image Settings - Check stores image format 
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-6063
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/15_checkStoreImageFormat.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

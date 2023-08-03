@@ -1,9 +1,14 @@
 ---
 title: "BO - Recommended modules for the page"
-weight: 4
+weight: 3
 ---
 
 # BO - Recommended modules for the page
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-712
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

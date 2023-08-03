@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # dashtrends - Disable, Enable, Reset, uninstall, upload and upgrade module
+## Details
+* **Component** : dashtrends
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-580
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

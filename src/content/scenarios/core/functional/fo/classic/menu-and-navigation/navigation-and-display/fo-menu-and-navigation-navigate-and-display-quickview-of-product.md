@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # FO - Menu and Navigation - Navigate and display - Quickview of product
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1246
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

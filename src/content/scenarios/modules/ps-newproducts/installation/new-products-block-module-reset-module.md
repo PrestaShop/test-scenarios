@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # New products block module - Reset module
+## Details
+* **Component** : ps_newproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4028
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # BO - Stocks - Movements - Filter by category, movement type, employee and period
+## Details
+* **Component** : Core
+* **Status** : [TEST] Automation in progress
+* **Scenario** : https://forge.prestashop.com/browse/TEST-846
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

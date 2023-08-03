@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # FO - Menu and Navigation - Navigate and display - Display \"On sale\" bandeau
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1247
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

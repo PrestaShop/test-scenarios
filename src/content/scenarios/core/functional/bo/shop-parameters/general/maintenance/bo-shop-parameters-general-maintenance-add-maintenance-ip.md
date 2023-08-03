@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Shop Parameters - General - Maintenance - Add maintenance IP
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1047
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

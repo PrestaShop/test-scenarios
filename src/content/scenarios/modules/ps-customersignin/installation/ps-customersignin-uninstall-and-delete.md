@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # ps_customersignin - Uninstall and delete
+## Details
+* **Component** : ps_customersignin
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-443
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

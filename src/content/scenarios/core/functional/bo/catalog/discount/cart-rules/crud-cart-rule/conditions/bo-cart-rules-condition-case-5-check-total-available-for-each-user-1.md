@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # BO - Cart rules - Condition - Case 5 - Check Total available for each User = 1
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2685
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

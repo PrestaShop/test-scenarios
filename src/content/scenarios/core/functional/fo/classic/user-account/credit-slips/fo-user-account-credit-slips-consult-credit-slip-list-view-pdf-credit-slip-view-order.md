@@ -4,6 +4,13 @@ weight: 3
 ---
 
 # FO - User account - Credit Slips - Consult credit slip list & View PDF Credit slip & View order
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1215
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/03_userAccount/01_creditSlips/01_consultCreditSlip.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

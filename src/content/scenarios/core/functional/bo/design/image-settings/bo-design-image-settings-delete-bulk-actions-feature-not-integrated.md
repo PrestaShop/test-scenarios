@@ -4,6 +4,11 @@ weight: 7
 ---
 
 # BO - Design - Image Settings - Delete Bulk actions -  feature not integrated -
+## Details
+* **Component** : Core
+* **Status** : Blocked
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5153
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

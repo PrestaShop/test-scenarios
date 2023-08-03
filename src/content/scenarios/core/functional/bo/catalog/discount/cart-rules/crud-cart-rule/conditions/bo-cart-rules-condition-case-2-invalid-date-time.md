@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # BO - Cart rules - Condition - Case 2 - Invalid Date Time
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2683
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

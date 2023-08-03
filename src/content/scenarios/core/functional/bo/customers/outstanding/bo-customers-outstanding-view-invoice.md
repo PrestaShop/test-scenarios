@@ -4,6 +4,13 @@ weight: 2
 ---
 
 # BO - Customers - Outstanding - View Invoice
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3262
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/03_outstanding/03_viewInvoice.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

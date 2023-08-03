@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # FO - Checkout - Shipping method - Add gift wrap
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1310
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # productcomments - Enable/disable the vote on a comment
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-586
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

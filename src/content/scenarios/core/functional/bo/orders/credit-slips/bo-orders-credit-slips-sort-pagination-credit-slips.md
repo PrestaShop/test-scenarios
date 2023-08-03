@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Orders - Credit Slips - Sort & Pagination Credit Slips
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1615
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

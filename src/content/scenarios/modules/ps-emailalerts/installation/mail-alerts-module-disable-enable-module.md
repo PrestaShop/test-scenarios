@@ -4,6 +4,11 @@ weight: 8
 ---
 
 # Mail alerts module - Disable/Enable module
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4130
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

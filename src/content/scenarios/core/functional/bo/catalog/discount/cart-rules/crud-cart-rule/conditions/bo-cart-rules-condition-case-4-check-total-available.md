@@ -4,6 +4,13 @@ weight: 6
 ---
 
 # BO - Cart rules - Condition - Case 4 - Check Total available
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2686
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/09_checkTotalAvailable.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

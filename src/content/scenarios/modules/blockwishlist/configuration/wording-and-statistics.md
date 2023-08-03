@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Wording and statistics
+## Details
+* **Component** : blockwishlist
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-555
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

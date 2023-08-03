@@ -4,6 +4,11 @@ weight: 17
 ---
 
 # Faceted search module - Edit template - Dimension filter
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4253
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

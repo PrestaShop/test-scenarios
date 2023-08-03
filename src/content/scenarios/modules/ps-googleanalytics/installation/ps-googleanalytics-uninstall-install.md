@@ -4,6 +4,10 @@ weight: 2
 ---
 
 # ps_googleanalytics - Uninstall/Install
+## Details
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2413
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

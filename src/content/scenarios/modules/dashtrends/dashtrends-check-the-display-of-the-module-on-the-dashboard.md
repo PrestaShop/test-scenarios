@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # dashtrends - Check the display of the module on the dashboard
+## Details
+* **Component** : dashtrends
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-579
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,10 @@ weight: 2
 ---
 
 # Multishop case
+## Details
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3193
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # ps_featuredproducts - Randomly display featured products
+## Details
+* **Component** : ps_featuredproducts
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-669
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

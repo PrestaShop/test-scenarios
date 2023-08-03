@@ -4,6 +4,13 @@ weight: 3
 ---
 
 # FO - Search - Search no result
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1231
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/07_search/03_searchNoResult.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

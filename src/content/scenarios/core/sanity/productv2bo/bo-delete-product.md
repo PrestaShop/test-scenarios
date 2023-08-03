@@ -4,6 +4,13 @@ weight: 6
 ---
 
 # BO - Delete product
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3554
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/sanity/05_deleteProduct.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

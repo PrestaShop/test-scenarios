@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # Category products module - BO header buttons
+## Details
+* **Component** : ps_categoryproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4212
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

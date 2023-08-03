@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_linklist - Uninstall/Install
+## Details
+* **Component** : ps_linklist
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-671
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 8
 ---
 
 # productcomments - CRUD criteria
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-591
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

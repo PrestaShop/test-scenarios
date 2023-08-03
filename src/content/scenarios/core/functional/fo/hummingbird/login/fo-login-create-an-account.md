@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # FO - Login - Create an account
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4955
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

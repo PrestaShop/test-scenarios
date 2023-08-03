@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # Cash on delivery (COD) module - Disable/Enable module
+## Details
+* **Component** : ps_cashondelivery
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4071
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

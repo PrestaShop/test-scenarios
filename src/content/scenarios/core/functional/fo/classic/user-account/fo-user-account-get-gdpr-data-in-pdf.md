@@ -4,6 +4,13 @@ weight: 4
 ---
 
 # FO - User account - Get GDPR Data in PDF
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1202
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/03_userAccount/04_getGDPRDataInPDF.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

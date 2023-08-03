@@ -4,6 +4,11 @@ weight: 21
 ---
 
 # BO - SEO Tab
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5217
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

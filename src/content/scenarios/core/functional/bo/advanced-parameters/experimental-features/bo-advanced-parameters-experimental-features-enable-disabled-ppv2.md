@@ -4,6 +4,12 @@ weight: 1
 ---
 
 # BO - Advanced Parameters - Experimental Features - Enable/Disabled PPV2
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2155
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

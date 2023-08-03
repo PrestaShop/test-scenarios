@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_customersignin - Upgrade
+## Details
+* **Component** : ps_customersignin
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-441
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

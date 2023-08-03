@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # BO - Design - Image Settings - Images generation options
+## Details
+* **Component** : Core
+* **Status** : In progress
+* **Scenario** : https://forge.prestashop.com/browse/TEST-962
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 7
 ---
 
 # Uninstall and delete
+## Details
+* **Component** : ps_themecusto
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-433
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

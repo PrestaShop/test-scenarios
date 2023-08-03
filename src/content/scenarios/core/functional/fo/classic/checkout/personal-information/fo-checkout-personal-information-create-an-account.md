@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # FO - Checkout - Personal Information - Create an account
+## Details
+* **Component** : Core
+* **Status** : In progress
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1300
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

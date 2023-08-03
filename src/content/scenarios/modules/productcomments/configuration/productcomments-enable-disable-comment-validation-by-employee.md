@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # productcomments - Enable/disable comment validation by employee
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-584
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

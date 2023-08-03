@@ -4,3 +4,8 @@ weight: 3
 ---
 
 # FO - Checkout - Addresses - Select an address
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-7021
+

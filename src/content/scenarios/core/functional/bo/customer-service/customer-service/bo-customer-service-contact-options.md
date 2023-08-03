@@ -4,6 +4,12 @@ weight: 4
 ---
 
 # BO - Customer Service - Contact options
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-866
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

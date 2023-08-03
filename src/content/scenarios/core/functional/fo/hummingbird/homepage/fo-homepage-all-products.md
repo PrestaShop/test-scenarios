@@ -4,6 +4,12 @@ weight: 3
 ---
 
 # FO - Homepage - All products
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5100
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

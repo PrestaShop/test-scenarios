@@ -4,6 +4,11 @@ weight: 9
 ---
 
 # Faceted search module - Edit template - Sub-categories filter
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4213
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

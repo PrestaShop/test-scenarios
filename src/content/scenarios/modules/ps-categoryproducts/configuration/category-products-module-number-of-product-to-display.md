@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # Category products module- Number of product to display
+## Details
+* **Component** : ps_categoryproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4106
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

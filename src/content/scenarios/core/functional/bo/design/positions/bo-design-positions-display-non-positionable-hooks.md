@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # BO - Design - Positions - Display non-positionable hooks
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-955
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

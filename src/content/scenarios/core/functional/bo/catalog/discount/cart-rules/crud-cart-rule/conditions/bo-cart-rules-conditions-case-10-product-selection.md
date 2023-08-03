@@ -4,6 +4,12 @@ weight: 1
 ---
 
 # BO - Cart rules - Conditions - Case 10 - Product selection
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3705
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

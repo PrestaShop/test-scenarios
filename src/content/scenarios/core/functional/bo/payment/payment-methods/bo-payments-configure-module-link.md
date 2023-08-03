@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Payments - Configure module link
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-980
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

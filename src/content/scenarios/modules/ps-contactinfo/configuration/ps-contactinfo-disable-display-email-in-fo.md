@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_contactinfo - Disable display email in FO
+## Details
+* **Component** : ps_contactinfo
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-614
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

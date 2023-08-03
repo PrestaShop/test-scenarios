@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # BO - Modules - Alerts tab - Upgrade
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-894
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # BO - Dashboard - Products and sales
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-721
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

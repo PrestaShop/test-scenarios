@@ -4,6 +4,13 @@ weight: 6
 ---
 
 # BO - Design - Image Settings - Delete actions
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4940
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/06_deleteActions.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

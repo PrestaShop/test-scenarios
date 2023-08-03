@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # BO - International - Localization - Geolocation - Update IP address whitelist
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1008
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

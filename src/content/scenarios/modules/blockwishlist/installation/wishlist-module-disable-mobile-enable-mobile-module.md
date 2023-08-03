@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # Wishlist module - Disable Mobile/Enable Mobile module
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4226
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # contactform - Enable/Disable email copy to customer
+## Details
+* **Component** : contactform
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-565
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

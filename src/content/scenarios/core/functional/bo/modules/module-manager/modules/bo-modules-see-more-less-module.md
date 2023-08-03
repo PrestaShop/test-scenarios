@@ -4,6 +4,11 @@ weight: 11
 ---
 
 # BO - Modules - See more / less module
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-884
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

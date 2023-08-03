@@ -4,6 +4,11 @@ weight: 8
 ---
 
 # BO - Modules - Upload a module
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-881
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

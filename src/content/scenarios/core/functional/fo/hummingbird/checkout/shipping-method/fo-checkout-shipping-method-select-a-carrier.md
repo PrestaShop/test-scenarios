@@ -4,6 +4,12 @@ weight: 2
 ---
 
 # FO - Checkout - Shipping method - Select a carrier
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-7025
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

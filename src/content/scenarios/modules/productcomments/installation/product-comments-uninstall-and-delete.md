@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # Product Comments - Uninstall and delete
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-583
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

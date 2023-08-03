@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # statsbestcustomers - Check the stat of best customer
+## Details
+* **Component** : statsbestcustomers
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-695
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

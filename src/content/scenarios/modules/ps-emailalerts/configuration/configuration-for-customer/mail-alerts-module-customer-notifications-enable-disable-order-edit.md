@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # Mail alerts module - Customer notifications - Enable/Disable order edit
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4146
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

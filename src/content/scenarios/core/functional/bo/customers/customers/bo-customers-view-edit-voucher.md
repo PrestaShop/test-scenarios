@@ -4,6 +4,11 @@ weight: 9
 ---
 
 # BO - Customers - View/edit voucher
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-856
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

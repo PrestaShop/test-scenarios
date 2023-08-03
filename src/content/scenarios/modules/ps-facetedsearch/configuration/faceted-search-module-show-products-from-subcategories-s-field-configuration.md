@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # Faceted search module - Show products from subcategories\'s field configuration
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4133
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

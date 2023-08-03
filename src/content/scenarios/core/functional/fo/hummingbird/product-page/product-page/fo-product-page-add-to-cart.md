@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # FO - Product Page - Add to cart
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-6969
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # FO - Menu and Navigation - Navigate and display - Pagination
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1245
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

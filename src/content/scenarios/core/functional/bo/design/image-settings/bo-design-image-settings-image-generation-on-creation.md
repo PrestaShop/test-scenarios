@@ -4,6 +4,12 @@ weight: 12
 ---
 
 # BO - Design - Image Settings - Image Generation on creation
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5513
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

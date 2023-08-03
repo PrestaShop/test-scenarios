@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Design - Positions - Filter modules
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-953
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

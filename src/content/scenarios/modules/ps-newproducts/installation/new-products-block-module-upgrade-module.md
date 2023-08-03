@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # New products block module - Upgrade module
+## Details
+* **Component** : ps_newproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3989
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # ps_dataprivacy - Uninstall and delete
+## Details
+* **Component** : ps_dataprivacy
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-633
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

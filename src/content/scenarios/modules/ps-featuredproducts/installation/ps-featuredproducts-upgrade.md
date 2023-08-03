@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_featuredproducts - Upgrade
+## Details
+* **Component** : ps_featuredproducts
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-664
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,12 @@ weight: 1
 ---
 
 # BO - Cart rules - Information - Case 1 - Create a cart with / without Code
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2137
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,12 @@ weight: 15
 ---
 
 # BO - Design - Image Settings - Check category image format 
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-6018
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

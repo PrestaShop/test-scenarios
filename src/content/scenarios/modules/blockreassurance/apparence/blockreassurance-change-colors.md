@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # blockreassurance - Change colors
+## Details
+* **Component** : blockreassurance
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-552
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

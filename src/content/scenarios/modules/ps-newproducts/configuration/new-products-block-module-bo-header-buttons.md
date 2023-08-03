@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # New products block module - BO header buttons
+## Details
+* **Component** : ps_newproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4055
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

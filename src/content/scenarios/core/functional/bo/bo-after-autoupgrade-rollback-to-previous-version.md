@@ -1,9 +1,14 @@
 ---
 title: "BO - After autoupgrade, rollback to previous version"
-weight: 7
+weight: 6
 ---
 
 # BO - After autoupgrade, rollback to previous version
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2059
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

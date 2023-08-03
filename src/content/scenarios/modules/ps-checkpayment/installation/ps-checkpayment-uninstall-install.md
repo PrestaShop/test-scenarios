@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_checkpayment - Uninstall/Install
+## Details
+* **Component** : ps_checkpayment
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-606
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

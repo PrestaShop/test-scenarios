@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # Official GDPR module - New products block module - Uninstall and delete module
+## Details
+* **Component** : psgdpr
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4531
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

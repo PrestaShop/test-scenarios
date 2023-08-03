@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Advanced Parameters - Administration - Upload quota
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1142
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

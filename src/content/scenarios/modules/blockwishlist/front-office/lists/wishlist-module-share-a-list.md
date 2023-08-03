@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # Wishlist module - Share a list
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3948
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

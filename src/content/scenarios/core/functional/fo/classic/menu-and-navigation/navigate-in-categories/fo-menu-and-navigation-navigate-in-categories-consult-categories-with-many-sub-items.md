@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1237
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

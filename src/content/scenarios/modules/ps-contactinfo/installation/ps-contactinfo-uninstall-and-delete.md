@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # ps_contactinfo - Uninstall and delete
+## Details
+* **Component** : ps_contactinfo
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-612
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

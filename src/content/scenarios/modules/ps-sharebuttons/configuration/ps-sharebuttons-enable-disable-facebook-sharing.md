@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_sharebuttons - Enable / disable facebook sharing
+## Details
+* **Component** : ps_sharebuttons
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1597
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

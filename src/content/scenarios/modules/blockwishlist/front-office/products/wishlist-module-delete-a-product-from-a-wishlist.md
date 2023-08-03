@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # Wishlist module - Delete a product from a wishlist
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4205
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

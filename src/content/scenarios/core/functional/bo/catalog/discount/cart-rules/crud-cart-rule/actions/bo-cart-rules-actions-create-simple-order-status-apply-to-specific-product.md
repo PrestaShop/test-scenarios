@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # BO - Cart rules - Actions - Create simple order status Apply to specific product
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4671
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

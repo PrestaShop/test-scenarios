@@ -4,6 +4,10 @@ weight: 2
 ---
 
 # ps_googleanalytics - Enable Back Office Tracking
+## Details
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3188
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # FO - Homepage - Slider
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5098
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

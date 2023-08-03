@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # FO - Checkout - Personal Information - Order as a guest
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1297
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

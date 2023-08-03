@@ -4,6 +4,12 @@ weight: 10
 ---
 
 # BO - Catalog - Products - Enable & Disable
+## Details
+* **Component** : Core
+* **Status** : Approved
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-789
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

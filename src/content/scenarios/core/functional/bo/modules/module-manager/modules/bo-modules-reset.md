@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # BO - Modules - Reset
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-878
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

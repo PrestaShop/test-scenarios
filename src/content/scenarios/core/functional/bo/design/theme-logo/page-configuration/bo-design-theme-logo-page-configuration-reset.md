@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Design - Theme & Logo - Page Configuration - Reset
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-926
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

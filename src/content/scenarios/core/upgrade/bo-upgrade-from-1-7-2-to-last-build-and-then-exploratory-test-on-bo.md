@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # [BO] Upgrade from 1.7.2 to last build and then exploratory test on BO
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1583
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

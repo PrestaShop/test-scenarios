@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # Wishlist module - Help header buttons
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4249
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Cash on delivery (COD) module - Available on Addons Marketplace
+## Details
+* **Component** : ps_cashondelivery
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3888
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_crossselling - Uninstall/Install
+## Details
+* **Component** : ps_crossselling
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-617
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

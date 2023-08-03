@@ -4,6 +4,12 @@ weight: 2
 ---
 
 # BO - Orders - Shopping carts - Sort shopping carts - bug
+## Details
+* **Component** : Core
+* **Status** : In progress
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-774
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

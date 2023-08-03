@@ -4,6 +4,11 @@ weight: 9
 ---
 
 # Mail alerts module - Disable Mobile/Enable Mobile module
+## Details
+* **Component** : ps_emailalerts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4131
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,13 @@ weight: 1
 ---
 
 # BO - Catalog - Products - Filter And Quick Edit Products
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-780
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/01_filterAndQuickEditProducts.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

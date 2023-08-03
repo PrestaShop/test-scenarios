@@ -4,6 +4,12 @@ weight: 6
 ---
 
 # BO - Orders - Shopping carts - Export carts
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-778
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

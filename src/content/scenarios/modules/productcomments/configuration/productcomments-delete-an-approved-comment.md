@@ -4,6 +4,11 @@ weight: 9
 ---
 
 # productcomments - Delete an approved comment
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-592
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

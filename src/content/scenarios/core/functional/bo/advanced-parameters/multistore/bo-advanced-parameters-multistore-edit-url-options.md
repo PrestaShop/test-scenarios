@@ -4,6 +4,11 @@ weight: 8
 ---
 
 # BO - Advanced Parameters - Multistore - Edit URL options
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1189
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

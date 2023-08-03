@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # Wishlist module - Rename & delete a list
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3947
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

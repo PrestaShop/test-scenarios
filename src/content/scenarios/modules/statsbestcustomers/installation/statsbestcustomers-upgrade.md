@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # statsbestcustomers - Upgrade
+## Details
+* **Component** : statsbestcustomers
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-692
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

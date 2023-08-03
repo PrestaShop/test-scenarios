@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_dataprivacy - Upgrade
+## Details
+* **Component** : ps_dataprivacy
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-631
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

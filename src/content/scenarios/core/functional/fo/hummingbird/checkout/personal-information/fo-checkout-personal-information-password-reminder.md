@@ -4,6 +4,12 @@ weight: 5
 ---
 
 # FO - Checkout - Personal Information - Password reminder
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-7018
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

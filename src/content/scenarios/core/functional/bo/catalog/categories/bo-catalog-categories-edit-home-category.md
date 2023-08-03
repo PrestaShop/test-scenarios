@@ -4,6 +4,12 @@ weight: 3
 ---
 
 # BO - Catalog - Categories - Edit home category
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-793
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

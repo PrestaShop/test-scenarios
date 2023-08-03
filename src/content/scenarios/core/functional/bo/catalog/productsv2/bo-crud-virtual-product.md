@@ -4,6 +4,12 @@ weight: 6
 ---
 
 # BO - CRUD Virtual product
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4775
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

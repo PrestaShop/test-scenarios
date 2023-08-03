@@ -4,6 +4,12 @@ weight: 1
 ---
 
 # Authorization Endpoint
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4925
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/01_authorizationEndpoint.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

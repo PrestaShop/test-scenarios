@@ -4,6 +4,12 @@ weight: 2
 ---
 
 # FO - Download invoice from order details
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1210
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

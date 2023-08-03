@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # Faceted search module - Category filter depth field configuration
+## Details
+* **Component** : ps_facetedsearch
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4151
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # productcomments - Setup time between two comments
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-588
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

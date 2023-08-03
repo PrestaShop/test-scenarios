@@ -4,6 +4,13 @@ weight: 3
 ---
 
 # BO - Order details - Status tab
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-738
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/03_statusTab.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

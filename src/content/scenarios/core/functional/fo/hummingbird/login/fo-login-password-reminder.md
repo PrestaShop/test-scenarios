@@ -4,6 +4,12 @@ weight: 1
 ---
 
 # FO - Login - Password reminder
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4957
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/01_login/01_passwordReminder.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

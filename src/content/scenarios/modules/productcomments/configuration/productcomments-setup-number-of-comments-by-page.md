@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # productcomments - Setup number of comments by page
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-589
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

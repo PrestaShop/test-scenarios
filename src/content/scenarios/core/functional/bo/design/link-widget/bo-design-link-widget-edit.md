@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # BO - Design - Link Widget - Edit
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-967
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

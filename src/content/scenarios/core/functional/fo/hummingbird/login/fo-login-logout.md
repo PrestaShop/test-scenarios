@@ -4,6 +4,12 @@ weight: 3
 ---
 
 # FO - Login - Logout
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4956
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/01_login/03_logout.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

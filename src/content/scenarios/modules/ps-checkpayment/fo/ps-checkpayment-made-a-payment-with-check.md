@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_checkpayment - Made a payment with check
+## Details
+* **Component** : ps_checkpayment
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-608
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

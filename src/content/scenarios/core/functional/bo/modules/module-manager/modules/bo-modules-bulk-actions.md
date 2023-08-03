@@ -4,6 +4,11 @@ weight: 7
 ---
 
 # BO - Modules - Bulk actions
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-880
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

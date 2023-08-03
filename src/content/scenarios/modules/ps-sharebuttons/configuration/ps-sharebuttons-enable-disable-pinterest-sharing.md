@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # ps_sharebuttons - Enable / disable pinterest sharing
+## Details
+* **Component** : ps_sharebuttons
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1599
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

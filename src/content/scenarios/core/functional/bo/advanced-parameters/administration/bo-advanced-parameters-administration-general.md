@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # BO - Advanced Parameters - Administration - General
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1141
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

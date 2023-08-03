@@ -4,6 +4,12 @@ weight: 12
 ---
 
 # FO - Product Page - Write a review
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Automated on** : 1.7.8.x, 1.7.7.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1267
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 5
 ---
 
 # BO - Catalog - Products - Add Virtual Product
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-784
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

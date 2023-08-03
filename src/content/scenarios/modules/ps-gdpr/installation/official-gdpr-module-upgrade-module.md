@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # Official GDPR module - Upgrade module
+## Details
+* **Component** : psgdpr
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4402
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

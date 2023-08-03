@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # Wishlist module - Edit and delete product in a list
+## Details
+* **Component** : blockwishlist
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3951
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

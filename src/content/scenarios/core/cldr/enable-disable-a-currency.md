@@ -4,6 +4,12 @@ weight: 9
 ---
 
 # Enable/Disable a currency
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1369
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/09_enableDisableCurrency.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

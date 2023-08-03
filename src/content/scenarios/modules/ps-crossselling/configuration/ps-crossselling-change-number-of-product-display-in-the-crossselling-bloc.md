@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_crossselling - Change number of product display in the crossselling bloc
+## Details
+* **Component** : ps_crossselling
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-620
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

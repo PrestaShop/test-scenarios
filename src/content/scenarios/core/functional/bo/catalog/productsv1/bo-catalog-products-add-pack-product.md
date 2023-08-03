@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # BO - Catalog - Products - Add Pack Product
+## Details
+* **Component** : Core
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-783
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

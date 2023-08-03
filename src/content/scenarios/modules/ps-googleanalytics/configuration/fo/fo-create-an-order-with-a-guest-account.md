@@ -4,6 +4,10 @@ weight: 2
 ---
 
 # FO - Create an order with a guest account 
+## Details
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3189
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # Official GDPR module - Reset module
+## Details
+* **Component** : psgdpr
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4406
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

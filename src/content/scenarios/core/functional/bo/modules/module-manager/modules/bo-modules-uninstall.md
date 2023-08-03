@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # BO - Modules - Uninstall
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-879
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

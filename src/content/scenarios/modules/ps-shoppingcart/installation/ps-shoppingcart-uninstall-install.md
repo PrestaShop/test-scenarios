@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_shoppingcart - Uninstall/Install
+## Details
+* **Component** : ps_shoppingcart
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-682
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

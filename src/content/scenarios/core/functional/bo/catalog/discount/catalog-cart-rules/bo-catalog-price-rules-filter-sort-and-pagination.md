@@ -4,6 +4,13 @@ weight: 2
 ---
 
 # BO - Catalog Price Rules - Filter, sort and pagination
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-835
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/02_filterSortAndPagination.ts.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

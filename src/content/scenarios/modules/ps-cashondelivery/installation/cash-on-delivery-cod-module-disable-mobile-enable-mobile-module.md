@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # Cash on delivery (COD) module - Disable Mobile/Enable Mobile module
+## Details
+* **Component** : ps_cashondelivery
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4072
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

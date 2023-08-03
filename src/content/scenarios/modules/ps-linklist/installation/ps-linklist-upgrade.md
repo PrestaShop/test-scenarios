@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_linklist - Upgrade
+## Details
+* **Component** : ps_linklist
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-670
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

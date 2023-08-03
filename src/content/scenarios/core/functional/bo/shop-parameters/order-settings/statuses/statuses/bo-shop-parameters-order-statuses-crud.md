@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # BO - Shop Parameters - Order Statuses - CRUD
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3211
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

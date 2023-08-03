@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # welcome - Full onboarding process
+## Details
+* **Component** : welcome
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-700
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

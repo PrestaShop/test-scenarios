@@ -4,6 +4,12 @@ weight: 8
 ---
 
 # Reset symbol / format settings
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1368
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/08_resetSymbolFormatSettings.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

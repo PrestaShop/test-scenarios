@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # New products block module - Disable Mobile/Enable Mobile module
+## Details
+* **Component** : ps_newproducts
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4032
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_contactinfo - Upgrade
+## Details
+* **Component** : ps_contactinfo
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-610
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

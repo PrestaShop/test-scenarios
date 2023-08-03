@@ -4,6 +4,13 @@ weight: 4
 ---
 
 # Cash on delivery (COD) module - Reset module
+## Details
+* **Component** : ps_cashondelivery
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4070
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_cashondelivery/01_installation/04_resetModule.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

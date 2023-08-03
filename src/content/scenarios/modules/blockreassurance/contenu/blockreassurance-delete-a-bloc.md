@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # blockreassurance - Delete a bloc
+## Details
+* **Component** : blockreassurance
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-545
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

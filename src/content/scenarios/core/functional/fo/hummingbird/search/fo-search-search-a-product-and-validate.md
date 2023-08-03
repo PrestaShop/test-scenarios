@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # FO - Search - Search a product and validate
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5103
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

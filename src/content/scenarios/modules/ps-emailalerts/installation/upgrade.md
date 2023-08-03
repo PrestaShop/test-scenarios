@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # Upgrade
+## Details
+* **Component** : ps_emailalerts
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-635
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

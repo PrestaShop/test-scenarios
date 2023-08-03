@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # BO - CRUD Pack of products
+## Details
+* **Component** : Core
+* **Status** : Blocked
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3551
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

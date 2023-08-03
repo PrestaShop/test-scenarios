@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # FO - Menu and Navigation - Navigate and display - Display of tag products (New, Promo, Pack...)
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1244
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

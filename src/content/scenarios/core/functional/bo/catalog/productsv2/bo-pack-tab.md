@@ -4,6 +4,11 @@ weight: 15
 ---
 
 # BO - Pack Tab
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5211
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

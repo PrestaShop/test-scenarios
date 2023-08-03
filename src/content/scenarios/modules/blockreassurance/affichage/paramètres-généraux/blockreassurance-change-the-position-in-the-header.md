@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # blockreassurance - Change the position in the header
+## Details
+* **Component** : blockreassurance
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-548
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

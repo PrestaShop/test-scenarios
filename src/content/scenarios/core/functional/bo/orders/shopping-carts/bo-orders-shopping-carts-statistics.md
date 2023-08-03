@@ -4,6 +4,11 @@ weight: 7
 ---
 
 # BO - Orders - Shopping carts - Statistics
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-779
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

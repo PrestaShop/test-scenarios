@@ -4,6 +4,11 @@ weight: 6
 ---
 
 # productcomments - Check that rating is displayed
+## Details
+* **Component** : productcomments
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-598
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

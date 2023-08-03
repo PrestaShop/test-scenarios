@@ -4,6 +4,11 @@ weight: 10
 ---
 
 # BO - Design - Image Settings - Image Generation options - Automated version
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5667
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

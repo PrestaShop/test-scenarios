@@ -1,9 +1,14 @@
 ---
 title: "BO - Onboarding"
-weight: 5
+weight: 4
 ---
 
 # BO - Onboarding
+## Details
+* **Component** : Core
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-713
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

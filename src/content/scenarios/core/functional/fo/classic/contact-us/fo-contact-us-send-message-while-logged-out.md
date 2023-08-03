@@ -4,6 +4,13 @@ weight: 4
 ---
 
 # FO - Contact us - Send message while logged out
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1224
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/05_contactUs/03_sendMessageAsAnonymous.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

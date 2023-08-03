@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Cart rules - Condition - Case 1 - Limit to single customer
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2682
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

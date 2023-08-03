@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_customersignin - Reset password
+## Details
+* **Component** : ps_customersignin
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-447
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

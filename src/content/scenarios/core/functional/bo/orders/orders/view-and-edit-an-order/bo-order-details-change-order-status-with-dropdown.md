@@ -4,6 +4,13 @@ weight: 9
 ---
 
 # BO - Order details - Change order status with dropdown
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-744
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/10_changeStatus.ts
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 4
 ---
 
 # Wishlist module - Reset module
+## Details
+* **Component** : blockwishlist
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-4227
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

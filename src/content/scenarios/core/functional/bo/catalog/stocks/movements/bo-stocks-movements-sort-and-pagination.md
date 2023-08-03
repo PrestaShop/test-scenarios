@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Stocks - Movements - Sort and pagination
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-847
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

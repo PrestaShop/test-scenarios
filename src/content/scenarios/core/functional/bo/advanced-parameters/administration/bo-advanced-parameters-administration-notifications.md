@@ -4,6 +4,11 @@ weight: 3
 ---
 
 # BO - Advanced Parameters - Administration - Notifications
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1143
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # FO - Homepage - Display some products
+## Details
+* **Component** : Core
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-5099
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

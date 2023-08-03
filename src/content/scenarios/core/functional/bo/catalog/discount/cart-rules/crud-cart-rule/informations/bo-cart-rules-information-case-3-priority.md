@@ -4,6 +4,12 @@ weight: 3
 ---
 
 # BO - Cart rules - Information - Case 3 - Priority
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.1.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2678
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

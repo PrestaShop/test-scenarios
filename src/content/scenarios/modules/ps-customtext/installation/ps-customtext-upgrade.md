@@ -4,6 +4,11 @@ weight: 1
 ---
 
 # ps_customtext - Upgrade
+## Details
+* **Component** : ps_customtext
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-626
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # ps_categorytree - Uninstall/Install
+## Details
+* **Component** : ps_categorytree
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-600
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

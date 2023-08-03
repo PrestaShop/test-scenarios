@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # BO - Design - Theme & Logo - Export current theme
+## Details
+* **Component** : Core
+* **Status** : [TEST] To be automated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-916
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

@@ -4,6 +4,12 @@ weight: 9
 ---
 
 # BO - Catalog - Products - Delete product
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x
+* **Scenario** : https://forge.prestashop.com/browse/TEST-788
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

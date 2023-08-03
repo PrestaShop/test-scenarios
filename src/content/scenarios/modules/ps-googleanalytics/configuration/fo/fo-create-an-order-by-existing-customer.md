@@ -4,6 +4,10 @@ weight: 3
 ---
 
 # FO - Create an Order by existing customer
+## Details
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-3190
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

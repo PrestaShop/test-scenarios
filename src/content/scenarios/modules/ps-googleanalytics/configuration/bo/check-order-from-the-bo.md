@@ -4,6 +4,10 @@ weight: 1
 ---
 
 # Check Order from the BO
+## Details
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-2418
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |

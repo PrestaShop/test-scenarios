@@ -4,6 +4,11 @@ weight: 2
 ---
 
 # blockreassurance - Uninstall/Install
+## Details
+* **Component** : blockreassurance
+* **Status** : Approved
+* **Scenario** : https://forge.prestashop.com/browse/TEST-541
+
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
