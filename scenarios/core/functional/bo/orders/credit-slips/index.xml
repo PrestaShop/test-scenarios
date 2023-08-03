@@ -12,8 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/credit-slips/bo-orders-credit-slips-create-filter-credit-slips.html</guid>
-      <description>BO - Orders - Credit Slips - Create Filter Credit Slips Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders list is displayed successfully   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The order status is updated successfully
-The invoice is created successfully   Click on &amp;ldquo;Partial refund&amp;rdquo; to add the first partial refund Partial refund is added successfully</description>
+      <description>BO - Orders - Credit Slips - Create Filter Credit Slips Details  Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-766  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders list is displayed successfully   Go to the first order page The order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The order status is updated successfully</description>
     </item>
     
     <item>
@@ -22,8 +21,7 @@ The invoice is created successfully   Click on &amp;ldquo;Partial refund&amp;rdq
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/credit-slips/bo-orders-credit-slips-sort-pagination-credit-slips.html</guid>
-      <description>BO - Orders - Credit Slips - Sort &amp;amp; Pagination Credit Slips Steps    Step Description Expected result     Go to FO &amp;gt; Create 7 orders (pre-condition n°1) Order confirmation page is displayed   Go to the BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Change the status of 11 orders and create partial refund (pre-condition n°3) * A partial refund is added successfully
-* A new document is created for the credit slips   Go to Orders &amp;gt; Credit slips page The credit slips page is well displayed   Sort by ID DESC The Credit slips are sorted by ID DESC   Sort by ID order ASC The Credit slips are sorted by ID order ASC   Sort by ID order DESC The Credit slips are sorted by ID order DESC   Sort by Date issued ASC The Credit slips are sorted by Date issued ASC   Sort by Date issued DESC The Credit slips are sorted by Date issued DESC   Sort by ID ASC The Credit slips are sorted by ID ASC   number of credit slip ⩽ 10 All credit slips are on the same page : no pagination available   Number of credit slips &amp;gt; 10</description>
+      <description>BO - Orders - Credit Slips - Sort &amp;amp; Pagination Credit Slips Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1615  Steps    Step Description Expected result     Go to FO &amp;gt; Create 7 orders (pre-condition n°1) Order confirmation page is displayed   Go to the BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Change the status of 11 orders and create partial refund (pre-condition n°3) * A partial refund is added successfully</description>
     </item>
     
     <item>
@@ -32,8 +30,7 @@ The invoice is created successfully   Click on &amp;ldquo;Partial refund&amp;rdq
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/credit-slips/bo-orders-credit-slips-generate-credit-slips-by-date.html</guid>
-      <description>BO - Orders - Credit Slips - Generate Credit Slips By Date Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders list is displayed successfully   Open the first order page (created in the pre-condition) Order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The order status is updated successfully
-The invoice is created successfully   Add a partial refund product the credit slip document is created successfully   Go to Orders &amp;gt; &amp;ldquo;Credit slips&amp;rdquo; page Credit slips page is displayed successfully   Generate PDF file by date The file exists in the disk   Put a future date in From and To field An error message is displayed</description>
+      <description>BO - Orders - Credit Slips - Generate Credit Slips By Date Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-767 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/03_creditSlips/02_generateCreditSlipsByDate.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders list is displayed successfully   Open the first order page (created in the pre-condition) Order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The order status is updated successfully</description>
     </item>
     
     <item>
@@ -42,8 +39,7 @@ The invoice is created successfully   Add a partial refund product the credit sl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/credit-slips/bo-orders-credit-slips-credit-slip-options.html</guid>
-      <description>BO - Orders - Credit Slips - Credit Slip Options Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Credit slips&amp;rdquo; page Credit slips page is displayed successfully   Set the new prefix and save the form The validation message is displayed successfully
-&amp;ldquo;Update successful&amp;rdquo;   Go to Orders &amp;gt; &amp;ldquo;Orders&amp;rdquo; page Orders page is displayed successfully   Open the first order page (created in the pre-condition) Order page is displayed successfully   Change the order status to &amp;ldquo;Shipped&amp;rdquo; The status is changed successfully   Add a partial refund product the credit slip document is created successfully</description>
+      <description>BO - Orders - Credit Slips - Credit Slip Options Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-768 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/03_creditSlips/03_creditSlipOptions.ts  Steps    Step Description Expected result     Go to Orders &amp;gt; &amp;ldquo;Credit slips&amp;rdquo; page Credit slips page is displayed successfully   Set the new prefix and save the form The validation message is displayed successfully</description>
     </item>
     
   </channel>

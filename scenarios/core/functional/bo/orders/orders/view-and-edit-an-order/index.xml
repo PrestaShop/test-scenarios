@@ -12,13 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-customer-block.html</guid>
-      <description>BO - Order details - Customer block Steps    Step Description Expected result     Go to BO -&amp;gt; Orders -&amp;gt; open last Order page The Order details page is displayed.
-The customer panel displayed on the left of the product list has: # The customer&amp;rsquo;s title
-# The customer&amp;rsquo;s name
-# The customer&amp;rsquo;s last name
-# The customer&amp;rsquo;s customer reference.
-# Email address
-# The number of validated orders</description>
+      <description>BO - Order details - Customer block Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-736 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/01_customerBlock.ts  Steps    Step Description Expected result     Go to BO -&amp;gt; Orders -&amp;gt; open last Order page The Order details page is displayed.
+The customer panel displayed on the left of the product list has: # The customer&amp;rsquo;s title</description>
     </item>
     
     <item>
@@ -27,7 +22,7 @@ The customer panel displayed on the left of the product list has: # The customer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-product-block.html</guid>
-      <description>BO - Order details - Product block Steps    Step Description Expected result     Go to BO -&amp;gt; Orders -&amp;gt; View last Order page The Order details page is displayed   Click on &amp;ldquo;Delete&amp;rdquo; button to remove the product and confirm the deletion An alert &amp;ldquo;The product was successfully removed.&amp;rdquo; is displayed and number products = 0   Click on Add a product The addProductTableRow is displayed   Search for standard simple product and click on it The &amp;ldquo;Stock location&amp;rdquo; value is correct and the &amp;ldquo;Available&amp;rdquo; quantity is correct   Click on &amp;ldquo;Add&amp;rdquo; A green alert &amp;ldquo;The product was successfully added.</description>
+      <description>BO - Order details - Product block Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-737 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/02_productBlock.ts  Steps    Step Description Expected result     Go to BO -&amp;gt; Orders -&amp;gt; View last Order page The Order details page is displayed   Click on &amp;ldquo;Delete&amp;rdquo; button to remove the product and confirm the deletion An alert &amp;ldquo;The product was successfully removed.</description>
     </item>
     
     <item>
@@ -36,9 +31,9 @@ The customer panel displayed on the left of the product list has: # The customer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-status-tab.html</guid>
-      <description>BO - Order details - Status tab Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed
+      <description>BO - Order details - Status tab Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-738 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/03_statusTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed
 Check the number of status = 1
-The Order note is not opened by default (exist from PS1.7.8)   Click on Resend email An alert &amp;ldquo;The message was successfully sent to the customer.</description>
+The Order note is not opened by default (exist from PS1.</description>
     </item>
     
     <item>
@@ -47,7 +42,7 @@ The Order note is not opened by default (exist from PS1.7.8)   Click on Resend e
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-documents-tab.html</guid>
-      <description>BO - Order details - Documents tab Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Invoices &amp;gt; Disable Invoices Invoices are disabled   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; View last order page
+      <description>BO - Order details - Documents tab Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-739 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/04_documentsTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Invoices &amp;gt; Disable Invoices Invoices are disabled   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; View last order page
 Check Documents Tab No button &amp;ldquo;Generate Invoice&amp;rdquo;   Go to BO &amp;gt; Orders &amp;gt; Invoices &amp;gt; Enable Invoices Invoices are enabled   Go to view firts order page Documents tab should be empty -&amp;gt; Document count = 0</description>
     </item>
     
@@ -57,8 +52,7 @@ Check Documents Tab No button &amp;ldquo;Generate Invoice&amp;rdquo;   Go to BO 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-carriers-tab.html</guid>
-      <description>BO - Order details - Carriers tab Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Click on the order of your choice (any status is ok) Carrier tab will have at least one Carrier
-Carrier details are correct (Date, carrier name, product weight, hipping cost, traking number is empty)   Scroll down to Carrier &amp;gt; Click on Carrier tab &amp;gt; Click on Edit Popup appears with 2 options   Add a tracking number and Update the carrier Message Successful update.</description>
+      <description>BO - Order details - Carriers tab Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-740 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/05_carriersTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Click on the order of your choice (any status is ok) Carrier tab will have at least one Carrier</description>
     </item>
     
     <item>
@@ -67,7 +61,7 @@ Carrier details are correct (Date, carrier name, product weight, hipping cost, t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-merchandise-returns-tab.html</guid>
-      <description>BO - Order details - Merchandise returns tab Steps    Step Description Expected result     Go to BO &amp;gt; Customer Service &amp;gt; Merchandise returns &amp;gt; Enable returns Returns are enabled   Go to Order &amp;gt; Orders &amp;gt; Choose order with these 2 states : Payment validated &amp;amp; Shipped Order diplays   Go to FO &amp;gt; Log into Customer account &amp;gt; Go to Order history and details &amp;gt; Choose Order Order details display   Check product you want to return &amp;gt; Add a message &amp;gt; Click on Request a return List of Merchandise returns displays in customer account   Go back to BO &amp;gt; Order of choice &amp;gt; Merchandise Return tab In Merchandise Return tab : one new Return added   Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Return &amp;gt; Click on Merchandise Return See Merchandise Return list   Click on latest Merchandise Return Return Merchandise Authorization (RMA) displays   Change status of MR from &amp;ldquo;Waiting for confirmation&amp;rdquo; to &amp;ldquo;Waiting for package&amp;rdquo; &amp;gt; Save In BO : Merchandise Return tab in Order -&amp;gt; Status changed</description>
+      <description>BO - Order details - Merchandise returns tab Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-741 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/06_merchandiseReturnsTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Customer Service &amp;gt; Merchandise returns &amp;gt; Enable returns Returns are enabled   Go to Order &amp;gt; Orders &amp;gt; Choose order with these 2 states : Payment validated &amp;amp; Shipped Order diplays   Go to FO &amp;gt; Log into Customer account &amp;gt; Go to Order history and details &amp;gt; Choose Order Order details display   Check product you want to return &amp;gt; Add a message &amp;gt; Click on Request a return List of Merchandise returns displays in customer account   Go back to BO &amp;gt; Order of choice &amp;gt; Merchandise Return tab In Merchandise Return tab : one new Return added   Go to BO &amp;gt; Customer Service &amp;gt; Merchandise Return &amp;gt; Click on Merchandise Return See Merchandise Return list   Click on latest Merchandise Return Return Merchandise Authorization (RMA) displays   Change status of MR from &amp;ldquo;Waiting for confirmation&amp;rdquo; to &amp;ldquo;Waiting for package&amp;rdquo; &amp;gt; Save In BO : Merchandise Return tab in Order -&amp;gt; Status changed</description>
     </item>
     
     <item>
@@ -76,7 +70,7 @@ Carrier details are correct (Date, carrier name, product weight, hipping cost, t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-message-block.html</guid>
-      <description>BO - Order details - Message block Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Click on the order of your choice Display Order Detail   Check option Display to customer ? Option is checked   Click Choose your order message &amp;gt; Choose an option &amp;gt; Click Send message Message Comment successfully added.</description>
+      <description>BO - Order details - Message block Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-742 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/07_messagesBlock.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Click on the order of your choice Display Order Detail   Check option Display to customer ? Option is checked   Click Choose your order message &amp;gt; Choose an option &amp;gt; Click Send message Message Comment successfully added.</description>
     </item>
     
     <item>
@@ -85,9 +79,7 @@ Carrier details are correct (Date, carrier name, product weight, hipping cost, t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-payment-block.html</guid>
-      <description>BO - Order details - Payment block Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Choose an Order without payment Payment tab should be empty : Payment (0)   Fill Payment line with amount inferior to total Message Successful update. appears
-Warning appears : Warning €XX.XX paid instead of €XX.XX
-New line with payment appears   Fill Payment line with amount equal to total Message Successful update.</description>
+      <description>BO - Order details - Payment block Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-743 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/08_paymentBlock.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders Order list appears   Choose an Order without payment Payment tab should be empty : Payment (0)   Fill Payment line with amount inferior to total Message Successful update.</description>
     </item>
     
     <item>
@@ -96,7 +88,7 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-change-order-status-with-dropdown.html</guid>
-      <description>BO - Order details - Change order status with dropdown Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed and the Update status button is disabled   Select the same status The button &amp;ldquo;Update status&amp;rdquo; is still disabled   Select status &amp;lsquo;Canceled&amp;rsquo; and Click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
+      <description>BO - Order details - Change order status with dropdown Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-744 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/10_changeStatus.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed and the Update status button is disabled   Select the same status The button &amp;ldquo;Update status&amp;rdquo; is still disabled   Select status &amp;lsquo;Canceled&amp;rsquo; and Click on &amp;ldquo;Update status&amp;rdquo; An alert &amp;ldquo;Successful update.</description>
     </item>
     
     <item>
@@ -105,9 +97,7 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-add-a-discount.html</guid>
-      <description>BO - Order details - Add a discount Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed   Click Add new discount A pop up &amp;ldquo;Add new cart rule&amp;rdquo; is displayed and the &amp;ldquo;Add&amp;rdquo; button is disabled   Set these fields:
-# Name
-# Value = invalid with characters =&amp;gt; 10%</description>
+      <description>BO - Order details - Add a discount Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-746 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/09_addDiscount.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders page and view last order created The Order view page is well displayed   Click Add new discount A pop up &amp;ldquo;Add new cart rule&amp;rdquo; is displayed and the &amp;ldquo;Add&amp;rdquo; button is disabled   Set these fields:</description>
     </item>
     
     <item>
@@ -116,9 +106,8 @@ New line with payment appears   Fill Payment line with amount equal to total Mes
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-check-invoice.html</guid>
-      <description>BO - Order details - Check invoice Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; View Order created with the virtual product &amp;gt; Change status of order Status of order is now &amp;ldquo;Payment accepted&amp;rdquo;
-Message &amp;ldquo;Successful update.&amp;rdquo; appears   Click on View Invoice &amp;gt; Save the order Order is saved in your documents
-Invoice fields should match with info in Order details page</description>
+      <description>BO - Order details - Check invoice Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-747 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; View Order created with the virtual product &amp;gt; Change status of order Status of order is now &amp;ldquo;Payment accepted&amp;rdquo;
+Message &amp;ldquo;Successful update.&amp;rdquo; appears   Click on View Invoice &amp;gt; Save the order Order is saved in your documents</description>
     </item>
     
     <item>
@@ -127,8 +116,7 @@ Invoice fields should match with info in Order details page</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-check-multi-invoice-behaviour.html</guid>
-      <description>BO - Order details - Check multi invoice behaviour Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Add new order A new order should be created   Click on latest Order created &amp;gt; Update status to &amp;ldquo;Payment accepted&amp;rdquo; to generate an Invoice Status is updated
-An invoice is available   Click on Add a product The addProductTableRow is displayed   Click on &amp;ldquo;Add product&amp;rdquo;, search the same product and click on &amp;ldquo;Add&amp;rdquo; A red alert &amp;ldquo;This product is already in the invoice #INxxxx, please edit the quantity instead.</description>
+      <description>BO - Order details - Check multi invoice behaviour Details  Component : Core Status : Automated Automated on : 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-748 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/12_checkMultiInvoice.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Orders &amp;gt; Add new order A new order should be created   Click on latest Order created &amp;gt; Update status to &amp;ldquo;Payment accepted&amp;rdquo; to generate an Invoice Status is updated</description>
     </item>
     
   </channel>

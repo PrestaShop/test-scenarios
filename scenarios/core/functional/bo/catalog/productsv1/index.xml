@@ -12,9 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-filter-and-quick-edit-products.html</guid>
-      <description>BO - Catalog - Products - Filter And Quick Edit Products Steps    Step Description Expected result     go to Catalog&amp;gt;products page Title page contains &amp;lsquo;Products •&amp;rsquo;   Reset all filters and get number of products Total of products &amp;gt; 0   Filter product by product id
-Criteria : Min &amp;lsquo;1&amp;rsquo; Max: &amp;lsquo;3&amp;rsquo; Number of products &amp;lt; Total of products
-All products id are between 1 and 3   Reset filters Number of products = Total of products   Filter product by product name</description>
+      <description>BO - Catalog - Products - Filter And Quick Edit Products Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-780 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/01_filterAndQuickEditProducts.ts  Steps    Step Description Expected result     go to Catalog&amp;gt;products page Title page contains &amp;lsquo;Products •&amp;rsquo;   Reset all filters and get number of products Total of products &amp;gt; 0   Filter product by product id</description>
     </item>
     
     <item>
@@ -23,7 +21,7 @@ All products id are between 1 and 3   Reset filters Number of products = Total o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-sort-pagination.html</guid>
-      <description>BO - Catalog - Products - Sort &amp;amp; pagination Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Page title contains &amp;lsquo;Products&amp;rsquo;   Sort by id_product acs table is sorted by id_product desc (1 -&amp;gt; 2 -&amp;gt; 3)   Sort by name asc table is sorted by name asc (a -&amp;gt; b -&amp;gt; c)   Sort by name desc table is sorted by name desc (c -&amp;gt; b -&amp;gt; a)   Sort by reference asc table is sorted by reference asc (a -&amp;gt; b -&amp;gt; c)   Sort by reference desc table is sorted by reference desc (c -&amp;gt; b -&amp;gt; a)   Sort by name_category asc table is sorted by name_category asc (a -&amp;gt; b -&amp;gt; c)   Sort by name_category desc table is sorted by name_category asc (c -&amp;gt; b -&amp;gt; a)   Sort by price (Tax excl.</description>
+      <description>BO - Catalog - Products - Sort &amp;amp; pagination Details  Component : Core Status : Approved Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-781  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Page title contains &amp;lsquo;Products&amp;rsquo;   Sort by id_product acs table is sorted by id_product desc (1 -&amp;gt; 2 -&amp;gt; 3)   Sort by name asc table is sorted by name asc (a -&amp;gt; b -&amp;gt; c)   Sort by name desc table is sorted by name desc (c -&amp;gt; b -&amp;gt; a)   Sort by reference asc table is sorted by reference asc (a -&amp;gt; b -&amp;gt; c)   Sort by reference desc table is sorted by reference desc (c -&amp;gt; b -&amp;gt; a)   Sort by name_category asc table is sorted by name_category asc (a -&amp;gt; b -&amp;gt; c)   Sort by name_category desc table is sorted by name_category asc (c -&amp;gt; b -&amp;gt; a)   Sort by price (Tax excl.</description>
     </item>
     
     <item>
@@ -32,7 +30,7 @@ All products id are between 1 and 3   Reset filters Number of products = Total o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-standard-product.html</guid>
-      <description>BO - Catalog - Products - Add Standard Product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click &amp;ldquo;New product&amp;rdquo; Page New product will open   Fill the following fields &amp;gt; Enable product &amp;gt; Click Save Message Settings updated. appears   Click &amp;ldquo;Preview&amp;rdquo; New page will open with newly created product   Disable product by unchecking Offline option &amp;gt; Save &amp;gt; Click Preview Message Settings updated.</description>
+      <description>BO - Catalog - Products - Add Standard Product Details  Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-782  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click &amp;ldquo;New product&amp;rdquo; Page New product will open   Fill the following fields &amp;gt; Enable product &amp;gt; Click Save Message Settings updated. appears   Click &amp;ldquo;Preview&amp;rdquo; New page will open with newly created product   Disable product by unchecking Offline option &amp;gt; Save &amp;gt; Click Preview Message Settings updated.</description>
     </item>
     
     <item>
@@ -41,8 +39,8 @@ All products id are between 1 and 3   Reset filters Number of products = Total o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-pack-product.html</guid>
-      <description>BO - Catalog - Products - Add Pack Product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click Add new products &amp;gt; Choose pack of products &amp;gt; Enter a name &amp;gt; Add quantity &amp;gt; Add price * Message &amp;ldquo;Unable to update settings&amp;rdquo;. appears
-* Message &amp;ldquo;This pack is empty. You must add at least one product item.&amp;rdquo; appears under the title   Add a simple product to the pack &amp;gt; Add a virtual product + increase quantity &amp;gt; Add customizable product &amp;gt; Save Message Settings updated.</description>
+      <description>BO - Catalog - Products - Add Pack Product Details  Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-783  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click Add new products &amp;gt; Choose pack of products &amp;gt; Enter a name &amp;gt; Add quantity &amp;gt; Add price * Message &amp;ldquo;Unable to update settings&amp;rdquo;. appears
+* Message &amp;ldquo;This pack is empty.</description>
     </item>
     
     <item>
@@ -51,7 +49,7 @@ All products id are between 1 and 3   Reset filters Number of products = Total o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-virtual-product.html</guid>
-      <description>BO - Catalog - Products - Add Virtual Product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click Add new product &amp;gt; Choose Virtual Product &amp;gt; Enter name + price + quantity &amp;gt; Click Save Message Settings updated. appears   Click Offline to uncheck it Product is now Online   In tab Virtual &amp;gt; Add a downloadable file (png, jpg or other) &amp;gt; Choose file &amp;gt; Add filename &amp;gt; Add Number of allowed downloads &amp;gt; Add Expiration Date &amp;gt; Add number of days &amp;gt; Save Message Settings updated.</description>
+      <description>BO - Catalog - Products - Add Virtual Product Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-784  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click Add new product &amp;gt; Choose Virtual Product &amp;gt; Enter name + price + quantity &amp;gt; Click Save Message Settings updated. appears   Click Offline to uncheck it Product is now Online   In tab Virtual &amp;gt; Add a downloadable file (png, jpg or other) &amp;gt; Choose file &amp;gt; Add filename &amp;gt; Add Number of allowed downloads &amp;gt; Add Expiration Date &amp;gt; Add number of days &amp;gt; Save Message Settings updated.</description>
     </item>
     
     <item>
@@ -60,9 +58,8 @@ All products id are between 1 and 3   Reset filters Number of products = Total o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-edit-product.html</guid>
-      <description>BO - Catalog - Products - Edit Product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click on the Pen of an existing product Edit product page opens in tab Basic Settings   In Basic Settings
-Edit name of product - reference - price - images - description &amp;gt; Click Save Info updated
-Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp;gt; Save Message Settings updated.</description>
+      <description>BO - Catalog - Products - Edit Product Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-785  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click on the Pen of an existing product Edit product page opens in tab Basic Settings   In Basic Settings
+Edit name of product - reference - price - images - description &amp;gt; Click Save Info updated</description>
     </item>
     
     <item>
@@ -71,8 +68,7 @@ Message Settings updated. appears   Add Feature &amp;gt; Pre-defined value &amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-preview-product.html</guid>
-      <description>BO - Catalog - Products - Preview Product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all filters Number of products = total products   Filter products by Name Number of products &amp;lt; Total products
-All products name contains the Searched Name   Click on the drop-down toggle and click on Preview The FO &amp;gt; Products details page is displayed and the product name = searched name   Click on product of your choice &amp;gt; Click on button Preview Product page will open in another tab   Close the current tab The BO &amp;gt; Catalog &amp;gt; Products page is well displayed   Reset all filters Number of products = total products    </description>
+      <description>BO - Catalog - Products - Preview Product Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-786 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/04_previewProductFromList.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all filters Number of products = total products   Filter products by Name Number of products &amp;lt; Total products</description>
     </item>
     
     <item>
@@ -81,8 +77,7 @@ All products name contains the Searched Name   Click on the drop-down toggle and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-duplicate-product-from-list.html</guid>
-      <description>BO - Catalog - Products - Duplicate Product from list Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products &amp;lt; Total of products
-All products contains the searched Name   Click on the drop-down toggle and click on Duplicate An alert &amp;ldquo;Product successfully duplicated.</description>
+      <description>BO - Catalog - Products - Duplicate Product from list Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-787 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/05_duplicateProductFromList.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products &amp;lt; Total of products</description>
     </item>
     
     <item>
@@ -91,8 +86,7 @@ All products contains the searched Name   Click on the drop-down toggle and clic
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-delete-product.html</guid>
-      <description>BO - Catalog - Products - Delete product Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Products page is displayed   Reset all filters Number of products = Total of products   Filter Products by Name Number of products &amp;lt; Total of products
-All the products contains the searched Name   Click on the drop-down toggle, click on &amp;ldquo;Delete&amp;rdquo; and confirm the deletion An alert &amp;ldquo;Product successfully deleted.</description>
+      <description>BO - Catalog - Products - Delete product Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x Scenario : https://forge.prestashop.com/browse/TEST-788  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Products page is displayed   Reset all filters Number of products = Total of products   Filter Products by Name Number of products &amp;lt; Total of products</description>
     </item>
     
     <item>
@@ -101,8 +95,8 @@ All the products contains the searched Name   Click on the drop-down toggle, cli
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-enable-disable.html</guid>
-      <description>BO - Catalog - Products - Enable &amp;amp; Disable Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products The Product list page is displayed   Filter by Product Name Number of products &amp;lt; Total of products
-All products contain the searched Name   Click on the switch toggle and click on Disable An alert &amp;ldquo;Product successfully deactivated.&amp;rdquo; is displayed and the product is disabled   Click on the switch toggle and click on Enable An alert &amp;ldquo;Product successfully activated.</description>
+      <description>BO - Catalog - Products - Enable &amp;amp; Disable Details  Component : Core Status : Approved Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-789  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products The Product list page is displayed   Filter by Product Name Number of products &amp;lt; Total of products
+All products contain the searched Name   Click on the switch toggle and click on Disable An alert &amp;ldquo;Product successfully deactivated.</description>
     </item>
     
     <item>
@@ -111,8 +105,7 @@ All products contain the searched Name   Click on the switch toggle and click on
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-delete-bulk-actions.html</guid>
-      <description>BO - Catalog - Products - Delete Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products &amp;lt; Total of products
-All products contain the searched Name   Click on the drop-down toggle and click on Delete A confirm modal &amp;ldquo;Delete Products?</description>
+      <description>BO - Catalog - Products - Delete Bulk actions Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-790 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/06_bulkActions.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products &amp;lt; Total of products</description>
     </item>
     
   </channel>

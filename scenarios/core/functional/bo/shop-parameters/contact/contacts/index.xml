@@ -12,9 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-filter.html</guid>
-      <description>BO - Shop Parameters - Contacts - Filter Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact &amp;gt; Contact tab Contacts page is well displayed   Filter by id_contact = 2 &amp;gt; Click Search Number of contacts &amp;lt; total of contacts
-All rows column &amp;lsquo;id_contact&amp;rsquo; contains &amp;lsquo;2&amp;rsquo;   Click on Reset Filter is reset
-Number of contacts after reset = total of contacts   Filter by name = Customer service Number of contacts &amp;lt; total of contacts</description>
+      <description>BO - Shop Parameters - Contacts - Filter Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-1095 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/13_shopParameters/05_contact/01_filterContacts.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contact &amp;gt; Contact tab Contacts page is well displayed   Filter by id_contact = 2 &amp;gt; Click Search Number of contacts &amp;lt; total of contacts</description>
     </item>
     
     <item>
@@ -23,9 +21,7 @@ Number of contacts after reset = total of contacts   Filter by name = Customer s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-crud.html</guid>
-      <description>BO - Shop Parameters - Contacts - CRUD Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains &amp;lsquo;Add new:&amp;rsquo;   Create contact
-(faker data) Message Successful creation is displayed
-Number of contacts after creation = total of contacts + 1   Filter list by email with latest email of created contact Contact is displayed in list   Click on the pen to edit the contact Page title contains &amp;lsquo;Edit:&amp;rsquo;   Update contact</description>
+      <description>BO - Shop Parameters - Contacts - CRUD Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-1096 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/13_shopParameters/05_contact/02_CRUDContact.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains &amp;lsquo;Add new:&amp;rsquo;   Create contact</description>
     </item>
     
     <item>
@@ -34,7 +30,7 @@ Number of contacts after creation = total of contacts + 1   Filter list by email
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-bulk-actions.html</guid>
-      <description>BO - Shop Parameters - Contacts - Bulk actions Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts Tab Contacts page is well displayed   Create 2 contacts using the following test Number of contacts after creation = total of contacts + 2   Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains &amp;lsquo;Add new:&amp;rsquo;   Create contact</description>
+      <description>BO - Shop Parameters - Contacts - Bulk actions Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-1097 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/13_shopParameters/05_contact/03_contactBulkActions.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts Tab Contacts page is well displayed   Create 2 contacts using the following test Number of contacts after creation = total of contacts + 2   Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts tab Contacts page is well displayed   Click Add new contact button Page title contains &amp;lsquo;Add new:&amp;rsquo;   Create contact</description>
     </item>
     
     <item>
@@ -43,9 +39,7 @@ Number of contacts after creation = total of contacts + 1   Filter list by email
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/contacts/bo-shop-parameters-contacts-filter-sort-and-pagination.html</guid>
-      <description>BO - Shop Parameters - Contacts - Filter, sort and pagination Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts Tab Contacts page is well displayed   Sort by id_contact desc List is sorted by id_contact desc
-(3 -&amp;gt; 2 -&amp;gt; 1)   Sort By title asc List is sorted by title asc
-(a -&amp;gt; b -&amp;gt; c)   Sort by title desc List is sorted by title desc</description>
+      <description>BO - Shop Parameters - Contacts - Filter, sort and pagination Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-1098 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/13_shopParameters/05_contact/04_sortContacts.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Contacts &amp;gt; Contacts Tab Contacts page is well displayed   Sort by id_contact desc List is sorted by id_contact desc</description>
     </item>
     
   </channel>

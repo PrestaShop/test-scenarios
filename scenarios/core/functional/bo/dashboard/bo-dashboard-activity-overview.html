@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../css/font-awesome.min.css?1691045298" rel="stylesheet">
-    <link href="../../../../../css/syntax-github.css?1691045298" rel="stylesheet">
-    <link href="../../../../../css/featherlight.min.css?1691045298" rel="stylesheet">
-    <link href="../../../../../css/perfect-scrollbar.min.css?1691045298" rel="stylesheet">
-    <link href="../../../../../css/auto-complete.css?1691045298" rel="stylesheet">
-    <link href="../../../../../style.css?1691045298" rel="stylesheet">
+    <link href="../../../../../css/font-awesome.min.css?1691089759" rel="stylesheet">
+    <link href="../../../../../css/syntax-github.css?1691089759" rel="stylesheet">
+    <link href="../../../../../css/featherlight.min.css?1691089759" rel="stylesheet">
+    <link href="../../../../../css/perfect-scrollbar.min.css?1691089759" rel="stylesheet">
+    <link href="../../../../../css/auto-complete.css?1691089759" rel="stylesheet">
+    <link href="../../../../../style.css?1691089759" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../js/jquery-3.3.1.min.js?1691045298"></script>
+    <script src="../../../../../js/jquery-3.3.1.min.js?1691089759"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -890,27 +890,6 @@
           
 
         
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/core/functional/bo/bo-left-menu.html" title="BO - Left Menu" class="dd-item ">
-        <a href="../../../../../scenarios/core/functional/bo/bo-left-menu.html">
-        BO - Left Menu
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
           
             
             
@@ -9574,6 +9553,27 @@
           
 
         
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/header/bo-left-menu.html" title="BO - Left Menu" class="dd-item ">
+        <a href="../../../../../scenarios/core/functional/bo/header/bo-left-menu.html">
+        BO - Left Menu
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
           
             
             
@@ -23683,9 +23683,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-language.html" title="FO - Header &amp; Footer - Change language" class="dd-item ">
-        <a href="../../../../../scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-language.html">
-        FO - Header &amp; Footer - Change language
+      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-currency.html" title="FO - Header &amp; Footer - Change currency" class="dd-item ">
+        <a href="../../../../../scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-currency.html">
+        FO - Header &amp; Footer - Change currency
         
         </a>
     </li>
@@ -23704,9 +23704,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-currency.html" title="FO - Header &amp; Footer - Change currency" class="dd-item ">
-        <a href="../../../../../scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-currency.html">
-        FO - Header &amp; Footer - Change currency
+      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-language.html" title="FO - Header &amp; Footer - Change language" class="dd-item ">
+        <a href="../../../../../scenarios/core/functional/fo/hummingbird/header-footer/fo-header-footer-change-language.html">
+        FO - Header &amp; Footer - Change language
         
         </a>
     </li>
@@ -41201,6 +41201,7 @@
   <ul>
     <li><a href="#bo---dashboard---activity-overview">BO - Dashboard - Activity overview</a>
       <ul>
+        <li><a href="#details">Details</a></li>
         <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
@@ -41825,21 +41826,6 @@
       
       
       
-      
-
-      
-    
-  
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
         
       
       
@@ -46903,6 +46889,21 @@
       
       
 
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
       
         
     
@@ -64616,6 +64617,12 @@
 
 
 <h1 id="bo---dashboard---activity-overview">BO - Dashboard - Activity overview</h1>
+<h2 id="details">Details</h2>
+<ul>
+<li><strong>Component</strong> : Core</li>
+<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-720">https://forge.prestashop.com/browse/TEST-720</a></li>
+</ul>
 <h2 id="steps">Steps</h2>
 <table>
 <thead>
@@ -64634,6 +64641,50 @@
 <td>The page Orders Shopping&gt; Carts is displayed.</td>
 </tr>
 <tr>
+<td>Go to BO &gt; Orders &gt; Orders &gt; Click Add new order &gt; Choose existing customer</td>
+<td>Check that Summary block is not visible</td>
+</tr>
+<tr>
+<td>Add product to cart</td>
+<td>Check that summary block is visible<br><br>Check Summary &gt; <em>Total Product</em> &amp; <em>Total (Tax excl.)</em> should be equal<br><br><em>Total (Tax incl.)</em> should be equal to ** <em>Total taxes</em> + <em>Total (Tax excl.)</em></td>
+</tr>
+<tr>
+<td>Add a voucher</td>
+<td>See in Summary that <em>Total vouchers (Tax excl.)</em> has been updated</td>
+</tr>
+<tr>
+<td>Delete voucher</td>
+<td><em>Total vouchers (Tax excl.)</em> equal to 0<br><br><em>Total (Tax incl.)</em> should be updated</td>
+</tr>
+<tr>
+<td>Change Delivery Option with a not free carrier</td>
+<td><em>Total shipping (Tax excl.)</em> will be updated<br><br>Price should be tax excluded<br><br><em>Total (Tax incl.)</em> should be updated</td>
+</tr>
+<tr>
+<td>Case1<br><br>The payment is not selected (Choose by default), click on Create Order</td>
+<td>The order is not created, the payment is required</td>
+</tr>
+<tr>
+<td>Case2<br><br>The Order status is not selected (Choose by default), click on Create Order</td>
+<td>The order is not created, the order status is required</td>
+</tr>
+<tr>
+<td>Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click &ldquo;more actions&rdquo; &gt; Choose &ldquo;Send pre-filled order to the customer by email&rdquo;</td>
+<td>* Message &ldquo;The email was sent to your customer.&rdquo; appears<br> * An email should be received<br> ** the subject contains &ldquo;Process the payment of your order&rdquo;<br> ** the body contains &ldquo;A new order has been generated on your behalf.&rdquo;</td>
+</tr>
+<tr>
+<td>Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click &ldquo;more actions&rdquo; &gt; Choose &ldquo;Proceed to checkout in the front office&rdquo;</td>
+<td>FO opens with Step 2 of checkout process</td>
+</tr>
+<tr>
+<td>Come back to BO &gt; Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click button Create Order</td>
+<td>Order will be created - Order details will be opened in BO<br><br>In the Messages block &gt; Check the Order message is well displayed</td>
+</tr>
+<tr>
+<td>Go back to Active Shopping Carts</td>
+<td>The total Active Shopping Carts activity overview +1</td>
+</tr>
+<tr>
 <td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending</td>
 <td>On Currently Pending you will see :<br></td>
 </tr>
@@ -64646,6 +64697,42 @@
 <td>The Customer Service&gt; Merchandise Returns page is displayed.</td>
 </tr>
 <tr>
+<td>Go to BO &gt; SELL &gt; Customer Service &gt; Merchandise Returns</td>
+<td>The Merchandise returns page is well displayed</td>
+</tr>
+<tr>
+<td>Enable the returns of product and click on Save</td>
+<td>The toggle is well enabled and a message &ldquo;The settings have been successfully updated.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on the Time limit of validity and change the number of days as desired and click on Save</td>
+<td>The new number is well-updated and a message &ldquo;The settings have been successfully updated.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on the Returns prefix and change the prefix used for the downloadable pdf file</td>
+<td>The new value is well-updated and a message &ldquo;The settings have been successfully updated.&rdquo; is well displayed</td>
+</tr>
+<tr>
+<td>Go to orders&gt; orders<br><br>Choose a product and click on <em>view</em>  button</td>
+<td>The product details page is displayed</td>
+</tr>
+<tr>
+<td>Click on product status and change it to delivered<br><br>click on update status</td>
+<td><em>Successful update</em> message is well displayed.<br><br><em>Returned products</em> button is enabled</td>
+</tr>
+<tr>
+<td>Click on <em>Returned products</em> button</td>
+<td>The product details are displayed</td>
+</tr>
+<tr>
+<td>Check the quantity and click on <em>Returned products</em> button</td>
+<td>The product details page is displayed<br><br><em><em>The product was successfully returned</em></em> message is displayed</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending</td>
+<td>Toatle Return/Exchanges +1</td>
+</tr>
+<tr>
 <td>Click on Abandoned Carts in Currently Pending</td>
 <td>The Orders&gt; Shopping Carts page is displayed.</td>
 </tr>
@@ -64654,19 +64741,111 @@
 <td>The Catalog&gt; Monitoring page is displayed.</td>
 </tr>
 <tr>
-<td>Notifications</td>
-<td></td>
+<td>Go back to Dashboard&gt; Activity overview&gt; Notifications</td>
+<td>On Currently Pending you will see :<br></td>
 </tr>
 <tr>
-<td>Customers &amp; Newsletters</td>
-<td></td>
+<td>Go to the shop FO</td>
+<td>The FO homepage shop is displayed</td>
 </tr>
 <tr>
-<td>Traffic</td>
-<td></td>
+<td>Login to a existing customer account</td>
+<td>Logged in as customer</td>
 </tr>
 <tr>
-<td>Configure</td>
+<td>Add a product to cart</td>
+<td>The confirmation modal is displayed</td>
+</tr>
+<tr>
+<td>In the &ldquo;add to cart&rdquo; confirmation modal click on the &ldquo;order&rdquo; button</td>
+<td>Redirected to the cart page</td>
+</tr>
+<tr>
+<td>In the cart page click on the order button</td>
+<td>the checkout process is started and the &ldquo;address selection&rdquo; step is displayed</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;next&rdquo; button</td>
+<td>The delivery mode selection is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;next&rdquo; button</td>
+<td>The payment method is now displayed</td>
+</tr>
+<tr>
+<td>Select a paiement method, check the &ldquo;generals conditions&rdquo; checkbox and click on the &ldquo;order&rdquo; button</td>
+<td>The order is now completed and the &ldquo;order confirmation&rdquo; page is displayed</td>
+</tr>
+<tr>
+<td>In the &ldquo;order confirmation&rdquo; page click on the &ldquo;client support&rdquo; link</td>
+<td>Redirection to the &ldquo;contact us&rdquo; page</td>
+</tr>
+<tr>
+<td>In the &ldquo;contact us&rdquo; page, check if the email is correctly pre-filled</td>
+<td>The email field is filled with the logged in customer email address</td>
+</tr>
+<tr>
+<td>Select a order reference</td>
+<td>The order reference is selected</td>
+</tr>
+<tr>
+<td>Add a message in the textarea field</td>
+<td>The textarea field is filled with the message</td>
+</tr>
+<tr>
+<td>Add a attachment file</td>
+<td>The attachment file is correctly added</td>
+</tr>
+<tr>
+<td>click on the &ldquo;send message&rdquo; button</td>
+<td>A success message is displayed</td>
+</tr>
+<tr>
+<td>Go to the BO</td>
+<td>The BO login page is displayed</td>
+</tr>
+<tr>
+<td>Login to the BO</td>
+<td>Redirected to the BO dashboard page as logged in user</td>
+</tr>
+<tr>
+<td>Go to the customer service page</td>
+<td>The customer service page is displayed</td>
+</tr>
+<tr>
+<td>in the customer service page check in the customer service table if the previously send message is correctly displayed</td>
+<td>The previously send message is displayed and all the informations are correct</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Notifications</td>
+<td>Total New messages +1</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Customers &amp; Newsletters</td>
+<td>On Customers &amp; Newsletters you will see :<br></td>
+</tr>
+<tr>
+<td>Click on <em>New Customers</em></td>
+<td>Customers page is displayed</td>
+</tr>
+<tr>
+<td>Enable the Newsletter option of the new customer already added</td>
+<td><em>The status has been successfully updated</em> message is displayed</td>
+</tr>
+<tr>
+<td>Click on <em>Add new customer</em> and fill the new customer form,<br><br>save</td>
+<td><em>Successful creation</em> message is displayed</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Customers &amp; Newsletters</td>
+<td>Total Subscribers +1</td>
+</tr>
+<tr>
+<td>Click on configure button</td>
+<td>The Activity overview configuration is displayed with : <br><br> <br></td>
+</tr>
+<tr>
+<td>Change configuration, save.</td>
 <td></td>
 </tr>
 </tbody>
@@ -64678,7 +64857,7 @@
 <div>
   Last updated on August 3, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/dd1fdca7938b726cdb0dbd835f8c86a1f3ef4c73">"[Update] JIRA XRay Tests" (dd1fdca7938)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/dbb8a5984f0636b2901a3e943dbe76a05087dec2">"[Update] JIRA XRay Tests" (dbb8a5984f0)</a>
   
 </div>
 
@@ -64699,17 +64878,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../js/clipboard.min.js?1691045298"></script>
-    <script src="../../../../../js/perfect-scrollbar.min.js?1691045298"></script>
-    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1691045298"></script>
-    <script src="../../../../../js/jquery.sticky.js?1691045298"></script>
-    <script src="../../../../../js/featherlight.min.js?1691045298"></script>
-    <script src="../../../../../js/html5shiv-printshiv.min.js?1691045298"></script>
-    <script src="../../../../../js/modernizr.custom-3.6.0.js?1691045298"></script>
-    <script src="../../../../../js/learn.js?1691045298"></script>
-    <script src="../../../../../js/hugo-learn.js?1691045298"></script>
+    <script src="../../../../../js/clipboard.min.js?1691089759"></script>
+    <script src="../../../../../js/perfect-scrollbar.min.js?1691089759"></script>
+    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1691089759"></script>
+    <script src="../../../../../js/jquery.sticky.js?1691089759"></script>
+    <script src="../../../../../js/featherlight.min.js?1691089759"></script>
+    <script src="../../../../../js/html5shiv-printshiv.min.js?1691089759"></script>
+    <script src="../../../../../js/modernizr.custom-3.6.0.js?1691089759"></script>
+    <script src="../../../../../js/learn.js?1691089759"></script>
+    <script src="../../../../../js/hugo-learn.js?1691089759"></script>
     
-    <script src="../../../../../main.js?1691045298"></script>
+    <script src="../../../../../main.js?1691089759"></script>
     
     
 
