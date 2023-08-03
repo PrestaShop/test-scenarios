@@ -8,13 +8,6 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to Shop Parameters >Search > Tags | Tags page is well displayed<br><br> Tags table is empty  = 0 |
-| Go to Shop Parameters >Search > Tags | Tags page is well displayed<br><br> Tags table is empty  = 0 |
-| Click on "Add new Tag" | Add new  tag page will display |
-| fill the blanks of the Name , Language > double click on a product / or choose a product a click on add<br><br> <br><br>Click on Save | Tags  page is well displayed<br><br>Successful message is displayed .<br><br>the tags  table  +1 : ( with ID (1) , LANGUAGE(anglais)  , NAME (Test_tag)  ,  Products (1)   ) |
-| click on the   Edit button | the edit page will dislay |
-| change some data >Save | Tags  page is well displayed<br><br>Successful update message is displayed .<br><br>the tags  table  +1 : ( with ID (1) , LANGUAGE(francais)  , NAME (tag_1)  ,  Products (2)   ) |
-| Click on the dropdown -toggle > Delete | Confirmation modale displayed: <br><br>Delete selected item?<br><br>Name: tag_1 |
-| Click on Yes | succesful message is displayed "Successful deletion"<br><br>the tags  table =0 |
 | create 21 new tags | Tags page is well displayed<br><br>the tags table  = 21 |
 | Reset all filters | All filters are reset , all the Tags are  displayed |
 | Filter by ID =1 | list is filtered by  ID =1 |
