@@ -243,6 +243,33 @@ chapter: true
             . '# ' . addslashes($test['summary'])
             . PHP_EOL;
 
+        ## Details
+        $detailsStatus = str_replace('[Test] ', '', $test['workflowStatus']);
+        $detailsComponent = $test['components'][0] ?? '';
+        $detailsLabel = [];
+        foreach($test['labels'] as $label) {
+            if (strpos($label, 'Automated_') === 0) {
+                $label = str_replace('Automated_', '', $label);
+                $detailsLabel[] = implode('.', str_split($label, 1));
+            }
+        }
+        $issue = $detailsStatus === 'Automated' ? $this->getIssueContent($test['key']) : [];
+
+        $content .= '## Details' . PHP_EOL;
+        if (!empty($detailsComponent)) {
+            $content .= '* **Component** : '. $detailsComponent . PHP_EOL;
+        }
+        $content .= '* **Status** : '. $detailsStatus . PHP_EOL;
+        if (!empty($detailsLabel)) {
+            $content .= '* **Automated on** : '. implode(', ', $detailsLabel) . PHP_EOL;
+        }
+        $content .= '* **Scenario** : https://forge.prestashop.com/browse/' . $test['key'] . PHP_EOL;
+        if (!empty($issue['fields']['customfield_12692'])) {
+            $content .=  '* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/'. $issue['fields']['customfield_12692'] . '.ts' . PHP_EOL;
+        }
+        $content .= PHP_EOL;
+
+        ## Steps
         if (!empty($steps)) {
             $content .= '## Steps' . PHP_EOL;
             $content .= '| ' . 'Step Description'
@@ -268,5 +295,34 @@ chapter: true
         }
 
         return $content;
+    }
+
+    protected function getIssueContent(string $key) : array
+    {
+        $this->requestsCount++;
+
+        $url = 'https://forge.prestashop.com/rest/api/2/search?jql=' . urlencode(
+            'type = Test'
+            . ' AND (issue in testRepositoryFolderTests(TEST, Core, "true") OR issue in testRepositoryFolderTests(TEST, Modules, "true"))'
+            . ' AND key = ' . $key
+        ) . '&maxResults=1';
+        $ch = curl_init();
+        $headers = [
+            'Accept: application/json',
+            'Content-Type: application/json',
+            'Authorization: Basic ' . $this->apiKey,
+        ];
+
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        // curl_setopt($ch, CURLOPT_VERBOSE, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
+        curl_setopt($ch, CURLOPT_URL, $url);
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        $result = json_decode($result, true);
+
+        return $result['issues'][0] ?? [];
     }
 }
