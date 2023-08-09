@@ -6,8 +6,8 @@ weight: 5
 # BO - International - Localization - Languages - Quick edit
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Status** : [TEST] To be automated
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-997
 
 ## Steps

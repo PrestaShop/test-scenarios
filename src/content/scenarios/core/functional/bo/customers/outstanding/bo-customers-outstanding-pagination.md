@@ -6,7 +6,7 @@ weight: 4
 # BO - Customers - Outstanding - Pagination
 ## Details
 * **Status** : Automated
-* **Automated on** : 8.0.x, 8.1.x
+* **Automated on** : 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3261
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/03_outstanding/04_pagination.ts
 

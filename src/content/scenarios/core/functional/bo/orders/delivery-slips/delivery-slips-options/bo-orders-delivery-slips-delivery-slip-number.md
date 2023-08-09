@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Automated on** : 8.0.x, 8.1.x, 9.0.x, 1.7.8.x, 1.7.7.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-771
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/04_deliverySlips/02_deliverySlipOptions/02_deliverySlipNumber.ts
 

@@ -5,10 +5,9 @@ weight: 1
 
 # Access to Menu tab is denied with neither left menu and Url
 ## Details
-* **Status** : Automated
+* **Status** : Deprecated
 * **Automated on** : 1.7.8.x, 8.0.x, 8.1.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-2141
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/regression/menu/deniedAccessToMenuTab.ts
 
 ## Steps
 | Step Description | Expected result |

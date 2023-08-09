@@ -6,7 +6,7 @@ weight: 9
 # BO - Catalog - Attributes - Sort, Pagination and bulk delete Values
 ## Details
 * **Status** : Automated
-* **Automated on** : 1.7.8.x, 8.0.x, 8.1.x
+* **Automated on** : 1.7.8.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1777
 
 ## Steps

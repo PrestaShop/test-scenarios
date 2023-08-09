@@ -6,10 +6,11 @@ weight: 6
 # BO - Dashboard - Contextual help
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-711
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Open on several migrated and non migrated page the Help panel | The help for the page is displayed on a side popin<br>Title is : Discovering the Administration Area |
+| On BO > Dashboard | Page title is Dashboard |
+| Click on "Help" | The help for the page is displayed on a side popin<br>Title is : Discovering the Administration Area |

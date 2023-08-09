@@ -6,8 +6,8 @@ weight: 2
 # BO - Shop Parameters - Product Settings - Update default products order by and order method (TODO)
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x
+* **Status** : [TEST] To be automated
+* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1082
 
 ## Steps
@@ -41,3 +41,6 @@ weight: 2
 | Set products default order method to Ascending | The default order method Ascending is well selected |
 | Click on save button | Successful update message is displayed |
 | Click on the button View my shop > go to all products page > check that products are ordered by: 'Position inside category - Ascending' |  |
+| Go to BO |  |
+| Set products default order method to Ascending<br><br>set products default order to Product price | The default order method  Ascending is well selected |
+| Click on save button | Successful update message is displayed |
