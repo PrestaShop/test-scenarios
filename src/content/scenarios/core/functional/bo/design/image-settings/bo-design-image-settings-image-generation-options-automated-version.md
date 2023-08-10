@@ -8,6 +8,7 @@ weight: 10
 * **Component** : Core
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5667
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/09_imageGenerationOptions.ts
 
 ## Steps
 | Step Description | Expected result |

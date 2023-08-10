@@ -9,6 +9,7 @@ weight: 3
 * **Status** : Automated
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1208
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/02_orderHistory/03_downloadInvoice.ts
 
 ## Steps
 | Step Description | Expected result |

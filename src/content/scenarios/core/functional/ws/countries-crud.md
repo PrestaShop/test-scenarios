@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6064
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/campaigns/functional/WS/01_countriesCRUD.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts
 
 ## Steps
 | Step Description | Expected result |

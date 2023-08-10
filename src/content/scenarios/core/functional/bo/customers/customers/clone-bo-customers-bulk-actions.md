@@ -1,14 +1,14 @@
 ---
-title: "BO - Customers - Bulk Actions, Pagination and Sort"
-weight: 3
+title: "CLONE - BO - Customers - Bulk Actions"
+weight: 10
 ---
 
-# BO - Customers - Bulk Actions, Pagination and Sort
+# CLONE - BO - Customers - Bulk Actions
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : Sandbox
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-850
+* **Scenario** : https://forge.prestashop.com/browse/TEST-7264
 
 ## Steps
 | Step Description | Expected result |
@@ -23,8 +23,3 @@ weight: 3
 | Select All Customers > Bulk Action > Disable selection | All customers are disabled<br><br>Message successful update |
 | Select All Customers > Bulk Action > Enable selection | All customers are enabled<br><br>Message successful update |
 | Select All Customers > Bulk Action > Delete selection > Confirm deletion | Customers are successfully deleted<br><br>Message "The selection has been successfully deleted" |
-| Reset filter | All customers are displayed in list |
-| Check the pagination is correct:<br> - total number of items<br> - current page<br> - total of pages<br> - number of items per page | Total number of items should be correct<br>Current page should be 1<br>Total of pages should be 1<br>Number of items should be 50 (by default) |
-| Change the number of items per page to 10 | There are 10 items visible<br>Current page is 1<br>Total of pages is 2 |
-| Go to page 2 | There are 5 items visible<br>Current page is 2<br>Total of pages is 2 |
-| Change the number of items per page to 50 | There are 15 items visible<br>Current page is 1<br>Total of pages is 1 |

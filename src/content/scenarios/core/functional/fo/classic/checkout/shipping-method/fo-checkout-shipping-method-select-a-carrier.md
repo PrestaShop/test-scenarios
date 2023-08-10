@@ -9,6 +9,7 @@ weight: 2
 * **Status** : Automated
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1308
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/03_shippingMethods/02_selectCarrier.ts
 
 ## Steps
 | Step Description | Expected result |
