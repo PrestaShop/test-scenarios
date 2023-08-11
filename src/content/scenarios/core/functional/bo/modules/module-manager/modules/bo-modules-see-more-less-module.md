@@ -6,7 +6,8 @@ weight: 11
 # BO - Modules - See more / less module
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : Deprecated
+* **Automated on** : 8.1.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-884
 
 ## Steps

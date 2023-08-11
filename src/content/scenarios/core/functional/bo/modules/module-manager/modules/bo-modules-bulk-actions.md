@@ -7,7 +7,9 @@ weight: 7
 ## Details
 * **Component** : Core
 * **Status** : Automated
+* **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-880
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/07_bulkActions.ts
 
 ## Steps
 | Step Description | Expected result |

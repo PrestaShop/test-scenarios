@@ -9,7 +9,7 @@ weight: 2
 * **Status** : Automated
 * **Automated on** : 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1230
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/07_search/02_searchProduct.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/02_searchProduct.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -9,7 +9,7 @@ weight: 2
 * **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1196
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/02_headerAndFooter/02_checkLinksInFooter.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/02_headerAndFooter/02_checkLinksInFooter.ts
 
 ## Steps
 | Step Description | Expected result |

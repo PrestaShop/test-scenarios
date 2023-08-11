@@ -7,7 +7,9 @@ weight: 5
 ## Details
 * **Component** : Core
 * **Status** : Automated
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-878
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/05_resetModule.ts
 
 ## Steps
 | Step Description | Expected result |

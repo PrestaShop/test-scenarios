@@ -7,7 +7,9 @@ weight: 5
 ## Details
 * **Component** : Core
 * **Status** : Automated
+* **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-2685
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/05_checkTotalAvailableForEachUser.ts
 
 ## Steps
 | Step Description | Expected result |

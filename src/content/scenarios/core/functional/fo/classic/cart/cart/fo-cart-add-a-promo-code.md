@@ -7,7 +7,9 @@ weight: 3
 ## Details
 * **Component** : Core
 * **Status** : Automated
+* **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1281
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/10_cart/02_cart/03_addPromoCode.ts
 
 ## Steps
 | Step Description | Expected result |

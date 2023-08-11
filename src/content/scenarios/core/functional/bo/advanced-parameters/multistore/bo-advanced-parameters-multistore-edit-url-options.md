@@ -7,7 +7,9 @@ weight: 8
 ## Details
 * **Component** : Core
 * **Status** : Automated
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1189
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/07_editUrlOptions.ts
 
 ## Steps
 | Step Description | Expected result |

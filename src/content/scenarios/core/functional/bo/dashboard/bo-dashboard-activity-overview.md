@@ -13,7 +13,7 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to Dashboard> Activity overview and click on _Online Visitors_ | The page Sell>Stats is displayed |
-| Go back to Dashboard> Activity overview and click on Active Shopping Carts | The page Orders Shopping> Carts is displayed. |
+| Go back to Dashboard> Activity overview and click on Active Shopping Carts | The page Orders Shopping>Shopping  Carts is displayed. |
 | Go to BO > Orders > Orders > Click Add new order > Choose existing customer | Check that Summary block is not visible |
 | Add product to cart | Check that summary block is visible<br><br>Check Summary > *Total Product* & *Total (Tax excl.)* should be equal<br><br>*Total (Tax incl.)* should be equal to ** *Total taxes* + *Total (Tax excl.)* |
 | Add a voucher | See in Summary that *Total vouchers (Tax excl.)* has been updated |

@@ -9,7 +9,7 @@ weight: 4
 * **Status** : Automated
 * **Automated on** : 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1202
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/03_userAccount/04_getGDPRDataInPDF.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/04_getGDPRDataInPDF.ts
 
 ## Steps
 | Step Description | Expected result |
