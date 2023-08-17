@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1692168222" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1692168222" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1692168222" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1692168222" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1692168222" rel="stylesheet">
-    <link href="../../../../../../style.css?1692168222" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1692255336" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1692255336" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1692255336" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1692255336" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1692255336" rel="stylesheet">
+    <link href="../../../../../../style.css?1692255336" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1692168222"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1692255336"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65172,7 +65172,7 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : In progress</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-962">https://forge.prestashop.com/browse/TEST-962</a></li>
 </ul>
 <h2 id="steps">Steps</h2>
@@ -65185,11 +65185,15 @@
 </thead>
 <tbody>
 <tr>
-<td><em>Case 1 : Using JPEG base image(with high resolution)</em><br><br><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td><em>Case 1 : Using JPEG base image(with high resolution)</em><br> * <em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section<br> * Put the specified data &gt; Click on <em>Save</em> button</td>
 <td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
 </tr>
 <tr>
 <td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>A new product page is displayed</td>
+</tr>
+<tr>
+<td>* Set a product with a name and an image in <em>JPEG</em>  : use attached image for exemple<br> * Put it online <br> * Clic on &ldquo;Save&rdquo;</td>
 <td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
@@ -65197,11 +65201,15 @@
 <td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * Image size = 238.3 KB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1395/Desktop-screenshot.png</td>
 </tr>
 <tr>
-<td><em>Using JPEG base image(with low resolution)</em><br>**<br><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td><em>Using JPEG base image(with low resolution)</em><br> * <em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section <br> * Put the specified data &gt; Click on <em>Save</em> button</td>
 <td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
 </tr>
 <tr>
 <td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>A new product page is displayed</td>
+</tr>
+<tr>
+<td>* Set a product with a name and an image in <em>JPEG</em>  : use attached image for exemple<br> * Put it online <br> * Clic on &ldquo;Save&rdquo;</td>
 <td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
@@ -65209,11 +65217,15 @@
 <td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * The image size = 25.8 kB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1398/Desktop-screenshot%20(1).png</td>
 </tr>
 <tr>
-<td><em>Case 2 : Using WebP base image (with High resolution)</em><br><br><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td><em>Case 2 : Using WebP base image (with High resolution)</em><br> * <em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> <br> * Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
 <td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
 </tr>
 <tr>
 <td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>A new product page is displayed</td>
+</tr>
+<tr>
+<td>* Set a product with a name and an image in <em>Webp</em>  : use attached image for exemple<br> * Put it online <br> * Clic on &ldquo;Save&rdquo;</td>
 <td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
@@ -65221,11 +65233,15 @@
 <td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * The image size = 40.6kB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1405/webP-prop.png</td>
 </tr>
 <tr>
-<td><em>Using WebP base image(with low resolution)</em><br><br><em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> &gt; Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
+<td><em>Using WebP base image(with low resolution)</em><br> * <em>Bo</em> &gt; <em>Design</em> &gt; <em>Image Settings</em> <br> * Go to <em>Images generation options</em> section &gt; Put the specified data &gt; Click on <em>Save</em> button</td>
 <td>* Image Settings page is well displayed<br> * Message displayed : &lsquo;The settings have been successfully updated.&rsquo;</td>
 </tr>
 <tr>
 <td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>A new product page is displayed</td>
+</tr>
+<tr>
+<td>* Set a product with a name and an image in <em>Webp</em>  : use attached image for exemple<br> * Put it online <br> * Clic on &ldquo;Save&rdquo;</td>
 <td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
@@ -65238,6 +65254,10 @@
 </tr>
 <tr>
 <td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>A new product page is displayed</td>
+</tr>
+<tr>
+<td>* Set a product with a name and an image in <em>PNG</em>  : use attached image for exemple<br> * Put it online <br> * Clic on &ldquo;Save&rdquo;</td>
 <td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
@@ -65250,6 +65270,10 @@
 </tr>
 <tr>
 <td>BO &gt; Catalog &gt; Products &gt; Click on New product button &gt; Standard product &gt; Add new product</td>
+<td>A new product page is displayed</td>
+</tr>
+<tr>
+<td>* Set a product with a name and an image in <em>PNG</em>, use attached image for exemple<br> * Put it online <br> * Clic on &ldquo;Save&rdquo;</td>
 <td>* You should have the name on the product name and an image on the image selection <br> * The Online button is enabled<br> * You have a green modal and it say : &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
@@ -65257,19 +65281,19 @@
 <td>* The Image extension is  .jpg<br> * Image properties are well displayed <br> * The image size = 57.4 KB<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1435/Desktop-screenshot.png!</td>
 </tr>
 <tr>
-<td><em>Product Customization pictures</em><br><br>BO &gt; Design &gt; Image Settings &gt; Images generation options section &gt; Put the specified data &gt; Click on Save button</td>
+<td><em>Product Customization pictures &amp; high resolution images</em><br><br>BO &gt; Design &gt; Image Settings &gt; Images generation options section &gt; Put the specified data &gt; Click on Save button</td>
 <td>This message is well displayed : &ldquo;The settings have been successfully updated.&rdquo;</td>
 </tr>
 <tr>
-<td>BO &gt; Catalog &gt; Products &gt; click on any standard product &gt; Details tab &gt; Customization &gt; put the specified data &gt; Click on Save and publish button</td>
-<td>This message is displayed : &ldquo;Successful update&rdquo;</td>
+<td>* BO &gt; Catalog &gt; Products <br> * Click on any standard product<br> * Details tab &gt; Customization &gt; Add a customization field <br> * Set up the customisation with the provided Data <br> * Click on &ldquo;Publish and Save&rdquo;</td>
+<td>* Product should be displayed <br> * Details of this product is displayed<br> * You have some new field to set up to have customisation <br> * The different field is set up <br> * This message is displayed : &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
-<td>FO &gt; Click on product edited in previous step &gt; Click on CHOOSE FILE button &gt; Add an image &gt; Click on SAVE CUSTOMIZATION button</td>
-<td>* The image added is well displayed in <em>Product customization</em> area<br> * Romove Image link is displayed</td>
+<td>* Go to FO &gt; Click on product edited in previous step<br> * Click on CHOOSE FILE button &gt; Add an image<br> * Click on SAVE CUSTOMIZATION button</td>
+<td>* The product is well displayed<br> * The name of your image is set up in the field <br> * The image added is well displayed in <em>Product customization</em> area and Romove Image link is displayed</td>
 </tr>
 <tr>
-<td>Go to your folder [yourshop]/img/p/[id of your new product png]</td>
+<td>Go to your folder [yourshop]/img/p/[id of the product you visit]</td>
 <td>* The image number in folder is doubled (11 image files .jpg)<br> * Every image is duplicated with new name  &hellip;..<em>2x</em>.jpg<br> * The image resolution in new added files is doubled</td>
 </tr>
 </tbody>
@@ -65279,9 +65303,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 16, 2023
+  Last updated on August 17, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/12327279217034f90893a207bfb63f387aa232b0">"[Update] JIRA XRay Tests" (12327279217)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/ba2dabd1f6b8d72f4ea86443dba8717eaf32c7b3">"[Update] JIRA XRay Tests" (ba2dabd1f6b)</a>
   
 </div>
 
@@ -65302,17 +65326,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1692168223"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1692168223"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1692168223"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1692168223"></script>
-    <script src="../../../../../../js/featherlight.min.js?1692168223"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1692168223"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1692168223"></script>
-    <script src="../../../../../../js/learn.js?1692168223"></script>
-    <script src="../../../../../../js/hugo-learn.js?1692168223"></script>
+    <script src="../../../../../../js/clipboard.min.js?1692255337"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1692255337"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1692255337"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1692255337"></script>
+    <script src="../../../../../../js/featherlight.min.js?1692255337"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1692255337"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1692255337"></script>
+    <script src="../../../../../../js/learn.js?1692255337"></script>
+    <script src="../../../../../../js/hugo-learn.js?1692255337"></script>
     
-    <script src="../../../../../../main.js?1692168223"></script>
+    <script src="../../../../../../main.js?1692255337"></script>
     
     
 
