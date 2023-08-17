@@ -18,6 +18,6 @@ weight: 1
 | Select an option for ' Transplant to ' | The choosen option is well selected |
 | Select an option for Exceptions 'address' | The choosen excpetions is well selected |
 | Click on save button | A success message shoud be displayed 'The module transplanted successfully to the hook.' |
-| In show modules select the module *banner* | Hook displayAdminEndContent is displayed and highlighted |
-| In Search for a hook field > Search for displayAdminEndContent | Hook displayAdminEndContent is displayed and highlighted |
-| Delete everything in the search hook field | All hooks are displayed |
+| In show modules select the module *banner* | Hook displayAdminEndContent is displayed and Banner is highlighted |
+| In Search for a hook field > Search for displayAdminEndContent | * Hook displayAdminEndContent is displayed and highlighted<br> * You can see the banner under all the position displayed |
+| Delete everything in the search hook field and in modules field select "All modules" | All hooks are displayed |

@@ -9,3 +9,7 @@ weight: 5
 * **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-901
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Modules > Modules Manager | Modules should be displayed and arrange by type |

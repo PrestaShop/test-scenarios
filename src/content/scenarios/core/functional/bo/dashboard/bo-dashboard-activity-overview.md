@@ -13,7 +13,7 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to Dashboard> Activity overview and click on _Online Visitors_ | The page Sell>Stats is displayed |
-| Go back to Dashboard> Activity overview and click on Active Shopping Carts | The page Orders Shopping>Shopping  Carts is displayed. |
+| Go back to Dashboard> Activity overview and click on Active Shopping Carts | The page SELL>"Orders">"Shopping Carts" is displayed. |
 | Go to BO > Orders > Orders > Click Add new order > Choose existing customer | Check that Summary block is not visible |
 | Add product to cart | Check that summary block is visible<br><br>Check Summary > *Total Product* & *Total (Tax excl.)* should be equal<br><br>*Total (Tax incl.)* should be equal to ** *Total taxes* + *Total (Tax excl.)* |
 | Add a voucher | See in Summary that *Total vouchers (Tax excl.)* has been updated |
@@ -27,15 +27,15 @@ weight: 3
 | Go back to Active Shopping Carts | The total Active Shopping Carts activity overview +1 |
 | Go back to Dashboard> Activity overview> Currently Pending | On Currently Pending you will see :<br>|Orders|Return/Exchanges|Abandoned Carts|Out of Stock Products| |
 | Click on Orders in Currently Pending | The orders is displayed. |
-| Click on Return/Exchanges in Currently Pending | The Customer Service> Merchandise Returns page is displayed. |
+| Go back to Dashboard> Activity overview> Currently Pending<br><br>Click on Return/Exchanges | The Customer Service> Merchandise Returns page is displayed. |
 | Go to BO > SELL > Customer Service > Merchandise Returns | The Merchandise returns page is well displayed |
 | Enable the returns of product and click on Save | The toggle is well enabled and a message "The settings have been successfully updated." is displayed |
 | Click on the Time limit of validity and change the number of days as desired and click on Save | The new number is well-updated and a message "The settings have been successfully updated." is displayed |
 | Click on the Returns prefix and change the prefix used for the downloadable pdf file | The new value is well-updated and a message "The settings have been successfully updated." is well displayed |
-| Go to orders> orders<br><br>Choose a product and click on _view_  button | The product details page is displayed |
-| Click on product status and change it to delivered<br><br>click on update status | _Successful update_ message is well displayed.<br><br>_Returned products_ button is enabled |
+| Go to orders> orders<br><br>Choose an Oreder and click on _view_  button | The order details page is displayed |
+| Click on Order status and change it to delivered<br><br>click on update status | _Successful update_ message is well displayed.<br><br>_Returned products_ button is enabled |
 | Click on _Returned products_ button | The product details are displayed |
-| Check the quantity and click on _Returned products_ button | The product details page is displayed<br><br>*_The product was successfully returned_* message is displayed |
+| Check the quantity and click on _Returned products_ button | The Order details page is displayed<br><br>*_The product was successfully returned_* message is displayed |
 | Go back to Dashboard> Activity overview> Currently Pending | Toatle Return/Exchanges +1 |
 | Click on Abandoned Carts in Currently Pending | The Orders> Shopping Carts page is displayed. |
 | Click on Out of stock products in Currently Pending | The Catalog> Monitoring page is displayed. |
