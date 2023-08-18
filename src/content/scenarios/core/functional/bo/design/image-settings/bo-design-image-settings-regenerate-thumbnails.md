@@ -6,6 +6,6 @@ weight: 4
 # BO - Design - Image Settings - Regenerate thumbnails
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-963
 
