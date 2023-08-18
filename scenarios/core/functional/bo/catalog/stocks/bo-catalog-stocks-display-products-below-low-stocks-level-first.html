@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1692255328" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1692255328" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1692255328" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1692255328" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1692255328" rel="stylesheet">
-    <link href="../../../../../../style.css?1692255328" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1692341560" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1692341560" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1692341560" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1692341560" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1692341560" rel="stylesheet">
+    <link href="../../../../../../style.css?1692341560" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1692255328"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1692341560"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41583,6 +41583,7 @@
     <li><a href="#bo---catalog---stocks---display-products-below-low-stocks-level-first">BO - Catalog - Stocks - Display products below low stocks level first</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65171,17 +65172,40 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-843">https://forge.prestashop.com/browse/TEST-843</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Fixing Low stock level in product page</em><br>BO &gt; Catalog &gt; Products &gt; Click on Edit &gt; Stocks tab &gt; Enable button &ldquo;Receive a low stock alert by email&rdquo; &gt; set value in the field &gt; Click Save and publish button</td>
+<td>This message is displayed &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>BO &gt; Catalog &gt; Stock &gt; check the &ldquo;Display products below low stock level first&rdquo; checkbox</td>
+<td>The products below stock level are displayed in top list<br>!https://forge.prestashop.com/plugins/servlet/raven/tempattachment/7808350375999045298/low%20level.png</td>
+</tr>
+<tr>
+<td>Uncheck the &ldquo;Display products below low stock level first&rdquo; checkbox</td>
+<td>The default order of products is displayed (sort based on ID)<br><br>!https://forge.prestashop.com/plugins/servlet/raven/tempattachment/5421560101801734899/low%202.png</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 16, 2023
+  Last updated on August 18, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/12327279217034f90893a207bfb63f387aa232b0">"[Update] JIRA XRay Tests" (12327279217)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/ada8e72b0c95cec43faf137f4edacc8ea89892c3">"[Update] JIRA XRay Tests" (ada8e72b0c9)</a>
   
 </div>
 
@@ -65202,17 +65226,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1692255328"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1692255328"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1692255328"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1692255328"></script>
-    <script src="../../../../../../js/featherlight.min.js?1692255328"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1692255328"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1692255328"></script>
-    <script src="../../../../../../js/learn.js?1692255328"></script>
-    <script src="../../../../../../js/hugo-learn.js?1692255328"></script>
+    <script src="../../../../../../js/clipboard.min.js?1692341560"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1692341560"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1692341560"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1692341560"></script>
+    <script src="../../../../../../js/featherlight.min.js?1692341560"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1692341560"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1692341560"></script>
+    <script src="../../../../../../js/learn.js?1692341560"></script>
+    <script src="../../../../../../js/hugo-learn.js?1692341560"></script>
     
-    <script src="../../../../../../main.js?1692255328"></script>
+    <script src="../../../../../../main.js?1692341560"></script>
     
     
 

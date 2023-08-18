@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-simple-filter-stocks.html</guid>
-      <description>BO - Catalog - Stocks - simple Filter Stocks Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-838  Steps    Step Description Expected result     Go to Catalog &amp;gt; Stocks Stock management page is displayed   filter by supplier All products with Fashion supplier are displayed   Add filter by categories All products with Fashion supplier and Art categories are displayed   reset filter All products are displayed   filter by supplier All products with Accessories supplier are displayed   Add filter by categories All products with Accessories supplier and Stationery categories are displayed   reset filter number of element in grid after reset = total of element in grid    </description>
+      <description>BO - Catalog - Stocks - simple Filter Stocks Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-838  Steps    Step Description Expected result     Go to Catalog &amp;gt; Stocks Stock management page is displayed   Clic on Advenced Filter More filter is displayed   filter by supplier All products with Fashion supplier are displayed   Add filter by categories All products with Fashion supplier and Art categories are displayed   uncheck all checkboxes to reset filter All products are displayed   filter by supplier All products with Accessories supplier are displayed   Add filter by categories All products with Accessories supplier and Stationery categories are displayed   uncheck all checkboxes to reset filter number of element in grid after reset = total of element in grid    </description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-sort-and-pagination.html</guid>
-      <description>BO - Catalog - Stocks - Sort and pagination Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-839  Steps    Step Description Expected result     Go to BO&amp;gt; Catalog&amp;gt; Stock page title contains &amp;lsquo;Stock&amp;rsquo; is displayed   Sort products by ID asc The list is sorted by ID asc   Sort product name asc The list is sorted by name asc   Sort product name desc The list is sorted by name desc   Sort product by reference asc The list is sorted by reference asc   Sort product by reference desc The list is sorted by reference desc   Sort product by supplier asc The list is sorted by supplier asc   Sort product by physical asc The list is sorted by physical asc   Sort product by physical desc The list is sorted by physical desc   Sort product by available asc The list is sorted by available asc   Sort product by available desc The list is sorted by available desc   Go to the buttom of page and click on page 2 page 2 is displayed   Return to page 1 page 1 is displayed    </description>
+      <description>BO - Catalog - Stocks - Sort and pagination Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-839  Steps    Step Description Expected result     Go to BO&amp;gt; Catalog&amp;gt; Stock page title contains &amp;lsquo;Stock&amp;rsquo; is displayed   Sort products by ID asc The list is sorted by ID asc   Sort products by ID desc The list is sorted by ID desc   Sort product name asc The list is sorted by name asc   Sort product name desc The list is sorted by name desc   Sort product by reference asc The list is sorted by reference asc   Sort product by reference desc The list is sorted by reference desc   Sort product by supplier asc The list is sorted by supplier asc   Sort product by physical asc The list is sorted by physical asc   Sort product by physical desc The list is sorted by physical desc   Sort product by available asc The list is sorted by available asc   Sort product by available desc The list is sorted by available desc   Go to the buttom of page and click on page 2 page 2 is displayed   Return to page 1 page 1 is displayed    </description>
     </item>
     
     <item>
@@ -30,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-update-quantity-by-setting-input.html</guid>
-      <description>BO - Catalog - Stocks - Update Quantity by setting input Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-840  Steps    Step Description Expected result     Go to BO&amp;gt; Catalog&amp;gt; Stock page title contains &amp;lsquo;Stock&amp;rsquo; is displayed   Go to a product and edit quantity 7 new items have been added on Physical and Available rows   Go to a product and edit quantity 10 items have been deleted on Physical and Available rows    </description>
+      <description>BO - Catalog - Stocks - Update Quantity by setting input Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-840  Steps    Step Description Expected result     Go to BO&amp;gt; Catalog&amp;gt; Stock page title contains &amp;lsquo;Stock&amp;rsquo; is displayed   * Overlapse the field of edit quantity * Clic on the up arrow until you reach 5</description>
     </item>
     
     <item>
@@ -57,7 +57,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/stocks/bo-catalog-stocks-display-products-below-low-stocks-level-first.html</guid>
-      <description>BO - Catalog - Stocks - Display products below low stocks level first Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-843  </description>
+      <description>BO - Catalog - Stocks - Display products below low stocks level first Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-843  Steps    Step Description Expected result     Fixing Low stock level in product page
+BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click on Edit &amp;gt; Stocks tab &amp;gt; Enable button &amp;ldquo;Receive a low stock alert by email&amp;rdquo; &amp;gt; set value in the field &amp;gt; Click Save and publish button This message is displayed &amp;ldquo;Successful update&amp;rdquo;   BO &amp;gt; Catalog &amp;gt; Stock &amp;gt; check the &amp;ldquo;Display products below low stock level first&amp;rdquo; checkbox The products below stock level are displayed in top list</description>
     </item>
     
     <item>
