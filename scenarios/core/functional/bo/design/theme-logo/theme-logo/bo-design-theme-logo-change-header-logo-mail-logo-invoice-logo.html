@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1692341574" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1692341574" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1692341574" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1692341574" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1692341574" rel="stylesheet">
-    <link href="../../../../../../../style.css?1692341574" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1692427937" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1692427937" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1692427937" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1692427937" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1692427937" rel="stylesheet">
+    <link href="../../../../../../../style.css?1692427937" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1692341574"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1692427937"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41589,6 +41589,7 @@
     <li><a href="#bo---design---theme--logo---change-header-logo--mail-logo--invoice-logo">BO - Design - Theme &amp; Logo - Change Header logo / mail logo / invoice logo</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65177,17 +65178,64 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-917">https://forge.prestashop.com/browse/TEST-917</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Design &gt; Theme &amp; Logo</td>
+<td>The Theme &amp; Logo &gt; Theme page is displayed</td>
+</tr>
+<tr>
+<td><em>For the Header logo</em> <br> * In the square of Header logo, Click on Browse button<br> * Select a SVG image <br> * Clic on Save button</td>
+<td>* You folder should be open to select an image<br> * It name should set on the field next to the Browse button<br> * The image should be set <em>only</em> for the header logo</td>
+</tr>
+<tr>
+<td>* In the square of Header logo, Click on Browse button<br> * Select a any other image type<br> * Clic on Save button</td>
+<td>* You folder should be open to select an image<br> * It name should set on the field next to the Browse button<br> * The image should be set for the header logo, the mail logo and the invoice logo</td>
+</tr>
+<tr>
+<td><em>For the Mail logo</em> <br> * In the square of Mail logo, Click on Browse button<br> * Select any image type<br> * Clic on Save button</td>
+<td>* You folder should be open to select an image<br> * It name should set on the field next to the Browse button<br> * The image should be set <em>only</em> for the mail logo</td>
+</tr>
+<tr>
+<td><em>For the Invoice logo</em> <br> * Clic on Invoice logo <br> * In the square of Invoice logo, Click on Browse button<br> * Select any image type<br> * Clic on Save button</td>
+<td>* Now Invoice logo is bold and underline and you have the image of invoice <br> * You folder should be open to select an image<br> * It name should set on the field next to the Browse button<br> * The image should be set <em>only</em> for the invoice logo</td>
+</tr>
+<tr>
+<td><em>For the Favicon</em> <br> * Clic on the link under the field of the favicon name <br> * Clic on upload picture <br> * Select a WebP picture<br> * Clic on Generate</td>
+<td>* You&rsquo;ll be redirect to [https://addons.prestashop.com/en/create-favicon.php?pab=1] <br> * You folder is displayed <br> * It name should set on the field next to the Upload picture<br> * You&rsquo;ll have a red alert : &ldquo;Something went wrong! Image format not recognized, allowed formats are: jpg, jpeg, png&rdquo;</td>
+</tr>
+<tr>
+<td>* Clic on upload picture <br> * Select a picture with more than 2 Mo<br> * Clic on Generate</td>
+<td>* You folder is displayed <br> * It name should set on the field next to the Upload picture<br> * You&rsquo;ll have a red alert : &ldquo;Something went wrong! Image is too large (5652 kB). Maximum allowed: 1953 kB&rdquo;</td>
+</tr>
+<tr>
+<td>* Clic on upload picture <br> * Select a picture with minus than 2 Mo<br> * Clic on Generate<br> * Connect with your account <br> * Clic on download your favicon</td>
+<td>* You folder is displayed <br> * It name should set on the field next to the Upload picture<br> * The website will ask to connect to your account <br> * You&rsquo;ll have your favicon in your folder</td>
+</tr>
+<tr>
+<td>* In the square of Favicon, Click on Browse button<br> * Select ico image type<br> * Clic on Save button</td>
+<td>* You folder should be open to select an image<br> * It name should set on the field next to the Browse button<br> * The image should be set <em>only</em> for the favicon</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 17, 2023
+  Last updated on August 19, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/ba2dabd1f6b8d72f4ea86443dba8717eaf32c7b3">"[Update] JIRA XRay Tests" (ba2dabd1f6b)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/44fb80baae7c76eb31e382c8f427021ba959657e">"[Update] JIRA XRay Tests" (44fb80baae7)</a>
   
 </div>
 
@@ -65208,17 +65256,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1692341574"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1692341574"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1692341574"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1692341574"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1692341574"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1692341574"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1692341574"></script>
-    <script src="../../../../../../../js/learn.js?1692341574"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1692341574"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1692427937"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1692427937"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1692427937"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1692427937"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1692427937"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1692427937"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1692427937"></script>
+    <script src="../../../../../../../js/learn.js?1692427937"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1692427937"></script>
     
-    <script src="../../../../../../../main.js?1692341574"></script>
+    <script src="../../../../../../../main.js?1692427937"></script>
     
     
 
