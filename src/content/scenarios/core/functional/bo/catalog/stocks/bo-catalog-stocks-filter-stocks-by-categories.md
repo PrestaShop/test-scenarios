@@ -9,3 +9,8 @@ weight: 7
 * **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-844
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| BO > Catalog >Stock | * *Stock* tab is selected<br> * Page Stock management is well displayed |
+| Click on Advanced filters > go to Filter by categories > Click on EXPAND link |  |
