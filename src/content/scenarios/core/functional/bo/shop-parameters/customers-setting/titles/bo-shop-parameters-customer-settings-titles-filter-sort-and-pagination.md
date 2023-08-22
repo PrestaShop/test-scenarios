@@ -13,15 +13,14 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to Shop Parameters > Customer Settings>Titles | Title page of customer settings is well displayed |
-| Reset all filters | All filters are reset. All customers Titles  are displayed |
+| Go to Shop Parameters > Customer Settings>Titles | Titles page is well displayed |
 | Filter By id Criteria : '1' | Customers title  list is filtered. titles  listed have 1 in their ID |
 | Reset all filters | All filters are reset. All customers Titles  are displayed |
 | Filter By Social title  Criteria :  Mr. | Customers titles list is filtered. titles  listed have Mr. in their Social title |
 | Reset all filters | All filters are reset. All customers Titles  are displayed |
 | Filter By Gender . Criteria : Male | Customers titles  list is filtered. titles listed have Male in their gender |
 | Reset all filters | All filters are reset. All customers Titles  are displayed |
-| Create 21 title | Customer titles lis is well displayed . there  is 21 title . |
+| Ad new 21 social  titles : | Customer titles list is well displayed . |
 | Change the number of items per page to 20 | There are 20 items visible<br>Current page is 1<br>Total of pages is 2 |
 | Go to page 2 | There are 1 items visible<br>Current page is 2<br>Total of pages is 2 |
 | Change the number of items per page to 50 | There are 21 items visible<br>Current page is 1<br>Total of pages is 1 |
@@ -29,6 +28,4 @@ weight: 1
 | Sort titles by id asc | titles are sorted by id (1 -> 2 -> 3) |
 | Sort titles by Social title desc | titles are sorted by Social title (z -> y -> x) |
 | Sort titles by Social title asc | titles are sorted by Social title (x -> y -> z) |
-| Sort titles by Gender desc | titles are sorted by Gender (z -> y -> x) |
-| Sort titles by Gender asc | titles are sorted by  Gender (x -> y -> z) |
 | Reset all filters | All filters are reset. All customers Titles  are displayed |
