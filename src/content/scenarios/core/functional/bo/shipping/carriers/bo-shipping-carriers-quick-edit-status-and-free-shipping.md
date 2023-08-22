@@ -13,8 +13,8 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO> IMPROVE> Shipping> Carriers | Carriers page is well displayed |
+| Go to BO> Shipping> Carriers | Carriers page is well displayed |
 | Go to Status column and click on status of carrier's ID n°1 | _The status has been successfully updated._ message is displayed<br>The status is updated |
 | Go to Status column and click on status of carrier's ID n°3 | _The status has been successfully updated._ message is displayed<br>The status is updated |
-| Go to Free Shippingcolumn and click on status of carrier's ID n°2 | _The status has been successfully updated._ message is displayed<br>The Free Shipping is updated |
+| Go to Free Shipping column and click on status of carrier's ID n°2 | _The status has been successfully updated._ message is displayed<br>The Free Shipping is updated |
 | Go to Free Shipping column and click on status of carrier's ID n°4 | _The status has been successfully updated._ message is displayed<br>The Free Shipping is updated |
