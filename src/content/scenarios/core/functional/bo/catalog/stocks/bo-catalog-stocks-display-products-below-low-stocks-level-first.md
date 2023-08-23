@@ -12,5 +12,6 @@ weight: 6
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| BO > Catalog > Stock > check the "Display products below low stock level first" checkbox | The products below stock level are displayed in top list |
-| Uncheck the "Display products below low stock level first" checkbox | The default order of products is displayed (sort based on ID) |
+| BO > Catalog > Stock | The products are displayed in descending order by ID |
+| Click on the "Display products below low stock level first" checkbox | The products with low level stock are displayed first |
+| Uncheck the "Display products below low stock level first" checkbox | The products are displayed in descending order by ID |
