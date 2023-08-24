@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1692773302" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1692773302" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1692773302" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1692773302" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1692773302" rel="stylesheet">
-    <link href="../../../../../../../style.css?1692773302" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1692860059" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1692860059" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1692860059" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1692860059" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1692860059" rel="stylesheet">
+    <link href="../../../../../../../style.css?1692860059" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1692773302"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1692860059"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -16457,9 +16457,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-crud.html" title="BO - Shop Parameters - Order Statuses - CRUD" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-crud.html">
-        BO - Shop Parameters - Order Statuses - CRUD
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-settings-statuses-crud.html" title="BO - Shop Parameters - Order Settings - Statuses - CRUD" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-settings-statuses-crud.html">
+        BO - Shop Parameters - Order Settings - Statuses - CRUD
         
         </a>
     </li>
@@ -41589,6 +41589,7 @@
     <li><a href="#bo---international---tax-rules---filter-sort-and-pagination">BO - International - Tax Rules - Filter, sort and pagination</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65177,18 +65178,89 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1029">https://forge.prestashop.com/browse/TEST-1029</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; International &gt; Taxes &gt; Tax Rules tab</td>
+<td>Tax Rules page is displayed</td>
+</tr>
+<tr>
+<td>Sort by ID acs</td>
+<td>table is sorted by Aliases desc (1&gt; 2&gt; 3)</td>
+</tr>
+<tr>
+<td>Sort by ID desc</td>
+<td>table is sorted by Aliases desc (3&gt;2&gt; 1)</td>
+</tr>
+<tr>
+<td>Sort by name acs</td>
+<td>table is sorted by name desc (a &gt; b&gt; c)</td>
+</tr>
+<tr>
+<td>Sort by name desc</td>
+<td>table is sorted by name desc (c &gt; b&gt; a)</td>
+</tr>
+<tr>
+<td>Filter By ID Criteria : &lsquo;1&rsquo;</td>
+<td>Tax rules  list is filtered. <br>All taxes rules contains number 1 in their ID</td>
+</tr>
+<tr>
+<td>Reset all filters</td>
+<td>All filters are reseted</td>
+</tr>
+<tr>
+<td>Filter By Name</td>
+<td>Tax rules  list is filtered. <br>All taxes rules contains FR Taux standard (20%) are displayed</td>
+</tr>
+<tr>
+<td>Reset all filters</td>
+<td>All filters are reseted</td>
+</tr>
+<tr>
+<td>Filter By Enabled  status</td>
+<td>Tax rules  list is filtered. <br>All taxes rules with the status enabled = yes are displayed</td>
+</tr>
+<tr>
+<td>Reset all filters</td>
+<td>All filters are reseted</td>
+</tr>
+<tr>
+<td>Create 17 new taxe rule <br>Click to &ldquo;Add new tax rules group &gt; Fill all information &gt; Click on &ldquo;Save and stay&rdquo; &gt; Fill all information and click on &ldquo;Save and stay&rdquo;</td>
+<td>Successful creation message is displayed</td>
+</tr>
+<tr>
+<td>IN the tax rules pages , change  the number of items per page to 20</td>
+<td>There are 20 items visible in the current page<br>Current page is 1<br>Total of pages is 2</td>
+</tr>
+<tr>
+<td>Go to page 2</td>
+<td>Current page is 2<br>Total of pages is 2</td>
+</tr>
+<tr>
+<td>Change the number of items per page to 50</td>
+<td>All the  items  are visible<br>Current page is 1<br>Total of pages is 1</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 22, 2023
+  Last updated on August 24, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/8f11116ef514e0c4ce123ad6c7262ec11d37d270">"[Update] JIRA XRay Tests" (8f11116ef51)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/0ffe6af5a24ae5e27d8a0eb5acb998f9f6ff499d">"[Update] JIRA XRay Tests" (0ffe6af5a24)</a>
   
 </div>
 
@@ -65209,17 +65281,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1692773302"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1692773302"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1692773302"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1692773302"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1692773302"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1692773302"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1692773302"></script>
-    <script src="../../../../../../../js/learn.js?1692773302"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1692773302"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1692860060"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1692860060"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1692860060"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1692860060"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1692860060"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1692860060"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1692860060"></script>
+    <script src="../../../../../../../js/learn.js?1692860060"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1692860060"></script>
     
-    <script src="../../../../../../../main.js?1692773302"></script>
+    <script src="../../../../../../../main.js?1692860060"></script>
     
     
 

@@ -501,7 +501,7 @@
 	"title": "BO - International - Tax Rules - Filter, sort and pagination",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Tax Rules - Filter, sort and pagination Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1029  "
+	"content": "BO - International - Tax Rules - Filter, sort and pagination Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1029  Steps    Step Description Expected result     Go to BO \u0026gt; International \u0026gt; Taxes \u0026gt; Tax Rules tab Tax Rules page is displayed   Sort by ID acs table is sorted by Aliases desc (1\u0026gt; 2\u0026gt; 3)   Sort by ID desc table is sorted by Aliases desc (3\u0026gt;2\u0026gt; 1)   Sort by name acs table is sorted by name desc (a \u0026gt; b\u0026gt; c)   Sort by name desc table is sorted by name desc (c \u0026gt; b\u0026gt; a)   Filter By ID Criteria : \u0026lsquo;1\u0026rsquo; Tax rules list is filtered. All taxes rules contains number 1 in their ID   Reset all filters All filters are reseted   Filter By Name Tax rules list is filtered. All taxes rules contains FR Taux standard (20%) are displayed   Reset all filters All filters are reseted   Filter By Enabled status Tax rules list is filtered. All taxes rules with the status enabled = yes are displayed   Reset all filters All filters are reseted   Create 17 new taxe rule Click to \u0026ldquo;Add new tax rules group \u0026gt; Fill all information \u0026gt; Click on \u0026ldquo;Save and stay\u0026rdquo; \u0026gt; Fill all information and click on \u0026ldquo;Save and stay\u0026rdquo; Successful creation message is displayed   IN the tax rules pages , change the number of items per page to 20 There are 20 items visible in the current page\nCurrent page is 1\nTotal of pages is 2   Go to page 2 Current page is 2\nTotal of pages is 2   Change the number of items per page to 50 All the items are visible\nCurrent page is 1\nTotal of pages is 1    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-filter-and-quick-edit.html",
@@ -2394,11 +2394,11 @@
 	"content": "BO - Shop Parameters - Order Settings - Enable / disable guest checkout (TODO) Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1050  "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-crud.html",
-	"title": "BO - Shop Parameters - Order Statuses - CRUD",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-settings-statuses-crud.html",
+	"title": "BO - Shop Parameters - Order Settings - Statuses - CRUD",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Order Statuses - CRUD Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1059  "
+	"content": "BO - Shop Parameters - Order Settings - Statuses - CRUD Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1059  "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-display-remaining-quantities.html",
@@ -4792,7 +4792,7 @@
 	"title": "BO - International - Tax Rules - Bulk actions",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Tax Rules - Bulk actions Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1032  "
+	"content": "BO - International - Tax Rules - Bulk actions Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1032  Steps    Step Description Expected result     Go to BO \u0026gt; International \u0026gt; Taxes \u0026gt; Tax Rules tab Tax Rules page is displayed   click on the button bulk action List of options will be displyed and contains : - Select all ( checked by default) - Unselect all - Enable selection - Disable selection - Delete selected   Click on the option Select all All the existing Tax rules in the page are selected   Click on Bulk action button \u0026gt; choose the option unselect all All the existing Tax rules in the page are unselected   Click on the button bulk action \u0026gt; choose the option Enable selection An error message will be displayed contains : You must select at least one item to perform a bulk action.   Click on the button bulk action \u0026gt; choose the option disable selection An error message will be displayed contains : You must select at least one item to perform a bulk action.   Create 2 new tax rules 2 new tax rules are created successfully   Select the 2 last displayed tax rules ( the 2 new created tax rules) The 2 choosen taxe rules are selected   Click on the button bulk action \u0026gt; choose the option Enable selection A success message contains : The status has been successfully updated. is displayed\nThe status of the selected tax rule are enabled   Click on the button bulk action \u0026gt; choose the option disable selection A success message contains : The status has been successfully updated. is displayed\nThe status of the selected tax rule are disabled   Select the 2 last displayed tax rules ( the created ones ) \u0026gt; click on the button bulk actions \u0026gt; choose the option delete selected A pop-up is displayed to confirm the deletion action \u0026gt; click on OK button \u0026gt; a green message is displayed contains\nThe selection has been successfully deleted.\n- the selected tax rules are deleted    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-tax-options-form.html",
@@ -4932,7 +4932,7 @@
 	"title": "BO - Shop Parameters - General - Enable / disable multistore",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - General - Enable / disable multistore Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1041  "
+	"content": "BO - Shop Parameters - General - Enable / disable multistore Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1041  Steps    Step Description Expected result     Go to BO\u0026gt; Shop Parameters\u0026gt; General Preferences page is displayed on General tab   Enable Multistore YES,\nsave. Successful update message is displayed.   Go to Advanced parameters\u0026gt; Mutistore Multistore page is well displayed.   Go back to Shop Parameters\u0026gt; General,\nEnable Multistore NO Successful update message is displayed.   Go to Advanced Parameters Multistore page is not found.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-minimum-purchase-total-required-in-order-to-validate-the-order-todo.html",
@@ -5646,7 +5646,7 @@
 	"title": "BO - International - Tax Rules - Quick Edit",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Tax Rules - Quick Edit Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1033  "
+	"content": "BO - International - Tax Rules - Quick Edit Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1033  Steps    Step Description Expected result     Go to BO \u0026gt; International \u0026gt; Taxes \u0026gt; Tax Rules tab Tax Rules page is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-sort-and-pagination.html",
@@ -5751,7 +5751,7 @@
 	"title": "BO - Shop Parameters - General - Display brands / best sellers",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - General - Display brands / best sellers Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1042  "
+	"content": "BO - Shop Parameters - General - Display brands / best sellers Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1042  Steps    Step Description Expected result     Go to BO\u0026gt; Shop Parameters\u0026gt; General Preferences page is displayed on General tab   disable Display brands, save Successful update   Go to FO\u0026gt; All products Home page is displayed   Click on Brand The page you are looking for was not found.   Go back to BO\u0026gt;Shop Parameters\u0026gt; General,\nEnable Display brands,\nsave. Successful update   Go back to FO\u0026gt; All products Home page is displayed   Click on Brand The Studio Design brand page is well displayed.   Go to\u0026gt; Footer Container\u0026gt; Products\u0026gt; Best sellers Best sellers page is displayed   Go back to BO\u0026gt;Shop Parameters\u0026gt; General,\nDisable Display best sellers,\nsave. Successful update   Go to\u0026gt; Footer Container Best sellers is displayed not found.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-recalculate-shipping-costs-after-editing-the-order.html",
@@ -10700,7 +10700,7 @@
 	"title": "Statuses",
 	"tags": [],
 	"description": "",
-	"content": "Statuses Categories  Return statuses   Statuses   Tests  BO - Shop Parameters - Order Statuses - Sort and Pagination : order status and order return status   BO - Shop Parameters - Order Statuses - CRUD   BO - Shop Parameters - Order Statuses - CRUD order return status   BO - Shop Parameters - Order Statuses - Quick edit, send email / Delivery / invoice   BO - Shop Parameters - Order Statuses - Bulk actions   "
+	"content": "Statuses Categories  Return statuses   Statuses   Tests  BO - Shop Parameters - Order Statuses - Sort and Pagination : order status and order return status   BO - Shop Parameters - Order Settings - Statuses - CRUD   BO - Shop Parameters - Order Statuses - CRUD order return status   BO - Shop Parameters - Order Statuses - Quick edit, send email / Delivery / invoice   BO - Shop Parameters - Order Statuses - Bulk actions   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses.html",
