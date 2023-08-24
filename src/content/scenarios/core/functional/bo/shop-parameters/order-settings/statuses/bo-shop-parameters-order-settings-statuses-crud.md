@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Order Statuses - CRUD"
+title: "BO - Shop Parameters - Order Settings - Statuses - CRUD"
 weight: 2
 ---
 
-# BO - Shop Parameters - Order Statuses - CRUD
+# BO - Shop Parameters - Order Settings - Statuses - CRUD
 ## Details
 * **Component** : Core
 * **Status** : Sandbox
