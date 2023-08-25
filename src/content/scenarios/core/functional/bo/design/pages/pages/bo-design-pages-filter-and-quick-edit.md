@@ -23,8 +23,6 @@ weight: 1
 | Reset all filters | All filters are reset. All pages are displayed |
 | filter by title. Criteria : Terms and conditions of use" | Pages list is filtered. Pages listed have Terms and conditions of use" in their title" |
 | Reset all filters | All filters are reset. All pages are displayed |
-| filter by position. Criteria : 5" | Pages list is filtered. Pages listed have 5" in their position" |
-| Reset all filters | All filters are reset. All pages are displayed |
 | filter by displayed. Criteria : yes" | Pages list is filtered. Pages listed have yes" in their displayed" |
 | filter by title. Criteria : Terms and conditions of use" | Pages list is filtered. Pages listed have Terms and conditions of use" in their title" |
 | Change Displayed to No" for page" | Icon changed to Not-valid |

@@ -28,8 +28,6 @@ weight: 1
 | Reset all filters of Categories table | All filters are reset. All categories are displayed |
 | filter by description. Criteria : RANDOM | Pages list is filtered. Pages listed have the Random description in their description |
 | Reset all filters of Categories table | All filters are reset. All categories are displayed |
-| filter by position. Criteria : 1" | Pages list is filtered. Pages listed have 1" in their position" |
-| Reset all filters of Categories table | All filters are reset. All categories are displayed |
 | filter by displayed. Criteria : yes" | Pages list is filtered. Pages listed have yes" in their displayed" |
 | filter by name. Criteria : RANDOM | Pages list is filtered. Pages listed have the Random name in their name |
 | Change Displayed to No" for first category" | Icon changed to Not-valid |
