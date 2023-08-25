@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1692860058" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1692860058" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1692860058" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1692860058" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1692860058" rel="stylesheet">
-    <link href="../../../../../../../style.css?1692860058" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1692946095" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1692946095" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1692946095" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1692946095" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1692946095" rel="stylesheet">
+    <link href="../../../../../../../style.css?1692946095" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1692860058"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1692946095"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -8573,6 +8573,27 @@
 
             
           
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/design/pages/categories/bo-design-pages-button-position-on-categories.html" title="BO - Design - Pages - Button Position on categories" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/design/pages/categories/bo-design-pages-button-position-on-categories.html">
+        BO - Design - Pages - Button Position on categories
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
         
         </ul>
       
@@ -8692,6 +8713,27 @@
       <li data-nav-id="/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-pagination.html" title="BO - Design - Pages - Pagination" class="dd-item ">
         <a href="../../../../../../../scenarios/core/functional/bo/design/pages/pages/bo-design-pages-pagination.html">
         BO - Design - Pages - Pagination
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-button-position.html" title="BO - Design - Pages - Button Position" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/design/pages/pages/bo-design-pages-button-position.html">
+        BO - Design - Pages - Button Position
         
         </a>
     </li>
@@ -41589,6 +41631,7 @@
     <li><a href="#bo---international---locations---countries---filter-and-quickedit">BO - International - Locations - Countries - Filter and QuickEdit</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -46709,6 +46752,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -46723,6 +46781,21 @@
       
       
 
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
       
         
     
@@ -65177,18 +65250,81 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1013">https://forge.prestashop.com/browse/TEST-1013</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; International &gt; Locations &gt; Tab Countries</td>
+<td>The Countries page is displayed correctly</td>
+</tr>
+<tr>
+<td>filter by ID.</td>
+<td>Countries list is filtered. Pages listed have &ldquo;2&rdquo; in their ID</td>
+</tr>
+<tr>
+<td>Reset all filters of countries table</td>
+<td>All filters are reset.<br><br>All countries are displayed</td>
+</tr>
+<tr>
+<td>filter by name.</td>
+<td>Pages list is filtered. Pages listed have the name &ldquo;France&rdquo;  in their name</td>
+</tr>
+<tr>
+<td>Reset all filters of countries table</td>
+<td>All filters are reset.<br><br>All countries are displayed</td>
+</tr>
+<tr>
+<td>Filter by ISO code.</td>
+<td>Countries list is filtered. Pages listed have &ldquo;FR&rdquo; in their ISO code</td>
+</tr>
+<tr>
+<td>Reset all filters of countries table</td>
+<td>All filters are reset.<br><br>All countries are displayed</td>
+</tr>
+<tr>
+<td>Filter by Call prefix</td>
+<td>Countries list is filtered. Pages listed have &ldquo;33&rdquo; in their  call prefix</td>
+</tr>
+<tr>
+<td>Reset all filters of countries table</td>
+<td>All filters are reset.<br><br>All countries are displayed</td>
+</tr>
+<tr>
+<td>Filtre by zone</td>
+<td>Countries list is filtered. Pages listed have &ldquo;Europe&rdquo; in their zone</td>
+</tr>
+<tr>
+<td>Change Enabled to YES&quot; for the first  country</td>
+<td>Icon changed to enabled<br><br>Success message is displayed contains : <br><em>The status has been successfully updated.</em></td>
+</tr>
+<tr>
+<td>Change Enabled to &ldquo;NO&rdquo; for first  country</td>
+<td>Icon changed to disabled<br>Success message is displayed contains : <br><em>The status has been successfully updated.</em></td>
+</tr>
+<tr>
+<td>Reset all filters of countries table</td>
+<td>All filters are reset.<br><br>All countries are displayed</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 23, 2023
+  Last updated on August 25, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/68e284c4018bb6e76cb4e493781bd7ba209e4d1c">"[Update] JIRA XRay Tests" (68e284c4018)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/00d64ca31f0bae93c522c417710ecffc02ee4cea">"[Update] JIRA XRay Tests" (00d64ca31f0)</a>
   
 </div>
 
@@ -65209,17 +65345,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1692860058"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1692860058"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1692860058"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1692860058"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1692860058"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1692860058"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1692860058"></script>
-    <script src="../../../../../../../js/learn.js?1692860058"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1692860058"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1692946095"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1692946095"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1692946095"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1692946095"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1692946095"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1692946095"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1692946095"></script>
+    <script src="../../../../../../../js/learn.js?1692946095"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1692946095"></script>
     
-    <script src="../../../../../../../main.js?1692860058"></script>
+    <script src="../../../../../../../main.js?1692946095"></script>
     
     
 

@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1692860080" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1692860080" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1692860080" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1692860080" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1692860080" rel="stylesheet">
-    <link href="../../../../../../../style.css?1692860080" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1692946114" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1692946114" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1692946114" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1692946114" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1692946114" rel="stylesheet">
+    <link href="../../../../../../../style.css?1692946114" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1692860080"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1692946114"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -8573,6 +8573,27 @@
 
             
           
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/design/pages/categories/bo-design-pages-button-position-on-categories.html" title="BO - Design - Pages - Button Position on categories" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/design/pages/categories/bo-design-pages-button-position-on-categories.html">
+        BO - Design - Pages - Button Position on categories
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
         
         </ul>
       
@@ -8692,6 +8713,27 @@
       <li data-nav-id="/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-pagination.html" title="BO - Design - Pages - Pagination" class="dd-item ">
         <a href="../../../../../../../scenarios/core/functional/bo/design/pages/pages/bo-design-pages-pagination.html">
         BO - Design - Pages - Pagination
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-button-position.html" title="BO - Design - Pages - Button Position" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/design/pages/pages/bo-design-pages-button-position.html">
+        BO - Design - Pages - Button Position
         
         </a>
     </li>
@@ -41589,6 +41631,7 @@
     <li><a href="#bo---shop-parameters---order-statuses---crud-order-return-status">BO - Shop Parameters - Order Statuses - CRUD order return status</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -46709,6 +46752,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -46723,6 +46781,21 @@
       
       
 
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
       
         
     
@@ -65177,18 +65250,57 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1060">https://forge.prestashop.com/browse/TEST-1060</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO&gt; Shop Parameters&gt; Order Settings&gt; Statuses</td>
+<td>Statuses page is well displayed</td>
+</tr>
+<tr>
+<td>Click on the <em>Add new order return status</em> button</td>
+<td>Add new page is displayed</td>
+</tr>
+<tr>
+<td>Fill the order return status form,<br><br>save</td>
+<td>Statuses page is displayed.<br><br>Successful update message is displayed.<br><br>New order return status is added and total return statuses +1</td>
+</tr>
+<tr>
+<td>Click on the Edit button of new order return status added</td>
+<td>Edit new order return status page is displayed.</td>
+</tr>
+<tr>
+<td>Edit the order return status,<br><br>save.</td>
+<td>Statuses page is displayed.<br><br>Successful update message is displayed.<br><br>The order return status is well updated.</td>
+</tr>
+<tr>
+<td>Click on dropdown button of new order return stauts added,<br><br>Delete</td>
+<td>a popup is displayed :<br><br> <br>{code:java}<br>Delete selected item?<br>Name: new roder return_edited<br>YES - NO{code}</td>
+</tr>
+<tr>
+<td>Click on YES button</td>
+<td>Successful deletion message is displayed.<br>The order return is deleted.</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 23, 2023
+  Last updated on August 25, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/68e284c4018bb6e76cb4e493781bd7ba209e4d1c">"[Update] JIRA XRay Tests" (68e284c4018)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/00d64ca31f0bae93c522c417710ecffc02ee4cea">"[Update] JIRA XRay Tests" (00d64ca31f0)</a>
   
 </div>
 
@@ -65209,17 +65321,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1692860080"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1692860080"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1692860080"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1692860080"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1692860080"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1692860080"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1692860080"></script>
-    <script src="../../../../../../../js/learn.js?1692860080"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1692860080"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1692946114"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1692946114"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1692946114"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1692946114"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1692946114"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1692946114"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1692946114"></script>
+    <script src="../../../../../../../js/learn.js?1692946114"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1692946114"></script>
     
-    <script src="../../../../../../../main.js?1692860080"></script>
+    <script src="../../../../../../../main.js?1692946114"></script>
     
     
 
