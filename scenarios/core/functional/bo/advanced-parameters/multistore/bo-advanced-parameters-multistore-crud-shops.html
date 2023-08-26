@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1692946063" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1692946063" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1692946063" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1692946063" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1692946063" rel="stylesheet">
-    <link href="../../../../../../style.css?1692946063" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1693032306" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1693032306" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1693032306" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1693032306" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1693032306" rel="stylesheet">
+    <link href="../../../../../../style.css?1693032306" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1692946063"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1693032306"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41625,6 +41625,7 @@
     <li><a href="#bo---advanced-parameters---multistore---crud-shops">BO - Advanced Parameters - Multistore - CRUD shops</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65243,18 +65244,57 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : In progress</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1183">https://forge.prestashop.com/browse/TEST-1183</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to  Shop Parameters &gt; Général &gt; Enable Multistore &gt; save</td>
+<td>* A green alert &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to Advanced Parameters &gt;Multistore</td>
+<td>Multistore page opens with 3 blocks : <br> * Multistore tree <br> * Multistore list <br> * Multistore options</td>
+</tr>
+<tr>
+<td>Click on &quot; Add new store &quot;</td>
+<td>add new  page is displayed</td>
+</tr>
+<tr>
+<td>Fill the informations  of the new shop &gt;save</td>
+<td>* The content is added to shop list and to multistore tree<br> * A green alert &ldquo;Successful creation&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>click on edit &gt; change the informations &gt; save</td>
+<td>* A green alert &ldquo;Successful update&rdquo; is displayed<br> * the content is updated .</td>
+</tr>
+<tr>
+<td>Click on the dropdown menu &gt;delete</td>
+<td>an alert is displayed with : <br><br>Delete select items <br><br>Name : new_shop<br><br>2 buttons : Annuler  / ok</td>
+</tr>
+<tr>
+<td>Click on OK</td>
+<td>* A green alert &ldquo;Successful deletion&rdquo; is displayed<br> * the shop is well deleted from the multistore tree and from the list  .</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 25, 2023
+  Last updated on August 26, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/00d64ca31f0bae93c522c417710ecffc02ee4cea">"[Update] JIRA XRay Tests" (00d64ca31f0)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/a9794e0342056785eb5e7f8890317da2c81db861">"[Update] JIRA XRay Tests" (a9794e03420)</a>
   
 </div>
 
@@ -65275,17 +65315,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1692946064"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1692946064"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1692946064"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1692946064"></script>
-    <script src="../../../../../../js/featherlight.min.js?1692946064"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1692946064"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1692946064"></script>
-    <script src="../../../../../../js/learn.js?1692946064"></script>
-    <script src="../../../../../../js/hugo-learn.js?1692946064"></script>
+    <script src="../../../../../../js/clipboard.min.js?1693032306"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1693032306"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1693032306"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1693032306"></script>
+    <script src="../../../../../../js/featherlight.min.js?1693032306"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1693032306"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1693032306"></script>
+    <script src="../../../../../../js/learn.js?1693032306"></script>
+    <script src="../../../../../../js/hugo-learn.js?1693032306"></script>
     
-    <script src="../../../../../../main.js?1692946064"></script>
+    <script src="../../../../../../main.js?1693032306"></script>
     
     
 
