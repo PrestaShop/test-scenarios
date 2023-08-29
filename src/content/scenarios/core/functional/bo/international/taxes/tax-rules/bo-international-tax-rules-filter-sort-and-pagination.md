@@ -6,7 +6,7 @@ weight: 1
 # BO - International - Tax Rules - Filter, sort and pagination
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1029
 
@@ -18,7 +18,7 @@ weight: 1
 | Sort by ID desc | table is sorted by Aliases desc (3>2> 1) |
 | Sort by name acs | table is sorted by name desc (a > b> c) |
 | Sort by name desc | table is sorted by name desc (c > b> a) |
-| Filter By ID Criteria : '1' | Tax rules  list is filtered. <br>All taxes rules contains number 1 in their ID |
+| Filter By ID | Tax rules  list is filtered. <br>All taxes rules contains number 1 in their ID |
 | Reset all filters | All filters are reseted |
 | Filter By Name | Tax rules  list is filtered. <br>All taxes rules contains FR Taux standard (20%) are displayed |
 | Reset all filters | All filters are reseted |
