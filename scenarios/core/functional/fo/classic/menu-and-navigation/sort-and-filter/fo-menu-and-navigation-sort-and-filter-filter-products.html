@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1693291955" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1693291955" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1693291955" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693291955" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1693291955" rel="stylesheet">
-    <link href="../../../../../../../style.css?1693291955" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1693378539" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1693378539" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1693378539" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693378539" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1693378539" rel="stylesheet">
+    <link href="../../../../../../../style.css?1693378539" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693291955"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693378539"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41631,6 +41631,7 @@
     <li><a href="#fo---menu-and-navigation---sort-and-filter---filter-products">FO - Menu and Navigation - Sort and filter - Filter products</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65249,17 +65250,88 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1241">https://forge.prestashop.com/browse/TEST-1241</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to FO&gt; all products</td>
+<td>All products page is displayed</td>
+</tr>
+<tr>
+<td>Filter products by Categories</td>
+<td>There are 9 products.<br><br>Active filters Categories : Art and Categories : Clothes</td>
+</tr>
+<tr>
+<td>Click on <em>clean all</em> button</td>
+<td>No more filter is displayed.<br><br>All products are displayed.</td>
+</tr>
+<tr>
+<td>Filter products by Size.</td>
+<td>Only products with size S, L and XL are displayed.<br><br>Active filters Size: S, Size: L, Size: XL</td>
+</tr>
+<tr>
+<td>Filter by Color products already filtered.</td>
+<td>Only products with size <em>S</em>, <em>L</em> and <em>XL</em> and color is <em>black</em> are displayed.<br><br>Active filters Size: S, Size: L, Size: XL, Color: Black.</td>
+</tr>
+<tr>
+<td>Click on <em>clean all</em> button</td>
+<td>No more filter is displayed.<br><br>All products are displayed.</td>
+</tr>
+<tr>
+<td>Filter products by Composition.</td>
+<td>Only products with Composition <em>Ceramic</em>,  <em>Cotton</em> and <em>Recycled cardboard</em> are displayed.<br><br>Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard.</td>
+</tr>
+<tr>
+<td>Filter by price products already filtered.</td>
+<td>Only products with Composition <em>Ceramic</em>,  <em>Cotton</em> and <em>Recycled cardboard</em> , and Price is between <em>€14.00 - €20.00</em> are displayed.<br><br>Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard, Price : €14.00 - €20.00.</td>
+</tr>
+<tr>
+<td>Filter by price products already filtered.</td>
+<td>Products with Composition <em>Ceramic</em>,  <em>Cotton</em> and <em>Recycled cardboard</em> , Price is between <em>€14.00 - €20.00</em> and Brand is  <em>Graphic Corner</em> are displayed.<br><br>Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard, Price : €14.00 - €20.00, Brand :  Graphic Corner.</td>
+</tr>
+<tr>
+<td>Click on <em>clean all</em> button</td>
+<td>No more filter is displayed.<br><br>All products are displayed.</td>
+</tr>
+<tr>
+<td>Filter products by Dimension.</td>
+<td>Products with Dimension 40x60cm and 60x90cm are displayed.<br><br>Active filters <em>Dimension</em>: 40x60cm, <em>Dimension</em>: 60x90cm</td>
+</tr>
+<tr>
+<td>Filter by Availability products already filtered.</td>
+<td>Products with Dimension 40x60cm, 60x90cm and Availability: available are displayed.<br><br>Active filters <em>Dimension</em>: 40x60cm, <em>Dimension</em>: 60x90cm, <em>Availability</em>: Available</td>
+</tr>
+<tr>
+<td>Click on <em>clean all</em> button</td>
+<td>No more filter is displayed.<br><br>All products are displayed.</td>
+</tr>
+<tr>
+<td>Filter products by Paper Type.</td>
+<td>Products with Paper Type Ruled, Plain and Squarred are displayed.<br><br>Active filters <em>Paper Type</em>: Ruled, <em>Paper Type</em>: Plain and <em>Paper Type</em>: Squarred.</td>
+</tr>
+<tr>
+<td>Click on <em>clean all</em> button</td>
+<td>No more filter is displayed.<br><br>All products are displayed.</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 26, 2023
+  Last updated on August 30, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/a9794e0342056785eb5e7f8890317da2c81db861">"[Update] JIRA XRay Tests" (a9794e03420)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/6b0f5b48bd5b490dc311e84a2a552d45c353a114">"[Update] JIRA XRay Tests" (6b0f5b48bd5)</a>
   
 </div>
 
@@ -65280,17 +65352,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1693291955"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693291955"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693291955"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1693291955"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1693291955"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693291955"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693291955"></script>
-    <script src="../../../../../../../js/learn.js?1693291955"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1693291955"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1693378539"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693378539"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693378539"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1693378539"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1693378539"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693378539"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693378539"></script>
+    <script src="../../../../../../../js/learn.js?1693378539"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1693378539"></script>
     
-    <script src="../../../../../../../main.js?1693291955"></script>
+    <script src="../../../../../../../main.js?1693378539"></script>
     
     
 
