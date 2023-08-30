@@ -6,7 +6,7 @@ weight: 4
 # BO - Advanced Parameters - Multistore - Filter sort pagination  shops
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : IN REVIEW
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1185
 
@@ -29,4 +29,17 @@ weight: 4
 | reset all filters | Number of  shops  > 0 |
 | Sort by Shop ID ASC | Theshops  are sorted by Shop ID ASC |
 | Sort by Shop ID DESC | Theshops  are sorted by Shop ID DESC |
-| Sort by Shop ID ASC | Theshops  are sorted by Shop ID ASC |
+| Sort by Store name ASC | The shops  are sorted by Store name ASC |
+| Sort by Store name DESC | The shops  are sorted by Store name DESC |
+| Sort by Store group ASC | The shops  are sorted by Store group ASC |
+| Sort by Store group ASC | The shops  are sorted by Store group ASC |
+| Sort by Store group DESC | The shops  are sorted by Store group DESC |
+| Sort by Root category ASC | The shops  are sorted by Root category ASC |
+| Sort by Root category DESC | The shops  are sorted by Root category DESC |
+| Sort by  Main URL for this shop ASC | The shops  are sorted by Main URL for this shop  ASC |
+| Sort by  Main URL for this shop DESC | The shops  are sorted by Main URL for this shop  DESC |
+| reset all filters and get the number of all Shops created | Number of shops   =21 |
+| Change "items per page" to 20 | Page reloads with 20 items on the first page<br><br>Buttons appear to go to the next page 1/2<br><br>The number of pages is correct |
+| Click on the next button | The next page is well displayed and check (page 2 / *2*) is correct |
+| Click on Previous button | The first page is well displayed |
+| Change "items per page" to 50 | Page reloads with 50 items on the first page<br><br>there is only one page 1/1<br><br>The number of pages is correct |
