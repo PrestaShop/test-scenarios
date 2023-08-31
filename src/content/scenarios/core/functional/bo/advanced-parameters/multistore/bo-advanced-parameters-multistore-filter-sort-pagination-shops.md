@@ -6,7 +6,7 @@ weight: 4
 # BO - Advanced Parameters - Multistore - Filter sort pagination  shops
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1185
 
@@ -43,3 +43,4 @@ weight: 4
 | Click on the next button | The next page is well displayed and check (page 2 / *2*) is correct |
 | Click on Previous button | The first page is well displayed |
 | Change "items per page" to 50 | Page reloads with 50 items on the first page<br><br>there is only one page 1/1<br><br>The number of pages is correct |
+| Delete all store expected "Default" | Number of store = 1 |

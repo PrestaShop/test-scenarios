@@ -6,7 +6,7 @@ weight: 8
 # BO - Design - Theme & Logo - Reset  to default
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-922
 
 ## Steps

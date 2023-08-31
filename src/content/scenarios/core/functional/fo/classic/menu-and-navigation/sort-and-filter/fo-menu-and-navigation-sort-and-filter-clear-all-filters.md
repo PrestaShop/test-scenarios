@@ -6,7 +6,7 @@ weight: 3
 # FO - Menu and Navigation - Sort and filter - Clear all filters
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1242
 
 ## Steps

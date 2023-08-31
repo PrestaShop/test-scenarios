@@ -6,7 +6,7 @@ weight: 4
 # FO - Menu and Navigation - Sort and filter - Clear one filter
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1243
 
 ## Steps
