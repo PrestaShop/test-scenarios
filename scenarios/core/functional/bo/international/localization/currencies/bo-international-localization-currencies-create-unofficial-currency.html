@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1693378497" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1693378497" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1693378497" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693378497" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1693378497" rel="stylesheet">
-    <link href="../../../../../../../style.css?1693378497" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1693465014" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1693465014" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1693465014" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693465014" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1693465014" rel="stylesheet">
+    <link href="../../../../../../../style.css?1693465014" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693378497"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693465014"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65250,7 +65250,7 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1000">https://forge.prestashop.com/browse/TEST-1000</a></li>
 </ul>
@@ -65264,64 +65264,72 @@
 </thead>
 <tbody>
 <tr>
-<td>go to localization page</td>
-<td>Localization page is displayed<br>title contains : Localization *</td>
+<td>Go to International &gt; Localization page</td>
+<td>Localization page is displayed<br>title contains : Localization</td>
 </tr>
 <tr>
-<td>go to currencies page</td>
-<td>Currencies page is displayed<br>title contains : Currencies *</td>
+<td>Go to Currencies tab</td>
+<td>Currencies page is displayed<br>title contains : Currencies</td>
 </tr>
 <tr>
-<td>reset all filters</td>
-<td>Total of currencies &gt; 0</td>
+<td>Click on <em>Add new currency</em> button</td>
+<td>New currency page is displayed with form to  fill<br>title contains &lsquo;Currencies '</td>
 </tr>
 <tr>
-<td>go to create new currency page</td>
-<td>new currency page is displayed<br>title contains &lsquo;Currencies •&rsquo;</td>
+<td>Fill the form with specified data &gt; Click on <em>Save</em> button</td>
+<td>Currency is created and displayed in Currencies List<br>&ldquo;Successful creation&rdquo; message is displayed<br>number of currencies = total of currencies + 1</td>
 </tr>
 <tr>
-<td>Create new currency<br>Criteria :<br>toman: {<br>      name: &lsquo;Iranian toman&rsquo;,<br>      frName: &lsquo;Toman iranien&rsquo;,<br>      symbol: &lsquo;TMN&rsquo;,<br>      isoCode: &lsquo;TMN&rsquo;,<br>      exchangeRate: 4666.539,<br>      decimals: 2,<br>      enabled: true,<br>    }</td>
-<td>currency is created<br>Successful message is displayed<br>number of currencies = total of currencies + 1</td>
-</tr>
-<tr>
-<td>filter by iso code of currency<br>Criteria : &lsquo;TMN&rsquo;</td>
-<td>number of currencies &lt; total of currencies + 1<br>Value in table contains value of created currency</td>
+<td>Filter by ISO code of currency &gt; click on <em>Search</em> button</td>
+<td>number of currencies &lt; total of currencies + 1<br>Value in table contains value of created currency<br><br>Search button is disabled<br><br>Reset button is enabled</td>
 </tr>
 <tr>
 <td>Go to FO and change currency to &lsquo;TMN&rsquo;</td>
-<td>No error found</td>
+<td>No error found<br>All products prices are updated to TMN</td>
 </tr>
 <tr>
-<td>Go back to Bo and reset filter</td>
+<td>Go back to Bo click on <em>Reset</em> button</td>
+<td>number of currencies = total of currencies + 1<br>All currencies are well displayed</td>
+</tr>
+<tr>
+<td>Filter by ISO code of currency &gt; click on <em>Search</em> button</td>
+<td>number of currencies &lt; total of currencies + 1<br>Value in table contains value of created currency<br><br>Search button is disabled<br><br>Reset button is enabled</td>
+</tr>
+<tr>
+<td>Switch the toggle swith button to disable currency</td>
+<td>First currency in row is disabled<br>This message is displayed : &ldquo;The status has been successfully updated.&rdquo;</td>
+</tr>
+<tr>
+<td>Go to FO and click on currency dropdown menu</td>
+<td>The disabled currency is unavailable in dropdown list</td>
+</tr>
+<tr>
+<td>Go back to BO and click on <em>Reset</em> button</td>
 <td>number of currencies = total of currencies + 1</td>
 </tr>
 <tr>
-<td>filter by iso code of currency <br>Criteria &lsquo;TMN&rsquo;</td>
-<td>number of currencies &gt; total of currencies + 1<br>first row column name contains &lsquo;TMN&rsquo;</td>
+<td>Filter by ISO code of currency &gt; click on <em>Search</em> button</td>
+<td>Number of currencies &lt; total of currencies + 1<br>First row column name contains &lsquo;TMN&rsquo;<br><br>Search button is disabled<br><br>Reset button is enabled</td>
 </tr>
 <tr>
-<td>disable currency</td>
-<td>first currency in row is disabled</td>
+<td>Click to Edit button</td>
+<td>currency page is displayed with form to  fill<br>title contains &lsquo;Currencies '</td>
 </tr>
 <tr>
-<td>Go to FO and change currency to &lsquo;TMN&rsquo;</td>
-<td>Error found &lsquo;MAD MAD was not found as option of select&rsquo;</td>
+<td>Change the name and save</td>
+<td>&ldquo;Successful update&rdquo; notification displayed<br><br>the name of this currency is now &ldquo;To delete&rdquo;</td>
 </tr>
 <tr>
-<td>Go back to BO and reset filter</td>
-<td>number of currencies = total of currencies + 1</td>
+<td>Click on three dots &gt; click on <em>Delete</em> button</td>
+<td>A modal appears with title &ldquo;Delete selection&rdquo;<br>Two buttons displayed in the modal : <em>Cancel</em> and <em>Delete</em></td>
 </tr>
 <tr>
-<td>filter by iso code of currency <br>Criteria &lsquo;TMN&rsquo;</td>
-<td>number of currencies &gt; total of currencies + 1<br>first row column name contains &lsquo;TMN&rsquo;</td>
+<td>Click on <em>Delete</em> button on the modal</td>
+<td>This message is displayed : &ldquo;Successful deletion&rdquo;<br>The currencies list is empty</td>
 </tr>
 <tr>
-<td>delete currency</td>
-<td>Successful message is displayed</td>
-</tr>
-<tr>
-<td>reset filter</td>
-<td>number of currencies = total of currencies + 1</td>
+<td>Click <em>Reset</em> button</td>
+<td>number of currencies = total of currencies - 1</td>
 </tr>
 </tbody>
 </table>
@@ -65330,9 +65338,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 29, 2023
+  Last updated on August 31, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/e1ff08b3f7fa76f7874c4b9756a5955cff63a1f6">"[Update] JIRA XRay Tests" (e1ff08b3f7f)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/4ff95c46f0eb92691c02615269eba6e0e4e4e53c">"[Update] JIRA XRay Tests" (4ff95c46f0e)</a>
   
 </div>
 
@@ -65353,17 +65361,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1693378497"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693378497"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693378497"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1693378497"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1693378497"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693378497"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693378497"></script>
-    <script src="../../../../../../../js/learn.js?1693378497"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1693378497"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1693465014"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693465014"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693465014"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1693465014"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1693465014"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693465014"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693465014"></script>
+    <script src="../../../../../../../js/learn.js?1693465014"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1693465014"></script>
     
-    <script src="../../../../../../../main.js?1693378497"></script>
+    <script src="../../../../../../../main.js?1693465014"></script>
     
     
 
