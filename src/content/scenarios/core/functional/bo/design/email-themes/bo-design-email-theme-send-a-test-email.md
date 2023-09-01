@@ -6,7 +6,7 @@ weight: 7
 # BO - Design - Email Theme - Send a test email
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-942
 
 ## Steps

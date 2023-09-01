@@ -6,7 +6,7 @@ weight: 7
 # BO - Design - Theme & Logo - Configure page layouts
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-921
 
 ## Steps

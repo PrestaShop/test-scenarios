@@ -9,7 +9,7 @@ weight: 1
 * **Status** : Automated
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3349
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/sanity/01_filterProducts.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/01_filterProducts.ts
 
 ## Steps
 | Step Description | Expected result |

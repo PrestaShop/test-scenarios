@@ -9,7 +9,7 @@ weight: 8
 * **Status** : Automated
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4776
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/sanity/05_deleteProduct.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/05_deleteProduct.ts
 
 ## Steps
 | Step Description | Expected result |
