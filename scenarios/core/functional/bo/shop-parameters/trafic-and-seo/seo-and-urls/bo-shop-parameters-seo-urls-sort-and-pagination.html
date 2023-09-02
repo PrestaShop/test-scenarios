@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1693551294" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1693551294" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1693551294" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693551294" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1693551294" rel="stylesheet">
-    <link href="../../../../../../../style.css?1693551294" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1693637486" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1693637486" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1693637486" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693637486" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1693637486" rel="stylesheet">
+    <link href="../../../../../../../style.css?1693637486" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693551294"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693637486"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41631,6 +41631,7 @@
     <li><a href="#bo---shop-parameters---seo--urls---sort-and-pagination">BO - Shop Parameters - SEO &amp; URLs - Sort and pagination</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65249,18 +65250,81 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1110">https://forge.prestashop.com/browse/TEST-1110</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to Shop Parameters &gt; Traffic &amp; SEO - SEO &amp; URLs</td>
+<td>*  SEO &amp; URLs Page is displayed</td>
+</tr>
+<tr>
+<td>Reset all filters</td>
+<td>All filters are reset , SEO &amp; URLs  are  displayed</td>
+</tr>
+<tr>
+<td>Sort  by ID asc</td>
+<td>SEO &amp; URLs list are sorted by ID (1-&gt; 2 -&gt;3 &hellip;)</td>
+</tr>
+<tr>
+<td>Sort  by ID desc</td>
+<td>SEO &amp; URLs list are sorted by ID (3-&gt; 2 -&gt;1 &hellip;)</td>
+</tr>
+<tr>
+<td>Sort  by  Page asc</td>
+<td>SEO &amp; URLs list are sorted by Page (a-&gt; b -&gt;c &hellip;)</td>
+</tr>
+<tr>
+<td>Sort  by  Page desc</td>
+<td>SEO &amp; URLs list are sorted by Page (c-&gt; b -&gt;a &hellip;)</td>
+</tr>
+<tr>
+<td>Sort  by  Page title asc</td>
+<td>SEO &amp; URLs list are sorted by Page title (a-&gt; b -&gt;c &hellip;)</td>
+</tr>
+<tr>
+<td>Sort  by  Page title desc</td>
+<td>SEO &amp; URLs list are sorted by Page title (c-&gt; b -&gt;a &hellip;)</td>
+</tr>
+<tr>
+<td>Sort  by  Friendly URL asc</td>
+<td>SEO &amp; URLs list are sorted by Friendly URL(a-&gt; b -&gt;c &hellip;)</td>
+</tr>
+<tr>
+<td>Sort  by  Friendly URL desc</td>
+<td>SEO &amp; URLs list are sorted by Friendly URL(c-&gt; b -&gt;a &hellip;)</td>
+</tr>
+<tr>
+<td>Change the items number to 10 per page</td>
+<td>4 pages are displayed (page 1/4)</td>
+</tr>
+<tr>
+<td>Go to page 2</td>
+<td>2 pages are displayed (page 2/4)</td>
+</tr>
+<tr>
+<td>Change the items number to 50 per page</td>
+<td>Only one page is displayed  <em>(page 1 / 1)</em></td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 31, 2023
+  Last updated on September 2, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/4ff95c46f0eb92691c02615269eba6e0e4e4e53c">"[Update] JIRA XRay Tests" (4ff95c46f0e)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/b86cc6f56cb6783435dc9ba21ce647a4830ce017">"[Update] JIRA XRay Tests" (b86cc6f56cb)</a>
   
 </div>
 
@@ -65281,17 +65345,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1693551294"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693551294"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693551294"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1693551294"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1693551294"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693551294"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693551294"></script>
-    <script src="../../../../../../../js/learn.js?1693551294"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1693551294"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1693637487"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693637487"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693637487"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1693637487"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1693637487"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693637487"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693637487"></script>
+    <script src="../../../../../../../js/learn.js?1693637487"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1693637487"></script>
     
-    <script src="../../../../../../../main.js?1693551294"></script>
+    <script src="../../../../../../../main.js?1693637487"></script>
     
     
 
