@@ -9,7 +9,7 @@ weight: 1
 * **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1063
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/01_catalogModetests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/01_catalogMode.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/01_catalogMode.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -34,6 +34,5 @@ weight: 1
 | Filter the list by status > Select "No" on the select list below "Status" in column > Click on "Search" button on the right of the table | * Products list is filtered by status which products are offline<br> * "No records found" message is displayed<br> * A "Reset" button on the right of the table below the "Search" button is displayed |
 | Click on "Reset" button | * All filters are reset.<br> * All products are displayed. |
 | Click on "Filter by categories" and select "Home" category | * The button is updated to "Filter by categories (Home)"<br>* The button "Clear filter" is visible<br>* The position Column is visible |
-| Filter the list by Position in column > Click on "Search" button on the right of the table | * Products list is filtered by position.<br>* Products listed have "1" in their position<br>* A "Reset" button on the right of the table below the "Search" button is displayed |
 | Click on "Reset" button | * All filters are reset.<br> * All products are displayed. |
 | Click on "Clear filter" | * The button is updated from "Filter by categories (Home)" to "Filter by categories"<br>* The button "Clear filter" is not visible<br>* The position Column is not visible<br>* The Home category is not selected in the "Filter by categories" drop-down |
