@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../style.css?1693810550" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../style.css?1693896413" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693810550"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693896413"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41631,6 +41631,7 @@
     <li><a href="#bo---international---localization---currencies---exchange-rate">BO - International - Localization - Currencies - Exchange rate</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65249,18 +65250,89 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1001">https://forge.prestashop.com/browse/TEST-1001</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to International &gt; Localization page</td>
+<td>Localization page is displayed<br>title contains : Localization</td>
+</tr>
+<tr>
+<td>Go to Currencies tab</td>
+<td>Currencies page is displayed<br>title contains : Currencies</td>
+</tr>
+<tr>
+<td>Click on <em>Add new currency</em> button</td>
+<td>New currency page is displayed<br>Title contains &lsquo;Currencies •'<br>A form is displayed</td>
+</tr>
+<tr>
+<td>Click on Select a currency dropdown menu</td>
+<td>A dropdown menu is well displayed<br><br>An input field inside the dropdown menu is displayed</td>
+</tr>
+<tr>
+<td>Type data in the input field</td>
+<td>The dropdown list contain one result : Tunisian Dinar (TND)</td>
+</tr>
+<tr>
+<td>Click on value in the dropdownlist</td>
+<td>All field in Currencies page form are automatically filled:<br> * Select a currency : Tunisian Dinar (TND)<br> * Currency name : Tunisian Dinar <br> * ISO code : TND<br> * Exchange rate : 3.33<br> * Decimals : 3<br> * Status: Yes</td>
+</tr>
+<tr>
+<td>Click on <em>Save</em> button</td>
+<td>Message displayed : &ldquo;Successful creation&rdquo;<br>New Currencies page is displayed<br>A new line is added in Currencies table contains <em>TND</em></td>
+</tr>
+<tr>
+<td>Go to FO &gt; Select TND (in currency dropdown menu)</td>
+<td>All items prices are displayed in TND<br>The price of  Hummingbird Printed T-Shirt : 76.40</td>
+</tr>
+<tr>
+<td>Filter currencies by ISO code &gt; click <em>Search</em> button</td>
+<td>First row column name contains &lsquo;TND&rsquo;</td>
+</tr>
+<tr>
+<td>Click on Edit button</td>
+<td>A new currencies page is displayed<br>All form fields are automatically filled</td>
+</tr>
+<tr>
+<td>Go to <em>Exchange rate</em> field &gt; Edit value &gt; Click <em>Save</em> button</td>
+<td>Message displayed : &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Select TND (in currency dropdown menu)</td>
+<td>All items prices are displayed in TND<br>The price of  Hummingbird Printed T-Shirt : 68.83</td>
+</tr>
+<tr>
+<td>Filter currencies by ISO code &gt; click <em>Search</em> button</td>
+<td>First row column name contains &lsquo;TND&rsquo;</td>
+</tr>
+<tr>
+<td>Click on Edit button</td>
+<td>A new currencies page is displayed<br>All form fields are automatically filled</td>
+</tr>
+<tr>
+<td>Click on <em>Restore default settings</em> button</td>
+<td>A modal Titled : Loading currency data is displayed and disappears once the values are updated.<br><br>The exchange rate value is back to default : 3.33</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 9, 2023
+  Last updated on September 5, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/a931c0d0ea6123fca1546d11ec2377f75ef595ab">"[Update] JIRA XRay Tests" (a931c0d0ea6)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/fa96ea64e0d0b2dd0be60444c1cf597d7810f1c1">"[Update] JIRA XRay Tests" (fa96ea64e0d)</a>
   
 </div>
 
@@ -65281,17 +65353,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1693810550"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693810550"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693810550"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1693810550"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1693810550"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693810550"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693810550"></script>
-    <script src="../../../../../../../js/learn.js?1693810550"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1693810550"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1693896413"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693896413"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693896413"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1693896413"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1693896413"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693896413"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693896413"></script>
+    <script src="../../../../../../../js/learn.js?1693896413"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1693896413"></script>
     
-    <script src="../../../../../../../main.js?1693810550"></script>
+    <script src="../../../../../../../main.js?1693896413"></script>
     
     
 

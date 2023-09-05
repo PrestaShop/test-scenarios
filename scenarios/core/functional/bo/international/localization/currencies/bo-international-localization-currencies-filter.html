@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1693810550" rel="stylesheet">
-    <link href="../../../../../../../style.css?1693810550" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1693896413" rel="stylesheet">
+    <link href="../../../../../../../style.css?1693896413" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693810550"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1693896413"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41631,6 +41631,7 @@
     <li><a href="#bo---international---localization---currencies---filter">BO - International - Localization - Currencies - Filter</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65249,18 +65250,89 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1004">https://forge.prestashop.com/browse/TEST-1004</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; International</td>
+<td>Localization page is displayed<br>title contains : Localization</td>
+</tr>
+<tr>
+<td>Go to Currencies tab</td>
+<td>Currencies page is displayed<br>title contains : Currencies</td>
+</tr>
+<tr>
+<td><em>Filter by ID</em>  <br>Type the data in <em>Search ID</em> field  &gt; click on <em>Search</em> button</td>
+<td>number of currencies = 1<br>Value in table contains EUR<br><br>Search button is disabled<br><br>Reset button is enabled</td>
+</tr>
+<tr>
+<td>Click on <em>Reset</em> button</td>
+<td>number of currencies is back to initial value<br><br>All available currencies are well displayed <br>Reset button disappears<br><br>Search button is displayed and disabled</td>
+</tr>
+<tr>
+<td><em>Filter by Currency</em><br>Type the data in <em>Currency</em> field  &gt; click on <em>Search</em> button</td>
+<td>number of currencies = 1<br>Value in table contains EUR<br><br>Search button is disabled<br><br>Reset button is enabled</td>
+</tr>
+<tr>
+<td>Click on <em>Reset</em> button</td>
+<td>number of currencies is back to initial value<br><br>All available currencies are well displayed <br>Reset button disappears<br><br>Search button is displayed and disabled</td>
+</tr>
+<tr>
+<td><em>Filter by Symbol</em><br>Type the data in <em>Symbol</em> field  &gt; click on <em>Search</em> button</td>
+<td>number of currencies = 1<br>Value in table contains EUR<br><br>Search button is disabled<br><br>Reset button is enabled</td>
+</tr>
+<tr>
+<td>Click on <em>Reset</em> button</td>
+<td>number of currencies is back to initial value<br><br>All available currencies are well displayed <br>Reset button disappears<br><br>Search button is displayed and disabled</td>
+</tr>
+<tr>
+<td><em>Filter by ISO code</em><br>Type the data in <em>ISO code</em> field  &gt; click on <em>Search</em> button</td>
+<td>number of currencies = 1<br>Value in table contains EUR<br><br>Search button is disabled<br><br>Reset button is enabled</td>
+</tr>
+<tr>
+<td>Click on <em>Reset</em> button</td>
+<td>number of currencies is back to initial value<br><br>All available currencies are well displayed <br>Reset button disappears<br><br>Search button is displayed and disabled</td>
+</tr>
+<tr>
+<td><em>Filter by Enabled</em><br>Click on dropdown list under Enabled tab</td>
+<td>A drop down list is displayed with three values :<br> * All (default)<br> * Yes<br> * No</td>
+</tr>
+<tr>
+<td>Select value in dropdown list &gt; click on <em>Search</em> button</td>
+<td>All enabled currencies are well displayed</td>
+</tr>
+<tr>
+<td>Click on <em>Reset</em> button</td>
+<td>number of currencies is back to initial value<br><br>All available currencies are well displayed <br>Reset button disappears<br><br>Search button is displayed and disabled<br><em>Enabled Field</em> = All</td>
+</tr>
+<tr>
+<td>Select value in dropdown list &gt; click on <em>Search</em> button</td>
+<td>All disabled currencies are well displayed</td>
+</tr>
+<tr>
+<td>Click on <em>Reset</em> button</td>
+<td>number of currencies is back to initial value<br><br>All available currencies are well displayed <br>Reset button disappears<br><br>Search button is displayed and disabled<br><em>Enabled Field</em> = All</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 9, 2023
+  Last updated on September 5, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/a931c0d0ea6123fca1546d11ec2377f75ef595ab">"[Update] JIRA XRay Tests" (a931c0d0ea6)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/fa96ea64e0d0b2dd0be60444c1cf597d7810f1c1">"[Update] JIRA XRay Tests" (fa96ea64e0d)</a>
   
 </div>
 
@@ -65281,17 +65353,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1693810551"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693810551"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693810551"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1693810551"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1693810551"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693810551"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693810551"></script>
-    <script src="../../../../../../../js/learn.js?1693810551"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1693810551"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1693896413"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1693896413"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1693896413"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1693896413"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1693896413"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1693896413"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1693896413"></script>
+    <script src="../../../../../../../js/learn.js?1693896413"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1693896413"></script>
     
-    <script src="../../../../../../../main.js?1693810551"></script>
+    <script src="../../../../../../../main.js?1693896413"></script>
     
     
 
