@@ -6,6 +6,6 @@ weight: 5
 # BO - Dashboard - Marketplace connection
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-722
 

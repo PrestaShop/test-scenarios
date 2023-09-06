@@ -1,15 +1,15 @@
 ---
-title: "BO - Shop Parameters - Contacts - Filter, sort and pagination"
+title: "BO - Shop Parameters - Contacts - Sort and pagination"
 weight: 4
 ---
 
-# BO - Shop Parameters - Contacts - Filter, sort and pagination
+# BO - Shop Parameters - Contacts - Sort and pagination
 ## Details
 * **Component** : Core
 * **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1098
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/05_contact/04_sortContacts.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/05_contact/01_contacts/04_sortAndPagination.ts
 
 ## Steps
 | Step Description | Expected result |
