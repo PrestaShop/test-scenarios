@@ -6,7 +6,7 @@ weight: 3
 # BO - International - Localization - Currencies - Exchange rate
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1001
 
@@ -28,3 +28,6 @@ weight: 3
 | Filter currencies by ISO code > click *Search* button | First row column name contains 'TND' |
 | Click on Edit button | A new currencies page is displayed<br>All form fields are automatically filled |
 | Click on *Restore default settings* button | A modal Titled : Loading currency data is displayed and disappears once the values are updated.<br><br>The exchange rate value is back to default : 3.33 |
+| Click on the three dots > Click on *Delete* button | A modal is displayed with title : Delete selection<br>Two buttons in the modal : Cancel and Delete |
+| Click on *Delete* button in the modal | Message displayed :"Successful deletion"<br>Table Curruncies displays : "No records found" |
+| Click on *Reset* button | All available currincies are displayed |

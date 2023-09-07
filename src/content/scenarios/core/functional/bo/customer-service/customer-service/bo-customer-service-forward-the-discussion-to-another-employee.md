@@ -6,7 +6,7 @@ weight: 6
 # BO - Customer Service - Forward the discussion to another employee
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7393
 
 ## Steps
