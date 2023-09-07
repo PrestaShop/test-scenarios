@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1693983105" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1693983105" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1693983105" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1693983105" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1693983105" rel="stylesheet">
-    <link href="../../../../../../style.css?1693983105" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1694069751" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1694069751" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1694069751" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1694069751" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1694069751" rel="stylesheet">
+    <link href="../../../../../../style.css?1694069751" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1693983105"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1694069751"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -6609,6 +6609,27 @@
       <li data-nav-id="/scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-forward-the-discussion-to-another-employee.html" title="BO - Customer Service - Forward the discussion to another employee" class="dd-item ">
         <a href="../../../../../../scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-forward-the-discussion-to-another-employee.html">
         BO - Customer Service - Forward the discussion to another employee
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-forward-the-discussion-to-another-email.html" title="BO - Customer Service - Forward the discussion to another email" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-forward-the-discussion-to-another-email.html">
+        BO - Customer Service - Forward the discussion to another email
         
         </a>
     </li>
@@ -41667,6 +41688,7 @@
     <li><a href="#bo---customers---transform-a-guest-to-a-customer">BO - Customers - Transform a Guest to a Customer</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -45508,6 +45530,21 @@
       
       
 
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
       
         
     
@@ -65318,14 +65355,69 @@
 <li><strong>Status</strong> : Sandbox</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-7392">https://forge.prestashop.com/browse/TEST-7392</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to FO &gt; Click on product</td>
+<td>The product is displayed</td>
+</tr>
+<tr>
+<td>Click on ADD TO CART</td>
+<td>The pop-up of PROCEED TO CHECKOUT is well displayed</td>
+</tr>
+<tr>
+<td>Click on PROCEED TO CHECKOUT</td>
+<td>The SHOPPING CART is well displayed</td>
+</tr>
+<tr>
+<td>Click on PROCEED TO CHECKOUT</td>
+<td>The PERSONAL INFORMATION is well displayed.</td>
+</tr>
+<tr>
+<td>Fill the <em>Order as a guest</em> form without filling in the password and the birthdate<br><br>check :<br><br><em> Receive offers from our partners</em><br><em> I agree to the terms and conditions and the privacy policy</em><br><em>Sign up for our newsletter</em><br><em>Customer data privacy</em><br><br>and click on CONTINUE</td>
+<td>The step 2 ADDRESSES page is displayed</td>
+</tr>
+<tr>
+<td>Click Edit Step 1(PERSONAL INFORMATION) &gt; Edit Firstname and Lastname and<br><br>check :<br><br><em> Receive offers from our partners</em><br><em> I agree to the terms and conditions and the privacy policy</em><br><em>Sign up for our newsletter</em><br><em>Customer data privacy</em><br><br> <br><br>CONTINUE</td>
+<td>Step 2 is displayed</td>
+</tr>
+<tr>
+<td>Fill the <em>ADDRESSES</em> form<br><br>and click on CONTINUE</td>
+<td>The step 3 SHIPPING METHOD is well displayed.</td>
+</tr>
+<tr>
+<td>Step 3 - <em>Shipping method</em> is displayed.<br><br><em>Click and collect</em> and <em>My carrier</em> are displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping<br><br>And click on continue</td>
+<td>Step 4 - Payment is displayed</td>
+</tr>
+<tr>
+<td>Choose Payment by bank wire &gt; Agree to the terms and conditions &gt; Click on PLACE ORDER button</td>
+<td>YOUR ORDER IS CONFIRMED</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Customers page</td>
+<td>Guest account exists in customers table and assigned to &ldquo;Guest&rdquo; Group</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders</td>
+<td>Orders page is displayed</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 6, 2023
+  Last updated on September 7, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/569b48cb4845df6f76deb960b1bb4d8e7887ff3b">"[Update] JIRA XRay Tests" (569b48cb484)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/9d6185805dd1cb0b555ffef6a9b62fe983f222f1">"[Update] JIRA XRay Tests" (9d6185805dd)</a>
   
 </div>
 
@@ -65346,17 +65438,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1693983105"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1693983105"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1693983105"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1693983105"></script>
-    <script src="../../../../../../js/featherlight.min.js?1693983105"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1693983105"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1693983105"></script>
-    <script src="../../../../../../js/learn.js?1693983105"></script>
-    <script src="../../../../../../js/hugo-learn.js?1693983105"></script>
+    <script src="../../../../../../js/clipboard.min.js?1694069751"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1694069751"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1694069751"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1694069751"></script>
+    <script src="../../../../../../js/featherlight.min.js?1694069751"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1694069751"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1694069751"></script>
+    <script src="../../../../../../js/learn.js?1694069751"></script>
+    <script src="../../../../../../js/hugo-learn.js?1694069751"></script>
     
-    <script src="../../../../../../main.js?1693983105"></script>
+    <script src="../../../../../../main.js?1694069751"></script>
     
     
 
