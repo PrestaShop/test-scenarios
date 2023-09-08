@@ -6,7 +6,7 @@ weight: 6
 # BO - Customers - Transform a Guest to a Customer
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7392
 
 ## Steps
@@ -22,4 +22,9 @@ weight: 6
 | Step 3 - *Shipping method* is displayed.<br><br>_Click and collect_ and _My carrier_ are displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping<br><br>And click on continue | Step 4 - Payment is displayed |
 | Choose Payment by bank wire > Agree to the terms and conditions > Click on PLACE ORDER button | YOUR ORDER IS CONFIRMED |
 | Go to BO > Customers page | Guest account exists in customers table and assigned to "Guest" Group |
-| Go to BO > Orders > Orders | Orders page is displayed |
+| Go to BO > Customers > Customers | Customers page is displayed<br><br>The customers table is displayed with title : Manage your Customers +(total number of customers) |
+| Click on *Group* dropdown button > Select *Guest* > Click *Search* button | The customer assigned to Guest group is well displayed<br><br>Reset button is dislayed |
+| Click on the *three dots* in front of first line in the table > Click *View* button | New Customers page is displayed<br><br>Title contains : "Information about customer [your customer name]" |
+| Go to top left section > Click on *Transform to a customer account* button | Message displayed : "Successful creation"<br><br>The button *Transform to a customer account* is not displayed |
+| Back to BO > Customers > Customers | The Customers table is empty with mention : No record found |
+| Click on *Reset* button | All customers are displayed<br><br>The edited guest is now registered as a *Customer* under *Group* column |
