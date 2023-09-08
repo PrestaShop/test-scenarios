@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1694069747" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1694069747" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1694069747" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1694069747" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1694069747" rel="stylesheet">
-    <link href="../../../../../../style.css?1694069747" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1694156382" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1694156382" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1694156382" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1694156382" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1694156382" rel="stylesheet">
+    <link href="../../../../../../style.css?1694156382" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1694069747"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1694156382"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41688,6 +41688,7 @@
     <li><a href="#bo---customer-service---forward-the-discussion-to-another-email">BO - Customer Service - Forward the discussion to another email</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65351,17 +65352,64 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-7405">https://forge.prestashop.com/browse/TEST-7405</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to FO &gt; In footer, click on Our Company &gt; Contact us</td>
+<td>Contact form is displayed</td>
+</tr>
+<tr>
+<td>Fill the form &gt; Send</td>
+<td>Message &ldquo;Your message has been successfully sent to our team.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>BO &gt; Customer Service &gt; Customer Service &gt; type data in <em>Email</em> field &gt; click on <em>Search</em> button</td>
+<td>Customer Service page is well displayed<br><br>First line of Customer Service section contains [client@prestashop.com</td>
+</tr>
+<tr>
+<td>Click on <em>View</em> button</td>
+<td>New customer Service page is displayed<br><br>The title Contains : filter by Email: <a href="mailto:client@prestashop.com">client@prestashop.com</a></td>
+</tr>
+<tr>
+<td>Click on <em>Forward this discussion to another employee</em> button</td>
+<td>A modal is displayed<br><br>Title of the modal : Forward this discussion<br><br>The modal contains a dropdown menu button</td>
+</tr>
+<tr>
+<td>Click on  <em>Forward this discussion to an employee</em> dropdown menu button</td>
+<td>Dropdown list of employees is displayed with default value : Choose<br><br>Forward button is disabled</td>
+</tr>
+<tr>
+<td>Select <em>Someone else</em> &gt; Type data in fields &gt; Click <em>FORWARD</em> button</td>
+<td>* The modal disappears<br> * View page is displayed<br> * A new section is displayed with title : Your answer to [client@prestashop.com</td>
+</tr>
+<tr>
+<td>BO &gt; Customer Service &gt; Customer Service &gt; type data in <em>Email</em> field &gt; click on <em>Search</em> button</td>
+<td>Customer Service page is well displayed<br><br>First line of Customer Service section contains [client@prestashop.com</td>
+</tr>
+<tr>
+<td>Click on the arrow next <em>View</em> button &gt; Click <em>Delete</em> &gt; Click <em>Yes</em> on the modal</td>
+<td>&ldquo;Successful deletion&rdquo; message is displayed<br><br>The message is not displayed in Customer Service message</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 7, 2023
+  Last updated on September 8, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/9d6185805dd1cb0b555ffef6a9b62fe983f222f1">"[Update] JIRA XRay Tests" (9d6185805dd)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/121bbfc09900004ef2cf161712e2819713378a14">"[Update] JIRA XRay Tests" (121bbfc0990)</a>
   
 </div>
 
@@ -65382,17 +65430,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1694069747"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1694069747"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1694069747"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1694069747"></script>
-    <script src="../../../../../../js/featherlight.min.js?1694069747"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1694069747"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1694069747"></script>
-    <script src="../../../../../../js/learn.js?1694069747"></script>
-    <script src="../../../../../../js/hugo-learn.js?1694069747"></script>
+    <script src="../../../../../../js/clipboard.min.js?1694156383"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1694156383"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1694156383"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1694156383"></script>
+    <script src="../../../../../../js/featherlight.min.js?1694156383"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1694156383"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1694156383"></script>
+    <script src="../../../../../../js/learn.js?1694156383"></script>
+    <script src="../../../../../../js/hugo-learn.js?1694156383"></script>
     
-    <script src="../../../../../../main.js?1694069747"></script>
+    <script src="../../../../../../main.js?1694156383"></script>
     
     
 

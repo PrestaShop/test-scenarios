@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1694069751" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1694069751" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1694069751" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1694069751" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1694069751" rel="stylesheet">
-    <link href="../../../../../../style.css?1694069751" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1694156386" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1694156386" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1694156386" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1694156386" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1694156386" rel="stylesheet">
+    <link href="../../../../../../style.css?1694156386" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1694069751"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1694156386"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65352,7 +65352,7 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-7392">https://forge.prestashop.com/browse/TEST-7392</a></li>
 </ul>
 <h2 id="steps">Steps</h2>
@@ -65405,8 +65405,28 @@
 <td>Guest account exists in customers table and assigned to &ldquo;Guest&rdquo; Group</td>
 </tr>
 <tr>
-<td>Go to BO &gt; Orders &gt; Orders</td>
-<td>Orders page is displayed</td>
+<td>Go to BO &gt; Customers &gt; Customers</td>
+<td>Customers page is displayed<br><br>The customers table is displayed with title : Manage your Customers +(total number of customers)</td>
+</tr>
+<tr>
+<td>Click on <em>Group</em> dropdown button &gt; Select <em>Guest</em> &gt; Click <em>Search</em> button</td>
+<td>The customer assigned to Guest group is well displayed<br><br>Reset button is dislayed</td>
+</tr>
+<tr>
+<td>Click on the <em>three dots</em> in front of first line in the table &gt; Click <em>View</em> button</td>
+<td>New Customers page is displayed<br><br>Title contains : &ldquo;Information about customer [your customer name]&rdquo;</td>
+</tr>
+<tr>
+<td>Go to top left section &gt; Click on <em>Transform to a customer account</em> button</td>
+<td>Message displayed : &ldquo;Successful creation&rdquo;<br><br>The button <em>Transform to a customer account</em> is not displayed</td>
+</tr>
+<tr>
+<td>Back to BO &gt; Customers &gt; Customers</td>
+<td>The Customers table is empty with mention : No record found</td>
+</tr>
+<tr>
+<td>Click on <em>Reset</em> button</td>
+<td>All customers are displayed<br><br>The edited guest is now registered as a <em>Customer</em> under <em>Group</em> column</td>
 </tr>
 </tbody>
 </table>
@@ -65415,9 +65435,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 7, 2023
+  Last updated on September 8, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/9d6185805dd1cb0b555ffef6a9b62fe983f222f1">"[Update] JIRA XRay Tests" (9d6185805dd)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/121bbfc09900004ef2cf161712e2819713378a14">"[Update] JIRA XRay Tests" (121bbfc0990)</a>
   
 </div>
 
@@ -65438,17 +65458,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1694069751"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1694069751"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1694069751"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1694069751"></script>
-    <script src="../../../../../../js/featherlight.min.js?1694069751"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1694069751"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1694069751"></script>
-    <script src="../../../../../../js/learn.js?1694069751"></script>
-    <script src="../../../../../../js/hugo-learn.js?1694069751"></script>
+    <script src="../../../../../../js/clipboard.min.js?1694156387"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1694156387"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1694156387"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1694156387"></script>
+    <script src="../../../../../../js/featherlight.min.js?1694156387"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1694156387"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1694156387"></script>
+    <script src="../../../../../../js/learn.js?1694156387"></script>
+    <script src="../../../../../../js/hugo-learn.js?1694156387"></script>
     
-    <script src="../../../../../../main.js?1694069751"></script>
+    <script src="../../../../../../main.js?1694156387"></script>
     
     
 

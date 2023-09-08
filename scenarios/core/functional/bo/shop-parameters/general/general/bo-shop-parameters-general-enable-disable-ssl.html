@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1694069785" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1694069785" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1694069785" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1694069785" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1694069785" rel="stylesheet">
-    <link href="../../../../../../../style.css?1694069785" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1694156424" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1694156424" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1694156424" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1694156424" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1694156424" rel="stylesheet">
+    <link href="../../../../../../../style.css?1694156424" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1694069785"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1694156424"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41694,6 +41694,7 @@
     <li><a href="#bo---shop-parameters---general---enable--disable-ssl">BO - Shop Parameters - General - Enable / disable SSL</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65357,17 +65358,44 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1040">https://forge.prestashop.com/browse/TEST-1040</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; General</td>
+<td>Preferences page is well displayed<br>Two tabs are available : General and Maintenance<br><br>General tab is selected by default<br><br>Enable SSL on all pages toggle switch button is unlocked</td>
+</tr>
+<tr>
+<td>Click on [<em>Please click here to check if your store supports HTTPS</em>. link</td>
+<td><a href="https://anis-shop.demo-hawks.prestashop.net/ps-admin/index.php/configure/shop/preferences/preferences?_token=xOempIq0JnM84CoWWAL1AeOIeD0KUwgr9z5lZWYOB8k%5D">https://anis-shop.demo-hawks.prestashop.net/ps-admin/index.php/configure/shop/preferences/preferences?_token=xOempIq0JnM84CoWWAL1AeOIeD0KUwgr9z5lZWYOB8k]</a></td>
+</tr>
+<tr>
+<td>Switch <em>Enable SSL on all pages</em> toggle switch button to Yes &gt; Click <em>Save</em> button</td>
+<td>Message displayed : &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>Go to FO &gt; check the address navbar</td>
+<td>The home page is well displayed<br><br>In the navbar next to the URL address a locker symbol is displayed</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 6, 2023
+  Last updated on September 8, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/569b48cb4845df6f76deb960b1bb4d8e7887ff3b">"[Update] JIRA XRay Tests" (569b48cb484)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/121bbfc09900004ef2cf161712e2819713378a14">"[Update] JIRA XRay Tests" (121bbfc0990)</a>
   
 </div>
 
@@ -65388,17 +65416,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1694069785"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1694069785"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1694069785"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1694069785"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1694069785"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1694069785"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1694069785"></script>
-    <script src="../../../../../../../js/learn.js?1694069785"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1694069785"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1694156424"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1694156424"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1694156424"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1694156424"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1694156424"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1694156424"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1694156424"></script>
+    <script src="../../../../../../../js/learn.js?1694156424"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1694156424"></script>
     
-    <script src="../../../../../../../main.js?1694069785"></script>
+    <script src="../../../../../../../main.js?1694156424"></script>
     
     
 
