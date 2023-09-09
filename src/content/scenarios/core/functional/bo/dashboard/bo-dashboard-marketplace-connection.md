@@ -1,6 +1,6 @@
 ---
 title: "BO - Dashboard - Marketplace connection"
-weight: 5
+weight: 4
 ---
 
 # BO - Dashboard - Marketplace connection

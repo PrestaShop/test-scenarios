@@ -1,6 +1,6 @@
 ---
 title: "BO - Dashboard - Products and sales"
-weight: 4
+weight: 3
 ---
 
 # BO - Dashboard - Products and sales
