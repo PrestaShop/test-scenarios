@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1694156424" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1694156424" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1694156424" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1694156424" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1694156424" rel="stylesheet">
-    <link href="../../../../../../../style.css?1694156424" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1694241908" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1694241908" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1694241908" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1694241908" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1694241908" rel="stylesheet">
+    <link href="../../../../../../../style.css?1694241908" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1694156424"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1694241908"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -7558,27 +7558,6 @@
       <li data-nav-id="/scenarios/core/functional/bo/dashboard/bo-dashboard-enable-disable-demo-mode-check-stats.html" title="BO - Dashboard - Enable/Disable demo mode &#43; check stats" class="dd-item ">
         <a href="../../../../../../../scenarios/core/functional/bo/dashboard/bo-dashboard-enable-disable-demo-mode-check-stats.html">
         BO - Dashboard - Enable/Disable demo mode &#43; check stats
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/core/functional/bo/dashboard/bo-dashboard-tips-and-update-check-language.html" title="BO - Dashboard - Tips and update (check language)" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/dashboard/bo-dashboard-tips-and-update-check-language.html">
-        BO - Dashboard - Tips and update (check language)
         
         </a>
     </li>
@@ -41694,6 +41673,7 @@
     <li><a href="#bo---shop-parameters---general---round-mode">BO - Shop Parameters - General - Round mode</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -46170,21 +46150,6 @@
       
       
 
-      
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
       
         
     
@@ -65357,17 +65322,124 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1043">https://forge.prestashop.com/browse/TEST-1043</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Add Standard simple Product</td>
+<td>Product added and displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; International &gt; Localization &gt; Currencies tab</td>
+<td>Currencies page is displayed</td>
+</tr>
+<tr>
+<td>Filter by Currency &gt; Click on <em>Search</em> button</td>
+<td>Currency table contains &ldquo;Euro&rdquo;</td>
+</tr>
+<tr>
+<td>Click on <em>Edit</em> icon button &gt; Set Decimals field &gt; Click <em>Save</em> button</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td><em>CASE 1 : Round up away from zero,when it is half way there(recommended)</em></td>
+<td></td>
+</tr>
+<tr>
+<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
+<td>Items price is updated : 42.56 [€</td>
+</tr>
+<tr>
+<td><em>CASE 2 : Round down toward zero, when it is half way there</em></td>
+<td></td>
+</tr>
+<tr>
+<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
+<td>Items price is updated : 42.56 [€</td>
+</tr>
+<tr>
+<td><em>CASE 3 : Round towards the next even value</em></td>
+<td></td>
+</tr>
+<tr>
+<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
+<td>Items price is updated : 42.56 [€</td>
+</tr>
+<tr>
+<td><em>CASE 4 :</em> <em>Round towards the next odd value</em>*.*</td>
+<td></td>
+</tr>
+<tr>
+<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
+<td>Items price is updated : 42.56 [€</td>
+</tr>
+<tr>
+<td><em>CASE 5 :</em> <em>Round up to the nearest value</em></td>
+<td></td>
+</tr>
+<tr>
+<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
+<td>Items price is updated : 42.56 [€</td>
+</tr>
+<tr>
+<td><em>CASE 6 :</em> <em>Round down to the nearest value</em></td>
+<td></td>
+</tr>
+<tr>
+<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
+<td>Items price is updated : 42.55 [€</td>
+</tr>
+<tr>
+<td>Go to Catalog &gt; Products &gt; Click on the <em>three dots</em> &gt; Click <em>Delete</em></td>
+<td>A modal is displayed with two options : Cancel and Delete buttons<br>modal title : Delete selection</td>
+</tr>
+<tr>
+<td>Click on <em>Delete</em> button</td>
+<td>Message displayed : &ldquo;Successful deletion&rdquo;</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 7, 2023
+  Last updated on September 9, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/9d6185805dd1cb0b555ffef6a9b62fe983f222f1">"[Update] JIRA XRay Tests" (9d6185805dd)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/6faf1c4c14b8a157bdfbf3d7b5932a06c70a3c2a">"[Update] JIRA XRay Tests" (6faf1c4c14b)</a>
   
 </div>
 
@@ -65388,17 +65460,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1694156424"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1694156424"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1694156424"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1694156424"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1694156424"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1694156424"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1694156424"></script>
-    <script src="../../../../../../../js/learn.js?1694156424"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1694156424"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1694241909"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1694241909"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1694241909"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1694241909"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1694241909"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1694241909"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1694241909"></script>
+    <script src="../../../../../../../js/learn.js?1694241909"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1694241909"></script>
     
-    <script src="../../../../../../../main.js?1694156424"></script>
+    <script src="../../../../../../../main.js?1694241909"></script>
     
     
 
