@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1694415314" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1694415314" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1694415314" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1694415314" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1694415314" rel="stylesheet">
-    <link href="../../../../../../../style.css?1694415314" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1694501403" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1694501403" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1694501403" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1694501403" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1694501403" rel="stylesheet">
+    <link href="../../../../../../../style.css?1694501403" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1694415314"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1694501403"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41673,6 +41673,7 @@
     <li><a href="#bo---shop-parameters---customer-settings---enable-partner-offers">BO - Shop Parameters - Customer Settings - Enable partner offers</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65321,18 +65322,49 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1088">https://forge.prestashop.com/browse/TEST-1088</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Customers Settings</td>
+<td>See that Enable partner offers option is checked.</td>
+</tr>
+<tr>
+<td>Click View my store &gt; Add any product to your cart &gt; Proceed to checkout &gt; In Step 1 &gt; In Order as guest section &gt; Check the option &ldquo;Receive offers from our partners&rdquo; &gt; Proceed to checkout until checkout is done</td>
+<td>See message YOUR ORDER IS CONFIRMED</td>
+</tr>
+<tr>
+<td>Proceed to checkout until checkout is done</td>
+<td></td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Shop Parameters &gt; Customers Settings &gt; Disable the option &ldquo;Enable partner offers&rdquo; &gt; Save</td>
+<td>See a red alert &ldquo;Make sure partner offers are not set as required in the Customers section of the back office before disabling them. Otherwise, new customers won&rsquo;t be able to create an account and proceed to checkout.&quot;<br><br>See message Update successful</td>
+</tr>
+<tr>
+<td>Click View my store &gt; Add any product to your cart &gt; Proceed to checkout &gt; In Step 1 &gt; In Order as guest section &gt; The option &ldquo;Receive offers from our partners&rdquo; is not displayed &gt; Proceed to checkout until checkout is done</td>
+<td>See message YOUR ORDER IS CONFIRMED</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 9, 2023
+  Last updated on September 12, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/a931c0d0ea6123fca1546d11ec2377f75ef595ab">"[Update] JIRA XRay Tests" (a931c0d0ea6)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/7ce5462f062b8c44bb6e0b3d833f5763b1b3f407">"[Update] JIRA XRay Tests" (7ce5462f062)</a>
   
 </div>
 
@@ -65353,17 +65385,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1694415314"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1694415314"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1694415314"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1694415314"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1694415314"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1694415314"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1694415314"></script>
-    <script src="../../../../../../../js/learn.js?1694415314"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1694415314"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1694501403"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1694501403"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1694501403"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1694501403"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1694501403"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1694501403"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1694501403"></script>
+    <script src="../../../../../../../js/learn.js?1694501403"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1694501403"></script>
     
-    <script src="../../../../../../../main.js?1694415314"></script>
+    <script src="../../../../../../../main.js?1694501403"></script>
     
     
 

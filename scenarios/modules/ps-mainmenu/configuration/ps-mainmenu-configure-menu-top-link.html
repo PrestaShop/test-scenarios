@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../css/font-awesome.min.css?1694415378" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1694415378" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1694415378" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1694415378" rel="stylesheet">
-    <link href="../../../../css/auto-complete.css?1694415378" rel="stylesheet">
-    <link href="../../../../style.css?1694415378" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1694501467" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1694501467" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1694501467" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1694501467" rel="stylesheet">
+    <link href="../../../../css/auto-complete.css?1694501467" rel="stylesheet">
+    <link href="../../../../style.css?1694501467" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1694415378"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1694501467"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41655,6 +41655,7 @@
     <li><a href="#ps_mainmenu---configure-menu-top-link">ps_mainmenu - Configure Menu Top Link</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65302,17 +65303,84 @@
 <h1 id="ps_mainmenu---configure-menu-top-link">ps_mainmenu - Configure Menu Top Link</h1>
 <h2 id="details">Details</h2>
 <ul>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-7268">https://forge.prestashop.com/browse/TEST-7268</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO&gt; IMPROVE&gt; Module manager</td>
+<td>Module manager page is well displayed</td>
+</tr>
+<tr>
+<td>Search <em>mainmenu</em></td>
+<td>On Theme modules Main menu module is displayed</td>
+</tr>
+<tr>
+<td>Click on Main menu configure button.</td>
+<td>Configure&gt; Main menu page is well displayed.</td>
+</tr>
+<tr>
+<td>Go to Menu Top Link,<br><br>select the first item of <em>Selected Items</em></td>
+<td>Only Accessories item is selected.</td>
+</tr>
+<tr>
+<td>Click on down arrow button of <em>change position</em>.</td>
+<td>The selected items sorting is updated,<br><br>The selected item had become in second place.</td>
+</tr>
+<tr>
+<td>Click on Save:</td>
+<td>The settings have been updated.</td>
+</tr>
+<tr>
+<td>Go to FO</td>
+<td>On top menu position, the accessories are on the first place.</td>
+</tr>
+<tr>
+<td>Go back to  Menu Top Link on BO,<br><br>select an item of <em>Available items</em></td>
+<td>Only Home item is selected.</td>
+</tr>
+<tr>
+<td>Click on <em>&lt;- Add</em> button</td>
+<td>The item already selected from <em>Available items</em> has moved to <em>Selected items</em> on the bottom of the list</td>
+</tr>
+<tr>
+<td>Select the item already added on <em>Selected items</em>.</td>
+<td>Only Home item is selected.</td>
+</tr>
+<tr>
+<td>Change the position to the TOP of the item added on <em>Selected items</em> by clicking on the up arrow of <em>Change position</em>.</td>
+<td>The home item is on the top of <em>Selected items</em> list</td>
+</tr>
+<tr>
+<td>Go back to FO</td>
+<td>On top menu position, home is added.</td>
+</tr>
+<tr>
+<td>Go back to  Menu Top Link on BO,<br><br>select an item of <em>Selected items</em></td>
+<td>Only Home item is selected.</td>
+</tr>
+<tr>
+<td>Click on <em>-&gt;Remove</em> button</td>
+<td>The item already selected from <em>Selected items</em> has removed.</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on August 11, 2023
+  Last updated on September 12, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/d0307d8f965b0ceef83dcd5df8ea4da59114cb20">"[Update] JIRA XRay Tests" (d0307d8f965)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/7ce5462f062b8c44bb6e0b3d833f5763b1b3f407">"[Update] JIRA XRay Tests" (7ce5462f062)</a>
   
 </div>
 
@@ -65333,17 +65401,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1694415378"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1694415378"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1694415378"></script>
-    <script src="../../../../js/jquery.sticky.js?1694415378"></script>
-    <script src="../../../../js/featherlight.min.js?1694415378"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1694415378"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1694415378"></script>
-    <script src="../../../../js/learn.js?1694415378"></script>
-    <script src="../../../../js/hugo-learn.js?1694415378"></script>
+    <script src="../../../../js/clipboard.min.js?1694501467"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1694501467"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1694501467"></script>
+    <script src="../../../../js/jquery.sticky.js?1694501467"></script>
+    <script src="../../../../js/featherlight.min.js?1694501467"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1694501467"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1694501467"></script>
+    <script src="../../../../js/learn.js?1694501467"></script>
+    <script src="../../../../js/hugo-learn.js?1694501467"></script>
     
-    <script src="../../../../main.js?1694415378"></script>
+    <script src="../../../../main.js?1694501467"></script>
     
     
 
