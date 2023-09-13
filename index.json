@@ -721,11 +721,11 @@
 	"content": "BO - Shop Parameters - Order Settings - Gift options Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1057 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/giftOptions/01_giftOptions.ts  Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Gift options \u0026gt; Set \u0026ldquo;Offer gift wrapping\u0026rdquo; switch button to YES \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add a product to cart \u0026gt; Proceed to checkout until step 3 - Shipping method Option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; is displayed   Check option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; A new field appears \u0026ldquo;If you\u0026rsquo;d like, you can add a note to the gift:\u0026rdquo;   Continue the checkout process \u0026gt; Place order The order is now confirmed   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order In the middle of the page on Status, Documents, Carriers, Merchandise returns tabs, the label \u0026ldquo;Gift wrapping\u0026rdquo; is displayed in green at the bottom of the block   Go to FO \u0026gt; Add a product to cart \u0026gt; Proceed to checkout until step 3 - Shipping method Option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; is displayed   Check option \u0026ldquo;I would like my order to be gift wrapped\u0026rdquo; A new field appears \u0026ldquo;If you\u0026rsquo;d like, you can add a note to the gift:\u0026rdquo;   Add a note \u0026gt; Continue the checkout process \u0026gt; Place order The order is now confirmed   Click on \u0026ldquo;Your name\u0026rdquo; link on the header \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Details\u0026rdquo; link of the last order * The \u0026ldquo;Order details\u0026rdquo; page is displayed\n* In the 2nd block, the message about gift wrapping option is displayed:\n** You have requested gift wrapping for this order.\n** My custom message   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order \u0026gt; Click on \u0026ldquo;Carriers\u0026rdquo; tab in the middle of the page * In Carrier tab, the note is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;gift wrapping\u0026rdquo; are displayed   Go to Shop parameters \u0026gt; Order Settings \u0026gt; Add price + tax \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add product to cart \u0026gt; Proceed to checkout \u0026gt; in Step 3, check wrapping gift checbkox + add a note * The checkbox text has changed. This text is added \u0026ldquo;(additional cost of €XX tax incl.)\u0026quot;\n* A \u0026ldquo;Gift wrapping\u0026rdquo; line with tax included is displayed   Continue order \u0026gt; Place order * The order is now confirmed\n* The price for gift wrapping line is displayed   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order * In \u0026ldquo;Products\u0026rdquo; block, a wrapping amount is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;gift wrapping\u0026rdquo; are displayed\n* In tab Carriers, the note is displayed   Go to Shop parameters \u0026gt; Order Settings \u0026gt; Set \u0026ldquo;Recycled packaging\u0026rdquo; switch button to YES \u0026gt; Save Message \u0026ldquo;Update successful\u0026rdquo; is displayed   Go to FO \u0026gt; Add product to cart \u0026gt; Proceed to checkout \u0026gt; in Step 3, check wrapping gift box + check recycled packaging box + add a note \u0026gt; Place order * The order is now confirmed\n* The price for gift wrapping line is displayed   Click on \u0026ldquo;Your name\u0026rdquo; link on the header \u0026ldquo;Your account\u0026rdquo; page is displayed   Click on \u0026ldquo;Order history and details\u0026rdquo; tab \u0026gt; Click on \u0026ldquo;Details\u0026rdquo; link of the last order * The \u0026ldquo;Order details\u0026rdquo; page is displayed\n* In the 2nd block, the message about gift wrapping and recycled packaging options is displayed:\n** You have given permission to receive your order in recycled packaging. ** You have requested gift wrapping for this order.\n** My custom message   Go to BO \u0026gt; Orders \u0026gt; Orders \u0026gt; View latest order * In \u0026ldquo;Products\u0026rdquo; block, a wrapping amount is displayed\n* In tab Status, Documents, Carriers, Merchandise return tabs, label \u0026ldquo;recycled packaging\u0026rdquo; and \u0026ldquo;gift wrapping\u0026rdquo; are displayed\n* In tab Carriers, the note is displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-final-summary-todo.html",
-	"title": "BO - Shop Parameters - Order Settings - Enable / disable final summary (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-final-summary.html",
+	"title": "BO - Shop Parameters - Order Settings - Enable / disable final summary",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Order Settings - Enable / disable final summary (TODO) Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1049  "
+	"content": "BO - Shop Parameters - Order Settings - Enable / disable final summary Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1049  Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings Enable final summary is disabled   Go to FO \u0026gt; Add any product to the cart \u0026gt; Proceed to checkout The checkout process is as usual\nOnce the checkout is done, the message YOUR ORDER IS CONFIRMED is displayed   Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Enable the option Enable final summary \u0026gt; Save Message Update successful is displayed   Go to FO \u0026gt; Add any product to the cart \u0026gt; Proceed to checkout On the Step 4 of checkout process, the block \u0026ldquo;Please check your order before payment\u0026rdquo; is displayed with information about Addresses, Shipping Method and ORDER ITEMS   Finish Checkout process Message YOUR ORDER IS CONFIRMED is displayed    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-crud.html",
@@ -2387,11 +2387,11 @@
 	"content": "BO - Shop Parameters - General - Maintenance - Add maintenance IP Details  Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-1047  Steps    Step Description Expected result     Go to BO \u0026gt; Advanced Parameters \u0026gt; General \u0026gt; Maintenance tab \u0026gt; Enable store = NO \u0026gt; Save Message \u0026ldquo;Successful update.\u0026rdquo; appears   Click \u0026ldquo;View my shop\u0026rdquo; In FO, you shouldn\u0026rsquo;t be able to see your site   Go to BO \u0026gt; Advanced Parameters \u0026gt; General \u0026gt; Maintenance tab \u0026gt; Click \u0026ldquo;Add my IP\u0026rdquo; \u0026gt; Save Your IP is added to the list\nMessage \u0026ldquo;Successful update.\u0026rdquo; appears   Click \u0026ldquo;View my shop\u0026rdquo; Your FO should be displayed as usual   Go to BO \u0026gt; Advanced Parameters \u0026gt; General \u0026gt; Maintenance tab \u0026gt; Add your IP by copy-paste \u0026gt; Save Message \u0026ldquo;Successful update.\u0026rdquo; appears   Click \u0026ldquo;View my shop\u0026rdquo; Your FO should be displayed as usual    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-guest-checkout-todo.html",
-	"title": "BO - Shop Parameters - Order Settings - Enable / disable guest checkout (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-guest-checkout.html",
+	"title": "BO - Shop Parameters - Order Settings - Enable / disable guest checkout",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Order Settings - Enable / disable guest checkout (TODO) Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1050  "
+	"content": "BO - Shop Parameters - Order Settings - Enable / disable guest checkout Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1050  Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Order Settings Option Enable guest checkout is already enabled   Go to FO \u0026gt; Add any product to the cart \u0026gt; Proceed to checkout See in Step 1 the Order as a guest option   Fill the fields See the option available : Create an account (optional) And save time on your next order! And the password field optional   Proceed to checkout YOUR ORDER IS CONFIRMED   Go back to BO \u0026gt; Shop Parameters \u0026gt; Order Settings \u0026gt; Disable the Guest checkout option \u0026gt; Save Message Update successful is displayed   Go to FO \u0026gt; Add any product to the cart \u0026gt; Proceed to checkout In Step 1, you need to create an account to proceed to checkout : Create an account   Fill the fields in Step 1 \u0026gt; Continue Step 2 is displayed   Finish the checkout process YOUR ORDER IS CONFIRMED    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-settings-statuses-crud.html",
@@ -3766,11 +3766,11 @@
 	"content": "BO - Shop Parameters - General - Maintenance - Edit maintenance text Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1048  Steps    Step Description Expected result     Go to BO \u0026gt; Advanced Parameters \u0026gt; General \u0026gt; Maintenance tab \u0026gt; Enable store = NO \u0026gt; Save Message \u0026ldquo;Successful update.\u0026rdquo; appears   Click \u0026ldquo;View my shop\u0026rdquo; In FO, you shouldn\u0026rsquo;t be able to see your site.\nThe maintenance text is the default one   In Custom maintenance text, edit your text \u0026gt; Save Message \u0026ldquo;Successful update.\u0026rdquo; appears   Click \u0026ldquo;View my shop\u0026rdquo; In FO, see that your maintenance message is updated with your data    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-reordering-option-todo.html",
-	"title": "BO - Shop Parameters - Order Settings - Enable / disable reordering option (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-reordering-option.html",
+	"title": "BO - Shop Parameters - Order Settings - Enable / disable reordering option",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Order Settings - Enable / disable reordering option (TODO) Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1051  "
+	"content": "BO - Shop Parameters - Order Settings - Enable / disable reordering option Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1051  Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Order Settings Page Order Settings is displayed\nDisable reordering option : NO   Go to FO \u0026gt; Log into your customer account Your account page is displayed   Click on Order history and details See all the orders made by the customer\nSee that the column Reorder is displayed   Click on Reorder button for the order KHWLILZLL FO \u0026gt; Step 2 is displayed   Choose the address is France \u0026gt; Proceed to checkout \u0026gt; Place order YOUR ORDER IS CONFIRMED   Go back to BO \u0026gt; Shop parameters \u0026gt; Order Settings \u0026gt; Disable reordering option : Choose YES \u0026gt; Save Message Update successful is displayed   Go to FO \u0026gt; In Customer Account \u0026gt; Click on Order history and details The latest order made is displayed in the table.\nThe column Reorder is not displayed.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-crud-order-return-status.html",
@@ -4736,7 +4736,7 @@
 	"title": "BO - Design - Theme &amp; Logo - Change it",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Theme \u0026amp; Logo - Change it Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-918  "
+	"content": "BO - Design - Theme \u0026amp; Logo - Change it Details  Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-918  "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration/bo-design-theme-logo-page-configuration-see-all-theme-s-modules-button.html",
@@ -4771,7 +4771,7 @@
 	"title": "BO - International - Localization - Set default country",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Localization - Set default country Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-988  "
+	"content": "BO - International - Localization - Set default country Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-988  Steps    Step Description Expected result     Go to BO\u0026gt; International\u0026gt; Localization Localization page is well displayed   Go to Configuration part -\u0026gt; Default country The default currency used in the shop is France.   Edit Default country,\nsave. Update successful message is displayed   Go to FO\u0026gt;Footer Container On STORE INFORMATION : the country is updated.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/countries/bo-international-locations-countries-sort-and-pagination.html",
@@ -4932,7 +4932,7 @@
 	"title": "BO - Shop Parameters - Customer Settings - Enable B2B mode",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Customer Settings - Enable B2B mode Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1086  "
+	"content": "BO - Shop Parameters - Customer Settings - Enable B2B mode Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1086  Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Customer settings \u0026gt; Enable B2B mode \u0026gt; Save Message Update successful is displayed   Click View my store \u0026gt; Add any product to your cart \u0026gt; Proceed to checkout See in Step 1 - Personal Information : Company \u0026amp; Identification number fields are displayed as optional.   Add a Company \u0026amp; Identification number \u0026gt; Proceed to checkout YOUR ORDER IS CONFIRMED   Go to BO \u0026gt; Catalog \u0026gt; Customers See a new column is displayed : Company   Go to BO \u0026gt; Catalog \u0026gt; Customers \u0026gt; Click on latest customer created See the following fields related to B2B option :\nCompany : PrestaShop\nSIRET : 1234567890\nAPE :\nWebsite :\nAllowed outstanding amount :\nMaximum number of payment days :\nRisk rating :   Go back to BO \u0026gt; Shop parameters \u0026gt; Customer settings \u0026gt; Disable B2B mode \u0026gt; Save Message Update successful is displayed   Click View my store \u0026gt; Add any product to your cart \u0026gt; Proceed to checkout The fields Company and Identification number are not displayed anymore   Continue checkout YOUR ORDER IS CONFIRMED   Go to BO \u0026gt; Catalog \u0026gt; Customers The column Company is not displayed anymore   Go to BO \u0026gt; Catalog \u0026gt; Customers \u0026gt; Click on latest customer created All the fields related to B2B are not displayed anymore.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html",
@@ -4942,11 +4942,11 @@
 	"content": "BO - Shop Parameters - General - Enable / disable multistore Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1041  Steps    Step Description Expected result     Go to BO\u0026gt; Shop Parameters\u0026gt; General Preferences page is displayed on General tab   Enable Multistore YES,\nsave. Successful update message is displayed.   Go to Advanced parameters\u0026gt; Mutistore Multistore page is well displayed.   Go back to Shop Parameters\u0026gt; General,\nEnable Multistore NO Successful update message is displayed.   Go to Advanced Parameters Multistore page is not found.    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-minimum-purchase-total-required-in-order-to-validate-the-order-todo.html",
-	"title": "BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-minimum-purchase-total-required-in-order-to-validate-the-order.html",
+	"title": "BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order (TODO) Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1052  "
+	"content": "BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order Details  Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1052  "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-quick-edit-send-email-delivery-invoice.html",
@@ -4970,11 +4970,11 @@
 	"content": "BO - Shop Parameters - Product Settings - Label out-of-stock products with denied backorders Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1078  "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-separator-of-attribute-anchor-on-the-product-links-todo.html",
-	"title": "BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links (TODO)",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-separator-of-attribute-anchor-on-the-product-links.html",
+	"title": "BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links (TODO) Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1071  "
+	"content": "BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1071  Steps    Step Description Expected result     Go to FO \u0026gt; Open the product HUMMINGBIRD PRINTED T-SHIRT Check the URL \u0026gt; See that it is like the following : my_shop.com/en/men/1-1-hummingbird-printed-t-shirt.html#/1-size-s/8-color-white   Go to BO \u0026gt; Shop Parameters \u0026gt; Product Settings \u0026gt; Change Separator of attribute anchor on the product links to \u0026ldquo;,\u0026rdquo; \u0026gt; Save Message Update successful is displayed   Go back to FO \u0026gt; Refresh the page of product HUMMINGBIRD PRINTED T-SHIRT Check the URL \u0026gt; See that it is like the following : my_shop.com/en/men/1-1-hummingbird-printed-t-shirt.html#/1,size,s/8,color,white    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html",
@@ -5618,7 +5618,7 @@
 	"title": "BO - Design - Theme &amp; Logo - Visit the theme Catalog",
 	"tags": [],
 	"description": "",
-	"content": "BO - Design - Theme \u0026amp; Logo - Visit the theme Catalog Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-919  "
+	"content": "BO - Design - Theme \u0026amp; Logo - Visit the theme Catalog Details  Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-919  "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/header/bo-header-check-notifications.html",
@@ -5744,7 +5744,7 @@
 	"title": "BO - Shipping - Carriers - Change position",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shipping - Carriers - Change position Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-973  "
+	"content": "BO - Shipping - Carriers - Change position Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-973  Steps    Step Description Expected result     Go to BO\u0026gt;IMPROVE\u0026gt; Shipping\u0026gt; Carriers Carriers page is displayed   On position column, click on the position of the first carrier on the carriers table and drop it to the second ligne. Successful update message is displayed.\nCarrier place is well changed.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/contact/stores/bo-shop-parameters-contacts-stores-sort-pagination.html",
@@ -5758,7 +5758,7 @@
 	"title": "BO - Shop Parameters - Customer Settings - Ask for birth date",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Customer Settings - Ask for birth date Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1087  "
+	"content": "BO - Shop Parameters - Customer Settings - Ask for birth date Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1087  Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings See that Ask for birth date option is enabled by default   Click View my store \u0026gt; Add any product to your cart \u0026gt; Proceed to checkout See in Step 1 - Personal Information : Birthdate field is displayed as optional.   Add a birthdate \u0026gt; Continue checkout Message YOUR ORDER IS CONFIRMED   Go to BO \u0026gt; Orders \u0026gt; Last order made \u0026gt; Click on view full details in customer card See the Age element is like : Age\nXX years old (birth date: 01/01/2000)   Go back to BO \u0026gt; Shop Parameters \u0026gt; Customer Settings \u0026gt; Disabled Ask for birth date option \u0026gt; Save Message Update successful is displayed   Click View my store \u0026gt; Add any product to your cart \u0026gt; Proceed to checkout See checkout process that the Birthdate field is not displayed anymore in Step 1   Continue checkout Message YOUR ORDER IS CONFIRMED   Go to BO \u0026gt; Orders \u0026gt; Last order made \u0026gt; Click on view full details in customer card See Age element is Unknown    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-display-brands-best-sellers.html",
@@ -6360,7 +6360,7 @@
 	"title": "BO - Shipping - Carriers - Install module",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shipping - Carriers - Install module Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-974  "
+	"content": "BO - Shipping - Carriers - Install module Details  Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-974  "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-enable-partner-offers.html",
@@ -6773,7 +6773,7 @@
 	"title": "BO - International - Localization - Default currency",
 	"tags": [],
 	"description": "",
-	"content": "BO - International - Localization - Default currency Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-991  "
+	"content": "BO - International - Localization - Default currency Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-991  Steps    Step Description Expected result     Go to BO\u0026gt; International\u0026gt; Localization Localization page is well displayed   Go to Configuration part -\u0026gt; Default currency The default currency used in the shop is Euro (EUR).   Go to International \u0026gt; Localization page Localization page is displayed\nTitle contains : Localization   Go to Currencies Tab Currencies page is displayed\nTitle contains : Currencies   Click on Add new currency button New currency page is displayed\nTitle contains \u0026lsquo;Currencies •'\nA form is displayed   Click on Select a currency dropdown menu A dropdown menu is well displayed\nAn input field inside the dropdown menu is displayed   Type data in the input field The dropdown list contain one result : Moroccan Dirham (MAD)   Click on value in the dropdownlist All field in Currencies page form are automatically filled:\n* Select a currency : Moroccan Dirham(MAD)\n* Currency name : Moroccan Dirham\n* ISO code : MAD\n* Exchange rate : 11.06\n* Decimals : 2\n* Status: Yes   Click on Save button Message displayed : \u0026ldquo;Successful creation\u0026rdquo;\nNew Currencies page is displayed\nA new line is added in Currencies table contains MAD   Go back to tab Default currency and click on dropdown The new currency is added   Choose the new currency An alert is displayed : Before changing the default currency, we strongly recommend that you enable maintenance mode. Indeed, any change on the default currency requires a manual adjustment of the price of each product and its combinations.**   Click on OK and save Update successful message is displayed.   Go to FO and click on currency dropdown menu The new currency is well added.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-catalog/module-catalog/bo-module-catalog-read-more.html",
@@ -7116,7 +7116,7 @@
 	"title": "BO - Shop Parameters - General - Allow iframes",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - General - Allow iframes Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1045  "
+	"content": "BO - Shop Parameters - General - Allow iframes Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1045  Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; General Preferences page is displayed\nAllow iframes on HTML fields is disabled   Go to BO \u0026gt; Catalog \u0026gt; Products \u0026gt; Edit Customizable mug Customizable mug product page is displayed   In the description \u0026gt; Source code \u0026gt; Add\n{code:java}\n\n{code}\nand Save An error is displayed\nhttps://github.com/PrestaShop/PrestaShop/issues/33921   Preview the product Product page is opened is another tab \u0026gt; No video is displayed in the description of the product   Go to BO \u0026gt; Shop Parameters \u0026gt; General \u0026gt; Allow iframes on HTML fields : YES \u0026gt; Save Message Successful update is displayed   Go to BO \u0026gt; Catalog \u0026gt; Products \u0026gt; Edit Customizable mug \u0026gt; In the description \u0026gt; Source code \u0026gt; Add\n{code:java}\n\n{code}\nand Save Message Successful update is displayed   Preview the product The video is displayed in the description of the product    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-page-for-terms-and-conditions.html",
@@ -9174,7 +9174,7 @@
 	"title": "General",
 	"tags": [],
 	"description": "",
-	"content": "General Tests  BO - Shop Parameters - Order Settings - Enable / disable final summary (TODO)   BO - Shop Parameters - Order Settings - Enable / disable guest checkout (TODO)   BO - Shop Parameters - Order Settings - Enable / disable reordering option (TODO)   BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order (TODO)   BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order   BO - Shop Parameters - Order Settings - Delayed shipping   BO - Shop Parameters - Order Settings - Terms of service   BO - Shop Parameters - Order Settings - Page for terms and conditions   "
+	"content": "General Tests  BO - Shop Parameters - Order Settings - Enable / disable final summary   BO - Shop Parameters - Order Settings - Enable / disable guest checkout   BO - Shop Parameters - Order Settings - Enable / disable reordering option   BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order   BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order   BO - Shop Parameters - Order Settings - Delayed shipping   BO - Shop Parameters - Order Settings - Terms of service   BO - Shop Parameters - Order Settings - Page for terms and conditions   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/localization/geolocation.html",
@@ -10140,7 +10140,7 @@
 	"title": "Product page",
 	"tags": [],
 	"description": "",
-	"content": "Product page Tests  BO - Shop Parameters - Product Settings - Enable, disable display available quantities   BO - Shop Parameters - Product Settings - Display remaining quantities   BO - Shop Parameters - Product Settings - Display unavailable product attributes on the product page (TODO)   BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links (TODO)   BO - Shop Parameters - Product Settings - Display the \u0026#34;add to cart\u0026#34; button when a product has attributes   BO - Shop Parameters - Product Settings - Enable display discounted price (TODO)   "
+	"content": "Product page Tests  BO - Shop Parameters - Product Settings - Enable, disable display available quantities   BO - Shop Parameters - Product Settings - Display remaining quantities   BO - Shop Parameters - Product Settings - Display unavailable product attributes on the product page (TODO)   BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links   BO - Shop Parameters - Product Settings - Display the \u0026#34;add to cart\u0026#34; button when a product has attributes   BO - Shop Parameters - Product Settings - Enable display discounted price (TODO)   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/product-page/product-page.html",
