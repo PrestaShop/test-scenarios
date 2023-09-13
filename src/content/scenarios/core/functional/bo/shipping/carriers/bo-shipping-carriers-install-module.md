@@ -6,6 +6,6 @@ weight: 6
 # BO - Shipping - Carriers - Install module
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-974
 
