@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../../css/font-awesome.min.css?1694587688" rel="stylesheet">
-    <link href="../../../../../../../../css/syntax-github.css?1694587688" rel="stylesheet">
-    <link href="../../../../../../../../css/featherlight.min.css?1694587688" rel="stylesheet">
-    <link href="../../../../../../../../css/perfect-scrollbar.min.css?1694587688" rel="stylesheet">
-    <link href="../../../../../../../../css/auto-complete.css?1694587688" rel="stylesheet">
-    <link href="../../../../../../../../style.css?1694587688" rel="stylesheet">
+    <link href="../../../../../../../../css/font-awesome.min.css?1694673996" rel="stylesheet">
+    <link href="../../../../../../../../css/syntax-github.css?1694673996" rel="stylesheet">
+    <link href="../../../../../../../../css/featherlight.min.css?1694673996" rel="stylesheet">
+    <link href="../../../../../../../../css/perfect-scrollbar.min.css?1694673996" rel="stylesheet">
+    <link href="../../../../../../../../css/auto-complete.css?1694673996" rel="stylesheet">
+    <link href="../../../../../../../../style.css?1694673996" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../../js/jquery-3.3.1.min.js?1694587688"></script>
+    <script src="../../../../../../../../js/jquery-3.3.1.min.js?1694673996"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -17271,9 +17271,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-of-in-stock-products-todo.html" title="BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO)" class="dd-item ">
-        <a href="../../../../../../../../scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-of-in-stock-products-todo.html">
-        BO - Shop Parameters - Product Settings - Update label of in-stock products (TODO)
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-of-in-stock-products.html" title="BO - Shop Parameters - Product Settings - Update label of in-stock products" class="dd-item ">
+        <a href="../../../../../../../../scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-of-in-stock-products.html">
+        BO - Shop Parameters - Product Settings - Update label of in-stock products
         
         </a>
     </li>
@@ -17292,9 +17292,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-enable-delivery-time-in-stocks-products-todo.html" title="BO - Shop Parameters - Product Settings - Enable delivery time in stocks products (TODO)" class="dd-item ">
-        <a href="../../../../../../../../scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-enable-delivery-time-in-stocks-products-todo.html">
-        BO - Shop Parameters - Product Settings - Enable delivery time in stocks products (TODO)
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-delivery-time-of-in-stock-products.html" title="BO - Shop Parameters - Product Settings - Delivery time of in-stock products" class="dd-item ">
+        <a href="../../../../../../../../scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-delivery-time-of-in-stock-products.html">
+        BO - Shop Parameters - Product Settings - Delivery time of in-stock products
         
         </a>
     </li>
@@ -17334,9 +17334,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-oos-allowed-denied-backorders-todo.html" title="BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO)" class="dd-item ">
-        <a href="../../../../../../../../scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-oos-allowed-denied-backorders-todo.html">
-        BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders (TODO)
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-oos-allowed-denied-backorders.html" title="BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders" class="dd-item ">
+        <a href="../../../../../../../../scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-update-label-oos-allowed-denied-backorders.html">
+        BO - Shop Parameters - Product Settings - Update label oos allowed/denied backorders
         
         </a>
     </li>
@@ -41679,6 +41679,7 @@
     <li><a href="#bo---shop-parameters---order-settings---minimum-purchase-total-required-in-order-to-validate-the-order">BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65327,18 +65328,61 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : In progress</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1052">https://forge.prestashop.com/browse/TEST-1052</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Order Settings</td>
+<td>See Minimum purchase total required in order to validate the order option is disabled (0.00)</td>
+</tr>
+<tr>
+<td>Edit the Minimum purchase total required in order to validate the order : 60.00 &gt; Save</td>
+<td>Message Update successful is displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Add The adventure begins Framed poster product to your cart &gt; Proceed to checkout</td>
+<td>In the cart, see the following block displayed : A minimum shopping cart total of €60.00 (tax excl.) is required to validate your order. Current cart total is €29.00 (tax excl.).</td>
+</tr>
+<tr>
+<td>Add 1 quantity to your cart</td>
+<td>In the cart, see the following block displayed : A minimum shopping cart total of €60.00 (tax excl.) is required to validate your order. Current cart total is €58.00 (tax excl.).</td>
+</tr>
+<tr>
+<td>Add another quantity to your cart</td>
+<td>The button Proceed to checkout is now displayed</td>
+</tr>
+<tr>
+<td>Proceed to checkout</td>
+<td>h3. YOUR ORDER IS CONFIRMED</td>
+</tr>
+<tr>
+<td>Edit the Minimum purchase total required in order to validate the order : 0.00 &gt; Save</td>
+<td>Message Update successful is displayed</td>
+</tr>
+<tr>
+<td>Add 1 product to your cart &gt; Proceed to checkout</td>
+<td>In the shopping cart, see that the button Proceed to checkout is always displayed</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 13, 2023
+  Last updated on September 14, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/06475cf4c63a9e18945a157e5c35f6e269821288">"[Update] JIRA XRay Tests" (06475cf4c63)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/70da6816c76551ed57a24f7b5a6647f69e566f91">"[Update] JIRA XRay Tests" (70da6816c76)</a>
   
 </div>
 
@@ -65359,17 +65403,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../../js/clipboard.min.js?1694587688"></script>
-    <script src="../../../../../../../../js/perfect-scrollbar.min.js?1694587688"></script>
-    <script src="../../../../../../../../js/perfect-scrollbar.jquery.min.js?1694587688"></script>
-    <script src="../../../../../../../../js/jquery.sticky.js?1694587688"></script>
-    <script src="../../../../../../../../js/featherlight.min.js?1694587688"></script>
-    <script src="../../../../../../../../js/html5shiv-printshiv.min.js?1694587688"></script>
-    <script src="../../../../../../../../js/modernizr.custom-3.6.0.js?1694587688"></script>
-    <script src="../../../../../../../../js/learn.js?1694587688"></script>
-    <script src="../../../../../../../../js/hugo-learn.js?1694587688"></script>
+    <script src="../../../../../../../../js/clipboard.min.js?1694673997"></script>
+    <script src="../../../../../../../../js/perfect-scrollbar.min.js?1694673997"></script>
+    <script src="../../../../../../../../js/perfect-scrollbar.jquery.min.js?1694673997"></script>
+    <script src="../../../../../../../../js/jquery.sticky.js?1694673997"></script>
+    <script src="../../../../../../../../js/featherlight.min.js?1694673997"></script>
+    <script src="../../../../../../../../js/html5shiv-printshiv.min.js?1694673997"></script>
+    <script src="../../../../../../../../js/modernizr.custom-3.6.0.js?1694673997"></script>
+    <script src="../../../../../../../../js/learn.js?1694673997"></script>
+    <script src="../../../../../../../../js/hugo-learn.js?1694673997"></script>
     
-    <script src="../../../../../../../../main.js?1694587688"></script>
+    <script src="../../../../../../../../main.js?1694673997"></script>
     
     
 
