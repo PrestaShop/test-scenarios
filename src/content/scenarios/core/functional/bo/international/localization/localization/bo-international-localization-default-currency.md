@@ -6,7 +6,7 @@ weight: 7
 # BO - International - Localization - Default currency
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-991
 
@@ -20,7 +20,7 @@ weight: 7
 | Click on *Add new currency* button | New currency page is displayed<br>Title contains 'Currencies •'<br>A form is displayed |
 | Click on Select a currency dropdown menu | A dropdown menu is well displayed<br><br>An input field inside the dropdown menu is displayed |
 | Type data in the input field | The dropdown list contain one result : Moroccan Dirham (MAD) |
-| Click on value in the dropdownlist | All field in Currencies page form are automatically filled:<br> * Select a currency : Moroccan Dirham(MAD)<br> * Currency name : Moroccan Dirham<br> * ISO code : MAD<br> * Exchange rate : 11.06<br> * Decimals : 2<br> * Status: Yes |
+| Click on value in the dropdownlist | All field in Currencies page form are automatically filled:<br> * Select a currency : Moroccan Dirham(MAD)<br> * Currency name : Moroccan Dirham<br> * ISO code : MAD<br> * Exchange rate : 10.9<br> * Decimals : 2<br> * Status: Yes |
 | Click on *Save* button | Message displayed : "Successful creation"<br>New Currencies page is displayed<br>A new line is added in Currencies table contains *MAD* |
 | Go back to tab Default currency and click on dropdown | The new currency is added |
 | Choose the new currency | An alert is displayed : _Before changing the default currency, we strongly recommend that you enable maintenance mode. Indeed, any change on the default currency requires a manual adjustment of the price of each product and its combinations.**_ |

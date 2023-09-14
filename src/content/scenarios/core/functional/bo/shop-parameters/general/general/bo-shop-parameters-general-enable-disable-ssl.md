@@ -6,7 +6,7 @@ weight: 3
 # BO - Shop Parameters - General - Enable / disable SSL
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1040
 
 ## Steps

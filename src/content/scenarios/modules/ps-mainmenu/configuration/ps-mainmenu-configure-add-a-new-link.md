@@ -5,7 +5,7 @@ weight: 2
 
 # ps_mainmenu - Configure Add a new link
 ## Details
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7269
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 6
 # BO - Customers - Transform a Guest to a Customer
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7392
 
 ## Steps
@@ -26,5 +26,5 @@ weight: 6
 | Click on *Group* dropdown button > Select *Guest* > Click *Search* button | The customer assigned to Guest group is well displayed<br><br>Reset button is dislayed |
 | Click on the *three dots* in front of first line in the table > Click *View* button | New Customers page is displayed<br><br>Title contains : "Information about customer [your customer name]" |
 | Go to top left section > Click on *Transform to a customer account* button | Message displayed : "Successful creation"<br><br>The button *Transform to a customer account* is not displayed |
-| Back to BO > Customers > Customers | The Customers table is empty with mention : No record found |
+| Back to BO > Customers > Customers | The Customers table with filter guest is empty with mention : No record found |
 | Click on *Reset* button | All customers are displayed<br><br>The edited guest is now registered as a *Customer* under *Group* column |
