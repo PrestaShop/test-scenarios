@@ -22,7 +22,6 @@ weight: 14
 | Click on the "Generate combinations" button | A "Generate combinations" modal is displayed with :<br> * Search for attributes... field<br> * Size<br> * Color<br> * Dimension<br> * Paper Type<br> * Cancel button : enabled<br> * Generate combinations button: disabled |
 | Click on "Cancel" button of the modal | The modal is well removed |
 | Click on the "Generate combinations" button > Check "Size" and "Color" checkboxes > Click on "Generate XX combinations" button | * All attributes are added on the Search for attributes... field<br> * The button is enabled and named : Generate 56 combinations<br> * "Successfully generated 56 combinations" is displayed |
-| Click on the close icon of the modal | The modal is well removed |
 | In the Combination product list > Edit those data for the first combination<br> * Reference<br> * Impact on price (tax excl.)<br> * Quantity<br><br>and click on "Save list" button | A green alert "Update successful" is displayed<br>The data is well-filled:<br> * Reference<br> * Impact on price (tax excl.)<br> * Impact on price (tax incl.)<br> * Final price (tax excl.)<br> * Quantity |
 | Click on the "Edit" action for the second combination | A modal  is displayed |
 | Edit the fields in the modal > and click on Save | * The green alert "Update successful" is well displayed<br> * A new line is added below the Stocks:<br> ** "Recent stock movements" is well displayed<br> ** The employee's firstname & lastname are well displayed<br> ** The quantity = 50 is well displayed |
