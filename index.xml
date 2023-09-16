@@ -988,7 +988,8 @@ Free shipping starts at 0€</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-sort-and-pagination-order-status-and-order-return-status.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - Sort and Pagination : order status and order return status Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1058  </description>
+      <description>BO - Shop Parameters - Order Statuses - Sort and Pagination : order status and order return status Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1058  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Statuses Statuses page is well displayed.
+2 blocks are displayed : Order statuses (13) and Return statuses (5)   In block Order statuses (13) &amp;gt; Change pagination to 10 2 pages are available now   In block Order statuses (13) &amp;gt; Change pagination to 20 All the order statuses are displayed on 1 page   In block Order statuses (13) &amp;gt; Change pagination to 100 All the order statuses are displayed on 1 page   Scroll down to the Return statuses (5) block See that all the Return statuses are displayed in the block   Add 6 Return statuses Messages Successful creation are displayed</description>
     </item>
     
     <item>
@@ -1188,11 +1189,10 @@ The invoice is created successfully   Add the first partial refund Partial refun
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/countries-crud.html</guid>
-      <description>Countries : CRUD Details  Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6064 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank The response HTTP Code is 200.
+      <description>Countries : CRUD Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-6064 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank The response HTTP Code is 200.
 The XML is valid.
 The XML code has a prestashop root node
-The root node has a country node
-The country node has children nodes which are empty and without attributes   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.</description>
+The root node has a country node</description>
     </item>
     
     <item>
@@ -2420,7 +2420,7 @@ BO &amp;gt; Advanced Parameters &amp;gt; Administration &amp;gt; Upload quota Th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-export.html</guid>
-      <description>BO - Advanced Parameters - Database - SQL Manager - Export Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1164  </description>
+      <description>BO - Advanced Parameters - Database - SQL Manager - Export Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1164  Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Database &amp;gt; Add new SQL query &amp;gt; Save Message Successful creation is displayed   Click on the export button The .</description>
     </item>
     
     <item>
@@ -3898,6 +3898,15 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     </item>
     
     <item>
+      <title>Products : CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/products-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/products-crud.html</guid>
+      <description>Products : CRUD Details  Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7446 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/02_productsCRUD.ts  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/products?schema=blank http://domain.tld/api/countries?schema=blank]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/products?schema=synopsis http://domain.tld/api/countries?schema=synopsis]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+    </item>
+    
+    <item>
       <title>ps_banner - Uninstall/Install</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-banner/installation/ps-banner-uninstall-install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4306,7 +4315,7 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-pagination.html</guid>
-      <description>BO - Advanced Parameters - Database - DB Backup - Pagination Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1171  </description>
+      <description>BO - Advanced Parameters - Database - DB Backup - Pagination Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1171  Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Database &amp;gt; DB Backup &amp;gt; Click on the button &amp;ldquo;I have read the disclaimer. Please create a new backup.&amp;rdquo; 1O times Alert &amp;ldquo;It appears the backup was successful, however you must download and carefully verify the backup file before proceeding.</description>
     </item>
     
     <item>
@@ -4370,7 +4379,7 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-bulk-actions.html</guid>
-      <description>BO - Advanced Parameters - Webservice - Bulk actions Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1178  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Webservice Webservice page is well displayed
+      <description>BO - Advanced Parameters - Webservice - Bulk actions Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1178  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Webservice Webservice page is well displayed
 the Webservice table is empty = 0   Go to Advanced Parameters &amp;gt;Webservice Webservice page is well displayed</description>
     </item>
     
@@ -5586,6 +5595,15 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     </item>
     
     <item>
+      <title>Orders : CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/orders-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/orders-crud.html</guid>
+      <description>Orders : CRUD Details  Component : Core Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7448  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders?schema=blank http://domain.tld/api/countries?schema=blank]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders?schema=synopsis http://domain.tld/api/countries?schema=synopsis]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+    </item>
+    
+    <item>
       <title>Product Comments - Uninstall and delete</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/productcomments/installation/product-comments-uninstall-and-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5936,7 +5954,7 @@ Then upgrade to the build tested. Check everything works fine on Front-Office an
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-backup-options.html</guid>
-      <description>BO - Advanced Parameters - Database - DB Backup - Backup options Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1172  </description>
+      <description>BO - Advanced Parameters - Database - DB Backup - Backup options Details  Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-1172  </description>
     </item>
     
     <item>
@@ -5945,8 +5963,8 @@ Then upgrade to the build tested. Check everything works fine on Front-Office an
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-filter-sort-pagination.html</guid>
-      <description>BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1166  Steps    Step Description Expected result     Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed
-the SQL Manager table is empty = 0   Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed</description>
+      <description>BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1166  Steps    Step Description Expected result     Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed
+the SQL Manager table is empty = 0   create 20 new SQL query SQL Manager page is well displayed</description>
     </item>
     
     <item>
@@ -7105,6 +7123,15 @@ USD, PYG, JPY and GBP are in the list of currencies   Search by ISO &amp;ldquo;E
     </item>
     
     <item>
+      <title>Stores : CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/stores-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/stores-crud.html</guid>
+      <description>Stores : CRUD Details  Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7447 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/03_storesCRUD.ts  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores?schema=blank http://domain.tld/api/countries?schema=blank]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores?schema=synopsis http://domain.tld/api/countries?schema=synopsis]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+    </item>
+    
+    <item>
       <title>Theme Customization module - Reset module</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/modules/ps-themecusto/installation/theme-customization-module-reset-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7176,7 +7203,7 @@ Then upgrade to the build tested. Check everything works fine on Front-Office an
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-help-card.html</guid>
-      <description>BO - Advanced Parameters - Database - DB Backup - Help card Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1173  </description>
+      <description>BO - Advanced Parameters - Database - DB Backup - Help card Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1173  Steps    Step Description Expected result     GO to BO &amp;gt; Advanced Parameters &amp;gt; Database &amp;gt; DB Backup DB Backup page is well displayed   Click on Help button on top right corner Help card is displayed from the right side of the page   Case1</description>
     </item>
     
     <item>
@@ -7185,7 +7212,7 @@ Then upgrade to the build tested. Check everything works fine on Front-Office an
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-bulk-actions.html</guid>
-      <description>BO - Advanced Parameters - Database - SQL Manager - Bulk actions Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1167  Steps    Step Description Expected result     Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed
+      <description>BO - Advanced Parameters - Database - SQL Manager - Bulk actions Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1167  Steps    Step Description Expected result     Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed
 the SQL Manager table is empty = 0   Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed</description>
     </item>
     
@@ -7231,7 +7258,7 @@ the SQL Manager table is empty = 0   Go to advanced Parameters &amp;gt; Databas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-configuration.html</guid>
-      <description>BO - Advanced Parameters - Webservice - Configuration Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1180  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Webservice Webservice page is well displayed    </description>
+      <description>BO - Advanced Parameters - Webservice - Configuration Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1180  Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Webservice &amp;gt; Add new webservice key &amp;gt; Generate a key &amp;gt; Click AA for addresses &amp;gt; Save Message Successful update is displayed   Enable PrestaShop&amp;rsquo;s webservice &amp;gt; Save Message Update successful is displayed</description>
     </item>
     
     <item>
@@ -7459,12 +7486,12 @@ Homepage is selected by default   Click on Menu button A dropdown list is displ
     </item>
     
     <item>
-      <title>BO - International - Locations - Countries - Enable / disable Countries restrictions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/countries/bo-international-locations-countries-enable-disable-countries-restrictions.html</link>
+      <title>BO - International - Locations - Countries - Enable / disable Countries</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/countries/bo-international-locations-countries-enable-disable-countries.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/countries/bo-international-locations-countries-enable-disable-countries-restrictions.html</guid>
-      <description>BO - International - Locations - Countries - Enable / disable Countries restrictions Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1017  </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/international/locations/countries/bo-international-locations-countries-enable-disable-countries.html</guid>
+      <description>BO - International - Locations - Countries - Enable / disable Countries Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1017  Steps    Step Description Expected result     Go to BO &amp;gt; Internation &amp;gt; Locations &amp;gt; Countries &amp;gt; Filter by enabled countries 2 countries are displayed : France and Unites States   Go to FO &amp;gt; Add any product to cart &amp;gt; Proceed to checkout until Step 2 &amp;gt; Country In the Country field, you can choose France or United States.</description>
     </item>
     
     <item>
@@ -8049,7 +8076,7 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-help-card.html</guid>
-      <description>BO - Advanced Parameters - Database - SQL Manager - Help card Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1168  </description>
+      <description>BO - Advanced Parameters - Database - SQL Manager - Help card Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1168  Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Database &amp;gt; SQL Manager DB Backup page is well displayed   Click on Help button on top right corner Help card is displayed from the right side of the page   Case1</description>
     </item>
     
     <item>
@@ -8085,7 +8112,7 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/webservice/bo-advanced-parameters-webservice-help-card.html</guid>
-      <description>BO - Advanced Parameters - Webservice - Help card Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1181  </description>
+      <description>BO - Advanced Parameters - Webservice - Help card Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1181  Steps    Step Description Expected result     Go to BO &amp;gt; Advanced Parameters &amp;gt; Webservice Webservice page is well displayed   Click on Help button on top right corner Help card is displayed from the right side of the page   Case1</description>
     </item>
     
     <item>
@@ -8407,7 +8434,7 @@ title contains : Currencies   Filter by ID Type the data in Search ID field &a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-mode.html</guid>
-      <description>BO - Shop Parameters - General - Round mode Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1043  Steps    Step Description Expected result     Add Standard simple Product Product added and displayed   Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies tab Currencies page is displayed   Filter by Currency &amp;gt; Click on Search button Currency table contains &amp;ldquo;Euro&amp;rdquo;   Click on Edit icon button &amp;gt; Set Decimals field &amp;gt; Click Save button Message &amp;ldquo;Successful update&amp;rdquo; is displayed   CASE 1 : Round up away from zero,when it is half way there(recommended)    GO to Shop Parameters &amp;gt; General &amp;gt; Select Round mode &amp;gt; Click Save button Message &amp;ldquo;Successful update&amp;rdquo; is displayed   GO to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; filter by Name &amp;gt; click Search button Items price is updated : 42.</description>
+      <description>BO - Shop Parameters - General - Round mode Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1043  Steps    Step Description Expected result     CASE 1 : Round up away from zero,when it is half way there(recommended)    GO to Shop Parameters &amp;gt; General &amp;gt; Select Round mode &amp;gt; Click Save button Message &amp;ldquo;Successful update&amp;rdquo; is displayed   GO to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; filter by Name &amp;gt; click Search button Items price is updated : 13.</description>
     </item>
     
     <item>
@@ -8425,16 +8452,16 @@ title contains : Currencies   Filter by ID Type the data in Search ID field &a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-stocks-setting/bo-shop-parameters-product-settings-default-pack-stock-management.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Default pack stock management Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1080  </description>
+      <description>BO - Shop Parameters - Product Settings - Default pack stock management Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1080  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings &amp;gt; Scroll down to Products stock See Default pack stock management is set to Decrement pack only.</description>
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Product Settings - Enable display discounted price (TODO)</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-price-todo.html</link>
+      <title>BO - Shop Parameters - Product Settings - Enable display discounted unit price</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-unit-price.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-price-todo.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Enable display discounted price (TODO) Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1073  </description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-unit-price.html</guid>
+      <description>BO - Shop Parameters - Product Settings - Enable display discounted unit price Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1073  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Product Settings &amp;gt; Scroll down to Product page block See that the option &amp;ldquo;Display the discounted unit price&amp;rdquo; is disabled   Create a standard product &amp;gt; Use following data &amp;gt; Put in online &amp;gt; Save Message Successful update is displayed   Preview the product FO is displayed with your Test product page.</description>
     </item>
     
     <item>
@@ -9292,7 +9319,7 @@ Message is displayed : Successful creation   In list, Filter By Email.</descript
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-back-to-configuration-link.html</guid>
-      <description>BO - Design - Email Theme - Back to configuration link Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-943  Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Email Theme Email Theme page is displayed   Go to Email themes section &amp;gt;Click on the search icon button (in first line : classic) Preview Theme classic page is displayed</description>
+      <description>BO - Design - Email Theme - Back to configuration link Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-943  Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Email Theme Email Theme page is displayed   Go to Email themes section &amp;gt;Click on the search icon button (in first line : classic) Preview Theme classic page is displayed</description>
     </item>
     
     <item>
@@ -9374,7 +9401,7 @@ Check that the button upload module exist in the header of the page   Click on t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-allow-iframes.html</guid>
-      <description>BO - Shop Parameters - General - Allow iframes Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1045  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; General Preferences page is displayed
+      <description>BO - Shop Parameters - General - Allow iframes Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1045  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; General Preferences page is displayed
 Allow iframes on HTML fields is disabled   Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Edit Customizable mug Customizable mug product page is displayed   In the description &amp;gt; Source code &amp;gt; Add</description>
     </item>
     
@@ -10183,7 +10210,7 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-description-tab.html</guid>
-      <description>BO - Description Tab Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5209  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed   Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed   Add multiple image to product &amp;gt; Select one product &amp;gt; Use as cover image &amp;gt; Add a caption &amp;gt; Save image settings Alert Settings updated is displayed   Click on the magnifying glass &amp;gt; Image is zoomed &amp;gt; Click on the cross to close the image Product page v2 is well displayed   Click on replace the selection button &amp;gt; Choose your image Alert Image replaced is displayed   Click on the trash button &amp;gt; Delete Alert The selection has been successfully deleted.</description>
+      <description>BO - Description Tab Details  Component : Core Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-5209  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed   Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed   Add multiple image to product &amp;gt; Select one product &amp;gt; Use as cover image &amp;gt; Add a caption &amp;gt; Save image settings Alert Settings updated is displayed   Click on the magnifying glass &amp;gt; Image is zoomed &amp;gt; Click on the cross to close the image Product page v2 is well displayed   Click on replace the selection button &amp;gt; Choose your image Alert Image replaced is displayed   Click on the trash button &amp;gt; Delete Alert The selection has been successfully deleted.</description>
     </item>
     
     <item>

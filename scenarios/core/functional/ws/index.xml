@@ -12,11 +12,37 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/countries-crud.html</guid>
-      <description>Countries : CRUD Details  Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6064 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank The response HTTP Code is 200.
+      <description>Countries : CRUD Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-6064 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank The response HTTP Code is 200.
 The XML is valid.
 The XML code has a prestashop root node
-The root node has a country node
-The country node has children nodes which are empty and without attributes   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.</description>
+The root node has a country node</description>
+    </item>
+    
+    <item>
+      <title>Products : CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/products-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/products-crud.html</guid>
+      <description>Products : CRUD Details  Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7446 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/02_productsCRUD.ts  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/products?schema=blank http://domain.tld/api/countries?schema=blank]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/products?schema=synopsis http://domain.tld/api/countries?schema=synopsis]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+    </item>
+    
+    <item>
+      <title>Orders : CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/orders-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/orders-crud.html</guid>
+      <description>Orders : CRUD Details  Component : Core Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7448  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders?schema=blank http://domain.tld/api/countries?schema=blank]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders?schema=synopsis http://domain.tld/api/countries?schema=synopsis]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+    </item>
+    
+    <item>
+      <title>Stores : CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/stores-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/ws/stores-crud.html</guid>
+      <description>Stores : CRUD Details  Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7447 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/03_storesCRUD.ts  Steps    Step Description Expected result     Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores?schema=blank http://domain.tld/api/countries?schema=blank]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores?schema=synopsis http://domain.tld/api/countries?schema=synopsis]   Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
     </item>
     
   </channel>
