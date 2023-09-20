@@ -6,14 +6,14 @@ weight: 1
 # BO - Shop Parameters - Order Statuses - Sort and Pagination : order status and order return status
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1058
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Shop Parameters > Order Settings > Statuses | Statuses page is well displayed.<br>2 blocks are displayed : Order statuses (13) and Return statuses (5) |
+| Go to BO > Shop Parameters > Order Settings > Statuses | Statuses page is well displayed.<br>2 blocks are displayed :  statuses (13) and Return statuses (5) |
 | In block Order statuses (13) > Change pagination to 10 | 2 pages are available now |
 | In block Order statuses (13) > Change pagination to 20 | All the order statuses are displayed on 1 page |
 | In block Order statuses (13) > Change pagination to 100 | All the order statuses are displayed on 1 page |

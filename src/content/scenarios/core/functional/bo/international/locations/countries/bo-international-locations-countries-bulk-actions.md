@@ -6,7 +6,7 @@ weight: 3
 # BO - International - Locations - Countries - Bulk actions
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1015
 
@@ -14,7 +14,7 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > International > Locations > Tab Countries | The Countries page is displayed correctly |
-| click on the button bulk action | List of options will be  displyed and contains : <br> - Select all ( checked by default) <br> - Unselect all <br> - Enable selection <br> - Disable selection <br> - Delete selected |
+| On the bottom of the table click on the bulk action button. | The list of options will be  displayed and contain: <br> - Select all ( checked by default) <br> - Unselect all <br> - Enable selection <br> - Disable selection <br> - Delete selected<br> - Assign to a new zone |
 | Click on the option Select all | All the existing countries in the page are selected |
 | Click on Bulk action button > choose the option unselect all | All the existing countries in the page are unselected |
 | Click on the button bulk action > choose the option Enable selection | An error message will be displayed contains : <br>_You must select at least one item to perform a bulk action._ |

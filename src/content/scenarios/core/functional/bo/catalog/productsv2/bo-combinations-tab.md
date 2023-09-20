@@ -6,9 +6,9 @@ weight: 14
 # BO - Combinations Tab
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5210
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/pull/33969.ts
 
 ## Steps
 | Step Description | Expected result |

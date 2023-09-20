@@ -6,7 +6,7 @@ weight: 5
 # BO - Shop Parameters - Product Settings - Display the \"add to cart\" button when a product has attributes
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1072
 
 ## Steps
