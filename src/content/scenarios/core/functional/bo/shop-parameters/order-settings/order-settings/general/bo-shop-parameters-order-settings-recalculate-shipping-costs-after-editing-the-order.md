@@ -6,7 +6,7 @@ weight: 5
 # BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1053
 
 ## Steps
