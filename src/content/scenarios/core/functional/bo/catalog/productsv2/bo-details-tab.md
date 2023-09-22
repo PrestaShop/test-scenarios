@@ -24,3 +24,4 @@ weight: 17
 | Click the cross to delete the file > Confirm deletion | Message No files attached is displayed |
 | Enable Display condition on product page > Choose Used in dropdown > Click Save and publish | Successful update message is displayed<br><br>In FO, in product page > Product Details > See Condition Used |
 | In Customization > Click Add 4 customization fields > Save and publish | Successful update message is displayed<br><br>In FO, see 4 customization fields |
+| Click the cross to delete the file > Confirm deletion |  |
