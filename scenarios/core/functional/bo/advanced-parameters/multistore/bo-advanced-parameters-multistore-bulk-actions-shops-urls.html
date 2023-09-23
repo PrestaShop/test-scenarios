@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1695365643" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1695365643" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1695365643" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1695365643" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1695365643" rel="stylesheet">
-    <link href="../../../../../../style.css?1695365643" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1695451823" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1695451823" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1695451823" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1695451823" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1695451823" rel="stylesheet">
+    <link href="../../../../../../style.css?1695451823" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1695365643"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1695451823"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41730,6 +41730,7 @@
     <li><a href="#bo---advanced-parameters---multistore---bulk-actions-shops-urls">BO - Advanced Parameters - Multistore - Bulk actions shops URLs</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65423,17 +65424,76 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1187">https://forge.prestashop.com/browse/TEST-1187</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to Advanced Parameters &gt;Multistore</td>
+<td>Multistore page opens with 3 blocks : <br> * Multistore tree <br> * Multistore list <br> * Multistore options</td>
+</tr>
+<tr>
+<td>Click on &quot; Add new store &quot;</td>
+<td>add new  page is displayed</td>
+</tr>
+<tr>
+<td>Fill the informations  of the new shop &gt;save</td>
+<td>* The content is added to shop list and to multistore tree<br> * A green alert &ldquo;Successful creation&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click on <em>Click here to set a URL for this shop</em> button of new shop added</td>
+<td>Add new page is displayed</td>
+</tr>
+<tr>
+<td>Go to Store URL&gt; Virtual URL<br><br>add an URL</td>
+<td>Successful creation message is displayed<br><br>New shop added page is displayed.</td>
+</tr>
+<tr>
+<td>Click on default button in Multistore tree</td>
+<td>Multistore page is displayed<br><br>URL displayed of shops in multistore tree</td>
+</tr>
+<tr>
+<td>Click on a URL in multistore tree<br><br>!image-2023-09-21-17-01-29-138.png!</td>
+<td>Multistore table is displayed</td>
+</tr>
+<tr>
+<td>Click on Bulk actions button</td>
+<td>A dropdow menu is displayed with :<br> * Select all<br> * Unselect all<br> * Enable selection<br> * Disable selection</td>
+</tr>
+<tr>
+<td>Click on select all</td>
+<td>All new shop are selected</td>
+</tr>
+<tr>
+<td>Click on disable selection</td>
+<td>The status has been successfully updated. message is displayed</td>
+</tr>
+<tr>
+<td>Go back to multistore table&gt; click on select all</td>
+<td>All new shop are selected</td>
+</tr>
+<tr>
+<td>Click on enable selection</td>
+<td>The status has been successfully updated. message is displayed</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 21, 2023
+  Last updated on September 23, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/2626b55b7a63525e932f37c0bd495bd740638aba">"[Update] JIRA XRay Tests" (2626b55b7a6)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/e4527ba51d547ef6e6abc16706a3083ab81b250d">"[Update] JIRA XRay Tests" (e4527ba51d5)</a>
   
 </div>
 
@@ -65454,17 +65514,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1695365644"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1695365644"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1695365644"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1695365644"></script>
-    <script src="../../../../../../js/featherlight.min.js?1695365644"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1695365644"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1695365644"></script>
-    <script src="../../../../../../js/learn.js?1695365644"></script>
-    <script src="../../../../../../js/hugo-learn.js?1695365644"></script>
+    <script src="../../../../../../js/clipboard.min.js?1695451824"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1695451824"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1695451824"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1695451824"></script>
+    <script src="../../../../../../js/featherlight.min.js?1695451824"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1695451824"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1695451824"></script>
+    <script src="../../../../../../js/learn.js?1695451824"></script>
+    <script src="../../../../../../js/hugo-learn.js?1695451824"></script>
     
-    <script src="../../../../../../main.js?1695365644"></script>
+    <script src="../../../../../../main.js?1695451824"></script>
     
     
 
