@@ -15,7 +15,12 @@ weight: 19
 | Go to BO > Catalog > New product > Standard product > Add new product > Add a title to your product > Switch to Online > Add a quantity = 10 > Click Save | Successful update message is displayed |
 | Go to Shipping Tab > Edit the Package Dimension : <br>Width : 12 cm<br>Height : 12 cm<br>Depth : 12 cm<br>Weight : 12 kg<br>> Click Save and publish | Successful update message is displayed |
 | Edit Delivery Time > Check "None" > Save and publish | Successful update message is displayed |
+| Click on footer 3-dot button > Preview | See that no delivery time is displayed |
 | Edit Delivery Time > Check Default delivery time: N/A - N/A > Save and publish | Successful update message is displayed |
+| Click on footer 3-dot button > Preview | See that no delivery time is displayed |
+| Click on "Edit delivery time" link | A new tab "Product Settings" is displayed directly on "Delivery time of in-stock products"<br>The field for Delivery time of in-stock products is highlighted |
+| Edit "Delivery time of in-stock products" = "Delivered within 3-4 days" > Save | Update successful |
+| Go back to FO on the product page > Refresh | See under the price : "Delivered within 3-4 days" |
 | Edit Delivery Time > Check : Specific delivery time to this product > Save and publish | Successful update message is displayed |
 | Click on Preview | FO is displayed<br><br>"1 Day" is displayed |
 | In Tab Stocks > Edit Product Quantity = 0 > When out of stock block > Allow Orders > Save and publish | Successful update message is displayed |

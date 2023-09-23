@@ -6,7 +6,7 @@ weight: 2
 # BO - Search - Search exact end match
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3610
 
 ## Steps
