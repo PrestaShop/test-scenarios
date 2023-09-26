@@ -6,8 +6,9 @@ weight: 16
 # BO - Virtual Product Tab
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5212
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/13_virtualTab.ts
 
 ## Steps
 | Step Description | Expected result |

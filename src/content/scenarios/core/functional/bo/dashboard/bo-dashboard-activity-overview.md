@@ -6,7 +6,7 @@ weight: 2
 # BO - Dashboard - Activity overview
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-720
 
 ## Steps
