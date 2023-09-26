@@ -2708,7 +2708,7 @@ Filtered result is ID : 4   Reset filter No more filter is applied   Filter by B
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-activity-overview.html</guid>
-      <description>BO - Dashboard - Activity overview Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-720  Steps    Step Description Expected result     Go to Dashboard&amp;gt; Activity overview and click on Online Visitors The page Sell&amp;gt;Stats is displayed   Go back to Dashboard&amp;gt; Activity overview and click on Active Shopping Carts The page SELL&amp;gt;&amp;ldquo;Orders&amp;rdquo;&amp;gt;&amp;ldquo;Shopping Carts&amp;rdquo; is displayed.   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Choose existing customer Check that Summary block is not visible   Add product to cart Check that summary block is visible</description>
+      <description>BO - Dashboard - Activity overview Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-720  Steps    Step Description Expected result     Go to Dashboard&amp;gt; Activity overview and click on Online Visitors The page Sell&amp;gt;Stats is displayed   Go back to Dashboard&amp;gt; Activity overview and click on Active Shopping Carts The page SELL&amp;gt;&amp;ldquo;Orders&amp;rdquo;&amp;gt;&amp;ldquo;Shopping Carts&amp;rdquo; is displayed.   Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click Add new order &amp;gt; Choose existing customer Check that Summary block is not visible   Add product to cart Check that summary block is visible</description>
     </item>
     
     <item>
@@ -7649,7 +7649,7 @@ Select multiple &amp;ldquo;Non-ordered&amp;rdquo; carts &amp;gt; Click &amp;ldqu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-recalculate-shipping-costs-after-editing-the-order.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order Details  Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-1053  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; General block Recalculate shipping costs after editing the order is set to YES   Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed   choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed   Choose delivery method (free) Delivery method is selected   Choose Payment method Payment method is selected   Choose order status Order status is selected   Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
+      <description>BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1053  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; General block Recalculate shipping costs after editing the order is set to YES   Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed   choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed   Choose delivery method (free) Delivery method is selected   Choose Payment method Payment method is selected   Choose order status Order status is selected   Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
     </item>
     
     <item>
@@ -10316,7 +10316,7 @@ The orders are displayed in a table with title : Orders +(total number of orders
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-combinations-tab.html</guid>
-      <description>BO - Combinations Tab Details  Component : Core Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-5210  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is well displayed   Click on New product button on the top right of the page &amp;gt; Choose &amp;ldquo;Product with combinations&amp;rdquo; block in the modal * A modal is displayed with 4 product types :Standard product,Product with combinations,Pack of products,Virtual product</description>
+      <description>BO - Combinations Tab Details  Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-5210 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/11_combinationTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is well displayed   Click on New product button on the top right of the page &amp;gt; Choose &amp;ldquo;Product with combinations&amp;rdquo; block in the modal * A modal is displayed with 4 product types :Standard product,Product with combinations,Pack of products,Virtual product</description>
     </item>
     
     <item>
@@ -10475,7 +10475,7 @@ The orders are displayed in a table with title : Orders +(total number of orders
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-virtual-product-tab.html</guid>
-      <description>BO - Virtual Product Tab Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-5212  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Virtual Product Tab &amp;gt; Add new product &amp;gt; Add Title &amp;gt; Switch to Online &amp;gt; Go to Virtual Tab Successful update message is displayed   Add quantity = 100 &amp;gt; Save Recent stock movements table is displayed with recent data (Date &amp;amp; Time, Employee, Quantity)</description>
+      <description>BO - Virtual Product Tab Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5212 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/13_virtualTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Virtual Product Tab &amp;gt; Add new product &amp;gt; Add Title &amp;gt; Switch to Online &amp;gt; Go to Virtual Tab Successful update message is displayed   Add quantity = 100 &amp;gt; Save Recent stock movements table is displayed with recent data (Date &amp;amp; Time, Employee, Quantity)</description>
     </item>
     
     <item>
@@ -10539,7 +10539,7 @@ The orders are displayed in a table with title : Orders +(total number of orders
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-details-tab.html</guid>
-      <description>BO - Details Tab Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-5213  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed   Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed   Go to Tab Details &amp;gt; Add References &amp;gt; Click Save and publish Tab Details is red</description>
+      <description>BO - Details Tab Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5213 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/14_DetailsTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed   Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed   Go to Tab Details &amp;gt; Add References &amp;gt; Click Save and publish Tab Details is red</description>
     </item>
     
     <item>
@@ -10656,7 +10656,7 @@ The orders are displayed in a table with title : Orders +(total number of orders
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-pricing-tab.html</guid>
-      <description>BO - Pricing Tab Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-5216  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product &amp;gt; Add a title to your product &amp;gt; Switch to Online &amp;gt; Add a quantity &amp;gt; Click Save Successful update message is displayed   Go to Pricing Tab &amp;gt; In Retail price block &amp;gt; Edit Retail price (tax excl.</description>
+      <description>BO - Pricing Tab Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-5216  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product &amp;gt; Add a title to your product &amp;gt; Switch to Online &amp;gt; Add a quantity &amp;gt; Click Save Successful update message is displayed   Go to Pricing Tab &amp;gt; In Retail price block &amp;gt; Edit Retail price (tax excl.</description>
     </item>
     
     <item>
