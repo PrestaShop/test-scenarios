@@ -13,5 +13,8 @@ weight: 7
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Shop Parameters > General | Preferences page is displayed<br><br>General tab is selected by default |
-| Switch  *Increase front office security* toggle switch button to No > Click *Save* button | Message displayed "Successful update" |
+| Switch  *Increase front office security* toggle switch button to *Yes* > Click *Save* button | Message displayed "Successful update" |
 | Click on View my store link | New tab in browser is opened<br><br>FO is well displayed |
+| Add items to Cart | Modal is displayed with message "Product successfully added to your shopping cart" |
+| Click PROCEED TO CHECKOUT  button | Shopping cart is displayed |
+| Inspect the page > search for "token" in html (Elements tab) | token is available in html |

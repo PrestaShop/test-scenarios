@@ -6,7 +6,7 @@ weight: 4
 # BO - Shop Parameters - SEO & URLs - Enable, disable accented URL
 ## Details
 * **Component** : Core
-* **Status** : In progress
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1108
 
@@ -22,4 +22,11 @@ weight: 4
 | Go to BO > Catalog > Products | Products list page is displayed correctly |
 | Search product by name > click Search button | The displayed product contains "TESTURLÉ" as name<br><br>Reset button is enabled |
 | Click Edit icon button | Product page is displayed<br>Product name is : "TESTURLÉ" |
-| Go down to *Set up URLs* section  > switch  *Accented URL button* to No > Click *Save* button | Message "Update successful" is displayed |
+| Click on SEO tab | SEO page is well dislayed<br>Friendly URL field contains : "testurle" |
+| Click on *Reset* *URL* button | Friendly URL contains : "testurlé" |
+| Click on *Save and publish* button | Message displayed "Successful update" |
+| Go to FO > search for "testurlé"> click on product | The URL must contain "testurlé" |
+| Back to BO >Catalog > Products | The filtered product still displayed<br>TESTURLÉ is displayed |
+| Click on the three dots > Delete | A modal is displayed with two options : Cancel & Delete |
+| Click on Delete button | Message displayed "Successful deletion" |
+| Click on Reset button | All products are displayed |
