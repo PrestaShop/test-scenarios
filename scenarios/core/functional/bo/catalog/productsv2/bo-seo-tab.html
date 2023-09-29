@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1695883701" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1695883701" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1695883701" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1695883701" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1695883701" rel="stylesheet">
-    <link href="../../../../../../style.css?1695883701" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1695970628" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1695970628" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1695970628" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1695970628" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1695970628" rel="stylesheet">
+    <link href="../../../../../../style.css?1695970628" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1695883701"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1695970628"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -17188,6 +17188,27 @@
       <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-default-activation-status.html" title="BO - Shop Parameters - Product Settings - Enable, disable default activation status" class="dd-item ">
         <a href="../../../../../../scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-default-activation-status.html">
         BO - Shop Parameters - Product Settings - Enable, disable default activation status
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-order-of-priority-for-specific-prices.html" title="BO - Shop Parameters - Product Settings - Default order of priority for specific prices" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-order-of-priority-for-specific-prices.html">
+        BO - Shop Parameters - Product Settings - Default order of priority for specific prices
         
         </a>
     </li>
@@ -51894,6 +51915,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -65453,7 +65489,7 @@
 <td>Successful update message is displayed</td>
 </tr>
 <tr>
-<td>Click on button Reset URL &gt; Save and publish</td>
+<td>Click on button Generate URL from name &gt; Save and publish</td>
 <td>Successful update message is displayed<br><br>The URL is reset to the original one</td>
 </tr>
 <tr>
@@ -65462,15 +65498,31 @@
 </tr>
 <tr>
 <td>In block Redirection page &gt; Use dropdown to choose &ldquo;Permanent redirection to a category (301)&rdquo; &gt; Choose &ldquo;Home accessories&rdquo; for Target category &gt; Save and publish &gt; Preview</td>
-<td>In BO, Successful update message is displayed<br><br>In FO, Category Home accessories is displayed</td>
+<td>In BO, Successful update message is displayed<br><br>In FO, see the banner &ldquo;This product is not visible to your customers.&rdquo; on top of the product page</td>
 </tr>
 <tr>
-<td>Go back to BO &gt; In block Redirection page &gt; Use dropdown to choose &ldquo;Permanent redirection to a product (301)&rdquo; &gt; Choose &ldquo;Hummingbird printed t-shirt&rdquo; for Target category &gt; Save and publish &gt; Preview</td>
+<td>In product page, URL &gt; remove the part :<br>{code:java}<br>?adtoken=3afb7715ca1f6427237caa42f5806192&amp;id_employee=1&amp;preview=1{code}</td>
+<td>Category HOME ACCESSORIES is displayed</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; In block Redirection page &gt; Use dropdown to choose &ldquo;Permanent redirection to a product (301)&rdquo; &gt; Choose &ldquo;Hummingbird printed t-shirt&rdquo; for Target product &gt; Save and publish &gt; Preview</td>
 <td>In BO, Successful update message is displayed<br><br>In FO, Product Hummingbird printed t-shirt is displayed</td>
 </tr>
 <tr>
-<td>In block Tags &gt; Save and publish &gt; Preview</td>
-<td>Product page in FO is open &gt; Click on related category in breadcrumb &gt; See Tag in left column</td>
+<td>In product page, URL &gt; remove the part :<br>{code:java}<br>?adtoken=3afb7715ca1f6427237caa42f5806192&amp;id_employee=1&amp;preview=1{code}</td>
+<td>Hummingbird printed t-shirt product page is displayed</td>
+</tr>
+<tr>
+<td>In block Tags &gt; Add a tag &ldquo;hello&rdquo; &gt; Save and publish &gt; View my store &gt; Search &ldquo;hello&rdquo; in searchbar</td>
+<td>All the products are displayed</td>
+</tr>
+<tr>
+<td>Switch product status to Online &gt; Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>In block Tags &gt; Add a tag &ldquo;hello&rdquo; &gt; Save and publish &gt; View my store &gt; Search &ldquo;hello&rdquo; in searchbar</td>
+<td>Only the product you created with Tag:hello is displayed in the search results</td>
 </tr>
 </tbody>
 </table>
@@ -65479,9 +65531,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on September 27, 2023
+  Last updated on September 29, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/de1386e61c5d4f5c05d4f160d916a38307139749">"[Update] JIRA XRay Tests" (de1386e61c5)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/f1d62b07404be76a0d20ff07607c8e17b6697e05">"[Update] JIRA XRay Tests" (f1d62b07404)</a>
   
 </div>
 
@@ -65502,17 +65554,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1695883701"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1695883701"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1695883701"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1695883701"></script>
-    <script src="../../../../../../js/featherlight.min.js?1695883701"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1695883701"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1695883701"></script>
-    <script src="../../../../../../js/learn.js?1695883701"></script>
-    <script src="../../../../../../js/hugo-learn.js?1695883701"></script>
+    <script src="../../../../../../js/clipboard.min.js?1695970629"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1695970629"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1695970629"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1695970629"></script>
+    <script src="../../../../../../js/featherlight.min.js?1695970629"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1695970629"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1695970629"></script>
+    <script src="../../../../../../js/learn.js?1695970629"></script>
+    <script src="../../../../../../js/hugo-learn.js?1695970629"></script>
     
-    <script src="../../../../../../main.js?1695883701"></script>
+    <script src="../../../../../../main.js?1695970629"></script>
     
     
 
