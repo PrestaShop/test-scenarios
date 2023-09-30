@@ -6,7 +6,7 @@ weight: 22
 # BO - Options Tab
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5218
 
 ## Steps
@@ -14,7 +14,6 @@ weight: 22
 | ----- | ----- |
 | Go to BO > Catalog > New product > Standard product > Add new product | Product creation page is well displayed |
 | Add a title to your product > Switch to Online > Click Save | Successful update message is displayed |
-| Click Preview | The product is displayed |
 | Check Catalog only > Click Save and publish > Preview > Click the Category related to the product in breadcrumb (in FO) | See the created product in the catalog |
 | Check Search only > Save and publish > Preview > Click the Category related to the product in breadcrumb (in FO) | The product created is not available in catalog |
 | Check Nowhere > Save and publish > Preview > Click the Category related to the product in breadcrumb (in FO) | The product created is not available in catalog |
