@@ -1344,7 +1344,7 @@
 	"content": "New products block module - Upgrade module Details  Component : ps_newproducts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3989  Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_newproducts The module page list should be displayed and New products block module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Upgrade\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Are you sure you want to upgrade this module?\u0026quot;\n* Description: \u0026ldquo;We strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026quot;\n* 3 buttons: \u0026ldquo;Cancel\u0026rdquo; / \u0026ldquo;Go to maintenance page\u0026rdquo; / \u0026ldquo;Upgrade anyway\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Upgrade\u0026rdquo; option The modal is open again with the same informations (Title / Description / 3 buttons)   Case 1: Upgrade with shop on maintenance\nClick on \u0026ldquo;Go to maintenance page\u0026rdquo; button The \u0026ldquo;Maintenance\u0026rdquo; page is displayed   Set to \u0026ldquo;No\u0026rdquo; the \u0026ldquo;Enable store\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* \u0026ldquo;Enable store\u0026rdquo; is set to \u0026ldquo;No\u0026rdquo; and grey\n* A \u0026ldquo;Maintenance mode\u0026rdquo; link is displayed on the header of the store   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the maintenance page   Go back to BO \u0026gt; Modules \u0026gt; Module manager and search ps_newproducts The module page list should be displayed and New products block module should be displayed on the list   Click on \u0026ldquo;Upgrade\u0026rdquo; button at the right of the module A modal is open with:\n* Title: \u0026ldquo;Are you sure you want to upgrade this module?\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; / \u0026ldquo;Upgrade\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right * The modal is removed\n* The module list page is displayed   Click on \u0026ldquo;Upgrade\u0026rdquo; button at the right of the module The modal is open again with the same informations (Title / 2 buttons)   Click on \u0026ldquo;Upgrade\u0026rdquo; button in the modal * After loading, a green message \u0026ldquo;Upgrade action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is upgraded, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Reload the page The module should be:\n* Upgraded and displayed \u0026ldquo;Configure\u0026rdquo; in the right button\n* Displayed the latest version instead of the current to the new version\n* Removed the green tag \u0026ldquo;Upgrade available\u0026rdquo;   Click on \u0026ldquo;Maintenance mode\u0026rdquo; link on the header The \u0026ldquo;Maintenance\u0026rdquo; page is displayed   Set to \u0026ldquo;Yes\u0026rdquo; the \u0026ldquo;Enable store\u0026rdquo; switch button \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button * A \u0026ldquo;Successful update\u0026rdquo; message is displayed\n* \u0026ldquo;Enable store\u0026rdquo; is set to \u0026ldquo;Yes\u0026rdquo; and green\n* The \u0026ldquo;Maintenance mode\u0026rdquo; link is removed from the header of the store   Go back to the FO \u0026gt; Reload the page Homepage is well displayed   Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should be displayed with no errors and \u0026ldquo;all new products\u0026rdquo; list   Case 2: Upgrade without shop on maintenance\nClick on \u0026ldquo;Upgrade anyway\u0026rdquo; button * After loading, a green message \u0026ldquo;Upgrade action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is upgraded, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Reload the page The module should be:\n* Upgraded and displayed \u0026ldquo;Configure\u0026rdquo; in the right button\n* Displayed the latest version instead of the current to the new version\n* Removed the green tag \u0026ldquo;Upgrade available\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should be displayed with no errors and \u0026ldquo;all new products\u0026rdquo; list    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-upgrade-module.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-upgrade-module.html",
 	"title": "Official GDPR module - Upgrade module",
 	"tags": [],
 	"description": "",
@@ -2919,7 +2919,7 @@
 	"content": "New products block module - Uninstall/Install module Details  Component : ps_newproducts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3990  Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_newproducts The module page list should be displayed and New products block module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Uninstall\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Uninstall module?\u0026quot;\n* Description: \u0026ldquo;You are about to uninstall New products block module. This will definitely disable the module and delete all its files\u0026rdquo;\n* Optional checkbox: \u0026ldquo;Optional: delete module folder after uninstall.\u0026quot;\n* Text: \u0026ldquo;This action cannot be undone.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, uninstall it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Uninstall\u0026rdquo; The modal is open again with the same informations (Title / Description / Optional checkbox / Text / 2 buttons)   Click on \u0026ldquo;Yes, uninstall it\u0026rdquo; button to confirm the uninstallation of the module * After loading, a green message \u0026ldquo;Uninstall action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is uninstalled, the button at the right of the module is displaying \u0026ldquo;Install\u0026rdquo;\n* In folders of you shop: yourshop/modules/, the \u0026ldquo;ps_newproducts\u0026rdquo; folder should be still on it   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should be not displayed   Go back to BO \u0026gt; Module list page with ps_newproducts module displayed \u0026gt; Click on \u0026ldquo;Install\u0026rdquo; button at the right of the module * After loading, a green message \u0026ldquo;Install action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is installed, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;\n* In folders of you shop: yourshop/modules/, the \u0026ldquo;ps_newproducts\u0026rdquo; folder should be still on it   Go back to FO \u0026gt; Reload the page \u0026gt; Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should be displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-uninstall-install-module.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-uninstall-install-module.html",
 	"title": "Official GDPR module - Uninstall/Install module",
 	"tags": [],
 	"description": "",
@@ -4228,7 +4228,7 @@
 	"content": "New products block module - Uninstall and delete module Details  Component : ps_newproducts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3991  Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_newproducts The module page list should be displayed and New products block module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Uninstall\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Uninstall module?\u0026quot;\n* Description: \u0026ldquo;You are about to uninstall New products block module. This will definitely disable the module and delete all its files\u0026rdquo;\n* Optional checkbox: \u0026ldquo;Optional: delete module folder after uninstall.\u0026quot;\n* Text: \u0026ldquo;This action cannot be undone.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, uninstall it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Uninstall\u0026rdquo; The modal is open again with the same informations (Title / Description / Optional checkbox / Text / 2 buttons)   Check the optional checkbox \u0026ldquo;Optional: delete module folder after uninstall.\u0026rdquo; \u0026gt; Click on \u0026ldquo;Yes, uninstall it\u0026rdquo; button to confirm the uninstallation of the module * After loading, a green message \u0026ldquo;Uninstall action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is uninstalled, the button at the right of the module is displaying \u0026ldquo;Install\u0026rdquo;\n* In folders of you shop: yourshop/modules/, the \u0026ldquo;ps_newproducts\u0026rdquo; folder should be removed   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should be not displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-reset-module.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-reset-module.html",
 	"title": "Official GDPR module - Reset module",
 	"tags": [],
 	"description": "",
@@ -5334,7 +5334,7 @@
 	"content": "New products block module - Reset module Details  Component : ps_newproducts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4028  Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_newproducts The module page list should be displayed and New products block module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Reset\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Reset module?\u0026quot;\n* Description: \u0026ldquo;You\u0026rsquo;re about to reset New products block module.\nThis will restore the defaults settings.\nThis action cannot be undone.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, reset it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module * The \u0026ldquo;Configure\u0026rdquo; page is displayed\n* \u0026ldquo;Products to display\u0026rdquo; field is set to 8 by default\n* \u0026ldquo;Number of days for which the product is considered \u0026lsquo;new\u0026rsquo;\u0026rdquo; field is set to 20 by default   Change \u0026ldquo;Products to display\u0026rdquo; field from 8 to 10 for example \u0026gt; Click on \u0026ldquo;Save\u0026rdquo; button A successful message \u0026ldquo;The settings have been updated.\u0026rdquo; is displayed   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should have 10 products displayed   Go back to BO \u0026gt; Module list page with ps_newproducts module displayed \u0026gt; Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Reset\u0026rdquo; option * The module page list should be displayed and module ps_newproducts should be displayed on the list\n* The modal is open again with the same informations (Title / Description / 2 buttons)   Click on \u0026ldquo;Yes, reset it\u0026rdquo; button to confirm the reset of the module After loading, a green message \u0026ldquo;Reset action on module ps_newproducts succeeded.\u0026rdquo; is displayed   Click on \u0026ldquo;Configure\u0026rdquo; button at the right of the module * The \u0026ldquo;Configure\u0026rdquo; page is displayed\n* The \u0026ldquo;Products to display\u0026rdquo; field is reseted to 8 (default value of the module)   Go back to FO \u0026gt; Reload the page \u0026gt; Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should have 8 products displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-new-products-block-module-uninstall-and-delete-module.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-new-products-block-module-uninstall-and-delete-module.html",
 	"title": "Official GDPR module - New products block module - Uninstall and delete module",
 	"tags": [],
 	"description": "",
@@ -6041,7 +6041,7 @@
 	"content": "New products block module - Disable/Enable module Details  Component : ps_newproducts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4031  Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_newproducts The module page list should be displayed and New products block module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable\u0026rdquo; option A modal is open with:\n* Title: \u0026ldquo;Disable module?\u0026quot;\n* Description: \u0026ldquo;You are about to disable New products block module.\nYour current settings will be saved, but the module will no longer be active.\u0026quot;\n* 2 buttons: \u0026ldquo;Cancel\u0026rdquo; \u0026amp; \u0026ldquo;Yes, disable it\u0026rdquo;   Click on \u0026ldquo;Cancel\u0026rdquo; button or the cross on top right or outside * The modal is removed\n* The module list page is displayed   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable\u0026rdquo; option The modal is open again with the same informations (Title / Description / 2 buttons)   Click on \u0026ldquo;Yes, disable it\u0026rdquo; button to confirm the reset of the module * After loading, a green message \u0026ldquo;Disable action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is disabled, the button at the right of the module is displaying \u0026ldquo;Enable\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should not be displayed   Go back to BO \u0026gt; Module list page with ps_newproducts module displayed \u0026gt; Click on \u0026ldquo;Enable\u0026rdquo; button at the right of the module * After loading, a green message \u0026ldquo;Enable action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is enabled, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Go back to FO \u0026gt; Reload the page \u0026gt; Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should be displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-disable-enable-module.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-disable-enable-module.html",
 	"title": "Official GDPR module - Disable/Enable module",
 	"tags": [],
 	"description": "",
@@ -6587,7 +6587,7 @@
 	"content": "New products block module - Disable Mobile/Enable Mobile module Details  Component : ps_newproducts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4032  Steps    Step Description Expected result     Go to BO \u0026gt; Modules \u0026gt; Module manager and search ps_newproducts The module page list should be displayed and New products block module should be displayed on the list   Click on the button at the right of the module \u0026gt; Choose on the list \u0026ldquo;Disable Mobile\u0026rdquo; option * After loading, a green message \u0026ldquo;Disable mobile action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is disabled ONLY on mobile screens, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Click on \u0026ldquo;View my shop\u0026rdquo; link in the header \u0026gt; Click on the new tab The new tab is displayed the FO of the shop with the homepage   Open the debugger in your browser and click on \u0026ldquo;Screens\u0026rdquo; icon \u0026gt; Choose into \u0026ldquo;Dimensions\u0026rdquo; Iphone 12 Pro for example The screen of your shop is on mobile screen   Reload the page \u0026gt; Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should not be displayed   Go back to BO \u0026gt; Module list page with ps_newproducts module displayed \u0026gt; Click on button at the right of the module and choose the \u0026ldquo;Enable Mobile\u0026rdquo; options into the list of options * After loading, a green message \u0026ldquo;Enable mobile action on module ps_newproducts succeeded.\u0026rdquo; is displayed\n* The module is enabled on Mobile again, the button at the right of the module is displaying \u0026ldquo;Configure\u0026rdquo;   Go back to FO \u0026gt; Reload the page \u0026gt; Scroll down in the homepage and search the \u0026ldquo;NEW PRODUCTS\u0026rdquo; block The \u0026ldquo;NEW PRODUCTS\u0026rdquo; block should be displayed    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation/official-gdpr-module-legal-assistant-block-module-disable-mobile-enable-mobile-module.html",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation/official-gdpr-module-legal-assistant-block-module-disable-mobile-enable-mobile-module.html",
 	"title": "Official GDPR module - Legal Assistant block module - Disable Mobile/Enable Mobile module",
 	"tags": [],
 	"description": "",
@@ -8631,6 +8631,13 @@
 	"content": "Configuration Tests  ps_viewedproduct - Configure Settings   "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/configuration.html",
+	"title": "Configuration",
+	"tags": [],
+	"description": "",
+	"content": "Configuration "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-mainmenu/configuration.html",
 	"title": "configuration",
 	"tags": [],
@@ -9457,13 +9464,6 @@
 	"content": "Installation Tests  ps_featuredproducts - Upgrade   ps_featuredproducts - Uninstall/Install   ps_featuredproducts - Uninstall and delete   "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr/installation.html",
-	"title": "Installation",
-	"tags": [],
-	"description": "",
-	"content": "Installation Tests  Official GDPR module - Upgrade module   Official GDPR module - Uninstall/Install module   Official GDPR module - Reset module   Official GDPR module - New products block module - Uninstall and delete module   Official GDPR module - Disable/Enable module   Official GDPR module - Legal Assistant block module - Disable Mobile/Enable Mobile module   "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics/installation.html",
 	"title": "Installation",
 	"tags": [],
@@ -9525,6 +9525,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Installation Tests  Theme Customization module - Upgrade module   Theme Customization module - Uninstall/Install module   Theme Customization module - Uninstall and delete module   Theme Customization module - Reset module   Theme Customization module - Disable/Enable module   Theme Customization module - Disable Mobile/Enable Mobile module   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/installation.html",
+	"title": "Installation",
+	"tags": [],
+	"description": "",
+	"content": "Installation Tests  Official GDPR module - Upgrade module   Official GDPR module - Uninstall/Install module   Official GDPR module - Reset module   Official GDPR module - New products block module - Uninstall and delete module   Official GDPR module - Disable/Enable module   Official GDPR module - Legal Assistant block module - Disable Mobile/Enable Mobile module   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/statsbestcategories/installation.html",
@@ -9867,7 +9874,7 @@
 	"title": "Modules",
 	"tags": [],
 	"description": "",
-	"content": "Modules   blockreassurance   blockwishlist   contactform   dashactivity   dashtrends   productcomments   ps_banner   ps_bestsellers   ps_cashondelivery   ps_categoryproducts   ps_categorytree   ps_checkpayment   ps_contactinfo   ps_crossselling   ps_customeraccountlinks   ps_customersignin   ps_customtext   ps_dataprivacy   ps_emailalerts   ps_emailsubscription   ps_facetedsearch   ps_faviconnotificationbo   ps_featuredproducts   ps_gdpr   ps_googleanalytics   ps_imageslider   ps_linklist   ps_mainmenu   ps_newproducts   ps_searchbar   ps_sharebuttons   ps_shoppingcart   ps_socialfollow   ps_supplierlist   ps_themecusto   ps_viewedproduct   statsbestcategories   statsbestcustomers   statsbestmanufacturers   statsbestproducts   statsbestsuppliers   statsbestvouchers   statscarrier   statscatalog   statscheckup   statsdata   statsforecast   statsnewsletter   statspersonalinfos   statsproduct   statsregistrations   statssales   statssearch   statsstock   statsvisits   welcome     Test Checker les events sur prestashop avec les tests   "
+	"content": "Modules   blockreassurance   blockwishlist   contactform   dashactivity   dashtrends   productcomments   ps_banner   ps_bestsellers   ps_cashondelivery   ps_categoryproducts   ps_categorytree   ps_checkpayment   ps_contactinfo   ps_crossselling   ps_customeraccountlinks   ps_customersignin   ps_customtext   ps_dataprivacy   ps_emailalerts   ps_emailsubscription   ps_facetedsearch   ps_faviconnotificationbo   ps_featuredproducts   ps_googleanalytics   ps_imageslider   ps_linklist   ps_mainmenu   ps_newproducts   ps_searchbar   ps_sharebuttons   ps_shoppingcart   ps_socialfollow   ps_supplierlist   ps_themecusto   ps_viewedproduct   psgdpr   statsbestcategories   statsbestcustomers   statsbestmanufacturers   statsbestproducts   statsbestsuppliers   statsbestvouchers   statscarrier   statscatalog   statscheckup   statsdata   statsforecast   statsnewsletter   statspersonalinfos   statsproduct   statsregistrations   statssales   statssearch   statsstock   statsvisits   welcome     Test Checker les events sur prestashop avec les tests   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/monitoring.html",
@@ -10388,13 +10395,6 @@
 	"content": "ps_featuredproducts Categories  Contenu   Installation   "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-gdpr.html",
-	"title": "ps_gdpr",
-	"tags": [],
-	"description": "",
-	"content": "ps_gdpr Categories  Installation   "
-},
-{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-googleanalytics.html",
 	"title": "ps_googleanalytics",
 	"tags": [],
@@ -10477,6 +10477,13 @@
 	"tags": [],
 	"description": "",
 	"content": "ps_viewedproduct Categories  Configuration   "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr.html",
+	"title": "psgdpr",
+	"tags": [],
+	"description": "",
+	"content": "psgdpr Categories  Configuration   Installation   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/referrers.html",
