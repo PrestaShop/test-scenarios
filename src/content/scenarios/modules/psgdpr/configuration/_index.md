@@ -1,9 +1,9 @@
 ---
-title: ps_gdpr
-menuTitle: ps_gdpr
+title: Configuration
+menuTitle: Configuration
 chapter: true
 ---
 
-# ps_gdpr
+# Configuration
 
 {{% children titlePages="Tests" titleSections="Categories" %}}
