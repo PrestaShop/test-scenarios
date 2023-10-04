@@ -7,6 +7,7 @@ weight: 18
 ## Details
 * **Component** : Core
 * **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5214
 
 ## Steps
@@ -20,5 +21,5 @@ weight: 18
 | In When out of stock block > Fill the following fields > Save and publish | Successful update message is displayed |
 | Click on Preview button > Add product to cart | Product is added to cart<br><br>Below Add to cart button, see the label: IN STOCK |
 | In When out of stock block > Check Deny orders > Subtract 300 to quantity > Save and publish | Successful update message is displayed<br><br>In Header, stock is updated to 0<br>In Recent stock movements, see the Quantity added by Employee with the Date & Time |
-| Click Preview > Click on Add to cart button | Add to cart button is greyed out and can't be clicked<br><br>Below Add to cart button, see the label: OUT OF STOCK |
-| Go back to BO > Check Allow orders > Save and publish > Preview > Click Add to cart button | In BO, Successful update message is displayed<br><br>In FO, Product is added to cart |
+| Click Preview > Click on Add to cart button | Add to cart button is greyed out and can't be clicked<br><br>Below Add to cart button, see: Out-of-Stock |
+| Go back to BO > Check Allow orders > Save and publish > Preview > Click Add to cart button | In BO, Successful update message is displayed<br><br>In FO, Product is added to cart<br><br>Below Add to cart button, see the label: OUT OF STOCK |
