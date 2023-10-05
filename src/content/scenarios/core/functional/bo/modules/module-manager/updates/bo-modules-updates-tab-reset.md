@@ -6,7 +6,7 @@ weight: 2
 # BO - Modules - Updates tab - Reset
 ## Details
 * **Component** : Core
-* **Status** : In progress
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-896
 
 ## Steps

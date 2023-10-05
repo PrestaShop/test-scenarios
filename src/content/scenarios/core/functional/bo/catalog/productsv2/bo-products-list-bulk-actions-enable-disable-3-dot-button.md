@@ -6,7 +6,8 @@ weight: 25
 # BO - Products list - Bulk actions, Enable/Disable, 3-dot button
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7214
 
 ## Steps
