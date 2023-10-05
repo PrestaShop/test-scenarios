@@ -560,6 +560,13 @@
 	"content": "BO - Modules - Filter by status Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-874 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/01_filterModulesByStatus.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Click on the section Status and select the filter modules by status : enabled modules all the displayed modules should should be enabled   Click on the section Status and select the filter modules by status : disabled modules all the displayed modules should be disabled   Click on the section Status and select the filter modules by status : installed modules All the installed module should be displayed   Choose a module and click on the dropDown button and choose the action uninstall A success message should be appear   Click on the section Status and select the filter modules by status : Uninstalled modules The displayed page should contains the uninstalled chosen module and the button install should be exist   Click on the section Status and select the filter modules by status : Show all modules The displayed result should contain all the modules with different status : installed / disabled / enabled / and uninstalled    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-get-started.html",
+	"title": "BO - Modules - GDPR - Get started",
+	"tags": [],
+	"description": "",
+	"content": "BO - Modules - GDPR - Get started Details  Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7591  "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-disable-enable-desktop-and-mobile.html",
 	"title": "BO - Modules - Updates tab - Disable / Enable desktop and mobile",
 	"tags": [],
@@ -2240,11 +2247,18 @@
 	"content": "BO - Modules - Filter by category Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-875 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/02_filterModulesByCategories.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules page \u0026gt; Module manager The displayed page title should contains \u0026lsquo;Module manager\u0026rsquo;   Click on the section Category and select the filter modules by Categoty : Administration The block title of The displayed result should be Administration   Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name\nExample (Administration 28) the total of the displayed modules = 28 )    Click on the section Category and select the filter modules by Categoty : Design \u0026amp; Navigation The block title of The displayed result should be Design \u0026amp; Navigation   Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name    Click on the section Category and select the filter modules by Categoty :Payment The block title of The displayed result should be Payment   Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name    Click on the section Category and select the filter modules by Categoty : Traffic \u0026amp; Marketplaces The block title of The displayed result should be Traffic \u0026amp; Marketplaces   Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name    Click on the section Category and select the filter modules by Categoty : Theme modules The block title of The displayed result should be Theme modules   Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name    Click on the section Category and select the filter modules by Categoty : Other The block title of The displayed result should be Other   Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name    Click on the section Category and select the filter modules by Categoty : All categories The displayed page should contain different module search title : Administration / Design \u0026amp; Navigation / Promotions \u0026amp; Marketing / Payment / Traffic \u0026amp; Marketplaces / Theme modules / Other    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-personnal-data-manager.html",
+	"title": "BO - Modules - GDPR - Personnal data manager",
+	"tags": [],
+	"description": "",
+	"content": "BO - Modules - GDPR - Personnal data manager Details  Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7592  "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-reset.html",
 	"title": "BO - Modules - Updates tab - Reset",
 	"tags": [],
 	"description": "",
-	"content": "BO - Modules - Updates tab - Reset Details  Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-896  Steps    Step Description Expected result     Access to Bo \u0026gt; go to modules manager page Module manager page should be displayed   Click on the section updates     "
+	"content": "BO - Modules - Updates tab - Reset Details  Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-896  Steps    Step Description Expected result     Access to Bo \u0026gt; go to modules manager page Module manager page should be displayed   Click on the section updates     "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-create-customer.html",
@@ -3626,6 +3640,13 @@
 	"content": "BO - Modules - Alerts tab - Uninstall Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-889 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/02_alerts/03_installUninstallModule.ts  Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;Alerts The module notifications page should be displayed .   Choose one of the modules to configure -\u0026gt;Click on uninstall\u0026quot; and confirm the uninstall message by clicking on \u0026ldquo;Yes uninstall it \u0026quot; A message should be displayed in green : \u0026ldquo;Uninstall action on module ps_checkpayment succeeded.\u0026rdquo;    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-consent-checkbox-customization.html",
+	"title": "BO - Modules - GDPR - Consent checkbox customization",
+	"tags": [],
+	"description": "",
+	"content": "BO - Modules - GDPR - Consent checkbox customization Details  Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7593  "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-search.html",
 	"title": "BO - Modules - Search",
 	"tags": [],
@@ -3808,11 +3829,11 @@
 	"content": "BO - Shop Parameters - Product Settings - Max size short description Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1065 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/03_maxSizeShortDescription.ts  Steps    Step Description Expected result     go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   Update max size of short description to 5 Successful update message is displayed   Should go to products page page title contains \u0026lsquo;Products\u0026rsquo;   Try to create product with description \u0026gt; 5 Error messages are displayed\n1. \u0026lsquo;Unable to update settings.'\n2. \u0026lsquo;This value is too long. It should have 5 characters or less.\u0026rsquo;   go to \u0026lsquo;Shop parameters \u0026gt; Product Settings\u0026rsquo; page page title contains \u0026lsquo;Product Settings\u0026rsquo;   Update max size of short description to default value : 800 Successful update message is displayed   Should go to products page page title contains \u0026lsquo;Products\u0026rsquo;   create product with description 800 Successful update setting message is displayed   delete product Product should be deleted    "
 },
 {
-	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-quick-edit-statuses.html",
-	"title": "BO - Shop Parameters - Search - Quick edit statuses",
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-edit-aliases.html",
+	"title": "BO - Shop Parameters - Search - Edit aliases",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Search - Quick edit statuses Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1126  "
+	"content": "BO - Shop Parameters - Search - Edit aliases Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1126  "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-enable-disable-friendly-url-todo.html",
@@ -4851,6 +4872,13 @@
 	"content": "BO - Modules - Disable / Enable desktop and mobile Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-877 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/04_enableDisableModule.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Set the name of a module in the search bar \u0026gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   If the searched module is already Enabled \u0026gt; click on the button Disable \u0026gt; confirm the displayed pop-up A success message contains \u0026ldquo;Disable action\u0026rdquo; should be appear   If the searched module is already Disabled \u0026gt; click on the button Enable A success message contains \u0026ldquo;Enable action\u0026rdquo; should be appear   Click on the drop-down button A list of action should be available   Choose the action Disable Mobile A success message contain \u0026ldquo;Disable mobile\u0026rdquo; should be appear   Click on the drop-down button \u0026gt; click on the action Enable mobile A success message contains \u0026ldquo;Enable mobile\u0026rdquo; should be appear    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-customer-activity-tracking.html",
+	"title": "BO - Modules - GDPR - Customer activity tracking",
+	"tags": [],
+	"description": "",
+	"content": "BO - Modules - GDPR - Customer activity tracking Details  Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7594  "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/updates/bo-modules-updates-tab-connect-to-addons-market-place.html",
 	"title": "BO - Modules - Updates tab - Connect to Addons market place",
 	"tags": [],
@@ -4995,7 +5023,7 @@
 	"title": "BO - Shop Parameters - Search - Indexing",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - Search - Indexing Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1127  "
+	"content": "BO - Shop Parameters - Search - Indexing Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1127  Steps    Step Description Expected result     Go to BO \u0026gt; Shop Parameters \u0026gt; Search \u0026gt; Block Indexing See Indexed products 19 / 19.   Add a product \u0026gt; Put online Product is created   Go back to BO \u0026gt; Shop Parameters \u0026gt; Search \u0026gt; Block Indexing See Indexed products 20 / 20.   Disable automatic Indexing \u0026gt; Save The settings have been successfully updated. message is displayed   Add a product \u0026gt; Put online Product is created   Go back to BO \u0026gt; Shop Parameters \u0026gt; Search \u0026gt; Block Indexing See Indexed products 20 / 21.   Click Add missing products to the index Successful update message is displayed\nSee Indexed products 21 / 21.    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-enable-disable-accented-url.html",
@@ -5705,6 +5733,13 @@
 	"content": "BO - Modules - Alerts tab - Configure module Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-893 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/02_alerts/05_configureModule.ts  Steps    Step Description Expected result     Go to back office -\u0026gt; Modules -\u0026gt; Module manager\u0026gt;Alerts The module notifications page should be displayed .   Choose one of the modules to configure -\u0026gt;click on Configure button Configuration page should be displayed   Add a company name, an address and save Information should be saved\n\u0026ldquo;Setting updated\u0026rdquo;    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-help.html",
+	"title": "BO - Modules - GDPR - Help",
+	"tags": [],
+	"description": "",
+	"content": "BO - Modules - GDPR - Help Details  Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7595  "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-reset.html",
 	"title": "BO - Modules - Reset",
 	"tags": [],
@@ -6321,6 +6356,13 @@
 	"content": "BO - Modules - Alerts tab - Upgrade Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-894  Steps    Step Description Expected result     On BO \u0026gt; Improve \u0026gt; Modules \u0026gt; Module Manager The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Click on Alerts The page title should contains \u0026lsquo;Module alerts\u0026rsquo;   Choose a modules than can be upgrade Click to upgrade A modal should appear with this text:\n{color:#414a56}\u0026ldquo;Are you sure you want to upgrade this module?{color}\nWe strongly advise you to upgrade the modules on maintenance mode to avoid any cache issues.\u0026quot;\nand with three buttons:\n-Cancel\n- Go to maintenance page\n- Upgrade anyway   Click to Upgrade anyway Upgrade action on module ps_checkpayment succeeded.    "
 },
 {
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-autoupgrade.html",
+	"title": "BO - Modules - GDPR - Autoupgrade",
+	"tags": [],
+	"description": "",
+	"content": "BO - Modules - GDPR - Autoupgrade Details  Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7596  "
+},
+{
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-uninstall.html",
 	"title": "BO - Modules - Uninstall",
 	"tags": [],
@@ -6816,6 +6858,13 @@
 	"tags": [],
 	"description": "",
 	"content": "BO - Modules - Bulk actions Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-880 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/07_bulkActions.ts  Steps    Step Description Expected result     Login in BO \u0026gt; Go to modules manager page The page title should contains \u0026lsquo;Module manager\u0026rsquo;   Check that the Bulk action section is Disabled    Select module form the displayed modules list Check that the bulk actions is enabled   Click on the bulk actions section \u0026gt; and check that the : i\nnstall / uninstall / disable / enable / reset / enable mobile / disable mobile , options are exists The options list of the section bulk actions is well checked !   Choose an aoption from the displayed list \u0026gt; confirm the displayed pop-up\nExamle : click on Disable action A success messages contains \u0026ldquo;Disable action on module \u0026quot; .. should be appear    "
+},
+{
+	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-multistore.html",
+	"title": "BO - Modules - GDPR - Multistore",
+	"tags": [],
+	"description": "",
+	"content": "BO - Modules - GDPR - Multistore Details  Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7597  "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-search-add-remove-a-voucher.html",
@@ -7487,7 +7536,7 @@
 	"title": "BO - Shop Parameters - SEO &amp; URLs - SEO Options",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - SEO Options Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1114  "
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - SEO Options Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1114  Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Traffic \u0026amp; SEO \u0026gt; Scroll down to block SEO options See option Display attributes in the product meta title is disabled   Click View my shop \u0026gt; Open Hummingbird printed t-shirt \u0026gt; Inspect element \u0026gt; Search for  element You will find\n{code:java}\nHummingbird printed t-shirt{code}   Go back to BO \u0026gt; Shop parameters \u0026gt; Traffic \u0026amp; SEO \u0026gt; Scroll down to block SEO options \u0026gt; Enable the option \u0026ldquo;Display attributes in the product meta title\u0026rdquo; \u0026gt; Save Update successful alert is displayed   Click View my shop \u0026gt; Open Hummingbird printed t-shirt \u0026gt; Inspect element \u0026gt; Search for  element YOu will find {code:java}\nHummingbird printed t-shirt Size S Color White\n{code}    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-in-create-order-the-currency-available.html",
@@ -7606,7 +7655,7 @@
 	"title": "BO - Shop Parameters - SEO &amp; URLs - Generate Robots.txt file",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Generate Robots.txt file Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1115  "
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Generate Robots.txt file Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1115  Steps    Step Description Expected result     Go to BO \u0026gt; Shop parameters \u0026gt; Traffic \u0026amp; SEO SEO \u0026amp; URLs page is well displayed   Scroll to block : Robots file generation \u0026gt; Click on Generate robots.txt file button Successful update message is displayed   Go to YOUR_SHOP.COM/robots.txt See your robots.txt file   Go to International \u0026gt; Translations \u0026gt; Add German language The translations have been successfully added. message is displayed   Go back to BO \u0026gt; Shop parameters \u0026gt; Traffic \u0026amp; SEO \u0026gt; Scroll to block : Robots file generation \u0026gt; Click on Generate robots.txt file button See in your robots.txt file, new Directories and Files have been added with the prefix /*de/    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-generation-of-bill.html",
@@ -7704,7 +7753,7 @@
 	"title": "BO - Shop Parameters - SEO &amp; URLs - Help card",
 	"tags": [],
 	"description": "",
-	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Help card Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1116  "
+	"content": "BO - Shop Parameters - SEO \u0026amp; URLs - Help card Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1116  Steps    Step Description Expected result     GO to BO \u0026gt; Shop Parameters \u0026gt; SEO \u0026amp; URLs SEO \u0026amp; URLs page is well displayed   Click on Help button on top right corner Help card is displayed from the right side of the page   Case1\nClick on {color:#4c9aff}x{color} button in the Help card header\nCase 2\nClick any where in Profiles page\nCase 3 Click on Help button The Help card disappears    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/cldr/check-access-to-the-orders.html",
@@ -8152,7 +8201,7 @@
 	"title": "BO - Products list - Bulk actions, Enable/Disable, 3-dot button",
 	"tags": [],
 	"description": "",
-	"content": "BO - Products list - Bulk actions, Enable/Disable, 3-dot button Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-7214  Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products All products should be displayed   Enable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is enabled   Disable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is disabled   Enable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is enabled   * Clic on the Bulk actions button * Clic on \u0026ldquo;Deactivate selection\u0026rdquo;\n* Clic on \u0026ldquo;Deactivate selection\u0026rdquo;\n* Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed with : \u0026ldquo;activate selection\u0026rdquo; \u0026ldquo;Deactivate selection\u0026rdquo; \u0026ldquo;Duplicate selection\u0026rdquo; \u0026ldquo;Delete Selection\u0026rdquo; * A pop up is displayed with \u0026ldquo;Deactivate selection\u0026rdquo; * A loading is displayed * All product selected should be disabled (Status off)   Enable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is enabled   * Clic on the Bulk actions button * Clic on \u0026ldquo;Activate selection\u0026rdquo;\n* Clic on \u0026ldquo;Cancel\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Activate selection\u0026rdquo; * The pop up should be closed and you still have your product selected   * Clic on the Bulk actions button * Clic on \u0026ldquo;Activate selection\u0026rdquo;\n* Clic on \u0026ldquo;Activate selection\u0026rdquo;\n* Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Activate selection\u0026rdquo; * A loading is displayed * All product selected should be enabled (Status on)   Enable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is enabled   * Clic on the Bulk actions button * Clic on \u0026ldquo;Dupplicate selection\u0026rdquo;\n* Clic on \u0026ldquo;Dupplicate selection\u0026rdquo;\n* Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Dupplicate selection\u0026rdquo; * A loading is displayed * All product selected should be dupplicate and disabled   Check the products already deplecated products are checked   * Clic on the Bulk actions button * Clic on \u0026ldquo;Delete selection\u0026rdquo;\n* Clic on \u0026ldquo;Delete selection\u0026rdquo;\n* Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Delete selection\u0026rdquo; * A loading is displayed * All product selected should be deleted   * Clic on the Bulk actions button * Clic on \u0026ldquo;Delete selection\u0026rdquo;\n* Clic on \u0026ldquo;Delete selection\u0026rdquo;\n* Clic on \u0026ldquo;Stop processing\u0026rdquo; during the load * Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Delete selection\u0026rdquo; * A loading is displayed * Two yellow alert will be displayed \u0026quot; View 1 error logs\u0026quot;\n\u0026ldquo;Something went wrong with IDs [number of IDs you selected] the operation was aborted\u0026rdquo;\n* Product until the ID showed in the error message will be deleted   * On the first product, clic on the three dot * Clic on \u0026ldquo;Preview\u0026rdquo; * a pop up is displayed with \u0026ldquo;Preview\u0026rdquo;, \u0026ldquo;Dupplicate\u0026rdquo; and \u0026ldquo;Delete\u0026rdquo;\n* The product will be displayed on the FO\nIf you use it on a product disabled, you\u0026rsquo;ll se a baneer with \u0026ldquo;This product is not visible to your customers\u0026rdquo;   * On the first product, clic on the three dot * Clic on \u0026ldquo;Dupplicate\u0026rdquo;\n* Clic on \u0026ldquo;Go to catalog\u0026rdquo; * a pop up is displayed\n* The new product is displayed on BO with the same details than the previous, it name is \u0026ldquo;copy of [name of your previous product\u0026rdquo; and you have a green notification \u0026ldquo;Successful duplication\u0026rdquo;\n* All product should be displayed   * On the first product, clic on the three dot * Clic on \u0026ldquo;Delete\u0026rdquo;\n* Clic on \u0026ldquo;Cancel\u0026rdquo; * a pop up is displayed\n* A new pop up is displayed named \u0026ldquo;Delete selection\u0026rdquo;\n* All pop up is disabled   * On the first product, clic on the three dot * Clic on \u0026ldquo;Delete\u0026rdquo;\n* Clic on \u0026ldquo;Delete\u0026rdquo; * a pop up is displayed\n* A new pop up is displayed named \u0026ldquo;Delete selection\u0026rdquo;\n* The product is deleted and you\u0026rsquo;ll have a green notification \u0026ldquo;Successful deletion\u0026rdquo;    "
+	"content": "BO - Products list - Bulk actions, Enable/Disable, 3-dot button Details  Component : Core Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7214  Steps    Step Description Expected result     Go to BO \u0026gt; Catalog \u0026gt; Products All products should be displayed   Enable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is enabled   Disable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is disabled   Enable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is enabled   * Clic on the Bulk actions button * Clic on \u0026ldquo;Deactivate selection\u0026rdquo;\n* Clic on \u0026ldquo;Deactivate selection\u0026rdquo;\n* Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed with : \u0026ldquo;activate selection\u0026rdquo; \u0026ldquo;Deactivate selection\u0026rdquo; \u0026ldquo;Duplicate selection\u0026rdquo; \u0026ldquo;Delete Selection\u0026rdquo; * A pop up is displayed with \u0026ldquo;Deactivate selection\u0026rdquo; * A loading is displayed * All product selected should be disabled (Status off)   Enable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is enabled   * Clic on the Bulk actions button * Clic on \u0026ldquo;Activate selection\u0026rdquo;\n* Clic on \u0026ldquo;Cancel\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Activate selection\u0026rdquo; * The pop up should be closed and you still have your product selected   * Clic on the Bulk actions button * Clic on \u0026ldquo;Activate selection\u0026rdquo;\n* Clic on \u0026ldquo;Activate selection\u0026rdquo;\n* Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Activate selection\u0026rdquo; * A loading is displayed * All product selected should be enabled (Status on)   Enable the checkbox near the \u0026ldquo;Min \u0026amp; Max\u0026rdquo; of ID All checkbox of product present in this page is enabled   * Clic on the Bulk actions button * Clic on \u0026ldquo;Dupplicate selection\u0026rdquo;\n* Clic on \u0026ldquo;Dupplicate selection\u0026rdquo;\n* Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Dupplicate selection\u0026rdquo; * A loading is displayed * All product selected should be dupplicate and disabled   Check the products already deplecated products are checked   * Clic on the Bulk actions button * Clic on \u0026ldquo;Delete selection\u0026rdquo;\n* Clic on \u0026ldquo;Delete selection\u0026rdquo;\n* Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Delete selection\u0026rdquo; * A loading is displayed * All product selected should be deleted   * Clic on the Bulk actions button * Clic on \u0026ldquo;Delete selection\u0026rdquo;\n* Clic on \u0026ldquo;Delete selection\u0026rdquo;\n* Clic on \u0026ldquo;Stop processing\u0026rdquo; during the load * Clic on \u0026ldquo;Close\u0026rdquo; * A pop up is displayed * A pop up is displayed with \u0026ldquo;Delete selection\u0026rdquo; * A loading is displayed * Two yellow alert will be displayed \u0026quot; View 1 error logs\u0026quot;\n\u0026ldquo;Something went wrong with IDs [number of IDs you selected] the operation was aborted\u0026rdquo;\n* Product until the ID showed in the error message will be deleted   * On the first product, clic on the three dot * Clic on \u0026ldquo;Preview\u0026rdquo; * a pop up is displayed with \u0026ldquo;Preview\u0026rdquo;, \u0026ldquo;Dupplicate\u0026rdquo; and \u0026ldquo;Delete\u0026rdquo;\n* The product will be displayed on the FO\nIf you use it on a product disabled, you\u0026rsquo;ll se a baneer with \u0026ldquo;This product is not visible to your customers\u0026rdquo;   * On the first product, clic on the three dot * Clic on \u0026ldquo;Dupplicate\u0026rdquo;\n* Clic on \u0026ldquo;Go to catalog\u0026rdquo; * a pop up is displayed\n* The new product is displayed on BO with the same details than the previous, it name is \u0026ldquo;copy of [name of your previous product\u0026rdquo; and you have a green notification \u0026ldquo;Successful duplication\u0026rdquo;\n* All product should be displayed   * On the first product, clic on the three dot * Clic on \u0026ldquo;Delete\u0026rdquo;\n* Clic on \u0026ldquo;Cancel\u0026rdquo; * a pop up is displayed\n* A new pop up is displayed named \u0026ldquo;Delete selection\u0026rdquo;\n* All pop up is disabled   * On the first product, clic on the three dot * Clic on \u0026ldquo;Delete\u0026rdquo;\n* Clic on \u0026ldquo;Delete\u0026rdquo; * a pop up is displayed\n* A new pop up is displayed named \u0026ldquo;Delete selection\u0026rdquo;\n* The product is deleted and you\u0026rsquo;ll have a green notification \u0026ldquo;Successful deletion\u0026rdquo;    "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/actions.html",
@@ -8635,7 +8684,7 @@
 	"title": "Configuration",
 	"tags": [],
 	"description": "",
-	"content": "Configuration "
+	"content": "Configuration Tests  BO - Modules - GDPR - Get started   BO - Modules - GDPR - Personnal data manager   BO - Modules - GDPR - Consent checkbox customization   BO - Modules - GDPR - Customer activity tracking   BO - Modules - GDPR - Help   BO - Modules - GDPR - Autoupgrade   BO - Modules - GDPR - Multistore   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/modules/ps-mainmenu/configuration.html",
@@ -10532,7 +10581,7 @@
 	"title": "Search",
 	"tags": [],
 	"description": "",
-	"content": "Search Categories  Edit Search Settings   Tests  BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions   BO - Shop Parameters - Search - CRUD   BO - Shop Parameters - Search - Quick edit statuses   BO - Shop Parameters - Search - Indexing   Edit search settings   BO - Shop Parameters - Search - Edit weight settings   "
+	"content": "Search Categories  Edit Search Settings   Tests  BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions   BO - Shop Parameters - Search - CRUD   BO - Shop Parameters - Search - Edit aliases   BO - Shop Parameters - Search - Indexing   Edit search settings   BO - Shop Parameters - Search - Edit weight settings   "
 },
 {
 	"uri": "https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/search.html",
