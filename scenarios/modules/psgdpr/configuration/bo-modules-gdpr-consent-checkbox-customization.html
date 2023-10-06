@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../css/font-awesome.min.css?1696489233" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1696489233" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1696489233" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1696489233" rel="stylesheet">
-    <link href="../../../../css/auto-complete.css?1696489233" rel="stylesheet">
-    <link href="../../../../style.css?1696489233" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1696576072" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1696576072" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1696576072" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1696576072" rel="stylesheet">
+    <link href="../../../../css/auto-complete.css?1696576072" rel="stylesheet">
+    <link href="../../../../style.css?1696576072" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1696489233"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1696576072"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -39073,9 +39073,9 @@
  
   
     
-      <li data-nav-id="/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-personnal-data-manager.html" title="BO - Modules - GDPR - Personnal data manager" class="dd-item ">
-        <a href="../../../../scenarios/modules/psgdpr/configuration/bo-modules-gdpr-personnal-data-manager.html">
-        BO - Modules - GDPR - Personnal data manager
+      <li data-nav-id="/scenarios/modules/psgdpr/configuration/bo-modules-gdpr-personal-data-manager.html" title="BO - Modules - GDPR - Personal data manager" class="dd-item ">
+        <a href="../../../../scenarios/modules/psgdpr/configuration/bo-modules-gdpr-personal-data-manager.html">
+        BO - Modules - GDPR - Personal data manager
         
         </a>
     </li>
@@ -41930,6 +41930,7 @@
     <li><a href="#bo---modules---gdpr---consent-checkbox-customization">BO - Modules - GDPR - Consent checkbox customization</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65757,17 +65758,144 @@
 <h1 id="bo---modules---gdpr---consent-checkbox-customization">BO - Modules - GDPR - Consent checkbox customization</h1>
 <h2 id="details">Details</h2>
 <ul>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-7593">https://forge.prestashop.com/browse/TEST-7593</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Modules &gt; Modules manager &gt; Search psgdpr &gt; Configure</td>
+<td>psgdpr module configuration page is displayed</td>
+</tr>
+<tr>
+<td>Go to Tab 3 : Consent checkbox customization</td>
+<td>Configure your checkboxes block is displayed</td>
+</tr>
+<tr>
+<td>Edit the consent message for the Account creation form &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>Click View my store &gt; Sign In &gt; No account? Create one here &gt; Fill the fields with following data &gt; Check the psgdpr checkbox : Lorem ipsum dolor sit amet, consectetur adipiscing elit &amp; Customer data privacy &gt; Save</td>
+<td>You are logged in to your customer account</td>
+</tr>
+<tr>
+<td>Go back to your BO &gt; psgdpr &gt; Tab 3 : Consent checkbox customization &gt; Edit the consent message for Customer account area &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>Go to your customer account &gt; Click on the block Information &gt; Edit some info &gt; Check the checkboxes Quis viverra nibh cras pulvinar. &amp; Customer data privacy &gt; Save</td>
+<td>Information successfully updated. alert is displayed</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; psgdpr &gt; Tab 3 &gt; Disable the checkboxes for Account creation form and Customer account area &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>Click View my store &gt; Go to your account &gt; Information &gt; Scroll to the checkboxes section</td>
+<td>No checkbox &ldquo;Quis viverra nibh cras pulvinar.&rdquo;</td>
+</tr>
+<tr>
+<td>Sign out &gt; Click on No account? Create one here &gt; Scroll down to the checkboxes section</td>
+<td>No checkbox &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit&rdquo;</td>
+</tr>
+<tr>
+<td>Go back to your BO &gt; psgdpr &gt; Tab 3 : Consent checkbox customization &gt; Edit the consent message for the module Newsletter subscription &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>View my store &gt; Scroll down to the block Get our latest news and special sales</td>
+<td>No consent message is displayed</td>
+</tr>
+<tr>
+<td>Go back to the BO page &gt; psgdpr &gt; Click on Manage hook &gt; Hook a module &gt; Save</td>
+<td>The module transplanted successfully to the hook.</td>
+</tr>
+<tr>
+<td>Go back to FO &gt; Refresh</td>
+<td>See the checkbox&quot; Mi proin sed libero enim sed faucibus.&quot; displayed</td>
+</tr>
+<tr>
+<td>Add an email &gt; Check the box &gt; Subscribe</td>
+<td>You have successfully subscribed to this newsletter.</td>
+</tr>
+<tr>
+<td>Go back to your BO &gt; psgdpr &gt; Tab 3 : Consent checkbox customization &gt; Disable Newsletter subscription &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>View my store &gt; Scroll down to Get our latest news and special sales</td>
+<td>No consent message is displayed</td>
+</tr>
+<tr>
+<td>Go back to your BO &gt; psgdpr &gt; Tab 3 : Consent checkbox customization &gt; Edit the consent message for the module Product comments &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>View my store &gt; Log into your customer account &gt; Go to a product page &gt; Click &ldquo;Write your review&rdquo; &gt; Check the checkbox &gt; Send</td>
+<td>Your comment has been submitted and will be available once approved by a moderator.</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; psgdpr &gt; Tab 3 &gt; Disable the checkboxes for Athe module Product comments &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>Go back to your FO &gt; Product page &gt; Refresh</td>
+<td>No consent message is displayed</td>
+</tr>
+<tr>
+<td>Go back to your BO &gt; psgdpr &gt; Tab 3 : Consent checkbox customization &gt; Edit the consent message for the module Contact form &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>Click View my store &gt; Contact us &gt; Add message &gt; Check checkbox</td>
+<td>Checkbox message is the following Eu augue ut lectus arcu bibendum at.</td>
+</tr>
+<tr>
+<td>Click Send</td>
+<td>Alert message is displayed : Your message has been successfully sent to our team.</td>
+</tr>
+<tr>
+<td>Go back to your BO &gt; psgdpr &gt; Tab 3 : Consent checkbox customization &gt; Edit the consent message for the module Mail alerts &gt; Save</td>
+<td>Saved with success ! alert is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Products &gt; Edit Mug Today is a good day &gt; Put stock to 0 &gt; Save and publish</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Preview the product</td>
+<td>See the block for mail alert displayed with message &ldquo;Netus et malesuada fames ac turpis egestas sed tempus.&rdquo;</td>
+</tr>
+<tr>
+<td>Check the checkbox and Click Notify me later</td>
+<td>Alert Request notification registered is displayed</td>
+</tr>
+<tr>
+<td>Go back to your BO &gt; psgdpr &gt; Tab 3 : Consent checkbox customization &gt; Edit the consent message for the module Mail alerts for FRENCH language &gt; Save</td>
+<td>Consent request message : FRENCH MESSAGE</td>
+</tr>
+<tr>
+<td>Open back the page product for Mug Today is a good day &gt; Sign out of your account <a href="mailto:jane@doe.com">jane@doe.com</a> &gt; Change language to Français</td>
+<td>See the block for Mail alert is &ldquo;FRENCH MESSAGE&rdquo;</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on October 5, 2023
+  Last updated on October 6, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/3cb89d47ac9b8277516434ea2c1a3a36ac1fe604">"[Update] JIRA XRay Tests" (3cb89d47ac9)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/d66f3221c2ee2a6c7fc3fd4b4379b7a7557e0b56">"[Update] JIRA XRay Tests" (d66f3221c2e)</a>
   
 </div>
 
@@ -65788,17 +65916,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1696489234"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1696489234"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1696489234"></script>
-    <script src="../../../../js/jquery.sticky.js?1696489234"></script>
-    <script src="../../../../js/featherlight.min.js?1696489234"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1696489234"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1696489234"></script>
-    <script src="../../../../js/learn.js?1696489234"></script>
-    <script src="../../../../js/hugo-learn.js?1696489234"></script>
+    <script src="../../../../js/clipboard.min.js?1696576072"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1696576072"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1696576072"></script>
+    <script src="../../../../js/jquery.sticky.js?1696576072"></script>
+    <script src="../../../../js/featherlight.min.js?1696576072"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1696576072"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1696576072"></script>
+    <script src="../../../../js/learn.js?1696576072"></script>
+    <script src="../../../../js/hugo-learn.js?1696576072"></script>
     
-    <script src="../../../../main.js?1696489234"></script>
+    <script src="../../../../main.js?1696576072"></script>
     
     
 
