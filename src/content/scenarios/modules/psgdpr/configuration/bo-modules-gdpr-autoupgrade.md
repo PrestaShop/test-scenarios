@@ -8,3 +8,7 @@ weight: 6
 * **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7596
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |

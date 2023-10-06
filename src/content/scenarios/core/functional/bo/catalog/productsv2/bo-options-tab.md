@@ -6,8 +6,9 @@ weight: 22
 # BO - Options Tab
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5218
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/20_optionsTab.ts
 
 ## Steps
 | Step Description | Expected result |
