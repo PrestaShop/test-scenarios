@@ -14,7 +14,7 @@ weight: 2
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to Advanced Parameters >Multistore | Multistore page opens with 3 blocks : <br> * Multistore tree <br> * Multistore list <br> * Multistore options |
-| Click on " Add new store " | add new  page is displayed |
+| Click on " Add new store " | add new page is displayed |
 | Fill the informations  of the new shop >save | * The content is added to shop list and to multistore tree<br> * A green alert "Successful creation" is displayed |
 | click on edit > change the informations > save | * A green alert "Successful update" is displayed<br> * the content is updated . |
 | Click on the dropdown menu >delete | an alert is displayed with : <br><br>Delete select items <br><br>Name : new_shop<br><br>2 buttons : Annuler  / ok |
