@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../css/font-awesome.min.css?1696576072" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1696576072" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1696576072" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1696576072" rel="stylesheet">
-    <link href="../../../../css/auto-complete.css?1696576072" rel="stylesheet">
-    <link href="../../../../style.css?1696576072" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1696661376" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1696661376" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1696661376" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1696661376" rel="stylesheet">
+    <link href="../../../../css/auto-complete.css?1696661376" rel="stylesheet">
+    <link href="../../../../style.css?1696661376" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1696576072"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1696661376"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65758,7 +65758,7 @@
 <h1 id="bo---modules---gdpr---multistore">BO - Modules - GDPR - Multistore</h1>
 <h2 id="details">Details</h2>
 <ul>
-<li><strong>Status</strong> : In progress</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-7597">https://forge.prestashop.com/browse/TEST-7597</a></li>
 </ul>
 <h2 id="steps">Steps</h2>
@@ -65775,36 +65775,64 @@
 <td>psgdpr module configuration page is displayed</td>
 </tr>
 <tr>
-<td>Go to Advanced Parameters &gt;Multistore</td>
-<td>Multistore page opens with 3 blocks : <br> * Multistore tree <br> * Multistore list <br> * Multistore options</td>
+<td>Go to tab 3 : Consent checkbox customization &gt; Disable Contact form module &gt; Save</td>
+<td>Saved with success ! message is displayed</td>
 </tr>
 <tr>
-<td>Click on &quot; Add new store &quot;</td>
-<td>add new  page is displayed</td>
+<td>Click View my store &gt; Contact us</td>
+<td>No checkbox is displayed</td>
 </tr>
 <tr>
-<td>Fill the informations  of the new shop &gt;save</td>
-<td>* The content is added to shop list and to multistore tree<br> * A green alert &ldquo;Successful creation&rdquo; is displayed</td>
+<td>Go to BO &gt; Shop parameters &gt; General &gt; Enable multistore &gt; Save</td>
+<td>Successful update message is displayed</td>
 </tr>
 <tr>
-<td>click on edit &gt; change the informations &gt; save</td>
-<td>* A green alert &ldquo;Successful update&rdquo; is displayed<br> * the content is updated .</td>
+<td>Go to Advanced parameters &gt; Multistore &gt; Create 2 others shops &gt; Add their URL</td>
+<td>You now have 3 shops in your context</td>
 </tr>
 <tr>
-<td>Click on the dropdown menu &gt;delete</td>
-<td>an alert is displayed with : <br><br>Delete select items <br><br>Name : new_shop<br><br>2 buttons : Annuler  / ok</td>
-</tr>
-<tr>
-<td>Click on OK</td>
-<td>* A green alert &ldquo;Successful deletion&rdquo; is displayed<br> * the shop is well deleted from the multistore tree and from the list  .</td>
-</tr>
-<tr>
-<td>Scroll down to block Configuration</td>
+<td>Go to BO - Dashboard &gt; Shop context : shop2 &gt; Modules &gt; Modules manager &gt; Search psgdpr &gt; Configure &gt; Scroll down to block Configuration</td>
 <td>See multistore option &ldquo;Activate module for this shop context&rdquo;</td>
 </tr>
 <tr>
-<td>Disable the option</td>
+<td>Disable this option</td>
 <td>The settings have been successfully updated.</td>
+</tr>
+<tr>
+<td>View my store for shop2 &gt; Contact us</td>
+<td>No checkbox is displayed in the contact form</td>
+</tr>
+<tr>
+<td>Go to BO - Dashboard &gt; Shop context : shop3 &gt; Modules &gt; Modules manager &gt; Search psgdpr &gt; Configure &gt; Scroll down to block ConfigurationGo to shop 3 context</td>
+<td>The module is automatically activated for shop3 context</td>
+</tr>
+<tr>
+<td>Go to tab 2 : Personal data management &gt; Search for customer &ldquo;john&rdquo;</td>
+<td>Following message is displayed: <br>There is no result in the customer data base for : john<br><br>If you are looking for someone without a customer account, please search for the complete email address or phone number he left.</td>
+</tr>
+<tr>
+<td>Go to tab 3 &gt; Disable Account creation form &gt; Save</td>
+<td>Saved with success ! message is displayed</td>
+</tr>
+<tr>
+<td>View your store shop context shop 3</td>
+<td>FO for shop 3 is displayed</td>
+</tr>
+<tr>
+<td>FO &gt; Sign in &gt; No account? Create one here &gt; Save</td>
+<td>Only 3 checkboxes are displayed instead of 4.<br>You are logged into your customer account.</td>
+</tr>
+<tr>
+<td>Goback to BO &gt; psgdpr &gt; Go to tab 3 &gt; Disable Newsletter subscription &gt; Save</td>
+<td>Saved with success ! message is displayed</td>
+</tr>
+<tr>
+<td>View my store in your shop context shop3 &gt; Scroll down to Get our latest news and special sales</td>
+<td>No checkbox is displayed</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; psgdpr &gt; Go to tab 4</td>
+<td>The table has 1 line :<br>Client name/ID : janet doe<br>Type of request : Consent confirmation<br>Submission date : your_date</td>
 </tr>
 </tbody>
 </table>
@@ -65813,9 +65841,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on October 6, 2023
+  Last updated on October 7, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/d66f3221c2ee2a6c7fc3fd4b4379b7a7557e0b56">"[Update] JIRA XRay Tests" (d66f3221c2e)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/151970bd5506ed53d0c2ed8d6b08a32f421858cb">"[Update] JIRA XRay Tests" (151970bd550)</a>
   
 </div>
 
@@ -65836,17 +65864,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1696576073"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1696576073"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1696576073"></script>
-    <script src="../../../../js/jquery.sticky.js?1696576073"></script>
-    <script src="../../../../js/featherlight.min.js?1696576073"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1696576073"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1696576073"></script>
-    <script src="../../../../js/learn.js?1696576073"></script>
-    <script src="../../../../js/hugo-learn.js?1696576073"></script>
+    <script src="../../../../js/clipboard.min.js?1696661376"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1696661376"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1696661376"></script>
+    <script src="../../../../js/jquery.sticky.js?1696661376"></script>
+    <script src="../../../../js/featherlight.min.js?1696661376"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1696661376"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1696661376"></script>
+    <script src="../../../../js/learn.js?1696661376"></script>
+    <script src="../../../../js/hugo-learn.js?1696661376"></script>
     
-    <script src="../../../../main.js?1696576073"></script>
+    <script src="../../../../main.js?1696661376"></script>
     
     
 
