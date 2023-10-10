@@ -12,7 +12,7 @@ weight: 2
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
-| In block Personal data manager > In block Data visualization and automatic actions | See all the modules available with psgdpr :<br>- Newsletter subscription<br>- Product Comments<br>- Contact form<br>- Mail alerts |
+| In block Personal data manager > In block Data visualization and automatic actions | See all the modules available with psgdpr :<br> - PrestaShop date<br> - Newsletter subscription<br> - Product Comments<br> - Contact form<br> - Mail alerts |
 | Scroll down to Manage customer's personal data > Search "hello" | Alert is displayed :<br>There is no result in the customer data base for : hello<br><br>If you are looking for someone without a customer account, please search for the complete email address or phone number he left. |
 | Now search for "john" | Card John DOE is displayed |
 | Click on the card | A panel is displayed with 7 blocks :<br>- General information<br>- Addresses<br>- Orders<br>- Carts<br>- Messages<br>- Last connections<br>- Module: Newsletter subscription<br>- Module: Product Comments<br>- Module: Mail alerts |

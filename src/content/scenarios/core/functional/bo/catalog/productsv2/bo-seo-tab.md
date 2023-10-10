@@ -9,6 +9,7 @@ weight: 21
 * **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5217
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/18_seoTab.ts
 
 ## Steps
 | Step Description | Expected result |

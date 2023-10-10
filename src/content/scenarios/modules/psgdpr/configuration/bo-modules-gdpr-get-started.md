@@ -5,7 +5,7 @@ weight: 1
 
 # BO - Modules - GDPR - Get started
 ## Details
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7591
 
 ## Steps

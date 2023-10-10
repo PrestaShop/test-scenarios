@@ -5,14 +5,14 @@ weight: 5
 
 # BO - Modules - GDPR - Help
 ## Details
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7595
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
-| Go to tab Help | Title Help & contact is displayed<br><br>See 2 columns : "This module allows you to" & a FAQ section |
+| Go to tab Help | Title Admin & contact is displayed<br><br>See 2 columns : "This module allows you to" & a FAQ section |
 | In FAQ section > Click on all the questions | See that the answer is displayed in a dropdown |
 | Click again on the question | The answer is hidden |
 | Click on Documentation | Another tab will open with the User guide in English |
