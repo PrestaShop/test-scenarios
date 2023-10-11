@@ -6,8 +6,9 @@ weight: 9
 # BO - Customers - View/edit voucher
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-856
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/  tests/UI/campaigns/functional/BO/04_customers/01_customers/10_viewEditVoucher.ts.ts
 
 ## Steps
 | Step Description | Expected result |

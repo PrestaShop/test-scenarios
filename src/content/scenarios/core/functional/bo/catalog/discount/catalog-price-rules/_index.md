@@ -1,9 +1,9 @@
 ---
-title: Catalog cart rules
-menuTitle: Catalog cart rules
+title: Catalog price rules
+menuTitle: Catalog price rules
 chapter: true
 ---
 
-# Catalog cart rules
+# Catalog price rules
 
 {{% children titlePages="Tests" titleSections="Categories" %}}
