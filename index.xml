@@ -224,7 +224,7 @@ In Download sample csv files section, click on Sample Alias file Alias_import 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-crud-shop-groups.html</guid>
-      <description>BO - Advanced Parameters - Multistore - CRUD shop groups Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1182 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/01_CRUDShopGroups.ts.ts  Steps    Step Description Expected result     Go to Shop Parameters &amp;gt; Général &amp;gt; Enable Multistore &amp;gt; save * A green alert &amp;ldquo;Successful update&amp;rdquo; is displayed   Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new group of stores &amp;quot; add new page is displayed   Fill the informations of the new store group &amp;gt;save * The content is added to STORE GROUP and to multistore tree</description>
+      <description>BO - Advanced Parameters - Multistore - CRUD shop groups Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1182 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/01_CRUDShopGroups.ts  Steps    Step Description Expected result     Go to Shop Parameters &amp;gt; Général &amp;gt; Enable Multistore &amp;gt; save * A green alert &amp;ldquo;Successful update&amp;rdquo; is displayed   Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new group of stores &amp;quot; add new page is displayed   Fill the informations of the new store group &amp;gt;save * The content is added to STORE GROUP and to multistore tree</description>
     </item>
     
     <item>
@@ -392,12 +392,12 @@ Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File
     </item>
     
     <item>
-      <title>BO - Catalog Cart Rules - CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-crud.html</link>
+      <title>BO - Catalog price Rules - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-crud.html</guid>
-      <description>BO - Catalog Cart Rules - CRUD Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x Scenario : https://forge.prestashop.com/browse/TEST-834  Steps    Step Description Expected result     Go to Catalog &amp;gt; discounts &amp;gt; Cart rules catalog cart rules is well diplayed   Click on &amp;ldquo;Add new cart rule &amp;quot; button The Add new cart rule page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   GO FO &amp;gt; choose a quick view product and click on ADD TO CART a popup is displayed with message Product successfully added to your shopping cart   Click on CONTINUE SHOPPING and click on quick view of an other product the product popup is displayed   Click on ADD TO CART a popup is displayed with message Product successfully added to your shopping cart   Click on PROCEED TO CHECKOUT The SHOPPING CART is displayed   Click on [Have a promo code?</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud.html</guid>
+      <description>BO - Catalog price Rules - CRUD Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x Scenario : https://forge.prestashop.com/browse/TEST-834  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart Prices Rules tab Catalog Price Rules page is well displayed   Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   GO FO &amp;gt; Open product THE BEST IS YET TO COME&#39; FRAMED POSTER See the tag -€12.</description>
     </item>
     
     <item>
@@ -979,7 +979,7 @@ Free shipping starts at 0€</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-crud.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - CRUD Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3211  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
+      <description>BO - Shop Parameters - Order Statuses - CRUD Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-3211 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
     </item>
     
     <item>
@@ -2395,12 +2395,12 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
     </item>
     
     <item>
-      <title>BO - Advanced Parameter - Authorization Server - View detail</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server/bo-advanced-parameter-authorization-server-view-detail.html</link>
+      <title>BO - Advanced Parameter - Authorization Server - Add API Access</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server/bo-advanced-parameter-authorization-server-add-api-access.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server/bo-advanced-parameter-authorization-server-view-detail.html</guid>
-      <description>BO - Advanced Parameter - Authorization Server - View detail Details  Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7073 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_authorizationServer/02_viewDetail.ts  Steps    Step Description Expected result     In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly   Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked   Click on Save button The message “Update successful” is displayed   In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server/bo-advanced-parameter-authorization-server-add-api-access.html</guid>
+      <description>BO - Advanced Parameter - Authorization Server - Add API Access Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-7633  Steps    Step Description Expected result     In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly   Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked   Click on Save button The message “Update successful” is displayed   In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
     </item>
     
     <item>
@@ -2469,7 +2469,7 @@ BO &amp;gt; Advanced Parameters &amp;gt; Administration &amp;gt; Upload quota Th
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-crud-shops.html</guid>
-      <description>BO - Advanced Parameters - Multistore - CRUD shops Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1183 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/03_CRUDShops.ts.ts  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new store &amp;quot; add new page is displayed   Fill the informations of the new shop &amp;gt;save * The content is added to shop list and to multistore tree</description>
+      <description>BO - Advanced Parameters - Multistore - CRUD shops Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1183 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/03_CRUDShops.ts  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new store &amp;quot; add new page is displayed   Fill the informations of the new shop &amp;gt;save * The content is added to shop list and to multistore tree</description>
     </item>
     
     <item>
@@ -2632,10 +2632,10 @@ Filtered result is ID : 4   Reset filter No more filter is applied   Filter by B
     
     <item>
       <title>BO - Catalog Price Rules - Filter, sort and pagination</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-price-rules-filter-sort-and-pagination.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-filter-sort-and-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-price-rules-filter-sort-and-pagination.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-filter-sort-and-pagination.html</guid>
       <description>BO - Catalog Price Rules - Filter, sort and pagination Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-835 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/02_filterSortAndPagination.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog price rule The Catalog price rule page is well displayed   Filter by ID Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched ID   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Name Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Name   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by currency Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched currency   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Group Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Group   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by From quantity Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Quanity   Reset Filter Number of catalog price rules = Total of catalog price rules   Search by Reduction type Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched reduction type   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Reduction Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched Reduction   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by Beginning Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched beginning   Reset Filter Number of catalog price rules = Total of catalog price rules   Filter by End Number of catalog price rules &amp;lt; Total of catalog price rules and the list contains the searched End   Reset Filter Number of catalog price rules = Total of catalog price rules   Sort by ID desc The list is sorted by ID desc   Sort by Name asc The list is sorted by name asc   Sort by Name desc The list is sorted by name desc   Sort by Currency asc The list is sorted by Currency asc   Sort by Currency desc The list is sorted by Currency desc   Sort by Country asc The list is sorted by Country asc   Sort by Country desc The list is sorted by Country desc   Sort by Group asc The list is sorted by group asc   Sort by Group desc The list is sorted by group desc   Sort by From quantity asc The list is sorted by quanity asc   Sort by From quantity desc The list is sorted by quantity desc   Sort by Reduction asc The list is sorted by reduction asc   Sort by Reduction desc The list is sorted by Reduction desc   Sort by Beginning asc The list is sorted by Begining asc   Sort by Beginning desc The list is sorted by Beginning desc   Sort by End asc The list is sorted End asc   Sort by End desc The list is sorted by End desc   Sort by ID asc The list is sorted by ID asc   Select All catalog price rules created, delete with bulk action and confirm the deletion A green alert &amp;ldquo;The selection has been successfully deleted.</description>
     </item>
     
@@ -2772,7 +2772,7 @@ Filtered result is ID : 4   Reset filter No more filter is applied   Filter by B
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/pages/bo-design-pages-crud-page-category.html</guid>
-      <description>BO - Design - Pages - CRUD Page Category Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-946  Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Pages Pages page is displayed correctly   Click Add new page category Add new CMS Category page is displayed correctly   Fill all information &amp;gt; Save Category saved successfully with message Successful creation   Click button Back to list Pages page is displayed correctly   Check the category number The category number is correct : 1   Filter the new category by name : Prestashop The new category is displayed correctly in the table   Click 3-dot button &amp;gt; Edit page category with following information &amp;gt; Save The page category is edited correctly with Successful update message   Click back to list button The category displayed is edited   Delete the created category The category is deleted successfully with message Successful deletion   Click Add new page button Add new page is displayed correctly   Fill all information &amp;gt; Save Page is saved correctly with message Successful creation   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly</description>
+      <description>BO - Design - Pages - CRUD Page Category Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-946 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/04_pages/01_CRUDPageCategory.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Pages Pages page is displayed correctly   Click Add new page category Add new CMS Category page is displayed correctly   Fill all information &amp;gt; Save Category saved successfully with message Successful creation   Click button Back to list Pages page is displayed correctly   Check the category number The category number is correct : 1   Filter the new category by name : Prestashop The new category is displayed correctly in the table   Click 3-dot button &amp;gt; Edit page category with following information &amp;gt; Save The page category is edited correctly with Successful update message   Click back to list button The category displayed is edited   Delete the created category The category is deleted successfully with message Successful deletion   Click Add new page button Add new page is displayed correctly   Fill all information &amp;gt; Save Page is saved correctly with message Successful creation   Search for the created page and check result The page is displayed correctly in the table   Go to Edit page and click on save button Edit page is displayed correctly</description>
     </item>
     
     <item>
@@ -3182,7 +3182,7 @@ save Country selection is invalid. message is displayed   Go to Options form Sel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-settings-statuses-crud.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Statuses - CRUD Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1059  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Click on Add new order status button Add new status page is displayed   Fill the order status form,</description>
+      <description>BO - Shop Parameters - Order Settings - Statuses - CRUD Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1059 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts.ts  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Click on Add new order status button Add new status page is displayed   Fill the order status form,</description>
     </item>
     
     <item>
@@ -4320,6 +4320,15 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
     </item>
     
     <item>
+      <title>BO - Advanced Parameter - Authorization Server - Edit API Access</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server/bo-advanced-parameter-authorization-server-edit-api-access.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/authorization-server/bo-advanced-parameter-authorization-server-edit-api-access.html</guid>
+      <description>BO - Advanced Parameter - Authorization Server - Edit API Access Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-7634  Steps    Step Description Expected result     In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly   Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked   Click on Save button The message “Update successful” is displayed   In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
+    </item>
+    
+    <item>
       <title>BO - Advanced Parameters - Administration - Notifications</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-notifications.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4361,7 +4370,7 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-filter-sort-pagination-shop-groups.html</guid>
-      <description>BO - Advanced Parameters - Multistore - Filter sort pagination shop groups Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1184 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/02_filterSortAndPaginationShopGroups.ts.ts  Steps    Step Description Expected result     Go to Shop Parameters &amp;gt; Général &amp;gt; Enable Multistore &amp;gt; save * A green alert &amp;ldquo;Successful update&amp;rdquo; is displayed   Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new group of stores &amp;quot; add new page is displayed   Fill the informations of the new store group &amp;gt;save * The content is added to STORE GROUP and to multistore tree</description>
+      <description>BO - Advanced Parameters - Multistore - Filter sort pagination shop groups Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1184 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/02_filterSortAndPaginationShopGroups.ts  Steps    Step Description Expected result     Go to Shop Parameters &amp;gt; Général &amp;gt; Enable Multistore &amp;gt; save * A green alert &amp;ldquo;Successful update&amp;rdquo; is displayed   Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new group of stores &amp;quot; add new page is displayed   Fill the informations of the new store group &amp;gt;save * The content is added to STORE GROUP and to multistore tree</description>
     </item>
     
     <item>
@@ -4512,10 +4521,10 @@ the Webservice table is empty = 0   Go to Advanced Parameters &amp;gt;Webservi
     
     <item>
       <title>BO - Catalog Cart Rules - Quick Edit (TO DELETE ?)</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-quick-edit-to-delete.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-cart-rules-quick-edit-to-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-quick-edit-to-delete.html</guid>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-cart-rules-quick-edit-to-delete.html</guid>
       <description>BO - Catalog Cart Rules - Quick Edit (TO DELETE ?) Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x Scenario : https://forge.prestashop.com/browse/TEST-836  </description>
     </item>
     
@@ -4552,7 +4561,8 @@ the Webservice table is empty = 0   Go to Advanced Parameters &amp;gt;Webservi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-pagination-and-sort.html</guid>
-      <description>BO - Customer Service - Order Messages - Pagination and sort Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-870  </description>
+      <description>BO - Customer Service - Order Messages - Pagination and sort Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-870 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/02_orderMessages/03_paginationAndSortOrderMessages.ts.ts  Steps    Step Description Expected result     create more than 10 order messages with &amp;ldquo;todelete&amp;rdquo; name (todelete1,todelete2 etc&amp;hellip;) Total of orders messages &amp;gt; 10
+Only one page is displayed (page 1 / 1)   Change the items number to 10 per page 2 pages are displayed (page 1/2)   Go to page 2 2 pages are displayed (page 2/2)   Change the items number to 100 per page Only one page is displayed (page 1 / 1)   Sort Order Messages by ID desc Order Messages are sorted by ID (3 -&amp;gt; 2 -&amp;gt; 1)   Sort Order Messages by Name Asc Order messages are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort Order Messages by Name desc Order messages are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort Order Messages by Message Asc Order messages are sorted by Message (x -&amp;gt; y -&amp;gt; z)   Sort Order Messages by Message desc Order messages are sorted by Message (z -&amp;gt; y -&amp;gt; x)    </description>
     </item>
     
     <item>
@@ -5030,7 +5040,7 @@ Disable reordering option : NO   Go to FO &amp;gt; Log into your customer accoun
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-crud-order-return-status.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - CRUD order return status Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1060  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Click on the Add new order return status button Add new page is displayed   Fill the order return status form,</description>
+      <description>BO - Shop Parameters - Order Statuses - CRUD order return status Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1060 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/returnStatuses/01_CRUDOrderReturnStatus.ts.ts  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Click on the Add new order return status button Add new page is displayed   Fill the order return status form,</description>
     </item>
     
     <item>
@@ -6012,7 +6022,7 @@ Email logs table is not displayed in the page   Enable email logs A validation m
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-filter-sort-pagination-shops.html</guid>
-      <description>BO - Advanced Parameters - Multistore - Filter sort pagination shops Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1185 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/04_filterSortAndPaginationShops.ts.ts  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new store &amp;quot; add new page is displayed   Fill the informations of the new shop &amp;gt;save * The content is added to shop list and to multistore tree</description>
+      <description>BO - Advanced Parameters - Multistore - Filter sort pagination shops Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1185 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/04_filterSortAndPaginationShops.ts  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new store &amp;quot; add new page is displayed   Fill the informations of the new shop &amp;gt;save * The content is added to shop list and to multistore tree</description>
     </item>
     
     <item>
@@ -6167,11 +6177,11 @@ The document language is English   Close the help sidebar The help sidebar is cl
     
     <item>
       <title>BO - Catalog Cart Rules - Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-bulk-actions.html</link>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-cart-rules-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-cart-rules/bo-catalog-cart-rules-bulk-actions.html</guid>
-      <description>BO - Catalog Cart Rules - Bulk actions Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-837  Steps    Step Description Expected result     Go to Catalog &amp;gt;discounts &amp;gt;catalog price rules the catalog price rules page is well displayed   Go to Catalog &amp;gt; discounts &amp;gt; Cart rules catalog cart rules is well diplayed   Click on &amp;ldquo;Add new cart rule &amp;quot; button The Add new cart rule page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   GO FO &amp;gt; choose a quick view product and click on ADD TO CART a popup is displayed with message Product successfully added to your shopping cart   Click on CONTINUE SHOPPING and click on quick view of an other product the product popup is displayed   Click on ADD TO CART a popup is displayed with message Product successfully added to your shopping cart   Click on PROCEED TO CHECKOUT The SHOPPING CART is displayed   Click on [Have a promo code?</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-cart-rules-bulk-actions.html</guid>
+      <description>BO - Catalog Cart Rules - Bulk actions Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-837  Steps    Step Description Expected result     Go to Catalog &amp;gt;discounts &amp;gt;catalog price rules the catalog price rules page is well displayed   Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart Prices Rules tab Catalog Price Rules page is well displayed   Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   GO FO &amp;gt; Open product THE BEST IS YET TO COME&#39; FRAMED POSTER See the tag -€12.</description>
     </item>
     
     <item>
@@ -6207,7 +6217,7 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-filter-bulk-delete.html</guid>
-      <description>BO - Customer Service - Order Messages - Filter / Bulk Delete Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7265  Steps    Step Description Expected result     go to order messages page Title contains &amp;lsquo;Order Messages •&amp;rsquo;   reset all filters Total of orders messages &amp;gt; 0   Go to create new order message page Title contains &amp;lsquo;Add new&amp;rsquo;   Create new order message Criteria : {name: &amp;lsquo;todelete&amp;rsquo;} Successful message is displayed</description>
+      <description>BO - Customer Service - Order Messages - Filter / Bulk Delete Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7265 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/02_orderMessages/02_filterAndBulkDeleteOrderMessages.ts  Steps    Step Description Expected result     go to order messages page Title contains &amp;lsquo;Order Messages •&amp;rsquo;   reset all filters Total of orders messages &amp;gt; 0   Go to create new order message page Title contains &amp;lsquo;Add new&amp;rsquo;   Create new order message Criteria : {name: &amp;lsquo;todelete&amp;rsquo;} Successful message is displayed</description>
     </item>
     
     <item>
@@ -8275,15 +8285,6 @@ Newly created employee appears in Employees list   Go to FO &amp;gt; In footer, 
     </item>
     
     <item>
-      <title>BO - Customers - Transform a Guest to a Customer</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-customers-transform-a-guest-to-a-customer.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/outstanding/bo-customers-transform-a-guest-to-a-customer.html</guid>
-      <description>BO - Customers - Transform a Guest to a Customer Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-7392  Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
-    </item>
-    
-    <item>
       <title>BO - Delete product</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/sanity/productv2bo/bo-delete-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -9673,7 +9674,7 @@ Then upgrade to the build tested. Check everything works fine on Front-Office an
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view-edit-voucher.html</guid>
-      <description>BO - Customers - View/edit voucher Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-856  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Created a new discount and click on Save An alert &amp;ldquo;Successful creation.</description>
+      <description>BO - Customers - View/edit voucher Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-856 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/ tests/UI/campaigns/functional/BO/04_customers/01_customers/10_viewEditVoucher.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Created a new discount and click on Save An alert &amp;ldquo;Successful creation.</description>
     </item>
     
     <item>
@@ -10021,6 +10022,15 @@ Then upgrade to the build tested. Check everything works fine on Front-Office an
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-delete-bulk-actions.html</guid>
       <description>BO - Catalog - Products - Delete Bulk actions Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-790 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/06_bulkActions.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Products page The Product list page is displayed   Reset all Filters Number of products = Total of products   Filter by Product Name Number of products &amp;lt; Total of products</description>
+    </item>
+    
+    <item>
+      <title>BO - Customers - Transform a Guest to a Customer</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-transform-a-guest-to-a-customer.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-transform-a-guest-to-a-customer.html</guid>
+      <description>BO - Customers - Transform a Guest to a Customer Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-7392  Steps    Step Description Expected result     Go to FO &amp;gt; Click on product The product is displayed   Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed   Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed   Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     
     <item>
@@ -10775,7 +10785,7 @@ The orders are displayed in a table with title : Orders +(total number of orders
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-multistore.html</guid>
-      <description>BO - Multistore Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-5221  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Enable multistore &amp;gt; Save A success message will appear : &amp;ldquo;Successful update&amp;rdquo;   Go to Advanced Parameters &amp;gt; Multistore Multistore page is well displayed   Click on Add a new store A page is displayed with the title : &amp;ldquo;Add new&amp;rdquo;   Enter the following data of the new store A success message will appear : &amp;ldquo;Successful creation&amp;rdquo;   Click on &amp;ldquo;Click here to set a URL for this shop.</description>
+      <description>BO - Multistore Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5221 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/20_multistore.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Enable multistore &amp;gt; Save A success message will appear : &amp;ldquo;Successful update&amp;rdquo;   Go to Advanced Parameters &amp;gt; Multistore Multistore page is well displayed   Click on Add a new store A page is displayed with the title : &amp;ldquo;Add new&amp;rdquo;   Enter the following data of the new store A success message will appear : &amp;ldquo;Successful creation&amp;rdquo;   Click on &amp;ldquo;Click here to set a URL for this shop.</description>
     </item>
     
     <item>
