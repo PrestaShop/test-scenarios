@@ -7,12 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BO - Shop Parameters - Order Statuses - CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-crud.html</link>
+      <title>BO - Shop Parameters - Order Statuses - Statuses - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-crud.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - CRUD Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-3211 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-crud.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Statuses - CRUD Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-3211 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Order Statuses - Statuses - Quick edit</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-quick-edit.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-quick-edit.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Statuses - Quick edit Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1061 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/03_quickEdit.ts  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Go to send email to customer column and edit it.</description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Order Statuses - Statuses - Filter, Sort,Pagination </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-filter-sort-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-filter-sort-pagination.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Statuses - Filter, Sort,Pagination Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1058 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/02_filterSortAndPagination.ts  Steps    Step Description Expected result     Go to &#39;Shop Parameters &amp;gt; Order Settings&#39; page Order settings oage is displayed successfully   Go to statuses tab Statuses tab is displayed successfully   Reset all filters and get number of statuses Statuses should be above 0   Filter table by ID The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by name The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by send email The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by delivery The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by invoice The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by email template The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Sort order status table by ID DESC The table is sorted by ID desc   Sort order status table by Name ASC The table is sorted by Name ASC   Sort order status table by Name DESC The table is sorted by Name DESC   Sort order status table by Template ASC The table is sorted by Template ASC   Sort order status table by Template DESC The table is sorted by Template DESC   Sort order status table by ID ASC The table is sorted by ID ASC   In block Order statuses (13) &amp;gt; Change pagination to 10 2 pages are available now   Click on next Page (2/2) is displayed   Click on previous Page (1/2) is displayed   In block Order statuses (13) &amp;gt; Change pagination to 20 All the order statuses are displayed on 1 page    </description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Order return status - Bulk actions </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-return-status-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-return-status-bulk-actions.html</guid>
+      <description>BO - Shop Parameters - Order return status - Bulk actions Details  Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7655 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/04_bulkActions.ts  Steps    Step Description Expected result     Go to &amp;lsquo;Shop parameters &amp;gt; Order settings &amp;gt; Status&amp;rsquo; Statuses page is displayed successfully   Create 2 new order statuses Statuses are created successfully   Select all statuses&amp;gt; Click on bulk actions &amp;gt; Delete selected Statuses are deleted successfully    </description>
     </item>
     
   </channel>

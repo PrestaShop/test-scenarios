@@ -397,7 +397,7 @@ Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud.html</guid>
-      <description>BO - Catalog price Rules - CRUD Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x Scenario : https://forge.prestashop.com/browse/TEST-834  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart Prices Rules tab Catalog Price Rules page is well displayed   Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   GO FO &amp;gt; Open product THE BEST IS YET TO COME&#39; FRAMED POSTER See the tag -€12.</description>
+      <description>BO - Catalog price Rules - CRUD Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x Scenario : https://forge.prestashop.com/browse/TEST-834 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/01_CRUDCatalogPriceRule.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog Price Rules tab Catalog Price Rules page is well displayed   Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   GO FO &amp;gt; Open product THE BEST IS YET TO COME&#39; FRAMED POSTER See the tag -€12.</description>
     </item>
     
     <item>
@@ -479,7 +479,7 @@ Title contains &amp;lsquo;Files&amp;rsquo;   Click on &amp;ldquo;Create New File
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-configuration.html</guid>
-      <description>BO - Design - Email Theme - Configuration Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-936  </description>
+      <description>BO - Design - Email Theme - Configuration Details  Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-936  Steps    Step Description Expected result     Go to BO &amp;gt; Advanced parameters &amp;gt; E-mail page Page title is &amp;lsquo;E-mail&amp;rsquo;   Configure your email parameters in block Email &amp;gt; Save The settings have been successfully updated.</description>
     </item>
     
     <item>
@@ -956,6 +956,15 @@ Free shipping starts at 0€</description>
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Order return Status - CRUD order return status</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-return-status-crud-order-return-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-return-status-crud-order-return-status.html</guid>
+      <description>BO - Shop Parameters - Order return Status - CRUD order return status Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1060 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/returnStatuses/01_CRUDOrderReturnStatus.ts.ts  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Click on the Add new order return status button Add new page is displayed   Fill the order return status form,</description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Order Settings -  Gift options</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/gift-options/bo-shop-parameters-order-settings-gift-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -970,35 +979,16 @@ Free shipping starts at 0€</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-final-summary.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Enable / disable final summary Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1049  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Enable final summary is disabled   Go to FO &amp;gt; Add any product to the cart &amp;gt; Proceed to checkout The checkout process is as usual</description>
+      <description>BO - Shop Parameters - Order Settings - Enable / disable final summary Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1049 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/01_enableFinalSummary.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Enable final summary is disabled   Go to FO &amp;gt; Add any product to the cart &amp;gt; Proceed to checkout The checkout process is as usual</description>
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Order Statuses - CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-crud.html</link>
+      <title>BO - Shop Parameters - Order Statuses - Statuses - CRUD</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-crud.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - CRUD Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-3211 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
-    </item>
-    
-    <item>
-      <title>BO - Shop Parameters - Order Statuses - CRUD order return status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-statuses-crud-order-return-status.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-statuses-crud-order-return-status.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - CRUD order return status Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3220 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/returnStatuses/01_CRUDOrderReturnStatus.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Tab Statuses Page titles contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order return status&amp;rdquo; Page title contains &amp;ldquo;Return status&amp;rdquo;   Fill all fields &amp;gt; Save The page Status is displayed automatically and a Successful creation message is displayed   Choose the new status added and click on Edit button The page Edit is displayed   Edit Status name, icon and color and click on save The page Status is displayed automatically and a Successful update message is displayed   Choose the new status added and click dropdown button and choose the Delete button A popup message is appeare :</description>
-    </item>
-    
-    <item>
-      <title>BO - Shop Parameters - Order Statuses - Sort and Pagination : order status and order return status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-sort-and-pagination-order-status-and-order-return-status.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-sort-and-pagination-order-status-and-order-return-status.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - Sort and Pagination : order status and order return status Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1058  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Statuses Statuses page is well displayed.
-2 blocks are displayed : statuses (13) and Return statuses (5)   In block Order statuses (13) &amp;gt; Change pagination to 10 2 pages are available now   In block Order statuses (13) &amp;gt; Change pagination to 20 All the order statuses are displayed on 1 page   In block Order statuses (13) &amp;gt; Change pagination to 100 All the order statuses are displayed on 1 page   Scroll down to the Return statuses (5) block See that all the Return statuses are displayed in the block   Add 6 Return statuses Messages Successful creation are displayed</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-crud.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Statuses - CRUD Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-3211 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
     </item>
     
     <item>
@@ -3168,21 +3158,30 @@ save Country selection is invalid. message is displayed   Go to Options form Sel
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Order return status - Filter, sort, pagination and bulk actions</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-return-status-filter-sort-pagination-and-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/return-statuses/bo-shop-parameters-order-return-status-filter-sort-pagination-and-bulk-actions.html</guid>
+      <description>BO - Shop Parameters - Order return status - Filter, sort, pagination and bulk actions Details  Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7654 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/returnStatuses/02_filterSortAndPagination.ts  Steps    Step Description Expected result     Go to &#39;Shop Parameters &amp;gt; Order Settings&#39; page Order settings oage is displayed successfully   Go to statuses tab Statuses tab is displayed successfully   Reset all filters and get number of return statuses Return statuses should be above 0   Filter order return status by ID The searched value is displayed correctly   Reset all filters Number of return statuses after filter = number of return statuses   Filter order return status by Name The searched value is displayed correctly   Reset all filters Number of return statuses after filter = number of return statuses   Sort order return status table by ID Desc The table is sorted by ID desc   Sort order return status table by Name ASC The table is sorted by Name ASC   Sort order return status table by Name DESC The table is sorted by Name DESC   Sort order return status table by ID ASC The table is sorted by ID ASC   Create 6 order return statuses Messages Successful creation are displayed</description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Order Settings - Enable / disable guest checkout</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-guest-checkout.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-guest-checkout.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Enable / disable guest checkout Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1050  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Option Enable guest checkout is already enabled   Go to FO &amp;gt; Add any product to the cart &amp;gt; Proceed to checkout See in Step 1 the Order as a guest option   Fill the fields See the option available : Create an account (optional) And save time on your next order!</description>
+      <description>BO - Shop Parameters - Order Settings - Enable / disable guest checkout Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1050 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/02_enableGuestCheckout.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Option Enable guest checkout is already enabled   Go to FO &amp;gt; Add any product to the cart &amp;gt; Proceed to checkout See in Step 1 the Order as a guest option   Fill the fields See the option available : Create an account (optional) And save time on your next order!</description>
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Order Settings - Statuses - CRUD</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-settings-statuses-crud.html</link>
+      <title>BO - Shop Parameters - Order Statuses - Statuses - Quick edit</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-quick-edit.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-settings-statuses-crud.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Statuses - CRUD Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1059 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts.ts  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Click on Add new order status button Add new status page is displayed   Fill the order status form,</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-quick-edit.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Statuses - Quick edit Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1061 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/03_quickEdit.ts  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Go to send email to customer column and edit it.</description>
     </item>
     
     <item>
@@ -3695,7 +3694,8 @@ Go to FO &amp;gt; you are logged in with default customer account p &amp;gt; Cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</guid>
-      <description>FO - Menu and Navigation - Navigate in Categories - Breadcrumb Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1238  </description>
+      <description>FO - Menu and Navigation - Navigate in Categories - Breadcrumb Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1238  Steps    Step Description Expected result     Go to FO &amp;gt; Click on Clothes category Clothes category is well displayed
+Breadcrumb is like : Home / Clothes   Hover on Clothes &amp;gt; Click on Men Men category is well displayed</description>
     </item>
     
     <item>
@@ -4356,12 +4356,12 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
     </item>
     
     <item>
-      <title>BO - Advanced parameters - Email - Test email configuration (TODO)</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-test-email-configuration-todo.html</link>
+      <title>BO - Advanced parameters - Email - Test email configuration</title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-test-email-configuration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-test-email-configuration-todo.html</guid>
-      <description>BO - Advanced parameters - Email - Test email configuration (TODO) Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1146  Steps    Step Description Expected result     Go to BO &amp;gt; Advanced parameters &amp;gt; E-mail page Page title is &amp;lsquo;E-mail&amp;rsquo;   In Test your email configuration block &amp;gt; Click Send an email test A validation message is displayed</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-test-email-configuration.html</guid>
+      <description>BO - Advanced parameters - Email - Test email configuration Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1146  Steps    Step Description Expected result     Go to BO &amp;gt; Advanced parameters &amp;gt; E-mail page Page title is &amp;lsquo;E-mail&amp;rsquo;   Configure your email parameters in block Email &amp;gt; Save The settings have been successfully updated.</description>
     </item>
     
     <item>
@@ -4561,7 +4561,7 @@ the Webservice table is empty = 0   Go to Advanced Parameters &amp;gt;Webservi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customer-service/order-messages/bo-customer-service-order-messages-pagination-and-sort.html</guid>
-      <description>BO - Customer Service - Order Messages - Pagination and sort Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-870 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/02_orderMessages/03_paginationAndSortOrderMessages.ts.ts  Steps    Step Description Expected result     create more than 10 order messages with &amp;ldquo;todelete&amp;rdquo; name (todelete1,todelete2 etc&amp;hellip;) Total of orders messages &amp;gt; 10
+      <description>BO - Customer Service - Order Messages - Pagination and sort Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-870 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/02_orderMessages/03_paginationAndSortOrderMessages.ts  Steps    Step Description Expected result     create more than 10 order messages with &amp;ldquo;todelete&amp;rdquo; name (todelete1,todelete2 etc&amp;hellip;) Total of orders messages &amp;gt; 10
 Only one page is displayed (page 1 / 1)   Change the items number to 10 per page 2 pages are displayed (page 1/2)   Go to page 2 2 pages are displayed (page 2/2)   Change the items number to 100 per page Only one page is displayed (page 1 / 1)   Sort Order Messages by ID desc Order Messages are sorted by ID (3 -&amp;gt; 2 -&amp;gt; 1)   Sort Order Messages by Name Asc Order messages are sorted by name (x -&amp;gt; y -&amp;gt; z)   Sort Order Messages by Name desc Order messages are sorted by name (z -&amp;gt; y -&amp;gt; x)   Sort Order Messages by Message Asc Order messages are sorted by Message (x -&amp;gt; y -&amp;gt; z)   Sort Order Messages by Message desc Order messages are sorted by Message (z -&amp;gt; y -&amp;gt; x)    </description>
     </item>
     
@@ -5030,17 +5030,17 @@ Enable SSL on all pages toggle switch button is unlocked   Click on [Please cli
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-reordering-option.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Enable / disable reordering option Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1051  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Order Settings Page Order Settings is displayed
+      <description>BO - Shop Parameters - Order Settings - Enable / disable reordering option Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1051 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/03_disableReorderingOption.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Order Settings Page Order Settings is displayed
 Disable reordering option : NO   Go to FO &amp;gt; Log into your customer account Your account page is displayed   Click on Order history and details See all the orders made by the customer</description>
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Order Statuses - CRUD order return status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-crud-order-return-status.html</link>
+      <title>BO - Shop Parameters - Order Statuses - Statuses - Filter, Sort,Pagination </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-filter-sort-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-crud-order-return-status.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - CRUD order return status Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1060 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/returnStatuses/01_CRUDOrderReturnStatus.ts.ts  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Click on the Add new order return status button Add new page is displayed   Fill the order return status form,</description>
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-statuses-statuses-filter-sort-pagination.html</guid>
+      <description>BO - Shop Parameters - Order Statuses - Statuses - Filter, Sort,Pagination Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1058 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/02_filterSortAndPagination.ts  Steps    Step Description Expected result     Go to &#39;Shop Parameters &amp;gt; Order Settings&#39; page Order settings oage is displayed successfully   Go to statuses tab Statuses tab is displayed successfully   Reset all filters and get number of statuses Statuses should be above 0   Filter table by ID The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by name The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by send email The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by delivery The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by invoice The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Filter table by email template The searched value is displayed correctly   Reset all filters and get number of statuses Statuses should be above 0   Sort order status table by ID DESC The table is sorted by ID desc   Sort order status table by Name ASC The table is sorted by Name ASC   Sort order status table by Name DESC The table is sorted by Name DESC   Sort order status table by Template ASC The table is sorted by Template ASC   Sort order status table by Template DESC The table is sorted by Template DESC   Sort order status table by ID ASC The table is sorted by ID ASC   In block Order statuses (13) &amp;gt; Change pagination to 10 2 pages are available now   Click on next Page (2/2) is displayed   Click on previous Page (1/2) is displayed   In block Order statuses (13) &amp;gt; Change pagination to 20 All the order statuses are displayed on 1 page    </description>
     </item>
     
     <item>
@@ -5439,12 +5439,13 @@ Go to FO &amp;gt; Click on your current currency &amp;gt; Switch to another curr
     </item>
     
     <item>
-      <title>FO - Menu and Navigation - Navigate in Categories -Side block categories</title>
+      <title>FO - Menu and Navigation - Navigate in Categories - Side block categories</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-side-block-categories.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-side-block-categories.html</guid>
-      <description>FO - Menu and Navigation - Navigate in Categories -Side block categories Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1239  </description>
+      <description>FO - Menu and Navigation - Navigate in Categories - Side block categories Details  Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1239  Steps    Step Description Expected result     Go to FO &amp;gt; In Menu, click on Accessories Accessories category page is displayed
+Side block has 2 subcategory : Stationery and Home accessories   Click on Stationery on the side block Stationery category page is displayed</description>
     </item>
     
     <item>
@@ -6181,7 +6182,7 @@ The document language is English   Close the help sidebar The help sidebar is cl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-cart-rules-bulk-actions.html</guid>
-      <description>BO - Catalog Cart Rules - Bulk actions Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-837  Steps    Step Description Expected result     Go to Catalog &amp;gt;discounts &amp;gt;catalog price rules the catalog price rules page is well displayed   Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart Prices Rules tab Catalog Price Rules page is well displayed   Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   GO FO &amp;gt; Open product THE BEST IS YET TO COME&#39; FRAMED POSTER See the tag -€12.</description>
+      <description>BO - Catalog Cart Rules - Bulk actions Details  Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-837  Steps    Step Description Expected result     Go to Catalog &amp;gt;discounts &amp;gt;catalog price rules the catalog price rules page is well displayed   Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog Price Rules tab Catalog Price Rules page is well displayed   Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed   Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed   GO FO &amp;gt; Open product THE BEST IS YET TO COME&#39; FRAMED POSTER See the tag -€12.</description>
     </item>
     
     <item>
@@ -6595,21 +6596,21 @@ save. Successful update message is displayed.   Go to Advanced parameters&amp;gt
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Order return status - Bulk actions </title>
+      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-return-status-bulk-actions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/statuses/bo-shop-parameters-order-return-status-bulk-actions.html</guid>
+      <description>BO - Shop Parameters - Order return status - Bulk actions Details  Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7655 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/04_bulkActions.ts  Steps    Step Description Expected result     Go to &amp;lsquo;Shop parameters &amp;gt; Order settings &amp;gt; Status&amp;rsquo; Statuses page is displayed successfully   Create 2 new order statuses Statuses are created successfully   Select all statuses&amp;gt; Click on bulk actions &amp;gt; Delete selected Statuses are deleted successfully    </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order</title>
       <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-minimum-purchase-total-required-in-order-to-validate-the-order.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-minimum-purchase-total-required-in-order-to-validate-the-order.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1052  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings See Minimum purchase total required in order to validate the order option is disabled (0.</description>
-    </item>
-    
-    <item>
-      <title>BO - Shop Parameters - Order Statuses - Quick edit, send email / Delivery / invoice</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-quick-edit-send-email-delivery-invoice.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-quick-edit-send-email-delivery-invoice.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - Quick edit, send email / Delivery / invoice Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1061  Steps    Step Description Expected result     Go to BO&amp;gt; Shop Parameters&amp;gt; Order Settings&amp;gt; Statuses Statuses page is well displayed   Go to send email to customer column and edit it.</description>
+      <description>BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1052 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/04_minimumPurchaseTotalRequired.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings See Minimum purchase total required in order to validate the order option is disabled (0.</description>
     </item>
     
     <item>
@@ -7271,7 +7272,7 @@ the SQL Manager table is empty = 0   Go to advanced Parameters &amp;gt; Databas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-filter-sort-pagination-shops-urls.html</guid>
-      <description>BO - Advanced Parameters - Multistore - Filter sort pagination shops URLs Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1186 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/05_filterSortAndPaginationShopUrls.ts.ts  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Create 3 shops * the content is updated .</description>
+      <description>BO - Advanced Parameters - Multistore - Filter sort pagination shops URLs Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1186 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/05_filterSortAndPaginationShopUrls.ts  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Create 3 shops * the content is updated .</description>
     </item>
     
     <item>
@@ -7706,17 +7707,7 @@ Select multiple &amp;ldquo;Non-ordered&amp;rdquo; carts &amp;gt; Click &amp;ldqu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-recalculate-shipping-costs-after-editing-the-order.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1053  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; General block Recalculate shipping costs after editing the order is set to YES   Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed   choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed   Choose delivery method (free) Delivery method is selected   Choose Payment method Payment method is selected   Choose order status Order status is selected   Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
-    </item>
-    
-    <item>
-      <title>BO - Shop Parameters - Order Statuses - Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-bulk-actions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/statuses/bo-shop-parameters-order-statuses-bulk-actions.html</guid>
-      <description>BO - Shop Parameters - Order Statuses - Bulk actions Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1062  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab * Page title contains &amp;ldquo;Statuses&amp;rdquo;
-* All Statuses shouldn&amp;rsquo;t have checkbox and a down arrow on the right of the edit button   Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Go to Statuses tab Page title contains &amp;ldquo;Statuses&amp;rdquo;   Click on the &amp;ldquo;Add new order status&amp;rdquo; Add new Order status page is displayed   Fill all fields &amp;gt; Save Message Successful creation is displayed</description>
+      <description>BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-1053  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; General block Recalculate shipping costs after editing the order is set to YES   Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed   Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed   choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed   Choose delivery method (free) Delivery method is selected   Choose Payment method Payment method is selected   Choose order status Order status is selected   Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
     </item>
     
     <item>
@@ -8144,7 +8135,7 @@ Then upgrade to the build tested. Check everything works fine on Back-Office and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-quick-edit-bulk-actions-shops-urls.html</guid>
-      <description>BO - Advanced Parameters - Multistore - Quick edit &amp;amp; bulk actions shops URLs Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1187 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/06_quickEditAndBulkActionsShopUrls.ts.ts  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new store &amp;quot; add new page is displayed   Fill the informations of the new shop &amp;gt;save * The content is added to shop list and to multistore tree</description>
+      <description>BO - Advanced Parameters - Multistore - Quick edit &amp;amp; bulk actions shops URLs Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1187 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/06_quickEditAndBulkActionsShopUrls.ts  Steps    Step Description Expected result     Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options   Click on &amp;quot; Add new store &amp;quot; add new page is displayed   Fill the informations of the new shop &amp;gt;save * The content is added to shop list and to multistore tree</description>
     </item>
     
     <item>
@@ -9114,7 +9105,7 @@ General tab is selected by default   Switch Increase front office security toggl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-terms-of-service.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Terms of service Details  Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1055  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Disable &amp;ldquo;Terms of service&amp;rdquo; &amp;gt; Save Terms of service = NO
+      <description>BO - Shop Parameters - Order Settings - Terms of service Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1055 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/06_termsOfService.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; Disable &amp;ldquo;Terms of service&amp;rdquo; &amp;gt; Save Terms of service = NO
 Page for terms and conditions = None</description>
     </item>
     
@@ -9124,7 +9115,7 @@ Page for terms and conditions = None</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-set-up-urls.html</guid>
-      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Set up URLs Details  Component : Core Status : Sandbox Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1111  </description>
+      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Set up URLs Details  Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1111  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Traffic &amp;amp; SEO &amp;gt; Scroll down to block Set up URLs See Friendly URL is enabled   GO to FO &amp;gt; Open the product Hummingbird printed t-shirt The product page is well displayed.</description>
     </item>
     
     <item>
@@ -9499,7 +9490,7 @@ Allow iframes on HTML fields is disabled   Go to BO &amp;gt; Catalog &amp;gt; Pr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/shop-parameters/trafic-and-seo/seo-and-urls/bo-shop-parameters-seo-urls-set-shop-url.html</guid>
-      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Set shop URL Details  Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1112  </description>
+      <description>BO - Shop Parameters - SEO &amp;amp; URLs - Set shop URL Details  Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-1112  </description>
     </item>
     
     <item>
@@ -9674,7 +9665,7 @@ Then upgrade to the build tested. Check everything works fine on Front-Office an
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view-edit-voucher.html</guid>
-      <description>BO - Customers - View/edit voucher Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-856 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/ tests/UI/campaigns/functional/BO/04_customers/01_customers/10_viewEditVoucher.ts.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Created a new discount and click on Save An alert &amp;ldquo;Successful creation.</description>
+      <description>BO - Customers - View/edit voucher Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-856 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/ tests/UI/campaigns/functional/BO/04_customers/01_customers/10_viewEditVoucher.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed   Created a new discount and click on Save An alert &amp;ldquo;Successful creation.</description>
     </item>
     
     <item>
@@ -10767,7 +10758,7 @@ The orders are displayed in a table with title : Orders +(total number of orders
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-options-tab.html</guid>
-      <description>BO - Options Tab Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5218 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/20_optionsTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed   Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed   Check Catalog only &amp;gt; Click Save and publish &amp;gt; Preview &amp;gt; Click the Category related to the product in breadcrumb (in FO) See the created product in the catalog   Check Search only &amp;gt; Save and publish &amp;gt; Preview &amp;gt; Click the Category related to the product in breadcrumb (in FO) The product created is not available in catalog   Check Nowhere &amp;gt; Save and publish &amp;gt; Preview &amp;gt; Click the Category related to the product in breadcrumb (in FO) The product created is not available in catalog   In FO &amp;gt; Search the product with its name Search result page is displayed.</description>
+      <description>BO - Options Tab Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5218 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/19_optionsTab.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed   Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed   Check Catalog only &amp;gt; Click Save and publish &amp;gt; Preview &amp;gt; Click the Category related to the product in breadcrumb (in FO) See the created product in the catalog   Check Search only &amp;gt; Save and publish &amp;gt; Preview &amp;gt; Click the Category related to the product in breadcrumb (in FO) The product created is not available in catalog   Check Nowhere &amp;gt; Save and publish &amp;gt; Preview &amp;gt; Click the Category related to the product in breadcrumb (in FO) The product created is not available in catalog   In FO &amp;gt; Search the product with its name Search result page is displayed.</description>
     </item>
     
     <item>
