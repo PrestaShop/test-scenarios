@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced parameters - Email - Test email configuration (TODO)"
+title: "BO - Advanced parameters - Email - Test email configuration"
 weight: 3
 ---
 
-# BO - Advanced parameters - Email - Test email configuration (TODO)
+# BO - Advanced parameters - Email - Test email configuration
 ## Details
 * **Component** : Core
 * **Status** : IN REVIEW
@@ -14,4 +14,6 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Advanced parameters > E-mail page | Page title is 'E-mail' |
+| Configure your email parameters in block Email > Save | The settings have been successfully updated. |
+| Launch maildev in terminal | maildev is launched |
 | In Test your email configuration block > Click Send an email test | A validation message is displayed<br>'A test email has been sent to the email address you provided.' |

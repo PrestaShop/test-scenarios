@@ -14,7 +14,7 @@ weight: 4
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to Catalog >discounts >catalog price rules | the catalog price rules page is well displayed |
-| Go to BO > Catalog > Discounts > Cart Prices Rules tab | Catalog Price Rules page is well displayed |
+| Go to BO > Catalog > Discounts > Catalog Price Rules tab | Catalog Price Rules page is well displayed |
 | Click on "Add new catalog price rule" button | The Add new Catalog Price Rules page is displayed |
 | Set the fields > Click on "Save" | The catalog price rule is well created and a green alert "Successful creation" is displayed |
 | GO FO > Open product THE BEST IS YET TO COME' FRAMED POSTER | See the tag -€12.00 on the image product<br>See the new price displayed in orange : €22.80 SAVE €12.00 |

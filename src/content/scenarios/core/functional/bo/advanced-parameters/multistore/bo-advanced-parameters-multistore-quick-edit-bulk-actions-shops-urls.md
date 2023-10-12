@@ -8,7 +8,7 @@ weight: 6
 * **Component** : Core
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1187
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/06_quickEditAndBulkActionsShopUrls.ts.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/06_quickEditAndBulkActionsShopUrls.ts
 
 ## Steps
 | Step Description | Expected result |

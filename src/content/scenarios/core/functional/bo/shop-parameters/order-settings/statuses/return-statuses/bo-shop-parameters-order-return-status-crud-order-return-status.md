@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Order Statuses - CRUD order return status"
-weight: 3
+title: "BO - Shop Parameters - Order return Status - CRUD order return status"
+weight: 1
 ---
 
-# BO - Shop Parameters - Order Statuses - CRUD order return status
+# BO - Shop Parameters - Order return Status - CRUD order return status
 ## Details
 * **Component** : Core
 * **Status** : Automated

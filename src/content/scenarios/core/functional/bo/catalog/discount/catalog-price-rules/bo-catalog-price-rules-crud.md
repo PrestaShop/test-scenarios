@@ -6,14 +6,15 @@ weight: 1
 # BO - Catalog price Rules - CRUD
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-834
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/01_CRUDCatalogPriceRule.ts
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Catalog > Discounts > Cart Prices Rules tab | Catalog Price Rules page is well displayed |
+| Go to BO > Catalog > Discounts > Catalog Price Rules tab | Catalog Price Rules page is well displayed |
 | Click on "Add new catalog price rule" button | The Add new Catalog Price Rules page is displayed |
 | Set the fields > Click on "Save" | The catalog price rule is well created and a green alert "Successful creation" is displayed |
 | GO FO > Open product THE BEST IS YET TO COME' FRAMED POSTER | See the tag -€12.00 on the image product<br>See the new price displayed in orange : €22.80 SAVE €12.00 |

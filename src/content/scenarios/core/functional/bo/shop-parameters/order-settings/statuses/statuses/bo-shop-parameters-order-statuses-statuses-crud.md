@@ -1,14 +1,14 @@
 ---
-title: "BO - Shop Parameters - Order Statuses - CRUD"
+title: "BO - Shop Parameters - Order Statuses - Statuses - CRUD"
 weight: 1
 ---
 
-# BO - Shop Parameters - Order Statuses - CRUD
+# BO - Shop Parameters - Order Statuses - Statuses - CRUD
 ## Details
 * **Component** : Core
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3211
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/01_CRUDOrderStatus.ts
 
 ## Steps
 | Step Description | Expected result |
