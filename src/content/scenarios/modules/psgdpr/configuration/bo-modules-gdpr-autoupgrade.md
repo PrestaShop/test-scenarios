@@ -14,6 +14,7 @@ weight: 6
 | Install PS 8.1.1 | PS 8.1.1 in installed |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
+| Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Go to Tab 3 : Consent checkbox customization | Configure your checkboxes block is displayed |
 | Edit the consent message for the Account creation form > Save | Saved with success ! alert is displayed |
 | Click View my store > Sign In > No account? Create one here > Fill the fields with following data > Check the psgdpr checkbox : Lorem ipsum dolor sit amet, consectetur adipiscing elit & Customer data privacy > Save | You are logged in to your customer account |

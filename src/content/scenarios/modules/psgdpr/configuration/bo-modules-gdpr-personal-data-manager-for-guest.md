@@ -1,17 +1,16 @@
 ---
-title: "BO - Modules - GDPR - Personal data manager"
-weight: 2
+title: "BO - Modules - GDPR - Personal data manager for guest"
+weight: 8
 ---
 
-# BO - Modules - GDPR - Personal data manager
+# BO - Modules - GDPR - Personal data manager for guest
 ## Details
-* **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7592
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-7663
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO > Sign in > No account? create one here > Create a account | Account created |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | In block Personal data manager > In block Data visualization and automatic actions | See all the modules available with psgdpr :<br> - PrestaShop data<br> - Newsletter subscription<br> - Product Comments<br> - Contact form<br> - Mail alerts |
 | Scroll down to Manage customer's personal data > Search "hello" | Alert is displayed :<br>There is no result in the customer data base for : hello<br><br>If you are looking for someone without a customer account, please search for the complete email address or phone number he left. |

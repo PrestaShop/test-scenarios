@@ -6,8 +6,9 @@ weight: 5
 # BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1053
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/05_recalculateShippingCosts.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -6,7 +6,7 @@ weight: 7
 # BO - Customer Service - Forward the discussion to another email
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7405
 
 ## Steps

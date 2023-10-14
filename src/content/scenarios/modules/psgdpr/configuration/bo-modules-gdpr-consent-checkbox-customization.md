@@ -5,12 +5,13 @@ weight: 3
 
 # BO - Modules - GDPR - Consent checkbox customization
 ## Details
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7593
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
+| Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Go to Tab 3 : Consent checkbox customization | Configure your checkboxes block is displayed |
 | Edit the consent message for the Account creation form > Save | Saved with success ! alert is displayed |
