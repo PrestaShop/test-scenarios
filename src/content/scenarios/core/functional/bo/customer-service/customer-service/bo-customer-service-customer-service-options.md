@@ -6,7 +6,7 @@ weight: 5
 # BO - Customer Service - Customer service options
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-867
 
 ## Steps

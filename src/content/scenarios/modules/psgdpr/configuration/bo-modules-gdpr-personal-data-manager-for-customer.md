@@ -5,7 +5,7 @@ weight: 2
 
 # BO - Modules - GDPR - Personal data manager for customer
 ## Details
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7592
 
 ## Steps
@@ -20,7 +20,7 @@ weight: 2
 | Click on Details | Another tab is displayed with the Customer information page for Franck BG |
 | Close this page > Click download invoices for Franck BG | Toast is displayed with message "No invoices available for this customer." |
 | Go to Orders > Orders > Change the status to Payment accepted for order KHWLILZLL | Successful update message is displayed |
-| Go back to modules manager > psgdpr > Configure > Tab 2 : Personal data management > Search "john" > Click on Download Invoices | Toast is displayed with message "Invoices have been successfully downloaded." |
+| Go back to modules manager > psgdpr > Configure > Tab 2 : Personal data management > Search "Franck" > Click on Download Invoices | Toast is displayed with message "Invoices have been successfully downloaded." |
 | Open pdf invoice | See that the order reference is KHWLILZLL |
 | Click on Remove data | Modal is displayed<br><br>Are you sure?<br>Attention! This action is irreversible. Please make sure you have downloaded all of the customer’s invoices (if he has any) before clicking on Confirm erasure. |
 | Click "Cancel action" | Modal is closed |

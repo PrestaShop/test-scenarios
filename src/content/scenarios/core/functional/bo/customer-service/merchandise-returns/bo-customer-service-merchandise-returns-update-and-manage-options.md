@@ -6,7 +6,7 @@ weight: 3
 # BO - Customer Service - Merchandise returns - Update and manage options
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5412
 
 ## Steps
