@@ -13,32 +13,22 @@ weight: 2
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to Dashboard> Activity overview and click on _Online Visitors_ | The page Sell>Stats is displayed |
-| Go back to Dashboard> Activity overview and click on Active Shopping Carts | The page SELL>"Orders">"Shopping Carts" is displayed. |
-| Go to BO > Orders > Orders > Click Add new order > Choose existing customer | Check that Summary block is not visible |
-| Add product to cart | Check that summary block is visible<br><br>Check Summary > *Total Product* & *Total (Tax excl.)* should be equal<br><br>*Total (Tax incl.)* should be equal to ** *Total taxes* + *Total (Tax excl.)* |
-| Add a voucher | See in Summary that *Total vouchers (Tax excl.)* has been updated |
-| Delete voucher | *Total vouchers (Tax excl.)* equal to 0<br><br>*Total (Tax incl.)* should be updated |
-| Change Delivery Option with a not free carrier | *Total shipping (Tax excl.)* will be updated<br><br>Price should be tax excluded<br><br>*Total (Tax incl.)* should be updated |
-| Case1<br><br>The payment is not selected (Choose by default), click on Create Order | The order is not created, the payment is required |
-| Case2<br><br>The Order status is not selected (Choose by default), click on Create Order | The order is not created, the order status is required |
-| Fill in "Order message" > Add a payment > Choose an order status > Click "more actions" > Choose "Send pre-filled order to the customer by email" | * Message "The email was sent to your customer." appears<br> * An email should be received<br> ** the subject contains "Process the payment of your order"<br> ** the body contains "A new order has been generated on your behalf." |
-| Fill in "Order message" > Add a payment > Choose an order status > Click "more actions" > Choose "Proceed to checkout in the front office" | FO opens with Step 2 of checkout process |
-| Come back to BO > Fill in "Order message" > Add a payment > Choose an order status > Click button Create Order | Order will be created - Order details will be opened in BO<br><br>In the Messages block > Check the Order message is well displayed |
+| Go to FO and login then logout by default customer | Customer is logout |
+| go back to dashbord | number of online visitors =+1 |
+| click on Active Shopping Carts | The page SELL>"Orders">"Shopping Carts" is displayed. |
+| Create an order from FO | Order is created successfully |
 | Go back to Active Shopping Carts | The total Active Shopping Carts activity overview +1 |
 | Go back to Dashboard> Activity overview> Currently Pending | On Currently Pending you will see :<br>|Orders|Return/Exchanges|Abandoned Carts|Out of Stock Products| |
 | Click on Orders in Currently Pending | The orders is displayed. |
+| change the status of the first order to Processing in progress | The status is changed successfully |
+| Go back to dashboard | Orders number +=1 |
 | Go back to Dashboard> Activity overview> Currently Pending<br><br>Click on Return/Exchanges | The Customer Service> Merchandise Returns page is displayed. |
-| Go to BO > SELL > Customer Service > Merchandise Returns | The Merchandise returns page is well displayed |
-| Enable the returns of product and click on Save | The toggle is well enabled and a message "The settings have been successfully updated." is displayed |
-| Click on the Time limit of validity and change the number of days as desired and click on Save | The new number is well-updated and a message "The settings have been successfully updated." is displayed |
-| Click on the Returns prefix and change the prefix used for the downloadable pdf file | The new value is well-updated and a message "The settings have been successfully updated." is well displayed |
-| Go to orders> orders<br><br>Choose an Oreder and click on _view_  button | The order details page is displayed |
-| Click on Order status and change it to delivered<br><br>click on update status | _Successful update_ message is well displayed.<br><br>_Returned products_ button is enabled |
-| Click on _Returned products_ button | The product details are displayed |
-| Check the quantity and click on _Returned products_ button | The Order details page is displayed<br><br>*_The product was successfully returned_* message is displayed |
-| Go back to Dashboard> Activity overview> Currently Pending | Toatle Return/Exchanges +1 |
+| Create a marchandise return | Merchandise return is created |
+| Go back to Dashboard> Activity overview> Currently Pending | Toatle Return/Exchanges +1<br><br>issue here => [https://github.com/PrestaShop/PrestaShop/issues/34321] |
 | Click on Abandoned Carts in Currently Pending | The Orders> Shopping Carts page is displayed. |
 | Click on Out of stock products in Currently Pending | The Catalog> Monitoring page is displayed. |
+| Create an out of stock product | Product is created successfully |
+| Go back to dashboard | Out of stock products +=1 |
 | Go back to Dashboard> Activity overview> Notifications | On Currently Pending you will see :<br>|New Messages|Product Reviews| |
 | Go to the shop FO | The FO homepage shop is displayed |
 | Login to a existing customer account | Logged in as customer |
@@ -64,5 +54,8 @@ weight: 2
 | Enable the Newsletter option of the new customer already added | _The status has been successfully updated_ message is displayed |
 | Click on _Add new customer_ and fill the new customer form,<br><br>save | _Successful creation_ message is displayed |
 | Go back to Dashboard> Activity overview> Customers & Newsletters | Total Subscribers +1 |
-| Click on configure button | The Activity overview configuration is displayed with : <br><br> <br>|Active cart|30|<br>|Online visitor|30|<br>|Abandoned cart (min)|24 hrs|<br>|Abandoned cart (max)|48 hrs| |
-| Change configuration, save. |  |
+| Click on visits link | Stats page is displayed |
+| Go back to dashboard and click on Unique visitors link | stats page is displayed |
+| Check traffic source | contains 'prestashop.com' and 'Direct link' |
+| Click on configure link | Configure form is displayed |
+| Update all the values in the form and save | Success message is displayed<br><br>issue here https://github.com/PrestaShop/PrestaShop/issues/34326 |
