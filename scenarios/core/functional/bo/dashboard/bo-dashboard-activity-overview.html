@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../css/font-awesome.min.css?1697525633" rel="stylesheet">
-    <link href="../../../../../css/syntax-github.css?1697525633" rel="stylesheet">
-    <link href="../../../../../css/featherlight.min.css?1697525633" rel="stylesheet">
-    <link href="../../../../../css/perfect-scrollbar.min.css?1697525633" rel="stylesheet">
-    <link href="../../../../../css/auto-complete.css?1697525633" rel="stylesheet">
-    <link href="../../../../../style.css?1697525633" rel="stylesheet">
+    <link href="../../../../../css/font-awesome.min.css?1697612083" rel="stylesheet">
+    <link href="../../../../../css/syntax-github.css?1697612083" rel="stylesheet">
+    <link href="../../../../../css/featherlight.min.css?1697612083" rel="stylesheet">
+    <link href="../../../../../css/perfect-scrollbar.min.css?1697612083" rel="stylesheet">
+    <link href="../../../../../css/auto-complete.css?1697612083" rel="stylesheet">
+    <link href="../../../../../style.css?1697612083" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../js/jquery-3.3.1.min.js?1697525633"></script>
+    <script src="../../../../../js/jquery-3.3.1.min.js?1697612083"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -65782,48 +65782,20 @@
 <td>The page Sell&gt;Stats is displayed</td>
 </tr>
 <tr>
-<td>Go back to Dashboard&gt; Activity overview and click on Active Shopping Carts</td>
+<td>Go to FO and login then logout by default customer</td>
+<td>Customer is logout</td>
+</tr>
+<tr>
+<td>go back to dashbord</td>
+<td>number of online visitors =+1</td>
+</tr>
+<tr>
+<td>click on Active Shopping Carts</td>
 <td>The page SELL&gt;&ldquo;Orders&rdquo;&gt;&ldquo;Shopping Carts&rdquo; is displayed.</td>
 </tr>
 <tr>
-<td>Go to BO &gt; Orders &gt; Orders &gt; Click Add new order &gt; Choose existing customer</td>
-<td>Check that Summary block is not visible</td>
-</tr>
-<tr>
-<td>Add product to cart</td>
-<td>Check that summary block is visible<br><br>Check Summary &gt; <em>Total Product</em> &amp; <em>Total (Tax excl.)</em> should be equal<br><br><em>Total (Tax incl.)</em> should be equal to ** <em>Total taxes</em> + <em>Total (Tax excl.)</em></td>
-</tr>
-<tr>
-<td>Add a voucher</td>
-<td>See in Summary that <em>Total vouchers (Tax excl.)</em> has been updated</td>
-</tr>
-<tr>
-<td>Delete voucher</td>
-<td><em>Total vouchers (Tax excl.)</em> equal to 0<br><br><em>Total (Tax incl.)</em> should be updated</td>
-</tr>
-<tr>
-<td>Change Delivery Option with a not free carrier</td>
-<td><em>Total shipping (Tax excl.)</em> will be updated<br><br>Price should be tax excluded<br><br><em>Total (Tax incl.)</em> should be updated</td>
-</tr>
-<tr>
-<td>Case1<br><br>The payment is not selected (Choose by default), click on Create Order</td>
-<td>The order is not created, the payment is required</td>
-</tr>
-<tr>
-<td>Case2<br><br>The Order status is not selected (Choose by default), click on Create Order</td>
-<td>The order is not created, the order status is required</td>
-</tr>
-<tr>
-<td>Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click &ldquo;more actions&rdquo; &gt; Choose &ldquo;Send pre-filled order to the customer by email&rdquo;</td>
-<td>* Message &ldquo;The email was sent to your customer.&rdquo; appears<br> * An email should be received<br> ** the subject contains &ldquo;Process the payment of your order&rdquo;<br> ** the body contains &ldquo;A new order has been generated on your behalf.&rdquo;</td>
-</tr>
-<tr>
-<td>Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click &ldquo;more actions&rdquo; &gt; Choose &ldquo;Proceed to checkout in the front office&rdquo;</td>
-<td>FO opens with Step 2 of checkout process</td>
-</tr>
-<tr>
-<td>Come back to BO &gt; Fill in &ldquo;Order message&rdquo; &gt; Add a payment &gt; Choose an order status &gt; Click button Create Order</td>
-<td>Order will be created - Order details will be opened in BO<br><br>In the Messages block &gt; Check the Order message is well displayed</td>
+<td>Create an order from FO</td>
+<td>Order is created successfully</td>
 </tr>
 <tr>
 <td>Go back to Active Shopping Carts</td>
@@ -65838,44 +65810,24 @@
 <td>The orders is displayed.</td>
 </tr>
 <tr>
+<td>change the status of the first order to Processing in progress</td>
+<td>The status is changed successfully</td>
+</tr>
+<tr>
+<td>Go back to dashboard</td>
+<td>Orders number +=1</td>
+</tr>
+<tr>
 <td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending<br><br>Click on Return/Exchanges</td>
 <td>The Customer Service&gt; Merchandise Returns page is displayed.</td>
 </tr>
 <tr>
-<td>Go to BO &gt; SELL &gt; Customer Service &gt; Merchandise Returns</td>
-<td>The Merchandise returns page is well displayed</td>
-</tr>
-<tr>
-<td>Enable the returns of product and click on Save</td>
-<td>The toggle is well enabled and a message &ldquo;The settings have been successfully updated.&rdquo; is displayed</td>
-</tr>
-<tr>
-<td>Click on the Time limit of validity and change the number of days as desired and click on Save</td>
-<td>The new number is well-updated and a message &ldquo;The settings have been successfully updated.&rdquo; is displayed</td>
-</tr>
-<tr>
-<td>Click on the Returns prefix and change the prefix used for the downloadable pdf file</td>
-<td>The new value is well-updated and a message &ldquo;The settings have been successfully updated.&rdquo; is well displayed</td>
-</tr>
-<tr>
-<td>Go to orders&gt; orders<br><br>Choose an Oreder and click on <em>view</em>  button</td>
-<td>The order details page is displayed</td>
-</tr>
-<tr>
-<td>Click on Order status and change it to delivered<br><br>click on update status</td>
-<td><em>Successful update</em> message is well displayed.<br><br><em>Returned products</em> button is enabled</td>
-</tr>
-<tr>
-<td>Click on <em>Returned products</em> button</td>
-<td>The product details are displayed</td>
-</tr>
-<tr>
-<td>Check the quantity and click on <em>Returned products</em> button</td>
-<td>The Order details page is displayed<br><br><em><em>The product was successfully returned</em></em> message is displayed</td>
+<td>Create a marchandise return</td>
+<td>Merchandise return is created</td>
 </tr>
 <tr>
 <td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending</td>
-<td>Toatle Return/Exchanges +1</td>
+<td>Toatle Return/Exchanges +1<br><br>issue here =&gt; [https://github.com/PrestaShop/PrestaShop/issues/34321]</td>
 </tr>
 <tr>
 <td>Click on Abandoned Carts in Currently Pending</td>
@@ -65884,6 +65836,14 @@
 <tr>
 <td>Click on Out of stock products in Currently Pending</td>
 <td>The Catalog&gt; Monitoring page is displayed.</td>
+</tr>
+<tr>
+<td>Create an out of stock product</td>
+<td>Product is created successfully</td>
+</tr>
+<tr>
+<td>Go back to dashboard</td>
+<td>Out of stock products +=1</td>
 </tr>
 <tr>
 <td>Go back to Dashboard&gt; Activity overview&gt; Notifications</td>
@@ -65986,12 +65946,24 @@
 <td>Total Subscribers +1</td>
 </tr>
 <tr>
-<td>Click on configure button</td>
-<td>The Activity overview configuration is displayed with : <br><br> <br></td>
+<td>Click on visits link</td>
+<td>Stats page is displayed</td>
 </tr>
 <tr>
-<td>Change configuration, save.</td>
-<td></td>
+<td>Go back to dashboard and click on Unique visitors link</td>
+<td>stats page is displayed</td>
+</tr>
+<tr>
+<td>Check traffic source</td>
+<td>contains &lsquo;prestashop.com&rsquo; and &lsquo;Direct link&rsquo;</td>
+</tr>
+<tr>
+<td>Click on configure link</td>
+<td>Configure form is displayed</td>
+</tr>
+<tr>
+<td>Update all the values in the form and save</td>
+<td>Success message is displayed<br><br>issue here https://github.com/PrestaShop/PrestaShop/issues/34326</td>
 </tr>
 </tbody>
 </table>
@@ -66000,9 +65972,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on October 14, 2023
+  Last updated on October 18, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/9a6f23ccce6c8bdd146dafc9fed1fdd0a8835386">"[Update] JIRA XRay Tests" (9a6f23ccce6)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/e158b0618bd6e67ef2a356ceed2674b58a19c8b1">"[Update] JIRA XRay Tests" (e158b0618bd)</a>
   
 </div>
 
@@ -66023,17 +65995,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../js/clipboard.min.js?1697525633"></script>
-    <script src="../../../../../js/perfect-scrollbar.min.js?1697525633"></script>
-    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1697525633"></script>
-    <script src="../../../../../js/jquery.sticky.js?1697525633"></script>
-    <script src="../../../../../js/featherlight.min.js?1697525633"></script>
-    <script src="../../../../../js/html5shiv-printshiv.min.js?1697525633"></script>
-    <script src="../../../../../js/modernizr.custom-3.6.0.js?1697525633"></script>
-    <script src="../../../../../js/learn.js?1697525633"></script>
-    <script src="../../../../../js/hugo-learn.js?1697525633"></script>
+    <script src="../../../../../js/clipboard.min.js?1697612083"></script>
+    <script src="../../../../../js/perfect-scrollbar.min.js?1697612083"></script>
+    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1697612083"></script>
+    <script src="../../../../../js/jquery.sticky.js?1697612083"></script>
+    <script src="../../../../../js/featherlight.min.js?1697612083"></script>
+    <script src="../../../../../js/html5shiv-printshiv.min.js?1697612083"></script>
+    <script src="../../../../../js/modernizr.custom-3.6.0.js?1697612083"></script>
+    <script src="../../../../../js/learn.js?1697612083"></script>
+    <script src="../../../../../js/hugo-learn.js?1697612083"></script>
     
-    <script src="../../../../../main.js?1697525633"></script>
+    <script src="../../../../../main.js?1697612083"></script>
     
     
 
