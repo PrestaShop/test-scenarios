@@ -5,7 +5,7 @@ weight: 6
 
 # BO - Modules - GDPR - Autoupgrade
 ## Details
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7596
 
 ## Steps
@@ -13,6 +13,8 @@ weight: 6
 | ----- | ----- |
 | Install PS 8.1.1 | PS 8.1.1 in installed |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
+| Tab 2 Personal data management > Search customer | customer displayed |
+| Download invoices | Invoices have been successfully downloaded. |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Go to Tab 3 : Consent checkbox customization | Configure your checkboxes block is displayed |
@@ -45,5 +47,8 @@ weight: 6
 | Open back the page product for Mug Today is a good day > Sign out of your account jane@doe.com > Change language to Français | See the block for Mail alert is "FRENCH MESSAGE" |
 | Upgrade your shop to PS 8.1.2 with autoupgrade module | Upgrade successful |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | See that the configuration has not been reset |
+| Tab 2 Personal data management > Search customer | customer displayed |
+| Download invoices | Invoices have been successfully downloaded. |
+| Check both invoices | They are the same |
 | Go back to your autoupgrade module > Rollback to previous version | PS 8.1.1 is back |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | See that the configuration has not been reset |

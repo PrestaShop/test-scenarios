@@ -17,3 +17,4 @@ weight: 10
 | Click View my shop > Open Hummingbird printed t-shirt > Inspect element > Search for <title> element | You will find<br>{code:java}<br><title>Hummingbird printed t-shirt</title>{code} |
 | Go back to BO > Shop parameters > Traffic & SEO > Scroll down to block SEO options > Enable the option "Display attributes in the product meta title" > Save | Update successful alert is displayed |
 | Click View my shop > Open Hummingbird printed t-shirt > Inspect element > Search for <title> element | YOu will find <br>{code:java}<br><title>Hummingbird printed t-shirt Size S Color White</title><br>{code} |
+| Go back to BO > Shop parameters > Traffic & SEO > Scroll down to block SEO options > Disable the option "Display attributes in the product meta title" > Save | Update successful alert is displayed |
