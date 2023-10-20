@@ -6,10 +6,9 @@ weight: 1
 # BO - Filter Products
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : Deprecated
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4771
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/functional/01_filterProducts.ts
 
 ## Steps
 | Step Description | Expected result |
