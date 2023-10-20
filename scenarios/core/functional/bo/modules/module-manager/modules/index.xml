@@ -2,125 +2,125 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modules on PrestaShop Tests</title>
-    <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules.html</link>
+    <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules.html</link>
     <description>Recent content in Modules on PrestaShop Tests</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BO - Modules - Filter by status</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-status.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-status.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-status.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-status.html</guid>
       <description>BO - Modules - Filter by status Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-874 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/01_filterModulesByStatus.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Click on the section Status and select the filter modules by status : enabled modules all the displayed modules should should be enabled   Click on the section Status and select the filter modules by status : disabled modules all the displayed modules should be disabled   Click on the section Status and select the filter modules by status : installed modules All the installed module should be displayed   Choose a module and click on the dropDown button and choose the action uninstall A success message should be appear   Click on the section Status and select the filter modules by status : Uninstalled modules The displayed page should contains the uninstalled chosen module and the button install should be exist   Click on the section Status and select the filter modules by status : Show all modules The displayed result should contain all the modules with different status : installed / disabled / enabled / and uninstalled    </description>
     </item>
     
     <item>
       <title>BO - Modules - Filter by category</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-category.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-category.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-category.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-filter-by-category.html</guid>
       <description>BO - Modules - Filter by category Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-875 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/02_filterModulesByCategories.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules page &amp;gt; Module manager The displayed page title should contains &amp;lsquo;Module manager&amp;rsquo;   Click on the section Category and select the filter modules by Categoty : Administration The block title of The displayed result should be Administration   Check that the number of the displayed modules after filter is equal to the displayed number besides the filter name</description>
     </item>
     
     <item>
       <title>BO - Modules - Search</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-search.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-search.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-search.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-search.html</guid>
       <description>BO - Modules - Search Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-876 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/03_searchModule.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )    </description>
     </item>
     
     <item>
       <title>BO - Modules - Disable / Enable desktop and mobile</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-disable-enable-desktop-and-mobile.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-disable-enable-desktop-and-mobile.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-disable-enable-desktop-and-mobile.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-disable-enable-desktop-and-mobile.html</guid>
       <description>BO - Modules - Disable / Enable desktop and mobile Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-877 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/04_enableDisableModule.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   If the searched module is already Enabled &amp;gt; click on the button Disable &amp;gt; confirm the displayed pop-up A success message contains &amp;ldquo;Disable action&amp;rdquo; should be appear   If the searched module is already Disabled &amp;gt; click on the button Enable A success message contains &amp;ldquo;Enable action&amp;rdquo; should be appear   Click on the drop-down button A list of action should be available   Choose the action Disable Mobile A success message contain &amp;ldquo;Disable mobile&amp;rdquo; should be appear   Click on the drop-down button &amp;gt; click on the action Enable mobile A success message contains &amp;ldquo;Enable mobile&amp;rdquo; should be appear    </description>
     </item>
     
     <item>
       <title>BO - Modules - Reset</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-reset.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-reset.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-reset.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-reset.html</guid>
       <description>BO - Modules - Reset Details  Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-878 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/05_resetModule.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   Click on the drop-down button &amp;gt; Click on Reset option &amp;gt;Confirm the displayed pop-up A success message contains &amp;ldquo;Reset action&amp;rdquo; should be appear    </description>
     </item>
     
     <item>
       <title>BO - Modules - Uninstall</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-uninstall.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-uninstall.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-uninstall.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-uninstall.html</guid>
       <description>BO - Modules - Uninstall Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-879 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/06_installUninstallModule.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   Click on the drop-down button &amp;gt; Click on Uninstall option &amp;gt;Confirm the displayed pop-up A success message contains &amp;ldquo;uninstall action&amp;rdquo; should be appear   Check that the button Install exists next to module name     </description>
     </item>
     
     <item>
       <title>BO - Modules - Bulk actions</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-bulk-actions.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-bulk-actions.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-bulk-actions.html</guid>
       <description>BO - Modules - Bulk actions Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-880 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/07_bulkActions.ts  Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Check that the Bulk action section is Disabled    Select module form the displayed modules list Check that the bulk actions is enabled   Click on the bulk actions section &amp;gt; and check that the : i</description>
     </item>
     
     <item>
       <title>BO - Modules - Upload a module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upload-a-module.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upload-a-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upload-a-module.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upload-a-module.html</guid>
       <description>BO - Modules - Upload a module Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-881 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/08_uploadModule.ts  Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page * The page title should contains &amp;lsquo;Module manager&amp;rsquo;
 Check that the button upload module exist in the header of the page   Click on the button Upload module A pop-up contains &amp;lsquo;Drop your module archive here or select file&amp;rsquo; appears   Case 1 : Drop the module you want to install Case 2 : Select the file of the module you want to install The installing process begins &amp;gt; a sucess message should appears   Check that the module is well installed and exist in the list of modules     </description>
     </item>
     
     <item>
       <title>BO - Modules - Connect / Disconnect to Addons market place</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-connect-disconnect-to-addons-market-place.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-connect-disconnect-to-addons-market-place.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-connect-disconnect-to-addons-market-place.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-connect-disconnect-to-addons-market-place.html</guid>
       <description>BO - Modules - Connect / Disconnect to Addons market place Details  Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-882  </description>
     </item>
     
     <item>
       <title>BO - Modules - Configure module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</guid>
       <description>BO - Modules - Configure module Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-883 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/09_configureModule.ts  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   Click on the button configure The page title should contains &amp;lsquo;Configure &#39; and the page sub-title should contains the module&amp;rsquo;s name</description>
     </item>
     
     <item>
       <title>BO - Modules - See more / less module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-see-more-less-module.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-see-more-less-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-see-more-less-module.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-see-more-less-module.html</guid>
       <description>BO - Modules - See more / less module Details  Component : Core Status : Deprecated Automated on : 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-884  Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Scroll in the existing modules &amp;gt; click on the button See more Other modules should appears   Click on the button See less Some modules disappears from the list    </description>
     </item>
     
     <item>
       <title>BO - Modules - Read more about module</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-read-more-about-module.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-read-more-about-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-read-more-about-module.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-read-more-about-module.html</guid>
       <description>BO - Modules - Read more about module Details  Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-885  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   Check the description of the module &amp;gt; click on the link read more More informations related to the module appears    </description>
     </item>
     
     <item>
       <title>BO - Modules - Upgrade</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html</guid>
       <description>BO - Modules - Upgrade Details  Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-886  Steps    Step Description Expected result     Login in BO Dashboarb page should be displayed   Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo;   Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name )   Click on the drop-down button &amp;gt; choose the action Upgrade &amp;gt; confirm the displayed pop-up (upgrade any way) A success message contains &amp;ldquo;Upgrade action on module .</description>
     </item>
     

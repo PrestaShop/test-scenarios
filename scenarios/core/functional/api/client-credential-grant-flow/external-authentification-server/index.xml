@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>External Authentification Server on PrestaShop Tests</title>
-    <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server.html</link>
+    <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server.html</link>
     <description>Recent content in External Authentification Server on PrestaShop Tests</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authorization Endpoint</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/authorization-endpoint.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/authorization-endpoint.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/authorization-endpoint.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/authorization-endpoint.html</guid>
       <description>Authorization Endpoint Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-4925 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/01_authorizationEndpoint.ts  Steps    Step Description Expected result     Request the endpoint /admin-dev/new-api/oauth2/token in GET method Receive a response where the HTTP code is 405   Request the endpoint /admin-dev/api/oauth2/token with oauth2 in POST method without informations Receive a response where the HTTP code is 400   Request the endpoint /admin-dev/api/oauth2/token in POST with informations but undefined (notUsed) Receive a response where the HTTP code is 400   Request the endpoint /admin-dev/api/oauth2/token in POST with informations but invalid (clientId + clientSecret) Receive a response where the HTTP Code is 401   Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) and undefined (notUsed parameter) Receive a response where the HTTP Code is 200   Request the endpoint /admin-dev/api/oauth2/token in POST with valid informations (clientId + clientSecret) * Receive a response where the HTTP Code is 200</description>
     </item>
     
     <item>
       <title>Resource Endpoint</title>
-      <link>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/resource-endpoint.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/resource-endpoint.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop.com/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/resource-endpoint.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/external-authentification-server/resource-endpoint.html</guid>
       <description>Resource Endpoint Details  Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4926 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/02_resourceEndpoint.ts  Steps    Step Description Expected result     Login in BO &amp;gt; Go to modules manager page * The page title should contains &amp;lsquo;Module manager&amp;rsquo;
 Check that the button upload module exist in the header of the page   Click on the button Upload module A pop-up contains &amp;lsquo;Drop your module archive here or select file&amp;rsquo; appears   Drop the module &amp;ldquo;Keycloak Connector Demo&amp;rdquo; you want to install The installing process begins &amp;gt; a sucess message should appears   Check that the module is well installed and exist in the list of modules    Click on the button configure The page title should contains &amp;lsquo;Configure &#39; and the page sub-title should contains the module&amp;rsquo;s name   Define the Keycloak realm endpoint (for example http://127.</description>
     </item>
