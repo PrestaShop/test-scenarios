@@ -6,8 +6,9 @@ weight: 5
 # BO - Customer Service - Customer service options
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-867
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/01_customerService/05_customerServiceOptions.ts
 
 ## Steps
 | Step Description | Expected result |

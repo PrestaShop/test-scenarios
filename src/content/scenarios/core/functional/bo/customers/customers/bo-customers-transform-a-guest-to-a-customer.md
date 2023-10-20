@@ -6,8 +6,9 @@ weight: 11
 # BO - Customers - Transform a Guest to a Customer
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7392
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/01_customers/11_transformGuestToCustomer.ts
 
 ## Steps
 | Step Description | Expected result |

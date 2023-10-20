@@ -6,8 +6,9 @@ weight: 6
 # BO - Customer Service - Forward message
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7393
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/01_customerService/06_forwardMessage.ts
 
 ## Steps
 | Step Description | Expected result |
