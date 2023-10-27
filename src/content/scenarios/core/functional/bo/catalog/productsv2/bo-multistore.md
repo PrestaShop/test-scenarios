@@ -22,8 +22,8 @@ weight: 23
 | Click on the multishop header | A multishop modal is displayed : <br> * All stores <br> * Group Default<br> ** initial store     <br> ** new shop |
 | Click on "new shop" | The listing of products is displayed for your "new shop" store.<br><br>The multishop header is displayed with "new shop" store and color : #00a7ac |
 | Click on "View my store" | The FO/URL of the new shop is displayed |
-| Create standard product |  |
-| Edit your product > Click on multistore header : Select stores > Check your "new shop" > Save > Go back to product listing > Change your context shop to "new shop" | See your new product added to new store |
+| Create standard product > Put online > Save |  |
+| Click on multistore header : Select stores > Check your "initial shop" > Save > Go back to product listing > Change your context shop to "new shop" | See your new product added to new store |
 | Edit your latest product > Edit the product name > Check "Apply changes to all stores" > Save and publish | A success message will appear : "Successful creation" |
 | Go back to product listing | The product name has been well saved |
 | Change context shop to initial store | The product name has been well saved |
