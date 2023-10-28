@@ -6,10 +6,9 @@ weight: 1
 # BO - Advanced Parameters - Experimental Features - Enable/Disabled PPV2
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : Closed
 * **Automated on** : 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-2155
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/11_newAndExperimentalFeatures/01_enableDisableExperimentalProductV2.ts
 
 ## Steps
 | Step Description | Expected result |
