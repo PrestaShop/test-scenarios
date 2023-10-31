@@ -6,7 +6,7 @@ weight: 1
 # FO - Checkout - Payment - Choose a payment method
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1312
 
 ## Steps

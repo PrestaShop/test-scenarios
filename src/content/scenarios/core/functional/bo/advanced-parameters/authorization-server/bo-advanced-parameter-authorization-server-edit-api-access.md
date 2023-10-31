@@ -23,6 +23,9 @@ weight: 3
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the edit button | Edit API access Page is displayed correctly |
 | Fill the form with following data (Client ID : "Client UVW", Client Name: "ClientName DEF")<br>Click on "Save" button | The message “Successful update” is displayed |
+| Click on the button "Regenerate a client secret" | A modal appear :<br> * Title : Regenerate client secret?<br> * Message : If you regenerate your client secret, your former secret will become obsolete.<br> * Confirm Button : Regenerate client secret |
+| Click on the button "Regenerate client secret" in the modal | The message “Your new client secret has been generated successfully. Your former client secret is now obsolete. This secret value will only be displayed once. Don't forget to make a copy in a secure location.” is displayed<br>The message "Client secret: " is displayed |
+| Click on the "Copy" button | The clipboard contains the value of the client secret |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the button “Three points” | The dropdown is displayed |
