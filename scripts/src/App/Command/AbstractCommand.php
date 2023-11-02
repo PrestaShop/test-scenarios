@@ -10,11 +10,15 @@ abstract class AbstractCommand extends Command
 {
     private const OUTPUT_DIR = 'src/content/scenarios';
 
+    protected const JIRA_ToBeAutomated = '[TEST] To be automated';
+    protected const JIRA_AutomationInProgress = '[TEST] Automation in progress';
+    protected const JIRA_Automated = '[Test] Automated';
+
     /** @var int */
-    private $requestsCount = 0;
+    protected $requestsCount = 0;
 
     /** @var string */
-    private $apiKey = '';
+    protected $apiKey = '';
 
     protected function configure()
     {

@@ -1,0 +1,30 @@
+name: Sync JIRA => Github
+
+on:
+  schedule:
+    - cron:  '0 7 * * *'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+
+      - name: Composer install
+        if: ${{ github.event_name == 'schedule' }}
+        run: cd scripts && composer install && cd ..
+
+      - name: Export JIRA XRay Core 
+        if: ${{ github.event_name == 'schedule' }}
+        run: php scripts/bin/console scenario:export:core --apikey ${{ secrets.JIRA_APIKEY }} --ghtoken ${{ secrets.GITHUB_TOKEN }} -v

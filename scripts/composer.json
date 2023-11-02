@@ -3,7 +3,10 @@
     "type": "project",
     "require": {
         "symfony/console": "^4.3",
-        "symfony/dotenv": "^4.3"
+        "symfony/dotenv": "^4.3",
+        "knplabs/github-api": "^3.12",
+        "symfony/http-client": "^6.2",
+        "nyholm/psr7": "^1.8"
     },
     "autoload": {
          "psr-4": {
@@ -11,5 +14,10 @@
          },
          "classmap": ["src"]
     },
-    "license": "MIT"
+    "license": "MIT",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
