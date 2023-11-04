@@ -6,8 +6,9 @@ weight: 1
 # FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1237
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/01_navigateInCategories/01_consultCategoriesInHeader.ts
 
 ## Steps
 | Step Description | Expected result |
