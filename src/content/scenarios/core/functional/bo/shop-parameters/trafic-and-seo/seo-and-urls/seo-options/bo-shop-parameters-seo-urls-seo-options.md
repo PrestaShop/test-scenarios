@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - SEO Options"
-weight: 10
+weight: 1
 ---
 
 # BO - Shop Parameters - SEO & URLs - SEO Options

@@ -6,8 +6,9 @@ weight: 4
 # FO - Menu and Navigation - Sort and filter - Clear one filter
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1243
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/02_sortAndFilter/03_clearOneFilter.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -1,14 +1,15 @@
 ---
-title: "BO - Advanced Parameters - Database - DB Backup - Pagination"
+title: "BO - Advanced Parameters - Database - DB Backup - Pagination and bulk delete"
 weight: 3
 ---
 
-# BO - Advanced Parameters - Database - DB Backup - Pagination
+# BO - Advanced Parameters - Database - DB Backup - Pagination and bulk delete
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1171
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/07_database/dbBackup/02_paginationAndBulkDelete.ts
 
 ## Steps
 | Step Description | Expected result |
@@ -20,3 +21,4 @@ weight: 3
 | Change pagination to 20 | 1 page is available |
 | Change pagination to 50 | 1 page is available |
 | Change pagination to 100 | 1 page is available |
+| Bulk delete created db backup |  |

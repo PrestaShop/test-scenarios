@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Generate Robots.txt file"
-weight: 11
+weight: 1
 ---
 
 # BO - Shop Parameters - SEO & URLs - Generate Robots.txt file

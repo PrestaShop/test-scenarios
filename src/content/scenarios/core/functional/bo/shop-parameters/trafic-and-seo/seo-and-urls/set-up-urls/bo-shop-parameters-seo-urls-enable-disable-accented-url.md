@@ -1,14 +1,15 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Enable, disable accented URL"
-weight: 4
+weight: 2
 ---
 
 # BO - Shop Parameters - SEO & URLs - Enable, disable accented URL
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1108
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/06_trafficAndSeo/01_seoAndUrls/02_setUpUrls/04_enableDisableAccentedURL.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -1,19 +1,22 @@
 ---
-title: "BO - International - Tax Rules - Bulk actions"
+title: "BO - International - Tax Rules - quick edit & Bulk actions"
 weight: 4
 ---
 
-# BO - International - Tax Rules - Bulk actions
+# BO - International - Tax Rules - quick edit & Bulk actions
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1032
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/03_taxes/02_taxRules/03_quickEditAndBulkActions.ts
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > International > Taxes > Tax Rules tab | Tax Rules page is displayed |
+| Change Enabled to "No" for first tax rules | Icon changed to disabled<br>Success notification displayed : <br>The status has been successfully updated. |
+| Change Enabled to"Yes" for first tax rules | Icon changed to enabled<br><br>Success notification displayed : <br>The status has been successfully updated. |
 | click on the button bulk action | List of options will be  displyed and contains : <br> - Select all ( checked by default) <br> - Unselect all <br> - Enable selection <br> - Disable selection <br> - Delete selected |
 | Click on the option Select all | All the existing Tax rules in the page are selected |
 | Click on Bulk action button > choose the option unselect all | All the existing Tax rules in the page are unselected |

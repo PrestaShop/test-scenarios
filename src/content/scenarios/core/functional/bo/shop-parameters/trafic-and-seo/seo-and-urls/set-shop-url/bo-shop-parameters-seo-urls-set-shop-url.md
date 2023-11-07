@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Set shop URL"
-weight: 8
+weight: 1
 ---
 
 # BO - Shop Parameters - SEO & URLs - Set shop URL

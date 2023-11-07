@@ -1,14 +1,15 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Enable display discounted unit price"
-weight: 6
+weight: 3
 ---
 
 # BO - Shop Parameters - Product Settings - Enable display discounted unit price
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1073
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/02_productPage/04_displayDiscountedPrice.ts
 
 ## Steps
 | Step Description | Expected result |
