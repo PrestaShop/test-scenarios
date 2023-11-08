@@ -682,7 +682,7 @@ Zone lists have only &amp;ldquo;1&amp;rdquo; and nothing else in their ID   Res
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/translations/bo-international-translations-modify-translations-and-check-result.html</guid>
-      <description>BO - International - Translations - Modify translations and check result Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1034 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/04_translations/01_modifyTranslation.ts  Steps    Step Description Expected result     BO &amp;gt; International &amp;gt; Translations The Translations page is well displayed.
+      <description>BO - International - Translations - Modify translations and check result Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-1034  Steps    Step Description Expected result     BO &amp;gt; International &amp;gt; Translations The Translations page is well displayed.
 Modify translations section is displayed with two input fields :
 * Type of translation
 * Select your language   Case 1: Back office translations</description>
@@ -1904,6 +1904,15 @@ If it&amp;rsquo;s disabled the comment appear   Check that the rate is correctly
     </item>
     
     <item>
+      <title>ps_apiresources - Uninstall/Install module</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-apiresources/installation/ps-apiresources-uninstall-install-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-apiresources/installation/ps-apiresources-uninstall-install-module.html</guid>
+      <description>ps_apiresources - Uninstall/Install module Details  Component : ps_apiresources Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7806 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_apiresources/01_installation/01_uninstallAndInstallModule.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_apiresources The module page list should be displayed and PrestaShop API Resources module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+    </item>
+    
+    <item>
       <title>ps_banner - Change banner</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-banner/configuration/ps-banner-change-banner.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2983,7 +2992,7 @@ save Country selection is invalid. message is displayed   Go to Options form Sel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/translations/bo-international-translations-add-or-update-languages.html</guid>
-      <description>BO - International - Translations - Add or update languages Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1035  Steps    Step Description Expected result     On Bo &amp;gt; International &amp;gt; Translation The translation page should display correctly   Select on Update a language : English (English) Click to Add or update a language The translations have been successfully added.</description>
+      <description>BO - International - Translations - Add or update languages Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1035  Steps    Step Description Expected result     On Bo &amp;gt; International &amp;gt; Translation The translation page should display correctly   Select on Update a language :English (English) Click to Add or update a language The translations have been successfully added.</description>
     </item>
     
     <item>
@@ -4008,6 +4017,15 @@ Go to BO &amp;gt; Orders &amp;gt; Orders &amp;gt; Click on status label of an or
     </item>
     
     <item>
+      <title>ps_apiresources - Disable/Enable module</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-apiresources/installation/ps-apiresources-disable-enable-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-apiresources/installation/ps-apiresources-disable-enable-module.html</guid>
+      <description>ps_apiresources - Disable/Enable module Details  Component : ps_apiresources Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7804 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_apiresources/01_installation/02_disableEnableModule.ts  Steps    Step Description Expected result     In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly   Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked   Click on Save button The message “Update successful” is displayed   Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_apiresources The module page list should be displayed and PrestaShop API Resources module should be displayed on the list   Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
+    </item>
+    
+    <item>
       <title>ps_banner - Uninstall/Install</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-banner/installation/ps-banner-uninstall-install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4870,7 +4888,7 @@ The units are edited.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/translations/bo-international-translations-export-a-language.html</guid>
-      <description>BO - International - Translations - Export a language Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1036 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/04_translations/03_exportLanguage.ts  Steps    Step Description Expected result     On Bo &amp;gt; International &amp;gt; Translation The translation page should display correctly   Select on Update a language : English (English) Click to Add or update a language The translations have been successfully added.</description>
+      <description>BO - International - Translations - Export a language Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1036 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/04_translations/03_exportLanguage.ts  Steps    Step Description Expected result     On Bo &amp;gt; International &amp;gt; Translation The translation page should display correctly   Select on Update a language :English (English) Click to Add or update a language The translations have been successfully added.</description>
     </item>
     
     <item>
