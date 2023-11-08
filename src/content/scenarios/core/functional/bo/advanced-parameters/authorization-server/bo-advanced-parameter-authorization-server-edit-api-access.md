@@ -22,7 +22,7 @@ weight: 3
 | Fill the form with following data (Client ID : "Client XYZ", Client Name: "ClientName ABC")<br>Click on "Generate client secret & Save" button | There is 1 application in the list<br>The message “The API access and Client secret has been generated sucessfully” is displayed<br>The message "Client secret: " is available<br>The button Copy put the client secret in the clipboard |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the edit button | Edit API access Page is displayed correctly |
-| Fill the form with following data (Client ID : "Client UVW", Client Name: "ClientName DEF", TokenLifetime: 5)<br>Click on "Save" button | The message “Successful update” is displayed<br><br>Check that data are well filled |
+| Fill the form with following data<br>Click on "Save" button | The message “Successful update” is displayed<br><br>Check that data are well filled |
 | Click on the button "Regenerate a client secret" | A modal appear :<br> * Title : Regenerate client secret?<br> * Message : If you regenerate your client secret, your former secret will become obsolete.<br> * Confirm Button : Regenerate client secret |
 | Click on the button "Regenerate client secret" in the modal | The message “Your new client secret has been generated successfully. Your former client secret is now obsolete. This secret value will only be displayed once. Don't forget to make a copy in a secure location.” is displayed<br>The message "Client secret: " is displayed |
 | Click on the "Copy" button | The clipboard contains the value of the client secret |

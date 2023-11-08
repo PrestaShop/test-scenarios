@@ -6,9 +6,8 @@ weight: 1
 # BO - International - Translations - Modify translations and check result
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1034
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/04_translations/01_modifyTranslation.ts
 
 ## Steps
 | Step Description | Expected result |
