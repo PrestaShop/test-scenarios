@@ -6,7 +6,7 @@ weight: 1
 # BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1089
 
@@ -38,3 +38,4 @@ weight: 1
 | Change Display items to 50 | Pagination = 1 |
 | Delete the Created groups | Groups are well deleted |
 | Sort by Discount | The list of pages is sorted in descending order by Discount ( desc (3 -> 2 -> 1) ) |
+| Delete created groups by bulk actions |  |
