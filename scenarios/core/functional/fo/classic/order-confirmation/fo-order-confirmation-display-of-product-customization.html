@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../css/font-awesome.min.css?1699426539" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1699426539" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1699426539" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1699426539" rel="stylesheet">
-    <link href="../../../../../../css/auto-complete.css?1699426539" rel="stylesheet">
-    <link href="../../../../../../style.css?1699426539" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1699512535" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1699512535" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1699512535" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1699512535" rel="stylesheet">
+    <link href="../../../../../../css/auto-complete.css?1699512535" rel="stylesheet">
+    <link href="../../../../../../style.css?1699512535" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1699426539"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1699512535"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -42580,6 +42580,7 @@
     <li><a href="#fo---order-confirmation---display-of-product-customization">FO - Order confirmation - Display of product customization</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -66669,17 +66670,60 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1315">https://forge.prestashop.com/browse/TEST-1315</a></li>
 </ul>
+<h2 id="steps">Steps</h2>
+<table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to FO &gt; Clic on &ldquo;Search our catalog&rdquo; &gt; Write &ldquo;custo&rdquo;</td>
+<td>You should see four different product ( the first one is Customizable Mug )</td>
+</tr>
+<tr>
+<td>Clic on Customizable Mug</td>
+<td>* The Customizable mug product page should be displayed<br> * &ldquo;Add to cart&rdquo; should be disabled</td>
+</tr>
+<tr>
+<td>Write your texte on &ldquo;Your message here&rdquo; and clic on &ldquo;Save Customization&rdquo;</td>
+<td>* You should have no text on the text area <br> * You should have the text &ldquo;Your curstomization: test&rdquo;<br> * &ldquo;Add to cart&rdquo; should be enabled</td>
+</tr>
+<tr>
+<td>* Clic on &ldquo;Add to cart&rdquo;<br> * Clic on &ldquo;Proceed to checkout&rdquo;</td>
+<td>* You should have a  modal &ldquo;Product successfully added to your shopping cart&rdquo;<br> * You should have your cart with your customizable mug</td>
+</tr>
+<tr>
+<td>* Clic on &ldquo;Proceed to checkout&rdquo;<br> * Clic on &ldquo;Sign in&rdquo; <br> * Set your account <br> * Clic on continue</td>
+<td>* You should see the &ldquo;Order as guest&rdquo; page <br> * You should see the &ldquo;Sign in&rdquo; page<br> * You should see &ldquo;Adresses&rdquo; tab</td>
+</tr>
+<tr>
+<td>Clic on &ldquo;Continue&rdquo;</td>
+<td>You should see the &ldquo;Shipping method&rdquo; tab with Click and collect selected</td>
+</tr>
+<tr>
+<td>* Clic on &ldquo;Continue&rdquo;<br> * Select the &ldquo;Pay by check&rdquo; option <br> * Clic on &ldquo;I agree [&hellip;] unconditionally&rdquo; <br> * Clic on &ldquo;Place Order&rdquo; button</td>
+<td>* You should see the &ldquo;Payment&rdquo; tab with &ldquo;Place Order&rdquo; button disabled <br> * The Play by check option should be selected ans you will have the info to where you can send your check<br> * &ldquo;Place Order&rdquo; button should be enabled<br> * You should see you Order Confirmation</td>
+</tr>
+<tr>
+<td>Clic on &ldquo;Product customization&rdquo;</td>
+<td>You should have a modal with : <br><br>Title : Product customization <br>Type your text here : test</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 7, 2023
+  Last updated on November 9, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/622e2d6ce27a7d91df4602246b47866fb0697ace">"[Update] JIRA XRay Tests" (622e2d6ce27)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/d1759551fa3d74cbf00054f44c4c6fcd3da4f94a">"[Update] JIRA XRay Tests" (d1759551fa3)</a>
   
 </div>
 
@@ -66700,17 +66744,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1699426539"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1699426539"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1699426539"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1699426539"></script>
-    <script src="../../../../../../js/featherlight.min.js?1699426539"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1699426539"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1699426539"></script>
-    <script src="../../../../../../js/learn.js?1699426539"></script>
-    <script src="../../../../../../js/hugo-learn.js?1699426539"></script>
+    <script src="../../../../../../js/clipboard.min.js?1699512535"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1699512535"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1699512535"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1699512535"></script>
+    <script src="../../../../../../js/featherlight.min.js?1699512535"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1699512535"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1699512535"></script>
+    <script src="../../../../../../js/learn.js?1699512535"></script>
+    <script src="../../../../../../js/hugo-learn.js?1699512535"></script>
     
-    <script src="../../../../../../main.js?1699426539"></script>
+    <script src="../../../../../../main.js?1699512535"></script>
     
     
 
