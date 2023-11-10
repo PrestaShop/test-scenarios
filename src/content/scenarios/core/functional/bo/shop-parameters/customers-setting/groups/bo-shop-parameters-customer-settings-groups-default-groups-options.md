@@ -14,7 +14,6 @@ weight: 3
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO >  Shop parameters > Customer Settings  >  Groups | Customers - Groups page is well displayed |
-| Check that the  section *Default groups options* is exist | Default groups options section is exist |
 | Check that the default value selected for the visitor group is *Visitor* | The default value selected for the visitor group is *Visitor* |
 | Click on the dropdown list *Visitors group* | The drop-down list Vistors groups contains :<br> * Visitor<br> * Guest<br> * Customer |
 | Check that the default value selected for the Guests group is *Guest* | The default value selected for the gustes group is *Guest* |
