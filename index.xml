@@ -682,7 +682,7 @@ Zone lists have only &amp;ldquo;1&amp;rdquo; and nothing else in their ID   Res
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/translations/bo-international-translations-modify-translations-and-check-result.html</guid>
-      <description>BO - International - Translations - Modify translations and check result Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-1034  Steps    Step Description Expected result     BO &amp;gt; International &amp;gt; Translations The Translations page is well displayed.
+      <description>BO - International - Translations - Modify translations and check result Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1034 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/04_translations/01_modifyTranslation.ts  Steps    Step Description Expected result     BO &amp;gt; International &amp;gt; Translations The Translations page is well displayed.
 Modify translations section is displayed with two input fields :
 * Type of translation
 * Select your language   Case 1: Back office translations</description>
@@ -1789,7 +1789,7 @@ Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Cred
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/get-api-api-access-apiaccessid.html</guid>
-      <description>GET /api/api-access/{apiAccessId} Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-7789  Steps    Step Description Expected result     In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly   Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked   Click on Save button The message “Update successful” is displayed   In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
+      <description>GET /api/api-access/{apiAccessId} Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-7789  Steps    Step Description Expected result     In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly   Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked   Click on Save button The message “Update successful” is displayed   In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
     </item>
     
     <item>
@@ -1798,7 +1798,7 @@ Go to FO &amp;gt; Login to customer account &amp;gt; Go to Credit slips tab Cred
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-api-hook-status-id.html</guid>
-      <description>GET /api/hook-status/{id} Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-7792  Steps    Step Description Expected result     In BO, Go to Design &amp;gt; Positions Positions Page is displayed correctly.   Get the ID of the first hook of the page !https://forge.prestashop.com/plugins/servlet/raven/attachment/1571/ID+hook.png   Request with method GET the endpoint &amp;ldquo;https://[url of your shop]/admin-dev/index.php/api/hook-status/{id}&amp;rdquo; where {id} is the previous ID get The return value is in JSON.</description>
+      <description>GET /api/hook-status/{id} Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7792 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/01_getAPIHookStatusId.ts  Steps    Step Description Expected result     In BO, Go to Design &amp;gt; Positions Positions Page is displayed correctly.   Get the ID of the first hook of the page !https://forge.prestashop.com/plugins/servlet/raven/attachment/1571/ID+hook.png   Request with method GET the endpoint &amp;ldquo;https://[url of your shop]/admin-dev/index.php/api/hook-status/{id}&amp;rdquo; where {id} is the previous ID get The return value is in JSON.</description>
     </item>
     
     <item>
@@ -2992,7 +2992,7 @@ save Country selection is invalid. message is displayed   Go to Options form Sel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/translations/bo-international-translations-add-or-update-languages.html</guid>
-      <description>BO - International - Translations - Add or update languages Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-1035  Steps    Step Description Expected result     On Bo &amp;gt; International &amp;gt; Translation The translation page should display correctly   Select on Update a language :English (English) Click to Add or update a language The translations have been successfully added.</description>
+      <description>BO - International - Translations - Add or update languages Details  Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1035 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/04_translations/02_addUpdateLanguage.ts  Steps    Step Description Expected result     On Bo &amp;gt; International &amp;gt; Translation The translation page should display correctly   Select on Update a language :English (English) Click to Add or update a language The translations have been successfully added.</description>
     </item>
     
     <item>
@@ -3258,21 +3258,21 @@ save Country selection is invalid. message is displayed   Go to Options form Sel
     </item>
     
     <item>
+      <title>BO - Shop Parameters - Product Settings - Display the &#34;add to cart&#34; button when a product has attributes</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-display-the-add-to-cart-button-when-a-product-has-attributes.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-display-the-add-to-cart-button-when-a-product-has-attributes.html</guid>
+      <description>BO - Shop Parameters - Product Settings - Display the &amp;quot;add to cart&amp;quot; button when a product has attributes Details  Component : Core Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-1072  Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Theme &amp;amp; Logo &amp;gt; Add new theme &amp;gt; Install hummingbird &amp;gt; Save &amp;gt; Use the theme hummingbird Message Successful update is displayed   Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings &amp;gt; Scroll down to Product page &amp;ldquo;Display the &amp;ldquo;Add to cart&amp;rdquo; button when a product has attributes&amp;rdquo; is set to YES   View my store &amp;gt; Go to category Clothes &amp;gt; Add to cart Hummingbird printed sweater Product is well added to the cart   Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings &amp;gt; Scroll down to Product page &amp;gt; Disable &amp;ldquo;Display the &amp;ldquo;Add to cart&amp;rdquo; button when a product has attributes&amp;rdquo; option Message Update successful is displayed   View my store &amp;gt; Add to cart Hummingbird printed sweater Button Add to cart is not displayed    </description>
+    </item>
+    
+    <item>
       <title>BO - Shop Parameters - Product Settings - New days number</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-new-days-number.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-new-days-number.html</guid>
       <description>BO - Shop Parameters - Product Settings - New days number Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1064 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/02_newDaysNumber.ts  Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo;   update number of days to 0 Successful update message is displayed   View my shop New flag is visible   Go back to BO and reset number of days value Successful update message is displayed   View my shop New flag is not visible    </description>
-    </item>
-    
-    <item>
-      <title>BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-separator-of-attribute-anchor-on-the-product-links.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-separator-of-attribute-anchor-on-the-product-links.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1071 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/02_productPage/03_separatorOfAttributeAnchor.ts  Steps    Step Description Expected result     Go to FO &amp;gt; Open the product HUMMINGBIRD PRINTED T-SHIRT Check the URL &amp;gt; See that it is like the following : my_shop.</description>
     </item>
     
     <item>
@@ -5153,21 +5153,21 @@ Disable reordering option : NO   Go to FO &amp;gt; Log into your customer accoun
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Product Settings - Enable display discounted unit price</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-unit-price.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-unit-price.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Enable display discounted unit price Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1073 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/02_productPage/04_displayDiscountedPrice.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Product Settings &amp;gt; Scroll down to Product page block See that the option &amp;ldquo;Display the discounted unit price&amp;rdquo; is disabled   Create a standard product &amp;gt; Use following data &amp;gt; Put in online &amp;gt; Save Message Successful update is displayed   Preview the product FO is displayed with your Test product page.</description>
-    </item>
-    
-    <item>
       <title>BO - Shop Parameters - Product Settings - Max size short description</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-max-size-short-description.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-max-size-short-description.html</guid>
       <description>BO - Shop Parameters - Product Settings - Max size short description Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1065 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/03_maxSizeShortDescription.ts  Steps    Step Description Expected result     go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo;   Update max size of short description to 5 Successful update message is displayed   Should go to products page page title contains &amp;lsquo;Products&amp;rsquo;   Try to create product with description &amp;gt; 5 Error messages are displayed</description>
+    </item>
+    
+    <item>
+      <title>BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-separator-of-attribute-anchor-on-the-product-links.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-separator-of-attribute-anchor-on-the-product-links.html</guid>
+      <description>BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1071 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/02_productPage/03_separatorOfAttributeAnchor.ts  Steps    Step Description Expected result     Go to FO &amp;gt; Open the product HUMMINGBIRD PRINTED T-SHIRT Check the URL &amp;gt; See that it is like the following : my_shop.</description>
     </item>
     
     <item>
@@ -6723,12 +6723,12 @@ save. Successful update message is displayed.   Go to Advanced parameters&amp;gt
     </item>
     
     <item>
-      <title>BO - Shop Parameters - Product Settings - Display the &#34;add to cart&#34; button when a product has attributes</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-display-the-add-to-cart-button-when-a-product-has-attributes.html</link>
+      <title>BO - Shop Parameters - Product Settings - Enable display discounted unit price</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-unit-price.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-display-the-add-to-cart-button-when-a-product-has-attributes.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Display the &amp;quot;add to cart&amp;quot; button when a product has attributes Details  Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1072  Steps    Step Description Expected result     Go to BO &amp;gt; Design &amp;gt; Theme &amp;amp; Logo &amp;gt; Add new theme &amp;gt; Install hummingbird &amp;gt; Save &amp;gt; Use the theme hummingbird Message Successful update is displayed   Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings &amp;gt; Scroll down to Product page &amp;ldquo;Display the &amp;ldquo;Add to cart&amp;rdquo; button when a product has attributes&amp;rdquo; is set to YES   View my store &amp;gt; Go to category Clothes &amp;gt; Add to cart Hummingbird printed sweater Product is well added to the cart   Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings &amp;gt; Scroll down to Product page &amp;gt; Disable &amp;ldquo;Display the &amp;ldquo;Add to cart&amp;rdquo; button when a product has attributes&amp;rdquo; option Message Update successful is displayed   View my store &amp;gt; Add to cart Hummingbird printed sweater Button Add to cart is not displayed   Go to homepage &amp;gt; Add the same product to cart Product successfully added to your shopping cart    </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/product-page/bo-shop-parameters-product-settings-enable-display-discounted-unit-price.html</guid>
+      <description>BO - Shop Parameters - Product Settings - Enable display discounted unit price Details  Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1073 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/02_productPage/04_displayDiscountedPrice.ts  Steps    Step Description Expected result     Go to BO &amp;gt; Shop parameters &amp;gt; Product Settings &amp;gt; Scroll down to Product page block See that the option &amp;ldquo;Display the discounted unit price&amp;rdquo; is disabled   Create a standard product &amp;gt; Use following data &amp;gt; Put in online &amp;gt; Save Message Successful update is displayed   Preview the product FO is displayed with your Test product page.</description>
     </item>
     
     <item>
