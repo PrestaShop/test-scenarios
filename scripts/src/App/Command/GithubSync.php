@@ -16,18 +16,19 @@ class GithubSync extends AbstractCommand
 **Forge:** https://forge.prestashop.com/browse/%s
     
 EOD;
+    private const BASE_URL_SCENARIOS = 'https://build.prestashop-project.org/test-scenarios/scenarios';
 
-    private const GH_LABEL_ToBeAutomated = 'STATE : To Be Automated';
-    private const GH_LABEL_AutomationInProgress = 'STATE : Automation in progress';
-    private const GH_LABEL_Automated = 'STATE : Automated';
+    private const GH_LABEL_TOBEAUTOMATED = 'STATE : To Be Automated';
+    private const GH_LABEL_AUTOMATIONINPROGRESS = 'STATE : Automation in progress';
+    private const GH_LABEL_AUTOMATED = 'STATE : Automated';
     private const GH_LABELS = [
-        self::JIRA_ToBeAutomated => self::GH_LABEL_ToBeAutomated,
-        self::JIRA_AutomationInProgress => self::GH_LABEL_AutomationInProgress,
-        self::JIRA_Automated => self::GH_LABEL_Automated,
+        self::JIRA_ToBeAutomated => self::GH_LABEL_TOBEAUTOMATED,
+        self::JIRA_AutomationInProgress => self::GH_LABEL_AUTOMATIONINPROGRESS,
+        self::JIRA_Automated => self::GH_LABEL_AUTOMATED,
     ];
     private const JIRA_LABELS = [
-        self::GH_LABEL_AutomationInProgress => 111,
-        self::GH_LABEL_Automated => 61,
+        self::GH_LABEL_AUTOMATIONINPROGRESS => 111,
+        self::GH_LABEL_AUTOMATED => 61,
     ];
 
     /** @var string */
@@ -117,8 +118,7 @@ EOD;
                 continue;
             }
             $this->issues[$test['key']] = $test;
-            $this->issues[$test['key']]['url'] = 
-            'https://build.prestashop-project.org/test-scenarios/scenarios'
+            $this->issues[$test['key']]['url'] = self::BASE_URL_SCENARIOS
             . (
                 !empty($folder['testRepositoryPath'])
                 ? $this->slugify($folder['testRepositoryPath'], true) . DIRECTORY_SEPARATOR
@@ -253,10 +253,10 @@ EOD;
     {
         if (
             !(isset($ghIssue['labels'][0]['name'])
-                && $ghIssue['labels'][0]['name'] === self::GH_LABEL_AutomationInProgress
+                && $ghIssue['labels'][0]['name'] === self::GH_LABEL_AUTOMATIONINPROGRESS
                 && $jiraIssue['workflowStatus'] !== self::JIRA_AutomationInProgress)
             && !(isset($ghIssue['labels'][0]['name'])
-                && $ghIssue['labels'][0]['name'] === self::GH_LABEL_Automated
+                && $ghIssue['labels'][0]['name'] === self::GH_LABEL_AUTOMATED
                 && $jiraIssue['workflowStatus'] !== self::JIRA_Automated)
         ) {
             return;
