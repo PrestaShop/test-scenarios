@@ -27,4 +27,4 @@ jobs:
 
       - name: Export JIRA XRay Core 
         if: ${{ github.event_name == 'schedule' }}
-        run: php scripts/bin/console scenario:export:core --apikey ${{ secrets.JIRA_APIKEY }} --ghtoken ${{ secrets.GITHUB_TOKEN }} -v
+        run: php scripts/bin/console github:sync --apikey ${{ secrets.JIRA_APIKEY }} --ghtoken ${{ secrets.GITHUB_TOKEN }} -v
