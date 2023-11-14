@@ -6,9 +6,10 @@ weight: 1
 # BO - Shop Parameters - Customer Settings - Titles - Filter, sort and pagination
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1092
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/04_customerSettings/03_titles/01_filterSortAndPaginationTitles.ts
 
 ## Steps
 | Step Description | Expected result |
