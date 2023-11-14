@@ -25,6 +25,6 @@ jobs:
         if: ${{ github.event_name == 'schedule' }}
         run: cd scripts && composer install && cd ..
 
-      - name: Export JIRA XRay Core 
+      - name: JIRA - Github : Sync 
         if: ${{ github.event_name == 'schedule' }}
         run: php scripts/bin/console github:sync --apikey ${{ secrets.JIRA_APIKEY }} --ghtoken ${{ secrets.GITHUB_TOKEN }} -v
