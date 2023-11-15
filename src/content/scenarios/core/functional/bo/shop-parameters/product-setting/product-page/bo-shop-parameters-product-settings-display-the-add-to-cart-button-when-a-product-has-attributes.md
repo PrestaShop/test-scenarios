@@ -6,8 +6,9 @@ weight: 2
 # BO - Shop Parameters - Product Settings - Display the \"add to cart\" button when a product has attributes
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1072
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/02_productPage/02_displayAddToCartButton.ts
 
 ## Steps
 | Step Description | Expected result |
