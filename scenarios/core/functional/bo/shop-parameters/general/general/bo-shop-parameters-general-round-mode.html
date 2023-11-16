@@ -24,15 +24,15 @@
     
 
     
-    <link href="../../../../../../../css/font-awesome.min.css?1700029459" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1700029459" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1700029459" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1700029459" rel="stylesheet">
-    <link href="../../../../../../../css/auto-complete.css?1700029459" rel="stylesheet">
-    <link href="../../../../../../../style.css?1700029459" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1700115874" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1700115874" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1700115874" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1700115874" rel="stylesheet">
+    <link href="../../../../../../../css/auto-complete.css?1700115874" rel="stylesheet">
+    <link href="../../../../../../../style.css?1700115874" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1700029459"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1700115874"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -66676,7 +66676,7 @@
 <h2 id="details">Details</h2>
 <ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : [TEST] To be automated</li>
+<li><strong>Status</strong> : [TEST] Automation in progress</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1043">https://forge.prestashop.com/browse/TEST-1043</a></li>
 </ul>
 <h2 id="steps">Steps</h2>
@@ -66689,83 +66689,131 @@
 </thead>
 <tbody>
 <tr>
-<td><em>CASE 1 : Round up away from zero,when it is half way there(recommended)</em></td>
+<td><em>CASE 1 : Round up away from zero, when it is half way there (recommended)</em></td>
 <td></td>
 </tr>
 <tr>
-<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>G to Shop Parameters &gt; General &gt; Select Round mode &gt; Save</td>
 <td>Message &ldquo;Successful update&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
-<td>Items price is updated : 13.90 [€</td>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Add a new product &gt; Standard product &gt; Save</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
 </tr>
 <tr>
-<td><em>CASE 2 : Round down toward zero, when it is half way there</em></td>
+<td>Preview the product</td>
+<td>See the price is <em>17.12 €</em></td>
+</tr>
+<tr>
+<td><em>CASE 2 : Round down towards zero, when it is half way there</em></td>
 <td></td>
 </tr>
 <tr>
-<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Go to Shop Parameters &gt; General &gt; Select Round mode &gt; Save</td>
 <td>Message &ldquo;Successful update&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
-<td>Items price is updated : 13.90 [€</td>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.11 €</em></td>
 </tr>
 <tr>
 <td><em>CASE 3 : Round towards the next even value</em></td>
 <td></td>
 </tr>
 <tr>
-<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Go to Shop Parameters &gt; General &gt; Select Round mode &gt; Save</td>
 <td>Message &ldquo;Successful update&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
-<td>Items price is updated : 13.90 [€</td>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.12 €</em></td>
 </tr>
 <tr>
 <td><em>CASE 4 :</em> <em>Round towards the next odd value</em>*.*</td>
 <td></td>
 </tr>
 <tr>
-<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Go to Shop Parameters &gt; General &gt; Select Round mode &gt; Save</td>
 <td>Message &ldquo;Successful update&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
-<td>Items price is updated : 13.90 [€</td>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.11 €</em></td>
 </tr>
 <tr>
 <td><em>CASE 5 :</em> <em>Round up to the nearest value</em></td>
 <td></td>
 </tr>
 <tr>
-<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Go to Shop Parameters &gt; General &gt; Select Round mode &gt; Save</td>
 <td>Message &ldquo;Successful update&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
-<td>Items price is updated : 13.90 [€</td>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.12 €</em></td>
 </tr>
 <tr>
 <td><em>CASE 6 :</em> <em>Round down to the nearest value</em></td>
 <td></td>
 </tr>
 <tr>
-<td>GO to Shop Parameters &gt; General &gt; Select Round mode &gt; Click <em>Save</em> button</td>
+<td>Go to Shop Parameters &gt; General &gt; Select Round mode &gt; Save</td>
 <td>Message &ldquo;Successful update&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>GO to BO &gt; Catalog &gt; Products &gt; filter by Name &gt; click <em>Search</em> button</td>
-<td>Items price is updated : 13.90 [€</td>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.11 €</em></td>
 </tr>
 <tr>
-<td>Go to Catalog &gt; Products &gt; Click on the <em>three dots</em> &gt; Click <em>Delete</em></td>
-<td>A modal is displayed with two options : Cancel and Delete buttons<br>modal title : Delete selection</td>
+<td><em>Case when the last digit of price is &lt; 5</em></td>
+<td></td>
 </tr>
 <tr>
-<td>Click on <em>Delete</em> button</td>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Edit <em>TEST</em> product &gt; Save</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Edit <em>TEST</em> product &gt; Save</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.11 €</em></td>
+</tr>
+<tr>
+<td>Go to Shop Parameters &gt; General &gt; Select Round mode &gt; Save</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.12 €</em></td>
+</tr>
+<tr>
+<td><em>Case when the last digit of price is &gt; 5</em></td>
+<td></td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Edit <em>TEST</em> product &gt; Save</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Edit <em>TEST</em> product &gt; Save</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.12 €</em></td>
+</tr>
+<tr>
+<td>Go to Shop Parameters &gt; General &gt; Select Round mode &gt; Save</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Preview <em>TEST</em> product</td>
+<td>See the price is <em>17.11 €</em></td>
+</tr>
+<tr>
+<td>Go to Catalog &gt; Products &gt; Delete <em>TEST</em> product</td>
 <td>Message displayed : &ldquo;Successful deletion&rdquo;</td>
 </tr>
 </tbody>
@@ -66775,9 +66823,9 @@
 <footer class="article-footer">
 	
 <div>
-  Last updated on November 15, 2023
+  Last updated on November 16, 2023
   :
-  <a href="https://github.com/PrestaShop/test-scenarios/commit/976380c87ab8075edd1f50cb2a6fdc31fb327de0">"[Update] JIRA XRay Tests" (976380c)</a>
+  <a href="https://github.com/PrestaShop/test-scenarios/commit/4a3c5e04335876d3311bf9b1a4de30a9f3cda28c">"[Update] JIRA XRay Tests" (4a3c5e0)</a>
   
 </div>
 
@@ -66798,17 +66846,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1700029459"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1700029459"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1700029459"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1700029459"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1700029459"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1700029459"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1700029459"></script>
-    <script src="../../../../../../../js/learn.js?1700029459"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1700029459"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1700115874"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1700115874"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1700115874"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1700115874"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1700115874"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1700115874"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1700115874"></script>
+    <script src="../../../../../../../js/learn.js?1700115874"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1700115874"></script>
     
-    <script src="../../../../../../../main.js?1700029459"></script>
+    <script src="../../../../../../../main.js?1700115874"></script>
     
     
 
