@@ -3,6 +3,7 @@ name: Sync JIRA => Github
 on:
   schedule:
     - cron:  '0 7 * * *'
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -22,9 +23,7 @@ jobs:
           php-version: '7.4'
 
       - name: Composer install
-        if: ${{ github.event_name == 'schedule' }}
         run: cd scripts && composer install && cd ..
 
       - name: "JIRA - Github : Sync"
-        if: ${{ github.event_name == 'schedule' }}
-        run: php scripts/bin/console github:sync --apikey ${{ secrets.JIRA_APIKEY }} --ghtoken ${{ secrets.GITHUB_TOKEN }} -v
+        run: php scripts/bin/console github:sync --apikey ${{ secrets.JIRA_APIKEY }} --ghtoken ${{ secrets.GH_TOKEN }} -v
