@@ -41,7 +41,10 @@ EOD;
     private $github;
 
     /** @var array */
-    private $issues;
+    private $jiraIssues;
+
+    /** @var array */
+    private $ghIssues;
 
     /** @var boolean */
     private $isVerbose = false;
@@ -68,12 +71,15 @@ EOD;
         $this->isVerbose = $input->getOption('verbose');
         $this->output = $output;
 
-        $this->issues = [];
-
         // Fetch scenarios (To Be Automated / Automation In Progress / Automated)
+        $this->jiraIssues = [];
         $this->fetchJIRAScenarios();
 
-        foreach($this->issues as $key => $jiraIssue) {
+        // Fetch issues
+        $this->ghIssues = [];
+        $this->fetchGithubIssues();
+
+        foreach($this->jiraIssues as $key => $jiraIssue) {
             $ghIssue = $this->getGithubIssue($key);
             if (!$ghIssue) {
                 $this->actionCreateGHIssue($jiraIssue);
@@ -90,7 +96,7 @@ EOD;
             $this->actionUpdateJIRAFromGH($ghIssue, $jiraIssue);
         }
         
-        $output->writeLn(['', 'Sync done in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.']);
+        $this->output->writeLn(['', 'Sync done in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.']);
     }
 
     private function fetchJIRAScenarios(): void
@@ -117,8 +123,8 @@ EOD;
             )) {
                 continue;
             }
-            $this->issues[$test['key']] = $test;
-            $this->issues[$test['key']]['url'] = self::BASE_URL_SCENARIOS
+            $this->jiraIssues[$test['key']] = $test;
+            $this->jiraIssues[$test['key']]['url'] = self::BASE_URL_SCENARIOS
             . (
                 !empty($folder['testRepositoryPath'])
                 ? $this->slugify($folder['testRepositoryPath'], true) . DIRECTORY_SEPARATOR
@@ -134,17 +140,22 @@ EOD;
         }
     }
 
+    private function fetchGithubIssues(): array
+    {
+        $this->ghIssues = $this->github->getClient()->api('issue')->all('PrestaShop', 'test-scenarios');
+
+        return $this->ghIssues;
+    }
+
     private function getGithubIssue(string $keyJIRA): ?array
     {
-        $data = $this->github->getClient()
-            ->api('search')
-            ->issues('repo:PrestaShop/test-scenarios in:title "[' . $keyJIRA . ']" ');
-
-        if ($data['total_count'] === 0) {
-            return null;
+        foreach($this->ghIssues as $ghIssue) {
+            if (strpos($ghIssue['title'], '[' . $keyJIRA . ']') === 0) {
+                return $ghIssue;
+            }
         }
-
-        return $data['items'][0];
+        
+        return null;
     }
 
     private function getGHIssueTitle(array $jiraIssue): string
