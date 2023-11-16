@@ -6,8 +6,9 @@ weight: 3
 # BO - Shop Parameters - General - Allow iframes
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1045
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts
 
 ## Steps
 | Step Description | Expected result |

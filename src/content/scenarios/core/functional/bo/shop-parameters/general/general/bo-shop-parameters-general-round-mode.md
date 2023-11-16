@@ -6,8 +6,9 @@ weight: 4
 # BO - Shop Parameters - General - Round mode
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1043
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/05_roundMode.ts
 
 ## Steps
 | Step Description | Expected result |

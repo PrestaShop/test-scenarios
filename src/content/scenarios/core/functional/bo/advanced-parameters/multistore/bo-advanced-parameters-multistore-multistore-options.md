@@ -6,7 +6,7 @@ weight: 8
 # BO - Advanced Parameters - Multistore - Multistore options
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1190
 
 ## Steps
