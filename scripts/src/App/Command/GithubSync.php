@@ -2,6 +2,7 @@
 namespace Console\App\Command;
 
 use Console\App\Service\Github;
+use Github\Exception\RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -79,24 +80,37 @@ EOD;
         $this->ghIssues = [];
         $this->fetchGithubIssues();
 
-        foreach($this->jiraIssues as $key => $jiraIssue) {
-            $ghIssue = $this->getGithubIssue($key);
-            if (!$ghIssue) {
-                $this->actionCreateGHIssue($jiraIssue);
-                continue;
+        try {
+            foreach($this->jiraIssues as $key => $jiraIssue) {
+                $ghIssue = $this->getGithubIssue($key);
+                if (!$ghIssue) {
+                    $this->actionCreateGHIssue($jiraIssue);
+                    continue;
+                }
+    
+                // Update body if different
+                $this->actionUpdateGHIssueBody($ghIssue, $jiraIssue);
+    
+                // Update Github from JIRA (it there are no labels on GH)
+                $this->actionUpdateGHFromJIRA($ghIssue, $jiraIssue);
+    
+                // Update JIRA from Github
+                $this->actionUpdateJIRAFromGH($ghIssue, $jiraIssue);
             }
-
-            // Update body if different
-            $this->actionUpdateGHIssueBody($ghIssue, $jiraIssue);
-
-            // Update Github from JIRA (it there are no labels on GH)
-            $this->actionUpdateGHFromJIRA($ghIssue, $jiraIssue);
-
-            // Update JIRA from Github
-            $this->actionUpdateJIRAFromGH($ghIssue, $jiraIssue);
+            
+            $this->output->writeLn([
+                '',
+                'Sync done in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.',
+            ]);
+        } catch(RuntimeException $e) {
+            $this->output->writeLn([
+                '',
+                'Partial sync done in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.',
+                '',
+                '',
+                $e->getMessage(),
+            ]);
         }
-        
-        $this->output->writeLn(['', 'Sync done in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.']);
     }
 
     private function fetchJIRAScenarios(): void
