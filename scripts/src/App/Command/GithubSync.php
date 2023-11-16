@@ -80,6 +80,7 @@ EOD;
         $this->ghIssues = [];
         $this->fetchGithubIssues();
 
+        $count = 0;
         try {
             foreach($this->jiraIssues as $key => $jiraIssue) {
                 $ghIssue = $this->getGithubIssue($key);
@@ -96,6 +97,8 @@ EOD;
     
                 // Update JIRA from Github
                 $this->actionUpdateJIRAFromGH($ghIssue, $jiraIssue);
+
+                $count++;
             }
             
             $this->output->writeLn([
@@ -105,7 +108,7 @@ EOD;
         } catch(RuntimeException $e) {
             $this->output->writeLn([
                 '',
-                'Partial sync done in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.',
+                'Partial sync (' . $count . '/' .  count($this->jiraIssues). ') done in ' . (time() - $time) . 's with ' . $this->requestsCount . ' requests.',
                 '',
                 '',
                 $e->getMessage(),
