@@ -158,7 +158,15 @@ EOD;
 
     private function fetchGithubIssues(): array
     {
-        $this->ghIssues = $this->github->getClient()->api('issue')->all('PrestaShop', 'test-scenarios');
+        $pageNo = 1;
+        do {
+            $issues = $this->github->getClient()->api('issue')->all('PrestaShop', 'test-scenarios', [
+                'page' => $pageNo,
+            ]);
+
+            $this->ghIssues = array_merge($this->ghIssues, $issues);
+            $pageNo++;
+        } while(!empty($issues));
 
         return $this->ghIssues;
     }

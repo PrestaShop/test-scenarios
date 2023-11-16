@@ -7,7 +7,6 @@ namespace Console\App\Service;
 use Console\App\Service\Github\Filters;
 use Exception;
 use Github\Client;
-use Github\Exception\RuntimeException;
 use League\Flysystem\Filesystem;
 
 class Github
