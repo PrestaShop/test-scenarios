@@ -83,6 +83,7 @@ EOD;
         $count = 0;
         try {
             foreach($this->jiraIssues as $key => $jiraIssue) {
+                $count++;
                 $ghIssue = $this->getGithubIssue($key);
                 if (!$ghIssue) {
                     $this->actionCreateGHIssue($jiraIssue);
@@ -97,8 +98,6 @@ EOD;
     
                 // Update JIRA from Github
                 $this->actionUpdateJIRAFromGH($ghIssue, $jiraIssue);
-
-                $count++;
             }
             
             $this->output->writeLn([
