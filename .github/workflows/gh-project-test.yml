@@ -5,38 +5,18 @@ on:
     types: [ labeled ]
 
 jobs:
-  move-todo:
-    runs-on: ubuntu-latest
-    if: | 
-        contains(github.event.issue.labels.*.name, 'STATE : To Be Automated')
-    steps:
-      - name: Move issue to "Todo" column
-        uses: alex-page/github-project-automation-plus@v0.8.3
-        with:
-          project: "QA Scenarios"
-          column: "Todo"
-          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
-
-  move-inprogress:
-    if: | 
-        contains(github.event.issue.labels.*.name, 'STATE : Automation in progress')
+  move:
     runs-on: ubuntu-latest
     steps:
-      - name: Move issue to "In Progress" column
-        uses: alex-page/github-project-automation-plus@v0.8.3
+      - name: Move issue to column
+        uses: Machine-Maker/add-to-project-action@v0.2.0
         with:
-          project: "QA Scenarios"
-          column: "In Progress"
-          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
-
-  move-done:
-    if: | 
-        contains(github.event.issue.labels.*.name, 'STATE : Automated')
-    runs-on: ubuntu-latest
-    steps:
-      - name: Move issue to "Done" column
-        uses: alex-page/github-project-automation-plus@v0.8.3
-        with:
-          project: "QA Scenarios"
-          column: "Done"
-          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
+          github-token: ${{ secrets.GHPROJECT_TOKEN }}
+          project-url: https://github.com/orgs/PrestaShop/projects/30/views/1
+          column-field: Status
+          label-to-column-map: |
+            {
+              "STATE : To Be Automated": "Todo",
+              "STATE : Automation in progress": "In Progress",
+              "STATE : Automated": "Done"
+            }
