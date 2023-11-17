@@ -15,7 +15,7 @@ jobs:
         with:
           project: "QA Scenarios"
           column: "Todo"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
 
   move-inprogress:
     if: | 
@@ -27,7 +27,7 @@ jobs:
         with:
           project: "QA Scenarios"
           column: "In Progress"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
 
   move-done:
     if: | 
@@ -39,4 +39,4 @@ jobs:
         with:
           project: "QA Scenarios"
           column: "Done"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
