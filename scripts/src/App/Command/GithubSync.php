@@ -229,11 +229,16 @@ EOD;
         }
     }
 
-    private function actionUpdateGHIssueBody(array $ghIssue, array $jiraIssue): void
+    private function actionUpdateGHIssueBody(array &$ghIssue, array $jiraIssue): void
     {
         if ($ghIssue['body'] === $this->getGHIssueBody($jiraIssue)) {
             return;
         }
+
+        $dataGH = [
+            'title' => $this->getGHIssueTitle($jiraIssue),
+            'body' => $this->getGHIssueBody($jiraIssue),
+        ];
 
         $this->github->getClient()
             ->api('issue')
@@ -241,11 +246,11 @@ EOD;
                 'PrestaShop',
                 'test-scenarios',
                 $ghIssue['number'],
-                [
-                    'title' => $this->getGHIssueTitle($jiraIssue),
-                    'body' => $this->getGHIssueBody($jiraIssue),
-                ]
+                $dataGH
             );
+        
+        // Update
+        $ghIssue = array_merge($ghIssue, $dataGH);
 
         if ($this->isVerbose) {
             $this->output->writeln(sprintf(
@@ -255,11 +260,27 @@ EOD;
         }
     }
 
-    private function actionUpdateGHFromJIRA(array $ghIssue, array $jiraIssue): void
+    private function actionUpdateGHFromJIRA(array &$ghIssue, array $jiraIssue): void
     {
-        if (!empty($ghIssue['labels'])) {
+        if (
+            !empty($ghIssue['labels'])
+            && !(isset($ghIssue['labels'][0]['name'])
+                && $ghIssue['labels'][0]['name'] === self::GH_LABEL_AUTOMATIONINPROGRESS
+                && $jiraIssue['workflowStatus'] === self::JIRA_Automated)
+            && !(isset($ghIssue['labels'][0]['name'])
+                && $ghIssue['labels'][0]['name'] === self::GH_LABEL_TOBEAUTOMATED
+                && ($jiraIssue['workflowStatus'] === self::JIRA_AutomationInProgress || $jiraIssue['workflowStatus'] === self::JIRA_Automated))
+        ) {
             return;
         }
+
+        $dataGH = [
+            'state' => $jiraIssue['workflowStatus'] == self::JIRA_Automated ? 'closed' : 'open',
+            'state_reason' => $jiraIssue['workflowStatus'] == self::JIRA_Automated ? 'completed' : null,
+            'labels' => [
+                self::GH_LABELS[$jiraIssue['workflowStatus']]
+            ]
+        ];
 
         $this->github->getClient()
             ->api('issue')
@@ -267,14 +288,11 @@ EOD;
                 'PrestaShop',
                 'test-scenarios',
                 $ghIssue['number'],
-                [
-                    'state' => $jiraIssue['workflowStatus'] == self::JIRA_Automated ? 'closed' : 'open',
-                    'state_reason' => $jiraIssue['workflowStatus'] == self::JIRA_Automated ? 'completed' : null,
-                    'labels' => [
-                        self::GH_LABELS[$jiraIssue['workflowStatus']]
-                    ]
-                ]
+                $dataGH
             );
+        
+        // Update
+        $ghIssue = array_merge($ghIssue, $dataGH);
 
         if ($this->isVerbose) {
             $this->output->writeln(sprintf(
