@@ -32,6 +32,11 @@ EOD;
         self::GH_LABEL_AUTOMATED => 61,
     ];
 
+    private const GH_ASSIGNEES = [
+        'Franck Lefèvre' => 'Progi1984',
+        'Nesrine Abdmouleh' => 'nesrineabdmouleh',
+    ];
+
     /** @var string */
     protected $name = 'github:sync';
 
@@ -92,6 +97,9 @@ EOD;
     
                 // Update body if different
                 $this->actionUpdateGHIssueBody($ghIssue, $jiraIssue);
+    
+                // Update assignee if different
+                $this->actionUpdateGHIssueAssignee($ghIssue, $jiraIssue);
     
                 // Update Github from JIRA (it there are no labels on GH)
                 $this->actionUpdateGHFromJIRA($ghIssue, $jiraIssue);
@@ -255,6 +263,44 @@ EOD;
         if ($this->isVerbose) {
             $this->output->writeln(sprintf(
                 '%s : Updated body & title',
+                $jiraIssue['key']
+            ));
+        }
+    }
+
+    private function actionUpdateGHIssueAssignee(array &$ghIssue, array $jiraIssue): void
+    {
+        if (!isset(self::GH_ASSIGNEES[$jiraIssue['assignee']])) {
+            return;
+        }
+        if (in_array(
+            self::GH_ASSIGNEES[$jiraIssue['assignee']],
+            $ghIssue['assignees']
+        )) {
+            return;
+        }
+
+        $dataGH = [
+            'assignees' => [
+                self::GH_ASSIGNEES[$jiraIssue['assignee']],
+            ],
+        ];
+
+        $this->github->getClient()
+            ->api('issue')
+            ->update(
+                'PrestaShop',
+                'test-scenarios',
+                $ghIssue['number'],
+                $dataGH
+            );
+        
+        // Update
+        $ghIssue = array_merge($ghIssue, $dataGH);
+
+        if ($this->isVerbose) {
+            $this->output->writeln(sprintf(
+                '%s : Updated assignee (' . self::GH_ASSIGNEES[$jiraIssue['assignee']] .')',
                 $jiraIssue['key']
             ));
         }
