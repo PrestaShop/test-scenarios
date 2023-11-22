@@ -6,8 +6,9 @@ weight: 3
 # BO - Advanced Parameters - Administration - Notifications
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1143
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/03_administration/03_notifications.ts
 
 ## Steps
 | Step Description | Expected result |
