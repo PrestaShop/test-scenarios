@@ -273,11 +273,10 @@ EOD;
         if (!isset(self::GH_ASSIGNEES[$jiraIssue['assignee']])) {
             return;
         }
-        if (in_array(
-            self::GH_ASSIGNEES[$jiraIssue['assignee']],
-            $ghIssue['assignees']
-        )) {
-            return;
+        foreach($ghIssue['assignees'] as $ghIssueAssignee) {
+            if ($ghIssueAssignee['login'] === self::GH_ASSIGNEES[$jiraIssue['assignee']]) {
+                return;
+            }
         }
 
         $dataGH = [
