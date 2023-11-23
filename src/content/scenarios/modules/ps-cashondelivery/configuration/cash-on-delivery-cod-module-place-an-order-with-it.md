@@ -6,8 +6,9 @@ weight: 1
 # Cash on delivery (COD) module - Place an order with it
 ## Details
 * **Component** : ps_cashondelivery
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4113
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_cashondelivery/02_configuration/01_placeOrderWithIt.ts
 
 ## Steps
 | Step Description | Expected result |
