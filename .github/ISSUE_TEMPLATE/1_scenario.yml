@@ -1,0 +1,56 @@
+name: 🚀 Scenario
+description: Suggest a new scenario to improve PrestaShop
+labels: [ "scenario" ]
+assignees: 
+  - 'AureRita'
+  - 'florine2623'
+  - 'paulnoelcholot'
+body:
+  - type: markdown
+    attributes:
+      value: |
+         ### ❗️ Read this before submitting your scenario:
+         - **Write in English.** Reports in all other languages will be closed.
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      options:
+        - label: I understand and accept the project's [code of conduct](https://github.com/PrestaShop/PrestaShop/blob/develop/CODE_OF_CONDUCT.md).
+          required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      multiple: false
+      options:
+        - Core
+        - Modules
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: Define the path of the scenario
+      placeholder: Core > Functional > BO > Catalog > Files
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps of the scenario
+      value: |
+        <!-- This is a sample : Modify cells in the table -->
+        | Step Description | Expected result |
+        | ---------------- | --------------- |
+        | Go to customers > addresses page  | Page title contains ‘Addresses’  |
+        | reset all filters  | Number of addresses > 0  |
+    validations:
+      required: true
+  - type: input
+    id: sponsor-company
+    attributes:
+      label: Your company or customer's name goes here (if applicable).
+    validations:
+      required: false
