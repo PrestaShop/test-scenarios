@@ -6,8 +6,9 @@ weight: 2
 # BO - Advanced Parameters - Administration - Upload quota
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1142
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/03_administration/02_uploadQuota.ts
 
 ## Steps
 | Step Description | Expected result |
