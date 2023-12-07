@@ -14,10 +14,14 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
+| Go to module manager > Contact form module > configuration page and Enable Receive customers\' messages by email | Check success message |
+| Enable Send confirmation email to your customers | Check success message |
 | Go to FO > In footer, click on Our Company > Contact us | Contact form is displayed |
 | Fill the form > Send | Message "Invalid email address." is displayed |
 | Fill the form > Send | Message "Invalid email address." is displayed |
 | Fill the form > Send | Message "The message cannot be blank." is displayed |
 | Click on "Contact us" in header > Fill the form again > Send | Message "Your message has been successfully sent to our team." is displayed |
+| Check email received to the merchant to inform him of the message | in the email subject => 'Message from contact form' |
+| Check email received to the customer to inform him the message has been sent successfully |  |
 | Go to BO > Customer Service > Customer Service page | * The Customer Service page is well displayed & the last message is well displayed<br> * The email is ok<br> * the Messages is ok |
 | Delete the last message & confirm the deletion | The alert "Successful deletion." is well displayed |
