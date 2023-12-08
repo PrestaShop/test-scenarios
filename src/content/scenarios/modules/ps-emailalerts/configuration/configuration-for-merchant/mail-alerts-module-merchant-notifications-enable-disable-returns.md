@@ -6,14 +6,15 @@ weight: 9
 # Mail alerts module - Merchant notifications - Enable/Disable returns
 ## Details
 * **Component** : ps_emailalerts
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4124
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Modules > Module manager and search ps_emailalerts | The module page list should be displayed and *Mail alerts* module should be displayed on the list |
-| Click on "Configure" button at the right of the module | * The "Configure" page is displayed<br> * There are 2 sections: "Customer notifications" and "Merchant notifications"<br> * On "Merchant notifications": "Returns" is set to "Yes" |
+| Click on "Configure" button at the right of the module | * The "Configure" page is displayed<br> * There are 2 sections: "Customer notifications" and "Merchant notifications"<br> * On "Merchant notifications": "Returns" is set to "Yes". No email is set. |
+| Disable "New order" and "Out of stock" > Add email "demo@prestashop.com" in Returns > Save | Message Settings updated successfully is displayed |
 | Go to Orders > Orders > Change status to "Delivered" of the order just placed (pre-condition) by clicking on the status list | * After page loading, a successful message "Successful update." is displayed<br> * The status changed from your payment status to "Delivered" |
 | Go to FO > Click on username account on the header | Your account page is displayed |
 | Click on "Order history and details tab" > Click on "Details" link on the first order (the one withe "Delivered status") | The "Order details" page of the order is displayed |
