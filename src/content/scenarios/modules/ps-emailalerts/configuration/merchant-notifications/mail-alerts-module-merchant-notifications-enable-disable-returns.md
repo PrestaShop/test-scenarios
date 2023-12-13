@@ -6,8 +6,9 @@ weight: 9
 # Mail alerts module - Merchant notifications - Enable/Disable returns
 ## Details
 * **Component** : ps_emailalerts
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4124
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/02_configuration/02_merchantNotifications/04_enableDisableReturn.ts
 
 ## Steps
 | Step Description | Expected result |
