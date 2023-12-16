@@ -80,7 +80,7 @@ weight: 1
 | Set these fields:<br> # Information:<br> ## Name<br> ## Description<br> ## Priority = 1<br> # Actions:<br> ## Discount = 2 Euro tax included<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
-| Click on "Proceed to checkout" | Check that Cart rule n°2 is applied *before* Cart rule n°1, Total is OK |
+| Click on "Proceed to checkout" | Check that Cart rule n°2 (with priority 1)  is applied *before* Cart rule n°1 (with priority 2) , Total is OK |
 | Remove the product from the Shopping cart page | The product is well removed |
 | Go back to the BO > Cart rules page | The cart rules page is well displayed |
 | Delete the cart rules with bulk action and confirm the deletion | A green alert "The selection has been successfully deleted." is displayed |
@@ -124,7 +124,7 @@ weight: 1
 | Remove the product | The product is well removed |
 | Go back to the BO > Cart rules page | The cart rules page is well displayed |
 | Delete the cart rule and confirm the deletion | A green alert "Successful deletion." is displayed |
-| A green alert "Successful deletion." is displayed | The "Add new cart rule" page is well displayed |
+| Click on "Add new cart rule" page | The "Add new cart rule" page is well displayed |
 | *Case11: Check Total available for each User = 1*<br><br>Set these fields:<br> # Information:<br> ## Name<br> ## Description<br> ## Code<br> # Conditions:<br> ## Total available =2<br> ## Total available for each user =1<br> # Actions:<br> ## Discount = 1 euro<br><br>and click on Save | An alert "Successful creation." is displayed |
 | Go to FO | The FO is well displayed |
 | Add product to cart | The modal "Product successfully added to your shopping cart" is displayed |
