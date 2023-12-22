@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+<div id="home" class="bg-green">
+	{{if .Site.Home.Content }}
+	{{.Site.Home.Content}}
+	{{else}}
+		No content
+	{{ end }}
+</div>
+
+{{ partial "footer.html" . }}

@@ -2,5 +2,5 @@
 title: Home
 ---
 
-# PrestaShop Tests Documentation
+# Tests Documentation
 
