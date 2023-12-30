@@ -6,4 +6,4 @@ chapter: true
 
 # Module selection
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

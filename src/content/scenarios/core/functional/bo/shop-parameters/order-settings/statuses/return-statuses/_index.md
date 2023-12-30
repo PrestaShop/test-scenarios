@@ -6,4 +6,4 @@ chapter: true
 
 # Return statuses
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

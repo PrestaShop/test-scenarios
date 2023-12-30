@@ -6,4 +6,4 @@ chapter: true
 
 # statssearch
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -7,4 +7,3 @@ weight: 1
 ## Details
 * **Status** : Approved
 * **Scenario** : https://forge.prestashop.com/browse/TEST-400
-

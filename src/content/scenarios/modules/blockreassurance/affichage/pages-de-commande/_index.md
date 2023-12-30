@@ -6,4 +6,4 @@ chapter: true
 
 # Pages de commande
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

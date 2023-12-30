@@ -6,4 +6,4 @@ chapter: true
 
 # Order confirmation
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

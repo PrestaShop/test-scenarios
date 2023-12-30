@@ -6,4 +6,4 @@ chapter: true
 
 # SQL Manager
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

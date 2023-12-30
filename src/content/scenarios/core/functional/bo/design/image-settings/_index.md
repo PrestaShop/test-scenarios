@@ -6,4 +6,4 @@ chapter: true
 
 # Image Settings
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

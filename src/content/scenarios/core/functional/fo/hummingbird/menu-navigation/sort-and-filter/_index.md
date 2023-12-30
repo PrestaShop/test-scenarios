@@ -6,4 +6,4 @@ chapter: true
 
 # Sort and filter
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

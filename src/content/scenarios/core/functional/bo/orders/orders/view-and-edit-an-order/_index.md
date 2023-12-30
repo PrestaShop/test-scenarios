@@ -6,4 +6,4 @@ chapter: true
 
 # View and edit an order
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

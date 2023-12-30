@@ -6,4 +6,4 @@ chapter: true
 
 # Contact us
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -6,4 +6,4 @@ chapter: true
 
 # ps_contactinfo
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

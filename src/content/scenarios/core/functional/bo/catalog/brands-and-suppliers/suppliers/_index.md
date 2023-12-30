@@ -6,4 +6,4 @@ chapter: true
 
 # Suppliers
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

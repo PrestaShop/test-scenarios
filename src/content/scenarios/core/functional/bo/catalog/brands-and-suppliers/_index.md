@@ -6,4 +6,4 @@ chapter: true
 
 # Brands and Suppliers
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -6,4 +6,4 @@ chapter: true
 
 # contactform
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

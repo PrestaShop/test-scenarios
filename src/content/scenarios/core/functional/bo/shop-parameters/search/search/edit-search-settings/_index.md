@@ -6,4 +6,4 @@ chapter: true
 
 # Edit Search Settings
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

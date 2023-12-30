@@ -6,4 +6,4 @@ chapter: true
 
 # Modules
 
-{{% children %}}
+{{% children /%}}

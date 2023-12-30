@@ -6,4 +6,4 @@ chapter: true
 
 # psgdpr
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

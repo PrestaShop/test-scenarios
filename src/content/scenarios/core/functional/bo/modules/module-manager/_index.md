@@ -6,4 +6,4 @@ chapter: true
 
 # Module Manager
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -6,4 +6,4 @@ chapter: true
 
 # Front Office
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -6,4 +6,4 @@ chapter: true
 
 # ps_sharebuttons
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

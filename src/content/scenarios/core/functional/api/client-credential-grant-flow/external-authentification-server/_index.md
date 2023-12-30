@@ -6,4 +6,4 @@ chapter: true
 
 # External Authentification Server
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

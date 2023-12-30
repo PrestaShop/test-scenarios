@@ -6,4 +6,4 @@ chapter: true
 
 # Navigate in Categories
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

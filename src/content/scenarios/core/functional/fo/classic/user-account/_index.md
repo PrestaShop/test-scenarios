@@ -6,4 +6,4 @@ chapter: true
 
 # User account
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

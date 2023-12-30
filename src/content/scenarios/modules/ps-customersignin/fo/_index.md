@@ -6,4 +6,4 @@ chapter: true
 
 # FO
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

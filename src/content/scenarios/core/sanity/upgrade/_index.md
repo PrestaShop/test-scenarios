@@ -6,4 +6,4 @@ chapter: true
 
 # Upgrade
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -6,4 +6,4 @@ chapter: true
 
 # Order history
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

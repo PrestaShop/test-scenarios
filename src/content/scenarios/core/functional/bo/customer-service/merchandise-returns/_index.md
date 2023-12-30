@@ -6,4 +6,4 @@ chapter: true
 
 # Merchandise returns
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

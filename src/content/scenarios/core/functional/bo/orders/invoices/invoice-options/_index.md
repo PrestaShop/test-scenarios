@@ -6,4 +6,4 @@ chapter: true
 
 # Invoice Options
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

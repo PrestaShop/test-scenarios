@@ -6,4 +6,4 @@ chapter: true
 
 # Trafic and Seo
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}
