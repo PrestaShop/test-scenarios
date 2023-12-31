@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.85.0" />
+    <meta name="generator" content="Hugo 0.121.1">
     <meta name="description" content="Test Scenarios of the PrestaShop project">
 <meta name="twitter:image" content="https://build.prestashop-project.org/test-scenarios/img/social-cover-2024.jpg" />
 <meta name="twitter:site" content="@prestashop" />
@@ -22,13 +22,13 @@
     <title>BO - CRUD Product with combinations :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1704003932" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1704003932" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1704003932" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1704003932" rel="stylesheet"><link href="../../../../css/auto-complete.css?1704003932" rel="stylesheet">
-    <link href="../../../../style.css?1704003932" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1704013524" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1704013524" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1704013524" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1704013524" rel="stylesheet"><link href="../../../../css/auto-complete.css?1704013524" rel="stylesheet">
+    <link href="../../../../style.css?1704013524" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1704003932"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1704013524"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -42566,7 +42566,6 @@
     <li><a href="#bo---crud-product-with-combinations">BO - CRUD Product with combinations</a>
       <ul>
         <li><a href="#details">Details</a></li>
-        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -66662,81 +66661,6 @@
 <li><strong>Test</strong> : <a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/03_CRUDProductWithCombinations.ts">https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/03_CRUDProductWithCombinations.ts</a></li>
 </ul>
 
-<h2 id="steps">Steps<a href="#steps"></a></h2><table>
-<thead>
-<tr>
-<th>Step Description</th>
-<th>Expected result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Go to BO &gt; Catalog &gt; Products</td>
-<td>Products list page is displayed correctly</td>
-</tr>
-<tr>
-<td>Click on &ldquo;New product&rdquo; button on the top right of the page &gt; Choose &ldquo;Product with combinations&rdquo; block in the modal</td>
-<td>* A modal &ldquo;Add new product&rdquo; is displayed<br> * A description by type is displayed. For Standard product:  &ldquo;A product with different variations (size, color, etc.) from which customers can choose.&rdquo;</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Add new product&rdquo; button</td>
-<td>* New Product page on &ldquo;Description&rdquo; tab is displayed<br> * &ldquo;Product with combinations&rdquo; type description is displayed below the product name field</td>
-</tr>
-<tr>
-<td>Fill the main informations on &ldquo;Description&rdquo; tab</td>
-<td>The content is added</td>
-</tr>
-<tr>
-<td>Go to &ldquo;Details&rdquo; tab &gt; Fill the &ldquo;Reference&rdquo; field</td>
-<td>The content is added</td>
-</tr>
-<tr>
-<td>Go to &ldquo;Combinations&rdquo; tab &gt; Click on &ldquo;Generate combinations&rdquo; button</td>
-<td>A &ldquo;Generate combinations&rdquo; modal is displayed</td>
-</tr>
-<tr>
-<td>Check &ldquo;Size&rdquo; and &ldquo;Color&rdquo; checkboxes &gt; Click on &ldquo;Generate XX combinations&rdquo; button</td>
-<td>* All attributes is added on the empty field<br> * &ldquo;Successfully generated 56 combinations&rdquo; is displayed</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Cancel&rdquo; button or the close icon of the modal</td>
-<td>The modal is well removed</td>
-</tr>
-<tr>
-<td>Go to &ldquo;Pricing&rdquo; tab &gt; Edit &ldquo;Retail price&rdquo; section</td>
-<td>* &ldquo;Retail price (tax incl.)&rdquo;  field shoul be  &ldquo;15&rdquo;<br> * The content is added</td>
-</tr>
-<tr>
-<td>Click on the &ldquo;Offline&rdquo; switch button at the bottom of the page (at the left of the &ldquo;Save button&rdquo;) &amp; Click on the &ldquo;Save button&rdquo;</td>
-<td>* The switch button is set to &ldquo;Online&rdquo; and is green<br> * &ldquo;Successful update&rdquo; message is displayed<br> * The &ldquo;Save&rdquo; button is changed by &ldquo;Save and publish&rdquo; button</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Preview&rdquo; button at the bottom of the page and check all data is correct on the preview</td>
-<td>* New tab is opened to show the product in FO.<br> * Product is displayed correctly.<br> * Data is correct on the preview in FO</td>
-</tr>
-<tr>
-<td>Go to back to browser tab of the BO &gt; Edit the product by changing every data on each tab above (except combinations) &gt; Click on &ldquo;Save and publish&rdquo; button</td>
-<td>&ldquo;Successful update&rdquo; message is displayed</td>
-</tr>
-<tr>
-<td>Edit the product by add more combinations data on &ldquo;Combinations&rdquo; tab</td>
-<td>* &ldquo;Cancel&rdquo; / &ldquo;Reset&rdquo; / &ldquo;Save list&rdquo; buttons are displayed<br> * &ldquo;Update successful&rdquo; message is displayed</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Save and publish&rdquo; button &gt; Click on &ldquo;Preview&rdquo; button at the bottom of the page and check all data is correct on the preview</td>
-<td>* &ldquo;Successful update&rdquo; message is displayed<br> * New tab is opened to show the product in FO.<br> * Product is displayed correctly.<br> * Data is correct on the preview in FO</td>
-</tr>
-<tr>
-<td>Go to back to browser tab of the BO &gt; Click on &ldquo;Delete&rdquo; button at the bottom of the page</td>
-<td>A modal is displayed with two buttons:<br> * Cancel<br> * Delete</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Delete&rdquo; button</td>
-<td>* Products list page is displayed<br> * &ldquo;Successful deletion&rdquo; message is displayed<br> * The product is well removed</td>
-</tr>
-</tbody>
-</table>
-
 
 <footer class="article-footer">
 	
@@ -66754,17 +66678,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1704003932"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1704003932"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1704003932"></script>
-    <script src="../../../../js/jquery.sticky.js?1704003932"></script>
-    <script src="../../../../js/featherlight.min.js?1704003932"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1704003932"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1704003932"></script>
-    <script src="../../../../js/learn.js?1704003932"></script>
-    <script src="../../../../js/hugo-learn.js?1704003932"></script>
+    <script src="../../../../js/clipboard.min.js?1704013524"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1704013524"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1704013524"></script>
+    <script src="../../../../js/jquery.sticky.js?1704013524"></script>
+    <script src="../../../../js/featherlight.min.js?1704013524"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1704013524"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1704013524"></script>
+    <script src="../../../../js/learn.js?1704013524"></script>
+    <script src="../../../../js/hugo-learn.js?1704013524"></script>
     
-    <script src="../../../../main.js?1704003932"></script>
+    <script src="../../../../main.js?1704013524"></script>
     
     
     
