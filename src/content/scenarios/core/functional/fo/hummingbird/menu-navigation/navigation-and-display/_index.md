@@ -6,4 +6,4 @@ chapter: true
 
 # Navigation and display
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

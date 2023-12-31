@@ -6,4 +6,4 @@ chapter: true
 
 # ps_viewedproduct
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -6,4 +6,4 @@ chapter: true
 
 # Theme & Logo
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

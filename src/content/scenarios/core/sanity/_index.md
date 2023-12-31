@@ -6,4 +6,4 @@ chapter: true
 
 # Sanity
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

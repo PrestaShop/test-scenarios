@@ -6,4 +6,4 @@ chapter: true
 
 # Gift options
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

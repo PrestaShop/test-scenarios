@@ -6,4 +6,4 @@ chapter: true
 
 # Shop Parameters
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

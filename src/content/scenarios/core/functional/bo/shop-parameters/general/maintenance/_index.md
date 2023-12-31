@@ -6,4 +6,4 @@ chapter: true
 
 # Maintenance
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

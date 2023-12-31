@@ -6,4 +6,4 @@ chapter: true
 
 # Customers Setting
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

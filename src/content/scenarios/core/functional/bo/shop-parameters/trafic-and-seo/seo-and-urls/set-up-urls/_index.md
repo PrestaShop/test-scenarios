@@ -6,4 +6,4 @@ chapter: true
 
 # Set up urls
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

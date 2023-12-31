@@ -6,4 +6,4 @@ chapter: true
 
 # Hook
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

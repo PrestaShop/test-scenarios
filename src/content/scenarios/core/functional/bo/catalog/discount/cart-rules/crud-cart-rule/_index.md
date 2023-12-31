@@ -6,4 +6,4 @@ chapter: true
 
 # CRUD Cart rule
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

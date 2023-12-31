@@ -6,4 +6,4 @@ chapter: true
 
 # Products stocks setting
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

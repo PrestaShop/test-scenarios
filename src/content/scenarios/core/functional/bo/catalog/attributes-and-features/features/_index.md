@@ -6,4 +6,4 @@ chapter: true
 
 # Features
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

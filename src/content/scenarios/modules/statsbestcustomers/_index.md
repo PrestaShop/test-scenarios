@@ -6,4 +6,4 @@ chapter: true
 
 # statsbestcustomers
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

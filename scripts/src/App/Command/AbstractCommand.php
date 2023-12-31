@@ -233,7 +233,7 @@ chapter: true
 
 # ' . $suiteName . '
 
-{{% children ' . ($withTitle ? 'titlePages="Tests" titleSections="Categories" ' : '') . '%}}
+{{% children ' . ($withTitle ? 'titlePages="Tests" titleSections="Categories" ' : '') . '/%}}
 ';
     }
 

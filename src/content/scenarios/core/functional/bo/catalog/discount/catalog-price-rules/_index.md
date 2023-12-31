@@ -6,4 +6,4 @@ chapter: true
 
 # Catalog price rules
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -6,4 +6,4 @@ chapter: true
 
 # ps_customersignin
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

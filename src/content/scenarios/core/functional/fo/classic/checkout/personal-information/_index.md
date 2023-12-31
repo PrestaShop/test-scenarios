@@ -6,4 +6,4 @@ chapter: true
 
 # Personal information
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

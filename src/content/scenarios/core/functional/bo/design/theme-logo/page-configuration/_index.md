@@ -6,4 +6,4 @@ chapter: true
 
 # Page Configuration
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

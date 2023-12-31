@@ -6,4 +6,4 @@ chapter: true
 
 # ProductV2BO
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

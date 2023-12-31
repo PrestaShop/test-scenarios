@@ -6,4 +6,4 @@ chapter: true
 
 # ps_dataprivacy
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

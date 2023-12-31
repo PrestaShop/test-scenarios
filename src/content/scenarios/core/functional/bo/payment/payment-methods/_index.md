@@ -6,4 +6,4 @@ chapter: true
 
 # Payment methods
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

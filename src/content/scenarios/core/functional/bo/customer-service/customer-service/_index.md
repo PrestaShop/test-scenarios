@@ -6,4 +6,4 @@ chapter: true
 
 # Customer Service
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

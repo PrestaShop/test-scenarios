@@ -6,4 +6,4 @@ chapter: true
 
 # Endpoints
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

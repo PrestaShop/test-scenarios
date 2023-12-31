@@ -6,4 +6,4 @@ chapter: true
 
 # Client Credential Grant Flow
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

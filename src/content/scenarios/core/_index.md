@@ -6,4 +6,4 @@ chapter: true
 
 # Core
 
-{{% children %}}
+{{% children /%}}

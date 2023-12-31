@@ -8,4 +8,3 @@ weight: 6
 * **Component** : Core
 * **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7537
-

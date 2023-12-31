@@ -6,4 +6,4 @@ chapter: true
 
 # Translations
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

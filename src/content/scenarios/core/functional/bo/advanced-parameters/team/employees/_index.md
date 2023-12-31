@@ -6,4 +6,4 @@ chapter: true
 
 # Employees
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

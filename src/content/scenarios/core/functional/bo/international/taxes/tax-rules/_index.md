@@ -6,4 +6,4 @@ chapter: true
 
 # Tax Rules
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

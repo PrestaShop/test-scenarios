@@ -6,4 +6,4 @@ chapter: true
 
 # Order Messages
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

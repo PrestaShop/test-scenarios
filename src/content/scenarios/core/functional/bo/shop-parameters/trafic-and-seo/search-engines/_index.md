@@ -6,4 +6,4 @@ chapter: true
 
 # Search Engines
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}

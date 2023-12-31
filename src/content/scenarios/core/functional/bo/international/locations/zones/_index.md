@@ -6,4 +6,4 @@ chapter: true
 
 # Zones
 
-{{% children titlePages="Tests" titleSections="Categories" %}}
+{{% children titlePages="Tests" titleSections="Categories" /%}}
