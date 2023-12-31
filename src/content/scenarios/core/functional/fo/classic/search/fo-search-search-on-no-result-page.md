@@ -8,3 +8,4 @@ weight: 8
 * **Component** : Core
 * **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1236
+

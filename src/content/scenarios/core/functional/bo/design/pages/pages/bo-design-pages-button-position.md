@@ -7,3 +7,4 @@ weight: 5
 ## Details
 * **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7323
+

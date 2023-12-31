@@ -8,3 +8,4 @@ weight: 2
 * **Component** : Core
 * **Status** : Closed
 * **Scenario** : https://forge.prestashop.com/browse/TEST-935
+

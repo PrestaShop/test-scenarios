@@ -8,3 +8,4 @@ weight: 16
 * **Component** : Core
 * **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1271
+

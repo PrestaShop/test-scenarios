@@ -8,3 +8,4 @@ weight: 1
 * **Component** : ps_banner
 * **Status** : Approved
 * **Scenario** : https://forge.prestashop.com/browse/TEST-418
+
