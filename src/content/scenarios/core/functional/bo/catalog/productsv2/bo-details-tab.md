@@ -6,10 +6,9 @@ weight: 17
 # BO - Details Tab
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5213
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/14_detailsTab.ts
 
 ## Steps
 | Step Description | Expected result |
@@ -19,6 +18,10 @@ weight: 17
 | Go to Tab Details > Add References > Click Save and publish | Tab Details is red<br><br>For UPC barcode, EAN-13 or JAN barcode, ISBN there's a error message:<br>"lorem ipsum" is invalid |
 | Edit the References with new data > Click Save and publish | Successful update message is displayed |
 | In Features > Add 2 features > Save and publish | Successful update message is displayed<br><br>My 2 features are well updated.<br><br>My Customized Feature "Lorem Ipsum" is well displayed in FO > Product page > Product details |
+| Click to "Manage Feature" button | Feature page is well displayed |
+| Return to your details product page<br><br>BO > Catalog > Product > "Your Product" > Details | Details page is well displayed |
+| Add a feature with customized value and click to "Add a feature" | Feature added to feature table |
+| Click to "Save and publish" | Details tabs is written in red<br><br>Error message : "The field "Custom value" is required at least in your default language." |
 | Delete both of the Features with trash icon > Delete > Save and publish | Successful update message is displayed<br><br>In FO > data sheet is empty in product page |
 | In Attached files > Click on Manage all files | A new tab in opened for Catalog > Files page<br><br>No files exists |
 | Search file "hello world" | No results found for "hello world" |
