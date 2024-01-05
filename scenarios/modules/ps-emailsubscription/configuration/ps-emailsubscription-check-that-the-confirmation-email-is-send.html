@@ -22,13 +22,13 @@
     <title>ps_emailsubscription - Check that the confirmation email is send :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1704349559" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1704349559" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1704349559" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1704349559" rel="stylesheet"><link href="../../../../css/auto-complete.css?1704349559" rel="stylesheet">
-    <link href="../../../../style.css?1704349559" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1704435930" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1704435930" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1704435930" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1704435930" rel="stylesheet"><link href="../../../../css/auto-complete.css?1704435930" rel="stylesheet">
+    <link href="../../../../style.css?1704435930" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1704349559"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1704435930"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -66656,7 +66656,7 @@
 <h1 id="ps_emailsubscription---check-that-the-confirmation-email-is-send">ps_emailsubscription - Check that the confirmation email is send<a href="#ps_emailsubscription---check-that-the-confirmation-email-is-send"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : ps_emailsubscription</li>
-<li><strong>Status</strong> : Approved</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-650">https://forge.prestashop.com/browse/TEST-650</a></li>
 </ul>
 
@@ -66669,8 +66669,24 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
+<td>Go to BO &gt; Modules &gt; Search ps_emailsubscription &gt; Configure</td>
+<td>Configure page of ps_emailsubscription module is displayed</td>
+</tr>
+<tr>
+<td>Enable option Would you like to send a confirmation email after subscription? &gt; Save</td>
+<td>Message Settings updated is displayed</td>
+</tr>
+<tr>
+<td>Click View my store &gt; Scroll down to Get our latest news and special sales &gt; Add your email address &gt; Click Subscribe</td>
+<td>Alert <em>You have successfully subscribed to this newsletter.</em> is displayed<br><br>An email is sent to <a href="mailto:bonjour@prestashop.com">bonjour@prestashop.com</a> with title &ldquo;Newsletter confirmation&rdquo;</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; ps_emailsubscription Configure page &gt; Disable the second option <em>Would you like to send a confirmation email after subscription?</em> &gt; Save</td>
+<td>Message Settings updated is displayed</td>
+</tr>
+<tr>
+<td>Click View my store &gt; Scroll down to Get our latest news and special sales &gt; Add your email address &gt; Click Subscribe</td>
+<td>An alert <em>You have successfully subscribed to this newsletter.</em> is displayed<br><br>No confirmation email is sent</td>
 </tr>
 </tbody>
 </table>
@@ -66692,17 +66708,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1704349559"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1704349559"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1704349559"></script>
-    <script src="../../../../js/jquery.sticky.js?1704349559"></script>
-    <script src="../../../../js/featherlight.min.js?1704349559"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1704349559"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1704349559"></script>
-    <script src="../../../../js/learn.js?1704349559"></script>
-    <script src="../../../../js/hugo-learn.js?1704349559"></script>
+    <script src="../../../../js/clipboard.min.js?1704435931"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1704435931"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1704435931"></script>
+    <script src="../../../../js/jquery.sticky.js?1704435931"></script>
+    <script src="../../../../js/featherlight.min.js?1704435931"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1704435931"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1704435931"></script>
+    <script src="../../../../js/learn.js?1704435931"></script>
+    <script src="../../../../js/hugo-learn.js?1704435931"></script>
     
-    <script src="../../../../main.js?1704349559"></script>
+    <script src="../../../../main.js?1704435931"></script>
     
     
     
