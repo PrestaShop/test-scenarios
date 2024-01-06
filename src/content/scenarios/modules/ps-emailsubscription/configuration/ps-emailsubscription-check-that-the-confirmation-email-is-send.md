@@ -6,7 +6,7 @@ weight: 5
 # ps_emailsubscription - Check that the confirmation email is send
 ## Details
 * **Component** : ps_emailsubscription
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-650
 
 ## Steps
