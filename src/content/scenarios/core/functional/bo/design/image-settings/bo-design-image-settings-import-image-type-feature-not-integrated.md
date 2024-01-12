@@ -6,7 +6,7 @@ weight: 8
 # BO - Design - Image Settings - Import Image type - feature not integrated -
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5157
 
 ## Steps

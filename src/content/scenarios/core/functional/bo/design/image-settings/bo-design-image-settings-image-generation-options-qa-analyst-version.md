@@ -6,7 +6,7 @@ weight: 9
 # BO - Design - Image Settings - Image Generation options - QA Analyst version
 ## Details
 * **Component** : Core
-* **Status** : Approved
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5176
 
 ## Steps
