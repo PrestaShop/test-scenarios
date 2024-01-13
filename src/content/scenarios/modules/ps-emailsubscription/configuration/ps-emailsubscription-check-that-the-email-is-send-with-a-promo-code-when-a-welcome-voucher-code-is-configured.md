@@ -6,8 +6,9 @@ weight: 3
 # ps_emailsubscription - Check that the email is send with a promo code when a Welcome voucher code is configured
 ## Details
 * **Component** : ps_emailsubscription
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-648
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailsubscription/02_configuration/03_checkWelcomeVoucher.ts
 
 ## Steps
 | Step Description | Expected result |
