@@ -14,7 +14,9 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO>Advanced Parameters>Logs | Page title contains 'Logs' |
-| Click to droplist Minimum severity level | * None<br> * Informative only<br> * Warning<br> * Error<br> * Major issus (crash)! |
-| Add a invalid email to "Send emails to" and Save | Invalid email: demo@prestashop.. |
-| Add a valid email to "Send emails to" and Save | Successful update |
+| Go to BO > Advanced Parameters > Logs | Page title contains 'Logs' |
+| In block Log by Email > Click the dropdown list Minimum severity level | See the following choices :<br> * None<br> * Informative only<br> * Warning<br> * Error<br> * Major issus (crash)! |
+| Add a invalid email to "Send emails to" > Save | Alert displays : Invalid email: demo@prestashop.. |
+| Add a valid email to "Send emails to" > Save | Successful update |
+| In Minimum severity level > Choose Informative Only > Save | Alert Successful update is displayed |
+| Go to BO > Product page > Edit a product > Edit the title > Save | In emails, see the email titled _Log: You have a new alert from your store_ is sent to demo@prestashop.com |

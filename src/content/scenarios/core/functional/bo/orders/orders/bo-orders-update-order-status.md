@@ -18,13 +18,15 @@ weight: 8
 | Change last Order status to _Canceled_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled Canceled has been sent to the customer :  pub@prestashop.com. |
 | Go to FO and sign in with a customer | The "Your account" page is displayed |
 | Click on "Order history and details" | The Order history page is displayed and check that the last status order is "Canceled" |
-| Go to BO> Orders > Orders" page" | Orders page title is displayed correctly |
+| Go to BO > Orders > Orders page | Orders page title is displayed correctly |
+| Change last Order status to _On backorder (not paid)_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled On backorder (not paid) has been sent to the customer : pub@prestashop.com. |
+| Change last Order status to _On backorder (paid)_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled On backorder (paid) has been sent to the customer : pub@prestashop.com. |
 | Change last Order status to _payment accepted_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled Payment accepted has been sent to the customer :  pub@prestashop.com. |
 | Click on "View invoice"<br>Check the invoice file | An invoice is downloaded<br>Check that all informations are visible in the invoice<br>-> Order reference<br>-> Delivery address<br>-> Customer<br>-> Total paid |
 | Go to FO and sign in with a customer | The "Your account" page is displayed |
 | Click on "Order history and details" | The Order history page is displayed and check that the last status order is "Payment Accepted" and an invoice is attached |
 | Go to BO> Orders > Orders page | Orders listing is displayed correctly |
-| Change last Order status to _Shipped_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled Shipped has been sent to the customer :  pub@prestashop.com. |
+| Change last Order status to _Shipped_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled Shipped has been sent to the customer : pub@prestashop.com. |
 | Click on "View Delivery slip" | A delivery slip is downloaded |
 | Go to FO and sign in with a customer | The "Your account" page is displayed |
 | Click on "Order history and details" | The Order history page is displayed and check that the last status order is "Shipped" and the invoice is attached |

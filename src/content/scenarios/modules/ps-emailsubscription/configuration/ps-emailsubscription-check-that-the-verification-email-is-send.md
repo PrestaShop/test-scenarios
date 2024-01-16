@@ -7,7 +7,9 @@ weight: 4
 ## Details
 * **Component** : ps_emailsubscription
 * **Status** : Automated
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-649
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailsubscription/02_configuration/01_checkVerificationEmail.ts
 
 ## Steps
 | Step Description | Expected result |

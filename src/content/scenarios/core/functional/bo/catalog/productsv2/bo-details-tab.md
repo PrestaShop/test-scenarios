@@ -6,9 +6,10 @@ weight: 17
 # BO - Details Tab
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5213
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/14_detailsTab.ts
 
 ## Steps
 | Step Description | Expected result |
