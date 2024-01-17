@@ -15,7 +15,6 @@ weight: 2
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Advanced Parameters > Logs | Page title contains 'Logs' |
-| In block Log by Email > Click the dropdown list Minimum severity level | See the following choices :<br> * None<br> * Informative only<br> * Warning<br> * Error<br> * Major issus (crash)! |
 | Add a invalid email to "Send emails to" > Save | Alert displays : Invalid email: demo@prestashop.. |
 | Add a valid email to "Send emails to" > Save | Successful update |
 | In Minimum severity level > Choose Informative Only > Save | Alert Successful update is displayed |

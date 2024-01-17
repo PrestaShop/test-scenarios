@@ -19,6 +19,7 @@ weight: 8
 | Go to FO and sign in with a customer | The "Your account" page is displayed |
 | Click on "Order history and details" | The Order history page is displayed and check that the last status order is "Canceled" |
 | Go to BO > Orders > Orders page | Orders page title is displayed correctly |
+| Change last Order status to _Refunded_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails, an email titled refunded has been sent to the customer : pub@prestashop.com. |
 | Change last Order status to _On backorder (not paid)_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled On backorder (not paid) has been sent to the customer : pub@prestashop.com. |
 | Change last Order status to _On backorder (paid)_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled On backorder (paid) has been sent to the customer : pub@prestashop.com. |
 | Change last Order status to _payment accepted_ with dropdown | A green alert "Successful update." is displayed and the order status is updated<br><br>Check your emails and in Advanced parameters > Email, an email titled Payment accepted has been sent to the customer :  pub@prestashop.com. |

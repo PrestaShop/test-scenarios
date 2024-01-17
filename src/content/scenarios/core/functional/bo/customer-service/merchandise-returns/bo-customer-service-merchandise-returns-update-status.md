@@ -34,13 +34,16 @@ weight: 2
 | Go to FO > Connect with the customer > Click on the Merchandise Returns page |  |
 | Come back to BO > SELL > Customer Service > Merchandise returns > Click again on the line of the Merchandise return | The edit Merchandise return page is well displayed |
 | Change the status to "Package received" and click on Save and stay | Successful update alert is well displayed<br><br>Status: The default status which is displayed at the top of the list is "Package received"<br><br>The returns form pdf is disappeared and the value is set to: "- -" |
+| Check received emal | Email received to customer => <br><br>Your order return status has changed |
 | Click on Cancel | The status of the merchandise return is changed to "Package received" with the green color <br><br>The date issued= the current date |
 | Come back to FO >  Click on the Merchandise Returns page |  |
 | Come back to BO > SELL > Customer Service > Merchandise returns > Click again on the line of the Merchandise return | The edit Merchandise return page is well displayed |
 | Change the status to "Return denied" and click on Save and stay | Successful update alert is well displayed<br><br>Status: The default status which is displayed at the top of the list is "Return denied" |
+| Check received emal | Email received to customer => <br><br>Your order return status has changed |
 | Click on Cancel | The status of the merchandise return is changed to "Return denied" with the red color <br><br>The date issued= the current date |
 | Come back to FO > Click on the Merchandise Returns page |  |
 | Come back to BO > SELL > Customer Service > Merchandise returns > Click again on the line of the Merchandise return | The edit Merchandise return page is well displayed |
 | Change the status to "Return completed" and click on Save and stay | Successful update alert is well displayed<br><br>Status: The default status which is displayed at the top of the list is "Return completed" |
+| Check received emal | Email received to customer => <br><br>Your order return status has changed |
 | Click on Cancel | The status of the merchandise return is changed to "Return completed" with the dark green color <br><br>The date issued= the current date |
 | Come back to FO > Click on the Merchandise Returns page |  |

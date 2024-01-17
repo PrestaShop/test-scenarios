@@ -20,3 +20,4 @@ weight: 4
 | Go to "Order history and details" |  |
 | Select an order validated  and go to "details" |  |
 | In send message section, select a product, write a message and click on send | In BO => Customers Service => Customers Service the message is displayed |
+| Check received email | received email => <br><br>Message from a customer |
