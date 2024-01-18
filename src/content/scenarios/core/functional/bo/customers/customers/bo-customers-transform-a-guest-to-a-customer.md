@@ -22,6 +22,7 @@ weight: 11
 | Fill the *ADDRESSES* form<br><br>and click on CONTINUE | The step 3 SHIPPING METHOD is well displayed. |
 | Step 3 - *Shipping method* is displayed.<br><br>_Click and collect_ and _My carrier_ are displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping<br><br>And click on continue | Step 4 - Payment is displayed |
 | Choose Payment by bank wire > Agree to the terms and conditions > Click on PLACE ORDER button | YOUR ORDER IS CONFIRMED |
+| Check confirmation Email | Confirmation Email => [PrestaShop] Order confirmation<br><br>Payment confirmation email => [PrestaSHop]Awaiting bank wire payment |
 | Go to BO > Customers page | Guest account exists in customers table and assigned to "Guest" Group |
 | Go to BO > Customers > Customers | Customers page is displayed<br><br>The customers table is displayed with title : Manage your Customers +(total number of customers) |
 | Click on *Group* dropdown button > Select *Guest* > Click *Search* button | The customer assigned to Guest group is well displayed<br><br>Reset button is dislayed |

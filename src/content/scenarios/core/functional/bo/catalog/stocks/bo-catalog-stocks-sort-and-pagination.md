@@ -6,7 +6,7 @@ weight: 2
 # BO - Catalog - Stocks - Sort and pagination
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-839
 
 ## Steps

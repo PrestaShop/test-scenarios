@@ -19,6 +19,7 @@ weight: 3
 | Go to FO > Click on top right "Sign In" button link | "Log in to your account" page is displayed |
 | Click on "No account? Create one here" link at the bottom fo the block | Create an account page is displayed |
 | Fill the form with your personal information > Click Save | * You are now logged into your account<br> * Redirection automatically to the homepage<br> * An email "Welcome!" should be received |
+| Check the welcome Email | Email received with the subject => [PrestaShop] Welcome |
 | Go to BO > Customers list page & delete the customer created | The alert "Successful deletion." is well displayed |
 | Go to notification> Customers(1) | notification : test test - registered xx/xx/xxxx |
 | Disabled the notifications for new customers<br><br>Enable the notifications for new orders and new messages<br><br>Click on save. | Update successful message is displayed and the bell icon is displayed with orders and messages notifications |
