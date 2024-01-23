@@ -271,6 +271,9 @@ chapter: true
         if (!empty($issue['fields']['customfield_12692'])) {
             $content .=  '* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/'. $issue['fields']['customfield_12692'] . '.ts' . PHP_EOL;
         }
+        if (!empty($issue['fields']['customfield_12893'])) {
+            $content .=  '* **Specification** : ' . $issue['fields']['customfield_12893'] . PHP_EOL;
+        }
         $content .= PHP_EOL;
 
         ## Steps
