@@ -12,11 +12,11 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| On FO > Product page<br><br>click to quick view of a product | quickview displayed |
-| Click to Add to cart | "Product successfully added to your shopping cart" notificaiton |
+| On FO > Click quick view of a product | Quickview is well displayed |
+| Click to Add to cart | "Product successfully added to your shopping cart" modal |
 | Click to proceed to checkout | Shopping cart displayed<br><br>Shopping cart contain the product |
-| Click to proceed to checkout | Personal information is displayed<br><br>You've the your cart on the right |
-| Click on Sign in, fill the input and click to continue | Adressess page displayed |
+| Click to proceed to checkout | Personal information is displayed<br><br>You have your cart on the right |
+| Click on Sign in > Click on Continue to shipping | Addresses page displayed |
 | Click to continue | SHIPPING METHOD displayed |
 | Click to continue | PAYMENT displayed |
 | Click on Pay by bank wire | Please transfer the invoice amount to our bank account. You will receive our order confirmation by email containing bank details and order number. |
