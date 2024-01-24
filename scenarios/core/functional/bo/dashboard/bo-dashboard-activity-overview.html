@@ -22,13 +22,13 @@
     <title>BO - Dashboard - Activity overview :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../css/font-awesome.min.css?1706010572" rel="stylesheet">
-    <link href="../../../../../css/syntax-github.css?1706010572" rel="stylesheet">
-    <link href="../../../../../css/featherlight.min.css?1706010572" rel="stylesheet">
-    <link href="../../../../../css/perfect-scrollbar.min.css?1706010572" rel="stylesheet"><link href="../../../../../css/auto-complete.css?1706010572" rel="stylesheet">
-    <link href="../../../../../style.css?1706010572" rel="stylesheet">
+    <link href="../../../../../css/font-awesome.min.css?1706077934" rel="stylesheet">
+    <link href="../../../../../css/syntax-github.css?1706077934" rel="stylesheet">
+    <link href="../../../../../css/featherlight.min.css?1706077934" rel="stylesheet">
+    <link href="../../../../../css/perfect-scrollbar.min.css?1706077934" rel="stylesheet"><link href="../../../../../css/auto-complete.css?1706077934" rel="stylesheet">
+    <link href="../../../../../style.css?1706077934" rel="stylesheet">
 
-    <script src="../../../../../js/jquery-3.3.1.min.js?1706010572"></script>
+    <script src="../../../../../js/jquery-3.3.1.min.js?1706077934"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -42572,7 +42572,6 @@
     <li><a href="#bo---dashboard---activity-overview">BO - Dashboard - Activity overview</a>
       <ul>
         <li><a href="#details">Details</a></li>
-        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -66665,206 +66664,8 @@
 <li><strong>Status</strong> : Automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-720">https://forge.prestashop.com/browse/TEST-720</a></li>
 <li><strong>Test</strong> : <a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts">https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts</a></li>
+<li><strong>Specification</strong> : <a href="https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard">https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard</a></li>
 </ul>
-
-<h2 id="steps">Steps<a href="#steps"></a></h2><table>
-<thead>
-<tr>
-<th>Step Description</th>
-<th>Expected result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Go to Dashboard&gt; Activity overview and click on <em>Online Visitors</em></td>
-<td>The page Sell&gt;Stats is displayed</td>
-</tr>
-<tr>
-<td>Go to FO and login then logout by default customer</td>
-<td>Customer is logout</td>
-</tr>
-<tr>
-<td>go back to dashbord</td>
-<td>number of online visitors =+1</td>
-</tr>
-<tr>
-<td>click on Active Shopping Carts</td>
-<td>The page SELL&gt;&ldquo;Orders&rdquo;&gt;&ldquo;Shopping Carts&rdquo; is displayed.</td>
-</tr>
-<tr>
-<td>Create an order from FO</td>
-<td>Order is created successfully</td>
-</tr>
-<tr>
-<td>Go back to Active Shopping Carts</td>
-<td>The total Active Shopping Carts activity overview +1</td>
-</tr>
-<tr>
-<td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending</td>
-<td>On Currently Pending you will see :<br></td>
-</tr>
-<tr>
-<td>Click on Orders in Currently Pending</td>
-<td>The orders is displayed.</td>
-</tr>
-<tr>
-<td>change the status of the first order to Processing in progress</td>
-<td>The status is changed successfully</td>
-</tr>
-<tr>
-<td>Go back to dashboard</td>
-<td>Orders number +=1</td>
-</tr>
-<tr>
-<td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending<br><br>Click on Return/Exchanges</td>
-<td>The Customer Service&gt; Merchandise Returns page is displayed.</td>
-</tr>
-<tr>
-<td>Create a marchandise return</td>
-<td>Merchandise return is created</td>
-</tr>
-<tr>
-<td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending</td>
-<td>Toatle Return/Exchanges +1<br><br>issue here =&gt; [https://github.com/PrestaShop/PrestaShop/issues/34321]</td>
-</tr>
-<tr>
-<td>Click on Abandoned Carts in Currently Pending</td>
-<td>The Orders&gt; Shopping Carts page is displayed.</td>
-</tr>
-<tr>
-<td>Click on Out of stock products in Currently Pending</td>
-<td>The Catalog&gt; Monitoring page is displayed.</td>
-</tr>
-<tr>
-<td>Create an out of stock product</td>
-<td>Product is created successfully</td>
-</tr>
-<tr>
-<td>Go back to dashboard</td>
-<td>Out of stock products +=1</td>
-</tr>
-<tr>
-<td>Go back to Dashboard&gt; Activity overview&gt; Notifications</td>
-<td>On Currently Pending you will see :<br></td>
-</tr>
-<tr>
-<td>Go to the shop FO</td>
-<td>The FO homepage shop is displayed</td>
-</tr>
-<tr>
-<td>Login to a existing customer account</td>
-<td>Logged in as customer</td>
-</tr>
-<tr>
-<td>Add a product to cart</td>
-<td>The confirmation modal is displayed</td>
-</tr>
-<tr>
-<td>In the &ldquo;add to cart&rdquo; confirmation modal click on the &ldquo;order&rdquo; button</td>
-<td>Redirected to the cart page</td>
-</tr>
-<tr>
-<td>In the cart page click on the order button</td>
-<td>the checkout process is started and the &ldquo;address selection&rdquo; step is displayed</td>
-</tr>
-<tr>
-<td>Click on the &ldquo;next&rdquo; button</td>
-<td>The delivery mode selection is displayed</td>
-</tr>
-<tr>
-<td>Click on &ldquo;next&rdquo; button</td>
-<td>The payment method is now displayed</td>
-</tr>
-<tr>
-<td>Select a paiement method, check the &ldquo;generals conditions&rdquo; checkbox and click on the &ldquo;order&rdquo; button</td>
-<td>The order is now completed and the &ldquo;order confirmation&rdquo; page is displayed</td>
-</tr>
-<tr>
-<td>In the &ldquo;order confirmation&rdquo; page click on the &ldquo;client support&rdquo; link</td>
-<td>Redirection to the &ldquo;contact us&rdquo; page</td>
-</tr>
-<tr>
-<td>In the &ldquo;contact us&rdquo; page, check if the email is correctly pre-filled</td>
-<td>The email field is filled with the logged in customer email address</td>
-</tr>
-<tr>
-<td>Select a order reference</td>
-<td>The order reference is selected</td>
-</tr>
-<tr>
-<td>Add a message in the textarea field</td>
-<td>The textarea field is filled with the message</td>
-</tr>
-<tr>
-<td>Add a attachment file</td>
-<td>The attachment file is correctly added</td>
-</tr>
-<tr>
-<td>click on the &ldquo;send message&rdquo; button</td>
-<td>A success message is displayed</td>
-</tr>
-<tr>
-<td>Go to the BO</td>
-<td>The BO login page is displayed</td>
-</tr>
-<tr>
-<td>Login to the BO</td>
-<td>Redirected to the BO dashboard page as logged in user</td>
-</tr>
-<tr>
-<td>Go to the customer service page</td>
-<td>The customer service page is displayed</td>
-</tr>
-<tr>
-<td>in the customer service page check in the customer service table if the previously send message is correctly displayed</td>
-<td>The previously send message is displayed and all the informations are correct</td>
-</tr>
-<tr>
-<td>Go back to Dashboard&gt; Activity overview&gt; Notifications</td>
-<td>Total New messages +1</td>
-</tr>
-<tr>
-<td>Go back to Dashboard&gt; Activity overview&gt; Customers &amp; Newsletters</td>
-<td>On Customers &amp; Newsletters you will see :<br></td>
-</tr>
-<tr>
-<td>Click on <em>New Customers</em></td>
-<td>Customers page is displayed</td>
-</tr>
-<tr>
-<td>Enable the Newsletter option of the new customer already added</td>
-<td><em>The status has been successfully updated</em> message is displayed</td>
-</tr>
-<tr>
-<td>Click on <em>Add new customer</em> and fill the new customer form,<br><br>save</td>
-<td><em>Successful creation</em> message is displayed</td>
-</tr>
-<tr>
-<td>Go back to Dashboard&gt; Activity overview&gt; Customers &amp; Newsletters</td>
-<td>Total Subscribers +1</td>
-</tr>
-<tr>
-<td>Click on visits link</td>
-<td>Stats page is displayed</td>
-</tr>
-<tr>
-<td>Go back to dashboard and click on Unique visitors link</td>
-<td>stats page is displayed</td>
-</tr>
-<tr>
-<td>Check traffic source</td>
-<td>contains &lsquo;prestashop.com&rsquo; and &lsquo;Direct link&rsquo;</td>
-</tr>
-<tr>
-<td>Click on configure link</td>
-<td>Configure form is displayed</td>
-</tr>
-<tr>
-<td>Update all the values in the form and save</td>
-<td>Success message is displayed<br><br>issue here https://github.com/PrestaShop/PrestaShop/issues/34326</td>
-</tr>
-</tbody>
-</table>
 
 
 <footer class="article-footer">
@@ -66883,17 +66684,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../js/clipboard.min.js?1706010572"></script>
-    <script src="../../../../../js/perfect-scrollbar.min.js?1706010572"></script>
-    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1706010572"></script>
-    <script src="../../../../../js/jquery.sticky.js?1706010572"></script>
-    <script src="../../../../../js/featherlight.min.js?1706010572"></script>
-    <script src="../../../../../js/html5shiv-printshiv.min.js?1706010572"></script>
-    <script src="../../../../../js/modernizr.custom-3.6.0.js?1706010572"></script>
-    <script src="../../../../../js/learn.js?1706010572"></script>
-    <script src="../../../../../js/hugo-learn.js?1706010572"></script>
+    <script src="../../../../../js/clipboard.min.js?1706077934"></script>
+    <script src="../../../../../js/perfect-scrollbar.min.js?1706077934"></script>
+    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1706077934"></script>
+    <script src="../../../../../js/jquery.sticky.js?1706077934"></script>
+    <script src="../../../../../js/featherlight.min.js?1706077934"></script>
+    <script src="../../../../../js/html5shiv-printshiv.min.js?1706077934"></script>
+    <script src="../../../../../js/modernizr.custom-3.6.0.js?1706077934"></script>
+    <script src="../../../../../js/learn.js?1706077934"></script>
+    <script src="../../../../../js/hugo-learn.js?1706077934"></script>
     
-    <script src="../../../../../main.js?1706010572"></script>
+    <script src="../../../../../main.js?1706077934"></script>
     
     
     
