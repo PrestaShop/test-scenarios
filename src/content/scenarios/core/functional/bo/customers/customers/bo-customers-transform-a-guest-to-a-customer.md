@@ -9,6 +9,7 @@ weight: 11
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7392
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/01_customers/11_transformGuestToCustomer.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/customers
 
 ## Steps
 | Step Description | Expected result |

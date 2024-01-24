@@ -12,8 +12,8 @@ weight: 7
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| BO > Catalog >Stock | Page Stock management is well displayed |
-| Click on Advanced filters > go to Filter by categories > Click on EXPAND link > Check Art and Accessories | * Only product from Art and Accessories category are displayed<br> * The displayed products are sorted in ascending order by ID |
-| Uncheck Home Accessories checkbox | * All products are displayed |
-| Check clothes checkbox | * All clothes products are displayed |
-| Check all checkboxes | * All products are displayed |
+| BO > Catalog > Stock | Page Stock management is well displayed |
+| Click on Advanced filters > go to Filter by categories > Click on EXPAND > Check Art and Accessories | * Only product from Art and Accessories category are displayed<br> * The displayed products are sorted in ascending order by ID |
+| Uncheck all checkboxes | All products are displayed |
+| Check Clothes checkbox | All Clothes products are displayed |
+| Check all checkboxes | All products are displayed |

@@ -9,6 +9,7 @@ weight: 13
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7395
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/13_returnOrder.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template
 
 ## Steps
 | Step Description | Expected result |

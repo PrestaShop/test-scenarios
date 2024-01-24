@@ -6,7 +6,7 @@ weight: 1
 # FO - Checkout - Payment - Choose a payment method
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7026
 
 ## Steps
@@ -16,27 +16,9 @@ weight: 1
 | Click to Add to cart | "Product successfully added to your shopping cart" modal |
 | Click to proceed to checkout | Shopping cart displayed<br><br>Shopping cart contain the product |
 | Click to proceed to checkout | Personal information is displayed<br><br>You have your cart on the right |
-| Click on Sign in > Click on Continue to shipping | Addresses page displayed |
-| Click to continue | SHIPPING METHOD displayed |
-| Click to continue | PAYMENT displayed |
-| Click on Pay by bank wire | Please transfer the invoice amount to our bank account. You will receive our order confirmation by email containing bank details and order number. |
-| Check I agree to the [terms of service|http://localhost/ps8101/en/content/3-terms-and-conditions-of-use] and will adhere to them unconditionally. | PLACE ORDER button enable |
-| Click on Place order | Order confirmation page displayed<br><br>Payment method : Bank transfer |
-| Clic on the "my store" logo > Product page<br><br>click to quick view of a product | quickview displayed |
-| Click to Add to cart | "Product successfully added to your shopping cart" notificaiton |
-| Click to proceed to checkout | Shopping cart displayed<br><br>Shopping cart contain the product |
-| Click to proceed to checkout | Adresses is displayed<br><br>You've the your cart on the right |
-| Click to continue | SHIPPING METHOD displayed |
-| Click to continue | PAYMENT displayed |
-| Click on Pay by Check | Please send us your check including the following details:<br><br>Amount€14.28 (tax incl.)<br><br>Payee___________<br><br>Send your check to this address___________ |
-| Check I agree to the [terms of service|http://localhost/ps8101/en/content/3-terms-and-conditions-of-use] and will adhere to them unconditionally. | PLACE ORDER button enable |
-| Click on Place order | Order confirmation page displayed<br><br>Payment method : Payements by check |
-| Clic on the "my store" logo > Product page<br><br>click to quick view of a product | quickview displayed |
-| Click to Add to cart | "Product successfully added to your shopping cart" notificaiton |
-| Click to proceed to checkout | Shopping cart displayed<br><br>Shopping cart contain the product |
-| Click to proceed to checkout | Adresses is displayed<br><br>You've the your cart on the right |
-| Click to continue | SHIPPING METHOD displayed |
-| Click to continue | PAYMENT displayed |
-| Click on Pay by Cash on Delivery | You pay for the merchandise upon delivery |
-| Check I agree to the [terms of service|http://localhost/ps8101/en/content/3-terms-and-conditions-of-use] and will adhere to them unconditionally. | PLACE ORDER button enable |
-| Click on Place order | Order confirmation page displayed<br><br>Payment method : Cash on delivery (COD) |
+| Click on Sign in > Click on Continue to shipping | Addresses step displayed |
+| Click on Continue to shipping | Shipping Method step is displayed |
+| Click on Continue to payment | Payment step is displayed |
+| Click on Pay by check | See the following <br>Please send us your check including the following details:<br><br>Amount€14.28 (tax incl.)<br><br>Payee___________<br><br>Send your check to this address___________ |
+| Click on Pay by Cash on Delivery | See the following<br>You pay for the merchandise upon delivery |
+| Click on Pay by bank wire > Check I agree to the terms of service and will adhere to them unconditionally. > Click on Place order | Your order is confirmed<br><br>Payment information<br><br>Pay by Bank Wire<br><br>You have chosen payment by bank transfer.<br>Please send us a bank transfer with following details: |

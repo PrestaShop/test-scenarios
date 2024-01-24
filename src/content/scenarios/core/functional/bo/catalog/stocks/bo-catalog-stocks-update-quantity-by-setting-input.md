@@ -13,8 +13,8 @@ weight: 3
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO> Catalog> Stock | page title contains 'Stock' is displayed |
-| * Overlapse the field of edit quantity <br> * Clic on the up arrow until you reach 5<br> * Clic on check mark | * Up Arrow/Down Arrow is displayed and a check mark is displayed <br> * You'll have the number 5 on the field <br> * 5 new items have been added on *Physical* and *Available* rows |
-| * Overlapse the field of edit quantity <br> * Clic on the down arrow until you reach -3<br> * Clic on check mark | * Up Arrow/Down Arrow is displayed and a check mark is displayed <br> * You'll have the number 5 on the field <br> * 3 items have been deleted on *Physical* and *Available* rows |
-| * Go to a product and edit quantity<br> * Clic on check mark | * A check mark is displayed<br> * 7 new items have been added on *Physical* and *Available* rows |
-| * Go to a product and edit quantity<br> * Clic on check mark | * A check mark is displayed<br> * 10 items have been deleted on *Physical* and *Available* rows |
+| Go to BO > Catalog > Stock | Page title contains 'Stock' is displayed |
+| For the product Customizable Mug - ID 19 > Click on the arrow *up* until you reach 5 > Click on the check mark | Stock successfully updated message is displayed<br>Stocks *Physical* and *Available* go from 300 to 305 |
+| For the product Customizable Mug - ID 19 > Edit the quantity with keyboard : "-310" > Click on the check mark | Stock successfully updated message is displayed<br>Stock *Physical* and *Available* goes from 305 to -5 and the whole line is red |
+| For the product Hummingbird notebook - ID 18 - Paper Type - Ruled > Click on the arrow *down* until you reach -5 > Click on the check mark | Stock successfully updated message is displayed<br>Stocks *Physical* and *Available* go from 300 to 295 |
+| Edit the quantity for 2 products :<br>- For the product *Hummingbird notebook - ID 18 - Paper Type - Plain* > Click on the arrow *up* 10 times<br>- For the *Hummingbird notebook - ID 18 - Paper Type - Squared* > Edit quantity with keyboard : 20<br><br>> Click on apply new quantity | Stock successfully updated message is displayed<br><br>For the product *Hummingbird notebook - ID 18 - Paper Type - Plain*<br>Stocks Physical and Available go from 300 to 310<br><br>For the product *Hummingbird notebook - ID 18 - Paper Type - Squared*<br>Stocks Physical and Available go from 300 to 320 |
