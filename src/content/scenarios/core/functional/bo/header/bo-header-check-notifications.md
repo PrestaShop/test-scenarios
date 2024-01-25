@@ -10,6 +10,7 @@ weight: 5
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-708
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/15_header/08_checkNotifications.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/common-components/back-office-header/bell-icon
 
 ## Steps
 | Step Description | Expected result |

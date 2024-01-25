@@ -9,6 +9,7 @@ weight: 3
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1143
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/03_administration/03_notifications.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/administration
 
 ## Steps
 | Step Description | Expected result |

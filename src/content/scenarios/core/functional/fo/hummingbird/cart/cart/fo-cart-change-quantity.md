@@ -6,7 +6,7 @@ weight: 1
 # FO - Cart - Change quantity
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6993
 
 ## Steps

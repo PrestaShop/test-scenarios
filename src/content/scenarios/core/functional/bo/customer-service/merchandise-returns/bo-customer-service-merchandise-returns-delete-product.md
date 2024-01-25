@@ -10,6 +10,7 @@ weight: 1
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-872
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/03_merchandiseReturns/02_deleteProduct.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/merchandise-returns
 
 ## Steps
 | Step Description | Expected result |

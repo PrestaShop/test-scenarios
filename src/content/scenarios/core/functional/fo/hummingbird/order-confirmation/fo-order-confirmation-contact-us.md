@@ -6,28 +6,17 @@ weight: 6
 # FO - Order confirmation - Contact us
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : [TEST] To be automated
 * **Automated on** : 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7012
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to the shop FO | The FO homepage shop is displayed |
-| Login to a existing customer account | Logged in as customer |
-| Add a product to cart | The confirmation modal is displayed |
-| In the "add to cart" confirmation modal click on the "order" button | Redirected to the cart page |
-| In the cart page click on the order button | the checkout process is started and the "address selection" step is displayed |
-| Click on the "next" button | The delivery mode selection is displayed |
-| Click on "next" button | The payment method is now displayed |
-| Select a paiement method, check the "generals conditions" checkbox and click on the "order" button | The order is now completed and the "order confirmation" page is displayed |
-| In the "order confirmation" page click on the "client support" link | Redirection to the "contact us" page |
-| In the "contact us" page, check if the email is correctly pre-filled | The email field is filled with the logged in customer email address |
-| Select a order reference | The order reference is selected |
-| Add a message in the textarea field | The textarea field is filled with the message |
-| Add a attachment file | The attachment file is correctly added |
-| click on the "send message" button | A success message is displayed |
-| Go to the BO | The BO login page is displayed |
-| Login to the BO | Redirected to the BO dashboard page as logged in user |
-| Go to the customer service page | The customer service page is displayed |
-| in the customer service page check in the customer service table if the previously send message is correctly displayed | The previously send message is displayed and all the informations are correct |
+| Go to the shop in FO > Log into an existing customer account | You are logged in as customer |
+| Add any product to cart > Proceed to checkout > Proceed to checkout > Continue to Shipping > Continue to Payment > Choose Pay by bank wire > Check the terms and conditions > Place Order | Your order is confirmed |
+| In the "Order confirmation" page > Click on the "expert customer support team" link | Redirection to the "contact us" page |
+| In the "Contact us" page > check if the email is correctly pre-filled | The email field is filled with the logged in customer email address |
+| Select an order reference | The order reference is selected |
+| Add a message in the textarea field > Add an attachment file > Click Send | Your message has been successfully sent to our team. |
+| Go to the BO > Customer Service > Customer Service | See that the latest message is from John Doe<br>See that there's an attachment<br>See that the order is well referenced in the Orders and messages timeline |

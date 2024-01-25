@@ -10,6 +10,7 @@ weight: 2
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1280
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/10_cart/02_cart/02_deleteProduct.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/front-office/customers-shopping-cart
 
 ## Steps
 | Step Description | Expected result |

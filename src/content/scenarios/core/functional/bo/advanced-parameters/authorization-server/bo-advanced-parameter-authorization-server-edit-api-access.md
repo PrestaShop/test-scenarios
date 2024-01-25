@@ -10,6 +10,7 @@ weight: 3
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7634
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_authorizationServer/03_editAPIAccess.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management
 
 ## Steps
 | Step Description | Expected result |

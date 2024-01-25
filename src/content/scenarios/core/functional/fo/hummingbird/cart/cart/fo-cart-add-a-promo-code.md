@@ -6,7 +6,7 @@ weight: 3
 # FO - Cart - Add a promo code
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6995
 
 ## Steps

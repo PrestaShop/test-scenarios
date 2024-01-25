@@ -1,9 +1,9 @@
 ---
-title: "CLONE - FO - Product Page - Product Quickview - Change combination on popup"
+title: "FO - Product Page - Product Quickview - Change combination on popup"
 weight: 7
 ---
 
-# CLONE - FO - Product Page - Product Quickview - Change combination on popup
+# FO - Product Page - Product Quickview - Change combination on popup
 ## Details
 * **Component** : Core
 * **Status** : IN REVIEW
