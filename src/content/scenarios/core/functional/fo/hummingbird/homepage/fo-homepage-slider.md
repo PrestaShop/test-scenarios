@@ -6,7 +6,7 @@ weight: 1
 # FO - Homepage - Slider
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5098
 
 ## Steps

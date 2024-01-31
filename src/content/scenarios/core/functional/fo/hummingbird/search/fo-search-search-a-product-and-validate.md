@@ -6,7 +6,7 @@ weight: 2
 # FO - Search - Search a product and validate
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5103
 
 ## Steps

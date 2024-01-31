@@ -5,7 +5,7 @@ weight: 5
 
 # BO - Design - Link Widget - Sort Link List
 ## Details
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-2877
 
 ## Steps
