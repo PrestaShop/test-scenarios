@@ -22,13 +22,13 @@
     <title>FO - Product Page - Add to cart :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1707200575" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1707200575" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1707200575" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707200575" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707200575" rel="stylesheet">
-    <link href="../../../../../../../style.css?1707200575" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1707287269" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1707287269" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1707287269" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707287269" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707287269" rel="stylesheet">
+    <link href="../../../../../../../style.css?1707287269" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707200575"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707287269"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -8632,9 +8632,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/design/link-widget/bo-design-link-widget-edit.html" title="BO - Design - Link Widget - Edit" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/design/link-widget/bo-design-link-widget-edit.html">
-        BO - Design - Link Widget - Edit
+      <li data-nav-id="/scenarios/core/functional/bo/design/link-widget/bo-design-link-widget-crud.html" title="BO - Design - Link Widget - CRUD" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/design/link-widget/bo-design-link-widget-crud.html">
+        BO - Design - Link Widget - CRUD
         
         </a>
     </li>
@@ -28733,6 +28733,27 @@
       <li data-nav-id="/scenarios/modules/test-checker-les-events-sur-prestashop-avec-les-tests.html" title="Test Checker les events sur prestashop avec les tests" class="dd-item ">
         <a href="../../../../../../../scenarios/modules/test-checker-les-events-sur-prestashop-avec-les-tests.html">
         Test Checker les events sur prestashop avec les tests
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/checkout-uninstall-the-module.html" title="[CHECKOUT] Uninstall the module" class="dd-item ">
+        <a href="../../../../../../../scenarios/modules/checkout-uninstall-the-module.html">
+        [CHECKOUT] Uninstall the module
         
         </a>
     </li>
@@ -59789,6 +59810,21 @@
       
       
       
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
         
       
       
@@ -67242,7 +67278,7 @@
 <h1 id="fo---product-page---add-to-cart">FO - Product Page - Add to cart<a href="#fo---product-page---add-to-cart"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-6969">https://forge.prestashop.com/browse/TEST-6969</a></li>
 </ul>
 
@@ -67255,39 +67291,39 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to FO&gt; click on  an existing product image</td>
+<td>Go to FO &gt; Open an existing product</td>
 <td>The page of the product is well displayed</td>
 </tr>
 <tr>
-<td>Click on quantity and set it to 5</td>
+<td>Set quantity to 5</td>
 <td>The quantity value is updated</td>
 </tr>
 <tr>
-<td>On page of the product&gt; Click on &ldquo;Add to cart&rdquo;</td>
-<td>The modal is well displayed.<br><br>You will see :<br> * &ldquo;Product successfully added to your shopping cart&rdquo; message<br> * Recap of your cart (number of item, subtotal, shipping, Total(tax incl.)</td>
+<td>Click on the button &ldquo;Add to cart&rdquo;</td>
+<td>The modal is well displayed.<br><br>You will see :<br> * &ldquo;Product successfully added to your shopping cart&rdquo; message<br> * Recap of your cart (Quantity, subtotal, shipping, Total(tax incl.)</td>
 </tr>
 <tr>
-<td>Click on <em><em>Continue Shopping</em></em> button</td>
-<td>The modal is gone and all product page is dispalyed</td>
+<td>Click on Continue Shopping button</td>
+<td>The modal is gone and the product page is displayed</td>
 </tr>
 <tr>
-<td>Go to All products &gt; choose  an other product and click on <em><em>Quick view</em></em> button</td>
+<td>Go to your Homepage &gt; Click on the Quick view button for another product</td>
 <td>The pop-up of the product is well displayed</td>
 </tr>
 <tr>
-<td>Put a quantity and Add to cart</td>
-<td>The modal is well dispalyed when adding a product to cart and a successful message &ldquo;<em><em>Product successfully added to your shopping cart</em></em>&rdquo; is displayed with the quantity chosen.</td>
+<td>Set quantity to 300 &gt; Click Add to cart</td>
+<td>The modal is well displayed when adding a product to cart and a successful message &ldquo;Product successfully added to your shopping cart&rdquo; is displayed with the quantity chosen.</td>
 </tr>
 <tr>
-<td>Click on <em><em>PROCEED TO CHECKOUT</em></em> button</td>
-<td>The <em><em>SHOPPING CART</em></em> page is well displayed</td>
+<td>Close the modal &gt; Click on the button with the icon Add to cart for the product Hummingbird printed sweater</td>
+<td>The modal is well displayed.<br><br>You will see :<br><br>&ldquo;Product successfully added to your shopping cart&rdquo; message<br>Recap of your cart (Quantity, subtotal, shipping, Total(tax incl.)</td>
 </tr>
 <tr>
-<td>Edit the quantity of product in the cart</td>
-<td>The product&rsquo;s quantity and price are updated.</td>
+<td>Click on the button Proceed to checkout</td>
+<td>The Shopping cart page is well displayed</td>
 </tr>
 <tr>
-<td>Click on product trash icon</td>
+<td>Click on Remove action button</td>
 <td>The product is deleted from the cart.</td>
 </tr>
 </tbody>
@@ -67310,17 +67346,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1707200576"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707200576"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707200576"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1707200576"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1707200576"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707200576"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707200576"></script>
-    <script src="../../../../../../../js/learn.js?1707200576"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1707200576"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1707287270"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707287270"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707287270"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1707287270"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1707287270"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707287270"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707287270"></script>
+    <script src="../../../../../../../js/learn.js?1707287270"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1707287270"></script>
     
-    <script src="../../../../../../../main.js?1707200576"></script>
+    <script src="../../../../../../../main.js?1707287270"></script>
     
     
     
