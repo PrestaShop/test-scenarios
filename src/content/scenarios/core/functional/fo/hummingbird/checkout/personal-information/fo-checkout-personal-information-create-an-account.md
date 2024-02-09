@@ -6,16 +6,15 @@ weight: 4
 # FO - Checkout - Personal Information - Create an account
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7017
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO > Click on product | The product is displayed |
-| Click on ADD TO CART | The pop-up of PROCEED TO CHECKOUT is well displayed |
-| Click on PROCEED TO CHECKOUT | The SHOPPING CART is well displayed |
-| Click on PROCEED TO CHECKOUT | The PERSONAL INFORMATION is well displayed. |
-| Fill the *Order as a guest* form with filling in the password and the birthdate<br><br>check :<br><br>_ Receive offers from our partners_<br>_ I agree to the terms and conditions and the privacy policy_<br>_Sign up for our newsletter_<br>_Customer data privacy_<br><br>and click on CONTINUE | The step 2 :ADDRESSES page is displayed |
-| Click EDIT step 1 and CONTINUE | the page show <br> * Connected as [Prestashop Demo|http://127.0.0.1:8081/develop/en/identity]..<br> * Not you? [Log out|http://127.0.0.1:8081/develop/en/?mylogout=]<br><br>_If you sign out now, your cart will be emptied._ |
-| Click on logout | The page show <br>_There are no more items in your cart_ |
+| Go to FO > Click the Cart button on a product | The modal Product successfully added to your shopping cart is displayed |
+| Click on Proceed to checkout | The Shopping cart is well displayed |
+| Click on Proceed to checkout | The Personal information tab is well displayed |
+| Fill the *Order as a guest* form with filling in the password and the birthdate ><br><br>check :<br><br>- Receive offers from our partners<br>- I agree to the terms and conditions and the privacy policy<br>- Sign up for our newsletter<br>- Customer data privacy<br><br>> Click on Continue<br><br><br>Issue on wording : https://github.com/PrestaShop/PrestaShop/issues/35297 | The Step 2 Addresses page is displayed |
+| Click Back to Personal Information | The page shows<br><br> * Connected as Prestashop Demo<br> * Not you? Sign out<br><br>If you sign out now, your cart will be emptied. |
+| Click on Sign out | The page shows<br>There are no more items in your cart |

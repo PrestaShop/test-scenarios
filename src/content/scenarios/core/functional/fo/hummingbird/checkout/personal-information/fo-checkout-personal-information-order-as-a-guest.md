@@ -6,7 +6,7 @@ weight: 1
 # FO - Checkout - Personal Information - Order as a guest
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7013
 
 ## Steps
@@ -15,9 +15,9 @@ weight: 1
 | Go to FO > Add a product to the cart | The modal Product successfully added to your shopping cart is displayed |
 | Click on Proceed to checkout | The Shopping cart is well displayed |
 | Click on Proceed to checkout | The Personal Information step is well displayed. |
-| Fill the *New Customer* form without filling in the password and the birthdate > <br><br>Check :<br><br>- Receive offers from our partners<br>- I agree to the terms and conditions and the privacy policy<br>- Sign up for our newsletter<br>- Customer data privacy<br><br>> Click on Continue | The Step Addresses page is displayed |
+| Fill the *Order as guest* form without filling in the password and the birthdate > <br><br>Check :<br><br>- Receive offers from our partners<br>- I agree to the terms and conditions and the privacy policy<br>- Sign up for our newsletter<br>- Customer data privacy<br><br>> Click on Continue<br><br>Issue on wording : https://github.com/PrestaShop/PrestaShop/issues/35297 | The Step Addresses page is displayed |
 | Click Back to Personal Information > Edit Firstname and Lastname ><br><br>Check :<br><br>- Receive offers from our partners<br>- I agree to the terms and conditions and the privacy policy<br>- Sign up for our newsletter<br>- Customer data privacy<br><br>> Click on Continue | Step 2 Addresses is displayed |
-| Fill the *ADDRESSES* form<br><br>and click on CONTINUE | The step 3 SHIPPING METHOD is well displayed. |
-| Step 3 - *Shipping method* is displayed.<br><br>_Click and collect_ and _My carrier_ are displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping<br><br>And click on continue | Step 4 - Payment is displayed |
-| Choose Payment by bank wire > Agree to the terms and conditions > Place order | YOUR ORDER IS CONFIRMED |
-| Go to BO > Customers page | Guest account is not existing in customers table |
+| Fill the Addresses form > Click on Continue to shipping | The step 3 Shipping method is well displayed. |
+| In Step 3 Shipping method > Click and collect and My carrier are displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping<br><br>> Click on Continue to payment | Step 4 - Payment is displayed |
+| Choose Pay by bank wire > Check I agree to the terms of service and will adhere to them unconditionally. > Place order | Your order is confirmed |
+| Go to BO > Customers > Customers page | See that the latest Customer created is a Guest |
