@@ -22,13 +22,13 @@
     <title>FO - Checkout - Personal Information - Order as a guest :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1707374034" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1707374034" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1707374034" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707374034" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707374034" rel="stylesheet">
-    <link href="../../../../../../../style.css?1707374034" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1707459817" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1707459817" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1707459817" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707459817" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707459817" rel="stylesheet">
+    <link href="../../../../../../../style.css?1707459817" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707374034"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707459817"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67278,7 +67278,7 @@
 <h1 id="fo---checkout---personal-information---order-as-a-guest">FO - Checkout - Personal Information - Order as a guest<a href="#fo---checkout---personal-information---order-as-a-guest"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-7013">https://forge.prestashop.com/browse/TEST-7013</a></li>
 </ul>
 
@@ -67303,7 +67303,7 @@
 <td>The Personal Information step is well displayed.</td>
 </tr>
 <tr>
-<td>Fill the <em>New Customer</em> form without filling in the password and the birthdate &gt; <br><br>Check :<br><br>- Receive offers from our partners<br>- I agree to the terms and conditions and the privacy policy<br>- Sign up for our newsletter<br>- Customer data privacy<br><br>&gt; Click on Continue</td>
+<td>Fill the <em>Order as guest</em> form without filling in the password and the birthdate &gt; <br><br>Check :<br><br>- Receive offers from our partners<br>- I agree to the terms and conditions and the privacy policy<br>- Sign up for our newsletter<br>- Customer data privacy<br><br>&gt; Click on Continue<br><br>Issue on wording : <a href="https://github.com/PrestaShop/PrestaShop/issues/35297">https://github.com/PrestaShop/PrestaShop/issues/35297</a></td>
 <td>The Step Addresses page is displayed</td>
 </tr>
 <tr>
@@ -67311,20 +67311,20 @@
 <td>Step 2 Addresses is displayed</td>
 </tr>
 <tr>
-<td>Fill the <em>ADDRESSES</em> form<br><br>and click on CONTINUE</td>
-<td>The step 3 SHIPPING METHOD is well displayed.</td>
+<td>Fill the Addresses form &gt; Click on Continue to shipping</td>
+<td>The step 3 Shipping method is well displayed.</td>
 </tr>
 <tr>
-<td>Step 3 - <em>Shipping method</em> is displayed.<br><br><em>Click and collect</em> and <em>My carrier</em> are displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping<br><br>And click on continue</td>
+<td>In Step 3 Shipping method &gt; Click and collect and My carrier are displayed with :<br> * a logo<br> * a name<br> * a delay<br> * the price of shipping<br><br>&gt; Click on Continue to payment</td>
 <td>Step 4 - Payment is displayed</td>
 </tr>
 <tr>
-<td>Choose Payment by bank wire &gt; Agree to the terms and conditions &gt; Place order</td>
-<td>YOUR ORDER IS CONFIRMED</td>
+<td>Choose Pay by bank wire &gt; Check I agree to the terms of service and will adhere to them unconditionally. &gt; Place order</td>
+<td>Your order is confirmed</td>
 </tr>
 <tr>
-<td>Go to BO &gt; Customers page</td>
-<td>Guest account is not existing in customers table</td>
+<td>Go to BO &gt; Customers &gt; Customers page</td>
+<td>See that the latest Customer created is a Guest</td>
 </tr>
 </tbody>
 </table>
@@ -67346,17 +67346,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1707374034"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707374034"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707374034"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1707374034"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1707374034"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707374034"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707374034"></script>
-    <script src="../../../../../../../js/learn.js?1707374034"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1707374034"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1707459818"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707459818"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707459818"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1707459818"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1707459818"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707459818"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707459818"></script>
+    <script src="../../../../../../../js/learn.js?1707459818"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1707459818"></script>
     
-    <script src="../../../../../../../main.js?1707374034"></script>
+    <script src="../../../../../../../main.js?1707459818"></script>
     
     
     
