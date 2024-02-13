@@ -6,7 +6,7 @@ weight: 5
 # New products block module - Disable/Enable module
 ## Details
 * **Component** : ps_newproducts
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4031
 
 ## Steps

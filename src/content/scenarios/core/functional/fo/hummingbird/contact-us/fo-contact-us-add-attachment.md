@@ -6,9 +6,10 @@ weight: 2
 # FO - Contact us - Add attachment
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5070
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/05_contactUs/04_addAttachment.ts
 
 ## Steps
 | Step Description | Expected result |

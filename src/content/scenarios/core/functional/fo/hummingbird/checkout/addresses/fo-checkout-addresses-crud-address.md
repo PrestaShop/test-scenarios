@@ -6,7 +6,7 @@ weight: 4
 # FO - Checkout - Addresses - CRUD address
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7022
 

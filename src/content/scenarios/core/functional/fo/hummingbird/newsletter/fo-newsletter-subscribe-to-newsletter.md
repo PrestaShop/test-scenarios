@@ -6,9 +6,10 @@ weight: 1
 # FO - Newsletter - Subscribe to newsletter
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4986
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/04_newsletter/01_subscribeNewsletter.ts
 
 ## Steps
 | Step Description | Expected result |

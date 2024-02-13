@@ -6,9 +6,10 @@ weight: 3
 # Theme Customization module - Uninstall and delete module
 ## Details
 * **Component** : ps_themecusto
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4158
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_themecusto/01_installation/03_uninstallAndDeleteModule.ts
 
 ## Steps
 | Step Description | Expected result |

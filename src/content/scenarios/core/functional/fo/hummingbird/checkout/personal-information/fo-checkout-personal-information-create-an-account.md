@@ -6,7 +6,7 @@ weight: 4
 # FO - Checkout - Personal Information - Create an account
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7017
 
 ## Steps
