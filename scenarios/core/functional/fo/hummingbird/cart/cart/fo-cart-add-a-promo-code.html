@@ -22,13 +22,13 @@
     <title>FO - Cart - Add a promo code :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707805765" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../style.css?1707805765" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707892146" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../style.css?1707892146" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707805765"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707892146"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -24946,9 +24946,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html" title="FO - Menu and Navigation - Sort and filter - Clear one filter" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html">
-        FO - Menu and Navigation - Sort and filter - Clear one filter
+      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-filters.html" title="FO - Menu and Navigation - Sort and filter - Clear filters" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-filters.html">
+        FO - Menu and Navigation - Sort and filter - Clear filters
         
         </a>
     </li>
@@ -67278,7 +67278,7 @@
 <h1 id="fo---cart---add-a-promo-code">FO - Cart - Add a promo code<a href="#fo---cart---add-a-promo-code"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-6995">https://forge.prestashop.com/browse/TEST-6995</a></li>
 </ul>
 
@@ -67291,36 +67291,40 @@
 </thead>
 <tbody>
 <tr>
-<td>* Go to BO <br> * Go to Catalog &gt; Discounts<br> * Click on Add new cart rule</td>
-<td>* You should see the dashoboard of your shop <br> * You should see all the cart rules created if there is some one <br> * You should be on the modal to create a cart rules</td>
+<td>Go to BO &gt; Catalog &gt; Discounts &gt; Click on Add new cart rule</td>
+<td>Cart rule page is displayed</td>
 </tr>
 <tr>
-<td>* Set up your cart rules <br> * Clic on save</td>
-<td>* Every specified field should be set <br> * You should see your new cart rules added on the list of cart rules</td>
+<td>Set up cart rule &gt; Save</td>
+<td>Successful creation alert is displayed</td>
 </tr>
 <tr>
-<td>* Go to FO <br> * Clic &ldquo;Hummingbird Printed T-shirt&rdquo;<br> * Clic on &ldquo;Add to cart&rdquo;<br> * Clic on Proceed to checkout</td>
-<td>* You should see you shop<br> * You&rsquo;ll see the page of your product<br> * You&rsquo;ll have a modal named &ldquo;Product successfully added to your shopping cart&rdquo;<br> * Your cart is displayed</td>
+<td>Go to FO &gt; Add to cart &ldquo;Hummingbird Printed T-shirt&rdquo; &gt; Click on Proceed to checkout</td>
+<td>Shopping cart is displayed</td>
 </tr>
 <tr>
-<td>* Clic on &ldquo;Have a promo code ? &ldquo;<br> * Write &ldquo;reduc&rdquo; on the new field <br> * Clic on &ldquo;Add&rdquo; button</td>
-<td>* A new field should be displayed<br> * the field should have what you writted<br> * The name of your cart rules  should be add after the total and there is a new line named &ldquo;Discount(s)&rdquo;</td>
+<td>Click on &ldquo;Promo code&rdquo; &gt; Write &ldquo;reduc&rdquo; on the new field &gt; Click on &ldquo;Apply&rdquo; button</td>
+<td>Discount is taken into account (-20,00€)</td>
 </tr>
 <tr>
-<td>* Clic on &ldquo;Have a promo code ? &ldquo;<br> * Write &ldquo;reduc&rdquo; on the new field <br> * Clic on &ldquo;Add&rdquo; button</td>
-<td>* A new field should be displayed<br> * the field should have what you writted<br> * You should have a red message with &ldquo;This voucher is already in your cart&rdquo;</td>
+<td>Click on &ldquo;Promo code&rdquo; &gt; Write &ldquo;reduc&rdquo; on the new field &gt; Click on &ldquo;Apply&rdquo; button</td>
+<td>Alert message with &ldquo;This voucher is already in your cart&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>* Write &ldquo;reduction&rdquo; on the field for promo code <br> * Clic on &ldquo;Add&rdquo; button</td>
-<td>* the field should have what you writted<br> * You should have a red message with &ldquo;This voucher does not exist.&rdquo;</td>
+<td>Click on &ldquo;Promo code&rdquo; &gt; Write &ldquo;reduction&rdquo; on the new field &gt; Click on &ldquo;Apply&rdquo; button</td>
+<td>Alert message with &ldquo;This voucher does not exist.&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>* Erase all what you writted in the field for promo code <br> * Clic on &ldquo;Add&rdquo; button</td>
-<td>* the field should have what you writted<br> * You should have a red message with &ldquo;You must enter a voucher code.&rdquo;</td>
+<td>Erase what you writte in the field for promo code &gt; Click on &ldquo;Apply&rdquo; button</td>
+<td>Alert message with &ldquo;You must enter a voucher code.&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Delete discount by clicking on the trash icon</td>
+<td>Discount is deleted</td>
 </tr>
 <tr>
 <td>Delete promo code in BO</td>
-<td></td>
+<td>Alert message Successful deletion is displayed</td>
 </tr>
 </tbody>
 </table>
@@ -67342,17 +67346,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1707805765"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707805765"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707805765"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1707805765"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1707805765"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707805765"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707805765"></script>
-    <script src="../../../../../../../js/learn.js?1707805765"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1707805765"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1707892146"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707892146"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707892146"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1707892146"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1707892146"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707892146"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707892146"></script>
+    <script src="../../../../../../../js/learn.js?1707892146"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1707892146"></script>
     
-    <script src="../../../../../../../main.js?1707805765"></script>
+    <script src="../../../../../../../main.js?1707892146"></script>
     
     
     

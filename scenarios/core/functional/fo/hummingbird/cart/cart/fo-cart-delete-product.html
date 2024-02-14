@@ -22,13 +22,13 @@
     <title>FO - Cart - Delete product :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707805765" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../style.css?1707805765" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707892146" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../style.css?1707892146" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707805765"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707892146"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -24946,9 +24946,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html" title="FO - Menu and Navigation - Sort and filter - Clear one filter" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html">
-        FO - Menu and Navigation - Sort and filter - Clear one filter
+      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-filters.html" title="FO - Menu and Navigation - Sort and filter - Clear filters" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-filters.html">
+        FO - Menu and Navigation - Sort and filter - Clear filters
         
         </a>
     </li>
@@ -67278,7 +67278,7 @@
 <h1 id="fo---cart---delete-product">FO - Cart - Delete product<a href="#fo---cart---delete-product"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-6994">https://forge.prestashop.com/browse/TEST-6994</a></li>
 </ul>
 
@@ -67291,7 +67291,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to FO &gt; Click on &ldquo;Hummingbird Printed T-shirt&rdquo; &gt; Click on &ldquo;Add to cart&rdquo; &gt; Clic on Proceed to checkout</td>
+<td>Go to FO &gt; Click on button &ldquo;Add to cart&rdquo; for product &ldquo;Hummingbird Printed T-shirt&rdquo; &gt; Click on Proceed to checkout</td>
 <td>Your cart is displayed with the product Hummingbird printed t-shirt</td>
 </tr>
 <tr>
@@ -67299,12 +67299,20 @@
 <td>The product is deleted<br>The message &ldquo;There are no more items in your cart&rdquo; is displayed in your shopping cart.</td>
 </tr>
 <tr>
+<td>Go to FO &gt; Click on button &ldquo;Add to cart&rdquo; for product &ldquo;Hummingbird Printed T-shirt&rdquo; &gt; Click on Proceed to checkout</td>
+<td>Your cart is displayed with the product Hummingbird printed t-shirt</td>
+</tr>
+<tr>
 <td>Click on the minus sign ( - ) next to the product&rsquo;s quantity</td>
 <td>The product is deleted<br>The message &ldquo;There are no more items in your cart&rdquo; is displayed in your shopping cart.</td>
 </tr>
 <tr>
-<td>* Go to FO <br> * Clic &ldquo;Hummingbird Printed T-shirt&rdquo;<br> * Clic on &ldquo;Add to cart&rdquo;<br> * Clic on Proceed to checkout</td>
-<td>* You should see you shop<br> * You&rsquo;ll see the page of your product<br> * You&rsquo;ll have a modal named &ldquo;Product successfully added to your shopping cart&rdquo;<br> * Your cart is displayed</td>
+<td>Go to FO &gt; Click on button &ldquo;Add to cart&rdquo; for product &ldquo;Hummingbird Printed T-shirt&rdquo; &gt; Click on Proceed to checkout</td>
+<td>Your cart is displayed with the product Hummingbird printed t-shirt</td>
+</tr>
+<tr>
+<td>Write 0 in quantity field &gt; Click on the checkmark</td>
+<td>The product is deleted<br>The message &ldquo;There are no more items in your cart&rdquo; is displayed in your shopping cart.</td>
 </tr>
 </tbody>
 </table>
@@ -67326,17 +67334,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1707805766"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707805766"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707805766"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1707805766"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1707805766"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707805766"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707805766"></script>
-    <script src="../../../../../../../js/learn.js?1707805766"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1707805766"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1707892146"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707892146"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707892146"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1707892146"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1707892146"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707892146"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707892146"></script>
+    <script src="../../../../../../../js/learn.js?1707892146"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1707892146"></script>
     
-    <script src="../../../../../../../main.js?1707805766"></script>
+    <script src="../../../../../../../main.js?1707892146"></script>
     
     
     

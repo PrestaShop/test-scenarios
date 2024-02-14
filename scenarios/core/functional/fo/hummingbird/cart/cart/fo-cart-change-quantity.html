@@ -22,13 +22,13 @@
     <title>FO - Cart - Change quantity :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707805765" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707805765" rel="stylesheet">
-    <link href="../../../../../../../style.css?1707805765" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707892146" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707892146" rel="stylesheet">
+    <link href="../../../../../../../style.css?1707892146" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707805765"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707892146"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -24946,9 +24946,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html" title="FO - Menu and Navigation - Sort and filter - Clear one filter" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html">
-        FO - Menu and Navigation - Sort and filter - Clear one filter
+      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-filters.html" title="FO - Menu and Navigation - Sort and filter - Clear filters" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-filters.html">
+        FO - Menu and Navigation - Sort and filter - Clear filters
         
         </a>
     </li>
@@ -67278,7 +67278,7 @@
 <h1 id="fo---cart---change-quantity">FO - Cart - Change quantity<a href="#fo---cart---change-quantity"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-6993">https://forge.prestashop.com/browse/TEST-6993</a></li>
 </ul>
 
@@ -67291,64 +67291,56 @@
 </thead>
 <tbody>
 <tr>
-<td>* Go to FO <br> * Clic &ldquo;Hummingbird Printed T-shirt&rdquo;<br> * Clic on &ldquo;Add to cart&rdquo;<br> * Clic on Proceed to checkout</td>
-<td>* You should see you shop<br> * You&rsquo;ll see the page of your product<br> * You&rsquo;ll have a modal named &ldquo;Product successfully added to your shopping cart&rdquo;<br> * Your cart is displayed</td>
+<td>Go to FO &gt; Click on button &ldquo;Add to cart&rdquo; for product &ldquo;Hummingbird Printed T-shirt&rdquo; &gt; Click on Proceed to checkout</td>
+<td>The shopping cart is displayed</td>
 </tr>
 <tr>
-<td>Clic on the up arrow next to the product&rsquo;s number</td>
-<td>You should have one more product on your card</td>
+<td>Click on the &ldquo;+&rdquo; next to the product&rsquo;s quantity</td>
+<td>Quantity is 2</td>
 </tr>
 <tr>
-<td>Clic on the down arrow next to the product&rsquo;s number</td>
-<td>You should have one less product on your card</td>
+<td>Click on the &ldquo;-&rdquo; next to the product&rsquo;s quantity</td>
+<td>Quantity is 1</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Writte 3 and press enter</td>
-<td>* You can now writte on it <br> * You should have 3 products</td>
+<td>Click on the product&rsquo;s quantity &gt; Write 3 &gt; Click on the checkmark</td>
+<td>Quantity is 3</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Writte -6 and press enter</td>
-<td>* You can now writte on it <br> * You should have 3 products</td>
+<td>Click on the product&rsquo;s quantity &gt; Write -6 &gt; Click on the checkmark</td>
+<td>There are no more items in your cart</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Writte +6 and press enter</td>
-<td>* You can now writte on it <br> * You should have 6 products</td>
+<td>Go to FO &gt; Click on button &ldquo;Add to cart&rdquo; for product &ldquo;Hummingbird Printed T-shirt&rdquo; &gt; Click on Proceed to checkout</td>
+<td>The shopping cart is displayed</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Writte 64 and press enter</td>
-<td>* You can now writte on it<br> * You should have 64 products</td>
+<td>Click on the product&rsquo;s quantity &gt; Write +6 &gt; Click on the checkmark</td>
+<td>Quantity is 6</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Writte &ldquo;azerty&rdquo; and press enter</td>
-<td>* You can now writte on it <br> * You should have 64 products</td>
+<td>Click on the product&rsquo;s quantity &gt; Write 64 &gt; Click on the cross</td>
+<td>Quantity is 6</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Writte 2400 and press enter</td>
-<td>* You can now writte on it <br> * You should have 2400 products but the button &ldquo;proceed checkout&rdquo; should be greyed and you have a red message &ldquo;The product is no longer available in this quantity.&rdquo;</td>
+<td>Click on the product&rsquo;s quantity &gt; Write &ldquo;azerty&rdquo; &gt; Click on the checkmark</td>
+<td>Quantity is 6</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Writte 3 and press enter</td>
-<td>* You can now writte on it <br> * You should have 3 products</td>
+<td>Click on the product&rsquo;s quantity &gt; Write 2400 &gt; Click on the checkmark</td>
+<td>Quantity is 300<br>Alert message &ldquo;You can only buy 300 &ldquo;Hummingbird printed t-shirt&rdquo;. Please adjust the quantity in your cart to continue.&rdquo;</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Scroll up until the product&rsquo;s number is less than 300<br> * Clic outside of the number of product</td>
-<td>* You can now writte on it<br> * You should have more product on your card <br> * The number should be incremented</td>
+<td>Close the alert message</td>
+<td>Alert message is not displayed anymore</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Scroll up until the product&rsquo;s number is more than 300<br> * Clic outside of the number of product</td>
-<td>* You can now writte on it<br> * You should have more product on your card <br> * The number should be incremented  but the button &ldquo;proceed checkout&rdquo; should be greyed and you have a red message &ldquo;The product is no longer available in this quantity.&rdquo;</td>
+<td>Click on the product&rsquo;s quantity &gt; Write 3 &gt; Click outside the input field</td>
+<td>Quantity is still 300</td>
 </tr>
 <tr>
-<td>* Clic on the product&rsquo;s number <br> * Scroll down until the product&rsquo;s number is more than 1<br> * Clic outside of the number of product</td>
-<td>* You can now writte on it<br> * You should have less product on your card<br> * The number should be incremented</td>
-</tr>
-<tr>
-<td>* Clic on the product&rsquo;s number<br> * Scroll down until the product&rsquo;s number is less than 1<br> * Clic outside of the number of product</td>
-<td>* You can now writte on it<br> * You should have less product on your card<br> * The number should be the same that previously</td>
-</tr>
-<tr>
-<td>* Clic on the product&rsquo;s number <br> * Writte 0 and press enter</td>
-<td>* You can now writte on it <br> * You should have no product and you should have the message &quot; There are no more items in your cart&quot; in your shopping cart</td>
+<td>Click on the product&rsquo;s quantity &gt; Write 0 &gt; Click on the checkmark</td>
+<td>There are no more items in your cart</td>
 </tr>
 </tbody>
 </table>
@@ -67370,17 +67362,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1707805765"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707805765"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707805765"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1707805765"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1707805765"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707805765"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707805765"></script>
-    <script src="../../../../../../../js/learn.js?1707805765"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1707805765"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1707892146"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707892146"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707892146"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1707892146"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1707892146"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707892146"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707892146"></script>
+    <script src="../../../../../../../js/learn.js?1707892146"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1707892146"></script>
     
-    <script src="../../../../../../../main.js?1707805765"></script>
+    <script src="../../../../../../../main.js?1707892146"></script>
     
     
     
