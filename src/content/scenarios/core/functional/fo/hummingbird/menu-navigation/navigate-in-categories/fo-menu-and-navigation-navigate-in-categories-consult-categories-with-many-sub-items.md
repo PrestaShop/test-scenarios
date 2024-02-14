@@ -6,7 +6,7 @@ weight: 1
 # FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Blocked
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6949
 
 ## Steps

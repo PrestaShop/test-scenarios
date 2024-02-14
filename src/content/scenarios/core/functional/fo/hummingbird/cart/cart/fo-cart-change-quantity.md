@@ -6,24 +6,22 @@ weight: 1
 # FO - Cart - Change quantity
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6993
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| * Go to FO <br> * Clic "Hummingbird Printed T-shirt"<br> * Clic on "Add to cart"<br> * Clic on Proceed to checkout | * You should see you shop<br> * You'll see the page of your product<br> * You'll have a modal named "Product successfully added to your shopping cart"<br> * Your cart is displayed |
-| Clic on the up arrow next to the product's number | You should have one more product on your card |
-| Clic on the down arrow next to the product's number | You should have one less product on your card |
-| * Clic on the product's number <br> * Writte 3 and press enter | * You can now writte on it <br> * You should have 3 products |
-| * Clic on the product's number <br> * Writte -6 and press enter | * You can now writte on it <br> * You should have 3 products |
-| * Clic on the product's number <br> * Writte +6 and press enter | * You can now writte on it <br> * You should have 6 products |
-| * Clic on the product's number <br> * Writte 64 and press enter | * You can now writte on it<br> * You should have 64 products |
-| * Clic on the product's number <br> * Writte "azerty" and press enter | * You can now writte on it <br> * You should have 64 products |
-| * Clic on the product's number <br> * Writte 2400 and press enter | * You can now writte on it <br> * You should have 2400 products but the button "proceed checkout" should be greyed and you have a red message "The product is no longer available in this quantity." |
-| * Clic on the product's number <br> * Writte 3 and press enter | * You can now writte on it <br> * You should have 3 products |
-| * Clic on the product's number <br> * Scroll up until the product's number is less than 300<br> * Clic outside of the number of product | * You can now writte on it<br> * You should have more product on your card <br> * The number should be incremented |
-| * Clic on the product's number <br> * Scroll up until the product's number is more than 300<br> * Clic outside of the number of product | * You can now writte on it<br> * You should have more product on your card <br> * The number should be incremented  but the button "proceed checkout" should be greyed and you have a red message "The product is no longer available in this quantity." |
-| * Clic on the product's number <br> * Scroll down until the product's number is more than 1<br> * Clic outside of the number of product | * You can now writte on it<br> * You should have less product on your card<br> * The number should be incremented |
-| * Clic on the product's number<br> * Scroll down until the product's number is less than 1<br> * Clic outside of the number of product | * You can now writte on it<br> * You should have less product on your card<br> * The number should be the same that previously |
-| * Clic on the product's number <br> * Writte 0 and press enter | * You can now writte on it <br> * You should have no product and you should have the message " There are no more items in your cart" in your shopping cart |
+| Go to FO > Click on button "Add to cart" for product "Hummingbird Printed T-shirt" > Click on Proceed to checkout | The shopping cart is displayed |
+| Click on the "+" next to the product's quantity | Quantity is 2 |
+| Click on the "-" next to the product's quantity | Quantity is 1 |
+| Click on the product's quantity > Write 3 > Click on the checkmark | Quantity is 3 |
+| Click on the product's quantity > Write -6 > Click on the checkmark | There are no more items in your cart |
+| Go to FO > Click on button "Add to cart" for product "Hummingbird Printed T-shirt" > Click on Proceed to checkout | The shopping cart is displayed |
+| Click on the product's quantity > Write +6 > Click on the checkmark | Quantity is 6 |
+| Click on the product's quantity > Write 64 > Click on the cross | Quantity is 6 |
+| Click on the product's quantity > Write "azerty" > Click on the checkmark | Quantity is 6 |
+| Click on the product's quantity > Write 2400 > Click on the checkmark | Quantity is 300<br>Alert message "You can only buy 300 "Hummingbird printed t-shirt". Please adjust the quantity in your cart to continue." |
+| Close the alert message | Alert message is not displayed anymore |
+| Click on the product's quantity > Write 3 > Click outside the input field | Quantity is still 300 |
+| Click on the product's quantity > Write 0 > Click on the checkmark | There are no more items in your cart |

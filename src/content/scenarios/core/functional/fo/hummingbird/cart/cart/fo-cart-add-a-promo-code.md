@@ -6,17 +6,18 @@ weight: 3
 # FO - Cart - Add a promo code
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6995
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| * Go to BO <br> * Go to Catalog > Discounts<br> * Click on Add new cart rule | * You should see the dashoboard of your shop <br> * You should see all the cart rules created if there is some one <br> * You should be on the modal to create a cart rules |
-| * Set up your cart rules <br> * Clic on save | * Every specified field should be set <br> * You should see your new cart rules added on the list of cart rules |
-| * Go to FO <br> * Clic "Hummingbird Printed T-shirt"<br> * Clic on "Add to cart"<br> * Clic on Proceed to checkout | * You should see you shop<br> * You'll see the page of your product<br> * You'll have a modal named "Product successfully added to your shopping cart"<br> * Your cart is displayed |
-| * Clic on "Have a promo code ? "<br> * Write "reduc" on the new field <br> * Clic on "Add" button | * A new field should be displayed<br> * the field should have what you writted<br> * The name of your cart rules  should be add after the total and there is a new line named "Discount(s)" |
-| * Clic on "Have a promo code ? "<br> * Write "reduc" on the new field <br> * Clic on "Add" button | * A new field should be displayed<br> * the field should have what you writted<br> * You should have a red message with "This voucher is already in your cart" |
-| * Write "reduction" on the field for promo code <br> * Clic on "Add" button | * the field should have what you writted<br> * You should have a red message with "This voucher does not exist." |
-| * Erase all what you writted in the field for promo code <br> * Clic on "Add" button | * the field should have what you writted<br> * You should have a red message with "You must enter a voucher code." |
-| Delete promo code in BO |  |
+| Go to BO > Catalog > Discounts > Click on Add new cart rule | Cart rule page is displayed |
+| Set up cart rule > Save | Successful creation alert is displayed |
+| Go to FO > Add to cart "Hummingbird Printed T-shirt" > Click on Proceed to checkout | Shopping cart is displayed |
+| Click on "Promo code" > Write "reduc" on the new field > Click on "Apply" button | Discount is taken into account (-20,00€) |
+| Click on "Promo code" > Write "reduc" on the new field > Click on "Apply" button | Alert message with "This voucher is already in your cart" is displayed |
+| Click on "Promo code" > Write "reduction" on the new field > Click on "Apply" button | Alert message with "This voucher does not exist." is displayed |
+| Erase what you writte in the field for promo code > Click on "Apply" button | Alert message with "You must enter a voucher code." is displayed |
+| Delete discount by clicking on the trash icon | Discount is deleted |
+| Delete promo code in BO | Alert message Successful deletion is displayed |
