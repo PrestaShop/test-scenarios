@@ -22,13 +22,13 @@
     <title>FO - User account - Merchandise Returns - Check PDF order return :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1707892152" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1707892152" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1707892152" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707892152" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707892152" rel="stylesheet">
-    <link href="../../../../../../../style.css?1707892152" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1707978579" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1707978579" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1707978579" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707978579" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707978579" rel="stylesheet">
+    <link href="../../../../../../../style.css?1707978579" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707892152"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707978579"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67278,7 +67278,7 @@
 <h1 id="fo---user-account---merchandise-returns---check-pdf-order-return">FO - User account - Merchandise Returns - Check PDF order return<a href="#fo---user-account---merchandise-returns---check-pdf-order-return"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-8335">https://forge.prestashop.com/browse/TEST-8335</a></li>
 </ul>
 
@@ -67292,39 +67292,39 @@
 <tbody>
 <tr>
 <td><em>Change status in order list page in BO</em><br>Go to BO &gt; Orders &gt; Orders &gt; Click on status label of an order (previously placed with the pre-condition) &gt; Change &ldquo;Awaiting XX payment&rdquo; to &ldquo;Delivered&rdquo; status on the list</td>
-<td>* The order list page is refreshed<br> * A successful message &ldquo;Successful update.&rdquo; is displayed<br> * The status label of the order is well changed to &ldquo;Delivered&rdquo;</td>
+<td>A successful message &ldquo;Successful update.&rdquo; is displayed<br><br>The status label of the order is well changed to &ldquo;Delivered&rdquo;</td>
 </tr>
 <tr>
-<td>Go to FO &gt; Click on you user account name in the header (previously connected with the pre-condition below)</td>
-<td>&ldquo;Your account&rdquo; page is well displayed</td>
+<td>Go to FO &gt; Click on you user account name in the header &gt; Your account</td>
+<td>&ldquo;My account&rdquo; page is well displayed</td>
 </tr>
 <tr>
 <td>Click on &ldquo;Order history and details&rdquo; tab</td>
-<td>* The &ldquo;Order history&rdquo; page with the order list is well displayed<br> * All informations about orders are displayed on the list (reference / date / total price / payment / status / invoice / &ldquo;Details&rdquo; and &ldquo;Reorder&rdquo; links)<br> * At least one order should have &ldquo;Delivered&rdquo; status and an invoice to download<br> * For the status &ldquo;Awaiting XX payment&rdquo; for example, there is no invoice icon on the column</td>
+<td>The &ldquo;Order history&rdquo; page is displayed<br><br>All informations about orders are displayed on the list (reference / date / total price / payment / status / invoice / &ldquo;Details&rdquo; and &ldquo;Reorder&rdquo; links)<br><br>See the latest order made has the &ldquo;Delivered&rdquo; status and an invoice to download</td>
 </tr>
 <tr>
-<td>Choose the order with the &ldquo;Delivered&rdquo; status and click on the &ldquo;Details&rdquo; link in the last column</td>
-<td>* The &ldquo;Order details&rdquo; page is well displayed<br> * All the informations about the order are displayed</td>
+<td>Click on the &ldquo;Details&rdquo; link of the latest order made</td>
+<td>The &ldquo;Order details&rdquo; page is well displayed</td>
 </tr>
 <tr>
-<td>Go down to the list of product ordered &gt; Check the product you want to return and the quantity (if it&rsquo;s more than 1) &gt; Add a message on the &ldquo;Merchandise return&rdquo; section &gt; Click on &ldquo;Request a return&rdquo;</td>
-<td>* The &ldquo;Merchandise returns&rdquo; page is displayed with the list of merchandise returns of the customer account<br> * All informations of the return are displayed (number of order / ID of Return / Package status / Date issued / Returns form)</td>
+<td>Go down to the list of product ordered &gt; Check the product you want to return &gt; Add a message on the &ldquo;Merchandise return&rdquo; section &gt; Click on &ldquo;Request a return&rdquo;</td>
+<td>The &ldquo;Merchandise returns&rdquo; page is displayed with the list of merchandise returns of the customer account<br><br>All informations of the return are displayed (number of order / ID of Return / Package status / Date issued / Returns form)</td>
 </tr>
 <tr>
 <td>Click on return &ldquo;link&rdquo; in &ldquo;Return&rdquo; column</td>
-<td>* The return details page is well displayed<br> * All main informations are displayed:<br> ** A information message &ldquo;You must wait for confirmation before returning any merchandise.&rdquo; is displayed<br> **  reference and date of the return<br> ** Content with the current status of the merchandise return is &ldquo;Waiting for confirmation&rdquo;<br> ** List of items ti be return with the name / combinations / reference and quantity</td>
+<td>The return details page is well displayed<br><br>All main informations are displayed:<br> * A information message &ldquo;You must wait for confirmation before returning any merchandise.&rdquo; is displayed<br> * The reference and date of the return<br> * Content with the current status of the merchandise return is &ldquo;Waiting for confirmation&rdquo;</td>
 </tr>
 <tr>
 <td>Go to BO &gt; Customer Service &gt; Merchandise Returns</td>
-<td>* The &ldquo;Merchandise Returns&rdquo; page is displayed<br> * The merchandise return is displayed on the list with the status: <em>Waiting for confirmation</em></td>
+<td>The &ldquo;Merchandise Returns&rdquo; page is displayed<br><br>The merchandise return is displayed on the list with the status: <em>Waiting for confirmation</em></td>
 </tr>
 <tr>
-<td>Click on this merchandise return &gt; Change the status &ldquo;Waiting for confirmation&rdquo; to &ldquo;Waiting for package&rdquo; on the list field &gt; Click on &ldquo;Save&rdquo; button</td>
-<td>* A successful &quot; Successful update&quot; message is displayed<br> * The &ldquo;Merchandise Returns&rdquo; page is displayed</td>
+<td>Click on this merchandise return &gt; Change the status &ldquo;Waiting for confirmation&rdquo; to &ldquo;Waiting for package&rdquo; &gt; Save</td>
+<td>A successful &quot; Successful update&quot; message is displayed<br><br>The &ldquo;Merchandise Returns&rdquo; page is displayed</td>
 </tr>
 <tr>
-<td>Go back to FO &gt; Refresh the &ldquo;Merchandise returns details&rdquo; page</td>
-<td>* No information message is displayed<br> * In the content, the current status of the merchandise return is &ldquo;<em>Waiting for package</em>&quot;<br> * A new block &ldquo;Reminder&rdquo; is appeared with content and links about the &ldquo;returns form&rdquo; and &ldquo;contact page&rdquo;</td>
+<td>Go back to FO &gt; Refresh the &ldquo;Returns details&rdquo; page</td>
+<td>In the content, the current status of the merchandise return is &ldquo;<em>Waiting for package</em>&quot;<br><br>A new block &ldquo;Reminder&rdquo; has appeared with content and links about the &ldquo;returns form&rdquo; and &ldquo;contact page&rdquo;</td>
 </tr>
 <tr>
 <td>Click on one of the &ldquo;returns form&rdquo; link</td>
@@ -67332,7 +67332,7 @@
 </tr>
 <tr>
 <td>Click on the file downloaded in your browser to open it on a new tab</td>
-<td>* A new tab with the .pdf document is opened<br> * All main informations of the return is displayed</td>
+<td>The .pdf document is opened<br><br>The info in the file match the info in the BO :<br>Return Number, Date, Items to be returned, Reference and Qty</td>
 </tr>
 </tbody>
 </table>
@@ -67354,17 +67354,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1707892152"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707892152"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707892152"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1707892152"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1707892152"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707892152"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707892152"></script>
-    <script src="../../../../../../../js/learn.js?1707892152"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1707892152"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1707978579"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707978579"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707978579"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1707978579"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1707978579"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707978579"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707978579"></script>
+    <script src="../../../../../../../js/learn.js?1707978579"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1707978579"></script>
     
-    <script src="../../../../../../../main.js?1707892152"></script>
+    <script src="../../../../../../../main.js?1707978579"></script>
     
     
     

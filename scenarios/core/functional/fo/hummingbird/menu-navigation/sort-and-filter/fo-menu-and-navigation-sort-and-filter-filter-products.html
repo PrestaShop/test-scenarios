@@ -22,13 +22,13 @@
     <title>FO - Menu and Navigation - Sort and filter - Filter products :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1707892149" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1707892149" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1707892149" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707892149" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707892149" rel="stylesheet">
-    <link href="../../../../../../../style.css?1707892149" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1707978576" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1707978576" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1707978576" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1707978576" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1707978576" rel="stylesheet">
+    <link href="../../../../../../../style.css?1707978576" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707892149"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1707978576"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67278,7 +67278,7 @@
 <h1 id="fo---menu-and-navigation---sort-and-filter---filter-products">FO - Menu and Navigation - Sort and filter - Filter products<a href="#fo---menu-and-navigation---sort-and-filter---filter-products"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-6953">https://forge.prestashop.com/browse/TEST-6953</a></li>
 </ul>
 
@@ -67291,7 +67291,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to FO&gt; all products</td>
+<td>Go to FO &gt; All products</td>
 <td>All products page is displayed</td>
 </tr>
 <tr>
@@ -67304,11 +67304,11 @@
 </tr>
 <tr>
 <td>Filter products by Size.</td>
-<td>Only products with size S, L and XL are displayed.<br><br>Active filters Size: S, Size: L, Size: XL</td>
+<td>There are 2 products.<br><br>Active filters Size: S, Size: L, Size: XL</td>
 </tr>
 <tr>
-<td>Filter by Color products already filtered.</td>
-<td>Only products with size <em>S</em>, <em>L</em> and <em>XL</em> and color is <em>black</em> are displayed.<br><br>Active filters Size: S, Size: L, Size: XL, Color: Black.</td>
+<td>Filter by Color</td>
+<td>There is 1 product.<br><br>Only products with size <em>S</em>, <em>L</em> and <em>XL</em> and color is <em>black</em> are displayed.<br><br>Active filters Size: S, Size: L, Size: XL, Color: Black.</td>
 </tr>
 <tr>
 <td>Click on <em>clear all</em> button</td>
@@ -67316,15 +67316,15 @@
 </tr>
 <tr>
 <td>Filter products by Composition.</td>
-<td>Only products with Composition <em>Ceramic</em>,  <em>Cotton</em> and <em>Recycled cardboard</em> are displayed.<br><br>Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard.</td>
+<td>There are 9 products.<br><br>Only products with Composition <em>Ceramic</em>,  <em>Cotton</em> and <em>Recycled cardboard</em> are displayed.<br><br>Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard.</td>
 </tr>
 <tr>
-<td>Filter by price products already filtered.</td>
-<td>Only products with Composition <em>Ceramic</em>,  <em>Cotton</em> and <em>Recycled cardboard</em> , and Price is between <em>€14.00 - €20.00</em> are displayed.<br><br>Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard, Price : €14.00 - €20.00.</td>
+<td>Filter by Price</td>
+<td>There are 7 products.<br><br>Only products with Composition <em>Ceramic</em>,  <em>Cotton</em> and <em>Recycled cardboard</em> , and Price is between <em>€14.00 - €24.00</em> are displayed.<br><br>Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard, Price : €14.00 - €24.00.<br><br>In left column, filter is €14.00 - €17.00.</td>
 </tr>
 <tr>
-<td>Filter by brand products already filtered.</td>
-<td>Products with Composition <em>Recycled cardboard</em> , Price is between <em>€14.00 - €20.00</em> and Brand is  <em>Graphic Corner</em> are displayed.<br><br>Active filters Composition: Recycled cardboard, Price : €14.00 - €20.00, Brand :  Graphic Corner.</td>
+<td>Filter by Brand</td>
+<td>There are 3 products.<br><br>Products with Composition <em>Recycled cardboard</em> , Price is between <em>€14.00 - €24.00</em> and Brand is  <em>Graphic Corner</em> are displayed.<br><br>Active filters Composition: Recycled cardboard, Price : €14.00 - €24.00, Brand :  Graphic Corner.</td>
 </tr>
 <tr>
 <td>Click on <em>clean all</em> button</td>
@@ -67332,10 +67332,10 @@
 </tr>
 <tr>
 <td>Filter products by Dimension.</td>
-<td>Products with Dimension 40x60cm and 60x90cm are displayed.<br><br>Active filters <em>Dimension</em>: 40x60cm, <em>Dimension</em>: 60x90cm</td>
+<td>There are 3 products.<br><br>Products with Dimension 40x60cm and 60x90cm are displayed.<br><br>Active filters <em>Dimension</em>: 40x60cm, <em>Dimension</em>: 60x90cm</td>
 </tr>
 <tr>
-<td>Filter by Availability products already filtered.</td>
+<td>Filter by Availability</td>
 <td>Products with Dimension 40x60cm, 60x90cm and Availability: In stock are displayed.<br><br>Active filters <em>Dimension</em>: 40x60cm, <em>Dimension</em>: 60x90cm, <em>Availability</em>: In stock</td>
 </tr>
 <tr>
@@ -67344,7 +67344,7 @@
 </tr>
 <tr>
 <td>Filter products by Paper Type.</td>
-<td>Products with Paper Type Ruled, Plain and Squarred are displayed.<br><br>Active filters <em>Paper Type</em>: Ruled, <em>Paper Type</em>: Plain and <em>Paper Type</em>: Squarred.</td>
+<td>There are 3 products.<br><br>Products with Paper Type Ruled, Plain and Squared are displayed.<br><br>Active filters <em>Paper Type</em>: Ruled, <em>Paper Type</em>: Plain and <em>Paper Type</em>: Squared.</td>
 </tr>
 <tr>
 <td>Click on <em>clean all</em> button</td>
@@ -67370,17 +67370,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1707892149"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707892149"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707892149"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1707892149"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1707892149"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707892149"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707892149"></script>
-    <script src="../../../../../../../js/learn.js?1707892149"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1707892149"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1707978576"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1707978576"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1707978576"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1707978576"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1707978576"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1707978576"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1707978576"></script>
+    <script src="../../../../../../../js/learn.js?1707978576"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1707978576"></script>
     
-    <script src="../../../../../../../main.js?1707892149"></script>
+    <script src="../../../../../../../main.js?1707978576"></script>
     
     
     
