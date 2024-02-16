@@ -6,19 +6,14 @@ weight: 4
 # FO - User account - Order history - Order details - Reorder order from details
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8340
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO |  |
-| Login with a customer account |  |
-| Buy a product |  |
-| Go to " account" page |  |
-| Go to "Order history and details" | See the last order |
-| Go to details |  |
-| Click on "reorder" | Redirect to payement section |
-| Paid the order |  |
-| Go to "Order history and details" | The reorder order is displayed |
-| Check if the product is the same about the first order | Same product are order for the first order and the reorder |
+| Go to FO > Sign In to your customer account > Add a product to your cart > Proceed to checkout > Proceed to checkout > Place the order | Your order is confirmed |
+| Go to "Orders" page | "Order history" page is displayed |
+| Click on the Details link of the latest order made > Click on the "Reorder" button | You are redirected to step 2 - Addresses |
+| Place the order | Your order is confirmed |
+| Click on your account > Orders > Click on Details on the latest order made | See that the product ordered is the same : Hummingbird printed sweater |

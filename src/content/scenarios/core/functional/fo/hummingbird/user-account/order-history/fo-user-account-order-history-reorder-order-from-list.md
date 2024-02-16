@@ -6,7 +6,7 @@ weight: 2
 # FO - User account - Order history - Reorder order from list
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8338
 
 ## Steps
