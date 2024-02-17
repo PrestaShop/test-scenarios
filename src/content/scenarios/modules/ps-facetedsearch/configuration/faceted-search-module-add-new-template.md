@@ -6,7 +6,7 @@ weight: 21
 # Faceted search module - Add new template
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4272
 
 ## Steps

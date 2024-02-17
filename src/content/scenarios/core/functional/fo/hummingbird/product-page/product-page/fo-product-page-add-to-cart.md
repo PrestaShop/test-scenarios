@@ -6,7 +6,7 @@ weight: 1
 # FO - Product Page - Add to cart
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6969
 
 ## Steps
