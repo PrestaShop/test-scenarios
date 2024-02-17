@@ -22,13 +22,13 @@
     <title>FO - User account - Merchandise Returns - Consult return details :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1708064914" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1708064914" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1708064914" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1708064914" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1708064914" rel="stylesheet">
-    <link href="../../../../../../../style.css?1708064914" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1708151286" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1708151286" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1708151286" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1708151286" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1708151286" rel="stylesheet">
+    <link href="../../../../../../../style.css?1708151286" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1708064914"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1708151286"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67278,7 +67278,7 @@
 <h1 id="fo---user-account---merchandise-returns---consult-return-details">FO - User account - Merchandise Returns - Consult return details<a href="#fo---user-account---merchandise-returns---consult-return-details"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-8334">https://forge.prestashop.com/browse/TEST-8334</a></li>
 </ul>
 
@@ -67291,64 +67291,56 @@
 </thead>
 <tbody>
 <tr>
-<td><em>Change status in order list page in BO</em><br>Go to BO &gt; Orders &gt; Orders &gt; Click on status label of an order (previously placed with the pre-condition) &gt; Change &ldquo;Awaiting XX payment&rdquo; to &ldquo;Delivered&rdquo; status on the list</td>
-<td>* The order list page is refreshed<br> * A successful message &ldquo;Successful update.&rdquo; is displayed<br> * The status label of the order is well changed to &ldquo;Delivered&rdquo;</td>
+<td>Go to BO &gt; Orders &gt; Orders &gt; Create an order (with the precondition) &gt; Change &ldquo;Awaiting XX payment&rdquo; to &ldquo;Delivered&rdquo; status</td>
+<td>A successful message &ldquo;Successful update.&rdquo; is displayed<br>The status label of the order is well changed to &ldquo;Delivered&rdquo;</td>
 </tr>
 <tr>
-<td>Go to FO &gt; Click on you user account name in the header (previously connected with the pre-condition below)</td>
-<td>&ldquo;Your account&rdquo; page is well displayed</td>
+<td>Go to FO &gt; Sign In to customer account &gt; Click on you user account name in the header &gt; Orders</td>
+<td>&ldquo;Order history&rdquo; page is well displayed</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Order history and details&rdquo; tab</td>
-<td>* The &ldquo;Order history&rdquo; page with the order list is well displayed<br> * All informations about last order are displayed on the list (reference / date / total price / payment / status / invoice / &ldquo;Details&rdquo; and &ldquo;Reorder&rdquo; links)</td>
+<td>Click on the &ldquo;Details&rdquo; link in the last column for the order</td>
+<td>The &ldquo;Order details&rdquo; page is well displayed</td>
 </tr>
 <tr>
-<td>Choose the order with the &ldquo;Delivered&rdquo; status and click on the &ldquo;Details&rdquo; link in the last column</td>
-<td>* The &ldquo;Order details&rdquo; page is well displayed<br> * All the informations about the order are displayed</td>
+<td>Go to block Products &gt; Check the product to return &gt; Add a message on the &ldquo;Merchandise return&rdquo; section &gt; Click on &ldquo;Request a return&rdquo;</td>
+<td>The &ldquo;Merchandise returns&rdquo; page is displayed with the list of merchandise returns of the customer account</td>
 </tr>
 <tr>
-<td>Go down to the list of product ordered &gt; Check the product you want to return and the quantity (if it&rsquo;s more than 1) &gt; Add a message on the &ldquo;Merchandise return&rdquo; section &gt; Click on &ldquo;Request a return&rdquo;</td>
-<td>* The &ldquo;Merchandise returns&rdquo; page is displayed with the list of merchandise returns of the customer account<br> * All informations of the return are displayed (number of order / ID of Return / Package status / Date issued / Returns form)</td>
+<td><em>Case 1: Waiting confirmation of the return</em><br>Click on the Return link</td>
+<td>Message &ldquo;You must wait for confirmation before returning any merchandise.&rdquo; is displayed<br>See : the current status of the merchandise return is &ldquo;Waiting for confirmation&rdquo;</td>
 </tr>
 <tr>
-<td>Click on return &ldquo;link&rdquo; in &ldquo;Return&rdquo; column</td>
-<td>* The return details page is well displayed<br> * All main informations are displayed:<br> ** message to inform of the status of the return<br> **  reference and date of the return<br> ** Content with the current status<br> ** List of items ti be return with the name / combinations / reference and quantity</td>
-</tr>
-<tr>
-<td><em>Case 1: Waiting confirmation of the return</em><br>All informations are displayed with a message and the current status</td>
-<td>* A information message &ldquo;You must wait for confirmation before returning any merchandise.&rdquo; is displayed<br> * In the content, the current status of the merchandise return is &ldquo;Waiting for confirmation&rdquo;</td>
-</tr>
-<tr>
-<td>Go to BO &gt; Customer Service &gt; Merchandise Returns page, edit the last return to &ldquo;Waiting for package&rdquo; status and save</td>
+<td>Go to BO &gt; Customer Service &gt; Merchandise Returns page &gt; Edit the last return to &ldquo;Waiting for package&rdquo; &gt; Save</td>
 <td>An alert &ldquo;Successful update.&rdquo; is well displayed</td>
 </tr>
 <tr>
-<td><em>Case 2: Waiting for package</em><br><br>Go to FO &gt; Click on your user account name in the header &gt; Click on the &ldquo;Merchandise returns&rdquo; tab and Click on the return &ldquo;link&rdquo; in the &ldquo;Return&rdquo; column<br><br>All informations are displayed for the waiting package</td>
-<td>* No information message is displayed<br> * In the content, the current status of the merchandise return is &ldquo;Waiting for package&rdquo;<br> * A new block &ldquo;Reminder&rdquo; is appeared with content and links about the &ldquo;returns form&rdquo; and &ldquo;contact page&rdquo;</td>
+<td><em>Case 2: Waiting for package</em><br><br>Go to FO &gt; Click on your user account &gt; Click on Merchandise returns&quot; &gt; Click on the Return link<br><br>All informations are displayed for the waiting package</td>
+<td>See : the current status of the merchandise return is &ldquo;Waiting for package&rdquo;<br>A new block &ldquo;Reminder&rdquo; is displayed with links about the &ldquo;returns form&rdquo; and &ldquo;contact page&rdquo;</td>
 </tr>
 <tr>
-<td>Go to BO &gt; Customer Service &gt; Merchandise Returns page, edit the last return to &ldquo;Package received&rdquo; status and save</td>
+<td>Go back to BO &gt; Customer Service &gt; Merchandise Returns page &gt; Edit the last return to &ldquo;Package received&rdquo; status &gt; Save</td>
 <td>An alert &ldquo;Successful update.&rdquo; is well displayed</td>
 </tr>
 <tr>
-<td><em>Case 3:</em> <em>Package received</em><br><br>Go to FO &gt; Click on your user account name in the header &gt; Click on the &ldquo;Merchandise returns&rdquo; tab and Click on the return &ldquo;link&rdquo; in the &ldquo;Return&rdquo; column<br><br>All informations are displayed for the received package</td>
-<td>* No information message is displayed<br> * In the content, the current status of the merchandise return is &ldquo;Package received&rdquo;</td>
+<td><em>Case 3:</em> <em>Package received</em><br><br>Go to FO &gt; Click on your user account &gt; Click on the Merchandise returns &gt; Click on the Return link<br><br>All informations are displayed for the received package</td>
+<td>See : the current status of the merchandise return is &ldquo;Package received&rdquo;</td>
 </tr>
 <tr>
-<td>Go to BO &gt; Customer Service &gt; Merchandise Returns page, edit the last return to &ldquo;Return denied&rdquo; status and save</td>
+<td>Go to BO &gt; Customer Service &gt; Merchandise Returns page &gt; Edit the last return to &ldquo;Return denied&rdquo; status and save</td>
 <td>An alert &ldquo;Successful update.&rdquo; is well displayed</td>
 </tr>
 <tr>
-<td><em>Case 4:</em> <em>Return denied</em><br><br>Go to FO &gt; Click on your user account name in the header &gt; Click on the &ldquo;Merchandise returns&rdquo; tab and Click on the return &ldquo;link&rdquo; in the &ldquo;Return&rdquo; column<br><br>All informations are displayed for the denied return</td>
-<td>* No information message is displayed<br> * In the content, the current status of the merchandise return is &ldquo;Return denied&rdquo;</td>
+<td><em>Case 4:</em> <em>Return denied</em><br><br>Go to FO &gt; Click on your user account &gt; Click on the Merchandise returns &gt; Click on the Return link<br><br>All informations are displayed for the denied return</td>
+<td>See : the current status of the merchandise return is &ldquo;Return denied&rdquo;</td>
 </tr>
 <tr>
-<td>Go to BO &gt; Customer Service &gt; Merchandise Returns page, edit the last return to &ldquo;Return completed&rdquo; status and save</td>
+<td>Go to BO &gt; Customer Service &gt; Merchandise Returns page &gt; Edit the last return to &ldquo;Return completed&rdquo; status and save</td>
 <td>An alert &ldquo;Successful update.&rdquo; is well displayed</td>
 </tr>
 <tr>
-<td><em>Case 5:</em> <em>Return completed</em><br><br>Go to FO &gt; Click on your user account name in the header &gt; Click on the &ldquo;Merchandise returns&rdquo; tab and Click on the return &ldquo;link&rdquo; in the &ldquo;Return&rdquo; column<br><br>All informations are displayed for the completed return</td>
-<td>* No information message is displayed<br> * In the content, the current status of the merchandise return is &ldquo;Return completed&rdquo;</td>
+<td><em>Case 5:</em> <em>Return completed</em><br><br>Go to FO &gt; Click on your user account name in the header &gt; Click on the Merchandise returns &gt; Click on the Return link<br><br>All informations are displayed for the completed return</td>
+<td>See : the current status of the merchandise return is &ldquo;Return completed&rdquo;</td>
 </tr>
 </tbody>
 </table>
@@ -67370,17 +67362,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1708064914"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1708064914"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1708064914"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1708064914"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1708064914"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1708064914"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1708064914"></script>
-    <script src="../../../../../../../js/learn.js?1708064914"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1708064914"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1708151286"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1708151286"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1708151286"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1708151286"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1708151286"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1708151286"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1708151286"></script>
+    <script src="../../../../../../../js/learn.js?1708151286"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1708151286"></script>
     
-    <script src="../../../../../../../main.js?1708064914"></script>
+    <script src="../../../../../../../main.js?1708151286"></script>
     
     
     

@@ -22,13 +22,13 @@
     <title>FO - Checkout - Display of highlighted cart rules :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1708064909" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1708064909" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1708064909" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1708064909" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1708064909" rel="stylesheet">
-    <link href="../../../../../../style.css?1708064909" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1708151281" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1708151281" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1708151281" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1708151281" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1708151281" rel="stylesheet">
+    <link href="../../../../../../style.css?1708151281" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1708064909"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1708151281"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -42968,6 +42968,7 @@
     <li><a href="#fo---checkout---display-of-highlighted-cart-rules">FO - Checkout - Display of highlighted cart rules</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -67271,9 +67272,48 @@
 <h1 id="fo---checkout---display-of-highlighted-cart-rules">FO - Checkout - Display of highlighted cart rules<a href="#fo---checkout---display-of-highlighted-cart-rules"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-5113">https://forge.prestashop.com/browse/TEST-5113</a></li>
 </ul>
+
+<h2 id="steps">Steps<a href="#steps"></a></h2><table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BO &gt; Catalog &gt; Discounts &gt; Add a new cart rule</td>
+<td>the cart rule creation page displayed</td>
+</tr>
+<tr>
+<td>fill in the form and click on &ldquo;Save&rdquo;</td>
+<td>&ldquo;Successful creation&rdquo; notification</td>
+</tr>
+<tr>
+<td>On FO &gt; Add product to cart &gt; Click on &ldquo;Proceed to checkout&rdquo;</td>
+<td>The shopping rule page displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Have a promo code?&rdquo;</td>
+<td>Promo code input, &ldquo;Add&rdquo; button and &ldquo;Close&rdquo; button displayed<br><br> <br><br>Take advantage of our exclusive offers:<br><br>1234 - KDO</td>
+</tr>
+<tr>
+<td>click to &ldquo;1234&rdquo;</td>
+<td>Promo code input = 1234</td>
+</tr>
+<tr>
+<td>click to &ldquo;Add&rdquo;</td>
+<td>Discount &ldquo;KDO&rdquo; displayed<br><br>Deleted button displayed<br><br>Discount(s) : - €5.00<br><br> <br><br>Total (tax incl.) = item price - 5 €</td>
+</tr>
+<tr>
+<td>Click on delete button</td>
+<td>Discount delete<br><br>Total (tax incl.) = item price</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
@@ -67292,17 +67332,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1708064909"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1708064909"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1708064909"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1708064909"></script>
-    <script src="../../../../../../js/featherlight.min.js?1708064909"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1708064909"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1708064909"></script>
-    <script src="../../../../../../js/learn.js?1708064909"></script>
-    <script src="../../../../../../js/hugo-learn.js?1708064909"></script>
+    <script src="../../../../../../js/clipboard.min.js?1708151281"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1708151281"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1708151281"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1708151281"></script>
+    <script src="../../../../../../js/featherlight.min.js?1708151281"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1708151281"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1708151281"></script>
+    <script src="../../../../../../js/learn.js?1708151281"></script>
+    <script src="../../../../../../js/hugo-learn.js?1708151281"></script>
     
-    <script src="../../../../../../main.js?1708064909"></script>
+    <script src="../../../../../../main.js?1708151281"></script>
     
     
     
