@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Email Theme - Back to configuration link"
-weight: 7
+weight: 3
 ---
 
 # BO - Design - Email Theme - Back to configuration link

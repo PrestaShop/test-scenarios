@@ -1,6 +1,6 @@
 ---
 title: "CLONE - BO - Customers - Bulk Actions"
-weight: 10
+weight: 9
 ---
 
 # CLONE - BO - Customers - Bulk Actions

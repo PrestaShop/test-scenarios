@@ -1,6 +1,6 @@
 ---
 title: "BO - Payments - Configure module link"
-weight: 2
+weight: 1
 ---
 
 # BO - Payments - Configure module link

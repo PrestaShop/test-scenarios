@@ -1,6 +1,6 @@
 ---
 title: "BO - Multistore"
-weight: 23
+weight: 20
 ---
 
 # BO - Multistore

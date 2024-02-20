@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Addresses - CRUD"
-weight: 3
+weight: 2
 ---
 
 # BO - Customers - Addresses - CRUD

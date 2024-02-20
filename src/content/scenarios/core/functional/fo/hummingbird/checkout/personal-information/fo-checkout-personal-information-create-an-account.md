@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Personal Information - Create an account"
-weight: 4
+weight: 3
 ---
 
 # FO - Checkout - Personal Information - Create an account

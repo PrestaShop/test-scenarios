@@ -1,6 +1,6 @@
 ---
 title: "BO - Autoupgrade from previous version"
-weight: 5
+weight: 3
 ---
 
 # BO - Autoupgrade from previous version

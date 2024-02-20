@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Image Generation options - Automated version"
-weight: 10
+weight: 7
 ---
 
 # BO - Design - Image Settings - Image Generation options - Automated version

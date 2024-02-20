@@ -6,8 +6,9 @@ weight: 1
 # FO - Homepage - Slider
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5098
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/01_checkSlider.ts
 
 ## Steps
 | Step Description | Expected result |

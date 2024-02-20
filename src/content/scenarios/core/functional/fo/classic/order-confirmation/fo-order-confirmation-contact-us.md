@@ -1,6 +1,6 @@
 ---
 title: "FO - Order confirmation - Contact us"
-weight: 6
+weight: 5
 ---
 
 # FO - Order confirmation - Contact us

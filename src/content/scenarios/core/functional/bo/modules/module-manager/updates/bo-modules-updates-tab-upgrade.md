@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Updates tab - Upgrade"
-weight: 6
+weight: 2
 ---
 
 # BO - Modules - Updates tab - Upgrade

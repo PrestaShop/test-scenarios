@@ -6,8 +6,9 @@ weight: 2
 # FO - Homepage - Display some products
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5099
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/02_displaySomeProducts.ts
 
 ## Steps
 | Step Description | Expected result |

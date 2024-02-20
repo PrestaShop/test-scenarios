@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Link Widget - Sort Link List"
-weight: 5
+weight: 3
 ---
 
 # BO - Design - Link Widget - Sort Link List

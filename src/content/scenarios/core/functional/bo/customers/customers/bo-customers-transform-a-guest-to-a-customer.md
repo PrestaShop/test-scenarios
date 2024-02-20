@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Transform a Guest to a Customer"
-weight: 11
+weight: 10
 ---
 
 # BO - Customers - Transform a Guest to a Customer

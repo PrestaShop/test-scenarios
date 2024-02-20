@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Sort and filter - Clear one filter"
-weight: 4
+weight: 3
 ---
 
 # FO - Menu and Navigation - Sort and filter - Clear one filter

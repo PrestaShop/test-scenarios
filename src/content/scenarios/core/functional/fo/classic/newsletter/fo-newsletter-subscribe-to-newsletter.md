@@ -1,6 +1,6 @@
 ---
 title: "FO - Newsletter - Subscribe to newsletter"
-weight: 2
+weight: 1
 ---
 
 # FO - Newsletter - Subscribe to newsletter

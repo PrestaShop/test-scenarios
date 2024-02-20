@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart - Display total discount"
-weight: 9
+weight: 7
 ---
 
 # FO - Cart - Display total discount

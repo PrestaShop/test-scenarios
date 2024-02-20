@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping Tab"
-weight: 19
+weight: 16
 ---
 
 # BO - Shipping Tab

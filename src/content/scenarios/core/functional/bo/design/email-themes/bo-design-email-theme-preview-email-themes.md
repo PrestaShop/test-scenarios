@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Email Theme - Preview email themes"
-weight: 4
+weight: 1
 ---
 
 # BO - Design - Email Theme - Preview email themes

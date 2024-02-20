@@ -1,6 +1,6 @@
 ---
 title: "BO - Pricing Tab"
-weight: 20
+weight: 17
 ---
 
 # BO - Pricing Tab

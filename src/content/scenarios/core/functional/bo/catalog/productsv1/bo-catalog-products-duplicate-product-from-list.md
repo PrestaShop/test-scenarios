@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products - Duplicate Product from list"
-weight: 8
+weight: 6
 ---
 
 # BO - Catalog - Products - Duplicate Product from list

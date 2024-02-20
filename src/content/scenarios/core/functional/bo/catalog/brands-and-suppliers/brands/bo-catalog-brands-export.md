@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Brands - Export"
-weight: 7
+weight: 6
 ---
 
 # BO - Catalog - Brands - Export

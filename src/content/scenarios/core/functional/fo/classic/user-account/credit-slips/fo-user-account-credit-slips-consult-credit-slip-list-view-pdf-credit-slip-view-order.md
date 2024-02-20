@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Credit Slips - Consult credit slip list & View PDF Credit slip & View order"
-weight: 3
+weight: 1
 ---
 
 # FO - User account - Credit Slips - Consult credit slip list & View PDF Credit slip & View order

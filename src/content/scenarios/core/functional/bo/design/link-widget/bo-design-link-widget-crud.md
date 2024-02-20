@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Link Widget - CRUD"
-weight: 3
+weight: 2
 ---
 
 # BO - Design - Link Widget - CRUD

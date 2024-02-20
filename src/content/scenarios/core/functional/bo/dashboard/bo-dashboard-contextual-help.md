@@ -1,6 +1,6 @@
 ---
 title: "BO - Dashboard - Contextual help"
-weight: 5
+weight: 4
 ---
 
 # BO - Dashboard - Contextual help

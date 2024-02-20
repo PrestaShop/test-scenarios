@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Email Theme - Configuration of the whole page"
-weight: 5
+weight: 2
 ---
 
 # BO - Design - Email Theme - Configuration of the whole page

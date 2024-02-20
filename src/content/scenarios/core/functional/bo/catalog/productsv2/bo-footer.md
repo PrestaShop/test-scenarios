@@ -1,6 +1,6 @@
 ---
 title: "BO - Footer"
-weight: 12
+weight: 9
 ---
 
 # BO - Footer

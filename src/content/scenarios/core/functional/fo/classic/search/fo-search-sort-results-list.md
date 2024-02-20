@@ -1,6 +1,6 @@
 ---
 title: "Fo - Search - Sort results list"
-weight: 6
+weight: 5
 ---
 
 # Fo - Search - Sort results list
