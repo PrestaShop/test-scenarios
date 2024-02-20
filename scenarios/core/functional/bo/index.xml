@@ -15,20 +15,6 @@
       <description> BO - Debug mode Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-705 Steps Step Description Expected result Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page Toggle display of the toolbar Toolbar is toggled on and off Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/&#xA;- Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message Click on the debug mode link You are redirected to Performance Page Disable debug mode and save On the top right corner, the debug mode link is no longer displayed </description>
     </item>
     <item>
-      <title>BO - Gamification module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-gamification-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-gamification-module.html</guid>
-      <description> BO - Gamification module Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-709 Steps Step Description Expected result Go to Modules &amp;gt; Module Manager &amp;gt; Search &amp;ldquo;gamification&amp;rdquo; Merchant Expertise module is displayed in list of Modules Click Configure Merchant Expertise page is displayed Filter Type, Status and Level Badges will update according to filter </description>
-    </item>
-    <item>
-      <title>BO - Recommended modules for the page</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-recommended-modules-for-the-page.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-recommended-modules-for-the-page.html</guid>
-      <description>BO - Recommended modules for the page Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-712 Steps Step Description Expected result Go to BO &amp;gt; Migrated page like Orders, Products, Customers, etc Click on button Recommended Modules and Services Popup will open with multiple choices of Modules Click install on the module of your choice Message Install action on module XXX succeeded. appears&#xA;When installed, button will transform to a Configure button Click on the button Configure The page will refresh with the configuration page of the module Click previous on browser Previous page will open Click again on the button Recommended Modules and Services You will see 2 tabs, one &amp;ldquo;Not installed&amp;rdquo;, one &amp;ldquo;Installed&amp;rdquo; Go to Installed modules tabs &amp;gt; Click on the dropdown arrow and uninstalled your module Message Uninstall action on module XXX succeeded.</description>
-    </item>
-    <item>
       <title>BO - Onboarding</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,13 +34,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</guid>
       <description>BO - After autoupgrade, rollback to previous version Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2059 Steps Step Description Expected result In 1-Click Upgrade &amp;gt; go to the section Rollback and choose your backup Rollback from the Release to PS16124 Rollback is OK, and every data are OK. Rollback from The release to PS174x Rollback is OK, and every data are OK. Rollback from the Release to PS175x Rollback is OK, and every data are OK.</description>
-    </item>
-    <item>
-      <title>BO - Exploratory session after autoupgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-exploratory-session-after-autoupgrade.html</guid>
-      <description>BO - Exploratory session after autoupgrade Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-2348 Steps Step Description Expected result Install previous version (specify which one in expected result) Add a localization pack (Poland for example) Enable Multistore, create a new shop on a new shop group Add one product of each following type (standard with customization, virtual, pack, combination) on each shop On each shop, add a carrier On each shop, add a discount On FO, for each shop, add a customer Make 2 or 3 orders with new products Change some status orders (on each shop) Install some new modules and configure them (partner, PS&amp;hellip;) Configuration is OK Upgrade to the tested build Everything is OK during upgrade Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK.</description>
     </item>
   </channel>
 </rss>

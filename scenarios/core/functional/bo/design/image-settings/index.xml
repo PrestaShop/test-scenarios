@@ -29,13 +29,6 @@
       <description>BO - Design - Image Settings - Images generation options Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-962 Steps Step Description Expected result Case 1 : Using JPEG base image(with high resolution)&#xA;* Bo &amp;gt; Design &amp;gt; Image Settings &amp;gt; Go to Images generation options section&#xA;* Put the specified data &amp;gt; Click on Save button * Image Settings page is well displayed&#xA;* Message displayed : &amp;lsquo;The settings have been successfully updated.</description>
     </item>
     <item>
-      <title>BO - Design - Image Settings - Regenerate thumbnails</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-regenerate-thumbnails.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-regenerate-thumbnails.html</guid>
-      <description> BO - Design - Image Settings - Regenerate thumbnails Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-963 </description>
-    </item>
-    <item>
       <title>BO - Design - Image Settings - Sort and Pagination</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-sort-and-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -55,20 +48,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-bulk-actions-feature-not-integrated.html</guid>
       <description>BO - Design - Image Settings - Delete Bulk actions - feature not integrated - Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-5153 Steps Step Description Expected result Do the Precondition &amp;ldquo;BO - Image Settings - Create an Image type random&amp;rdquo; four times You&amp;rsquo;ll have four new image type * Clic on the checkbox next to the first two Image type create The checkbox should be checked next to them * Clic on the &amp;ldquo;Bulk actions&amp;rdquo; Button</description>
-    </item>
-    <item>
-      <title>BO - Design - Image Settings - Import Image type - feature not integrated -</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-import-image-type-feature-not-integrated.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-import-image-type-feature-not-integrated.html</guid>
-      <description> BO - Design - Image Settings - Import Image type - feature not integrated - Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-5157 Steps Step Description Expected result Clic on the &amp;ldquo;Generate theme image settings&amp;rdquo; button at the top right A modal should be displayed Case : You don&amp;rsquo;t have yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have 0 image type Case : You have yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a success message &amp;ldquo;The settings have been successfully updated&amp;rdquo; * You&amp;rsquo;ll have your image type Case : You have the same yml file for your theme with image type * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have the same image type Case : You have the same name on your image type but not the same size on your yml * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a red alert with the message &amp;quot; Your themes doesn&amp;rsquo;t have image types configured&amp;quot; * You still have the same image type Case : You have the same size on your image type but not the same name on your yml * Clic on the &amp;ldquo;import&amp;rdquo; button * You&amp;rsquo;ll have a success message &amp;ldquo;The settings have been successfully updated&amp;rdquo; * You&amp;rsquo;ll have twice your image type </description>
-    </item>
-    <item>
-      <title>BO - Design - Image Settings - Image Generation options - QA Analyst version</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-qa-analyst-version.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-qa-analyst-version.html</guid>
-      <description> BO - Design - Image Settings - Image Generation options - QA Analyst version Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-5176 Steps Step Description Expected result Case : Your server support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be enable&#xA;* JPEG/PNG should be greyed * You can&amp;rsquo;t unchecked the JPEG/PNG format Check the Webp checkbox ( you should have 3 checkboxes checked ) You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo; </description>
     </item>
     <item>
       <title>BO - Design - Image Settings - Image Generation options - Automated version</title>

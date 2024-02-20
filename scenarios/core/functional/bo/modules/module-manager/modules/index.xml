@@ -64,32 +64,11 @@
       <description> BO - Modules - Upload a module Details Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-881 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/08_uploadModule.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/modules Steps Step Description Expected result Login in BO &amp;gt; Go to modules manager page * The page title should contains &amp;lsquo;Module manager&amp;rsquo;&#xA;Check that the button upload module exist in the header of the page Click on the button Upload module A pop-up contains &amp;lsquo;Drop your module archive here or select file&amp;rsquo; appears Case 1 : Drop the module you want to install Case 2 : Select the file of the module you want to install The installing process begins &amp;gt; a sucess message should appears Check that the module is well installed and exist in the list of modules </description>
     </item>
     <item>
-      <title>BO - Modules - Connect / Disconnect to Addons market place</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-connect-disconnect-to-addons-market-place.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-connect-disconnect-to-addons-market-place.html</guid>
-      <description> BO - Modules - Connect / Disconnect to Addons market place Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-882 </description>
-    </item>
-    <item>
       <title>BO - Modules - Configure module</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</guid>
       <description>BO - Modules - Configure module Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-883 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/09_configureModule.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/modules Steps Step Description Expected result Login in BO Dashboarb page should be displayed Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name ) Click on the button configure The page title should contains &amp;lsquo;Configure &amp;rsquo; and the page sub-title should contains the module&amp;rsquo;s name</description>
-    </item>
-    <item>
-      <title>BO - Modules - See more / less module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-see-more-less-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-see-more-less-module.html</guid>
-      <description> BO - Modules - See more / less module Details Component : Core Status : Deprecated Automated on : 8.1.x Scenario : https://forge.prestashop.com/browse/TEST-884 Steps Step Description Expected result Login in BO &amp;gt; Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Scroll in the existing modules &amp;gt; click on the button See more Other modules should appears Click on the button See less Some modules disappears from the list </description>
-    </item>
-    <item>
-      <title>BO - Modules - Read more about module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-read-more-about-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-read-more-about-module.html</guid>
-      <description> BO - Modules - Read more about module Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-885 Steps Step Description Expected result Login in BO Dashboarb page should be displayed Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Set the name of a module in the search bar &amp;gt; click on the search button The searched module should be displayed ( only one result should be exist contains the searched module name ) Check the description of the module &amp;gt; click on the link read more More informations related to the module appears </description>
     </item>
     <item>
       <title>BO - Modules - Upgrade</title>
