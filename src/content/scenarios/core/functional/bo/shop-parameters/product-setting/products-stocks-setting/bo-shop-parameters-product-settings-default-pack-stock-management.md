@@ -15,13 +15,17 @@ weight: 5
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock | See Default pack stock management is set to Decrement pack only. |
+| Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock block | See Default pack stock management is set to _Decrement pack only_. |
 | Go to Catalog > Products | See Pack Mug + Framed poster quantity is 100 |
-| Go to FO > Search for Pack product > Add Pack Mug + Framed poster to cart > Proceed to checkout | Your order is confirmed |
-| Go to Catalog > Products | See Pack Mug + Framed poster quantity is 99 |
+| Go to FO > Search for Pack product > Add to cart _Pack Mug + Framed poster_ > Proceed to checkout | Your order is confirmed |
+| Go to BO > Catalog > Products | See Pack Mug + Framed poster quantity is 99 |
 | Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock > Set Default pack stock management to "Decrement products in pack only." > Save | Message Update successful is displayed |
 | Go to FO > Search for Pack product > Add Pack Mug + Framed poster to cart > Proceed to checkout | Your order is confirmed |
-| Go to Catalog > Products | See:<br>- Pack Mug + Framed poster quantity is 99<br>- Mug The adventure begins quantity is 295<br>- Today is a good day Framed poster quantity is 895 |
+| Go to Catalog > Products | See:<br>Pack Mug + Framed poster quantity is 99<br>Mug The adventure begins quantity is 295<br>Today is a good day Framed poster quantity is 895 |
 | Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock > Set Default pack stock management to "Decrement both." > Save | Message Update successful is displayed |
 | Go to FO > Search for Pack product > Add Pack Mug + Framed poster to cart > Proceed to checkout | Your order is confirmed |
 | Go to Catalog > Products | See:<br><br>Pack Mug + Framed poster quantity is 98<br>Mug The adventure begins quantity is 290<br>Today is a good day Framed poster quantity is 890 |
+| Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock > Set Default pack stock management to "Decrement products in pack only." > Save | Message Update successful is displayed |
+| Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock > Set Default pack stock management to "Decrement pack only." > Save | Message Update successful is displayed |
+| Go to Catalog > Products > Edit quantity of your Pack product _Pack Mug + Framed poster_ to 0 | Message Successful update is displayed |
+| Go to FO > Search for Pack product | Product is out of stock, it can't be added to the cart |
