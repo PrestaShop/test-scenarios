@@ -22,13 +22,13 @@
     <title>BO - Shop Parameters - Product Settings - Default pack stock management :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1708410487" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1708410487" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1708410487" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1708410487" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1708410487" rel="stylesheet">
-    <link href="../../../../../../../style.css?1708410487" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1708496849" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1708496849" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1708496849" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1708496849" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1708496849" rel="stylesheet">
+    <link href="../../../../../../../style.css?1708496849" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1708410487"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1708496849"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -63742,19 +63742,19 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; Shop Parameters &gt; Product Settings &gt; Scroll down to Products stock</td>
-<td>See Default pack stock management is set to Decrement pack only.</td>
+<td>Go to BO &gt; Shop Parameters &gt; Product Settings &gt; Scroll down to Products stock block</td>
+<td>See Default pack stock management is set to <em>Decrement pack only</em>.</td>
 </tr>
 <tr>
 <td>Go to Catalog &gt; Products</td>
 <td>See Pack Mug + Framed poster quantity is 100</td>
 </tr>
 <tr>
-<td>Go to FO &gt; Search for Pack product &gt; Add Pack Mug + Framed poster to cart &gt; Proceed to checkout</td>
+<td>Go to FO &gt; Search for Pack product &gt; Add to cart <em>Pack Mug + Framed poster</em> &gt; Proceed to checkout</td>
 <td>Your order is confirmed</td>
 </tr>
 <tr>
-<td>Go to Catalog &gt; Products</td>
+<td>Go to BO &gt; Catalog &gt; Products</td>
 <td>See Pack Mug + Framed poster quantity is 99</td>
 </tr>
 <tr>
@@ -63767,7 +63767,7 @@
 </tr>
 <tr>
 <td>Go to Catalog &gt; Products</td>
-<td>See:<br>- Pack Mug + Framed poster quantity is 99<br>- Mug The adventure begins quantity is 295<br>- Today is a good day Framed poster quantity is 895</td>
+<td>See:<br>Pack Mug + Framed poster quantity is 99<br>Mug The adventure begins quantity is 295<br>Today is a good day Framed poster quantity is 895</td>
 </tr>
 <tr>
 <td>Go to BO &gt; Shop Parameters &gt; Product Settings &gt; Scroll down to Products stock &gt; Set Default pack stock management to &ldquo;Decrement both.&rdquo; &gt; Save</td>
@@ -63780,6 +63780,22 @@
 <tr>
 <td>Go to Catalog &gt; Products</td>
 <td>See:<br><br>Pack Mug + Framed poster quantity is 98<br>Mug The adventure begins quantity is 290<br>Today is a good day Framed poster quantity is 890</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Product Settings &gt; Scroll down to Products stock &gt; Set Default pack stock management to &ldquo;Decrement products in pack only.&rdquo; &gt; Save</td>
+<td>Message Update successful is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Product Settings &gt; Scroll down to Products stock &gt; Set Default pack stock management to &ldquo;Decrement pack only.&rdquo; &gt; Save</td>
+<td>Message Update successful is displayed</td>
+</tr>
+<tr>
+<td>Go to Catalog &gt; Products &gt; Edit quantity of your Pack product <em>Pack Mug + Framed poster</em> to 0</td>
+<td>Message Successful update is displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Search for Pack product</td>
+<td>Product is out of stock, it can&rsquo;t be added to the cart</td>
 </tr>
 </tbody>
 </table>
@@ -63801,17 +63817,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1708410487"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1708410487"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1708410487"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1708410487"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1708410487"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1708410487"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1708410487"></script>
-    <script src="../../../../../../../js/learn.js?1708410487"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1708410487"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1708496849"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1708496849"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1708496849"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1708496849"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1708496849"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1708496849"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1708496849"></script>
+    <script src="../../../../../../../js/learn.js?1708496849"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1708496849"></script>
     
-    <script src="../../../../../../../main.js?1708410487"></script>
+    <script src="../../../../../../../main.js?1708496849"></script>
     
     
     
