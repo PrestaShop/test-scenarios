@@ -6,7 +6,7 @@ weight: 2
 # FO - Order confirmation - Display of product customization
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1315
 
 ## Steps
@@ -20,3 +20,4 @@ weight: 2
 | Clic on "Continue" | You should see the "Shipping method" tab with Click and collect selected |
 | * Clic on "Continue"<br> * Select the "Pay by check" option <br> * Clic on "I agree [...] unconditionally" <br> * Clic on "Place Order" button | * You should see the "Payment" tab with "Place Order" button disabled <br> * The Play by check option should be selected ans you will have the info to where you can send your check<br> * "Place Order" button should be enabled<br> * You should see you Order Confirmation |
 | Clic on "Product customization" | You should have a modal with : <br><br>Title : Product customization <br>Type your text here : test |
+| Click on the cross | Modal is deleted<br><br>Order confirmation page displayed |

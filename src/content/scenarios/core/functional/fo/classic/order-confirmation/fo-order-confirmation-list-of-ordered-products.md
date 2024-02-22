@@ -6,7 +6,7 @@ weight: 1
 # FO - Order confirmation - List of ordered products
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1314
 
 ## Steps

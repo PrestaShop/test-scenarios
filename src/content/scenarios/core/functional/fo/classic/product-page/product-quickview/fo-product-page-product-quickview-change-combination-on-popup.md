@@ -6,7 +6,7 @@ weight: 6
 # FO - Product Page - Product Quickview - Change combination on popup
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1253
 
@@ -22,4 +22,4 @@ weight: 6
 | Put your mouse over the product "The best is yet to come' Framed poster" | The button "Quickview" should be displayed |
 | Clic on the "Quickview" button | You should have a modal that show you the product. |
 | * Click on the box related to the Dimension<br> * Choose the "60x90cm" | * You should see all the Dimenson enabled ( 40x60cm - 60x90cm - 80x120cm )<br> * On the top of this box you should have "Dimension : 60x90cm"<br> * The price should change (from 29$ to 49$) |
-| * Click on the box related to the Size<br> * Choose the "XL" | * You should see all the Size enabled ( S - M - L - XL )<br> * on the top of this box you should have "Size : XL" |
+| Click on the cross at the top right | The modal shouldn't be displayed and the page of your shop should be displayed |

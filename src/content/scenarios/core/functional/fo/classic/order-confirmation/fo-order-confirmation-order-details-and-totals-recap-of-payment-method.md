@@ -6,7 +6,7 @@ weight: 3
 # FO - Order confirmation - Order details and totals - Recap of payment method
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1316
 
 ## Steps

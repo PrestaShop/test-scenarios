@@ -1,13 +1,13 @@
 ---
-title: "FO - Cart - Display discount on product"
+title: "FO - Cart - Display discount on product, Display total discount, Display detail discount, Delete discount"
 weight: 6
 ---
 
-# FO - Cart - Display discount on product
+# FO - Cart - Display discount on product, Display total discount, Display detail discount, Delete discount
 ## Details
 * **Component** : Core
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6998
+* **Scenario** : https://forge.prestashop.com/browse/TEST-1284
 
 ## Steps
 | Step Description | Expected result |

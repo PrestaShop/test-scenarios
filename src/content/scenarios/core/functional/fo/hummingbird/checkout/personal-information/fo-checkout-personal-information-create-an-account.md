@@ -6,8 +6,9 @@ weight: 3
 # FO - Checkout - Personal Information - Create an account
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7017
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_personalInformation/03_createAccount.ts
 
 ## Steps
 | Step Description | Expected result |

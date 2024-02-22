@@ -6,7 +6,7 @@ weight: 3
 # FO - Cart - Add a promo code
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6995
 
 ## Steps

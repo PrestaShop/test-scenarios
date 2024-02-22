@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart - Continue Shopping and Proceed to Checkout"
-weight: 10
+weight: 7
 ---
 
 # FO - Cart - Continue Shopping and Proceed to Checkout
