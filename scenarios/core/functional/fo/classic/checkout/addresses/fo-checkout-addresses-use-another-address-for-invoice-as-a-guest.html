@@ -22,13 +22,13 @@
     <title>FO - Checkout - Addresses - Use another address for invoice as a guest :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1708583321" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1708583321" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1708583321" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1708583321" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1708583321" rel="stylesheet">
-    <link href="../../../../../../../style.css?1708583321" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1708669607" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1708669607" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1708669607" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1708669607" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1708669607" rel="stylesheet">
+    <link href="../../../../../../../style.css?1708669607" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1708583321"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1708669607"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -21425,9 +21425,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/checkout/fo-checkout-display-of-total-price-vouchers-shipping-promo.html" title="FO - Checkout - Display of total (price, vouchers, shipping, promo...)" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/fo/hummingbird/checkout/fo-checkout-display-of-total-price-vouchers-shipping-promo.html">
-        FO - Checkout - Display of total (price, vouchers, shipping, promo...)
+      <li data-nav-id="/scenarios/core/functional/fo/hummingbird/checkout/fo-checkout-display-of-total-price-vouchers-shipping.html" title="FO - Checkout - Display of total (price, vouchers, shipping)" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/fo/hummingbird/checkout/fo-checkout-display-of-total-price-vouchers-shipping.html">
+        FO - Checkout - Display of total (price, vouchers, shipping)
         
         </a>
     </li>
@@ -40751,6 +40751,7 @@
     <li><a href="#fo---checkout---addresses---use-another-address-for-invoice-as-a-guest">FO - Checkout - Addresses - Use another address for invoice as a guest</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -63509,9 +63510,56 @@
 <h1 id="fo---checkout---addresses---use-another-address-for-invoice-as-a-guest">FO - Checkout - Addresses - Use another address for invoice as a guest<a href="#fo---checkout---addresses---use-another-address-for-invoice-as-a-guest"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1303">https://forge.prestashop.com/browse/TEST-1303</a></li>
 </ul>
+
+<h2 id="steps">Steps<a href="#steps"></a></h2><table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to FO</td>
+<td>The page of your shop should be displayed</td>
+</tr>
+<tr>
+<td>Put your mouse over the product &ldquo;The best is Yet to Come&rdquo;</td>
+<td>The button &ldquo;Quickview&rdquo; should be displayed</td>
+</tr>
+<tr>
+<td>Clic on the &ldquo;Quickview&rdquo; button</td>
+<td>You should have a modal that show you the product.</td>
+</tr>
+<tr>
+<td>Click on Add to cart</td>
+<td>You should have a modal with &ldquo;Product successfully added to your shopping cart&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Proceed to checkout&rdquo;</td>
+<td>You should have your shopping cart displayed with all your product on it</td>
+</tr>
+<tr>
+<td>Clic on &ldquo;Proceed to checkout&rdquo;</td>
+<td>You should be on &ldquo;Personal information&rdquo; Tab</td>
+</tr>
+<tr>
+<td>* Set up different field on &ldquo;Order as guest&rdquo;<br> * Check the box about &ldquo;the terms and conditions and privacy policy&rdquo;<br> * Check the box about &ldquo;Cutomer data privacy<br> * Clic on &ldquo;Continue&rdquo;</td>
+<td>* You should be redirect to Adresses tab with different field to setup</td>
+</tr>
+<tr>
+<td>* Set up your adress<br> * Disable the check box about &ldquo;Use this address for invoice too&rdquo; <br> * Clic on the button &ldquo;Continue&rdquo;</td>
+<td>* You should be redirect to the same address tab <br> * The address you set up is on the Shipping address part <br> * You have to set up the &ldquo;Your invoice Address&rdquo;</td>
+</tr>
+<tr>
+<td>* Set up your invoice adress<br> * Clic on the button &ldquo;Continue&rdquo;</td>
+<td>* You should be redirect to Shipping method</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
@@ -63530,17 +63578,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1708583321"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1708583321"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1708583321"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1708583321"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1708583321"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1708583321"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1708583321"></script>
-    <script src="../../../../../../../js/learn.js?1708583321"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1708583321"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1708669608"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1708669608"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1708669608"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1708669608"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1708669608"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1708669608"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1708669608"></script>
+    <script src="../../../../../../../js/learn.js?1708669608"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1708669608"></script>
     
-    <script src="../../../../../../../main.js?1708583321"></script>
+    <script src="../../../../../../../main.js?1708669608"></script>
     
     
     
