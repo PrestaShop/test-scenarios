@@ -9,7 +9,7 @@ weight: 1
 * **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7789
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiAccess/01_getAPIApiClientId.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiAccess/01_getApiClientId.ts
 
 ## Steps
 | Step Description | Expected result |
