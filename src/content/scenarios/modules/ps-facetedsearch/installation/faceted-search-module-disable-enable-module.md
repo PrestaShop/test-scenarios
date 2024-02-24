@@ -6,7 +6,7 @@ weight: 3
 # Faceted search module - Disable/Enable module
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3228
 
 ## Steps

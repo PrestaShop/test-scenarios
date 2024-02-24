@@ -6,8 +6,7 @@ weight: 5
 # FO - Order confirmation - Contact us
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
-* **Automated on** : 8.0.x, 8.1.x, 9.0.x
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7012
 
 ## Steps

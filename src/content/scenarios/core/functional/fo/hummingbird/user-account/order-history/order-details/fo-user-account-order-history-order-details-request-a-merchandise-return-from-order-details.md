@@ -6,7 +6,7 @@ weight: 2
 # FO - User account - Order history - Order details - Request a merchandise return from order details
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8342
 
 ## Steps
