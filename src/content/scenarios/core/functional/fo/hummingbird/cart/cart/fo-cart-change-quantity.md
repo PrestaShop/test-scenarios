@@ -6,8 +6,9 @@ weight: 1
 # FO - Cart - Change quantity
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6993
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/02_cart/01_changeQuantity.ts
 
 ## Steps
 | Step Description | Expected result |
