@@ -6,9 +6,10 @@ weight: 1
 # FO - User account - Order history - Order details - Send a message
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8343
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_orderDetails/04_sendMessage.ts
 
 ## Steps
 | Step Description | Expected result |

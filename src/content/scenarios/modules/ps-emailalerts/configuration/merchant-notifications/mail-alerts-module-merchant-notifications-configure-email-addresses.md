@@ -6,7 +6,7 @@ weight: 10
 # Mail alerts module - Merchant notifications - Configure email addresses
 ## Details
 * **Component** : ps_emailalerts
-* **Status** : [TEST] To be automated
+* **Status** : Approved
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4125
 
 ## Steps
