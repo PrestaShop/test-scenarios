@@ -6,8 +6,9 @@ weight: 5
 # FO - Product Page - Product Quickview - Close
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6965
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/05_closeModal.ts
 
 ## Steps
 | Step Description | Expected result |
