@@ -8,18 +8,25 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GET /api/api-client/infos</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/get-api-api-client-infos.html</link>
+      <title>DELETE /api/api-client/{apiClientId}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/delete-api-api-client-apiclientid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/get-api-api-client-infos.html</guid>
-      <description>GET /api/api-client/infos Details Component : Core Status : Sandbox Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8609 Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked Click on Save button The message “Update successful” is displayed In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/delete-api-api-client-apiclientid.html</guid>
+      <description>DELETE /api/api-client/{apiClientId} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8613 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/02_deleteAPIApiClientId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked Click on Save button The message “Update successful” is displayed In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
     </item>
     <item>
       <title>GET /api/api-client/{apiClientId}</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/get-api-api-client-apiclientid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/get-api-api-client-apiclientid.html</guid>
-      <description>GET /api/api-client/{apiClientId} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7789 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/01_getApiClientId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked Click on Save button The message “Update successful” is displayed In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
+      <description>GET /api/api-client/{apiClientId} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7789 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/01_getApiClientId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+    </item>
+    <item>
+      <title>GET /api/api-client/infos</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/get-api-api-client-infos.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiaccess/get-api-api-client-infos.html</guid>
+      <description>GET /api/api-client/infos Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8609 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/01_getAPIApiClientInfos.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
   </channel>
 </rss>
