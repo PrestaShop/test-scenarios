@@ -6,8 +6,9 @@ weight: 4
 # FO - User account - Order history - Order details - Reorder order from details
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8340
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_orderDetails/01_reorderFromOrderDetail.ts
 
 ## Steps
 | Step Description | Expected result |

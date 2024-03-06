@@ -14,9 +14,6 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| In BO, Go to Advanced Parameters > New & Experimental Features | New & Experimental Features Page is displayed correctly |
-| Set checked the checkbox “Authorization server" | The checkbox “Authorization server” is checked |
-| Click on Save button | The message “Update successful” is displayed |
 | Go to BO > Modules > Module manager and search ps_apiresources | The module page list should be displayed and *PrestaShop API Resources* module should be displayed on the list |
 | Click on the button at the right of the module > Choose on the list "Disable" option | A modal is open with:<br> * *Title*: "Disable module?"<br> * *Description*: "You are about to disable PrestaShop API Resources module.<br>Your current settings will be saved, but the module will no longer be active."<br> * *2 buttons*: "Cancel" & "Yes, disable it" |
 | Click on "Cancel" button or the cross on top right or outside | * The modal is removed<br> * The module list page is displayed |
@@ -27,6 +24,3 @@ weight: 2
 | Go back to BO > Module list page with ps_apiresources module displayed > Click on "Enable" button at the right of the module | * After loading, a green message "Enable action on module ps_apiresources succeeded." is displayed<br> * The module is enabled, the button at the right of the module is displaying "Configure" |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>No records found in the table |
 | Click on the button "Add new API access" | New API access Page is displayed correctly<br><br>All scopes relative to the Core are displayed and enabled<br><br>All scopes relative to the module are displayed and enabled |
-| In BO, Go to Advanced Parameters > New & Experimental Features | New & Experimental Features Page is displayed correctly |
-| Set unchecked the checkbox “Authorization server" | The checkbox “Authorization server” is unchecked |
-| Click on Save button | The message “Update successful” is displayed |
