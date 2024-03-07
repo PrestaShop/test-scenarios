@@ -1,6 +1,6 @@
 ---
 title: "GET /api/api-client/{apiClientId}"
-weight: 2
+weight: 3
 ---
 
 # GET /api/api-client/{apiClientId}
@@ -9,7 +9,7 @@ weight: 2
 * **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7789
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/01_getApiClientId.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/03_getAPIApiClientId.ts
 
 ## Steps
 | Step Description | Expected result |
