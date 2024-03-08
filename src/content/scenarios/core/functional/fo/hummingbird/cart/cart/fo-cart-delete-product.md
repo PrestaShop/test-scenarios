@@ -6,8 +6,9 @@ weight: 2
 # FO - Cart - Delete product
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6994
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/02_cart/02_deleteProduct.ts
 
 ## Steps
 | Step Description | Expected result |
