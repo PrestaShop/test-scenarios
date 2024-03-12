@@ -6,7 +6,7 @@ weight: 7
 # FO - User account - Contact us on GDPR page
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4985
 
 ## Steps

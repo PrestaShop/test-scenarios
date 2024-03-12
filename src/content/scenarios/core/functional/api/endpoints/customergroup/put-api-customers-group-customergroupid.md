@@ -1,14 +1,15 @@
 ---
 title: "PUT /api/customers/group/{customerGroupId}"
-weight: 2
+weight: 3
 ---
 
 # PUT /api/customers/group/{customerGroupId}
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8628
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_customerGroup/04_putAPICustomerGroupsId.ts
 
 ## Steps
 | Step Description | Expected result |
