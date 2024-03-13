@@ -6,8 +6,9 @@ weight: 3
 # FO - Search - Search no result
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5104
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/03_searchNoResult.ts
 
 ## Steps
 | Step Description | Expected result |

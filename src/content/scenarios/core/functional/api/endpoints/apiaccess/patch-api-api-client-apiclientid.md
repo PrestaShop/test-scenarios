@@ -6,9 +6,10 @@ weight: 4
 # PATCH /api/api-client/{apiClientId}
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8647
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/04_patchAPIApiClientId.ts
 
 ## Steps
 | Step Description | Expected result |

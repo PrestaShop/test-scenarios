@@ -6,7 +6,7 @@ weight: 5
 # FO - User account - Get GDPR Data in CSV
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Blocked
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4979
 
 ## Steps

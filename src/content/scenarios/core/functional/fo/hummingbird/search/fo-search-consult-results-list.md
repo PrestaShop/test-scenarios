@@ -6,8 +6,9 @@ weight: 4
 # FO - Search - Consult results list
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5105
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/04_consultResultsList.ts
 
 ## Steps
 | Step Description | Expected result |

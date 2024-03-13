@@ -6,7 +6,7 @@ weight: 2
 # FO - User account - Merchandise Returns - Check PDF order return
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8335
 
 ## Steps
