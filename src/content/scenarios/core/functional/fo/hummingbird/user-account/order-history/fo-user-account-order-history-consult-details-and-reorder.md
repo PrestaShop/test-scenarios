@@ -1,12 +1,12 @@
 ---
-title: "FO - User account - Order history - Details and Reorder"
+title: "FO - User account - Order history - Consult details and Reorder"
 weight: 2
 ---
 
-# FO - User account - Order history - Details and Reorder
+# FO - User account - Order history - Consult details and Reorder
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8339
 
 ## Steps

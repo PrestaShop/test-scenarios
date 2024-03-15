@@ -6,8 +6,9 @@ weight: 1
 # FO - User account - Order history - Download invoice from orders list
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8337
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/03_downloadInvoice.ts
 
 ## Steps
 | Step Description | Expected result |

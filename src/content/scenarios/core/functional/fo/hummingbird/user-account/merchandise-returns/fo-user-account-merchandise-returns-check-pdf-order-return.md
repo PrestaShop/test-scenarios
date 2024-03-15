@@ -6,8 +6,9 @@ weight: 2
 # FO - User account - Merchandise Returns - Check PDF order return
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8335
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/03_merchandiseReturns/02_checkOrderReturnPDF.ts
 
 ## Steps
 | Step Description | Expected result |

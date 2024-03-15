@@ -6,8 +6,9 @@ weight: 1
 # FO - User account - Merchandise Returns - Consult return details
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8334
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/03_merchandiseReturns/01_consultReturnDetails.ts
 
 ## Steps
 | Step Description | Expected result |
