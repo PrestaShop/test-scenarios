@@ -6,8 +6,9 @@ weight: 2
 # FO - User account - Order history - Consult details and Reorder
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8339
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_consultDetailsAndReorder.ts
 
 ## Steps
 | Step Description | Expected result |

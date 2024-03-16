@@ -7,6 +7,7 @@ weight: 3
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3228
 
 ## Steps
