@@ -6,9 +6,10 @@ weight: 2
 # FO - User account - Order history - Order details - Request a merchandise return from order details
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8342
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_orderDetails/03_requestMerchandiseReturn.ts
 
 ## Steps
 | Step Description | Expected result |

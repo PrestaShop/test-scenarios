@@ -6,8 +6,10 @@ weight: 5
 # FO - Order confirmation - Contact us
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7012
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/12_orderConfirmation/05_contactUs.ts
 
 ## Steps
 | Step Description | Expected result |
