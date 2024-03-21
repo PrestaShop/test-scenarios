@@ -6,7 +6,7 @@ weight: 17
 # FO - Product Page - Display pack content and link to product
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1273
 
 ## Steps

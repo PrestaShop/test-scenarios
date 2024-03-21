@@ -6,8 +6,9 @@ weight: 1
 # FO - Checkout - Show details
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5110
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_showDetails.ts
 
 ## Steps
 | Step Description | Expected result |

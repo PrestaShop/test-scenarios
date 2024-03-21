@@ -6,8 +6,9 @@ weight: 3
 # FO - Menu and Navigation - Sort and filter - Clear filters
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6955
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/02_sortAndFilter/03_clearFilters.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -6,8 +6,9 @@ weight: 2
 # FO - Menu and Navigation - Navigate in Categories - Breadcrumb
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6950
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/01_navigateInCategories/02_breadcrumb.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -6,7 +6,7 @@ weight: 5
 # FO - Checkout - Addresses - Billing address when logged in
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1306
 
 ## Steps

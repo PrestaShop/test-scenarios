@@ -6,7 +6,7 @@ weight: 5
 # FO - Product Page - Share links
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1260
 
 ## Steps

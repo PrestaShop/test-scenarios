@@ -6,9 +6,10 @@ weight: 1
 # FO - Menu and Navigation - Sort and filter - Sort the products
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Automated on** : 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6952
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/02_sortAndFilter/01_sortProducts.ts
 
 ## Steps
 | Step Description | Expected result |
