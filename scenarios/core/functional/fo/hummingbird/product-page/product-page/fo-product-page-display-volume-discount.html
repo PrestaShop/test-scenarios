@@ -22,13 +22,13 @@
     <title>FO - Product Page - Display volume discount :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1711002812" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1711002812" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1711002812" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1711002812" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1711002812" rel="stylesheet">
-    <link href="../../../../../../../style.css?1711002812" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1711089468" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1711089468" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1711089468" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1711089468" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1711089468" rel="stylesheet">
+    <link href="../../../../../../../style.css?1711089468" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1711002812"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1711089468"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41156,6 +41156,7 @@
     <li><a href="#fo---product-page---display-volume-discount">FO - Product Page - Display volume discount</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -64158,6 +64159,61 @@
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-6986">https://forge.prestashop.com/browse/TEST-6986</a></li>
 </ul>
 
+<h2 id="steps">Steps<a href="#steps"></a></h2><table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Product</td>
+<td>You should have all your product displayed on the BO</td>
+</tr>
+<tr>
+<td>* Clic on &ldquo;Add new product&rdquo;<br> * Clic on &ldquo;Add new product&rdquo;</td>
+<td>* A modal should be displayed to choose the correct type of product <br> * The product configuration page should be displayed</td>
+</tr>
+<tr>
+<td>* Set up the Product name <br> * Clic on the switch next to &ldquo;Offline&rdquo;</td>
+<td>* Your product name shouldn&rsquo;t be blanck <br> * The switch should set to &ldquo;Online&rdquo;</td>
+</tr>
+<tr>
+<td>* Go to Stocks tab<br> * Add 30 on the quantity</td>
+<td>* The stock tab should be displayed<br> * Under Edit quantity, you should have the number 30</td>
+</tr>
+<tr>
+<td>* Clic on the &ldquo;Pricing&rdquo; tab<br> * Set the Retail price (tax incl) to 20</td>
+<td>* The pricing tab should be displayed<br> * The retail price (tex excl.) should be set</td>
+</tr>
+<tr>
+<td>* Clic on &ldquo;Add a specific price&rdquo; <br> * Set the &ldquo;Minimum number of units purchased&rdquo;<br> * Enable &ldquo;Apply a discount to the initial price&rdquo;<br> * Set to 2 € tax included <br> * Clic on save and publish<br> * Clic On the right of the modal</td>
+<td>* A modal &ldquo;Add new specific price&rdquo; should be displayed <br> * The number under &ldquo;Minimum number of units purchased&rdquo; should be 3 <br> * The set up of this part should be enabled <br> * you should have 2.000 on the number <br> * You should be again on the modal with a green notification &quot; Update successful&quot;<br> * The modal should be close and under Specific price you should have the detail of the new specific price you set up</td>
+</tr>
+<tr>
+<td>Clic on &ldquo;Save&rdquo;</td>
+<td>You should be on the product page with the green notification &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>Go to FO</td>
+<td>You shop should be displayed</td>
+</tr>
+<tr>
+<td>Write &ldquo;Test&rdquo; on the search field</td>
+<td>You should have your product &ldquo;Test&rdquo; showed on the list</td>
+</tr>
+<tr>
+<td>Clic on &ldquo;Test&rdquo; product</td>
+<td>The product page should be displayed with on the right : <br> * The price should be €20.00<br> * The Volume discount with &ldquo;Quantity&rdquo; &ldquo;3&rdquo;, &ldquo;Unit discount&rdquo; &ldquo;€2.00&rdquo; and &ldquo;You Save&rdquo; &ldquo;€6.00&rdquo;</td>
+</tr>
+<tr>
+<td>Clic on the up arrow twice next to the number of quantity</td>
+<td>* The quantity number should be 3<br> * The price striped with a new price in orange under the first one<br> * Next to the second price, you have &ldquo;Save €2.00&rdquo;</td>
+</tr>
+</tbody>
+</table>
+
 
 <footer class="article-footer">
 	
@@ -64175,17 +64231,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1711002812"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1711002812"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1711002812"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1711002812"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1711002812"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1711002812"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1711002812"></script>
-    <script src="../../../../../../../js/learn.js?1711002812"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1711002812"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1711089468"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1711089468"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1711089468"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1711089468"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1711089468"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1711089468"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1711089468"></script>
+    <script src="../../../../../../../js/learn.js?1711089468"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1711089468"></script>
     
-    <script src="../../../../../../../main.js?1711002812"></script>
+    <script src="../../../../../../../main.js?1711089468"></script>
     
     
     
