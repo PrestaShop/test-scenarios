@@ -6,7 +6,7 @@ weight: 9
 # FO - Product Page - Add a required customization
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1264
 
 ## Steps

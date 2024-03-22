@@ -6,7 +6,7 @@ weight: 10
 # FO - Product Page - Change combination
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1265
 
 ## Steps

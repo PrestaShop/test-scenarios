@@ -6,7 +6,7 @@ weight: 13
 # FO - Product Page - Display tag products (New, On sale, Pack...)
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1269
 
 ## Steps
