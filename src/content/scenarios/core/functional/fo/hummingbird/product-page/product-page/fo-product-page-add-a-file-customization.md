@@ -6,7 +6,7 @@ weight: 8
 # FO - Product Page - Add a file customization
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Closed
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6976
 
 ## Steps

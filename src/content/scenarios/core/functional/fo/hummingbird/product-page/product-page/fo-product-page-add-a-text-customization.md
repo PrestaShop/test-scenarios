@@ -6,7 +6,7 @@ weight: 7
 # FO - Product Page - Add a text customization
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Closed
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6975
 
 ## Steps
