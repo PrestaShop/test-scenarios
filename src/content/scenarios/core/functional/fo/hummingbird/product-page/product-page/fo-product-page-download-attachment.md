@@ -6,7 +6,7 @@ weight: 6
 # FO - Product Page - Download attachment
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Blocked
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6974
 
 ## Steps

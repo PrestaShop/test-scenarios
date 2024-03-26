@@ -6,7 +6,7 @@ weight: 2
 # FO - Order confirmation - Display of product customization
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7008
 
 ## Steps
