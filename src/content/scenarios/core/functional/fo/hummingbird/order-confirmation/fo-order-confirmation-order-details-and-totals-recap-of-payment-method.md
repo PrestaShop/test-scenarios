@@ -6,20 +6,18 @@ weight: 3
 # FO - Order confirmation - Order details and totals - Recap of payment method
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7009
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO | The page of your shop should be displayed |
-| Put your mouse over the product "The best is Yet to Come" | The button "Quickview" should be displayed |
-| Clic on the "Quickview" button | You should have a modal that show you the product. |
-| Click on Add to cart | You should have a modal with "Product successfully added to your shopping cart" |
-| Click on "Proceed to checkout" | You should have your shopping cart displayed with all your product on it |
-| Clic on "Proceed to checkout" | You should be on "Personal information" Tab |
-| * Click on SIgn in <br> * Set up your Email and Password <br> * Click on "continue" | You should be redirect to Adresses tab |
-| Clic on "Continue" | You should be redirect to "Shipping method" tab |
-| Clic on "Continue" | You should be redirect to "Payment" tab |
-| * Clic on "Pay by Check" <br> * Clic on the checkbox"I agree to the terms of service [...]" | * The detail about the adress and the payee should be displayed<br> * The box should be checked and the button "Place Order" should be enabled |
-| Clic on "Place Order" | You should have a new page displayed named "Order confirmation" with : <br> * "Subtotal" where is the sum of products' prices <br> * "Shipping and handling" where is the price of the shipping <br> * "TOTAL (TAX INCL.)" where is the sum of the previous line. <br><br><br> * The "ORDER DETAILS:" part with <br> ** "Order reference:" with the order reference <br> ** "Payment method:" where it show the payment method used, here is "Payments by check"<br> ** "Shipping method:" where it show the shipping method used, here is " Click and collect, _Pick up in-store_ " |
+| With pre-condition Order your product and choose "Pay by check" payment method | Order confirmation page is displayed |
+| Scroll to Payment information block | See the following :<br><br>Pay by Check<br><br>You have chosen payment by check.<br>Your check must include following details:<br><br>Payment amount:<br>€XX.XX<br>Payable to the order of:<br>___________<br>Mail to:<br>___________<br>Do not forget to insert your order reference XXXXXXX.<br>An email has been sent to you with this information.<br>Your order will be sent as soon as we receive your payment. |
+| Scroll down to Order details | See "Payment method: Payments by check" |
+| With pre-condition > Make another Order and choose "Pay by bank wire" Payment method | Order confirmation page is displayed |
+| Scroll to Payment information block | See the following :<br><br>Pay by Bank Wire<br><br>You have chosen payment by bank transfer.<br>Please send us a bank transfer with following details:<br><br>Amount<br>€XX.XX<br>Name of account owner<br>___________<br>Please include these details<br>___________<br>Bank name<br>___________<br>Please specify your order reference XXXXXXX in the bankwire description.<br>We've also sent you this information by e-mail.<br>Your order will be sent as soon as we receive payment. |
+| Scroll down to Order details | See "Payment method: Bank transfer" |
+| With pre-condition > Make another Order and choose " Pay by Cash on Delivery" Payment method | Order confirmation page is displayed |
+| Scroll to Payment information block | The payment block is not displayed, there's just a phrase "You have chosen the cash on delivery method." |
+| Scroll down to Order details | See "Payment method: Cash on delivery (COD)" |

@@ -6,7 +6,7 @@ weight: 4
 # FO - Cart - Display products, number of item, combinaison, shipping
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6996
 
 ## Steps

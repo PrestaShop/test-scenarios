@@ -6,7 +6,7 @@ weight: 7
 # FO - Cart - Continue Shopping and Proceed to Checkout
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7005
 
 ## Steps

@@ -6,8 +6,9 @@ weight: 4
 # FO - Menu and Navigation - Navigate and display - Display \"On sale!\" bandeau
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6959
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/03_navigationAndDisplay/04_displayOnSaleFlag.ts
 
 ## Steps
 | Step Description | Expected result |

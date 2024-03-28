@@ -6,7 +6,7 @@ weight: 4
 # FO - Cart - Modal - Continue shopping / Proceed to checkout / Close
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6991
 
 ## Steps

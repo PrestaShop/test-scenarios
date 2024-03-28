@@ -6,7 +6,7 @@ weight: 2
 # FO - Checkout - Add a promo code
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5111
 
 ## Steps

@@ -6,8 +6,9 @@ weight: 1
 # FO - Menu and Navigation - Navigate and display - Display of tag products (New, Promo, Pack...)
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6956
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/03_navigationAndDisplay/01_displayTags.ts
 
 ## Steps
 | Step Description | Expected result |
