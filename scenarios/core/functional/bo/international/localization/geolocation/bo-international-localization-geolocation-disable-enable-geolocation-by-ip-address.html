@@ -22,13 +22,13 @@
     <title>BO - International - Localization - Geolocation - Disable / Enable Geolocation by IP address :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1711521684" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1711521684" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1711521684" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1711521684" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1711521684" rel="stylesheet">
-    <link href="../../../../../../../style.css?1711521684" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1711607994" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1711607994" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1711607994" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1711607994" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1711607994" rel="stylesheet">
+    <link href="../../../../../../../style.css?1711607994" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1711521684"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1711607994"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41156,6 +41156,7 @@
     <li><a href="#bo---international---localization---geolocation---disable--enable-geolocation-by-ip-address">BO - International - Localization - Geolocation - Disable / Enable Geolocation by IP address</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -64154,9 +64155,36 @@
 <h1 id="bo---international---localization---geolocation---disable--enable-geolocation-by-ip-address">BO - International - Localization - Geolocation - Disable / Enable Geolocation by IP address<a href="#bo---international---localization---geolocation---disable--enable-geolocation-by-ip-address"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : Deprecated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1006">https://forge.prestashop.com/browse/TEST-1006</a></li>
 </ul>
+
+<h2 id="steps">Steps<a href="#steps"></a></h2><table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Localization &gt; Geolocation</td>
+<td>You&rsquo;ll have the message &ldquo;Since December 30, 2019, you need to register for a [MaxMind</td>
+</tr>
+<tr>
+<td>Enable &ldquo;Geolocation by IP adresse&rdquo; and save</td>
+<td>You should have the red notification &ldquo;The geolocation database is unavailable&rdquo;</td>
+</tr>
+<tr>
+<td>* Download this files https://drive.google.com/file/d/18IsSSAURvOgwKb_ZI6wiXpgscujx1lDT/view?usp=sharing<br> * Put it in [yourshopfiles]/app/Ressources/geoip <br> * Reload the webpage</td>
+<td>* You&rsquo;ll have a file .mmdb<br> * you should only have index.php and the geolite-city mmdb<br> * you&rsquo;ll not have the yellow notification</td>
+</tr>
+<tr>
+<td>Enable &ldquo;Geolocation by IP adresse&rdquo; and save</td>
+<td>You should have the green notification &ldquo;Update successful&rdquo;</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
@@ -64175,17 +64203,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1711521684"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1711521684"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1711521684"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1711521684"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1711521684"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1711521684"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1711521684"></script>
-    <script src="../../../../../../../js/learn.js?1711521684"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1711521684"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1711607994"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1711607994"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1711607994"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1711607994"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1711607994"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1711607994"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1711607994"></script>
+    <script src="../../../../../../../js/learn.js?1711607994"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1711607994"></script>
     
-    <script src="../../../../../../../main.js?1711521684"></script>
+    <script src="../../../../../../../main.js?1711607994"></script>
     
     
     

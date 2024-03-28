@@ -22,13 +22,13 @@
     <title>FO - Order confirmation - Order details and totals - Recap of payment method :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1711521704" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1711521704" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1711521704" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1711521704" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1711521704" rel="stylesheet">
-    <link href="../../../../../../style.css?1711521704" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1711608013" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1711608013" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1711608013" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1711608013" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1711608013" rel="stylesheet">
+    <link href="../../../../../../style.css?1711608013" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1711521704"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1711608013"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64149,7 +64149,7 @@
 <h1 id="fo---order-confirmation---order-details-and-totals---recap-of-payment-method">FO - Order confirmation - Order details and totals - Recap of payment method<a href="#fo---order-confirmation---order-details-and-totals---recap-of-payment-method"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-7009">https://forge.prestashop.com/browse/TEST-7009</a></li>
 </ul>
 
@@ -64162,48 +64162,40 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to FO</td>
-<td>The page of your shop should be displayed</td>
+<td>With pre-condition Order your product and choose &ldquo;Pay by check&rdquo; payment method</td>
+<td>Order confirmation page is displayed</td>
 </tr>
 <tr>
-<td>Put your mouse over the product &ldquo;The best is Yet to Come&rdquo;</td>
-<td>The button &ldquo;Quickview&rdquo; should be displayed</td>
+<td>Scroll to Payment information block</td>
+<td>See the following :<br><br>Pay by Check<br><br>You have chosen payment by check.<br>Your check must include following details:<br><br>Payment amount:<br>€XX.XX<br>Payable to the order of:<br><em><strong><strong><strong><strong><strong><br>Mail to:<br></strong></strong></strong></strong></strong></em><br>Do not forget to insert your order reference XXXXXXX.<br>An email has been sent to you with this information.<br>Your order will be sent as soon as we receive your payment.</td>
 </tr>
 <tr>
-<td>Clic on the &ldquo;Quickview&rdquo; button</td>
-<td>You should have a modal that show you the product.</td>
+<td>Scroll down to Order details</td>
+<td>See &ldquo;Payment method: Payments by check&rdquo;</td>
 </tr>
 <tr>
-<td>Click on Add to cart</td>
-<td>You should have a modal with &ldquo;Product successfully added to your shopping cart&rdquo;</td>
+<td>With pre-condition &gt; Make another Order and choose &ldquo;Pay by bank wire&rdquo; Payment method</td>
+<td>Order confirmation page is displayed</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Proceed to checkout&rdquo;</td>
-<td>You should have your shopping cart displayed with all your product on it</td>
+<td>Scroll to Payment information block</td>
+<td>See the following :<br><br>Pay by Bank Wire<br><br>You have chosen payment by bank transfer.<br>Please send us a bank transfer with following details:<br><br>Amount<br>€XX.XX<br>Name of account owner<br><em><strong><strong><strong><strong><strong><br>Please include these details<br></strong></strong></strong></strong></strong></em><br>Bank name<br>___________<br>Please specify your order reference XXXXXXX in the bankwire description.<br>We&rsquo;ve also sent you this information by e-mail.<br>Your order will be sent as soon as we receive payment.</td>
 </tr>
 <tr>
-<td>Clic on &ldquo;Proceed to checkout&rdquo;</td>
-<td>You should be on &ldquo;Personal information&rdquo; Tab</td>
+<td>Scroll down to Order details</td>
+<td>See &ldquo;Payment method: Bank transfer&rdquo;</td>
 </tr>
 <tr>
-<td>* Click on SIgn in <br> * Set up your Email and Password <br> * Click on &ldquo;continue&rdquo;</td>
-<td>You should be redirect to Adresses tab</td>
+<td>With pre-condition &gt; Make another Order and choose &quot; Pay by Cash on Delivery&quot; Payment method</td>
+<td>Order confirmation page is displayed</td>
 </tr>
 <tr>
-<td>Clic on &ldquo;Continue&rdquo;</td>
-<td>You should be redirect to &ldquo;Shipping method&rdquo; tab</td>
+<td>Scroll to Payment information block</td>
+<td>The payment block is not displayed, there&rsquo;s just a phrase &ldquo;You have chosen the cash on delivery method.&rdquo;</td>
 </tr>
 <tr>
-<td>Clic on &ldquo;Continue&rdquo;</td>
-<td>You should be redirect to &ldquo;Payment&rdquo; tab</td>
-</tr>
-<tr>
-<td>* Clic on &ldquo;Pay by Check&rdquo; <br> * Clic on the checkbox&quot;I agree to the terms of service [&hellip;]&quot;</td>
-<td>* The detail about the adress and the payee should be displayed<br> * The box should be checked and the button &ldquo;Place Order&rdquo; should be enabled</td>
-</tr>
-<tr>
-<td>Clic on &ldquo;Place Order&rdquo;</td>
-<td>You should have a new page displayed named &ldquo;Order confirmation&rdquo; with : <br> * &ldquo;Subtotal&rdquo; where is the sum of products&rsquo; prices <br> * &ldquo;Shipping and handling&rdquo; where is the price of the shipping <br> * &ldquo;TOTAL (TAX INCL.)&rdquo; where is the sum of the previous line. <br><br><br> * The &ldquo;ORDER DETAILS:&rdquo; part with <br> ** &ldquo;Order reference:&rdquo; with the order reference <br> ** &ldquo;Payment method:&rdquo; where it show the payment method used, here is &ldquo;Payments by check&rdquo;<br> ** &ldquo;Shipping method:&rdquo; where it show the shipping method used, here is &quot; Click and collect, <em>Pick up in-store</em> &quot;</td>
+<td>Scroll down to Order details</td>
+<td>See &ldquo;Payment method: Cash on delivery (COD)&rdquo;</td>
 </tr>
 </tbody>
 </table>
@@ -64225,17 +64217,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1711521704"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1711521704"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1711521704"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1711521704"></script>
-    <script src="../../../../../../js/featherlight.min.js?1711521704"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1711521704"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1711521704"></script>
-    <script src="../../../../../../js/learn.js?1711521704"></script>
-    <script src="../../../../../../js/hugo-learn.js?1711521704"></script>
+    <script src="../../../../../../js/clipboard.min.js?1711608013"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1711608013"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1711608013"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1711608013"></script>
+    <script src="../../../../../../js/featherlight.min.js?1711608013"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1711608013"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1711608013"></script>
+    <script src="../../../../../../js/learn.js?1711608013"></script>
+    <script src="../../../../../../js/hugo-learn.js?1711608013"></script>
     
-    <script src="../../../../../../main.js?1711521704"></script>
+    <script src="../../../../../../main.js?1711608013"></script>
     
     
     
