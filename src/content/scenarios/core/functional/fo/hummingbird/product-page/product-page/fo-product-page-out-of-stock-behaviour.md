@@ -6,13 +6,13 @@ weight: 16
 # FO - Product Page - Out-of-Stock behaviour
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6984
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Catalog > New product > Standard product > Add new product | Product creation page is well displayed |
+| Go to BO > Catalog > Products > Add new product > Standard product > Add new product | Product creation page is well displayed |
 | Add a title to your product > Switch to Online > Click Save | Successful update message is displayed |
 | Go to Tab Stocks > Add quantity 300 and save | Successful update message is displayed<br><br>In Header, stock is updated to 300<br>In Recent stock movements, see the Quantity added by Employee with the Date & Time |
 | Click on View all stock movements link | A new tab Stock Management opens |

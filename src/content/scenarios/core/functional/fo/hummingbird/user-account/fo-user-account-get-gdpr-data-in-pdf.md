@@ -6,8 +6,9 @@ weight: 4
 # FO - User account - Get GDPR Data in PDF
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4978
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/04_getGDPRDataInPDF.ts
 
 ## Steps
 | Step Description | Expected result |

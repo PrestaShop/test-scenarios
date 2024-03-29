@@ -6,7 +6,7 @@ weight: 3
 # FO - Checkout - Addresses - Select an address
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7021
 
 ## Steps
@@ -20,3 +20,5 @@ weight: 3
 | Clic on "Proceed to checkout" | You should be on "Personal information" Tab |
 | * Click on SIgn in <br> * Set up your Email and Password <br> * Click on "continue" | * You should be redirect to Adresses tab with two posibilities of Adresses.<br> * The address on the left should be enclose and its checkbox should be checked |
 | Clic on the second adresse | * The address on the right should be enclose and its checkbox should be checked |
+| Clic to Continue to Shipping | Shipping method page displayed |
+| Clic to Continue to Payment | Payment page displayed<br><br>Unfortunately, there are no payment method available. |

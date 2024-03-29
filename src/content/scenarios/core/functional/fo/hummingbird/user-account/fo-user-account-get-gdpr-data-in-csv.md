@@ -6,8 +6,9 @@ weight: 5
 # FO - User account - Get GDPR Data in CSV
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4979
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/05_getGDPRDataInCSV.ts
 
 ## Steps
 | Step Description | Expected result |
