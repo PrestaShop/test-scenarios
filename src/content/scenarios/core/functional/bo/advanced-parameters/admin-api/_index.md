@@ -1,9 +1,9 @@
 ---
-title: Authorization Server
-menuTitle: Authorization Server
+title: Admin API
+menuTitle: Admin API
 chapter: true
 ---
 
-# Authorization Server
+# Admin API
 
 {{% children titlePages="Tests" titleSections="Categories" /%}}

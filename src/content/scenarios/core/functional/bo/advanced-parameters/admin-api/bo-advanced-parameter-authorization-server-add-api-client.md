@@ -9,7 +9,7 @@ weight: 2
 * **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7633
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_authorizationServer/02_addAPIClient.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_adminAPI/02_addAPIClient.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management
 
 ## Steps

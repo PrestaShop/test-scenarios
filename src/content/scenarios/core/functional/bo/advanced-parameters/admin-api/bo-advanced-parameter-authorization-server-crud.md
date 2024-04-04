@@ -9,7 +9,7 @@ weight: 1
 * **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7068
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_authorizationServer/01_CRUD.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_adminAPI/01_CRUD.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management
 
 ## Steps
