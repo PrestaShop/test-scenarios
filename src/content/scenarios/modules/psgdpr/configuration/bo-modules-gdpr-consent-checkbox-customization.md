@@ -5,7 +5,7 @@ weight: 3
 
 # BO - Modules - GDPR - Consent checkbox customization
 ## Details
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7593
 
 ## Steps

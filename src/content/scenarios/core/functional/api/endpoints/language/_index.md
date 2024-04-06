@@ -1,9 +1,9 @@
 ---
-title: FoundProduct
-menuTitle: FoundProduct
+title: Language
+menuTitle: Language
 chapter: true
 ---
 
-# FoundProduct
+# Language
 
 {{% children titlePages="Tests" titleSections="Categories" /%}}

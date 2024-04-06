@@ -6,7 +6,7 @@ weight: 1
 # Mail alerts module - BO header buttons
 ## Details
 * **Component** : ps_emailalerts
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4147
 
 ## Steps

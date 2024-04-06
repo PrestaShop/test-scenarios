@@ -6,8 +6,9 @@ weight: 5
 # FO - Product Page - Share links
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1260
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/05_shareLinks.ts
 
 ## Steps
 | Step Description | Expected result |
