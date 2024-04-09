@@ -22,13 +22,13 @@
     <title>FO - Order confirmation - Popular products :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1712558244" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1712558244" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1712558244" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1712558244" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1712558244" rel="stylesheet">
-    <link href="../../../../../../style.css?1712558244" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1712644238" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1712644238" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1712644238" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1712644238" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1712644238" rel="stylesheet">
+    <link href="../../../../../../style.css?1712644238" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1712558244"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1712644238"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -1299,6 +1299,27 @@
       <li data-nav-id="/scenarios/core/functional/api/endpoints/language/get-api-languages.html" title="GET /api/languages" class="dd-item ">
         <a href="../../../../../../scenarios/core/functional/api/endpoints/language/get-api-languages.html">
         GET /api/languages
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/api/endpoints/language/get-api-modules.html" title="GET /api/modules" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/api/endpoints/language/get-api-modules.html">
+        GET /api/modules
         
         </a>
     </li>
@@ -18082,9 +18103,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-discount-on-product-display-total-discount-display-detail-discount-delete-discount.html" title="FO - Cart - Display discount on product, Display total discount, Display detail discount, Delete discount" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-discount-on-product-display-total-discount-display-detail-discount-delete-discount.html">
-        FO - Cart - Display discount on product, Display total discount, Display detail discount, Delete discount
+      <li data-nav-id="/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-discount-on-product.html" title="FO - Cart - Display discount on product" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-discount-on-product.html">
+        FO - Cart - Display discount on product
         
         </a>
     </li>
@@ -18231,9 +18252,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-close-modal.html" title="FO - Cart - Modal - Close modal" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-close-modal.html">
-        FO - Cart - Modal - Close modal
+      <li data-nav-id="/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-continue-shopping-proceed-to-checkout-close.html" title="FO - Cart - Modal - Continue shopping / Proceed to checkout / Close" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-continue-shopping-proceed-to-checkout-close.html">
+        FO - Cart - Modal - Continue shopping / Proceed to checkout / Close
         
         </a>
     </li>
@@ -18349,9 +18370,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping-promo.html" title="FO - Checkout - Display of total (price, vouchers, shipping, promo...)" class="dd-item ">
-        <a href="../../../../../../scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping-promo.html">
-        FO - Checkout - Display of total (price, vouchers, shipping, promo...)
+      <li data-nav-id="/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping.html" title="FO - Checkout - Display of total (price, vouchers, shipping)" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping.html">
+        FO - Checkout - Display of total (price, vouchers, shipping)
         
         </a>
     </li>
@@ -41948,6 +41969,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -64233,7 +64269,7 @@
 <h1 id="fo---order-confirmation---popular-products">FO - Order confirmation - Popular products<a href="#fo---order-confirmation---popular-products"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1319">https://forge.prestashop.com/browse/TEST-1319</a></li>
 </ul>
 
@@ -64246,52 +64282,48 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to FO</td>
-<td>The page of your shop should be displayed</td>
+<td>With pre-condition, your order is made &gt; Order confirmation is displayed &gt; Scroll down to Popular products block</td>
+<td>Popular products block is displayed with 8 products</td>
 </tr>
 <tr>
-<td>Put your mouse over the product &ldquo;The best is Yet to Come&rdquo;</td>
+<td>Put your mouse over the product &ldquo;Mug The best is Yet to Come&rdquo;</td>
 <td>The button &ldquo;Quickview&rdquo; should be displayed</td>
 </tr>
 <tr>
-<td>Clic on the &ldquo;Quickview&rdquo; button</td>
-<td>You should have a modal that show you the product.</td>
+<td>Click on the &ldquo;Quick view&rdquo; button</td>
+<td>Modal of product is displayed</td>
 </tr>
 <tr>
 <td>Click on Add to cart</td>
-<td>You should have a modal with &ldquo;Product successfully added to your shopping cart&rdquo;</td>
+<td>Product successfully added to your shopping cart</td>
 </tr>
 <tr>
 <td>Click on &ldquo;Proceed to checkout&rdquo;</td>
-<td>You should have your shopping cart displayed with all your product on it</td>
+<td>Shopping cart is displayed with the product in it</td>
 </tr>
 <tr>
-<td>Clic on &ldquo;Proceed to checkout&rdquo;</td>
-<td>You should be on &ldquo;Personal information&rdquo; Tab</td>
+<td>Click on &ldquo;Proceed to checkout&rdquo;</td>
+<td>&ldquo;Personal information&rdquo; Tab is displayed</td>
 </tr>
 <tr>
-<td>* Click on SIgn in <br> * Set up your Email and Password <br> * Click on &ldquo;continue&rdquo;</td>
-<td>You should be redirect to Adresses tab</td>
+<td>Click on Sign in &gt; Enter your Email and Password &gt; Click on &ldquo;Continue&rdquo;</td>
+<td>Step 2 - Adresses tab is displayed</td>
 </tr>
 <tr>
-<td>Clic on &ldquo;Continue&rdquo;</td>
-<td>You should be redirect to &ldquo;Shipping method&rdquo; tab</td>
+<td>Click on &ldquo;Continue&rdquo;</td>
+<td>&ldquo;Shipping method&rdquo; tab is displayed</td>
 </tr>
 <tr>
-<td>Clic on &ldquo;Continue&rdquo;</td>
-<td>You should be redirect to &ldquo;Payment&rdquo; tab</td>
+<td>Click on &ldquo;Continue&rdquo;</td>
+<td>&ldquo;Payment&rdquo; tab is displayed</td>
 </tr>
 <tr>
-<td>* Clic on &ldquo;Pay by Check&rdquo; <br> * Clic on the checkbox&quot;I agree to the terms of service [&hellip;]&quot;</td>
-<td>* The detail about the adress and the payee should be displayed<br> * The box should be checked and the button &ldquo;Place Order&rdquo; should be enabled</td>
+<td>Click on &ldquo;Pay by Check&rdquo; &gt; Click on the checkbox &ldquo;I agree to the terms of service and will adhere to them unconditionally.&rdquo; &gt; Click on Place order</td>
+<td>YOUR ORDER IS CONFIRMED</td>
 </tr>
 <tr>
-<td>Clic on &ldquo;Place Order&rdquo;</td>
-<td>You should have a new page displayed named &ldquo;Order confirmation&rdquo; with : <br> * &ldquo;Subtotal&rdquo; where is the sum of products&rsquo; prices <br> * &ldquo;Shipping and handling&rdquo; where is the price of the shipping <br> * &ldquo;TOTAL (TAX INCL.)&rdquo; where is the sum of the previous line. <br><br> * The &ldquo;ORDER DETAILS:&rdquo; part with <br> ** &ldquo;Order reference:&rdquo; with the order reference <br> ** &ldquo;Payment method:&rdquo; where it show the payment method used, here is &ldquo;Payments by check&rdquo;<br> ** &ldquo;Shipping method:&rdquo; where it show the shipping method used, here is &quot; Click and collect, <em>Pick up in-store</em> &ldquo;<br><br>Popular products displayed</td>
-</tr>
-<tr>
-<td>Click on Hummingbird Printed T-Shirt</td>
-<td>Hummingbird Printed T-Shirt page displayed</td>
+<td>Scroll down to block Popular Products &gt; Click on Hummingbird Printed T-Shirt</td>
+<td>Hummingbird Printed T-Shirt product page is displayed</td>
 </tr>
 </tbody>
 </table>
@@ -64313,17 +64345,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1712558244"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1712558244"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1712558244"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1712558244"></script>
-    <script src="../../../../../../js/featherlight.min.js?1712558244"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1712558244"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1712558244"></script>
-    <script src="../../../../../../js/learn.js?1712558244"></script>
-    <script src="../../../../../../js/hugo-learn.js?1712558244"></script>
+    <script src="../../../../../../js/clipboard.min.js?1712644238"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1712644238"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1712644238"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1712644238"></script>
+    <script src="../../../../../../js/featherlight.min.js?1712644238"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1712644238"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1712644238"></script>
+    <script src="../../../../../../js/learn.js?1712644238"></script>
+    <script src="../../../../../../js/hugo-learn.js?1712644238"></script>
     
-    <script src="../../../../../../main.js?1712558244"></script>
+    <script src="../../../../../../main.js?1712644238"></script>
     
     
     

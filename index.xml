@@ -2707,7 +2707,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-continue-shopping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-continue-shopping.html</guid>
-      <description>FO - Cart - Modal - Continue shopping Details Component : Core Status : IN REVIEW Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1276 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart</description>
+      <description>FO - Cart - Modal - Continue shopping Details Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1276 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)</description>
     </item>
     <item>
       <title>FO - Cart - Modal - Continue shopping</title>
@@ -2721,7 +2721,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-add-a-promo-code.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-add-a-promo-code.html</guid>
-      <description>FO - Checkout - Add a promo code Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1294 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Add a new cart rule the cart rule creation page displayed fill in the form and click on &amp;ldquo;Save&amp;rdquo; &amp;ldquo;Successful creation&amp;rdquo; notification On FO &amp;gt; Add product to cart &amp;gt; Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The shopping rule page displayed Click on &amp;ldquo;Have a promo code?</description>
+      <description>FO - Checkout - Add a promo code Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-1294 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Add a new cart rule the cart rule creation page displayed fill in the form and click on &amp;ldquo;Save&amp;rdquo; &amp;ldquo;Successful creation&amp;rdquo; notification On FO &amp;gt; Add product to cart &amp;gt; Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The shopping rule page displayed Click on &amp;ldquo;Have a promo code?</description>
     </item>
     <item>
       <title>FO - Checkout - Add a promo code</title>
@@ -2995,6 +2995,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-api-hooks-id.html</guid>
       <description>GET /api/hooks/{id} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7790 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/02_getAPIHooksId.ts Steps Step Description Expected result In BO, Go to Design &amp;gt; Positions Positions Page is displayed correctly. Get the ID of the first hook of the page !https://forge.prestashop.com/plugins/servlet/raven/attachment/1571/ID+hook.png Request with method GET the endpoint &amp;ldquo;https://[url of your shop]/admin-dev/index.php/api/hooks/{id}&amp;rdquo; where {id} is the previous ID get The return value is in JSON.</description>
+    </item>
+    <item>
+      <title>GET /api/modules</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-api-modules.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-api-modules.html</guid>
+      <description>GET /api/modules Details Component : Core Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8860 Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Multishop case</title>
@@ -3855,7 +3862,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-password-reset-delay.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/customers-setting/customers/bo-shop-parameters-customer-settings-password-reset-delay.html</guid>
-      <description>BO - Shop Parameters - Customer Settings - Password reset delay Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1085 Steps Step Description Expected result Go to BO &amp;gt; Shop parameters &amp;gt; Customer settings See *Password reset delay is set to 360 minutes. Click View my store &amp;gt; Sign in &amp;gt; Forgot your password? &amp;gt; Enter your email address pub@prestashop.com &amp;gt; Click on SEND RESET LINK See the success message : If this email address has been registered in our store, you will receive a link to reset your password at pub@prestashop.</description>
+      <description>BO - Shop Parameters - Customer Settings - Password reset delay Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1085 Steps Step Description Expected result Go to BO &amp;gt; Shop parameters &amp;gt; Customer settings See Password reset delay is set to 360 minutes. Click View my store &amp;gt; Sign in &amp;gt; Forgot your password? &amp;gt; Enter your email address pub@prestashop.com &amp;gt; Click on SEND RESET LINK See the success message : If this email address has been registered in our store, you will receive a link to reset your password at pub@prestashop.</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Customer Settings - Titles - Bulk actions</title>
@@ -4044,7 +4051,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-proceed-to-checkout.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-proceed-to-checkout.html</guid>
-      <description>FO - Cart - Modal - Proceed to checkout Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1277 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)</description>
+      <description>FO - Cart - Modal - Proceed to checkout Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-1277 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)&#xA;Number of item in your car displayed</description>
     </item>
     <item>
       <title>FO - Cart - Modal - Proceed to checkout</title>
@@ -4068,11 +4075,11 @@
       <description>FO - Checkout - Addresses - Select an address Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-7021 Steps Step Description Expected result Go to FO The page of your shop should be displayed Put your mouse over the product &amp;ldquo;The best is Yet to Come&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Clic on the &amp;ldquo;Quickview&amp;rdquo; button You should have a modal that show you the product.</description>
     </item>
     <item>
-      <title>FO - Checkout - Display of total (price, vouchers, shipping, promo...)</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping-promo.html</link>
+      <title>FO - Checkout - Display of total (price, vouchers, shipping)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping-promo.html</guid>
-      <description>FO - Checkout - Display of total (price, vouchers, shipping, promo&amp;hellip;) Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1295 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Add a new cart rule the cart rule creation page displayed fill in the form and click on &amp;ldquo;Save&amp;rdquo; &amp;ldquo;Successful creation&amp;rdquo; notification On FO &amp;gt; Add product to cart &amp;gt; Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The shopping rule page displayed Click on &amp;ldquo;Have a promo code?</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-total-price-vouchers-shipping.html</guid>
+      <description>FO - Checkout - Display of total (price, vouchers, shipping) Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1295 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Add a new cart rule &amp;gt; Fill in the form with Data &amp;gt; Save &amp;ldquo;Successful creation&amp;rdquo; alert is displayed Go to FO &amp;gt; Open the product &amp;ldquo;Mug The adventure begins&amp;rdquo; &amp;gt; Add it to the cart &amp;gt; Click on Proceed to checkout The shopping cart page displayed Click on &amp;ldquo;1234&amp;rdquo; Promo code section is displayed with promo code input = 1234 Click on Add See the shopping cart is like the following :</description>
     </item>
     <item>
       <title>FO - Checkout - Display of total (price, vouchers, shipping)</title>
@@ -5129,7 +5136,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-products-number-of-item-combinaison-shipping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-products-number-of-item-combinaison-shipping.html</guid>
-      <description>FO - Cart - Display products, number of item, combinaison, shipping Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1282 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)</description>
+      <description>FO - Cart - Display products, number of item, combinaison, shipping Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-1282 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)</description>
     </item>
     <item>
       <title>FO - Cart - Display products, number of item, combinaison, shipping</title>
@@ -5139,11 +5146,11 @@
       <description>FO - Cart - Display products, number of item, combinaison, shipping Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-6996 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)</description>
     </item>
     <item>
-      <title>FO - Cart - Modal - Close modal</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-close-modal.html</link>
+      <title>FO - Cart - Modal - Continue shopping / Proceed to checkout / Close</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-continue-shopping-proceed-to-checkout-close.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-close-modal.html</guid>
-      <description>FO - Cart - Modal - Close modal Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1278 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)&#xA;Number of item in your car displayed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-continue-shopping-proceed-to-checkout-close.html</guid>
+      <description> FO - Cart - Modal - Continue shopping / Proceed to checkout / Close Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1278 Steps Step Description Expected result Go to FO &amp;gt; Click on Quick view for the product &amp;ldquo;The best is yet to come&amp;rsquo; Framed poster&amp;rdquo; &amp;gt; Click Add to cart Product successfully added to your shopping cart modal is displayed Click Continue shopping Modal is closed and homepage is displayed Click on &amp;ldquo;The best is yet to come&amp;rsquo; Framed poster&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rsquo; Framed poster&amp;rdquo; product page is displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal titled is displayed &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; Click on the cross on the top right corner The modal closes Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed Click outside of the modal on the grey area The modal closes Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed Click on Proceed to checkout Modal is closed and product page is displayed Click on Cart button &amp;gt; Remove all the products There are no more items in your cart </description>
     </item>
     <item>
       <title>FO - Cart - Modal - Continue shopping / Proceed to checkout / Close</title>
@@ -5171,7 +5178,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-highlighted-cart-rules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/fo-checkout-display-of-highlighted-cart-rules.html</guid>
-      <description>FO - Checkout - Display of highlighted cart rules Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1296 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Add a new cart rule the cart rule creation page displayed fill in the form and click on &amp;ldquo;Save&amp;rdquo; &amp;ldquo;Successful creation&amp;rdquo; notification On FO &amp;gt; Add product to cart &amp;gt; Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The shopping rule page displayed Click on &amp;ldquo;Have a promo code?</description>
+      <description>FO - Checkout - Display of highlighted cart rules Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-1296 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Add a new cart rule the cart rule creation page displayed fill in the form and click on &amp;ldquo;Save&amp;rdquo; &amp;ldquo;Successful creation&amp;rdquo; notification On FO &amp;gt; Add product to cart &amp;gt; Click on &amp;ldquo;Proceed to checkout&amp;rdquo; The shopping rule page displayed Click on &amp;ldquo;Have a promo code?</description>
     </item>
     <item>
       <title>FO - Checkout - Display of highlighted cart rules</title>
@@ -5269,7 +5276,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/order-confirmation/fo-order-confirmation-popular-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/order-confirmation/fo-order-confirmation-popular-products.html</guid>
-      <description>FO - Order confirmation - Popular products Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1319 Steps Step Description Expected result Go to FO The page of your shop should be displayed Put your mouse over the product &amp;ldquo;The best is Yet to Come&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Clic on the &amp;ldquo;Quickview&amp;rdquo; button You should have a modal that show you the product. Click on Add to cart You should have a modal with &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo; Click on &amp;ldquo;Proceed to checkout&amp;rdquo; You should have your shopping cart displayed with all your product on it Clic on &amp;ldquo;Proceed to checkout&amp;rdquo; You should be on &amp;ldquo;Personal information&amp;rdquo; Tab * Click on SIgn in * Set up your Email and Password * Click on &amp;ldquo;continue&amp;rdquo; You should be redirect to Adresses tab Clic on &amp;ldquo;Continue&amp;rdquo; You should be redirect to &amp;ldquo;Shipping method&amp;rdquo; tab Clic on &amp;ldquo;Continue&amp;rdquo; You should be redirect to &amp;ldquo;Payment&amp;rdquo; tab * Clic on &amp;ldquo;Pay by Check&amp;rdquo; * Clic on the checkbox&amp;quot;I agree to the terms of service [&amp;hellip;]&amp;quot; * The detail about the adress and the payee should be displayed</description>
+      <description>FO - Order confirmation - Popular products Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1319 Steps Step Description Expected result With pre-condition, your order is made &amp;gt; Order confirmation is displayed &amp;gt; Scroll down to Popular products block Popular products block is displayed with 8 products Put your mouse over the product &amp;ldquo;Mug The best is Yet to Come&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Click on the &amp;ldquo;Quick view&amp;rdquo; button Modal of product is displayed Click on Add to cart Product successfully added to your shopping cart Click on &amp;ldquo;Proceed to checkout&amp;rdquo; Shopping cart is displayed with the product in it Click on &amp;ldquo;Proceed to checkout&amp;rdquo; &amp;ldquo;Personal information&amp;rdquo; Tab is displayed Click on Sign in &amp;gt; Enter your Email and Password &amp;gt; Click on &amp;ldquo;Continue&amp;rdquo; Step 2 - Adresses tab is displayed Click on &amp;ldquo;Continue&amp;rdquo; &amp;ldquo;Shipping method&amp;rdquo; tab is displayed Click on &amp;ldquo;Continue&amp;rdquo; &amp;ldquo;Payment&amp;rdquo; tab is displayed Click on &amp;ldquo;Pay by Check&amp;rdquo; &amp;gt; Click on the checkbox &amp;ldquo;I agree to the terms of service and will adhere to them unconditionally.</description>
     </item>
     <item>
       <title>FO - Order confirmation - Popular products</title>
@@ -5311,7 +5318,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-consult-results-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-consult-results-list.html</guid>
-      <description> FO - Search - Consult results list Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1233 Steps Step Description Expected result FO &amp;gt; do a search and click enter Search results page for &amp;ldquo;mug&amp;rdquo;&#xA;Found 5 products FO &amp;gt; do a search and click enter Search results page for &amp;ldquo;humm&amp;rdquo;&#xA;Found 19 products in 2 page Click on &amp;ldquo;Next&amp;rdquo; Showing 13-19 of 19 item(s) </description>
+      <description>FO - Search - Consult results list Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1233 Steps Step Description Expected result Go to FO &amp;gt; In search bar type &amp;ldquo;mug&amp;rdquo; &amp;gt; Press &amp;ldquo;Enter&amp;rdquo; Search results for &amp;ldquo;mug&amp;rdquo; page is displayed&#xA;Found 5 products Click on Mug The best is yet to come Mug The best is yet to come product page is displayed Click on Previous from your browser Search results for &amp;ldquo;mug&amp;rdquo; page is displayed</description>
     </item>
     <item>
       <title>FO - Search - Consult results list</title>
@@ -5892,14 +5899,14 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-modal-product-customization.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-modal-product-customization.html</guid>
-      <description>FO - Cart - Display modal product customization Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1283 Steps Step Description Expected result FO &amp;gt; Search : Customizable Search results page displayed&#xA;There is 1 product. : Customizable Mug Click to Customizable Mug Customizable Mug product page displayed Fill Customization input text and click to &amp;ldquo;Save customization&amp;rdquo; Your customization: test customization&#xA;Add to cart button enable Click to Add to cart h4.</description>
+      <description>FO - Cart - Display modal product customization Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1283 Steps Step Description Expected result FO &amp;gt; In input Search, type : Customizable &amp;gt; Press Enter Search results page displayed&#xA;There is 1 product. : Customizable Mug Click to Customizable Mug Customizable Mug product page displayed Fill Customization input text &amp;gt; Click on &amp;ldquo;Save customization&amp;rdquo; Your customization: test customization</description>
     </item>
     <item>
       <title>FO - Cart - Display modal product customization</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-modal-product-customization.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-modal-product-customization.html</guid>
-      <description>FO - Cart - Display modal product customization Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-6997 Steps Step Description Expected result FO &amp;gt; In input Search, type : Customizable &amp;gt; Press Enter Search results page displayed&#xA;There is 1 product. : Customizable Mug Click on Customizable Mug Customizable Mug product page displayed Fill Customization input text &amp;gt; Click to &amp;ldquo;Save customization&amp;rdquo; Your customization: test customization</description>
+      <description>FO - Cart - Display modal product customization Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-6997 Steps Step Description Expected result FO &amp;gt; In input Search, type : Customizable &amp;gt; Press Enter Search results page displayed&#xA;There is 1 product. : Customizable Mug Click on Customizable Mug Customizable Mug product page displayed Fill Customization input text &amp;gt; Click on &amp;ldquo;Save customization&amp;rdquo; Your customization: test customization</description>
     </item>
     <item>
       <title>FO - Checkout - Addresses - Billing address when logged in</title>
@@ -5976,7 +5983,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-sort-results-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-sort-results-list.html</guid>
-      <description> Fo - Search - Sort results list Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1234 Steps Step Description Expected result On FO &amp;gt; Search products in search bar A page with the search result should be displayed.&#xA;5 items found&#xA;Sorted by Relevance sort by Name A to Z Items are sorted from A to Z sort by Name Z to A Items are sorted from Z to A Sort by Price, low to high Items are sorted by Price, low to high Sort by Price, high to low Items are sorted by Price, high to low sort by Relevance Items are sorted by Relevance </description>
+      <description> Fo - Search - Sort results list Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1234 Steps Step Description Expected result Go to FO &amp;gt; In search bar type &amp;ldquo;mug&amp;rdquo; Search results for &amp;ldquo;mug&amp;rdquo; page is displayed with 5 items found.&#xA;Sorted by Relevance Sort by: Name, A to Z Items are sorted from A to Z Sort by: Name, Z to A Items are sorted from Z to A Sort by: Price, low to high Items are sorted by Price, low to high Sort by: Price, high to low Items are sorted by Price, high to low Sort by: Relevance Items are sorted by Relevance </description>
     </item>
     <item>
       <title>FO - Search - Sort results list</title>
@@ -6393,17 +6400,17 @@
     </item>
     <item>
       <title>FO - Cart - Display discount on product</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-discount-on-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-discount-on-product.html</guid>
+      <description>FO - Cart - Display discount on product Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1284 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discount Cart Rules page displayed Click on &amp;ldquo;Add new cart rule&amp;rdquo; New cart rule creation page displayed Fill the form and click to Save Successful creation Click on &amp;ldquo;Add new cart rule&amp;rdquo; New cart rule creation page displayed Fill the form &amp;gt; Click on Save Successful creation On FO &amp;gt; Search &amp;ldquo;note&amp;rdquo; &amp;gt; Press Enter There are 3 products Quick view of Mountain fox notebook &amp;gt; Add to cart Product successfully added to your shopping cart Click on Continue shopping Search result page</description>
+    </item>
+    <item>
+      <title>FO - Cart - Display discount on product</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-discount-on-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-display-discount-on-product.html</guid>
       <description>FO - Cart - Display discount on product Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-6998 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discount Cart Rules page displayed Click on &amp;ldquo;Add new cart rule&amp;rdquo; New cart rule creation page displayed Fill the form &amp;gt; Click on Save Successful creation Click on &amp;ldquo;Add new cart rule&amp;rdquo; New cart rule creation page displayed Fill the form &amp;gt; Click on Save Successful creation On FO &amp;gt; search &amp;ldquo;note&amp;rdquo; &amp;gt; Press Enter There are 3 products Quick view of Mountain fox notebook &amp;gt; Add to cart Product successfully added to your shopping cart Click on Continue shopping Search results page</description>
-    </item>
-    <item>
-      <title>FO - Cart - Display discount on product, Display total discount, Display detail discount, Delete discount</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-discount-on-product-display-total-discount-display-detail-discount-delete-discount.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-display-discount-on-product-display-total-discount-display-detail-discount-delete-discount.html</guid>
-      <description>FO - Cart - Display discount on product, Display total discount, Display detail discount, Delete discount Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1284 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discount Cart Rules page displayed Click on &amp;ldquo;Add new cart rule&amp;rdquo; New cart rule creation page displayed Fill the form and click to Save Successful creation Click on &amp;ldquo;Add new cart rule&amp;rdquo; New cart rule creation page displayed Fill the form and click to Save Successful creation On FO &amp;gt; search &amp;ldquo;note&amp;rdquo; There are 3 products Quickview of mountain fox notebook &amp;gt; Add to cart h4.</description>
     </item>
     <item>
       <title>FO - Product Page - Download attachment</title>
@@ -6438,14 +6445,14 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-consult-product-quickview.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-consult-product-quickview.html</guid>
-      <description>FO - Search - Consult product quickview Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1235 Steps Step Description Expected result FO &amp;gt; do a search and click enter Search results page for &amp;ldquo;mug&amp;rdquo;&#xA;Found 5 products Put your mouse over the product &amp;ldquo;Customizable mug&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Click on the &amp;ldquo;Quickview&amp;rdquo; button You should have a modal with : * On the left : an enlarged image of the one selected on its right</description>
+      <description>FO - Search - Consult product quickview Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-1235 Steps Step Description Expected result Go to FO &amp;gt; In search bar, type &amp;ldquo;mug&amp;rdquo; Page Search results for &amp;ldquo;mug&amp;rdquo; is displayed&#xA;Found 5 products Put your mouse over the product &amp;ldquo;Customizable mug&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; is displayed Click on the &amp;ldquo;Quickview&amp;rdquo; button Product modal is displayed :&#xA;On the left : image of product</description>
     </item>
     <item>
       <title>FO - Search - Consult product quickview</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-consult-product-quickview.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-consult-product-quickview.html</guid>
-      <description>FO - Search - Consult product quickview Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5107 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/06_consultProductQuickView.ts Steps Step Description Expected result Go to FO &amp;gt; In search bar type &amp;ldquo;mug&amp;rdquo; Page Search results for &amp;ldquo;mug&amp;rdquo; is displayed&#xA;Found 5 products Put your mouse over the product &amp;ldquo;Customizable mug&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Click on the &amp;ldquo;Quickview&amp;rdquo; button Product modal is displayed :&#xA;* On the left : image of product</description>
+      <description>FO - Search - Consult product quickview Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5107 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/06_consultProductQuickView.ts Steps Step Description Expected result Go to FO &amp;gt; In search bar type &amp;ldquo;mug&amp;rdquo; Page Search results for &amp;ldquo;mug&amp;rdquo; is displayed&#xA;Found 5 products Put your mouse over the product &amp;ldquo;Customizable mug&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; is displayed Click on the &amp;ldquo;Quickview&amp;rdquo; button Product modal is displayed :&#xA;* On the left : image of product</description>
     </item>
     <item>
       <title>FO - User account - Contact us on GDPR page</title>
@@ -6753,7 +6760,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-continue-shopping-and-proceed-to-checkout.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/cart/fo-cart-continue-shopping-and-proceed-to-checkout.html</guid>
-      <description>FO - Cart - Continue Shopping and Proceed to Checkout Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-1291 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)</description>
+      <description>FO - Cart - Continue Shopping and Proceed to Checkout Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-1291 Steps Step Description Expected result FO &amp;gt; Click on &amp;ldquo;The best is yet to come&amp;rdquo; product &amp;ldquo;The best is yet to come&amp;rdquo; product page displayed Click to &amp;ldquo;Add to cart&amp;rdquo; button Modal is displayed&#xA;h4. Product successfully added to your shopping cart&#xA;Product displayed (image, name, price, dimension, quantity)</description>
     </item>
     <item>
       <title>FO - Cart - Continue Shopping and Proceed to Checkout</title>
