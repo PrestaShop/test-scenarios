@@ -6,7 +6,7 @@ weight: 3
 # FO - Cart - Modal - Proceed to checkout
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1277
 
 ## Steps

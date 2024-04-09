@@ -6,7 +6,7 @@ weight: 4
 # FO - Checkout - Display of highlighted cart rules
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1296
 
 ## Steps
