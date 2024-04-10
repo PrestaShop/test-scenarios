@@ -6,7 +6,7 @@ weight: 7
 # BO - Orders - Shopping carts - Statistics
 ## Details
 * **Component** : Core
-* **Status** : Blocked
+* **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-779
 
 ## Steps
