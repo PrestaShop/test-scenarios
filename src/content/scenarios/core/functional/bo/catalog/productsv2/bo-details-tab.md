@@ -6,18 +6,17 @@ weight: 14
 # BO - Details Tab
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-5213
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/14_detailsTab.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Catalog > New product > Standard product > Add new product | Product creation page is well displayed |
 | Add a title to your product > Switch to Online > Click Save | Successful update message is displayed |
-| Go to Tab Details > Add References > Click Save and publish | Tab Details is red<br><br>For UPC barcode, EAN-13 or JAN barcode, ISBN there's a error message:<br>"lorem ipsum" is invalid |
+| Go to Tab Details > Add References > Click Save and publish | Tab Details is red<br><br>For UPC barcode, GTIN (EAN, JA, ITF or UCC code), ISBN there's a error message:<br>"lorem ipsum" is invalid |
+| Edit the References with new data > Click Save and publish | Successful update message is displayed |
 | Edit the References with new data > Click Save and publish | Successful update message is displayed |
 | In Features > Add 2 features > Save and publish | Successful update message is displayed<br><br>My 2 features are well updated.<br><br>My Customized Feature "Lorem Ipsum" is well displayed in FO > Product page > Product details |
 | Click to "Manage Feature" button | Feature page is well displayed |

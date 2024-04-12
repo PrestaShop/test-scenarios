@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Change image"
-weight: 4
+weight: 3
 ---
 
 # FO - Product Page - Change image
@@ -20,5 +20,5 @@ weight: 4
 | Click on "Test" product | The product page should be displayed with<br>- Your cover image<br>- Your normal image<br>- Your cover and normal images are displayed in smaller size |
 | Click on the magnifying glass | The image is displayed in full screen mode |
 | Click on the arrow right | The images scroll from right to left |
-| Click on the grey aread to close the full screen mode | Modal is displayed |
+| Click on the grey aread to close the full screen mode | Modal is closed |
 | Click on the arrow left | The images scroll from left to right |

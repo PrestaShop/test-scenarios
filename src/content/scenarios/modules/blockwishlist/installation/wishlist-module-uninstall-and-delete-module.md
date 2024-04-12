@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Uninstall and delete module"
-weight: 7
+weight: 6
 ---
 
 # Wishlist module - Uninstall and delete module

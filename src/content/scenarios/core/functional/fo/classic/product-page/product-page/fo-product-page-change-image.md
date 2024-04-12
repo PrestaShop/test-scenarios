@@ -6,18 +6,18 @@ weight: 4
 # FO - Product Page - Change image
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1259
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Catalog > Product | You should have all your product displayed on the BO |
-| * Clic on "Add new product"<br> * Clic on "Add new product" | * A modal should be displayed to choose the correct type of product <br> * The product configuration page should be displayed |
-| * Set up the Product name <br> * Clic on the switch next to "Offline" | * Your product name shouldn't be blanck <br> * The switch should set to "Online" |
-| * Clic on the square with the message "Drop Image here" <br> * Keep CTRL button hold and select two images and clic on Open | * Your folder tab should be displayed <br> * You should have the two images on the previous sqare with the first image that have a "cover" banner |
-| Clic on "Save" | You should be on the product page with the green notification "Successful update" |
-| Go to FO | You shop should be displayed |
-| Write "Test" on the search field | You should have your product "Test" showed on the list |
-| Clic on "Test" product | The product page should be displayed with<br> * A big image showed ( your fist picture ) on the left with the label new and out-of-stock <br> * two little image under the first one where the first one have a blue square on it |
-| Clic on the second little image | The big picture should change to be the second little picture where it have a square blue on it. <br><br>The first little picture shouldn't have the blue square |
+| Go to BO > Catalog > Product | Products page is displayed |
+| Click on button Add new product > Standard product > Add new product | The product configuration page should be displayed |
+| Set up the Product name > Click on the switch to put the product Online > Save | Successful update message is displayed |
+| Click on the camera icon > Add 2 images | The 2 images are displayed in the image dropzone.<br>1 cover image and 1 normal image |
+| Go to FO > Search for "Test" > Press Enter | Your product Test is displayed |
+| Click on "Test" product | The product page should be displayed with<br><br>Your cover image<br>Your normal image<br>Your cover and normal images are displayed in smaller size |
+| Click on the magnifying glass | The image is displayed in full screen mode |
+| Click on the second little image | The big picture should change to be the second little picture where it have a square blue on it. <br><br>The first little picture shouldn't have the blue square |
+| Click on the grey aread to close the full screen mode | Modal is closed |

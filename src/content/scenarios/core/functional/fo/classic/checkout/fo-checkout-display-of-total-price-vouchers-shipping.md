@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Display of total (price, vouchers, shipping)"
-weight: 3
+weight: 2
 ---
 
 # FO - Checkout - Display of total (price, vouchers, shipping)

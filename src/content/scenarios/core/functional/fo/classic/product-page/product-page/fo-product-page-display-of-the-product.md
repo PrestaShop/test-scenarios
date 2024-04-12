@@ -6,7 +6,7 @@ weight: 3
 # FO - Product Page - Display of the product
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1258
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 2
 # Category products module - Disable Mobile/Enable Mobile module
 ## Details
 * **Component** : ps_categoryproducts
-* **Status** : [TEST] Automation in progress
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4210
 
 ## Steps

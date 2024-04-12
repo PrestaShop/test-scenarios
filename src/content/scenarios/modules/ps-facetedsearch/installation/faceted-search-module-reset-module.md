@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Reset module"
-weight: 6
+weight: 5
 ---
 
 # Faceted search module - Reset module

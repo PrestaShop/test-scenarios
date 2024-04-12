@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Geolocation - Update IP address whitelist"
-weight: 3
+weight: 2
 ---
 
 # BO - International - Localization - Geolocation - Update IP address whitelist
