@@ -22,13 +22,13 @@
     <title>BO - Shop Parameters - SEO &amp; URLs - Update Schema of URLs :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../../css/font-awesome.min.css?1712903109" rel="stylesheet">
-    <link href="../../../../../../../../css/syntax-github.css?1712903109" rel="stylesheet">
-    <link href="../../../../../../../../css/featherlight.min.css?1712903109" rel="stylesheet">
-    <link href="../../../../../../../../css/perfect-scrollbar.min.css?1712903109" rel="stylesheet"><link href="../../../../../../../../css/auto-complete.css?1712903109" rel="stylesheet">
-    <link href="../../../../../../../../style.css?1712903109" rel="stylesheet">
+    <link href="../../../../../../../../css/font-awesome.min.css?1712989464" rel="stylesheet">
+    <link href="../../../../../../../../css/syntax-github.css?1712989464" rel="stylesheet">
+    <link href="../../../../../../../../css/featherlight.min.css?1712989464" rel="stylesheet">
+    <link href="../../../../../../../../css/perfect-scrollbar.min.css?1712989464" rel="stylesheet"><link href="../../../../../../../../css/auto-complete.css?1712989464" rel="stylesheet">
+    <link href="../../../../../../../../style.css?1712989464" rel="stylesheet">
 
-    <script src="../../../../../../../../js/jquery-3.3.1.min.js?1712903109"></script>
+    <script src="../../../../../../../../js/jquery-3.3.1.min.js?1712989464"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -19912,27 +19912,6 @@
       <li data-nav-id="/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-change-quantity.html" title="FO - Product Page - Change quantity" class="dd-item ">
         <a href="../../../../../../../../scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-change-quantity.html">
         FO - Product Page - Change quantity
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-display-of-the-product.html" title="FO - Product Page - Display of the product" class="dd-item ">
-        <a href="../../../../../../../../scenarios/core/functional/fo/classic/product-page/product-page/fo-product-page-display-of-the-product.html">
-        FO - Product Page - Display of the product
         
         </a>
     </li>
@@ -52254,21 +52233,6 @@
     
   
       
-        
-    
-    
-      
-        
-      
-      
-      
-      
-      
-
-      
-    
-  
-      
     
   
       
@@ -63237,7 +63201,7 @@
 <h1 id="bo---shop-parameters---seo--urls---update-schema-of-urls">BO - Shop Parameters - SEO &amp; URLs - Update Schema of URLs<a href="#bo---shop-parameters---seo--urls---update-schema-of-urls"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1113">https://forge.prestashop.com/browse/TEST-1113</a></li>
 </ul>
 
@@ -63250,60 +63214,68 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; Shop Parameters &gt; Traffic et SEO</td>
-<td>The SEO &amp; URL tab should be displayed</td>
+<td>Go to BO &gt; Shop Parameters &gt; Traffic et SEO &gt; Scroll down to block Schema of URLs</td>
+<td>Schema of URLs is displayed with 7 routes</td>
 </tr>
 <tr>
-<td>Scroll down until you are on Schema of URLs</td>
-<td>You should have <br> * Route to products<br> * Route to categorie<br> * Route to supplier<br> * Route to brand<br> * Route to page<br> * Route to page category<br> * Route to modules<br> * An notification in yellow with : <br>{code:java}<br>Before making any changes to the default pattern of your URLs, make sure to meet the following requirements:<br>            <br>              <br>                The Friendly URL feature must be enabled<br>              <br>              <br>                URL rewriting must be activated on your web server<br>              <br>              <br>                All mandatory keywords (*) must be included in the route<br>              <br>            <br>            You should also comply with the syntax:<br>            <br>              <br>                Keywords must be in braces {keyword}<br>              <br>              <br>                All keywords must be separated<br>              <br>              <br>                As long as a keyword has an associated value, you can <br>use the syntax {prepend:keyword:append} to add text before and after it.<br>{code}</td>
+<td>Edit Route to products &gt; Save</td>
+<td>Error displayed :<br>Keyword &ldquo;{id_product_attribute}&rdquo; required for route &ldquo;product_rule&rdquo; (rule: &ldquo;{id}&rdquo;)<br><br>Keyword &ldquo;{rewrite}&rdquo; required for route &ldquo;product_rule&rdquo; (rule: {id}&quot;)</td>
 </tr>
 <tr>
-<td>Set the different field and clic on save</td>
-<td>the tab SEO &amp; URL should be displayed again with the green notification &ldquo;Update successful&rdquo;</td>
+<td>Edit Route to products &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Go to FO</td>
-<td>Your shop should be displayed with your different product</td>
+<td>View my store &gt; Click on product Hummingbird printed sweater</td>
+<td>See URL is like the following : myshop.com/en/2-9-brown-bear-printed-sweater.html#/1-size-s<br><br>Product page is displayed</td>
 </tr>
 <tr>
-<td>Clic on the product &ldquo;Mug The best is yet to come&rdquo;</td>
-<td>The link should be : <br>[[yourshoplink]/en/home-accessories/6-mug-the-best-is-yet-to-come.html/product</td>
+<td>Edit Route to category &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Clic on &ldquo;Sign in&rdquo;</td>
-<td>You should be redirect to the log in page</td>
+<td>Click View my store &gt; Click on Accessories</td>
+<td>See URL is like the following : myshop.com/en/6/cat<br><br>Accessories category is displayed</td>
 </tr>
 <tr>
-<td>Log in to your account</td>
-<td>The page &ldquo;Mug The best is yet to come&rdquo; should be displayed again and you have your name on the top right of the page</td>
+<td>Go back to BO &gt; Edit Route to supplier &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Clic on your name</td>
-<td>Your account tab should be displayed</td>
+<td>Click View my store &gt; Click on Clothes &gt; In left menu &gt; Click on Fashion supplier</td>
+<td>The page you are looking for was not found.<br><br>ISSUE : <a href="https://github.com/PrestaShop/PrestaShop/issues/27716">https://github.com/PrestaShop/PrestaShop/issues/27716</a></td>
 </tr>
 <tr>
-<td>Clic on &ldquo;My Wishlist&rdquo;</td>
-<td>You should be on the list of your wishlist and the link should be : <br>[Yourshop]en/blockwishlist/lists/module</td>
+<td>Go back to BO &gt; Edit Route to brand &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Go to : [Yourshop]en/1/cat</td>
-<td>&ldquo;Root&rsquo; categorie should be displayed with a sub-categorie &ldquo;Home&rdquo;</td>
+<td>Click View my store &gt; Scroll all the way down to Sitemap in footer &gt; Click on Sitemap &gt; Click on Studio Design</td>
+<td>See URL is like the following : myshop.com/en/brand/1<br><br>List of products by brand Studio Design is displayed</td>
 </tr>
 <tr>
-<td>Go to : [Yourshop]en/1/br</td>
-<td>&ldquo;Studio design&rdquo; brand should be displayed with all the product link to them</td>
+<td>Go back to BO &gt; Edit Route to page &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Go to : [Yourshop]en/1/page</td>
-<td>&ldquo;Delivery&rdquo; page should be displayed</td>
+<td>Go to Advanced parameters &gt; Clear cache</td>
+<td>All caches cleared successfully</td>
 </tr>
 <tr>
-<td>Go to : [Yourshop]en/1/page/cat</td>
-<td>&ldquo;Home&rdquo; category should be displayed with the different page on it</td>
+<td>Click View my store &gt; Scroll down to footer &gt; Click on Delivery</td>
+<td>See URL is like the following : myshop.com/en/content/1<br><br>Delivery page is displayed</td>
 </tr>
 <tr>
-<td>Go to : [Yourshop]en/1/sup</td>
-<td>&ldquo;Fashion supplier&rdquo; tab should be displayed</td>
+<td>Go back to BO &gt; Edit Route to modules &gt; Save</td>
+<td>Message &ldquo;Update successful&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Click View my store &gt; Add any product to wishlist &gt; Sign In &gt;</td>
+<td>You are logged into your account</td>
+</tr>
+<tr>
+<td>Click on John Doe on the top right corner &gt; Click on My Wishlist</td>
+<td>See URL is like the following : myshop.com/en/all_my_modules/blockwishlist/lists<br><br>Wishlists page is displayed</td>
 </tr>
 </tbody>
 </table>
@@ -63325,17 +63297,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../../js/clipboard.min.js?1712903109"></script>
-    <script src="../../../../../../../../js/perfect-scrollbar.min.js?1712903109"></script>
-    <script src="../../../../../../../../js/perfect-scrollbar.jquery.min.js?1712903109"></script>
-    <script src="../../../../../../../../js/jquery.sticky.js?1712903109"></script>
-    <script src="../../../../../../../../js/featherlight.min.js?1712903109"></script>
-    <script src="../../../../../../../../js/html5shiv-printshiv.min.js?1712903109"></script>
-    <script src="../../../../../../../../js/modernizr.custom-3.6.0.js?1712903109"></script>
-    <script src="../../../../../../../../js/learn.js?1712903109"></script>
-    <script src="../../../../../../../../js/hugo-learn.js?1712903109"></script>
+    <script src="../../../../../../../../js/clipboard.min.js?1712989464"></script>
+    <script src="../../../../../../../../js/perfect-scrollbar.min.js?1712989464"></script>
+    <script src="../../../../../../../../js/perfect-scrollbar.jquery.min.js?1712989464"></script>
+    <script src="../../../../../../../../js/jquery.sticky.js?1712989464"></script>
+    <script src="../../../../../../../../js/featherlight.min.js?1712989464"></script>
+    <script src="../../../../../../../../js/html5shiv-printshiv.min.js?1712989464"></script>
+    <script src="../../../../../../../../js/modernizr.custom-3.6.0.js?1712989464"></script>
+    <script src="../../../../../../../../js/learn.js?1712989464"></script>
+    <script src="../../../../../../../../js/hugo-learn.js?1712989464"></script>
     
-    <script src="../../../../../../../../main.js?1712903109"></script>
+    <script src="../../../../../../../../main.js?1712989464"></script>
     
     
     
