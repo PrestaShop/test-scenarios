@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Add a required customization"
-weight: 8
+weight: 7
 ---
 
 # FO - Product Page - Add a required customization

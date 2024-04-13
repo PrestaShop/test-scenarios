@@ -6,23 +6,25 @@ weight: 1
 # BO - Shop Parameters - SEO & URLs - Update Schema of URLs
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1113
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Shop Parameters > Traffic et SEO | The SEO & URL tab should be displayed |
-| Scroll down until you are on Schema of URLs | You should have <br> * Route to products<br> * Route to categorie<br> * Route to supplier<br> * Route to brand<br> * Route to page<br> * Route to page category<br> * Route to modules<br> * An notification in yellow with : <br>{code:java}<br>Before making any changes to the default pattern of your URLs, make sure to meet the following requirements:<br>            <br>              <br>                The Friendly URL feature must be enabled<br>              <br>              <br>                URL rewriting must be activated on your web server<br>              <br>              <br>                All mandatory keywords (*) must be included in the route<br>              <br>            <br>            You should also comply with the syntax:<br>            <br>              <br>                Keywords must be in braces {keyword}<br>              <br>              <br>                All keywords must be separated<br>              <br>              <br>                As long as a keyword has an associated value, you can <br>use the syntax {prepend:keyword:append} to add text before and after it.<br>{code} |
-| Set the different field and clic on save | the tab SEO & URL should be displayed again with the green notification "Update successful" |
-| Go to FO | Your shop should be displayed with your different product |
-| Clic on the product "Mug The best is yet to come" | The link should be : <br>[[yourshoplink]/en/home-accessories/6-mug-the-best-is-yet-to-come.html/product|http://localhost/develop/en/home-accessories/6-mug-the-best-is-yet-to-come.html/product] |
-| Clic on "Sign in" | You should be redirect to the log in page |
-| Log in to your account | The page "Mug The best is yet to come" should be displayed again and you have your name on the top right of the page |
-| Clic on your name | Your account tab should be displayed |
-| Clic on "My Wishlist" | You should be on the list of your wishlist and the link should be : <br>[Yourshop]en/blockwishlist/lists/module |
-| Go to : [Yourshop]en/1/cat | "Root' categorie should be displayed with a sub-categorie "Home" |
-| Go to : [Yourshop]en/1/br | "Studio design" brand should be displayed with all the product link to them |
-| Go to : [Yourshop]en/1/page | "Delivery" page should be displayed |
-| Go to : [Yourshop]en/1/page/cat | "Home" category should be displayed with the different page on it |
-| Go to : [Yourshop]en/1/sup | "Fashion supplier" tab should be displayed |
+| Go to BO > Shop Parameters > Traffic et SEO > Scroll down to block Schema of URLs | Schema of URLs is displayed with 7 routes |
+| Edit Route to products > Save | Error displayed :<br>Keyword "{id_product_attribute}" required for route "product_rule" (rule: "{id}")<br><br>Keyword "{rewrite}" required for route "product_rule" (rule: {id}") |
+| Edit Route to products > Save | Message "Update successful" is displayed |
+| View my store > Click on product Hummingbird printed sweater | See URL is like the following : myshop.com/en/2-9-brown-bear-printed-sweater.html#/1-size-s<br><br>Product page is displayed |
+| Edit Route to category > Save | Message "Update successful" is displayed |
+| Click View my store > Click on Accessories | See URL is like the following : myshop.com/en/6/cat<br><br>Accessories category is displayed |
+| Go back to BO > Edit Route to supplier > Save | Message "Update successful" is displayed |
+| Click View my store > Click on Clothes > In left menu > Click on Fashion supplier | The page you are looking for was not found.<br><br>ISSUE : https://github.com/PrestaShop/PrestaShop/issues/27716 |
+| Go back to BO > Edit Route to brand > Save | Message "Update successful" is displayed |
+| Click View my store > Scroll all the way down to Sitemap in footer > Click on Sitemap > Click on Studio Design | See URL is like the following : myshop.com/en/brand/1<br><br>List of products by brand Studio Design is displayed |
+| Go back to BO > Edit Route to page > Save | Message "Update successful" is displayed |
+| Go to Advanced parameters > Clear cache | All caches cleared successfully |
+| Click View my store > Scroll down to footer > Click on Delivery | See URL is like the following : myshop.com/en/content/1<br><br>Delivery page is displayed |
+| Go back to BO > Edit Route to modules > Save | Message "Update successful" is displayed |
+| Click View my store > Add any product to wishlist > Sign In > | You are logged into your account |
+| Click on John Doe on the top right corner > Click on My Wishlist | See URL is like the following : myshop.com/en/all_my_modules/blockwishlist/lists<br><br>Wishlists page is displayed |
