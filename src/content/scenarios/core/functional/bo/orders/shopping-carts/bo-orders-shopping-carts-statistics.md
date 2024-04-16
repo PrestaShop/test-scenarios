@@ -6,14 +6,16 @@ weight: 7
 # BO - Orders - Shopping carts - Statistics
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-779
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO > Add products to Cart | Go to BO > Orders > Shopping carts > See Non-ordered carts displayed |
-| Go to BO >  Orders > Shopping carts > See Conversion Rate | Converting your visitors to customers<br><br>When a visitor buys an item, he becomes a customer.<br><br>For example :<br>If all visitors become customers > should be 100%<br>If half of the visitors become customers > should be 50% |
-| Go to BO >  Orders > Shopping carts > See Abandoned Carts | Same amount of Abandoned carts in the list as well in the Statistics part<br><br>If you have 2 Non-ordered carts, you should have 2 Abandoned carts in Statistics |
-| Go to BO >  Orders > Shopping carts > See Average Order Value | The result should be the result of : dividing your total revenue by the total number of orders placed |
-| Go to BO >  Orders > Shopping carts > See Net profit per visitor | The result should be : dividing the total revenue by the total number of visitors to your site |
+| Go to FO > Add products to Cart | Products are well added to the Cart |
+| Go to BO >  Orders > Shopping carts | See the last Shopping Cart has the status "Non ordered" |
+| Wait for 48 hours (change it in the database) | See the latest Shopping cart status has changed to "Abandoned cart" |
+| Click on Abandoned Carts in the statistics block | See in Statistics block, the number of abandoned carts should be 1.<br>See the gridlist is updated with Abandoned carts with status |
+| Click View my store > Add any product to your cart > Proceed to checkout | Your order is confirmed |
+| Go to BO > Orders > Orders > Change Status of order to "Payment accepted" | Successful update message is displayed |
+| Go to > Orders > Shopping carts | See that Conversion Rate, Average Order Value and Net Profit per Visit is still 0 |
