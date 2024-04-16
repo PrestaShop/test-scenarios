@@ -22,13 +22,13 @@
     <title>BO - Orders - Shopping carts - Statistics :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1713166644" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1713166644" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1713166644" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1713166644" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1713166644" rel="stylesheet">
-    <link href="../../../../../../style.css?1713166644" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1713248857" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1713248857" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1713248857" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1713248857" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1713248857" rel="stylesheet">
+    <link href="../../../../../../style.css?1713248857" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1713166644"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1713248857"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -63189,7 +63189,7 @@
 <h1 id="bo---orders---shopping-carts---statistics">BO - Orders - Shopping carts - Statistics<a href="#bo---orders---shopping-carts---statistics"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-779">https://forge.prestashop.com/browse/TEST-779</a></li>
 </ul>
 
@@ -63203,23 +63203,31 @@
 <tbody>
 <tr>
 <td>Go to FO &gt; Add products to Cart</td>
-<td>Go to BO &gt; Orders &gt; Shopping carts &gt; See Non-ordered carts displayed</td>
+<td>Products are well added to the Cart</td>
 </tr>
 <tr>
-<td>Go to BO &gt;  Orders &gt; Shopping carts &gt; See Conversion Rate</td>
-<td>Converting your visitors to customers<br><br>When a visitor buys an item, he becomes a customer.<br><br>For example :<br>If all visitors become customers &gt; should be 100%<br>If half of the visitors become customers &gt; should be 50%</td>
+<td>Go to BO &gt;  Orders &gt; Shopping carts</td>
+<td>See the last Shopping Cart has the status &ldquo;Non ordered&rdquo;</td>
 </tr>
 <tr>
-<td>Go to BO &gt;  Orders &gt; Shopping carts &gt; See Abandoned Carts</td>
-<td>Same amount of Abandoned carts in the list as well in the Statistics part<br><br>If you have 2 Non-ordered carts, you should have 2 Abandoned carts in Statistics</td>
+<td>Wait for 48 hours (change it in the database)</td>
+<td>See the latest Shopping cart status has changed to &ldquo;Abandoned cart&rdquo;</td>
 </tr>
 <tr>
-<td>Go to BO &gt;  Orders &gt; Shopping carts &gt; See Average Order Value</td>
-<td>The result should be the result of : dividing your total revenue by the total number of orders placed</td>
+<td>Click on Abandoned Carts in the statistics block</td>
+<td>See in Statistics block, the number of abandoned carts should be 1.<br>See the gridlist is updated with Abandoned carts with status</td>
 </tr>
 <tr>
-<td>Go to BO &gt;  Orders &gt; Shopping carts &gt; See Net profit per visitor</td>
-<td>The result should be : dividing the total revenue by the total number of visitors to your site</td>
+<td>Click View my store &gt; Add any product to your cart &gt; Proceed to checkout</td>
+<td>Your order is confirmed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Orders &gt; Orders &gt; Change Status of order to &ldquo;Payment accepted&rdquo;</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Go to &gt; Orders &gt; Shopping carts</td>
+<td>See that Conversion Rate, Average Order Value and Net Profit per Visit is still 0</td>
 </tr>
 </tbody>
 </table>
@@ -63241,17 +63249,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1713166644"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1713166644"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1713166644"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1713166644"></script>
-    <script src="../../../../../../js/featherlight.min.js?1713166644"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1713166644"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1713166644"></script>
-    <script src="../../../../../../js/learn.js?1713166644"></script>
-    <script src="../../../../../../js/hugo-learn.js?1713166644"></script>
+    <script src="../../../../../../js/clipboard.min.js?1713248857"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1713248857"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1713248857"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1713248857"></script>
+    <script src="../../../../../../js/featherlight.min.js?1713248857"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1713248857"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1713248857"></script>
+    <script src="../../../../../../js/learn.js?1713248857"></script>
+    <script src="../../../../../../js/hugo-learn.js?1713248857"></script>
     
-    <script src="../../../../../../main.js?1713166644"></script>
+    <script src="../../../../../../main.js?1713248857"></script>
     
     
     

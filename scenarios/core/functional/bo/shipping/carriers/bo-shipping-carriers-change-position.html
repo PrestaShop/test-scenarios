@@ -22,13 +22,13 @@
     <title>BO - Shipping - Carriers - Change position :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1713166645" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1713166645" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1713166645" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1713166645" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1713166645" rel="stylesheet">
-    <link href="../../../../../../style.css?1713166645" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1713248857" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1713248857" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1713248857" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1713248857" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1713248857" rel="stylesheet">
+    <link href="../../../../../../style.css?1713248857" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1713166645"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1713248857"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -63189,11 +63189,9 @@
 <h1 id="bo---shipping---carriers---change-position">BO - Shipping - Carriers - Change position<a href="#bo---shipping---carriers---change-position"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Automated</li>
+<li><strong>Status</strong> : Blocked</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-973">https://forge.prestashop.com/browse/TEST-973</a></li>
-<li><strong>Test</strong> : <a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/04_changePosition.ts">https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/04_changePosition.ts</a></li>
-<li><strong>Specification</strong> : <a href="https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/shipping/carrier">https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/shipping/carrier</a></li>
 </ul>
 
 <h2 id="steps">Steps<a href="#steps"></a></h2><table>
@@ -63205,12 +63203,36 @@
 </thead>
 <tbody>
 <tr>
+<td>In FO, click on &ldquo;The Best Is Yet To Come&rdquo; product</td>
+<td>Product page displayed</td>
+</tr>
+<tr>
+<td>Click to Add to cart and Proceed to checkout</td>
+<td>h4. Product successfully added to your shopping cart<br><br>Shopping cart page displayed</td>
+</tr>
+<tr>
+<td>Click on Proceed to checkout</td>
+<td>Checkout page diplayed</td>
+</tr>
+<tr>
+<td>Sign in</td>
+<td>Loged as John Doe</td>
+</tr>
+<tr>
+<td>Click on Continue</td>
+<td>Shipping method displayed<br> # Click and Collect<br> # My carrier</td>
+</tr>
+<tr>
 <td>Go to BO&gt;IMPROVE&gt; Shipping&gt; Carriers</td>
 <td>Carriers page is displayed</td>
 </tr>
 <tr>
 <td>On position column, click on the position of the first carrier on the carriers table and drop it to the second ligne.</td>
 <td>Successful update message is displayed.<br><br>Carrier place is well changed.</td>
+</tr>
+<tr>
+<td>On BO refresh the page</td>
+<td>Shipping method displayed<br> # My carrier<br> # Click and Collect</td>
 </tr>
 </tbody>
 </table>
@@ -63232,17 +63254,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1713166645"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1713166645"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1713166645"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1713166645"></script>
-    <script src="../../../../../../js/featherlight.min.js?1713166645"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1713166645"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1713166645"></script>
-    <script src="../../../../../../js/learn.js?1713166645"></script>
-    <script src="../../../../../../js/hugo-learn.js?1713166645"></script>
+    <script src="../../../../../../js/clipboard.min.js?1713248857"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1713248857"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1713248857"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1713248857"></script>
+    <script src="../../../../../../js/featherlight.min.js?1713248857"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1713248857"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1713248857"></script>
+    <script src="../../../../../../js/learn.js?1713248857"></script>
+    <script src="../../../../../../js/hugo-learn.js?1713248857"></script>
     
-    <script src="../../../../../../main.js?1713166645"></script>
+    <script src="../../../../../../main.js?1713248857"></script>
     
     
     
