@@ -6,9 +6,10 @@ weight: 2
 # GET /api/modules
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8860
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/02_getAPIModules.ts
 
 ## Steps
 | Step Description | Expected result |

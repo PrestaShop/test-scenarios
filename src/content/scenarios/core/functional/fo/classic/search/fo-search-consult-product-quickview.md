@@ -6,7 +6,7 @@ weight: 6
 # FO - Search - Consult product quickview
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1235
 
 ## Steps
