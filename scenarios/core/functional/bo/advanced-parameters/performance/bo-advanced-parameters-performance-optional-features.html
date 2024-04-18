@@ -22,13 +22,13 @@
     <title>BO - Advanced Parameters - Performance - Optional features :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1713335136" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1713335136" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1713335136" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1713335136" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1713335136" rel="stylesheet">
-    <link href="../../../../../../style.css?1713335136" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1713421961" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1713421961" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1713421961" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1713421961" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1713421961" rel="stylesheet">
+    <link href="../../../../../../style.css?1713421961" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1713335136"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1713421961"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -63333,7 +63333,7 @@
 <h1 id="bo---advanced-parameters---performance---optional-features">BO - Advanced Parameters - Performance - Optional features<a href="#bo---advanced-parameters---performance---optional-features"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1136">https://forge.prestashop.com/browse/TEST-1136</a></li>
 </ul>
 
@@ -63346,80 +63346,60 @@
 </thead>
 <tbody>
 <tr>
-<td>* Go to BO &gt; Shop Parameters &gt; Customer settings<br> * Clic on the Groups tab</td>
-<td>* You should be on the customer settings page on the same named tab <br> * You should be on the Groups tab</td>
+<td>Go to BO &gt; Shop Parameters &gt; Customer settings &gt; Click on the Groups tab</td>
+<td>Groups page is displayed</td>
 </tr>
 <tr>
-<td>* Clic on the Edit button next to Guest<br> * Change the Discount field to 5<br> * Clic on Save button</td>
-<td>* The customer groups tab should be displayed especially on ther Guest page <br> * The discount field should have 5.00 %<br> * You should be redirected to &ldquo;Groups&rdquo; tab with a green notification &ldquo;Succesful update&rdquo;</td>
+<td>Click on the Edit button next to Customer &gt; Change the Discount field to 5 &gt; Click on Save button</td>
+<td>Successful update message is displayed</td>
 </tr>
 <tr>
-<td>Go to FO</td>
-<td>You shop should be displayed</td>
+<td>Click View my store &gt; Click on the product &ldquo;The best is yet to come Framed poster&rdquo;</td>
+<td>The product page &ldquo;The best is yet to come Framed poster&rdquo; is displayed.<br><br>The price displayed is €34.80.</td>
 </tr>
 <tr>
-<td>Clic on the product &ldquo;the best is yet to come&rdquo;</td>
-<td>The product page &ldquo;the best is yet to come&rdquo; should be displayed</td>
+<td>Scroll down &gt; Click on &ldquo;Product Details&rdquo;</td>
+<td>The Tab product detail is displayed with Data sheet block : &ldquo;Composition : Matt Paper&rdquo;</td>
 </tr>
 <tr>
-<td>Scroll down and clic on &ldquo;Product detail&rdquo; next to &ldquo;Description&rdquo;</td>
-<td>You should have the tab &ldquo;product detail&rdquo; displayed with &ldquo;Composition : Matt Paper&rdquo;</td>
+<td>Click on Sign In button on top right corner &gt; Set your account &gt; Click on &ldquo;Sign in&rdquo; button</td>
+<td>You are now logged into your customer account.<br><br>The product page &ldquo;The best is yet to come Framed poster&rdquo; is displayed.<br><br>The price displayed is €33.06.</td>
 </tr>
 <tr>
-<td>* Clic on Sign In button at the header<br> * Set your account <br> * Clic on &ldquo;Sign in&rdquo; button</td>
-<td>* You should be Redirect to &ldquo;Log in to your account&rdquo; tab <br> * Your email and password field should be blank <br> * You should be redirect to the product &ldquo;the best is yet to come&rdquo; with a price lower than previously</td>
+<td>Go to BO &gt; Advanced Parameters &gt; Performance &gt; Scroll down to Optional features block &gt; Disable Features &gt; Save</td>
+<td>Update successful message is displayed</td>
 </tr>
 <tr>
-<td>* Go to BO &gt;  Advenced Parameters &gt; Performance <br> * Scroll down to Optional feature</td>
-<td>* You should be on the Performance page on the BO<br> * You should see the Optional feature with 3 switch button displyed : <br><br> ** Combination (that can&rsquo;t be disabled because you have combination on your shop) <br> ** Features <br> ** Customer groups</td>
+<td>Go back to your product page &gt; Refresh it &gt; Scroll down &gt; Click on &ldquo;Product Details&rdquo;</td>
+<td>&ldquo;Product Details&rdquo; tab is displayed<br>Data sheet is not displayed anymore</td>
 </tr>
 <tr>
-<td>Disable the Features switch button and click on save button</td>
-<td>You should be redirected to the performance page with the green notification &ldquo;Update successful&rdquo;</td>
+<td>Go to BO &gt; Advanced Parameters &gt; Performance &gt; Scroll down to Optional features block &gt; Disable Customer groups &gt; Save</td>
+<td>Update successful message is displayed</td>
 </tr>
 <tr>
-<td>Return to your FO on you product page and refresh it</td>
-<td>You should have the &ldquo;best is yet to come framed poster&rdquo; product displayed</td>
-</tr>
-<tr>
-<td>Scroll down and clic on &ldquo;Product detail&rdquo; next to &ldquo;Description&rdquo;</td>
-<td>You should have the tab &ldquo;product detail&rdquo; displayed and you don&rsquo;t have the &ldquo;composition&rdquo; mentioned</td>
-</tr>
-<tr>
-<td>Return to your BO &gt; Advanced Parameters &gt; Performance, on the Optional feature part</td>
-<td>You still have the three switch button displayed</td>
-</tr>
-<tr>
-<td>Disable the Customer groups switch button and click on save button</td>
-<td>You should be redirected to the performance page with the green notification &ldquo;Update successful&rdquo;</td>
-</tr>
-<tr>
-<td>Return to your FO on you product page and refresh it</td>
-<td>You should have the &ldquo;best is yet to come framed poster&rdquo; product displayed with a price bigger than previously</td>
+<td>Go back to your product page &gt; Refresh it</td>
+<td>The product page &ldquo;The best is yet to come Framed poster&rdquo; is displayed.<br><br>The price displayed is €34.80</td>
 </tr>
 <tr>
 <td>Go to BO &gt;  Catalog &gt; Products</td>
-<td>You should see all the product in your shop on a list</td>
+<td>Products listing page is displayed</td>
 </tr>
 <tr>
-<td>* Select with the checkboxes the product with the id : <br>1 - 2 - 3 - 4 - 5 - 9 - 10 - 11 - 16 - 17 - 18<br> * Clic on the &ldquo;Bulk action&rdquo; button <br> * Clic on the Delete selection button <br> * Clic on the Delete selection button <br> * Clic on the &ldquo;Close&rdquo; button</td>
-<td>* There checkboxes should be checked <br> * There are four choice displayed bottom of the bulk action button <br> * A new tab named &ldquo;Delete selection&rdquo; is displayed <br> * You should have a load to delete the product <br> * You should be redirected to the product page without the product you selected</td>
+<td>Select all the combination products &gt; Click on &ldquo;Bulk action&rdquo; &gt; Click on the Delete selection &gt; Delete selection &gt; Close</td>
+<td>There are now 8 products on the list</td>
 </tr>
 <tr>
-<td>Return to your BO &gt; Advanced Parameters &gt; Performance, on the Optional feature part</td>
-<td>You still have the three switch button displayed</td>
+<td>Go to BO &gt; Advanced Parameters &gt; Performance &gt; Scroll down to Optional features block &gt; Disable Combinations &gt; Save</td>
+<td>Update successful message is displayed</td>
 </tr>
 <tr>
 <td>Disable the Combination switch button and click on save button</td>
 <td>You should be redirected to the performance page with the green notification &ldquo;Update successful&rdquo;</td>
 </tr>
 <tr>
-<td>Go to BO &gt;  Catalog &gt; Products</td>
-<td>You should see all the product in your shop on a list</td>
-</tr>
-<tr>
-<td>Clic on the the &ldquo;New Product&rdquo; button</td>
-<td>You should have only 3 selection possible : <br> * Standard product <br> * Pack of products <br> * Virtual products<br><br>And the button &ldquo;Add new product&rdquo;</td>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Click on Add new product</td>
+<td>You can only create those types of products :<br><br>Standard product <br>Pack of products <br>Virtual products</td>
 </tr>
 </tbody>
 </table>
@@ -63441,17 +63421,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1713335136"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1713335136"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1713335136"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1713335136"></script>
-    <script src="../../../../../../js/featherlight.min.js?1713335136"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1713335136"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1713335136"></script>
-    <script src="../../../../../../js/learn.js?1713335136"></script>
-    <script src="../../../../../../js/hugo-learn.js?1713335136"></script>
+    <script src="../../../../../../js/clipboard.min.js?1713421961"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1713421961"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1713421961"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1713421961"></script>
+    <script src="../../../../../../js/featherlight.min.js?1713421961"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1713421961"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1713421961"></script>
+    <script src="../../../../../../js/learn.js?1713421961"></script>
+    <script src="../../../../../../js/hugo-learn.js?1713421961"></script>
     
-    <script src="../../../../../../main.js?1713335136"></script>
+    <script src="../../../../../../main.js?1713421961"></script>
     
     
     

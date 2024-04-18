@@ -22,13 +22,13 @@
     <title>BO - Shipping - Carriers - CRUD :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1713335153" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1713335153" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1713335153" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1713335153" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1713335153" rel="stylesheet">
-    <link href="../../../../../../style.css?1713335153" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1713421978" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1713421978" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1713421978" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1713421978" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1713421978" rel="stylesheet">
+    <link href="../../../../../../style.css?1713421978" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1713335153"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1713421978"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -63333,7 +63333,7 @@
 <h1 id="bo---shipping---carriers---crud">BO - Shipping - Carriers - CRUD<a href="#bo---shipping---carriers---crud"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-970">https://forge.prestashop.com/browse/TEST-970</a></li>
 </ul>
@@ -63352,7 +63352,7 @@
 </tr>
 <tr>
 <td>Click on Add new carrier</td>
-<td>A new page is well displayed with a title : Add new<br>ISSUE RELATED : <br><br>Logo is displayed<br><br>4 tabs are displayed :<br> # General settings <br> # Shipping locations and costs <br> # Size, weight, and group access <br> # Summary</td>
+<td>A new page is well displayed with a title : New carrier<br>ISSUE RELATED : <a href="https://github.com/PrestaShop/PrestaShop/issues/35951">https://github.com/PrestaShop/PrestaShop/issues/35951</a><br><br>Logo is displayed<br><br>4 tabs are displayed :<br> # General settings <br> # Shipping locations and costs <br> # Size, weight, and group access <br> # Summary</td>
 </tr>
 <tr>
 <td>Fill the blank of the first tab &ldquo;General settings&rdquo; &gt; Click on Next</td>
@@ -63375,15 +63375,15 @@
 <td>In Step 3, see 3 carriers : Click and collect, test and My carrier</td>
 </tr>
 <tr>
-<td>Go back to Carriers page &gt; Click on the button Edit next to the &ldquo;test&rdquo; carrier</td>
-<td>Editing page of carrier is displayed with title : &ldquo;Edit: test&rdquo;<br>ISSUE RELATED :</td>
+<td>Go back to BO &gt; Carriers page &gt; Click on the button Edit next to the &ldquo;test&rdquo; carrier</td>
+<td>Editing page of carrier is displayed with title : &ldquo;Editing carrier test&rdquo;<br>ISSUE RELATED : <a href="https://github.com/PrestaShop/PrestaShop/issues/35951">https://github.com/PrestaShop/PrestaShop/issues/35951</a></td>
 </tr>
 <tr>
 <td>Click on the Trash icon next to the logo &gt; Click OK</td>
 <td>Logo is deleted, see a truck placeholder image</td>
 </tr>
 <tr>
-<td>On the first Tab &gt; Edit the data &gt; Click on the third Tab</td>
+<td>On the first Tab: Edit the data &gt; Click on the third Tab</td>
 <td>Tab 3 is displayed : Size, weight and group access</td>
 </tr>
 <tr>
@@ -63391,12 +63391,12 @@
 <td>Successful update message is displayed</td>
 </tr>
 <tr>
-<td>on the dropdown button click on delete next to the created carrier</td>
-<td>a popup message is displayed : <br><br>Delete selected item? <br><br>Name : new_test <br><br>YES or NO buttons</td>
+<td>GO back to FO &gt; Refresh the cart page</td>
+<td>See the name of the carrier is now new_test and the logo is gone.</td>
 </tr>
 <tr>
-<td>click on YES</td>
-<td>* carrierslist page is displayed<br> * &ldquo;Successful deletion&rdquo; message is displayed<br> * The carrier  is well removed<br> * Carriers (4)</td>
+<td>Click dropdown for new_test &gt; Click Delete &gt; Click YES</td>
+<td>Successful deletion message is displayed<br><br>There are 4 carriers displayed</td>
 </tr>
 </tbody>
 </table>
@@ -63418,17 +63418,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1713335153"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1713335153"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1713335153"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1713335153"></script>
-    <script src="../../../../../../js/featherlight.min.js?1713335153"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1713335153"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1713335153"></script>
-    <script src="../../../../../../js/learn.js?1713335153"></script>
-    <script src="../../../../../../js/hugo-learn.js?1713335153"></script>
+    <script src="../../../../../../js/clipboard.min.js?1713421978"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1713421978"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1713421978"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1713421978"></script>
+    <script src="../../../../../../js/featherlight.min.js?1713421978"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1713421978"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1713421978"></script>
+    <script src="../../../../../../js/learn.js?1713421978"></script>
+    <script src="../../../../../../js/hugo-learn.js?1713421978"></script>
     
-    <script src="../../../../../../main.js?1713335153"></script>
+    <script src="../../../../../../main.js?1713421978"></script>
     
     
     
