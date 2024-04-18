@@ -6,20 +6,17 @@ weight: 5
 # BO - Shipping - Carriers - Change position
 ## Details
 * **Component** : Core
-* **Status** : IN REVIEW
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-973
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| In FO, click on "The Best Is Yet To Come" product | Product page displayed |
-| Click to Add to cart and Proceed to checkout | h4. Product successfully added to your shopping cart<br><br>Shopping cart page displayed |
-| Click on Proceed to checkout | Checkout page diplayed |
-| Sign in | Loged as John Doe |
-| Click on Continue | Shipping method displayed<br> # Click and Collect<br> # My carrier |
-| Go to BO>IMPROVE> Shipping> Preferences | Preferences page is displayed |
-| Sort by : Position<br><br>Save | Update successful |
-| Go to BO>IMPROVE> Shipping> Carriers | Carriers page is displayed |
-| On position column, click on the position of the first carrier on the carriers table and drop it to the second ligne. | Successful update message is displayed.<br><br>Carrier place is well changed. |
-| On BO refresh the page | Shipping method displayed<br> # My carrier<br> # Click and Collect |
+| Go to FO > Add any product to your cart > Proceed to checkout > Proceed to checkout | Shopping cart page is displayed |
+| Fill in Step 1 and Step 2 > Click on Continue | See Step 3 - Shipping method is displayed<br># Click and Collect<br># My carrier |
+| Go to BO > Shipping > Preferences | Preferences page is displayed |
+| Scroll down to Carrier options > Sort by : Position > Save | Update successful message is displayed |
+| Go to BO > Shipping > Carriers | Carriers page is displayed |
+| On position column, click on the position of the first carrier and drop it to the second line. | Successful update toast is displayed.<br><br>Carrier position is saved. |
+| Go back to FO > Refresh the page | See Step 3 - Shipping method is displayed<br><br> # My carrier<br> # Click and Collect |
