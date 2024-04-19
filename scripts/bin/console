@@ -3,8 +3,9 @@
 require_once __DIR__ . '/../vendor/autoload.php';
  
 use Console\App\Command\GithubSync;
-use Console\App\Command\ScenarioExportModule;
 use Console\App\Command\ScenarioExportCore;
+use Console\App\Command\ScenarioExportKnownBugs;
+use Console\App\Command\ScenarioExportModule;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Dotenv\Dotenv;
 
@@ -16,5 +17,6 @@ if (file_exists(__DIR__.'/../.env')) {
 $app = new Application();
 $app->add(new GithubSync());
 $app->add(new ScenarioExportCore());
+$app->add(new ScenarioExportKnownBugs());
 $app->add(new ScenarioExportModule());
 $app->run();
