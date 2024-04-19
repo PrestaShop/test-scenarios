@@ -52,9 +52,13 @@ jobs:
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:module --apikey ${{ secrets.JIRA_APIKEY }}
 
-      - name: Export Known bugs 
+      - name: Export Known bugs
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop/
+
+      - name: Remove prestashop directory
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        run: rm -rf ./prestashop/
 
       - name: Commit changes
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}

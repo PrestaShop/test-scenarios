@@ -12,7 +12,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  
 class ScenarioExportKnownBugs extends AbstractCommand
 {
-    private const FILE = 'src/content/scenarios/known-bugs.md';
+    private const FILE = 'src/content/known-bugs.md';
 
     private const BASE = '---
 title: Known Bugs
