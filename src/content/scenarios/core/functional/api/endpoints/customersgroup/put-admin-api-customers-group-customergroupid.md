@@ -1,9 +1,9 @@
 ---
-title: "PUT /api/customers/group/{customerGroupId}"
+title: "PUT /admin-api/customers/group/{customerGroupId}"
 weight: 3
 ---
 
-# PUT /api/customers/group/{customerGroupId}
+# PUT /admin-api/customers/group/{customerGroupId}
 ## Details
 * **Component** : Core
 * **Status** : Automated
@@ -24,7 +24,7 @@ weight: 3
 | Click “Add new group” | The “Add new” page should be displayed correctly |
 | Create a new Customer group > Save | Message “Successful creation” is displayed<br><br>There is one more group in the list. |
 | Filter by groupe name with the name of the created group | 1 record found |
-| Request with method PUT the endpoint "https://[url of your shop]/admin-dev/index.php/api/customers/group/\{customerGroupId}" with modified data (relative to  the data used for the creation) | The HTTP code is 200.<br><br>The return value is in JSON<br><br>The return value data are consistent relative to sent data. |
+| Request with method PUT the endpoint "https://[url of your shop]/admin-api/customers/group/\{customerGroupId}" with modified data (relative to  the data used for the creation) | The HTTP code is 200.<br><br>The return value is in JSON<br><br>The return value data are consistent relative to sent data. |
 | Filter by groupe ID with the ID of the created group | 1 record found |
 | Click on Edit for the filtered group | The Edit page will be displayed correctly<br><br>The return data keys are consistent relative to BackOffice data. |
 | Click on the Groups tab | Customers - Groups page is well displayed |

@@ -1,6 +1,6 @@
 ---
 title: "GET /api/hooks/{id}"
-weight: 2
+weight: 1
 ---
 
 # GET /api/hooks/{id}

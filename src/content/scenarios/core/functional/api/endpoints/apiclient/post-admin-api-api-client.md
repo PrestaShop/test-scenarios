@@ -1,9 +1,9 @@
 ---
-title: "POST /api/api-client"
+title: "POST /admin-api/api-client"
 weight: 1
 ---
 
-# POST /api/api-client
+# POST /admin-api/api-client
 ## Details
 * **Component** : Core
 * **Status** : Automated

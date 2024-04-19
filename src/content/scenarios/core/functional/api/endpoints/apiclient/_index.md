@@ -1,9 +1,9 @@
 ---
-title: CustomerGroup
-menuTitle: CustomerGroup
+title: ApiClient
+menuTitle: ApiClient
 chapter: true
 ---
 
-# CustomerGroup
+# ApiClient
 
 {{% children titlePages="Tests" titleSections="Categories" /%}}

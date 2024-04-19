@@ -1,9 +1,9 @@
 ---
-title: Hook
-menuTitle: Hook
+title: CustomersGroup
+menuTitle: CustomersGroup
 chapter: true
 ---
 
-# Hook
+# CustomersGroup
 
 {{% children titlePages="Tests" titleSections="Categories" /%}}
