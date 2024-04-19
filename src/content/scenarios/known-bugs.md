@@ -3,24 +3,14 @@ title: Known Bugs
 ---
 
 # Known bugs
-* **[tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts.ts)** :
-  * [PrestaShop#34505 : API : Endpoint `PUT /api/cartRule`- Mode debug preprod ](https://github.com/PrestaShop/PrestaShop/issues/34505)
-* **[tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts.ts)** :
-  * [PrestaShop#34506 : API : Endpoint `POST /api/customers/group` - Doc swagger](https://github.com/PrestaShop/PrestaShop/issues/34506)
-* **[tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/02_putHookStatusId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/02_putHookStatusId.ts.ts)** :
-  * [PrestaShop#34507 : API : Endpoint `PUT /api/hook-status` - Issues Doc Swagger & Enpoint format ](https://github.com/PrestaShop/PrestaShop/issues/34507)
-* **[tests/UI/campaigns/functional/API/02_endpoints/06_hooks/01_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_hooks/01_getHooks.ts.ts)** :
-  * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
-* **[tests/UI/campaigns/functional/API/02_endpoints/06_hooks/02_getHooksId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_hooks/02_getHooksId.ts.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/04_hook/02_getAPIHooksId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/02_getAPIHooksId.ts.ts)** :
   * [PrestaShop#34552 : API : Endpoint `GET /api/hooks/{id}` : Difference between title & name - Enpoint issue](https://github.com/PrestaShop/PrestaShop/issues/34552)
-* **[tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.ts.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/05_language/01_getAPILanguages.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_language/01_getAPILanguages.ts.ts)** :
   * [PrestaShop#35860 : International > Languages : Display locale in list & readonly edit](https://github.com/PrestaShop/PrestaShop/issues/35860)
-* **[tests/UI/campaigns/functional/API/02_endpoints/10_product/01_postProduct.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/01_postProduct.ts.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/01_postAPIProduct.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/01_postAPIProduct.ts.ts)** :
   * [PrestaShop#35619 : Endpoint `POST /api/product` : Descriptions are not updated](https://github.com/PrestaShop/PrestaShop/issues/35619)
-* **[tests/UI/campaigns/functional/API/02_endpoints/10_product/04_patchProductId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/04_patchProductId.ts.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/04_patchAPIProductId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/04_patchAPIProductId.ts.ts)** :
   * [PrestaShop#35626 : Endpoint `PATCH /api/product/{productId}` : Type is not updated](https://github.com/PrestaShop/PrestaShop/issues/35626)
-* **[tests/UI/campaigns/functional/API/02_endpoints/11_products/02_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/11_products/02_getProductsSearch.ts.ts)** :
-  * [PrestaShop#34486 : The APIDoc TryItOut for `/api/products/search/{phrase}/{resultsLimit}/{isoCode}` doesn't work - Enpoint Issue](https://github.com/PrestaShop/PrestaShop/issues/34486)
 * **[tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts.ts)** :
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
 * **[tests/UI/campaigns/functional/BO/03_catalog/01_products/22_bulkActionsEnableDisable3DotsButton.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/22_bulkActionsEnableDisable3DotsButton.ts.ts)** :

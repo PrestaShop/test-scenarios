@@ -6,8 +6,9 @@ weight: 6
 # FO - Search - Consult product quickview
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1235
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/06_consultProductQuickView.ts
 
 ## Steps
 | Step Description | Expected result |
