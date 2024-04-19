@@ -19,6 +19,13 @@ jobs:
           submodules: true
           fetch-depth: 1
 
+      - name: Checkout PrestaShop repository
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/PrestaShop
+          fetch-depth: 1
+          path: prestashop
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -44,6 +51,10 @@ jobs:
       - name: Export JIRA XRay Modules 
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:module --apikey ${{ secrets.JIRA_APIKEY }}
+
+      - name: Export Known bugs 
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop/
 
       - name: Commit changes
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
