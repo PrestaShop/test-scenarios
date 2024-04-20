@@ -22,13 +22,13 @@
     <title>Known Bugs :: PrestaShop Tests</title>
     
     
-    <link href="./css/font-awesome.min.css?1713529381" rel="stylesheet">
-    <link href="./css/syntax-github.css?1713529381" rel="stylesheet">
-    <link href="./css/featherlight.min.css?1713529381" rel="stylesheet">
-    <link href="./css/perfect-scrollbar.min.css?1713529381" rel="stylesheet"><link href="./css/auto-complete.css?1713529381" rel="stylesheet">
-    <link href="./style.css?1713529381" rel="stylesheet">
+    <link href="./css/font-awesome.min.css?1713594606" rel="stylesheet">
+    <link href="./css/syntax-github.css?1713594606" rel="stylesheet">
+    <link href="./css/featherlight.min.css?1713594606" rel="stylesheet">
+    <link href="./css/perfect-scrollbar.min.css?1713594606" rel="stylesheet"><link href="./css/auto-complete.css?1713594606" rel="stylesheet">
+    <link href="./style.css?1713594606" rel="stylesheet">
 
-    <script src="./js/jquery-3.3.1.min.js?1713529381"></script>
+    <script src="./js/jquery-3.3.1.min.js?1713594606"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -1213,6 +1213,27 @@
       <li data-nav-id="/scenarios/core/functional/api/endpoints/customersgroup/put-admin-api-customers-group-customergroupid.html" title="PUT /admin-api/customers/group/{customerGroupId}" class="dd-item ">
         <a href="./scenarios/core/functional/api/endpoints/customersgroup/put-admin-api-customers-group-customergroupid.html">
         PUT /admin-api/customers/group/{customerGroupId}
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/api/endpoints/customersgroup/put-modules-toggle-status.html" title="PUT /modules/toggle-status" class="dd-item ">
+        <a href="./scenarios/core/functional/api/endpoints/customersgroup/put-modules-toggle-status.html">
+        PUT /modules/toggle-status
         
         </a>
     </li>
@@ -41511,6 +41532,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -63535,24 +63571,49 @@
 
 
 <h1 id="known-bugs">Known bugs<a href="#known-bugs"></a></h1><ul>
-<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/02_getAPIHooksId.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/04_hook/02_getAPIHooksId.ts</a></strong> :
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts</a></strong> :
+<ul>
+<li><a href="https://github.com/PrestaShop/PrestaShop/issues/34505">PrestaShop#34505 : API : Endpoint <code>PUT /api/cartRule</code>- Mode debug preprod </a></li>
+</ul>
+</li>
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts</a></strong> :
+<ul>
+<li><a href="https://github.com/PrestaShop/PrestaShop/issues/34506">PrestaShop#34506 : API : Endpoint <code>POST /api/customers/group</code> - Doc swagger</a></li>
+</ul>
+</li>
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/02_putHookStatusId.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/02_putHookStatusId.ts</a></strong> :
+<ul>
+<li><a href="https://github.com/PrestaShop/PrestaShop/issues/34507">PrestaShop#34507 : API : Endpoint <code>PUT /api/hook-status</code> - Issues Doc Swagger &amp; Enpoint format </a></li>
+</ul>
+</li>
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_hooks/01_getHooks.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/06_hooks/01_getHooks.ts</a></strong> :
+<ul>
+<li><a href="https://github.com/PrestaShop/PrestaShop/issues/35616">PrestaShop#35616 : Endpoint /api/hooks &amp; List of Hooks : Incorrect count of hooks</a></li>
+</ul>
+</li>
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_hooks/02_getHooksId.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/06_hooks/02_getHooksId.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/34552">PrestaShop#34552 : API : Endpoint <code>GET /api/hooks/{id}</code> : Difference between title &amp; name - Enpoint issue</a></li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_language/01_getAPILanguages.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/05_language/01_getAPILanguages.ts</a></strong> :
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/35860">PrestaShop#35860 : International &gt; Languages : Display locale in list &amp; readonly edit</a></li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/01_postAPIProduct.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/08_product/01_postAPIProduct.ts</a></strong> :
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/01_postProduct.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/10_product/01_postProduct.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/35619">PrestaShop#35619 : Endpoint <code>POST /api/product</code> : Descriptions are not updated</a></li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/04_patchAPIProductId.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/08_product/04_patchAPIProductId.ts</a></strong> :
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/04_patchProductId.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/10_product/04_patchProductId.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/35626">PrestaShop#35626 : Endpoint <code>PATCH /api/product/{productId}</code> : Type is not updated</a></li>
+</ul>
+</li>
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/11_products/02_getProductsSearch.ts.ts">tests/UI/campaigns/functional/API/02_endpoints/11_products/02_getProductsSearch.ts</a></strong> :
+<ul>
+<li><a href="https://github.com/PrestaShop/PrestaShop/issues/34486">PrestaShop#34486 : The APIDoc TryItOut for <code>/api/products/search/{phrase}/{resultsLimit}/{isoCode}</code> doesn&rsquo;t work - Enpoint Issue</a></li>
 </ul>
 </li>
 <li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts.ts">tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts</a></strong> :
@@ -63674,17 +63735,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="./js/clipboard.min.js?1713529381"></script>
-    <script src="./js/perfect-scrollbar.min.js?1713529381"></script>
-    <script src="./js/perfect-scrollbar.jquery.min.js?1713529381"></script>
-    <script src="./js/jquery.sticky.js?1713529381"></script>
-    <script src="./js/featherlight.min.js?1713529381"></script>
-    <script src="./js/html5shiv-printshiv.min.js?1713529381"></script>
-    <script src="./js/modernizr.custom-3.6.0.js?1713529381"></script>
-    <script src="./js/learn.js?1713529381"></script>
-    <script src="./js/hugo-learn.js?1713529381"></script>
+    <script src="./js/clipboard.min.js?1713594606"></script>
+    <script src="./js/perfect-scrollbar.min.js?1713594606"></script>
+    <script src="./js/perfect-scrollbar.jquery.min.js?1713594606"></script>
+    <script src="./js/jquery.sticky.js?1713594606"></script>
+    <script src="./js/featherlight.min.js?1713594606"></script>
+    <script src="./js/html5shiv-printshiv.min.js?1713594606"></script>
+    <script src="./js/modernizr.custom-3.6.0.js?1713594606"></script>
+    <script src="./js/learn.js?1713594606"></script>
+    <script src="./js/hugo-learn.js?1713594606"></script>
     
-    <script src="./main.js?1713529381"></script>
+    <script src="./main.js?1713594606"></script>
     
     
     
