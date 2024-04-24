@@ -1,15 +1,15 @@
 ---
-title: "POST /api/product"
+title: "POST /admin-api/product"
 weight: 1
 ---
 
-# POST /api/product
+# POST /admin-api/product
 ## Details
 * **Component** : Core
 * **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8648
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/01_postAPIProduct.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/01_postProduct.ts
 
 ## Steps
 | Step Description | Expected result |

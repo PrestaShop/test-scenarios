@@ -1,15 +1,15 @@
 ---
-title: "PATCH /api/product/{productId}"
+title: "PATCH /admin-api/product/{productId}"
 weight: 4
 ---
 
-# PATCH /api/product/{productId}
+# PATCH /admin-api/product/{productId}
 ## Details
 * **Component** : Core
 * **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8651
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/04_patchAPIProductId.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/04_patchProductId.ts
 
 ## Steps
 | Step Description | Expected result |

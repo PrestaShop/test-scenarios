@@ -1,14 +1,15 @@
 ---
-title: "POST /product/{productId}/image"
-weight: 5
+title: "GET /admin-api/product/{productId}"
+weight: 3
 ---
 
-# POST /product/{productId}/image
+# GET /admin-api/product/{productId}
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8967
+* **Scenario** : https://forge.prestashop.com/browse/TEST-8646
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/03_getProductId.ts
 
 ## Steps
 | Step Description | Expected result |
@@ -20,10 +21,8 @@ weight: 5
 | In BO, Go to Catalog > Products | Products Page is displayed correctly. |
 | Reset all filters of Products table | All filters are reset. <br>All Products are displayed. |
 | Filter on the product name for a specific product and fetch the product ID. | 1 record found. |
-| Request with method GET the endpoint "https://[url of your shop]/admin-api/product/\{productId}/image " where \{productId} is the previous ID get | The HTTP Code is 201.<br><br>The return value is in JSON.<br><br>The return data has multiples keys : "imageId", "imageUrl", "thumbnailUrl", "legends", "cover", "position" |
-| Click on Edit for the first row | The Edit page will be displayed correctly<br><br>There is one image<br><br>The return data keys are consistent relative to BackOffice data. |
-| Click on the three points on the bottom page and Click on Delete | A modal with title "Permanently delete this product?" appeared |
-| Click on "Delete" button | A successful message "Successful deletion" is displayed. |
+| Click on Edit for the first row | The Edit page will be displayed correctly |
+| Request with method GET the endpoint "https://[url of your shop]/admin-dev/index.php/api/product/\{productId}" where \{productId} is the previous ID get | The return value is in JSON.<br><br>The return data has multiples keys : "productId", "type", "active", "names", "descriptions"<br><br>The return data keys are consistent relative to BackOffice data. |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the button “Three points” | The dropdown is displayed |
 | Click on the Delete Button in the dropdown | A modal appeared |

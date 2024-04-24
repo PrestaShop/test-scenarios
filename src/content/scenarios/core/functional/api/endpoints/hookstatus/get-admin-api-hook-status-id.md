@@ -1,9 +1,9 @@
 ---
-title: "GET /api/hook-status/{id}"
+title: "GET /admin-api/hook-status/{id}"
 weight: 1
 ---
 
-# GET /api/hook-status/{id}
+# GET /admin-api/hook-status/{id}
 ## Details
 * **Component** : Core
 * **Status** : Automated

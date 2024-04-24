@@ -47,6 +47,9 @@ title: Known Bugs
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
 * **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts.ts)** :
   * [PrestaShop#35219 : Hummingbird Quickview error](https://github.com/PrestaShop/PrestaShop/issues/35219)
+* **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/02_changeQuantity.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/02_changeQuantity.ts.ts)** :
+  * [# : https://github.com/PrestaShop/hummingbird/pull/600](https://github.com/PrestaShop/hummingbird/pull/600)
+  * [hummingbird#615 : In product page - The Add to cart button is greyed out when I change quantity to 0 and back to a positive quantity](https://github.com/PrestaShop/hummingbird/issues/615)
 * **[tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/02_useDifferentAddressForInvoice.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/02_useDifferentAddressForInvoice.ts.ts)** :
   * [hummingbird#614 : Guest checkout: Use different invoice address : Can't order](https://github.com/PrestaShop/hummingbird/issues/614)
 * **[tests/UI/campaigns/functional/WS/02_ordersCRUD.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/02_ordersCRUD.ts.ts)** :

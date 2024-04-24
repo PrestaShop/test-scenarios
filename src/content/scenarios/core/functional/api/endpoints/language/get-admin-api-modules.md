@@ -1,9 +1,9 @@
 ---
-title: "GET /api/modules"
+title: "GET /admin-api/modules"
 weight: 2
 ---
 
-# GET /api/modules
+# GET /admin-api/modules
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "GET /api/languages"
+title: "GET /admin-api/languages"
 weight: 1
 ---
 
-# GET /api/languages
+# GET /admin-api/languages
 ## Details
 * **Component** : Core
 * **Status** : Automated
