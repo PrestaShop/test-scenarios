@@ -6,7 +6,7 @@ weight: 4
 # FO - Order confirmation - Popular products
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1319
 
 ## Steps
@@ -22,4 +22,4 @@ weight: 4
 | Click on "Continue" | "Shipping method" tab is displayed |
 | Click on "Continue" | "Payment" tab is displayed |
 | Click on "Pay by Check" > Click on the checkbox "I agree to the terms of service and will adhere to them unconditionally." > Click on Place order | YOUR ORDER IS CONFIRMED |
-| Scroll down to block Popular Products > Click on Hummingbird Printed T-Shirt | Hummingbird Printed T-Shirt product page is displayed |
+| Click on 'ALl products' Link | All products page is displayed |

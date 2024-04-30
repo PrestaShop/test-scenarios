@@ -6,7 +6,7 @@ weight: 2
 # FO - Checkout - Display of total (price, vouchers, shipping)
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1295
 
 ## Steps
