@@ -6,7 +6,7 @@ weight: 5
 # FO - Cart - Display discount on product
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1284
 
 ## Steps
