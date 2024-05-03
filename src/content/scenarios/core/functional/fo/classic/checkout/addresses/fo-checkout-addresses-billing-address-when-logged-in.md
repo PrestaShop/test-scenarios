@@ -6,9 +6,10 @@ weight: 5
 # FO - Checkout - Addresses - Billing address when logged in
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1306
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/02_addresses/05_billingAdressWhenLoggedIn.ts
 
 ## Steps
 | Step Description | Expected result |

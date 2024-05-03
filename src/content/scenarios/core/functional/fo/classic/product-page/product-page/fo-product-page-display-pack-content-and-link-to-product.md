@@ -6,9 +6,10 @@ weight: 14
 # FO - Product Page - Display pack content and link to product
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1273
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/14_displayPackContentAndLinkProduct.ts
 
 ## Steps
 | Step Description | Expected result |

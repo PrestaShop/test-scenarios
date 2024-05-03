@@ -6,8 +6,9 @@ weight: 2
 # FO - Cart - Modal - Continue shopping / Proceed to checkout / Close
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1278
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/10_cart/01_modal/02_continueShopping.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -6,8 +6,9 @@ weight: 4
 # FO - Order confirmation - Popular products
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7011
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/12_orderConfirmation/04_popularProduct.ts
 
 ## Steps
 | Step Description | Expected result |
