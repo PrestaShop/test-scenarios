@@ -6,7 +6,7 @@ weight: 2
 # FO - Checkout - Addresses - Use another address for invoice as a guest
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1303
 
 ## Steps

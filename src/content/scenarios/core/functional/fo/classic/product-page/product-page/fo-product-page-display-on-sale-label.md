@@ -6,7 +6,7 @@ weight: 12
 # FO - Product Page - Display \"On sale\" label
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1270
 
 ## Steps
