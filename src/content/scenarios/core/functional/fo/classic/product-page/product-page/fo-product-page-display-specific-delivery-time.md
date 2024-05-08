@@ -6,7 +6,7 @@ weight: 13
 # FO - Product Page - Display Specific delivery time
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1271
 
 ## Steps
