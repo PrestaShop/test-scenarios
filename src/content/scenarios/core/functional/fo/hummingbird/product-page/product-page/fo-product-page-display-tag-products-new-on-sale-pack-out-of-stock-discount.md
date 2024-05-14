@@ -6,8 +6,9 @@ weight: 8
 # FO - Product Page - Display tag products (New, On sale, Pack, Out-of-stock, Discount...)
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6981
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/11_displayTag.ts
 
 ## Steps
 | Step Description | Expected result |

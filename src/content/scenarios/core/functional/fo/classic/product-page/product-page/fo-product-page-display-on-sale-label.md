@@ -1,13 +1,14 @@
 ---
 title: "FO - Product Page - Display \"On sale\" label"
-weight: 12
+weight: 13
 ---
 
 # FO - Product Page - Display \"On sale\" label
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1270
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/12_displayOnSaleLabel.ts
 
 ## Steps
 | Step Description | Expected result |

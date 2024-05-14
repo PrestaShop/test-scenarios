@@ -6,7 +6,7 @@ weight: 9
 # FO - Product Page - Changing color when changing combination - Color
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1266
 
 ## Steps

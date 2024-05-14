@@ -1,12 +1,12 @@
 ---
 title: "FO - Product Page - Display volume discount"
-weight: 15
+weight: 10
 ---
 
 # FO - Product Page - Display volume discount
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1274
 
 ## Steps

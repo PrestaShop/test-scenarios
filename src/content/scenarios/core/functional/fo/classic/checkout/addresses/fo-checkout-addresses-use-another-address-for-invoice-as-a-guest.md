@@ -6,8 +6,9 @@ weight: 2
 # FO - Checkout - Addresses - Use another address for invoice as a guest
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1303
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/02_addresses/02_useDifferentInvoiceAddress.ts
 
 ## Steps
 | Step Description | Expected result |

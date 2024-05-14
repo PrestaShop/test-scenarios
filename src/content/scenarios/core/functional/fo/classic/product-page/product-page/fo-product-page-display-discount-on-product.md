@@ -1,12 +1,12 @@
 ---
 title: "FO - Product Page - Display discount on product"
-weight: 10
+weight: 11
 ---
 
 # FO - Product Page - Display discount on product
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1268
 
 ## Steps

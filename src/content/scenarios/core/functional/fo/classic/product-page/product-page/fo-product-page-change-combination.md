@@ -6,8 +6,9 @@ weight: 8
 # FO - Product Page - Change combination
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1265
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/09_changeCombination.ts
 
 ## Steps
 | Step Description | Expected result |

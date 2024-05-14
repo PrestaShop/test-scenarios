@@ -6,8 +6,9 @@ weight: 5
 # FO - Cart - Display discount on product
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6998
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/02_cart/05_displayDiscount.ts
 
 ## Steps
 | Step Description | Expected result |
