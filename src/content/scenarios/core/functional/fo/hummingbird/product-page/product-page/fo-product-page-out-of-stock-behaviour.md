@@ -1,12 +1,12 @@
 ---
 title: "FO - Product Page - Out-of-Stock behaviour"
-weight: 11
+weight: 8
 ---
 
 # FO - Product Page - Out-of-Stock behaviour
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6984
 
 ## Steps

@@ -6,8 +6,9 @@ weight: 9
 # FO - Product Page - Changing color when changing combination - Color
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1266
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/10_changeColor.ts
 
 ## Steps
 | Step Description | Expected result |
