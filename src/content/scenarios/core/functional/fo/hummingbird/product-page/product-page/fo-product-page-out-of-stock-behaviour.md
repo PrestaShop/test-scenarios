@@ -6,8 +6,9 @@ weight: 8
 # FO - Product Page - Out-of-Stock behaviour
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6984
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/10_outOfStockBehaviour.ts
 
 ## Steps
 | Step Description | Expected result |
