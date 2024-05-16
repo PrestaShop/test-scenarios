@@ -22,13 +22,13 @@
     <title>BO - Shipping - Preferences - Handling :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1715754394" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1715754394" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1715754394" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1715754394" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1715754394" rel="stylesheet">
-    <link href="../../../../../../style.css?1715754394" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1715841112" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1715841112" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1715841112" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1715841112" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1715841112" rel="stylesheet">
+    <link href="../../../../../../style.css?1715841112" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1715754394"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1715841112"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -63762,9 +63762,11 @@
 <h1 id="bo---shipping---preferences---handling">BO - Shipping - Preferences - Handling<a href="#bo---shipping---preferences---handling"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : [TEST] To be automated</li>
+<li><strong>Status</strong> : Automated</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-976">https://forge.prestashop.com/browse/TEST-976</a></li>
+<li><strong>Test</strong> : <a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/02_preferences/01_handling/01_handlingCharges.ts">https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/02_preferences/01_handling/01_handlingCharges.ts</a></li>
+<li><strong>Specification</strong> : <a href="https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/shipping/preference">https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/shipping/preference</a></li>
 </ul>
 
 <h2 id="steps">Steps<a href="#steps"></a></h2><table>
@@ -63776,24 +63778,56 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; Shipping &gt; Preferences</td>
-<td>Preferences pages is displayed<br><br>In Handling block, see the following :<br>Handling charges : 2€ (tax excl.)<br>Free shipping starts at 0€<br>Free shipping starts at 0</td>
+<td>Go to BO &gt; Shop Parameters &gt; Customer Settings &gt; Groups &gt; Edit Customer group</td>
+<td>Customer groups is displayed</td>
 </tr>
 <tr>
-<td>Go to BO &gt; Shipping &gt; Carriers &gt; Edit Click and collect &gt; Go to Step 2 : Shipping locations and costs &gt; Disable Free shipping &gt; Finish</td>
-<td>See that Add handling cost is enabled<br><br>Alert Successful update is displayed</td>
+<td>Choose Price display method = Tax excluded &gt; Save</td>
+<td>Message Successful update is displayed</td>
 </tr>
 <tr>
-<td>Go to FO &gt; Add a product to cart &gt; Proceed to checkout until Step 3 - Shipping Method</td>
-<td>See that Click and collect carrier is not free anymore, now it is 2.40€</td>
+<td>Go to Shipping &gt; Carriers &gt; Click Add a new carrier &gt; Add the following data &gt; Finish</td>
+<td></td>
 </tr>
 <tr>
-<td>Proceed to checkout until the end</td>
-<td>Shipping and handling cost is 2.40€ (tax incl.)</td>
+<td>Go to FO &gt; Sign In with default customer &gt; Add a product to cart &gt; Proceed to checkout &gt; In Step 3 - Shipping Method &gt; Choose new carrier created</td>
+<td>See the Shipping Method : Test - 2-3 weeks - €5.00 tax excl.</td>
 </tr>
 <tr>
-<td>Go back to BO &gt; Shipping &gt; Carriers &gt; Edit Click and collect &gt; Step 2 &gt; Free shipping Enable &gt; Finish</td>
-<td>Alert Successful update is displayed</td>
+<td>Click Continue &gt; In Step 4 - Payment, choose any payment &gt; Place order</td>
+<td>YOUR ORDER IS CONFIRMED</td>
+</tr>
+<tr>
+<td>Sign out of your customer account</td>
+<td>You are now logged out</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Shipping &gt; Preferences &gt; Edit Handling charges = 10.00 &gt; Save</td>
+<td>Message Update successful is displayed</td>
+</tr>
+<tr>
+<td>Go to Shipping &gt; Carriers &gt; Edit carrier Test &gt; Enable : Add handling costs : YES &gt; Click Finish</td>
+<td>Message Update successful is displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Sign In with default customer &gt; Add a product to cart &gt; Proceed to checkout &gt; In Step 3 - Shipping Method &gt; Choose new carrier created</td>
+<td>See the Shipping Method : Test - 2-3 weeks - €10.00 tax excl.</td>
+</tr>
+<tr>
+<td>Click Continue &gt; In Step 4 - Payment, choose any payment &gt; Place order</td>
+<td>YOUR ORDER IS CONFIRMED</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Shipping &gt; Preferences &gt; Edit Handling charges = 2.00 &gt; Save</td>
+<td>Message Update successful is displayed</td>
+</tr>
+<tr>
+<td>Go to Shipping &gt; Carriers &gt; Delete carrier Test &gt; YES</td>
+<td>Successful deletion</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Customer Settings &gt; Groups &gt; Edit Customer group &gt; Choose Price display method = Tax included &gt; Save</td>
+<td>Message Successful update is displayed</td>
 </tr>
 </tbody>
 </table>
@@ -63815,17 +63849,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1715754394"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1715754394"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1715754394"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1715754394"></script>
-    <script src="../../../../../../js/featherlight.min.js?1715754394"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1715754394"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1715754394"></script>
-    <script src="../../../../../../js/learn.js?1715754394"></script>
-    <script src="../../../../../../js/hugo-learn.js?1715754394"></script>
+    <script src="../../../../../../js/clipboard.min.js?1715841112"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1715841112"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1715841112"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1715841112"></script>
+    <script src="../../../../../../js/featherlight.min.js?1715841112"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1715841112"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1715841112"></script>
+    <script src="../../../../../../js/learn.js?1715841112"></script>
+    <script src="../../../../../../js/hugo-learn.js?1715841112"></script>
     
-    <script src="../../../../../../main.js?1715754394"></script>
+    <script src="../../../../../../main.js?1715841112"></script>
     
     
     
