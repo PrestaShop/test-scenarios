@@ -6,8 +6,9 @@ weight: 10
 # FO - Product Page - Display volume discount
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1274
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/11_displayVolumeDiscount.ts
 
 ## Steps
 | Step Description | Expected result |

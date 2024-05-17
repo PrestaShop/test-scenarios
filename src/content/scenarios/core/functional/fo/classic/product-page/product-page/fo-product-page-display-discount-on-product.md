@@ -6,8 +6,9 @@ weight: 11
 # FO - Product Page - Display discount on product
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1268
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/10_displayDiscount.ts
 
 ## Steps
 | Step Description | Expected result |

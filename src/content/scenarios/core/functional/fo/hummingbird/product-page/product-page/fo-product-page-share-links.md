@@ -8,7 +8,7 @@ weight: 4
 * **Component** : Core
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6973
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/05_shareLinks.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/04_shareLinks.ts
 
 ## Steps
 | Step Description | Expected result |

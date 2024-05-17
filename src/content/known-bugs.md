@@ -33,8 +33,6 @@ title: Known Bugs
   * [PrestaShop#33842 : Stock Movement - Advanced Filter "Status = disabled" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/33842)
 * **[tests/UI/campaigns/functional/BO/03_catalog/08_stocks/06_displayProductsBelowLowStock.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/08_stocks/06_displayProductsBelowLowStock.ts.ts)** :
   * [PrestaShop#33681 : BO-Stock Management-Bad order when Display products below low stock level first ](https://github.com/PrestaShop/PrestaShop/issues/33681)
-* **[tests/UI/campaigns/functional/BO/08_design/05_positions/05_unhookModuleInListByBulkActions.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/05_positions/05_unhookModuleInListByBulkActions.ts.ts)** :
-  * [PrestaShop#35612 : BO > Design > Positions : Can't hook a module](https://github.com/PrestaShop/PrestaShop/issues/35612)
 * **[tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.ts.ts)** :
   * [PrestaShop#30520 : Categories image - harmonization of 2 images ](https://github.com/PrestaShop/PrestaShop/issues/30520)
 * **[tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts.ts)** :
