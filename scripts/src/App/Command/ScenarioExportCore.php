@@ -12,5 +12,5 @@ class ScenarioExportCore extends AbstractCommand
     /** @var string */
     protected $description = 'Scenario QA : Export Core';
 
-    protected const PAGE_WEIGHT = 1;
+    protected $pageWeight = 1;
 }

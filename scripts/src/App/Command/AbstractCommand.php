@@ -8,6 +8,8 @@ use Symfony\Component\Console\Output\OutputInterface;
  
 abstract class AbstractCommand extends Command
 {
+    protected $pageWeight = 0;
+
     private const OUTPUT_DIR = 'src/content/scenarios';
 
     protected const JIRA_ToBeAutomated = '[TEST] To be automated';
@@ -66,7 +68,7 @@ abstract class AbstractCommand extends Command
         }
 
         // Create index.md
-        $content = $this->getParentContent($folder['name'], $folder['rank'], !$isRoot, self::PAGE_WEIGHT);
+        $content = $this->getParentContent($folder['name'], $folder['rank'], !$isRoot, $this->pageWeight);
         file_put_contents($dirName . '_index.md', $content);
 
         // Process tests

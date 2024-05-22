@@ -12,5 +12,5 @@ class ScenarioExportModule extends AbstractCommand
     /** @var string */
     protected $description = 'Scenario QA : Export Module';
 
-    protected const PAGE_WEIGHT = 2;
+    protected $pageWeight = 2;
 }
