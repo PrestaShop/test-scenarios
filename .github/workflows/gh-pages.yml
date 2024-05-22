@@ -92,9 +92,21 @@ jobs:
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop_178x/ --branch 1.7.8.x
 
-      - name: Remove prestashop directory
+      - name: Remove prestashop directory (on Develop)
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: rm -rf ./prestashop/
+
+      - name: Remove prestashop directory (on 8.1.x)
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        run: rm -rf ./prestashop_81x/
+
+      - name: Remove prestashop directory (on 8.0.x)
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        run: rm -rf ./prestashop_80x/
+
+      - name: Remove prestashop directory (on 1.7.8.x)
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        run: rm -rf ./prestashop_178x/
 
       - name: Commit changes
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
