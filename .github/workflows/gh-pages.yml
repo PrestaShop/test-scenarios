@@ -25,6 +25,30 @@ jobs:
           repository: PrestaShop/PrestaShop
           fetch-depth: 1
           path: prestashop
+  
+      - name: Checkout PrestaShop repository (8.1.x)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/PrestaShop
+          fetch-depth: 1
+          path: prestashop_81x
+          ref: 8.1.x
+
+      - name: Checkout PrestaShop repository (8.0.x)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/PrestaShop
+          fetch-depth: 1
+          path: prestashop_80x
+          ref: 8.0.x
+
+      - name: Checkout PrestaShop repository (1.7.8.x)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/PrestaShop
+          fetch-depth: 1
+          path: prestashop_178x
+          ref: 1.7.8.x
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -52,9 +76,21 @@ jobs:
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:module --apikey ${{ secrets.JIRA_APIKEY }}
 
-      - name: Export Known bugs
+      - name: Export Known bugs (on Develop)
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
-        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop/
+        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop/ --branch develop
+
+      - name: Export Known bugs (on 8.1.x)
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop_81x/ --branch 8.1.x
+
+      - name: Export Known bugs (on 8.0.x)
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop_80x/ --branch 8.0.x
+
+      - name: Export Known bugs (on 1.7.8.x)
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop_178x/ --branch 1.7.8.x
 
       - name: Remove prestashop directory
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}

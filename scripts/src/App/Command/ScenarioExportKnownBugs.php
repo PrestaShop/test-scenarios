@@ -12,10 +12,15 @@ use Symfony\Component\Console\Output\OutputInterface;
  
 class ScenarioExportKnownBugs extends AbstractCommand
 {
-    private const FILE = 'src/content/known-bugs.md';
+    private const DIR = 'src/content/known-bugs/';
+
+    private const MAIN_FILE = self::DIR . '_index.md';
+
+    private const FILE = self::DIR . '%s.md';
 
     private const BASE = '---
-title: Known Bugs
+title: "%s"
+weight: %d
 ---
 
 # Known bugs
@@ -33,12 +38,20 @@ title: Known Bugs
 
         $this
             ->addOption('path', null, InputOption::VALUE_REQUIRED)
+            ->addOption('branch', null, InputOption::VALUE_REQUIRED)
             ->addOption('ghtoken', null, InputOption::VALUE_OPTIONAL, '', getenv('GH_TOKEN') ?? null);              
     }
  
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $time = time();
+        $generatedFile = sprintf(self::FILE, $input->getOption('branch'));
+
+        // Add the main file for the directory
+        $this->processMainFile();
+
+        $iteratorGenerated = new FilesystemIterator(self::DIR, FilesystemIterator::SKIP_DOTS);
+        $countFiles = iterator_count($iteratorGenerated);
         
         $iterator = new RecursiveIteratorIterator(
             new RecursiveDirectoryIterator(
@@ -73,9 +86,12 @@ title: Known Bugs
         ksort($results);
 
         $issues = [];
-        file_put_contents(self::FILE, self::BASE);
+        file_put_contents(
+            $generatedFile,
+            sprintf(self::BASE, $input->getOption('branch'), $countFiles)
+        );
         foreach ($results as $file => $urls) {
-            file_put_contents(self::FILE, '* **['.$file.'](https://github.com/PrestaShop/PrestaShop/tree/develop/'.$file.'.ts)** :' . PHP_EOL, FILE_APPEND);
+            file_put_contents($generatedFile, '* **['.$file.'](https://github.com/PrestaShop/PrestaShop/tree/develop/'.$file.'.ts)** :' . PHP_EOL, FILE_APPEND);
             foreach($urls as $url) {
                 preg_match('/https:\/\/github.com\/([^\/]+)\/([^\/]+)\/issues\/([0-9]+)/', $url, $matches);
                 if (count($matches) !== 4) {
@@ -93,8 +109,29 @@ title: Known Bugs
                         ]);
                     }
                 }
-                file_put_contents(self::FILE, '  * ['.$matches[2] . '#'.$matches[3] . ' : '.($issues[$url]['title'] ?? $url).'](' . $url.')' . PHP_EOL, FILE_APPEND);
+                file_put_contents($generatedFile, '  * ['.$matches[2] . '#'.$matches[3] . ' : '.($issues[$url]['title'] ?? $url).'](' . $url.')' . PHP_EOL, FILE_APPEND);
             }
+        }
+    }
+
+    protected function processMainFile(): void
+    {
+        if (!is_dir(dirname(self::MAIN_FILE))) {
+            mkdir(dirname(self::MAIN_FILE));
+        }
+
+        if (!file_exists(self::MAIN_FILE)) {
+            file_put_contents(self::MAIN_FILE, '---
+title: Known Bugs
+menuTitle: Known Bugs
+chapter: true
+weight: 3
+---
+
+## Known bugs per version
+
+{{% children /%}}
+');
         }
     }
 }
