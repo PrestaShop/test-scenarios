@@ -2,6 +2,7 @@
 namespace Console\App\Command;
 
 use Console\App\Service\Github;
+use FilesystemIterator;
 use Github\Exception\RuntimeException;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
