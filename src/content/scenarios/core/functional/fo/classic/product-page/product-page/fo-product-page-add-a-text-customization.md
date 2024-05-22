@@ -8,7 +8,7 @@ weight: 5
 * **Component** : Core
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1262
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/06_addTextCustomization.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/05_addTextCustomization.ts
 
 ## Steps
 | Step Description | Expected result |

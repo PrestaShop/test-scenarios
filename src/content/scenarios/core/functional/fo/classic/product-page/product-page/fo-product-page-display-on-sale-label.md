@@ -8,7 +8,7 @@ weight: 13
 * **Component** : Core
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1270
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/12_displayOnSaleLabel.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/13_displayOnSaleLabel.ts
 
 ## Steps
 | Step Description | Expected result |
