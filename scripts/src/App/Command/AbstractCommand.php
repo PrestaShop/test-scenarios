@@ -66,7 +66,7 @@ abstract class AbstractCommand extends Command
         }
 
         // Create index.md
-        $content = $this->getParentContent($folder['name'], $folder['rank'], !$isRoot);
+        $content = $this->getParentContent($folder['name'], $folder['rank'], !$isRoot, self::PAGE_WEIGHT);
         file_put_contents($dirName . '_index.md', $content);
 
         // Process tests
@@ -223,12 +223,12 @@ abstract class AbstractCommand extends Command
         return $finalData;
     }
 
-    protected function getParentContent(string $suiteName, int $weight, bool $withTitle = false): string
+    protected function getParentContent(string $suiteName, int $weight, bool $withTitle = false, int $pageWeight = 0): string
     {
         return '---
 title: ' . $suiteName . '
 menuTitle: ' . $suiteName . '
-chapter: true
+chapter: true' . ($withTitle ? '' : PHP_EOL . 'weight: ' . $pageWeight). '
 ---
 
 # ' . $suiteName . '
