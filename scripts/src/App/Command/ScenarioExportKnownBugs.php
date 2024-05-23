@@ -98,21 +98,19 @@ weight: %d
                 file_put_contents($generatedFile, '* **['.$file.'](https://github.com/PrestaShop/PrestaShop/tree/' . $configItem['branch'] . '/' . $file . '.ts)** :' . PHP_EOL, FILE_APPEND);
                 foreach($urls as $url) {
                     preg_match('/https:\/\/github.com\/([^\/]+)\/([^\/]+)\/issues\/([0-9]+)/', $url, $matches);
-                    var_dump($url);
-                    var_dump($matches);
                     if (count($matches) !== 4) {
                         $output->writeLn(sprintf('The URL is not an issue : %s', $url));
-                    }
-
-                    if (!isset($issues[$url])) {
-                        try {
-                            $issues[$url] = $github->getClient()->api('issue')->show($matches[1], $matches[2], $matches[3]);
-                        } catch (\Github\Exception\RuntimeException $e) {
-                            $output->writeLn([
-                                '',
-                                $e->getMessage(),
-                                sprintf('The URL can\'t be fetched : %s', $url)
-                            ]);
+                    } else {
+                        if (!isset($issues[$url])) {
+                            try {
+                                $issues[$url] = $github->getClient()->api('issue')->show($matches[1], $matches[2], $matches[3]);
+                            } catch (\Github\Exception\RuntimeException $e) {
+                                $output->writeLn([
+                                    '',
+                                    $e->getMessage(),
+                                    sprintf('The URL can\'t be fetched : %s', $url)
+                                ]);
+                            }
                         }
                     }
                     file_put_contents($generatedFile, '  * ['.$matches[2] . '#'.$matches[3] . ' : '.($issues[$url]['title'] ?? $url).'](' . $url.')' . PHP_EOL, FILE_APPEND);
