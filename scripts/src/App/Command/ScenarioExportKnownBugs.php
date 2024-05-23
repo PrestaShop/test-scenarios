@@ -95,7 +95,7 @@ weight: %d
                 sprintf(self::BASE, $configItem['branch'], $countFiles)
             );
             foreach ($results as $file => $urls) {
-                file_put_contents($generatedFile, '* **['.$file.'](https://github.com/PrestaShop/PrestaShop/tree/' . $configItem['branch'] . '/' . $file . '.ts)** :' . PHP_EOL, FILE_APPEND);
+                file_put_contents($generatedFile, '* **['.$file.'](https://github.com/PrestaShop/PrestaShop/tree/' . $configItem['branch'] . '/' . $file . ')** :' . PHP_EOL, FILE_APPEND);
                 foreach($urls as $url) {
                     preg_match('/https:\/\/github.com\/([^\/]+)\/([^\/]+)\/issues\/([0-9]+)/', $url, $matches);
                     if (count($matches) !== 4) {
