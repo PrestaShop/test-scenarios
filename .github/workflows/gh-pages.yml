@@ -76,21 +76,12 @@ jobs:
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:module --apikey ${{ secrets.JIRA_APIKEY }}
 
-      - name: Export Known bugs (on Develop)
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
-        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop/ --branch develop
+      - name: Clean `known-bugs` directory
+        run: rm -rf src/content/scenarios/known-bugs/
 
-      - name: Export Known bugs (on 8.1.x)
+      - name: Export Known bugs
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
-        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop_81x/ --branch 8.1.x
-
-      - name: Export Known bugs (on 8.0.x)
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
-        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop_80x/ --branch 8.0.x
-
-      - name: Export Known bugs (on 1.7.8.x)
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
-        run: php scripts/bin/console scenario:export:knownbugs --path ./prestashop_178x/ --branch 1.7.8.x
+        run: php scripts/bin/console scenario:export:knownbugs --config config.json
 
       - name: Remove prestashop directory (on Develop)
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}

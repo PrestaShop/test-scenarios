@@ -13,7 +13,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  
 class ScenarioExportKnownBugs extends AbstractCommand
 {
-    private const DIR = 'src/content/known-bugs/';
+    private const DIR = 'src/content/scenarios/known-bugs/';
 
     private const MAIN_FILE = self::DIR . '_index.md';
 
@@ -38,79 +38,85 @@ weight: %d
         parent::configure();
 
         $this
-            ->addOption('path', null, InputOption::VALUE_REQUIRED)
-            ->addOption('branch', null, InputOption::VALUE_REQUIRED)
+            ->addOption('config', null, InputOption::VALUE_REQUIRED)
             ->addOption('ghtoken', null, InputOption::VALUE_OPTIONAL, '', getenv('GH_TOKEN') ?? null);              
     }
  
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $time = time();
-        $generatedFile = sprintf(self::FILE, $input->getOption('branch'));
+        $config = \json_decode(\file_get_contents($input->getOption('config')), true);
 
         // Add the main file for the directory
         $this->processMainFile();
 
-        $iteratorGenerated = new FilesystemIterator(self::DIR, FilesystemIterator::SKIP_DOTS);
-        $countFiles = iterator_count($iteratorGenerated);
-        
-        $iterator = new RecursiveIteratorIterator(
-            new RecursiveDirectoryIterator(
-                $input->getOption('path') . 'tests/UI/campaigns/'
-            )
-        );
-        $files = $results = []; 
         $github = new Github($input->getOption('ghtoken'));
-
-        /** @var SplFileInfo $file */
-        foreach ($iterator as $file) {
-            if ($file->isDir()){ 
-                continue;
-            }
-                    
-            $files[] = $file->getPathname();        
-        }
-
-        foreach($files as $file) {
-            $trimFile = str_replace($input->getOption('path'), '', $file);
-            $content = file_get_contents($file);
-            preg_match_all('/^\s+\/\/\s+@todo\s+:\s+(.*)/m', $content, $matches);
-            if (!empty($matches[1])) {
-                $results[$trimFile] = [];
-                foreach($matches[1] as $url) {
-                    if (!in_array($url, $results[$trimFile])) {
-                        $results[$trimFile][] = $url;
-                    }
-                }
-            }
-        }
-        ksort($results);
-
         $issues = [];
-        file_put_contents(
-            $generatedFile,
-            sprintf(self::BASE, $input->getOption('branch'), $countFiles)
-        );
-        foreach ($results as $file => $urls) {
-            file_put_contents($generatedFile, '* **['.$file.'](https://github.com/PrestaShop/PrestaShop/tree/develop/'.$file.'.ts)** :' . PHP_EOL, FILE_APPEND);
-            foreach($urls as $url) {
-                preg_match('/https:\/\/github.com\/([^\/]+)\/([^\/]+)\/issues\/([0-9]+)/', $url, $matches);
-                if (count($matches) !== 4) {
-                    $output->writeLn(sprintf('The URL is not an issue : %s', $url));
-                }
 
-                if (!isset($issues[$url])) {
-                    try {
-                        $issues[$url] = $github->getClient()->api('issue')->show($matches[1], $matches[2], $matches[3]);
-                    } catch (\Github\Exception\RuntimeException $e) {
-                        $output->writeLn([
-                            '',
-                            $e->getMessage(),
-                            sprintf('The URL can\'t be fetched : %s', $url)
-                        ]);
+        foreach($config['items'] as $configItem) {
+            $generatedFile = sprintf(self::FILE, $configItem['branch']);
+
+            $iteratorGenerated = new FilesystemIterator(self::DIR, FilesystemIterator::SKIP_DOTS);
+            $countFiles = iterator_count($iteratorGenerated);
+
+            $files = $results = []; 
+
+            $iterator = new RecursiveIteratorIterator(
+                new RecursiveDirectoryIterator(
+                    $configItem['path'] . 'tests/UI/campaigns/'
+                )
+            );
+            /** @var SplFileInfo $file */
+            foreach ($iterator as $file) {
+                if ($file->isDir()){ 
+                    continue;
+                }
+                        
+                $files[] = $file->getPathname();        
+            }
+
+            foreach($files as $file) {
+                $trimFile = str_replace($configItem['path'], '', $file);
+                $content = file_get_contents($file);
+                preg_match_all('/^\s+\/\/\s+@todo\s+:\s+(.*)/m', $content, $matches);
+                if (!empty($matches[1])) {
+                    $results[$trimFile] = [];
+                    foreach($matches[1] as $url) {
+                        if (!in_array($url, $results[$trimFile])) {
+                            $results[$trimFile][] = $url;
+                        }
                     }
                 }
-                file_put_contents($generatedFile, '  * ['.$matches[2] . '#'.$matches[3] . ' : '.($issues[$url]['title'] ?? $url).'](' . $url.')' . PHP_EOL, FILE_APPEND);
+            }
+            ksort($results);
+
+            file_put_contents(
+                $generatedFile,
+                sprintf(self::BASE, $configItem['branch'], $countFiles)
+            );
+            foreach ($results as $file => $urls) {
+                file_put_contents($generatedFile, '* **['.$file.'](https://github.com/PrestaShop/PrestaShop/tree/' . $configItem['branch'] . '/' . $file . '.ts)** :' . PHP_EOL, FILE_APPEND);
+                foreach($urls as $url) {
+                    preg_match('/https:\/\/github.com\/([^\/]+)\/([^\/]+)\/issues\/([0-9]+)/', $url, $matches);
+                    var_dump($url);
+                    var_dump($matches);
+                    if (count($matches) !== 4) {
+                        $output->writeLn(sprintf('The URL is not an issue : %s', $url));
+                    }
+
+                    if (!isset($issues[$url])) {
+                        try {
+                            $issues[$url] = $github->getClient()->api('issue')->show($matches[1], $matches[2], $matches[3]);
+                        } catch (\Github\Exception\RuntimeException $e) {
+                            $output->writeLn([
+                                '',
+                                $e->getMessage(),
+                                sprintf('The URL can\'t be fetched : %s', $url)
+                            ]);
+                        }
+                    }
+                    file_put_contents($generatedFile, '  * ['.$matches[2] . '#'.$matches[3] . ' : '.($issues[$url]['title'] ?? $url).'](' . $url.')' . PHP_EOL, FILE_APPEND);
+                }
             }
         }
     }
