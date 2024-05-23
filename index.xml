@@ -960,13 +960,6 @@
       <description>DELETE /admin-api/customers/group/{customerGroupId} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8610 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/02_deleteCustomerGroupsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
-      <title>develop</title>
-      <link>https://build.prestashop-project.org/test-scenarios/known-bugs/develop.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/known-bugs/develop.html</guid>
-      <description>Known bugs tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts : PrestaShop#34505 : API : Endpoint PUT /api/cartRule- Mode debug preprod tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts : PrestaShop#34506 : API : Endpoint POST /api/customers/group - Doc swagger tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/02_putHookStatusId.ts : PrestaShop#34507 : API : Endpoint PUT /api/hook-status - Issues Doc Swagger &amp;amp; Enpoint format tests/UI/campaigns/functional/API/02_endpoints/06_hooks/01_getHooks.ts : PrestaShop#35616 : Endpoint /api/hooks &amp;amp; List of Hooks : Incorrect count of hooks tests/UI/campaigns/functional/API/02_endpoints/06_hooks/02_getHooksId.ts : PrestaShop#34552 : API : Endpoint GET /api/hooks/{id} : Difference between title &amp;amp; name - Enpoint issue tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.</description>
-    </item>
-    <item>
       <title>EditCheckCart</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/cartfo/editcheckcart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1896,13 +1889,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/checkout-uninstall-the-module.html</guid>
       <description> [CHECKOUT] Uninstall the module Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-8403 Steps Step Description Expected result Je suis sur mon BO Je vais dans le gestionnaire de module Je recherche checkout il s&amp;rsquo;affiche Je clique sur &amp;ldquo;désinstaller&amp;rdquo; le module se désinstalle correctement&#xA;Une pop-up de validation s&amp;rsquo;affiche en vert </description>
-    </item>
-    <item>
-      <title>8.1.x</title>
-      <link>https://build.prestashop-project.org/test-scenarios/known-bugs/8.1.x.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/known-bugs/8.1.x.html</guid>
-      <description>Known bugs tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/01_internalAuthServer/02_resourceEndpoint.ts : PrestaShop#29813 : APIS10 - Create an App object in the BO to manage API accesses of external applications tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/01_authorizationEndpoint.ts : [# : Remove it when Puppeteer will accept self signed certificates](Remove it when Puppeteer will accept self signed certificates) tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/02_resourceEndpoint.ts : [# : Remove it when Puppeteer will accept self signed certificates](Remove it when Puppeteer will accept self signed certificates) tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts : PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker) tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.</description>
     </item>
     <item>
       <title>Add a custom currency</title>
@@ -3389,13 +3375,6 @@
       <description>[BO] Upgrade from 1.7.2 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1583 Steps Step Description Expected result On a fresh 1.7.2.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
-      <title>8.0.x</title>
-      <link>https://build.prestashop-project.org/test-scenarios/known-bugs/8.0.x.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/known-bugs/8.0.x.html</guid>
-      <description> Known bugs tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/03_viewCarts.js : PrestaShop#29894 : Incorrect number of columns when filtering in Shopping Carts page tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.js : PrestaShop#9779 : [BOOM-4571] Rounding Problem </description>
-    </item>
-    <item>
       <title>blockreassurance - Delete a bloc</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockreassurance/contenu/blockreassurance-delete-a-bloc.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4614,13 +4593,6 @@
       <description>[FO] Upgrade from 1.7.2 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1582 Steps Step Description Expected result On a fresh 1.7.2.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
-      <title>1.7.8.x</title>
-      <link>https://build.prestashop-project.org/test-scenarios/known-bugs/1.7.8.x.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/known-bugs/1.7.8.x.html</guid>
-      <description> Known bugs tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/04_taxOptionsForm.js : PrestaShop#32914 : After disabling/enabling a tax, the linked tax rule is not present for the Ecotax </description>
-    </item>
-    <item>
       <title>blockreassurance - Add a bloc</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockreassurance/contenu/blockreassurance-add-a-bloc.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5482,6 +5454,27 @@
       <description>[FO] Upgrade from 1.6.1.24 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1581 Steps Step Description Expected result On a fresh 1.6.1.24 install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
+      <title>1.7.8.x</title>
+      <link>https://build.prestashop-project.org/test-scenarios/known-bugs/1.7.8.x.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/known-bugs/1.7.8.x.html</guid>
+      <description> Known bugs tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/04_taxOptionsForm.js : PrestaShop#32914 : After disabling/enabling a tax, the linked tax rule is not present for the Ecotax </description>
+    </item>
+    <item>
+      <title>8.0.x</title>
+      <link>https://build.prestashop-project.org/test-scenarios/known-bugs/8.0.x.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/known-bugs/8.0.x.html</guid>
+      <description> Known bugs tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/03_viewCarts.js : PrestaShop#29894 : Incorrect number of columns when filtering in Shopping Carts page tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.js : PrestaShop#9779 : [BOOM-4571] Rounding Problem </description>
+    </item>
+    <item>
+      <title>8.1.x</title>
+      <link>https://build.prestashop-project.org/test-scenarios/known-bugs/8.1.x.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/known-bugs/8.1.x.html</guid>
+      <description>Known bugs tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/01_internalAuthServer/02_resourceEndpoint.ts : PrestaShop#29813 : APIS10 - Create an App object in the BO to manage API accesses of external applications tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/01_authorizationEndpoint.ts : [# : Remove it when Puppeteer will accept self signed certificates](Remove it when Puppeteer will accept self signed certificates) tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/02_resourceEndpoint.ts : [# : Remove it when Puppeteer will accept self signed certificates](Remove it when Puppeteer will accept self signed certificates) tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts : PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker) tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.</description>
+    </item>
+    <item>
       <title>blockreassurance - Drag and drop bloc</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockreassurance/contenu/blockreassurance-drag-and-drop-bloc.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5858,6 +5851,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/productsbo/deleteproductwithbulkactions.html</guid>
       <description>DeleteProductWithBulkActions Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1339 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/06_deleteProductsWithBulkActions.ts Steps Step Description Expected result Go to the Catalog &amp;gt; Products&amp;quot; page&amp;quot; Products page is displayed correctly Reset all filters. Save number of products in a variable All products are listed in the page Click on New product&amp;quot;. Create a simple product (check C4 step 5). Click on &amp;ldquo;Save&amp;rdquo; Product is created correctly Go to the Catalog &amp;gt; Products&amp;quot; page&amp;quot; Products page is displayed correctly Click on New product&amp;quot;.</description>
+    </item>
+    <item>
+      <title>develop</title>
+      <link>https://build.prestashop-project.org/test-scenarios/known-bugs/develop.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/known-bugs/develop.html</guid>
+      <description>Known bugs tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts : PrestaShop#34505 : API : Endpoint PUT /api/cartRule- Mode debug preprod tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts : PrestaShop#34506 : API : Endpoint POST /api/customers/group - Doc swagger tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/02_putHookStatusId.ts : PrestaShop#34507 : API : Endpoint PUT /api/hook-status - Issues Doc Swagger &amp;amp; Enpoint format tests/UI/campaigns/functional/API/02_endpoints/06_hooks/01_getHooks.ts : PrestaShop#35616 : Endpoint /api/hooks &amp;amp; List of Hooks : Incorrect count of hooks tests/UI/campaigns/functional/API/02_endpoints/06_hooks/02_getHooksId.ts : PrestaShop#34552 : API : Endpoint GET /api/hooks/{id} : Difference between title &amp;amp; name - Enpoint issue tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.</description>
     </item>
     <item>
       <title>Faceted search module - Category filter depth field configuration</title>
