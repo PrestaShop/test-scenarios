@@ -47,7 +47,7 @@ weight: 1
 * **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts.ts)** :
   * [PrestaShop#35219 : Hummingbird Quickview error](https://github.com/PrestaShop/PrestaShop/issues/35219)
 * **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/02_changeQuantity.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/02_changeQuantity.ts.ts)** :
-  * [# : https://github.com/PrestaShop/hummingbird/pull/600](https://github.com/PrestaShop/hummingbird/pull/600)
+  * https://github.com/PrestaShop/hummingbird/pull/600
   * [hummingbird#615 : In product page - The Add to cart button is greyed out when I change quantity to 0 and back to a positive quantity](https://github.com/PrestaShop/hummingbird/issues/615)
 * **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/16_displayDiscountAndVolumeDiscount.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/16_displayDiscountAndVolumeDiscount.ts.ts)** :
   * [hummingbird#616 : Product page - Product price with a volume discount is incorrect until I add the product to my cart](https://github.com/PrestaShop/hummingbird/issues/616)
