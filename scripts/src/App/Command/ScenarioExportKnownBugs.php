@@ -100,6 +100,7 @@ weight: %d
                     preg_match('/https:\/\/github.com\/([^\/]+)\/([^\/]+)\/issues\/([0-9]+)/', $url, $matches);
                     if (count($matches) !== 4) {
                         $output->writeLn(sprintf('The URL is not an issue : %s', $url));
+                        file_put_contents($generatedFile, '  * ' . $url . PHP_EOL, FILE_APPEND);
                     } else {
                         if (!isset($issues[$url])) {
                             try {
@@ -112,8 +113,8 @@ weight: %d
                                 ]);
                             }
                         }
+                        file_put_contents($generatedFile, '  * ['.$matches[2] . '#'.$matches[3] . ' : '.($issues[$url]['title'] ?? $url).'](' . $url.')' . PHP_EOL, FILE_APPEND);
                     }
-                    file_put_contents($generatedFile, '  * ['.$matches[2] . '#'.$matches[3] . ' : '.($issues[$url]['title'] ?? $url).'](' . $url.')' . PHP_EOL, FILE_APPEND);
                 }
             }
         }
