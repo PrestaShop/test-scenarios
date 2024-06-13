@@ -5,7 +5,7 @@ weight: 2
 
 # [CHECKOUT] Uninstall the module
 ## Details
-* **Status** : IN REVIEW
+* **Status** : Approved
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8403
 
 ## Steps
