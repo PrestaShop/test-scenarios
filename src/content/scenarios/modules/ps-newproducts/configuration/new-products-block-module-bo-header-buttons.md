@@ -6,7 +6,8 @@ weight: 2
 # New products block module - BO header buttons
 ## Details
 * **Component** : ps_newproducts
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4055
 
 ## Steps
