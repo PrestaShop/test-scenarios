@@ -6,7 +6,8 @@ weight: 5
 # BO - Search - Minimum word length (in characters)
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3614
 
 ## Steps

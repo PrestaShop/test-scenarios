@@ -6,9 +6,10 @@ weight: 4
 # Wishlist module - Help header buttons
 ## Details
 * **Component** : blockwishlist
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4249
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/02_configuration/04_helpHeaderButtons.ts
 
 ## Steps
 | Step Description | Expected result |
