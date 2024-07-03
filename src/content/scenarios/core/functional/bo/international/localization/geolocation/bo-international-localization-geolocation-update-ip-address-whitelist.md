@@ -6,7 +6,8 @@ weight: 2
 # BO - International - Localization - Geolocation - Update IP address whitelist
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1008
 
 ## Steps
@@ -18,7 +19,7 @@ weight: 2
 | Enable "Geolocation by IP adresse" and save | You should have the green notification "Update successful" |
 | Modify your files FrontController.php in [yourshopfile]/classes/controler and save | Your frontController should be modified |
 | Go to FO | You should see the FO as usual |
-| * Return to BO > Localization > Geolocation <br> * In IP addresse whitelist, Erase "127" from the list <br> * Clic on Save | * The Geolocation page is displayed<br> * The first in the list should be " ::1 "<br> * You've a green notification Update successful |
+| * Return to BO > Localization > Geolocation <br> * In IP addresse whitelist, Erase "127.0.0.1" from the list <br> * Clic on Save | * The Geolocation page is displayed<br> * The first in the list should be " ::1 "<br> * You've a green notification Update successful |
 | Go to FO | You should see a "403 Forbidden " and " You cannot access this store from your country. We apologize for the inconvenience. " |
 | * Return to BO > Localization > Geolocation <br> * Disable "geolocation by IP address" and Save | * The Geolocation page is displayed<br> * You've a green notification Update successful |
 | Go to FO | You should see the FO as usual |
