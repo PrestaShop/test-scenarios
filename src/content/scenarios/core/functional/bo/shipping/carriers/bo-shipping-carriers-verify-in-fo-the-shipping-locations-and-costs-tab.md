@@ -5,6 +5,6 @@ weight: 7
 
 # BO - Shipping - Carriers -  Verify in FO the Shipping locations and costs tab
 ## Details
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8911
 

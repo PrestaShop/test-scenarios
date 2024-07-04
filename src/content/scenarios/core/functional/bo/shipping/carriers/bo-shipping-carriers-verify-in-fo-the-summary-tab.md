@@ -5,7 +5,7 @@ weight: 9
 
 # BO - Shipping - Carriers - Verify in FO the Summary tab
 ## Details
-* **Status** : IN REVIEW
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8913
 
 ## Steps

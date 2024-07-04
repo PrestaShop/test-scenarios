@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Delete a product from a wishlist"
-weight: 6
+weight: 3
 ---
 
 # Wishlist module - Delete a product from a wishlist
