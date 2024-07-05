@@ -7,6 +7,7 @@ weight: 1
 ## Details
 * **Component** : blockwishlist
 * **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3950
 
 ## Steps

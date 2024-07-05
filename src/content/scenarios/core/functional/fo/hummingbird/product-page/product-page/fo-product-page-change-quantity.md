@@ -13,15 +13,15 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| On FO > Click on The best is yet to come' Framed poster product | The best is yet to come' Framed poster product page diplayed<br><br>Quantity = 1 |
-| Click on the down arrow quantity | Quantity doesn't change. Quantity = 1 |
-| Click on the top arrow quantity > Add to cart | Quantity = 2 |
+| On FO > Click on The best is yet to come' Framed poster product | The best is yet to come' Framed poster product page displayed |
+| Click on the minus ( - ) button for quantity | Quantity doesn't change.<br>Quantity = 1 |
+| Click on the plus ( + ) button quantity > Add to cart | Product successfully added to your shopping cart<br><br>Quantity in cart = 2 |
 | Click on Continue shopping | Modal is closed |
-| Change the quantity by input > Click Add to cart | Add to cart button is greyed out |
-| The page needs to be refreshed before next step because of this issue : https://github.com/PrestaShop/hummingbird/issues/615 |  |
-| Change the quantity by input > Click Add to cart | Product successfully added to your shopping cart<br><br>There are 14 products in the cart |
+| Change the quantity by input > Click Add to cart | Product successfully added to your shopping cart<br><br>Quantity in cart = 3 |
 | Click on Continue shopping | Modal is closed |
-| Change the quantity by input > Click Add to cart | Add to cart button is greyed out |
-| Refresh the page | Cart button is now clickable |
-| Change the quantity by input > Click Add to cart | Null quantity. |
-| Go to cart > Click on Remove | There are no more items in your cart |
+| Change the quantity by input > Click Add to cart | Product successfully added to your shopping cart<br><br>Quantity in cart = 15 |
+| Click on Continue shopping | Modal is closed |
+| Change the quantity by input > Click Add to cart | Product successfully added to your shopping cart<br><br>Quantity in cart = 16 |
+| Click on Continue shopping | Modal is closed |
+| Change the quantity by input > Click Add to cart | Product successfully added to your shopping cart<br><br>Quantity in cart = 17 |
+| Proceed to checkout > Click on Remove | The best is yet to come' Framed poster has been removed from the cart. |
