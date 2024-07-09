@@ -5,9 +5,10 @@ weight: 4
 
 # BO - Modules - GDPR - Customer activity tracking
 ## Details
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7594
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/psgdpr/02_configuration/04_customerActivityTracking.ts
 
 ## Steps
 | Step Description | Expected result |

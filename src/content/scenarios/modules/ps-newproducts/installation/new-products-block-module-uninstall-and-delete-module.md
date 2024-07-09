@@ -6,9 +6,10 @@ weight: 3
 # New products block module - Uninstall and delete module
 ## Details
 * **Component** : ps_newproducts
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3991
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_newproducts/01_installation/03_uninstallAndDeleteModule.ts
 
 ## Steps
 | Step Description | Expected result |
