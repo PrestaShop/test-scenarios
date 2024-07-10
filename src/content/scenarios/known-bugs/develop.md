@@ -48,8 +48,6 @@ weight: 1
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
 * **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts)** :
   * [PrestaShop#35219 : Hummingbird Quickview error](https://github.com/PrestaShop/PrestaShop/issues/35219)
-* **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/16_displayDiscountAndVolumeDiscount.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/16_displayDiscountAndVolumeDiscount.ts)** :
-  * [hummingbird#616 : Product page - Product price with a volume discount is incorrect until I add the product to my cart](https://github.com/PrestaShop/hummingbird/issues/616)
 * **[tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/02_useDifferentInvoiceAddress.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/02_useDifferentInvoiceAddress.ts)** :
   * [hummingbird#614 : Guest checkout: Use different invoice address : Can't order](https://github.com/PrestaShop/hummingbird/issues/614)
 * **[tests/UI/campaigns/functional/WS/02_ordersCRUD.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/02_ordersCRUD.ts)** :
