@@ -6,10 +6,9 @@ weight: 5
 # BO - Orders - View Guest
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : Deprecated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1614
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/09_viewGuest.ts
 
 ## Steps
 | Step Description | Expected result |

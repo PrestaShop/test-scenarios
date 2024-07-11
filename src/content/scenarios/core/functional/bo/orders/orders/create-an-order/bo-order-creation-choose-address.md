@@ -31,7 +31,7 @@ weight: 8
 | Set all required data to add the adress then click on save | The popup adress is closed and the new adress added is presnt in the droplists: for the delivery address and for the invoice. |
 | Click on the droplist of the delivery and choose the new adress added. | The adress displayed bellow the blocs delivery is changed to the new adress |
 | Click on the droplist of the invoice and choose the new adress added. | The adress displayed bellow the blocs invoices is changed to the new adress |
-| Click on the button edit to modify the invoice adress | The popup adress is displayed and contain the data of the new adress added |
+| Click on the button edit to modify the invoice address | The popup adress is displayed and contain the data of the new adress added |
 | change all data then save | The popup adress is closed and the new adress edited is displayed with the new data in both blocs delivery and invoice |
 | Go to the page customers > adresses | check that the new adress edited exist |
 | Click on add new adress | the page adresses is opened |
