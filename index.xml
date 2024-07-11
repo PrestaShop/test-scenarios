@@ -4936,6 +4936,13 @@
       <description> BO - International - Translations - Copy translations Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-1037 </description>
     </item>
     <item>
+      <title>BO - Login - Check links</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/login/bo-login-check-links.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/login/bo-login-check-links.html</guid>
+      <description>BO - Login - Check links Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-9461 Steps Step Description Expected result BO &amp;gt; Login page Login page displayed Click to &amp;ldquo;Back to My Shop&amp;rdquo; FO page diplayed BO &amp;gt; Login page Login page displayed Click to &amp;ldquo;[© PrestaShop™ 2007-2024 - All rights reserved https://www.prestashop-project.org/]&amp;quot; BO &amp;gt; Login page Login page displayed Click to &amp;ldquo;X&amp;rdquo; icon PrestaShop X profil page diplayed&#xA;[https://x.com/PrestaShophttps://www.prestashop-project.org/ BO &amp;gt; Login page Login page displayed Click to &amp;ldquo;facebook&amp;rdquo; icon PrestaShop Facebook profil page diplayed</description>
+    </item>
+    <item>
       <title>BO - Modules - Alerts tab - Upgrade</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/alerts/bo-modules-alerts-tab-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5615,6 +5622,13 @@
       <description>BO - Customers - Outstanding - Filter &amp;amp; Sort Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3734 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/03_outstanding/05_sortFilterOutstanding.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/outstanding Steps Step Description Expected result Go to BO &amp;gt; Orders &amp;gt; Orders list page The Orders list page is well displayed Change the status of all orders created from the pre-condition step to payment accepted The alert &amp;ldquo;Successful update.</description>
     </item>
     <item>
+      <title>BO - Dashboard - Forecast</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-forecast.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-forecast.html</guid>
+      <description> BO - Dashboard - Forecast Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9462 </description>
+    </item>
+    <item>
       <title>BO - Design - Image Settings - Delete actions</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-delete-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5745,7 +5759,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-view-guest.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-view-guest.html</guid>
-      <description>BO - Orders - View Guest Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1614 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/09_viewGuest.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly Reset all filters and get the number of orders The order number &amp;gt; 0 Filter orders by Guest name Number of orders &amp;lt; Total of orders</description>
+      <description> BO - Orders - View Guest Details Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1614 Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly Reset all filters and get the number of orders The order number &amp;gt; 0 Filter orders by Guest name Number of orders &amp;lt; Total of orders&#xA;An order guest contains the searched guest Click on the guest Link Redirection to the customer details page in a new Tab Delete the created Guest The guest is well deleted </description>
     </item>
     <item>
       <title>BO - Search - Minimum word length (in characters)</title>
@@ -7236,7 +7250,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-export-orders.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-export-orders.html</guid>
-      <description> BO - Orders - Export Orders Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-734 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/03_exportOrders.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders page Orders listing is displayed correctly Export order to csv file The file is downloaded successfully&#xA;Data is correct </description>
+      <description> BO - Orders - Export Orders Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-734 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/03_exportOrders.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders page Orders listing is displayed correctly Click to configuration button &amp;gt; Export The file is downloaded successfully&#xA;Data is correct </description>
     </item>
     <item>
       <title>Check generation of bill</title>
