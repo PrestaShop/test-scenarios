@@ -904,13 +904,6 @@
       <description>Countries : CRUD Details Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-6064 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts Steps Step Description Expected result Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank The response HTTP Code is 200.&#xA;The XML is valid.&#xA;The XML code has a prestashop root node&#xA;The root node has a country node&#xA;The country node has children nodes which are empty and without attributes Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.</description>
     </item>
     <item>
-      <title>Create a list</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/create-a-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/create-a-list.html</guid>
-      <description>Create a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-556 Steps Step Description Expected result Go to the catalog and to a product page. Click on the heart next to the image to add the product to a list A modal says you need to be connected Connect as a customer. Go to the catalog and to a product page. Click on the heart next to the image to add the product to a list The wishlist modal window displays correctly Click on the Create a new list&amp;quot; button&amp;quot; The wishlist modal window shows an input to set the name of the new list Set a new name and click on Save&amp;quot; The list is saved and appears in the list of lists Click on cancel.</description>
-    </item>
-    <item>
       <title>Create a simple order without cart rules</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-a-simple-order-without-cart-rules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1867,7 +1860,14 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-add-a-product-to-a-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-add-a-product-to-a-list.html</guid>
-      <description>Wishlist module - Add a product to a list Details Component : blockwishlist Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3950 Steps Step Description Expected result Go to FO &amp;gt; Choose a product &amp;gt; Go to the product page details of the chosen product &amp;ldquo;Heart&amp;rdquo; icon next to the &amp;ldquo;Add to cart&amp;rdquo; button is empty Click &amp;ldquo;heart&amp;rdquo; icon A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:</description>
+      <description>Wishlist module - Add a product to a list Details Component : blockwishlist Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3950 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/03_frontOffice/02_products/01_addProductToList.ts Steps Step Description Expected result Go to FO &amp;gt; Choose a product &amp;gt; Go to the product page details of the chosen product &amp;ldquo;Heart&amp;rdquo; icon next to the &amp;ldquo;Add to cart&amp;rdquo; button is empty Click &amp;ldquo;heart&amp;rdquo; icon A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:</description>
+    </item>
+    <item>
+      <title>Wishlist module - Create a list</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-create-a-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-create-a-list.html</guid>
+      <description>Wishlist module - Create a list Details Component : blockwishlist Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3857 Steps Step Description Expected result Go to FO &amp;gt; Choose a product &amp;gt; Click on the heart next to the image to add the product to a list A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:&#xA;* Title: &amp;ldquo;Sign in&amp;rdquo;&#xA;* Description: &amp;ldquo;You need to be logged in to save products in your wishlist.</description>
     </item>
     <item>
       <title>Wording and statistics</title>
@@ -2175,7 +2175,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-activity-overview.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-activity-overview.html</guid>
-      <description> BO - Dashboard - Activity overview Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-720 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard </description>
+      <description>BO - Dashboard - Activity overview Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-720 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard Steps Step Description Expected result Go to Dashboard &amp;gt; Activity overview and click on &amp;ldquo;Online Visitors&amp;rdquo; The page Sell&amp;gt;Stats is displayed Go to FO and login then logout by default customer Customer is logout go back to dashbord number of online visitors =+1 Click on Active Shopping Carts The page SELL&amp;gt;&amp;ldquo;Orders&amp;rdquo;&amp;gt;&amp;ldquo;Shopping Carts&amp;rdquo; is displayed.</description>
     </item>
     <item>
       <title>BO - Design - Email Theme - Configuration of the whole page</title>
@@ -2666,13 +2666,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/delete-admin-api-product-productid.html</guid>
       <description>DELETE /admin-api/product/{productId} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8614 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/02_deleteProductId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
-    </item>
-    <item>
-      <title>Edit and delete a list</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html</guid>
-      <description>Edit and delete a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-557 Steps Step Description Expected result Go to your account. Click on the Wishlist&amp;quot; block. Check the lists&amp;quot; All the list have 2 buttons on the right: 3 little dots AND a garbage can. The default list only have a share&amp;quot; button&amp;quot; Click on the 3 dots in front of a custom list A small popin appears.</description>
     </item>
     <item>
       <title>EditOrder</title>
@@ -3373,6 +3366,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-edit-a-product-on-a-wishlist.html</guid>
       <description>Wishlist module - Edit a product on a wishlist Details Component : blockwishlist Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4204 Steps Step Description Expected result Go to FO &amp;gt; Choose a product &amp;gt; Go to the product page details of the chosen product &amp;ldquo;Heart&amp;rdquo; icon next to the &amp;ldquo;Add to cart&amp;rdquo; button is empty Click &amp;ldquo;heart&amp;rdquo; icon A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:&#xA;* Title: &amp;ldquo;Sign in&amp;rdquo;</description>
+    </item>
+    <item>
+      <title>Wishlist module - Rename &amp; delete a list</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-rename-delete-a-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-rename-delete-a-list.html</guid>
+      <description>Wishlist module - Rename &amp;amp; delete a list Details Component : blockwishlist Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3947 Steps Step Description Expected result Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button &amp;gt; Fill the form &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button * &amp;ldquo;Log in to your account&amp;rdquo; page is displayed&#xA;* You are logged in&#xA;* Homepage is displayed Click on your username in header of the shop &amp;gt; Click on &amp;ldquo;My wishlists&amp;rdquo; tab on your account &amp;ldquo;My wishlists&amp;rdquo; page is displayed with:</description>
     </item>
     <item>
       <title>Wishlist module - Statistics tab settings</title>
@@ -4544,13 +4544,6 @@
       <description>PUT /admin-api/customers/group/{customerGroupId} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8628 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/04_putCustomerGroupsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
-      <title>Share a list</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html</guid>
-      <description>Share a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-558 Steps Step Description Expected result Go to your account. Click on the Wishlist&amp;quot; block. Check the lists&amp;quot; All the list have 2 buttons on the right: 3 little dots AND a garbage can. The default list only have a share&amp;quot; button&amp;quot; Click on the share&amp;quot; button for the default list&amp;quot; A modal appears with the share link.</description>
-    </item>
-    <item>
       <title>statsbestcustomers - Uninstall and delete</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/statsbestcustomers/installation/statsbestcustomers-uninstall-and-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4612,6 +4605,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/installation/wishlist-module-reset-module.html</guid>
       <description>Wishlist module - Reset module Details Component : blockwishlist Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4227 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search blockwishlist The module page list should be displayed and Wishlist module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
+    </item>
+    <item>
+      <title>Wishlist module - Share a list</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-share-a-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-share-a-list.html</guid>
+      <description>Wishlist module - Share a list Details Component : blockwishlist Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-3948 Steps Step Description Expected result Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button &amp;gt; Fill the form &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button * &amp;ldquo;Log in to your account&amp;rdquo; page is displayed&#xA;* You are logged in&#xA;* Homepage is displayed Click on your username in header of the shop &amp;gt; Click on &amp;ldquo;My wishlists&amp;rdquo; tab on your account &amp;ldquo;My wishlists&amp;rdquo; page is displayed with:</description>
     </item>
     <item>
       <title>[FO] Upgrade from 1.7.2 to last build and then exploratory test on FO</title>
@@ -4940,7 +4940,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/login/bo-login-check-links.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/login/bo-login-check-links.html</guid>
-      <description>BO - Login - Check links Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-9461 Steps Step Description Expected result BO &amp;gt; Login page Login page displayed Click to &amp;ldquo;Back to My Shop&amp;rdquo; FO page diplayed BO &amp;gt; Login page Login page displayed Click to &amp;ldquo;[© PrestaShop™ 2007-2024 - All rights reserved https://www.prestashop-project.org/]&amp;quot; BO &amp;gt; Login page Login page displayed Click to &amp;ldquo;X&amp;rdquo; icon PrestaShop X profil page diplayed&#xA;[https://x.com/PrestaShophttps://www.prestashop-project.org/ BO &amp;gt; Login page Login page displayed Click to &amp;ldquo;facebook&amp;rdquo; icon PrestaShop Facebook profil page diplayed</description>
+      <description>BO - Login - Check links Details Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-9461 Steps Step Description Expected result Go to BO - Login page Login page is displayed Click on your shop name on the top left corner FO is displayed Go back to BO - Login page Login page is displayed Click on &amp;ldquo;[© PrestaShop™ 2007-2024 - All rights reserved&amp;rdquo; Link https://www.prestashop-project.org/ is opened in another tab Go back to BO - Login page Login page is displayed Click on &amp;ldquo;X&amp;rdquo; icon Link https://x.</description>
     </item>
     <item>
       <title>BO - Modules - Alerts tab - Upgrade</title>
@@ -5003,7 +5003,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-view-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-view-customer.html</guid>
-      <description>BO - Orders - View customer Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-727 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/08_viewCustomer.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders page Orders listing is displayed correctly Reset all filters and get the number of orders The order number &amp;gt; 0 Filter orders by Customer Number of orders &amp;lt; Total of orders</description>
+      <description> BO - Orders - View customer Details Component : Core Status : [TEST] To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-727 Steps Step Description Expected result Go to the Orders &amp;gt; Orders page Orders listing is displayed correctly Click on the Customer Link Redirection to the customer details page in a new Tab </description>
     </item>
     <item>
       <title>BO - Search - Maximum approximate words allowed by fuzzy search</title>
@@ -5109,6 +5109,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-upgrade-module.html</guid>
       <description>Category products module - Upgrade module Details Component : ps_categoryproducts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4215 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Upgrade&amp;rdquo; option A modal is open with:</description>
+    </item>
+    <item>
+      <title>Create a list</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/create-a-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/create-a-list.html</guid>
+      <description>Create a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-556 Steps Step Description Expected result Go to the catalog and to a product page. Click on the heart next to the image to add the product to a list A modal says you need to be connected Connect as a customer. Go to the catalog and to a product page. Click on the heart next to the image to add the product to a list The wishlist modal window displays correctly Click on the Create a new list&amp;quot; button&amp;quot; The wishlist modal window shows an input to set the name of the new list Set a new name and click on Save&amp;quot; The list is saved and appears in the list of lists Click on cancel.</description>
     </item>
     <item>
       <title>Create an order with a cart rule using % &#43; Gift &#43; free shipping</title>
@@ -5466,13 +5473,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-themecusto/installation/theme-customization-module-reset-module.html</guid>
       <description>Theme Customization module - Reset module Details Component : ps_themecusto Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4159 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_themecusto/01_installation/04_resetModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_themecusto The module page list should be displayed and Theme Customization module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
-    </item>
-    <item>
-      <title>Wishlist module - Create a list</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-create-a-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-create-a-list.html</guid>
-      <description>Wishlist module - Create a list Details Component : blockwishlist Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3857 Steps Step Description Expected result Go to FO &amp;gt; Choose a product &amp;gt; Click on the heart next to the image to add the product to a list A &amp;ldquo;Sign in&amp;rdquo; modal is opened with:&#xA;* Title: &amp;ldquo;Sign in&amp;rdquo;&#xA;* Description: &amp;ldquo;You need to be logged in to save products in your wishlist.</description>
     </item>
     <item>
       <title>Wishlist module - Help header buttons</title>
@@ -5881,6 +5881,13 @@
       <description>DeleteProductWithBulkActions Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1339 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/06_deleteProductsWithBulkActions.ts Steps Step Description Expected result Go to the Catalog &amp;gt; Products&amp;quot; page&amp;quot; Products page is displayed correctly Reset all filters. Save number of products in a variable All products are listed in the page Click on New product&amp;quot;. Create a simple product (check C4 step 5). Click on &amp;ldquo;Save&amp;rdquo; Product is created correctly Go to the Catalog &amp;gt; Products&amp;quot; page&amp;quot; Products page is displayed correctly Click on New product&amp;quot;.</description>
     </item>
     <item>
+      <title>Edit and delete a list</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html</guid>
+      <description>Edit and delete a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-557 Steps Step Description Expected result Go to your account. Click on the Wishlist&amp;quot; block. Check the lists&amp;quot; All the list have 2 buttons on the right: 3 little dots AND a garbage can. The default list only have a share&amp;quot; button&amp;quot; Click on the 3 dots in front of a custom list A small popin appears.</description>
+    </item>
+    <item>
       <title>Edit and delete products in a list</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/products/edit-and-delete-products-in-a-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6096,13 +6103,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-themecusto/uninstall-install-a-module.html</guid>
       <description> Uninstall/Install a module Details Component : ps_themecusto Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-434 Steps Step Description Expected result Go to back office -&amp;gt; Design -&amp;gt; Theme &amp;amp; logo -&amp;gt; configuration page The configuration page should be displayed The module page should be displayed and module ps_themecusto should appear in the module page A message should appear in green to indicate that the module is uninstalled Refresh the page The module should be uninstalled Click on install A message should appear in green to indicate that the module is installed and module should be install </description>
-    </item>
-    <item>
-      <title>Wishlist module - Rename &amp; delete a list</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-rename-delete-a-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-rename-delete-a-list.html</guid>
-      <description>Wishlist module - Rename &amp;amp; delete a list Details Component : blockwishlist Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3947 Steps Step Description Expected result Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button &amp;gt; Fill the form &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button * &amp;ldquo;Log in to your account&amp;rdquo; page is displayed&#xA;* You are logged in&#xA;* Homepage is displayed Click on your username in header of the shop &amp;gt; Click on &amp;ldquo;My wishlists&amp;rdquo; tab on your account &amp;ldquo;My wishlists&amp;rdquo; page is displayed with:</description>
     </item>
     <item>
       <title>Wishlist module - Uninstall/Install module</title>
@@ -6504,6 +6504,13 @@
       <description>Reset currency default settings Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1366 Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Click on Edit Euro currency &amp;gt; Modify elements &amp;gt; Save Message &amp;ldquo;Successful update.&amp;quot;&#xA;Currency is edited. Currency name is updated with mention &amp;ldquo;(Edited)&amp;rdquo; Click Edit Euro currency &amp;gt; Click on Reset button &amp;gt; Save Message &amp;ldquo;Your symbol and format customizations have been successfully reset for this language.</description>
     </item>
     <item>
+      <title>Share a list</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html</guid>
+      <description>Share a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-558 Steps Step Description Expected result Go to your account. Click on the Wishlist&amp;quot; block. Check the lists&amp;quot; All the list have 2 buttons on the right: 3 little dots AND a garbage can. The default list only have a share&amp;quot; button&amp;quot; Click on the share&amp;quot; button for the default list&amp;quot; A modal appears with the share link.</description>
+    </item>
+    <item>
       <title>Uninstall/Install</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-themecusto/uninstall-install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6516,13 +6523,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/products/wishlist-module-edit-and-delete-product-in-a-list.html</guid>
       <description>Wishlist module - Edit and delete product in a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-3951 Steps Step Description Expected result Go to the customer wishlist page Wishlists are displayed. The number associated (in brackets) represents the number of unique items in a list Select the custom wishlist You get all the products added in the previous test Click on the garbage can for the single product with stock A modal appears asking you to confirm the deletion Confirm the deletion The product is removed from the list Click on the picture of the single product without stock You are redirected to the product page.</description>
-    </item>
-    <item>
-      <title>Wishlist module - Share a list</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-share-a-list.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-share-a-list.html</guid>
-      <description>Wishlist module - Share a list Details Component : blockwishlist Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-3948 Steps Step Description Expected result Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button &amp;gt; Fill the form &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button * &amp;ldquo;Log in to your account&amp;rdquo; page is displayed&#xA;* You are logged in&#xA;* Homepage is displayed Click on your username in header of the shop &amp;gt; Click on &amp;ldquo;My wishlists&amp;rdquo; tab on your account &amp;ldquo;My wishlists&amp;rdquo; page is displayed with:</description>
     </item>
     <item>
       <title>Wishlist module - Uninstall and delete module</title>

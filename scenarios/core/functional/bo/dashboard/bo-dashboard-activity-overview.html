@@ -22,13 +22,13 @@
     <title>BO - Dashboard - Activity overview :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../css/font-awesome.min.css?1720679288" rel="stylesheet">
-    <link href="../../../../../css/syntax-github.css?1720679288" rel="stylesheet">
-    <link href="../../../../../css/featherlight.min.css?1720679288" rel="stylesheet">
-    <link href="../../../../../css/perfect-scrollbar.min.css?1720679288" rel="stylesheet"><link href="../../../../../css/auto-complete.css?1720679288" rel="stylesheet">
-    <link href="../../../../../style.css?1720679288" rel="stylesheet">
+    <link href="../../../../../css/font-awesome.min.css?1720765704" rel="stylesheet">
+    <link href="../../../../../css/syntax-github.css?1720765704" rel="stylesheet">
+    <link href="../../../../../css/featherlight.min.css?1720765704" rel="stylesheet">
+    <link href="../../../../../css/perfect-scrollbar.min.css?1720765704" rel="stylesheet"><link href="../../../../../css/auto-complete.css?1720765704" rel="stylesheet">
+    <link href="../../../../../style.css?1720765704" rel="stylesheet">
 
-    <script src="../../../../../js/jquery-3.3.1.min.js?1720679288"></script>
+    <script src="../../../../../js/jquery-3.3.1.min.js?1720765704"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -27838,69 +27838,6 @@
  
   
     
-      <li data-nav-id="/scenarios/modules/blockwishlist/front-office/lists/create-a-list.html" title="Create a list" class="dd-item ">
-        <a href="../../../../../scenarios/modules/blockwishlist/front-office/lists/create-a-list.html">
-        Create a list
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html" title="Edit and delete a list" class="dd-item ">
-        <a href="../../../../../scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html">
-        Edit and delete a list
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html" title="Share a list" class="dd-item ">
-        <a href="../../../../../scenarios/modules/blockwishlist/front-office/lists/share-a-list.html">
-        Share a list
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
       <li data-nav-id="/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-create-a-list.html" title="Wishlist module - Create a list" class="dd-item ">
         <a href="../../../../../scenarios/modules/blockwishlist/front-office/lists/wishlist-module-create-a-list.html">
         Wishlist module - Create a list
@@ -27946,6 +27883,69 @@
       <li data-nav-id="/scenarios/modules/blockwishlist/front-office/lists/wishlist-module-share-a-list.html" title="Wishlist module - Share a list" class="dd-item ">
         <a href="../../../../../scenarios/modules/blockwishlist/front-office/lists/wishlist-module-share-a-list.html">
         Wishlist module - Share a list
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/blockwishlist/front-office/lists/create-a-list.html" title="Create a list" class="dd-item ">
+        <a href="../../../../../scenarios/modules/blockwishlist/front-office/lists/create-a-list.html">
+        Create a list
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html" title="Edit and delete a list" class="dd-item ">
+        <a href="../../../../../scenarios/modules/blockwishlist/front-office/lists/edit-and-delete-a-list.html">
+        Edit and delete a list
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html" title="Share a list" class="dd-item ">
+        <a href="../../../../../scenarios/modules/blockwishlist/front-office/lists/share-a-list.html">
+        Share a list
         
         </a>
     </li>
@@ -41141,6 +41141,7 @@
     <li><a href="#bo---dashboard---activity-overview">BO - Dashboard - Activity overview</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -64070,6 +64071,133 @@
 <li><strong>Specification</strong> : <a href="https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard">https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard</a></li>
 </ul>
 
+<h2 id="steps">Steps<a href="#steps"></a></h2><table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to Dashboard &gt; Activity overview and click on &ldquo;Online Visitors&rdquo;</td>
+<td>The page Sell&gt;Stats is displayed</td>
+</tr>
+<tr>
+<td>Go to FO and login then logout by default customer</td>
+<td>Customer is logout</td>
+</tr>
+<tr>
+<td>go back to dashbord</td>
+<td>number of online visitors =+1</td>
+</tr>
+<tr>
+<td>Click on Active Shopping Carts</td>
+<td>The page SELL&gt;&ldquo;Orders&rdquo;&gt;&ldquo;Shopping Carts&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Create an order from FO</td>
+<td>Order is created successfully</td>
+</tr>
+<tr>
+<td>Go back to Active Shopping Carts</td>
+<td>The total Active Shopping Carts activity overview +1</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending</td>
+<td>On Currently Pending you will see :<br> * Orders</td>
+</tr>
+<tr>
+<td>Click on Orders in Currently Pending</td>
+<td>The orders is displayed.</td>
+</tr>
+<tr>
+<td>change the status of the first order to Processing in progress</td>
+<td>The status is changed successfully]</td>
+</tr>
+<tr>
+<td>Go back to dashboard</td>
+<td>Orders number +=1</td>
+</tr>
+<tr>
+<td>* Go back to Dashboard&gt; Activity overview&gt; Currently Pending<br> * Click on Return/Exchanges</td>
+<td>The Customer Service&gt; Merchandise Returns page is displayed.</td>
+</tr>
+<tr>
+<td>Create a marchandise return</td>
+<td>Merchandise return is created</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Currently Pending</td>
+<td>Toatle Return/Exchanges +1<br><br>issue here =&gt; [[https://github.com/PrestaShop/PrestaShop/issues/34321]</td>
+</tr>
+<tr>
+<td>Click on Abandoned Carts in Currently Pending</td>
+<td>The Orders&gt; Shopping Carts page is displayed.</td>
+</tr>
+<tr>
+<td>Click on Out of stock products in Currently Pending</td>
+<td>The Catalog&gt; Monitoring page is displayed.</td>
+</tr>
+<tr>
+<td>Create an out of stock product</td>
+<td>Product is created successfully</td>
+</tr>
+<tr>
+<td>Go back to dashboard</td>
+<td>Out of stock products +=1</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Notifications</td>
+<td>On Currently Pending you will see :<br> * New Messages<br> * Product Reviews<br> * [Clé:TEST-7012] [Résumé:FO - Order confirmation - Contact us]</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Notifications</td>
+<td>Total New messages +1</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Customers &amp; Newsletters</td>
+<td>On Customers &amp; Newsletters you will see :<br> * New Customers<br> * New Subscriptions<br> * Total Subscribers</td>
+</tr>
+<tr>
+<td>Click on &ldquo;New Customers&rdquo;</td>
+<td>Customers page is displayed</td>
+</tr>
+<tr>
+<td>Enable the Newsletter option of the new customer already added</td>
+<td>&ldquo;The status has been successfully updated&rdquo; message is displayed]</td>
+</tr>
+<tr>
+<td>* Click on &ldquo;Add new customer&rdquo; and fill the new customer form<br> * Save</td>
+<td>&ldquo;Successful creation&rdquo; message is displayed</td>
+</tr>
+<tr>
+<td>Go back to Dashboard&gt; Activity overview&gt; Customers &amp; Newsletters</td>
+<td>Total Subscribers +1</td>
+</tr>
+<tr>
+<td>Click on visits link</td>
+<td>Stats page is displayed</td>
+</tr>
+<tr>
+<td>Go back to dashboard and click on Unique visitors link</td>
+<td>stats page is displayed</td>
+</tr>
+<tr>
+<td>Check traffic source</td>
+<td>contains &lsquo;prestashop.com&rsquo; and &lsquo;Direct link&rsquo;</td>
+</tr>
+<tr>
+<td>Click on configure link</td>
+<td>Configure form is displayed</td>
+</tr>
+<tr>
+<td>Update all the values in the form and save</td>
+<td>Success message is displayed</td>
+</tr>
+</tbody>
+</table>
+
 
 <footer class="article-footer">
 	
@@ -64087,17 +64215,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../js/clipboard.min.js?1720679288"></script>
-    <script src="../../../../../js/perfect-scrollbar.min.js?1720679288"></script>
-    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1720679288"></script>
-    <script src="../../../../../js/jquery.sticky.js?1720679288"></script>
-    <script src="../../../../../js/featherlight.min.js?1720679288"></script>
-    <script src="../../../../../js/html5shiv-printshiv.min.js?1720679288"></script>
-    <script src="../../../../../js/modernizr.custom-3.6.0.js?1720679288"></script>
-    <script src="../../../../../js/learn.js?1720679288"></script>
-    <script src="../../../../../js/hugo-learn.js?1720679288"></script>
+    <script src="../../../../../js/clipboard.min.js?1720765704"></script>
+    <script src="../../../../../js/perfect-scrollbar.min.js?1720765704"></script>
+    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1720765704"></script>
+    <script src="../../../../../js/jquery.sticky.js?1720765704"></script>
+    <script src="../../../../../js/featherlight.min.js?1720765704"></script>
+    <script src="../../../../../js/html5shiv-printshiv.min.js?1720765704"></script>
+    <script src="../../../../../js/modernizr.custom-3.6.0.js?1720765704"></script>
+    <script src="../../../../../js/learn.js?1720765704"></script>
+    <script src="../../../../../js/hugo-learn.js?1720765704"></script>
     
-    <script src="../../../../../main.js?1720679288"></script>
+    <script src="../../../../../main.js?1720765704"></script>
     
     
     
