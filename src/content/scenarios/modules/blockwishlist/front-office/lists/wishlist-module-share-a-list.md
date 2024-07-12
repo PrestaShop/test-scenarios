@@ -1,12 +1,12 @@
 ---
 title: "Wishlist module - Share a list"
-weight: 6
+weight: 3
 ---
 
 # Wishlist module - Share a list
 ## Details
 * **Component** : blockwishlist
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3948
 
 ## Steps

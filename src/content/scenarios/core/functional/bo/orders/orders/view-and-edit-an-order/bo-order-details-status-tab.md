@@ -19,7 +19,7 @@ weight: 3
 | Click on Resend email | An alert "The message was successfully sent to the customer." is displayed and the email is well received inbox |
 | Click on "Update status without selecting other status" | An alert "The order has already been assigned this status." is displayed |
 | Select Canceled and Click on "Update status" | An alert "Successful update." is displayed and check:<br><br>Number status = +1 => 2<br><br>Status = canceled<br><br>Employee name & lastname => ok <br><br>Date => ok |
-| Sign out and sing in with another emplyee | The dashboard is well displayed with the new employee |
+| Sign out and sign in with another employee | The dashboard is well displayed with the new employee |
 | Go to BO > Orders > View the last Order > change the status to payment accepted in the status block | An alert "Successful update." is well displayed:<br><br>Check the number of statuses = +1 => 3<br><br>Check the name & first name of the new employee<br><br>Check the status = payment accepted |
 | In the status block > change status to shipped | An alert "Successful update." is well displayed:<br><br>Check the number of statuses = +1 =>4<br><br>Check the status = Shipped |
 | Check the Order note text area | The Ordr note text area is not visible by default |
