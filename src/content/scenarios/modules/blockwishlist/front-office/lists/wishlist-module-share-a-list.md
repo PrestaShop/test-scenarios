@@ -6,8 +6,9 @@ weight: 3
 # Wishlist module - Share a list
 ## Details
 * **Component** : blockwishlist
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3948
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/03_frontOffice/01_lists/03_shareList.ts
 
 ## Steps
 | Step Description | Expected result |

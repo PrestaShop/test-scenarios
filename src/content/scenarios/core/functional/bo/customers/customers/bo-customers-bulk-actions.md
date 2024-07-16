@@ -1,9 +1,9 @@
 ---
-title: "CLONE - BO - Customers - Bulk Actions"
+title: "BO - Customers - Bulk Actions"
 weight: 9
 ---
 
-# CLONE - BO - Customers - Bulk Actions
+# BO - Customers - Bulk Actions
 ## Details
 * **Component** : Core
 * **Status** : Automated
