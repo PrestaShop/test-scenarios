@@ -6,11 +6,9 @@ weight: 1
 # BO - Orders - Shopping carts - Filter table
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : IN REVIEW
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-773
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/01_filterShoppingCarts.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/shopping-cart
 
 ## Steps
 | Step Description | Expected result |
@@ -21,6 +19,8 @@ weight: 1
 | Filter shopping carts by ID | Number of shopping carts < Total of shopping carts<br>The shopping cart id result is equal to the searched ID |
 | Reset all filters | Number of shopping carts = Total of shopping carts |
 | Filter shopping carts by ID order | Number of shopping carts < Total of shopping carts<br>The shopping cart id_order result is equal to the searched ID_Order |
+| Reset all filters | Number of shopping carts = Total of shopping carts |
+| Filter Shopping carts by Status | Number of shopping carts < Total of shopping carts<br>All shopping carts status (Status: ordored/Non ordored)/Abandonned) cart contains the searched status |
 | Reset all filters | Number of shopping carts = Total of shopping carts |
 | Filter Shopping carts by Customer | Number of shopping carts < Total of shopping carts<br>All shopping carts customer contains the searched customer |
 | Reset all filters | Number of shopping carts = Total of shopping carts |
