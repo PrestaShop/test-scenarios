@@ -1,6 +1,6 @@
 ---
 title: "autoupgrade"
-weight: 0
+weight: 1
 ---
 
 # Known bugs (6 campaigns / 2 issues)

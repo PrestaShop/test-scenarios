@@ -1,6 +1,6 @@
 ---
 title: "blockwishlist"
-weight: 1
+weight: 2
 ---
 
 # Known bugs (1 campaigns / 1 issues)

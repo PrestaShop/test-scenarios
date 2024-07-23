@@ -1,9 +1,17 @@
 ---
-title: Modules
-menuTitle: Modules
+title: Known Bugs
+menuTitle: Known Bugs
 chapter: true
+weight: 3
 ---
 
 ## Known bugs
 
-{{% children /%}}
+### Core
+
+* [develop]({{< ref "core/develop.md" >}})
+
+
+### Modules
+
+
