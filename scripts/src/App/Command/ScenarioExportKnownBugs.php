@@ -147,11 +147,11 @@ weight: %d
             foreach($items as $item) {
                 if ($item['type'] == 'core') {
                     $blockCore .= '* [' . $item['branch'] . ']({{< ref "' . $item['type'] . '/' . $item['branch'] . '.md" >}})' . PHP_EOL;
-                    break;
+                    continue;
                 }
                 if ($item['type'] == 'modules') {
                     $blockModules .= '* [' . $item['branch'] . ']({{< ref "' . $item['type'] . '/' . $item['branch'] . '.md" >}})' . PHP_EOL;
-                    break;
+                    continue;
                 }
             }
 
