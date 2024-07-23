@@ -183,7 +183,7 @@ weight: 3
                 mkdir(dirname($file));
             }
 
-            file_put_contents(self::MAIN_FILE, '---
+            file_put_contents($file, '---
 title: ' . ucfirst($item['type']) . '
 menuTitle: ' . ucfirst($item['type']) . '
 chapter: true
