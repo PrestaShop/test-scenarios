@@ -22,6 +22,13 @@
       <description>[FO] Upgrade from 1.7.5 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1585 Steps Step Description Expected result On a fresh 1.7.5.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
+      <title>8.1.x</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/8.1.x.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/8.1.x.html</guid>
+      <description>Known bugs (10 campaigns / 9 issues) tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/01_internalAuthServer/02_resourceEndpoint.ts : PrestaShop#29813 : APIS10 - Create an App object in the BO to manage API accesses of external applications tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/01_authorizationEndpoint.ts : Remove it when Puppeteer will accept self signed certificates tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/02_resourceEndpoint.ts : Remove it when Puppeteer will accept self signed certificates tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts : PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker) tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.</description>
+    </item>
+    <item>
       <title>Access to Menu tab is denied with neither left menu and Url</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/regression/menu/access-to-menu-tab-is-denied-with-neither-left-menu-and-url.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -97,6 +104,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockreassurance/installation/blockreassurance-upgrade.html</guid>
       <description> blockreassurance - Upgrade Details Component : blockreassurance Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-540 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page Click on upgrade A message in green should be displayed Refresh the page The module should be upgraded to the last version </description>
+    </item>
+    <item>
+      <title>blockwishlist</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/modules/blockwishlist.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/modules/blockwishlist.html</guid>
+      <description> Known bugs (1 campaigns / 1 issues) tests/UI/campaigns/02_configuration/02_statisticsTabSettings.spec.ts : PrestaShop#33374 : Blockwislist v3.0 : Call to a member function formatNumber() on null </description>
     </item>
     <item>
       <title>BO - Advanced Parameter - Authorization Server - CRUD</title>
@@ -355,7 +369,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</guid>
-      <description> BO - Debug mode Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-705 Steps Step Description Expected result Go to Orders &amp;gt; Invoices Symfony toolbar is displayed at the bottom of the page Toggle display of the toolbar Toolbar is toggled on and off Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/&#xA;- Edit the fileOrderController.php&amp;quot; - Change the value of the $orderKpiFactory variable. - Go to &amp;ldquo;Orders &amp;gt; Orders&amp;rdquo; in the BO&amp;quot; An exception is displayed Fix the file and go to Orders &amp;gt; Orders&amp;quot; in the BO&amp;quot; The page works fine Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message Click on the debug mode link You are redirected to Performance Page Disable debug mode and save On the top right corner, the debug mode link is no longer displayed </description>
+      <description> BO - Debug mode Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-705 Steps Step Description Expected result Go to BO &amp;gt; Orders Order page is displayed with Symfony toolbar is displayed at the bottom of the page Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/ &amp;gt; Edit the file OrderController.php&amp;quot; &amp;gt; Comment the value of the $orderKpiFactory &amp;gt; Save File is saved Go back to BO &amp;gt; Orders &amp;gt; Refresh Exception is displayed Click on the symfony toolbar See the profiler is displayed Uncomment the variable &amp;gt; Save File is saved Go back to BO &amp;gt; Orders &amp;gt; Refresh Order page is displayed without exception Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message Click on the debug mode link You are redirected to Performance Page Disable debug mode and save On the top right corner, the debug mode link is no longer displayed </description>
     </item>
     <item>
       <title>BO - Design - Email Theme - Preview email themes</title>
@@ -944,13 +958,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/customersgroup/delete-admin-api-customers-group-customergroupid.html</guid>
       <description>DELETE /admin-api/customers/group/{customerGroupId} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8610 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/02_deleteCustomerGroupsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
-    </item>
-    <item>
-      <title>develop</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/develop.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/develop.html</guid>
-      <description>Known bugs tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts : PrestaShop#34505 : API : Endpoint PUT /api/cartRule- Mode debug preprod tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts : PrestaShop#34506 : API : Endpoint POST /api/customers/group - Doc swagger tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/02_putHookStatusId.ts : PrestaShop#34507 : API : Endpoint PUT /api/hook-status - Issues Doc Swagger &amp;amp; Enpoint format tests/UI/campaigns/functional/API/02_endpoints/06_hooks/01_getHooks.ts : PrestaShop#35616 : Endpoint /api/hooks &amp;amp; List of Hooks : Incorrect count of hooks tests/UI/campaigns/functional/API/02_endpoints/06_hooks/02_getHooksId.ts : PrestaShop#34552 : API : Endpoint GET /api/hooks/{id} : Difference between title &amp;amp; name - Enpoint issue tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.</description>
     </item>
     <item>
       <title>EditCheckCart</title>
@@ -1891,11 +1898,11 @@
       <description>[BO] Upgrade from 1.7.5 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1584 Steps Step Description Expected result On a fresh 1.7.5.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
-      <title>8.1.x</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/8.1.x.html</link>
+      <title>8.0.x</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/8.0.x.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/8.1.x.html</guid>
-      <description>Known bugs tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/01_internalAuthServer/02_resourceEndpoint.ts : PrestaShop#29813 : APIS10 - Create an App object in the BO to manage API accesses of external applications tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/01_authorizationEndpoint.ts : Remove it when Puppeteer will accept self signed certificates tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/02_resourceEndpoint.ts : Remove it when Puppeteer will accept self signed certificates tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts : PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker) tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.ts : PrestaShop#30520 : Categories image - harmonization of 2 images tests/UI/campaigns/functional/BO/08_design/06_imageSettings/13_checkProductImageFormat.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/8.0.x.html</guid>
+      <description> Known bugs (2 campaigns / 2 issues) tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/03_viewCarts.js : PrestaShop#29894 : Incorrect number of columns when filtering in Shopping Carts page tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.js : PrestaShop#9779 : [BOOM-4571] Rounding Problem </description>
     </item>
     <item>
       <title>Add a custom currency</title>
@@ -2357,7 +2364,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html</guid>
-      <description>BO - Onboarding Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-713 Steps Step Description Expected result After first login, check that &amp;ldquo;OnBoarding&amp;rdquo; popup is displayed Modal has got:&#xA;* Images and background image&#xA;* Title: &amp;ldquo;Welcome to your shop!&amp;quot;&#xA;* Description: &amp;ldquo;Hi! My name is Preston and I&amp;rsquo;m here to show you around.You will discover a few essential steps before you can launch your shop: Create your first product, customize your shop, configure shipping and payments&amp;hellip; Let&amp;rsquo;s get started!</description>
+      <description>BO - Onboarding Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-713 Steps Step Description Expected result After first login, check that &amp;ldquo;OnBoarding&amp;rdquo; popup is displayed Modal has got:&#xA;* Images and background image&#xA;* Title: &amp;ldquo;Welcome to your shop!&amp;quot;&#xA;* Description: &amp;ldquo;Hi! My name is Preston and I&amp;rsquo;m here to show you around.You will discover a few essential steps before you can launch your shop: Create your first product, customize your shop, configure shipping and payments&amp;hellip; Let&amp;rsquo;s get started!</description>
     </item>
     <item>
       <title>BO - Order creation - Create customer</title>
@@ -3081,6 +3088,13 @@
       <description> ps_banner - Uninstall/Install Details Component : ps_banner Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-416 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_banner The module page should be displayed and module ps_banner should appear in the module page Click on uninstall and confirm the uninstall message by clicking on ok A message should appear in green to indicate that the module is uninstalled Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog Go to Module catalog and search ps_banner The module catalog page should be displayed and module ps_banner should appear in the module page Click on install A message should appear in green to indicate that the module is installed Go to Modules -&amp;gt; Module manager and search ps_banner The module should be displayed </description>
     </item>
     <item>
+      <title>ps_cashondelivery</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/modules/ps_cashondelivery.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/modules/ps_cashondelivery.html</guid>
+      <description> Known bugs (0 campaigns / 0 issues)</description>
+    </item>
+    <item>
       <title>ps_categorytree - Change Maximum depth option</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-categorytree/configuration/ps-categorytree-change-maximum-depth-option.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3389,11 +3403,11 @@
       <description>[BO] Upgrade from 1.7.2 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1583 Steps Step Description Expected result On a fresh 1.7.2.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
-      <title>8.0.x</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/8.0.x.html</link>
+      <title>1.7.8.x</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/1.7.8.x.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/8.0.x.html</guid>
-      <description> Known bugs tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/03_viewCarts.js : PrestaShop#29894 : Incorrect number of columns when filtering in Shopping Carts page tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.js : PrestaShop#9779 : [BOOM-4571] Rounding Problem </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/1.7.8.x.html</guid>
+      <description> Known bugs (1 campaigns / 1 issues) tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/04_taxOptionsForm.js : PrestaShop#32914 : After disabling/enabling a tax, the linked tax rule is not present for the Ecotax </description>
     </item>
     <item>
       <title>blockreassurance - Delete a bloc</title>
@@ -3659,7 +3673,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/pages/categories/bo-design-pages-button-position-on-categories.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/pages/categories/bo-design-pages-button-position-on-categories.html</guid>
-      <description> BO - Design - Pages - Button Position on categories Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7324 </description>
+      <description> BO - Design - Pages - Button Position on categories Details Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-7324 </description>
     </item>
     <item>
       <title>BO - Design - Pages - Sort</title>
@@ -4621,13 +4635,6 @@
       <description>[FO] Upgrade from 1.7.2 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1582 Steps Step Description Expected result On a fresh 1.7.2.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
-      <title>1.7.8.x</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/1.7.8.x.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/1.7.8.x.html</guid>
-      <description> Known bugs tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/04_taxOptionsForm.js : PrestaShop#32914 : After disabling/enabling a tax, the linked tax rule is not present for the Ecotax </description>
-    </item>
-    <item>
       <title>Add a product to a list</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/products/add-a-product-to-a-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4702,7 +4709,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</guid>
-      <description>BO - After autoupgrade, rollback to previous version Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2059 Steps Step Description Expected result In 1-Click Upgrade &amp;gt; go to the section Rollback and choose your backup Rollback from the Release to PS16124 Rollback is OK, and every data are OK. Rollback from The release to PS174x Rollback is OK, and every data are OK. Rollback from the Release to PS175x Rollback is OK, and every data are OK.</description>
+      <description>BO - After autoupgrade, rollback to previous version Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-2059 Steps Step Description Expected result In 1-Click Upgrade &amp;gt; go to the section Rollback and choose your backup Rollback from the Release to PS16124 Rollback is OK, and every data are OK. Rollback from The release to PS174x Rollback is OK, and every data are OK. Rollback from the Release to PS175x Rollback is OK, and every data are OK.</description>
     </item>
     <item>
       <title>BO - Cart rules - Condition - Case 3 - Minimum amount</title>
@@ -5654,7 +5661,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-button-position.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/pages/pages/bo-design-pages-button-position.html</guid>
-      <description> BO - Design - Pages - Button Position Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-7323 </description>
+      <description> BO - Design - Pages - Button Position Details Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-7323 </description>
     </item>
     <item>
       <title>BO - Design - Positions - Unhook module in list by Bulk actions</title>
@@ -6109,7 +6116,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-themecusto/installation/theme-customization-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-themecusto/installation/theme-customization-module-disable-enable-module.html</guid>
-      <description>Theme Customization module - Disable/Enable module Details Component : ps_themecusto Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-4160 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_themecusto The module page list should be displayed and Theme Customization module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
+      <description>Theme Customization module - Disable/Enable module Details Component : ps_themecusto Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4160 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_themecusto The module page list should be displayed and Theme Customization module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
       <title>Uninstall/Install a module</title>
@@ -6263,7 +6270,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/theme-logo/theme-logo/bo-design-theme-logo-reset-to-default.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/theme-logo/theme-logo/bo-design-theme-logo-reset-to-default.html</guid>
-      <description>BO - Design - Theme &amp;amp; Logo - Reset to default Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-922 Steps Step Description Expected result Go to &amp;gt; Design &amp;gt; Theme &amp;amp; Logo Theme &amp;amp; Logo page is displayed correctly Below of the page Click on the button Reset to default A sucess message will be displayed contains : Your theme has been correctly reset to its default settings.</description>
+      <description>BO - Design - Theme &amp;amp; Logo - Reset to default Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-922 Steps Step Description Expected result Go to BO &amp;gt; Design &amp;gt; Theme &amp;amp; Logo &amp;gt; Scroll down to the last block &amp;gt; Click Choose layouts Choose layouts page is displayed correctly Change the first 3 layouts to : Three columns &amp;gt; Save Successful update message is displayed Scroll down to the last block &amp;gt; Click on the button Reset to default A success message will be displayed contains : Your theme has been correctly reset to its default settings.</description>
     </item>
     <item>
       <title>BO - Header - My Profile</title>
@@ -7449,11 +7456,11 @@
       <description>BO - Design - Image Settings - Check base image format Details Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-6094 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/16_checkBaseImageFormat.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type Steps Step Description Expected result * Go to BO &amp;gt; Design &amp;gt; Image settings&#xA;* Scroll down to have image generation option * JPEG/PNG should be checked * You can&amp;rsquo;t unchecked the JPEG/PNG format&#xA;* Base format should be : &amp;ldquo;Use PNG only if the base image is in PNG format&amp;rdquo; On &amp;ldquo;Base format&amp;rdquo; tab, Select &amp;ldquo;Use JPEG&amp;rdquo; The radio point should be checked * Go to Catalog &amp;gt; Product * Clic on &amp;ldquo;Add new product&amp;rdquo;</description>
     </item>
     <item>
-      <title>BO - Details Tab</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-details-tab.html</link>
+      <title>BO - Product Page - Details Tab</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-product-page-details-tab.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-details-tab.html</guid>
-      <description>BO - Details Tab Details Component : Core Status : [TEST] To be automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-5213 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed Go to Tab Details &amp;gt; Add References &amp;gt; Click Save and publish Tab Details is red</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-product-page-details-tab.html</guid>
+      <description>BO - Product Page - Details Tab Details Component : Core Status : [TEST] To be automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-5213 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed Go to Tab Details &amp;gt; Add References &amp;gt; Click Save and publish Tab Details is red</description>
     </item>
     <item>
       <title>Faceted search module - Edit template - Product stock filter</title>
@@ -7643,6 +7650,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-bo-header-buttons.html</guid>
       <description>Faceted search module - BO header buttons Details Component : ps_facetedsearch Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4273 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed Click on &amp;ldquo;Back&amp;rdquo; button The module page list is displayed Search ps_facetedsearch Faceted search module is displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed Click on &amp;ldquo;Translate&amp;rdquo; button &amp;ldquo;Translate this module&amp;rdquo; modal is opened to choose a translation Click anywhere on the window or on the cross of the modal on top right corner * The modal is removed</description>
+    </item>
+    <item>
+      <title>autoupgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/modules/autoupgrade.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/modules/autoupgrade.html</guid>
+      <description>Known bugs (6 campaigns / 2 issues) tests/UI/campaigns/sanity/02_productsBO/02_CRUDStandardProduct.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/03_CRUDProductWithCombinations.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/04_CRUDVirtualProduct.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/05_deleteProduct.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/06_deleteProductsWithBulkActions.</description>
+    </item>
+    <item>
+      <title>develop</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</guid>
+      <description>Known bugs (30 campaigns / 33 issues) tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts : PrestaShop#34505 : API : Endpoint PUT /api/cartRule- Mode debug preprod tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts : PrestaShop#34506 : API : Endpoint POST /api/customers/group - Doc swagger tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/02_putHookStatusId.ts : PrestaShop#34507 : API : Endpoint PUT /api/hook-status - Issues Doc Swagger &amp;amp; Enpoint format tests/UI/campaigns/functional/API/02_endpoints/06_hooks/01_getHooks.ts : PrestaShop#35616 : Endpoint /api/hooks &amp;amp; List of Hooks : Incorrect count of hooks tests/UI/campaigns/functional/API/02_endpoints/06_hooks/02_getHooksId.ts : PrestaShop#34552 : API : Endpoint GET /api/hooks/{id} : Difference between title &amp;amp; name - Enpoint issue tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.</description>
     </item>
   </channel>
 </rss>
