@@ -50,6 +50,30 @@ jobs:
           path: prestashop_178x
           ref: 1.7.8.x
 
+      - name: Checkout Module repository (autoupgrade)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/autoupgrade
+          fetch-depth: 1
+          path: autoupgrade
+          ref: dev
+
+      - name: Checkout Module repository (blockwishlist)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/blockwishlist
+          fetch-depth: 1
+          path: blockwishlist
+          ref: dev
+
+      - name: Checkout Module repository (ps_cashondelivery)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/ps_cashondelivery
+          fetch-depth: 1
+          path: ps_cashondelivery
+          ref: dev
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -65,7 +89,6 @@ jobs:
         run: rm -rf public
 
       - name: Composer install
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: cd scripts && composer install && cd ..
 
       - name: Export JIRA XRay Core 
@@ -80,24 +103,28 @@ jobs:
         run: rm -rf src/content/scenarios/known-bugs/
 
       - name: Export Known bugs
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:knownbugs --config config.json
 
       - name: Remove prestashop directory (on Develop)
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: rm -rf ./prestashop/
 
       - name: Remove prestashop directory (on 8.1.x)
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: rm -rf ./prestashop_81x/
 
       - name: Remove prestashop directory (on 8.0.x)
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: rm -rf ./prestashop_80x/
 
       - name: Remove prestashop directory (on 1.7.8.x)
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: rm -rf ./prestashop_178x/
+
+      - name: Remove module directory (autoupgrade)
+        run: rm -rf ./autoupgrade/
+
+      - name: Remove module directory (blockwishlist)
+        run: rm -rf ./blockwishlist/
+
+      - name: Remove module directory (ps_cashondelivery)
+        run: rm -rf ./ps_cashondelivery/
 
       - name: Commit changes
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}

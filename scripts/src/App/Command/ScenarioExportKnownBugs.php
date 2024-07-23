@@ -13,9 +13,11 @@ use Symfony\Component\Console\Output\OutputInterface;
  
 class ScenarioExportKnownBugs extends AbstractCommand
 {
-    private const DIR = 'src/content/scenarios/known-bugs/';
+    private const MAIN_DIR = 'src/content/scenarios/known-bugs/';
 
-    private const MAIN_FILE = self::DIR . '_index.md';
+    private const MAIN_FILE = self::MAIN_DIR . '_index.md';
+
+    private const DIR = self::MAIN_DIR . '%s/';
 
     private const FILE = self::DIR . '%s.md';
 
@@ -24,7 +26,7 @@ title: "%s"
 weight: %d
 ---
 
-# Known bugs
+# Known bugs (%d campaigns / %d issues)
 ';
 
     /** @var string */
@@ -48,18 +50,22 @@ weight: %d
         $config = \json_decode(\file_get_contents($input->getOption('config')), true);
 
         // Add the main file for the directory
-        $this->processMainFile();
+        $this->processMainFile($config['items']);
+        // Add the main file for each directory
+        $this->processDirFile($config['items']);
 
         $github = new Github($input->getOption('ghtoken'));
         $issues = [];
 
         foreach($config['items'] as $configItem) {
-            $generatedFile = sprintf(self::FILE, $configItem['branch']);
+            $generatedDir = sprintf(self::DIR, $configItem['type']);
+            $generatedFile = sprintf(self::FILE, $configItem['type'], $configItem['branch']);
 
-            $iteratorGenerated = new FilesystemIterator(self::DIR, FilesystemIterator::SKIP_DOTS);
+            $iteratorGenerated = new FilesystemIterator($generatedDir, FilesystemIterator::SKIP_DOTS);
             $countFiles = iterator_count($iteratorGenerated);
 
-            $files = $results = []; 
+            $files = $results = $uniqResults = [];
+            $numCampaigns = $numIssues = 0;
 
             $iterator = new RecursiveIteratorIterator(
                 new RecursiveDirectoryIterator(
@@ -90,12 +96,22 @@ weight: %d
             }
             ksort($results);
 
+            foreach ($results as $urls) {
+                foreach ($urls as $url) {
+                    if (!in_array($url, $uniqResults)) {
+                        $uniqResults[] = $url;
+                    }
+                }
+            }
+
+            $numCampaigns = count($results);
+            $numIssues = count($uniqResults);
             file_put_contents(
                 $generatedFile,
-                sprintf(self::BASE, $configItem['branch'], $countFiles)
+                sprintf(self::BASE, $configItem['branch'], $countFiles, $numCampaigns, $numIssues)
             );
             foreach ($results as $file => $urls) {
-                file_put_contents($generatedFile, '* **['.$file.'](https://github.com/PrestaShop/PrestaShop/tree/' . $configItem['branch'] . '/' . $file . ')** :' . PHP_EOL, FILE_APPEND);
+                file_put_contents($generatedFile, '* **['.$file.'](https://github.com/'.$configItem['repository'].'/tree/' . $configItem['branch'] . '/' . $file . ')** :' . PHP_EOL, FILE_APPEND);
                 foreach($urls as $url) {
                     preg_match('/https:\/\/github.com\/([^\/]+)\/([^\/]+)\/issues\/([0-9]+)/', $url, $matches);
                     if (count($matches) !== 4) {
@@ -120,13 +136,25 @@ weight: %d
         }
     }
 
-    protected function processMainFile(): void
+    protected function processMainFile(array $items): void
     {
         if (!is_dir(dirname(self::MAIN_FILE))) {
             mkdir(dirname(self::MAIN_FILE));
         }
 
         if (!file_exists(self::MAIN_FILE)) {
+            $blockCore = $blockModules = '';
+            foreach($items as $item) {
+                if ($item['type'] == 'core') {
+                    $blockCore .= '* [' . $item['branch'] . ']({{< ref "' . $item['type'] . '/' . $item['branch'] . '.md" >}})' . PHP_EOL;
+                    break;
+                }
+                if ($item['type'] == 'modules') {
+                    $blockModules .= '* [' . $item['branch'] . ']({{< ref "' . $item['type'] . '/' . $item['branch'] . '.md" >}})' . PHP_EOL;
+                    break;
+                }
+            }
+
             file_put_contents(self::MAIN_FILE, '---
 title: Known Bugs
 menuTitle: Known Bugs
@@ -134,7 +162,34 @@ chapter: true
 weight: 3
 ---
 
-## Known bugs per version
+## Known bugs
+
+### Core
+
+' . $blockCore . '
+
+### Modules
+
+' . $blockModules.'
+');
+        }
+    }
+
+    protected function processDirFile(array $items): void
+    {
+        foreach($items as $item) {
+            $file = sprintf(self::FILE, $item['type'], '_index');
+            if (!is_dir(dirname($file))) {
+                mkdir(dirname($file));
+            }
+
+            file_put_contents(self::MAIN_FILE, '---
+title: ' . ucfirst($item['type']) . '
+menuTitle: ' . ucfirst($item['type']) . '
+chapter: true
+---
+
+## Known bugs
 
 {{% children /%}}
 ');
