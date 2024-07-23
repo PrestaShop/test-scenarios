@@ -25,6 +25,5 @@ weight: 3
 | On FO, for each shop, add a customer |  |
 | Make 2 or 3 orders with new products |  |
 | In orders > Orders > Change some status orders (on each shop) | You've a green notification with : "Successful update" |
-| Install some new modules and configure them (partner, PS...) | Configuration is OK |
 | Go to 1-Click Upgrade and Upgrade to the tested build | Everything is OK during upgrade |
 | Check after upgrade that the new version is OK, and that the Shops, products, carriers, discounts, customers, modules, configuration and orders are OK. | You didn't see any issue |

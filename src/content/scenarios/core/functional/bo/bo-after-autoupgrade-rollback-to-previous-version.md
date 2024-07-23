@@ -6,7 +6,7 @@ weight: 4
 # BO - After autoupgrade, rollback to previous version
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-2059
 
 ## Steps

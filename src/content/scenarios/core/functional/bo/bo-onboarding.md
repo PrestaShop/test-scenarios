@@ -6,7 +6,7 @@ weight: 2
 # BO - Onboarding
 ## Details
 * **Component** : Core
-* **Status** : Approved
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-713
 
 ## Steps

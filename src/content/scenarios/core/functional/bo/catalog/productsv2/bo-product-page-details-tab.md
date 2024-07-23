@@ -1,9 +1,9 @@
 ---
-title: "BO - Details Tab"
+title: "BO - Product Page - Details Tab"
 weight: 14
 ---
 
-# BO - Details Tab
+# BO - Product Page - Details Tab
 ## Details
 * **Component** : Core
 * **Status** : [TEST] To be automated

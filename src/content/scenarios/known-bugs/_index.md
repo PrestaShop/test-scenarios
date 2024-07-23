@@ -1,10 +1,9 @@
 ---
-title: Known Bugs
-menuTitle: Known Bugs
+title: Modules
+menuTitle: Modules
 chapter: true
-weight: 3
 ---
 
-## Known bugs per version
+## Known bugs
 
 {{% children /%}}
