@@ -13,10 +13,8 @@ weight: 4
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to Improve > Design > Theme & Logo | Theme & Logo page is displayed correctly |
-| Click to "Add new theme" | You should be able to choose to import from your computer, Import from the web, Import from FTP |
-| Import from your computer<br><br>Click to Browse and select your theme.<br><br>Click to save | Theme should be added<br><br>and Theme & logo page is displayed |
-| Go to _My theme for prestashop shop_  section and  Mouse Hover on the added theme | Use this theme button should be appears |
-| Click on the button Use this theme > click on *yes* button in the confirmation pop-up | Successful update message should be displayed<br>The new theme is well selected |
-| Mouse Hover on  the classic theme > Click on the button use this theme > click on yes button to confirm the pop-up | Current theme is classic <br>Successful update message is displayed |
-| Go to _My theme for prestashop shop_ and click on delete button of new theme added | Delete popup is displayed |
-| Click on YES to delete theme | Successful deletion message is displayed and the theme is deleted |
+| Click on "Add new theme" | Page displayed to Import from your computer, Import from the web and Import from FTP |
+| *Import from your computer*<br><br>Click Browse > Select your theme > Save | Theme & Logo page is displayed and the theme has been added |
+| Scroll down to to My theme for my shop block > Click on Use this theme on the latest added theme > Yes | Successful update message is displayed |
+| Mouse Hover on  the classic theme > Click on the button Use this theme > Yes | Successful update message is displayed |
+| Scroll down to to My theme for my shop block > Click on the trash icon on the latest added theme > Yes | Successful deletion message is displayed |
