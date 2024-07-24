@@ -59,7 +59,7 @@ weight: %d
 
         foreach($config['items'] as $configItem) {
             $generatedDir = sprintf(self::DIR, $configItem['type']);
-            $generatedFile = sprintf(self::FILE, $configItem['type'], $configItem['branch']);
+            $generatedFile = sprintf(self::FILE, $configItem['type'], $configItem['title']);
 
             $iteratorGenerated = new FilesystemIterator($generatedDir, FilesystemIterator::SKIP_DOTS);
             $countFiles = iterator_count($iteratorGenerated);
@@ -108,7 +108,7 @@ weight: %d
             $numIssues = count($uniqResults);
             file_put_contents(
                 $generatedFile,
-                sprintf(self::BASE, $configItem['branch'], $countFiles, $numCampaigns, $numIssues)
+                sprintf(self::BASE, $configItem['title'], $countFiles, $numCampaigns, $numIssues)
             );
             foreach ($results as $file => $urls) {
                 file_put_contents($generatedFile, '* **['.$file.'](https://github.com/'.$configItem['repository'].'/tree/' . $configItem['branch'] . '/' . $file . ')** :' . PHP_EOL, FILE_APPEND);
@@ -146,11 +146,11 @@ weight: %d
             $blockCore = $blockModules = '';
             foreach($items as $item) {
                 if ($item['type'] == 'core') {
-                    $blockCore .= '* [' . $item['branch'] . ']({{< ref "' . $item['type'] . '/' . $item['branch'] . '.md" >}})' . PHP_EOL;
+                    $blockCore .= '* [' . $item['title'] . ']({{< ref "' . $item['type'] . '/' . $item['title'] . '.md" >}})' . PHP_EOL;
                     continue;
                 }
                 if ($item['type'] == 'modules') {
-                    $blockModules .= '* [' . $item['branch'] . ']({{< ref "' . $item['type'] . '/' . $item['branch'] . '.md" >}})' . PHP_EOL;
+                    $blockModules .= '* [' . $item['title'] . ']({{< ref "' . $item['type'] . '/' . $item['title'] . '.md" >}})' . PHP_EOL;
                     continue;
                 }
             }
