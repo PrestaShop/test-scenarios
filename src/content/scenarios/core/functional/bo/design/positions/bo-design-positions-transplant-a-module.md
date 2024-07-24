@@ -13,14 +13,12 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to  BO > Design > Positions | Position page is well displayed |
-| Click on the button *Transplant a module* | Title  of the displayed page should be *Position* <br>The  title of displayed tab should be *Transplant a module* |
+| Click on the button *Hook a module* | Hook a module page is well displayed |
 | Select a module | The choosen module is well selected |
-| Select an option for ' Transplant to ' | The choosen option is well selected |
-| Select an option for Exceptions 'addresses' | The choosen excpetions is well selected |
-| Click on save button | A success message shoud be displayed 'The module transplanted successfully to the hook.' |
-| Go to FO | You should see the banner displayed before the Image slider |
-| Clic on your name ( next to sign out ) | You should see the banner displayed before your account section |
-| Clic on Adresses | The banner isn't displayed before "Home/Your account/Addresses" |
-| Return in BO > Design > Position, In show modules select the module *banner* | Hook displayAdminEndContent is displayed and Banner is highlighted |
-| In Search for a hook field > Search for displayWrapperTop | * Hook displayWrapperTop is displayed and highlighted |
-| Delete everything in the search hook field and in modules field select "All modules" | All hooks are displayed |
+| Select an option for 'Hook to' | The chosen option is well selected |
+| Select an option for Exceptions 'addresses' | The chosen exceptions is well selected |
+| Click on Save button | A success message shoud be displayed 'The module transplanted successfully to the hook.' |
+| Go to FO | See the banner displayed before the Image slider |
+| Log into your account > Click on Adresses | The banner isn't displayed |
+| Go back to BO > Design > Position > Search for Banner in Show field | Hooks displayHome and displayWrapperTop are displayed and highlighted |
+| In displayWrapperTop > Click 3-dot button > Click Unhook | The module was successfully removed from the hook |

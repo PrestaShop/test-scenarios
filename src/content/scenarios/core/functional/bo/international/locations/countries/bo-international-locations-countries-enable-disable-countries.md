@@ -6,8 +6,7 @@ weight: 5
 # BO - International - Locations - Countries - Enable / disable Countries
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1017
 
 ## Steps
