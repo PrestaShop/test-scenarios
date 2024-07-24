@@ -1,9 +1,9 @@
 ---
-title: "BO - International - Locations - Countries - Enable / disable Countries"
+title: "BO - International - Locations - Countries - Enable / Disable Countries"
 weight: 5
 ---
 
-# BO - International - Locations - Countries - Enable / disable Countries
+# BO - International - Locations - Countries - Enable / Disable Countries
 ## Details
 * **Component** : Core
 * **Status** : [TEST] Automation in progress
