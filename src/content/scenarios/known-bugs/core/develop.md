@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (31 campaigns / 34 issues)
+# Known bugs (32 campaigns / 35 issues)
 * **[tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts)** :
   * [PrestaShop#34505 : API : Endpoint `PUT /api/cartRule`- Mode debug preprod ](https://github.com/PrestaShop/PrestaShop/issues/34505)
 * **[tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts)** :
@@ -38,6 +38,8 @@ weight: 1
   * [PrestaShop#30520 : Categories image - harmonization of 2 images ](https://github.com/PrestaShop/PrestaShop/issues/30520)
 * **[tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts)** :
   * [PrestaShop#32404 : Multiple image formats : WebP is not generated when a cover image for a category is uploaded](https://github.com/PrestaShop/PrestaShop/issues/32404)
+* **[tests/UI/campaigns/functional/BO/11_international/02_locations/02_countries/05_enableDisableCountries.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/02_locations/02_countries/05_enableDisableCountries.ts)** :
+  * [PrestaShop#36602 : Payment Modules not enabled for all active countries](https://github.com/PrestaShop/PrestaShop/issues/36602)
 * **[tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts)** :
   * [PrestaShop#33921 : Adding an iframe in PPV2 when the option is disabled leads to an exception](https://github.com/PrestaShop/PrestaShop/issues/33921)
 * **[tests/UI/campaigns/functional/FO/classic/03_userAccount/04_getGDPRDataInPDF.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/04_getGDPRDataInPDF.ts)** :
