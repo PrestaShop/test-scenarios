@@ -6,9 +6,11 @@ weight: 5
 # BO - International - Locations - Countries - Enable / Disable Countries
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1017
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/02_locations/02_countries/05_enableDisableCountries.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/locations/countries
 
 ## Steps
 | Step Description | Expected result |

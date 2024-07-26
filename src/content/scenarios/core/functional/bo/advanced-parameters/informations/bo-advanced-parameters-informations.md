@@ -6,8 +6,11 @@ weight: 1
 # BO - Advanced Parameters - Informations
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1133
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/01_informations/01_informations.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/information
 
 ## Steps
 | Step Description | Expected result |
