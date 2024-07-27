@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (32 campaigns / 35 issues)
+# Known bugs (32 campaigns / 36 issues)
 * **[tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts)** :
   * [PrestaShop#34505 : API : Endpoint `PUT /api/cartRule`- Mode debug preprod ](https://github.com/PrestaShop/PrestaShop/issues/34505)
 * **[tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts)** :
@@ -63,6 +63,7 @@ weight: 1
   * [PrestaShop#33374 : Blockwislist v3.0 : Call to a member function formatNumber() on null](https://github.com/PrestaShop/PrestaShop/issues/33374)
 * **[tests/UI/campaigns/modules/blockwishlist/03_frontOffice/02_products/01_addProductToList.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/03_frontOffice/02_products/01_addProductToList.ts)** :
   * [PrestaShop#36496 : Page "My wishlists" - Sort "Last added" doesn't work ](https://github.com/PrestaShop/PrestaShop/issues/36496)
+  * [PrestaShop#36593 : `blockwishlist` : Add a product (with specific combination) to favorite ](https://github.com/PrestaShop/PrestaShop/issues/36593)
 * **[tests/UI/campaigns/modules/ps_apiresources/01_installation/02_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_apiresources/01_installation/02_disableEnableModule.ts)** :
   * [PrestaShop#34496 : If the module `ps_apiresources` is disabled, Scopes of the module are not disabled](https://github.com/PrestaShop/PrestaShop/issues/34496)
 * **[tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts)** :

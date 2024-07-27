@@ -6,8 +6,10 @@ weight: 5
 # Wishlist module - Uninstall and delete module
 ## Details
 * **Component** : blockwishlist
-* **Status** : [TEST] To be automated
+* **Status** : Automated
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4230
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/01_installation/05_uninstallAndDeleteModule.ts
 
 ## Steps
 | Step Description | Expected result |
