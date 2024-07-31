@@ -5,7 +5,7 @@ weight: 4
 
 # BO - Login - Check links
 ## Details
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9461
 
 ## Steps
