@@ -5,8 +5,10 @@ weight: 4
 
 # BO - Login - Check links
 ## Details
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9461
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/00_login/04_checkLinks.ts
 
 ## Steps
 | Step Description | Expected result |
