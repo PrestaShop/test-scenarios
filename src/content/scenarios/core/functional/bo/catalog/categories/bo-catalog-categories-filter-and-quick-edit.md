@@ -6,11 +6,9 @@ weight: 1
 # BO - Catalog - Categories - Filter And Quick Edit
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-791
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/02_categories/01_filterAndQuickEditCategories.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/categories
 
 ## Steps
 | Step Description | Expected result |
@@ -28,6 +26,7 @@ weight: 1
 | Reset all filters | All filters are reset. All categories are displayed |
 | Filter By Displayed. | The customer list is filtered. Customers listed have the searched status |
 | Reset all filters | All filters are reset. All categories are displayed |
+| Filter by Name | Categories list is filtered. <br><br>Categories (0)<br><br>No records found |
 | Filter by Name | Categories list is filtered. Categories listed contains the searched  "Name" |
 | Change Displayed to "No" with the quick edit | An alert "The status has been successfully updated." is displayed and the Icon is changed to Not-valid |
 | Change Displayed to "YES" with the quick edit | An alert "The status has been successfully updated." is displayed and theIcon is changed to valid |

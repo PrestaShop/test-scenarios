@@ -6,11 +6,9 @@ weight: 6
 # BO - Catalog - Categories - Sort & Pagination
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-796
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/02_categories/05_paginationAndSortCategories.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/categories
 
 ## Steps
 | Step Description | Expected result |
@@ -26,6 +24,8 @@ weight: 6
 | Sort categories by id_category desc | successful update message is displayed<br>categories are sorted by id_category (3 -> 2 -> 1) |
 | Sort categories by name Asc | successful update message is displayed<br>categories are sorted by name (x -> y -> z) |
 | Sort categories by name desc | successful update message is displayed<br>categories are sorted by name (z -> y -> x) |
+| Sort categories by Displayed Asc | successful update message is displayed<br>categories are sorted by Displayed (Yes -> No) |
+| Sort categories by Displayed desc | successful update message is displayed<br>categories are sorted by Displayed (No -> Yes) |
 | sort categories by position Asc | successful update message is displayed<br>categories are sorted by postion (1 -> 2 -> 3) |
 | Delete all product created in the pre-condition with bulk action | All products well deleted |
 | Rest all filters | Filter are well reset |
