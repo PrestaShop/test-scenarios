@@ -13,7 +13,7 @@ weight: 8
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Catalog > Products | Products list page is displayed correctly |
-| Click on "New product" button on the top right of the page > Choose "Virtual product" block in the modal | * A modal "Add new product" is displayed<br> * A description by type is displayed. For Standard product:  " An intangible product that doesn't require shipping. You can also add a downloadable file." |
+| Click on "Add new product" button > Choose "Virtual product" block in the modal | * A modal "Add new product" is displayed<br> * A description by type is displayed. For Standard product:  " An intangible product that doesn't require shipping. You can also add a downloadable file." |
 | Click on "Add new product" button | * New Product page on "Description" tab is displayed<br> * "Virtual product" type description is displayed below the product name field |
 | Fill the main informations on "Description" tab | The content is added |
 | Go to "Details" tab > Fill the "Reference" field | The content is added |
