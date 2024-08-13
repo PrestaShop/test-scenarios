@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Theme & Logo - Advanced Customization - Check links"
+title: "BO - Design - Theme & Logo - Advanced Customization - Check documentation links"
 weight: 2
 ---
 
-# BO - Design - Theme & Logo - Advanced Customization - Check links
+# BO - Design - Theme & Logo - Advanced Customization - Check documentation links
 ## Details
 * **Component** : Core
 * **Status** : Automated

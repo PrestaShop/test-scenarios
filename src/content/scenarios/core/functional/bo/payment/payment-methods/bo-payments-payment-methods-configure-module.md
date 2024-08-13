@@ -1,9 +1,9 @@
 ---
-title: "BO - Payments - Payment methods - Configure module link"
+title: "BO - Payments - Payment methods - Configure module"
 weight: 1
 ---
 
-# BO - Payments - Payment methods - Configure module link
+# BO - Payments - Payment methods - Configure module
 ## Details
 * **Component** : Core
 * **Status** : Automated
