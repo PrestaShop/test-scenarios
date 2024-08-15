@@ -22,13 +22,13 @@
     <title>BO - Catalog - Attributes - CRUD Attributes and Values :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1723617415" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1723617415" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1723617415" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1723617415" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1723617415" rel="stylesheet">
-    <link href="../../../../../../../style.css?1723617415" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1723703785" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1723703785" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1723703785" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1723703785" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1723703785" rel="stylesheet">
+    <link href="../../../../../../../style.css?1723703785" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1723617415"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1723703785"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -5120,9 +5120,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-sort-pagination-and-bulk-actions.html" title="BO - Cart Rules - Sort, pagination and bulk actions" class="dd-item ">
-        <a href="../../../../../../../scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-sort-pagination-and-bulk-actions.html">
-        BO - Cart Rules - Sort, pagination and bulk actions
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-sort-pagination.html" title="BO - Cart Rules - Sort, pagination" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/catalog/discount/cart-rules/bo-cart-rules-sort-pagination.html">
+        BO - Cart Rules - Sort, pagination
         
         </a>
     </li>
@@ -26538,6 +26538,48 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-ui-of-the-module.html" title="Autoupgrade - Verify the UI of the module" class="dd-item ">
         <a href="../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-ui-of-the-module.html">
         Autoupgrade - Verify the UI of the module
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-rollback-and-check-the-changes-on-mixpanel.html" title="Autoupgrade - Rollback and check the changes on mixpanel" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-rollback-and-check-the-changes-on-mixpanel.html">
+        Autoupgrade - Rollback and check the changes on mixpanel
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-report-after-a-fail-of-autoupgrade.html" title="Autoupgrade - Report after a fail of autoupgrade" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-report-after-a-fail-of-autoupgrade.html">
+        Autoupgrade - Report after a fail of autoupgrade
         
         </a>
     </li>
@@ -56541,6 +56583,36 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -64283,11 +64355,9 @@
 <h1 id="bo---catalog---attributes---crud-attributes-and-values">BO - Catalog - Attributes - CRUD Attributes and Values<a href="#bo---catalog---attributes---crud-attributes-and-values"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Automated</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-806">https://forge.prestashop.com/browse/TEST-806</a></li>
-<li><strong>Test</strong> : <a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/04_attributesAndFeatures/01_attributes/01_CRUDAttributesAndValues.ts">https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/04_attributesAndFeatures/01_attributes/01_CRUDAttributesAndValues.ts</a></li>
-<li><strong>Specification</strong> : <a href="https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/attributes-and-features/attributes/edit-add-new-attribute-value">https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/attributes-and-features/attributes/edit-add-new-attribute-value</a></li>
 </ul>
 
 <h2 id="steps">Steps<a href="#steps"></a></h2><table>
@@ -64335,12 +64405,8 @@
 <td>The Attributes page is displayed and the green alert &ldquo;Successful update&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Click on &ldquo;View&rdquo; button of the last attribute updated</td>
+<td>Click on the line of the last attribute updated</td>
 <td>The page title = Attribute Name updated</td>
-</tr>
-<tr>
-<td>Click on the &ldquo;Edit&rdquo; Value button</td>
-<td>The Values page is displayed, the title page = &ldquo;Edit: Value name&rdquo; and the &ldquo;Attribute group = Attribute name updated&rdquo;</td>
 </tr>
 <tr>
 <td>Update Value field &gt; Click &ldquo;Save&rdquo;</td>
@@ -64374,17 +64440,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1723617415"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1723617415"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1723617415"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1723617415"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1723617415"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1723617415"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1723617415"></script>
-    <script src="../../../../../../../js/learn.js?1723617415"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1723617415"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1723703786"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1723703786"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1723703786"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1723703786"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1723703786"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1723703786"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1723703786"></script>
+    <script src="../../../../../../../js/learn.js?1723703786"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1723703786"></script>
     
-    <script src="../../../../../../../main.js?1723617415"></script>
+    <script src="../../../../../../../main.js?1723703786"></script>
     
     
     
