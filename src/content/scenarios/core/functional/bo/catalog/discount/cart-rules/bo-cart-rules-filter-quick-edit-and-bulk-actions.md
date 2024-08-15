@@ -6,11 +6,9 @@ weight: 3
 # BO - Cart Rules - Filter, Quick Edit and bulk actions
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-832
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/02_filterQuickEditAndBulkActionsCartRules.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/cart-rules-listing
 
 ## Steps
 | Step Description | Expected result |
@@ -32,4 +30,12 @@ weight: 3
 | Reset Filter | Number cart rules = Total of cart rules |
 | Click on the icon status to disable the cart rule | A green alert "The status has been successfully updated." is displayed<br><br>The cart rule is well disabled |
 | Click on the icon status again to enable the cart rule | A green alert "The status has been successfully updated." is displayed<br><br>The cart rule is well enabled |
-| Delete the created cart rule by bulk actions | The cart rule is well deleted |
+| Bulk actions -> Select all | The status has been successfully updated.<br> <br>All Cart Rules are selected |
+| Bulk actions -> Disable selection | The status has been successfully updated.<br> <br>All Cart Rules are disabled |
+| Bulk actions -> Select all | The status has been successfully updated.<br> <br>All Cart Rules are selected |
+| Bulk actions -> Enable selection | The status has been successfully updated.<br> <br>All Cart Rules are enabled |
+| Bulk actions -> Select all | The status has been successfully updated.<br> <br>All Cart Rules are selected |
+| Bulk actions -> Unselect all | The status has been successfully updated.<br> <br>All Cart Rules are unselected |
+| Bulk actions -> Delete selected | You must select at least one item to perform a bulk action. |
+| Bulk actions -> Select all | The status has been successfully updated.<br> <br>All Cart Rules are selected |
+| Bulk actions -> Delete selected | The cart rule is well deleted |

@@ -6,11 +6,9 @@ weight: 3
 # BO - Catalog - Brands - Sort & Pagination Brands and Bulk Actions
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-817
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/05_brandsAndSuppliers/brands/brands/02_sortPaginationAndBulkActions.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/brands-and-suppliers/brands-list
 
 ## Steps
 | Step Description | Expected result |
@@ -19,6 +17,12 @@ weight: 3
 | Sort brands by ID desc | Brands are sorted by ID (3 -> 2 -> 1) |
 | Sort brands by Name asc | Brands are sorted by Name (a -> b -> c) |
 | Sort brands by Name desc | Brands are sorted by name (c -> b -> a) |
+| Sort brands by Adresses asc | Brands are sorted by Adresses (0 -> 1 -> 2) |
+| Sort brands by Adresses desc | Brands are sorted by Adresses (2 -> 1 -> 0) |
+| Sort brands by Products asc | Brands are sorted by Products (0 -> 1 -> 2) |
+| Sort brands by Products desc | Brands are sorted by Products (2 -> 1 -> 0) |
+| Sort brands by Enabled asc | Brands are sorted by Enabled (Yes -> No) |
+| Sort brands by Enabled desc | Brands are sorted by Enabled (No -> Yes) |
 | Sort brands by Status asc | Brands are sorted by Status asc (enabled -> disabled) |
 | Sort by brands by Status desc | Brands are sorted by Status desc (disabled -> enabled) |
 | Sort brands by ID asc | Brands are sorted by ID (1 -> 2 -> 3) |

@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart Rules - Sort, pagination and bulk actions"
+title: "BO - Cart Rules - Sort, pagination"
 weight: 2
 ---
 
-# BO - Cart Rules - Sort, pagination and bulk actions
+# BO - Cart Rules - Sort, pagination
 ## Details
 * **Component** : Core
 * **Status** : Automated
@@ -32,4 +32,3 @@ weight: 2
 | Click on Next | The Second page is displayed |
 | Click on Previous | The first page is displayed |
 | Change Display items to 50 | Pagination = 1 |
-| Delete all created cart rules by bulk actions | All cart rules are well deleted |

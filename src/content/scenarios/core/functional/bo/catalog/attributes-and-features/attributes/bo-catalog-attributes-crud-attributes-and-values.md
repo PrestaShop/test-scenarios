@@ -6,11 +6,9 @@ weight: 3
 # BO - Catalog - Attributes - CRUD Attributes and Values
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-806
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/04_attributesAndFeatures/01_attributes/01_CRUDAttributesAndValues.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/attributes-and-features/attributes/edit-add-new-attribute-value
 
 ## Steps
 | Step Description | Expected result |
@@ -24,8 +22,7 @@ weight: 3
 | Set the field Value > Click on "Save" | The Attributes page is displayed and the alert "Successful creation" is displayed |
 | Edit the last attribute created | The title page = "Edit: Attribute name"<br><br>The page is well displayed |
 | Update these fields > Click on "Save" | The Attributes page is displayed and the green alert "Successful update" is displayed |
-| Click on "View" button of the last attribute updated | The page title = Attribute Name updated |
-| Click on the "Edit" Value button | The Values page is displayed, the title page = "Edit: Value name" and the "Attribute group = Attribute name updated" |
+| Click on the line of the last attribute updated | The page title = Attribute Name updated |
 | Update Value field > Click "Save" | The green alert "Successful update" is dislayed |
 | Delete the Value and confirm the deletion | The value is well deleted and the alert "Successful deletion" is displayed |
 | Go to the Attributes page > delete the last attribute created > Confirm the deletion | The alert "Successful deletion." is displayed |
