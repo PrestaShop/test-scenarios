@@ -6,11 +6,9 @@ weight: 2
 # BO - Catalog Price Rules - Filter, sort and pagination
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-835
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/02_filterSortAndPagination.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/catalog-price-rules-listing
 
 ## Steps
 | Step Description | Expected result |
@@ -21,6 +19,8 @@ weight: 2
 | Filter by Name | Number of catalog price rules < Total of catalog price rules and the list contains the searched Name |
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
 | Filter by currency | Number of catalog price rules < Total of catalog price rules and the list contains the searched currency |
+| Reset Filter | Number of catalog price rules = Total of catalog price rules |
+| Filter by country | Number of catalog price rules < Total of catalog price rules and the list contains the searched country |
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
 | Filter by Group | Number of catalog price rules < Total of catalog price rules and the list contains the searched Group |
 | Reset Filter | Number of catalog price rules = Total of catalog price rules |
@@ -45,6 +45,8 @@ weight: 2
 | Sort by Group desc | The list is sorted by group desc |
 | Sort by From quantity asc | The list is sorted by  quanity asc |
 | Sort by From quantity desc | The list is sorted by quantity desc |
+| Sort by Reduction type asc | The list is sorted by reduction type asc |
+| Sort by Reduction type desc | The list is sorted by Reduction type desc |
 | Sort by Reduction asc | The list is sorted by reduction asc |
 | Sort by Reduction desc | The list is sorted by Reduction desc |
 | Sort by Beginning asc | The list is sorted by Begining asc |
@@ -52,4 +54,10 @@ weight: 2
 | Sort by End asc | The list is sorted End asc |
 | Sort by End desc | The list is sorted by End desc |
 | Sort by ID asc | The list is sorted by ID asc |
+| Change pagination for 20 per page | only 20 catalog price rules are displayed |
+| Click to page 2 | Only 1 catalog price rules is displayed |
+| Click to previous page | Only 20 catalog price rules is displayed |
+| Change pagination for 20 per page | all 20 catalog price rules are displayed |
+| Bulk action > Select all | All catalog price rules are selected |
+| Bulk action > Unselect all | All catalog price rules are unselected |
 | Select All catalog price rules created, delete with bulk action and confirm the deletion | A green alert "The selection has been successfully deleted." is displayed |

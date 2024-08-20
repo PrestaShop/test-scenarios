@@ -6,11 +6,9 @@ weight: 1
 # BO - Catalog price Rules - CRUD
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-834
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/01_CRUDCatalogPriceRule.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/edit-or-add-catalog-price-rule
 
 ## Steps
 | Step Description | Expected result |
@@ -26,4 +24,12 @@ weight: 1
 | Go back to BO > Edit the catalog price rule > Save | The catalog price rule is well edited and a green alert "Successful update" is displayed |
 | Go back to your cart > Refresh | See no reduction is displayed |
 | Sign into customer account | See in the shopping cart the new price displayed like so :<br><br>-€34.80- {color:orange}*-20%*{color}<br>{color:#ffa500}€27.84{color} |
+| Go back to BO > Edit the catalog price rule > Save | The catalog price rule is well edited and a green alert "Successful update" is displayed |
+| Go back to your cart > Refresh | See no reduction is displayed |
+| BO > Discounts > Catalog Price Rules > Edit the catalog price rules and save | The catalog price rule is well edited and a green alert "Successful update" is displayed |
+| Go back to your cart > Refresh | See reduction is displayed |
+| Go back to BO > International > Localization > Currencies | Currencies page displayed |
+| Add new currency and save | Successful creation notification |
+| BO > Discounts > Catalog Price Rules > Edit the catalog price rules and save | The catalog price rule is well edited and a green alert "Successful update" is displayed |
+| Go back to your cart > Refresh | See no reduction is displayed |
 | Go back to BO > Delete your catalog price rule > Yes | The catalog price rule is well deleted and a green alert "Successful deletion" is displayed |
