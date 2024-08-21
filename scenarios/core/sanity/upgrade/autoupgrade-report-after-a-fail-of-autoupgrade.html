@@ -22,13 +22,13 @@
     <title>Autoupgrade - Report after a fail of autoupgrade :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1724135378" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1724135378" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1724135378" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1724135378" rel="stylesheet"><link href="../../../../css/auto-complete.css?1724135378" rel="stylesheet">
-    <link href="../../../../style.css?1724135378" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1724221794" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1724221794" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1724221794" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1724221794" rel="stylesheet"><link href="../../../../css/auto-complete.css?1724221794" rel="stylesheet">
+    <link href="../../../../style.css?1724221794" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1724135378"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1724221794"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64382,12 +64382,16 @@
 <td>* You should see the configuration page of the module</td>
 </tr>
 <tr>
+<td>* Do a right click on your bowser to go in &ldquo;Inspect mode&rdquo; <br> * Go to the &ldquo;console&rdquo;<br> * launch {quote} Sentry.captureException(new Error(&lsquo;oh no!&rsquo;)); {quote}</td>
+<td>* You should have the details of what is displayed on your screen directly in a little box<br> * you should see the different request done during the upgrade <br> * The console will answer you with things like &ldquo;&ldquo;dbbff11fd3594bff945d3251e989e634&quot;&rdquo;</td>
+</tr>
+<tr>
 <td>Launch upgrade</td>
 <td>* Upgrade is launched<br> * Your upgrade should display an error when the modules are upgrade<br> * The button &ldquo;Reports a bug&rdquo; should be displayed</td>
 </tr>
 <tr>
 <td>* Clic on &ldquo;Report a bug&rdquo; <br> * Setup your answer and clic on &ldquo;Send a bug report&rdquo;<br> * Go to &ldquo;<a href="https://prestashop.sentry.io/user-feedback/?project=4507254110552064%22">https://prestashop.sentry.io/user-feedback/?project=4507254110552064&quot;</a></td>
-<td>* A new modal &ldquo;Give feedback&rdquo; should be displayed with &ldquo;Email&rdquo; and &ldquo;Description&rdquo; field and &ldquo;Cancel&rdquo; and &ldquo;Send a bug report&rdquo; button <br> * The field Email shouldn&rsquo;t have Email in grey in it and Description field doesn&rsquo;t have &ldquo;Give us details about the error&rdquo; in grey <br> * You should see all the different error send to sentry</td>
+<td>* A new modal &ldquo;Give feedback&rdquo; should be displayed with &ldquo;Email&rdquo; and &ldquo;Description&rdquo; field and &ldquo;Cancel&rdquo; and &ldquo;Send a bug report&rdquo; button <br> * The field Email shouldn&rsquo;t have Email in grey in it and Description field doesn&rsquo;t have &ldquo;Give us details about the error&rdquo; in grey <br> * You should see all the different error send to sentry except your &ldquo;oh no!&rdquo; message</td>
 </tr>
 <tr>
 <td><em>On the rollback part</em><br> * Click on &ldquo;&ndash; choose a backup to restore &ndash;&quot;<br> * Click on the back up <br> * Click on the button &ldquo;Rollback&rdquo;</td>
@@ -64417,17 +64421,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1724135379"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1724135379"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1724135379"></script>
-    <script src="../../../../js/jquery.sticky.js?1724135379"></script>
-    <script src="../../../../js/featherlight.min.js?1724135379"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1724135379"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1724135379"></script>
-    <script src="../../../../js/learn.js?1724135379"></script>
-    <script src="../../../../js/hugo-learn.js?1724135379"></script>
+    <script src="../../../../js/clipboard.min.js?1724221794"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1724221794"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1724221794"></script>
+    <script src="../../../../js/jquery.sticky.js?1724221794"></script>
+    <script src="../../../../js/featherlight.min.js?1724221794"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1724221794"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1724221794"></script>
+    <script src="../../../../js/learn.js?1724221794"></script>
+    <script src="../../../../js/hugo-learn.js?1724221794"></script>
     
-    <script src="../../../../main.js?1724135379"></script>
+    <script src="../../../../main.js?1724221794"></script>
     
     
     
