@@ -6,11 +6,9 @@ weight: 3
 # BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-860
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/02_addresses/03_addressesBulkActions.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/adresses
 
 ## Steps
 | Step Description | Expected result |
@@ -31,6 +29,8 @@ weight: 3
 | Sort Addresses by Firstname desc | Addresses are sorted by Firstname (z -> y -> x) |
 | Sort Addresses by lastname asc | Addresses are sorted by lastname (x -> y -> z) |
 | Sort Addresses by lastname desc | Addresses are sorted by lastname (z -> y -> x) |
+| Sort Addresses by Adress asc | Addresses are sorted by Adress (x -> y -> z) |
+| Sort Addresses by Adress desc | Addresses are sorted by Adress (z -> y -> x) |
 | Sort Addresses by post code asc | Addresses are sorted by post code (1 -> 2 -> 3) |
 | Sort Addresses by post code desc | Addresses are sorted by post code (3 -> 2 -> 1) |
 | Sort Addresses by city asc | Addresses are sorted by city (x -> y -> z) |

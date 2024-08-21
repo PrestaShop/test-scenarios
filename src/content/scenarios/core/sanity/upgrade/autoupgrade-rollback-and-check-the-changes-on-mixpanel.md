@@ -19,9 +19,9 @@ weight: 9
 | Go to the General Parameters > Maintenance" page. Put the shop in maintenance mode" | Maintenance page is displayed correctly. Maintenance mode is activated |
 | Set your "Maintenance IP" by clicking the button "+ Add my IP" and clic on "Save" button | Your IP should be setted on the field and you will have the green notification |
 | * Go to the 1-Click Upgrade page | * You should see the configuration page of the module |
-| Launch upgrade | Upgrade is launched |
-| Refresh the page. Check logged in status | User is logged out |
-| Go to the BO login page. Log in with admin user. Check shop version | Admin user is connected. Version is upgraded |
+| Launch upgrade | * Upgrade is launched<br> * you shouldn't have the rollback option durring the installation<br> * Once finished, you should have a green notification with :<br>"Your store is up to date<br>Before continuing with your tasks, please review the following checklist to ensure smooth operation after recent updates" |
+| Click on 1-click Upgrade to refresh the page. | * User is logged out<br> * you're in the logged in menu |
+| Log in with admin user. | Admin user is connected. Version is upgraded |
 | Go to the General Parameters > Maintenance" page. Put the shop out of maintenance mode" | Maintenance page is displayed correctly. Maintenance mode is deactivated |
 | Go to the FO homepage | Home page is displayed correctly |
 | * Go to BO > 1-click upgrade <br> * Scroll down until the "Rollback" part | * You should see the configuration page of the module<br> * You should have :<br> ** the preselection " – Choose a backup to restore --" next to "Choose your backup:" <br> ** The blue notification "After upgrading your shop, you can rollback to the previous database and files. Use this function if your theme or an essential module is not working correctly. "<br> ** A button "Rollback" |

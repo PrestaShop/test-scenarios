@@ -6,11 +6,9 @@ weight: 3
 # BO - Customers - Pagination and Sort
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-850
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/01_customers/04_paginationAndSortCustomers.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/customers
 
 ## Steps
 | Step Description | Expected result |
@@ -22,6 +20,30 @@ weight: 3
 | Click on Add new customer" | New Customer Page is displayed correctly<br>Page title contains Creating a new Customer" |
 | Fill all information > Click on Save | Customer is saved correctly<br><br>Message is displayed : Successful creation |
 | In list, Filter by First name | Filter is succeeded |
+| Sort by ID desc | List is sort by ID desc |
+| Sort by Social title asc | List is sort by Social title asc |
+| Sort by Social title desc | List is sort by Social title desc |
+| Sort by First name asc | List is sort by First name asc |
+| Sort by First name desc | List is sort by First name desc |
+| Sort by Last name asc | List is sort by Last name asc |
+| Sort by Last name desc | List is sort by Last name desc |
+| Sort by Email address asc | List is sort by Email address asc |
+| Sort by Email address desc | List is sort by Email address desc |
+| Sort by Group asc | List is sort by Group asc |
+| Sort by Group desc | List is sort by Group desc |
+| Sort by Sales asc | List is sort by Sales asc |
+| Sort by Sales desc | List is sort by Sales desc |
+| Sort by Enabled asc | List is sort by Enabled asc |
+| Sort by Enabled desc | List is sort by Enabled desc |
+| Sort by Newsletter asc | List is sort by Newsletter asc |
+| Sort by Newsletter desc | List is sort by Newsletter desc |
+| Sort by Partner offers asc | List is sort by Partner offers asc |
+| Sort by Partner offers desc | List is sort by Partner offers desc |
+| Sort by Registration asc | List is sort by Registration asc |
+| Sort by Registration desc | List is sort by Registration desc |
+| Sort by Last visit asc | List is sort by Last visit asc |
+| Sort by Last visit desc | List is sort by Last visit desc |
+| Sort by ID asc | List is sort by ID asc |
 | Select All Customers > Bulk Action > Disable selection | All customers are disabled<br><br>Message successful update |
 | Select All Customers > Bulk Action > Enable selection | All customers are enabled<br><br>Message successful update |
 | Select All Customers > Bulk Action > Delete selection > Confirm deletion | Customers are successfully deleted<br><br>Message "The selection has been successfully deleted" |

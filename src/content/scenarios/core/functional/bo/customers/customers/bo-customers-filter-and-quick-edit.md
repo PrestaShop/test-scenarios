@@ -6,11 +6,9 @@ weight: 1
 # BO - Customers - Filter and Quick Edit
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-848
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/01_customers/01_filterAndQuickEditCustomers.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/customers
 
 ## Steps
 | Step Description | Expected result |
@@ -28,11 +26,15 @@ weight: 1
 | Reset all filters | All filters are reset. All customers are displayed |
 | Filter By Email. Criteria : pub@prestashop.com | Customers list is filtered. Customers listed have pub@prestashop.com in their Email |
 | Reset all filters | All filters are reset. All customers are displayed |
+| Filter By Group. Criteria : Guest | Customers list is filtered. Customers listed are all enabled |
+| Reset all filters | All filters are reset. All customers are displayed |
 | Filter By Enabled. Criteria : Yes | Customers list is filtered. Customers listed are all enabled |
 | Reset all filters | All filters are reset. All customers are displayed |
 | Filter By Newsletter. Criteria : true | Customers list is filtered. Customers listed have all enabled the Newsletter option |
 | Reset all filters | All filters are reset. All customers are displayed |
 | Filter By Partner Offers. Criteria : Disabled | Customers list is filtered. No customer is displayed in list |
+| Reset all filters | All filters are reset. All customers are displayed |
+| Filter By Registration. | Customers list is filtered. |
 | Reset all filters | All filters are reset. All customers are displayed |
 | Change Enabled to No for the first Customer | Switch button is switched off |
 | Change Enabled to Yes for first Customer | Switch button is switched on |
