@@ -6,11 +6,9 @@ weight: 2
 # BO - Shipping - Carriers - Filter, sort, pagination
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-969
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/02_filterSortAndPagination.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/shipping/carrier
 
 ## Steps
 | Step Description | Expected result |
@@ -35,3 +33,7 @@ weight: 2
 | Sort carriers by position asc | carriers are sorted by position (1->2 -> ...) |
 | Filter by Position of carriers | carrier  list is filtered<br>carrier listed have "1" in  carrier position |
 | Reset all filters | All filters are reset. All carriers are displayed |
+| Carriers created = 11 | Pagination is possible |
+| Change Items per page | You got 2 pages |
+| Go to page 2 | page 2 displayed<br><br>Only one carrier is displayed |
+| Change Items per page | You got 1 pages<br><br>All carriers are displayed |
