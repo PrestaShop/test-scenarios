@@ -1,9 +1,9 @@
 ---
-title: "BO - International - Localization - Currencies - Filter"
+title: "BO - International - Localization - Currencies - Filter & sort & pagination"
 weight: 5
 ---
 
-# BO - International - Localization - Currencies - Filter
+# BO - International - Localization - Currencies - Filter & sort & pagination
 ## Details
 * **Component** : Core
 * **Status** : [TEST] To be automated
@@ -28,3 +28,17 @@ weight: 5
 | Click on *Reset* button | number of currencies is back to initial value<br><br>All available currencies are well displayed <br>Reset button disappears<br><br>Search button is displayed and disabled<br>*Enabled Field* = All |
 | Select value in dropdown list > click on *Search* button | All disabled currencies are well displayed |
 | Click on *Reset* button | number of currencies is back to initial value<br><br>All available currencies are well displayed <br>Reset button disappears<br><br>Search button is displayed and disabled<br>*Enabled Field* = All |
+| Click on Add a new currency button > Choose "Mozambican Metical (MZN)" > Save | Successful creation message is displayed |
+| Sort by ID DESC | List is displayed in descending order |
+| Sort by ID ASC | List is displayed in ascending order |
+| Sort by ISO Code ASC | List is displayed in ascending order by ISO Code |
+| Sort by ISO Code DESC | List is displayed in descending order by ISO Code |
+| Sort by Exchange rate ASC | List is displayed in ascending order by Exchange rate |
+| Sort by Exchange rate DESC | List is displayed in descending order by Exchange rate |
+| Disable Mozambican Metical | The status has been successfully updated. message is displayed |
+| Sort by Enable DESC | List is displayed in descending order by Enable |
+| Sort by Enable ASC | List is displayed in ascending order by Enable |
+| Add 10 more currencies | Successful creation<br>Pagination is displayed |
+| Choose Items per page : 10 | 2 pages are available |
+| Go to page 2 | See 2 currencies are displayed |
+| Choose Items per page : 100 | All currencies are displayed on 1 page |

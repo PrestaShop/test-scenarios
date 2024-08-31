@@ -16,6 +16,7 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > International > Localization page > Languages tab | Page is well displayed and title contains 'Languages' |
+| In Enabled column, disable the language of ID = 2 | The status has been successfully updated. |
 | Filter by ID = 1 | Number of languages after reset < Total of languages <br>All rows column ID contains '1' |
 | Reset filter | Number of languages = Total of languages |
 | Filter by Name = 'English (English)' | Number of languages after reset < Total of languages <br>All rows column Name contains 'English (English)' |
@@ -28,5 +29,8 @@ weight: 1
 | Reset filter | Number of languages = Total of languages |
 | Filter by Data format (full) = 'm/d/Y H:i:s' | Number of languages after reset < Total of languages <br>All rows column Date format (full) contains 'm/d/Y H:i:s' |
 | Reset filter | Number of languages = Total of languages |
-| Filter by Active = 'true' | Number of languages after reset < Total of languages <br>All rows column Active contains 'true' |
+| Filter by Enabled = 'yes' | Language English is displayed |
+| Reset filter | Number of languages = Total of languages |
+| Edit French language > Status = YES > Save | Successful update message is displayed |
+| Filter by Enabled = 'yes' | All languages are displayed : French and English |
 | Reset filter | Number of languages = Total of languages |

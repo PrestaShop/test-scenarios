@@ -1,9 +1,9 @@
 ---
-title: "BO - Orders - Shopping carts - Filter & sort table"
+title: "BO - Orders - Shopping carts - Filter table"
 weight: 1
 ---
 
-# BO - Orders - Shopping carts - Filter & sort table
+# BO - Orders - Shopping carts - Filter table
 ## Details
 * **Component** : Core
 * **Status** : [TEST] Automation in progress
@@ -32,16 +32,3 @@ weight: 1
 | Reset all filters | Number of shopping carts = 6 |
 | Filter Shopping carts by Online | No records found<br><br>Number of shopping carts = 0 |
 | Reset all filters | Number of shopping carts = 6 |
-| Sort by ID ASC | Shopping carts are sorted by ID ASC (1-2-3) |
-| Sort by Order ID ASC | Shopping carts are sorted by Order ID ASC (1-2-3) |
-| Sort by Order ID DESC | Shopping carts are sorted by Order ID DESC (3-2-1) |
-| Sort by Status ASC | Shopping carts are sorted by Status ASC (a-b-c) |
-| Sort by Status DESC | Shopping carts are sorted by Status DESC (z-y-x) |
-| Sort by Customer ASC | Shopping carts are sorted by Customer ASC (a-b-c) |
-| Sort by Customer DESC | Shopping carts are sorted by Customer DESC (z-y-x) |
-| Sort by Carrier ASC | Shopping carts are sorted by Carrier ASC (a-b-c) |
-| Sort by Carrier DESC | Shopping carts are sorted by Carrier DESC (z-y-x) |
-| Sort by Date ASC | Shopping carts are sorted by Date ASC |
-| Sort by Date DESC | Shopping carts are sorted by Date DESC |
-| Sort by Online ASC | Shopping carts are sorted by Online ASC |
-| Sort by Online DESC | Shopping carts are sorted by Online DESC |
