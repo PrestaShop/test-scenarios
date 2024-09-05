@@ -22,13 +22,13 @@
     <title>Autoupgrade - Verification before the upgrade :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1725345351" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1725345351" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1725345351" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1725345351" rel="stylesheet"><link href="../../../../css/auto-complete.css?1725345351" rel="stylesheet">
-    <link href="../../../../style.css?1725345351" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1725517833" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1725517833" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1725517833" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1725517833" rel="stylesheet"><link href="../../../../css/auto-complete.css?1725517833" rel="stylesheet">
+    <link href="../../../../style.css?1725517833" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1725345351"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1725517833"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64483,7 +64483,7 @@
 </tr>
 <tr>
 <td>Launch upgrade</td>
-<td>* Upgrade is launched<br> * you shouldn&rsquo;t have the rollback option durring the installation<br> * After a long time, you should have an AJAX error about passing time</td>
+<td>* Upgrade is launched<br> * you shouldn&rsquo;t have the rollback option durring the installation<br> * After a long time, you should have &ldquo;[INTERNAL] var/www/html/pr_autoup/modules/autoupgrade/classes/Task/Upgrade/Download.php line 49 - Maximum execution time of x seconds exceeded &quot; where x is your maximum execution time</td>
 </tr>
 <tr>
 <td>* Click on 1-click Upgrade <br> * Click on &ldquo;Leave the page&rdquo;</td>
@@ -64494,8 +64494,16 @@
 <td>The file should be saved</td>
 </tr>
 <tr>
-<td>* Go to your [admin_folder_name]&gt; autoupgrade <br> * open a terminal in this folder<br> * On the terminal, launch &ldquo;set chmod 000&rdquo;</td>
-<td>* You should have &ldquo;backup&rdquo;, &ldquo;download&rdquo;, &ldquo;latest&rdquo; and &ldquo;tmp&rdquo; folder <br> * A new terminal appears ! <br> * you should have a new line to enter</td>
+<td>* Go to your [admin_folder_name] <br> * open a terminal in this folder<br> * On the terminal, launch &ldquo;sudo chmod 000 autoupgrade&rdquo;</td>
+<td>* You should have &ldquo;backup&rdquo;, &ldquo;autoupgrade&rdquo;, &ldquo;export&rdquo;, &ldquo;filemanager&rdquo; and &ldquo;import&rdquo; &ldquo;public&rdquo; and&quot;theme&rdquo; folder <br> * A new terminal appears ! <br> * you should have a new line to enter</td>
+</tr>
+<tr>
+<td>* Reload the autoupgrade page<br>* Enable the debug mode</td>
+<td>* Preston should say that there is an issue <br>* You should have a red exception with &ldquo;Cannot write to the directory. Please ensure you have the necessary write permissions on &ldquo;/var/www/html/pr_autoup/admin-dev/autoupgrade&rdquo;.&rdquo;</td>
+</tr>
+<tr>
+<td>* Return on your terminal and launch &ldquo;sudo chmod 777 autoupgrade&rdquo; <br>* Return on the autoupgrade page</td>
+<td>* You should have a new line to enter<br>* Your autoupgrade page is displayed correctly</td>
 </tr>
 </tbody>
 </table>
@@ -64517,17 +64525,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1725345351"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1725345351"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1725345351"></script>
-    <script src="../../../../js/jquery.sticky.js?1725345351"></script>
-    <script src="../../../../js/featherlight.min.js?1725345351"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1725345351"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1725345351"></script>
-    <script src="../../../../js/learn.js?1725345351"></script>
-    <script src="../../../../js/hugo-learn.js?1725345351"></script>
+    <script src="../../../../js/clipboard.min.js?1725517834"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1725517834"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1725517834"></script>
+    <script src="../../../../js/jquery.sticky.js?1725517834"></script>
+    <script src="../../../../js/featherlight.min.js?1725517834"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1725517834"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1725517834"></script>
+    <script src="../../../../js/learn.js?1725517834"></script>
+    <script src="../../../../js/hugo-learn.js?1725517834"></script>
     
-    <script src="../../../../main.js?1725345351"></script>
+    <script src="../../../../main.js?1725517834"></script>
     
     
     
