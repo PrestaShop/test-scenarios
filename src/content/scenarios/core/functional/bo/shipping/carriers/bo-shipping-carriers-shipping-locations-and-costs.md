@@ -5,17 +5,17 @@ weight: 7
 
 # BO - Shipping - Carriers - Shipping locations and costs
 ## Details
-* **Status** : In progress
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9731
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO > Shipping > Carriers | Carriers page diplayed |
-| Click on Add new carrier | A new page is well displayed with a title : New carrier<br>Logo is displayed<br><br>3 tabs are displayed :<br> # General settings <br> # Shipping locations and costs <br> # Size, weight |
+| Go to BO > Shipping > Carriers | Carriers page displayed |
+| Click on Add new carrier | A new page is well displayed with a title : New carrier<br>Logo is displayed<br><br>3 tabs are displayed :<br> # General settings <br> # Shipping locations and costs <br> # Size, weight<br> # Summary |
 | Fill the blank of the first tab "General settings" > Click on Next | The data is saved<br>You are now on Tab 2 : Shipping locations and costs |
-| put your pointer on Handling costs help button | Tooltips displayed |
-| put your pointer on Zones help button | Tooltips displayed |
+| Put your pointer on Handling costs tooltip | Tooltip is displayed |
+| Put your pointer on Out-of-range behavior help button | Tooltip is displayed |
 | Click to Manage taxes | Taxes page displayed |
 | Click to Manage locations | Zones page displayed |
 | Fill the blank of the second tab "Shipping locations and costs" > Click on Next | The data is saved<br><br>You are now on Tab 3 : Size, weight |

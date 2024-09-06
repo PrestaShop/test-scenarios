@@ -5,7 +5,8 @@ weight: 1
 
 # ps_supplierlist - Configure Settings
 ## Details
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7274
 
 ## Steps

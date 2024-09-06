@@ -14,6 +14,8 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
+| Click to Sign in button | Tooltips displayed on Email field : Please fill in this field |
+| Click to Sign in button | Tooltips displayed on Email field : Please fill in this field |
 | Click on "Sign In" link button > Enter a wrong email + password combination > Click on "Sign In" button | * An error message "Authentication failed". is displayed<br> * You can't log in |
 | Enter your email + password with demo account > Click on "Show" | Password is displayed clearly |
 | Click on "Sign in" button | * You are now logged into your customer account<br> * Home page is displayed |
