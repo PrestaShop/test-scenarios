@@ -6,6 +6,7 @@ weight: 8
 # BO - Modules - GDPR - Personal data manager for guest
 ## Details
 * **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7663
 
 ## Steps
