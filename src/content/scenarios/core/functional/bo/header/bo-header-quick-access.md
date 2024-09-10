@@ -6,11 +6,9 @@ weight: 2
 # BO - Header - Quick access
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-703
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/15_header/02_quickAccess.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/common-components/back-office-header/quick-access-dropdown
 
 ## Steps
 | Step Description | Expected result |
@@ -26,3 +24,5 @@ weight: 2
 | Enable "New window" option | Option is enabled<br>"The status has been successfully updated." is displayed |
 | Click on "Quick access" > Click on the link you enabled "new window option" for. | The link is opened on a new window |
 | GO back to previous tab > Check the checkbox in front of the new link > Click on Bulk Actions > Delete selected and confirm | Link is deleted successfully<br>Message "The selection has been successfully deleted." is displayed |
+| Click Bulk action > Select All > Delete selection | The selection has been successfully deleted |
+| Go to Dashboard | Dashboard is well displayed, no error is displayed |
