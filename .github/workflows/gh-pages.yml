@@ -26,6 +26,14 @@ jobs:
           fetch-depth: 1
           path: prestashop
   
+      - name: Checkout PrestaShop repository (8.2.x)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/PrestaShop
+          fetch-depth: 1
+          path: prestashop_82x
+          ref: 8.2.x
+  
       - name: Checkout PrestaShop repository (8.1.x)
         uses: actions/checkout@v4
         with:
@@ -107,6 +115,9 @@ jobs:
 
       - name: Remove prestashop directory (on Develop)
         run: rm -rf ./prestashop/
+
+      - name: Remove prestashop directory (on 8.2.x)
+        run: rm -rf ./prestashop_82x/
 
       - name: Remove prestashop directory (on 8.1.x)
         run: rm -rf ./prestashop_81x/
