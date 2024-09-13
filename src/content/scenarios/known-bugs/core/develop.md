@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (32 campaigns / 36 issues)
+# Known bugs (33 campaigns / 37 issues)
 * **[tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts)** :
   * [PrestaShop#34505 : API : Endpoint `PUT /api/cartRule`- Mode debug preprod ](https://github.com/PrestaShop/PrestaShop/issues/34505)
 * **[tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts)** :
@@ -72,5 +72,7 @@ weight: 1
   * [PrestaShop#35796 : `ps_newproducts` : Invalid input display the block or can't be saved](https://github.com/PrestaShop/PrestaShop/issues/35796)
 * **[tests/UI/campaigns/modules/ps_themecusto/01_installation/05_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_themecusto/01_installation/05_disableEnableModule.ts)** :
   * [PrestaShop#36590 : `ps_themecusto` : Disable the module doesn't hide Tabs](https://github.com/PrestaShop/PrestaShop/issues/36590)
+* **[tests/UI/campaigns/modules/psgdpr/02_configuration/08_personalDataManagerForGuest.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/psgdpr/02_configuration/08_personalDataManagerForGuest.ts)** :
+  * [PrestaShop#36847 : GDPR - Search guest account display result and block "There is no result"](https://github.com/PrestaShop/PrestaShop/issues/36847)
 * **[tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts)** :
   * [PrestaShop#9779 : [BOOM-4571] Rounding Problem](https://github.com/PrestaShop/PrestaShop/issues/9779)
