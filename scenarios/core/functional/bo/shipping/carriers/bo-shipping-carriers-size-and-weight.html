@@ -22,13 +22,13 @@
     <title>BO - Shipping - Carriers - Size and weight :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1726209019" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1726209019" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1726209019" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1726209019" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1726209019" rel="stylesheet">
-    <link href="../../../../../../style.css?1726209019" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1726295547" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1726295547" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1726295547" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1726295547" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1726295547" rel="stylesheet">
+    <link href="../../../../../../style.css?1726295547" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1726209019"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1726295547"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64564,7 +64564,7 @@
 
 <h1 id="bo---shipping---carriers---size-and-weight">BO - Shipping - Carriers - Size and weight<a href="#bo---shipping---carriers---size-and-weight"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : [TEST] Automation in progress</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-9736">https://forge.prestashop.com/browse/TEST-9736</a></li>
 </ul>
 
@@ -64582,7 +64582,7 @@
 </tr>
 <tr>
 <td>Click on Add new carrier</td>
-<td>A new page is well displayed with a title : New carrier<br>Logo is displayed<br><br>3 tabs are displayed :<br> # General settings <br> # Shipping locations and costs <br> # Size, weight</td>
+<td>A new page is well displayed.<br>Logo is displayed<br><br>4 tabs are displayed :<br> # General settings <br> # Shipping locations and costs <br> # Size, weight, and group access<br> # Summary</td>
 </tr>
 <tr>
 <td>Fill the blank of the first tab &ldquo;General settings&rdquo; &gt; Click on Next</td>
@@ -64590,43 +64590,39 @@
 </tr>
 <tr>
 <td>Fill the blank of the second tab &ldquo;Shipping locations and costs&rdquo; &gt; Click on Next</td>
-<td>The data is saved<br><br>You are now on Tab 3 : Size, weight</td>
+<td>The data is saved<br><br>You are now on Tab 3 : Size, weight, and group access</td>
 </tr>
 <tr>
-<td>Fill the blanks of the third tab &ldquo;Size weight and group access&rdquo; &gt; Click on Next</td>
-<td>A green alert &ldquo;Successful creation&rdquo; is displayed<br>A new carrier is well displayed on the list</td>
+<td>Fill the blanks of the third tab &ldquo;Size weight and group access&rdquo; &gt; Click on Finish</td>
+<td>A green alert &ldquo;Successful creation&rdquo; is displayed<br>The new carrier test is displayed on the list</td>
 </tr>
 <tr>
-<td>BO &gt; Catalog &gt; Products &gt; Add new product &gt; fill the form and save</td>
+<td>BO &gt; Catalog &gt; Products &gt; Add new product &gt; Standard product &gt; Add new product &gt; Fill the form &gt; Save</td>
 <td>Successful creation</td>
 </tr>
 <tr>
-<td>Click on View my store &gt; Add the product to cart &gt; Proceed to checkout &gt; Fill in Step 1 and 2 &gt; Continue</td>
-<td>In Step 3,  Test carrier displayed</td>
+<td>Click on 3-dot button in footer &gt; Preview &gt; Add the product to cart &gt; Proceed to checkout &gt; Proceed to checkout &gt; Fill in Step 1 and 2 &gt; Continue to Shipping</td>
+<td>In Step 3, carrier test is displayed</td>
 </tr>
 <tr>
-<td>Modify quantity</td>
+<td>Go back to cart &gt; Modify quantity &gt; Proceed to checkout until Shipping Tab</td>
 <td>Carrier is not longer displayed</td>
 </tr>
 <tr>
-<td>BO &gt; Catalog &gt; Products &gt; Edit the test product carrier</td>
+<td>Go back to BO &gt; Catalog &gt; Products &gt; Edit the test product carrier &gt; In Shipping tab &gt; Save and publish</td>
 <td>Successful update</td>
 </tr>
 <tr>
-<td>Refresh the FO</td>
-<td>test carrier displayed</td>
+<td>Refresh the cart in FO</td>
+<td>Carrier test is no longer displayed</td>
 </tr>
 <tr>
-<td>Modify quantity</td>
-<td>Carrier is not longer displayed</td>
-</tr>
-<tr>
-<td>Delete test carrier</td>
-<td>successful deletion</td>
+<td>Delete carrier test</td>
+<td>Successful deletion</td>
 </tr>
 <tr>
 <td>Delete test product carrier</td>
-<td>successful deletion</td>
+<td>Successful deletion</td>
 </tr>
 </tbody>
 </table>
@@ -64648,17 +64644,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1726209020"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1726209020"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1726209020"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1726209020"></script>
-    <script src="../../../../../../js/featherlight.min.js?1726209020"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1726209020"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1726209020"></script>
-    <script src="../../../../../../js/learn.js?1726209020"></script>
-    <script src="../../../../../../js/hugo-learn.js?1726209020"></script>
+    <script src="../../../../../../js/clipboard.min.js?1726295547"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1726295547"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1726295547"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1726295547"></script>
+    <script src="../../../../../../js/featherlight.min.js?1726295547"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1726295547"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1726295547"></script>
+    <script src="../../../../../../js/learn.js?1726295547"></script>
+    <script src="../../../../../../js/hugo-learn.js?1726295547"></script>
     
-    <script src="../../../../../../main.js?1726209020"></script>
+    <script src="../../../../../../main.js?1726295547"></script>
     
     
     
