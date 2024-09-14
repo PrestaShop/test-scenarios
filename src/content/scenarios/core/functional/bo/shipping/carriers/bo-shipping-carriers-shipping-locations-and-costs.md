@@ -5,38 +5,38 @@ weight: 7
 
 # BO - Shipping - Carriers - Shipping locations and costs
 ## Details
-* **Status** : IN REVIEW
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9731
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > Shipping > Carriers | Carriers page displayed |
-| Click on Add new carrier | A new page is well displayed with a title : New carrier<br>Logo is displayed<br><br>3 tabs are displayed :<br> # General settings <br> # Shipping locations and costs <br> # Size, weight<br> # Summary |
+| Click on Add new carrier | A new page is well displayed<br>Logo is displayed<br><br>4 tabs are displayed :<br> # General settings <br> # Shipping locations and costs <br> # Size, weight, and group access<br> # Summary |
 | Fill the blank of the first tab "General settings" > Click on Next | The data is saved<br>You are now on Tab 2 : Shipping locations and costs |
 | Put your pointer on Handling costs tooltip | Tooltip is displayed |
-| Put your pointer on Out-of-range behavior help button | Tooltip is displayed |
-| Click to Manage taxes | Taxes page displayed |
-| Click to Manage locations | Zones page displayed |
-| Fill the blank of the second tab "Shipping locations and costs" > Click on Next | The data is saved<br><br>You are now on Tab 3 : Size, weight |
-| Fill the blanks of the third tab "Size weight and group access" > Click on Next | A green alert "Successful creation" is displayed<br>A new carrier is well displayed on the list |
-| Click on View my store > Add any product to cart > Proceed to checkout > Fill in Step 1 and 2 > Continue | In Step 3, see Test carrier with correct information |
-| Return to BO and edit the carrier | The data is saved<br><br>You are now on Tab 3 : Size, weight |
-| Refresh the FO | Shipping costs now free |
-| Return to BO and edit the carrier | Successful update |
-| Refresh the FO | transport costs are payable and with an increase for handling costs |
-| Return to BO and edit the carrier | Successful update |
-| Refresh the FO | transport costs are payable and with an increase for tax |
-| Return to BO and edit the MUG THE BEST IS YET TO COME | Successful update |
-| Refresh the FO | transport costs are payable and with an increase for next range |
-| Return to cart and change the quantity and go to checkout | Carrier test is not displayed |
-| Return to cart and change the quantity and go to checkout | Carrier test is displayed |
-| Return to BO and edit the carrier | Successful update |
-| Refresh the FO | carrier test is not displayed |
-| Return to BO and edit the carrier | Successful update<br><br>Range is now with € |
-| Edit ranges | successful update |
-| Refresh the FO | transport costs are payable and with an modify for new range |
-| Return to BO and edit the carrier | Successful update |
-| Return to BO and edit the carrier | Successful update |
-| Refresh the FO | carrier test is not displayed |
-| Return to BO and delete the carrier | Successful deletion |
+| Put your pointer on Out-of-range behavior tooltip | Tooltip is displayed |
+| Fill the blank of the second tab "Shipping locations and costs" > Click on Next | The data is saved<br><br>You are now on Tab 3 : Size, weight, and group access |
+| Fill the blanks of the third tab "Size, weight, and group access" > Click on Next | The data is saved<br><br>You are now on Tab 4 : Summary |
+| Click on Finish | A green alert "Successful creation" is displayed<br>The new carrier is well displayed on the list |
+| Click on View my store > Add product to cart > Proceed to checkout > Proceed to checkout > Fill in Step 1 (Personal info) and 2 (Addresses) > Continue | In Step 3 - Shipping method, see Test carrier is displayed<br><br>-> test - 2 days - €5.00 tax incl. |
+| Return to BO and edit the carrier > Go to tab 2 > Finish | The data is saved<br><br>Message Successful update is displayed |
+| Go back to FO > Refresh | Shipping costs are now free<br><br>-> test - 2 days - Free |
+| Return to BO > Edit the carrier > Go to tab 2 > Finish | Successful update |
+| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €2.00 tax incl. |
+| Return to BO > Edit the carrier > Go to tab 2 > Finish | Successful update |
+| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €2.40 tax incl. |
+| Return to BO > Catalog > Products > Edit the MUG THE BEST IS YET TO COME > Go to Shipping Tab > Edit Weight > Save and publish | Successful update |
+| Go back to FO > Refresh | Shipping costs are not updated<br><br>https://github.com/PrestaShop/PrestaShop/issues/36896 |
+| GO to BO > Edit the carrier > Add manually the ranges > Finish |  |
+| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €24.00 tax incl. |
+| Return to cart > Edit the quantity > Proceed to checkout > Continue to Shipping | Carrier test is not displayed |
+| Return to cart > Edit the quantity > Proceed to checkout > Continue to Shipping | Carrier test is displayed |
+| Return to BO > Edit the carrier > Go to tab 2 > Finish | Successful update |
+| Refresh the FO | Carrier test is not displayed |
+| Return to BO > Edit the carrier > Go to tab 2 > Finish | Ranges are now with € |
+| Edit ranges > Finish | Successful update message is displayed |
+| Refresh the FO | Shipping costs are updated<br><br>-> test - 2 days - €24.00 tax incl. |
+| Return to BO > Edit the carrier > Go to Tab 2 > Delete all ranges > Uncheck Europe and North America > Finish | Successful update message is displayed |
+| Refresh the FO | Carrier test is not displayed |
+| Return to BO > Delete the carrier test > Yes | Successful deletion |

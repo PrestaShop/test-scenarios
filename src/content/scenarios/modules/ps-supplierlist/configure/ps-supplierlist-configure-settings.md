@@ -5,9 +5,10 @@ weight: 1
 
 # ps_supplierlist - Configure Settings
 ## Details
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7274
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_supplierlist/01_configure/01_configureSettings.ts
 
 ## Steps
 | Step Description | Expected result |

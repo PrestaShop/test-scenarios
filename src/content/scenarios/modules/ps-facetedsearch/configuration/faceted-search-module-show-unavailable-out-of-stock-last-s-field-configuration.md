@@ -6,7 +6,8 @@ weight: 4
 # Faceted search module - Show unavailable, out of stock last\'s field configuration
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4150
 
 ## Steps
