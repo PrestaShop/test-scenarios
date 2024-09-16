@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (33 campaigns / 37 issues)
+# Known bugs (34 campaigns / 38 issues)
 * **[tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts)** :
   * [PrestaShop#34505 : API : Endpoint `PUT /api/cartRule`- Mode debug preprod ](https://github.com/PrestaShop/PrestaShop/issues/34505)
 * **[tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts)** :
@@ -66,6 +66,8 @@ weight: 1
   * [PrestaShop#36593 : `blockwishlist` : Add a product (with specific combination) to favorite ](https://github.com/PrestaShop/PrestaShop/issues/36593)
 * **[tests/UI/campaigns/modules/ps_apiresources/01_installation/02_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_apiresources/01_installation/02_disableEnableModule.ts)** :
   * [PrestaShop#34496 : If the module `ps_apiresources` is disabled, Scopes of the module are not disabled](https://github.com/PrestaShop/PrestaShop/issues/34496)
+* **[tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts)** :
+  * [PrestaShop#36906 : `ps_facedsearch`: the switch "Show unavailable, out of stock last" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/36906)
 * **[tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts)** :
   * [PrestaShop#36438 : `ps_facetedsearch` : Invalid input are not considered as invalid](https://github.com/PrestaShop/PrestaShop/issues/36438)
 * **[tests/UI/campaigns/modules/ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts)** :

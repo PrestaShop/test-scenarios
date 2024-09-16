@@ -6,6 +6,7 @@ weight: 7
 # BO - Shipping - Carriers - Shipping locations and costs
 ## Details
 * **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9731
 
 ## Steps

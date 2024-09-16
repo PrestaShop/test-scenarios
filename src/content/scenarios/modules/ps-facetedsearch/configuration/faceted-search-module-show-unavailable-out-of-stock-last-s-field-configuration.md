@@ -6,9 +6,10 @@ weight: 4
 # Faceted search module - Show unavailable, out of stock last\'s field configuration
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4150
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts
 
 ## Steps
 | Step Description | Expected result |
