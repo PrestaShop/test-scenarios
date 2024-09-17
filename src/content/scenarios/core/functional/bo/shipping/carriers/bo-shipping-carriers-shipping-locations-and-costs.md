@@ -24,13 +24,13 @@ weight: 7
 | Return to BO and edit the carrier > Go to tab 2 > Finish | The data is saved<br><br>Message Successful update is displayed |
 | Go back to FO > Refresh | Shipping costs are now free<br><br>-> test - 2 days - Free |
 | Return to BO > Edit the carrier > Go to tab 2 > Finish | Successful update |
-| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €2.00 tax incl. |
+| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €7.00 tax incl.<br><br>(because 5 for the range + 2 Handling costs) |
 | Return to BO > Edit the carrier > Go to tab 2 > Finish | Successful update |
-| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €2.40 tax incl. |
+| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €8.40 tax incl.<br><br>(because (5 for the range + 2 Handling costs) + 20% for tax) |
 | Return to BO > Catalog > Products > Edit the MUG THE BEST IS YET TO COME > Go to Shipping Tab > Edit Weight > Save and publish | Successful update |
-| Go back to FO > Refresh | Shipping costs are not updated<br><br>https://github.com/PrestaShop/PrestaShop/issues/36896 |
+| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €8.40 tax incl.<br><br>(because (5 for the range + 2 Handling costs) + 20% for tax) |
 | GO to BO > Edit the carrier > Add manually the ranges > Finish |  |
-| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €24.00 tax incl. |
+| Go back to FO > Refresh | Shipping costs are updated<br><br>-> test - 2 days - €26.40 tax incl.<br><br>(because (20 for the range + 2 Handling costs) + 20% for tax) |
 | Return to cart > Edit the quantity > Proceed to checkout > Continue to Shipping | Carrier test is not displayed |
 | Return to cart > Edit the quantity > Proceed to checkout > Continue to Shipping | Carrier test is displayed |
 | Return to BO > Edit the carrier > Go to tab 2 > Finish | Successful update |
