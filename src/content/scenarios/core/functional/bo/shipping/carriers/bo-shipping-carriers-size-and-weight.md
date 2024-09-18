@@ -5,6 +5,7 @@ weight: 8
 
 # BO - Shipping - Carriers - Size and weight
 ## Details
+* **Component** : Core
 * **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9736
 

@@ -1,9 +1,9 @@
 ---
-title: Statuses
-menuTitle: Statuses
+title: Order Statuses
+menuTitle: Order Statuses
 chapter: true
 ---
 
-# Statuses
+# Order Statuses
 
 {{% children titlePages="Tests" titleSections="Categories" /%}}

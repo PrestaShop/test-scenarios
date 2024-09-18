@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Product Settings - Update number of product displayed on FO"
+title: "BO - Shop Parameters - Product Settings - Products per page"
 weight: 1
 ---
 
-# BO - Shop Parameters - Product Settings - Update number of product displayed on FO
+# BO - Shop Parameters - Product Settings - Products per page
 ## Details
 * **Component** : Core
 * **Status** : Automated

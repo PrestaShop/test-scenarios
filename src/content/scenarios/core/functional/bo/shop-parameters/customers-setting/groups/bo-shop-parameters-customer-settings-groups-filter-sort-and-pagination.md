@@ -6,11 +6,9 @@ weight: 1
 # BO - Shop Parameters - Customer Settings - Groups - Filter, sort and pagination
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1089
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/04_customerSettings/02_groups/01_filterSortAndPaginationGroups.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/customers-settings/customer-settings
 
 ## Steps
 | Step Description | Expected result |
@@ -22,6 +20,8 @@ weight: 1
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
 | filter by groupe name. | Pages list is filtered. Pages listed have the Groupe name customer in their name |
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
+| filter by Discount(%) | Pages list is filtered. Pages listed have the discount |
+| Reset all filters of Groups table | All filters are reset. All Groups are displayed |
 | filter by members. | Pages list is filtered. Pages listed have the members number = 2 |
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
 | filter by Show prices. | Pages list is filtered. Pages listed have the show prices field is yes |
@@ -30,9 +30,14 @@ weight: 1
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
 | Sort by ID | The list of pages is sorted in descending order by ID desc (3 -> 2 -> 1) |
 | Sort by Group name | The list of pages is sorted in ascending order by Group name asc (a -> b -> c) |
-| Sort by Discount | Pages list is sorted ascently by Group name |
+| Sort by Group name | The list of pages is sorted in descending order by Group name dsc (c -> b -> a) |
+| Sort by Discount | Pages list is sorted dsc by Discount |
+| Sort by Discount | Pages list is sorted asc by discount |
 | Sort by Members | The list of pages is sorted in ascending order by Members (asc (1 -> 2 -> 3) |
+| Sort by Members | The list of pages is sorted in descending order by Members (Dsc (3 -> 2 -> 1) |
 | Sort by date creation | The list of pages is sorted in descending order by Creation date |
+| Sort by date creation | The list of pages is sorted in ascending order by Creation date |
+| Sort by ID | The list of pages is sorted in ascending order by ID asc (1 -> 2 -> 3) |
 | Create 18 new groups from BO | 18 groups are created |
 | Change Display items to 20 | There are two pages |
 | Click on Next | The Second page is displayed |

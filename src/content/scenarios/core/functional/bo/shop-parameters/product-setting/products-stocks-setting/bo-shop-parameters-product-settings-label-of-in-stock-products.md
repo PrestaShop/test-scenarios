@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Product Settings - Update label of in-stock products"
-weight: 2
+title: "BO - Shop Parameters - Product Settings - Label of in-stock products"
+weight: 5
 ---
 
-# BO - Shop Parameters - Product Settings - Update label of in-stock products
+# BO - Shop Parameters - Product Settings - Label of in-stock products
 ## Details
 * **Component** : Core
 * **Status** : Automated

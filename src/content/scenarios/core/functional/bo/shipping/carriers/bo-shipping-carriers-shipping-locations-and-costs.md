@@ -5,9 +5,11 @@ weight: 7
 
 # BO - Shipping - Carriers - Shipping locations and costs
 ## Details
-* **Status** : [TEST] Automation in progress
+* **Component** : Core
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9731
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/07_shippingLocationsAndCosts.ts
 
 ## Steps
 | Step Description | Expected result |
@@ -38,6 +40,6 @@ weight: 7
 | Return to BO > Edit the carrier > Go to tab 2 > Finish | Ranges are now with € |
 | Edit ranges > Finish | Successful update message is displayed |
 | Refresh the FO | Shipping costs are updated<br><br>-> test - 2 days - €24.00 tax incl. |
-| Return to BO > Edit the carrier > Go to Tab 2 > Delete all ranges > Uncheck Europe and North America > Finish | Successful update message is displayed |
+| Return to BO > Edit the carrier > Go to Tab 2 > Edit ranges > Finish | Successful update message is displayed |
 | Refresh the FO | Carrier test is not displayed |
 | Return to BO > Delete the carrier test > Yes | Successful deletion |

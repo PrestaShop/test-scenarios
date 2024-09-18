@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Product Settings - Update default products order by and order method"
+title: "BO - Shop Parameters - Product Settings - Default order by / Default order method"
 weight: 2
 ---
 
-# BO - Shop Parameters - Product Settings - Update default products order by and order method
+# BO - Shop Parameters - Product Settings - Default order by / Default order method
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,14 +1,12 @@
 ---
-title: "BO - Shop Parameters - Order return status - Filter, sort, pagination and bulk actions"
+title: "BO - Shop Parameters - Return statuses - Filter, sort, pagination and bulk actions"
 weight: 2
 ---
 
-# BO - Shop Parameters - Order return status - Filter, sort, pagination and bulk actions
+# BO - Shop Parameters - Return statuses - Filter, sort, pagination and bulk actions
 ## Details
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7654
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/returnStatuses/02_filterSortAndPagination.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/statuses
 
 ## Steps
 | Step Description | Expected result |
@@ -18,11 +16,11 @@ weight: 2
 | Reset all filters and get number of return statuses | Return statuses should be above 0 |
 | Filter order return status by ID | The searched value is displayed correctly |
 | Reset all filters | Number of return statuses after filter = number of return statuses |
-| Filter order return status by Name | The searched value is displayed correctly |
+| Filter order return status by Status | The searched value is displayed correctly |
 | Reset all filters | Number of return statuses after filter = number of return statuses |
 | Sort order return status table by ID Desc | The table is sorted by ID desc |
-| Sort order return status table by Name ASC | The table is sorted by Name ASC |
-| Sort order return status table by Name DESC | The table is sorted by Name DESC |
+| Sort order return status table by Status ASC | The table is sorted by Status ASC |
+| Sort order return status table by Status DESC | The table is sorted by Status DESC |
 | Sort order return status table by ID ASC | The table is sorted by ID ASC |
 | Create 6 order return statuses | Messages Successful creation are displayed<br><br>Title of return status block is now : Return statuses (11)<br><br>Pagination is displayed with 50 elements per page |
 | In block Return statuses (11) > Change pagination to 10 | Page (1/2) is displayed |

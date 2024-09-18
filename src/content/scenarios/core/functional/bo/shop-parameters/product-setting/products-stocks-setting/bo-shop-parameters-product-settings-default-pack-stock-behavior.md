@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Product Settings - Default pack stock management"
-weight: 5
+title: "BO - Shop Parameters - Product Settings - Default pack stock behavior"
+weight: 2
 ---
 
-# BO - Shop Parameters - Product Settings - Default pack stock management
+# BO - Shop Parameters - Product Settings - Default pack stock behavior
 ## Details
 * **Component** : Core
 * **Status** : Automated
