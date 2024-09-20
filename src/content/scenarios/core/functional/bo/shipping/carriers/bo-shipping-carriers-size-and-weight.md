@@ -6,9 +6,10 @@ weight: 8
 # BO - Shipping - Carriers - Size and weight
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9736
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/08_sizeAndWeight.ts
 
 ## Steps
 | Step Description | Expected result |

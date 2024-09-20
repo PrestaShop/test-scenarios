@@ -6,7 +6,8 @@ weight: 1
 # New products block module - Upgrade module
 ## Details
 * **Component** : ps_newproducts
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3989
 
 ## Steps
