@@ -6,11 +6,9 @@ weight: 4
 # BO - Shop Parameters - Contacts - Sort and pagination
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1098
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/05_contact/01_contacts/04_sortAndPagination.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/customers-settings/customer-settings/titles
 
 ## Steps
 | Step Description | Expected result |
@@ -24,3 +22,7 @@ weight: 4
 | Sort by description asc | List is sorted by description asc<br>(a -> b -> c) |
 | Sort by description desc | List is sorted by description desc<br>(c -> b -> a) |
 | Sort by id_contact asc | List is sorted by id_contact asc<br>(1 -> 2 -> 3) |
+| Create 9 new contacts | Number of contacts > 10 |
+| Go to page 2 | Page 2 displayed |
+| Change pagination | Only one page displayed with all Contacts |
+| Delete all new contact | Number of contact = 2 |

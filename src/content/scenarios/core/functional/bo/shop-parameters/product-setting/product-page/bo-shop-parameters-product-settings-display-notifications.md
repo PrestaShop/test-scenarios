@@ -5,7 +5,9 @@ weight: 6
 
 # BO - Shop Parameters - Product Settings - Display notifications
 ## Details
-* **Status** : [TEST] To be automated
+* **Component** : Core
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9807
 
 ## Steps
