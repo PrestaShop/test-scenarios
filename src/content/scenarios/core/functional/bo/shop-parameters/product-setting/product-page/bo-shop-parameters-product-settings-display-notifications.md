@@ -6,9 +6,10 @@ weight: 6
 # BO - Shop Parameters - Product Settings - Display notifications
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9807
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/02_productPage/06_displayNotifications.ts
 
 ## Steps
 | Step Description | Expected result |
