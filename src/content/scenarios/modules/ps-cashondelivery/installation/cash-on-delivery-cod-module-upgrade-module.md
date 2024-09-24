@@ -6,8 +6,10 @@ weight: 1
 # Cash on delivery (COD) module - Upgrade module
 ## Details
 * **Component** : ps_cashondelivery
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4067
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_cashondelivery/01_installation/01_upgradeModule.ts
 
 ## Steps
 | Step Description | Expected result |
