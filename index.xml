@@ -761,7 +761,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html</guid>
-      <description>BO - Shop Parameters - Search - CRUD Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1124 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_CRUDSearch.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search Steps Step Description Expected result Go to Shop Parameters &amp;gt;Search Search page is well displayed Click on Add new alias a new page is displayes named : Add new Create a new aliase &amp;gt;click on save a new alias is added to the list .</description>
+      <description>BO - Shop Parameters - Search - CRUD Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1124 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_CRUDSearch.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search Steps Step Description Expected result Go to Shop Parameters &amp;gt;Search Search page is well displayed Click on Add new alias a new page is displayes named : Aliases Create a new aliase &amp;gt;click on save a new alias is added to the list .</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Search - Tags - Filter, sort, pagination, Bulk actions</title>
@@ -1415,6 +1415,13 @@
       <description>Mail alerts module - BO Header Buttons Details Component : ps_emailalerts Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4147 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/02_configuration/01_boHeaderButtons.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
     </item>
     <item>
+      <title>Mail alerts module - Uninstall/Install module</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-uninstall-install-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-uninstall-install-module.html</guid>
+      <description>Mail alerts module - Uninstall/Install module Details Component : ps_emailalerts Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4115 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/01_installation/01_uninstallAndInstallModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+    </item>
+    <item>
       <title>New products block module - Configure settings of &#34;Products to display&#34; field</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-newproducts/configuration/new-products-block-module-configure-settings-of-products-to-display-field.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1835,13 +1842,6 @@
       <description>Theme Customization module - Upgrade module Details Component : ps_themecusto Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4156 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_themecusto The module page list should be displayed and Theme Customization module should be displayed on the list Click on &amp;ldquo;Upgrade&amp;rdquo; button at the right of the module A modal is open with:&#xA;* Title: &amp;ldquo;Are you sure you want to upgrade this module?</description>
     </item>
     <item>
-      <title>Uninstall/Install</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-install.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-install.html</guid>
-      <description> Uninstall/Install Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-636 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page Click on uninstall&amp;quot; and confirm the uninstall message by clicking on ok&amp;quot; A message should appear in green to indicate that the module is uninstalled Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog Go to Module catalog and search ps_emailalerts The module catalog page should be displayed and module ps_emailalerts should appear in the module page Click on install A message should appear in green to indicate that the module is installed Go to Modules -&amp;gt; Module manager and search ps_emailalerts&amp;quot; The module should be displayed </description>
-    </item>
-    <item>
       <title>UpgradeShop</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgradeshop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2196,7 +2196,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-configuration-of-the-whole-page.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-configuration-of-the-whole-page.html</guid>
-      <description>BO - Design - Email Theme - Configuration of the whole page Details Component : Core Status : [TEST] Automation To Do Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-940 Steps Step Description Expected result Go to BO &amp;gt; Design &amp;gt; Email theme &amp;gt; Scroll down to Email theme block &amp;gt; Click on magnifying glass for classic theme Previewing theme classic page is displayed Click on the HTTPS button for the email &amp;ldquo;account&amp;rdquo; A new tab is displayed with the email template for account in classic theme</description>
+      <description>BO - Design - Email Theme - Configuration of the whole page Details Component : Core Status : [TEST] Automation in progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-940 Steps Step Description Expected result Go to BO &amp;gt; Design &amp;gt; Email theme &amp;gt; Scroll down to Email theme block &amp;gt; Click on magnifying glass for classic theme Previewing theme classic page is displayed Click on the HTTPS button for the email &amp;ldquo;account&amp;rdquo; A new tab is displayed with the email template for account in classic theme</description>
     </item>
     <item>
       <title>BO - Design - Image Settings - CRUD</title>
@@ -3025,6 +3025,13 @@
       <description>GET /admin-api/modules Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8860 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/09_modules/02_getModules.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
+      <title>Mail alerts module - Upgrade module</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-upgrade-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-upgrade-module.html</guid>
+      <description>Mail alerts module - Upgrade module Details Component : ps_emailalerts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4127 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Upgrade&amp;rdquo; option A modal is open with:</description>
+    </item>
+    <item>
       <title>Multishop case</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-googleanalytics/configuration/bo/multishop-case.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3347,13 +3354,6 @@
       <description>TLS Check Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-4901 Steps Step Description Expected result Request the endpoint /admin-dev/api/oauth2/token without HTTPS Receive a response where the HTTP code is 301&#xA;Redirect to the endpoint in HTTPS Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.0 with a valid access token Receive a response where the HTTP code is 426&#xA;Receive a response where the header “Upgrade” is present Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.</description>
     </item>
     <item>
-      <title>Uninstall and delete</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-and-delete.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-and-delete.html</guid>
-      <description> Uninstall and delete Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-637 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page Click on uninstall&amp;quot; and confirm the deletion message by clicking on ok&amp;quot; A message should appear in green to indicate that the module is uninstalled Refresh the page The module should be uninstalled and removed from the module folder </description>
-    </item>
-    <item>
       <title>Upgrade Shop with minor release</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgrade-shop-with-minor-release.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3652,7 +3652,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-back-to-configuration-link.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/email-themes/bo-design-email-theme-back-to-configuration-link.html</guid>
-      <description>BO - Design - Email Theme - Back to configuration link Details Component : Core Status : [TEST] Automation in progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-943 Steps Step Description Expected result Go to BO &amp;gt; Design &amp;gt; Email Theme Email Theme page is displayed Go to Email themes section &amp;gt;Click on the search icon button (in first line : classic) Preview Theme classic page is displayed</description>
+      <description>BO - Design - Email Theme - Back to configuration link Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-943 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/03_emailTheme/03_backToConfigurationLink.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/email-theme Steps Step Description Expected result Go to BO &amp;gt; Design &amp;gt; Email Theme Email Theme page is displayed Go to Email themes section &amp;gt;Click on the search icon button (in first line : classic) Preview Theme classic page is displayed</description>
     </item>
     <item>
       <title>BO - Design - Image Settings - Images generation options</title>
@@ -4334,6 +4334,13 @@
       <description>GET /admin-api/product/{productId} Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8646 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/03_getProductId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
+      <title>Mail alerts module - Uninstall and delete module</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-uninstall-and-delete-module.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-uninstall-and-delete-module.html</guid>
+      <description>Mail alerts module - Uninstall and delete module Details Component : ps_emailalerts Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4128 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/01_installation/03_uninstallAndDeleteModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+    </item>
+    <item>
       <title>New products block module - Configure settings of &#34;Number of days for which the product is considered &#39;new&#39;&#34; field</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-newproducts/configuration/new-products-block-module-configure-settings-of-number-of-days-for-which-the-product-is-considered-new-field.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4591,13 +4598,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-themecusto/installation/theme-customization-module-uninstall-and-delete-module.html</guid>
       <description>Theme Customization module - Uninstall and delete module Details Component : ps_themecusto Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4158 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_themecusto/01_installation/03_uninstallAndDeleteModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_themecusto The module page list should be displayed and Theme Customization module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
-    </item>
-    <item>
-      <title>Upgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/upgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/upgrade.html</guid>
-      <description> Upgrade Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-635 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page Click on upgrade The message should appear in green to indicate that the module is upgraded Refresh the page The module should be upgraded to the last version </description>
     </item>
     <item>
       <title>Upgrade Shop with major release</title>
@@ -5398,11 +5398,11 @@
       <description>Mail alerts module - Customer notifications - Enable/Disable product availability Details Component : ps_emailalerts Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4145 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/02_configuration/01_customerNotifications/01_enableDisableProductAvailability.ts Steps Step Description Expected result Go to Catalog &amp;gt; Products &amp;gt; Click on the product created to go to its product details page (pre-condition) &amp;gt; On &amp;ldquo;Basic settings&amp;rdquo; tab, set 0 in &amp;ldquo;Quantity field &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button and click on &amp;ldquo;Preview&amp;rdquo; button * A successful message &amp;ldquo;Settings updated.</description>
     </item>
     <item>
-      <title>Mail alerts module - Uninstall/Install module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-uninstall-install-module.html</link>
+      <title>Mail alerts module - Reset module</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-reset-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-uninstall-install-module.html</guid>
-      <description>Mail alerts module - Uninstall/Install module Details Component : ps_emailalerts Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4115 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/01_installation/01_uninstallAndInstallModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-reset-module.html</guid>
+      <description>Mail alerts module - Reset module Details Component : ps_emailalerts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4129 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
       <title>New products block module - Reset module</title>
@@ -5811,11 +5811,11 @@
       <description> BO - Orders - View Guest Details Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1614 Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly Reset all filters and get the number of orders The order number &amp;gt; 0 Filter orders by Guest name Number of orders &amp;lt; Total of orders&#xA;An order guest contains the searched guest Click on the guest Link Redirection to the customer details page in a new Tab Delete the created Guest The guest is well deleted </description>
     </item>
     <item>
-      <title>BO - Search - Minimum word length (in characters)</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-minimum-word-length-in-characters.html</link>
+      <title>BO - Search - Maximum word length (in characters)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-maximum-word-length-in-characters.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-minimum-word-length-in-characters.html</guid>
-      <description>BO - Search - Minimum word length (in characters) Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3614 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_editSearchSettings/05_minimumWordLength.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Search &amp;gt; Scroll down to block Search - option Minimum word length (in characters) 3 is displayed Click on View my shop &amp;gt; Search in searchbar &amp;ldquo;pack&amp;rdquo; SEARCH RESULTS</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-maximum-word-length-in-characters.html</guid>
+      <description>BO - Search - Maximum word length (in characters) Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9830 Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Search &amp;gt; Scroll down to block Search - option Minimum word length (in characters) 3 is displayed Click on View my shop &amp;gt; Search in searchbar &amp;ldquo;pack&amp;rdquo; SEARCH RESULTS&#xA;There is 1 product.&#xA;Pack Mug + Framed Poster Click on View my shop &amp;gt; Search in searchbar &amp;ldquo;pac&amp;rdquo; SEARCH RESULTS</description>
     </item>
     <item>
       <title>BO - Shipping - Carriers - Change position</title>
@@ -6091,11 +6091,11 @@
       <description>Mail alerts module - Customer notifications - Enable/Disable order edit Details Component : ps_emailalerts Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4146 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/02_configuration/01_customerNotifications/02_enableDisableOrderEdit.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
     </item>
     <item>
-      <title>Mail alerts module - Upgrade module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-upgrade-module.html</link>
+      <title>Mail alerts module - Disable/Enable module</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-upgrade-module.html</guid>
-      <description>Mail alerts module - Upgrade module Details Component : ps_emailalerts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4127 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Upgrade&amp;rdquo; option A modal is open with:</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-disable-enable-module.html</guid>
+      <description>Mail alerts module - Disable/Enable module Details Component : ps_emailalerts Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4130 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
       <title>New products block module - Disable/Enable module</title>
@@ -6385,11 +6385,11 @@
       <description>BO - Orders - Shopping carts - Export carts Details Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-778 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/04_exportCarts.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/shopping-cart Steps Step Description Expected result Go to FO &amp;gt; Create multiple carts with different products Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; Click on Export carts A .csv file is downloaded with a filename format : cart_date_hour.csv Open the .</description>
     </item>
     <item>
-      <title>BO - Search - Blacklisted words</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-blacklisted-words.html</link>
+      <title>BO - Search - Minimum word length (in characters)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-minimum-word-length-in-characters.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-blacklisted-words.html</guid>
-      <description>BO - Search - Blacklisted words Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-3615 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_editSearchSettings/06_blacklistedWords.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search Steps Step Description Expected result Go to BO &amp;gt; Shop parameters &amp;gt; Search &amp;gt; Scroll down to clock Search - option Blacklisted words See a list of blacklisted words Go to Catalog &amp;gt; Products &amp;gt; Create a standard product &amp;gt; Save Message Successful update is displayed View my shop &amp;gt; Search in searchbar &amp;ldquo;does&amp;rdquo; Search result : No matches were found for your search Go to BO &amp;gt; Shop parameters &amp;gt; Search &amp;gt; Scroll down to clock Search - option Blacklisted words &amp;gt; Delete the word &amp;ldquo;does&amp;rdquo; &amp;gt; Save The settings have been successfully updated.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-minimum-word-length-in-characters.html</guid>
+      <description>BO - Search - Minimum word length (in characters) Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3614 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_editSearchSettings/05_minimumWordLength.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Search &amp;gt; Scroll down to block Search - option Minimum word length (in characters) 3 is displayed Click on View my shop &amp;gt; Search in searchbar &amp;ldquo;pack&amp;rdquo; SEARCH RESULTS</description>
     </item>
     <item>
       <title>BO - Shipping - Carriers - General Settings</title>
@@ -6546,13 +6546,6 @@
       <description>Mail alerts module - Merchant notifications - Enable/Disable new order Details Component : ps_emailalerts Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-4121 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/02_configuration/02_merchantNotifications/01_enableDisableNewOrder.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
     </item>
     <item>
-      <title>Mail alerts module - Uninstall and delete module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-uninstall-and-delete-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-uninstall-and-delete-module.html</guid>
-      <description>Mail alerts module - Uninstall and delete module Details Component : ps_emailalerts Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4128 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/01_installation/03_uninstallAndDeleteModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
-    </item>
-    <item>
       <title>productcomments - Check that rating is displayed</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/fo/productcomments-check-that-rating-is-displayed.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6586,6 +6579,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/lists/share-a-list.html</guid>
       <description>Share a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-558 Steps Step Description Expected result Go to your account. Click on the Wishlist&amp;quot; block. Check the lists&amp;quot; All the list have 2 buttons on the right: 3 little dots AND a garbage can. The default list only have a share&amp;quot; button&amp;quot; Click on the share&amp;quot; button for the default list&amp;quot; A modal appears with the share link.</description>
+    </item>
+    <item>
+      <title>Uninstall/Install</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-install.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-install.html</guid>
+      <description> Uninstall/Install Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-636 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page Click on uninstall&amp;quot; and confirm the uninstall message by clicking on ok&amp;quot; A message should appear in green to indicate that the module is uninstalled Refresh the page The module should be uninstalled and available on Modules -&amp;gt; Module catalog Go to Module catalog and search ps_emailalerts The module catalog page should be displayed and module ps_emailalerts should appear in the module page Click on install A message should appear in green to indicate that the module is installed Go to Modules -&amp;gt; Module manager and search ps_emailalerts&amp;quot; The module should be displayed </description>
     </item>
     <item>
       <title>Uninstall/Install</title>
@@ -6756,6 +6756,13 @@
       <description>BO - Product enable - disable - duplicate - delete with bulk actions Details Component : Core Status : Automated Automated on : 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4777 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/07_productBulkActions.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Standard product&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed</description>
     </item>
     <item>
+      <title>BO - Search - Blacklisted words</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-blacklisted-words.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/edit-search-settings/bo-search-blacklisted-words.html</guid>
+      <description>BO - Search - Blacklisted words Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-3615 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_editSearchSettings/06_blacklistedWords.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search Steps Step Description Expected result Go to BO &amp;gt; Shop parameters &amp;gt; Search &amp;gt; Scroll down to clock Search - option Blacklisted words See a list of blacklisted words Go to Catalog &amp;gt; Products &amp;gt; Create a standard product &amp;gt; Save Message Successful update is displayed View my shop &amp;gt; Search in searchbar &amp;ldquo;does&amp;rdquo; Search result : No matches were found for your search Go to BO &amp;gt; Shop parameters &amp;gt; Search &amp;gt; Scroll down to clock Search - option Blacklisted words &amp;gt; Delete the word &amp;ldquo;does&amp;rdquo; &amp;gt; Save The settings have been successfully updated.</description>
+    </item>
+    <item>
       <title>BO - Shipping - Carriers - Shipping locations and costs</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shipping/carriers/bo-shipping-carriers-shipping-locations-and-costs.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6868,13 +6875,6 @@
       <description>Mail alerts module - Merchant notifications - Enable/Disable out of stock Details Component : ps_emailalerts Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-4122 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/02_configuration/02_merchantNotifications/02_enableDisableOutOfStock.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
     </item>
     <item>
-      <title>Mail alerts module - Reset module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-reset-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-reset-module.html</guid>
-      <description>Mail alerts module - Reset module Details Component : ps_emailalerts Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-4129 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
-    </item>
-    <item>
       <title>productcomments - Approve/Disapprove a comment</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-approve-disapprove-a-comment.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6887,6 +6887,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/ps-emailsubscription-check-that-the-csv-export-by-country-is-working.html</guid>
       <description> ps_emailsubscription - Check that the CSV export by country is working Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-652 Steps Step Description Expected result </description>
+    </item>
+    <item>
+      <title>Uninstall and delete</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-and-delete.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/uninstall-and-delete.html</guid>
+      <description> Uninstall and delete Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-637 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page Click on uninstall&amp;quot; and confirm the deletion message by clicking on ok&amp;quot; A message should appear in green to indicate that the module is uninstalled Refresh the page The module should be uninstalled and removed from the module folder </description>
     </item>
     <item>
       <title>Uninstall and delete</title>
@@ -7071,13 +7078,6 @@
       <description>FO - Product Page - Out-of-Stock behaviour Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6984 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/10_outOfStockBehaviour.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Add new product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed Go to Tab Stocks &amp;gt; Add quantity 300 and save Successful update message is displayed</description>
     </item>
     <item>
-      <title>Mail alerts module - Disable/Enable module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-disable-enable-module.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/mail-alerts-module-disable-enable-module.html</guid>
-      <description>Mail alerts module - Disable/Enable module Details Component : ps_emailalerts Status : [TEST] Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-4130 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
-    </item>
-    <item>
       <title>Mail alerts module - Merchant notifications - Configure the minimum quantity for out of stock (Threshold)</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/merchant-notifications/mail-alerts-module-merchant-notifications-configure-the-minimum-quantity-for-out-of-stock-threshold.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7111,6 +7111,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-symbol-format-settings.html</guid>
       <description>Reset symbol / format settings Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1368 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/08_resetSymbolFormatSettings.ts Steps Step Description Expected result Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated Click Save List of currencies is updated with new Symbol Edit the currency &amp;gt; Click the round arrow to Reset it Currency should be reset</description>
+    </item>
+    <item>
+      <title>Upgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/upgrade.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/installation/upgrade.html</guid>
+      <description> Upgrade Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-635 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page Click on upgrade The message should appear in green to indicate that the module is upgraded Refresh the page The module should be upgraded to the last version </description>
     </item>
     <item>
       <title>[FO] Upgrade from 1.7.4 to last build and then exploratory test on FO</title>
