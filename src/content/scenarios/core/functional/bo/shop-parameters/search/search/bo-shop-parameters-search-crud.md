@@ -16,9 +16,9 @@ weight: 1
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to Shop Parameters >Search | Search page is well displayed |
-| Click on Add new alias | a  new page is displayes named : Add new |
+| Click on Add new alias | a  new page is displayes named : Aliases |
 | Create a new aliase >click on save | a new alias is added to the list .<br><br>Alert Successful creation is displayed |
-| Click on edit for the created alias | A new page is well displayed named : Edit : puul |
+| Click on edit for the created alias | A new page is well displayed named : Aliases |
 | change the informations >click on save | Successful update message  is displayed |
 | Click on the dropdown then click on delete | a popup is displayed with content : <br><br>Delete selected item? <br><br>Yes /No |
 | click on Yes to delete the item | Alert Successful deletion message  is displayed<br>The Alias is well deleted from the list |

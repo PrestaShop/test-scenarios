@@ -1,6 +1,6 @@
 ---
 title: "BO - Search - Blacklisted words"
-weight: 6
+weight: 7
 ---
 
 # BO - Search - Blacklisted words

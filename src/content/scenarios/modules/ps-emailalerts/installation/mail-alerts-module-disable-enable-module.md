@@ -1,12 +1,13 @@
 ---
 title: "Mail alerts module - Disable/Enable module"
-weight: 8
+weight: 5
 ---
 
 # Mail alerts module - Disable/Enable module
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4130
 
 ## Steps
