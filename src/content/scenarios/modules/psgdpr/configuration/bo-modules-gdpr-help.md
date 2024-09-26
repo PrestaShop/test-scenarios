@@ -5,7 +5,9 @@ weight: 5
 
 # BO - Modules - GDPR - Help
 ## Details
+* **Component** : Core
 * **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7595
 
 ## Steps
