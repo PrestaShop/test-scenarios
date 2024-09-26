@@ -81,7 +81,7 @@ weight: %d
                 $files[] = $file->getPathname();        
             }
 
-            foreach($files as $file) {
+            foreach ($files as $file) {
                 $trimFile = str_replace($configItem['path'], '', $file);
                 $content = file_get_contents($file);
                 preg_match_all('/^\s+\/\/\s+@todo\s+:\s+(.*)/m', $content, $matches);
@@ -94,6 +94,22 @@ weight: %d
                     }
                 }
             }
+
+            if ($configItem['title'] === 'autoupgrade') {
+                foreach ([
+                    '.github/workflows/ui-test/nightly.json',
+                    '.github/workflows/ui-test/sanity.json',
+                ] as $file) {
+                    $content = file_get_contents($configItem['path'] . $file);
+                    $data = json_decode($content, true);
+                    foreach ($data['include'] as $datum) {
+                        if (count(array_keys($datum)) > 1 && isset($datum['comment'])) {
+                            $results[$file][] = $datum['comment'];
+                        }
+                    }
+                }
+            }
+
             ksort($results);
 
             foreach ($results as $urls) {
