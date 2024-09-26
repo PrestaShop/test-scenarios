@@ -103,7 +103,9 @@ weight: %d
                     $content = file_get_contents($configItem['path'] . $file);
                     $data = json_decode($content, true);
                     foreach ($data['include'] as $datum) {
-                        if (count(array_keys($datum)) > 1 && isset($datum['comment'])) {
+                        if (count(array_keys($datum)) > 1
+                            && isset($datum['comment'])
+                            && !in_array($datum['comment'], $results[$file])) {
                             $results[$file][] = $datum['comment'];
                         }
                     }
