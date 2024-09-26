@@ -22,13 +22,13 @@
     <title>BO - Search - Maximum word length (in characters) :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../../css/font-awesome.min.css?1727245737" rel="stylesheet">
-    <link href="../../../../../../../../css/syntax-github.css?1727245737" rel="stylesheet">
-    <link href="../../../../../../../../css/featherlight.min.css?1727245737" rel="stylesheet">
-    <link href="../../../../../../../../css/perfect-scrollbar.min.css?1727245737" rel="stylesheet"><link href="../../../../../../../../css/auto-complete.css?1727245737" rel="stylesheet">
-    <link href="../../../../../../../../style.css?1727245737" rel="stylesheet">
+    <link href="../../../../../../../../css/font-awesome.min.css?1727332351" rel="stylesheet">
+    <link href="../../../../../../../../css/syntax-github.css?1727332351" rel="stylesheet">
+    <link href="../../../../../../../../css/featherlight.min.css?1727332351" rel="stylesheet">
+    <link href="../../../../../../../../css/perfect-scrollbar.min.css?1727332351" rel="stylesheet"><link href="../../../../../../../../css/auto-complete.css?1727332351" rel="stylesheet">
+    <link href="../../../../../../../../style.css?1727332351" rel="stylesheet">
 
-    <script src="../../../../../../../../js/jquery-3.3.1.min.js?1727245737"></script>
+    <script src="../../../../../../../../js/jquery-3.3.1.min.js?1727332351"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -26853,6 +26853,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-storybook.html" title="Autoupgrade - STORYBOOK" class="dd-item ">
         <a href="../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-storybook.html">
         Autoupgrade - STORYBOOK
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-check-upgrade-rollback-with-the-cli.html" title="Autoupgrade - Check/Upgrade/Rollback with the CLI" class="dd-item ">
+        <a href="../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-check-upgrade-rollback-with-the-cli.html">
+        Autoupgrade - Check/Upgrade/Rollback with the CLI
         
         </a>
     </li>
@@ -57108,6 +57129,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -64865,7 +64901,7 @@
 <h1 id="bo---search---maximum-word-length-in-characters">BO - Search - Maximum word length (in characters)<a href="#bo---search---maximum-word-length-in-characters"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-9830">https://forge.prestashop.com/browse/TEST-9830</a></li>
 </ul>
 
@@ -64878,32 +64914,48 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Minimum word length (in characters)</td>
-<td>3 is displayed</td>
+<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Maximum word length (in characters)</td>
+<td>15 is displayed</td>
 </tr>
 <tr>
-<td>Click on View my shop &gt; Search in searchbar &ldquo;pack&rdquo;</td>
-<td>SEARCH RESULTS<br>There is 1 product.<br><br>Pack Mug + Framed Poster</td>
+<td>Click on View my shop &gt; Search in searchbar &ldquo;hummingbird shirt&rdquo;</td>
+<td>SEARCH RESULTS<br>There is 1 product.</td>
 </tr>
 <tr>
-<td>Click on View my shop &gt; Search in searchbar &ldquo;pac&rdquo;</td>
-<td>SEARCH RESULTS<br>There is 1 product.<br><br>Pack Mug + Framed Poster</td>
-</tr>
-<tr>
-<td>Click on View my shop &gt; Search in searchbar &ldquo;pa&rdquo;</td>
-<td>No matches were found for your search</td>
-</tr>
-<tr>
-<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Minimum word length (in characters) : 5 &gt; Save</td>
+<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Maximum word length (in characters) : 2 &gt; Save</td>
 <td>The settings have been successfully updated.</td>
 </tr>
 <tr>
-<td>Click on View my shop &gt; Search in searchbar &ldquo;noteb&rdquo;</td>
-<td>SEARCH RESULTS<br>There are 3 products.<br><br>Mountain Fox Notebook<br>Brown Bear Notebook<br>Hummingbird Notebook</td>
+<td>Refresh the FO</td>
+<td>SEARCH RESULTS<br>There are 2 products.</td>
 </tr>
 <tr>
-<td>Click on View my shop &gt; Search in searchbar &ldquo;note&rdquo;</td>
-<td>No matches were found for your search</td>
+<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Maximum word length (in characters) : 1 &gt; Save</td>
+<td>The settings have been successfully updated.</td>
+</tr>
+<tr>
+<td>Refresh the FO</td>
+<td>SEARCH RESULTS<br>There are 13 products.</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Maximum word length (in characters) : 0 &gt; Save</td>
+<td>The settings have been successfully updated.</td>
+</tr>
+<tr>
+<td>Refresh the FO</td>
+<td>SEARCH RESULTS<br>There are 19 products.</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Maximum word length (in characters) : &quot;&quot; &gt; Save</td>
+<td>Tooltips : Veuillez renseigner ce champ.</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Maximum word length (in characters) : &ldquo;vhgfud&rdquo; &gt; Save</td>
+<td>The Maximum word length (in characters) field is invalid.</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Scroll down to block Search - option Maximum word length (in characters) : 15 &gt; Save</td>
+<td>The settings have been successfully updated.</td>
 </tr>
 </tbody>
 </table>
@@ -64925,17 +64977,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../../js/clipboard.min.js?1727245737"></script>
-    <script src="../../../../../../../../js/perfect-scrollbar.min.js?1727245737"></script>
-    <script src="../../../../../../../../js/perfect-scrollbar.jquery.min.js?1727245737"></script>
-    <script src="../../../../../../../../js/jquery.sticky.js?1727245737"></script>
-    <script src="../../../../../../../../js/featherlight.min.js?1727245737"></script>
-    <script src="../../../../../../../../js/html5shiv-printshiv.min.js?1727245737"></script>
-    <script src="../../../../../../../../js/modernizr.custom-3.6.0.js?1727245737"></script>
-    <script src="../../../../../../../../js/learn.js?1727245737"></script>
-    <script src="../../../../../../../../js/hugo-learn.js?1727245737"></script>
+    <script src="../../../../../../../../js/clipboard.min.js?1727332351"></script>
+    <script src="../../../../../../../../js/perfect-scrollbar.min.js?1727332351"></script>
+    <script src="../../../../../../../../js/perfect-scrollbar.jquery.min.js?1727332351"></script>
+    <script src="../../../../../../../../js/jquery.sticky.js?1727332351"></script>
+    <script src="../../../../../../../../js/featherlight.min.js?1727332351"></script>
+    <script src="../../../../../../../../js/html5shiv-printshiv.min.js?1727332351"></script>
+    <script src="../../../../../../../../js/modernizr.custom-3.6.0.js?1727332351"></script>
+    <script src="../../../../../../../../js/learn.js?1727332351"></script>
+    <script src="../../../../../../../../js/hugo-learn.js?1727332351"></script>
     
-    <script src="../../../../../../../../main.js?1727245737"></script>
+    <script src="../../../../../../../../main.js?1727332351"></script>
     
     
     
