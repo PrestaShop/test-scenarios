@@ -22,13 +22,13 @@
     <title>BO - Advanced parameters - Team - Roles - CRUD :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1727418571" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1727418571" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1727418571" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1727418571" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1727418571" rel="stylesheet">
-    <link href="../../../../../../../style.css?1727418571" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1727505348" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1727505348" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1727505348" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1727505348" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1727505348" rel="stylesheet">
+    <link href="../../../../../../../style.css?1727505348" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1727418571"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1727505348"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -2654,6 +2654,48 @@
       <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-enable-disable-log-emails.html" title="BO - Advanced parameters - Email - Enable/Disable log emails" class="dd-item ">
         <a href="../../../../../../../scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-enable-disable-log-emails.html">
         BO - Advanced parameters - Email - Enable/Disable log emails
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-send-emails-to.html" title="BO - Advanced parameters - Email - Send emails to" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-send-emails-to.html">
+        BO - Advanced parameters - Email - Send emails to
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-enable-the-store-name-as-a-prefix-in-the-email-s-subject.html" title="BO - Advanced parameters - Email - Enable the store name as a prefix in the email&#39;s subject" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-enable-the-store-name-as-a-prefix-in-the-email-s-subject.html">
+        BO - Advanced parameters - Email - Enable the store name as a prefix in the email&#39;s subject
         
         </a>
     </li>
@@ -43126,6 +43168,36 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -64895,11 +64967,9 @@
 <h1 id="bo---advanced-parameters---team---roles---crud">BO - Advanced parameters - Team - Roles - CRUD<a href="#bo---advanced-parameters---team---roles---crud"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Automated</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1157">https://forge.prestashop.com/browse/TEST-1157</a></li>
-<li><strong>Test</strong> : <a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/06_team/roles/02_CRUDRoles.ts">https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/06_team/roles/02_CRUDRoles.ts</a></li>
-<li><strong>Specification</strong> : <a href="https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/team-employees/add-new-edit-profile">https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/team-employees/add-new-edit-profile</a></li>
 </ul>
 
 <h2 id="steps">Steps<a href="#steps"></a></h2><table>
@@ -64911,44 +64981,44 @@
 </thead>
 <tbody>
 <tr>
-<td>go to &lsquo;Advanced parameters &gt; Team &gt; Profiles&rsquo; page</td>
-<td>title contains &lsquo;Profiles&rsquo;</td>
+<td>go to &lsquo;Advanced parameters &gt; Team &gt; Roles page</td>
+<td>title contains &lsquo;Roles&rsquo;</td>
 </tr>
 <tr>
 <td>reset filter</td>
-<td>Total of profiles &gt; 0</td>
+<td>Total of Roles &gt; 0</td>
 </tr>
 <tr>
-<td>go to add new profile</td>
-<td>title contains &lsquo;Add new&rsquo;</td>
+<td>go to add new Role</td>
+<td>title contains &lsquo;New Role&rsquo;</td>
 </tr>
 <tr>
-<td>create profile<br>Criteria :<br>name: faker.name.jobType() from faker</td>
-<td>Successful message is displayed<br>Number of profiles = Total of profiles + 1</td>
+<td>create Role<br>Criteria :<br>name: faker.name.jobType() from faker</td>
+<td>Successful message is displayed<br>Number of Roles = Total of Roles + 1</td>
 </tr>
 <tr>
 <td>Filter list by new name</td>
-<td>Number of profiles &lt; Total of profiles + 1<br>all rows column &rsquo;name&rsquo; contain the new name</td>
+<td>Number of Roles &lt; Total of Roles + 1<br>all rows column &rsquo;name&rsquo; contain the new name</td>
 </tr>
 <tr>
-<td>Go to edit profile page</td>
-<td>title contains &lsquo;Edit&rsquo;</td>
+<td>Go to edit Roles page</td>
+<td>title contains &lsquo;Editing&rsquo;</td>
 </tr>
 <tr>
-<td>update profile<br>Criteria :<br>name: faker.name.jobType() from faker</td>
+<td>update Role<br>Criteria :<br>name: faker.name.jobType() from faker</td>
 <td>Successful update message is displayed</td>
 </tr>
 <tr>
 <td>Filter list by new name</td>
-<td>Number of profiles &lt; Total of profiles + 1<br>all rows column &rsquo;name&rsquo; contain the updated name</td>
+<td>Number of Roles &lt; Total of Roles + 1<br>all rows column &rsquo;name&rsquo; contain the updated name</td>
 </tr>
 <tr>
-<td>Delete profile</td>
-<td>Successful message is displayed<br>Number of profiles = Total of profiles</td>
+<td>Delete Role</td>
+<td>Successful message is displayed<br>Number of Roles = Total of Roles</td>
 </tr>
 <tr>
 <td>reset filter</td>
-<td>Total of profiles &gt; 0</td>
+<td>Total of Roles &gt; 0</td>
 </tr>
 </tbody>
 </table>
@@ -64970,17 +65040,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1727418571"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1727418571"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1727418571"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1727418571"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1727418571"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1727418571"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1727418571"></script>
-    <script src="../../../../../../../js/learn.js?1727418571"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1727418571"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1727505348"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1727505348"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1727505348"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1727505348"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1727505348"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1727505348"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1727505348"></script>
+    <script src="../../../../../../../js/learn.js?1727505348"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1727505348"></script>
     
-    <script src="../../../../../../../main.js?1727418571"></script>
+    <script src="../../../../../../../main.js?1727505348"></script>
     
     
     
