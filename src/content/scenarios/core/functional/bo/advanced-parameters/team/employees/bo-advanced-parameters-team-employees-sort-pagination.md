@@ -6,11 +6,9 @@ weight: 4
 # BO - Advanced parameters - Team - Employees - Sort pagination
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1153
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/06_team/employees/05_sortAndPagination.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/team-employees
 
 ## Steps
 | Step Description | Expected result |
@@ -36,8 +34,8 @@ weight: 4
 | Sort by  Last name desc | employees list are sorted by Last name (c-> b ->a) |
 | Sort by  Emaill Address asc | employees list are sorted by  Emaill Address (a-> b ->c ...) |
 | Sort by  Emaill Address desc | employees list are sorted by  Emaill Address (c-> b ->a) |
-| Sort by   Profile asc | employees list are sorted by  Profile (a-> b ->c ...) |
-| Sort by   Profile desc | employees list are sorted by  Profile (c-> b ->a) |
+| Sort by  Role asc | employees list are sorted by  Role (a-> b ->c ...) |
+| Sort by  Role desc | employees list are sorted by  Role (c-> b ->a) |
 | Sort by Active status asc | employees list are sorted by  active status 'NO'–> 'YES' |
 | Sort by Active status desc | employees list are sorted by  active status 'YES'–> 'NO' |
 | Change the items number to 10 per page | 2 pages are displayed (page 1/2) |

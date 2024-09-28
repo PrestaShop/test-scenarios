@@ -6,11 +6,9 @@ weight: 1
 # BO - Advanced parameters - Team - Employees - Filter and Quick Edit
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1150
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/06_team/employees/01_filterAndQuickEditEmployees.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/team-employees
 
 ## Steps
 | Step Description | Expected result |
@@ -26,6 +24,8 @@ weight: 1
 | filter by 'lastname' | Number of employees < Total of employees + 1<br>all rows column 'lastname' contains value of created employee |
 | reset filter | Number of employees = Total of employees + 1 |
 | filter by 'email' | Number of employees < Total of employees + 1<br>all rows column 'email' contains value of created employee |
+| reset filter | Number of employees = Total of employees + 1 |
+| filter by 'Role' | Number of employees < Total of employees + 1<br>all rows column 'email' contains value of created employee |
 | reset filter | Number of employees = Total of employees + 1 |
 | filter by 'active' | Number of employees < Total of employees + 1<br>all rows column 'active' contains 'clear' |
 | reset filter | Number of employees = Total of employees + 1 |
