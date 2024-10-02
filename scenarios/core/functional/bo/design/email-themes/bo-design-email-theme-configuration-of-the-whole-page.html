@@ -22,13 +22,13 @@
     <title>BO - Design - Email Theme - Configuration of the whole page :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1727764229" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1727764229" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1727764229" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1727764229" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1727764229" rel="stylesheet">
-    <link href="../../../../../../style.css?1727764229" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1727850585" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1727850585" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1727850585" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1727850585" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1727850585" rel="stylesheet">
+    <link href="../../../../../../style.css?1727850585" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1727764229"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1727850585"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64980,7 +64980,7 @@
 </tr>
 <tr>
 <td>Click on the HTTPS button for the email &ldquo;account&rdquo;</td>
-<td>A new tab is displayed with the <em>email template</em> for account in classic theme<br><br>See the title of the email is :<br>HI FIRST NAME LASTNAME,<br>THANK YOU FOR CREATING A CUSTOMER ACCOUNT AT SHOPNAME.</td>
+<td>A new tab is displayed with the <em>email template</em> for account in classic theme<br><br>See the title of the email is :<br>HI FIRSTNAME LASTNAME,<br>THANK YOU FOR CREATING A CUSTOMER ACCOUNT AT SHOPNAME.</td>
 </tr>
 <tr>
 <td>Close the new tab</td>
@@ -65007,11 +65007,7 @@
 <td>Cannot send test email for theme classic because it is not your current theme</td>
 </tr>
 <tr>
-<td>Close the new tab</td>
-<td>Tab is closed</td>
-</tr>
-<tr>
-<td>Scroll down &gt; Click on Back to configuration &gt; Choose Default theme : classic &gt; Save</td>
+<td>Scroll down &gt; Click on Back to configuration &gt; Choose Default theme in Configuration block : classic &gt; Save</td>
 <td>Email theme configuration saved successfully</td>
 </tr>
 <tr>
@@ -65023,7 +65019,7 @@
 <td>Previewing theme classic page is displayed</td>
 </tr>
 <tr>
-<td>Click on 3-dots button &gt; Send a text mail</td>
+<td>Click on 3-dots button for account email theme &gt; Send a text mail</td>
 <td>Test email for layout account was successfully sent to <a href="mailto:demo@prestashop.com">demo@prestashop.com</a></td>
 </tr>
 <tr>
@@ -65031,12 +65027,8 @@
 <td>Test email account is sent in classic theme</td>
 </tr>
 <tr>
-<td>In Email theme page &gt; Scroll down to email template followup_1 for Module ps_reminder &gt; Click on magnifying glass</td>
-<td>Previewing theme classic page is displayed</td>
-</tr>
-<tr>
-<td>Click on the HTTPS button for the email &ldquo;followup_1&rdquo;</td>
-<td>A new tab is displayed with the email template for followup_1 in classic theme<br><br>See the title of the email is :<br><br>HI FIRST NAME LASTNAME,<br><br>YOUR CART AT SHOPNAME</td>
+<td>In Email theme page &gt; Scroll down to email template customer_qty for Module ps_emailalerts &gt; Click on HTTP button</td>
+<td>A new tab is displayed with the email template for customer_qty in classic theme<br><br>See the title of the email is :<br><br>HI,<br><br>{product} is now available.</td>
 </tr>
 <tr>
 <td>Close the new tab</td>
@@ -65059,7 +65051,7 @@
 <td>Tab is closed</td>
 </tr>
 <tr>
-<td>Scroll down &gt; Click on Back to configuration &gt; Choose Default theme : modern &gt; Save</td>
+<td>Scroll down &gt; Click on Back to configuration &gt; Choose Default theme in Configuration block : modern &gt; Save</td>
 <td>Email theme configuration saved successfully</td>
 </tr>
 <tr>
@@ -65075,8 +65067,12 @@
 <td>A new tab is displayed with the email template for backoffice_order in modern theme<br><br>See the title of the email is :<br><br>Hi First name Lastname,<br>A new order has been generated on your behalf.</td>
 </tr>
 <tr>
+<td>Close the new tab</td>
+<td>Tab is closed</td>
+</tr>
+<tr>
 <td>Click on 3-dots button &gt; Send a text mail</td>
-<td>Test email for layout account was successfully sent to <a href="mailto:demo@prestashop.com">demo@prestashop.com</a></td>
+<td>Test email for layout backoffice_order was successfully sent to <a href="mailto:demo@prestashop.com">demo@prestashop.com</a></td>
 </tr>
 <tr>
 <td>Check your emails</td>
@@ -65091,7 +65087,7 @@
 <td>Translation page is displayed</td>
 </tr>
 <tr>
-<td>Edit a translation &gt; Click on Save</td>
+<td>Search for &ldquo;Thank you for creating a customer account at SHOPNAME.&rdquo; &gt; Edit the translation &gt; Click on Save</td>
 <td>Toast Translations successfully updated is displayed</td>
 </tr>
 <tr>
@@ -65100,15 +65096,15 @@
 </tr>
 <tr>
 <td>Click on Your Profile in top right corner &gt; Edit your language to French &gt; Save</td>
-<td>Mise à jour réussie</td>
+<td>Successful update</td>
 </tr>
 <tr>
-<td>Go to Apparence &gt; Email theme &gt; Bloc Thèmes d&rsquo;e-mail &gt; Click on magnifying glass for modern theme &gt; Click on Envoyer un email test for account</td>
+<td>Go to Apparence &gt; Email theme &gt; Bloc Thèmes d&rsquo;e-mail &gt; Click on magnifying glass for modern theme &gt; Click on 3-dot button : Envoyer un e-mail test for account</td>
 <td>L&rsquo;e-mail de test du format account a été envoyé à <a href="mailto:demo@prestashop.com">demo@prestashop.com</a> avec succès</td>
 </tr>
 <tr>
 <td>Check your emails</td>
-<td>See your email is in French with title : Tester le account d&rsquo;e-mail</td>
+<td>See your email is in French with title : Merci d&rsquo;avoir créé votre compte client sur SHOPNAME.Bonjour</td>
 </tr>
 </tbody>
 </table>
@@ -65130,17 +65126,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1727764229"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1727764229"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1727764229"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1727764229"></script>
-    <script src="../../../../../../js/featherlight.min.js?1727764229"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1727764229"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1727764229"></script>
-    <script src="../../../../../../js/learn.js?1727764229"></script>
-    <script src="../../../../../../js/hugo-learn.js?1727764229"></script>
+    <script src="../../../../../../js/clipboard.min.js?1727850585"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1727850585"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1727850585"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1727850585"></script>
+    <script src="../../../../../../js/featherlight.min.js?1727850585"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1727850585"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1727850585"></script>
+    <script src="../../../../../../js/learn.js?1727850585"></script>
+    <script src="../../../../../../js/hugo-learn.js?1727850585"></script>
     
-    <script src="../../../../../../main.js?1727764229"></script>
+    <script src="../../../../../../main.js?1727850585"></script>
     
     
     
