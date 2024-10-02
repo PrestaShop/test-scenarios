@@ -39,7 +39,6 @@ weight: 2
 | * Click on "Add new customer" and fill the new customer form<br> * Save | "Successful creation" message is displayed |
 | Go back to Dashboard> Activity overview> Customers & Newsletters | Total Subscribers +1 |
 | Click on visits link | Stats page is displayed |
-| Go back to dashboard and click on Unique visitors link | stats page is displayed |
 | Check traffic source | contains 'prestashop.com' and 'Direct link' |
 | Click on configure link | Configure form is displayed |
 | Update all the values in the form and save | Success message is displayed |

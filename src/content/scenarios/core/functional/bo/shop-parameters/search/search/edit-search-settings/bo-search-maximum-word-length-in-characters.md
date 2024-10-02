@@ -6,9 +6,11 @@ weight: 5
 # BO - Search - Maximum word length (in characters)
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9830
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_editSearchSettings/05_maximumWordLength.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search
 
 ## Steps
 | Step Description | Expected result |
