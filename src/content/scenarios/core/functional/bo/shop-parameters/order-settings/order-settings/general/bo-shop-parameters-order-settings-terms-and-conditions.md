@@ -5,7 +5,9 @@ weight: 8
 
 # BO - Shop Parameters - Order Settings - Terms and conditions
 ## Details
-* **Status** : [TEST] To be automated
+* **Component** : Core
+* **Status** : [TEST] Automation in progress
+* **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9788
 
 ## Steps
