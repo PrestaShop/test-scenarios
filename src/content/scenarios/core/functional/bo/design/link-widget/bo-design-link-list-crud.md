@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Link Widget - CRUD"
+title: "BO - Design - Link List - CRUD"
 weight: 2
 ---
 
-# BO - Design - Link Widget - CRUD
+# BO - Design - Link List - CRUD
 ## Details
 * **Component** : Core
 * **Status** : [TEST] Automation in progress
