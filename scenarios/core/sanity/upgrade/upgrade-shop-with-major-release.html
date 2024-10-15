@@ -22,13 +22,13 @@
     <title>Upgrade Shop with major release :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1728891022" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1728891022" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1728891022" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1728891022" rel="stylesheet"><link href="../../../../css/auto-complete.css?1728891022" rel="stylesheet">
-    <link href="../../../../style.css?1728891022" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1728986408" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1728986408" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1728986408" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1728986408" rel="stylesheet"><link href="../../../../css/auto-complete.css?1728986408" rel="stylesheet">
+    <link href="../../../../style.css?1728986408" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1728891022"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1728986408"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64949,7 +64949,7 @@
 <h1 id="upgrade-shop-with-major-release">Upgrade Shop with major release<a href="#upgrade-shop-with-major-release"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-9182">https://forge.prestashop.com/browse/TEST-9182</a></li>
 </ul>
 
@@ -64962,52 +64962,56 @@
 </thead>
 <tbody>
 <tr>
-<td>Install A fresh 1.7.8.11</td>
-<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+<td>Go to [https://github.com/PrestaShop/PrestaShop/releases] &gt; Search for 1.7.8.11 zip &gt; Install PS 1.7.8.11</td>
+<td>Your installation is finished!</td>
 </tr>
 <tr>
-<td>Go to the BO</td>
-<td>You should have your dashboard showed</td>
+<td>Go to BO &gt; Delete install folder &gt; Log into your employee account</td>
+<td>BO Dashboard is displayed</td>
 </tr>
 <tr>
-<td>Go to the Module Catalog&quot; page&quot;</td>
-<td>Module Catalog page is displayed correctly</td>
+<td>Go to Modules &gt; Marketplace &gt; Search for module 1-click upgrade &gt; Click Install &gt; Click Configure</td>
+<td>Configuration page of the module 1-Click Upgrade is displayed</td>
 </tr>
 <tr>
-<td>Search for the 1-click Install&quot; module. Install it&quot;</td>
-<td>Module is correctly installed</td>
+<td>Go to the Shop Parameters &gt; General &gt; Maintenance tab &gt; Disable your shop &gt; Save</td>
+<td>Successful update message is displayed.<br>Maintenance mode is activated.</td>
 </tr>
 <tr>
-<td>Go to the General Parameters &gt; Maintenance&quot; page. Put the shop in maintenance mode&quot;</td>
-<td>Maintenance page is displayed correctly. Maintenance mode is activated</td>
+<td>Go to Modules &gt; Modules Manager &gt; Click on Configure for 1-Click Upgrade module</td>
+<td>Configuration page of the module 1-Click Upgrade is displayed</td>
 </tr>
 <tr>
-<td>Set your &ldquo;Maintenance IP&rdquo; by clicking the button &ldquo;+ Add my IP&rdquo; and clic on &ldquo;Save&rdquo; button</td>
-<td>Your IP should be setted on the field and you will have the green notification</td>
+<td>In Expert mode block &gt; Select &ldquo;Major release&rdquo;</td>
+<td>In Start Your Upgrade block, you will see :<br><br>Your current PrestaShop version: <em>1.7.8.11</em><br>Your current PHP version: <em>7.4.33</em><br>Latest official version for minor channel.: <em>1.7.8 stable - (1.7.8.11)</em></td>
 </tr>
 <tr>
-<td>* Go to the 1-Click Upgrade page<br> * On Expert mode part, select the &ldquo;Major release&rdquo; and click on &ldquo;Save&rdquo; button</td>
-<td>* You should see the configuration page of the module <br> * You should have a blue notification with &ldquo;Configuration successfully updated. This page will now be reloaded and the module will check if a new version is available.&rdquo; <br> * You should have the version &ldquo;8.1.6&rdquo;  next to Version number<br> * You should have the version &quot; 8.1 stable - (8.1.6) &quot; next to &ldquo;Latest official version for major channel :&rdquo;</td>
+<td>Click on Save</td>
+<td>You will have a blue notification with message &ldquo;<em>Configuration successfully updated. This page will now be reloaded and the module will check if a new version is available.</em>&rdquo;</td>
 </tr>
 <tr>
-<td>Launch upgrade</td>
-<td>Upgrade is launched</td>
+<td>Launch upgrade by clicking on Update PrestaShop Now button</td>
+<td>Upgrade is launched. Activity log is displayed.Upgrade is launched</td>
 </tr>
 <tr>
-<td>Refresh the page. Check logged in status</td>
-<td>User is logged out</td>
+<td>Upgrade is successful</td>
+<td>Message &ldquo;Your store is up to date&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Refresh the page &gt; Log into your employee account &gt; Check PrestaShop version</td>
+<td>PrestaShop version is 8.2.0</td>
 </tr>
 <tr>
 <td>Go to the BO login page. Log in with admin user. Check shop version</td>
 <td>Admin user is connected. Version is upgraded</td>
 </tr>
 <tr>
-<td>Go to the General Parameters &gt; Maintenance&quot; page. Put the shop out of maintenance mode&quot;</td>
-<td>Maintenance page is displayed correctly. Maintenance mode is deactivated</td>
+<td>Go to the Shop Parameters &gt; General &gt; Maintenance tab &gt; Enable store : YES &gt; Save</td>
+<td>Successful update message is displayed</td>
 </tr>
 <tr>
-<td>Go to the FO homepage</td>
-<td>Home page is displayed correctly</td>
+<td>Click on View my store</td>
+<td>FO is displayed correctly</td>
 </tr>
 </tbody>
 </table>
@@ -65029,17 +65033,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1728891022"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1728891022"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1728891022"></script>
-    <script src="../../../../js/jquery.sticky.js?1728891022"></script>
-    <script src="../../../../js/featherlight.min.js?1728891022"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1728891022"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1728891022"></script>
-    <script src="../../../../js/learn.js?1728891022"></script>
-    <script src="../../../../js/hugo-learn.js?1728891022"></script>
+    <script src="../../../../js/clipboard.min.js?1728986408"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1728986408"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1728986408"></script>
+    <script src="../../../../js/jquery.sticky.js?1728986408"></script>
+    <script src="../../../../js/featherlight.min.js?1728986408"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1728986408"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1728986408"></script>
+    <script src="../../../../js/learn.js?1728986408"></script>
+    <script src="../../../../js/hugo-learn.js?1728986408"></script>
     
-    <script src="../../../../main.js?1728891022"></script>
+    <script src="../../../../main.js?1728986408"></script>
     
     
     

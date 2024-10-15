@@ -22,13 +22,13 @@
     <title>Upgrade Shop with local archive release :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1728891022" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1728891022" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1728891022" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1728891022" rel="stylesheet"><link href="../../../../css/auto-complete.css?1728891022" rel="stylesheet">
-    <link href="../../../../style.css?1728891022" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1728986408" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1728986408" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1728986408" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1728986408" rel="stylesheet"><link href="../../../../css/auto-complete.css?1728986408" rel="stylesheet">
+    <link href="../../../../style.css?1728986408" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1728891022"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1728986408"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -64949,7 +64949,7 @@
 <h1 id="upgrade-shop-with-local-archive-release">Upgrade Shop with local archive release<a href="#upgrade-shop-with-local-archive-release"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-9494">https://forge.prestashop.com/browse/TEST-9494</a></li>
 </ul>
 
@@ -64962,60 +64962,76 @@
 </thead>
 <tbody>
 <tr>
-<td>Install A fresh 8.1.5</td>
-<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+<td>Go to [https://github.com/PrestaShop/PrestaShop/releases] &gt; Search for 8.1.5 zip &gt; Install PS 8.1.5</td>
+<td>Your installation is finished!</td>
 </tr>
 <tr>
-<td>Go to the BO</td>
-<td>You should have your dashboard showed</td>
+<td>Go to BO &gt; Delete install folder &gt; Log into your employee account</td>
+<td>BO Dashboard is displayed</td>
 </tr>
 <tr>
 <td>Go to the Module Catalog&quot; page&quot;</td>
 <td>Module Catalog page is displayed correctly</td>
 </tr>
 <tr>
-<td>Search for the 1-click Install&quot; module. Install it&quot;</td>
-<td>Module is correctly installed</td>
+<td>Go to Modules &gt; Modules manager &gt; Install 1-click upgrade</td>
+<td>Install action on module autoupgrade succeeded.</td>
 </tr>
 <tr>
-<td>Go to the General Parameters &gt; Maintenance&quot; page. Put the shop in maintenance mode&quot;</td>
-<td>Maintenance page is displayed correctly. Maintenance mode is activated</td>
+<td>Go to the Shop Parameters &gt; General &gt; Maintenance tab &gt; Disable your shop &gt; Save</td>
+<td>Successful update message is displayed.<br>Maintenance mode is activated.</td>
 </tr>
 <tr>
-<td>Set your &ldquo;Maintenance IP&rdquo; by clicking the button &ldquo;+ Add my IP&rdquo; and clic on &ldquo;Save&rdquo; button</td>
-<td>Your IP should be setted on the field and you will have the green notification</td>
+<td>Go to Modules &gt; Modules Manager &gt; Click on Configure for 1-Click Upgrade module</td>
+<td>Configuration page of the module 1-Click Upgrade is displayed</td>
 </tr>
 <tr>
-<td>* Go to the 1-Click Upgrade page<br> * On Expert mode part, select the &ldquo;Local archive&rdquo; and click on &ldquo;Save&rdquo; button</td>
-<td>* You should see the configuration page of the module <br> * You should have a blue notification with &ldquo;You need to enter the version number associated with the archive.&rdquo;</td>
+<td>In Expert mode block &gt; Select &ldquo;Local Archive&rdquo; &gt; Click Save</td>
+<td>Notification &ldquo;No archive and no XML file have been selected.&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>* Put a zip v8.1.7 and xml v8.1.6 on [yourshop]/admin-dev/autoupgrade/download (you can find the last develop on [https://nightly.prestashop-project.org/)] <br> * Click on save button</td>
-<td>You should have a blue notification with &ldquo;Prestashop version detected in the xml (8.1.6) does not match the zip version (8.1.7).&rdquo;</td>
+<td>* Go to <a href="https://nightly.prestashop-project.org/?version=8.1.x">https://nightly.prestashop-project.org/?version=8.1.x</a> &gt; Download the latest zip for 8.1.7<br>* Go to <a href="https://nightly.prestashop-project.org/?version=8.0.x">https://nightly.prestashop-project.org/?version=8.0.x</a> &gt; Download the latest xml for 8.0.5</td>
+<td>Zip for 8.1.7 and xml for 8.0.5 are well downloaded</td>
 </tr>
 <tr>
-<td>* Put a develop zip and xml on [yourshop]/admin-dev/autoupgrade/download (you can find the last develop on [https://nightly.prestashop-project.org/)] <br> * Click on save button</td>
-<td>* You should have a blue notification with &ldquo;Configuration successfully updated. This page will now be reloaded and the module will check if a new version is available.&rdquo; <br> * You should have the version &ldquo;N/A&rdquo; next to &ldquo;Latest official version for archive channel :&rdquo;</td>
+<td>Put the zip for 8.1.7 and xml for 8.0.5 in the folder your_shop/adminXXX/autoupgrade/download</td>
+<td>Zip 8.1.7 and xml 8.0.5 are in the folder autoupgrade/download of your shop</td>
 </tr>
 <tr>
-<td>Launch upgrade</td>
-<td>Upgrade is launched</td>
+<td>Go back to BO &gt; In configuration of module 1-click upgrade &gt; Refresh the page &gt; Choose Local archive</td>
+<td>2 new fields are displayed : <br>- Archive to use<br>- XML file to use</td>
 </tr>
 <tr>
-<td>Refresh the page. Check logged in status</td>
-<td>User is logged out</td>
+<td>Select the zip in Archive to use &gt; Select the xml in XML file to use &gt; Click Save</td>
+<td>A blue notification is displayed &ldquo;Prestashop version detected in the xml (8.0.5) does not match the zip version (8.1.7).&rdquo;</td>
 </tr>
 <tr>
-<td>Go to the BO login page. Log in with admin user. Check shop version</td>
-<td>Admin user is connected. Version is upgraded</td>
+<td>Go to [https://nightly.prestashop-project.org/?version=develop] &gt; Download the latest zip and xml for develop version</td>
+<td>Zip and xml for develop/9.0.0 are well downloaded</td>
 </tr>
 <tr>
-<td>Go to the General Parameters &gt; Maintenance&quot; page. Put the shop out of maintenance mode&quot;</td>
-<td>Maintenance page is displayed correctly. Maintenance mode is deactivated</td>
+<td>Put the zip and xml for develop/9.0.0 in the folder your_shop/adminXXX/autoupgrade/download &gt; Click Save</td>
+<td>Zip and xml for develop/9.0.0 are in the folder autoupgrade/download of your shop</td>
 </tr>
 <tr>
-<td>Go to the FO homepage</td>
-<td>Home page is displayed correctly</td>
+<td>Go back to BO &gt; In configuration of module 1-click upgrade &gt; Refresh the page &gt; Choose Local archive &gt; Select the zip develop/9.0.0 in Archive to use &gt; Select the xml develop/9.0.0 in XML file to use &gt; Click Save</td>
+<td>In Start your upgrade block, you will see :<br><br>Your current PrestaShop version: <em>8.1.5</em><br>Your current PHP version: <em>8.1.13</em><br>Latest official version for archive channel.: <em>N/A</em></td>
+</tr>
+<tr>
+<td>Launch upgrade by clicking on Update PrestaShop Now button</td>
+<td>Upgrade is launched. Activity log is displayed.</td>
+</tr>
+<tr>
+<td>Upgrade is successful</td>
+<td>Message &ldquo;Your store is up to date&rdquo; is displayed</td>
+</tr>
+<tr>
+<td>Refresh the page &gt; Log into your employee account &gt; Check PrestaShop version</td>
+<td>PrestaShop version is 9.0.0</td>
+</tr>
+<tr>
+<td>Click on View my store</td>
+<td>FO is displayed correctly</td>
 </tr>
 </tbody>
 </table>
@@ -65037,17 +65053,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1728891022"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1728891022"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1728891022"></script>
-    <script src="../../../../js/jquery.sticky.js?1728891022"></script>
-    <script src="../../../../js/featherlight.min.js?1728891022"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1728891022"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1728891022"></script>
-    <script src="../../../../js/learn.js?1728891022"></script>
-    <script src="../../../../js/hugo-learn.js?1728891022"></script>
+    <script src="../../../../js/clipboard.min.js?1728986408"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1728986408"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1728986408"></script>
+    <script src="../../../../js/jquery.sticky.js?1728986408"></script>
+    <script src="../../../../js/featherlight.min.js?1728986408"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1728986408"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1728986408"></script>
+    <script src="../../../../js/learn.js?1728986408"></script>
+    <script src="../../../../js/hugo-learn.js?1728986408"></script>
     
-    <script src="../../../../main.js?1728891022"></script>
+    <script src="../../../../main.js?1728986408"></script>
     
     
     
