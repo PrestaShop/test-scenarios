@@ -1,9 +1,9 @@
 ---
-title: Link widget
-menuTitle: Link widget
+title: Link list
+menuTitle: Link list
 chapter: true
 ---
 
-# Link widget
+# Link list
 
 {{% children titlePages="Tests" titleSections="Categories" /%}}
