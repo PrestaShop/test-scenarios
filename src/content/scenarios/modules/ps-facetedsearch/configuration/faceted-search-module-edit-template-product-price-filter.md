@@ -6,9 +6,10 @@ weight: 20
 # Faceted search module - Edit template - Product price filter
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4256
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/20_editTemplateProductPriceFilter.ts
 
 ## Steps
 | Step Description | Expected result |
