@@ -25,6 +25,14 @@ jobs:
           repository: PrestaShop/PrestaShop
           fetch-depth: 1
           path: prestashop
+
+      - name: Checkout PrestaShop repository (9.0.x)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/PrestaShop
+          fetch-depth: 1
+          path: prestashop_90x
+          ref: 9.0.x
   
       - name: Checkout PrestaShop repository (8.2.x)
         uses: actions/checkout@v4
