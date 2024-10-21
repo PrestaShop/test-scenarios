@@ -124,6 +124,9 @@ jobs:
       - name: Remove prestashop directory (on Develop)
         run: rm -rf ./prestashop/
 
+      - name: Remove prestashop directory (on 9.0.x)
+        run: rm -rf ./prestashop_90x/
+
       - name: Remove prestashop directory (on 8.2.x)
         run: rm -rf ./prestashop_82x/
 
