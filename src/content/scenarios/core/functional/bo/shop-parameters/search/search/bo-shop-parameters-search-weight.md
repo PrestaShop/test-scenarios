@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Search - Edit weight settings"
-weight: 4
+title: "BO - Shop Parameters - Search - Weight"
+weight: 5
 ---
 
-# BO - Shop Parameters - Search - Edit weight settings
+# BO - Shop Parameters - Search - Weight
 ## Details
 * **Component** : Core
 * **Status** : Blocked
