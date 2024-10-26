@@ -1,6 +1,6 @@
 ---
 title: "PUT /admin-api/modules/toggle-status"
-weight: 2
+weight: 1
 ---
 
 # PUT /admin-api/modules/toggle-status
