@@ -6,9 +6,10 @@ weight: 3
 # PUT /admin-api/module/{technicalName}/status
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9956
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_module/03_putModuleTechnicalNameStatus.ts.ts
 
 ## Steps
 | Step Description | Expected result |
