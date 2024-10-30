@@ -6,7 +6,7 @@ weight: 1
 # BO - Search - Search within word
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : [TEST] Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3609
 
 ## Steps

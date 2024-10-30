@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (38 campaigns / 43 issues)
+# Known bugs (39 campaigns / 44 issues)
 * **[tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts)** :
   * [PrestaShop#34505 : API : Endpoint `PUT /api/cartRule`- Mode debug preprod ](https://github.com/PrestaShop/PrestaShop/issues/34505)
 * **[tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts)** :
@@ -16,6 +16,8 @@ weight: 1
   * [PrestaShop#34552 : API : Endpoint `GET /api/hooks/{id}` : Difference between title & name - Enpoint issue](https://github.com/PrestaShop/PrestaShop/issues/34552)
 * **[tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_language/01_getLanguages.ts)** :
   * [PrestaShop#35860 : International > Languages : Display locale in list & readonly edit](https://github.com/PrestaShop/PrestaShop/issues/35860)
+* **[tests/UI/campaigns/functional/API/02_endpoints/08_module/03_putModuleTechnicalNameStatus.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_module/03_putModuleTechnicalNameStatus.ts)** :
+  * [PrestaShop#37253 : Modules Page is not up to date after disabling/enabling a module with API](https://github.com/PrestaShop/PrestaShop/issues/37253)
 * **[tests/UI/campaigns/functional/API/02_endpoints/10_product/01_postProduct.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/01_postProduct.ts)** :
   * [PrestaShop#35619 : Endpoint `POST /api/product` : Descriptions are not updated](https://github.com/PrestaShop/PrestaShop/issues/35619)
 * **[tests/UI/campaigns/functional/API/02_endpoints/10_product/04_patchProductId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_product/04_patchProductId.ts)** :
@@ -67,22 +69,22 @@ weight: 1
   * [PrestaShop#33429 : WS : Products - The response of the GET request has not defined the field `new`](https://github.com/PrestaShop/PrestaShop/issues/33429)
   * [PrestaShop#14903 : Cannot add a position_in_category using webservices](https://github.com/PrestaShop/PrestaShop/issues/14903)
   * [PrestaShop#33455 : WS : Products - The field `low_stock_alert` doesn't work](https://github.com/PrestaShop/PrestaShop/issues/33455)
-* **[tests/UI/campaigns/modules/blockwishlist/03_frontOffice/02_products/01_addProductToList.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/03_frontOffice/02_products/01_addProductToList.ts)** :
+* **[tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts)** :
   * [PrestaShop#36496 : Page "My wishlists" - Sort "Last added" doesn't work ](https://github.com/PrestaShop/PrestaShop/issues/36496)
-* **[tests/UI/campaigns/modules/ps_apiresources/01_installation/02_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_apiresources/01_installation/02_disableEnableModule.ts)** :
+* **[tests/UI/campaigns/modules/07_ps_apiresources/01_installation/02_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/07_ps_apiresources/01_installation/02_disableEnableModule.ts)** :
   * [PrestaShop#34496 : If the module `ps_apiresources` is disabled, Scopes of the module are not disabled](https://github.com/PrestaShop/PrestaShop/issues/34496)
-* **[tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts)** :
+* **[tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts)** :
   * [PrestaShop#36906 : `ps_facedsearch`: the switch "Show unavailable, out of stock last" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/36906)
-* **[tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts)** :
+* **[tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts)** :
   * [PrestaShop#36438 : `ps_facetedsearch` : Invalid input are not considered as invalid](https://github.com/PrestaShop/PrestaShop/issues/36438)
-* **[tests/UI/campaigns/modules/ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts)** :
+* **[tests/UI/campaigns/modules/29_ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/29_ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts)** :
   * [PrestaShop#35796 : `ps_newproducts` : Invalid input display the block or can't be saved](https://github.com/PrestaShop/PrestaShop/issues/35796)
-* **[tests/UI/campaigns/modules/ps_themecusto/01_installation/05_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_themecusto/01_installation/05_disableEnableModule.ts)** :
+* **[tests/UI/campaigns/modules/35_ps_themecusto/01_installation/05_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/35_ps_themecusto/01_installation/05_disableEnableModule.ts)** :
   * [PrestaShop#36590 : `ps_themecusto` : Disable the module doesn't hide Tabs](https://github.com/PrestaShop/PrestaShop/issues/36590)
-* **[tests/UI/campaigns/modules/psgdpr/02_configuration/07_multistore.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/psgdpr/02_configuration/07_multistore.ts)** :
+* **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/07_multistore.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/07_multistore.ts)** :
   * [PrestaShop#37116 : `psgdpr` : The contact form checkbox is not connected](https://github.com/PrestaShop/PrestaShop/issues/37116)
   * [PrestaShop#37112 : `psgdpr` : The configure button is not clickable in shop context](https://github.com/PrestaShop/PrestaShop/issues/37112)
-* **[tests/UI/campaigns/modules/psgdpr/02_configuration/08_personalDataManagerForGuest.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/psgdpr/02_configuration/08_personalDataManagerForGuest.ts)** :
+* **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts)** :
   * [PrestaShop#36847 : GDPR - Search guest account display result and block "There is no result"](https://github.com/PrestaShop/PrestaShop/issues/36847)
   * [PrestaShop#36848 : GDPR - Search guest account display result and block is empty](https://github.com/PrestaShop/PrestaShop/issues/36848)
   * [PrestaShop#36865 : GDPR - Search guest account, Remove it & It's always displayed](https://github.com/PrestaShop/PrestaShop/issues/36865)
