@@ -22,13 +22,13 @@
     <title>BO - Shop Parameters - Search - Weight :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1730271980" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1730271980" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1730271980" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1730271980" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1730271980" rel="stylesheet">
-    <link href="../../../../../../../style.css?1730271980" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1730356494" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1730356494" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1730356494" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1730356494" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1730356494" rel="stylesheet">
+    <link href="../../../../../../../style.css?1730356494" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1730271980"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1730356494"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -41775,6 +41775,7 @@
     <li><a href="#bo---shop-parameters---search---weight">BO - Shop Parameters - Search - Weight</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -65133,9 +65134,128 @@
 <h1 id="bo---shop-parameters---search---weight">BO - Shop Parameters - Search - Weight<a href="#bo---shop-parameters---search---weight"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Blocked</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-1129">https://forge.prestashop.com/browse/TEST-1129</a></li>
 </ul>
+
+<h2 id="steps">Steps<a href="#steps"></a></h2><table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Shop parameters &gt; Scroll down to block Weight</td>
+<td>See the weight of all elements are already set.<br><br>Product name weight: 6<br>Reference weight: 10<br>Short description weight: 1<br>Description weight: 1<br>Category weight: 3<br>Brand weight: 3<br>Tags weight: 4<br>Attributes weight: 2<br>Features weight: 2</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Categories &gt; Click Add new category &gt; Add Name = preston &gt; Save</td>
+<td>Successful creation message is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Brands &amp; Suppliers &gt;. Click Add new brand &gt; Add Name = preston &gt; Save</td>
+<td>Successful creation message is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Attributes &amp; Features &gt; Click Add new attribute &gt; Add Name = preston &gt; Add Public name = Preston &gt; Save</td>
+<td>Successful creation message is displayed</td>
+</tr>
+<tr>
+<td>View preston attribute &gt; Add new value &gt; Name = preston &gt; Save</td>
+<td>Successful creation message is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Attributes &amp; Features &gt; Go to tab Features &gt; Click Add new feature &gt; Add Name = preston &gt; Save</td>
+<td>Successful creation message is displayed</td>
+</tr>
+<tr>
+<td>Created this step because of : <a href="https://github.com/PrestaShop/PrestaShop/issues/37285">https://github.com/PrestaShop/PrestaShop/issues/37285</a><br><br>Add a new feature value &gt; Feature = preston &gt; Value : preston &gt; Save</td>
+<td>Successful creation message is displayed</td>
+</tr>
+<tr>
+<td>Create 9 standard products using the pre-condition</td>
+<td>All 9 products are created with &ldquo;preston&rdquo; at different places</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop Parameters &gt; Search &gt; Click on Re-build the entire index</td>
+<td>Successful update message displayed</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Search &ldquo;preston&rdquo;</td>
+<td>There are 9 products.</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop parameters &gt; Scroll down to block Weight &gt; Set the Weight for all elements &gt; Save</td>
+<td>The settings have been successfully updated.</td>
+</tr>
+<tr>
+<td>Click on Re-build the entire index</td>
+<td>Successful update message displayed</td>
+</tr>
+<tr>
+<td>View my store &gt; Hard refresh and clear cache from shop &gt; Search for &ldquo;preston&rdquo;</td>
+<td>There are 9 products.</td>
+</tr>
+<tr>
+<td>Open the first product</td>
+<td>See in Product Details block : Datasheet -&gt; preston/preston<br>It matches with the Feature weight : 9</td>
+</tr>
+<tr>
+<td>Open the 5th product</td>
+<td>See in the breadcrumb : Home &gt; Preston &gt; my_product<br>It matches with the Category weight : 5</td>
+</tr>
+<tr>
+<td>Open the last product</td>
+<td>See the name of the product is &ldquo;preston&rdquo;<br>It matches wit the Product name weight : 1</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop parameters &gt; Scroll down to block Weight &gt; Set the Weight for all elements &gt; Save</td>
+<td>The settings have been successfully updated.</td>
+</tr>
+<tr>
+<td>Click on Re-build the entire index</td>
+<td>Successful update message displayed</td>
+</tr>
+<tr>
+<td>View my store &gt; Hard refresh and clear cache from shop &gt; Search for &ldquo;preston&rdquo;</td>
+<td>There are 9 products.</td>
+</tr>
+<tr>
+<td>Open the first product</td>
+<td>See the name of the product is &ldquo;preston&rdquo;<br>It matches wit the Product name weight : 9</td>
+</tr>
+<tr>
+<td>Open the 2nd product</td>
+<td>See in Product Details block : Reference -&gt; preston<br>It matches with the Reference weight : 8</td>
+</tr>
+<tr>
+<td>Open the 8th product</td>
+<td>See that it is a combination product with Attribute preston<br>it matches with the Attributes weight : 2</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop parameters &gt; Scroll down to block Weight &gt; Edit the Weight for Product name weight &gt; Save</td>
+<td>Successful update message is displayed</td>
+</tr>
+<tr>
+<td>Click on Re-build the entire index</td>
+<td>Successful update message displayed</td>
+</tr>
+<tr>
+<td>View my store &gt; Hard refresh and clear cache from shop &gt; Search for &ldquo;preston&rdquo;</td>
+<td>There are 8 products.<br>None of the product have &ldquo;preston&rdquo; in their name</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Products &gt; Delete all 9 products created for the test</td>
+<td>All 9 products are deleted</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Shop parameters &gt; Scroll down to block Weight &gt; Edit the weight of all elements &gt; Save</td>
+<td>The settings have been successfully updated.</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
@@ -65154,17 +65274,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1730271980"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1730271980"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1730271980"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1730271980"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1730271980"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1730271980"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1730271980"></script>
-    <script src="../../../../../../../js/learn.js?1730271980"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1730271980"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1730356494"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1730356494"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1730356494"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1730356494"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1730356494"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1730356494"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1730356494"></script>
+    <script src="../../../../../../../js/learn.js?1730356494"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1730356494"></script>
     
-    <script src="../../../../../../../main.js?1730271980"></script>
+    <script src="../../../../../../../main.js?1730356494"></script>
     
     
     
