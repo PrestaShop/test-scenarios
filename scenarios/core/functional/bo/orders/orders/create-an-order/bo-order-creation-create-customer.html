@@ -22,13 +22,13 @@
     <title>BO - Order creation - Create customer :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1731393022" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1731393022" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1731393022" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1731393022" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1731393022" rel="stylesheet">
-    <link href="../../../../../../../style.css?1731393022" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1731479399" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1731479399" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1731479399" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1731479399" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1731479399" rel="stylesheet">
+    <link href="../../../../../../../style.css?1731479399" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1731393022"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1731479399"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -13537,6 +13537,27 @@
       <li data-nav-id="/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-check-summary-and-create-order.html" title="BO - Order creation - Check Summary and create order" class="dd-item ">
         <a href="../../../../../../../scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-check-summary-and-create-order.html">
         BO - Order creation - Check Summary and create order
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-proceed-to-checkout-in-the-front-office.html" title="BO - Order creation - Proceed to checkout in the front office" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/bo/orders/orders/create-an-order/bo-order-creation-proceed-to-checkout-in-the-front-office.html">
+        BO - Order creation - Proceed to checkout in the front office
         
         </a>
     </li>
@@ -49699,6 +49720,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -65134,11 +65170,9 @@
 <h1 id="bo---order-creation---create-customer">BO - Order creation - Create customer<a href="#bo---order-creation---create-customer"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Automated</li>
+<li><strong>Status</strong> : [TEST] To be automated</li>
 <li><strong>Automated on</strong> : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-750">https://forge.prestashop.com/browse/TEST-750</a></li>
-<li><strong>Test</strong> : <a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/createOrders/02_createCustomer.ts">https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/createOrders/02_createCustomer.ts</a></li>
-<li><strong>Specification</strong> : <a href="https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template/add-new-order">https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template/add-new-order</a></li>
 </ul>
 
 <h2 id="steps">Steps<a href="#steps"></a></h2><table>
@@ -65158,7 +65192,31 @@
 <td>A modal for adding new customer is displayed</td>
 </tr>
 <tr>
-<td>Set these fields:<br><br># Social title<br># First name<br># Last name<br># Email<br># Password<br><br>and click on &ldquo;Save&rdquo;</td>
+<td>Clic to Guest account switch button</td>
+<td>Password field = Disabled<br><br>Enabled field = Disabled<br><br>Group access field = Disabled<br><br>Default customer group field = Disabled</td>
+</tr>
+<tr>
+<td>Clic to Guest account switch button</td>
+<td>Password field = Enabled<br><br>Enabled field = Enabled<br><br>Group access field = Enabled<br><br>Default customer group field = Enabled</td>
+</tr>
+<tr>
+<td>Clic to save</td>
+<td>Tooltips diplayed &ldquo;Veuillez renseigner ce champ&rdquo; for First name field.</td>
+</tr>
+<tr>
+<td>Set these fields:<br> * Social title<br> * First name<br><br>and click on &ldquo;Save&rdquo;</td>
+<td>Tooltips diplayed &ldquo;Veuillez renseigner ce champ&rdquo; for Last name field.</td>
+</tr>
+<tr>
+<td>Set this field:<br> * Last name<br><br>and click on &ldquo;Save&rdquo;</td>
+<td>Tooltips diplayed &ldquo;Veuillez renseigner ce champ&rdquo; for Email field.</td>
+</tr>
+<tr>
+<td>Set this field:<br> * Email<br><br>and click on &ldquo;Save&rdquo;</td>
+<td>Tooltips diplayed &ldquo;Veuillez renseigner ce champ&rdquo; for Password field.</td>
+</tr>
+<tr>
+<td>Set this field:<br> * Email<br> * Birthday<br><br>and click on &ldquo;Save&rdquo;</td>
 <td>The customer search display the new customer as a result</td>
 </tr>
 <tr>
@@ -65193,17 +65251,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1731393023"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1731393023"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1731393023"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1731393023"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1731393023"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1731393023"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1731393023"></script>
-    <script src="../../../../../../../js/learn.js?1731393023"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1731393023"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1731479399"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1731479399"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1731479399"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1731479399"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1731479399"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1731479399"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1731479399"></script>
+    <script src="../../../../../../../js/learn.js?1731479399"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1731479399"></script>
     
-    <script src="../../../../../../../main.js?1731393023"></script>
+    <script src="../../../../../../../main.js?1731479399"></script>
     
     
     
