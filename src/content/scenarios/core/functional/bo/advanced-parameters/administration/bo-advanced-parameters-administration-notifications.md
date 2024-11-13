@@ -30,7 +30,7 @@ weight: 3
 | Choose delivery method (free) | Delivery method is selected |
 | Choose Payment method | Payment method is selected |
 | Choose order status | Order status is selected |
-| Click on "Create the order" | The order details page is displayed with exact data:<br><br># Order status<br># Order Price<br># Shipping Address<br># Invoice Address<br># Product name |
+| Add an Order message and Click on "Create the order" | The order details page is displayed with exact data:<br> # Order status<br> # Order Price<br> # Shipping Address<br> # Invoice Address<br> # Product name<br> # Messages |
 | Go to notification> Orders(1) | notification : test test - registered xx/xx/xxxx |
 | Enable all notifications  and click on save button. | Update successful message is displayed and the bell icon is displayed with orders, customers and messages notifications |
 | Go to module manager > Contact form module > configuration page and Enable Receive customers\' messages by email | Check success message |

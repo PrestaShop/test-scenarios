@@ -21,7 +21,7 @@ weight: 2
 | Choose delivery method (free) | Delivery method is selected |
 | Choose Payment method | Payment method is selected |
 | Choose order status | Order status is selected |
-| Click on "Create the order" | The order details page is displayed with exact data:<br><br># Order status<br># Order Price<br># Shipping Address<br># Invoice Address<br># Product name |
+| Add an Order message and Click on "Create the order" | The order details page is displayed with exact data:<br> # Order status<br> # Order Price<br> # Shipping Address<br> # Invoice Address<br> # Product name<br> # Messages |
 | On BO>Orders>Orders | Orders page displayed |
 | Click on your last order created | Order page displayed |
 | Change the status to Shipped and click to Update status | Successful notification<br><br>Partial refund button diplayed |

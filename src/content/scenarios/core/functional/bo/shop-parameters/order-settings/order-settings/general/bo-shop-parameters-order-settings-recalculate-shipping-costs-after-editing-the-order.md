@@ -21,7 +21,7 @@ weight: 5
 | Choose delivery method (free) | Delivery method is selected |
 | Choose Payment method | Payment method is selected |
 | Choose order status | Order status is selected |
-| Click on "Create the order" | The order details page is displayed with exact data:<br><br># Order status<br># Order Price<br># Shipping Address<br># Invoice Address<br># Product name |
+| Add an Order message and Click on "Create the order" | The order details page is displayed with exact data:<br> # Order status<br> # Order Price<br> # Shipping Address<br> # Invoice Address<br> # Product name<br> # Messages |
 | Go to Orders > Orders > Edit the latest order > Go to tab Carriers(1) > Edit > Choose another carrier > Update | Message Successful update is displayed<br><br>In tab Carriers(1), see that the Shipping cost has been updated. |
 | Go back to BO > Shop Parameters > Order Settings > General block > Set Recalculate shipping costs after editing the order to NO > Save | Message Successful update is displayed |
 | Go back to your latest order > Go to tab Carriers(1) > Edit > Choose another carrier > Update | Message Successful update is displayed<br><br>In tab Carriers(1), see that the Shipping cost is the same as before. |
