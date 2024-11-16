@@ -1,14 +1,15 @@
 ---
 title: "PUT /module/{technicalName}/install"
-weight: 5
+weight: 2
 ---
 
 # PUT /module/{technicalName}/install
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10018
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_module/02_putModuleTechnicalNameInstall.ts
 
 ## Steps
 | Step Description | Expected result |
