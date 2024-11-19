@@ -1,15 +1,14 @@
 ---
-title: "PUT /module/{technicalName}/uninstall"
-weight: 5
+title: "PUT /modules/uninstall"
+weight: 2
 ---
 
-# PUT /module/{technicalName}/uninstall
+# PUT /modules/uninstall
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] Automation in progress
 * **Automated on** : 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10025
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_module/05_putModuleTechnicalNameUninstall.ts
+* **Scenario** : https://forge.prestashop.com/browse/TEST-10027
 
 ## Steps
 | Step Description | Expected result |
@@ -20,11 +19,14 @@ weight: 5
 | Go to modules manager page | The page title should contains 'Module manager' |
 | Click on the button "Upload a module" | The modal "Upload a module" is displayed. |
 | Upload the module "Keycloak connector demo" | The module is installed |
-| Request with method POST the endpoint "https://[url of your shop]/admin-dev/index.php/api/module/\{technicalName}/uninstall" with data<br><br><br><br>Where technicalName = keycloak_connector_demo | The HTTP code is 204 |
+| Request with method POST the endpoint "https://[url of your shop]/admin-dev/index.php/api/modules/uninstall" with data | The HTTP code is 204 |
 | Reload the page<br>Set the name of the module "Keycloak connector demo" in the search bar<br>Click on the search button | The module is displayed<br>The module is not installed |
 | Use the module action "Install" | The successful message is displayed. |
-| Request with method POST the endpoint "https://[url of your shop]/admin-dev/index.php/api/module/\{technicalName}/uninstall" with data<br><br>Where technicalName = keycloak_connector_demo | The HTTP code is 204 |
-| Reload the page<br>Set the name of the module "Keycloak connector demo" in the search bar<br>Click on the search button | The module is not displayed |
+| Set the name of the module "ps_cashondelivery" in the search bar<br>Click on the search button | The module is displayed<br>The module is not installed |
+| Use the module action "Install" | The successful message is displayed. |
+| Request with method POST the endpoint "https://[url of your shop]/admin-dev/index.php/api/modules/uninstall" with data | The HTTP code is 204 |
+| Reload the page<br>Set the name of the module "Keycloak connector demo" in the search bar<br>Click on the search button | The module is not displayed<br><br>_(Module (not native) is not listed by the API Distribution Client)_ |
+| Set the name of the module "ps_cashondelivery" in the search bar<br>Click on the search button | The module is displayed<br>The module is not installed<br><br>_(Module (native) is listed by the API Distribution Client)_ |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the button “Three points” | The dropdown is displayed |
 | Click on the Delete Button in the dropdown | A modal appeared |
