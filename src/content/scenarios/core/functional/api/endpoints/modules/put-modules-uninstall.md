@@ -6,9 +6,10 @@ weight: 2
 # PUT /modules/uninstall
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10027
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/09_modules/03_putModulesUninstall.ts
 
 ## Steps
 | Step Description | Expected result |
