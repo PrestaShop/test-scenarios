@@ -6,11 +6,9 @@ weight: 3
 # BO - Design - Pages - Sort
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-949
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/04_pages/pages/04_sortPages.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/pages
 
 ## Steps
 | Step Description | Expected result |
@@ -25,5 +23,7 @@ weight: 3
 | Sort pages by Title desc | pages are sorted by title  ( c-> b ->a ...) |
 | Sort pages by Meta  Title asc | Pages are sorted by Meta title   ( a-> b ->c ...) |
 | Sort pages by Meta  Title desc | Pages are sorted by Meta title   ( c-> b ->a ...) |
+| Sort pages by Position asc | Pages are sorted by Position title   ( 1-> 2 ->3 ...) |
+| Sort pages by Position desc | Pages are sorted by Position   ( 3-> 2 ->1 ...) |
 | Sort pages by status asc | page are sorted by status (disabled --> enabled) |
 | Sort pages by status desc | page are sorted by status (enabled --> disabled) |
