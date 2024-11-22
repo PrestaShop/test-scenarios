@@ -383,7 +383,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/link-list/bo-design-link-widget-change-position.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/link-list/bo-design-link-widget-change-position.html</guid>
-      <description>BO - Design - Link Widget - Change position Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-966 Steps Step Description Expected result BO &amp;gt; Design &amp;gt; Link List * The &amp;lsquo;Link List&amp;rsquo; page is displayed&#xA;* displayFooter Footer (2) table is displayed with two lines on it Hover left just beside the ID column. A new icon appears next to ID column&#xA;!https://forge.prestashop.com/plugins/servlet/raven/attachment/1392/drag.png Click on the icon next to the first ID &amp;gt; drag and drop it to the second column * The order changes : the two lines switches positions</description>
+      <description>BO - Design - Link Widget - Change position Details Component : Core Status : [TEST] To be automated Scenario : https://forge.prestashop.com/browse/TEST-966 Steps Step Description Expected result BO &amp;gt; Design &amp;gt; Link List * The &amp;lsquo;Link List&amp;rsquo; page is displayed&#xA;* displayFooter Footer (2) table is displayed with two lines on it Hover left just beside the ID column. A new icon appears next to ID column&#xA;!https://forge.prestashop.com/plugins/servlet/raven/attachment/1392/drag.png Click on the icon next to the first ID &amp;gt; drag and drop it to the second column * The order changes : the two lines switches positions</description>
     </item>
     <item>
       <title>BO - Design - Pages - Filter and Quick Edit</title>
@@ -1448,6 +1448,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/checkoutfo/orderproduct.html</guid>
       <description>OrderProduct Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1345 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/06_checkoutFO/01_orderProduct.ts Steps Step Description Expected result Go to the FO homepage Home page is displayed correctly Connect with the user account User is correctly connected Go to the FO homepage Home page is displayed correctly Add first product to the cart. Click on Proceed to Checkout&amp;quot; Product is added to the cart.</description>
+    </item>
+    <item>
+      <title>Pages in guest mode</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/audit/fo/classic/pages-in-guest-mode.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/audit/fo/classic/pages-in-guest-mode.html</guid>
+      <description>Pages in guest mode Details Component : Core Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-10049 Steps Step Description Expected result Go to the Home Page The home page is displayed&#xA;No JS errors are triggered Click on the category &amp;ldquo;Clothes&amp;rdquo; The category page &amp;ldquo;Clothes&amp;rdquo; is displayed&#xA;No JS errors are triggered Click on the subcategory &amp;ldquo;Men&amp;rdquo; The subcategory page &amp;ldquo;Men&amp;rdquo; is displayed&#xA;No JS errors are triggered Click on the first product page of the page The product page is displayed</description>
     </item>
     <item>
       <title>POST /admin-api/api-client</title>
@@ -5899,7 +5906,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-weight.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-weight.html</guid>
-      <description>BO - Shop Parameters - Search - Weight Details Component : Core Status : [TEST] Automation in progress Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1129 Steps Step Description Expected result Go to BO &amp;gt; Shop parameters &amp;gt; Scroll down to block Weight See the weight of all elements are already set.&#xA;Product name weight: 6&#xA;Reference weight: 10&#xA;Short description weight: 1&#xA;Description weight: 1&#xA;Category weight: 3&#xA;Brand weight: 3</description>
+      <description>BO - Shop Parameters - Search - Weight Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1129 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/05_weight.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search Steps Step Description Expected result Go to BO &amp;gt; Shop parameters &amp;gt; Scroll down to block Weight See the weight of all elements are already set.&#xA;Product name weight: 6&#xA;Reference weight: 10&#xA;Short description weight: 1&#xA;Description weight: 1&#xA;Category weight: 3</description>
     </item>
     <item>
       <title>BO - Shop Parameters - SEO &amp; URLs - Help card</title>
