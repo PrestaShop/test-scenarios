@@ -6,10 +6,9 @@ weight: 1
 # Pages in guest mode
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] Automation in progress
 * **Automated on** : 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10049
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/classic/01_guest.ts
+* **Scenario** : https://forge.prestashop.com/browse/TEST-10056
 
 ## Steps
 | Step Description | Expected result |
