@@ -30,3 +30,6 @@ weight: 1
 | Click on the "Our Company" footer Link "Contact us" | The "Contact us" page is displayed<br><br>No JS errors are triggered |
 | Click on the "Our Company" footer Link "Sitemap" | The "Sitemap" page is displayed<br><br>No JS errors are triggered |
 | Click on the "Our Company" footer Link "Stores" | The "Stores" page is displayed<br><br>No JS errors are triggered |
+| Click on the "Your account" footer Link "Order tracking" | The "Order tracking" page is displayed<br><br>No JS errors are triggered |
+| Click on the "Your account" footer Link "Sign in" | The "Sign in" page is displayed<br><br>No JS errors are triggered |
+| Click on the "Your account" footer Link "Create account" | The "Create account" page is displayed<br><br>No JS errors are triggered |

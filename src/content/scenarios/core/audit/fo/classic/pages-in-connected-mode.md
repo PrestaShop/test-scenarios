@@ -1,15 +1,14 @@
 ---
-title: "Pages in guest mode"
-weight: 1
+title: "Pages in connected mode"
+weight: 2
 ---
 
-# Pages in guest mode
+# Pages in connected mode
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : Sandbox
 * **Automated on** : 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10056
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/01_guest.ts
+* **Scenario** : https://forge.prestashop.com/browse/TEST-10065
 
 ## Steps
 | Step Description | Expected result |
