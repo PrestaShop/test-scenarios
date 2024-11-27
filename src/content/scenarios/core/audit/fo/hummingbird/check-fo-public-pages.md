@@ -1,9 +1,9 @@
 ---
-title: "Pages in guest mode"
+title: "Check FO public pages"
 weight: 1
 ---
 
-# Pages in guest mode
+# Check FO public pages
 ## Details
 * **Component** : Core
 * **Status** : Automated

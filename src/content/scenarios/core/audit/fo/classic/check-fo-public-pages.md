@@ -1,14 +1,15 @@
 ---
-title: "Pages in connected mode"
-weight: 2
+title: "Check FO public pages"
+weight: 1
 ---
 
-# Pages in connected mode
+# Check FO public pages
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Automated
 * **Automated on** : 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10065
+* **Scenario** : https://forge.prestashop.com/browse/TEST-10049
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/classic/01_guest.ts
 
 ## Steps
 | Step Description | Expected result |
