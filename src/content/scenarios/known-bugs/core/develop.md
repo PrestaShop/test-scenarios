@@ -3,7 +3,10 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (37 campaigns / 42 issues)
+# Known bugs (38 campaigns / 44 issues)
+* **[tests/UI/campaigns/audit/BO/06_statistics.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/06_statistics.ts)** :
+  * [PrestaShop#37520 : Stats > Newsletter : `Uncaught TypeError: e is undefined`](https://github.com/PrestaShop/PrestaShop/issues/37520)
+  * [PrestaShop#37521 : Stats > Sales and orders : `Uncaught TypeError: e is undefined`](https://github.com/PrestaShop/PrestaShop/issues/37521)
 * **[tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_cartRule/01_putCartRuleId.ts)** :
   * [PrestaShop#34505 : API : Endpoint `PUT /api/cartRule`- Mode debug preprod ](https://github.com/PrestaShop/PrestaShop/issues/34505)
 * **[tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/01_postCustomersGroup.ts)** :
