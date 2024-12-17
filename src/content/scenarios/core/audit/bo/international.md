@@ -6,9 +6,10 @@ weight: 11
 # International
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : Automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10138
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/11_international.ts
 
 ## Steps
 | Step Description | Expected result |
