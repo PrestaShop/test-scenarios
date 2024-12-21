@@ -28,7 +28,7 @@ weight: 11
 | Go back to International > Location submenu<br><br>Click the Edit button on the first row | The Edit new zone page is displayed<br><br>No JS errors are triggered |
 | Go to BO > International > Location submenu > Countries tab | The Countries page is displayed<br><br>No JS errors are triggered |
 | Click on Add new country | The Add new country page is displayed<br><br>No JS errors are triggered |
-| Go back to International > Location submenu > Countries tab<br><br>Click the Edit button on the first row | The Edit new country page is displayed<br><br>No JS errors are triggered |
+| Go back to International > Location submenu > Countries tab<br><br>Click the Edit button on the first row | The Edit country page is displayed<br><br>No JS errors are triggered |
 | Go to BO > International > Location submenu > States tab | The States page is displayed<br><br>No JS errors are triggered |
 | Click on Add new state | The Add new state page is displayed<br><br>No JS errors are triggered |
 | Go back to International > Location submenu > States tab<br><br>Click the Edit button on the first row | The Edit new state page is displayed<br><br>No JS errors are triggered |
