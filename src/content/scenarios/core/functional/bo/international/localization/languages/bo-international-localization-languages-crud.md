@@ -16,7 +16,7 @@ weight: 2
 | Step Description | Expected result |
 | ----- | ----- |
 | Go to BO > International > Localization > Languages tab | Page title contains 'Languages' |
-| Click on Add new language button | Page title contains 'Add new' |
+| Click on Add new language button | Page title contains 'New language' |
 | Fill all the fields with Faker data > Save | Message "Successful creation" is displayed<br><br>Number of languages = total of languages + 1 |
 | Go to FO > Click on language dropdown | New language exists in list of languages |
 | Go back to BO and Filter by Name of created language | Filter is successful, newly created language is displayed |

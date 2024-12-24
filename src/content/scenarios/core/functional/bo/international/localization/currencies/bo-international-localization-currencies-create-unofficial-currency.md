@@ -6,11 +6,9 @@ weight: 2
 # BO - International - Localization - Currencies - Create Unofficial Currency
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1000
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/01_localization/03_currencies/01_createOfficialCurrency.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/localization/currencies
 
 ## Steps
 | Step Description | Expected result |
@@ -18,6 +16,7 @@ weight: 2
 | Go to International > Localization page | Localization page is displayed<br>title contains : Localization |
 | Go to Currencies tab | Currencies page is displayed<br>title contains : Currencies |
 | Click on *Add new currency* button | New currency page is displayed with form to  fill<br>title contains 'Currencies ' |
+| Fill the form with specified data > Click on *Save* button | Oops... it looks like this ISO code already exists. If you are:<br> * trying to create an alternative currency, you must type a different ISO code<br> * trying to modify the currency with ISO code TMM, make sure you did not check the creation box |
 | Fill the form with specified data > Click on *Save* button | Currency is created and displayed in Currencies List<br>"Successful creation" message is displayed<br>number of currencies = total of currencies + 1 |
 | Filter by ISO code of currency > click on *Search* button | number of currencies < total of currencies + 1<br>Value in table contains value of created currency<br><br>Search button is disabled<br><br>Reset button is enabled |
 | Go to FO and change currency to 'TMN' | No error found<br>All products prices are updated to TMN |

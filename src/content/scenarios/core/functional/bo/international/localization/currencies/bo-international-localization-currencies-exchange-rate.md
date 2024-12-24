@@ -33,3 +33,5 @@ weight: 3
 | Click on the three dots > Click on *Delete* button | A modal is displayed with title : Delete selection<br>Two buttons in the modal : Cancel and Delete |
 | Click on *Delete* button in the modal | Message displayed :"Successful deletion"<br>Table Curruncies displays : "No records found" |
 | Click on *Reset* button | All available currincies are displayed |
+| Click to Update button | Successful update notification |
+| Click to "Check the developer documentation for setup instructions" | [https://devdocs.prestashop-project.org/9/faq/pricing/#refresh-exchange-rates]<br><br>Page displayed |

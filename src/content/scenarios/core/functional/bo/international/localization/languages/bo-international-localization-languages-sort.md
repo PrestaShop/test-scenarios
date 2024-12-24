@@ -6,11 +6,9 @@ weight: 4
 # BO - International - Localization - Languages - Sort
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-996
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/01_localization/02_languages/04_sortAndPagination.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/localization/languages
 
 ## Steps
 | Step Description | Expected result |
@@ -27,4 +25,6 @@ weight: 4
 | Sort languages by date_format_lite desc | list is sorted by date_format_lite desc<br>(c -> b -> a) |
 | Sort languages by date_format_full asc | list is sorted by date_format_full asc<br>(a -> b -> c) |
 | Sort languages by date_format_full desc | list is sorted by date_format_full desc<br>(c -> b -> a) |
+| Sort languages by Statut asc | list is sorted by Staut asc<br>(Disabled -> Enabled) |
+| Sort languages by Statut desc | list is sorted by Statut desc<br>(Enabled -> Disabled) |
 | Sort languages by id_lang asc | list is sorted by id_lang asc <br>(1 -> 2 -> 3) |
