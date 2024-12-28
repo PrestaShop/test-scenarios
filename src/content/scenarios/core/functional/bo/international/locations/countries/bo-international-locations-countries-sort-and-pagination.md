@@ -22,8 +22,8 @@ weight: 4
 | Sort by Country desc | table is sorted by country desc (c > b> a) |
 | Sort by ISO code acs | Table is sorted by ISO code asc (1<2<3) |
 | Sort by ISO code desc | Table is sorted by ISO code desc (3> 2> 1) |
-| Sort by Zone asc | Table is sorted by Zone asc (a<b<c) |
-| Sort by Zone desc | Table is sorted by zone desc (c>b>a) |
+| Sort by Call prefix asc | Table is sorted by Call prefix asc (a<b<c) |
+| Sort by Call prefix desc | Table is sorted by Call prefix desc (c>b>a) |
 | Sort by Zone desc | Table is sorted by zone desc (c>b>a) |
 | Sort by Zone desc | Table is sorted by zone desc (c>b>a) |
 | Click on the number next to "Display" and select a number | You've got 20 countries in the current page |

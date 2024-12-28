@@ -18,7 +18,7 @@ weight: 1
 | Go to BO > International > Locations > Tab Countries | The Countries page is displayed correctly |
 | filter by ID. | Countries list is filtered. Pages listed have "2" in their ID |
 | Reset all filters of countries table | All filters are reset.<br><br>All countries are displayed |
-| filter by name. | Pages list is filtered. Pages listed have the name "France"  in their name |
+| filter by Country. | Pages list is filtered. Pages listed have the name "France"  in their name |
 | Reset all filters of countries table | All filters are reset.<br><br>All countries are displayed |
 | Filter by ISO code. | Countries list is filtered. Pages listed have "FR" in their ISO code |
 | Reset all filters of countries table | All filters are reset.<br><br>All countries are displayed |
