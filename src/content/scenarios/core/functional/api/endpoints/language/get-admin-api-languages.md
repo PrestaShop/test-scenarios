@@ -23,7 +23,7 @@ weight: 1
 | Click on tab Languages | Languages Tab is displayed correctly |
 | Reset all filters of Languages table | All filters are reset. <br>All Languages are displayed. |
 | *Loop on each item of the key items of the JSON Response* |  |
-| Filter on the language ID for a specific language | 1 record found.<br><br>Check that the JSON Response has the same data in the BackOffice :<br> * langId<br> * name<br> * isoCode<br> * languageCode<br> * dateFormat<br> * dateTimeFormat<br> * active<br><br>Go to the Edit page<br><br> Check that the JSON Response has the same data in the BackOffice :<br> * isRtl<br><br>Return to the Tab Languages |
+| Filter on the language ID for a specific language | 1 record found.<br><br>Check that the JSON Response has the same data in the BackOffice :<br> * langId<br> * name<br> * isoCode<br> * languageCode<br> * locale<br> * dateFormat<br> * dateTimeFormat<br> * active<br><br>Go to the Edit page<br><br> Check that the JSON Response has the same data in the BackOffice :<br> * isRtl<br><br>Return to the Tab Languages |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the button “Three points” | The dropdown is displayed |
 | Click on the Delete Button in the dropdown | A modal appeared |

@@ -1,6 +1,6 @@
 ---
 title: "PUT /admin-api/customers/group/{customerGroupId}"
-weight: 3
+weight: 4
 ---
 
 # PUT /admin-api/customers/group/{customerGroupId}

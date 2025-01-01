@@ -21,6 +21,8 @@ weight: 4
 | Sort languages by iso_code desc | list is sorted by iso_code desc<br>(c -> b -> a) |
 | Sort languages by language_code asc | list is sorted by language_code asc<br>(a -> b -> c) |
 | Sort languages by language_code desc | list is sorted by language_code desc<br>(c -> b -> a) |
+| Sort languages by locale asc | list is sorted by locale asc<br>(a -> b -> c) |
+| Sort languages by locale desc | list is sorted by locale desc<br>(c -> b -> a) |
 | Sort languages by date_format_lite asc | list is sorted by date_format_lite asc<br>(a -> b -> c) |
 | Sort languages by date_format_lite desc | list is sorted by date_format_lite desc<br>(c -> b -> a) |
 | Sort languages by date_format_full asc | list is sorted by date_format_full asc<br>(a -> b -> c) |

@@ -25,6 +25,8 @@ weight: 1
 | Reset filter | Number of languages = Total of languages |
 | Filter by Language code = 'en-us' | Number of languages after reset < Total of languages <br>All rows column Language code contains 'en-us' |
 | Reset filter | Number of languages = Total of languages |
+| Filter by Locale = 'en-US' | Number of languages after reset < Total of languages <br>All rows column Language code contains 'en-US' |
+| Reset filter | Number of languages = Total of languages |
 | Filter by Date format = 'm/d/Y' | Number of languages after reset < Total of languages <br>All rows column Date format contains 'm/d/Y' |
 | Reset filter | Number of languages = Total of languages |
 | Filter by Data format (full) = 'm/d/Y H:i:s' | Number of languages after reset < Total of languages <br>All rows column Date format (full) contains 'm/d/Y H:i:s' |
