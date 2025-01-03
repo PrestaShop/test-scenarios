@@ -6,11 +6,9 @@ weight: 4
 # BO - International - Locations - States - Sort and pagination
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : [TEST] To be automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1021
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/02_locations/03_states/04_sortAndPagination.ts
-* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/locations/states/add-or-edit-state
 
 ## Steps
 | Step Description | Expected result |
@@ -23,6 +21,11 @@ weight: 4
 | Change the items number to 100 per page | Only one page is displayed  _(page 1 / 4)_ |
 | Sort state by ID desc | states are sorted by postion (353 -> 352 -> ...) |
 | Sort state by name desc | states are sorted by name  ( z-> y -> ...) |
-| Sort state by ISO code  desc | states are sorted by ISO code   ( z-> y -> ...) |
+| Sort state by name desc | states are sorted by name  ( z-> y -> ...) |
+| Sort state by ISO code  asc | states are sorted by ISO code   ( a-> b -> ...) |
+| Sort state by ISO code  asc | states are sorted by ISO code   ( a-> b -> ...) |
 | Sort state by zone  desc | states are sorted by zone  ( z-> y -> ...) |
+| Sort state by zone  asc | states are sorted by zone  ( a-> b -> ...) |
 | Sort state by country  desc | states are sorted by country  ( z-> y -> ...) |
+| Sort state by country  asc | states are sorted by country  ( a-> b -> ...) |
+| Sort state by ID asc | states are sorted by postion (352 ->353 -> ...) |
