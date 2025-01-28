@@ -22,13 +22,13 @@
     <title>Autoupgrade - Verify the New UI (it&#39;ll be change) :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1737962227" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1737962227" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1737962227" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1737962227" rel="stylesheet"><link href="../../../../css/auto-complete.css?1737962227" rel="stylesheet">
-    <link href="../../../../style.css?1737962227" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1738046358" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1738046358" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1738046358" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1738046358" rel="stylesheet"><link href="../../../../css/auto-complete.css?1738046358" rel="stylesheet">
+    <link href="../../../../style.css?1738046358" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1737962227"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1738046358"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67352,7 +67352,7 @@
 <td>Module Manager page is displayed correctly</td>
 </tr>
 <tr>
-<td>Search for the 1-click Install&quot; module. Install it&quot;</td>
+<td>Search for the &ldquo;update module&rdquo; module. Install it</td>
 <td>Module is correctly installed</td>
 </tr>
 <tr>
@@ -67372,8 +67372,8 @@
 <td>* A terminal is open in the right folder <br> * You should be in the folder [yourshop]/modules/autoupgrade/_dev<br> * Npm should be installed in your folder with this last word : &ldquo;Run <code>npm audit</code> for details.&quot;<br> * The terminal should say some files have been modified <br> * You should return on the folder [yourshop]/modules/autoupgrade/<br> * You terminal will say &ldquo;Nothing to install, update or remove&rdquo;</td>
 </tr>
 <tr>
-<td>* Return on the &ldquo;Updrate Assistant&rdquo; page <br> * At the end of the link, add : <br>&amp;new-ui=1&amp;route=home-page</td>
-<td>* You should see the configuration page of the module<br> * You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore should be disabled except if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
+<td>* Return on the &ldquo;Updrate Assistant&rdquo; page</td>
+<td>* You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore should be disabled except if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
 <td>Clic on the radio button next to &ldquo;Update your store&rdquo;</td>
@@ -67408,8 +67408,28 @@
 <td>You should have a modal with <br> * title : &quot; Start update? &ldquo;<br> * Sub title : &ldquo;Before starting the update, make sure you have a complete and recent backup of your store (database, files, and images).&quot;<br> * a Check box : &ldquo;I have made my own backup and can restore it manually if a problem occur.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start update&rdquo;, the last one is disabled</td>
 </tr>
 <tr>
-<td>* Click on the checkbox &ldquo;I have made my own backup (&hellip;)&rdquo; <br> * Click on &ldquo;Start Update&rdquo;</td>
-<td>* The button &ldquo;Start Update&rdquo; should be enabled <br> * You should be on the page &ldquo;Update&rdquo; with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
+<td>* Click on the checkbox &ldquo;I have made my own backup (&hellip;)&rdquo; <br> * Click on the cross or elsewhere the module</td>
+<td>* The button &ldquo;Start Update&rdquo; should be enabled <br>* The modal should be close and you &rsquo;ll be on the page &ldquo;Back up your store&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Launch Backup&rdquo;</td>
+<td>You should have a modal with <br> * title : &quot; Start backup? &ldquo;<br> * Sub title : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Backup</td>
+</tr>
+<tr>
+<td>* Click on &ldquo;Start Backup&rdquo;</td>
+<td>* You should be on the page &ldquo;Backup&rdquo; with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
+</tr>
+<tr>
+<td>Wait until the end of the backup</td>
+<td>You should have be on a new page with <br> * title : &quot; Back up your store&rdquo;<br> * A green notification : &ldquo;Backup completed&rdquo;<br> * A link : &ldquo;Download backup logs&rdquo;<br> * 1 button : &ldquo;Start Update&rdquo;&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Start Update&rdquo;</td>
+<td>You should have a modal with <br> * title : &quot; Start Update ? &ldquo;<br> * Sub title : &ldquo;You are about to launch the update, do you want to continue?&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Update &quot;</td>
+</tr>
+<tr>
+<td>* Click on &ldquo;Start Update&rdquo;</td>
+<td>* You should be on the page &ldquo;Update&rdquo; with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
 </tr>
 <tr>
 <td>Wait until the end of the update</td>
@@ -67443,17 +67463,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1737962227"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1737962227"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1737962227"></script>
-    <script src="../../../../js/jquery.sticky.js?1737962227"></script>
-    <script src="../../../../js/featherlight.min.js?1737962227"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1737962227"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1737962227"></script>
-    <script src="../../../../js/learn.js?1737962227"></script>
-    <script src="../../../../js/hugo-learn.js?1737962227"></script>
+    <script src="../../../../js/clipboard.min.js?1738046358"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1738046358"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1738046358"></script>
+    <script src="../../../../js/jquery.sticky.js?1738046358"></script>
+    <script src="../../../../js/featherlight.min.js?1738046358"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1738046358"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1738046358"></script>
+    <script src="../../../../js/learn.js?1738046358"></script>
+    <script src="../../../../js/hugo-learn.js?1738046358"></script>
     
-    <script src="../../../../main.js?1737962227"></script>
+    <script src="../../../../main.js?1738046358"></script>
     
     
     
