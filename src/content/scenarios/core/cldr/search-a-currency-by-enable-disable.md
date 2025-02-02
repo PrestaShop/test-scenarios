@@ -8,7 +8,6 @@ weight: 5
 * **Component** : Core
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1365
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/05_searchCurrencyByEnableDisable.ts
 
 ## Steps
 | Step Description | Expected result |
