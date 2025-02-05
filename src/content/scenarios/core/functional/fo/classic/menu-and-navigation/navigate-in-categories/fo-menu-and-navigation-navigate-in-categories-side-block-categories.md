@@ -14,8 +14,8 @@ weight: 3
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to FO > In Menu, click on Accessories | Accessories category page is displayed<br>Side block has 2 subcategory : Stationery and Home accessories |
-| Click on Stationery on the side block | Stationery category page is displayed<br>Side block only contains Stationery subcategory |
-| In menu > Click on Clothes | Clothes category page is displayed<br>Side block has 2 subcategory : Men and Women |
-| Click on Women on the side block | Women category page is displayed<br>Side block only contains Women subcategory |
-| In menu > Click on Art | Art category page is displayed<br>Side block has no subcategory, only category name Art |
+| Go to FO > In top Menu, click on Accessories | Accessories category page is displayed<br>Side block is displayed with "HOME" and all categories displayed (Clothes, Accessories, Art) |
+| On the side block, click on the "+" sign next to Accessories > Click on Stationery | Stationery category page is displayed |
+| In top menu > Click on Clothes | Clothes category page is displayed |
+| On the side block, click on the "+" sign next to Clothes > Click on Women | Women category page is displayed |
+| In top Menu > Click on Art | Art category page is displayed |
