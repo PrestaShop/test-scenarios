@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (36 campaigns / 42 issues)
+# Known bugs (34 campaigns / 40 issues)
 * **[tests/UI/campaigns/audit/BO/06_statistics.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/06_statistics.ts)** :
   * [PrestaShop#37520 : Stats > Newsletter : `Uncaught TypeError: e is undefined`](https://github.com/PrestaShop/PrestaShop/issues/37520)
   * [PrestaShop#37521 : Stats > Sales and orders : `Uncaught TypeError: e is undefined`](https://github.com/PrestaShop/PrestaShop/issues/37521)
@@ -13,10 +13,6 @@ weight: 1
   * [PrestaShop#34507 : API : Endpoint `PUT /api/hook-status` - Issues Doc Swagger & Enpoint format ](https://github.com/PrestaShop/PrestaShop/issues/34507)
 * **[tests/UI/campaigns/functional/API/02_endpoints/05_hooks/01_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hooks/01_getHooks.ts)** :
   * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
-* **[tests/UI/campaigns/functional/API/02_endpoints/05_hooks/02_getHooksId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hooks/02_getHooksId.ts)** :
-  * [PrestaShop#34552 : API : Endpoint `GET /api/hooks/{id}` : Difference between title & name - Enpoint issue](https://github.com/PrestaShop/PrestaShop/issues/34552)
-* **[tests/UI/campaigns/functional/API/02_endpoints/09_product/01_postProduct.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/09_product/01_postProduct.ts)** :
-  * [PrestaShop#35619 : Endpoint `POST /api/product` : Descriptions are not updated](https://github.com/PrestaShop/PrestaShop/issues/35619)
 * **[tests/UI/campaigns/functional/API/02_endpoints/09_product/04_patchProductId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/09_product/04_patchProductId.ts)** :
   * [PrestaShop#35626 : Endpoint `PATCH /api/product/{productId}` : Type is not updated](https://github.com/PrestaShop/PrestaShop/issues/35626)
 * **[tests/UI/campaigns/functional/API/02_endpoints/10_products/02_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_products/02_getProductsSearch.ts)** :
