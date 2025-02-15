@@ -6,9 +6,11 @@ weight: 1
 # BO - Catalog price Rules - CRUD
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automated
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-834
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/01_CRUDCatalogPriceRule.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/edit-or-add-catalog-price-rule
 
 ## Steps
 | Step Description | Expected result |
