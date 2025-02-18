@@ -6,7 +6,7 @@ weight: 19
 # Faceted search module - Edit template - Product weight filter
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4255
 
 ## Steps

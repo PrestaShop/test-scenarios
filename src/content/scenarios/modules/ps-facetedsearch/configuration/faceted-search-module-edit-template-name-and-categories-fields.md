@@ -6,7 +6,7 @@ weight: 8
 # Faceted search module - Edit template - Name and categories fields
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4209
 
 ## Steps

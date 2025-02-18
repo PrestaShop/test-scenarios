@@ -6,7 +6,7 @@ weight: 1
 # BO - Shop Parameters - SEO & URLs - Update Schema of URLs
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1113
 
 ## Steps

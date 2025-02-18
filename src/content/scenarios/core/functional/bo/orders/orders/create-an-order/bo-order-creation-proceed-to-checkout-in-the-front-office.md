@@ -6,7 +6,7 @@ weight: 11
 # BO - Order creation - Proceed to checkout in the front office
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10009
 
 ## Steps

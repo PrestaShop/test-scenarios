@@ -6,7 +6,7 @@ weight: 8
 # BO - International - Localization - Set time zone
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-992
 
 ## Steps

@@ -6,6 +6,6 @@ weight: 8
 # BO - Catalog price Rules - CRUD - Invalid date
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Blocked
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10335
 

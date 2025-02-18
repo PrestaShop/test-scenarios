@@ -6,7 +6,7 @@ weight: 6
 # Faceted search module - Use tax to filter price field configuration
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4203
 
 ## Steps

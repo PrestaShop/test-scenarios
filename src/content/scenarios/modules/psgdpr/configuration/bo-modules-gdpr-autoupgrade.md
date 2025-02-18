@@ -5,7 +5,7 @@ weight: 6
 
 # BO - Modules - GDPR - Autoupgrade
 ## Details
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7596
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 1
 # BO - Design - Link Widget - Change position
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-966
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 4
 # Category products module - Upgrade module
 ## Details
 * **Component** : ps_categoryproducts
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4215
 
 ## Steps

@@ -5,7 +5,7 @@ weight: 1
 
 # BO - Modules : ps_imageslider - Configure
 ## Details
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6763
 
 ## Steps

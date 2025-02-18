@@ -6,7 +6,7 @@ weight: 7
 # BO - Catalog - Stocks - Filter Stocks by Supplier and Categories
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-844
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 3
 # BO - Design - Image Settings - Images generation options
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-962
 
 ## Steps

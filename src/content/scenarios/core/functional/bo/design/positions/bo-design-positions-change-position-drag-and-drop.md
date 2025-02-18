@@ -6,7 +6,7 @@ weight: 7
 # BO - Design - Positions - Change position (drag and drop)
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-958
 
 ## Steps

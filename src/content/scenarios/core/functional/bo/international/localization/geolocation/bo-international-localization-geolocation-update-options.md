@@ -6,7 +6,7 @@ weight: 1
 # BO - International - Localization - Geolocation - Update options
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1007
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 2
 # BO - Design - Link List - CRUD
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in progress
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-967
 
 ## Steps

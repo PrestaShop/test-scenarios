@@ -6,7 +6,7 @@ weight: 2
 # Cash on delivery (COD) module - Uninstall/Install module
 ## Details
 * **Component** : ps_cashondelivery
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4068
 
 ## Steps

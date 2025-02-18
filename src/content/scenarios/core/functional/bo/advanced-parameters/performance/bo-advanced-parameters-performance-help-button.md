@@ -6,7 +6,7 @@ weight: 8
 # BO - Advanced Parameters - Performance - Help button
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10271
 
 ## Steps

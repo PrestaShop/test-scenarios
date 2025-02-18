@@ -6,7 +6,7 @@ weight: 1
 # BO - Shop Parameters - SEO & URLs - Generate Robots.txt file
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1115
 
 ## Steps

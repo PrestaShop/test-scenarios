@@ -6,7 +6,7 @@ weight: 2
 # BO - Shop Parameters - General - Disable / Enable Front office security
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1044
 
 ## Steps

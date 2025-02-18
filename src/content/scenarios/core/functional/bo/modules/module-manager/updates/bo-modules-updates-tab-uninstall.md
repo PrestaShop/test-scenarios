@@ -6,7 +6,7 @@ weight: 1
 # BO - Modules - Updates tab - Uninstall
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-897
 
 ## Steps

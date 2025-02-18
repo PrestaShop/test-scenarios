@@ -6,7 +6,7 @@ weight: 8
 #  BO - CRUD Virtual product
 ## Details
 * **Component** : Core
-* **Status** : [TEST] Automation in review
+* **Status** : Automation in review
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4634
 
 ## Steps

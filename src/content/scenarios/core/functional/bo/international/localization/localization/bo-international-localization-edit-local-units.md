@@ -6,7 +6,7 @@ weight: 3
 # BO - International - Localization - Edit local units
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-987
 
 ## Steps

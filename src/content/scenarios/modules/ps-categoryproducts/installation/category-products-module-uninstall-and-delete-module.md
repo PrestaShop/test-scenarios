@@ -6,7 +6,7 @@ weight: 6
 # Category products module - Uninstall and delete module
 ## Details
 * **Component** : ps_categoryproducts
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4217
 
 ## Steps

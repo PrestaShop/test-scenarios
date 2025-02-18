@@ -6,7 +6,7 @@ weight: 1
 # Wishlist module - Create a list
 ## Details
 * **Component** : blockwishlist
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3857
 
 ## Steps

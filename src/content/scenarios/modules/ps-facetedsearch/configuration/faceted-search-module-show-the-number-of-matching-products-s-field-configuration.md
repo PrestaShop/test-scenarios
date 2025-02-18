@@ -6,7 +6,7 @@ weight: 1
 # Faceted search module - Show the number of matching products\'s field configuration
 ## Details
 * **Component** : ps_facetedsearch
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4111
 
 ## Steps

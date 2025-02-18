@@ -6,7 +6,7 @@ weight: 7
 # BO - Advanced parameters - Email - Help button
 ## Details
 * **Component** : Core
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10272
 
 ## Steps

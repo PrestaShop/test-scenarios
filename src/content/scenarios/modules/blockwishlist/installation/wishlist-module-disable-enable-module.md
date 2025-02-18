@@ -6,7 +6,7 @@ weight: 1
 # Wishlist module - Disable/Enable module
 ## Details
 * **Component** : blockwishlist
-* **Status** : [TEST] To be automated
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4225
 
 ## Steps
