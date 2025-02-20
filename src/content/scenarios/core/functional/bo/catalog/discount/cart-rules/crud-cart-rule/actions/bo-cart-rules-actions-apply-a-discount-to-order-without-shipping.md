@@ -16,4 +16,4 @@ weight: 6
 | Click on "Add new cart rule" | Cart rule page is displayed<br><br>Information tab is displayed |
 | Entering data for information >Click on save | Warning is message is displayed: "An action is required for this cart rule." |
 | Tab "Conditions" | The information is available |
-| Tab "Actions" | Succes Message is displayed: "Successful creation" |
+| Click on Tab "Actions" | Succes Message is displayed: "Successful creation" |
