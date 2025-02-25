@@ -23,3 +23,4 @@ weight: 6
 | Click on  "View my store" <br><br>Add a product to the basket with the discount code | The discount applies to the product in the basket with the amount |
 | Apply an amount reduction with a ‘apply discount to order without shipping ’ excluding tax | Succes Message is displayed: "Successful creation" |
 | Click on  "View my store" <br><br>Add a product to the basket with the discount code | The discount applies to the product in the basket with the amount and taxe |
+| Delete Cart rules | Sucess Message:"Successful deletion" |
