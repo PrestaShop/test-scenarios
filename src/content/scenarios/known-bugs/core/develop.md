@@ -42,13 +42,13 @@ weight: 1
 * **[tests/UI/campaigns/functional/FO/classic/06_homePage/05_selectColor.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/06_homePage/05_selectColor.ts)** :
   * [PrestaShop#36356 : MySQL / MariaDB : Different behavior for the default combination](https://github.com/PrestaShop/PrestaShop/issues/36356)
 * **[tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/02_sortAndFilter/01_sortProducts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/02_sortAndFilter/01_sortProducts.ts)** :
-  * [PrestaShop#19810 : Sorting by price in faceted search does not work](https://github.com/PrestaShop/PrestaShop/issues/19810)
+  * [PrestaShop#19810 : `ps_facetedsearch`: Sorting by price in faceted search does not work](https://github.com/PrestaShop/PrestaShop/issues/19810)
 * **[tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/04_getGDPRDataInPDF.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/04_getGDPRDataInPDF.ts)** :
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
 * **[tests/UI/campaigns/functional/FO/hummingbird/06_homePage/05_selectColor.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/05_selectColor.ts)** :
   * [PrestaShop#35481 : FO > When clicking on a variation, the default combination is not displayed on the product page](https://github.com/PrestaShop/PrestaShop/issues/35481)
 * **[tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/02_sortAndFilter/01_sortProducts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/02_sortAndFilter/01_sortProducts.ts)** :
-  * [PrestaShop#19810 : Sorting by price in faceted search does not work](https://github.com/PrestaShop/PrestaShop/issues/19810)
+  * [PrestaShop#19810 : `ps_facetedsearch`: Sorting by price in faceted search does not work](https://github.com/PrestaShop/PrestaShop/issues/19810)
 * **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts)** :
   * [PrestaShop#35219 : Hummingbird Quickview error](https://github.com/PrestaShop/PrestaShop/issues/35219)
 * **[tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/02_useDifferentInvoiceAddress.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/02_useDifferentInvoiceAddress.ts)** :
@@ -65,7 +65,7 @@ weight: 1
 * **[tests/UI/campaigns/modules/07_ps_apiresources/01_installation/02_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/07_ps_apiresources/01_installation/02_disableEnableModule.ts)** :
   * [PrestaShop#34496 : If the module `ps_apiresources` is disabled, Scopes of the module are not disabled](https://github.com/PrestaShop/PrestaShop/issues/34496)
 * **[tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts)** :
-  * [PrestaShop#36906 : `ps_facedsearch`: the switch "Show unavailable, out of stock last" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/36906)
+  * [PrestaShop#36906 : `ps_facetedsearch`: the switch "Show unavailable, out of stock last" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/36906)
 * **[tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts)** :
   * [PrestaShop#36438 : `ps_facetedsearch` : Invalid input are not considered as invalid](https://github.com/PrestaShop/PrestaShop/issues/36438)
 * **[tests/UI/campaigns/modules/29_ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/29_ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts)** :
@@ -73,11 +73,11 @@ weight: 1
 * **[tests/UI/campaigns/modules/35_ps_themecusto/01_installation/05_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/35_ps_themecusto/01_installation/05_disableEnableModule.ts)** :
   * [PrestaShop#36590 : `ps_themecusto` : Disable the module doesn't hide Tabs](https://github.com/PrestaShop/PrestaShop/issues/36590)
 * **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/07_multistore.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/07_multistore.ts)** :
-  * [PrestaShop#37116 : `psgdpr` : The contact form checkbox is not connected](https://github.com/PrestaShop/PrestaShop/issues/37116)
+  * [PrestaShop#37116 : `psgdpr`: The contact form checkbox is not connected](https://github.com/PrestaShop/PrestaShop/issues/37116)
   * [PrestaShop#37112 : `psgdpr` : The configure button is not clickable in shop context](https://github.com/PrestaShop/PrestaShop/issues/37112)
 * **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts)** :
-  * [PrestaShop#36847 : GDPR - Search guest account display result and block "There is no result"](https://github.com/PrestaShop/PrestaShop/issues/36847)
-  * [PrestaShop#36848 : GDPR - Search guest account display result and block is empty](https://github.com/PrestaShop/PrestaShop/issues/36848)
-  * [PrestaShop#36865 : GDPR - Search guest account, Remove it & It's always displayed](https://github.com/PrestaShop/PrestaShop/issues/36865)
+  * [PrestaShop#36847 : `psgdpr`: Search guest account display result and block "There is no result"](https://github.com/PrestaShop/PrestaShop/issues/36847)
+  * [PrestaShop#36848 : `psgdpr`: Search guest account display result and block is empty](https://github.com/PrestaShop/PrestaShop/issues/36848)
+  * [PrestaShop#36865 : `psgdpr`: Search guest account, Remove it & It's always displayed](https://github.com/PrestaShop/PrestaShop/issues/36865)
 * **[tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts)** :
   * [PrestaShop#9779 : [BOOM-4571] Rounding Problem](https://github.com/PrestaShop/PrestaShop/issues/9779)
