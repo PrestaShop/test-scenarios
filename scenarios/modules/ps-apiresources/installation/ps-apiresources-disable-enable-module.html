@@ -22,13 +22,13 @@
     <title>ps_apiresources - Disable/Enable module :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1741243792" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1741243792" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1741243792" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1741243792" rel="stylesheet"><link href="../../../../css/auto-complete.css?1741243792" rel="stylesheet">
-    <link href="../../../../style.css?1741243792" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1741329104" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1741329104" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1741329104" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1741329104" rel="stylesheet"><link href="../../../../css/auto-complete.css?1741329104" rel="stylesheet">
+    <link href="../../../../style.css?1741329104" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1741243792"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1741329104"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67367,7 +67367,19 @@
 </tr>
 <tr>
 <td>Click on the button &ldquo;Add new API access&rdquo;</td>
-<td>New API access Page is displayed correctly<br><br>All scopes relative to the Core are displayed and enabled<br><br>All scopes relative to the module are displayed and disabled</td>
+<td>New API access Page is displayed correctly<br><br>All scopes relative to the Core are displayed and enabled<br><br>All scopes relative to the module are displayed and enabled</td>
+</tr>
+<tr>
+<td>Fill the form with following data (Client ID : &ldquo;Client XYZ&rdquo;, Client Name: &ldquo;ClientName ABC&rdquo;, &ldquo;Scopes&rdquo;: &ldquo;api_client_read&rdquo;)<br>Click on &ldquo;Generate client secret &amp; Save&rdquo; button</td>
+<td>There is 1 application in the list<br>The message “The API access and Client secret has been generated sucessfully” is displayed<br>The message &ldquo;Client secret: &quot; is available<br>The button Copy put the client secret in the clipboard</td>
+</tr>
+<tr>
+<td>Click on the button &ldquo;Copy Client Secret&rdquo;</td>
+<td>The client secret is available</td>
+</tr>
+<tr>
+<td>Request the endpoint &ldquo;/access_token&rdquo; with method POST<br><br>{<br>   client_id: &ldquo;Client XYZ&rdquo;,<br>    client_secret: clientSecret,<br>    grant_type: &lsquo;client_credentials&rsquo;,<br>    scope: &lsquo;api_client_read&rsquo;<br> }</td>
+<td>The HTTP Response is 400<br>The HTTP Content type is application/json<br><br>The Reponse has a property error<br>The error property is equals to &ldquo;invalid_scope&rdquo;</td>
 </tr>
 <tr>
 <td>Go back to BO &gt; Module list page with ps_apiresources module displayed &gt; Click on &ldquo;Enable&rdquo; button at the right of the module</td>
@@ -67380,6 +67392,18 @@
 <tr>
 <td>Click on the button &ldquo;Add new API access&rdquo;</td>
 <td>New API access Page is displayed correctly<br><br>All scopes relative to the Core are displayed and enabled<br><br>All scopes relative to the module are displayed and enabled</td>
+</tr>
+<tr>
+<td>Fill the form with following data (Client ID : &ldquo;Client XYZ&rdquo;, Client Name: &ldquo;ClientName ABC&rdquo;, &ldquo;Scopes&rdquo;: &ldquo;api_client_read&rdquo;)<br>Click on &ldquo;Generate client secret &amp; Save&rdquo; button</td>
+<td>There is 1 application in the list<br>The message “The API access and Client secret has been generated sucessfully” is displayed<br>The message &ldquo;Client secret: &quot; is available<br>The button Copy put the client secret in the clipboard</td>
+</tr>
+<tr>
+<td>Click on the button &ldquo;Copy Client Secret&rdquo;</td>
+<td>The client secret is available</td>
+</tr>
+<tr>
+<td>Request the endpoint &ldquo;/access_token&rdquo; with method POST<br><br>{<br>   client_id: &ldquo;Client XYZ&rdquo;,<br>    client_secret: clientSecret,<br>    grant_type: &lsquo;client_credentials&rsquo;,<br>    scope: &lsquo;api_client_read&rsquo;<br> }</td>
+<td>The HTTP Response is 200<br>The HTTP Content type is application/json<br><br>The Reponse has a property access_token<br>The error property is a string</td>
 </tr>
 </tbody>
 </table>
@@ -67401,17 +67425,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1741243792"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1741243792"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1741243792"></script>
-    <script src="../../../../js/jquery.sticky.js?1741243792"></script>
-    <script src="../../../../js/featherlight.min.js?1741243792"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1741243792"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1741243792"></script>
-    <script src="../../../../js/learn.js?1741243792"></script>
-    <script src="../../../../js/hugo-learn.js?1741243792"></script>
+    <script src="../../../../js/clipboard.min.js?1741329104"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1741329104"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1741329104"></script>
+    <script src="../../../../js/jquery.sticky.js?1741329104"></script>
+    <script src="../../../../js/featherlight.min.js?1741329104"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1741329104"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1741329104"></script>
+    <script src="../../../../js/learn.js?1741329104"></script>
+    <script src="../../../../js/hugo-learn.js?1741329104"></script>
     
-    <script src="../../../../main.js?1741243792"></script>
+    <script src="../../../../main.js?1741329104"></script>
     
     
     
