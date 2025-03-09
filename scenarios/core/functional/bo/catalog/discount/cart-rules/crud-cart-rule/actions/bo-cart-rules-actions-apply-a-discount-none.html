@@ -22,13 +22,13 @@
     <title>BO - Cart rules - Actions - Apply a discount None :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../../../css/font-awesome.min.css?1741415783" rel="stylesheet">
-    <link href="../../../../../../../../../css/syntax-github.css?1741415783" rel="stylesheet">
-    <link href="../../../../../../../../../css/featherlight.min.css?1741415783" rel="stylesheet">
-    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1741415783" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1741415783" rel="stylesheet">
-    <link href="../../../../../../../../../style.css?1741415783" rel="stylesheet">
+    <link href="../../../../../../../../../css/font-awesome.min.css?1741504034" rel="stylesheet">
+    <link href="../../../../../../../../../css/syntax-github.css?1741504034" rel="stylesheet">
+    <link href="../../../../../../../../../css/featherlight.min.css?1741504034" rel="stylesheet">
+    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1741504034" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1741504034" rel="stylesheet">
+    <link href="../../../../../../../../../style.css?1741504034" rel="stylesheet">
 
-    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1741415783"></script>
+    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1741504034"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -43124,6 +43124,7 @@
     <li><a href="#bo---cart-rules---actions---apply-a-discount-none">BO - Cart rules - Actions - Apply a discount None</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -67356,9 +67357,68 @@
 <h1 id="bo---cart-rules---actions---apply-a-discount-none">BO - Cart rules - Actions - Apply a discount None<a href="#bo---cart-rules---actions---apply-a-discount-none"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : In progress</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-10321">https://forge.prestashop.com/browse/TEST-10321</a></li>
 </ul>
+
+<h2 id="steps">Steps<a href="#steps"></a></h2><table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Go to BO &gt; Catalog &gt; Discounts</td>
+<td>Cart rules page is displayed</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Add new cart rule&rdquo;</td>
+<td>Cart rule page is displayed<br><br>Information tab is displayed</td>
+</tr>
+<tr>
+<td>Enter data for Information &gt; Click on Save</td>
+<td>Warning is message is displayed: &ldquo;An action is required for this cart rule.&rdquo;</td>
+</tr>
+<tr>
+<td>Click on Tab &ldquo;Actions&rdquo; &gt; Click on &ldquo;apply discount &ldquo;:None  &gt; Save</td>
+<td>Error Message is displayed: &ldquo;An action is required for this cart rule.&rdquo;</td>
+</tr>
+<tr>
+<td>Click on Tab &ldquo;Actions&rdquo; &gt; Enable Free shipping  and Apply discount :None &gt; Save</td>
+<td>Success message :Successful creation</td>
+</tr>
+<tr>
+<td>Click on View my store &gt; Add a product to the cart</td>
+<td>Shipping should be free. See in cart :<br> <br> <br></td>
+</tr>
+<tr>
+<td>Go back to cart rule edition page &gt;Click on Tab &ldquo;Actions&rdquo;<br><br>Desabled free shipping<br><br>Enable Exclude discounted products &gt; Apply discount: None &gt;Save</td>
+<td>Error message: &ldquo;An action is required for this cart rule.&rdquo;</td>
+</tr>
+<tr>
+<td>Go to cart rule edition page &gt;Click on Tab &ldquo;Actions&rdquo; &gt;Enabled free shipping &gt; Enable Exclude discounted products &gt; Apply discount: None&gt; Save</td>
+<td>Success message: Successful update</td>
+</tr>
+<tr>
+<td>Click on View my store &gt; Add a product to the cart</td>
+<td>We have this in cart: <br><br> <br> <br><br><br> <br> <br> * <br><br> <br><br> <br></td>
+</tr>
+<tr>
+<td>Go back to cart rule edition page &gt;Click on Tab &ldquo;Actions&rdquo;&gt; free shipping&gt;Desabled  Exclude discounted products &gt; Apply discount: None &gt;Enabled send a free gift  &gt;Save</td>
+<td>Sucess message: &ldquo;Successful update&rdquo;</td>
+</tr>
+<tr>
+<td>Click on View my store &gt; Add a product to the cart</td>
+<td>We have this in cart: <br><br><br> <br> <br></td>
+</tr>
+<tr>
+<td>Go to Cart rules page &gt; Delete Cart rule</td>
+<td>Success message:&ldquo;Successful deletion&rdquo;</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
@@ -67377,17 +67437,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../../../js/clipboard.min.js?1741415783"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1741415783"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1741415783"></script>
-    <script src="../../../../../../../../../js/jquery.sticky.js?1741415783"></script>
-    <script src="../../../../../../../../../js/featherlight.min.js?1741415783"></script>
-    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1741415783"></script>
-    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1741415783"></script>
-    <script src="../../../../../../../../../js/learn.js?1741415783"></script>
-    <script src="../../../../../../../../../js/hugo-learn.js?1741415783"></script>
+    <script src="../../../../../../../../../js/clipboard.min.js?1741504035"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1741504035"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1741504035"></script>
+    <script src="../../../../../../../../../js/jquery.sticky.js?1741504035"></script>
+    <script src="../../../../../../../../../js/featherlight.min.js?1741504035"></script>
+    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1741504035"></script>
+    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1741504035"></script>
+    <script src="../../../../../../../../../js/learn.js?1741504035"></script>
+    <script src="../../../../../../../../../js/hugo-learn.js?1741504035"></script>
     
-    <script src="../../../../../../../../../main.js?1741415783"></script>
+    <script src="../../../../../../../../../main.js?1741504035"></script>
     
     
     
