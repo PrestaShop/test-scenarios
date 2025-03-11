@@ -22,13 +22,13 @@
     <title>BO - Cart rules - Actions - Exclude discounted products :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../../../css/font-awesome.min.css?1741589879" rel="stylesheet">
-    <link href="../../../../../../../../../css/syntax-github.css?1741589879" rel="stylesheet">
-    <link href="../../../../../../../../../css/featherlight.min.css?1741589879" rel="stylesheet">
-    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1741589879" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1741589879" rel="stylesheet">
-    <link href="../../../../../../../../../style.css?1741589879" rel="stylesheet">
+    <link href="../../../../../../../../../css/font-awesome.min.css?1741676583" rel="stylesheet">
+    <link href="../../../../../../../../../css/syntax-github.css?1741676583" rel="stylesheet">
+    <link href="../../../../../../../../../css/featherlight.min.css?1741676583" rel="stylesheet">
+    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1741676583" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1741676583" rel="stylesheet">
+    <link href="../../../../../../../../../style.css?1741676583" rel="stylesheet">
 
-    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1741589879"></script>
+    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1741676583"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67385,6 +67385,34 @@
 <td>Click on Tab &ldquo;Conditions&rdquo;</td>
 <td>See Total available : 1<br><br>See Total available for each user : 1</td>
 </tr>
+<tr>
+<td>Click on Tab &ldquo;Actions&rdquo; &gt;Percentage &gt; Save</td>
+<td>Success Message is displayed: &ldquo;Successful creation&rdquo;</td>
+</tr>
+<tr>
+<td>Click on View my store &gt; Add a product Exclude discounted products to the cart &gt; Click on Proceed to checkout</td>
+<td>Error message is displayed :&ldquo;You cannot use this voucher on products on sale&rdquo;<br>see in cart:<br></td>
+</tr>
+<tr>
+<td>Go home&gt;Add a product that does not have a discount&gt;Click on proceed to checkout</td>
+<td>See in the cart:<br> <br></td>
+</tr>
+<tr>
+<td>Delete a product with discount</td>
+<td>See in the cart:<br><br> <br></td>
+</tr>
+<tr>
+<td>Go back to cart rule edition page &gt; Click on Tab Actions &gt; Set Value percentage  = -50 &gt; Save</td>
+<td>Error message is displayed: &ldquo;There are 2 errors.<br> # Reduction percentage must be between 0% and 100%<br> # The reduction_percent field is invalid.<br><br>&rdquo;</td>
+</tr>
+<tr>
+<td>Go to cart rule edition page &gt; Click on Tab Actions &gt; Set Value = -ar&rsquo;(&gt; Save</td>
+<td>Error message is displayed: &ldquo;The reduction_percent field is invalid.&rdquo;</td>
+</tr>
+<tr>
+<td>Go to Cart rules page &gt; Delete Cart rule</td>
+<td>Success message:&ldquo;Successful deletion&rdquo;</td>
+</tr>
 </tbody>
 </table>
 
@@ -67405,17 +67433,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../../../js/clipboard.min.js?1741589879"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1741589879"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1741589879"></script>
-    <script src="../../../../../../../../../js/jquery.sticky.js?1741589879"></script>
-    <script src="../../../../../../../../../js/featherlight.min.js?1741589879"></script>
-    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1741589879"></script>
-    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1741589879"></script>
-    <script src="../../../../../../../../../js/learn.js?1741589879"></script>
-    <script src="../../../../../../../../../js/hugo-learn.js?1741589879"></script>
+    <script src="../../../../../../../../../js/clipboard.min.js?1741676583"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1741676583"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1741676583"></script>
+    <script src="../../../../../../../../../js/jquery.sticky.js?1741676583"></script>
+    <script src="../../../../../../../../../js/featherlight.min.js?1741676583"></script>
+    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1741676583"></script>
+    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1741676583"></script>
+    <script src="../../../../../../../../../js/learn.js?1741676583"></script>
+    <script src="../../../../../../../../../js/hugo-learn.js?1741676583"></script>
     
-    <script src="../../../../../../../../../main.js?1741589879"></script>
+    <script src="../../../../../../../../../main.js?1741676583"></script>
     
     
     
