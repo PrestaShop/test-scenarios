@@ -22,13 +22,13 @@
     <title>BO - Cart rules - Actions - Apply a discount Amount :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../../../css/font-awesome.min.css?1741761359" rel="stylesheet">
-    <link href="../../../../../../../../../css/syntax-github.css?1741761359" rel="stylesheet">
-    <link href="../../../../../../../../../css/featherlight.min.css?1741761359" rel="stylesheet">
-    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1741761359" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1741761359" rel="stylesheet">
-    <link href="../../../../../../../../../style.css?1741761359" rel="stylesheet">
+    <link href="../../../../../../../../../css/font-awesome.min.css?1741847787" rel="stylesheet">
+    <link href="../../../../../../../../../css/syntax-github.css?1741847787" rel="stylesheet">
+    <link href="../../../../../../../../../css/featherlight.min.css?1741847787" rel="stylesheet">
+    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1741847787" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1741847787" rel="stylesheet">
+    <link href="../../../../../../../../../style.css?1741847787" rel="stylesheet">
 
-    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1741761359"></script>
+    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1741847787"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67357,7 +67357,7 @@
 <h1 id="bo---cart-rules---actions---apply-a-discount-amount">BO - Cart rules - Actions - Apply a discount Amount<a href="#bo---cart-rules---actions---apply-a-discount-amount"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-10320">https://forge.prestashop.com/browse/TEST-10320</a></li>
 </ul>
 
@@ -67378,23 +67378,19 @@
 <td>Cart rule page is displayed<br><br>Information tab is displayed</td>
 </tr>
 <tr>
-<td>Entering data for information &gt;Click on save</td>
-<td>Warning is message is displayed: &ldquo;An action is required for this cart rule.&rdquo;</td>
+<td>Entering data for in Information tab &gt; Click on tab Actions</td>
+<td>Tab Actions is displayed</td>
 </tr>
 <tr>
-<td>Click on Tab &ldquo;Conditions&rdquo;</td>
-<td>See Total available : 1<br><br>See Total available for each user : 1</td>
+<td>Enter data for Tab &ldquo;Actions&rdquo; &gt; Save</td>
+<td>Message &ldquo;Successful creation&rdquo; is displayed</td>
 </tr>
 <tr>
-<td>Click on Tab &ldquo;Actions&rdquo; &gt; Amount &gt; Save</td>
-<td>Success Message is displayed: &ldquo;Successful creation&rdquo;</td>
+<td>Click on View my store &gt; Add a product to the cart &gt; Click on Proceed to checkout</td>
+<td>Shopping cart plage is displayed.<br>The discount amount should be displayed<br> <br></td>
 </tr>
 <tr>
-<td>Click on View my store &gt; Add a product to the cart&gt; Click on Proceed to checkout</td>
-<td>The discount amount should be displayed<br> <br> <br></td>
-</tr>
-<tr>
-<td>Go back to cart rule edition page &gt;Click on Tab &ldquo;Actions&rdquo; &gt; Amount  (tax excluded)&gt; Save</td>
+<td>Go back to cart rule edition page &gt; Click on Tab &ldquo;Actions&rdquo; &gt; Edit Amount : Tax excluded &gt; Save</td>
 <td>Success Message is displayed: &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
@@ -67402,7 +67398,7 @@
 <td>The discount amount should be displayed<br> <br> <br></td>
 </tr>
 <tr>
-<td>Go back to cart rule edition page &gt;Click on Tab &ldquo;Actions&rdquo; &gt; Amount  &gt; Save</td>
+<td>Go back to cart rule edition page &gt; Click on Tab &ldquo;Actions&rdquo; &gt; Edit Amount : 100 EUR &gt; Save</td>
 <td>Success Message is displayed: &ldquo;Successful update&rdquo;</td>
 </tr>
 <tr>
@@ -67414,16 +67410,16 @@
 <td>Error message: &ldquo;Reduction amount cannot be lower than zero.&rdquo;</td>
 </tr>
 <tr>
-<td>Go to cart rule edition page &gt; Click on Tab Actions &gt; Set Value = ab&gt; Save</td>
+<td>On Tab Actions &gt; Set Value = ab &gt; Save</td>
 <td>Error message: &ldquo;The reduction_amount field is invalid.&rdquo;</td>
 </tr>
 <tr>
-<td>Go to cart rule edition page &gt; Click on Tab Actions &gt; Set Value =ù^)&gt; Save</td>
+<td>On Tab Actions &gt; Set Value = ù^)&gt; Save</td>
 <td>Error message: &ldquo;The reduction_amount field is invalid.&rdquo;</td>
 </tr>
 <tr>
-<td>Go to cart rule edition page &gt; Click on Tab Actions &gt; Set Value =0&gt; Save</td>
-<td>Sucess message: &ldquo;Successful update.&rdquo;</td>
+<td>On Tab Actions &gt; Set Value = 0 &gt; Save</td>
+<td>Success message: &ldquo;Successful update.&rdquo;</td>
 </tr>
 <tr>
 <td>Go back to shopping cart page &gt;  Refresh</td>
@@ -67453,17 +67449,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../../../js/clipboard.min.js?1741761359"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1741761359"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1741761359"></script>
-    <script src="../../../../../../../../../js/jquery.sticky.js?1741761359"></script>
-    <script src="../../../../../../../../../js/featherlight.min.js?1741761359"></script>
-    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1741761359"></script>
-    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1741761359"></script>
-    <script src="../../../../../../../../../js/learn.js?1741761359"></script>
-    <script src="../../../../../../../../../js/hugo-learn.js?1741761359"></script>
+    <script src="../../../../../../../../../js/clipboard.min.js?1741847787"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1741847787"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1741847787"></script>
+    <script src="../../../../../../../../../js/jquery.sticky.js?1741847787"></script>
+    <script src="../../../../../../../../../js/featherlight.min.js?1741847787"></script>
+    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1741847787"></script>
+    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1741847787"></script>
+    <script src="../../../../../../../../../js/learn.js?1741847787"></script>
+    <script src="../../../../../../../../../js/hugo-learn.js?1741847787"></script>
     
-    <script src="../../../../../../../../../main.js?1741761359"></script>
+    <script src="../../../../../../../../../main.js?1741847787"></script>
     
     
     
