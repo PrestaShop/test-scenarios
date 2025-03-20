@@ -6,7 +6,7 @@ weight: 8
 # Autoupgrade - Verify the UI of the module
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9677
 
 ## Steps
