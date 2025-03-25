@@ -22,13 +22,13 @@
     <title>Autoupgrade - Check/Upgrade/Rollback with the CLI :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1742798172" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1742798172" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1742798172" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1742798172" rel="stylesheet"><link href="../../../../css/auto-complete.css?1742798172" rel="stylesheet">
-    <link href="../../../../style.css?1742798172" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1742885647" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1742885647" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1742885647" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1742885647" rel="stylesheet"><link href="../../../../css/auto-complete.css?1742885647" rel="stylesheet">
+    <link href="../../../../style.css?1742885647" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1742798172"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1742885647"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -67376,7 +67376,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Install A fresh 8.1.5</td>
+<td>Install A fresh 1.7.7.8 with php 7.1</td>
 <td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
 </tr>
 <tr>
@@ -67396,8 +67396,24 @@
 <td>You should have many files and folder, one files named README.md can help you</td>
 </tr>
 <tr>
-<td><em>CLI Check</em> <br> * Open a terminal on this folder<br> * Launch the command &ldquo;php bin/console &ldquo;<br> * Launch the command &ldquo;php bin/console update:check admin-dev&rdquo;</td>
-<td>* You should be on the folder modules/autoupgrade<br> * The Terminal should show you some available commands, etc <br> * The terminal should say : &quot; Result of prerequisite cheks: [&hellip;]&rdquo;</td>
+<td><em>CLI Check Version of module</em> <br> * Open a terminal on this folder<br> * Launch the command &ldquo;php bin/console &ldquo;<br> * Launch the command &ldquo;php bin/console &ndash;version&rdquo;</td>
+<td>* You should be on the folder modules/autoupgrade<br> * The Terminal should show you some available commands, etc <br> * The terminal answer : &ldquo;Update assistant 7.0.0&rdquo;</td>
+</tr>
+<tr>
+<td><em>CLI Check Version Available</em> <br> * Launch the command &ldquo;php bin/console update:check-new-version admin-dev&rdquo;</td>
+<td>* The terminal should show a tab with : <br> ** Version</td>
+</tr>
+<tr>
+<td>* Change your PHP to 7.4<br> * Launch the command &ldquo;php bin/console update:check-new-version admin-dev&rdquo;</td>
+<td>* You should be on php 7.4 thank to the app you used for <br> * The terminal should show a tab with : <br> ** Version</td>
+</tr>
+<tr>
+<td>* Change your PHP to 7.4<br> * Launch the command &ldquo;php bin/console update:check-new-version admin-dev&rdquo;</td>
+<td>* You should be on php 7.4 thank to the app you used for <br> * The terminal should show a tab with : <br> ** Version</td>
+</tr>
+<tr>
+<td><em>CLI Check Requirement</em> <br> * Launch the command &ldquo;php bin/console update:check-requirements admin-dev&rdquo;</td>
+<td>* The terminal should say : &quot; Result of prerequisite cheks: [&hellip;]&rdquo;</td>
 </tr>
 <tr>
 <td><em>CLI Upgrade</em><br> * Launch the command &ldquo;touch config.json&rdquo;<br> * Open the files &ldquo;config.json&rdquo; in modules/autoupgrade<br> * Put the information on it and Save it<br> * Return on the terminal and launch the command &ldquo;php bin/console update:start &ndash;config-file-path=config.json admin-dev&rdquo;</td>
@@ -67427,17 +67443,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1742798172"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1742798172"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1742798172"></script>
-    <script src="../../../../js/jquery.sticky.js?1742798172"></script>
-    <script src="../../../../js/featherlight.min.js?1742798172"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1742798172"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1742798172"></script>
-    <script src="../../../../js/learn.js?1742798172"></script>
-    <script src="../../../../js/hugo-learn.js?1742798172"></script>
+    <script src="../../../../js/clipboard.min.js?1742885647"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1742885647"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1742885647"></script>
+    <script src="../../../../js/jquery.sticky.js?1742885647"></script>
+    <script src="../../../../js/featherlight.min.js?1742885647"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1742885647"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1742885647"></script>
+    <script src="../../../../js/learn.js?1742885647"></script>
+    <script src="../../../../js/hugo-learn.js?1742885647"></script>
     
-    <script src="../../../../main.js?1742798172"></script>
+    <script src="../../../../main.js?1742885647"></script>
     
     
     
