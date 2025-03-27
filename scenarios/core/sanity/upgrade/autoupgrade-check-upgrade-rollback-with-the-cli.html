@@ -22,13 +22,13 @@
     <title>Autoupgrade - Check/Upgrade/Rollback with the CLI :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1742970899" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1742970899" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1742970899" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1742970899" rel="stylesheet"><link href="../../../../css/auto-complete.css?1742970899" rel="stylesheet">
-    <link href="../../../../style.css?1742970899" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1743057732" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1743057732" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1743057732" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1743057732" rel="stylesheet"><link href="../../../../css/auto-complete.css?1743057732" rel="stylesheet">
+    <link href="../../../../style.css?1743057732" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1742970899"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1743057732"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28357,9 +28357,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-it-ll-be-change.html" title="Autoupgrade - Verify the New UI (it&#39;ll be change)" class="dd-item ">
-        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-it-ll-be-change.html">
-        Autoupgrade - Verify the New UI (it&#39;ll be change)
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html" title="Autoupgrade - Verify the New UI " class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html">
+        Autoupgrade - Verify the New UI 
         
         </a>
     </li>
@@ -67337,7 +67337,7 @@
 
   
   
-  <a class="nav nav-next" href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-it-ll-be-change.html" title="Autoupgrade - Verify the New UI (it&#39;ll be change)" style="margin-right: 0px;">
+  <a class="nav nav-next" href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html" title="Autoupgrade - Verify the New UI " style="margin-right: 0px;">
     <i class="fa fa-chevron-right"></i>
     Next article
   </a>
@@ -67408,10 +67408,6 @@
 <td>* You should be on php 7.4 thank to the app you used for <br> * The terminal should show a tab with : <br> ** Version</td>
 </tr>
 <tr>
-<td>* Change your PHP to 7.4<br> * Launch the command &ldquo;php bin/console update:check-new-version admin-dev&rdquo;</td>
-<td>* You should be on php 7.4 thank to the app you used for <br> * The terminal should show a tab with : <br> ** Version</td>
-</tr>
-<tr>
 <td>* Add a zip and xml of a new version on [yourshop]/[admin_folder]/autoupgrade/download<br> * Launch the command &ldquo;php bin/console update:check-new-version admin-dev&rdquo;</td>
 <td>* You should have your folder set with an index.php file and the two other that you add<br> * The terminal should show a tab with : <br> ** Version</td>
 </tr>
@@ -67444,16 +67440,40 @@
 <td>* Your terminal should say &ldquo;INFO - The backup file has been successfully deleted&rdquo;</td>
 </tr>
 <tr>
-<td><em>CLI Upgrade</em><br> * Launch the command &ldquo;touch config.json&rdquo;<br> * Open the files &ldquo;config.json&rdquo; in modules/autoupgrade<br> * Put the information on it and Save it<br> * Return on the terminal and launch the command &ldquo;php bin/console update:start &ndash;config-file-path=config.json admin-dev&rdquo;</td>
-<td>* A new files named &ldquo;config.json&rdquo; should be displayed on the files autoupgrade<br> * You should have a file entirely blank <br> * Your file should be completed <br> * Upgrade should be launched</td>
+<td><em>CLI Upgrade</em><br> * Launch the command &ldquo;php bin/console update:start &ldquo;<br> * Launch the command &ldquo;php bin/console update:start &ndash;xml=prestashop_9.0.0.xml admin-dev&rdquo;<br> * Launch the command &ldquo;php bin/console update:start &ndash;zip=prestashop_9.0.0.zip admin-dev&rdquo;<br> * Launch the command &ldquo;php bin/console update:start &ndash;xml=pr2.xml &ndash;zip=pr2.zip admin-dev&rdquo;</td>
+<td>* Your terminal should say &quot; Not enough arguments (missing: &ldquo;admin-dir&rdquo;).&quot;<br> * Your terminal should say &ldquo;ERROR - Both &lsquo;xml&rsquo; and &lsquo;zip&rsquo; files attributes must be provided to use the local channel.&quot;<br> * Your terminal should say &ldquo;ERROR - Both &lsquo;xml&rsquo; and &lsquo;zip&rsquo; files attributes must be provided to use the local channel.&quot;<br> * Your terminal should say &ldquo;ERROR - File pr2.zip does not exist. Unable to select that channel.&rdquo;</td>
 </tr>
 <tr>
-<td><em>CLI Restore Rollback</em> <br> * Launch the command &quot; php bin/console backup:restore admin-dev&quot;</td>
-<td>* The terminal should say : &quot; Result of prerequisite cheks: [&hellip;]&quot;</td>
+<td>* Add another zip of another version on [yourshop]/[admin_folder]/autoupgrade/download<br> * Launch the command &ldquo;php bin/console update:start &ndash;xml=prestashop_9.0.0.xml &ndash;zip=prestashop_8.0.3.zip admin-dev&rdquo;</td>
+<td>* You should have two different zip and one xml on the folder<br> * Your terminal should say &ldquo;ERROR - The PrestaShop version in your archive doesn&rsquo;t match the one in XML file. &quot;</td>
+</tr>
+<tr>
+<td>* Launch the command &ldquo;php bin/console update:start  admin-dev&rdquo;</td>
+<td>* The terminal should start with <br>&rdquo; INFO - Starting update&hellip;<br>INFO - Destination version: 8.2.1&rdquo;<br>and end with : <br>&ldquo;INFO - The database has been cleaned.<br>INFO - Shop updated to 8.2.1. Congratulations! You can now reactivate your shop.&rdquo;</td>
+</tr>
+<tr>
+<td>* Change your PHP to 8.1<br> * Launch the command &ldquo;php bin/console backup:create admin-dev&rdquo;</td>
+<td>* You should be on php 8.1 thank to the app you used for <br> * The terminal should start with :&ldquo;INFO - Starting backup&hellip;&rdquo; and end with &ldquo;INFO - Backup completed successfully.&rdquo;</td>
+</tr>
+<tr>
+<td>* Launch the command &ldquo;touch config.json&rdquo;<br> * Open the files &ldquo;config.json&rdquo; in modules/autoupgrade<br> * Put the information on it and Save it<br> * Return on the terminal and launch the command &ldquo;php bin/console update:start &ndash;config-file-path=config.json admin-dev&rdquo;</td>
+<td>* A new files named &ldquo;config.json&rdquo; should be displayed on the files autoupgrade<br> * You should have a file entirely blank <br> * Your file should be completed <br> * The terminal should say :<br>&ldquo;INFO - Update process will use archive.<br>INFO - Configuration successfully updated.<br>INFO - Starting update&hellip;<br>INFO - Destination version: 9.0.0&rdquo;</td>
+</tr>
+<tr>
+<td><em>CLI Start Rollback</em>  <br> * Launch the command &quot; php bin/console backup:restore admin-dev&rdquo;<br> * Launch the command &ldquo;2&rdquo;</td>
+<td>* The terminal should ask you to select a backup between 0 and 1, the number 2 is to exit the process<br> * Your terminal should act like there is none command launch</td>
+</tr>
+<tr>
+<td>* Launch the command &quot; php bin/console backup:delete admin-dev&rdquo;<br> * Launch the command &ldquo;0&rdquo;</td>
+<td>* The terminal should ask you to select a backup between 0 and 1, the number 2 is to exit the process<br> * Your terminal should say at start &ldquo;INFO - Restoring files &hellip;&rdquo; and end with &ldquo;INFO - Restoration process done. Congratulations! You can now reactivate your store.&rdquo;</td>
+</tr>
+<tr>
+<td>* Launch the command &ldquo;php bin/console update:start &ndash;xml=prestashop_9.0.0.xml &ndash;zip=prestashop_9.0.0.zip admin-dev&rdquo;</td>
+<td>* The terminal should say :<br>&ldquo;INFO - Update process will use archive.<br>INFO - Configuration successfully updated.<br>INFO - Starting update&hellip;<br>INFO - Destination version: 9.0.0&rdquo;</td>
 </tr>
 <tr>
 <td>* Launch the command &ldquo;php bin/console backup:restore &ndash;backup=1.7.7.9_ID admin-dev&rdquo;</td>
-<td>* The rollback should be launched</td>
+<td>* Your terminal should say at start &ldquo;INFO - Restoring files &hellip;&rdquo; and end with &ldquo;INFO - Restoration process done. Congratulations! You can now reactivate your store.&rdquo;</td>
 </tr>
 </tbody>
 </table>
@@ -67475,17 +67495,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1742970899"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1742970899"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1742970899"></script>
-    <script src="../../../../js/jquery.sticky.js?1742970899"></script>
-    <script src="../../../../js/featherlight.min.js?1742970899"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1742970899"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1742970899"></script>
-    <script src="../../../../js/learn.js?1742970899"></script>
-    <script src="../../../../js/hugo-learn.js?1742970899"></script>
+    <script src="../../../../js/clipboard.min.js?1743057732"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1743057732"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1743057732"></script>
+    <script src="../../../../js/jquery.sticky.js?1743057732"></script>
+    <script src="../../../../js/featherlight.min.js?1743057732"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1743057732"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1743057732"></script>
+    <script src="../../../../js/learn.js?1743057732"></script>
+    <script src="../../../../js/hugo-learn.js?1743057732"></script>
     
-    <script src="../../../../main.js?1742970899"></script>
+    <script src="../../../../main.js?1743057732"></script>
     
     
     
