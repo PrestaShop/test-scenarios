@@ -22,13 +22,13 @@
     <title>BO - Cart rules - Actions - Apply a discount to Order (without shipping) :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../../../css/font-awesome.min.css?1743057696" rel="stylesheet">
-    <link href="../../../../../../../../../css/syntax-github.css?1743057696" rel="stylesheet">
-    <link href="../../../../../../../../../css/featherlight.min.css?1743057696" rel="stylesheet">
-    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1743057696" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1743057696" rel="stylesheet">
-    <link href="../../../../../../../../../style.css?1743057696" rel="stylesheet">
+    <link href="../../../../../../../../../css/font-awesome.min.css?1743143869" rel="stylesheet">
+    <link href="../../../../../../../../../css/syntax-github.css?1743143869" rel="stylesheet">
+    <link href="../../../../../../../../../css/featherlight.min.css?1743143869" rel="stylesheet">
+    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1743143869" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1743143869" rel="stylesheet">
+    <link href="../../../../../../../../../style.css?1743143869" rel="stylesheet">
 
-    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1743057696"></script>
+    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1743143869"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28231,9 +28231,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-rollback-and-check-the-changes-on-mixpanel.html" title="Autoupgrade - Rollback and check the changes on mixpanel" class="dd-item ">
-        <a href="../../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-rollback-and-check-the-changes-on-mixpanel.html">
-        Autoupgrade - Rollback and check the changes on mixpanel
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback-and-check-the-changes-on-mixpanel.html" title="Autoupgrade - New UI - Rollback and check the changes on mixpanel" class="dd-item ">
+        <a href="../../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback-and-check-the-changes-on-mixpanel.html">
+        Autoupgrade - New UI - Rollback and check the changes on mixpanel
         
         </a>
     </li>
@@ -28360,6 +28360,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html" title="Autoupgrade - Verify the New UI " class="dd-item ">
         <a href="../../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html">
         Autoupgrade - Verify the New UI 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local.html" title="Autoupgrade - Verify the New UI  in local" class="dd-item ">
+        <a href="../../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local.html">
+        Autoupgrade - Verify the New UI  in local
         
         </a>
     </li>
@@ -59621,6 +59642,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -67393,7 +67429,7 @@
 <h1 id="bo---cart-rules---actions---apply-a-discount-to-order-without-shipping">BO - Cart rules - Actions - Apply a discount to Order (without shipping)<a href="#bo---cart-rules---actions---apply-a-discount-to-order-without-shipping"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-10322">https://forge.prestashop.com/browse/TEST-10322</a></li>
 </ul>
 
@@ -67406,11 +67442,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; Catalog &gt; Discounts</td>
-<td>Cart rules page is displayed</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Add new cart rule&rdquo;</td>
+<td>Go to BO &gt; Catalog &gt; Discounts &gt; Click on &ldquo;Add new cart rule&rdquo;</td>
 <td>Cart rule page is displayed<br><br>Information tab is displayed</td>
 </tr>
 <tr>
@@ -67419,35 +67451,19 @@
 </tr>
 <tr>
 <td>Enter data for Tab &ldquo;Actions&rdquo; &gt; Save</td>
-<td>Succes Message is displayed: &ldquo;Successful creation&rdquo;</td>
+<td>Success Message is displayed: &ldquo;Successful creation&rdquo;</td>
 </tr>
 <tr>
-<td>Apply a percentage discount with an ‘apply discount to order without shipping</td>
-<td>Succes Message is displayed: &ldquo;Successful creation&rdquo;</td>
+<td>Click on &ldquo;View my store&rdquo; &gt; Add a product to the cart with the discount code</td>
+<td>The discount is only applied to the product in the cart<br><br></td>
 </tr>
 <tr>
-<td>Click on  &ldquo;View my store&rdquo; <br><br>Add a product to the basket with the discount code</td>
-<td>The discount applies to the product in the basket with the percentage</td>
+<td>Click on Proceed to checkout &gt; Enter information for Step 1 (Personal Information) and Step 2 (Addresses) &gt; In Step 3 (Shipping method) &gt; Choose My carrier</td>
+<td>See that the discount is applied only to the product, not on the whole cart (products + shipping).<br></td>
 </tr>
 <tr>
-<td>Apply an amount reduction with a ‘apply discount to order without shipping ’ including tax</td>
-<td>Succes Message is displayed: &ldquo;Successful creation&rdquo;</td>
-</tr>
-<tr>
-<td>Click on  &ldquo;View my store&rdquo; <br><br>Add a product to the basket with the discount code</td>
-<td>The discount applies to the product in the basket with the amount</td>
-</tr>
-<tr>
-<td>Apply an amount reduction with a ‘apply discount to order without shipping ’ excluding tax</td>
-<td>Succes Message is displayed: &ldquo;Successful creation&rdquo;</td>
-</tr>
-<tr>
-<td>Click on  &ldquo;View my store&rdquo; <br><br>Add a product to the basket with the discount code</td>
-<td>The discount applies to the product in the basket with the amount and taxe</td>
-</tr>
-<tr>
-<td>Delete Cart rules</td>
-<td>Sucess Message:&ldquo;Successful deletion&rdquo;</td>
+<td>Go back to cart rule page in BO &gt; Delete the cart rule</td>
+<td>Success Message: &ldquo;Successful deletion&rdquo;</td>
 </tr>
 </tbody>
 </table>
@@ -67469,17 +67485,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../../../js/clipboard.min.js?1743057696"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1743057696"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1743057696"></script>
-    <script src="../../../../../../../../../js/jquery.sticky.js?1743057696"></script>
-    <script src="../../../../../../../../../js/featherlight.min.js?1743057696"></script>
-    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1743057696"></script>
-    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1743057696"></script>
-    <script src="../../../../../../../../../js/learn.js?1743057696"></script>
-    <script src="../../../../../../../../../js/hugo-learn.js?1743057696"></script>
+    <script src="../../../../../../../../../js/clipboard.min.js?1743143869"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1743143869"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1743143869"></script>
+    <script src="../../../../../../../../../js/jquery.sticky.js?1743143869"></script>
+    <script src="../../../../../../../../../js/featherlight.min.js?1743143869"></script>
+    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1743143869"></script>
+    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1743143869"></script>
+    <script src="../../../../../../../../../js/learn.js?1743143869"></script>
+    <script src="../../../../../../../../../js/hugo-learn.js?1743143869"></script>
     
-    <script src="../../../../../../../../../main.js?1743057696"></script>
+    <script src="../../../../../../../../../main.js?1743143869"></script>
     
     
     

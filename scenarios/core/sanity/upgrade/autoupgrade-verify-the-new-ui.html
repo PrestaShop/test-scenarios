@@ -22,13 +22,13 @@
     <title>Autoupgrade - Verify the New UI  :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1743057732" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1743057732" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1743057732" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1743057732" rel="stylesheet"><link href="../../../../css/auto-complete.css?1743057732" rel="stylesheet">
-    <link href="../../../../style.css?1743057732" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1743143906" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1743143906" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1743143906" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1743143906" rel="stylesheet"><link href="../../../../css/auto-complete.css?1743143906" rel="stylesheet">
+    <link href="../../../../style.css?1743143906" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1743057732"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1743143906"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28231,9 +28231,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-rollback-and-check-the-changes-on-mixpanel.html" title="Autoupgrade - Rollback and check the changes on mixpanel" class="dd-item ">
-        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-rollback-and-check-the-changes-on-mixpanel.html">
-        Autoupgrade - Rollback and check the changes on mixpanel
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback-and-check-the-changes-on-mixpanel.html" title="Autoupgrade - New UI - Rollback and check the changes on mixpanel" class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback-and-check-the-changes-on-mixpanel.html">
+        Autoupgrade - New UI - Rollback and check the changes on mixpanel
         
         </a>
     </li>
@@ -28360,6 +28360,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html" title="Autoupgrade - Verify the New UI " class="dd-item active currentPage">
         <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html">
         Autoupgrade - Verify the New UI 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local.html" title="Autoupgrade - Verify the New UI  in local" class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local.html">
+        Autoupgrade - Verify the New UI  in local
         
         </a>
     </li>
@@ -59588,12 +59609,6 @@
     
   
       
-    
-  
-      
-    
-  
-      
         
     
     
@@ -59609,6 +59624,27 @@
       
 
       
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
         
     
     
@@ -67337,7 +67373,7 @@
 
   
   
-  <a class="nav nav-next" href="../../../../scenarios/core/upgrade.html" title="Upgrade" style="margin-right: 0px;">
+  <a class="nav nav-next" href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local.html" title="Autoupgrade - Verify the New UI  in local" style="margin-right: 0px;">
     <i class="fa fa-chevron-right"></i>
     Next article
   </a>
@@ -67363,7 +67399,7 @@
 <h1 id="autoupgrade---verify-the-new-ui">Autoupgrade - Verify the New UI<a href="#autoupgrade---verify-the-new-ui"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : Approved</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-10136">https://forge.prestashop.com/browse/TEST-10136</a></li>
 </ul>
 
@@ -67388,8 +67424,8 @@
 <td>Module Manager page is displayed correctly</td>
 </tr>
 <tr>
-<td>* Search for the &ldquo;update manager&rdquo; module.<br> * Install it</td>
-<td>* Update manager should have &ldquo;The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence.&rdquo; as description <br> * Module is correctly installed</td>
+<td>* Search for the &ldquo;update assistant&rdquo; module.<br> * Install it</td>
+<td>* Update assistant should have &ldquo;The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence.&rdquo; as description <br> * Module is correctly installed</td>
 </tr>
 <tr>
 <td>Go to the General Parameters &gt; Maintenance&quot; page. Put the shop in maintenance mode&quot;</td>
@@ -67429,7 +67465,7 @@
 </tr>
 <tr>
 <td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
-<td>* the checking requirement should be launched<br> * You should have all maube some warning and the button &ldquo;Next&rdquo; should be enabled</td>
+<td>* the checking requirement should be launched<br> * You should have a green notification with &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&rdquo; or  maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
 </tr>
 <tr>
 <td>* Reload the page <br> * The check is finished</td>
@@ -67535,17 +67571,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1743057732"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1743057732"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1743057732"></script>
-    <script src="../../../../js/jquery.sticky.js?1743057732"></script>
-    <script src="../../../../js/featherlight.min.js?1743057732"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1743057732"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1743057732"></script>
-    <script src="../../../../js/learn.js?1743057732"></script>
-    <script src="../../../../js/hugo-learn.js?1743057732"></script>
+    <script src="../../../../js/clipboard.min.js?1743143906"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1743143906"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1743143906"></script>
+    <script src="../../../../js/jquery.sticky.js?1743143906"></script>
+    <script src="../../../../js/featherlight.min.js?1743143906"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1743143906"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1743143906"></script>
+    <script src="../../../../js/learn.js?1743143906"></script>
+    <script src="../../../../js/hugo-learn.js?1743143906"></script>
     
-    <script src="../../../../main.js?1743057732"></script>
+    <script src="../../../../main.js?1743143906"></script>
     
     
     

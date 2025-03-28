@@ -22,13 +22,13 @@
     <title>BO - Cart rules - Actions - Send a free gift :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../../../css/font-awesome.min.css?1743057696" rel="stylesheet">
-    <link href="../../../../../../../../../css/syntax-github.css?1743057696" rel="stylesheet">
-    <link href="../../../../../../../../../css/featherlight.min.css?1743057696" rel="stylesheet">
-    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1743057696" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1743057696" rel="stylesheet">
-    <link href="../../../../../../../../../style.css?1743057696" rel="stylesheet">
+    <link href="../../../../../../../../../css/font-awesome.min.css?1743143870" rel="stylesheet">
+    <link href="../../../../../../../../../css/syntax-github.css?1743143870" rel="stylesheet">
+    <link href="../../../../../../../../../css/featherlight.min.css?1743143870" rel="stylesheet">
+    <link href="../../../../../../../../../css/perfect-scrollbar.min.css?1743143870" rel="stylesheet"><link href="../../../../../../../../../css/auto-complete.css?1743143870" rel="stylesheet">
+    <link href="../../../../../../../../../style.css?1743143870" rel="stylesheet">
 
-    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1743057696"></script>
+    <script src="../../../../../../../../../js/jquery-3.3.1.min.js?1743143870"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28231,9 +28231,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-rollback-and-check-the-changes-on-mixpanel.html" title="Autoupgrade - Rollback and check the changes on mixpanel" class="dd-item ">
-        <a href="../../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-rollback-and-check-the-changes-on-mixpanel.html">
-        Autoupgrade - Rollback and check the changes on mixpanel
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback-and-check-the-changes-on-mixpanel.html" title="Autoupgrade - New UI - Rollback and check the changes on mixpanel" class="dd-item ">
+        <a href="../../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback-and-check-the-changes-on-mixpanel.html">
+        Autoupgrade - New UI - Rollback and check the changes on mixpanel
         
         </a>
     </li>
@@ -28360,6 +28360,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html" title="Autoupgrade - Verify the New UI " class="dd-item ">
         <a href="../../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui.html">
         Autoupgrade - Verify the New UI 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local.html" title="Autoupgrade - Verify the New UI  in local" class="dd-item ">
+        <a href="../../../../../../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local.html">
+        Autoupgrade - Verify the New UI  in local
         
         </a>
     </li>
@@ -59621,6 +59642,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -67393,7 +67429,7 @@
 <h1 id="bo---cart-rules---actions---send-a-free-gift">BO - Cart rules - Actions - Send a free gift<a href="#bo---cart-rules---actions---send-a-free-gift"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : IN REVIEW</li>
+<li><strong>Status</strong> : To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-10327">https://forge.prestashop.com/browse/TEST-10327</a></li>
 </ul>
 
@@ -67406,15 +67442,11 @@
 </thead>
 <tbody>
 <tr>
-<td>Go to BO &gt; Catalog &gt; Discounts</td>
-<td>Cart rules page is displayed</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Add new cart rule&rdquo;</td>
+<td>Go to BO &gt; Catalog &gt; Discounts &gt; Click on &ldquo;Add new cart rule&rdquo;</td>
 <td>Cart rule page is displayed<br><br>Information tab is displayed</td>
 </tr>
 <tr>
-<td>Entering data for in Information tab &gt; Click on tab Actions</td>
+<td>Enter data for Information tab &gt; Click on tab Actions</td>
 <td>Tab Actions is displayed</td>
 </tr>
 <tr>
@@ -67423,18 +67455,14 @@
 </tr>
 <tr>
 <td>Click on View my store &gt; Add a product to the cart &gt; Click on Proceed to checkout</td>
-<td>The gift is add to the cart <br><br>See in the cart:<br> <br></td>
+<td>The gift is added.<br><br>See in shopping cart :<br>Hummingbird - Vector graphics is marked as Gift<br>Hummingbird printed t-shirt costs €22.94<br><br>See in the cart:<br></td>
 </tr>
 <tr>
-<td>Go back to the BO&gt;Click on Tab &ldquo;Actions&rdquo;  &gt; Save</td>
-<td>Success Message is displayed: &ldquo;Successful update&rdquo;</td>
+<td>Search product Hummingbird - Vector graphics in FO &gt; Add it to the cart &gt; Proceed to checkout</td>
+<td>See in shopping cart :<br>1 Hummingbird - Vector graphics is marked as Gift<br>1 Hummingbird - Vector graphics costs €10.80<br>Hummingbird printed t-shirt costs €22.94<br><br>See in the cart:<br></td>
 </tr>
 <tr>
-<td>Go back to the shopping cart edition &gt;Refresh</td>
-<td>The gift is added to the cart <br><br>See in the cart: we have 2 same products (1 product is a gift )<br> <br> <br></td>
-</tr>
-<tr>
-<td>Go to Cart rules page &gt; Delete Cart rule</td>
+<td>Go back to BO - Cart rules page &gt; Delete Cart rule</td>
 <td>Success message:&ldquo;Successful deletion&rdquo;</td>
 </tr>
 </tbody>
@@ -67457,17 +67485,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../../../js/clipboard.min.js?1743057697"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1743057697"></script>
-    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1743057697"></script>
-    <script src="../../../../../../../../../js/jquery.sticky.js?1743057697"></script>
-    <script src="../../../../../../../../../js/featherlight.min.js?1743057697"></script>
-    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1743057697"></script>
-    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1743057697"></script>
-    <script src="../../../../../../../../../js/learn.js?1743057697"></script>
-    <script src="../../../../../../../../../js/hugo-learn.js?1743057697"></script>
+    <script src="../../../../../../../../../js/clipboard.min.js?1743143870"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.min.js?1743143870"></script>
+    <script src="../../../../../../../../../js/perfect-scrollbar.jquery.min.js?1743143870"></script>
+    <script src="../../../../../../../../../js/jquery.sticky.js?1743143870"></script>
+    <script src="../../../../../../../../../js/featherlight.min.js?1743143870"></script>
+    <script src="../../../../../../../../../js/html5shiv-printshiv.min.js?1743143870"></script>
+    <script src="../../../../../../../../../js/modernizr.custom-3.6.0.js?1743143870"></script>
+    <script src="../../../../../../../../../js/learn.js?1743143870"></script>
+    <script src="../../../../../../../../../js/hugo-learn.js?1743143870"></script>
     
-    <script src="../../../../../../../../../main.js?1743057697"></script>
+    <script src="../../../../../../../../../main.js?1743143870"></script>
     
     
     
