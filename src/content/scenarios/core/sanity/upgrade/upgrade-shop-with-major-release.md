@@ -6,7 +6,7 @@ weight: 3
 # Upgrade Shop with major release
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9182
 
 ## Steps

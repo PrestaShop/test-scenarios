@@ -6,7 +6,7 @@ weight: 14
 # Autoupgrade - Check/Upgrade/Rollback with the CLI
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Approved
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9848
 
 ## Steps

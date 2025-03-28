@@ -6,7 +6,7 @@ weight: 4
 # Upgrade Shop with local archive release
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9494
 
 ## Steps
