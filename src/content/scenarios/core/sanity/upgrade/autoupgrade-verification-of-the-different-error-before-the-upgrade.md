@@ -1,9 +1,9 @@
 ---
-title: "Autoupgrade - Verification before the upgrade"
+title: "Autoupgrade - Verification of the different error before the upgrade"
 weight: 12
 ---
 
-# Autoupgrade - Verification before the upgrade
+# Autoupgrade - Verification of the different error before the upgrade
 ## Details
 * **Component** : Core
 * **Status** : Sandbox
