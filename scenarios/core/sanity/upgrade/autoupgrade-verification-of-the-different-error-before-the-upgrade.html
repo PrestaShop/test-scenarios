@@ -22,13 +22,13 @@
     <title>Autoupgrade - Verification of the different error before the upgrade :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1743661889" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1743661889" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1743661889" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1743661889" rel="stylesheet"><link href="../../../../css/auto-complete.css?1743661889" rel="stylesheet">
-    <link href="../../../../style.css?1743661889" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1743748863" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1743748863" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1743748863" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1743748863" rel="stylesheet"><link href="../../../../css/auto-complete.css?1743748863" rel="stylesheet">
+    <link href="../../../../style.css?1743748863" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1743661889"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1743748863"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28231,9 +28231,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback-and-check-the-changes-on-mixpanel.html" title="Autoupgrade - New UI - Rollback and check the changes on mixpanel" class="dd-item ">
-        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback-and-check-the-changes-on-mixpanel.html">
-        Autoupgrade - New UI - Rollback and check the changes on mixpanel
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback.html" title="Autoupgrade - New UI - Rollback " class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback.html">
+        Autoupgrade - New UI - Rollback 
         
         </a>
     </li>
@@ -28381,6 +28381,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local-channel.html" title="Autoupgrade - Verify the New UI  in local channel" class="dd-item ">
         <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local-channel.html">
         Autoupgrade - Verify the New UI  in local channel
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-middleware.html" title="Autoupgrade - Middleware" class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-middleware.html">
+        Autoupgrade - Middleware
         
         </a>
     </li>
@@ -59627,6 +59648,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -67399,7 +67435,7 @@
 <h1 id="autoupgrade---verification-of-the-different-error-before-the-upgrade">Autoupgrade - Verification of the different error before the upgrade<a href="#autoupgrade---verification-of-the-different-error-before-the-upgrade"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : Approved</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-9699">https://forge.prestashop.com/browse/TEST-9699</a></li>
 </ul>
 
@@ -67436,7 +67472,7 @@
 <td>Your IP should be setted on the field and you will have the green notification</td>
 </tr>
 <tr>
-<td>* Go to the 1-Click Upgrade page</td>
+<td>* Go to the update assistant page</td>
 <td>* You should see the configuration page of the module</td>
 </tr>
 <tr>
@@ -67448,36 +67484,68 @@
 <td>* You should see the diffenrent fonction in this php files<br> * The files should be saved</td>
 </tr>
 <tr>
-<td>Launch upgrade</td>
-<td>* Upgrade is launched<br> * you shouldn&rsquo;t have the rollback option durring the installation<br> * at the &ldquo;Step download&rdquo;, you should have an exception</td>
+<td>Click on get started and follow the different step until the update step.</td>
+<td>Upgrade is launched and at the &ldquo;Step download&rdquo;, you should have an exception with : <br> * a yellow exception with title &ldquo;Update failed&rdquo; and description : &ldquo;Your store may not work properly anymore. Select the backup you want to use and restore it to avoid any data loss.&rdquo; <br> * A restore button should be on the right in the yellow exception <br> * You should have 3 red cross :<br> ** the first one with on the first line at the end &ldquo;Exception: Brique&rdquo;<br> ** the second with &ldquo;It seems there was an issue with the server. This type of error usually happens when [&hellip;]&quot;<br> ** the third with &quot; HTTP request failed. Type: ERR_BAD_RESPONSE - HTTP Code: 500&rdquo;<br> * You should have an &ldquo;Error Summary&rdquo; where the 3 red cross is repeted but have a link See error at the end of the line <br> * a button &ldquo;Download update logs&rdquo;<br> * a button &ldquo;Send error report &ldquo;<br> * a blue &ldquo;Restore&rdquo; button with an icon in it</td>
 </tr>
 <tr>
-<td>* Click on 1-click Upgrade <br> * Click on &ldquo;Leave the page&rdquo;</td>
-<td>* A modal should appear to ask if you really want to leave the page <br> * You should be redirected to 1-Click Upgrade</td>
+<td>* Next to the first cross error on &ldquo;Error summary&rdquo;, click on see Error<br> * Click on &ldquo;Download update logs&rdquo;</td>
+<td>* The background of the first error on logs part should be put on grey and fade to the basic color of the background <br> * The download of the update logs should be launched by your bowser</td>
 </tr>
 <tr>
-<td>Return at the Download.php files and replace &ldquo;throw new Exception(&ldquo;Brique&rdquo;);&rdquo; by &ldquo;exit(0);&rdquo; and save</td>
-<td>The files should be saved</td>
+<td>Click on &ldquo;Send error report&rdquo; button</td>
+<td>You should have a modal with : <br> * title on bold : Send error report? <br> * a description with :  Help us improve the module by sending us this error report. For your information, the logs will be attached with your message. You can add more details in the description if you wish. <br> * a link with text : Learn more about your data and your rights&rdquo;<br> * An &ldquo;Error message&rdquo; box with the last error on it and with a grey bacjground, this box can&rsquo;t be edited and when your mouse is put on it you should have a error icon on your cursor<br> * An &ldquo;Email (optional)&rdquo; box where you can edit the box <br> * A &ldquo;Description (optional)&rdquo; box where you can edit the box <br> * A &ldquo;Cancel&rdquo; button <br> * A &ldquo;Send error report&rdquo; button</td>
 </tr>
 <tr>
-<td>Launch upgrade</td>
-<td>* Upgrade is launched<br> * you shouldn&rsquo;t have the rollback option durring the installation<br> * You quickly have an error that showed : &ldquo;Javascript error (parseJSON) detected for action [download].&rdquo;</td>
+<td>* Click on &ldquo;Learn more about your data and your rights&rdquo; <br> * Close the tab of Data transparency<br> * Click on &ldquo;Email (optional)&rdquo; box<br> * Click on &ldquo;Description (optional)&rdquo; box <br> * Click on the cross or the &ldquo;Cancel&rdquo; button or not int he modal</td>
+<td>* A new page should be open with title &ldquo;Data transparency&rdquo; <br> * You should return on the send error report <br> * The Background of the&quot;Email&rdquo; box should be put on yellow<br> * The background of the &ldquo;Email&rdquo; box should be return on grey and the background of the &ldquo;Description&rdquo; box should be put on yellow <br> * The modal should be closed</td>
 </tr>
 <tr>
-<td>* Click on 1-click Upgrade <br> * Click on &ldquo;Leave the page&rdquo;</td>
-<td>* A modal should appear to ask if you really want to leave the page <br> * You should be redirected to 1-Click Upgrade</td>
+<td>* Click on &ldquo;Send error report&rdquo; button <br> * Fill the Email and description part <br> * Click on &ldquo;Send error report&rdquo; button</td>
+<td>* The modal &ldquo;Send error report?&rdquo; should be opened<br> * The &ldquo;Email&rdquo; and &ldquo;Description&rdquo; part should be set up<br> * The modal should be closed</td>
+</tr>
+<tr>
+<td>Go to the link  on other tab : [https://prestashop.sentry.io/feedback/?feedbackSlug=autoupgrade-module%3A6504514401&amp;mailbox=ignored&amp;project=4507254110552064&amp;referrer=feedback_list_page]</td>
+<td>* You should be on a page named &ldquo;User feedback&rdquo;, on the spam categorie<br> * The last user feedback should be yours with the email you set and under the description you said <br> * On the right of the list of feedback, you should have the detail of the error with : <br> ** The different files linked to the error : &ldquo;logs.txt&rdquo; &ldquo;response_raws.txt&rdquo; and &ldquo;summary_errors.txt&rdquo;<br> ** the Url <br> ** Linked Error <br> ** Linked Replay <br> ** Tags <br> ** Internal Activity</td>
+</tr>
+<tr>
+<td>* Go to the link on another tab  &ldquo;<a href="https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y%22">https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y&quot;</a><br> * set on filter the parameters</td>
+<td>You should see : <br> * [SUE] Upgrade Launched<br> * [SUE] Upgrade Failed <br> * Identity<br><br>With the same Anonymous ID and php write like &ldquo;X.X.XX&rdquo;</td>
+</tr>
+<tr>
+<td>* Close the tab <br> * Reload your page</td>
+<td>* You should return on your update page <br> * Update should be relaunch from the start of the loading bar and it should fail after few second</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Restore&rdquo; button in the yellow exception</td>
+<td>You should be redirected to the &ldquo;Backup Selection&rdquo; page</td>
+</tr>
+<tr>
+<td>* Return at the Download.php files and replace &ldquo;throw new Exception(&ldquo;Brique&rdquo;);&rdquo; by &ldquo;exit(0);&rdquo; and save<br> * Clic on &ldquo;Update assistant&rdquo; in the sideboard menu</td>
+<td>* The files should be saved<br> * You should be on the page &ldquo;Welcome to PrestaShop Update Assistant&rdquo;</td>
+</tr>
+<tr>
+<td>Click on get started and follow the different step until the update step.</td>
+<td>* Upgrade is launched<br> * You quickly only have two red cross error : <br><br> ** It looks like there is no data received from the server. This can happen if: The server is temporarily unavailable. There&rsquo;s an issue with the network or connection.<br> ** HTTP request failed. Type: APP_ERR_RESPONSE_EMPTY - HTTP Code: 200</td>
+</tr>
+<tr>
+<td>* Click on the blue &ldquo;Restore&rdquo; button<br> * Click on the button &ldquo;Delete selection&rdquo; <br> * Click on &ldquo;Delete&rdquo; button <br> * Click on the button &ldquo;Delete selection&rdquo; again <br> * Click on &ldquo;Delete&rdquo;</td>
+<td>* You should be redirected to the &ldquo;Backup Selection&rdquo; page<br> * You should have a &ldquo;Delete backup &quot; modal <br> * The backup should be deleted<br> * You should have a &ldquo;Delete backup &quot; modal with description &ldquo;You are about to delete the [nameOfBackup] backup made on[DateAndTime] As it&rsquo;s your only backup, you will be redirected to the module&rsquo;s home page. &ldquo;<br> * You should be on Welcome Page of the update assistant</td>
 </tr>
 <tr>
 <td>Return at the Download.php files and replace &ldquo;exit(0);&rdquo; by &ldquo;while(true) {}&rdquo; and save</td>
 <td>The file should be saved</td>
 </tr>
 <tr>
-<td>Launch upgrade</td>
-<td>* Upgrade is launched<br> * you shouldn&rsquo;t have the rollback option durring the installation<br> * After a long time, you should have &ldquo;[INTERNAL] var/www/html/pr_autoup/modules/autoupgrade/classes/Task/Upgrade/Download.php line 49 - Maximum execution time of x seconds exceeded &quot; where x is your maximum execution time</td>
+<td>* Click on get started and follow the different step until the update step without backup<br> * Reload the page during the loading <br> * Click on &ldquo;Leave page&rdquo;</td>
+<td>* Upgrade is launched<br> * a modal should be displayed with &ldquo;This page is asking you to confirm that you want to leave — information you’ve entered may not be saved.&rdquo; with two button &ldquo;Stay on page&rdquo; and &ldquo;Leave page&rdquo;<br> * Upgrade should be launched again</td>
 </tr>
 <tr>
-<td>* Click on 1-click Upgrade <br> * Click on &ldquo;Leave the page&rdquo;</td>
-<td>* A modal should appear to ask if you really want to leave the page <br> * You should be redirected to 1-Click Upgrade</td>
+<td>Wait until the end of the load for the upgrade</td>
+<td>Because we don&rsquo;t have backup, we should have an exception with : <br> * a red exception with title &ldquo;Update failed&rdquo; and description : &ldquo;You didn’t back up your store with the Update assistant module but you can restore using your own manual backup.&rdquo; <br> * You should have 3 red cross :<br><br> ** the first one with on the first line at the end &ldquo;Maximum execution time of [yourMaxExecutionTime] seconds exceeded&rdquo;<br> ** the second with &ldquo;It seems there was an issue with the server. This type of error usually happens when [&hellip;]&quot;<br> ** the third with &quot; HTTP request failed. Type: ERR_BAD_RESPONSE - HTTP Code: 500&rdquo;<br> * You should have an &ldquo;Error Summary&rdquo; where the 3 red cross is repeted but have a link See error at the end of the line <br> * a button &ldquo;Download update logs&rdquo;<br> * a button &ldquo;Send error report &ldquo;<br> * a blue &ldquo;Restore&rdquo; button with an icon in it</td>
+</tr>
+<tr>
+<td>* Clic on &ldquo;Update assistant&rdquo; in the sideboard menu</td>
+<td>* You should be redirected to the welcome page of Upgrade Assistant</td>
 </tr>
 <tr>
 <td>Return at the Download.php files and delete &ldquo;while(true) {}&rdquo; and save</td>
@@ -67492,8 +67560,28 @@
 <td>* Preston should say that there is an issue <br>* You should have a red exception with &ldquo;Cannot write to the directory. Please ensure you have the necessary write permissions on &ldquo;/var/www/html/pr_autoup/admin-dev/autoupgrade&rdquo;.&rdquo;</td>
 </tr>
 <tr>
-<td>* Return on your terminal and launch &ldquo;sudo chmod 777 autoupgrade&rdquo; <br>* Return on the autoupgrade page</td>
-<td>* You should have a new line to enter<br>* Your autoupgrade page is displayed correctly</td>
+<td>* Return on your terminal and launch &ldquo;sudo chmod 777 autoupgrade&rdquo;<br> * Reload the update assistant page</td>
+<td>* You should have a new line to enter<br> * Your Welcome page is displayed correctly</td>
+</tr>
+<tr>
+<td>On the link of your bowser, delete the part &ldquo;home-page&rdquo; of &ldquo;route=home-page&rdquo; and press enter</td>
+<td>You should have : <br> * A 404 image <br> * A title :  Something went wrong&hellip; <br> * A description with &ldquo;The requested page or resource could not be found. This might be due to:<br> * A broken or outdated link.<br> * The page being moved or deleted.<br> * A typo in the URL.&rdquo;</td>
+</tr>
+<tr>
+<td>* Reload the page<br> * Click on &ldquo;Update your Store&rdquo;<br> * Click on &ldquo;Get Started&rdquo;</td>
+<td>* You should be redirected to Welcome page assistant<br> * The button &ldquo;Get Started&rdquo; should be Enabled<br> * You should be redirected to &ldquo;Version Choice&rdquo; page</td>
+</tr>
+<tr>
+<td>* Go to your folder [yourshopname_folder] &gt; module &gt; Autoupgrade &gt; classes &gt; UpgradeSelfCheck.php<br> * in &ldquo;public function getErrors(): array&rdquo; and  &ldquo;public function getWarnings(): array&rdquo;, invert all the condition and save the folder</td>
+<td>* You should see the diffenrent fonction in this php files<br> * The files should be saved</td>
+</tr>
+<tr>
+<td>Click on the Version set un Online version</td>
+<td>The checking requirement should have 15 errors and 3 warning :<br><br>Errors part with a red cross before the text : <br> * Your store&rsquo;s root directory /var/www/html/pr_autoup isn&rsquo;t writable. Provide write access to the user running PHP with appropriate permission &amp; ownership.<br> * The /var/www/html/pr_autoup/admin-dev/autoupgrade directory isn&rsquo;t writable. Provide write access to the user running PHP with appropriate permission &amp; ownership.<br> * Files can&rsquo;t be downloaded. Enable PHP&rsquo;s &ldquo;allow_url_fopen&rdquo; option or install PHP extension &ldquo;cURL&rdquo;.<br> * Missing PHP extension &ldquo;zip&rdquo;.<br> * Maintenance mode needs to be enabled. Enable maintenance mode and add your maintenance IP in Shop parameters &gt; General &gt; Maintenance.<br> * PrestaShop&rsquo;s caching features needs to be disabled. Disable caching features in Advanced parameters &gt; Performance &gt; Caching.<br> * Apache mod_rewrite needs to be enabled.<br> * The following PHP extensions need to be installed:<br> * The following PHP functions need to be allowed:<br> * PHP memory_limit needs to be greater than 256 MB.<br> * PHP file_uploads configuration needs to be enabled.<br> * Unable to generate private keys using openssl_pkey_new. Check your OpenSSL configuration, especially the path to openssl.cafile.<br> * It&rsquo;s not possible to write in the following folders. Provide write access to the user running PHP with appropriate permission &amp; ownership:<br> * The version of PrestaShop does not match the one stored in database. Your database structure may not be up-to-date and/or the value of PS_VERSION_DB needs to be updated in the configuration table.<br> * We were unable to fetch missing or altered files. In these conditions, your store cannot be updated to avoid any further bugs.<br><br>Warning part with a yellow warning before <br> * Your current version of the module is out of date. Update now Modules &gt; Module Manager &gt; Updates<br> * Some theme files have been altered or removed. Any changes made to these files may be overwritten during the update. See the list of changes.<br> * Some core files have been altered or removed. Any changes made to these files may be overwritten during the update. See the list of changes.</td>
+</tr>
+<tr>
+<td>* Click on the developper documentation <br> * Click on the &ldquo;Shop parameters &gt; General &gt; Maintenance+.+ &quot; link <br> * Click on the &quot; Advanced parameters &gt; Performance &gt; Caching.&rdquo; link<br> * Click on the &quot; Modules &gt; Module Manager &gt; Updates&rdquo; link</td>
+<td>* You should be redirect on a new tab with title &ldquo;Update from the back office&rdquo; <br> * You should be redirect on a new tab of your BO, in the maintenance tab of the general shop parameters<br> * You should be redirect on a new tab of your BO In your performance page <br> * You should be redirect on a new tab of your BO in your Update tab of Module Manager tab</td>
 </tr>
 </tbody>
 </table>
@@ -67515,17 +67603,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1743661889"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1743661889"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1743661889"></script>
-    <script src="../../../../js/jquery.sticky.js?1743661889"></script>
-    <script src="../../../../js/featherlight.min.js?1743661889"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1743661889"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1743661889"></script>
-    <script src="../../../../js/learn.js?1743661889"></script>
-    <script src="../../../../js/hugo-learn.js?1743661889"></script>
+    <script src="../../../../js/clipboard.min.js?1743748863"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1743748863"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1743748863"></script>
+    <script src="../../../../js/jquery.sticky.js?1743748863"></script>
+    <script src="../../../../js/featherlight.min.js?1743748863"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1743748863"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1743748863"></script>
+    <script src="../../../../js/learn.js?1743748863"></script>
+    <script src="../../../../js/hugo-learn.js?1743748863"></script>
     
-    <script src="../../../../main.js?1743661889"></script>
+    <script src="../../../../main.js?1743748863"></script>
     
     
     
