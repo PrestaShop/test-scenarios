@@ -1,9 +1,9 @@
 ---
-title: "Autoupgrade - New UI - Rollback and check the changes on mixpanel"
+title: "Autoupgrade - New UI - Rollback "
 weight: 9
 ---
 
-# Autoupgrade - New UI - Rollback and check the changes on mixpanel
+# Autoupgrade - New UI - Rollback 
 ## Details
 * **Component** : Core
 * **Status** : Approved

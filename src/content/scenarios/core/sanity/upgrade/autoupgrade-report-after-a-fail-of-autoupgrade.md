@@ -6,7 +6,7 @@ weight: 10
 # Autoupgrade - Report after a fail of autoupgrade
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-9680
 
 ## Steps
