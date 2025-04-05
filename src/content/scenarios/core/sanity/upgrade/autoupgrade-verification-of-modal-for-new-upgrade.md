@@ -1,0 +1,23 @@
+---
+title: "Autoupgrade - Verification of modal for new Upgrade"
+weight: 18
+---
+
+# Autoupgrade - Verification of modal for new Upgrade
+## Details
+* **Component** : Core
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-10796
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Install A fresh 1.7.7.8 on php 7.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
+| Go to the BO | You should have your dashboard showed |
+| Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
+| Search for the update assistant module. Install it | Module is correctly installed |
+| Click on the Dashboard on the side menu | You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** " New available Minor" writted in black with a blue bacckground<br> ** "New features are available" in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : "Description", "Version", "Type of improvements" and "Need help?"<br> ** Two buttons : "Remind me later" and "Update"<br> ** On description : "The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update|https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]" <br> ** On Version : "1.7.8.11"<br> ** On Type of improvements : "Bugs, security patches, new features"<br><br> ** On Need help? : "If you're having trouble performing the update, our experts can help! [Contact an expert|https://experts.prestashop.com/english/experts/]" |
+| * Click on "[See the update|https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]" link on description part | * You should have a new tab open with title : "PrestaShop 1.7.8.11 Is Available" |
+| * Click on "Contact an expert" on Need help? part | * You should have a new tab open with title " There is always a Prestashop Expert for your business" |
+| Close the twi different new tab | You should keep only the dashboard page with the modal |
+| Click on "Update" button | * You should be redirected on the "Version choice" page<br> * You should have a stepper on top of the page set on "1 : Version choice"<br> * In the page, it should be : <br> **  a paragraph with "A more recent version is available / Current PrestaShop version: 1.7.7.8 / Current PHP version: 7.1<br><br> * <br> ** One radio button with : "Prestashop [last major/minor version]" and "Local Archive"<br> *** Prestashop 1.7.8.11 [Minor version] With description "The maximum version of PrestaShop to which you can update your store, based on its PHP version. " and a button "Release note" <br> *** if you don't have a local archive set, you didn't have a radio button and you should have a blue notification with " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/"* **<br> ** A button named "Next" disabled |
