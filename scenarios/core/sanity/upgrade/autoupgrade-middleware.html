@@ -22,13 +22,13 @@
     <title>Autoupgrade - Middleware :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1743748863" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1743748863" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1743748863" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1743748863" rel="stylesheet"><link href="../../../../css/auto-complete.css?1743748863" rel="stylesheet">
-    <link href="../../../../style.css?1743748863" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1743834606" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1743834606" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1743834606" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1743834606" rel="stylesheet"><link href="../../../../css/auto-complete.css?1743834606" rel="stylesheet">
+    <link href="../../../../style.css?1743834606" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1743748863"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1743834606"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28402,6 +28402,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-middleware.html" title="Autoupgrade - Middleware" class="dd-item active currentPage">
         <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-middleware.html">
         Autoupgrade - Middleware
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-verification-of-modal-for-new-upgrade.html" title="Autoupgrade - Verification of modal for new Upgrade" class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verification-of-modal-for-new-upgrade.html">
+        Autoupgrade - Verification of modal for new Upgrade
         
         </a>
     </li>
@@ -59660,12 +59681,6 @@
     
   
       
-    
-  
-      
-    
-  
-      
         
     
     
@@ -59681,6 +59696,27 @@
       
 
       
+    
+  
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
         
     
     
@@ -67409,7 +67445,7 @@
 
   
   
-  <a class="nav nav-next" href="../../../../scenarios/core/upgrade.html" title="Upgrade" style="margin-right: 0px;">
+  <a class="nav nav-next" href="../../../../scenarios/core/sanity/upgrade/autoupgrade-verification-of-modal-for-new-upgrade.html" title="Autoupgrade - Verification of modal for new Upgrade" style="margin-right: 0px;">
     <i class="fa fa-chevron-right"></i>
     Next article
   </a>
@@ -67435,7 +67471,7 @@
 <h1 id="autoupgrade---middleware">Autoupgrade - Middleware<a href="#autoupgrade---middleware"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : Approved</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-10778">https://forge.prestashop.com/browse/TEST-10778</a></li>
 </ul>
 
@@ -67513,7 +67549,7 @@
 </tr>
 <tr>
 <td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-update-options&rdquo;</td>
-<td>You should be redirected to the same page : &ldquo;Update Option&rdquo;</td>
+<td>You should be redirected to the page : &ldquo;Update Option&rdquo;</td>
 </tr>
 <tr>
 <td>Click on the previous button of your bowser</td>
@@ -67533,7 +67569,115 @@
 </tr>
 <tr>
 <td>* Delete the zip or the xml linked to version aimed from [yourshop]/[adminfolder]/autoupgrade/download<br> * Reload the current page</td>
-<td>* The file should be deleted<br> * you should be redirected to the Update &ldquo;Version Choice&rdquo; page with local channel set and with one of the xml or zip</td>
+<td>* The file should be deleted<br> * you should be redirected to the Update &ldquo;Version Choice&rdquo; page with local channel set and with one of the xml or zip only</td>
+</tr>
+<tr>
+<td>* Delete the &ldquo;update_config.var&rdquo; files  from [yourshop]/[adminfolder]/autoupgrade<br> * Reload the current page</td>
+<td>* The file should be deleted<br> * you should be redirected to the Update &ldquo;Version Choice&rdquo; page with none radio button selected</td>
+</tr>
+<tr>
+<td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-backup-options&rdquo;</td>
+<td>You should be redirected to the same page : Update &ldquo;Version Choice&rdquo;</td>
+</tr>
+<tr>
+<td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
+<td>* the checking requirement should be launched<br> * You should have a green notification with &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&rdquo; or  maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
+</tr>
+<tr>
+<td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-backup-options&rdquo;</td>
+<td>You should be redirected to the page : &ldquo;Back up your store&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the previous button of your bowser twice</td>
+<td>You should be redirected to Update &ldquo;Version Choice&rdquo; page with the online channel set</td>
+</tr>
+<tr>
+<td>* Clic on the Radio button next to &ldquo;Local archive&rdquo;<br> * Clic on the first drop list <br> * Select your zip folder <br> * Clic on the second drop list<br> * Select the secon xml folder</td>
+<td>* You should have two drop list :<br> ** One with title : &ldquo;Archive to use*&rdquo; and in the drop list &ldquo;Select an archive&rdquo;<br> ** One with title : &ldquo;XML file to use*&rdquo; and in the drop list &ldquo;Select a file&rdquo;<br> * You still have &ldquo;Select an archive&rdquo; selected and you have the zip name that you drop on your foler <br> * In the drop list, you should have the name of your selected zip <br> * You still have &ldquo;Select a file&rdquo; selected and you have the xml name that you drop on your foler <br> * In the drop list, you should have the name of your selected xml and the checking requirement should be started</td>
+</tr>
+<tr>
+<td>* The check is finished</td>
+<td>* You should have some warning like &ldquo;We were unable to check your PHP compatibility with PrestaShop [PrestashopVersionAimed] &ldquo;and the button &ldquo;Next&rdquo; should be enabled</td>
+</tr>
+<tr>
+<td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-backup-options&rdquo;</td>
+<td>You should be redirected to the page : &ldquo;Back up your store&rdquo;</td>
+</tr>
+<tr>
+<td>* Delete the &ldquo;update_config.var&rdquo; files  from [yourshop]/[adminfolder]/autoupgrade<br> * Reload the current page</td>
+<td>* The file should be deleted<br> * you should be redirected to the Update &ldquo;Version Choice&rdquo; page with none radio button selected</td>
+</tr>
+<tr>
+<td>* Clic on the Radio button next to &ldquo;Local archive&rdquo;<br> * Clic on the first drop list <br> * Select your zip folder <br> * Clic on the second drop list<br> * Select the secon xml folder</td>
+<td>* You should have two drop list :<br> ** One with title : &ldquo;Archive to use*&rdquo; and in the drop list &ldquo;Select an archive&rdquo;<br> ** One with title : &ldquo;XML file to use*&rdquo; and in the drop list &ldquo;Select a file&rdquo;<br> * You still have &ldquo;Select an archive&rdquo; selected and you have the zip name that you drop on your foler <br> * In the drop list, you should have the name of your selected zip <br> * You still have &ldquo;Select a file&rdquo; selected and you have the xml name that you drop on your foler <br> * In the drop list, you should have the name of your selected xml and the checking requirement should be started</td>
+</tr>
+<tr>
+<td>* The check is finished</td>
+<td>* You should have some warning like &ldquo;We were unable to check your PHP compatibility with PrestaShop [PrestashopVersionAimed] &ldquo;and the button &ldquo;Next&rdquo; should be enabled</td>
+</tr>
+<tr>
+<td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-backup-options&rdquo;</td>
+<td>You should be redirected to the page : &ldquo;Back up your store&rdquo;</td>
+</tr>
+<tr>
+<td>* Delete the zip or the xml linked to version aimed from [yourshop]/[adminfolder]/autoupgrade/download<br> * Reload the current page</td>
+<td>* The file should be deleted<br> * you should be redirected to the Update &ldquo;Version Choice&rdquo; page with none channel set because local channel aren&rsquo;t showed</td>
+</tr>
+<tr>
+<td>Do the process of an upgrade until the end of the upgrade</td>
+<td>You should have be on a new page with <br> * title : &quot; Post-update checklist &ldquo;<br> * Stepper should be on &ldquo;5 : Post-update&rdquo;<br> * A green notification : &ldquo;Your store is up to date&rdquo;<br> * Sub title : &ldquo;Next step&rdquo; and Troubleshooting <br> * A link : &ldquo;Download update logs&rdquo;<br> * 2 button : &ldquo;Exit&rdquo; and &quot; Open developer documentation&rdquo;</td>
+</tr>
+<tr>
+<td>* Reload the page<br> * Set up your mail and password<br> * on the link of the page, replace &ldquo;route=home-page&rdquo; by &ldquo;route=update-page-post-update&rdquo;</td>
+<td>* Prestashop should ask you to be loged in <br> * You should be redirected to the &ldquo;Welcome to PrestaShop Update Assistant&rdquo; page <br> * You should be redirected to the &ldquo;Post-update checklist&rdquo;</td>
+</tr>
+<tr>
+<td>* Delete the last &ldquo;[&hellip;]-update.txt&rdquo; files  from [yourshop]/[adminfolder]/autoupgrade/logs<br> * Reload the current page</td>
+<td>* The file should be deleted<br> * you should be redirected to the &ldquo;Welcome to PrestaShop Update Assistant&rdquo; page</td>
+</tr>
+<tr>
+<td>Do the process of an upgrade until the end of the backup</td>
+<td>You should have be on a new page with <br> * title : &quot; Back up your store&rdquo;<br> * A green notification : &ldquo;Backup completed&rdquo;<br> * A link : &ldquo;Download backup logs&rdquo;<br> * 1 button : &ldquo;Start Update&rdquo;&rdquo;</td>
+</tr>
+<tr>
+<td>* Click on the Update assistant on the sideboard<br> * Click on Restore from a backup<br> * Click on Get started</td>
+<td>* You should be redirected to the &ldquo;Welcome to PrestaShop Update Assistant&rdquo; page<br> * The radio button should be checked next to the restore part and the button Get started should be enabled <br> * You should be redirected to the &ldquo;Backup selection&rdquo; page</td>
+</tr>
+<tr>
+<td>* Click on the drop list<br> * Select the second backup<br> * Reload th page</td>
+<td>* You should have two backup on the list <br> * The drop list should close and the name of the second backup should be on the drop list <br> * You should be redirected to &ldquo;Backup selection&rdquo; with the second backup on the drop list</td>
+</tr>
+<tr>
+<td>* Delete the &ldquo;restore_config.var&rdquo; files  from [yourshop]/[adminfolder]/autoupgrade<br> * Reload the current page</td>
+<td>* The file should be deleted<br> * You should be redirected to &ldquo;Backup selection&rdquo; with the first backup on the drop list</td>
+</tr>
+<tr>
+<td>on the link of the page, replace &ldquo;route=restore-page-backup-selection&rdquo; by &ldquo;route=restore-page-restore&rdquo;</td>
+<td>You should be redirected to the page : &ldquo;Backup selection&rdquo;</td>
+</tr>
+<tr>
+<td>* Click on the drop list<br> * Select the second backup<br> * On the link of the page, replace &ldquo;route=restore-page-backup-selection&rdquo; by &ldquo;route=restore-page-restore&rdquo;</td>
+<td>* You should have two backup on the list <br> * The drop list should close and the name of the second backup should be on the drop list <br> * You should be redirected to the page : &ldquo;Restore&rdquo; page</td>
+</tr>
+<tr>
+<td>* Wait until the end of the Restore<br> * Reload the page</td>
+<td>* You should be on the &ldquo;Post-restore checklist&rdquo; page<br> * You still be on the &ldquo;Post-restore checklist&rdquo; page</td>
+</tr>
+<tr>
+<td>* Delete the last &ldquo;[&hellip;]-restore.txt&rdquo; files  from [yourshop]/[adminfolder]/autoupgrade/logs<br> * Reload the current page</td>
+<td>* The file should be deleted<br> * you should be redirected to the &ldquo;Welcome to PrestaShop Update Assistant&rdquo; page</td>
+</tr>
+<tr>
+<td>* Click on Restore from a backup<br> * Click on Get started</td>
+<td>* The radio button should be checked next to the restore part and the button Get started should be enabled <br> * You should be redirected to the &ldquo;Backup selection&rdquo; page</td>
+</tr>
+<tr>
+<td>Delete the two different backup</td>
+<td>You should have two different modal :<br> * One to inform you that you will delete the backup<br> * The other one to inform you that you will delete the backup and you&rsquo;ll be redirected to the welcome page<br><br>After the deletion, you&rsquo;ll be redirected to the &ldquo;Welcome to PrestaShop Update Assistant&rdquo; page</td>
+</tr>
+<tr>
+<td>On the link of the page, replace &ldquo;route=home-page&rdquo; by &ldquo;route=restore-page-backup-selection&rdquo;</td>
+<td>You should be redirected to &ldquo;Welcome to PrestaShop Update Assistant&rdquo; page</td>
 </tr>
 </tbody>
 </table>
@@ -67555,17 +67699,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1743748863"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1743748863"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1743748863"></script>
-    <script src="../../../../js/jquery.sticky.js?1743748863"></script>
-    <script src="../../../../js/featherlight.min.js?1743748863"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1743748863"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1743748863"></script>
-    <script src="../../../../js/learn.js?1743748863"></script>
-    <script src="../../../../js/hugo-learn.js?1743748863"></script>
+    <script src="../../../../js/clipboard.min.js?1743834606"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1743834606"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1743834606"></script>
+    <script src="../../../../js/jquery.sticky.js?1743834606"></script>
+    <script src="../../../../js/featherlight.min.js?1743834606"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1743834606"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1743834606"></script>
+    <script src="../../../../js/learn.js?1743834606"></script>
+    <script src="../../../../js/hugo-learn.js?1743834606"></script>
     
-    <script src="../../../../main.js?1743748863"></script>
+    <script src="../../../../main.js?1743834606"></script>
     
     
     
