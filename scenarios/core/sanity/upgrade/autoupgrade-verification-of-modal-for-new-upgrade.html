@@ -22,13 +22,13 @@
     <title>Autoupgrade - Verification of modal for new Upgrade :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1744009118" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1744009118" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1744009118" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1744009118" rel="stylesheet"><link href="../../../../css/auto-complete.css?1744009118" rel="stylesheet">
-    <link href="../../../../style.css?1744009118" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1744094304" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1744094304" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1744094304" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1744094304" rel="stylesheet"><link href="../../../../css/auto-complete.css?1744094304" rel="stylesheet">
+    <link href="../../../../style.css?1744094304" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1744009118"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1744094304"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28231,9 +28231,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback.html" title="Autoupgrade - New UI - Rollback " class="dd-item ">
-        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback.html">
-        Autoupgrade - New UI - Rollback 
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-report-after-a-fail-of-autoupgrade.html" title="Autoupgrade - Report after a fail of autoupgrade" class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-report-after-a-fail-of-autoupgrade.html">
+        Autoupgrade - Report after a fail of autoupgrade
         
         </a>
     </li>
@@ -28252,9 +28252,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-report-after-a-fail-of-autoupgrade.html" title="Autoupgrade - Report after a fail of autoupgrade" class="dd-item ">
-        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-report-after-a-fail-of-autoupgrade.html">
-        Autoupgrade - Report after a fail of autoupgrade
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback.html" title="Autoupgrade - New UI - Rollback " class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback.html">
+        Autoupgrade - New UI - Rollback 
         
         </a>
     </li>
@@ -67512,12 +67512,88 @@
 <td>* You should have a new tab open with title &quot; There is always a Prestashop Expert for your business&rdquo;</td>
 </tr>
 <tr>
-<td>Close the twi different new tab</td>
+<td>Close the two different new tab</td>
 <td>You should keep only the dashboard page with the modal</td>
 </tr>
 <tr>
 <td>Click on &ldquo;Update&rdquo; button</td>
 <td>* You should be redirected on the &ldquo;Version choice&rdquo; page<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.7.8 / Current PHP version: 7.1<br><br> * <br> ** One radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 1.7.8.11 [Minor version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+</tr>
+<tr>
+<td>Install A fresh 1.7.8.3 on php 7.1</td>
+<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+</tr>
+<tr>
+<td>Go to the BO</td>
+<td>You should have your dashboard showed</td>
+</tr>
+<tr>
+<td>Go to the Module Catalog&rdquo; page&rdquo;</td>
+<td>Module Catalog page is displayed correctly</td>
+</tr>
+<tr>
+<td>Search for the update assistant module. Install it</td>
+<td>Module is correctly installed</td>
+</tr>
+<tr>
+<td>Click on the Dashboard on the side menu</td>
+<td>You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** &quot; New available Patch&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two buttons : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Update&rdquo; button</td>
+<td>* You should be redirected on the &ldquo;Version choice&rdquo; page<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.3 / Current PHP version: 7.1<br><br> * <br> ** One radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 1.7.8.11 [Patch version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+</tr>
+<tr>
+<td>Click on Dashboard</td>
+<td>* You should be on your dashboard and no modal should be open</td>
+</tr>
+<tr>
+<td>Change your php to 7.4</td>
+<td>You php should be 7.4 now</td>
+</tr>
+<tr>
+<td>* Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}<br><br> * Click on &ldquo;Go&rdquo;</td>
+<td>* All you database should be showed<br> * You should have all different parameters of your shop<br> * You could writte something on it<br> * The field should be set<br> * You should only have the parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;</td>
+</tr>
+<tr>
+<td>Change the value part</td>
+<td>You change should be saved</td>
+</tr>
+<tr>
+<td>Return on your BO and reload the dashboard page</td>
+<td>You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** &quot; New available Major&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two buttons : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
+</tr>
+<tr>
+<td>* Click on &ldquo;[See the update</td>
+<td><a href="https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/%5D%22">https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]&quot;</a> link on description part</td>
+</tr>
+<tr>
+<td>Close the new tab</td>
+<td>You should keep only the dashboard page with the modal</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Update&rdquo; button</td>
+<td>* You should be redirected on the &ldquo;Version choice&rdquo; page<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.3 / Current PHP version: 7.4<br><br> * <br> ** One radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 8.2.1 [Major version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+</tr>
+<tr>
+<td>Install A fresh 8.0.3 and keep php 7.4</td>
+<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+</tr>
+<tr>
+<td>Go to the BO</td>
+<td>You should have your dashboard showed</td>
+</tr>
+<tr>
+<td>Go to the Module Manager&rdquo; page&rdquo;</td>
+<td>Module Catalog page is displayed correctly</td>
+</tr>
+<tr>
+<td>Search for the update assistant module. Install it</td>
+<td>Module is correctly installed</td>
+</tr>
+<tr>
+<td>Click on the Dashboard on the side menu</td>
+<td>You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** &quot; New available Minor&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two buttons : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
 </tr>
 </tbody>
 </table>
@@ -67539,17 +67615,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1744009118"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1744009118"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1744009118"></script>
-    <script src="../../../../js/jquery.sticky.js?1744009118"></script>
-    <script src="../../../../js/featherlight.min.js?1744009118"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1744009118"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1744009118"></script>
-    <script src="../../../../js/learn.js?1744009118"></script>
-    <script src="../../../../js/hugo-learn.js?1744009118"></script>
+    <script src="../../../../js/clipboard.min.js?1744094304"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1744094304"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1744094304"></script>
+    <script src="../../../../js/jquery.sticky.js?1744094304"></script>
+    <script src="../../../../js/featherlight.min.js?1744094304"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1744094304"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1744094304"></script>
+    <script src="../../../../js/learn.js?1744094304"></script>
+    <script src="../../../../js/hugo-learn.js?1744094304"></script>
     
-    <script src="../../../../main.js?1744009118"></script>
+    <script src="../../../../main.js?1744094304"></script>
     
     
     
