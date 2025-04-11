@@ -6,7 +6,7 @@ weight: 18
 # Autoupgrade - Verification of modal for new Upgrade
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : Approved
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10796
 
 ## Steps
