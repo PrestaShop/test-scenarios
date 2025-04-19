@@ -57,6 +57,13 @@
       <description>Known bugs (7 campaigns / 3 issues) .github/workflows/ui-test/nightly.json : docker#399 : The filter by category in FO &amp;gt; home page does not work in 1.7.4.0 and 1.7.4.1 tests/UI/campaigns/sanity/02_productsBO/02_CRUDStandardProduct.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/03_CRUDProductWithCombinations.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/04_CRUDVirtualProduct.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/05_deleteProduct.</description>
     </item>
     <item>
+      <title>Autoupgrade - Verify the experimented featured</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-experimented-featured.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-experimented-featured.html</guid>
+      <description>Autoupgrade - Verify the experimented featured Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9497 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+    </item>
+    <item>
       <title>Basic Test</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/basic-test.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1871,9 +1878,9 @@
     </item>
     <item>
       <title>UpgradeShop</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgradeshop.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgradeshop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgradeshop.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgradeshop.html</guid>
       <description>UpgradeShop Details Component : Core Status : Deprecated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1346 Steps Step Description Expected result Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module. Install it&amp;quot; Module is correctly installed Go to the General Parameters &amp;gt; Maintenance&amp;quot; page. Put the shop in maintenance mode&amp;quot; Maintenance page is displayed correctly. Maintenance mode is activated Launch upgrade Upgrade is launched Refresh the page.</description>
     </item>
     <item>
@@ -1938,6 +1945,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/add-a-custom-currency.html</guid>
       <description> Add a custom currency Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1362 Steps Step Description Expected result </description>
+    </item>
+    <item>
+      <title>Autoupgrade - Verify catalog page after upgrade to V9</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-catalog-page-after-upgrade-to-v9.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-catalog-page-after-upgrade-to-v9.html</guid>
+      <description>Autoupgrade - Verify catalog page after upgrade to V9 Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9500 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed * Go to Catalog &amp;gt; Product&#xA;* Clic on the Hummingbird notebook * Clic on Details tab * Change the &amp;ldquo;GTIN (EAN, JA, ITF or UCC code) and Click on Save and Publish * The product page should be displayed with all the different product</description>
     </item>
     <item>
       <title>blockreassurance - Change the position in the footer</title>
@@ -3418,9 +3432,9 @@
     </item>
     <item>
       <title>Upgrade Shop with minor release</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgrade-shop-with-minor-release.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-minor-release.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgrade-shop-with-minor-release.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-minor-release.html</guid>
       <description>Upgrade Shop with minor release Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-9176 Steps Step Description Expected result Go to https://github.com/PrestaShop/PrestaShop/releases &amp;gt; Search for 8.1.5 zip &amp;gt; Install PS 8.1.5 Your installation is finished! Go to BO &amp;gt; Delete install folder &amp;gt; Log into your employee account BO Dashboard is displayed Go to Modules &amp;gt; Modules manager &amp;gt; Install 1-click upgrade Install action on module autoupgrade succeeded. Go to the Shop Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Disable your shop &amp;gt; Save Successful update message is displayed.</description>
     </item>
     <item>
@@ -3471,6 +3485,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/8.2.x.html</guid>
       <description>Known bugs (10 campaigns / 9 issues) tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/01_internalAuthServer/02_resourceEndpoint.ts : PrestaShop#29813 : APIS10 - Create an App object in the BO to manage API accesses of external applications tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/01_authorizationEndpoint.ts : Remove it when Puppeteer will accept self signed certificates tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/02_resourceEndpoint.ts : Remove it when Puppeteer will accept self signed certificates tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts : PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker) tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Verify the database after upgrade to V9</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-database-after-upgrade-to-v9.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-database-after-upgrade-to-v9.html</guid>
+      <description>Autoupgrade - Verify the database after upgrade to V9 Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9506 Steps Step Description Expected result * Go to your Database &amp;gt; [prefixe]_address&#xA;* Go to the structure * The different information of the address database should be displayed&#xA;* The &amp;ldquo;other&amp;rdquo; value should be &amp;ldquo;mediumtext&amp;rdquo; * Go to your Database &amp;gt; [prefixe]attachment_lang&#xA;* Go to the structure * The different information of the attachment_lang database should be displayed</description>
     </item>
     <item>
       <title>blockreassurance - Delete a bloc</title>
@@ -4706,9 +4727,9 @@
     </item>
     <item>
       <title>Upgrade Shop with major release</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgrade-shop-with-major-release.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-major-release.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgrade-shop-with-major-release.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-major-release.html</guid>
       <description>Upgrade Shop with major release Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-9182 Steps Step Description Expected result Go to [https://github.com/PrestaShop/PrestaShop/releases] &amp;gt; Search for 1.7.8.11 zip &amp;gt; Install PS 1.7.8.11 Your installation is finished! Go to BO &amp;gt; Delete install folder &amp;gt; Log into your employee account BO Dashboard is displayed Go to Modules &amp;gt; Marketplace &amp;gt; Search for module 1-click upgrade &amp;gt; Click Install &amp;gt; Click Configure Configuration page of the module 1-Click Upgrade is displayed Go to the Shop Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Disable your shop &amp;gt; Save Successful update message is displayed.</description>
     </item>
     <item>
@@ -4759,6 +4780,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/blockwishlist/front-office/products/add-a-product-to-a-list.html</guid>
       <description>Add a product to a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-559 Steps Step Description Expected result Browse through the catalog and open a product page The heart next to the picture is empty Click on the heart A modal appears, telling you to log in before you can add products to your wishlists. There is a Sign In&amp;quot; button&amp;quot; Click on the Sign In&amp;quot; button.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Rollback </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-rollback.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-rollback.html</guid>
+      <description>Autoupgrade - Web Version - Rollback Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-9679 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
     </item>
     <item>
       <title>blockreassurance - Add a bloc</title>
@@ -5665,9 +5693,9 @@
     </item>
     <item>
       <title>Upgrade Shop with local archive release</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgrade-shop-with-local-archive-release.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-local-archive-release.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/upgrade-shop-with-local-archive-release.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-local-archive-release.html</guid>
       <description>Upgrade Shop with local archive release Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-9494 Steps Step Description Expected result Go to [https://github.com/PrestaShop/PrestaShop/releases] &amp;gt; Search for 8.1.5 zip &amp;gt; Install PS 8.1.5 Your installation is finished! Go to BO &amp;gt; Delete install folder &amp;gt; Log into your employee account BO Dashboard is displayed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Go to Modules &amp;gt; Modules manager &amp;gt; Install 1-click upgrade Install action on module autoupgrade succeeded.</description>
     </item>
     <item>
@@ -5699,11 +5727,18 @@
       <description> Known bugs (2 campaigns / 2 issues) tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/03_viewCarts.js : PrestaShop#29894 : Incorrect number of columns when filtering in Shopping Carts page tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.js : PrestaShop#9779 : [BOOM-4571] Rounding Problem </description>
     </item>
     <item>
-      <title>Autoupgrade - Verify the experimented featured</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-experimented-featured.html</link>
+      <title>Autoupgrade - Verify the UI of the module</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-verify-the-ui-of-the-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-experimented-featured.html</guid>
-      <description>Autoupgrade - Verify the experimented featured Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9497 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-verify-the-ui-of-the-module.html</guid>
+      <description>Autoupgrade - Verify the UI of the module Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-9677 Steps Step Description Expected result Install A fresh 8.0.5 in english You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Verification during the upgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-upgrade.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - Verification during the upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9698 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
     </item>
     <item>
       <title>blockreassurance - Drag and drop bloc</title>
@@ -6385,11 +6420,18 @@
       <description> Known bugs (1 campaigns / 1 issues) tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/04_taxOptionsForm.js : PrestaShop#32914 : After disabling/enabling a tax, the linked tax rule is not present for the Ecotax </description>
     </item>
     <item>
-      <title>Autoupgrade - Verify catalog page after upgrade to V9</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-catalog-page-after-upgrade-to-v9.html</link>
+      <title>Autoupgrade - Report after a fail of autoupgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-report-after-a-fail-of-autoupgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-catalog-page-after-upgrade-to-v9.html</guid>
-      <description>Autoupgrade - Verify catalog page after upgrade to V9 Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9500 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed * Go to Catalog &amp;gt; Product&#xA;* Clic on the Hummingbird notebook * Clic on Details tab * Change the &amp;ldquo;GTIN (EAN, JA, ITF or UCC code) and Click on Save and Publish * The product page should be displayed with all the different product</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-report-after-a-fail-of-autoupgrade.html</guid>
+      <description>Autoupgrade - Report after a fail of autoupgrade Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-9680 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Create error before the upgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-before-the-upgrade.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-before-the-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - Create error before the upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9699 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Test email configuration</title>
@@ -6868,11 +6910,11 @@
       <description>[BO] Upgrade from 1.7.7.8 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2535 Steps Step Description Expected result On a fresh 1.7.7.8 install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - Verify the database after upgrade to V9</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-database-after-upgrade-to-v9.html</link>
+      <title>Autoupgrade - STORYBOOK</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-storybook.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-database-after-upgrade-to-v9.html</guid>
-      <description>Autoupgrade - Verify the database after upgrade to V9 Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9506 Steps Step Description Expected result * Go to your Database &amp;gt; [prefixe]_address&#xA;* Go to the structure * The different information of the address database should be displayed&#xA;* The &amp;ldquo;other&amp;rdquo; value should be &amp;ldquo;mediumtext&amp;rdquo; * Go to your Database &amp;gt; [prefixe]attachment_lang&#xA;* Go to the structure * The different information of the attachment_lang database should be displayed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-storybook.html</guid>
+      <description>Autoupgrade - STORYBOOK Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9703 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module. Install it&amp;quot; Module is correctly installed Go to your folder [yourshopname_folder] &amp;gt; module &amp;gt; Autoupgrade &amp;gt; Storybook You should have many files and folder, one files named README.</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Help button</title>
@@ -7211,11 +7253,11 @@
       <description>[FO] Upgrade from 1.7.7.8 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2536 Steps Step Description Expected result On a fresh 1.7.7.8 install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - Verify the UI of the module</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-ui-of-the-module.html</link>
+      <title>Autoupgrade - CLI - Check/Upgrade/Rollback </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-ui-of-the-module.html</guid>
-      <description>Autoupgrade - Verify the UI of the module Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-9677 Steps Step Description Expected result Install A fresh 8.0.5 in english You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</guid>
+      <description>Autoupgrade - CLI - Check/Upgrade/Rollback Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9848 Steps Step Description Expected result Install A fresh 1.7.7.8 with php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
     </item>
     <item>
       <title>BO - Advanced Parameters - Multistore - Multistore options</title>
@@ -7456,11 +7498,11 @@
       <description>[FO] Upgrade from 1.7.4 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2537 Steps Step Description Expected result On a fresh 1.7.4.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - Report after a fail of autoupgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-report-after-a-fail-of-autoupgrade.html</link>
+      <title>Autoupgrade - Web Version - Update on online channel</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-online-channel.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-report-after-a-fail-of-autoupgrade.html</guid>
-      <description>Autoupgrade - Report after a fail of autoupgrade Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-9680 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-online-channel.html</guid>
+      <description>Autoupgrade - Web Version - Update on online channel Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10136 Steps Step Description Expected result Install A fresh 1.7.8.9 with php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Apply a discount to Selected product(s) </title>
@@ -7617,11 +7659,11 @@
       <description>[BO] Upgrade from 1.7.4 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2538 Steps Step Description Expected result On a fresh 1.7.4.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - New UI - Rollback </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback.html</link>
+      <title>Autoupgrade - Web Version - Update on local channel</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-new-ui-rollback.html</guid>
-      <description>Autoupgrade - New UI - Rollback Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-9679 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</guid>
+      <description>Autoupgrade - Web Version - Update on local channel Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10739 Steps Step Description Expected result Install A fresh last version of prestashop with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Exclude discounted products</title>
@@ -7750,11 +7792,11 @@
       <description>[FO] Upgrade from 1.7.6 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2539 Steps Step Description Expected result On a fresh 1.7.6.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - Verification during the upgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verification-during-the-upgrade.html</link>
+      <title>Autoupgrade - Middleware</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verification-during-the-upgrade.html</guid>
-      <description>Autoupgrade - Verification during the upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9698 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware.html</guid>
+      <description>Autoupgrade - Middleware Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10778 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Send a free gift</title>
@@ -7848,11 +7890,11 @@
       <description>[BO] Upgrade from 1.7.6 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2540 Steps Step Description Expected result On a fresh 1.7.6.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - Verification of the different error before the upgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verification-of-the-different-error-before-the-upgrade.html</link>
+      <title>Autoupgrade - Web Version - modal for new Upgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verification-of-the-different-error-before-the-upgrade.html</guid>
-      <description>Autoupgrade - Verification of the different error before the upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9699 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10796 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
     </item>
     <item>
       <title>BO - Design - Image Settings - Check category image format </title>
@@ -7925,13 +7967,6 @@
       <description>Shop Parameters Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-10188 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/12_shopParameters.ts Steps Step Description Expected result Go to BO -&amp;gt; Dashboard page The dashboard page is displayed&#xA;No JS errors are triggered Go to Shop Parameters &amp;gt; General The preferences page is displayed&#xA;No JS errors are triggered Go to Maintenance tab The Maintenance page is displayed&#xA;No JS errors are triggered Go to Order Settings The Order settings page is displayed</description>
     </item>
     <item>
-      <title>Autoupgrade - STORYBOOK</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-storybook.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-storybook.html</guid>
-      <description>Autoupgrade - STORYBOOK Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9703 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module. Install it&amp;quot; Module is correctly installed Go to your folder [yourshopname_folder] &amp;gt; module &amp;gt; Autoupgrade &amp;gt; Storybook You should have many files and folder, one files named README.</description>
-    </item>
-    <item>
       <title>BO - Design - Image Settings - Check stores image format </title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-stores-image-format.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7988,13 +8023,6 @@
       <description> Refresh list of currency Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1373 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Check/Upgrade/Rollback with the CLI</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-check-upgrade-rollback-with-the-cli.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-check-upgrade-rollback-with-the-cli.html</guid>
-      <description>Autoupgrade - Check/Upgrade/Rollback with the CLI Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9848 Steps Step Description Expected result Install A fresh 1.7.7.8 with php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
-    </item>
-    <item>
       <title>BO - Design - Image Settings - Check base image format </title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-base-image-format.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8037,13 +8065,6 @@
       <description> Reset the search Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1374 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Verify the New UI on online channel</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-on-online-channel.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-on-online-channel.html</guid>
-      <description>Autoupgrade - Verify the New UI on online channel Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10136 Steps Step Description Expected result Install A fresh 1.7.8.9 with php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
-    </item>
-    <item>
       <title>BO - Stocks Tab</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-stocks-tab.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8079,13 +8100,6 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the email address is not linked to a customer Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-660 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Verify the New UI  in local channel</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local-channel.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-new-ui-in-local-channel.html</guid>
-      <description>Autoupgrade - Verify the New UI in local channel Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10739 Steps Step Description Expected result Install A fresh last version of prestashop with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
-    </item>
-    <item>
       <title>BO - Shipping Tab</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-shipping-tab.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8114,13 +8128,6 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the email address is linked to a customer Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-661 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Middleware</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware.html</guid>
-      <description>Autoupgrade - Middleware Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10778 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
-    </item>
-    <item>
       <title>BO - Pricing Tab</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-pricing-tab.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8140,13 +8147,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/ps-emailsubscription-check-the-id-in-the-tab-configuration-if-the-user-register-as-customer-and-check-the-box-subscribe.html</guid>
       <description> ps_emailsubscription - Check the ID in the tab configuration if the user register as customer and check the box subscribe Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-662 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>Autoupgrade - Verification of modal for new Upgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verification-of-modal-for-new-upgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verification-of-modal-for-new-upgrade.html</guid>
-      <description>Autoupgrade - Verification of modal for new Upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10796 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
     </item>
     <item>
       <title>BO - SEO Tab</title>
