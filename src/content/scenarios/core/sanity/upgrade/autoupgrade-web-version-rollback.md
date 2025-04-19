@@ -1,9 +1,9 @@
 ---
-title: "Autoupgrade - New UI - Rollback "
-weight: 10
+title: "Autoupgrade - Web Version - Rollback "
+weight: 4
 ---
 
-# Autoupgrade - New UI - Rollback 
+# Autoupgrade - Web Version - Rollback 
 ## Details
 * **Component** : Core
 * **Status** : In progress

@@ -1,9 +1,9 @@
 ---
-title: "Autoupgrade - Verification of modal for new Upgrade"
-weight: 18
+title: "Autoupgrade - Web Version - modal for new Upgrade"
+weight: 12
 ---
 
-# Autoupgrade - Verification of modal for new Upgrade
+# Autoupgrade - Web Version - modal for new Upgrade
 ## Details
 * **Component** : Core
 * **Status** : Approved

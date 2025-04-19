@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Verify catalog page after upgrade to V9"
-weight: 6
+weight: 2
 ---
 
 # Autoupgrade - Verify catalog page after upgrade to V9

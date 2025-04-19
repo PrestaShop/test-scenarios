@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Middleware"
-weight: 17
+weight: 11
 ---
 
 # Autoupgrade - Middleware

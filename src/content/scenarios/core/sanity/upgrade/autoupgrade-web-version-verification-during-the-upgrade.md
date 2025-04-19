@@ -1,9 +1,9 @@
 ---
-title: "Autoupgrade - Verification during the upgrade"
-weight: 11
+title: "Autoupgrade - Web Version - Verification during the upgrade"
+weight: 5
 ---
 
-# Autoupgrade - Verification during the upgrade
+# Autoupgrade - Web Version - Verification during the upgrade
 ## Details
 * **Component** : Core
 * **Status** : Approved

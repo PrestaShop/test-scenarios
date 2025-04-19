@@ -1,9 +1,9 @@
 ---
-title: "Autoupgrade - Verification of the different error before the upgrade"
-weight: 12
+title: "Autoupgrade - Web Version - Create error before the upgrade"
+weight: 6
 ---
 
-# Autoupgrade - Verification of the different error before the upgrade
+# Autoupgrade - Web Version - Create error before the upgrade
 ## Details
 * **Component** : Core
 * **Status** : Approved

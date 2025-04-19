@@ -1,9 +1,9 @@
 ---
-title: "Autoupgrade - Check/Upgrade/Rollback with the CLI"
-weight: 14
+title: "Autoupgrade - CLI - Check/Upgrade/Rollback "
+weight: 8
 ---
 
-# Autoupgrade - Check/Upgrade/Rollback with the CLI
+# Autoupgrade - CLI - Check/Upgrade/Rollback 
 ## Details
 * **Component** : Core
 * **Status** : Approved
