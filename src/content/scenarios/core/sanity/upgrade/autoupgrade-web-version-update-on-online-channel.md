@@ -12,10 +12,10 @@ weight: 9
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 1.7.8.9 with php 7.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
+| Install A fresh 1.7.8.9 on php 7.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
 | Go to the BO | You should have your dashboard showed |
-| Go to the Module Manager " page" | Module Manager page is displayed correctly |
-| * Search for the "update assistant" module.<br> * Install it | * Update assistant should have "The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence." as description <br> * Module is correctly installed |
+| Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
+| * Search for the update assistant module.<br> * Install it | * Update assistant should have "The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence." as description <br> * Module is correctly installed |
 | Go to the General Parameters > Maintenance" page. Put the shop in maintenance mode" | Maintenance page is displayed correctly. Maintenance mode is activated |
 | Set your "Maintenance IP" by clicking the button "+ Add my IP" and clic on "Save" button | Your IP should be setted on the field and you will have the green notification |
 | * Go to the update assistant page | * You should see the configuration page of the module with a little problem on UI |
