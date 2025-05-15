@@ -13,15 +13,13 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| go to 'Shop parameters > SEO and Urls' page | Title contains 'SEO & URLs' |
-| reset filters | Total of Seo pages > 0 |
-| Clic to Set up a new page button | Title contains 'New page configuration' |
-| Fill the form and save | Successful message is displayed <br>number of Seo pages = Total of Seo pages + 1 |
-| filter by seo page name = "order-return" | At least one Seo Page is displayed<br>first row column page name contain 'order-return' |
-| Click on edit first seo page in table | title contains 'Editing configuration for order-return' |
-| Edit SEO URL | Successful message is displayed |
-| reset filter | number of Seo pages = Total of Seo pages + 1 |
-| filter by seo page name ='pdf-order-return' | At least one Seo Page is displayed<br>first row column page name contain 'pdf-order-return' |
-| Click on delete first row in table | Are you sure you want to delete the selected item(s)? Modale |
-| Click on delete | Successful deletion message is displayed |
-| reset filter | number of Seo pages = Total of Seo pages |
+| Go to BO > Shop parameters > Traffic & SEO | Title contains 'SEO & URLs' |
+| Click on Set up a new page button | Title contains 'New page configuration' |
+| Fill the form > Save | Successful creation message is displayed |
+| Filter by Page name = order-return > Click on Search | order-return page is displayed |
+| Click on the edit button | Page is displayed with title 'Editing configuration for order-return' |
+| Edit the form with the following data > Save | Successful update message is displayed |
+| Reset filter | All SEO pages in list are displayed |
+| Filter by Page name = pdf-order-return | order-return page is displayed |
+| Delete pdf-order-return | Successful deletion message is displayed<br>No result found displayed in the table |
+| Reset filter | All SEO pages are displayed |

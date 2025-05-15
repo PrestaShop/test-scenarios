@@ -12,6 +12,6 @@ weight: 10
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| * Clic on the "Bulk actions" Button<br> * Clic on "Select all"<br> * Clic on the "Delete selected" button | * You'll have three other selection on the slide up "Select all", "Unselect all" and "Delete selected"<br> * A new modal named "Are your sure you want to delete this image seeting?" should be dislpayed |
-| * Check the box named "Delete the images linked to this image setting"<br> * Clic on the red Delete button | * A progress bar wil be displayed during the deletion <br> * All images type should be deleted<br> * Images relative to this image type are removed |
-| * Go to your shop <br> * Select a product | This product should be shown with no image on it |
+| Go to BO > Design > Image Settings > Select all images formats > Click on Bulk Actions > Click on the "Delete selected" button | A modal is displayed to delete the selected items |
+| Click on Delete | All images type are deleted |
+| Go to your shop > Open a product page | The product page is displayed without any images. |

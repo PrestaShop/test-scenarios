@@ -13,19 +13,15 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to International ->locations> States | the States  page is displayed |
-| Reset all filters | All filters are reset. All states are displayed |
-| Change the items number to 20 per page | one page is  displayed and the pagination number = _page 1 /18_<br><br>_display :20/353_ |
+| Go to BO > International > Locations > States | The States page is displayed |
+| Change the items number to 20 per page | One page is displayed and the pagination number = _page 1 /18_<br><br>_display : 20/353_ |
 | Click on next | The second page is well displayed & the pagination number = _page 2 / 18_ |
 | Click on previous | The first page is well displayed and the pagination number = _page 1 /18_ |
-| Change the items number to 100 per page | Only one page is displayed  _(page 1 / 4)_ |
-| Sort state by ID desc | states are sorted by postion (353 -> 352 -> ...) |
-| Sort state by name desc | states are sorted by name  ( z-> y -> ...) |
-| Sort state by name desc | states are sorted by name  ( z-> y -> ...) |
-| Sort state by ISO code  asc | states are sorted by ISO code   ( a-> b -> ...) |
-| Sort state by ISO code  asc | states are sorted by ISO code   ( a-> b -> ...) |
-| Sort state by zone  desc | states are sorted by zone  ( z-> y -> ...) |
-| Sort state by zone  asc | states are sorted by zone  ( a-> b -> ...) |
-| Sort state by country  desc | states are sorted by country  ( z-> y -> ...) |
-| Sort state by country  asc | states are sorted by country  ( a-> b -> ...) |
-| Sort state by ID asc | states are sorted by postion (352 ->353 -> ...) |
+| Change the items number to 100 per page | First page is displayed _(page 1 / 4)_ |
+| Sort State by ID DESC | States are sorted by position (353 -> 352 -> ...) |
+| Sort State by Name DESC | States are sorted by name (z-> y -> ...) |
+| Sort State by ISO code ASC | States are sorted by ISO code (a-> b -> ...) |
+| Sort State by Zone DESC | States are sorted by Zone (z-> y -> ...) |
+| Sort State by Country DESC | States are sorted by Country (z-> y -> ...) |
+| Sort State by Country ASC | States are sorted by Country (a-> b -> ...) |
+| Sort state by ID ASC | States are sorted by Position (1 -> 2 -> ...) |

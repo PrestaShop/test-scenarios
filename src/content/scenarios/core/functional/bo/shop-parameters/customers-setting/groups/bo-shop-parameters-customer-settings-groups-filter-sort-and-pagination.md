@@ -13,18 +13,18 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO >  Shop parameters > Customer Settings  >  Groups | Customers - Groups page is well displayed |
-| In Groups section > Fill all information :Groupe Name |Discount%|Members|Show prices|<br><br><br>> click on search button | The filter result should appear |
+| Go to BO > Shop Parameters > Customer Settings > Groups | Groups page is well displayed |
+| Search by Group name > Click on Search button | The grid displays the Customer Group element |
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
-| filter by ID. | Groups list is filtered. Groups listed have *2* in their ID" |
+| filter by ID. | Groups list is filtered. Groups listed have *2* in their ID |
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
-| filter by groupe name. | Pages list is filtered. Pages listed have the Groupe name customer in their name |
+| filter by groupe name. | Group list is filtered. Pages listed have the Groupe name customer in their name |
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
 | filter by Discount(%) | Pages list is filtered. Pages listed have the discount |
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
-| filter by members. | Pages list is filtered. Pages listed have the members number = 2 |
+| Filter by members. | Groups list is filtered. Pages listed have the members number = 2 |
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
-| filter by Show prices. | Pages list is filtered. Pages listed have the show prices field is yes |
+| Filter by Show prices. | Groups list is filtered. Pages listed have the show prices field is yes |
 | Reset all filters of Groups table | Pages list is filtered. Pages listed have the show prices field is yes |
 | Filter by date creation | Pages list is filtered. Pages listed have the creation date value |
 | Reset all filters of Groups table | All filters are reset. All Groups are displayed |
