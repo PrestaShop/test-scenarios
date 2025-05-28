@@ -22,13 +22,13 @@
     <title>PATCH /admin-api/product/{productId} :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1748414069" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1748414069" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1748414069" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1748414069" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1748414069" rel="stylesheet">
-    <link href="../../../../../../style.css?1748414069" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1748440828" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1748440828" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1748440828" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1748440828" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1748440828" rel="stylesheet">
+    <link href="../../../../../../style.css?1748440828" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1748414069"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1748440828"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -1216,6 +1216,27 @@
       <li data-nav-id="/scenarios/core/functional/api/tls-check.html" title="TLS Check" class="dd-item ">
         <a href="../../../../../../scenarios/core/functional/api/tls-check.html">
         TLS Check
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/api/api-check-endpoints.html" title="API : Check endpoints" class="dd-item ">
+        <a href="../../../../../../scenarios/core/functional/api/api-check-endpoints.html">
+        API : Check endpoints
         
         </a>
     </li>
@@ -44150,6 +44171,21 @@
       
       
       
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
         
       
       
@@ -67864,14 +67900,6 @@
 <td>Edit Product Page is displayed correctly</td>
 </tr>
 <tr>
-<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productd}&rdquo; for updating the field &ldquo;type&rdquo;</td>
-<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key type has the updated value.</td>
-</tr>
-<tr>
-<td>Reload the Edit page</td>
-<td>Check that the input value for field &ldquo;type&rdquo; is updated</td>
-</tr>
-<tr>
 <td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productd}&rdquo; for updating the field &ldquo;active&rdquo;</td>
 <td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
 </tr>
@@ -67880,20 +67908,316 @@
 <td>Check that the input value for field &ldquo;active&rdquo; is updated</td>
 </tr>
 <tr>
-<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productd}&rdquo; for updating the field &ldquo;names&rdquo;</td>
-<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key names has the updated value.</td>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productd}&rdquo; for updating the field &ldquo;additionalShippingCost&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
 </tr>
 <tr>
 <td>Reload the Edit page</td>
-<td>Check that the input value for field &ldquo;name&rdquo; (in english &amp; french) is updated</td>
+<td>Check that the input value for field &ldquo;additionalShippingCost&rdquo; is updated</td>
 </tr>
 <tr>
-<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productd}&rdquo; for updating the field &ldquo;descriptions&rdquo;</td>
-<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key descriptions has the updated value.</td>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productd}&rdquo; for updating the field &ldquo;availableDate&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
 </tr>
 <tr>
 <td>Reload the Edit page</td>
-<td>Check that the input value for field &ldquo;description&rdquo; (in english &amp; french) is updated</td>
+<td>Check that the input value for field &ldquo;availableDate&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productd}&rdquo; for updating the field &ldquo;availableForOrder&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;availableForOrder&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productd}&rdquo; for updating the field &ldquo;availableLaterLabels&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;availableLaterLabels&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;availableNowLabels&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;availableNowLabels&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;condition&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;condition&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;deliveryTimeInStockNotes&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;deliveryTimeInStockNotes&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;deliveryTimeOutOfStockNotes&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;deliveryTimeOutOfStockNotes&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;deliveryTimeNoteType&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;deliveryTimeNoteType&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;depth&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;depth&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;ean13&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;ean13&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;ecotaxTaxExcluded&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;ecotaxTaxExcluded&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;gtin&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;gtin&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;height&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;height&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;isbn&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;isbn&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;linkRewrites&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;linkRewrites&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;lowStockThreshold&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;lowStockThreshold&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;manufacturerId&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;manufacturerId&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;metaDescriptions&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;metaDescriptions&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;metaTitles&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;metaTitles&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;minimalQuantity&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;minimalQuantity&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;mpn&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;mpn&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;names&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;names&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;onlineOnly&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;onlineOnly&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;onSale&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;onSale&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;priceTaxExcluded&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;priceTaxExcluded&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;redirectOption&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;redirectType&rdquo; is updated<br>Check that the input value for field &ldquo;redirectTarget&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;reference&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;reference&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;shortDescriptions&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;shortDescriptions&rdquo; is updated (in French &amp; English)</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;showCondition&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;showCondition&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;showPrice&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;showPrice&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;taxRulesGroupId&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;taxRulesGroupId&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;unitPriceTaxExcluded&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;unitPriceTaxExcluded&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;unity&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;unity&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;upc&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;upc&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;visibility&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;visibility&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;width&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;width&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;weight&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;weight&rdquo; is updated</td>
+</tr>
+<tr>
+<td>Request with method PATCH the endpoint &ldquo;https://[url of your shop]/admin-dev/index.php/api/product/{productId}&rdquo; for updating the field &ldquo;wholesalePrice&rdquo;</td>
+<td>The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value.</td>
+</tr>
+<tr>
+<td>Reload the Edit page</td>
+<td>Check that the input value for field &ldquo;wholesalePrice&rdquo; is updated</td>
 </tr>
 <tr>
 <td>Click on the &ldquo;Go to catalog&rdquo;</td>
@@ -67947,17 +68271,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1748414069"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1748414069"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1748414069"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1748414069"></script>
-    <script src="../../../../../../js/featherlight.min.js?1748414069"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1748414069"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1748414069"></script>
-    <script src="../../../../../../js/learn.js?1748414069"></script>
-    <script src="../../../../../../js/hugo-learn.js?1748414069"></script>
+    <script src="../../../../../../js/clipboard.min.js?1748440828"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1748440828"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1748440828"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1748440828"></script>
+    <script src="../../../../../../js/featherlight.min.js?1748440828"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1748440828"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1748440828"></script>
+    <script src="../../../../../../js/learn.js?1748440828"></script>
+    <script src="../../../../../../js/hugo-learn.js?1748440828"></script>
     
-    <script src="../../../../../../main.js?1748414069"></script>
+    <script src="../../../../../../main.js?1748440828"></script>
     
     
     

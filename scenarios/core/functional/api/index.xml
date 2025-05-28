@@ -21,5 +21,12 @@
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/tls-check.html</guid>
       <description>TLS Check Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-4901 Steps Step Description Expected result Request the endpoint /admin-dev/api/oauth2/token without HTTPS Receive a response where the HTTP code is 301&#xA;Redirect to the endpoint in HTTPS Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.0 with a valid access token Receive a response where the HTTP code is 426&#xA;Receive a response where the header “Upgrade” is present Request the endpoint /admin-dev/new-api/hook-status/1 in TLS 1.</description>
     </item>
+    <item>
+      <title>API : Check endpoints</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/api-check-endpoints.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/api-check-endpoints.html</guid>
+      <description>API : Check endpoints Details Component : Core Status : Automated Automated on : 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11070 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the documentation link about the JSON documentation The JSON documentation is displayed.&#xA;The JSON documentation has a property named &amp;ldquo;paths&amp;rdquo;.</description>
+    </item>
   </channel>
 </rss>
