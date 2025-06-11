@@ -1,9 +1,9 @@
 ---
-title: HookStatus
-menuTitle: HookStatus
+title: Hook
+menuTitle: Hook
 chapter: true
 ---
 
-# HookStatus
+# Hook
 
 {{% children titlePages="Tests" titleSections="Categories" /%}}

@@ -1,6 +1,6 @@
 ---
 title: "PUT /module/{technicalName}/install"
-weight: 2
+weight: 3
 ---
 
 # PUT /module/{technicalName}/install

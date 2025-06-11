@@ -1,6 +1,6 @@
 ---
 title: "PUT /modules/uninstall"
-weight: 2
+weight: 10
 ---
 
 # PUT /modules/uninstall
