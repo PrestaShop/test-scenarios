@@ -7,9 +7,9 @@ weight: 3
 ## Details
 * **Component** : ps_themecusto
 * **Status** : Automated
-* **Automated on** : 9.0.x
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4167
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_themecusto/02_configuration/02_advancedCustomizationTab.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/35_ps_themecusto/02_configuration/02_advancedCustomizationTab.ts
 
 ## Steps
 | Step Description | Expected result |

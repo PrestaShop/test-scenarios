@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : ps_apiresources
 * **Status** : Automated
-* **Automated on** : 9.0.x
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7804
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_apiresources/01_installation/02_disableEnableModule.ts
 

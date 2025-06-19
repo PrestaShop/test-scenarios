@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : ps_newproducts
 * **Status** : Automated
-* **Automated on** : 9.0.x
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3890
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_newproducts/02_configuration/01_configureSettingsProductsToDisplay.ts
 

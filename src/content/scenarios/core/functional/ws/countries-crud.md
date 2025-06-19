@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 8.1.x, 9.0.x
+* **Automated on** : 9.1.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-6064
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts
 

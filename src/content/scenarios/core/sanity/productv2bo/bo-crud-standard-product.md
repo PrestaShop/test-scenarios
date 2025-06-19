@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 8.1.x, 9.0.x
+* **Automated on** : 9.1.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3549
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/02_CRUDStandardProduct.ts
 

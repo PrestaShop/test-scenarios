@@ -7,7 +7,7 @@ weight: 21
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : Automated
-* **Automated on** : 9.0.x
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4272
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/02_configuration/21_addNewTemplate.ts
 

@@ -6,7 +6,7 @@ weight: 3
 # BO - Modules - GDPR - Consent checkbox customization
 ## Details
 * **Status** : Automated
-* **Automated on** : 9.0.x
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7593
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/psgdpr/02_configuration/03_consentCheckboxCustomization.ts
 

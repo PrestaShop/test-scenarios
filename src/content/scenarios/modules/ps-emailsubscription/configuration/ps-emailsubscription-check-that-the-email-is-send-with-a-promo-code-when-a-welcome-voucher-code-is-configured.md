@@ -8,7 +8,7 @@ weight: 3
 * **Component** : ps_emailsubscription
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-648
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailsubscription/02_configuration/03_checkWelcomeVoucher.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/21_ps_emailsubscription/02_configuration/03_checkWelcomeVoucher.ts
 
 ## Steps
 | Step Description | Expected result |

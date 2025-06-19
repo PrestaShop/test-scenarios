@@ -7,7 +7,7 @@ weight: 4
 ## Details
 * **Component** : ps_cashondelivery
 * **Status** : Automated
-* **Automated on** : 8.1.x, 9.0.x
+* **Automated on** : 9.1.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4070
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_cashondelivery/01_installation/04_resetModule.ts
 

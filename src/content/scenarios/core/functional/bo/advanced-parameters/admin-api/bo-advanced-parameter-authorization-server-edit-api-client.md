@@ -7,7 +7,7 @@ weight: 3
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.0.x
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7634
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_adminAPI/03_editAPIClient.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management

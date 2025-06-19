@@ -7,7 +7,7 @@ weight: 5
 ## Details
 * **Component** : blockwishlist
 * **Status** : Automated
-* **Automated on** : 9.0.x
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4230
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/01_installation/05_uninstallAndDeleteModule.ts
 
