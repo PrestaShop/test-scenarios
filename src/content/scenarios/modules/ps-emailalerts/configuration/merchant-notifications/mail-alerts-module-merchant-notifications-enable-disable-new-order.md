@@ -8,7 +8,7 @@ weight: 6
 * **Component** : ps_emailalerts
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4121
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailalerts/02_configuration/02_merchantNotifications/01_enableDisableNewOrder.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/02_configuration/02_merchantNotifications/01_enableDisableNewOrder.ts
 
 ## Steps
 | Step Description | Expected result |

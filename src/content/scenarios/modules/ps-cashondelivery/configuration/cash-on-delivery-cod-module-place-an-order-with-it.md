@@ -8,7 +8,7 @@ weight: 1
 * **Component** : ps_cashondelivery
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4113
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_cashondelivery/02_configuration/01_placeOrderWithIt.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/10_ps_cashondelivery/02_configuration/01_placeOrderWithIt.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -6,9 +6,8 @@ weight: 1
 # GET /admin-api/hook-status/{id}
 ## Details
 * **Component** : Core
-* **Status** : Automated
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7792
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/01_getHookStatusId.ts
 
 ## Steps
 | Step Description | Expected result |
