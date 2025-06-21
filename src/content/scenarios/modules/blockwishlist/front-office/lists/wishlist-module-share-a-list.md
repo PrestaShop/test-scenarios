@@ -8,7 +8,7 @@ weight: 3
 * **Component** : blockwishlist
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-3948
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/03_frontOffice/01_lists/03_shareList.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/01_lists/03_shareList.ts
 
 ## Steps
 | Step Description | Expected result |
