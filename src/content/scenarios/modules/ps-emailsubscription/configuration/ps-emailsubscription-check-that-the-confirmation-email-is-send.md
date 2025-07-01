@@ -9,7 +9,7 @@ weight: 5
 * **Status** : Automated
 * **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-650
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_emailsubscription/02_configuration/02_checkConfirmationEmail.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/21_ps_emailsubscription/02_configuration/02_checkConfirmationEmail.ts
 
 ## Steps
 | Step Description | Expected result |

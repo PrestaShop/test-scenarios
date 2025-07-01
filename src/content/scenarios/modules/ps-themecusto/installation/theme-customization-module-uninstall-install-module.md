@@ -9,7 +9,7 @@ weight: 2
 * **Status** : Automated
 * **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4157
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_themecusto/01_installation/02_uninstallAndInstallModule.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/35_ps_themecusto/01_installation/02_uninstallAndInstallModule.ts
 
 ## Steps
 | Step Description | Expected result |
