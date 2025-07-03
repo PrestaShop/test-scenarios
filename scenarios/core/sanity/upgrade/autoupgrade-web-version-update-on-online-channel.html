@@ -22,13 +22,13 @@
     <title>Autoupgrade - Web Version - Update on online channel :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1751438900" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1751438900" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1751438900" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1751438900" rel="stylesheet"><link href="../../../../css/auto-complete.css?1751438900" rel="stylesheet">
-    <link href="../../../../style.css?1751438900" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1751525268" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1751525268" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1751525268" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1751525268" rel="stylesheet"><link href="../../../../css/auto-complete.css?1751525268" rel="stylesheet">
+    <link href="../../../../style.css?1751525268" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1751438900"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1751525268"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28442,9 +28442,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-set-the-maintenance-page-and-the-new-ui-part.html" title="Autoupgrade - Web Version - Set the maintenance page and the new UI part " class="dd-item ">
-        <a href="../../../../scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-set-the-maintenance-page-and-the-new-ui-part.html">
-        Autoupgrade - Web Version - Set the maintenance page and the new UI part 
+      <li data-nav-id="/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-set-the-shop-in-maintenance-mode.html" title="Autoupgrade - Web Version - Set the shop in maintenance mode" class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-set-the-shop-in-maintenance-mode.html">
+        Autoupgrade - Web Version - Set the shop in maintenance mode
         
         </a>
     </li>
@@ -28550,6 +28550,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup.html" title="Autoupgrade - Web Version - Do a backup" class="dd-item ">
         <a href="../../../../scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup.html">
         Autoupgrade - Web Version - Do a backup
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-the-new-ui-part.html" title="Autoupgrade - Web Version - the new UI part " class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-the-new-ui-part.html">
+        Autoupgrade - Web Version - the new UI part 
         
         </a>
     </li>
@@ -59954,6 +59975,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -67742,152 +67778,228 @@
 </thead>
 <tbody>
 <tr>
-<td>Install A fresh 1.7.8.9 on php 7.1</td>
-<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+<td>Install a fresh 1.7.8.9 on php 7.1</td>
+<td>* The new shop is installed<br> * The selection to BO or FO is displayed</td>
 </tr>
 <tr>
-<td>Go to the BO</td>
-<td>You should have your dashboard showed</td>
+<td>Go to the BO.</td>
+<td>Log in page is displayed.</td>
 </tr>
 <tr>
-<td>Go to the Module Catalog&quot; page&quot;</td>
-<td>Module Catalog page is displayed correctly</td>
+<td>Log in with email and password set during installation.</td>
+<td>* Connection successful<br> * Dashboard displayed<br> * Modale &ldquo;Welcome to your shop&rdquo; displayed</td>
 </tr>
 <tr>
-<td>* Search for the update assistant module.<br> * Install it</td>
-<td>* Update assistant should have &ldquo;The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence.&rdquo; as description <br> * Module is correctly installed</td>
+<td>Click on the cross of the modale.</td>
+<td>* Modale is closed<br> * Dashboard is displayed</td>
 </tr>
 <tr>
-<td>Go to the General Parameters &gt; Maintenance&quot; page. Put the shop in maintenance mode&quot;</td>
-<td>Maintenance page is displayed correctly. Maintenance mode is activated</td>
+<td>Go to Modules &gt; Module manager.</td>
+<td>Module manager page is displayed.</td>
 </tr>
 <tr>
-<td>Set your &ldquo;Maintenance IP&rdquo; by clicking the button &ldquo;+ Add my IP&rdquo; and clic on &ldquo;Save&rdquo; button</td>
-<td>Your IP should be setted on the field and you will have the green notification</td>
+<td>Click on the CTA &ldquo;Upload a module&rdquo;.</td>
+<td>Modale &ldquo;Upload a module&rdquo; is displayed.</td>
 </tr>
 <tr>
-<td>* Go to the update assistant page</td>
-<td>* You should see the configuration page of the module with a little problem on UI</td>
+<td>Select or drag and drop the .zip.</td>
+<td>* The module is installing<br> * The module is installed, the CTA &ldquo;Configure&rdquo; is displayed.</td>
 </tr>
 <tr>
-<td>* Open a terminal in your folder [yourshop]/modules/autoupgrade<br> * launch the command : <br>{code:java}<br>cd _dev{code}<br><br> * Launch the command :<br>{code:java}<br>npm install{code}<br><br> * Launch the command :<br>{code:java}<br>npm run vite:build{code}<br><br> * Launch the command :<br>{code:java}<br>cd ..{code}<br><br> * Launch the command :<br>{code:java}<br>composer install{code}</td>
-<td>* A terminal is open in the right folder <br> * You should be in the folder [yourshop]/modules/autoupgrade/_dev<br> * Npm should be installed in your folder with this last word : &ldquo;Run <code>npm audit</code> for details.&quot;<br> * The terminal should say some files have been modified <br> * You should return on the folder [yourshop]/modules/autoupgrade/<br> * You terminal will say &ldquo;Nothing to install, update or remove&rdquo;</td>
+<td>Close the modal.</td>
+<td>* Modale is closed<br> * Module manager page is displayed</td>
 </tr>
 <tr>
-<td>* Return on the &ldquo;Updrate Assistant&rdquo; page</td>
-<td>* You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore should be disabled except if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
+<td>Refresh the page.</td>
+<td>Page is refreshed.</td>
 </tr>
 <tr>
-<td>Clic on the radio button next to &ldquo;Update your store&rdquo;</td>
-<td>* Your radio button should be checked <br> * the button &ldquo;Get starder&rdquo; should be Enabled</td>
+<td>Search for &ldquo;Update&rdquo;.</td>
+<td>Update Assistant is displayed.</td>
 </tr>
 <tr>
-<td>Click on the button &ldquo;Get started&rdquo;</td>
-<td>* You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named &ldquo;Version choice&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br><br> * <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.1<br><br> * <br> ** Two radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 1.7.8.11 [Minor version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+<td>Check for the version.</td>
+<td>The version is the latest in prod. <br><br>The lastest version in prod is displayed because it is the version available on the marketplace.</td>
 </tr>
 <tr>
-<td>* Change the php version to 7.4 and reload the page</td>
-<td>* The first radio button showed is Prestashop 8.2.1 [Major version]</td>
+<td>Go to the Shop Parameters &gt; General.</td>
+<td>General &gt; Preferences page is displayed on the &ldquo;General&rdquo; tab.</td>
 </tr>
 <tr>
-<td>* Click on Release note<br> * Return on your Autoupgrade module</td>
-<td>* You should have a new tab that start with &ldquo;<br>PrestaShop 8.2.1 is available<br>The first patch for branch 8.2.x is available&rdquo;<br> * You should be on your page with no difference</td>
+<td>Click on the &ldquo;Maintenance&rdquo; tab.</td>
+<td>&ldquo;Maintenance&rdquo; tab is displayed.</td>
 </tr>
 <tr>
-<td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
-<td>* the checking requirement should be launched<br> * You should have a green notification with &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&rdquo; or  maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
+<td>Click on the toggle &ldquo;Enable store&rdquo;</td>
+<td>Toggle is in &ldquo;No&rdquo; status.</td>
 </tr>
 <tr>
-<td>* Reload the page <br> * The check is finished</td>
-<td>* The Radio button next to &ldquo;Prestashop [last version ] is checked and the checking requirement should be launched<br> * You should have all maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
+<td>Click on the CTA &ldquo;Add my IP&rdquo;.</td>
+<td>IP address is filled.</td>
 </tr>
 <tr>
-<td>* Go to your folder &quot; [yourshop]/[admin_folder]/autoupgrade <br> * Delete the file &ldquo;update_config.var&rdquo;<br> * Reload the page <br> * Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
-<td>* You should have 4 different folder (backup - download - logs - tmp) and different files<br> * The file shouldn&rsquo;t be on the foler autoupgrade<br> * You should return on the version choice page of autoupgrade but none radio button should be selected <br> * the checking requirement should be launched<br> * You should have all maube some warning and the button &ldquo;Next&rdquo; should be enabled</td>
+<td>Click on the CTA &ldquo;Save&rdquo;.</td>
+<td>Shop is in maintenance mode.</td>
 </tr>
 <tr>
-<td>* Modify any files from the folder of prestashop</td>
-<td>* The file should be modified</td>
+<td>Go to &ldquo;Update Assistant&rdquo; module (side board).</td>
+<td>&ldquo;Update Assistant&rdquo; module is displayed : <br> * Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> * Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br> * CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
-<td>* Reload the page <br> * Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished<br> * Click on &ldquo;See the list of changes&rdquo;</td>
-<td>* You should return on the version choice page of autoupgrade but none radio button should be selected <br> * The checking requirement should be launched<br> * You should have  some warning like &quot; Some core files have been altered or removed. Any changes made to these files may be overwritten during the update. [See the list of changes</td>
+<td>Select the radio button &ldquo;Update your store&rdquo;.</td>
+<td>* &ldquo;Update your store&rdquo; radio button is selected<br> * CTA &ldquo;Get started&rdquo; is enabled</td>
 </tr>
 <tr>
-<td>* Click on the &ldquo;Check requirement again&rdquo; button<br> * The check is finished</td>
-<td>* The checking requirement should be launched<br> * You should have  some warning like &quot; Some core files have been altered or removed. Any changes made to these files may be overwritten during the update. [See the list of changes</td>
+<td>Click on the CTA &ldquo;Get started&rdquo;.</td>
+<td>A loader is displayed in the CTA &ldquo;Get started&rdquo; then, &ldquo;Version choice&rdquo; page is displayed : <br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.1.xx<br> * Radio button : PrestaShop 1.7.8.xx [Patch version](blue color rgb(190, 234, 243)) with description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> * Blue alert info : &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/</em>&quot;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
-<td>* Clic on the &ldquo;Next&rdquo; Button</td>
-<td>* You should be on the &ldquo;Update option&rdquo; page with : <br> ** The stepper set on 2 : Update options <br> ** 3 checkbox named &quot; Deactivate non-native modules &ldquo;,  &ldquo;Regenerate email templates&rdquo; , &quot; Disable all overrides &quot;  with details about them under there name <br> ** &ldquo;Next&rdquo; Button enabled</td>
+<td>Change the php version from 7.1 to 7.4.<br><br> <br><br>{color:#ff8b00}<em>(find a way to explain how)</em>{color}</td>
+<td>Php version is modified.</td>
 </tr>
 <tr>
-<td>Clic on the &ldquo;Next&rdquo; Button</td>
-<td>* You should be on the &ldquo;Back up your store&rdquo; page with : <br> ** The stepper should be on 3 : Backup<br> ** sub title &ldquo;Backing up your store&rsquo;s files, database, and images means you can restore to a previous version if something goes wrong during the update. This keeps your data safe and ensures your business stays up and running.&quot;<br> ** Checkboxe : &ldquo;Include images in your backup&rdquo;<br> ** 2 buttons : &ldquo;Update without backup&rdquo; and &ldquo;launch backup&rdquo;</td>
+<td>Reload the page &ldquo;Version choice&rdquo;.</td>
+<td>* Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.4.xx<br> * Radio button : PrestaShop 8.2.x [Major version](blue color rgb(190, 234, 243)) with description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo;</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Launch Backup&rdquo;</td>
-<td>You should have a modal with <br> * title : &quot; Start backup? &ldquo;<br> * Sub title : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Backup</td>
+<td>Click on the link &ldquo;Release note&rdquo;.</td>
+<td>A new tab is opened &ldquo;PrestaShop 8.2.x Is Available. The first patch for branch 8.2.x is available&rdquo;.</td>
 </tr>
 <tr>
-<td>Click on the cross or elsewhere the module</td>
-<td>The modal should be close and you &rsquo;ll be on the page &ldquo;Back up your store&rdquo;</td>
+<td>Close this tab.</td>
+<td>The module page is displayed on &ldquo;Version choice&rdquo; (nothing changed).</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Update without backup&rdquo;</td>
-<td>You should have a modal with <br> * title : &quot; Start update? &ldquo;<br> * Sub title : &ldquo;Before starting the update, make sure you have a complete and recent backup of your store (database, files, and images).&quot;<br> * a Check box : &ldquo;I have made my own backup and can restore it manually if a problem occur.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start update&rdquo;, the last one is disabled</td>
+<td>Select the radio button &ldquo;PrestaShop [last version]&rdquo;.</td>
+<td>Checking requirement is launched then is finished :<br> * &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&quot;<br> * Or warnings <br> * CTA &ldquo;Next&rdquo; is enabled</td>
 </tr>
 <tr>
-<td>* Click on the checkbox &ldquo;I have made my own backup (&hellip;)&rdquo; <br> * Click on the cross or elsewhere the module</td>
-<td>* The button &ldquo;Start Update&rdquo; should be enabled <br>* The modal should be close and you &rsquo;ll be on the page &ldquo;Back up your store&rdquo;</td>
+<td>Reload the page.</td>
+<td>Checking requirement is launched then is finished :<br> * &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&quot;<br> * Or warnings <br> * CTA &ldquo;Next&rdquo; is enabled</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Launch Backup&rdquo;</td>
-<td>You should have a modal with <br> * title : &quot; Start backup? &ldquo;<br> * Sub title : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Backup&rdquo; with a little icon on start backup</td>
+<td>Go to the folder &quot; [yourshop]/[admin_folder]/autoupgrade and delete the file &ldquo;update_config.var&rdquo;.</td>
+<td>The file is deleted.</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;Start Backup&rdquo;</td>
-<td>* You should be on the page &ldquo;Backup&rdquo; with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
+<td>Reload the page &ldquo;Version choice&rdquo;.</td>
+<td>The &ldquo;Version choice&rdquo; page is reload with no radio button selected.</td>
 </tr>
 <tr>
-<td>Wait until the end of the backup</td>
-<td>You should have be on a new page with <br> * title : &quot; Back up your store&rdquo;<br> * A green notification : &ldquo;Backup completed&rdquo;<br> * A link : &ldquo;Download backup logs&rdquo;<br> * 1 button : &ldquo;Start Update&rdquo;&rdquo;</td>
+<td>Select the radio button &ldquo;PrestaShop [last version]&rdquo;.</td>
+<td>Checking requirement is launched then is finished :<br> * &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&quot;<br> * Or warnings <br> * CTA &ldquo;Next&rdquo; is enabled</td>
 </tr>
 <tr>
-<td>Click on Download backup logs</td>
-<td>The download of the backup on txt should be launched by your bowser</td>
+<td>Modify any file from the folder of PrestaShop and save it.</td>
+<td>File modified and modifications saved.</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Start Update&rdquo;</td>
-<td>You should have a modal with <br> * title : &quot; Start Update ? &ldquo;<br> * Sub title : &ldquo;You are about to launch the update, do you want to continue?&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Update &quot; the last button should have a picture of a rocket on it</td>
+<td>Reload the page.</td>
+<td>Checking requirement is launched then is finished :<br> * Warning is displayed : &quot; Some core files have been altered or removed. Any changes made to these files may be overwritten during the update. [See the list of changes</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;Start Update&rdquo;</td>
-<td>* You should be on the page &ldquo;Update&rdquo; with : <br> ** The stepper should be on 4 : Update<br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
+<td>Click on the link &ldquo;See the list of changes&rdquo;.</td>
+<td>Modale &ldquo;List of core alterations&rdquo; is displayed (skeleton while loading) with the list of files changed. The modified file is listed.</td>
 </tr>
 <tr>
-<td>Wait until the end of the update</td>
-<td>You should have be on a new page with <br> * title : &quot; Post-update checklist &ldquo;<br> * Stepper should be on &ldquo;5 : Post-update&rdquo;<br> * A green notification : &ldquo;Your store has been updated to PrestaShop version 8.2.1&rdquo;<br> * Sub title : &ldquo;Next step&rdquo; and Troubleshooting <br> * Two link : &ldquo;Download update logs&rdquo; and &ldquo;Module Manager&rdquo;<br> * 2 button : &ldquo;Exit&rdquo; and &quot; Open developer documentation&rdquo;</td>
+<td>Close the modal.</td>
+<td>Modal is closed.</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;Download update logs&rdquo; <br> * Click on &ldquo;Open Developper Document&rdquo;<br> * You can close the new tab showed</td>
-<td>* The download of the update on txt should be launched by your bowser<br> * A new tab should be open with the name &ldquo;Post-update checklist&rdquo; <br> * You&rsquo;ll return on the post-update checklist</td>
+<td>Click on the CTA &ldquo;Check requirement again&rdquo;.</td>
+<td>Checking requirement is launched then is finished :<br> * Warning is displayed : &quot; Some core files have been altered or removed. Any changes made to these files may be overwritten during the update. [See the list of changes</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Module Manager&rdquo;</td>
-<td>A new modal should be displayed with : <br> * title : &ldquo;Access to the Modue Manager?&quot;<br> * Description &ldquo;To reach the module manager,you will be logged out of your session and will have to log in again. Do you want to continue?&quot;<br> * a cross<br> * Two button : &ldquo;Cancel&rdquo; and &ldquo;Go to Module Manager&rdquo;</td>
+<td>Click on the CTA &ldquo;Next&rdquo;.</td>
+<td>&ldquo;Update options&rdquo; page is displayed :  <br> * Stepper on step 2 (&ldquo;Update options&rdquo;)<br> * 3 toggles : &ldquo;Deactivate non-native modules&rdquo;, &ldquo;Regenerate email templates&rdquo; , &ldquo;Disable all overrides&rdquo;  with details about them under their name <br> * CTA &ldquo;Next&rdquo; enabled</td>
 </tr>
 <tr>
-<td>Clic on the Cancel button OR on the cross OR Next to the Modal or do escape for your keyboard</td>
-<td>The modal should be closed</td>
+<td>Click on the CTA &ldquo;Next&rdquo;.</td>
+<td>&ldquo;Back up your store&rdquo; page is displayed :  <br> * Stepper on step 3 (&ldquo;Backup&rdquo;)<br> * Subtitle &ldquo;Backing up your store&rsquo;s files, database, and images means you can restore to a previous version if something goes wrong during the update. This keeps your data safe and ensures your business stays up and running.&quot;<br> * Toggle : &ldquo;Include images in your backup&rdquo; on Yes status<br> * 2 CTAs : &ldquo;Update without backup&rdquo; and &ldquo;Launch backup&rdquo; (both available)</td>
 </tr>
 <tr>
-<td>Click on the button &ldquo;Exit&rdquo;</td>
-<td>* You should be redirected to &ldquo;[admin_folder]/index&rdquo;<br> * Prestashop ask you to log in</td>
+<td>Click on the CTA &ldquo;Launch backup&rdquo;.</td>
+<td>Modal &ldquo;Start backup?&rdquo; is displayed : <br> * Text : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;Start backup&rdquo;</td>
 </tr>
 <tr>
-<td>* Set your connection information <br> * click on log in</td>
-<td>* Your information should be set up <br> * You should be on the dashboard with the new version number of prestashop in the top left, just after the word Prestashop</td>
+<td>Click on the cross or elsewhere on the module.</td>
+<td>The modal is closed and the page &ldquo;Back up your store&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Update without backup&rdquo;</td>
+<td>Modal &ldquo;Start update?&rdquo; is displayed : <br> * Text : &ldquo;Before starting the update, make sure you have a complete and recent backup of your store (database, files, and images).&quot;<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;Start backup&rdquo;<br> * A Checkbox &ldquo;I have made my own backup and can restore it manually if a problem occurs.&quot;<br> * 2 CTAs : &ldquo;Cancel&rdquo; (enabled) and &ldquo;Start update&rdquo; (disabled)</td>
+</tr>
+<tr>
+<td>Check the checkbox &ldquo;I have made my own backup (&hellip;)&rdquo;.</td>
+<td>The CTA &ldquo;Start update&rdquo; is enabled.</td>
+</tr>
+<tr>
+<td>Click on the cross or elsewhere on the module.</td>
+<td>The modal is closed and the page &ldquo;Back up your store&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Launch backup&rdquo;.</td>
+<td>Modal &ldquo;Start backup?&rdquo; is displayed : <br> * Text : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;Start backup&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Start Backup&rdquo;.</td>
+<td>The &ldquo;Backup&rdquo; page is displayed :<br> * loading bar with the current process <br> * details of the current process are listed</td>
+</tr>
+<tr>
+<td>Wait until the end of the backup.</td>
+<td>The title is modified : &quot; Back up your store&rdquo; : <br> * The success alert &ldquo;Backup completed&rdquo; is displayed<br> * CTA &ldquo;Download backup logs&rdquo;<br> * CTA : &ldquo;Start update&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Download backup logs&rdquo;.</td>
+<td>The download of the YYYY-MM-DD-HHMMSS-backup.txt is launched by the browser.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Start update&rdquo;.</td>
+<td>The modal &ldquo;Start Update?&rdquo; is displayed : <br> * Text : &ldquo;You are about to launch the update, do you want to continue?&quot;<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;{color:#0747A6}<em>cutest rocket</em>{color} Start Update &quot; (both enabled)</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Cancel&rdquo;.</td>
+<td>The modal is closed.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Start update&rdquo;.</td>
+<td>The modal &ldquo;Start Update?&rdquo; is displayed : <br> * Text : &ldquo;You are about to launch the update, do you want to continue?&quot;<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;{color:#0747A6}<em>cutest rocket</em>{color} Start Update &quot; (both enabled)</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;{color:#0747a6}<em>cutest rocket</em> {color}Start update&rdquo;.</td>
+<td>The page &ldquo;Update&rdquo; is displayed :<br> * Stepper on step 4 (&ldquo;Update&rdquo;)<br> * loading bar with the current process <br> * details of the current process are listed</td>
+</tr>
+<tr>
+<td>Wait until the end of the update.</td>
+<td>The page &ldquo;Post-update checklist&rdquo; is displayed : <br> * Stepper on step 5 (&ldquo;Post-update&rdquo;)<br> * Success alert : &ldquo;Your store has been updated to PrestaShop version 8.2.x&rdquo;<br> * Subtitles : &ldquo;Next step&rdquo; and &ldquo;Troubleshooting&rdquo;<br> * Two links : &ldquo;Download update logs&rdquo; and &ldquo;Module Manager&rdquo;<br> * 2 CTAs : &ldquo;Exit&rdquo; and &ldquo;Open developer documentation&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the link &ldquo;Download update logs&rdquo;.</td>
+<td>The download of the YYYY-MM-DD-HHMMSS-update.txt is launched by the browser.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Open developper documentation&rdquo;.</td>
+<td>A new tab is opened : &ldquo;Post-update checklist&rdquo;.</td>
+</tr>
+<tr>
+<td>Close the tab.</td>
+<td>The module tab is displayed.</td>
+</tr>
+<tr>
+<td>Click on the link &ldquo;Module Manager&rdquo;.</td>
+<td>The modal &ldquo;Access to the Module Manager?&rdquo; is displayed :<br> * Text : &ldquo;To reach the module manager, you will be logged out of your session and will have to log in again. Do you want to continue?&quot;<br> * Two CTAs : &ldquo;Cancel&rdquo; and &ldquo;Go to Module Manager&rdquo;</td>
+</tr>
+<tr>
+<td>Click on :<br> * the CTA &ldquo;Cancel&rdquo;<br> * OR on the cross<br> * OR outside to the Modal<br> * OR do escape from the keyboard</td>
+<td>The modal is closed.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Exit&rdquo;.</td>
+<td>Redirection to &ldquo;[admin_folder]/index&rdquo; (BO login page).</td>
+</tr>
+<tr>
+<td>Log in with email and password set during installation.</td>
+<td>* Connection successful<br> * Dashboard displayed</td>
 </tr>
 </tbody>
 </table>
@@ -67909,17 +68021,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1751438901"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1751438901"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1751438901"></script>
-    <script src="../../../../js/jquery.sticky.js?1751438901"></script>
-    <script src="../../../../js/featherlight.min.js?1751438901"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1751438901"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1751438901"></script>
-    <script src="../../../../js/learn.js?1751438901"></script>
-    <script src="../../../../js/hugo-learn.js?1751438901"></script>
+    <script src="../../../../js/clipboard.min.js?1751525268"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1751525268"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1751525268"></script>
+    <script src="../../../../js/jquery.sticky.js?1751525268"></script>
+    <script src="../../../../js/featherlight.min.js?1751525268"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1751525268"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1751525268"></script>
+    <script src="../../../../js/learn.js?1751525268"></script>
+    <script src="../../../../js/hugo-learn.js?1751525268"></script>
     
-    <script src="../../../../main.js?1751438901"></script>
+    <script src="../../../../main.js?1751525268"></script>
     
     
     
