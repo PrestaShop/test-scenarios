@@ -22,13 +22,13 @@
     <title>Autoupgrade - Web Version - Create error before the upgrade :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1751525268" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1751525268" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1751525268" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1751525268" rel="stylesheet"><link href="../../../../css/auto-complete.css?1751525268" rel="stylesheet">
-    <link href="../../../../style.css?1751525268" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1751612444" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1751612444" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1751612444" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1751612444" rel="stylesheet"><link href="../../../../css/auto-complete.css?1751612444" rel="stylesheet">
+    <link href="../../../../style.css?1751612444" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1751525268"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1751612444"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -6995,6 +6995,48 @@
       <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-a-period.html" title="BO - Discount - Set a period " class="dd-item ">
         <a href="../../../../scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-a-period.html">
         BO - Discount - Set a period 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html" title="BO - Discount -Select a free gift product " class="dd-item ">
+        <a href="../../../../scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html">
+        BO - Discount -Select a free gift product 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html" title="BO - Discount -Add catalog discount" class="dd-item ">
+        <a href="../../../../scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html">
+        BO - Discount -Add catalog discount
         
         </a>
     </li>
@@ -47477,6 +47519,36 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -67778,20 +67850,44 @@
 </thead>
 <tbody>
 <tr>
-<td>Install A fresh 8.0.4 with php 8.1</td>
-<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+<td>Install a fresh 8.0.4 with php 8.1</td>
+<td>* The new shop is installed<br> * The selection to BO or FO is displayed</td>
 </tr>
 <tr>
-<td>Go to the BO</td>
-<td>You should have your dashboard showed</td>
+<td>Go to the BO.</td>
+<td>Log in page is displayed.</td>
 </tr>
 <tr>
-<td>Go to the Module Manager &quot; page&quot;</td>
-<td>Module Manager page is displayed correctly</td>
+<td>Log in with email and password set during installation.</td>
+<td>* Connection successful<br> * Dashboard displayed</td>
 </tr>
 <tr>
-<td>* Search for the &ldquo;update assistant&rdquo; module.<br> * Install it</td>
-<td>* Update assistant should have &ldquo;The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence.&rdquo; as description <br> * Module is correctly installed</td>
+<td>Go to Modules &gt; Module manager.</td>
+<td>Module manager page is displayed.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Upload a module&rdquo;.</td>
+<td>Modal &ldquo;Upload a module&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Select or drag and drop the .zip.</td>
+<td>* The module is installing<br> * The module is installed, the CTA &ldquo;Configure&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Close the modal.</td>
+<td>* Modal is closed<br> * Module manager page is displayed</td>
+</tr>
+<tr>
+<td>Refresh the page.</td>
+<td>Page is refreshed.</td>
+</tr>
+<tr>
+<td>Search for &ldquo;Update&rdquo;.</td>
+<td>Update Assistant is displayed.</td>
+</tr>
+<tr>
+<td>Check for the version.</td>
+<td>* The version is the latest in prod. <br><br> * The lastest version in prod is displayed because it is the version available on the marketplace.</td>
 </tr>
 <tr>
 <td>Go to the Shop Parameters &gt; General.</td>
@@ -67814,112 +67910,308 @@
 <td>Shop is in maintenance mode.</td>
 </tr>
 <tr>
-<td>Go to your folder [yourshopname_folder] &gt; module &gt; Autoupgrade &gt; Upgrade</td>
-<td>Some files should be named upgrade [&hellip;].php instead of install[&hellip;].php</td>
+<td>Go to the folder [yourshopname_folder] &gt; modules &gt; autoupgrade &gt; upgrade.</td>
+<td>Files named upgrade [&hellip;].php are present <em>and +none+ instead of install[&hellip;].php.</em></td>
 </tr>
 <tr>
-<td>* Go to your folder [yourshopname_folder] &gt; module &gt; Autoupgrade &gt; classes &gt; Task &gt; Upgrade &gt; Download.php<br> * At line 49, in &ldquo;public function run&rdquo;, put &ldquo;throw new Exception(&ldquo;Brique&rdquo;);&rdquo; and save the folder</td>
-<td>* You should see the diffenrent fonction in this php files<br> * The files should be saved</td>
+<td>Open the file [yourshopname_folder] &gt; modules &gt; autoupgrade &gt; classes &gt; Task &gt; Update &gt; Download.php.</td>
+<td>File is opened.</td>
 </tr>
 <tr>
-<td>Click on get started and follow the different step until the update step.</td>
-<td>Upgrade is launched and at the &ldquo;Step download&rdquo;, you should have an exception with : <br> * a yellow exception with title &ldquo;Update failed&rdquo; and description : &ldquo;Your store may not work properly anymore. Select the backup you want to use and restore it to avoid any data loss.&rdquo; <br> * A restore button should be on the right in the yellow exception <br> * You should have 3 red cross :<br> ** the first one with on the first line at the end &ldquo;Exception: Brique&rdquo;<br> ** the second with &ldquo;It seems there was an issue with the server. This type of error usually happens when [&hellip;]&quot;<br> ** the third with &quot; HTTP request failed. Type: ERR_BAD_RESPONSE - HTTP Code: 500&rdquo;<br> * You should have an &ldquo;Error Summary&rdquo; where the 3 red cross is repeted but have a link See error at the end of the line <br> * a button &ldquo;Download update logs&rdquo;<br> * a button &ldquo;Send error report &ldquo;<br> * a blue &ldquo;Restore&rdquo; button with an icon in it</td>
+<td>In the function &ldquo;public function run&rdquo;, add &ldquo;throw new Exception(&ldquo;Brique&rdquo;);&rdquo; and save the folder.</td>
+<td>File saved with modifications.</td>
 </tr>
 <tr>
-<td>* Next to the first cross error on &ldquo;Error summary&rdquo;, click on see Error<br> * Click on &ldquo;Download update logs&rdquo;</td>
-<td>* The background of the first error on logs part should be put on grey and fade to the basic color of the background <br> * The download of the update logs should be launched by your bowser</td>
+<td>* Click on the Update assistant button on the sideboard</td>
+<td>* You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore shouldn&rsquo;t be disabled if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Send error report&rdquo; button</td>
-<td>You should have a modal with : <br> * title on bold : Send error report? <br> * a description with :  Help us improve the module by sending us this error report. For your information, the logs will be attached with your message. You can add more details in the description if you wish. <br> * a link with text : Learn more about your data and your rights&rdquo;<br> * An &ldquo;Error message&rdquo; box with the last error on it and with a grey bacjground, this box can&rsquo;t be edited and when your mouse is put on it you should have a error icon on your cursor<br> * An &ldquo;Email (optional)&rdquo; box where you can edit the box <br> * A &ldquo;Description (optional)&rdquo; box where you can edit the box <br> * A &ldquo;Cancel&rdquo; button <br> * A &ldquo;Send error report&rdquo; button</td>
+<td>Clic on the radio button next to &ldquo;Update your store&rdquo;</td>
+<td>* Your radio button should be checked <br> * the button &ldquo;Get started&rdquo; should be Enabled</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;Learn more about your data and your rights&rdquo; <br> * Close the tab of Data transparency<br> * Click on &ldquo;Email (optional)&rdquo; box<br> * Click on &ldquo;Description (optional)&rdquo; box <br> * Click on the cross or the &ldquo;Cancel&rdquo; button or not int he modal</td>
-<td>* A new page should be open with title &ldquo;Data transparency&rdquo; <br> * You should return on the send error report <br> * The Background of the&quot;Email&rdquo; box should be put on yellow<br> * The background of the &ldquo;Email&rdquo; box should be return on grey and the background of the &ldquo;Description&rdquo; box should be put on yellow <br> * The modal should be closed</td>
+<td>Click on the button &ldquo;Get started&rdquo;</td>
+<td>* You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named &ldquo;Version choice&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br><br> * <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1<br><br> * <br> ** Two radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 8.2.1[Minor version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;Send error report&rdquo; button <br> * Fill the Email and description part <br> * Click on &ldquo;Send error report&rdquo; button</td>
-<td>* The modal &ldquo;Send error report?&rdquo; should be opened<br> * The &ldquo;Email&rdquo; and &ldquo;Description&rdquo; part should be set up<br> * The modal should be closed</td>
+<td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
+<td>* the checking requirement should be launched<br> * You should have a green notification with &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&rdquo; or  maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
 </tr>
 <tr>
-<td>Go to the link  on other tab : [https://prestashop.sentry.io/feedback/?feedbackSlug=autoupgrade-module%3A6504514401&amp;mailbox=ignored&amp;project=4507254110552064&amp;referrer=feedback_list_page]</td>
-<td>* You should be on a page named &ldquo;User feedback&rdquo;, on the spam categorie<br> * The last user feedback should be yours with the email you set and under the description you said <br> * On the right of the list of feedback, you should have the detail of the error with : <br> ** The different files linked to the error : &ldquo;logs.txt&rdquo; &ldquo;response_raws.txt&rdquo; and &ldquo;summary_errors.txt&rdquo;<br> ** the Url <br> ** Linked Error <br> ** Linked Replay <br> ** Tags <br> ** Internal Activity</td>
+<td>* Clic on the &ldquo;Next&rdquo; Button</td>
+<td>* You should be on the &ldquo;Update option&rdquo; page with : <br> ** The stepper set on 2 : Update options <br> ** 3 checkbox named &quot; Deactivate non-native modules &ldquo;,  &ldquo;Regenerate email templates&rdquo; , &quot; Disable all overrides &quot;  with details about them under there name <br> ** &ldquo;Next&rdquo; Button enabled</td>
 </tr>
 <tr>
-<td>* Go to the link on another tab  &ldquo;<a href="https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y%22">https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y&quot;</a><br> * set on filter the parameters</td>
-<td>You should see : <br> * [SUE] Upgrade Launched<br> * [SUE] Upgrade Failed <br> * Identity<br><br>With the same Anonymous ID and php write like &ldquo;X.X.XX&rdquo;</td>
+<td>Clic on the &ldquo;Next&rdquo; Button</td>
+<td>* You should be on the &ldquo;Back up your store&rdquo; page with : <br> ** The stepper should be on 3 : Backup<br> ** sub title &ldquo;Backing up your store&rsquo;s files, database, and images means you can restore to a previous version if something goes wrong during the update. This keeps your data safe and ensures your business stays up and running.&quot;<br> ** Checkboxe : &ldquo;Include images in your backup&rdquo;<br> ** 2 buttons : &ldquo;Update without backup&rdquo; and &ldquo;launch backup&rdquo;</td>
 </tr>
 <tr>
-<td>* Close the tab <br> * Reload your page</td>
-<td>* You should return on your update page <br> * Update should be relaunch from the start of the loading bar and it should fail after few second</td>
+<td>Click on &ldquo;Launch Backup&rdquo;</td>
+<td>You should have a modal with <br> * title : &quot; Start backup? &ldquo;<br> * Sub title : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Backup</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Restore&rdquo; button in the yellow exception</td>
-<td>You should be redirected to the &ldquo;Backup Selection&rdquo; page</td>
+<td>* Click on &ldquo;Start Backup&rdquo;</td>
+<td>* You should be on the page &ldquo;Backup&rdquo; with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
 </tr>
 <tr>
-<td>* Return at the Download.php files and replace &ldquo;throw new Exception(&ldquo;Brique&rdquo;);&rdquo; by &ldquo;exit(0);&rdquo; and save<br> * Clic on &ldquo;Update assistant&rdquo; in the sideboard menu</td>
-<td>* The files should be saved<br> * You should be on the page &ldquo;Welcome to PrestaShop Update Assistant&rdquo;</td>
+<td>Wait until the end of the backup</td>
+<td>You should have be on a new page with <br> * title : &quot; Back up your store&rdquo;<br> * A green notification : &ldquo;Backup completed&rdquo;<br> * A link : &ldquo;Download backup logs&rdquo;<br> * 1 button : &ldquo;Start Update&rdquo;&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Start update&rdquo;.</td>
+<td>The modal &ldquo;Start Update?&rdquo; is displayed : <br> * Text : &ldquo;You are about to launch the update, do you want to continue?&quot;<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;{color:#0747A6}<em>cutest rocket</em>{color} Start Update &quot; (both enabled)</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;{color:#0747a6}cutest rocket {color}Start update&rdquo;.</td>
+<td>Update is launched but the update fail :<br> * Yellow warning alert : &ldquo;Update failed&rdquo;, description : &ldquo;Your store may not work properly anymore. Select the backup you want to use and restore it to avoid any data loss.&rdquo;, CTA &ldquo;Restore&rdquo;<br> * At &ldquo;Step dowload&rdquo; 3 errors :<br> ## &ldquo;Exception: Brique&rdquo;<br> ## &ldquo;It seems there was an issue with the server. This type of error usually happens when [&hellip;]&quot;<br> ## &quot; HTTP request failed. Type: ERR_BAD_RESPONSE - HTTP Code: 500&rdquo;<br> * Composant &ldquo;Error Summary&rdquo; with the 3 errors with a link &ldquo;See error&rdquo; for each<br> * 3 CTAs : &ldquo;Download update logs&rdquo;, &ldquo;Send error report&rdquo; and &ldquo;Restore&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the link &ldquo;See error&rdquo; of the first error &ldquo;Exception: Brique&rdquo;.</td>
+<td>The error in the list is displayed and highlighted in a darker grey for 2 seconds.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Download update logs&rdquo;.</td>
+<td>The download of the YYYY-MM-DD-HHMMSS-update.txt is launched by the browser.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Send error report&rdquo;.</td>
+<td>Modal &ldquo;Send error report?&rdquo; is displayed :<br> * Title : &ldquo;Send error report?&quot;<br> * Text : &ldquo;Help us improve the module by sending us this error report. For your information, the logs will be attached with your message. You can add more details in the description if you wish.&quot;<br> * Link : &ldquo;Learn more about your data and your rights&rdquo;<br> * 3 fields : <br> ** &ldquo;Error message&rdquo; (disabled)<br> ** &ldquo;Email (optional)&rdquo; (enabled)<br> ** &ldquo;Description (optional)&rdquo; (enabled)<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;Send error report&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the link &ldquo;Learn more about your data and your rights&rdquo;.</td>
+<td>Page &ldquo;Data transparency&rdquo; is displayed in a new tab.</td>
+</tr>
+<tr>
+<td>Close the tab.</td>
+<td>Module tab is displayed.</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Email (optional)&rdquo; field.</td>
+<td>The &ldquo;Email (optional)&rdquo; field is highlighted.</td>
+</tr>
+<tr>
+<td>Click on the &ldquo;Description (optional)&rdquo; field.</td>
+<td>* The &ldquo;Email (optional)&rdquo; field is not highlighted anymore<br> * The &ldquo;Description (optional)&rdquo; field is highlighted.</td>
+</tr>
+<tr>
+<td>Click on :<br> * the cross<br> * or the CTA &ldquo;Cancel&rdquo;<br> * or outside the modal.</td>
+<td>The modal is closed.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Send error report&rdquo;.</td>
+<td>Modal &ldquo;Send error report?&rdquo; is displayed :<br> * Title : &ldquo;Send error report?&quot;<br> * Text : &ldquo;Help us improve the module by sending us this error report. For your information, the logs will be attached with your message. You can add more details in the description if you wish.&quot;<br> * Link : &ldquo;Learn more about your data and your rights&rdquo;<br> * 3 fields : <br> ** &ldquo;Error message&rdquo; (disabled)<br> ** &ldquo;Email (optional)&rdquo; (enabled)<br> ** &ldquo;Description (optional)&rdquo; (enabled)<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;Send error report&rdquo;</td>
+</tr>
+<tr>
+<td>* Fill &ldquo;Email (optional)&quot;<br> * Fill &ldquo;Description (optional)&rdquo;</td>
+<td>Fields filled.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Send error report&rdquo;.</td>
+<td>Modal is closed.</td>
+</tr>
+<tr>
+<td>Open the link on a new tab : [https://prestashop.sentry.io/feedback/?feedbackSlug=autoupgrade-module%3A6504514401&amp;mailbox=ignored&amp;project=4507254110552064&amp;referrer=feedback_list_page]</td>
+<td>Sentry is opened on the page &ldquo;User feedback&rdquo; :<br> * The report sent is listed</td>
+</tr>
+<tr>
+<td>Click on the report (user feedback).</td>
+<td>The details of the error are displayed.</td>
+</tr>
+<tr>
+<td>Open the link on a new tab : [https://eu.mixpanel.com/project/2828312/view/3362352/app/events#KoHua7f3PrJZ]</td>
+<td>The error is listed with the same Anonymous ID and php written like &ldquo;X.X.XX&rdquo;.</td>
+</tr>
+<tr>
+<td>Close the 2 tabs.</td>
+<td>Module tab is displayed.</td>
+</tr>
+<tr>
+<td>Reload the module page.</td>
+<td>Update is launched but the update fail :<br> * Yellow warning alert : &ldquo;Update failed&rdquo;, description : &ldquo;Your store may not work properly anymore. Select the backup you want to use and restore it to avoid any data loss.&rdquo;, CTA &ldquo;Restore&rdquo;<br> * At &ldquo;Step dowload&rdquo; 3 errors :<br> ## &ldquo;Exception: Brique&rdquo;<br> ## &ldquo;It seems there was an issue with the server. This type of error usually happens when [&hellip;]&quot;<br> ## &quot; HTTP request failed. Type: ERR_BAD_RESPONSE - HTTP Code: 500&rdquo;<br> * Composant &ldquo;Error Summary&rdquo; with the 3 errors with a link &ldquo;See error&rdquo; for each<br> * 3 CTAs : &ldquo;Download update logs&rdquo;, &ldquo;Send error report&rdquo; and &ldquo;Restore&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Restore&rdquo; in the yellow warning alert.</td>
+<td>&ldquo;Backup Selection&rdquo; page is displayed.</td>
+</tr>
+<tr>
+<td>Open the file [yourshopname_folder] &gt; modules &gt; autoupgrade &gt; classes &gt; Task &gt; Update &gt; Download.php.</td>
+<td>File is opened.</td>
+</tr>
+<tr>
+<td>In the function &ldquo;public function run&rdquo;, modify &ldquo;throw new Exception(&ldquo;Brique&rdquo;);&rdquo; by &quot; exit(0) &ldquo;;  and save the folder.</td>
+<td>File saved with modifications.</td>
+</tr>
+<tr>
+<td>* Click on the Update assistant button on the sideboard</td>
+<td>* You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore shouldn&rsquo;t be disabled if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
+</tr>
+<tr>
+<td>Clic on the radio button next to &ldquo;Update your store&rdquo;</td>
+<td>* Your radio button should be checked <br> * the button &ldquo;Get started&rdquo; should be Enabled</td>
+</tr>
+<tr>
+<td>Click on the button &ldquo;Get started&rdquo;</td>
+<td>* You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named &ldquo;Version choice&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br><br> * <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1<br><br> * <br> ** Two radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 8.2.1[Minor version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+</tr>
+<tr>
+<td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
+<td>* the checking requirement should be launched<br> * You should have a green notification with &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&rdquo; or  maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
+</tr>
+<tr>
+<td>* Clic on the &ldquo;Next&rdquo; Button</td>
+<td>* You should be on the &ldquo;Update option&rdquo; page with : <br> ** The stepper set on 2 : Update options <br> ** 3 checkbox named &quot; Deactivate non-native modules &ldquo;,  &ldquo;Regenerate email templates&rdquo; , &quot; Disable all overrides &quot;  with details about them under there name <br> ** &ldquo;Next&rdquo; Button enabled</td>
+</tr>
+<tr>
+<td>Clic on the &ldquo;Next&rdquo; Button</td>
+<td>* You should be on the &ldquo;Back up your store&rdquo; page with : <br> ** The stepper should be on 3 : Backup<br> ** sub title &ldquo;Backing up your store&rsquo;s files, database, and images means you can restore to a previous version if something goes wrong during the update. This keeps your data safe and ensures your business stays up and running.&quot;<br> ** Checkboxe : &ldquo;Include images in your backup&rdquo;<br> ** 2 buttons : &ldquo;Update without backup&rdquo; and &ldquo;launch backup&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Launch Backup&rdquo;</td>
+<td>You should have a modal with <br> * title : &quot; Start backup? &ldquo;<br> * Sub title : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Backup</td>
+</tr>
+<tr>
+<td>* Click on &ldquo;Start Backup&rdquo;</td>
+<td>* You should be on the page &ldquo;Backup&rdquo; with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
+</tr>
+<tr>
+<td>Wait until the end of the backup</td>
+<td>You should have be on a new page with <br> * title : &quot; Back up your store&rdquo;<br> * A green notification : &ldquo;Backup completed&rdquo;<br> * A link : &ldquo;Download backup logs&rdquo;<br> * 1 button : &ldquo;Start Update&rdquo;&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Start update&rdquo;.</td>
+<td>The modal &ldquo;Start Update?&rdquo; is displayed : <br> * Text : &ldquo;You are about to launch the update, do you want to continue?&quot;<br> * 2 CTAs : &ldquo;Cancel&rdquo; and &ldquo;{color:#0747A6}<em>cutest rocket</em>{color} Start Update &quot; (both enabled)</td>
 </tr>
 <tr>
 <td>Click on get started and follow the different step until the update step.</td>
 <td>* Upgrade is launched<br> * You quickly only have two red cross error : <br><br> ** It looks like there is no data received from the server. This can happen if: The server is temporarily unavailable. There&rsquo;s an issue with the network or connection.<br> ** HTTP request failed. Type: APP_ERR_RESPONSE_EMPTY - HTTP Code: 200</td>
 </tr>
 <tr>
-<td>* Click on the blue &ldquo;Restore&rdquo; button<br> * Click on the button &ldquo;Delete selection&rdquo; <br> * Click on &ldquo;Delete&rdquo; button <br> * Click on the button &ldquo;Delete selection&rdquo; again <br> * Click on &ldquo;Delete&rdquo;</td>
-<td>* You should be redirected to the &ldquo;Backup Selection&rdquo; page<br> * You should have a &ldquo;Delete backup &quot; modal <br> * The backup should be deleted<br> * You should have a &ldquo;Delete backup &quot; modal with description &ldquo;You are about to delete the [nameOfBackup] backup made on[DateAndTime] As it&rsquo;s your only backup, you will be redirected to the module&rsquo;s home page. &ldquo;<br> * You should be on Welcome Page of the update assistant</td>
+<td>Click on the CTA &ldquo;Restore&rdquo; (the one next to the CTA &ldquo;Send error report&rdquo;).</td>
+<td>&ldquo;Backup Selection&rdquo; page is displayed.</td>
 </tr>
 <tr>
-<td>Return at the Download.php files and replace &ldquo;exit(0);&rdquo; by &ldquo;while(true) {}&rdquo; and save</td>
-<td>The file should be saved</td>
+<td>Click on the CTA &ldquo;Delete selection&rdquo;.</td>
+<td>The modal &ldquo;Delete backup&rdquo; is displayed : <br><br>- text : &ldquo;You are about to delete the <em>V8.0.4_YYYYMMDD-HHMMSS-randomnumber</em> backup made on <em>M/D/YY, H:MM A/PM</em>.&rdquo;</td>
 </tr>
 <tr>
-<td>* Click on get started and follow the different step until the update step without backup<br> * Reload the page during the loading <br> * Click on &ldquo;Leave page&rdquo;</td>
-<td>* Upgrade is launched<br> * a modal should be displayed with &ldquo;This page is asking you to confirm that you want to leave — information you’ve entered may not be saved.&rdquo; with two button &ldquo;Stay on page&rdquo; and &ldquo;Leave page&rdquo;<br> * Upgrade should be launched again</td>
+<td>Click on the CTA &ldquo;Delete&rdquo;.</td>
+<td>Modal &ldquo;Delete backup&rdquo; is closed.</td>
 </tr>
 <tr>
-<td>Wait until the end of the load for the upgrade</td>
-<td>Because we don&rsquo;t have backup, we should have an exception with : <br> * a red exception with title &ldquo;Update failed&rdquo; and description : &ldquo;You didn’t back up your store with the Update assistant module but you can restore using your own manual backup.&rdquo; <br> * You should have 3 red cross :<br><br> ** the first one with on the first line at the end &ldquo;Maximum execution time of [yourMaxExecutionTime] seconds exceeded&rdquo;<br> ** the second with &ldquo;It seems there was an issue with the server. This type of error usually happens when [&hellip;]&quot;<br> ** the third with &quot; HTTP request failed. Type: ERR_BAD_RESPONSE - HTTP Code: 500&rdquo;<br> * You should have an &ldquo;Error Summary&rdquo; where the 3 red cross is repeted but have a link See error at the end of the line <br> * a button &ldquo;Download update logs&rdquo;<br> * a button &ldquo;Send error report &ldquo;<br> * a blue &ldquo;Restore&rdquo; button with an icon in it</td>
+<td>Click on the CTA &ldquo;Delete selection&rdquo; (with only one backup left).</td>
+<td>The modal &ldquo;Delete backup&rdquo; is displayed : <br> - text : &ldquo;You are about to delete the <em>V8.0.4_YYYYMMDD-HHMMSS-randomnumber</em> backup made on <em>M/D/YY, H:MM A/PM</em>. As it&rsquo;s your only backup, you will be redirected to the module&rsquo;s home page.&rdquo;</td>
 </tr>
 <tr>
-<td>* Clic on &ldquo;Update assistant&rdquo; in the sideboard menu</td>
-<td>* You should be redirected to the welcome page of Upgrade Assistant</td>
+<td>Click on the CTA &ldquo;Delete&rdquo;.</td>
+<td>Modal &ldquo;Delete backup&rdquo; is closed and &ldquo;Update Assistant&rdquo; module is displayed : <br> * Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> * Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br> * CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
-<td>Return at the Download.php files and delete &ldquo;while(true) {}&rdquo; and save</td>
-<td>The file should be saved</td>
+<td>Open the file [yourshopname_folder] &gt; modules &gt; autoupgrade &gt; classes &gt; Task &gt; Update &gt; Download.php.</td>
+<td>File is opened.</td>
 </tr>
 <tr>
-<td>* Go to your [admin_folder_name] <br> * open a terminal in this folder<br> * On the terminal, launch &ldquo;sudo chmod 000 autoupgrade&rdquo;</td>
-<td>* You should have &ldquo;backup&rdquo;, &ldquo;autoupgrade&rdquo;, &ldquo;export&rdquo;, &ldquo;filemanager&rdquo; and &ldquo;import&rdquo; &ldquo;public&rdquo; and&quot;theme&rdquo; folder <br> * A new terminal appears ! <br> * you should have a new line to enter</td>
+<td>In the function &ldquo;public function run&rdquo;, modify &ldquo;exit(0);&rdquo; by &ldquo;while(true) {}&rdquo; and save the folder.</td>
+<td>File saved with modifications.</td>
 </tr>
 <tr>
-<td>* Reload the autoupgrade page<br>* Enable the debug mode</td>
-<td>* Preston should say that there is an issue <br>* You should have a red exception with &ldquo;Cannot write to the directory. Please ensure you have the necessary write permissions on &ldquo;/var/www/html/pr_autoup/admin-dev/autoupgrade&rdquo;.&rdquo;</td>
+<td>Launch a update without backup.<br><br><em>{color:#ff8b00}créer test puis faire un appel ici.{color}</em></td>
+<td></td>
 </tr>
 <tr>
-<td>* Return on your terminal and launch &ldquo;sudo chmod 777 autoupgrade&rdquo;<br> * Reload the update assistant page</td>
-<td>* You should have a new line to enter<br> * Your Welcome page is displayed correctly</td>
+<td>Reload the page during the update.</td>
+<td>Navigateur modal is displayed : <br> * &ldquo;This page is asking you to confirm that you want to leave — information you’ve entered may not be saved.&quot;<br> * 2 CTAs : &ldquo;Stay on Page&rdquo; and &ldquo;Leave Page&rdquo;</td>
 </tr>
 <tr>
-<td>On the link of your bowser, delete the part &ldquo;home-page&rdquo; of &ldquo;route=home-page&rdquo; and press enter</td>
-<td>You should have : <br> * A 404 image <br> * A title :  Something went wrong&hellip; <br> * A description with &ldquo;The requested page or resource could not be found. This might be due to:<br> * A broken or outdated link.<br> * The page being moved or deleted.<br> * A typo in the URL.&rdquo;</td>
+<td>Click on the CTA &ldquo;Leave Page&rdquo;.</td>
+<td>Update is starting from the beginning.</td>
 </tr>
 <tr>
-<td>* Reload the page<br> * Click on &ldquo;Update your Store&rdquo;<br> * Click on &ldquo;Get Started&rdquo;</td>
-<td>* You should be redirected to Welcome page assistant<br> * The button &ldquo;Get Started&rdquo; should be Enabled<br> * You should be redirected to &ldquo;Version Choice&rdquo; page</td>
+<td>Wait until the end of the upgrade load.</td>
+<td>Update is launched but the update fail :<br> * Red danger alert : &ldquo;Update failed&rdquo;, description : &ldquo;You didn’t back up your store with the Update assistant module but you can restore using your own manual backup.&rdquo; (because there is no backup saved)<br> * At &ldquo;Step dowload&rdquo; 3 errors :<br> ## &ldquo;Maximum execution time of [yourMaxExecutionTime] seconds exceeded&rdquo;<br> ## &ldquo;It seems there was an issue with the server. This type of error usually happens when [&hellip;]&quot;<br> ## &quot; HTTP request failed. Type: ERR_BAD_RESPONSE - HTTP Code: 500&rdquo;<br> * Composant &ldquo;Error Summary&rdquo; with the 3 errors with a link &ldquo;See error&rdquo; for each<br> * 2 CTAs : &ldquo;Download update logs&rdquo;, &ldquo;Send error report&rdquo;</td>
 </tr>
 <tr>
-<td>* Go to your folder [yourshopname_folder] &gt; module &gt; Autoupgrade &gt; classes &gt; UpgradeSelfCheck.php<br> * in &ldquo;public function getErrors(): array&rdquo; and  &ldquo;public function getWarnings(): array&rdquo;, invert all the condition and save the folder</td>
-<td>* You should see the diffenrent fonction in this php files<br> * The files should be saved</td>
+<td>Go to &ldquo;Update Assistant&rdquo; module (side board).</td>
+<td>&ldquo;Update Assistant&rdquo; module is displayed : <br> * Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> * Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br> * CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
-<td>Click on the Version set un Online version</td>
-<td>The checking requirement should have 15 errors and 3 warning :<br><br>Errors part with a red cross before the text : <br> * Your store&rsquo;s root directory /var/www/html/pr_autoup isn&rsquo;t writable. Provide write access to the user running PHP with appropriate permission &amp; ownership.<br> * The /var/www/html/pr_autoup/admin-dev/autoupgrade directory isn&rsquo;t writable. Provide write access to the user running PHP with appropriate permission &amp; ownership.<br> * Files can&rsquo;t be downloaded. Enable PHP&rsquo;s &ldquo;allow_url_fopen&rdquo; option or install PHP extension &ldquo;cURL&rdquo;.<br> * Missing PHP extension &ldquo;zip&rdquo;.<br> * Maintenance mode needs to be enabled. Enable maintenance mode and add your maintenance IP in Shop parameters &gt; General &gt; Maintenance.<br> * PrestaShop&rsquo;s caching features needs to be disabled. Disable caching features in Advanced parameters &gt; Performance &gt; Caching.<br> * Apache mod_rewrite needs to be enabled.<br> * The following PHP extensions need to be installed:<br> * The following PHP functions need to be allowed:<br> * PHP memory_limit needs to be greater than 256 MB.<br> * PHP file_uploads configuration needs to be enabled.<br> * Unable to generate private keys using openssl_pkey_new. Check your OpenSSL configuration, especially the path to openssl.cafile.<br> * It&rsquo;s not possible to write in the following folders. Provide write access to the user running PHP with appropriate permission &amp; ownership:<br> * The version of PrestaShop does not match the one stored in database. Your database structure may not be up-to-date and/or the value of PS_VERSION_DB needs to be updated in the configuration table.<br> * We were unable to fetch missing or altered files. In these conditions, your store cannot be updated to avoid any further bugs.<br><br>Warning part with a yellow warning before <br> * Your current version of the module is out of date. Update now Modules &gt; Module Manager &gt; Updates<br> * Some theme files have been altered or removed. Any changes made to these files may be overwritten during the update. See the list of changes.<br> * Some core files have been altered or removed. Any changes made to these files may be overwritten during the update. See the list of changes.</td>
+<td>Open the file [yourshopname_folder] &gt; modules &gt; autoupgrade &gt; classes &gt; Task &gt; Update &gt; Download.php.</td>
+<td>File is opened.</td>
 </tr>
 <tr>
-<td>* Click on the developper documentation <br> * Click on the &ldquo;Shop parameters &gt; General &gt; Maintenance+.+ &quot; link <br> * Click on the &quot; Advanced parameters &gt; Performance &gt; Caching.&rdquo; link<br> * Click on the &quot; Modules &gt; Module Manager &gt; Updates&rdquo; link</td>
-<td>* You should be redirect on a new tab with title &ldquo;Update from the back office&rdquo; <br> * You should be redirect on a new tab of your BO, in the maintenance tab of the general shop parameters<br> * You should be redirect on a new tab of your BO In your performance page <br> * You should be redirect on a new tab of your BO in your Update tab of Module Manager tab</td>
+<td>In the function &ldquo;public function run&rdquo;, delete &ldquo;while(true) {}&rdquo; and save the folder.</td>
+<td>File saved with modifications.</td>
+</tr>
+<tr>
+<td>Go to [admin_folder_name] and open a terminal in the folder.</td>
+<td>New terminal appears !</td>
+</tr>
+<tr>
+<td>Type &ldquo;sudo chmod 000 autoupgrade&rdquo; and enter.</td>
+<td>Command executed.</td>
+</tr>
+<tr>
+<td>Reload the autoupdate page.</td>
+<td>Error serveur : &ldquo;500 Internal Server Error&rdquo;</td>
+</tr>
+<tr>
+<td>Enable the debug mode.</td>
+<td>Debug mode enabled.</td>
+</tr>
+<tr>
+<td>Reload the page.</td>
+<td>Error : &ldquo;Cannot write to the directory. Please ensure you have the necessary write permissions on &ldquo;/var/www/html/pr_autoup/admin-dev/autoupgrade&rdquo;.&rdquo;</td>
+</tr>
+<tr>
+<td>On the terminal type &ldquo;sudo chmod 777 autoupgrade&rdquo; and enter.</td>
+<td>Command executed.</td>
+</tr>
+<tr>
+<td>Reload the update assistant page.</td>
+<td>&ldquo;Welcome to PrestaShop Update Assistant&rdquo; page is displayed correctly :).</td>
+</tr>
+<tr>
+<td>Change the URL of the BO from <br><br>[http://localhost/pr_autoup/admin-dev/index.php?controller=AdminSelfUpgrade&amp;token=f2a7a39f8608658c7d114813cfdc966e&amp;route=home-page] <br><br>to <br><br>[http://localhost/pr_autoup/admin-dev/index.php?controller=AdminSelfUpgrade&amp;token=f2a7a39f8608658c7d114813cfdc966e&amp;route=]<br><br>(&ldquo;home-page&rdquo; delete) <br><br>and enter.</td>
+<td>404 error image :  <br> * Title :  &ldquo;Something went wrong&hellip; &ldquo;<br> * Text : &ldquo;The requested page or resource could not be found. This might be due to:<br> ** A broken or outdated link.<br> ** The page being moved or deleted.<br> ** A typo in the URL.&rdquo;</td>
+</tr>
+<tr>
+<td>Reload the update assistant page.</td>
+<td>&ldquo;Welcome to PrestaShop Update Assistant&rdquo; page is displayed correctly :).</td>
+</tr>
+<tr>
+<td>Select the &ldquo;Update your Store&rdquo; radio button.</td>
+<td>* &ldquo;Update your store&rdquo; radio button is selected<br> * CTA &ldquo;Get started&rdquo; is enabled</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Get started&rdquo;.</td>
+<td>A loader is displayed in the CTA &ldquo;Get started&rdquo; then, &ldquo;Version choice&rdquo; page is displayed : <br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1.xx<br> * Radio button : PrestaShop LastVersion [Major version](blue color rgb(190, 234, 243)) with description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> * Blue alert info : &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/</em>&quot;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
+</tr>
+<tr>
+<td>Open the file [yourshopname_folder] &gt; modules &gt; autoupgrade &gt; classes &gt; UpgradeSelfCheck.php</td>
+<td>File opened.</td>
+</tr>
+<tr>
+<td>In :<br> * &ldquo;public function getErrors(): array&rdquo; <br> * &ldquo;public function getWarnings(): array&rdquo;,<br><br>invert all the condition (check how to in datas) and save the folder.</td>
+<td>Modifications saved.</td>
+</tr>
+<tr>
+<td>Select &ldquo;PrestaShop LastVersion&rdquo; radio button.</td>
+<td>The checking requirement should have 16 errors and 4 warnings : check screenshot attached.</td>
+</tr>
+<tr>
+<td>Click on the link &ldquo;developper documentation &ldquo;.</td>
+<td>&ldquo;Update from the back office&rdquo; page is opened in a new tab.</td>
+</tr>
+<tr>
+<td>On the module tab, <em>ctrl + click</em> on the link &ldquo;Shop parameters &gt; General &gt; Maintenance&rdquo; (to open in a new tab).</td>
+<td>General &gt; Preferences page is displayed on the &ldquo;General&rdquo; tab.</td>
+</tr>
+<tr>
+<td>On the module tab, <em>ctrl + click</em> on the link &ldquo;Advanced parameters &gt; Performance &gt; Caching&rdquo; (to open in a new tab).</td>
+<td>Advanced parameters &gt; Performance page is displayed on a new tab.</td>
+</tr>
+<tr>
+<td>On the module tab, <em>ctrl + click</em> on the link &ldquo;Modules &gt; Module Manager &gt; Updates&rdquo; (to open in a new tab).</td>
+<td>Module Manager &gt; Updates &gt; Module notification page is displayed on a new tab.</td>
 </tr>
 </tbody>
 </table>
@@ -67941,17 +68233,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1751525268"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1751525268"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1751525268"></script>
-    <script src="../../../../js/jquery.sticky.js?1751525268"></script>
-    <script src="../../../../js/featherlight.min.js?1751525268"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1751525268"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1751525268"></script>
-    <script src="../../../../js/learn.js?1751525268"></script>
-    <script src="../../../../js/hugo-learn.js?1751525268"></script>
+    <script src="../../../../js/clipboard.min.js?1751612444"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1751612444"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1751612444"></script>
+    <script src="../../../../js/jquery.sticky.js?1751612444"></script>
+    <script src="../../../../js/featherlight.min.js?1751612444"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1751612444"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1751612444"></script>
+    <script src="../../../../js/learn.js?1751612444"></script>
+    <script src="../../../../js/hugo-learn.js?1751612444"></script>
     
-    <script src="../../../../main.js?1751525268"></script>
+    <script src="../../../../main.js?1751612444"></script>
     
     
     

@@ -880,7 +880,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-disable-enable-module.html</guid>
-      <description>Category products module - Disable/Enable module Details Component : ps_categoryproducts Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4006 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_categoryproducts/01_installation/01_disableEnableModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
+      <description>Category products module - Disable/Enable module Details Component : ps_categoryproducts Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4006 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/11_ps_categoryproducts/01_installation/01_disableEnableModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
       <title>Category products module - Display products&#39; prices</title>
@@ -3085,7 +3085,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-admin-api-modules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-admin-api-modules.html</guid>
-      <description>GET /admin-api/modules Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8860 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/09_modules/02_getModules.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+      <description>GET /admin-api/modules Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8860 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_module/11_getModules.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Mail alerts module - Upgrade module</title>
@@ -3814,6 +3814,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration/bo-design-theme-logo-page-configuration-uninstall.html</guid>
       <description>BO - Design - Theme &amp;amp; Logo - Page Configuration - Uninstall Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-927 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/01_themeAndLogo/02_pagesConfiguration/03_installUninstallModule.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo/theme-customization-ps_themecusto Steps Step Description Expected result Go to Improve &amp;gt; Design &amp;gt; Theme &amp;amp; Logo Theme &amp;amp; Logo page is displayed correctly Click on &amp;ldquo;Pages Configuration&amp;rdquo; Pages Configuration page is displayed correctly On Footer &amp;gt; Link List &amp;gt; Uninstall A modale should appear :</description>
+    </item>
+    <item>
+      <title>BO - Discount -Select a free gift product </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html</guid>
+      <description> BO - Discount -Select a free gift product Details Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11264 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form and save Discount page displayed&#xA;Notification :&#xA;Successful update&#xA;The discount has been created&#xA;Discount list = 1 </description>
     </item>
     <item>
       <title>BO - Header - Search bar</title>
@@ -4702,7 +4709,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/customersgroup/put-admin-api-customers-group-customergroupid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/customersgroup/put-admin-api-customers-group-customergroupid.html</guid>
-      <description>PUT /admin-api/customers/group/{customerGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8628 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_customerGroup/04_putCustomerGroupsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+      <description>PUT /admin-api/customers/group/{customerGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8628 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_customerGroup/03_putCustomerGroupsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>PUT /module/{technicalName}/install</title>
@@ -4800,14 +4807,14 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-install-an-8-0-4-on-php-8-1.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-install-an-8-0-4-on-php-8-1.html</guid>
-      <description>Autoupgrade - Web Version - Install an 8.0.4 on php 8.1 Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10929 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+      <description>Autoupgrade - Web Version - Install an 8.0.4 on php 8.1 Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10929 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Rollback </title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-rollback.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-rollback.html</guid>
-      <description>Autoupgrade - Web Version - Rollback Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-9679 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+      <description>Autoupgrade - Web Version - Rollback Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-9679 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
     </item>
     <item>
       <title>blockreassurance - Add a bloc</title>
@@ -5060,6 +5067,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/theme-logo/page-configuration/bo-design-theme-logo-page-configuration-see-all-theme-s-modules-button.html</guid>
       <description> BO - Design - Theme &amp;amp; Logo - Page Configuration - See all theme&#39;s modules button Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-928 Steps Step Description Expected result Go to Design &amp;gt; Theme &amp;amp; Logo Theme &amp;amp; Logo page is displayed&#xA;Title contains Theme &amp;amp; Logo Click on Pages Configuration tab Pages Configuration is displayed Click on See all theme&amp;rsquo;s modules button Module manager page is well displayed </description>
+    </item>
+    <item>
+      <title>BO - Discount -Add catalog discount</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</guid>
+      <description> BO - Discount -Add catalog discount Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11265 </description>
     </item>
     <item>
       <title>BO - Header - View my shop</title>
@@ -5766,7 +5780,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - Verification during the upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9698 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+      <description>Autoupgrade - Web Version - Verification during the upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9698 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
     </item>
     <item>
       <title>blockreassurance - Drag and drop bloc</title>
@@ -6221,7 +6235,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-reset-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-reset-module.html</guid>
-      <description>Faceted search module - Reset module Details Component : ps_facetedsearch Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4259 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/01_installation/05_resetModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
+      <description>Faceted search module - Reset module Details Component : ps_facetedsearch Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4259 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/01_installation/05_resetModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Reset&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
       <title>FO - Cart - Display discount on product</title>
@@ -6459,14 +6473,14 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-before-the-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-before-the-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - Create error before the upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9699 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+      <description>Autoupgrade - Web Version - Create error before the upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9699 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Do a backup</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup.html</guid>
-      <description>Autoupgrade - Web Version - Do a backup Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10933 Steps Step Description Expected result Clic on the radio button next to &amp;ldquo;Update your store&amp;rdquo; * Your radio button should be checked * the button &amp;ldquo;Get started&amp;rdquo; should be Enabled Click on the button &amp;ldquo;Get started&amp;rdquo; * You should have an image that show the load on the button get started until the load of the next page * You should be on a new page named &amp;ldquo;Version choice&amp;rdquo;</description>
+      <description>Autoupgrade - Web Version - Do a backup Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10933 Steps Step Description Expected result * Click on the Update assistant button on the sideboard * You should be in the new UI page with :&#xA;** the title &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio button with : Update your store and Restore from a backup ** Radio button with the Restore shouldn&amp;rsquo;t be disabled if you have a backup ** A button &amp;ldquo;Get started&amp;rdquo; disabled Clic on the radio button next to &amp;ldquo;Update your store&amp;rdquo; * Your radio button should be checked * the button &amp;ldquo;Get started&amp;rdquo; should be Enabled Click on the button &amp;ldquo;Get started&amp;rdquo; * You should have an image that show the load on the button get started until the load of the next page * You should be on a new page named &amp;ldquo;Version choice&amp;rdquo;</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Test email configuration</title>
@@ -7831,7 +7845,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/get-admin-api-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/get-admin-api-products.html</guid>
-      <description>GET /admin-api/products Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8684 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/11_products/01_getProducts.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+      <description>GET /admin-api/products Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8684 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_product/11_getProducts.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Mail alerts module - Merchant notifications - Configure email addresses</title>
@@ -7873,7 +7887,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware.html</guid>
-      <description>Autoupgrade - Middleware Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10778 Steps Step Description Expected result Install A fresh 8.0.4 with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+      <description>Autoupgrade - Middleware Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10778 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Send a free gift</title>

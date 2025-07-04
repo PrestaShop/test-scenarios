@@ -22,13 +22,13 @@
     <title>Autoupgrade - Web Version - Rollback  :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1751525268" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1751525268" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1751525268" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1751525268" rel="stylesheet"><link href="../../../../css/auto-complete.css?1751525268" rel="stylesheet">
-    <link href="../../../../style.css?1751525268" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1751612444" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1751612444" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1751612444" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1751612444" rel="stylesheet"><link href="../../../../css/auto-complete.css?1751612444" rel="stylesheet">
+    <link href="../../../../style.css?1751612444" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1751525268"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1751612444"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -6995,6 +6995,48 @@
       <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-a-period.html" title="BO - Discount - Set a period " class="dd-item ">
         <a href="../../../../scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-a-period.html">
         BO - Discount - Set a period 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html" title="BO - Discount -Select a free gift product " class="dd-item ">
+        <a href="../../../../scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html">
+        BO - Discount -Select a free gift product 
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html" title="BO - Discount -Add catalog discount" class="dd-item ">
+        <a href="../../../../scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html">
+        BO - Discount -Add catalog discount
         
         </a>
     </li>
@@ -47477,6 +47519,36 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -67778,20 +67850,44 @@
 </thead>
 <tbody>
 <tr>
-<td>Install A fresh 8.0.4 with php 8.1</td>
-<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+<td>Install a fresh 8.0.4 with php 8.1</td>
+<td>* The new shop is installed<br> * The selection to BO or FO is displayed</td>
 </tr>
 <tr>
-<td>Go to the BO</td>
-<td>You should have your dashboard showed</td>
+<td>Go to the BO.</td>
+<td>Log in page is displayed.</td>
 </tr>
 <tr>
-<td>Go to the Module Manager &quot; page&quot;</td>
-<td>Module Manager page is displayed correctly</td>
+<td>Log in with email and password set during installation.</td>
+<td>* Connection successful<br> * Dashboard displayed</td>
 </tr>
 <tr>
-<td>* Search for the &ldquo;update assistant&rdquo; module.<br> * Install it</td>
-<td>* Update assistant should have &ldquo;The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence.&rdquo; as description <br> * Module is correctly installed</td>
+<td>Go to Modules &gt; Module manager.</td>
+<td>Module manager page is displayed.</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Upload a module&rdquo;.</td>
+<td>Modal &ldquo;Upload a module&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Select or drag and drop the .zip.</td>
+<td>* The module is installing<br> * The module is installed, the CTA &ldquo;Configure&rdquo; is displayed.</td>
+</tr>
+<tr>
+<td>Close the modal.</td>
+<td>* Modal is closed<br> * Module manager page is displayed</td>
+</tr>
+<tr>
+<td>Refresh the page.</td>
+<td>Page is refreshed.</td>
+</tr>
+<tr>
+<td>Search for &ldquo;Update&rdquo;.</td>
+<td>Update Assistant is displayed.</td>
+</tr>
+<tr>
+<td>Check for the version.</td>
+<td>* The version is the latest in prod. <br><br> * The lastest version in prod is displayed because it is the version available on the marketplace.</td>
 </tr>
 <tr>
 <td>Go to the Shop Parameters &gt; General.</td>
@@ -67814,38 +67910,6 @@
 <td>Shop is in maintenance mode.</td>
 </tr>
 <tr>
-<td>Clic on the radio button next to &ldquo;Update your store&rdquo;</td>
-<td>* Your radio button should be checked <br> * the button &ldquo;Get started&rdquo; should be Enabled</td>
-</tr>
-<tr>
-<td>Click on the button &ldquo;Get started&rdquo;</td>
-<td>* You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named &ldquo;Version choice&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br><br> * <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1<br><br> * <br> ** Two radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 8.2.1[Minor version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
-</tr>
-<tr>
-<td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
-<td>* the checking requirement should be launched<br> * You should have a green notification with &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&rdquo; or  maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
-</tr>
-<tr>
-<td>* Clic on the &ldquo;Next&rdquo; Button</td>
-<td>* You should be on the &ldquo;Update option&rdquo; page with : <br> ** The stepper set on 2 : Update options <br> ** 3 checkbox named &quot; Deactivate non-native modules &ldquo;,  &ldquo;Regenerate email templates&rdquo; , &quot; Disable all overrides &quot;  with details about them under there name <br> ** &ldquo;Next&rdquo; Button enabled</td>
-</tr>
-<tr>
-<td>Clic on the &ldquo;Next&rdquo; Button</td>
-<td>* You should be on the &ldquo;Back up your store&rdquo; page with : <br> ** The stepper should be on 3 : Backup<br> ** sub title &ldquo;Backing up your store&rsquo;s files, database, and images means you can restore to a previous version if something goes wrong during the update. This keeps your data safe and ensures your business stays up and running.&quot;<br> ** Checkboxe : &ldquo;Include images in your backup&rdquo;<br> ** 2 buttons : &ldquo;Update without backup&rdquo; and &ldquo;launch backup&rdquo;</td>
-</tr>
-<tr>
-<td>Click on &ldquo;Launch Backup&rdquo;</td>
-<td>You should have a modal with <br> * title : &quot; Start backup? &ldquo;<br> * Sub title : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Backup</td>
-</tr>
-<tr>
-<td>* Click on &ldquo;Start Backup&rdquo;</td>
-<td>* You should be on the page &ldquo;Backup&rdquo; with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
-</tr>
-<tr>
-<td>Wait until the end of the backup</td>
-<td>You should have be on a new page with <br> * title : &quot; Back up your store&rdquo;<br> * A green notification : &ldquo;Backup completed&rdquo;<br> * A link : &ldquo;Download backup logs&rdquo;<br> * 1 button : &ldquo;Start Update&rdquo;&rdquo;</td>
-</tr>
-<tr>
 <td>* Click on the Update assistant button on the sideboard</td>
 <td>* You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore shouldn&rsquo;t be disabled if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
 </tr>
@@ -67920,6 +67984,38 @@
 <tr>
 <td>* Click on the Update assistant button on the sideboard</td>
 <td>* You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore shouldn&rsquo;t be disabled if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
+</tr>
+<tr>
+<td>Clic on the radio button next to &ldquo;Update your store&rdquo;</td>
+<td>* Your radio button should be checked <br> * the button &ldquo;Get started&rdquo; should be Enabled</td>
+</tr>
+<tr>
+<td>Click on the button &ldquo;Get started&rdquo;</td>
+<td>* You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named &ldquo;Version choice&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br><br> * <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1<br><br> * <br> ** Two radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 8.2.1[Minor version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+</tr>
+<tr>
+<td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
+<td>* the checking requirement should be launched<br> * You should have a green notification with &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&rdquo; or  maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
+</tr>
+<tr>
+<td>* Clic on the &ldquo;Next&rdquo; Button</td>
+<td>* You should be on the &ldquo;Update option&rdquo; page with : <br> ** The stepper set on 2 : Update options <br> ** 3 checkbox named &quot; Deactivate non-native modules &ldquo;,  &ldquo;Regenerate email templates&rdquo; , &quot; Disable all overrides &quot;  with details about them under there name <br> ** &ldquo;Next&rdquo; Button enabled</td>
+</tr>
+<tr>
+<td>Clic on the &ldquo;Next&rdquo; Button</td>
+<td>* You should be on the &ldquo;Back up your store&rdquo; page with : <br> ** The stepper should be on 3 : Backup<br> ** sub title &ldquo;Backing up your store&rsquo;s files, database, and images means you can restore to a previous version if something goes wrong during the update. This keeps your data safe and ensures your business stays up and running.&quot;<br> ** Checkboxe : &ldquo;Include images in your backup&rdquo;<br> ** 2 buttons : &ldquo;Update without backup&rdquo; and &ldquo;launch backup&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Launch Backup&rdquo;</td>
+<td>You should have a modal with <br> * title : &quot; Start backup? &ldquo;<br> * Sub title : &ldquo;Your files, database, and images will be backed up.&quot;<br> * 2 button : &ldquo;Cancel&rdquo; and &quot; Start Backup</td>
+</tr>
+<tr>
+<td>* Click on &ldquo;Start Backup&rdquo;</td>
+<td>* You should be on the page &ldquo;Backup&rdquo; with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab</td>
+</tr>
+<tr>
+<td>Wait until the end of the backup</td>
+<td>You should have be on a new page with <br> * title : &quot; Back up your store&rdquo;<br> * A green notification : &ldquo;Backup completed&rdquo;<br> * A link : &ldquo;Download backup logs&rdquo;<br> * 1 button : &ldquo;Start Update&rdquo;&rdquo;</td>
 </tr>
 <tr>
 <td>Clic on the radio button next to &ldquo;Restore from a backup&rdquo;</td>
@@ -68041,17 +68137,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1751525268"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1751525268"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1751525268"></script>
-    <script src="../../../../js/jquery.sticky.js?1751525268"></script>
-    <script src="../../../../js/featherlight.min.js?1751525268"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1751525268"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1751525268"></script>
-    <script src="../../../../js/learn.js?1751525268"></script>
-    <script src="../../../../js/hugo-learn.js?1751525268"></script>
+    <script src="../../../../js/clipboard.min.js?1751612444"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1751612444"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1751612444"></script>
+    <script src="../../../../js/jquery.sticky.js?1751612444"></script>
+    <script src="../../../../js/featherlight.min.js?1751612444"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1751612444"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1751612444"></script>
+    <script src="../../../../js/learn.js?1751612444"></script>
+    <script src="../../../../js/hugo-learn.js?1751612444"></script>
     
-    <script src="../../../../main.js?1751525268"></script>
+    <script src="../../../../main.js?1751612444"></script>
     
     
     
