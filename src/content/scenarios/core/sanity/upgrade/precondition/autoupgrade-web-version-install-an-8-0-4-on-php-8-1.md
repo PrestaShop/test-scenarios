@@ -12,7 +12,13 @@ weight: 4
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 8.0.4 with php 8.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
-| Go to the BO | You should have your dashboard showed |
-| Go to the Module Manager " page" | Module Manager page is displayed correctly |
-| * Search for the "update assistant" module.<br> * Install it | * Update assistant should have "The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence." as description <br> * Module is correctly installed |
+| Install a fresh 8.0.4 with php 8.1 | * The new shop is installed<br> * The selection to BO or FO is displayed |
+| Go to the BO. | Log in page is displayed. |
+| Log in with email and password set during installation. | * Connection successful<br> * Dashboard displayed |
+| Go to Modules > Module manager. | Module manager page is displayed. |
+| Click on the CTA "Upload a module". | Modal "Upload a module" is displayed. |
+| Select or drag and drop the .zip. | * The module is installing<br> * The module is installed, the CTA "Configure" is displayed. |
+| Close the modal. | * Modal is closed<br> * Module manager page is displayed |
+| Refresh the page. | Page is refreshed. |
+| Search for "Update". | Update Assistant is displayed. |
+| Check for the version. | * The version is the latest in prod. <br><br> * The lastest version in prod is displayed because it is the version available on the marketplace. |

@@ -9,7 +9,7 @@ weight: 5
 * **Status** : Automated
 * **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4259
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_facetedsearch/01_installation/05_resetModule.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/01_installation/05_resetModule.ts
 
 ## Steps
 | Step Description | Expected result |

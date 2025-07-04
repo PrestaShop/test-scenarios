@@ -12,15 +12,22 @@ weight: 5
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 8.0.4 with php 8.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
-| Go to the BO | You should have your dashboard showed |
-| Go to the Module Manager " page" | Module Manager page is displayed correctly |
-| * Search for the "update assistant" module.<br> * Install it | * Update assistant should have "The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence." as description <br> * Module is correctly installed |
+| Install a fresh 8.0.4 with php 8.1 | * The new shop is installed<br> * The selection to BO or FO is displayed |
+| Go to the BO. | Log in page is displayed. |
+| Log in with email and password set during installation. | * Connection successful<br> * Dashboard displayed |
+| Go to Modules > Module manager. | Module manager page is displayed. |
+| Click on the CTA "Upload a module". | Modal "Upload a module" is displayed. |
+| Select or drag and drop the .zip. | * The module is installing<br> * The module is installed, the CTA "Configure" is displayed. |
+| Close the modal. | * Modal is closed<br> * Module manager page is displayed |
+| Refresh the page. | Page is refreshed. |
+| Search for "Update". | Update Assistant is displayed. |
+| Check for the version. | * The version is the latest in prod. <br><br> * The lastest version in prod is displayed because it is the version available on the marketplace. |
 | Go to the Shop Parameters > General. | General > Preferences page is displayed on the "General" tab. |
 | Click on the "Maintenance" tab. | "Maintenance" tab is displayed. |
 | Click on the toggle "Enable store" | Toggle is in "No" status. |
 | Click on the CTA "Add my IP". | IP address is filled. |
 | Click on the CTA "Save". | Shop is in maintenance mode. |
+| * Click on the Update assistant button on the sideboard | * You should be in the new UI page with :<br> ** the title "Welcome to PrestaShop Update Assistant"<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore shouldn't be disabled if you have a backup <br> ** A button "Get started" disabled |
 | Clic on the radio button next to "Update your store" | * Your radio button should be checked <br> * the button "Get started" should be Enabled |
 | Click on the button "Get started" | * You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named "Version choice"<br> * You should have a stepper on top of the page set on "1 : Version choice"<br> * In the page, it should be : <br><br> * <br> **  a paragraph with "A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1<br><br> * <br> ** Two radio button with : "Prestashop [last major/minor version]" and "Local Archive"<br> *** Prestashop 8.2.1[Minor version] With description "The maximum version of PrestaShop to which you can update your store, based on its PHP version. " and a button "Release note" <br> *** if you don't have a local archive set, you didn't have a radio button and you should have a blue notification with " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/"* **<br> ** A button named "Next" disabled |
 | * Clic on the Radio button next to "Prestashop [last version]"<br> * The check is finished | * the checking requirement should be launched<br> * You should have a green notification with "The requirements check is complete, you can update your store to this version of PrestaShop." or  maybe some warning and the button "Next" should be enabled |
@@ -29,7 +36,6 @@ weight: 5
 | Click on "Launch Backup" | You should have a modal with <br> * title : " Start backup? "<br> * Sub title : "Your files, database, and images will be backed up."<br> * 2 button : "Cancel" and " Start Backup |
 | * Click on "Start Backup" | * You should be on the page "Backup" with : <br> ** The current process writted<br> ** a load bar<br> ** The details of the current process on a second tab |
 | Wait until the end of the backup | You should have be on a new page with <br> * title : " Back up your store"<br> * A green notification : "Backup completed"<br> * A link : "Download backup logs"<br> * 1 button : "Start Update"" |
-| * Click on the Update assistant button on the sideboard | * You should be in the new UI page with :<br> ** the title "Welcome to PrestaShop Update Assistant"<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore shouldn't be disabled if you have a backup <br> ** A button "Get started" disabled |
 | Launch upgrade | * Upgrade is launched<br> * you shouldn't have the rollback option durring the installation<br> * You should have a loadbar started <br> * You should have an icon that turn clockwise |
 | * During the installation, go to [yourShop]/[AdminDirectory]/autoupgrade/tmp folder<br> * Open one of this folder | * You should have three folder: files, modules, release and Two files : index.php and key.php<br> * It should have some files that'll be created during the installation |
 | * During the installation, do a right click to click on inspect<br> * Clic on Network <br> * Click on a Post<br> * Click on Response on the Right <br> * In the "Filter properties", put "progressPercentage" and click on the arrow next to "Next param ..." | * You should see all the different section of the website<br> * You should see the different Post/Get In real time <br> * On the right you should see the Headers displayed<br> * You should see all the different information send on the POST <br> * You should see a parameters name : "progressPercentage" with a integer next to it |
