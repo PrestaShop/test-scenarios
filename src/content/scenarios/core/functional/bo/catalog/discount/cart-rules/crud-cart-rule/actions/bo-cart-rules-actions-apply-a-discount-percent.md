@@ -7,6 +7,7 @@ weight: 3
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
+* **Automated on** : 9.1.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10319
 
 ## Steps

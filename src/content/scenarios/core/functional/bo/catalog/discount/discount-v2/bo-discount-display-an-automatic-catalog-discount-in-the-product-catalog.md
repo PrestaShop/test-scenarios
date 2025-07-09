@@ -20,5 +20,5 @@ weight: 1
 | Proceed to checkout | shopping cart displayed<br><br> <br><br>Discount displayed in product summary |
 | BO > Catalog > Discount | Discounts page should be displayed<br><br>discount list = 1 |
 | Delete the discount | Display of the confirmation modal |
-| Confirm the deletion | Discount page displayed<br><br>Notification :<br><br>Successful deletion<br><br>The discount has been deleted<br><br>Discount list = 0 |
+| Confirm the deletion | Display of the confirmation modal |
 | Go to FO | Product catalog displayed<br><br>Category On Sale is not displayed |
