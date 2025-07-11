@@ -47,7 +47,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup.html</guid>
-      <description>Autoupgrade - Web Version - Do a backup Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10933 Steps Step Description Expected result * Click on the Update assistant button on the sideboard * You should be in the new UI page with :&#xA;** the title &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio button with : Update your store and Restore from a backup ** Radio button with the Restore shouldn&amp;rsquo;t be disabled if you have a backup ** A button &amp;ldquo;Get started&amp;rdquo; disabled Clic on the radio button next to &amp;ldquo;Update your store&amp;rdquo; * Your radio button should be checked * the button &amp;ldquo;Get started&amp;rdquo; should be Enabled Click on the button &amp;ldquo;Get started&amp;rdquo; * You should have an image that show the load on the button get started until the load of the next page * You should be on a new page named &amp;ldquo;Version choice&amp;rdquo;</description>
+      <description>Autoupgrade - Web Version - Do a backup Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10933 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - the new UI part </title>
@@ -55,6 +55,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-the-new-ui-part.html</guid>
       <description>Autoupgrade - Web Version - the new UI part Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11260 Steps Step Description Expected result * Go to the update assistant page * You should see the configuration page of the module with a little problem on UI * Open a terminal in your folder [yourshop]/modules/autoupgrade&#xA;* launch the command : {code:java}&#xA;cd _dev{code}&#xA;* Launch the command :&#xA;{code:java}</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Skip the backup</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-skip-the-backup.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-skip-the-backup.html</guid>
+      <description>Autoupgrade - Web Version - Skip the backup Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11305 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
   </channel>
 </rss>
