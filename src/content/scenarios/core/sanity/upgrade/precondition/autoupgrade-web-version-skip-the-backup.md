@@ -1,13 +1,13 @@
 ---
-title: "Autoupgrade - Web Version - Do a backup"
-weight: 6
+title: "Autoupgrade - Web Version - Skip the backup"
+weight: 8
 ---
 
-# Autoupgrade - Web Version - Do a backup
+# Autoupgrade - Web Version - Skip the backup
 ## Details
 * **Component** : Core
-* **Status** : Approved
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10933
+* **Status** : In progress
+* **Scenario** : https://forge.prestashop.com/browse/TEST-11305
 
 ## Steps
 | Step Description | Expected result |
@@ -18,6 +18,6 @@ weight: 6
 | * Clic on the Radio button next to "Prestashop [last version]"<br> * The check is finished | * Checking requirement is launched then is finished :<br><br> ** "The requirements check is complete, you can update your store to this version of PrestaShop."<br> ** Or warnings <br> ** CTA "Next" is enabled |
 | * Click on the CTA "Next". | * "Update options" page is displayed :  <br><br> ** Stepper on step 2 ("Update options")<br> ** 3 toggles : "Deactivate non-native modules", "Regenerate email templates" , "Disable all overrides"  with details about them under their name <br> ** CTA "Next" enabled |
 | Click on the CTA "Next". | * "Back up your store" page is displayed :  <br><br> ** Stepper on step 3 ("Backup")<br> ** Subtitle "Backing up your store's files, database, and images means you can restore to a previous version if something goes wrong during the update. This keeps your data safe and ensures your business stays up and running."<br> ** Toggle : "Include images in your backup" on Yes status<br> ** 2 CTAs : "Update without backup" and "Launch backup" (both available) |
-| Click on the CTA "Launch backup". | Modal "Start backup?" is displayed : <br> * Text : "Your files, database, and images will be backed up."<br> * 2 CTAs : "Cancel" and "Start backup" |
-| * Click on the CTA "Start Backup". | * The "Backup" page is displayed :<br><br> ** loading bar with the current process <br> ** details of the current process are listed |
-| Wait until the end of the backup | The title is modified : " Back up your store" : <br> * The success alert "Backup completed" is displayed<br> * CTA "Download backup logs"<br> * CTA : "Start update" |
+| Click on the CTA "Update without backup" | Modal "Start update?" is displayed : <br> * Text : "Before starting the update, make sure you have a complete and recent backup of your store (database, files, and images)."<br> * 2 CTAs : "Cancel" and "Start backup"<br> * A Checkbox "I have made my own backup and can restore it manually if a problem occurs."<br> * 2 CTAs : "Cancel" (enabled) and "Start update" (disabled) |
+| Check the checkbox "I have made my own backup (...)". | The CTA "Start update" is enabled. |
+| * Click on the CTA "Start update". | * The page "Update" is displayed :<br><br> ** Stepper on step 4 ("Update")<br> ** loading bar with the current process <br> ** details of the current process are listed |
