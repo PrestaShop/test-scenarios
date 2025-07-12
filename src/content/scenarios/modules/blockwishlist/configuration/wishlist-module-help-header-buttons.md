@@ -9,7 +9,7 @@ weight: 4
 * **Status** : Automated
 * **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-4249
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/blockwishlist/02_configuration/04_helpHeaderButtons.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/02_configuration/04_helpHeaderButtons.ts
 
 ## Steps
 | Step Description | Expected result |
