@@ -6,7 +6,7 @@ weight: 8
 # Autoupgrade - Web Version - Update on online channel
 ## Details
 * **Component** : Core
-* **Status** : Approved
+* **Status** : Deprecated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10136
 
 ## Steps

@@ -8,7 +8,7 @@ weight: 1
 * **Status** : Automated
 * **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7274
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/ps_supplierlist/01_configure/01_configureSettings.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/34_ps_supplierlist/01_configure/01_configureSettings.ts
 
 ## Steps
 | Step Description | Expected result |

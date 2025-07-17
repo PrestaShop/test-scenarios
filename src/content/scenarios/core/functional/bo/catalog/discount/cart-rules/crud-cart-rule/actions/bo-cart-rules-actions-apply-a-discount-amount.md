@@ -6,8 +6,10 @@ weight: 4
 # BO - Cart rules - Actions - Apply a discount Amount
 ## Details
 * **Component** : Core
-* **Status** : Automation in progress
+* **Status** : Automated
+* **Automated on** : 9.1.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10320
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts
 
 ## Steps
 | Step Description | Expected result |
