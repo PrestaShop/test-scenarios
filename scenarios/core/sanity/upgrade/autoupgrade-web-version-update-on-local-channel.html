@@ -22,13 +22,13 @@
     <title>Autoupgrade - Web Version - Update on local channel :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1752748938" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1752748938" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1752748938" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1752748938" rel="stylesheet"><link href="../../../../css/auto-complete.css?1752748938" rel="stylesheet">
-    <link href="../../../../style.css?1752748938" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1752821518" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1752821518" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1752821518" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1752821518" rel="stylesheet"><link href="../../../../css/auto-complete.css?1752821518" rel="stylesheet">
+    <link href="../../../../style.css?1752821518" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1752748938"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1752821518"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -68269,7 +68269,7 @@
 <h1 id="autoupgrade---web-version---update-on-local-channel">Autoupgrade - Web Version - Update on local channel<a href="#autoupgrade---web-version---update-on-local-channel"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Approved</li>
+<li><strong>Status</strong> : In progress</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-10739">https://forge.prestashop.com/browse/TEST-10739</a></li>
 </ul>
 
@@ -68318,12 +68318,16 @@
 <td>Shop is in maintenance mode.</td>
 </tr>
 <tr>
-<td>Clic on the radio button next to &ldquo;Update your store&rdquo;</td>
-<td>* Your radio button should be checked <br> * the button &ldquo;Get starder&rdquo; should be Enabled</td>
+<td>Go to &ldquo;Update Assistant&rdquo; module (side board).</td>
+<td>&ldquo;Update Assistant&rdquo; module is displayed : <br> * Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> * Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br> * CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
-<td>Click on the button &ldquo;Get started&rdquo;</td>
-<td>* You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named &ldquo;Version choice&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br><br> * <br> **  A picture of a folder like in the attachment with a green notification &ldquo;You&rsquo;re up to date&rdquo; and &ldquo;Current PrestaShop version: [yourLastPrestaVersion]<br>Current PHP version: [YourPHP] &ldquo;<br> **  A blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br><br> * <br> ** A button named &ldquo;Next&rdquo; disabled</td>
+<td>Select the radio button &ldquo;Update your store&rdquo;.</td>
+<td>* &ldquo;Update your store&rdquo; radio button is selected<br> * CTA &ldquo;Get started&rdquo; is enabled</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Get started&rdquo;.</td>
+<td>A loader is displayed in the CTA &ldquo;Get started&rdquo; then, &ldquo;Version choice&rdquo; page is displayed : <br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.1.xx<br> * Radio button : PrestaShop 1.7.8.xx [Patch version](blue color rgb(190, 234, 243)) with description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> * Blue alert info : &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/</em>&quot;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
 <td>* Put a zip and xml from a new version in [yourshop]/[adminfolder]/autoupgrade/download</td>
@@ -68445,17 +68449,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1752748939"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1752748939"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1752748939"></script>
-    <script src="../../../../js/jquery.sticky.js?1752748939"></script>
-    <script src="../../../../js/featherlight.min.js?1752748939"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1752748939"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1752748939"></script>
-    <script src="../../../../js/learn.js?1752748939"></script>
-    <script src="../../../../js/hugo-learn.js?1752748939"></script>
+    <script src="../../../../js/clipboard.min.js?1752821518"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1752821518"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1752821518"></script>
+    <script src="../../../../js/jquery.sticky.js?1752821518"></script>
+    <script src="../../../../js/featherlight.min.js?1752821518"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1752821518"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1752821518"></script>
+    <script src="../../../../js/learn.js?1752821518"></script>
+    <script src="../../../../js/hugo-learn.js?1752821518"></script>
     
-    <script src="../../../../main.js?1752748939"></script>
+    <script src="../../../../main.js?1752821518"></script>
     
     
     
