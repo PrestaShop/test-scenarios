@@ -6,7 +6,7 @@ weight: 8
 # Autoupgrade - Web Version - Update on local channel
 ## Details
 * **Component** : Core
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10739
 
 ## Steps
@@ -21,8 +21,9 @@ weight: 8
 | Click on the toggle "Enable store" | Toggle is in "No" status. |
 | Click on the CTA "Add my IP". | IP address is filled. |
 | Click on the CTA "Save". | Shop is in maintenance mode. |
-| Clic on the radio button next to "Update your store" | * Your radio button should be checked <br> * the button "Get starder" should be Enabled |
-| Click on the button "Get started" | * You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named "Version choice"<br> * You should have a stepper on top of the page set on "1 : Version choice"<br> * In the page, it should be : <br><br> * <br> **  A picture of a folder like in the attachment with a green notification "You're up to date" and "Current PrestaShop version: [yourLastPrestaVersion]<br>Current PHP version: [YourPHP] "<br> **  A blue notification with " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/"* **<br><br> * <br> ** A button named "Next" disabled |
+| Go to "Update Assistant" module (side board). | "Update Assistant" module is displayed : <br> * Title : "Welcome to PrestaShop Update Assistant"<br> * Two radio buttons : "Update your store" and "Restore from a backup" (disabled)<br> * CTA "Get started" disabled |
+| Select the radio button "Update your store". | * "Update your store" radio button is selected<br> * CTA "Get started" is enabled |
+| Click on the CTA "Get started". | A loader is displayed in the CTA "Get started" then, "Version choice" page is displayed : <br> * Stepper on step one ("Version choice")<br> * Paragraph with "A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.1.xx<br> * Radio button : PrestaShop 1.7.8.xx [Patch version](blue color rgb(190, 234, 243)) with description "The maximum version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" <br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
 | * Put a zip and xml from a new version in [yourshop]/[adminfolder]/autoupgrade/download | * It should have a zip, an xml and an index.php files in your folder |
 | * Put another zip and xml from a new version in [yourshop]/[adminfolder]/autoupgrade/download | * It should have two zip, two xml and an index.php files in your folder |
 | * Return on your prestashop and reload the page | * You shouldn't have the image but you still have a green notification "You're up to date" and "Current PrestaShop version: [yourLastPrestaVersion]<br>Current PHP version: [YourPHP] "<br> * You should have : "You are already using the latest PrestaShop version available but you can update to the version of your choice from a local archive. "<br> * You should have a Radio button with "Local archive" in title and "Save the archive file of the version you want to update to in the following directory: /your-admin-directory/autoupgrade/download/ " in description |
