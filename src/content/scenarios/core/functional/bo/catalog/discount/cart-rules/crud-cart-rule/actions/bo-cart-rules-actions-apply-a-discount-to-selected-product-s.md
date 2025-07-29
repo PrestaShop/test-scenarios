@@ -6,7 +6,7 @@ weight: 9
 # BO - Cart rules - Actions - Apply a discount to Selected product(s) 
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10325
 
 ## Steps

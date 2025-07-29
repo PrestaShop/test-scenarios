@@ -47,7 +47,7 @@ weight: 5
 | In the "Filter properties", put "progressPercentage" and click on the arrow next to "Next param ..." | a parameters name : "progressPercentage" with a integer next to it is displayed |
 | Clic on another POST | another progressPercentage is displayed |
 | Close the inspect mode | your upgrade is displayed with a higher resolution |
-| Wait until the upgrade of modules | * "*{color:#00875a}Module checked{color}*" is displayed instead of <br>"*{color:#de350b}Module updated{color}*"  <br> * When modules is updated,, they are cutted in /*{color:#0747a6}x{color}* different part of upgrade. |
+| Wait until the upgrade of modules | * "*{color:#00875a}Module is up to date{color}*" is displayed instead of<br>"*{color:#de350b}Module updated{color}*"  <br> * When modules is updated,, they are cutted in /*{color:#0747a6}x{color}* different part of upgrade. |
 | Go to folder [yourShop]/[AdminDirectory]/autoupgrade | there is a config.var on the folder |
 | Wait until the end of the upgrade | The config.var is deleted |
 | Go to folder [yourShop]/[AdminDirectory]/autoupgrade/logs | There are a YYYY-MM-DD-HHMMSS-update.txt and a YYYY-MM-DD-HHMMSS-backup.txt  on this folder |
