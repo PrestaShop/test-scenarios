@@ -6,7 +6,7 @@ weight: 10
 # BO - Cart rules - Actions - Exclude discounted products
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Automation in review
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10326
 
 ## Steps
