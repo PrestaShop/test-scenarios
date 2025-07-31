@@ -6,7 +6,7 @@ weight: 11
 # BO - Cart rules - Actions - Send a free gift
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10327
 
 ## Steps
