@@ -22,13 +22,13 @@
     <title>Autoupgrade - Web Version - Rollback  :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1754375872" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1754375872" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1754375872" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1754375872" rel="stylesheet"><link href="../../../../css/auto-complete.css?1754375872" rel="stylesheet">
-    <link href="../../../../style.css?1754375872" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1754463776" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1754463776" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1754463776" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1754463776" rel="stylesheet"><link href="../../../../css/auto-complete.css?1754463776" rel="stylesheet">
+    <link href="../../../../style.css?1754463776" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1754375872"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1754463776"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28865,6 +28865,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-install-an-1-7-8-9-on-php-7-4.html" title="Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4" class="dd-item ">
         <a href="../../../../scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-install-an-1-7-8-9-on-php-7-4.html">
         Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup-when-you-already-done-it.html" title="Autoupgrade - Web Version - Do a backup when you already done it" class="dd-item ">
+        <a href="../../../../scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup-when-you-already-done-it.html">
+        Autoupgrade - Web Version - Do a backup when you already done it
         
         </a>
     </li>
@@ -60494,6 +60515,21 @@
     
   
       
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
     
   
       
@@ -68379,7 +68415,7 @@
 </tr>
 <tr>
 <td>Go to &ldquo;Update Assistant&rdquo; module (side board).</td>
-<td>* &ldquo;Update Assistant&rdquo; module is displayed : <br><br> ** Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br> ** CTA &ldquo;Get started&rdquo; disabled</td>
+<td>* &ldquo;Update Assistant&rdquo; module is displayed : <br><br> * <br> ** Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; <br> ** CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
 <td>Select the radio button &ldquo;Update your store&rdquo;.</td>
@@ -68415,7 +68451,7 @@
 </tr>
 <tr>
 <td>Go to &ldquo;Update Assistant&rdquo; module (side board).</td>
-<td>* &ldquo;Update Assistant&rdquo; module is displayed : <br><br> ** Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br> ** CTA &ldquo;Get started&rdquo; disabled</td>
+<td>* &ldquo;Update Assistant&rdquo; module is displayed : <br><br> * <br> ** Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; <br> ** CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
 <td>Select the radio button &ldquo;Update your store&rdquo;.</td>
@@ -68462,83 +68498,119 @@
 <td>* A loader is displayed in the CTA &ldquo;Get started&rdquo; then, &ldquo;Backup Selection&rdquo; page is displayed : <br><br> ** Stepper on step one (&ldquo;1 : Backup Selection&rdquo;)<br> ** Paragraph with &ldquo;Select the backup you want to restore&rdquo;<br> ** Droplist with selected &quot; MM/DD/AA,HH/MM [AM/PM] - V8.0.3_AAAAMMDD-HHMMSS-[random number] <br> ** 2 CTA : &ldquo;Delete selection&rdquo; and &ldquo;Restore&rdquo;</td>
 </tr>
 <tr>
-<td>pl</td>
-<td></td>
+<td>Click on the CTA &ldquo;Delete selection&rdquo; with trash icon</td>
+<td>Modal &ldquo;Delete backup&rdquo; is displayed with :<br> * a Trash icon with a background red <br> * a text description : You are about to delete the <em>[Prestashop_version]_AAAAMMDD-HHMMSS-[8_random_character]</em> backup made on <em>[MM/DD/AA HH/MM].</em> <br> * 2 CTA : &ldquo;Cancel&rdquo; and &ldquo;Delete&rdquo;(bg : red)</td>
 </tr>
 <tr>
-<td>* Click on the button &ldquo;Delete selection&rdquo; with trash icon</td>
-<td>You should have a modal with :<br> * a Trash icon with a background red <br> * a title &ldquo;Delete backup &ldquo;<br> * a cross button<br> * a text description : You are about to delete the <em>[backup_name]</em> backup made on <em>[MM/DD/AA HH/MM/SS].</em> <br> * a button ** Cancel<br> * a button Delete with a red background</td>
+<td>Click on :<br><br>* the CTA &ldquo;Cancel&rdquo;<br>* OR on the cross<br>* OR outside to the Modal<br>* OR do escape from the keyboard</td>
+<td>The modal is closed.</td>
 </tr>
 <tr>
-<td>* Click on Cancel button or on the cross or on the space behind the modal<br> * Click on the drop list <br> * Click on the first backup of the list</td>
-<td>* You should have the modal that disapear <br> * it should have three different backup <br> * the drop list should be closed on the last backup</td>
+<td>Click on the drop list</td>
+<td>There are three different backup</td>
 </tr>
 <tr>
-<td>* Click on the button &ldquo;Delete selection&rdquo; with trash icon</td>
-<td>You should have a modal with :<br> * a Trash icon with a background red <br> * a title &ldquo;Delete backup &ldquo;<br> * a cross button<br> * a text description : You are about to delete the <em>[backup_name]</em> backup made on <em>[MM/DD/AA HH/MM/SS].</em> <br> * a button ** Cancel<br> * a button Delete with a red background</td>
+<td>Click on the first backup of the list</td>
+<td>The drop list is closed on the last backup</td>
 </tr>
 <tr>
-<td>* Click on Delete button<br> * Click on the drop list <br> * Click again on the drop list</td>
-<td>* You should have the modal that disapear <br> * it should have only two different backup <br> * the drop list should be closed on the last backup</td>
+<td>Click on the CTA &ldquo;Delete selection&rdquo; with trash icon</td>
+<td>Modal &ldquo;Delete backup&rdquo; is displayed with :<br> * a Trash icon with a background red <br> * a text description : You are about to delete the <em>[Prestashop_version]_AAAAMMDD-HHMMSS-[8_random_character]</em> backup made on <em>[MM/DD/AA HH/MM].</em> <br> * 2 CTA : &ldquo;Cancel&rdquo; and &ldquo;Delete&rdquo;(bg : red)</td>
 </tr>
 <tr>
-<td>* go to your folder [yourshop]/[adminDirectory]/autoupgrade/backup<br> * Delete the folder that have the same name that the backup selected in the droplist <br> * Return on your web page</td>
-<td>* It should have 5 files : 2 zip, 2 folder and one index.php files <br> * The file should be correctly deleted<br> * There is no modification here</td>
+<td>Click on CTA Delete</td>
+<td>The modal is closed</td>
 </tr>
 <tr>
-<td>Click on Restore button</td>
-<td>You should return on the previous page (without the same backup on the drop list) with a red notification under the drop list that said : <br><br>&rdquo; ! Invalid configuration, [backupName] doesn&rsquo;t exist&rdquo;</td>
+<td>Click on the drop list</td>
+<td>There are two different backup</td>
 </tr>
 <tr>
-<td>* Do a right click on the drop list<br> * Click on inspect<br> * Change the value of the first option on the drop list</td>
-<td>* You should have all the different option when you do a right click <br> * You should have all different specification of the page and the part of the droplist should be highlighted <br> * The value should be changer</td>
+<td>Click on the drop list</td>
+<td>the drop list is closed on the last backup</td>
+</tr>
+<tr>
+<td>Go to folder [yourshop]/[adminDirectory]/autoupgrade/backup</td>
+<td>There are 5 files : 2 zip, 2 folder and one index.php files</td>
+</tr>
+<tr>
+<td>Delete the folder with the same name of the backup selected in the droplist</td>
+<td>The folder is deleted</td>
+</tr>
+<tr>
+<td>Return on web page and click on Restore button</td>
+<td>Drop list is reloaded without the same backup selected on drop list :<br><br> * Error message : &ldquo;Invalid configuration, backup [backupName] doesn&rsquo;t exist&rdquo;</td>
+</tr>
+<tr>
+<td>Do a right click on the drop list</td>
+<td>There are the different option of a right click</td>
+</tr>
+<tr>
+<td>Click on &ldquo;inspect&rdquo;</td>
+<td>* There are all different specification of the page <br>* The droplist&rsquo;s part is highlighted</td>
+</tr>
+<tr>
+<td>Change the value of the first option on the drop list</td>
+<td>The value is changed</td>
 </tr>
 <tr>
 <td>Click on CTA Restore</td>
-<td>You should return on the previous page (with the same backup on the drop list) with a red notification under the drop list that said : <br><br>&rdquo; ! Invalid configuration, <em>Backup name is missing</em> &quot;</td>
+<td>Drop list is reloaded with the same backup selected on drop list :<br><br>* Error message :&ldquo;Invalid configuration, Backup [value] doesn&rsquo;t exist&rdquo;</td>
 </tr>
 <tr>
-<td>Click on Restore Button</td>
-<td>You should have a modal with :<br> * a title &ldquo;Restore from a backup?&quot;<br> * a cross button<br> * a text description : You are about to restore <em>[PrestashopVersion]</em> using the backup from <em>[MM/DD/AA HH/MM/SS].</em> <br> * a button &ldquo;Cancel&rdquo;<br> * a button Restore with a blue background</td>
+<td>Click on CTA Restore</td>
+<td>Modal &ldquo;Restore from a backup?&rdquo; is displayed with :<br> * a text description : You are about to restore <em>[PrestashopVersion]</em> using the backup from <em>[MM/DD/AA, HH/MM].</em>  <br> * 2 CTA : &ldquo;Cancel&rdquo; and &ldquo;Restore&rdquo;(bg:blue)</td>
 </tr>
 <tr>
-<td>Click on blue button Restore</td>
-<td>* You should be on a new page named &ldquo;Restore&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;2 : Restore&rdquo;<br> * The current process writted<br> * a load bar<br> * The details of the current process on a second tab</td>
+<td>Click on blue CTA Restore</td>
+<td>The page &ldquo;Restore&rdquo; is displayed :<br><br>* Stepper on step 2 (&ldquo;Restore&rdquo;)<br>* Loading bar with the current process <br>* Details of the current process are listed</td>
 </tr>
 <tr>
 <td>Wait until the end of the restore</td>
-<td>You should have be on a new page with <br> * title : &quot; Post-restore checklist &ldquo;<br> * Stepper should be on &ldquo;3 : Post-restore&rdquo;<br> * A green notification : &ldquo;Your restoration is complete&rdquo;<br> * Sub title : &ldquo;Next step&rdquo; and Troubleshooting <br> * A link : &ldquo;Download restore logs&rdquo;<br> * 2 button : &ldquo;Exit&rdquo; and &quot; Open developer documentation&rdquo;</td>
+<td>The page &ldquo;Post-restore checklist&rdquo; is displayed : <br><br> * Stepper on step 3 (&lsquo;Post-restore&rdquo;)<br> * Success Alert : &ldquo;Your restoration is complete&rdquo;<br> * Subtitle : &ldquo;Next step&rdquo; and Troubleshooting <br> * A link : &ldquo;Download restore logs&rdquo;<br> * 2 CTAs : &ldquo;Exit&rdquo; and &quot; Open developer documentation&rdquo;</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;Download restore logs&rdquo; <br> * Click on &ldquo;Open Developper Document&rdquo;<br> * You can close the new tab showed</td>
-<td>* The download of the restore on txt should be launched by your bowser<br> * A new tab should be open with the name &ldquo;Post-restore checklist&rdquo; <br> * You&rsquo;ll return on the post-restore checklist</td>
+<td>Click on the link &ldquo;Download restore logs&rdquo;</td>
+<td>The download of the YYYY-MM-DD-HHMMSS-restore.txt is launched by the browser.</td>
 </tr>
 <tr>
-<td>Click on the button &ldquo;Exit&rdquo;</td>
-<td>* You should be redirected to &ldquo;[admin_folder]/index&rdquo;<br> * Prestashop ask you to log in</td>
+<td>Click on CTA &ldquo;Open Developper Document&rdquo;</td>
+<td>A new tab is opened : &ldquo;Post-restore checklist&rdquo;</td>
 </tr>
 <tr>
-<td>* Click on the Update assistant button on the sideboard</td>
-<td>* You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore shouldn&rsquo;t be disabled if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
+<td>Close the tab</td>
+<td>The module tab is displayed.</td>
 </tr>
 <tr>
-<td>Clic on the radio button next to &ldquo;Restore from a backup&rdquo;</td>
-<td>* Your radio button should be checked <br> * the button &ldquo;Get starder&rdquo; should be Enabled</td>
+<td>Click on the CTA &ldquo;Exit&rdquo;</td>
+<td>Redirection to &ldquo;[admin_folder]/index&rdquo;</td>
 </tr>
 <tr>
-<td>Click on the button &ldquo;Get started&rdquo;</td>
-<td>* You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named &ldquo;Bacjup Selection&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;1 : Backup Selection&rdquo;<br> * In the page, it should be : <br><br> * <br> **  a paragraph with &ldquo;Select the backup you want to restore to&rdquo;<br><br> * <br> ** A droplist with a selected backup that have  : <br><br> *** a date in MM/DD/AA<br> *** a time in HH/MM/SS<br> *** the name of the backup<br> ** a button &ldquo;Delete selection&rdquo; with a trash icon at the end <br> ** A button named &ldquo;Restore&rdquo; enabled</td>
+<td>Go to &ldquo;Update Assistant&rdquo; module (side board).</td>
+<td>&ldquo;Update Assistant&rdquo; module is displayed : <br> * Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> * Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br> * CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
-<td>* Click on the button &ldquo;Delete selection&rdquo; with trash icon</td>
-<td>You should have a modal with :<br> * a Trash icon with a background red <br> * a title &ldquo;Delete backup &ldquo;<br> * a cross button<br> * a text description : You are about to delete the <em>[backupName]</em> backup made on <em>MM/DD/AA - HH/MM/SS</em>. As it&rsquo;s your only backup, you will be redirected to the module&rsquo;s home page.<br> * a button ** Cancel<br> * a button Delete with a red background</td>
+<td>Select the radio button &ldquo;Restore from a backup&rdquo;</td>
+<td>* &ldquo;Restore from a backup&rdquo; radio button is selected<br> * CTA &ldquo;Get started&rdquo; is enabled</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Get started&rdquo;.</td>
+<td>* A loader is displayed in the CTA &ldquo;Get started&rdquo; then, &ldquo;Backup Selection&rdquo; page is displayed : <br><br> ** Stepper on step one (&ldquo;1 : Backup Selection&rdquo;)<br> ** Paragraph with &ldquo;Select the backup you want to restore&rdquo;<br> ** Droplist with selected &quot; MM/DD/AA,HH/MM [AM/PM] - V8.0.3_AAAAMMDD-HHMMSS-[random number] <br> ** 2 CTA : &ldquo;Delete selection&rdquo; and &ldquo;Restore&rdquo;</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Delete selection&rdquo; with trash icon</td>
+<td>Modal &ldquo;Delete backup&rdquo; is displayed with :<br> * a Trash icon with a background red <br> * a text description : You are about to delete the <em>[Prestashop_version]_AAAAMMDD-HHMMSS-[8_random_character]</em> backup made on <em>[MM/DD/AA HH/MM].</em> <br> * 2 CTA : &ldquo;Cancel&rdquo; and &ldquo;Delete&rdquo;(bg : red)</td>
+</tr>
+<tr>
+<td>Click on the CTA &ldquo;Delete selection&rdquo; with trash icon</td>
+<td>Modal &ldquo;Delete backup&rdquo; is displayed with :<br> * a Trash icon with a background red <br> * a text description : You are about to delete the <em>[Prestashop_version]_AAAAMMDD-HHMMSS-[8_random_character]</em> backup made on <em>[MM/DD/AA HH/MM]</em>. As it&rsquo;s your only backup, you will be redirected to the module&rsquo;s home page.<br> * 2 CTA : &ldquo;Cancel&rdquo; and &ldquo;Delete&rdquo;(bg : red)</td>
 </tr>
 <tr>
 <td>* Click on Delete button</td>
-<td>* You should be in the new UI page with :<br> ** the title &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> ** Two radio button with : Update your store and Restore from a backup <br> ** Radio button with the Restore should be disabled except if you have a backup <br> ** A button &ldquo;Get started&rdquo; disabled</td>
+<td>&ldquo;Update Assistant&rdquo; module is displayed : <br><br>* Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br>* Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br>* CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
-<td>* Go to &ldquo;<a href="https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y%22">https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y&quot;</a><br> * set on filter the parameters</td>
+<td>* Go to &ldquo;<a href="https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y%22">https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y&quot;</a> and set on filter the parameters</td>
 <td>You should see : <br> * [SUE] Upgrade Launched<br> * [SUE] Upgrade succeeded<br> * [SUE] Restore launched<br> * [SUE] Restore succeeded <br><br>With the same User ID and php write like &ldquo;X.X.XX&rdquo;</td>
 </tr>
 </tbody>
@@ -68561,17 +68633,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1754375872"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1754375872"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1754375872"></script>
-    <script src="../../../../js/jquery.sticky.js?1754375872"></script>
-    <script src="../../../../js/featherlight.min.js?1754375872"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1754375872"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1754375872"></script>
-    <script src="../../../../js/learn.js?1754375872"></script>
-    <script src="../../../../js/hugo-learn.js?1754375872"></script>
+    <script src="../../../../js/clipboard.min.js?1754463776"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1754463776"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1754463776"></script>
+    <script src="../../../../js/jquery.sticky.js?1754463776"></script>
+    <script src="../../../../js/featherlight.min.js?1754463776"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1754463776"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1754463776"></script>
+    <script src="../../../../js/learn.js?1754463776"></script>
+    <script src="../../../../js/hugo-learn.js?1754463776"></script>
     
-    <script src="../../../../main.js?1754375872"></script>
+    <script src="../../../../main.js?1754463776"></script>
     
     
     
