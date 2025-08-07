@@ -22,13 +22,13 @@
     <title>Autoupgrade - Middleware :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1754463776" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1754463776" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1754463776" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1754463776" rel="stylesheet"><link href="../../../../css/auto-complete.css?1754463776" rel="stylesheet">
-    <link href="../../../../style.css?1754463776" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1754550597" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1754550597" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1754550597" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1754550597" rel="stylesheet"><link href="../../../../css/auto-complete.css?1754550597" rel="stylesheet">
+    <link href="../../../../style.css?1754550597" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1754463776"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1754550597"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -68378,60 +68378,88 @@
 <td>Shop is in maintenance mode.</td>
 </tr>
 <tr>
-<td>Clic on the radio button next to &ldquo;Update your store&rdquo;</td>
-<td>* Your radio button should be checked <br> * the button &ldquo;Get starder&rdquo; should be Enabled</td>
+<td>Go to &ldquo;Update Assistant&rdquo; module (side board).</td>
+<td>&ldquo;Update Assistant&rdquo; module is displayed : <br> * Title : &ldquo;Welcome to PrestaShop Update Assistant&rdquo;<br> * Two radio buttons : &ldquo;Update your store&rdquo; and &ldquo;Restore from a backup&rdquo; (disabled)<br> * CTA &ldquo;Get started&rdquo; disabled</td>
 </tr>
 <tr>
-<td>Click on the button &ldquo;Get started&rdquo;</td>
-<td>* You should have an image that show the load on the button get started until the load of the next page <br> * You should be on a new page named &ldquo;Version choice&rdquo;<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br><br> * <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1<br><br> * <br> ** Two radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop 8.2.1[Minor version] With description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+<td>Select the radio button &ldquo;Update your store&rdquo;.</td>
+<td>* &ldquo;Update your store&rdquo; radio button is selected<br> * CTA &ldquo;Get started&rdquo; is enabled</td>
 </tr>
 <tr>
-<td>* Put a zip and xml from a new version in [yourshop]/[adminfolder]/autoupgrade/download</td>
-<td>* It should have a zip, an xml and an index.php files in your folder</td>
+<td>Click on the CTA &ldquo;Get started&rdquo;.</td>
+<td>A loader is displayed in the CTA &ldquo;Get started&rdquo; then, &ldquo;Version choice&rdquo; page is displayed : <br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4 / Current PHP version: 8.1.xx<br> * Radio button : PrestaShop 9.0.xx [Major version](blue color rgb(190, 234, 243)) with description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> * Blue alert info : &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/</em>&quot;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
-<td>* Put another zip and xml from a new version in [yourshop]/[adminfolder]/autoupgrade/download</td>
-<td>* It should have two zip, two xml and an index.php files in your folder</td>
+<td>Put a zip and xml with a greater version of 8.2.x in [yourshop]/[adminfolder]/autoupgrade/download</td>
+<td>There are a zip, an xml and an index.php files in your folder</td>
 </tr>
 <tr>
-<td>* Reload the update page</td>
-<td>* It should have the local channel loaded</td>
+<td>Put another zip and xml with a greater version of 8.2.x in [yourshop]/[adminfolder]/autoupgrade/download</td>
+<td>There are two zip, two xml and an index.php files in your folder</td>
 </tr>
 <tr>
-<td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-update-options&rdquo;</td>
-<td>You should be redirected to the same page : Update &ldquo;Version Choice&rdquo;</td>
+<td>Reload the page &ldquo;Version choice&rdquo;.</td>
+<td>&ldquo;Version choice&rdquo; page is displayed with : <br><br> <br><br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4 / Current PHP version: 8.1.xx<br> * 2 Radio button : <br>  ** PrestaShop 9.0.xx [Major version](blue color rgb(190, 234, 243)) with description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br>  ** &ldquo;Local archive&rdquo; with description &ldquo;Save the archive file of the version you want to update to in the following directory: /your-admin-directory/autoupgrade/download/ &ldquo;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
-<td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
-<td>* the checking requirement should be launched<br> * You should have a green notification with &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&rdquo; or  maybe some warning and the button &ldquo;Next&rdquo; should be enabled</td>
+<td>in the link ,<br>replace &ldquo;{color:#DE350B}&amp;route=update-page-version-choice{color}&rdquo; <br>by <br>&quot;{color:#00875A}&amp;route=update-page-update-options{color}&rdquo;</td>
+<td>&ldquo;Version choice&rdquo; page is displayed</td>
 </tr>
 <tr>
-<td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-update-options&rdquo;</td>
-<td>You should be redirected to the page : &ldquo;Update Option&rdquo;</td>
+<td>Select the radio button &ldquo;PrestaShop [last version]&rdquo;.</td>
+<td>Checking requirement is launched then is finished :<br><br>&ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&quot;<br>Or warnings <br>CTA &ldquo;Next&rdquo; is enabled</td>
 </tr>
 <tr>
-<td>Click on the previous button of your bowser</td>
-<td>You should be redirected to Update &ldquo;Version Choice&rdquo; page with the online channel set</td>
+<td>in the link ,<br>replace &ldquo;{color:#DE350B}&amp;route=update-page-version-choice{color}&rdquo; <br>by <br>&quot;{color:#00875A}&amp;route=update-page-update-options{color}&rdquo;</td>
+<td>&ldquo;Update option&rdquo; page is displayed</td>
 </tr>
 <tr>
-<td>* Clic on the Radio button next to &ldquo;Local archive&rdquo;<br> * Clic on the first drop list <br> * Select your zip folder <br> * Clic on the second drop list<br> * Select the secon xml folder</td>
-<td>* You should have two drop list :<br> ** One with title : &ldquo;Archive to use*&rdquo; and in the drop list &ldquo;Select an archive&rdquo;<br> ** One with title : &ldquo;XML file to use*&rdquo; and in the drop list &ldquo;Select a file&rdquo;<br> * You still have &ldquo;Select an archive&rdquo; selected and you have the zip name that you drop on your foler <br> * In the drop list, you should have the name of your selected zip <br> * You still have &ldquo;Select a file&rdquo; selected and you have the xml name that you drop on your foler <br> * In the drop list, you should have the name of your selected xml and the checking requirement should be started</td>
+<td>Click on the previous button on bowser</td>
+<td>&ldquo;Version choice&rdquo; page is displayed</td>
 </tr>
 <tr>
-<td>* The check is finished</td>
-<td>* You should have some warning like &ldquo;We were unable to check your PHP compatibility with PrestaShop [PrestashopVersionAimed] &ldquo;and the button &ldquo;Next&rdquo; should be enabled</td>
+<td>Select the Radio button &ldquo;Local archive&rdquo;</td>
+<td>You should have two drop list :<br> * One with title : &ldquo;Archive to use*&rdquo; and in the drop list &ldquo;Select an archive&rdquo;<br> * One with title : &ldquo;XML file to use*&rdquo; and in the drop list &ldquo;Select a file&rdquo;</td>
 </tr>
 <tr>
-<td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-update-options&rdquo;</td>
-<td>You should be redirected to the same page : &ldquo;Update Option&rdquo;</td>
+<td>Clic on the first drop list</td>
+<td>You still have &ldquo;Select an archive&rdquo; selected and &ldquo;{color:#4c9aff}<em>[newzip1.zip]</em>{color}&rdquo;,&quot;{color:#ffab00}<em>[newzip2.zip]</em>{color}&rdquo; don&rsquo;t selected</td>
 </tr>
 <tr>
-<td>* Delete the zip or the xml linked to version aimed from [yourshop]/[adminfolder]/autoupgrade/download<br> * Reload the current page</td>
-<td>* The file should be deleted<br> * you should be redirected to the Update &ldquo;Version Choice&rdquo; page with local channel set and with one of the xml or zip only</td>
+<td>Select &ldquo;<em>{color:#4c9aff}[newzip1.zip]{color}</em>&rdquo;</td>
+<td>In the drop list, &ldquo;<em>{color:#4c9aff}[newzip1.zip{color}</em>]&rdquo; is selected</td>
 </tr>
 <tr>
-<td>* Delete the &ldquo;update_config.var&rdquo; files  from [yourshop]/[adminfolder]/autoupgrade<br> * Reload the current page</td>
-<td>* The file should be deleted<br> * you should be redirected to the Update &ldquo;Version Choice&rdquo; page with none radio button selected</td>
+<td>Clic on the second drop list</td>
+<td>* You still have &ldquo;Select a file&rdquo; selected and &ldquo;{color:#4c9aff}<em>[newxml1.xml]</em>{color}&rdquo;,&quot;{color:#ffab00}<em>[newxml2.xml]</em>{color}&rdquo; don&rsquo;t selected</td>
+</tr>
+<tr>
+<td>Select &ldquo;<em>{color:#4c9aff}[newxml1.xml]{color}</em>&rdquo;</td>
+<td>* In the drop list, &ldquo;{color:#4c9aff}<em>[newxml1.xml]</em>{color}&rdquo; is selected<br><br> * Checking requirement is launched then is finished :<br> ** &ldquo;Please consider these warnings before continuing with the update. Read more in the [developer documentation</td>
+</tr>
+<tr>
+<td>in the link ,<br>replace &ldquo;{color:#DE350B}&amp;route=update-page-version-choice{color}&rdquo; <br>by <br>&quot;{color:#00875A}&amp;route=update-page-update-options{color}&rdquo;</td>
+<td>&ldquo;Update option&rdquo; page is displayed</td>
+</tr>
+<tr>
+<td>Delete &ldquo;<em>{color:#4c9aff}[newzip1.zip]{color}</em>&rdquo; from [yourshop]/[adminfolder]/autoupgrade/download</td>
+<td>&ldquo;<em>{color:#4c9aff}[newzip1.zip]{color}</em>&rdquo; is deleted</td>
+</tr>
+<tr>
+<td>Reload the page &ldquo;Version option&rdquo;.</td>
+<td>&ldquo;Version choice&rdquo; page is displayed with two drop list :<br> * One with title : &ldquo;Archive to use*&rdquo; and in the drop list &ldquo;Select an archive&rdquo;<br> * One with title : &ldquo;XML file to use*&rdquo; and in the drop list &ldquo;Select a file&rdquo;</td>
+</tr>
+<tr>
+<td>Delete &ldquo;update_config.var&rdquo; files  from [yourshop]/[adminfolder]/autoupgrade</td>
+<td>The file is deleted</td>
+</tr>
+<tr>
+<td>Reload the page &ldquo;Version Choice&rdquo;.</td>
+<td>&ldquo;Version choice&rdquo; page is displayed with : <br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 8.0.4 / Current PHP version: 8.1.xx<br> * 2 Radio button, none of them selected : <br> ** PrestaShop 9.0.xx [Major version](blue color rgb(190, 234, 243)) with description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> ** &ldquo;Local archive&rdquo; with description &ldquo;Save the archive file of the version you want to update to in the following directory: /your-admin-directory/autoupgrade/download/ &ldquo;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
+</tr>
+<tr>
+<td><em>{color:#57D9A3}PLPLPLPLPLPLPLPLPLPL{color}</em></td>
+<td></td>
 </tr>
 <tr>
 <td>on the link of the page, replace &ldquo;route=update-page-version-choice&rdquo; by &ldquo;route=update-page-backup-options&rdquo;</td>
@@ -68557,17 +68585,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1754463776"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1754463776"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1754463776"></script>
-    <script src="../../../../js/jquery.sticky.js?1754463776"></script>
-    <script src="../../../../js/featherlight.min.js?1754463776"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1754463776"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1754463776"></script>
-    <script src="../../../../js/learn.js?1754463776"></script>
-    <script src="../../../../js/hugo-learn.js?1754463776"></script>
+    <script src="../../../../js/clipboard.min.js?1754550597"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1754550597"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1754550597"></script>
+    <script src="../../../../js/jquery.sticky.js?1754550597"></script>
+    <script src="../../../../js/featherlight.min.js?1754550597"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1754550597"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1754550597"></script>
+    <script src="../../../../js/learn.js?1754550597"></script>
+    <script src="../../../../js/hugo-learn.js?1754550597"></script>
     
-    <script src="../../../../main.js?1754463776"></script>
+    <script src="../../../../main.js?1754550597"></script>
     
     
     
