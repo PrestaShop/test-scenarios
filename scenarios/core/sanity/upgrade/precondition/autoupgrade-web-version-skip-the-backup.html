@@ -22,13 +22,13 @@
     <title>Autoupgrade - Web Version - Skip the backup :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../css/font-awesome.min.css?1756277662" rel="stylesheet">
-    <link href="../../../../../css/syntax-github.css?1756277662" rel="stylesheet">
-    <link href="../../../../../css/featherlight.min.css?1756277662" rel="stylesheet">
-    <link href="../../../../../css/perfect-scrollbar.min.css?1756277662" rel="stylesheet"><link href="../../../../../css/auto-complete.css?1756277662" rel="stylesheet">
-    <link href="../../../../../style.css?1756277662" rel="stylesheet">
+    <link href="../../../../../css/font-awesome.min.css?1756362811" rel="stylesheet">
+    <link href="../../../../../css/syntax-github.css?1756362811" rel="stylesheet">
+    <link href="../../../../../css/featherlight.min.css?1756362811" rel="stylesheet">
+    <link href="../../../../../css/perfect-scrollbar.min.css?1756362811" rel="stylesheet"><link href="../../../../../css/auto-complete.css?1756362811" rel="stylesheet">
+    <link href="../../../../../style.css?1756362811" rel="stylesheet">
 
-    <script src="../../../../../js/jquery-3.3.1.min.js?1756277662"></script>
+    <script src="../../../../../js/jquery-3.3.1.min.js?1756362811"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -28279,9 +28279,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-middleware.html" title="Autoupgrade - Middleware" class="dd-item ">
-        <a href="../../../../../scenarios/core/sanity/upgrade/autoupgrade-middleware.html">
-        Autoupgrade - Middleware
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-update-part.html" title="Autoupgrade - Middleware on update Part" class="dd-item ">
+        <a href="../../../../../scenarios/core/sanity/upgrade/autoupgrade-middleware-on-update-part.html">
+        Autoupgrade - Middleware on update Part
         
         </a>
     </li>
@@ -28450,6 +28450,27 @@
       <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html" title="Autoupgrade - Web Version - Verification during the post Upgrade page" class="dd-item ">
         <a href="../../../../../scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html">
         Autoupgrade - Web Version - Verification during the post Upgrade page
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html" title="Autoupgrade - Middleware on Backup Part" class="dd-item ">
+        <a href="../../../../../scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html">
+        Autoupgrade - Middleware on Backup Part
         
         </a>
     </li>
@@ -60283,6 +60304,21 @@
       
 
       
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
         
     
     
@@ -68372,11 +68408,11 @@
 <td>* A loader is displayed in the CTA &ldquo;Get started&rdquo; then, &ldquo;Version choice&rdquo; page is displayed : <br><br> ** Stepper on step one (&ldquo;Version choice&rdquo;)<br> ** Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.1.xx<br> ** Radio button : PrestaShop 1.7.8.xx [Patch version](blue color rgb(190, 234, 243)) with description &ldquo;The maximum version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> ** Blue alert info : &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/</em>&quot;<br> ** CTA : &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
-<td>* Clic on the Radio button next to &ldquo;Prestashop [last version]&quot;<br> * The check is finished</td>
+<td>Clic on the Radio button next to &ldquo;Prestashop [last version]&rdquo;</td>
 <td>* Checking requirement is launched then is finished :<br><br> ** &ldquo;The requirements check is complete, you can update your store to this version of PrestaShop.&quot;<br> ** Or warnings <br> ** CTA &ldquo;Next&rdquo; is enabled</td>
 </tr>
 <tr>
-<td>* Click on the CTA &ldquo;Next&rdquo;.</td>
+<td>Click on the CTA &ldquo;Next&rdquo;.</td>
 <td>* &ldquo;Update options&rdquo; page is displayed :  <br><br> ** Stepper on step 2 (&ldquo;Update options&rdquo;)<br> ** 3 toggles : &ldquo;Deactivate non-native modules&rdquo;, &ldquo;Regenerate email templates&rdquo; , &ldquo;Disable all overrides&rdquo;  with details about them under their name <br> ** CTA &ldquo;Next&rdquo; enabled</td>
 </tr>
 <tr>
@@ -68392,7 +68428,7 @@
 <td>The CTA &ldquo;Start update&rdquo; is enabled.</td>
 </tr>
 <tr>
-<td>* Click on the CTA &ldquo;Start update&rdquo;.</td>
+<td>Click on the CTA &ldquo;Start update&rdquo;.</td>
 <td>* The page &ldquo;Update&rdquo; is displayed :<br><br> ** Stepper on step 4 (&ldquo;Update&rdquo;)<br> ** loading bar with the current process <br> ** details of the current process are listed</td>
 </tr>
 </tbody>
@@ -68415,17 +68451,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../js/clipboard.min.js?1756277662"></script>
-    <script src="../../../../../js/perfect-scrollbar.min.js?1756277662"></script>
-    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1756277662"></script>
-    <script src="../../../../../js/jquery.sticky.js?1756277662"></script>
-    <script src="../../../../../js/featherlight.min.js?1756277662"></script>
-    <script src="../../../../../js/html5shiv-printshiv.min.js?1756277662"></script>
-    <script src="../../../../../js/modernizr.custom-3.6.0.js?1756277662"></script>
-    <script src="../../../../../js/learn.js?1756277662"></script>
-    <script src="../../../../../js/hugo-learn.js?1756277662"></script>
+    <script src="../../../../../js/clipboard.min.js?1756362811"></script>
+    <script src="../../../../../js/perfect-scrollbar.min.js?1756362811"></script>
+    <script src="../../../../../js/perfect-scrollbar.jquery.min.js?1756362811"></script>
+    <script src="../../../../../js/jquery.sticky.js?1756362811"></script>
+    <script src="../../../../../js/featherlight.min.js?1756362811"></script>
+    <script src="../../../../../js/html5shiv-printshiv.min.js?1756362811"></script>
+    <script src="../../../../../js/modernizr.custom-3.6.0.js?1756362811"></script>
+    <script src="../../../../../js/learn.js?1756362811"></script>
+    <script src="../../../../../js/hugo-learn.js?1756362811"></script>
     
-    <script src="../../../../../main.js?1756277662"></script>
+    <script src="../../../../../main.js?1756362811"></script>
     
     
     
