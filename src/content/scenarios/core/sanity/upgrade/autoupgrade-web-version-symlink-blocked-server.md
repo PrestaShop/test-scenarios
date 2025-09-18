@@ -1,12 +1,12 @@
 ---
 title: "Autoupgrade - Web Version -  symlink - blocked server"
-weight: 19
+weight: 18
 ---
 
 # Autoupgrade - Web Version -  symlink - blocked server
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11754
 
 ## Steps
@@ -33,7 +33,14 @@ weight: 19
 | Clic on the Radio button next to "Prestashop [last version]" | * Checking requirement is launched then is finished :<br><br> ** "The requirements check is complete, you can update your store to this version of PrestaShop."<br> ** Or warnings <br> ** CTA "Next" is enabled |
 | Change the php.ini to block symlink, <br>replace : <br>*{color:#FF0000}; disable_functions=symlink{color}*<br>by<br>*{color:#00875a}disable_functions=symlink{color}* | Php is modified. |
 | Restart your apache service | Your command is launched |
-| Reload the page "Version choice" | * Checking requirement is launched then is finished :<br><br> * <br> ** "The requirements check is complete, you can update your store to this version of PrestaShop."<br> ** Error<br> ** CTA "Next" is disabled |
+| Reload the page "Version choice" | * Checking requirement is launched then is finished :<br><br> * <br> ** "Once all the following conditions are met, you can continue with the update. Read more in the developer documentation. "<br> ** Error "The following PHP functions need to be allowed: symlink"<br> ** CTA "Next" is disabled |
+| Put a zip and xml with a greater version of 9.x.x in [yourshop]/[adminfolder]/autoupgrade/download | There are a zip, an xml and an index.php files in your folder |
+| Reload the page "Version choice". | * "Version choice" page is displayed with : <br><br> * <br> ** Stepper on step one ("Version choice")<br> ** Paragraph with "A more recent version is available / Current PrestaShop version: [your current version of prestashop]/ Current PHP version: [your current version of php]<br> ** Radio button : "Local archive" with description "Save the archive file of the version you want to update to in the following directory: /your-admin-directory/autoupgrade/download/ "<br> ** CTA : "Next" disabled |
+| Select the Radio button "Local archive" | * You should have two drop list :<br> ** One with title : "Archive to use*" and in the drop list "Select an archive"<br> ** One with title : "XML file to use*" and in the drop list "Select a file" |
+| Clic on the first drop list | You still have "Select an archive" selected and "{color:#4c9aff}*[newzip1.zip]*{color}" don't selected |
+| Select "*{color:#4c9aff}[newzip1.zip]{color}*" | In the drop list, "*{color:#4c9aff}[newzip1.zip{color}*]" is selected |
+| Clic on the second drop list | * You still have "Select a file" selected and "{color:#4c9aff}*[newxml1.xml]*{color}" don't selected |
+| Select "*{color:#4c9aff}[newxml1.xml]{color}*" | * In the drop list, "{color:#4c9aff}*[newxml1.xml]*{color}" is selected<br><br> * Checking requirement is launched then is finished :<br> ** "Please consider these warnings before continuing with the update. Read more in the [developer documentation|https://devdocs.prestashop-project.org/9/basics/keeping-up-to-date/update/update-from-the-back-office]. "<br> ** Warnings : "We were unable to check your PHP compatibility with PrestaShop *{color:#4c9aff}[versionOfYourZip]{color}*" and "Updates to this PrestaShop version are not officially supported by the Update Assistant module."{<br> ** CTA "Next" enabled |
 | Click on the CTA "Next". | * "Update options" page is displayed :  <br><br> ** Stepper on step 2 ("Update options")<br> ** 3 toggles : "Deactivate non-native modules", "Regenerate email templates" , "Disable all overrides"  with details about them under their name <br> ** CTA "Next" enabled |
 | Click on the CTA "Next". | * "Back up your store" page is displayed :  <br><br> ** Stepper on step 3 ("Backup")<br> ** Subtitle "Backing up your store's files, database, and images means you can restore to a previous version if something goes wrong during the update. This keeps your data safe and ensures your business stays up and running."<br> ** Toggle : "Include images in your backup" on Yes status<br> ** 2 CTAs : "Update without backup" and "Launch backup" (both available) |
 | Click on the CTA "Launch backup". | Modal "Start backup?" is displayed : <br> * Text : "Your files, database, and images will be backed up."<br> * 2 CTAs : "Cancel" and "Start backup" |
