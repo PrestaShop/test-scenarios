@@ -1,14 +1,15 @@
 ---
-title: "DELETE /attributes/group/{attributeGroupId}"
-weight: 1
+title: "GET /attributes/group/{attributeGroupId}"
+weight: 2
 ---
 
-# DELETE /attributes/group/{attributeGroupId}
+# GET /attributes/group/{attributeGroupId}
 ## Details
 * **Component** : Core
 * **Status** : Automated
 * **Automated on** : 9.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11794
+* **Scenario** : https://forge.prestashop.com/browse/TEST-11929
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/02_getAttributesGroupId.ts
 
 ## Steps
 | Step Description | Expected result |
@@ -21,7 +22,8 @@ weight: 1
 | Click on "Add new Attribute" button | The Add new attribute page is displayed |
 | Set the fields > Click on "Save" | The attribute is well created and a green alert "Successful creation" is displayed |
 | Filter by name of the created attribute & Fetch its ID as \{attributeGroupId} | 1 record found |
-| Request with method DELETE the endpoint "https://[url of your shop]/admin-api/attributes/group/\{attributeGroupId}" | The HTTP code is 204. |
+| Request with method GET the endpoint "https://[url of your shop]/admin-api/attributes/group/\{attributeGroupId}" where \{attributeGroupId} is the previous ID get | The return value is in JSON.<br><br>The return data has multiples keys : "attributeGroupId", "names", "publicNames", "shopIds", "type"<br><br>The return data keys are consistent relative to BackOffice data. |
+| Delete the selected Attribute Group > Confirm the deletion | The alert "Successful deletion." is displayed |
 | Filter by groupe name with the name of the created group | 0 record found |
 | Reset all filters | Filters are reset<br>Total attributes = Number of Attributes |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
