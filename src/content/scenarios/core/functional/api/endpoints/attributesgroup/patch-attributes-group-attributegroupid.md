@@ -6,9 +6,10 @@ weight: 3
 # PATCH /attributes/group/{attributeGroupId}
 ## Details
 * **Component** : Core
-* **Status** : Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11953
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/03_patchAttributesGroupId.ts
 
 ## Steps
 | Step Description | Expected result |
