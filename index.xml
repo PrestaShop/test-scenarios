@@ -1415,13 +1415,6 @@
       <description>GET /admin-api/api-client/infos Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8609 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/01_getApiClientInfos.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
-      <title>GET /admin-api/hook-status/{id}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-admin-api-hook-status-id.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-admin-api-hook-status-id.html</guid>
-      <description>GET /admin-api/hook-status/{id} Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-7792 Steps Step Description Expected result In BO, Go to Design &amp;gt; Positions Positions Page is displayed correctly. Get the ID of the first hook of the page !https://forge.prestashop.com/plugins/servlet/raven/attachment/1571/ID+hook.png Request with method GET the endpoint &amp;ldquo;https://[url of your shop]/admin-dev/index.php/api/hook-status/{id}&amp;rdquo; where {id} is the previous ID get The return value is in JSON.&#xA;The return data has multiples keys : &amp;ldquo;id&amp;rdquo;, &amp;ldquo;active&amp;rdquo;</description>
-    </item>
-    <item>
       <title>GET /admin-api/languages</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-admin-api-languages.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1812,6 +1805,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-viewedproduct/configuration/ps-viewedproduct-configure-settings.html</guid>
       <description>ps_viewedproduct - Configure Settings Details Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-7267 Steps Step Description Expected result Go to FO&amp;gt; choose a product The product page is displayed Go to BO&amp;gt; Modules&amp;gt; Module Manager Module Manager page is well displayed Search viewedproduct module Viewed products block module is displayed in Design &amp;amp; Navigation result Click on Configure module button Configure / Viewed products block page is well displayed Edit Products to display,</description>
+    </item>
+    <item>
+      <title>PUT /admin-api/hook/{hookId}/status</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/put-admin-api-hook-hookid-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/put-admin-api-hook-hookid-status.html</guid>
+      <description>PUT /admin-api/hook/{hookId}/status Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11996 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/01_putHookIdStatus.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Select a bloc in the picture &amp; Configure a module</title>
@@ -4479,6 +4479,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/get-admin-api-api-client-apiclientid.html</guid>
       <description>GET /admin-api/api-client/{apiClientId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7789 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/03_getApiClientId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+    </item>
+    <item>
+      <title>GET /admin-api/hook-status/{id}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-admin-api-hook-status-id.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-admin-api-hook-status-id.html</guid>
+      <description>GET /admin-api/hook-status/{id} Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-7792 Steps Step Description Expected result In BO, Go to Design &amp;gt; Positions Positions Page is displayed correctly. Get the ID of the first hook of the page !https://forge.prestashop.com/plugins/servlet/raven/attachment/1571/ID+hook.png Request with method GET the endpoint &amp;ldquo;https://[url of your shop]/admin-dev/index.php/api/hook-status/{id}&amp;rdquo; where {id} is the previous ID get The return value is in JSON.&#xA;The return data has multiples keys : &amp;ldquo;id&amp;rdquo;, &amp;ldquo;active&amp;rdquo;</description>
     </item>
     <item>
       <title>Mail alerts module - Uninstall and delete module</title>
