@@ -6,7 +6,7 @@ weight: 12
 # BO - Orders - Multicarrier
 ## Details
 * **Component** : Core
-* **Status** : In progress
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11917
 
 ## Steps
@@ -56,7 +56,8 @@ weight: 12
 | Click on the "..." CTA of the first shipment line. | "Split" and "Merge" CTA are displayed. |
 | Click on the CTA "Merge". | "Merge shipment" modal is displayed with the alert : <br><br>"This shipment can't be modified because a tracking number has already been assigned, indicating that it has already been shipped." |
 | Select a product. | Product selected. |
-| Click on the "Select shipment" dropdown menu. | The shipment is disabled. |
+| Click on the "Select shipment" dropdown menu. | The shipment is enabled. |
+| Select the shipment. | The shipment is selected, CTA "Merge shipment" is still disabled. |
 | Close the modal. | Modal is closed, no refresh. |
 | Click on the "..." CTA of the second shipment line. | "Split" and "Merge" CTA are displayed. |
 | Click on the CTA "Merge". | "Merge shipment" modal is displayed. |
