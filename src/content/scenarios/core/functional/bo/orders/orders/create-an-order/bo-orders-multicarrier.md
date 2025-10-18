@@ -6,7 +6,7 @@ weight: 12
 # BO - Orders - Multicarrier
 ## Details
 * **Component** : Core
-* **Status** : Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11917
 
 ## Steps

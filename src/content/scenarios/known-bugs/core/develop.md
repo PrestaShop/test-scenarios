@@ -3,16 +3,18 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (34 campaigns / 41 issues)
+# Known bugs (35 campaigns / 42 issues)
 * **[tests/UI/campaigns/audit/BO/06_statistics.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/06_statistics.ts)** :
   * [PrestaShop#37520 : Stats > Newsletter : `Uncaught TypeError: e is undefined`](https://github.com/PrestaShop/PrestaShop/issues/37520)
   * [PrestaShop#37521 : Stats > Sales and orders : `Uncaught TypeError: e is undefined`](https://github.com/PrestaShop/PrestaShop/issues/37521)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
   * [PrestaShop#38784 : Delete / list / tests discounts](https://github.com/PrestaShop/PrestaShop/issues/38784)
   * [PrestaShop#38647 : GET & POST endpoints for each type](https://github.com/PrestaShop/PrestaShop/issues/38647)
-* **[tests/UI/campaigns/functional/API/02_endpoints/04_hook/01_putHookStatusId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/01_putHookStatusId.ts)** :
-  * [PrestaShop#34507 : API : Endpoint `PUT /api/hook-status` - Issues Doc Swagger & Enpoint format ](https://github.com/PrestaShop/PrestaShop/issues/34507)
-* **[tests/UI/campaigns/functional/API/02_endpoints/04_hook/02_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/02_getHooks.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts)** :
+  * [PrestaShop#39729 : Admin API : Endpoint `POST /attributes/group` : The response is not the expected : Missing key `position`](https://github.com/PrestaShop/PrestaShop/issues/39729)
+* **[tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts)** :
+  * [PrestaShop#39753 : Endpoint `GET /attributes/groups` : The field `position` is not consistant to BackOffice](https://github.com/PrestaShop/PrestaShop/issues/39753)
+* **[tests/UI/campaigns/functional/API/02_endpoints/04_hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/03_getHooks.ts)** :
   * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
 * **[tests/UI/campaigns/functional/API/02_endpoints/07_product/08_patchProductId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/08_patchProductId.ts)** :
   * [PrestaShop#38787 : API : Endpoint `PATCH /product/{productId}` : Field `availableDate` : Can't use a datetime](https://github.com/PrestaShop/PrestaShop/issues/38787)
