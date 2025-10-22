@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Condition - Case 6 - Country selection"
-weight: 6
+weight: 7
 ---
 
 # BO - Cart rules - Condition - Case 6 - Country selection

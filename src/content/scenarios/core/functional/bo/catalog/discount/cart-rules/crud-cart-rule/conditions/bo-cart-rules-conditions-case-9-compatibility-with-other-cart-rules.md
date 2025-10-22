@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Conditions - Case 9 - Compatibility with other cart rules"
-weight: 9
+weight: 10
 ---
 
 # BO - Cart rules - Conditions - Case 9 - Compatibility with other cart rules

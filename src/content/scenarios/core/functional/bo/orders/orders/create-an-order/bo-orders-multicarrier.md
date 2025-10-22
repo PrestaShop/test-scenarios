@@ -8,6 +8,7 @@ weight: 12
 * **Component** : Core
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11917
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/createOrders/11_multiCarrier.ts
 
 ## Steps
 | Step Description | Expected result |
