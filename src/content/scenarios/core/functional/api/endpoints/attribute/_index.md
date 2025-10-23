@@ -1,9 +1,9 @@
 ---
-title: AttributesGroup
-menuTitle: AttributesGroup
+title: Attribute
+menuTitle: Attribute
 chapter: true
 ---
 
-# AttributesGroup
+# Attribute
 
 {{% children titlePages="Tests" titleSections="Categories" /%}}

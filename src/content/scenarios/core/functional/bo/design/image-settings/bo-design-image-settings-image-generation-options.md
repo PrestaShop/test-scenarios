@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Image Settings - Image Generation options - Automated version"
+title: "BO - Design - Image Settings - Image Generation options"
 weight: 7
 ---
 
-# BO - Design - Image Settings - Image Generation options - Automated version
+# BO - Design - Image Settings - Image Generation options
 ## Details
 * **Component** : Core
 * **Status** : Automated

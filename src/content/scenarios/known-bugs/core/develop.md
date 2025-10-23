@@ -3,10 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (35 campaigns / 42 issues)
-* **[tests/UI/campaigns/audit/BO/06_statistics.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/06_statistics.ts)** :
-  * [PrestaShop#37520 : Stats > Newsletter : `Uncaught TypeError: e is undefined`](https://github.com/PrestaShop/PrestaShop/issues/37520)
-  * [PrestaShop#37521 : Stats > Sales and orders : `Uncaught TypeError: e is undefined`](https://github.com/PrestaShop/PrestaShop/issues/37521)
+# Known bugs (34 campaigns / 40 issues)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
   * [PrestaShop#38784 : Delete / list / tests discounts](https://github.com/PrestaShop/PrestaShop/issues/38784)
   * [PrestaShop#38647 : GET & POST endpoints for each type](https://github.com/PrestaShop/PrestaShop/issues/38647)
