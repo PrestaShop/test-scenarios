@@ -996,9 +996,9 @@
     </item>
     <item>
       <title>DELETE /attributes/group/{attributeGroupId}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/delete-attributes-group-attributegroupid.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/delete-attributes-group-attributegroupid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/delete-attributes-group-attributegroupid.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/delete-attributes-group-attributegroupid.html</guid>
       <description>DELETE /attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11794 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/01_deleteAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
@@ -1006,7 +1006,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</guid>
-      <description>Known bugs (35 campaigns / 42 issues) tests/UI/campaigns/audit/BO/06_statistics.ts : PrestaShop#37520 : Stats &amp;gt; Newsletter : Uncaught TypeError: e is undefined PrestaShop#37521 : Stats &amp;gt; Sales and orders : Uncaught TypeError: e is undefined tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.</description>
+      <description>Known bugs (34 campaigns / 40 issues) tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts : PrestaShop#39753 : Endpoint GET /attributes/groups : The field position is not consistant to BackOffice tests/UI/campaigns/functional/API/02_endpoints/04_hook/03_getHooks.ts : PrestaShop#35616 : Endpoint /api/hooks &amp;amp; List of Hooks : Incorrect count of hooks tests/UI/campaigns/functional/API/02_endpoints/07_product/08_patchProductId.</description>
     </item>
     <item>
       <title>EditCheckCart</title>
@@ -1937,7 +1937,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/9.0.x.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/9.0.x.html</guid>
-      <description>Known bugs (33 campaigns / 39 issues) tests/UI/campaigns/audit/BO/06_statistics.ts : PrestaShop#37520 : Stats &amp;gt; Newsletter : Uncaught TypeError: e is undefined PrestaShop#37521 : Stats &amp;gt; Sales and orders : Uncaught TypeError: e is undefined tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts : PrestaShop#39753 : Endpoint GET /attributes/groups : The field position is not consistant to BackOffice tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.</description>
+      <description>Known bugs (33 campaigns / 39 issues) tests/UI/campaigns/audit/BO/06_statistics.ts : PrestaShop#37520 : Stats &amp;gt; Newsletter : Uncaught TypeError: e is undefined PrestaShop#37521 : Stats &amp;gt; Sales and orders : Uncaught TypeError: e is undefined tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts : PrestaShop#39753 : Endpoint GET /attributes/groups : The field position is not consistant to BackOffice tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.</description>
     </item>
     <item>
       <title>Add a custom currency</title>
@@ -3092,7 +3092,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-admin-api-hooks-id.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-admin-api-hooks-id.html</guid>
-      <description>GET /admin-api/hooks/{id} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7790 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooksId.ts Steps Step Description Expected result In BO, Go to Design &amp;gt; Positions Positions Page is displayed correctly. Get the ID of the first hook of the page !https://forge.prestashop.com/plugins/servlet/raven/attachment/1571/ID+hook.png Request with method GET the endpoint &amp;ldquo;https://[url of your shop]/admin-dev/index.php/api/hooks/{id}&amp;rdquo; where {id} is the previous ID get The return value is in JSON.</description>
+      <description>GET /admin-api/hooks/{id} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7790 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hook/02_getHookId.ts Steps Step Description Expected result In BO, Go to Design &amp;gt; Positions Positions Page is displayed correctly. Get the ID of the first hook of the page !https://forge.prestashop.com/plugins/servlet/raven/attachment/1571/ID+hook.png Request with method GET the endpoint &amp;ldquo;https://[url of your shop]/admin-dev/index.php/api/hooks/{id}&amp;rdquo; where {id} is the previous ID get The return value is in JSON.</description>
     </item>
     <item>
       <title>GET /admin-api/modules</title>
@@ -3103,9 +3103,9 @@
     </item>
     <item>
       <title>GET /attributes/group/{attributeGroupId}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/get-attributes-group-attributegroupid.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-attributes-group-attributegroupid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/get-attributes-group-attributegroupid.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-attributes-group-attributegroupid.html</guid>
       <description>GET /attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11929 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/02_getAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
@@ -4531,9 +4531,9 @@
     </item>
     <item>
       <title>PATCH /attributes/group/{attributeGroupId}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/patch-attributes-group-attributegroupid.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/patch-attributes-group-attributegroupid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/patch-attributes-group-attributegroupid.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/patch-attributes-group-attributegroupid.html</guid>
       <description>PATCH /attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11953 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/03_patchAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
@@ -5693,9 +5693,9 @@
     </item>
     <item>
       <title>POST /attributes/group</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/post-attributes-group.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/post-attributes-group.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/post-attributes-group.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/post-attributes-group.html</guid>
       <description>POST /attributes/group Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11974 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
@@ -6477,9 +6477,9 @@
     </item>
     <item>
       <title>PUT /attributes/groups/delete</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/put-attributes-groups-delete.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/put-attributes-groups-delete.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/put-attributes-groups-delete.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/put-attributes-groups-delete.html</guid>
       <description>PUT /attributes/groups/delete Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12029 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/05_putAttributesGroupsDelete.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
@@ -6946,9 +6946,9 @@
     </item>
     <item>
       <title>GET /admin-api/attributes/groups</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/get-admin-api-attributes-groups.html</link>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-admin-api-attributes-groups.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attributesgroup/get-admin-api-attributes-groups.html</guid>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-admin-api-attributes-groups.html</guid>
       <description>GET /admin-api/attributes/groups Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12011 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
@@ -7155,11 +7155,11 @@
       <description>BO - Delete product with bulk actions Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3555 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/06_deleteProductsWithBulkActions.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Standard product&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed</description>
     </item>
     <item>
-      <title>BO - Design - Image Settings - Image Generation options - Automated version</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-automated-version.html</link>
+      <title>BO - Design - Image Settings - Image Generation options</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options-automated-version.html</guid>
-      <description>BO - Design - Image Settings - Image Generation options - Automated version Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5667 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/09_imageGenerationOptions.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type Steps Step Description Expected result Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-image-generation-options.html</guid>
+      <description>BO - Design - Image Settings - Image Generation options Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5667 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/09_imageGenerationOptions.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type Steps Step Description Expected result Case : Your server doesn&amp;rsquo;t support Avif * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options * JPEG/PNG should be checked * The checkbox of AVIF should be disable * You&amp;rsquo;ll see an error message next to the Avif : &amp;ldquo;Your server does not support Avif formar, for more infomation visit this link&amp;rdquo;</description>
     </item>
     <item>
       <title>BO - Design - Positions - Change position (drag and drop)</title>
@@ -7279,6 +7279,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-an-existing-customer.html</guid>
       <description> Create an order with an existing customer Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1353 Steps Step Description Expected result </description>
+    </item>
+    <item>
+      <title>DELETE /admin-api/attributes/attribute/{attributeId}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/delete-admin-api-attributes-attribute-attributeid.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/delete-admin-api-attributes-attribute-attributeid.html</guid>
+      <description>DELETE /admin-api/attributes/attribute/{attributeId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12116 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/01_deleteAttributesAttributeId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Edit symbol / format currency</title>
