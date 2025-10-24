@@ -1,6 +1,6 @@
 ---
 title: "POST /attributes/group"
-weight: 4
+weight: 5
 ---
 
 # POST /attributes/group

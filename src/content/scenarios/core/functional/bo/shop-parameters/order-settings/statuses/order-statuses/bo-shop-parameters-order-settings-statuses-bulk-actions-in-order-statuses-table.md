@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Order return status - Bulk actions "
+title: "BO - Shop Parameters - Order Settings - Statuses : Bulk actions in order statuses table"
 weight: 4
 ---
 
-# BO - Shop Parameters - Order return status - Bulk actions 
+# BO - Shop Parameters - Order Settings - Statuses : Bulk actions in order statuses table
 ## Details
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-7655

@@ -1,9 +1,9 @@
 ---
-title: "BO - Options Tab"
+title: "BO - Catalog - Products : Options tab"
 weight: 19
 ---
 
-# BO - Options Tab
+# BO - Catalog - Products : Options tab
 ## Details
 * **Component** : Core
 * **Status** : Automated

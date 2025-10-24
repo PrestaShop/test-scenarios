@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - General - Round mode"
+title: "BO - Shop Parameters - General : Round mode"
 weight: 4
 ---
 
-# BO - Shop Parameters - General - Round mode
+# BO - Shop Parameters - General : Round mode
 ## Details
 * **Component** : Core
 * **Status** : Automated

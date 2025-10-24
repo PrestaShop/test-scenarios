@@ -1,9 +1,9 @@
 ---
-title: "FO - Contact us - Send a message while logged in"
+title: "FO - Contact us : Send message from contact us page with customer logged in"
 weight: 3
 ---
 
-# FO - Contact us - Send a message while logged in
+# FO - Contact us : Send message from contact us page with customer logged in
 ## Details
 * **Component** : Core
 * **Status** : Automated

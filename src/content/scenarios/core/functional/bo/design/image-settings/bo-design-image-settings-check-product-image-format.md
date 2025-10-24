@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Image Settings - Check product image format "
+title: "BO - Design - Image Settings : Check product image format"
 weight: 11
 ---
 
-# BO - Design - Image Settings - Check product image format 
+# BO - Design - Image Settings : Check product image format
 ## Details
 * **Component** : Core
 * **Status** : Automated

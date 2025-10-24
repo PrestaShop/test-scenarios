@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced Parameters - Administration - Upload quota"
+title: "BO - Advanced Parameters - Administration : Upload quota"
 weight: 2
 ---
 
-# BO - Advanced Parameters - Administration - Upload quota
+# BO - Advanced Parameters - Administration : Upload quota
 ## Details
 * **Component** : Core
 * **Status** : Automated

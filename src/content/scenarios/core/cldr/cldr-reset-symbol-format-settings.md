@@ -1,9 +1,9 @@
 ---
-title: "Reset symbol / format settings"
+title: "CLDR : Reset symbol / format settings"
 weight: 8
 ---
 
-# Reset symbol / format settings
+# CLDR : Reset symbol / format settings
 ## Details
 * **Component** : Core
 * **Status** : Automated

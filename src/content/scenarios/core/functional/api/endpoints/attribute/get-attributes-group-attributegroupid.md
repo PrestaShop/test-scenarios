@@ -1,6 +1,6 @@
 ---
 title: "GET /attributes/group/{attributeGroupId}"
-weight: 2
+weight: 3
 ---
 
 # GET /attributes/group/{attributeGroupId}

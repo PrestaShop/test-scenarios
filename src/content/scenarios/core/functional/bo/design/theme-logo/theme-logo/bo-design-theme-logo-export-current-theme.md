@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Theme & Logo - Export current theme"
+title: "BO - Design - Theme & Logo : Export current theme"
 weight: 2
 ---
 
-# BO - Design - Theme & Logo - Export current theme
+# BO - Design - Theme & Logo : Export current theme
 ## Details
 * **Component** : Core
 * **Status** : Automated

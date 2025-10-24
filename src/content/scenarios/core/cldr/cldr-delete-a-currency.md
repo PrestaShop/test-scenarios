@@ -1,9 +1,9 @@
 ---
-title: "Delete a currency"
+title: "CLDR : Delete a currency"
 weight: 3
 ---
 
-# Delete a currency
+# CLDR : Delete a currency
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "DELETE /attributes/group/{attributeGroupId}"
-weight: 1
+title: "DELETE /admin-api/attributes/group/{attributeGroupId}"
+weight: 2
 ---
 
-# DELETE /attributes/group/{attributeGroupId}
+# DELETE /admin-api/attributes/group/{attributeGroupId}
 ## Details
 * **Component** : Core
 * **Status** : Automated
