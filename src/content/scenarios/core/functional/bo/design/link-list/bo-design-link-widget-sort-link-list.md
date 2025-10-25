@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Link Widget - Sort Link List"
+title: "BO - Design - Link Widget : Sort Link List"
 weight: 3
 ---
 
-# BO - Design - Link Widget - Sort Link List
+# BO - Design - Link Widget : Sort Link List
 ## Details
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-2877

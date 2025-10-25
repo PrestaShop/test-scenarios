@@ -1,9 +1,9 @@
 ---
-title: "BO - Shipping Tab"
+title: "BO - Catalog - Products : Shipping tab"
 weight: 16
 ---
 
-# BO - Shipping Tab
+# BO - Catalog - Products : Shipping tab
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "BO - Customer Service - Merchandise returns - Update and manage options"
+title: "BO - Customer Service - Merchandise Returns : Merchandise return (RMA) options"
 weight: 3
 ---
 
-# BO - Customer Service - Merchandise returns - Update and manage options
+# BO - Customer Service - Merchandise Returns : Merchandise return (RMA) options
 ## Details
 * **Component** : Core
 * **Status** : Automated

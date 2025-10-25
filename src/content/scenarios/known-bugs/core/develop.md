@@ -3,19 +3,21 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (34 campaigns / 40 issues)
+# Known bugs (35 campaigns / 41 issues)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
   * [PrestaShop#38784 : Delete / list / tests discounts](https://github.com/PrestaShop/PrestaShop/issues/38784)
   * [PrestaShop#38647 : GET & POST endpoints for each type](https://github.com/PrestaShop/PrestaShop/issues/38647)
-* **[tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts)** :
   * [PrestaShop#39729 : Admin API : Endpoint `POST /attributes/group` : The response is not the expected : Missing key `position`](https://github.com/PrestaShop/PrestaShop/issues/39729)
-* **[tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts)** :
   * [PrestaShop#39753 : Endpoint `GET /attributes/groups` : The field `position` is not consistant to BackOffice](https://github.com/PrestaShop/PrestaShop/issues/39753)
-* **[tests/UI/campaigns/functional/API/02_endpoints/04_hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/04_hook/03_getHooks.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/03_category/05_deleteCategoryId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_category/05_deleteCategoryId.ts)** :
+  * [PrestaShop#39814 : Endpoint `DELETE /category/{categoryId}` : The endpoint is not usable](https://github.com/PrestaShop/PrestaShop/issues/39814)
+* **[tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts)** :
   * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
-* **[tests/UI/campaigns/functional/API/02_endpoints/07_product/08_patchProductId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/08_patchProductId.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/08_patchProductId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/08_patchProductId.ts)** :
   * [PrestaShop#38787 : API : Endpoint `PATCH /product/{productId}` : Field `availableDate` : Can't use a datetime](https://github.com/PrestaShop/PrestaShop/issues/38787)
-* **[tests/UI/campaigns/functional/API/02_endpoints/07_product/10_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/10_getProductsSearch.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/10_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/10_getProductsSearch.ts)** :
   * [PrestaShop#34486 : The APIDoc TryItOut for `/api/products/search/{phrase}/{resultsLimit}/{isoCode}` doesn't work - Enpoint Issue](https://github.com/PrestaShop/PrestaShop/issues/34486)
 * **[tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts)** :
   * [PrestaShop#37033 : BO - dashactivity - module can't be SAVED properly](https://github.com/PrestaShop/PrestaShop/issues/37033)

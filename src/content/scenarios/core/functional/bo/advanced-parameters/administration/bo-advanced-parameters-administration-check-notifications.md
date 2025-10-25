@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced Parameters - Administration - Notifications"
+title: "BO - Advanced Parameters - Administration : Check notifications"
 weight: 3
 ---
 
-# BO - Advanced Parameters - Administration - Notifications
+# BO - Advanced Parameters - Administration : Check notifications
 ## Details
 * **Component** : Core
 * **Status** : Automated

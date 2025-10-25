@@ -1,9 +1,9 @@
 ---
-title: "FO - Menu and Navigation - Sort and filter - Clear one filter"
+title: "FO - Menu and Navigation - Sort and filter : Clear one filter"
 weight: 3
 ---
 
-# FO - Menu and Navigation - Sort and filter - Clear one filter
+# FO - Menu and Navigation - Sort and filter : Clear one filter
 ## Details
 * **Component** : Core
 * **Status** : Automated

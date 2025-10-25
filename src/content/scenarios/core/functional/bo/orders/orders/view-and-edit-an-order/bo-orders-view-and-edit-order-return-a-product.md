@@ -1,9 +1,9 @@
 ---
-title: "BO - Order details - Return a product"
+title: "BO - Orders - View and edit order : Return a product"
 weight: 13
 ---
 
-# BO - Order details - Return a product
+# BO - Orders - View and edit order : Return a product
 ## Details
 * **Component** : Core
 * **Status** : Automated

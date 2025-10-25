@@ -1,9 +1,9 @@
 ---
-title: "BO - Customer Service - Customer service options"
+title: "BO - Customer Service : Customer service options"
 weight: 5
 ---
 
-# BO - Customer Service - Customer service options
+# BO - Customer Service : Customer service options
 ## Details
 * **Component** : Core
 * **Status** : Automated

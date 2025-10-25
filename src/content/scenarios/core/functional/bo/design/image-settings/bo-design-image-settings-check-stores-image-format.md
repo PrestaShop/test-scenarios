@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Image Settings - Check stores image format "
+title: "BO - Design - Image Settings : Check stores image format"
 weight: 13
 ---
 
-# BO - Design - Image Settings - Check stores image format 
+# BO - Design - Image Settings : Check stores image format
 ## Details
 * **Component** : Core
 * **Status** : Automated
