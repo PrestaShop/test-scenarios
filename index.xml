@@ -1006,7 +1006,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</guid>
-      <description>Known bugs (34 campaigns / 40 issues) tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts : PrestaShop#39753 : Endpoint GET /attributes/groups : The field position is not consistant to BackOffice tests/UI/campaigns/functional/API/02_endpoints/04_hook/03_getHooks.ts : PrestaShop#35616 : Endpoint /api/hooks &amp;amp; List of Hooks : Incorrect count of hooks tests/UI/campaigns/functional/API/02_endpoints/07_product/08_patchProductId.</description>
+      <description>Known bugs (35 campaigns / 41 issues) tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts : PrestaShop#39753 : Endpoint GET /attributes/groups : The field position is not consistant to BackOffice tests/UI/campaigns/functional/API/02_endpoints/03_category/05_deleteCategoryId.ts : PrestaShop#39814 : Endpoint DELETE /category/{categoryId} : The endpoint is not usable tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.</description>
     </item>
     <item>
       <title>EditCheckCart</title>
@@ -2752,13 +2752,6 @@
       <description>DELETE /admin-api/api-client/{apiClientId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8613 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/02_deleteApiClientId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; New &amp;amp; Experimental Features New &amp;amp; Experimental Features Page is displayed correctly Set checked the checkbox “Authorization server&amp;quot; The checkbox “Authorization server” is checked Click on Save button The message “Update successful” is displayed In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.</description>
     </item>
     <item>
-      <title>DELETE /admin-api/attributes/group/{attributeGroupId}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/delete-admin-api-attributes-group-attributegroupid.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/delete-admin-api-attributes-group-attributegroupid.html</guid>
-      <description>DELETE /admin-api/attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11794 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/01_deleteAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
-    </item>
-    <item>
       <title>DELETE /admin-api/category/{categoryId}</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/category/delete-admin-api-category-categoryid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2963,17 +2956,17 @@
     </item>
     <item>
       <title>FO - Menu and Navigation - Navigate in Categories - Breadcrumb</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</guid>
-      <description>FO - Menu and Navigation - Navigate in Categories - Breadcrumb Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1238 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/01_navigateInCategories/02_breadcrumb.ts Steps Step Description Expected result Go to FO &amp;gt; Click on Clothes category Clothes category is well displayed&#xA;Breadcrumb is like : Home / Clothes Hover on Clothes &amp;gt; Click on Men Men category is well displayed&#xA;Breadcrumb is like : Home / Clothes / Men Click on Clothes in breadcrumb Clothes category is well displayed</description>
-    </item>
-    <item>
-      <title>FO - Menu and Navigation - Navigate in Categories - Breadcrumb</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</guid>
       <description>FO - Menu and Navigation - Navigate in Categories - Breadcrumb Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6950 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/01_navigateInCategories/02_breadcrumb.ts Steps Step Description Expected result Go to FO &amp;gt; Click on Clothes category Clothes category is well displayed&#xA;Breadcrumb is like : Home / Clothes Hover on Clothes &amp;gt; Click on Men Men category is well displayed&#xA;Breadcrumb is like : Home / Clothes / Men Click on Clothes in breadcrumb Clothes category is well displayed</description>
+    </item>
+    <item>
+      <title>FO - Menu and Navigation - Navigate in Categories : Breadcrumb</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/navigate-in-categories/fo-menu-and-navigation-navigate-in-categories-breadcrumb.html</guid>
+      <description>FO - Menu and Navigation - Navigate in Categories : Breadcrumb Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1238 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/01_navigateInCategories/02_breadcrumb.ts Steps Step Description Expected result Go to FO &amp;gt; Click on Clothes category Clothes category is well displayed&#xA;Breadcrumb is like : Home / Clothes Hover on Clothes &amp;gt; Click on Men Men category is well displayed&#xA;Breadcrumb is like : Home / Clothes / Men Click on Clothes in breadcrumb Clothes category is well displayed</description>
     </item>
     <item>
       <title>FO - Menu and Navigation - Sort and filter - Filter products</title>
@@ -3156,6 +3149,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/audit/bo/orders.html</guid>
       <description>Orders Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-10078 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/02_orders.ts Steps Step Description Expected result Go to BO -&amp;gt; Dashboard page The dashboard page is displayed&#xA;No JS errors are triggered Go to Orders &amp;gt; Orders page The Orders page is displayed&#xA;No JS errors are triggered Click on the button &amp;ldquo;Add new order&amp;rdquo; The New order page is displayed</description>
+    </item>
+    <item>
+      <title>POST /admin-api/attributes/attribute</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/post-admin-api-attributes-attribute.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/post-admin-api-attributes-attribute.html</guid>
+      <description>POST /admin-api/attributes/attribute Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12166 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/04_postAttributesAttribute.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>POST /admin-api/product/image/{imageId}</title>
@@ -3557,11 +3557,11 @@
       <description>BO - Advanced Parameter - Authorization Server - Edit API Client Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7634 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_adminAPI/03_editAPIClient.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly Fill the form with following data (Client ID : &amp;ldquo;Client XYZ&amp;rdquo;, Client Name: &amp;ldquo;ClientName ABC&amp;rdquo;)</description>
     </item>
     <item>
-      <title>BO - Advanced Parameters - Administration - Notifications</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-notifications.html</link>
+      <title>BO - Advanced Parameters - Administration : Check notifications</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-check-notifications.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-notifications.html</guid>
-      <description>BO - Advanced Parameters - Administration - Notifications Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1143 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/03_administration/03_notifications.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/administration Steps Step Description Expected result Go to BO&amp;gt; Advanced Parameters&amp;gt; Administration&amp;gt; Notifications form The notifications are enabled for new orders, new customers, and new messages Disabled all notifications and click on save button Update successful message is displayed and the bell icon is gone Enable the notifications for new customers and click on save button Update successful message is displayed and the bell icon is displayed with customers notifications Go to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button link &amp;ldquo;Log in to your account&amp;rdquo; page is displayed Click on &amp;ldquo;No account?</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/administration/bo-advanced-parameters-administration-check-notifications.html</guid>
+      <description>BO - Advanced Parameters - Administration : Check notifications Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1143 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/03_administration/03_notifications.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/administration Steps Step Description Expected result Go to BO&amp;gt; Advanced Parameters&amp;gt; Administration&amp;gt; Notifications form The notifications are enabled for new orders, new customers, and new messages Disabled all notifications and click on save button Update successful message is displayed and the bell icon is gone Enable the notifications for new customers and click on save button Update successful message is displayed and the bell icon is displayed with customers notifications Go to FO &amp;gt; Click on top right &amp;ldquo;Sign In&amp;rdquo; button link &amp;ldquo;Log in to your account&amp;rdquo; page is displayed Click on &amp;ldquo;No account?</description>
     </item>
     <item>
       <title>BO - Advanced Parameters - Database - DB Backup - Pagination and bulk delete</title>
@@ -3739,11 +3739,11 @@
       <description>BO - CRUD Product with combinations Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3550 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/03_CRUDProductWithCombinations.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Product with combinations&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed</description>
     </item>
     <item>
-      <title>BO - Customer Service - Merchandise returns - Update and manage options</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</link>
+      <title>BO - Customer Service - Merchandise Returns : Merchandise return (RMA) options</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-merchandise-return-rma-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-update-and-manage-options.html</guid>
-      <description>BO - Customer Service - Merchandise returns - Update and manage options Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5412 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/03_merchandiseReturns/01_merchandiseReturnOptions.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/order-messages-1 Steps Step Description Expected result Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed Enable the returns of product and click on Save The toggle is well enabled and a message &amp;ldquo;The settings have been successfully updated.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customer-service/merchandise-returns/bo-customer-service-merchandise-returns-merchandise-return-rma-options.html</guid>
+      <description>BO - Customer Service - Merchandise Returns : Merchandise return (RMA) options Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5412 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/03_merchandiseReturns/01_merchandiseReturnOptions.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/order-messages-1 Steps Step Description Expected result Go to BO &amp;gt; SELL &amp;gt; Customer Service &amp;gt; Merchandise Returns The Merchandise returns page is well displayed Enable the returns of product and click on Save The toggle is well enabled and a message &amp;ldquo;The settings have been successfully updated.</description>
     </item>
     <item>
       <title>BO - Customer Service - Order Messages - Pagination and sort</title>
@@ -3802,11 +3802,11 @@
       <description>BO - Design - Image Settings - Images generation options Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-962 Steps Step Description Expected result Case 1 : Using JPEG base image(with high resolution)&#xA;* Bo &amp;gt; Design &amp;gt; Image Settings &amp;gt; Go to Images generation options section&#xA;* Put the specified data &amp;gt; Click on Save button * Image Settings page is well displayed&#xA;* Message displayed : &amp;lsquo;The settings have been successfully updated.</description>
     </item>
     <item>
-      <title>BO - Design - Link Widget - Sort Link List</title>
+      <title>BO - Design - Link Widget : Sort Link List</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/link-list/bo-design-link-widget-sort-link-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/link-list/bo-design-link-widget-sort-link-list.html</guid>
-      <description> BO - Design - Link Widget - Sort Link List Details Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-2877 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/07_linkWidget/04_sortLinkList.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/link-list-link-widget/link-widget-link-widget Steps Step Description Expected result Go to Design &amp;gt;Link list Link list is well displayed Sort by by ID asc link list are sorted by ID (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;) Sort by by ID desc link list are sorted by ID (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;) Sort by by Name of the block asc link list are sorted by Name of the block (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;) Sort by Name of the block desc link list are sorted by Name of the block (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;) Sort by Position asc link list are sorted by Position (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;) Sort by Position desc link list are sorted by Position (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;) </description>
+      <description> BO - Design - Link Widget : Sort Link List Details Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-2877 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/07_linkWidget/04_sortLinkList.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/link-list-link-widget/link-widget-link-widget Steps Step Description Expected result Go to Design &amp;gt;Link list Link list is well displayed Sort by by ID asc link list are sorted by ID (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;) Sort by by ID desc link list are sorted by ID (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;) Sort by by Name of the block asc link list are sorted by Name of the block (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;) Sort by Name of the block desc link list are sorted by Name of the block (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;) Sort by Position asc link list are sorted by Position (1-&amp;gt; 2 -&amp;gt;3 &amp;hellip;) Sort by Position desc link list are sorted by Position (3-&amp;gt; 2 -&amp;gt;1 &amp;hellip;) </description>
     </item>
     <item>
       <title>BO - Design - Pages - Sort</title>
@@ -3848,7 +3848,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html</guid>
-      <description> BO - Discount -Select a free gift product Details Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11264 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form and save Discount page displayed&#xA;Notification :&#xA;Successful update&#xA;The discount has been created&#xA;Discount list = 1 </description>
+      <description>BO - Discount -Select a free gift product Details Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11264 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form and Do not include the name of the discount. Error message: &amp;ldquo;The field names is required at least in your default language.&amp;rdquo; Fill form and Do not include free gift We have 2 messages: &amp;ldquo;This value should not be blank.</description>
     </item>
     <item>
       <title>BO - Header - Search bar</title>
@@ -4061,11 +4061,11 @@
       <description>BO - Shop Parameters - Customer Settings - Titles - Bulk actions Details Component : Core Status : To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1094 Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Customer Settings &amp;gt; Titles Tab Titles page is displayed Click on Bulk actions button A dropdown menu displays 1 option :&#xA;* Delete selected case 1 : Select all and unselect titles</description>
     </item>
     <item>
-      <title>BO - Shop Parameters - General - Allow iframes</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-allow-iframes.html</link>
+      <title>BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-allow-iframes-on-html-field.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-allow-iframes.html</guid>
-      <description>BO - Shop Parameters - General - Allow iframes Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1045 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; General Preferences page is displayed&#xA;Allow iframes on HTML fields is disabled Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Edit Customizable mug Customizable mug product page is displayed In the description &amp;gt; Source code &amp;gt; Add</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-allow-iframes-on-html-field.html</guid>
+      <description>BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1045 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; General Preferences page is displayed&#xA;Allow iframes on HTML fields is disabled Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Edit Customizable mug Customizable mug product page is displayed In the description &amp;gt; Source code &amp;gt; Add</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Order Settings - Enable / disable reordering option</title>
@@ -4236,6 +4236,13 @@
       <description> dashactivity - Uninstall and delete Details Component : dashactivity Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-575 Steps Step Description Expected result </description>
     </item>
     <item>
+      <title>DELETE /admin-api/attributes/group/{attributeGroupId}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/delete-admin-api-attributes-group-attributegroupid.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/delete-admin-api-attributes-group-attributegroupid.html</guid>
+      <description>DELETE /admin-api/attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11794 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/01_deleteAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+    </item>
+    <item>
       <title>Faceted search module - Disable/Enable module</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4390,11 +4397,11 @@
       <description>FO - Menu and Navigation - Sort and filter - Clear filters Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6955 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/02_sortAndFilter/03_clearFilters.ts Steps Step Description Expected result Go to FO &amp;gt; Click on All products All products page is displayed&#xA;There are 19 products. Filter products by Composition. Only products with Composition Ceramic, Cotton and Recycled cardboard are displayed.&#xA;Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard.</description>
     </item>
     <item>
-      <title>FO - Menu and Navigation - Sort and filter - Clear one filter</title>
+      <title>FO - Menu and Navigation - Sort and filter : Clear one filter</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-clear-one-filter.html</guid>
-      <description>FO - Menu and Navigation - Sort and filter - Clear one filter Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1243 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/02_sortAndFilter/03_clearOneFilter.ts Steps Step Description Expected result Go to FO&amp;gt; all products All products page is displayed Filter products by Composition. Only products with Composition Ceramic, Cotton and Recycled cardboard are displayed.&#xA;Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard. On active filter, close a filter.</description>
+      <description>FO - Menu and Navigation - Sort and filter : Clear one filter Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1243 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/02_sortAndFilter/03_clearOneFilter.ts Steps Step Description Expected result Go to FO&amp;gt; all products All products page is displayed Filter products by Composition. Only products with Composition Ceramic, Cotton and Recycled cardboard are displayed.&#xA;Active filters Composition: Ceramic, Composition: Cotton, Composition: Recycled cardboard. On active filter, close a filter.</description>
     </item>
     <item>
       <title>FO - Order confirmation - Order details and totals - Recap of payment method</title>
@@ -4500,13 +4507,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/hook/get-admin-api-hook-status-id.html</guid>
       <description>GET /admin-api/hook-status/{id} Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-7792 Steps Step Description Expected result In BO, Go to Design &amp;gt; Positions Positions Page is displayed correctly. Get the ID of the first hook of the page !https://forge.prestashop.com/plugins/servlet/raven/attachment/1571/ID+hook.png Request with method GET the endpoint &amp;ldquo;https://[url of your shop]/admin-dev/index.php/api/hook-status/{id}&amp;rdquo; where {id} is the previous ID get The return value is in JSON.&#xA;The return data has multiples keys : &amp;ldquo;id&amp;rdquo;, &amp;ldquo;active&amp;rdquo;</description>
-    </item>
-    <item>
-      <title>GET /attributes/group/{attributeGroupId}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-attributes-group-attributegroupid.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-attributes-group-attributegroupid.html</guid>
-      <description>GET /attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11929 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/02_getAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Mail alerts module - Uninstall and delete module</title>
@@ -5650,6 +5650,13 @@
       <description>GET /admin-api/product/{productId}/images Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8981 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/04_getProductIdImages.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
+      <title>GET /attributes/group/{attributeGroupId}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-attributes-group-attributegroupid.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-attributes-group-attributegroupid.html</guid>
+      <description>GET /attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11929 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/02_getAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+    </item>
+    <item>
       <title>Mail alerts module - Customer notifications - Enable/Disable product availability</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5690,13 +5697,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/patch-admin-api-module-technicalname-reset.html</guid>
       <description>PATCH /admin-api/module/{technicalName}/reset Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-9951 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/04_patchModuleTechnicalNameReset.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
-    </item>
-    <item>
-      <title>PATCH /attributes/group/{attributeGroupId}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/patch-attributes-group-attributegroupid.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/patch-attributes-group-attributegroupid.html</guid>
-      <description>PATCH /attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11953 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/03_patchAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>POST /admin-api/customers/group</title>
@@ -5958,11 +5958,11 @@
       <description> BO - Catalog price Rules - CRUD - Country Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-10332 </description>
     </item>
     <item>
-      <title>BO - Customer Service - Customer service options</title>
+      <title>BO - Customer Service : Customer service options</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-customer-service-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customer-service/customer-service/bo-customer-service-customer-service-options.html</guid>
-      <description>BO - Customer Service - Customer service options Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-867 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/01_customerService/05_customerServiceOptions.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/customer-service Steps Step Description Expected result Go to BO&amp;gt; Customer Service&amp;gt; Customer Service &amp;gt; go to Customer service options &amp;gt; fill the fields with mentioned Data &amp;gt; Enable mentioned options &amp;gt; Click on save button * Message displayed : &amp;ldquo;The settings have been successfully updated. &amp;ldquo;</description>
+      <description>BO - Customer Service : Customer service options Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-867 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/01_customerService/05_customerServiceOptions.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/customer-service Steps Step Description Expected result Go to BO&amp;gt; Customer Service&amp;gt; Customer Service &amp;gt; go to Customer service options &amp;gt; fill the fields with mentioned Data &amp;gt; Enable mentioned options &amp;gt; Click on save button * Message displayed : &amp;ldquo;The settings have been successfully updated. &amp;ldquo;</description>
     </item>
     <item>
       <title>BO - Customers - Export</title>
@@ -6441,6 +6441,13 @@
       <description>Official GDPR module - Disable/Enable module Details Component : psgdpr Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-4496 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search Prestashop Legal Assistant The module page list should be displayed and Prestashop Legal Assistant module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Disable&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
+      <title>PATCH /attributes/group/{attributeGroupId}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/patch-attributes-group-attributegroupid.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/patch-attributes-group-attributegroupid.html</guid>
+      <description>PATCH /attributes/group/{attributeGroupId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11953 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/03_patchAttributesGroupId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+    </item>
+    <item>
       <title>PATCH /product/{productId}/shops</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/patch-product-productid-shops.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6453,13 +6460,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/post-admin-api-api-client.html</guid>
       <description>POST /admin-api/api-client Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8629 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/05_postApiClient.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly Fill the form with following data (Client ID : &amp;ldquo;Client XYZ&amp;rdquo;, Client Name: &amp;ldquo;ClientName ABC&amp;rdquo;)</description>
-    </item>
-    <item>
-      <title>POST /attributes/group</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/post-attributes-group.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/post-attributes-group.html</guid>
-      <description>POST /attributes/group Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11974 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>productcomments - Check the name of a deleted user</title>
@@ -6966,6 +6966,13 @@
       <description>Mail alerts module - Merchant notifications - Enable/Disable new order Details Component : ps_emailalerts Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-4121 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/02_configuration/02_merchantNotifications/01_enableDisableNewOrder.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
     </item>
     <item>
+      <title>POST /attributes/group</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/post-attributes-group.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/post-attributes-group.html</guid>
+      <description>POST /attributes/group Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-11974 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/04_postAttributesGroup.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+    </item>
+    <item>
       <title>productcomments - Check that rating is displayed</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/fo/productcomments-check-that-rating-is-displayed.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6985,13 +6992,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/ps-emailsubscription-check-that-the-text-entered-in-the-module-is-updated-in-front-office.html</guid>
       <description> ps_emailsubscription - Check that the text entered in the module is updated in front office Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-651 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>PUT /attributes/groups/delete</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/put-attributes-groups-delete.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/put-attributes-groups-delete.html</guid>
-      <description>PUT /attributes/groups/delete Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12029 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/05_putAttributesGroupsDelete.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>PUT /module/{technicalName}/uninstall</title>
@@ -7344,13 +7344,6 @@
       <description>FO - User account - Log out Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1205 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/07_logOut.ts Steps Step Description Expected result Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed Go to your account by clicking on your username link in the header Your account page is displayed with:</description>
     </item>
     <item>
-      <title>GET /admin-api/attributes/groups</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-admin-api-attributes-groups.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-admin-api-attributes-groups.html</guid>
-      <description>GET /admin-api/attributes/groups Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12011 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
-    </item>
-    <item>
       <title>GET /admin-api/product/{productId}</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/get-admin-api-product-productid.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7384,6 +7377,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailsubscription/configuration/ps-emailsubscription-check-that-the-csv-export-by-country-is-working.html</guid>
       <description> ps_emailsubscription - Check that the CSV export by country is working Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-652 Steps Step Description Expected result </description>
+    </item>
+    <item>
+      <title>PUT /attributes/groups/delete</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/put-attributes-groups-delete.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/put-attributes-groups-delete.html</guid>
+      <description>PUT /attributes/groups/delete Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12029 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/05_putAttributesGroupsDelete.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>PUT /module/{technicalName}/upgrade</title>
@@ -7636,6 +7636,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-out-of-stock-behaviour.html</guid>
       <description>FO - Product Page - Out-of-Stock behaviour Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6984 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/10_outOfStockBehaviour.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Add new product &amp;gt; Standard product &amp;gt; Add new product Product creation page is well displayed Add a title to your product &amp;gt; Switch to Online &amp;gt; Click Save Successful update message is displayed Go to Tab Stocks &amp;gt; Add quantity 300 and save Successful update message is displayed</description>
+    </item>
+    <item>
+      <title>GET /admin-api/attributes/groups</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-admin-api-attributes-groups.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/attribute/get-admin-api-attributes-groups.html</guid>
+      <description>GET /admin-api/attributes/groups Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12011 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attributesGroup/06_getAttributesGroups.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>GET /admin-api/module/{technicalName}</title>
@@ -8226,18 +8233,18 @@
       <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11312 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
-      <title>BO - Design - Image Settings - Check stores image format </title>
+      <title>BO - Design - Image Settings : Check stores image format</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-stores-image-format.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-stores-image-format.html</guid>
-      <description>BO - Design - Image Settings - Check stores image format Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6063 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/15_checkStoreImageFormat.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type Steps Step Description Expected result * Go to BO &amp;gt; Design &amp;gt; Image settings&#xA;* Scroll down to have image generation option * JPEG/PNG should be checked * You can&amp;rsquo;t unchecked the JPEG/PNG format&#xA;* Base format should be : &amp;ldquo;Use PNG only if the base image is in PNG format&amp;rdquo; Check the checkboxes next to Webp The checkbox should be checked and the Webp is enabled * Go to Shop Parameters &amp;gt; Contact &amp;gt; Stores</description>
+      <description>BO - Design - Image Settings : Check stores image format Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6063 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/15_checkStoreImageFormat.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type Steps Step Description Expected result * Go to BO &amp;gt; Design &amp;gt; Image settings&#xA;* Scroll down to have image generation option * JPEG/PNG should be checked * You can&amp;rsquo;t unchecked the JPEG/PNG format&#xA;* Base format should be : &amp;ldquo;Use PNG only if the base image is in PNG format&amp;rdquo; Check the checkboxes next to Webp The checkbox should be checked and the Webp is enabled * Go to Shop Parameters &amp;gt; Contact &amp;gt; Stores</description>
     </item>
     <item>
-      <title>BO - Order details - Return a product</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-return-a-product.html</link>
+      <title>BO - Orders - View and edit order : Return a product</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-orders-view-and-edit-order-return-a-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-order-details-return-a-product.html</guid>
-      <description>BO - Order details - Return a product Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7395 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/13_returnOrder.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template Steps Step Description Expected result Go to BO &amp;gt; Orders &amp;gt; Orders The Orders page is well displayed&#xA;The orders are displayed in a table with title : Orders +(total number of orders) Change the status of the first order (ref KHWLILZLL) Successful update message is displayed.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-orders-view-and-edit-order-return-a-product.html</guid>
+      <description>BO - Orders - View and edit order : Return a product Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7395 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/13_returnOrder.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template Steps Step Description Expected result Go to BO &amp;gt; Orders &amp;gt; Orders The Orders page is well displayed&#xA;The orders are displayed in a table with title : Orders +(total number of orders) Change the status of the first order (ref KHWLILZLL) Successful update message is displayed.</description>
     </item>
     <item>
       <title>BO - Virtual Product Tab</title>
@@ -8380,11 +8387,11 @@
       <description>Autoupgrade - Web Version - Verification during the post Upgrade page Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11316 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
-      <title>BO - Shipping Tab</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-shipping-tab.html</link>
+      <title>BO - Catalog - Products : Shipping tab</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-catalog-products-shipping-tab.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-shipping-tab.html</guid>
-      <description>BO - Shipping Tab Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5215 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/16_shippingTab.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product &amp;gt; Add a title to your product &amp;gt; Switch to Online &amp;gt; Add a quantity = 10 &amp;gt; Click Save Successful update message is displayed Go to Shipping Tab &amp;gt; Edit the Package Dimension : Width : 12 cm</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-catalog-products-shipping-tab.html</guid>
+      <description>BO - Catalog - Products : Shipping tab Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5215 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/16_shippingTab.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; New product &amp;gt; Standard product &amp;gt; Add new product &amp;gt; Add a title to your product &amp;gt; Switch to Online &amp;gt; Add a quantity = 10 &amp;gt; Click Save Successful update message is displayed Go to Shipping Tab &amp;gt; Edit the Package Dimension : Width : 12 cm</description>
     </item>
     <item>
       <title>Check access to the cart</title>
