@@ -1,9 +1,9 @@
 ---
-title: "BO - Footer"
+title: "BO - Catalog - Products : Footer"
 weight: 9
 ---
 
-# BO - Footer
+# BO - Catalog - Products : Footer
 ## Details
 * **Component** : Core
 * **Status** : Automated

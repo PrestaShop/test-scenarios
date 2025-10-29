@@ -1,6 +1,6 @@
 ---
 title: "PATCH /attributes/group/{attributeGroupId}"
-weight: 5
+weight: 6
 ---
 
 # PATCH /attributes/group/{attributeGroupId}

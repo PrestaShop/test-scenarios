@@ -1,9 +1,9 @@
 ---
-title: "Search a currency by ISO code"
+title: "CLDR : Search a currency by ISO code"
 weight: 4
 ---
 
-# Search a currency by ISO code
+# CLDR : Search a currency by ISO code
 ## Details
 * **Component** : Core
 * **Status** : Automated

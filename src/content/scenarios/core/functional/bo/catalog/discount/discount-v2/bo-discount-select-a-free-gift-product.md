@@ -5,7 +5,7 @@ weight: 3
 
 # BO - Discount -Select a free gift product 
 ## Details
-* **Status** : In progress
+* **Status** : Blocked
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11264
 
 ## Steps

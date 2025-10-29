@@ -1,6 +1,6 @@
 ---
 title: "PUT /attributes/groups/delete"
-weight: 7
+weight: 8
 ---
 
 # PUT /attributes/groups/delete

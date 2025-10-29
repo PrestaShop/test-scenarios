@@ -1,9 +1,9 @@
 ---
-title: "BO - Shop Parameters - Product Settings - Display the \"add to cart\" button when a product has attributes"
+title: "BO - Shop Parameters - Product Settings : Display the \"add to cart\" button when a product has attributes"
 weight: 2
 ---
 
-# BO - Shop Parameters - Product Settings - Display the \"add to cart\" button when a product has attributes
+# BO - Shop Parameters - Product Settings : Display the \"add to cart\" button when a product has attributes
 ## Details
 * **Component** : Core
 * **Status** : Automated

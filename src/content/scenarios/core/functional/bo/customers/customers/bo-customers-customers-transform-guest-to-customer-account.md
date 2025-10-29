@@ -1,9 +1,9 @@
 ---
-title: "BO - Customers - Transform a Guest to a Customer"
+title: "BO - Customers - Customers : Transform guest to customer account"
 weight: 10
 ---
 
-# BO - Customers - Transform a Guest to a Customer
+# BO - Customers - Customers : Transform guest to customer account
 ## Details
 * **Component** : Core
 * **Status** : Automated

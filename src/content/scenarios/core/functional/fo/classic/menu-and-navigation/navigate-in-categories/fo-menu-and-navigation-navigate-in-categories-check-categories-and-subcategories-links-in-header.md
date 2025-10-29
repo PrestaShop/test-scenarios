@@ -1,9 +1,9 @@
 ---
-title: "FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)"
+title: "FO - Menu and Navigation - Navigate in Categories : Check categories and subcategories links in header"
 weight: 1
 ---
 
-# FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)
+# FO - Menu and Navigation - Navigate in Categories : Check categories and subcategories links in header
 ## Details
 * **Component** : Core
 * **Status** : Automated

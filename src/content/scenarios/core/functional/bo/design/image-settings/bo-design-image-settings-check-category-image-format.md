@@ -1,9 +1,9 @@
 ---
-title: "BO - Design - Image Settings - Check category image format "
+title: "BO - Design - Image Settings : Check category image format"
 weight: 12
 ---
 
-# BO - Design - Image Settings - Check category image format 
+# BO - Design - Image Settings : Check category image format
 ## Details
 * **Component** : Core
 * **Status** : Automated

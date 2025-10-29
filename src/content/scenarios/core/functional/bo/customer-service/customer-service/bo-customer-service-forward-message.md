@@ -1,9 +1,9 @@
 ---
-title: "BO - Customer Service - Forward message"
+title: "BO - Customer Service : Forward message"
 weight: 6
 ---
 
-# BO - Customer Service - Forward message
+# BO - Customer Service : Forward message
 ## Details
 * **Component** : Core
 * **Status** : Automated
