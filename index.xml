@@ -1426,7 +1426,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-admin-api-languages.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-admin-api-languages.html</guid>
-      <description>GET /admin-api/languages Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8856 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_language/01_getLanguages.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+      <description>GET /admin-api/languages Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8856 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_language/01_getLanguages.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>GET /admin-api/product/image/{imageId}</title>
@@ -1945,6 +1945,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/add-a-custom-currency.html</guid>
       <description> Add a custom currency Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1362 Steps Step Description Expected result </description>
+    </item>
+    <item>
+      <title>API : Internal Auth Server - Resource Endpoint</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/internal-authentification-server/api-internal-auth-server-resource-endpoint.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/internal-authentification-server/api-internal-auth-server-resource-endpoint.html</guid>
+      <description>API : Internal Auth Server - Resource Endpoint Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-4859 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/01_internalAuthServer/02_resourceEndpoint.ts Steps Step Description Expected result Request the endpoint /admin-dev/new-api/hook-status/1 without access token * Receive a response where the HTTP Code is 401 Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token * Receive a response where the HTTP Code is 401&#xA;* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo; Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token * Receive a response where the HTTP Code is 401</description>
     </item>
     <item>
       <title>Autoupgrade - Verify catalog page after upgrade to V9</title>
@@ -2970,17 +2977,17 @@
     </item>
     <item>
       <title>FO - Menu and Navigation - Sort and filter - Filter products</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</guid>
-      <description>FO - Menu and Navigation - Sort and filter - Filter products Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1241 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/02_sortAndFilter/02_filterProducts.ts Steps Step Description Expected result Go to FO&amp;gt; all products All products page is displayed Filter products by Categories There are 9 products.&#xA;Active filters Categories : Art and Categories : Clothes Click on clear all button No more filter is displayed.&#xA;All products are displayed.</description>
-    </item>
-    <item>
-      <title>FO - Menu and Navigation - Sort and filter - Filter products</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/menu-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</guid>
       <description>FO - Menu and Navigation - Sort and filter - Filter products Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6953 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/02_sortAndFilter/02_filterProducts.ts Steps Step Description Expected result Go to FO &amp;gt; All products All products page is displayed Filter products by Categories There are 9 products.&#xA;Active filters Categories : Art and Categories : Clothes Click on clear all button No more filter is displayed.&#xA;All products are displayed.</description>
+    </item>
+    <item>
+      <title>FO - Menu and Navigation - Sort and filter : Filter products</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/menu-and-navigation/sort-and-filter/fo-menu-and-navigation-sort-and-filter-filter-products.html</guid>
+      <description>FO - Menu and Navigation - Sort and filter : Filter products Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1241 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/02_sortAndFilter/02_filterProducts.ts Steps Step Description Expected result Go to FO&amp;gt; all products All products page is displayed Filter products by Categories There are 9 products.&#xA;Active filters Categories : Art and Categories : Clothes Click on clear all button No more filter is displayed.&#xA;All products are displayed.</description>
     </item>
     <item>
       <title>FO - Order confirmation - Display of product customization</title>
@@ -3113,7 +3120,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-admin-api-modules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/language/get-admin-api-modules.html</guid>
-      <description>GET /admin-api/modules Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8860 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/11_getModules.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+      <description>GET /admin-api/modules Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8860 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/11_getModules.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Mail alerts module - Upgrade module</title>
@@ -3417,13 +3424,6 @@
       <description>Resource Endpoint Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4926 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/02_resourceEndpoint.ts Steps Step Description Expected result Login in BO &amp;gt; Go to modules manager page * The page title should contains &amp;lsquo;Module manager&amp;rsquo;&#xA;Check that the button upload module exist in the header of the page Click on the button Upload module A pop-up contains &amp;lsquo;Drop your module archive here or select file&amp;rsquo; appears Drop the module &amp;ldquo;Keycloak Connector Demo&amp;rdquo; you want to install The installing process begins &amp;gt; a sucess message should appears Check that the module is well installed and exist in the list of modules Click on the button configure The page title should contains &amp;lsquo;Configure &amp;rsquo; and the page sub-title should contains the module&amp;rsquo;s name Define the Keycloak realm endpoint (for example http://127.</description>
     </item>
     <item>
-      <title>Resource Endpoint</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/internal-authentification-server/resource-endpoint.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/client-credential-grant-flow/internal-authentification-server/resource-endpoint.html</guid>
-      <description>Resource Endpoint Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-4859 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/01_internalAuthServer/02_resourceEndpoint.ts Steps Step Description Expected result Request the endpoint /admin-dev/new-api/hook-status/1 without access token * Receive a response where the HTTP Code is 401 Request the endpoint /admin-dev/new-api/hook-status/1 with an invalid access token * Receive a response where the HTTP Code is 401&#xA;* Receive a response where the Header &amp;lsquo;WWW-Authenticate: Bearer&amp;rsquo; Request the endpoint /admin-dev/new-api/hook-status/1 with a valid but expired access token * Receive a response where the HTTP Code is 401</description>
-    </item>
-    <item>
       <title>statsbestcustomers - Uninstall/Install</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/statsbestcustomers/installation/statsbestcustomers-uninstall-install.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3634,11 +3634,11 @@
       <description>BO - Cart rules - Actions - Apply a discount percent(%) Details Component : Core Status : Automated Automated on : 9.1.x Scenario : https://forge.prestashop.com/browse/TEST-10319 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/03_applyDiscountPercent.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Click on &amp;ldquo;Add new cart rule&amp;rdquo; Cart rule page is displayed&#xA;Information tab is displayed Entering data for in Information tab &amp;gt; Click on tab Actions Tab Actions is displayed Enter data for Tab &amp;ldquo;Actions&amp;rdquo; &amp;gt; Save Success Message is displayed: &amp;ldquo;Successful creation&amp;rdquo; Click on &amp;ldquo;View my store&amp;rdquo; &amp;gt; Add a product to the cart The discount applies to the product in the cart with free shipping</description>
     </item>
     <item>
-      <title>BO - Cart rules - Condition - Case 2 bis - Invalid Date Time</title>
+      <title>BO - Cart rules - Condition : Case 2 bis - Invalid Date Time</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-condition-case-2-bis-invalid-date-time.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-condition-case-2-bis-invalid-date-time.html</guid>
-      <description>BO - Cart rules - Condition - Case 2 bis - Invalid Date Time Details Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-12099 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Create a new discount, set these fields:&#xA;# Information:&#xA;1. Name : TEst</description>
+      <description>BO - Cart rules - Condition : Case 2 bis - Invalid Date Time Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12099 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/02_validDateTime.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Create a new discount, set these fields:</description>
     </item>
     <item>
       <title>BO - Cart Rules - Filter, Quick Edit and bulk actions</title>
@@ -3722,7 +3722,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-bulk-actions.html</guid>
-      <description> BO - Catalog price Rules - Bulk actions Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-10329 </description>
+      <description>BO - Catalog price Rules - Bulk actions Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-10329 Steps Step Description Expected result Bulk actions -&amp;gt; Select all The status has been successfully updated.&#xA;All Catalog Price Rules are selected Bulk actions -&amp;gt; Unselect all The status has been successfully updated.&#xA;All Catalog Price Rules are unselected Bulk actions -&amp;gt; Delete selected We have a message: &amp;ldquo;You must select at least one element to delete.</description>
     </item>
     <item>
       <title>BO - CRUD Pack of products</title>
@@ -4555,7 +4555,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/post-admin-api-product-productid-image.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/post-admin-api-product-productid-image.html</guid>
-      <description>POST /admin-api/product/{productId}/image Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8967 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/03_postProductIdImage.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+      <description>POST /admin-api/product/{productId}/image Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8967 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/03_postProductIdImage.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Product Comments - Uninstall and delete</title>
@@ -5076,11 +5076,11 @@
       <description>BO - Customers - Set required fields Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-851 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/01_customers/05_setRequiredFields.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/customers/creating-a-new-customer Steps Step Description Expected result Go to the Front Office. Click on Sign in&amp;quot;. Click on &amp;ldquo;No account ? Create one here&amp;rdquo; The Create an account page is displayed Create an account with random informations. Leave the checkbox Receive offers from our partners&amp;quot; UNCHECKED.</description>
     </item>
     <item>
-      <title>BO - Dashboard - Contextual help</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-contextual-help.html</link>
+      <title>BO - dashboard : Help card in dashboard page</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-help-card-in-dashboard-page.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-contextual-help.html</guid>
-      <description> BO - Dashboard - Contextual help Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-711 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/04_helpCard.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard-configure Steps Step Description Expected result On BO &amp;gt; Dashboard Page title is Dashboard Click on &amp;ldquo;Help&amp;rdquo; The help for the page is displayed on a side popin&#xA;Title is : Discovering the Administration Area </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/dashboard/bo-dashboard-help-card-in-dashboard-page.html</guid>
+      <description> BO - dashboard : Help card in dashboard page Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-711 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/04_helpCard.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard-configure Steps Step Description Expected result On BO &amp;gt; Dashboard Page title is Dashboard Click on &amp;ldquo;Help&amp;rdquo; The help for the page is displayed on a side popin&#xA;Title is : Discovering the Administration Area </description>
     </item>
     <item>
       <title>BO - Design - Image Settings - Sort and Pagination</title>
@@ -5668,7 +5668,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/get-admin-api-product-productid-images.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/get-admin-api-product-productid-images.html</guid>
-      <description>GET /admin-api/product/{productId}/images Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8981 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/04_getProductIdImages.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+      <description>GET /admin-api/product/{productId}/images Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8981 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/04_getProductIdImages.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
       <title>Mail alerts module - Customer notifications - Enable/Disable product availability</title>
@@ -6168,11 +6168,11 @@
       <description>BO - Shop Parameters - General - Enable / Disable Supplier Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1038 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/08_enableDisableSuppliers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters -&amp;gt; General Page title contains &amp;lsquo;Preferences&amp;rsquo; Enable Display suppliers &amp;gt; Save Message Successful update is displayed Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Tab Suppliers Page title contains &amp;lsquo;Suppliers&amp;rsquo;</description>
     </item>
     <item>
-      <title>BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order</title>
+      <title>BO - Shop Parameters - Order Settings : Recalculate shipping costs after editing the order</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-recalculate-shipping-costs-after-editing-the-order.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-recalculate-shipping-costs-after-editing-the-order.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Recalculate shipping costs after editing the order Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1053 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/05_recalculateShippingCosts.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/order-settings Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; General block Recalculate shipping costs after editing the order is set to YES Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed Choose delivery method (free) Delivery method is selected Choose Payment method Payment method is selected Choose order status Order status is selected Add an Order message and Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
+      <description>BO - Shop Parameters - Order Settings : Recalculate shipping costs after editing the order Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1053 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/05_recalculateShippingCosts.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/order-settings Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings &amp;gt; General block Recalculate shipping costs after editing the order is set to YES Go to BO -&amp;gt; Orders page and click on Add new Order The Create order page is displayed Search customer &amp;lsquo;John DOE&amp;rsquo; and choose it The customer-checkout-history block, the cart block and the address block are displayed choose product with quantity = 4 and add it to cart The product table is displayed, the Shipping block is displayed and the summary block is displayed Choose delivery method (free) Delivery method is selected Choose Payment method Payment method is selected Choose order status Order status is selected Add an Order message and Click on &amp;ldquo;Create the order&amp;rdquo; The order details page is displayed with exact data:</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Product Settings - Enable display discounted unit price</title>
@@ -6229,6 +6229,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-categoryproducts/installation/category-products-module-uninstall-install-module.html</guid>
       <description>Category products module - Uninstall/Install module Details Component : ps_categoryproducts Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-4216 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
+    </item>
+    <item>
+      <title>CLDR : Search a currency by enable/disable</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-enable-disable.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-enable-disable.html</guid>
+      <description>CLDR : Search a currency by enable/disable Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1365 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/05_searchCurrencyByEnableDisable.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add a new currency : USD &amp;gt; Save USD currency is created&#xA;Message &amp;ldquo;Successful creation.&amp;rdquo; Disable currency USD by switching the toggle button USD is disabled&#xA;Message &amp;ldquo;The status has been successfully updated.&amp;rdquo; Search by Enabled : YES &amp;gt; Click Search Currency Euro should be the only currency available Search by Enabled : NO &amp;gt; Click Search Currency USD should be the only currency available Enable currency USD by switching the toggle button USD is enabled</description>
     </item>
     <item>
       <title>Configure the email address to receive notification</title>
@@ -6495,13 +6502,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-module-technicalname-status.html</guid>
       <description>PUT /admin-api/module/{technicalName}/status Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-9956 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/05_putModuleTechnicalNameStatus.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
-    </item>
-    <item>
-      <title>Search a currency by enable/disable</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/search-a-currency-by-enable-disable.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/search-a-currency-by-enable-disable.html</guid>
-      <description>Search a currency by enable/disable Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1365 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/05_searchCurrencyByEnableDisable.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add a new currency : USD &amp;gt; Save USD currency is created&#xA;Message &amp;ldquo;Successful creation.&amp;rdquo; Disable currency USD by switching the toggle button USD is disabled&#xA;Message &amp;ldquo;The status has been successfully updated.&amp;rdquo; Search by Enabled : YES &amp;gt; Click Search Currency Euro should be the only currency available Search by Enabled : NO &amp;gt; Click Search Currency USD should be the only currency available Enable currency USD by switching the toggle button USD is enabled</description>
     </item>
     <item>
       <title>Theme Customization module - Disable/Enable module</title>
@@ -7005,7 +7005,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-module-technicalname-uninstall.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-module-technicalname-uninstall.html</guid>
-      <description>PUT /module/{technicalName}/uninstall Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-10025 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/06_putModuleTechnicalNameUninstall.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly Fill the form with following data (Client ID : &amp;ldquo;Client XYZ&amp;rdquo;, Client Name: &amp;ldquo;ClientName ABC&amp;rdquo;)</description>
+      <description>PUT /module/{technicalName}/uninstall Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-10025 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/06_putModuleTechnicalNameUninstall.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly Fill the form with following data (Client ID : &amp;ldquo;Client XYZ&amp;rdquo;, Client Name: &amp;ldquo;ClientName ABC&amp;rdquo;)</description>
     </item>
     <item>
       <title>Reset currency default settings</title>
@@ -7288,18 +7288,18 @@
       <description> BO - Shop Parameters - Product Settings - Quantity discounts based on Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9803 </description>
     </item>
     <item>
+      <title>CLDR : Edit symbol / format currency</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-edit-symbol-format-currency.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-edit-symbol-format-currency.html</guid>
+      <description>CLDR : Edit symbol / format currency Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1367 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/07_editSymbolFormatCurrency.ts Steps Step Description Expected result Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated Click the round arrow to Reset it Currency should be reset</description>
+    </item>
+    <item>
       <title>Create an order with an existing customer</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-an-existing-customer.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/orders-campaign/create-order-bo/create-an-order-with-an-existing-customer.html</guid>
       <description> Create an order with an existing customer Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1353 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>Edit symbol / format currency</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/edit-symbol-format-currency.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/edit-symbol-format-currency.html</guid>
-      <description>Edit symbol / format currency Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1367 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/07_editSymbolFormatCurrency.ts Steps Step Description Expected result Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated Click the round arrow to Reset it Currency should be reset</description>
     </item>
     <item>
       <title>Faceted search module - Use rounding to filter price field configuration</title>
@@ -7498,11 +7498,11 @@
       <description> BO - Catalog price Rules - CRUD - Invalid date Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-10335 </description>
     </item>
     <item>
-      <title>BO - Customers - View/edit voucher</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view-edit-voucher.html</link>
+      <title>BO - Customers - Customers : View/edit voucher</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-customers-view-edit-voucher.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-view-edit-voucher.html</guid>
-      <description>BO - Customers - View/edit voucher Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-856 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/01_customers/10_viewEditVoucher.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/customers/creating-a-new-customer Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Created a new discount and click on Save An alert &amp;ldquo;Successful creation.&amp;rdquo; is displayed Go to BO &amp;gt; Customers &amp;gt; Customers Manage your Customers page is well displayed Filter By Email.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/customers/customers/bo-customers-customers-view-edit-voucher.html</guid>
+      <description>BO - Customers - Customers : View/edit voucher Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-856 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/01_customers/10_viewEditVoucher.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/customers/creating-a-new-customer Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Created a new discount and click on Save An alert &amp;ldquo;Successful creation.&amp;rdquo; is displayed Go to BO &amp;gt; Customers &amp;gt; Customers Manage your Customers page is well displayed Filter By Email.</description>
     </item>
     <item>
       <title>BO - Design - Image Settings - Regenerate thumbnail</title>
@@ -7747,7 +7747,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud-reduction-type.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud-reduction-type.html</guid>
-      <description> BO - Catalog price Rules - CRUD - Reduction type Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-10336 </description>
+      <description>BO - Catalog price Rules - CRUD - Reduction type Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-10336 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog Price Rules tab Catalog Price Rules page is well displayed Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed Go to FO and check out the catalog Where we have a €24 discount on products.</description>
     </item>
     <item>
       <title>BO - Customers - Bulk Actions</title>
@@ -7813,11 +7813,11 @@
       <description> BO - Shop Parameters - Product Settings - Display out-of-stock label on product listing pages Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9809 </description>
     </item>
     <item>
-      <title>Enable/Disable a currency</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/enable-disable-a-currency.html</link>
+      <title>CLDR : Enable/Disable a currency</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-enable-disable-a-currency.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/enable-disable-a-currency.html</guid>
-      <description>Enable/Disable a currency Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1369 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/09_enableDisableCurrency.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Disable Euro currency Message &amp;ldquo;You cannot disable the default currency&amp;rdquo;&#xA;The currency is not disabled Click &amp;ldquo;Add new currency&amp;rdquo; &amp;gt; Choose USD &amp;gt; Status &amp;ldquo;No&amp;rdquo; &amp;gt; Save Message &amp;ldquo;Successful creation.&amp;quot;&#xA;Currency USD is disabled and displayed in the list Enable USD from Currency list Message &amp;ldquo;The status has been successfully updated.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-enable-disable-a-currency.html</guid>
+      <description>CLDR : Enable/Disable a currency Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1369 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/09_enableDisableCurrency.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Disable Euro currency Message &amp;ldquo;You cannot disable the default currency&amp;rdquo;&#xA;The currency is not disabled Click &amp;ldquo;Add new currency&amp;rdquo; &amp;gt; Choose USD &amp;gt; Status &amp;ldquo;No&amp;rdquo; &amp;gt; Save Message &amp;ldquo;Successful creation.&amp;quot;&#xA;Currency USD is disabled and displayed in the list Enable USD from Currency list Message &amp;ldquo;The status has been successfully updated.</description>
     </item>
     <item>
       <title>Faceted search module - Edit template - Sub-categories filter</title>
@@ -7895,6 +7895,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/upgrade/bo-upgrade-from-1-7-4-to-last-build-and-then-exploratory-test-on-bo.html</guid>
       <description>[BO] Upgrade from 1.7.4 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2538 Steps Step Description Expected result On a fresh 1.7.4.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Create error  on the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-on-the-version-choice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-on-the-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Create error on the version choice Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11304 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Create error on Welcome Page</title>
@@ -8051,6 +8058,13 @@
       <description>[FO] Upgrade from 1.7.6 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2539 Steps Step Description Expected result On a fresh 1.7.6.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
+      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11312 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+    </item>
+    <item>
       <title>Autoupgrade - Web Version - Create error on update</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8156,13 +8170,6 @@
       <description>[BO] Upgrade from 1.7.6 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2540 Steps Step Description Expected result On a fresh 1.7.6.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Create error  on the version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-the-version-choice.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-the-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Create error on the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11304 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
-    </item>
-    <item>
       <title>BO - Design - Image Settings : Check category image format</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-category-image-format.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8240,11 +8247,18 @@
       <description>Shop Parameters Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-10188 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/12_shopParameters.ts Steps Step Description Expected result Go to BO -&amp;gt; Dashboard page The dashboard page is displayed&#xA;No JS errors are triggered Go to Shop Parameters &amp;gt; General The preferences page is displayed&#xA;No JS errors are triggered Go to Maintenance tab The Maintenance page is displayed&#xA;No JS errors are triggered Go to Order Settings The Order settings page is displayed</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
+      <title>Autoupgrade - Web Version - Verification during backup part</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-backup-part.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11312 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-backup-part.html</guid>
+      <description>Autoupgrade - Web Version - Verification during backup part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11315 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
+    </item>
+    <item>
+      <title>BO - Catalog - Products : Virtual tab</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-catalog-products-virtual-tab.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-catalog-products-virtual-tab.html</guid>
+      <description>BO - Catalog - Products : Virtual tab Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5212 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/13_virtualTab.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Virtual Product Tab &amp;gt; Add new product &amp;gt; Add Title &amp;gt; Switch to Online &amp;gt; Go to Virtual Tab Successful update message is displayed Add quantity = 100 &amp;gt; Save Recent stock movements table is displayed with recent data (Date &amp;amp; Time, Employee, Quantity)</description>
     </item>
     <item>
       <title>BO - Design - Image Settings : Check stores image format</title>
@@ -8259,13 +8273,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/view-and-edit-an-order/bo-orders-view-and-edit-order-return-a-product.html</guid>
       <description>BO - Orders - View and edit order : Return a product Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7395 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/13_returnOrder.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template Steps Step Description Expected result Go to BO &amp;gt; Orders &amp;gt; Orders The Orders page is well displayed&#xA;The orders are displayed in a table with title : Orders +(total number of orders) Change the status of the first order (ref KHWLILZLL) Successful update message is displayed.</description>
-    </item>
-    <item>
-      <title>BO - Virtual Product Tab</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-virtual-product-tab.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-virtual-product-tab.html</guid>
-      <description>BO - Virtual Product Tab Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5212 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/13_virtualTab.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Virtual Product Tab &amp;gt; Add new product &amp;gt; Add Title &amp;gt; Switch to Online &amp;gt; Go to Virtual Tab Successful update message is displayed Add quantity = 100 &amp;gt; Save Recent stock movements table is displayed with recent data (Date &amp;amp; Time, Employee, Quantity)</description>
     </item>
     <item>
       <title>Faceted search module - Edit template - Property filter</title>
@@ -8303,11 +8310,11 @@
       <description> Refresh list of currency Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1373 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Verification during version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-version-choice.html</link>
+      <title>Autoupgrade - Web Version - Verification during the post Upgrade page</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Verification during version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11314 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</guid>
+      <description>Autoupgrade - Web Version - Verification during the post Upgrade page Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11316 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
       <title>BO - Design - Image Settings - Check base image format </title>
@@ -8352,11 +8359,11 @@
       <description> Reset the search Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1374 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Verification during backup part</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-backup-part.html</link>
+      <title>Autoupgrade - Middleware on Backup Part</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-backup-part.html</guid>
-      <description>Autoupgrade - Web Version - Verification during backup part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11315 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html</guid>
+      <description>Autoupgrade - Middleware on Backup Part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11597 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
     </item>
     <item>
       <title>BO - Stocks Tab</title>
@@ -8394,11 +8401,11 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the email address is not linked to a customer Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-660 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Verification during the post Upgrade page</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</link>
+      <title>Autoupgrade - Web Version -  symlink - blocked server</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</guid>
-      <description>Autoupgrade - Web Version - Verification during the post Upgrade page Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11316 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</guid>
+      <description>Autoupgrade - Web Version - symlink - blocked server Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11754 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
     </item>
     <item>
       <title>BO - Catalog - Products : Shipping tab</title>
@@ -8429,11 +8436,11 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the email address is linked to a customer Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-661 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Middleware on Backup Part</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html</link>
+      <title>Autoupgrade - Web Version - modal for new Upgrade </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html</guid>
-      <description>Autoupgrade - Middleware on Backup Part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11597 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-11769 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
     </item>
     <item>
       <title>BO - Pricing Tab</title>
@@ -8457,11 +8464,11 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the user register as customer and check the box subscribe Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-662 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version -  symlink - blocked server</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</link>
+      <title>Autoupgrade - Web Version - Create error  on the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-the-version-choice.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</guid>
-      <description>Autoupgrade - Web Version - symlink - blocked server Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11754 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-the-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Create error on the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12190 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
       <title>BO - SEO Tab</title>
@@ -8485,11 +8492,11 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the user register as customer and uncheck the box subscribe Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-663 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - modal for new Upgrade </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</link>
+      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-11769 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12191 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
       <title>BO - Catalog - Products : Options tab</title>
@@ -8506,11 +8513,18 @@
       <description>Faceted search module - Edit template - Product weight filter Details Component : ps_facetedsearch Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-4255 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed Click on &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed In &amp;ldquo;Filters&amp;rdquo; block &amp;gt; Set &amp;ldquo;Product weight filter&amp;rdquo; switch button to disable &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button It returns on the &amp;ldquo;Configure faceted search&amp;rdquo; page and you have a successful message &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
     </item>
     <item>
-      <title>BO - Multistore</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-multistore.html</link>
+      <title>Autoupgrade - Web Version - Verification during version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-version-choice.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-multistore.html</guid>
-      <description>BO - Multistore Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5221 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/20_multistore.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Enable multistore &amp;gt; Save A success message will appear : &amp;ldquo;Successful update&amp;rdquo; Go to Advanced Parameters &amp;gt; Multistore Multistore page is well displayed Click on Add a new store A page is displayed with the title : &amp;ldquo;Add new&amp;rdquo; Enter the following data of the new store A success message will appear : &amp;ldquo;Successful creation&amp;rdquo; Click on &amp;ldquo;Click here to set a URL for this shop.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Verification during version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12192 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
+    </item>
+    <item>
+      <title>BO - Catalog - Products : Multistore</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-catalog-products-multistore.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-catalog-products-multistore.html</guid>
+      <description>BO - Catalog - Products : Multistore Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5221 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/20_multistore.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Enable multistore &amp;gt; Save A success message will appear : &amp;ldquo;Successful update&amp;rdquo; Go to Advanced Parameters &amp;gt; Multistore Multistore page is well displayed Click on Add a new store A page is displayed with the title : &amp;ldquo;Add new&amp;rdquo; Enter the following data of the new store A success message will appear : &amp;ldquo;Successful creation&amp;rdquo; Click on &amp;ldquo;Click here to set a URL for this shop.</description>
     </item>
     <item>
       <title>Faceted search module - Edit template - Product price filter</title>
