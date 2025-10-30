@@ -1,9 +1,9 @@
 ---
-title: "BO - Virtual Product Tab"
+title: "BO - Catalog - Products : Virtual tab"
 weight: 13
 ---
 
-# BO - Virtual Product Tab
+# BO - Catalog - Products : Virtual tab
 ## Details
 * **Component** : Core
 * **Status** : Automated

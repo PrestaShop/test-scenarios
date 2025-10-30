@@ -1,9 +1,9 @@
 ---
-title: "BO - Customers - View/edit voucher"
+title: "BO - Customers - Customers : View/edit voucher"
 weight: 8
 ---
 
-# BO - Customers - View/edit voucher
+# BO - Customers - Customers : View/edit voucher
 ## Details
 * **Component** : Core
 * **Status** : Automated

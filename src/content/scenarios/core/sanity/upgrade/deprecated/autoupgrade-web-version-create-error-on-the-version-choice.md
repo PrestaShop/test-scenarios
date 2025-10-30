@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - Create error  on the version choice"
-weight: 18
+weight: 10
 ---
 
 # Autoupgrade - Web Version - Create error  on the version choice
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12190
+* **Status** : Deprecated
+* **Scenario** : https://forge.prestashop.com/browse/TEST-11304
 
 ## Steps
 | Step Description | Expected result |
@@ -29,7 +29,7 @@ weight: 18
 | Click on the CTA "Save". | Shop is in maintenance mode. |
 | Go to "Update Assistant" module (side board). | "Update Assistant" module is displayed : <br> * Title : "Welcome to PrestaShop Update Assistant"<br> * Two radio buttons : "Update your store" and "Restore from a backup" (disabled)<br> * CTA "Get started" disabled |
 | Select the "Update your Store" radio button. | * "Update your store" radio button is selected<br> * CTA "Get started" is enabled |
-| Click on the CTA "Get started". | A loader is displayed in the CTA "Get started" then, "Version choice" page is displayed : <br> * Stepper on step one ("Version choice")<br> * Paragraph with "A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1.xx<br> * Radio button : PrestaShop {test-param}last version recommended enabled{test-param}  (Major) version](blue color rgb(190, 234, 243)) with description "The recommended version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" <br> * Radio button : PrestaShop {test-param}last version enabled{test-param} [Major version](blue color rgb(190, 234, 243)) with description "The maximum version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" <br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
+| Click on the CTA "Get started". | A loader is displayed in the CTA "Get started" then, "Version choice" page is displayed : <br> * Stepper on step one ("Version choice")<br> * Paragraph with "A more recent version is available / Current PrestaShop version: 8.0.4/ Current PHP version: 8.1.xx<br> * Radio button : PrestaShop LastVersion [Major version](blue color rgb(190, 234, 243)) with description "The maximum version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" <br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
 | Open the file [yourshopname_folder] > modules > autoupgrade > classes > UpgradeSelfCheck.php | File opened. |
 | In :<br> * "public function getErrors(): array" <br> * "public function getWarnings(): array",<br><br>invert all the condition (check how to in datas) and save the folder. | Modifications saved. |
 | Select "PrestaShop LastVersion" radio button. | The checking requirement should have 16 errors and 4 warnings : check screenshot attached. |

@@ -1,12 +1,15 @@
 ---
-title: "BO - Cart rules - Condition - Case 2 bis - Invalid Date Time"
+title: "BO - Cart rules - Condition : Case 2 bis - Invalid Date Time"
 weight: 3
 ---
 
-# BO - Cart rules - Condition - Case 2 bis - Invalid Date Time
+# BO - Cart rules - Condition : Case 2 bis - Invalid Date Time
 ## Details
-* **Status** : To be automated
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12099
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/02_validDateTime.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -1,9 +1,9 @@
 ---
-title: "Enable/Disable a currency"
+title: "CLDR : Enable/Disable a currency"
 weight: 9
 ---
 
-# Enable/Disable a currency
+# CLDR : Enable/Disable a currency
 ## Details
 * **Component** : Core
 * **Status** : Automated

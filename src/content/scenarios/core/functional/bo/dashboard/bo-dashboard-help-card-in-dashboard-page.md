@@ -1,9 +1,9 @@
 ---
-title: "BO - Dashboard - Contextual help"
+title: "BO - dashboard : Help card in dashboard page"
 weight: 4
 ---
 
-# BO - Dashboard - Contextual help
+# BO - dashboard : Help card in dashboard page
 ## Details
 * **Component** : Core
 * **Status** : Automated

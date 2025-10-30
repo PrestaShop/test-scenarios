@@ -1,9 +1,9 @@
 ---
-title: "Resource Endpoint"
+title: "API : Internal Auth Server - Resource Endpoint"
 weight: 2
 ---
 
-# Resource Endpoint
+# API : Internal Auth Server - Resource Endpoint
 ## Details
 * **Component** : Core
 * **Status** : Automated

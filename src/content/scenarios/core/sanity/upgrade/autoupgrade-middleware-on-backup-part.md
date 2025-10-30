@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Middleware on Backup Part"
-weight: 17
+weight: 15
 ---
 
 # Autoupgrade - Middleware on Backup Part

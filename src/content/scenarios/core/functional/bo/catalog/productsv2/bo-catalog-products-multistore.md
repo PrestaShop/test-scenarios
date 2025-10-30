@@ -1,9 +1,9 @@
 ---
-title: "BO - Multistore"
+title: "BO - Catalog - Products : Multistore"
 weight: 20
 ---
 
-# BO - Multistore
+# BO - Catalog - Products : Multistore
 ## Details
 * **Component** : Core
 * **Status** : Automated

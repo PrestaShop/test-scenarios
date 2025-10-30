@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - modal for new Upgrade "
-weight: 19
+weight: 17
 ---
 
 # Autoupgrade - Web Version - modal for new Upgrade 

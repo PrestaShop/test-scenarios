@@ -1,9 +1,9 @@
 ---
-title: "Edit symbol / format currency"
+title: "CLDR : Edit symbol / format currency"
 weight: 7
 ---
 
-# Edit symbol / format currency
+# CLDR : Edit symbol / format currency
 ## Details
 * **Component** : Core
 * **Status** : Automated
