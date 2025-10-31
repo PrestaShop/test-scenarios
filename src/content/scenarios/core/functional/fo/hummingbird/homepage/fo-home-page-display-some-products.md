@@ -1,9 +1,9 @@
 ---
-title: "FO - Homepage - Display some products"
+title: "FO - Home Page : Display some products"
 weight: 2
 ---
 
-# FO - Homepage - Display some products
+# FO - Home Page : Display some products
 ## Details
 * **Component** : Core
 * **Status** : Automated

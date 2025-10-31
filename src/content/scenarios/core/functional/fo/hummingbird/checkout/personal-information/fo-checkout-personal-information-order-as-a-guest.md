@@ -1,9 +1,9 @@
 ---
-title: "FO - Checkout - Personal Information - Order as a guest"
+title: "FO - Checkout - Personal information : Order as a guest"
 weight: 1
 ---
 
-# FO - Checkout - Personal Information - Order as a guest
+# FO - Checkout - Personal information : Order as a guest
 ## Details
 * **Component** : Core
 * **Status** : Automated

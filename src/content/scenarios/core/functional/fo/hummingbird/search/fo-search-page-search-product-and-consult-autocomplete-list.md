@@ -1,9 +1,9 @@
 ---
-title: "FO - Search - Search product bar, consult autocomplete list"
+title: "FO - Search Page : Search product and consult autocomplete list"
 weight: 1
 ---
 
-# FO - Search - Search product bar, consult autocomplete list
+# FO - Search Page : Search product and consult autocomplete list
 ## Details
 * **Component** : Core
 * **Status** : Automated

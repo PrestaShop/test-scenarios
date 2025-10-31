@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Product Quickview - Close"
+title: "FO - Product page - Quick view : Close quick view modal"
 weight: 5
 ---
 
-# FO - Product Page - Product Quickview - Close
+# FO - Product page - Quick view : Close quick view modal
 ## Details
 * **Component** : Core
 * **Status** : Automated

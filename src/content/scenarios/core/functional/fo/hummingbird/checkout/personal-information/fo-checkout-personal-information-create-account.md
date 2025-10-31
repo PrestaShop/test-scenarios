@@ -1,9 +1,9 @@
 ---
-title: "FO - Checkout - Personal Information - Create an account"
+title: "FO - Checkout - Personal information : Create account"
 weight: 3
 ---
 
-# FO - Checkout - Personal Information - Create an account
+# FO - Checkout - Personal information : Create account
 ## Details
 * **Component** : Core
 * **Status** : Automated

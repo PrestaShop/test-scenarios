@@ -1,9 +1,9 @@
 ---
-title: "FO - Cart - Add a promo code"
+title: "FO - Cart : Add promo code"
 weight: 3
 ---
 
-# FO - Cart - Add a promo code
+# FO - Cart : Add promo code
 ## Details
 * **Component** : Core
 * **Status** : Automated

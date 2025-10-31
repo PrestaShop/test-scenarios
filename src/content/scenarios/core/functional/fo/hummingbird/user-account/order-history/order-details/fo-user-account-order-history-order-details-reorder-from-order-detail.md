@@ -1,9 +1,9 @@
 ---
-title: "FO - User account - Order history - Order details - Reorder order from details"
+title: "FO - User Account - Order History - Order details : Reorder from order detail"
 weight: 4
 ---
 
-# FO - User account - Order history - Order details - Reorder order from details
+# FO - User Account - Order History - Order details : Reorder from order detail
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "FO - Homepage - Slider"
+title: "FO - Home Page : Check slider"
 weight: 1
 ---
 
-# FO - Homepage - Slider
+# FO - Home Page : Check slider
 ## Details
 * **Component** : Core
 * **Status** : Automated

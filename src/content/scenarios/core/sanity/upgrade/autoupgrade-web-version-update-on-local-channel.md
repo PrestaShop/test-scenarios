@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Update on local channel"
-weight: 8
+weight: 7
 ---
 
 # Autoupgrade - Web Version - Update on local channel
@@ -23,10 +23,10 @@ weight: 8
 | Click on the CTA "Save". | Shop is in maintenance mode. |
 | Go to "Update Assistant" module (side board). | "Update Assistant" module is displayed : <br> * Title : "Welcome to PrestaShop Update Assistant"<br> * Two radio buttons : "Update your store" and "Restore from a backup" (disabled)<br> * CTA "Get started" disabled |
 | Select the radio button "Update your store". | * "Update your store" radio button is selected<br> * CTA "Get started" is enabled |
-| Click on the CTA "Get started". | A loader is displayed in the CTA "Get started" then, "Version choice" page is displayed : <br> * Stepper on step one ("Version choice")<br> * An image of folder with "You're up to date", "Current PrestaShop version: [yourLastPrestaVersion]" and "Current PHP version: 8.1.xx"<br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
+| Click on the CTA "Get started". | A loader is displayed in the CTA "Get started" then, "Version choice" page is displayed : <br> * Stepper on step one ("Version choice")<br> * An image of folder with "You're up to date", "Current PrestaShop version: {test-param}Last_prestashop{test-param} " and "Current PHP version: 8.1.xx"<br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
 | Put a zip and xml with a greater version of 8.2.x in [yourshop]/[adminfolder]/autoupgrade/download | There are a zip, an xml and an index.php files in your folder |
 | Put another zip and xml with a greater version of 8.2.x in [yourshop]/[adminfolder]/autoupgrade/download | There are two zip, two xml and an index.php files in your folder |
-| Reload the page "Version choice". | * "Version choice" page is displayed with : <br><br> * <br> ** Stepper on step one ("Version choice")<br> ** Info text :  "You're up to date", "Current PrestaShop version: [yourLastPrestaVersion]" and "Current PHP version: 8.1.xx"<br> ** Info text "You are already using the latest PrestaShop version available but you can update to the version of your choice from a local archive. "<br> ** Radio button : "Local archive" with description "Save the archive file of the version you want to update to in the following directory: /your-admin-directory/autoupgrade/download/ "<br> ** CTA : "Next" disabled |
+| Reload the page "Version choice". | * "Version choice" page is displayed with : <br><br> * <br> ** Stepper on step one ("Version choice")<br> ** Info text :  "You're up to date", "Current PrestaShop version: {test-param}Last_prestashop{test-param} " and "Current PHP version: 8.1.xx"<br> ** Info text "You are already using the latest PrestaShop version available but you can update to the version of your choice from a local archive. "<br> ** Radio button : "Local archive" with description "Save the archive file of the version you want to update to in the following directory: /your-admin-directory/autoupgrade/download/ "<br> ** CTA : "Next" disabled |
 | Select the Radio button "Local archive" | * You should have two drop list :<br> ** One with title : "Archive to use*" and in the drop list "Select an archive"<br> ** One with title : "XML file to use*" and in the drop list "Select a file" |
 | Clic on the first drop list | You still have "Select an archive" selected and "{color:#4c9aff}*[newzip1.zip]*{color}","{color:#ffab00}*[newzip2.zip]*{color}" don't selected |
 | Select "*{color:#4c9aff}[newzip1.zip]{color}*" | In the drop list, "*{color:#4c9aff}[newzip1.zip{color}*]" is selected |

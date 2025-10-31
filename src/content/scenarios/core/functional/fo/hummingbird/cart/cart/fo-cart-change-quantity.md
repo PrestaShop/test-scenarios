@@ -1,9 +1,9 @@
 ---
-title: "FO - Cart - Change quantity"
+title: "FO - Cart : Change quantity"
 weight: 1
 ---
 
-# FO - Cart - Change quantity
+# FO - Cart : Change quantity
 ## Details
 * **Component** : Core
 * **Status** : Automated
