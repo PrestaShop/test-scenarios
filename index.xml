@@ -1072,13 +1072,6 @@
       <description>FO - Cart - Change quantity Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1279 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/10_cart/02_cart/01_changeQuantity.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/front-office/customers-shopping-cart Steps Step Description Expected result * Go to FO * Clic &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo;&#xA;* Clic on &amp;ldquo;Add to cart&amp;rdquo;&#xA;* Clic on Proceed to checkout * You should see you shop&#xA;* You&amp;rsquo;ll see the page of your product&#xA;* You&amp;rsquo;ll have a modal named &amp;ldquo;Product successfully added to your shopping cart&amp;rdquo;</description>
     </item>
     <item>
-      <title>FO - Cart - Change quantity</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-change-quantity.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-change-quantity.html</guid>
-      <description>FO - Cart - Change quantity Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6993 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/02_cart/01_changeQuantity.ts Steps Step Description Expected result Go to FO &amp;gt; Click on button &amp;ldquo;Add to cart&amp;rdquo; for product &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo; &amp;gt; Click on Proceed to checkout The shopping cart is displayed Click on the &amp;ldquo;+&amp;rdquo; next to the product&amp;rsquo;s quantity Quantity is 2 Click on the &amp;ldquo;-&amp;rdquo; next to the product&amp;rsquo;s quantity Quantity is 1 Click on the product&amp;rsquo;s quantity &amp;gt; Write 3 &amp;gt; Click on the checkmark Quantity is 3 Click on the product&amp;rsquo;s quantity &amp;gt; Write -6 &amp;gt; Click on the checkmark There are no more items in your cart Go to FO &amp;gt; Click on button &amp;ldquo;Add to cart&amp;rdquo; for product &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo; &amp;gt; Click on Proceed to checkout The shopping cart is displayed Click on the product&amp;rsquo;s quantity &amp;gt; Write +6 &amp;gt; Click on the checkmark Quantity is 6 Click on the product&amp;rsquo;s quantity &amp;gt; Write 64 &amp;gt; Click on the cross Quantity is 6 Click on the product&amp;rsquo;s quantity &amp;gt; Write &amp;ldquo;azerty&amp;rdquo; &amp;gt; Click on the checkmark Quantity is 6 Click on the product&amp;rsquo;s quantity &amp;gt; Write 2400 &amp;gt; Click on the checkmark Quantity is 300</description>
-    </item>
-    <item>
       <title>FO - Cart - Modal - Display of modal when adding a product to cart</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/cart/modal/fo-cart-modal-display-of-modal-when-adding-a-product-to-cart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1091,6 +1084,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/modal/fo-cart-modal-display-of-modal-when-adding-a-product-to-cart.html</guid>
       <description>FO - Cart - Modal - Display of modal when adding a product to cart Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-6987 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/01_modal/01_displayModal.ts Steps Step Description Expected result Go to FO &amp;gt; Click on Quick view for the product The adventure begins Framed poster The quick view modal is well displayed Edit Quantity to 2 &amp;gt; Click on Add to cart button The modal Product successfully added to your shopping cart is well displayed with the Quantity (2) and Dimension (40x60cm) chosen.</description>
+    </item>
+    <item>
+      <title>FO - Cart : Change quantity</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-change-quantity.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-change-quantity.html</guid>
+      <description>FO - Cart : Change quantity Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6993 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/02_cart/01_changeQuantity.ts Steps Step Description Expected result Go to FO &amp;gt; Click on button &amp;ldquo;Add to cart&amp;rdquo; for product &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo; &amp;gt; Click on Proceed to checkout The shopping cart is displayed Click on the &amp;ldquo;+&amp;rdquo; next to the product&amp;rsquo;s quantity Quantity is 2 Click on the &amp;ldquo;-&amp;rdquo; next to the product&amp;rsquo;s quantity Quantity is 1 Click on the product&amp;rsquo;s quantity &amp;gt; Write 3 &amp;gt; Click on the checkmark Quantity is 3 Click on the product&amp;rsquo;s quantity &amp;gt; Write -6 &amp;gt; Click on the checkmark There are no more items in your cart Go to FO &amp;gt; Click on button &amp;ldquo;Add to cart&amp;rdquo; for product &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo; &amp;gt; Click on Proceed to checkout The shopping cart is displayed Click on the product&amp;rsquo;s quantity &amp;gt; Write +6 &amp;gt; Click on the checkmark Quantity is 6 Click on the product&amp;rsquo;s quantity &amp;gt; Write 64 &amp;gt; Click on the cross Quantity is 6 Click on the product&amp;rsquo;s quantity &amp;gt; Write &amp;ldquo;azerty&amp;rdquo; &amp;gt; Click on the checkmark Quantity is 6 Click on the product&amp;rsquo;s quantity &amp;gt; Write 2400 &amp;gt; Click on the checkmark Quantity is 300</description>
     </item>
     <item>
       <title>FO - Checkout - Addresses - Guest checkout : Use same invoice address</title>
@@ -1128,11 +1128,11 @@
       <description>FO - Checkout - Personal Information - Order as a guest Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1297 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/01_personalInformation/01_orderAsAGuest.ts Steps Step Description Expected result Go to FO &amp;gt; Click on product The product is displayed Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     <item>
-      <title>FO - Checkout - Personal Information - Order as a guest</title>
+      <title>FO - Checkout - Personal information : Order as a guest</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-order-as-a-guest.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-order-as-a-guest.html</guid>
-      <description>FO - Checkout - Personal Information - Order as a guest Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7013 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_personalInformation/01_orderAsAGuest.ts Steps Step Description Expected result Go to FO &amp;gt; Add a product to the cart The modal Product successfully added to your shopping cart is displayed Click on Proceed to checkout The Shopping cart is well displayed Click on Proceed to checkout The Personal Information step is well displayed.</description>
+      <description>FO - Checkout - Personal information : Order as a guest Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7013 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_personalInformation/01_orderAsAGuest.ts Steps Step Description Expected result Go to FO &amp;gt; Add a product to the cart The modal Product successfully added to your shopping cart is displayed Click on Proceed to checkout The Shopping cart is well displayed Click on Proceed to checkout The Personal Information step is well displayed.</description>
     </item>
     <item>
       <title>FO - Checkout - Shipping method - Add order message</title>
@@ -1198,18 +1198,18 @@
       <description>FO - Header &amp;amp; Footer - Check links in header Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4970 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/02_headerAndFooter/01_checkLinksInHeader.ts Steps Step Description Expected result Go to FO &amp;gt; Click on top left link &amp;ldquo;Contact us&amp;rdquo; Contact us form page is well displayed Click on &amp;ldquo;Sign in&amp;rdquo; link on top right &amp;gt; Enter your Email + Password with the customer account created from the pre-condition step &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; button * You are now logged in</description>
     </item>
     <item>
+      <title>FO - Home Page : Check slider</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-home-page-check-slider.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-home-page-check-slider.html</guid>
+      <description>FO - Home Page : Check slider Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5098 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/01_checkSlider.ts Steps Step Description Expected result Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right Click on the left arrow The slider should slide to the left Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
+    </item>
+    <item>
       <title>FO - Homepage - Slider</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-slider.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-slider.html</guid>
       <description>FO - Homepage - Slider Details Component : Core Status : Automated Automated on : 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1225 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/06_homePage/01_checkSlider.ts Steps Step Description Expected result Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right Click on the left arrow The slider should slide to the left Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
-    </item>
-    <item>
-      <title>FO - Homepage - Slider</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-slider.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-slider.html</guid>
-      <description>FO - Homepage - Slider Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5098 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/01_checkSlider.ts Steps Step Description Expected result Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right Click on the left arrow The slider should slide to the left Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
     </item>
     <item>
       <title>FO - Login - Create an account</title>
@@ -1338,11 +1338,11 @@
       <description>FO - Search - Search product bar, consult autocomplete list Details Component : Core Status : Automated Automated on : 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1229 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/01_consultAutocompleteList.ts Steps Step Description Expected result Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) * The autocomplete list is displayed with 7 products&#xA;* The search bar in the header keeps the word written Click outside The autocomplete list is not displayed Case 1: With &amp;ldquo;Mug&amp;rdquo; products</description>
     </item>
     <item>
-      <title>FO - Search - Search product bar, consult autocomplete list</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-search-product-bar-consult-autocomplete-list.html</link>
+      <title>FO - Search Page : Search product and consult autocomplete list</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-page-search-product-and-consult-autocomplete-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-search-product-bar-consult-autocomplete-list.html</guid>
-      <description>FO - Search - Search product bar, consult autocomplete list Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5102 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/01_consultAutoCompleteList.ts Steps Step Description Expected result Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) * The autocomplete list is displayed with 2 products&#xA;* The search bar in the header keeps the word written Click outside The autocomplete list is not displayed Case 1: With &amp;ldquo;Mug&amp;rdquo; products</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/search/fo-search-page-search-product-and-consult-autocomplete-list.html</guid>
+      <description>FO - Search Page : Search product and consult autocomplete list Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5102 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/01_consultAutoCompleteList.ts Steps Step Description Expected result Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) * The autocomplete list is displayed with 2 products&#xA;* The search bar in the header keeps the word written Click outside The autocomplete list is not displayed Case 1: With &amp;ldquo;Mug&amp;rdquo; products</description>
     </item>
     <item>
       <title>FO - User account - Credit Slips - Consult credit slip list &amp; View PDF Credit slip &amp; View order</title>
@@ -2101,11 +2101,11 @@
       <description>BO - Cart rules - Actions - Free shipping Details Component : Core Status : Automated Automated on : 9.1.x Scenario : https://forge.prestashop.com/browse/TEST-10318 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/02_freeShipping.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts Cart rules page is displayed Click on &amp;ldquo;Add new cart rule&amp;rdquo; Cart rule page is displayed&#xA;Information tab is displayed Enter data for Information &amp;gt; Click on Save Warning is message is displayed: &amp;ldquo;An action is required for this cart rule.</description>
     </item>
     <item>
-      <title>BO - Cart rules - Condition - Case 2 - Valid Date Time</title>
+      <title>BO - Cart rules - Condition : Case 2 - Valid Date Time</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-condition-case-2-valid-date-time.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-condition-case-2-valid-date-time.html</guid>
-      <description>BO - Cart rules - Condition - Case 2 - Valid Date Time Details Component : Core Status : To be automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-2683 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Create a new discount, set these fields:</description>
+      <description>BO - Cart rules - Condition : Case 2 - Valid Date Time Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-2683 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/02_validDateTime.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/edit-or-add-cart-rule Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Create a new discount, set these fields:</description>
     </item>
     <item>
       <title>BO - Cart rules - Information - Case 2 - Create a cart partial use enabled / Disabled</title>
@@ -2927,18 +2927,18 @@
       <description>FO - Header &amp;amp; Footer - Check links in footer Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4971 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/02_headerAndFooter/02_checkLinksInFooter.ts Steps Step Description Expected result Go to FO &amp;gt; Go to footer * See 4 blocks :&#xA;** Products&#xA;** Our company&#xA;** Your account&#xA;** Store Information&#xA;* See also Copyright link at the bottom of the footer: &amp;ldquo;© XXXX - Ecommerce software by PrestaShop™ &amp;quot; link&amp;rdquo; Go to footer &amp;gt; Products block &amp;gt; click on all links * &amp;ldquo;Prices drop&amp;rdquo; link redirects to &amp;ldquo;Prices drop&amp;rdquo; page</description>
     </item>
     <item>
+      <title>FO - Home Page : Display some products</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-home-page-display-some-products.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-home-page-display-some-products.html</guid>
+      <description>FO - Home Page : Display some products Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5099 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/02_displaySomeProducts.ts Steps Step Description Expected result Go to FO &amp;gt; Go below the slider Custom Text Block is displayed Scroll down after the &amp;ldquo;Custom text block&amp;rdquo; * &amp;ldquo;Popular Products &amp;quot; section is dislayed : 8 products cards displayed&#xA;* &amp;ldquo;All products&amp;rdquo; button is displayed Scroll down after the &amp;ldquo;All products&amp;rdquo; button.</description>
+    </item>
+    <item>
       <title>FO - Homepage - Display some products</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-display-some-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-display-some-products.html</guid>
       <description>FO - Homepage - Display some products Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1226 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/06_homePage/02_displaySomeProducts.ts Steps Step Description Expected result Go to FO &amp;gt; Go below the slider * &amp;ldquo;Popular products&amp;rdquo; block is displayed with 8 products&#xA;* &amp;ldquo;All products&amp;rdquo; link is displayed to go to &amp;ldquo;Home category&amp;rdquo; Scroll down after the &amp;ldquo;Custom text block&amp;rdquo; * &amp;ldquo;On sale&amp;rdquo; block is displayed with 2 products</description>
-    </item>
-    <item>
-      <title>FO - Homepage - Display some products</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-display-some-products.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/homepage/fo-homepage-display-some-products.html</guid>
-      <description>FO - Homepage - Display some products Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5099 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/02_displaySomeProducts.ts Steps Step Description Expected result Go to FO &amp;gt; Go below the slider Custom Text Block is displayed Scroll down after the &amp;ldquo;Custom text block&amp;rdquo; * &amp;ldquo;Popular Products &amp;quot; section is dislayed : 8 products cards displayed&#xA;* &amp;ldquo;All products&amp;rdquo; button is displayed Scroll down after the &amp;ldquo;All products&amp;rdquo; button.</description>
     </item>
     <item>
       <title>FO - Login</title>
@@ -3722,7 +3722,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-bulk-actions.html</guid>
-      <description>BO - Catalog price Rules - Bulk actions Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-10329 Steps Step Description Expected result Bulk actions -&amp;gt; Select all The status has been successfully updated.&#xA;All Catalog Price Rules are selected Bulk actions -&amp;gt; Unselect all The status has been successfully updated.&#xA;All Catalog Price Rules are unselected Bulk actions -&amp;gt; Delete selected We have a message: &amp;ldquo;You must select at least one element to delete.</description>
+      <description>BO - Catalog price Rules - Bulk actions Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-10329 Steps Step Description Expected result On BO &amp;gt; Catalog &amp;gt; Discount &amp;gt; Catalog Price Rules Catalog price Rules page displayed Click &amp;ldquo;Add new catalog price rule&amp;rdquo; Catalog price Rules creation page displayed fill the form and Save Successful creation Click &amp;ldquo;Add new catalog price rule&amp;rdquo; Catalog price Rules creation page displayed fill the form and Save Successful creation Bulk actions -&amp;gt; Select all The status has been successfully updated.</description>
     </item>
     <item>
       <title>BO - CRUD Pack of products</title>
@@ -4264,11 +4264,11 @@
       <description>FO - Cart - Add a promo code Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1281 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/10_cart/02_cart/03_addPromoCode.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/front-office/customers-shopping-cart Steps Step Description Expected result * Go to BO * Go to Catalog &amp;gt; Discounts&#xA;* Click on Add new cart rule * You should see the dashoboard of your shop * You should see all the cart rules created if there is some one * You should be on the modal to create a cart rules * Set up your cart rules * Clic on save * Every specified field should be set * You should see your new cart rules added on the list of cart rules * Go to FO * Clic &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo;</description>
     </item>
     <item>
-      <title>FO - Cart - Add a promo code</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-add-a-promo-code.html</link>
+      <title>FO - Cart : Add promo code</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-add-promo-code.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-add-a-promo-code.html</guid>
-      <description>FO - Cart - Add a promo code Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6995 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/02_cart/03_addPromoCode.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Click on Add new cart rule Cart rule page is displayed Set up cart rule &amp;gt; Save Successful creation alert is displayed Go to FO &amp;gt; Add to cart &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo; &amp;gt; Click on Proceed to checkout Shopping cart is displayed Click on &amp;ldquo;Promo code&amp;rdquo; &amp;gt; Write &amp;ldquo;reduc&amp;rdquo; on the new field &amp;gt; Click on &amp;ldquo;Apply&amp;rdquo; button Discount is taken into account (-20,00€) Click on &amp;ldquo;Promo code&amp;rdquo; &amp;gt; Write &amp;ldquo;reduc&amp;rdquo; on the new field &amp;gt; Click on &amp;ldquo;Apply&amp;rdquo; button Alert message with &amp;ldquo;This voucher is already in your cart&amp;rdquo; is displayed Click on &amp;ldquo;Promo code&amp;rdquo; &amp;gt; Write &amp;ldquo;reduction&amp;rdquo; on the new field &amp;gt; Click on &amp;ldquo;Apply&amp;rdquo; button Alert message with &amp;ldquo;This voucher does not exist.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/cart/cart/fo-cart-add-promo-code.html</guid>
+      <description>FO - Cart : Add promo code Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6995 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/02_cart/03_addPromoCode.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Click on Add new cart rule Cart rule page is displayed Set up cart rule &amp;gt; Save Successful creation alert is displayed Go to FO &amp;gt; Add to cart &amp;ldquo;Hummingbird Printed T-shirt&amp;rdquo; &amp;gt; Click on Proceed to checkout Shopping cart is displayed Click on &amp;ldquo;Promo code&amp;rdquo; &amp;gt; Write &amp;ldquo;reduc&amp;rdquo; on the new field &amp;gt; Click on &amp;ldquo;Apply&amp;rdquo; button Discount is taken into account (-20,00€) Click on &amp;ldquo;Promo code&amp;rdquo; &amp;gt; Write &amp;ldquo;reduc&amp;rdquo; on the new field &amp;gt; Click on &amp;ldquo;Apply&amp;rdquo; button Alert message with &amp;ldquo;This voucher is already in your cart&amp;rdquo; is displayed Click on &amp;ldquo;Promo code&amp;rdquo; &amp;gt; Write &amp;ldquo;reduction&amp;rdquo; on the new field &amp;gt; Click on &amp;ldquo;Apply&amp;rdquo; button Alert message with &amp;ldquo;This voucher does not exist.</description>
     </item>
     <item>
       <title>FO - Checkout - Addresses - Select an address</title>
@@ -4285,18 +4285,18 @@
       <description>FO - Checkout - Addresses - Select an address Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7021 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/03_selectAddress.ts Steps Step Description Expected result Go to FO The page of your shop should be displayed Put your mouse over the product &amp;ldquo;The best is Yet to Come&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Clic on the &amp;ldquo;Quickview&amp;rdquo; button You should have a modal that show you the product.</description>
     </item>
     <item>
-      <title>FO - Checkout - Personal Information - Create an account</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-create-an-account.html</link>
+      <title>FO - Checkout - Personal information : Create account</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-create-account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-create-an-account.html</guid>
-      <description>FO - Checkout - Personal Information - Create an account Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1300 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/01_personalInformation/03_createAccount.ts Steps Step Description Expected result Go to FO &amp;gt; Click on product The product is displayed Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/checkout/personal-information/fo-checkout-personal-information-create-account.html</guid>
+      <description>FO - Checkout - Personal information : Create account Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1300 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/01_personalInformation/03_createAccount.ts Steps Step Description Expected result Go to FO &amp;gt; Click on product The product is displayed Click on ADD TO CART The pop-up of PROCEED TO CHECKOUT is well displayed Click on PROCEED TO CHECKOUT The SHOPPING CART is well displayed Click on PROCEED TO CHECKOUT The PERSONAL INFORMATION is well displayed.</description>
     </item>
     <item>
-      <title>FO - Checkout - Personal Information - Create an account</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-create-an-account.html</link>
+      <title>FO - Checkout - Personal information : Create account</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-create-account.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-create-an-account.html</guid>
-      <description>FO - Checkout - Personal Information - Create an account Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7017 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_personalInformation/03_createAccount.ts Steps Step Description Expected result Go to FO &amp;gt; Click the Cart button on a product The modal Product successfully added to your shopping cart is displayed Click on Proceed to checkout The Shopping cart is well displayed Click on Proceed to checkout The Personal information tab is well displayed Fill the Order as a guest form with filling in the password and the birthdate &amp;gt;</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/personal-information/fo-checkout-personal-information-create-account.html</guid>
+      <description>FO - Checkout - Personal information : Create account Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7017 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_personalInformation/03_createAccount.ts Steps Step Description Expected result Go to FO &amp;gt; Click the Cart button on a product The modal Product successfully added to your shopping cart is displayed Click on Proceed to checkout The Shopping cart is well displayed Click on Proceed to checkout The Personal information tab is well displayed Fill the Order as a guest form with filling in the password and the birthdate &amp;gt;</description>
     </item>
     <item>
       <title>FO - Contact us - Send a message while logged in</title>
@@ -5657,11 +5657,11 @@
       <description>FO - User account - Get GDPR Data in PDF Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-4978 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/04_getGDPRDataInPDF.ts Steps Step Description Expected result Go to FO &amp;gt; Click on &amp;ldquo;Sign in&amp;rdquo; link in the header &amp;gt; Fill the form with your logins and click on &amp;ldquo;Sign in&amp;rdquo; button Home page is displayed Click on your username link in the header &amp;gt; Go to &amp;ldquo;GDPR - Personal data&amp;rdquo; tab &amp;gt; Click on &amp;ldquo;Get my data to PDF&amp;rdquo; button * The file is downloaded on your computer</description>
     </item>
     <item>
-      <title>FO - User account - Order history - Order details - Reorder order from details</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/order-history/order-details/fo-user-account-order-history-order-details-reorder-order-from-details.html</link>
+      <title>FO - User Account - Order History - Order details : Reorder from order detail</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/order-history/order-details/fo-user-account-order-history-order-details-reorder-from-order-detail.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/order-history/order-details/fo-user-account-order-history-order-details-reorder-order-from-details.html</guid>
-      <description> FO - User account - Order history - Order details - Reorder order from details Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-8340 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_orderDetails/01_reorderFromOrderDetails.ts Steps Step Description Expected result Go to FO &amp;gt; Sign In to your customer account &amp;gt; Add a product to your cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Place the order Your order is confirmed Go to &amp;ldquo;Orders&amp;rdquo; page &amp;ldquo;Order history&amp;rdquo; page is displayed Click on the Details link of the latest order made &amp;gt; Click on the &amp;ldquo;Reorder&amp;rdquo; button You are redirected to step 2 - Addresses Place the order Your order is confirmed Click on your account &amp;gt; Orders &amp;gt; Click on Details on the latest order made See that the product ordered is the same : Hummingbird printed sweater </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/order-history/order-details/fo-user-account-order-history-order-details-reorder-from-order-detail.html</guid>
+      <description> FO - User Account - Order History - Order details : Reorder from order detail Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-8340 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_orderDetails/01_reorderFromOrderDetails.ts Steps Step Description Expected result Go to FO &amp;gt; Sign In to your customer account &amp;gt; Add a product to your cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Place the order Your order is confirmed Go to &amp;ldquo;Orders&amp;rdquo; page &amp;ldquo;Order history&amp;rdquo; page is displayed Click on the Details link of the latest order made &amp;gt; Click on the &amp;ldquo;Reorder&amp;rdquo; button You are redirected to step 2 - Addresses Place the order Your order is confirmed Click on your account &amp;gt; Orders &amp;gt; Click on Details on the latest order made See that the product ordered is the same : Hummingbird printed sweater </description>
     </item>
     <item>
       <title>GET /admin-api/product/{productId}/images</title>
@@ -6385,11 +6385,11 @@
       <description>FO - Product Page - Product Quickview - Close Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1252 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/01_quickView/05_closeModal.ts Steps Step Description Expected result Go to FO The page of your shop should be displayed Put your mouse over the product &amp;ldquo;The best is Yet to Come&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Clic on the &amp;ldquo;Quickview&amp;rdquo; button You should have a modal that show you the product.</description>
     </item>
     <item>
-      <title>FO - Product Page - Product Quickview - Close</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-close.html</link>
+      <title>FO - Product page - Quick view : Close quick view modal</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-quick-view-close-quick-view-modal.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-product-quickview-close.html</guid>
-      <description>FO - Product Page - Product Quickview - Close Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6965 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/05_closeModal.ts Steps Step Description Expected result Go to FO The page of your shop should be displayed Put your mouse over the product &amp;ldquo;The best is Yet to Come&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Clic on the &amp;ldquo;Quickview&amp;rdquo; button You should have a modal that show you the product.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-quickview/fo-product-page-quick-view-close-quick-view-modal.html</guid>
+      <description>FO - Product page - Quick view : Close quick view modal Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6965 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/05_closeModal.ts Steps Step Description Expected result Go to FO The page of your shop should be displayed Put your mouse over the product &amp;ldquo;The best is Yet to Come&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Clic on the &amp;ldquo;Quickview&amp;rdquo; button You should have a modal that show you the product.</description>
     </item>
     <item>
       <title>Fo - Search - Sort results list</title>
@@ -6557,7 +6557,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup.html</guid>
-      <description>Autoupgrade - Web Version - Do a backup Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-10933 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
+      <description>Autoupgrade - Web Version - Do a backup Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-10933 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Test email configuration</title>
@@ -7057,13 +7057,6 @@
       <description>[BO] Upgrade from 1.7.7.8 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2535 Steps Step Description Expected result On a fresh 1.7.7.8 install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - CLI - Check/Upgrade/Rollback </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</guid>
-      <description>Autoupgrade - CLI - Check/Upgrade/Rollback Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-9848 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
-    </item>
-    <item>
       <title>Autoupgrade - Web Version - Create error before the upgrade</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-before-the-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7076,6 +7069,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-the-new-ui-part.html</guid>
       <description>Autoupgrade - Web Version - the new UI part Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11260 Steps Step Description Expected result * Go to the update assistant page * You should see the configuration page of the module with a little problem on UI * Open a terminal in your folder [yourshop]/modules/autoupgrade&#xA;* launch the command : {code:java}&#xA;cd _dev{code}&#xA;* Launch the command :&#xA;{code:java}</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Update on local channel</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</guid>
+      <description>Autoupgrade - Web Version - Update on local channel Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-10739 Steps Step Description Expected result Install A fresh last version of prestashop with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Help button</title>
@@ -7428,18 +7428,18 @@
       <description>[FO] Upgrade from 1.7.7.8 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2536 Steps Step Description Expected result On a fresh 1.7.7.8 install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
+      <title>Autoupgrade - Middleware on update Part</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-update-part.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-update-part.html</guid>
+      <description>Autoupgrade - Middleware on update Part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-10778 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+    </item>
+    <item>
       <title>Autoupgrade - Web Version - Skip the backup</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-skip-the-backup.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-skip-the-backup.html</guid>
       <description>Autoupgrade - Web Version - Skip the backup Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11305 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Update on local channel</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</guid>
-      <description>Autoupgrade - Web Version - Update on local channel Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-10739 Steps Step Description Expected result Install A fresh last version of prestashop with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Update on online channel</title>
@@ -7701,11 +7701,11 @@
       <description>[FO] Upgrade from 1.7.4 to last build and then exploratory test on FO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2537 Steps Step Description Expected result On a fresh 1.7.4.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Front-Office and no data were lost.</description>
     </item>
     <item>
-      <title>Autoupgrade - Middleware on update Part</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-update-part.html</link>
+      <title>Autoupgrade - Web Version - Create error on Welcome Page</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-welcome-page.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-update-part.html</guid>
-      <description>Autoupgrade - Middleware on update Part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-10778 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-welcome-page.html</guid>
+      <description>Autoupgrade - Web Version - Create error on Welcome Page Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11301 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4</title>
@@ -7713,13 +7713,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-install-an-1-7-8-9-on-php-7-4.html</guid>
       <description>Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4 Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11313 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - modal for new Upgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-modal-for-new-upgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-10796 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Apply a discount to Selected product(s) </title>
@@ -7747,7 +7740,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud-reduction-type.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud-reduction-type.html</guid>
-      <description>BO - Catalog price Rules - CRUD - Reduction type Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-10336 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog Price Rules tab Catalog Price Rules page is well displayed Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed Go to FO and check out the catalog Where we have a €24 discount on products.</description>
+      <description>BO - Catalog price Rules - CRUD - Reduction type Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-10336 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog Price Rules tab Catalog Price Rules page is well displayed Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed Go to FO and check out the catalog Where we have a €20 discount on products.</description>
     </item>
     <item>
       <title>BO - Customers - Bulk Actions</title>
@@ -7904,18 +7897,18 @@
       <description>Autoupgrade - Web Version - Create error on the version choice Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11304 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Create error on Welcome Page</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-welcome-page.html</link>
+      <title>Autoupgrade - Web Version - Create error on update</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-welcome-page.html</guid>
-      <description>Autoupgrade - Web Version - Create error on Welcome Page Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11301 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</guid>
+      <description>Autoupgrade - Web Version - Create error on update Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11303 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Do a backup when you already done it</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup-when-you-already-done-it.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-do-a-backup-when-you-already-done-it.html</guid>
-      <description>Autoupgrade - Web Version - Do a backup when you already done it Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11488 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; ** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
+      <description>Autoupgrade - Web Version - Do a backup when you already done it Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11488 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; ** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Exclude discounted products</title>
@@ -7929,7 +7922,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-case-9-compatibility-with-other-cart-rules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-case-9-compatibility-with-other-cart-rules.html</guid>
-      <description>BO - Cart rules - Conditions - Case 9 - Compatibility with other cart rules Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-10328 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Cart rule&amp;rdquo; page is well displayed Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Set these fields and click on Save An alert &amp;ldquo;Successful creation.</description>
+      <description>BO - Cart rules - Conditions - Case 9 - Compatibility with other cart rules Details Component : Core Status : Automation in progress Scenario : https://forge.prestashop.com/browse/TEST-10328 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page and Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Cart rule&amp;rdquo; page is well displayed Click on &amp;ldquo;Add new cart rule&amp;rdquo; page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Cart rules page The &amp;ldquo;Add new cart rule&amp;rdquo; page is well displayed Set these fields and click on Save An alert &amp;ldquo;Successful creation.</description>
     </item>
     <item>
       <title>BO - Catalog price Rules - CRUD - Reduction with or without taxes</title>
@@ -8065,11 +8058,11 @@
       <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11312 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Create error on update</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</link>
+      <title>Autoupgrade - Web Version - Verification during the post Upgrade page</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</guid>
-      <description>Autoupgrade - Web Version - Create error on update Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11303 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</guid>
+      <description>Autoupgrade - Web Version - Verification during the post Upgrade page Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11316 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Send a free gift</title>
@@ -8170,6 +8163,20 @@
       <description>[BO] Upgrade from 1.7.6 to last build and then exploratory test on BO Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-2540 Steps Step Description Expected result On a fresh 1.7.6.x install : Add Multistore, Localization Pack, Products (of all types), Discounts, Customers, Carrier, Modules (partner and PS), make some orders.&#xA;Then upgrade to the build tested. Check everything works fine on Back-Office and no data were lost.</description>
     </item>
     <item>
+      <title>Autoupgrade - Middleware on Backup Part</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html</guid>
+      <description>Autoupgrade - Middleware on Backup Part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11597 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Verification during backup part</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-backup-part.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-backup-part.html</guid>
+      <description>Autoupgrade - Web Version - Verification during backup part Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11315 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
+    </item>
+    <item>
       <title>BO - Design - Image Settings : Check category image format</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-category-image-format.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8247,11 +8254,18 @@
       <description>Shop Parameters Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-10188 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/12_shopParameters.ts Steps Step Description Expected result Go to BO -&amp;gt; Dashboard page The dashboard page is displayed&#xA;No JS errors are triggered Go to Shop Parameters &amp;gt; General The preferences page is displayed&#xA;No JS errors are triggered Go to Maintenance tab The Maintenance page is displayed&#xA;No JS errors are triggered Go to Order Settings The Order settings page is displayed</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Verification during backup part</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-backup-part.html</link>
+      <title>Autoupgrade - Web Version - Create error  on the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-the-version-choice.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-backup-part.html</guid>
-      <description>Autoupgrade - Web Version - Verification during backup part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11315 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-the-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Create error on the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12190 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Verification during version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-version-choice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Verification during version choice Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11314 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
     </item>
     <item>
       <title>BO - Catalog - Products : Virtual tab</title>
@@ -8310,11 +8324,18 @@
       <description> Refresh list of currency Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1373 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Verification during the post Upgrade page</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</link>
+      <title>Autoupgrade - Web Version -  symlink - blocked server</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-symlink-blocked-server.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</guid>
-      <description>Autoupgrade - Web Version - Verification during the post Upgrade page Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11316 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-symlink-blocked-server.html</guid>
+      <description>Autoupgrade - Web Version - symlink - blocked server Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11754 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12191 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
     </item>
     <item>
       <title>BO - Design - Image Settings - Check base image format </title>
@@ -8359,11 +8380,18 @@
       <description> Reset the search Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1374 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Middleware on Backup Part</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html</link>
+      <title>Autoupgrade - Web Version - modal for new Upgrade </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-modal-for-new-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-backup-part.html</guid>
-      <description>Autoupgrade - Middleware on Backup Part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11597 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11769 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Verification during version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-version-choice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Verification during version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12192 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
     </item>
     <item>
       <title>BO - Stocks Tab</title>
@@ -8401,11 +8429,18 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the email address is not linked to a customer Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-660 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version -  symlink - blocked server</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</link>
+      <title>Autoupgrade - CLI - Check/Upgrade/Rollback </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-cli-check-upgrade-rollback.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</guid>
-      <description>Autoupgrade - Web Version - symlink - blocked server Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11754 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-cli-check-upgrade-rollback.html</guid>
+      <description>Autoupgrade - CLI - Check/Upgrade/Rollback Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-9848 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Verification during backup part</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-backup-part.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-backup-part.html</guid>
+      <description>Autoupgrade - Web Version - Verification during backup part Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12193 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
     </item>
     <item>
       <title>BO - Catalog - Products : Shipping tab</title>
@@ -8436,11 +8471,11 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the email address is linked to a customer Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-661 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - modal for new Upgrade </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</link>
+      <title>Autoupgrade - Web Version -  symlink - blocked server</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-11769 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</guid>
+      <description>Autoupgrade - Web Version - symlink - blocked server Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12194 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed Go to Modules &amp;gt; Module manager.</description>
     </item>
     <item>
       <title>BO - Pricing Tab</title>
@@ -8464,11 +8499,11 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the user register as customer and check the box subscribe Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-662 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Create error  on the version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-the-version-choice.html</link>
+      <title>Autoupgrade - Web Version - modal for new Upgrade </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-the-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Create error on the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12190 Steps Step Description Expected result Install a fresh 8.0.4 with php 8.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-12195 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
     </item>
     <item>
       <title>BO - SEO Tab</title>
@@ -8492,11 +8527,11 @@
       <description> ps_emailsubscription - Check the ID in the tab configuration if the user register as customer and uncheck the box subscribe Details Component : ps_emailsubscription Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-663 Steps Step Description Expected result </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
+      <title>Autoupgrade - CLI - Check/Upgrade/Rollback </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12191 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</guid>
+      <description>Autoupgrade - CLI - Check/Upgrade/Rollback Details Component : Core Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-12196 Steps Step Description Expected result Install A fresh 1.7.7.8 on php 7.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the update assistant module.</description>
     </item>
     <item>
       <title>BO - Catalog - Products : Options tab</title>
@@ -8511,13 +8546,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-facetedsearch/configuration/faceted-search-module-edit-template-product-weight-filter.html</guid>
       <description>Faceted search module - Edit template - Product weight filter Details Component : ps_facetedsearch Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-4255 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_facetedsearch The module page list should be displayed and Faceted search module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module &amp;ldquo;Configure Faceted search&amp;rdquo; should be displayed Click on &amp;ldquo;Edit&amp;rdquo; button on the same line of your template The &amp;ldquo;New filters template&amp;rdquo; tab is displayed In &amp;ldquo;Filters&amp;rdquo; block &amp;gt; Set &amp;ldquo;Product weight filter&amp;rdquo; switch button to disable &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button It returns on the &amp;ldquo;Configure faceted search&amp;rdquo; page and you have a successful message &amp;quot; Your filter &amp;ldquo;[name of your template]&amp;rdquo; was updated successfully.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Verification during version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-version-choice.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Verification during version choice Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-12192 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
     </item>
     <item>
       <title>BO - Catalog - Products : Multistore</title>
