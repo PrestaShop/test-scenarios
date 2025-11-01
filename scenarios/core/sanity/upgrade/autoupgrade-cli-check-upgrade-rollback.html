@@ -22,13 +22,13 @@
     <title>Autoupgrade - CLI - Check/Upgrade/Rollback  :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1761892350" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1761892350" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1761892350" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1761892350" rel="stylesheet"><link href="../../../../css/auto-complete.css?1761892350" rel="stylesheet">
-    <link href="../../../../style.css?1761892350" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1761981378" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1761981378" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1761981378" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1761981378" rel="stylesheet"><link href="../../../../css/auto-complete.css?1761981378" rel="stylesheet">
+    <link href="../../../../style.css?1761981378" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1761892350"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1761981378"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -6856,9 +6856,9 @@
  
   
     
-      <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-case-9-compatibility-with-other-cart-rules.html" title="BO - Cart rules - Conditions - Case 9 - Compatibility with other cart rules" class="dd-item ">
+      <li data-nav-id="/scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-case-9-compatibility-with-other-cart-rules.html" title="BO - Cart rules - Conditions : Case 9 - Compatibility with other cart rules" class="dd-item ">
         <a href="../../../../scenarios/core/functional/bo/catalog/discount/cart-rules/crud-cart-rule/conditions/bo-cart-rules-conditions-case-9-compatibility-with-other-cart-rules.html">
-        BO - Cart rules - Conditions - Case 9 - Compatibility with other cart rules
+        BO - Cart rules - Conditions : Case 9 - Compatibility with other cart rules
         
         </a>
     </li>
@@ -69436,20 +69436,24 @@
 <td>Terminal display at :<br> * start :&ldquo;INFO - Starting backup&hellip;&rdquo; <br> * end  &ldquo;INFO - Backup completed successfully.&rdquo;</td>
 </tr>
 <tr>
+<td>Launch &ldquo;php bin/console backup:create admin-dev&rdquo; twice</td>
+<td>Terminal display at :<br> * start :&ldquo;INFO - Starting backup&hellip;&rdquo; <br> * end  &ldquo;INFO - Backup completed successfully.&quot;<br><br>Twice</td>
+</tr>
+<tr>
+<td><em>CLI List Rollback</em> <br><br>Launch &quot; php bin/console backup:list admin-dev&rdquo;</td>
+<td>Terminal display a tab: <br></td>
+</tr>
+<tr>
+<td><em>CLI Delete Rollback</em>  <br><br>Launch the command &quot; php bin/console backup:delete admin-dev&quot;</td>
+<td>Terminal display a choice of backup between 0 and 2, the number 3 is to exit the process</td>
+</tr>
+<tr>
+<td>Launch the command &ldquo;3&rdquo;</td>
+<td>Your terminal should act like there is none command launch</td>
+</tr>
+<tr>
 <td>{color:#FF0000}<em>POUIIIIIIIKKKK</em>{color}</td>
 <td></td>
-</tr>
-<tr>
-<td>* Launch the command &ldquo;php bin/console backup:create admin-dev&rdquo; twice</td>
-<td>* The terminal should start with :&ldquo;INFO - Starting backup&hellip;&rdquo; and end with &ldquo;INFO - Backup completed successfully.&rdquo; twice</td>
-</tr>
-<tr>
-<td><em>CLI List Rollback</em> <br> * Launch the command &quot; php bin/console backup:list admin-dev&quot;</td>
-<td>* The terminal should show you a tab like that : <br></td>
-</tr>
-<tr>
-<td><em>CLI Delete Rollback</em>  <br> * Launch the command &quot; php bin/console backup:delete admin-dev&quot;<br> * Launch the command &ldquo;3&rdquo;</td>
-<td>* The terminal should ask you to select a backup between 0 and 2, the number 3 is to exit the process<br> * Your terminal should act like there is none command launch</td>
 </tr>
 <tr>
 <td>* Launch the command &quot; php bin/console backup:delete admin-dev&quot;<br> * Launch the command &ldquo;2&rdquo;</td>
@@ -69515,17 +69519,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1761892350"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1761892350"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1761892350"></script>
-    <script src="../../../../js/jquery.sticky.js?1761892350"></script>
-    <script src="../../../../js/featherlight.min.js?1761892350"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1761892350"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1761892350"></script>
-    <script src="../../../../js/learn.js?1761892350"></script>
-    <script src="../../../../js/hugo-learn.js?1761892350"></script>
+    <script src="../../../../js/clipboard.min.js?1761981378"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1761981378"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1761981378"></script>
+    <script src="../../../../js/jquery.sticky.js?1761981378"></script>
+    <script src="../../../../js/featherlight.min.js?1761981378"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1761981378"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1761981378"></script>
+    <script src="../../../../js/learn.js?1761981378"></script>
+    <script src="../../../../js/hugo-learn.js?1761981378"></script>
     
-    <script src="../../../../main.js?1761892350"></script>
+    <script src="../../../../main.js?1761981378"></script>
     
     
     
