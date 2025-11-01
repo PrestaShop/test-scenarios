@@ -1,9 +1,9 @@
 ---
-title: "BO - Cart rules - Conditions - Case 9 - Compatibility with other cart rules"
+title: "BO - Cart rules - Conditions : Case 9 - Compatibility with other cart rules"
 weight: 10
 ---
 
-# BO - Cart rules - Conditions - Case 9 - Compatibility with other cart rules
+# BO - Cart rules - Conditions : Case 9 - Compatibility with other cart rules
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
