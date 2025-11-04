@@ -1,9 +1,9 @@
 ---
-title: "FO - Search - Sort results list"
+title: "FO - Search Page : Sort results list"
 weight: 5
 ---
 
-# FO - Search - Sort results list
+# FO - Search Page : Sort results list
 ## Details
 * **Component** : Core
 * **Status** : Automated

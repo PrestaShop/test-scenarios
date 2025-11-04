@@ -7,6 +7,7 @@ weight: 10
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
+* **Automated on** : 9.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10328
 
 ## Steps
@@ -35,7 +36,7 @@ weight: 10
 | Click to "Have a promo code"<br><br> <br><br>Add | Total = 256,50€ |
 | Go to BO > Catalog > Discounts > Cart rules page<br><br> <br><br>Add | The Cart rules page is well displayed |
 | Edit Percent discount<br><br> <br><br>Save | Successful update |
-| Go to FO > Cart | Total = 256.00€ |
-| Place Order | h3. Your order is confirmed<br><br> <br><br>Total = 256,00 |
+| Go to FO > Cart | Total = 256.50€ |
+| Place Order | h3. Your order is confirmed<br><br> <br><br>Total = 256,50 |
 | BO > Catalog > Discount > Cart rules | The "Cart rule" page is well displayed |
 | Delete the 4 discounts that were created | Successful deletion |

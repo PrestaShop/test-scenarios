@@ -1,9 +1,9 @@
 ---
-title: "FO - Search - Search a product and validate"
+title: "FO - Search Page : Search product and validate"
 weight: 2
 ---
 
-# FO - Search - Search a product and validate
+# FO - Search Page : Search product and validate
 ## Details
 * **Component** : Core
 * **Status** : Automated

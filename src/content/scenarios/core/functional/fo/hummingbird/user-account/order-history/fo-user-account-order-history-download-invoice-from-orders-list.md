@@ -1,9 +1,9 @@
 ---
-title: "FO - User account - Order history - Download invoice from orders list"
+title: "FO - User account - Order history : Download invoice from orders list"
 weight: 1
 ---
 
-# FO - User account - Order history - Download invoice from orders list
+# FO - User account - Order history : Download invoice from orders list
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "FO - User account - Merchandise Returns - Consult return details"
+title: "FO - User account - Merchandise Returns : Consult return details"
 weight: 1
 ---
 
-# FO - User account - Merchandise Returns - Consult return details
+# FO - User account - Merchandise Returns : Consult return details
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "FO - Menu and Navigation - Sort and filter - Filter products"
+title: "FO - Menu and Navigation - Sort and filter : Filter products"
 weight: 2
 ---
 
-# FO - Menu and Navigation - Sort and filter - Filter products
+# FO - Menu and Navigation - Sort and filter : Filter products
 ## Details
 * **Component** : Core
 * **Status** : Automated

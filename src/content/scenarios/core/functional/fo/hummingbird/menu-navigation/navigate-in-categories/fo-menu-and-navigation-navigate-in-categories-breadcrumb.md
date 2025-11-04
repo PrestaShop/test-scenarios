@@ -1,9 +1,9 @@
 ---
-title: "FO - Menu and Navigation - Navigate in Categories - Breadcrumb"
+title: "FO - Menu and Navigation - Navigate in Categories : Breadcrumb"
 weight: 2
 ---
 
-# FO - Menu and Navigation - Navigate in Categories - Breadcrumb
+# FO - Menu and Navigation - Navigate in Categories : Breadcrumb
 ## Details
 * **Component** : Core
 * **Status** : Automated

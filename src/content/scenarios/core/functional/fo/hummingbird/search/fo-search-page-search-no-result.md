@@ -1,9 +1,9 @@
 ---
-title: "FO - Search - Search no result"
+title: "FO - Search Page : Search no result"
 weight: 3
 ---
 
-# FO - Search - Search no result
+# FO - Search Page : Search no result
 ## Details
 * **Component** : Core
 * **Status** : Automated
