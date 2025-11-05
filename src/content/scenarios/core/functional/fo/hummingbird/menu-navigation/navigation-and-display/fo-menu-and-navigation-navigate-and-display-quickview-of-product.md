@@ -1,9 +1,9 @@
 ---
-title: "FO - Menu and Navigation - Navigate and display - Quickview of product"
+title: "FO - Menu and Navigation - Navigate and display : Quickview of product"
 weight: 3
 ---
 
-# FO - Menu and Navigation - Navigate and display - Quickview of product
+# FO - Menu and Navigation - Navigate and display : Quickview of product
 ## Details
 * **Component** : Core
 * **Status** : Automated

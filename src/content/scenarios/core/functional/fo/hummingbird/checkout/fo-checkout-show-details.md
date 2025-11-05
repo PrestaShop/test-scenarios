@@ -1,9 +1,9 @@
 ---
-title: "FO - Checkout - Show details"
+title: "FO - Checkout : Show details"
 weight: 1
 ---
 
-# FO - Checkout - Show details
+# FO - Checkout : Show details
 ## Details
 * **Component** : Core
 * **Status** : Automated

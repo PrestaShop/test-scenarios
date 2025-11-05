@@ -1,9 +1,9 @@
 ---
-title: "FO - Order confirmation - List of ordered products"
+title: "FO - Order confirmation : List of ordered products"
 weight: 1
 ---
 
-# FO - Order confirmation - List of ordered products
+# FO - Order confirmation : List of ordered products
 ## Details
 * **Component** : Core
 * **Status** : Automated

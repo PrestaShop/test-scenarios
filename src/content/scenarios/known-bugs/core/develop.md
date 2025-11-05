@@ -3,10 +3,13 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (35 campaigns / 41 issues)
+# Known bugs (36 campaigns / 43 issues)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
+  * [PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts](https://github.com/PrestaShop/PrestaShop/issues/39682)
   * [PrestaShop#38784 : Delete / list / tests discounts](https://github.com/PrestaShop/PrestaShop/issues/38784)
   * [PrestaShop#38647 : GET & POST endpoints for each type](https://github.com/PrestaShop/PrestaShop/issues/38647)
+* **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/04_postAttributesAttribute.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/04_postAttributesAttribute.ts)** :
+  * [PrestaShop#39827 : Endpoint `POST /admin-api/attributes/attribute` : Unusable endpoint](https://github.com/PrestaShop/PrestaShop/issues/39827)
 * **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts)** :
   * [PrestaShop#39729 : Admin API : Endpoint `POST /attributes/group` : The response is not the expected : Missing key `position`](https://github.com/PrestaShop/PrestaShop/issues/39729)
 * **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts)** :

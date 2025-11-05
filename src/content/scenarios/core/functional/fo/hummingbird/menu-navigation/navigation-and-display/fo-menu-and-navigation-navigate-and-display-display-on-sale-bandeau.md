@@ -1,9 +1,9 @@
 ---
-title: "FO - Menu and Navigation - Navigate and display - Display \"On sale!\" bandeau"
+title: "FO - Menu and Navigation - Navigate and display : Display \"On sale!\" bandeau"
 weight: 4
 ---
 
-# FO - Menu and Navigation - Navigate and display - Display \"On sale!\" bandeau
+# FO - Menu and Navigation - Navigate and display : Display \"On sale!\" bandeau
 ## Details
 * **Component** : Core
 * **Status** : Automated

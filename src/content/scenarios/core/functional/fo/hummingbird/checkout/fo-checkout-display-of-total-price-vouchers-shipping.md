@@ -1,9 +1,9 @@
 ---
-title: "FO - Checkout - Display of total (price, vouchers, shipping)"
+title: "FO - Checkout : Display of total (price, vouchers, shipping)"
 weight: 2
 ---
 
-# FO - Checkout - Display of total (price, vouchers, shipping)
+# FO - Checkout : Display of total (price, vouchers, shipping)
 ## Details
 * **Component** : Core
 * **Status** : Automated
