@@ -6,16 +6,16 @@ weight: 19
 # Autoupgrade - CLI - Check/Upgrade/Rollback 
 ## Details
 * **Component** : Core
-* **Status** : Approved
+* **Status** : In progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12196
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 1.7.7.8 on php 7.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
+| Install A fresh 1.7.7.8 on php 7.1 | A selection between BO and FO is displayed |
 | Go to the BO | You should have your dashboard showed |
 | Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
-| Search for the update assistant module. Install it | Module is correctly installed |
+| Search for the update assistant module and Install it | Module is correctly installed |
 | Go to your folder [yourshopname_folder] > module > Autoupgrade | You should have many files and folder, one files named README.md can help you |
 | *CLI Check Version of module* <br><br>Open a terminal on this folder | Terminal is open on the folder modules/autoupgrade |
 | Launch "php bin/console" | Terminal show you available command with bin/console |

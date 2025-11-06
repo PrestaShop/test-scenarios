@@ -12,7 +12,7 @@ weight: 2
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 1.7.7.8 on php 7.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
+| Install A fresh 1.7.7.8 on php 7.1 | A selection between BO and FO is displayed |
 | Go to the BO | You should have your dashboard showed |
 | Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
-| Search for the update assistant module. Install it | Module is correctly installed |
+| Search for the update assistant module and Install it | Module is correctly installed |

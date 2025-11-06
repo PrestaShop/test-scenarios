@@ -12,10 +12,10 @@ weight: 16
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 1.7.7.8 on php 7.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
+| Install A fresh 1.7.7.8 on php 7.1 | A selection between BO and FO is displayed |
 | Go to the BO | You should have your dashboard showed |
 | Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
-| Search for the update assistant module. Install it | Module is correctly installed |
+| Search for the update assistant module and Install it | Module is correctly installed |
 | Go to your folder [yourshopname_folder] > module > Autoupgrade | You should have many files and folder, one files named README.md can help you |
 | *CLI Check Version of module* <br> * Open a terminal on this folder<br> * Launch the command "php bin/console "<br> * Launch the command "php bin/console --version" | * You should be on the folder modules/autoupgrade<br> * The Terminal should show you some available commands, etc <br> * The terminal answer : "Update assistant 7.0.0" |
 | *CLI Check Version Available* <br> * Launch the command "php bin/console update:check-new-version admin-dev" | * The terminal should show a tab with : <br> ** Version | Channel | Type | Information<br> ** 1.7.8.11 | online | minor | the link of the release |

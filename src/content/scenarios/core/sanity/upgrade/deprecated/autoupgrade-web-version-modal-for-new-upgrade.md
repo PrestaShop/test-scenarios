@@ -12,10 +12,10 @@ weight: 15
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 1.7.7.8 on php 7.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
+| Install A fresh 1.7.7.8 on php 7.1 | A selection between BO and FO is displayed |
 | Go to the BO | You should have your dashboard showed |
 | Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
-| Search for the update assistant module. Install it | Module is correctly installed |
+| Search for the update assistant module and Install it | Module is correctly installed |
 | Click on the Dashboard on the side menu | You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** " New available Minor" writted in black with a blue bacckground<br> ** "New features are available" in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : "Description", "Version", "Type of improvements" and "Need help?"<br> ** Two buttons : "Remind me later" and "Update"<br> ** On description : "The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update|https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]" <br> ** On Version : "1.7.8.11"<br> ** On Type of improvements : "Bugs, security patches, new features"<br> ** On Need help? : "If you're having trouble performing the update, consider seeking help from the community or a qualified developer. Find Support" |
 | * Click on "[See the update|https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]" link on description part | * You should have a new tab open with title : "PrestaShop 1.7.8.11 Is Available" |
 | * Click on "Find Support" on Need help? part | * You should have a new tab open with title "Get help with PrestaShop" |
