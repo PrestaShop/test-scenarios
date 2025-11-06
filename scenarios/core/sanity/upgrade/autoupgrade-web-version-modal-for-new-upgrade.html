@@ -22,13 +22,13 @@
     <title>Autoupgrade - Web Version - modal for new Upgrade  :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1762324159" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1762324159" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1762324159" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1762324159" rel="stylesheet"><link href="../../../../css/auto-complete.css?1762324159" rel="stylesheet">
-    <link href="../../../../style.css?1762324159" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1762410605" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1762410605" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1762410605" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1762410605" rel="stylesheet"><link href="../../../../css/auto-complete.css?1762410605" rel="stylesheet">
+    <link href="../../../../style.css?1762410605" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1762324159"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1762410605"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69373,7 +69373,7 @@
 <tbody>
 <tr>
 <td>Install A fresh 1.7.7.8 on php 7.1</td>
-<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+<td>A selection between BO and FO is displayed</td>
 </tr>
 <tr>
 <td>Go to the BO</td>
@@ -69384,124 +69384,160 @@
 <td>Module Catalog page is displayed correctly</td>
 </tr>
 <tr>
-<td>Search for the update assistant module. Install it</td>
+<td>Search for the update assistant module and Install it</td>
 <td>Module is correctly installed</td>
 </tr>
 <tr>
-<td>Click on the Dashboard on the side menu</td>
-<td>You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** &quot; New available Minor&quot; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two buttons : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
+<td>Click on the Dashboard in the side menu</td>
+<td>Dashboard menu is displayed with a modal :<br> * on the left : <br> ** &ldquo;New available Minor&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two CTA : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;[See the update</td>
+<td>Click on &ldquo;[See the update</td>
 <td><a href="https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/%5D%22">https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]&quot;</a> link on description part</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;Find Support&rdquo; on Need help? part</td>
-<td>* You should have a new tab open with title &ldquo;Get help with PrestaShop&rdquo;</td>
+<td>Click on &ldquo;Find Support&rdquo; link on Need help? part</td>
+<td>New tab open with title &ldquo;Get help with PrestaShop&rdquo;</td>
 </tr>
 <tr>
-<td>Close the two different new tab</td>
-<td>You should keep only the dashboard page with the modal</td>
+<td>Close two differents new tab</td>
+<td>Dashboard page is displayed with the modal</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Update&rdquo; button</td>
-<td>* You should be redirected on the &ldquo;Version choice&rdquo; page<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.7.8 / Current PHP version: 7.1<br><br> * <br> ** One radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop {test-param}Last_version_178{test-param}  [Minor version] With description &ldquo;The recommended version of PrestaShop to which you can update your store, based on its PHP version.. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+<td>Click on &ldquo;Update&rdquo; CTA</td>
+<td>&ldquo;Version choice&rdquo; page is displayed : <br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.7.8/ Current PHP version: 7.1.xx<br> * Radio button : PrestaShop {test-param}Last_version_178{test-param}   (Minor) version](blue color rgb(190, 234, 243)) with description &ldquo;The recommended version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> * Blue alert info : &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/</em>&quot;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
 <td>Install A fresh 1.7.8.3 on php 7.1</td>
-<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+<td>A selection between BO and FO is displayed</td>
 </tr>
 <tr>
-<td>Go to the BO</td>
-<td>You should have your dashboard showed</td>
+<td>Go to BO</td>
+<td>Dashboard is displayed</td>
 </tr>
 <tr>
-<td>Go to the Module Catalog&rdquo; page&rdquo;</td>
-<td>Module Catalog page is displayed correctly</td>
+<td>Go to Module Catalog&rdquo; page&rdquo;</td>
+<td>Module Catalog page is displayed</td>
 </tr>
 <tr>
-<td>Search for the update assistant module. Install it</td>
+<td>Search for the update assistant module and Install it</td>
 <td>Module is correctly installed</td>
 </tr>
 <tr>
-<td>Click on the Dashboard on the side menu</td>
-<td>You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** &quot; New available Patch&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two buttons : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
+<td>Click on the Dashboard in the side menu</td>
+<td>Dashboard menu is displayed with a modal : <br> * on the left : <br> ** &quot; New available Patch&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two CTA : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Update&rdquo; button</td>
-<td>* You should be redirected on the &ldquo;Version choice&rdquo; page<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.3 / Current PHP version: 7.1<br><br> * <br> ** One radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop {test-param}Last_version_178{test-param} [Patch version] With description &ldquo;The recommended version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+<td>Click on &ldquo;Update&rdquo; CTA</td>
+<td>&ldquo;Version choice&rdquo; page is displayed : <br><br>  <br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.3 / Current PHP version: 7.1.xx<br> * Radio button : PrestaShop {test-param}Last_version_178{test-param}   (Patch) version](blue color rgb(190, 234, 243)) with description &ldquo;The recommended version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> * Blue alert info : &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/</em>&quot;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
 <td>Click on Dashboard</td>
-<td>* You should be on your dashboard and no modal should be open</td>
+<td>Dashboard is displayed with no modal</td>
 </tr>
 <tr>
 <td>Change your php to 7.4</td>
 <td>You php should be 7.4 now</td>
 </tr>
 <tr>
-<td>* Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}<br><br> * Click on &ldquo;Go&rdquo;</td>
-<td>* All you database should be showed<br> * You should have all different parameters of your shop<br> * You could writte something on it<br> * The field should be set<br> * You should only have the parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;</td>
+<td>Go to your phpmyadmin</td>
+<td>All you database is displayed</td>
+</tr>
+<tr>
+<td>Search for [prefix]_configuration</td>
+<td>All different parameters of your shop is displayed</td>
+</tr>
+<tr>
+<td>Click on Edit inline</td>
+<td>A field is displayed to writte your research</td>
+</tr>
+<tr>
+<td>Writte and clic on &ldquo;Go&rdquo;<br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}</td>
+<td>The parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo; is the only one parameters displayed</td>
 </tr>
 <tr>
 <td>Change the value part</td>
-<td>You change should be saved</td>
+<td>Value is saved</td>
 </tr>
 <tr>
-<td>Return on your BO and reload the dashboard page</td>
-<td>You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** &quot; New available Major&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two buttons : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
+<td>Return on BO and reload the dashboard page</td>
+<td>Dashboard menu is displayed with a modal :<br> * on the left : <br> ** &ldquo;New available Major&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two buttons : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
 </tr>
 <tr>
-<td>* Click on &ldquo;[See the update</td>
+<td>Click on &ldquo;[See the update</td>
 <td><a href="https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/%5D%22">https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]&quot;</a> link on description part</td>
 </tr>
 <tr>
-<td>Close the new tab</td>
-<td>You should keep only the dashboard page with the modal</td>
+<td>Close new tab</td>
+<td>Dashboard page is displayed with the modal</td>
 </tr>
 <tr>
 <td>Click on &ldquo;Update&rdquo; button</td>
-<td>* You should be redirected on the &ldquo;Version choice&rdquo; page<br> * You should have a stepper on top of the page set on &ldquo;1 : Version choice&rdquo;<br> * In the page, it should be : <br> **  a paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.3 / Current PHP version: 7.4<br><br> * <br> ** One radio button with : &ldquo;Prestashop [last major/minor version]&rdquo; and &ldquo;Local Archive&rdquo;<br> *** Prestashop {test-param}Last_version_8{test-param} [Major version] With description &ldquo;The recommended version of PrestaShop to which you can update your store, based on its PHP version. &quot; and a button &ldquo;Release note&rdquo; <br> *** if you don&rsquo;t have a local archive set, you didn&rsquo;t have a radio button and you should have a blue notification with &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/&quot;</em> **<br> ** A button named &ldquo;Next&rdquo; disabled</td>
+<td>&ldquo;Version choice&rdquo; page is displayed : <br> <br> * Stepper on step one (&ldquo;Version choice&rdquo;)<br> * Paragraph with &ldquo;A more recent version is available / Current PrestaShop version: 1.7.8.3 / Current PHP version: 7.4.xx<br> * Radio button : PrestaShop {test-param}Last_version_8{test-param}    (Patch) version](blue color rgb(190, 234, 243)) with description &ldquo;The recommended version of PrestaShop to which you can update your store, based on its PHP version.&rdquo; and the link &ldquo;Release note&rdquo; <br> * Blue alert info : &quot; Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: <em>/your-admin-directory/autoupgrade/download/</em>&quot;<br> * CTA : &ldquo;Next&rdquo; disabled</td>
 </tr>
 <tr>
 <td>Install A fresh 8.0.3 and keep php 8.1</td>
-<td>You should have the selection of where in your shop you want to go ( BO or FO )</td>
+<td>A selection between BO and FO is displayed</td>
 </tr>
 <tr>
-<td>Go to the BO</td>
-<td>You should have your dashboard showed</td>
+<td>Go to BO</td>
+<td>Dashboard is displayed</td>
 </tr>
 <tr>
 <td>Go to the Module Manager&rdquo; page&rdquo;</td>
-<td>Module Catalog page is displayed correctly</td>
+<td>Module Catalog page is displayed</td>
 </tr>
 <tr>
-<td>Search for the update assistant module. Install it</td>
-<td>Module is correctly installed</td>
+<td>Search for the update assistant module and Install it</td>
+<td>Module is installed</td>
 </tr>
 <tr>
 <td>Click on the Dashboard on the side menu</td>
-<td>You should be on the dashboard menu with a modal that have : <br> * on the left part : <br> ** &quot; New available Minor&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right part : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two buttons : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
+<td>Dashboard menu is displayed with a modal : <br> * on the left : <br> ** &quot; New available Minor&rdquo; writted in black with a blue bacckground<br> ** &ldquo;New features are available&rdquo; in white, with the prestashop typo with a black background <br><br> * on the right : <br> ** Four part of text : &ldquo;Description&rdquo;, &ldquo;Version&rdquo;, &ldquo;Type of improvements&rdquo; and &ldquo;Need help?&quot;<br> ** Two CTA : &ldquo;Remind me later&rdquo; and &ldquo;Update&rdquo;<br> ** On description : &ldquo;The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update</td>
 </tr>
 <tr>
-<td>* Click on Remind me later<br> * Click on &ldquo;7 days&rdquo;</td>
-<td>* The button should be greyed and three new button should be displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;<br> * The modal should be hidden</td>
+<td>Click on Remind me later CTA</td>
+<td>CTA is greyed and three new CTA are displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;</td>
 </tr>
 <tr>
-<td>* Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}<br><br> * Click on &ldquo;Go&rdquo;</td>
-<td>* All you database should be showed<br> * You should have all different parameters of your shop<br> * You could writte something on it<br> * The field should be set<br> * You should only have the parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo; with on value, timestamp equal to the timestamp for 7days on the &ldquo;employeeID :1&rdquo;</td>
+<td>Click on &ldquo;7 days&rdquo;</td>
+<td>The modal is hidden</td>
 </tr>
 <tr>
-<td>On the value, put a 0 into the value : &ldquo;timestamp&rdquo; next to &ldquo;employeeID : 1&rdquo; and press enter</td>
-<td>The value should be saved</td>
+<td>Go to your phpmyadmin</td>
+<td>All you database is displayed</td>
+</tr>
+<tr>
+<td>Search for [prefix]_configuration</td>
+<td>All different parameters of your shop is displayed</td>
+</tr>
+<tr>
+<td>Click on Edit inline</td>
+<td>A field is displayed to writte your research</td>
+</tr>
+<tr>
+<td>Writte and clic on &ldquo;Go&rdquo;<br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}</td>
+<td>The parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo; is displayed with on value, timestamp equal to the timestamp for 7days on the &ldquo;employeeID :1&rdquo;</td>
+</tr>
+<tr>
+<td>On the value, put &ldquo;{color:#00875a}<em>0</em>{color}&rdquo; into the value : &ldquo;timestamp&rdquo; next to &ldquo;employeeID : 1&rdquo; and press enter</td>
+<td>The value is saved</td>
 </tr>
 <tr>
 <td>Return on the BO and reload the page</td>
-<td>You should be on the dashboard menu with update modal</td>
+<td>Dashboard menu is displayed with update modal</td>
 </tr>
 <tr>
-<td>* Click on Remind me later<br> * Click on &ldquo;30 days&rdquo;</td>
-<td>* The button should be greyed and three new button should be displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;<br> * The modal should be hidden</td>
+<td>{color:#FF0000}<em>GROUIIIIIIIIK</em>{color}</td>
+<td></td>
+</tr>
+<tr>
+<td>Click on Remind me later CTA</td>
+<td>CTA is greyed and three new CTA are displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;30 days&rdquo;</td>
+<td>The modal is hidden</td>
 </tr>
 <tr>
 <td>* Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}<br><br> * Click on &ldquo;Go&rdquo;</td>
@@ -69516,8 +69552,12 @@
 <td>You should be on the dashboard menu with update modal</td>
 </tr>
 <tr>
-<td>* Click on Remind me later<br> * Click on &ldquo;Until the next version&rdquo;</td>
-<td>* The button should be greyed and three new button should be displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;<br> * The modal should be hidden</td>
+<td>Click on Remind me later</td>
+<td>The button should be greyed and three new button should be displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Until the next version&rdquo;</td>
+<td>The modal should be hidden</td>
 </tr>
 <tr>
 <td>* Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}<br><br> * Click on &ldquo;Go&rdquo;</td>
@@ -69536,8 +69576,12 @@
 <td>You should have a modal with : <br> * Welcome back [nameOfYourEmployee]<br> * The picture of your employee<br> * a button with a pen on it and &ldquo;Your profile&rdquo; for the text <br> * A link with an icon of a clock and &ldquo;Discover the latest releases&rdquo; for the text<br> * A link sign out</td>
 </tr>
 <tr>
-<td>* Put your mouse over the link &ldquo;Discover the latest release&rdquo;<br> * Click on this link</td>
-<td>* The background of the link should be blue and the text&rsquo;ll be white<br> * A new tab should be opened on a webpage with title &ldquo;Articles about PrestaShop releases&rdquo;</td>
+<td>Put your mouse over the link &ldquo;Discover the latest release&rdquo;</td>
+<td>The background of the link should be blue and the text&rsquo;ll be white</td>
+</tr>
+<tr>
+<td>Click on &ldquo;Discover the latest release&rdquo;</td>
+<td>A new tab should be opened on a webpage with title &ldquo;Articles about PrestaShop releases&rdquo;</td>
 </tr>
 <tr>
 <td>* Go to &ldquo;<a href="https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y%22">https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y&quot;</a><br> * set on filter the parameters</td>
@@ -69563,17 +69607,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1762324159"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1762324159"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1762324159"></script>
-    <script src="../../../../js/jquery.sticky.js?1762324159"></script>
-    <script src="../../../../js/featherlight.min.js?1762324159"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1762324159"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1762324159"></script>
-    <script src="../../../../js/learn.js?1762324159"></script>
-    <script src="../../../../js/hugo-learn.js?1762324159"></script>
+    <script src="../../../../js/clipboard.min.js?1762410606"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1762410606"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1762410606"></script>
+    <script src="../../../../js/jquery.sticky.js?1762410606"></script>
+    <script src="../../../../js/featherlight.min.js?1762410606"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1762410606"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1762410606"></script>
+    <script src="../../../../js/learn.js?1762410606"></script>
+    <script src="../../../../js/hugo-learn.js?1762410606"></script>
     
-    <script src="../../../../main.js?1762324159"></script>
+    <script src="../../../../main.js?1762410606"></script>
     
     
     
