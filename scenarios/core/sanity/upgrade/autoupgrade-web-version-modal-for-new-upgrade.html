@@ -22,13 +22,13 @@
     <title>Autoupgrade - Web Version - modal for new Upgrade  :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1762496999" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1762496999" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1762496999" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1762496999" rel="stylesheet"><link href="../../../../css/auto-complete.css?1762496999" rel="stylesheet">
-    <link href="../../../../style.css?1762496999" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1762583399" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1762583399" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1762583399" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1762583399" rel="stylesheet"><link href="../../../../css/auto-complete.css?1762583399" rel="stylesheet">
+    <link href="../../../../style.css?1762583399" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1762496999"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1762583399"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69528,10 +69528,6 @@
 <td>Dashboard menu is displayed with update modal</td>
 </tr>
 <tr>
-<td>{color:#FF0000}<em>GROUIIIIIIIIK</em>{color}</td>
-<td></td>
-</tr>
-<tr>
 <td>Click on Remind me later CTA</td>
 <td>CTA is greyed and three new CTA are displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;</td>
 </tr>
@@ -69540,52 +69536,80 @@
 <td>The modal is hidden</td>
 </tr>
 <tr>
-<td>* Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}<br><br> * Click on &ldquo;Go&rdquo;</td>
-<td>* All you database should be showed<br> * You should have all different parameters of your shop<br> * You could writte something on it<br> * The field should be set<br> * You should only have the parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo; with on value, timestamp equal to the timestamp for 30days on the &ldquo;employeeID :1&rdquo;</td>
+<td>Go to your phpmyadmin</td>
+<td>All you database is displayed</td>
+</tr>
+<tr>
+<td>Search for [prefix]_configuration</td>
+<td>All different parameters of your shop is displayed</td>
+</tr>
+<tr>
+<td>Click on Edit inline</td>
+<td>A field is displayed to writte your research</td>
+</tr>
+<tr>
+<td>Writte and clic on &ldquo;Go&rdquo;<br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}</td>
+<td>The parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo; is displayed with on value, timestamp equal to the timestamp for 30days on the &ldquo;employeeID :1&rdquo;</td>
 </tr>
 <tr>
 <td>On the value, put a 0 into the value : &ldquo;timestamp&rdquo; next to &ldquo;employeeID : 1&rdquo; and press enter</td>
-<td>The value should be saved</td>
+<td>The value is saved</td>
 </tr>
 <tr>
 <td>Return on the BO and reload the page</td>
-<td>You should be on the dashboard menu with update modal</td>
+<td>Dashboard menu is displayed with update modal</td>
 </tr>
 <tr>
-<td>Click on Remind me later</td>
-<td>The button should be greyed and three new button should be displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;</td>
+<td>Click on Remind me later CTA</td>
+<td>CTA is greyed and three new CTA are displayed : &ldquo;7 days&rdquo;, &ldquo;30 days&rdquo; and &ldquo;Until the next version&rdquo;</td>
 </tr>
 <tr>
 <td>Click on &ldquo;Until the next version&rdquo;</td>
-<td>The modal should be hidden</td>
+<td>The modal is hidden</td>
 </tr>
 <tr>
-<td>* Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}<br><br> * Click on &ldquo;Go&rdquo;</td>
-<td>* All you database should be showed<br> * You should have all different parameters of your shop<br> * You could writte something on it<br> * The field should be set<br> * You should only have the parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo; with on value, np mention of timestamp for the &ldquo;employeeID :1&rdquo; and you have &ldquo;&ldquo;versionChecked&rdquo;:&ldquo;8.2.1&quot;&rdquo;</td>
+<td>Go to your phpmyadmin</td>
+<td>All you database is displayed</td>
+</tr>
+<tr>
+<td>Search for [prefix]_configuration</td>
+<td>All different parameters of your shop is displayed</td>
+</tr>
+<tr>
+<td>Click on Edit inline</td>
+<td>A field is displayed to writte your research</td>
+</tr>
+<tr>
+<td>Writte and clic on &ldquo;Go&rdquo;<br>{code:java}<br>SELECT * FROM <code>pls_configuration</code> WHERE name=&ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo;;{code}</td>
+<td>The parameter &ldquo;PS_AUTOUPGRADE_LAST_CHECK&rdquo; is displayed with on value,, no mention of timestamp for the &ldquo;employeeID :1&rdquo; and you have &ldquo;&ldquo;versionChecked&rdquo;:&ldquo;8.2.1&quot;&rdquo;</td>
 </tr>
 <tr>
 <td>On the value, put a 0 into the value : &ldquo;timestamp&rdquo; and press enter</td>
-<td>The value should be saved</td>
+<td>The value is saved</td>
 </tr>
 <tr>
 <td>Return on the BO and reload the page</td>
-<td>You should be on the dashboard menu with no modal</td>
+<td>Dashboard menu is displayed with no modal</td>
 </tr>
 <tr>
-<td>Click on the icon of your employee session</td>
-<td>You should have a modal with : <br> * Welcome back [nameOfYourEmployee]<br> * The picture of your employee<br> * a button with a pen on it and &ldquo;Your profile&rdquo; for the text <br> * A link with an icon of a clock and &ldquo;Discover the latest releases&rdquo; for the text<br> * A link sign out</td>
+<td>Click on the icon of employee session</td>
+<td>Modal is displayed  with : <br> * Welcome back [nameOfYourEmployee]<br> * The picture of your employee<br> * CTA with a pen on it and &ldquo;Your profile&rdquo; for the text <br> * Link with an icon of a clock and &ldquo;Discover the latest releases&rdquo; for the text<br> * Link to sign out</td>
 </tr>
 <tr>
 <td>Put your mouse over the link &ldquo;Discover the latest release&rdquo;</td>
-<td>The background of the link should be blue and the text&rsquo;ll be white</td>
+<td>The background of the link is blue and the text is white</td>
 </tr>
 <tr>
 <td>Click on &ldquo;Discover the latest release&rdquo;</td>
-<td>A new tab should be opened on a webpage with title &ldquo;Articles about PrestaShop releases&rdquo;</td>
+<td>A new tab is displayed on webpage with title &ldquo;Articles about PrestaShop releases&rdquo;</td>
 </tr>
 <tr>
-<td>* Go to &ldquo;<a href="https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y%22">https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y&quot;</a><br> * set on filter the parameters</td>
-<td>You should see : <br> * [SUE] Update modal displayed&rdquo; <br> * [SUE] Update module opened following modal display&rdquo; <br> * SUE] Update modal snoozed&rdquo; <br><br>With the same Anonymous ID and php write like &ldquo;X.X.XX&rdquo;<br>and <br> * autoupgrade_version <br> * module<br> * php_version <br> * ps_version</td>
+<td>Go to &ldquo;<a href="https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y%22">https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y&quot;</a></td>
+<td>A list of different Event are displayed</td>
+</tr>
+<tr>
+<td>Set filter the parameters</td>
+<td>Some Event name have  : <br> * [SUE] Update modal displayed&rdquo; <br> * [SUE] Update module opened following modal display&rdquo; <br> * SUE] Update modal snoozed&rdquo; <br><br>With the same Anonymous ID and php write like &ldquo;X.X.XX&rdquo;<br>and <br> * autoupgrade_version <br> * module<br> * php_version <br> * ps_version</td>
 </tr>
 </tbody>
 </table>
@@ -69607,17 +69631,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1762496999"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1762496999"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1762496999"></script>
-    <script src="../../../../js/jquery.sticky.js?1762496999"></script>
-    <script src="../../../../js/featherlight.min.js?1762496999"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1762496999"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1762496999"></script>
-    <script src="../../../../js/learn.js?1762496999"></script>
-    <script src="../../../../js/hugo-learn.js?1762496999"></script>
+    <script src="../../../../js/clipboard.min.js?1762583399"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1762583399"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1762583399"></script>
+    <script src="../../../../js/jquery.sticky.js?1762583399"></script>
+    <script src="../../../../js/featherlight.min.js?1762583399"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1762583399"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1762583399"></script>
+    <script src="../../../../js/learn.js?1762583399"></script>
+    <script src="../../../../js/hugo-learn.js?1762583399"></script>
     
-    <script src="../../../../main.js?1762496999"></script>
+    <script src="../../../../main.js?1762583399"></script>
     
     
     
