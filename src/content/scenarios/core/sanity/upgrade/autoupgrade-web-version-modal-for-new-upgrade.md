@@ -51,18 +51,24 @@ weight: 18
 | Writte and clic on "Go"<br>{code:java}<br>SELECT * FROM `pls_configuration` WHERE name="PS_AUTOUPGRADE_LAST_CHECK";{code} | The parameter "PS_AUTOUPGRADE_LAST_CHECK" is displayed with on value, timestamp equal to the timestamp for 7days on the "employeeID :1" |
 | On the value, put "{color:#00875a}*0*{color}" into the value : "timestamp" next to "employeeID : 1" and press enter | The value is saved |
 | Return on the BO and reload the page | Dashboard menu is displayed with update modal |
-| {color:#FF0000}*GROUIIIIIIIIK*{color} |  |
 | Click on Remind me later CTA | CTA is greyed and three new CTA are displayed : "7 days", "30 days" and "Until the next version" |
 | Click on "30 days" | The modal is hidden |
-| * Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM `pls_configuration` WHERE name="PS_AUTOUPGRADE_LAST_CHECK";{code}<br><br> * Click on "Go" | * All you database should be showed<br> * You should have all different parameters of your shop<br> * You could writte something on it<br> * The field should be set<br> * You should only have the parameter "PS_AUTOUPGRADE_LAST_CHECK" with on value, timestamp equal to the timestamp for 30days on the "employeeID :1" |
-| On the value, put a 0 into the value : "timestamp" next to "employeeID : 1" and press enter | The value should be saved |
-| Return on the BO and reload the page | You should be on the dashboard menu with update modal |
-| Click on Remind me later | The button should be greyed and three new button should be displayed : "7 days", "30 days" and "Until the next version" |
-| Click on "Until the next version" | The modal should be hidden |
-| * Go to your phpmyadmin<br> * Search for your [prefix]_configuration<br> * Click on Edit inline<br> * Writte <br>{code:java}<br>SELECT * FROM `pls_configuration` WHERE name="PS_AUTOUPGRADE_LAST_CHECK";{code}<br><br> * Click on "Go" | * All you database should be showed<br> * You should have all different parameters of your shop<br> * You could writte something on it<br> * The field should be set<br> * You should only have the parameter "PS_AUTOUPGRADE_LAST_CHECK" with on value, np mention of timestamp for the "employeeID :1" and you have ""versionChecked":"8.2.1"" |
-| On the value, put a 0 into the value : "timestamp" and press enter | The value should be saved |
-| Return on the BO and reload the page | You should be on the dashboard menu with no modal |
-| Click on the icon of your employee session | You should have a modal with : <br> * Welcome back [nameOfYourEmployee]<br> * The picture of your employee<br> * a button with a pen on it and "Your profile" for the text <br> * A link with an icon of a clock and "Discover the latest releases" for the text<br> * A link sign out |
-| Put your mouse over the link "Discover the latest release" | The background of the link should be blue and the text'll be white |
-| Click on "Discover the latest release" | A new tab should be opened on a webpage with title "Articles about PrestaShop releases" |
-| * Go to "https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y"<br> * set on filter the parameters | You should see : <br> * [SUE] Update modal displayed" <br> * [SUE] Update module opened following modal display" <br> * SUE] Update modal snoozed" <br><br>With the same Anonymous ID and php write like "X.X.XX"<br>and <br> * autoupgrade_version <br> * module<br> * php_version <br> * ps_version |
+| Go to your phpmyadmin | All you database is displayed |
+| Search for [prefix]_configuration | All different parameters of your shop is displayed |
+| Click on Edit inline | A field is displayed to writte your research |
+| Writte and clic on "Go"<br>{code:java}<br>SELECT * FROM `pls_configuration` WHERE name="PS_AUTOUPGRADE_LAST_CHECK";{code} | The parameter "PS_AUTOUPGRADE_LAST_CHECK" is displayed with on value, timestamp equal to the timestamp for 30days on the "employeeID :1" |
+| On the value, put a 0 into the value : "timestamp" next to "employeeID : 1" and press enter | The value is saved |
+| Return on the BO and reload the page | Dashboard menu is displayed with update modal |
+| Click on Remind me later CTA | CTA is greyed and three new CTA are displayed : "7 days", "30 days" and "Until the next version" |
+| Click on "Until the next version" | The modal is hidden |
+| Go to your phpmyadmin | All you database is displayed |
+| Search for [prefix]_configuration | All different parameters of your shop is displayed |
+| Click on Edit inline | A field is displayed to writte your research |
+| Writte and clic on "Go"<br>{code:java}<br>SELECT * FROM `pls_configuration` WHERE name="PS_AUTOUPGRADE_LAST_CHECK";{code} | The parameter "PS_AUTOUPGRADE_LAST_CHECK" is displayed with on value,, no mention of timestamp for the "employeeID :1" and you have ""versionChecked":"8.2.1"" |
+| On the value, put a 0 into the value : "timestamp" and press enter | The value is saved |
+| Return on the BO and reload the page | Dashboard menu is displayed with no modal |
+| Click on the icon of employee session | Modal is displayed  with : <br> * Welcome back [nameOfYourEmployee]<br> * The picture of your employee<br> * CTA with a pen on it and "Your profile" for the text <br> * Link with an icon of a clock and "Discover the latest releases" for the text<br> * Link to sign out |
+| Put your mouse over the link "Discover the latest release" | The background of the link is blue and the text is white |
+| Click on "Discover the latest release" | A new tab is displayed on webpage with title "Articles about PrestaShop releases" |
+| Go to "https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y" | A list of different Event are displayed |
+| Set filter the parameters | Some Event name have  : <br> * [SUE] Update modal displayed" <br> * [SUE] Update module opened following modal display" <br> * SUE] Update modal snoozed" <br><br>With the same Anonymous ID and php write like "X.X.XX"<br>and <br> * autoupgrade_version <br> * module<br> * php_version <br> * ps_version |
