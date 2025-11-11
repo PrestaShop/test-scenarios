@@ -1,11 +1,13 @@
 ---
-title: "BO - Cart Rules - Quantity consumption"
-weight: 4
+title: "BO - Cart Rules : Quantity consumption"
+weight: 3
 ---
 
-# BO - Cart Rules - Quantity consumption
+# BO - Cart Rules : Quantity consumption
 ## Details
-* **Status** : To be automated
+* **Component** : Core
+* **Status** : Automation in progress
+* **Automated on** : 9.1.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10666
 
 ## Steps
