@@ -1,13 +1,15 @@
 ---
-title: "BO - Catalog price Rules - Bulk actions"
+title: "BO - Catalog price Rules : Bulk actions"
 weight: 3
 ---
 
-# BO - Catalog price Rules - Bulk actions
+# BO - Catalog price Rules : Bulk actions
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Automated
+* **Automated on** : 9.1.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10329
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/03_bulkActions.ts
 
 ## Steps
 | Step Description | Expected result |

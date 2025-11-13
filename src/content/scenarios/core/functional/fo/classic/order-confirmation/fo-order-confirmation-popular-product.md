@@ -1,9 +1,9 @@
 ---
-title: "FO - Order confirmation - Popular products"
+title: "FO - Order confirmation : Popular product"
 weight: 4
 ---
 
-# FO - Order confirmation - Popular products
+# FO - Order confirmation : Popular product
 ## Details
 * **Component** : Core
 * **Status** : Automated

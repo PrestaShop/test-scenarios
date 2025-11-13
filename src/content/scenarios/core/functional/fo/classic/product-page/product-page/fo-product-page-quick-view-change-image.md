@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Change image"
+title: "FO - Product page - Quick view : Change image"
 weight: 3
 ---
 
-# FO - Product Page - Change image
+# FO - Product page - Quick view : Change image
 ## Details
 * **Component** : Core
 * **Status** : Automated

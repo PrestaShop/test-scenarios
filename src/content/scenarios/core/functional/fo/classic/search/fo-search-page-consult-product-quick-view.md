@@ -1,9 +1,9 @@
 ---
-title: "FO - Search - Consult product quickview"
+title: "FO - Search Page : Consult product quick view"
 weight: 6
 ---
 
-# FO - Search - Consult product quickview
+# FO - Search Page : Consult product quick view
 ## Details
 * **Component** : Core
 * **Status** : Automated

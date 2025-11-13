@@ -1,9 +1,9 @@
 ---
-title: "FO - Cart - Modal - Continue shopping / Proceed to checkout / Close"
+title: "FO - Cart - Modal : Continue shopping / Proceed to checkout / Close"
 weight: 2
 ---
 
-# FO - Cart - Modal - Continue shopping / Proceed to checkout / Close
+# FO - Cart - Modal : Continue shopping / Proceed to checkout / Close
 ## Details
 * **Component** : Core
 * **Status** : Automated

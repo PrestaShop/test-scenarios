@@ -1,9 +1,9 @@
 ---
-title: "FO - Search - Consult results list"
+title: "FO - Search Page : Consult results list"
 weight: 4
 ---
 
-# FO - Search - Consult results list
+# FO - Search Page : Consult results list
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Add to cart"
+title: "FO - Product page - Product page : Add to cart"
 weight: 1
 ---
 
-# FO - Product Page - Add to cart
+# FO - Product page - Product page : Add to cart
 ## Details
 * **Component** : Core
 * **Status** : Automated

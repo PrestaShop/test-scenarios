@@ -1,9 +1,9 @@
 ---
-title: "FO - Cart - Display modal product customization"
+title: "FO - Cart : Display modal of product customization"
 weight: 4
 ---
 
-# FO - Cart - Display modal product customization
+# FO - Cart : Display modal of product customization
 ## Details
 * **Component** : Core
 * **Status** : Automated

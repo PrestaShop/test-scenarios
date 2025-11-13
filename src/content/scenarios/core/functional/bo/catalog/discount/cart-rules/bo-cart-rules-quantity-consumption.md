@@ -6,9 +6,11 @@ weight: 3
 # BO - Cart Rules : Quantity consumption
 ## Details
 * **Component** : Core
-* **Status** : Automation in progress
+* **Status** : Automated
 * **Automated on** : 9.1.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10666
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/03_quantityConsumption.ts
+* **Specification** : https://github.com/PrestaShop/PrestaShop/issues/37793
 
 ## Steps
 | Step Description | Expected result |
