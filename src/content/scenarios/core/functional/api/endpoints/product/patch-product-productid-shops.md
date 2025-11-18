@@ -1,6 +1,6 @@
 ---
 title: "PATCH /product/{productId}/shops"
-weight: 5
+weight: 6
 ---
 
 # PATCH /product/{productId}/shops
