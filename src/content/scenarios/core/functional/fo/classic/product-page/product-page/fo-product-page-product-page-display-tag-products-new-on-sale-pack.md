@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Display tag products (New, On sale, Pack...)"
+title: "FO - Product page - Product page : Display tag products (New, On sale, Pack...)"
 weight: 12
 ---
 
-# FO - Product Page - Display tag products (New, On sale, Pack...)
+# FO - Product page - Product page : Display tag products (New, On sale, Pack...)
 ## Details
 * **Component** : Core
 * **Status** : Automated

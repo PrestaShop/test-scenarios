@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Display \"On sale\" label"
+title: "FO - Product page - Product page : Display \"On sale\" label"
 weight: 13
 ---
 
-# FO - Product Page - Display \"On sale\" label
+# FO - Product page - Product page : Display \"On sale\" label
 ## Details
 * **Component** : Core
 * **Status** : Automated

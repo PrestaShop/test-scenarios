@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Display discount on product"
+title: "FO - Product page - Product page : Display discount"
 weight: 11
 ---
 
-# FO - Product Page - Display discount on product
+# FO - Product page - Product page : Display discount
 ## Details
 * **Component** : Core
 * **Status** : Automated

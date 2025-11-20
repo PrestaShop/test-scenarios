@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Add a text customization"
+title: "FO - Product page - Product page : Add a text customization"
 weight: 5
 ---
 
-# FO - Product Page - Add a text customization
+# FO - Product page - Product page : Add a text customization
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Add a file customization"
+title: "FO - Product page - Product page : Add a file customization"
 weight: 6
 ---
 
-# FO - Product Page - Add a file customization
+# FO - Product page - Product page : Add a file customization
 ## Details
 * **Component** : Core
 * **Status** : Automated

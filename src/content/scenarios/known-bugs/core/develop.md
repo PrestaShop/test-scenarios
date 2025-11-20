@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (37 campaigns / 44 issues)
+# Known bugs (36 campaigns / 43 issues)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
   * [PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts](https://github.com/PrestaShop/PrestaShop/issues/39682)
   * [PrestaShop#38784 : Delete / list / tests discounts](https://github.com/PrestaShop/PrestaShop/issues/38784)
@@ -30,8 +30,6 @@ weight: 1
   * [PrestaShop#34191 : Preview Disabled Product & Multiples languages ](https://github.com/PrestaShop/PrestaShop/issues/34191)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts)** :
   * [PrestaShop#39109 : Cart Rule : "Free Shipping" but not "Free Shipping"](https://github.com/PrestaShop/PrestaShop/issues/39109)
-* **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/09_reductionType.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/09_reductionType.ts)** :
-  * [PrestaShop#39983 : Catalog Price Rule : Calculation on Percentage with Tax Excluded doesn't work](https://github.com/PrestaShop/PrestaShop/issues/39983)
 * **[tests/UI/campaigns/functional/BO/03_catalog/08_stocks/01_movements/01_filterMovements.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/08_stocks/01_movements/01_filterMovements.ts)** :
   * [PrestaShop#34337 : Stock Movement - Filter by Employee trigger multiple requests](https://github.com/PrestaShop/PrestaShop/issues/34337)
   * [PrestaShop#34334 : Stock Movement - Multiple Advanced Filters "Employee & Categories" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/34334)

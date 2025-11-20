@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Display Specific delivery time"
+title: "FO - Product page - Product page : Display Specific delivery time"
 weight: 14
 ---
 
-# FO - Product Page - Display Specific delivery time
+# FO - Product page - Product page : Display Specific delivery time
 ## Details
 * **Component** : Core
 * **Status** : Automated

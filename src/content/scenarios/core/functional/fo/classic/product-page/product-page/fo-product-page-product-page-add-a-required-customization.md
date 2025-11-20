@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Add a required customization"
+title: "FO - Product page - Product page : Add a required customization"
 weight: 7
 ---
 
-# FO - Product Page - Add a required customization
+# FO - Product page - Product page : Add a required customization
 ## Details
 * **Component** : Core
 * **Status** : Automated

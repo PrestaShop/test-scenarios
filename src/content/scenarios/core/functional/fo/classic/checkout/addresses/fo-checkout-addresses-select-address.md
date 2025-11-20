@@ -1,9 +1,9 @@
 ---
-title: "FO - Checkout - Addresses - Select an address"
+title: "FO - Checkout - Addresses: Select address"
 weight: 3
 ---
 
-# FO - Checkout - Addresses - Select an address
+# FO - Checkout - Addresses: Select address
 ## Details
 * **Component** : Core
 * **Status** : Automated

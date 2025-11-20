@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Share links"
+title: "FO - Product page - Product page : Share links"
 weight: 4
 ---
 
-# FO - Product Page - Share links
+# FO - Product page - Product page : Share links
 ## Details
 * **Component** : Core
 * **Status** : Automated
