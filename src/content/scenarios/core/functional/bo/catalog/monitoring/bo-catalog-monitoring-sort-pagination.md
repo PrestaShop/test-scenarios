@@ -6,6 +6,6 @@ weight: 3
 # BO - Catalog - Monitoring - Sort & Pagination
 ## Details
 * **Component** : Core
-* **Status** : In progress
+* **Status** : Sandbox
 * **Scenario** : https://forge.prestashop.com/browse/TEST-801
 

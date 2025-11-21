@@ -1,9 +1,9 @@
 ---
-title: "BO - Discount -Select a free gift product "
+title: "BO - Discount - Select a free gift product "
 weight: 3
 ---
 
-# BO - Discount -Select a free gift product 
+# BO - Discount - Select a free gift product 
 ## Details
 * **Status** : Blocked
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11264
