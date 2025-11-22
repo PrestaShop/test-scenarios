@@ -18,9 +18,7 @@ weight: 1
   * [PrestaShop#39814 : Endpoint `DELETE /category/{categoryId}` : The endpoint is not usable](https://github.com/PrestaShop/PrestaShop/issues/39814)
 * **[tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts)** :
   * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
-* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/08_patchProductId.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/08_patchProductId.ts)** :
-  * [PrestaShop#38787 : API : Endpoint `PATCH /product/{productId}` : Field `availableDate` : Can't use a datetime](https://github.com/PrestaShop/PrestaShop/issues/38787)
-* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/10_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/10_getProductsSearch.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts)** :
   * [PrestaShop#34486 : The APIDoc TryItOut for `/api/products/search/{phrase}/{resultsLimit}/{isoCode}` doesn't work - Enpoint Issue](https://github.com/PrestaShop/PrestaShop/issues/34486)
 * **[tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts)** :
   * [PrestaShop#37033 : BO - dashactivity - module can't be SAVED properly](https://github.com/PrestaShop/PrestaShop/issues/37033)
@@ -28,6 +26,8 @@ weight: 1
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
 * **[tests/UI/campaigns/functional/BO/03_catalog/01_products/22_bulkActionsEnableDisable3DotsButton.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/22_bulkActionsEnableDisable3DotsButton.ts)** :
   * [PrestaShop#34191 : Preview Disabled Product & Multiples languages ](https://github.com/PrestaShop/PrestaShop/issues/34191)
+* **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts)** :
+  * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts)** :
   * [PrestaShop#39109 : Cart Rule : "Free Shipping" but not "Free Shipping"](https://github.com/PrestaShop/PrestaShop/issues/39109)
 * **[tests/UI/campaigns/functional/BO/03_catalog/08_stocks/01_movements/01_filterMovements.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/08_stocks/01_movements/01_filterMovements.ts)** :
@@ -82,7 +82,7 @@ weight: 1
   * [PrestaShop#37112 : `psgdpr` : The configure button is not clickable in shop context](https://github.com/PrestaShop/PrestaShop/issues/37112)
 * **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts)** :
   * [PrestaShop#36847 : `psgdpr`: Search guest account display result and block "There is no result"](https://github.com/PrestaShop/PrestaShop/issues/36847)
-  * [PrestaShop#36848 : `psgdpr`: Search guest account display result and block is empty](https://github.com/PrestaShop/PrestaShop/issues/36848)
-  * [PrestaShop#36865 : `psgdpr`: Search guest account, Remove it & It's always displayed](https://github.com/PrestaShop/PrestaShop/issues/36865)
+  * [PrestaShop#36848 : https://github.com/PrestaShop/PrestaShop/issues/36848](https://github.com/PrestaShop/PrestaShop/issues/36848)
+  * [PrestaShop#36865 : https://github.com/PrestaShop/PrestaShop/issues/36865](https://github.com/PrestaShop/PrestaShop/issues/36865)
 * **[tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts)** :
-  * [PrestaShop#9779 : [BOOM-4571] Rounding Problem](https://github.com/PrestaShop/PrestaShop/issues/9779)
+  * [PrestaShop#9779 : https://github.com/PrestaShop/PrestaShop/issues/9779](https://github.com/PrestaShop/PrestaShop/issues/9779)
