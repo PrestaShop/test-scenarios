@@ -1,9 +1,9 @@
 ---
-title: "BO - International - Translations - Modify translations and check result"
+title: "BO - International - Translations : Modify translations and check result"
 weight: 1
 ---
 
-# BO - International - Translations - Modify translations and check result
+# BO - International - Translations : Modify translations and check result
 ## Details
 * **Component** : Core
 * **Status** : Automated

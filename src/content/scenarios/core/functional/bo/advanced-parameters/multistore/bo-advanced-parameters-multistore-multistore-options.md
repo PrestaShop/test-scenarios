@@ -1,9 +1,9 @@
 ---
-title: "BO - Advanced Parameters - Multistore - Multistore options"
+title: "BO - Advanced Parameters - Multistore : Multistore options"
 weight: 8
 ---
 
-# BO - Advanced Parameters - Multistore - Multistore options
+# BO - Advanced Parameters - Multistore : Multistore options
 ## Details
 * **Component** : Core
 * **Status** : Automated

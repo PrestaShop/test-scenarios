@@ -1,9 +1,9 @@
 ---
-title: "FO - Checkout - Addresses - Use another address for invoice as a guest"
+title: "FO - Checkout - Addresses : Use another address for invoice as a guest"
 weight: 2
 ---
 
-# FO - Checkout - Addresses - Use another address for invoice as a guest
+# FO - Checkout - Addresses : Use another address for invoice as a guest
 ## Details
 * **Component** : Core
 * **Status** : Automated
