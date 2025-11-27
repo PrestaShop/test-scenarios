@@ -456,11 +456,11 @@
       <description>BO - Design - Theme &amp;amp; Logo - Page Configuration - Disable / Enable desktop and mobile Details Component : Core Status : Automated Automated on : 8.0.x, 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-925 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/01_themeAndLogo/02_pagesConfiguration/01_enableDisableModule.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo/theme-customization-ps_themecusto Steps Step Description Expected result Go to Improve &amp;gt; Design &amp;gt; Theme &amp;amp; Logo Theme &amp;amp; Logo page is displayed correctly Click on &amp;ldquo;Pages Configuration&amp;rdquo; Pages Configuration page is displayed correctly On Menu &amp;gt; Main menu &amp;gt; click to Disable mobile Notice!</description>
     </item>
     <item>
-      <title>BO - Discount - Display an automatic catalog discount in the product catalog</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-display-an-automatic-catalog-discount-in-the-product-catalog.html</link>
+      <title>BO - Discount - Minimum purchase amount (On cart amount)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-cart-amount.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-display-an-automatic-catalog-discount-in-the-product-catalog.html</guid>
-      <description>BO - Discount - Display an automatic catalog discount in the product catalog Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-11202 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form and save Discount page displayed&#xA;Notification :&#xA;Successful update&#xA;The discount has been created&#xA;Discount list = 1 Go to FO Product catalog displayed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-cart-amount.html</guid>
+      <description>BO - Discount - Minimum purchase amount (On cart amount) Details Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-11278 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
     </item>
     <item>
       <title>BO - Filter Products</title>
@@ -1020,7 +1020,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</guid>
-      <description>Known bugs (36 campaigns / 43 issues) tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type tests/UI/campaigns/functional/API/02_endpoints/02_attribute/04_postAttributesAttribute.ts : PrestaShop#39827 : Endpoint POST /admin-api/attributes/attribute : Unusable endpoint tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.</description>
+      <description>Known bugs (35 campaigns / 42 issues) tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type tests/UI/campaigns/functional/API/02_endpoints/02_attribute/04_postAttributesAttribute.ts : PrestaShop#39827 : Endpoint POST /admin-api/attributes/attribute : Unusable endpoint tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.</description>
     </item>
     <item>
       <title>EditCheckCart</title>
@@ -1818,7 +1818,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-supplierlist/configure/ps-supplierlist-configure-settings.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-supplierlist/configure/ps-supplierlist-configure-settings.html</guid>
-      <description>ps_supplierlist - Configure Settings Details Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7274 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/34_ps_supplierlist/01_configure/01_configureSettings.ts Steps Step Description Expected result Go to BO&amp;gt; Modules&amp;gt; Module Manager Module Manager page is well displayed Search supplierlist module Supplier list module is displayed in Design &amp;amp; Navigation result Click on Configure module button Configure / Supplier list page is well displayed Edit type of display,&#xA;save. The settings have been updated.</description>
+      <description>ps_supplierlist - Configure Settings Details Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7274 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/34_ps_supplierlist/01_configure/01_configureSettings.ts Steps Step Description Expected result Go to BO &amp;gt; Shop parameters &amp;gt; General General page is well displayed Enable &amp;ldquo;Display suppliers&amp;rdquo; &amp;amp; Save The settings have been updated. The message is displayed Go to Modules &amp;gt; Module Manager Module Manager page is well displayed Search supplierlist module Supplier list module is displayed in Design &amp;amp; Navigation result Click on Configure module button Configure / Supplier list page is well displayed Edit type of display,</description>
     </item>
     <item>
       <title>ps_viewedproduct - Configure Settings</title>
@@ -2332,11 +2332,11 @@
       <description> BO - Design - Theme &amp;amp; Logo : Export current theme Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-916 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/01_themeAndLogo/01_themeAndLogo/02_exportCurrentTheme.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo Steps Step Description Expected result Go to Improve &amp;gt; Design &amp;gt; Theme &amp;amp; Logo Theme &amp;amp; Logo page is displayed correctly Click to &amp;ldquo;Export current theme&amp;rdquo; Your theme has been correctly exported: /var/www/html/develop/themes/classic.zip </description>
     </item>
     <item>
-      <title>BO - Discount - Set a period </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-a-period.html</link>
+      <title>BO - Discount - Minimum purchase amount (On catalog products)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-catalog-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-a-period.html</guid>
-      <description>BO - Discount - Set a period Details Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-11208 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;Discount list = 0 Click to Create discount Create cart discount displayed&#xA;Select period:&#xA;Starts on: Date of the creation (by default)&#xA;Ends on: 1 month after Start on date (by default) Fill form and save Error notification*{color:#FF0000}: Date invalid (à confirmer){color}* Fill form and save Error notification*: {color:#FF0000}Date invalid (à confirmer){color}* Fill form and save Error notification*: {color:#FF0000}Date invalid (à confirmer){color}* Fill form and save Error notification*: {color:#FF0000}Date invalid (à confirmer){color}* Fill form and save Error notification*: {color:#FF0000}Date invalid (à confirmer){color}* Fill form and save/Disabled discount Discount page displayed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-catalog-products.html</guid>
+      <description>BO - Discount - Minimum purchase amount (On catalog products) Details Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-12393 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
     </item>
     <item>
       <title>BO - Header - Quick access</title>
@@ -3851,11 +3851,11 @@
       <description>BO - Design - Theme &amp;amp; Logo - Page Configuration - Uninstall Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-927 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/01_themeAndLogo/02_pagesConfiguration/03_installUninstallModule.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo/theme-customization-ps_themecusto Steps Step Description Expected result Go to Improve &amp;gt; Design &amp;gt; Theme &amp;amp; Logo Theme &amp;amp; Logo page is displayed correctly Click on &amp;ldquo;Pages Configuration&amp;rdquo; Pages Configuration page is displayed correctly On Footer &amp;gt; Link List &amp;gt; Uninstall A modale should appear :</description>
     </item>
     <item>
-      <title>BO - Discount - Select a free gift product </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html</link>
+      <title>BO - Discount - Minimum purchase amount (Free gift)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-free-gift.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html</guid>
-      <description>BO - Discount - Select a free gift product Details Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-11264 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form and Do not include the name of the discount. Error message: &amp;ldquo;The field names is required at least in your default language.&amp;rdquo; Fill form and Do not include free gift We have 2 messages: &amp;ldquo;This value should not be blank.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-free-gift.html</guid>
+      <description>BO - Discount - Minimum purchase amount (Free gift) Details Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-12395 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
     </item>
     <item>
       <title>BO - Header - Search bar</title>
@@ -5125,11 +5125,11 @@
       <description> BO - Design - Theme &amp;amp; Logo - Page Configuration - See all theme&#39;s modules button Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-928 Steps Step Description Expected result Go to Design &amp;gt; Theme &amp;amp; Logo Theme &amp;amp; Logo page is displayed&#xA;Title contains Theme &amp;amp; Logo Click on Pages Configuration tab Pages Configuration is displayed Click on See all theme&amp;rsquo;s modules button Module manager page is well displayed </description>
     </item>
     <item>
-      <title>BO - Discount - Add catalog discount</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</link>
+      <title>BO - Discount - Minimum purchase amount (On free shipping)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-free-shipping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</guid>
-      <description> BO - Discount - Add catalog discount Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11265 </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-free-shipping.html</guid>
+      <description>BO - Discount - Minimum purchase amount (On free shipping) Details Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-12396 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
     </item>
     <item>
       <title>BO - Header - View my shop</title>
@@ -6028,11 +6028,11 @@
       <description>BO - Design - Theme &amp;amp; Logo - Page Configuration - Configure module Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-929 Steps Step Description Expected result Go to Design &amp;gt; Theme &amp;amp; Logo Theme &amp;amp; Logo page is displayed&#xA;Title contains Theme &amp;amp; Logo Click on Pages Configuration tab Pages Configuration is displayed&#xA;Homepage is selected by default Click on Menu button A dropdown list is displayed containing multiple modules</description>
     </item>
     <item>
-      <title>BO - Discount - Trigger a discount based on the total cart price (sub total)</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-a-discount-based-on-the-total-cart-price-sub-total.html</link>
+      <title>BO - Discount - Display an automatic catalog discount in the product catalog</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-display-an-automatic-catalog-discount-in-the-product-catalog.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-a-discount-based-on-the-total-cart-price-sub-total.html</guid>
-      <description>BO - Discount - Trigger a discount based on the total cart price (sub total) Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-11278 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Choose &amp;ldquo;On cart amount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-display-an-automatic-catalog-discount-in-the-product-catalog.html</guid>
+      <description>BO - Discount - Display an automatic catalog discount in the product catalog Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-11202 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form and save Discount page displayed&#xA;Notification :&#xA;Successful update&#xA;The discount has been created&#xA;Discount list = 1 Go to FO Product catalog displayed</description>
     </item>
     <item>
       <title>BO - Duplicate product</title>
@@ -6714,11 +6714,11 @@
       <description>BO - Design - Theme &amp;amp; Logo - Reset to default Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-922 Steps Step Description Expected result Go to BO &amp;gt; Design &amp;gt; Theme &amp;amp; Logo &amp;gt; Scroll down to the last block &amp;gt; Click Choose layouts Choose layouts page is displayed correctly Change the first 3 layouts to : Three columns &amp;gt; Save Successful update message is displayed Scroll down to the last block &amp;gt; Click on the button Reset to default A success message will be displayed contains : Your theme has been correctly reset to its default settings.</description>
     </item>
     <item>
-      <title>BO - Discount - Trigger based on the total quantity of products in the cart</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-the-total-quantity-of-products-in-the-cart.html</link>
+      <title>BO - Discount - Set a period </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-a-period.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-the-total-quantity-of-products-in-the-cart.html</guid>
-      <description>BO - Discount - Trigger based on the total quantity of products in the cart Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-11279 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount&#xA;Choose &amp;ldquo;On cart amount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-a-period.html</guid>
+      <description>BO - Discount - Set a period Details Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-11208 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;Discount list = 0 Click to Create discount Create cart discount displayed&#xA;Select period:&#xA;Starts on: Date of the creation (by default)&#xA;Ends on: 1 month after Start on date (by default) Fill form and save Error notification*{color:#FF0000}: Date invalid (à confirmer){color}* Fill form and save Error notification*: {color:#FF0000}Date invalid (à confirmer){color}* Fill form and save Error notification*: {color:#FF0000}Date invalid (à confirmer){color}* Fill form and save Error notification*: {color:#FF0000}Date invalid (à confirmer){color}* Fill form and save Error notification*: {color:#FF0000}Date invalid (à confirmer){color}* Fill form and save/Disabled discount Discount page displayed</description>
     </item>
     <item>
       <title>BO - Header - My Profile</title>
@@ -7190,11 +7190,11 @@
       <description> BO - Design - Positions - Change position (drag and drop) Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-958 Steps Step Description Expected result Go to BO &amp;gt; Design &amp;gt; Positions Positions Page is displayed In Search for a hook field &amp;gt; Search for displayHome Hook displayHome is displayed and highlighted Check that the number of existing modules is &amp;gt; 1 Go to FO Your shop should be displayed and the first things, under the head, is image slider Change the position modules using the drag indicator &amp;gt; check that the position is successfully updated Success message should be displayed &amp;ldquo;Update successful&amp;rdquo; is well displayed Go to FO Your shop should be displayed and the first things, under the head, is the banner </description>
     </item>
     <item>
-      <title>BO - Discount - Create a discount that applies automatically or via promo code </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-create-a-discount-that-applies-automatically-or-via-promo-code.html</link>
+      <title>BO - Discount - Select a free gift product </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-create-a-discount-that-applies-automatically-or-via-promo-code.html</guid>
-      <description>BO - Discount - Create a discount that applies automatically or via promo code Details Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11288 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount&#xA;Choose &amp;ldquo;On cart amount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product.html</guid>
+      <description>BO - Discount - Select a free gift product Details Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-11264 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form and Do not include the name of the discount. Error message: &amp;ldquo;The field names is required at least in your default language.&amp;rdquo; Fill form and Do not include free gift We have 2 messages: &amp;ldquo;This value should not be blank.</description>
     </item>
     <item>
       <title>BO - International - Localization - Default currency</title>
@@ -7519,11 +7519,11 @@
       <description>BO - Design - Image Settings - Regenerate thumbnail Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5184 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/10_regenerateThumbnails.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type Steps Step Description Expected result * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options&#xA;* Check all the format you can do * Clic on the &amp;ldquo;Save&amp;rdquo; button * All the format should be checked&#xA;* You should have a message &amp;ldquo;Caution the selection of several image formats leads to a need for memory capacity greater and impact the perf during the generation&amp;rdquo; * Scroll down to Regenerate thumbnails.</description>
     </item>
     <item>
-      <title>BO - Discount - Trigger based on a supplier</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-a-supplier.html</link>
+      <title>BO - Discount - Add catalog discount</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-a-supplier.html</guid>
-      <description>BO - Discount - Trigger based on a supplier Details Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11562 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form Discount page displayed Select a card condition &amp;gt; product segment &amp;gt;Save We have errors messages: &amp;ldquo;The field names is required at least in your default language.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</guid>
+      <description> BO - Discount - Add catalog discount Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11265 </description>
     </item>
     <item>
       <title>BO - Header</title>
@@ -7764,6 +7764,13 @@
       <description>BO - Design - Image Settings - Image Generation on creation Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-5513 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type Steps Step Description Expected result * Go to BO &amp;gt; Design &amp;gt; Image Setttings and scroll down to image generation options&#xA;* Check WebP format * JPEG/PNG should be checked * JPEG/PNG should be greyed * You can&amp;rsquo;t unchecked the JPEG/PNG format</description>
     </item>
     <item>
+      <title>BO - Discount - Trigger based on the total quantity of products in the cart</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-the-total-quantity-of-products-in-the-cart.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-the-total-quantity-of-products-in-the-cart.html</guid>
+      <description>BO - Discount - Trigger based on the total quantity of products in the cart Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-11279 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount&#xA;Choose &amp;ldquo;On cart amount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+    </item>
+    <item>
       <title>BO - Modules - Configure module</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-configure-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7960,6 +7967,13 @@
       <description>BO - Design - Image Settings - Delete all images format - feature not integrated - Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-5514 Steps Step Description Expected result Go to BO &amp;gt; Design &amp;gt; Image Settings &amp;gt; Select all images formats &amp;gt; Click on Bulk Actions &amp;gt; Click on the &amp;ldquo;Delete selected&amp;rdquo; button A modal is displayed to delete the selected items Click on Delete All images type are deleted Go to your shop &amp;gt; Open a product page The product page is displayed without any images.</description>
     </item>
     <item>
+      <title>BO - Discount - Create a discount that applies automatically or via promo code </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-create-a-discount-that-applies-automatically-or-via-promo-code.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-create-a-discount-that-applies-automatically-or-via-promo-code.html</guid>
+      <description>BO - Discount - Create a discount that applies automatically or via promo code Details Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11288 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount&#xA;Choose &amp;ldquo;On cart amount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+    </item>
+    <item>
       <title>BO - Modules - Upgrade</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/modules/module-manager/modules/bo-modules-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -8098,6 +8112,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/design/image-settings/bo-design-image-settings-check-product-image-format.html</guid>
       <description>BO - Design - Image Settings : Check product image format Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-6017 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/13_checkProductImageFormat.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type Steps Step Description Expected result * Go to BO &amp;gt; Design &amp;gt; Image settings&#xA;* Scroll down to have image generation option * JPEG/PNG should be checked * You can&amp;rsquo;t unchecked the JPEG/PNG format&#xA;* Base format should be : &amp;ldquo;Use PNG only if the base image is in PNG format&amp;rdquo; Check the checkboxes next to Webp The checkbox should be checked and the Webp is enabled * Go to Catalog &amp;gt; Product * Click on &amp;ldquo;Add new product&amp;rdquo;</description>
+    </item>
+    <item>
+      <title>BO - Discount - Trigger based on a supplier</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-a-supplier.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-a-supplier.html</guid>
+      <description>BO - Discount - Trigger based on a supplier Details Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11562 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form Discount page displayed Select a card condition &amp;gt; product segment &amp;gt;Save We have errors messages: &amp;ldquo;The field names is required at least in your default language.</description>
     </item>
     <item>
       <title>BO - Order creation - Proceed to checkout in the front office</title>
