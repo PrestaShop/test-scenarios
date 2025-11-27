@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Set a period "
-weight: 2
+weight: 6
 ---
 
 # BO - Discount - Set a period 

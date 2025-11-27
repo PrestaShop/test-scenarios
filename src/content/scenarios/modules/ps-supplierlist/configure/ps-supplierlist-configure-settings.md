@@ -13,7 +13,9 @@ weight: 1
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO> Modules> Module Manager | Module Manager page is well displayed |
+| Go to BO > Shop parameters > General | General page is well displayed |
+| Enable "Display suppliers" & Save | The settings have been updated. <br>The message is displayed |
+| Go to Modules > Module Manager | Module Manager page is well displayed |
 | Search _supplierlist_ module | Supplier list module is displayed in _Design & Navigation_ result |
 | Click on Configure module button | Configure / Supplier list page is well displayed |
 | Edit type of display,<br><br>save. | The settings have been updated. message is displayed |
@@ -21,3 +23,6 @@ weight: 1
 | Go back to the Configure / Supplier list page | Configure / Supplier list page is well displayed |
 | Edit type of display,<br><br>save. | The settings have been updated. message is displayed |
 | Go to FO> All products | The search filter suppliers is displayed with a plain-text list list on the left column. |
+| Go to Shop parameters > General | General page is well displayed |
+| Disable "Display suppliers" & Save | The settings have been updated. <br>The message is displayed |
+| Go to FO> All products | The search filter suppliers is not displayed in the left column. |
