@@ -21,7 +21,7 @@ weight: 10
 | In BO, Go to Catalog > Products | Products Page is displayed correctly. |
 | Reset all filters of Products table | All filters are reset.<br>All Products are displayed. |
 | Filter on the product name for a specific product and fetch the product ID. | 1 record found.<br><br>Check field productId |
-| Go to edit page | The Edit page will be displayed correctly<br>Check fields like type, active, names, descriptions |
+| Go to edit page | The Edit page will be displayed correctly<br>Check followings fields :<br> * type<br> * active<br> * categories<br> * defaultCategoryId<br> * names<br> * descriptions |
 | Return to the list | Products Page is displayed correctly.<br>1 record found. |
 | On the second row, click on the button “Three points” | The dropdown is displayed. |
 | Click on the Delete Button in the dropdown | A modal appeared |
