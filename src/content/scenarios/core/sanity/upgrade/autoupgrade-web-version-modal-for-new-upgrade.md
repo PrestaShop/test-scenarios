@@ -38,7 +38,7 @@ weight: 18
 | Click on "[See the update|https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]" link on description part | New tab open with title : "PrestaShop {test-param}Last_version_8{test-param}  Is Available" |
 | Close new tab | Dashboard page is displayed with the modal |
 | Click on "Update" button | "Version choice" page is displayed : <br> <br> * Stepper on step one ("Version choice")<br> * Paragraph with "A more recent version is available / Current PrestaShop version: 1.7.8.3 / Current PHP version: 7.4.xx<br> * Radio button : PrestaShop {test-param}Last_version_8{test-param}    (Patch) version](blue color rgb(190, 234, 243)) with description "The recommended version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" <br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
-| Install A fresh 8.0.3 and keep php 8.1 | A selection between BO and FO is displayed |
+| Install A fresh 8.0.3 on php 8.1 | A selection between BO and FO is displayed |
 | Go to BO | Dashboard is displayed |
 | Go to the Module Manager" page" | Module Catalog page is displayed |
 | Search for the update assistant module and Install it | Module is installed |
