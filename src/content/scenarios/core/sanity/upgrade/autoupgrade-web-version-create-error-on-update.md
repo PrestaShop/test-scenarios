@@ -52,7 +52,7 @@ weight: 10
 | Click on the CTA "Send error report". | Modal "Send error report?" is displayed :<br> * Title : "Send error report?"<br> * Text : "Help us improve the module by sending us this error report. For your information, the logs will be attached with your message. You can add more details in the description if you wish."<br> * Link : "Learn more about your data and your rights"<br> * 3 fields : <br> ** "Error message" (disabled)<br> ** "Email (optional)" (enabled)<br> ** "Description (optional)" (enabled)<br> * 2 CTAs : "Cancel" and "Send error report" |
 | * Fill "Email (optional)"<br> * Fill "Description (optional)" | Fields filled. |
 | Click on the CTA "Send error report". | Modal is closed. |
-| Open the link on a new tab : [https://prestashop.sentry.io/feedback/?feedbackSlug=autoupgrade-module%3A6504514401&mailbox=ignored&project=4507254110552064&referrer=feedback_list_page] | Sentry is opened on the page "User feedback" :<br> * The report sent is listed |
+| Open the link on a new tab : https://prestashop.sentry.io/issues/feedback/?feedbackSlug=autoupgrade-module%3A7107253015&project=4507254110552064&query=&referrer=feedback_list_page&statsPeriod=1h | Sentry is opened on the page "User feedback" :<br> * The report sent is listed |
 | Click on the report (user feedback). | The details of the error are displayed. |
 | Open the link on a new tab : [https://eu.mixpanel.com/project/2828312/view/3362352/app/events#KoHua7f3PrJZ] | The error is listed with the same Anonymous ID and php written like "X.X.XX". |
 | Close the 2 tabs. | Module tab is displayed. |

@@ -36,7 +36,7 @@ weight: 19
 | Launch "2" | Terminal display "INFO - The backup file has been successfully deleted" |
 | Launch "php bin/console backup:delete --backup=V1.7.7.8_ID admin-dev" | Terminal display "INFO - The backup file has been successfully deleted" |
 | *CLI Upgrade*<br><br>Launch "php bin/console update:start " | Terminal display " Not enough arguments (missing: "admin-dir")." |
-| Launch "php bin/console update:start --xml=prestashop_9.0.0.xml admin-dev" | Terminal display "ERROR - Both 'xml' and 'zip' files attributes must be provided to use the local channel." |
+| Launch "php bin/console update:start --xml=prestashop_{test-param}Last_version_9{test-param}.xml admin-dev" | Terminal display "ERROR - Both 'xml' and 'zip' files attributes must be provided to use the local channel." |
 | Launch "php bin/console update:start --zip=prestashop_{test-param}Last_version_9{test-param} .zip admin-dev" | Terminal display "ERROR - Both 'xml' and 'zip' files attributes must be provided to use the local channel." |
 | Launch "php bin/console update:start --xml=pr2.xml --zip=pr2.zip admin-dev" | Terminal display "ERROR - File pr2.zip does not exist. Unable to select that channel." |
 | Add a zip on [yourshop]/[admin_folder]/autoupgrade/download | Two different zip and xml are in the folder |
@@ -47,7 +47,7 @@ weight: 19
 | Launch "touch config.json" | New files named "config.json" is displayed on the folder autoupgrade |
 | Open the files "config.json" in modules/autoupgrade | New file with nothing on it is displayed |
 | Put the information on it and Save it | File is set up |
-| Return on terminal and launch "php bin/console update:start --config-file-path=config.json admin-dev" | Terminal display :<br>"INFO - Update process will use archive.<br>INFO - Configuration successfully updated.<br>INFO - Starting update...<br>INFO - Destination version: 9.0.0" |
+| Return on terminal and launch "php bin/console update:start --config-file-path=config.json admin-dev" | Terminal display :<br>"INFO - Update process will use archive.<br>INFO - Configuration successfully updated.<br>INFO - Starting update...<br>INFO - Destination version: {test-param}Last_version_9{test-param}" |
 | *CLI Start Rollback*  <br><br>Launch " php bin/console backup:restore admin-dev" | Terminal ask to select a backup between 0 and 1, the number 2 is to exit the process |
 | Launch "2" | Terminal ask for a new command |
 | Launch " php bin/console backup:restore admin-dev" | Terminal ask to select a backup between 0 and 1, the number 2 is to exit the process |
