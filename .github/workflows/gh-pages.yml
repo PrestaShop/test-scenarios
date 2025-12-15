@@ -26,6 +26,14 @@ jobs:
           fetch-depth: 1
           path: prestashop
 
+      - name: Checkout PrestaShop repository (9.1.x)
+        uses: actions/checkout@v4
+        with:
+          repository: PrestaShop/PrestaShop
+          fetch-depth: 1
+          path: prestashop_91x
+          ref: 9.1.x
+
       - name: Checkout PrestaShop repository (9.0.x)
         uses: actions/checkout@v4
         with:
@@ -33,7 +41,7 @@ jobs:
           fetch-depth: 1
           path: prestashop_90x
           ref: 9.0.x
-  
+
       - name: Checkout PrestaShop repository (8.2.x)
         uses: actions/checkout@v4
         with:
@@ -41,7 +49,7 @@ jobs:
           fetch-depth: 1
           path: prestashop_82x
           ref: 8.2.x
-  
+
       - name: Checkout PrestaShop repository (8.1.x)
         uses: actions/checkout@v4
         with:
@@ -107,11 +115,11 @@ jobs:
       - name: Composer install
         run: cd scripts && composer install && cd ..
 
-      - name: Export JIRA XRay Core 
+      - name: Export JIRA XRay Core
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:core --apikey ${{ secrets.JIRA_APIKEY }}
 
-      - name: Export JIRA XRay Modules 
+      - name: Export JIRA XRay Modules
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
         run: php scripts/bin/console scenario:export:module --apikey ${{ secrets.JIRA_APIKEY }}
 
@@ -123,6 +131,9 @@ jobs:
 
       - name: Remove prestashop directory (on Develop)
         run: rm -rf ./prestashop/
+
+      - name: Remove prestashop directory (on 9.1.x)
+        run: rm -rf ./prestashop_91x/
 
       - name: Remove prestashop directory (on 9.0.x)
         run: rm -rf ./prestashop_90x/
