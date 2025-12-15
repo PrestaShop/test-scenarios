@@ -23,3 +23,4 @@ weight: 3
 * [autoupgrade]({{< ref "modules/autoupgrade.md" >}})
 * [blockwishlist]({{< ref "modules/blockwishlist.md" >}})
 * [ps_cashondelivery]({{< ref "modules/ps_cashondelivery.md" >}})
+
