@@ -22,13 +22,13 @@
     <title>Autoupgrade - CLI - Check/Upgrade/Rollback  :: PrestaShop Tests</title>
     
     
-    <link href="../../../../css/font-awesome.min.css?1767859152" rel="stylesheet">
-    <link href="../../../../css/syntax-github.css?1767859152" rel="stylesheet">
-    <link href="../../../../css/featherlight.min.css?1767859152" rel="stylesheet">
-    <link href="../../../../css/perfect-scrollbar.min.css?1767859152" rel="stylesheet"><link href="../../../../css/auto-complete.css?1767859152" rel="stylesheet">
-    <link href="../../../../style.css?1767859152" rel="stylesheet">
+    <link href="../../../../css/font-awesome.min.css?1767942679" rel="stylesheet">
+    <link href="../../../../css/syntax-github.css?1767942679" rel="stylesheet">
+    <link href="../../../../css/featherlight.min.css?1767942679" rel="stylesheet">
+    <link href="../../../../css/perfect-scrollbar.min.css?1767942679" rel="stylesheet"><link href="../../../../css/auto-complete.css?1767942679" rel="stylesheet">
+    <link href="../../../../style.css?1767942679" rel="stylesheet">
 
-    <script src="../../../../js/jquery-3.3.1.min.js?1767859152"></script>
+    <script src="../../../../js/jquery-3.3.1.min.js?1767942679"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -69729,8 +69729,8 @@
 <h1 id="autoupgrade---cli---checkupgraderollback">Autoupgrade - CLI - Check/Upgrade/Rollback<a href="#autoupgrade---cli---checkupgraderollback"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : In progress</li>
-<li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-12196">https://forge.prestashop.com/browse/TEST-12196</a></li>
+<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-12584">https://forge.prestashop.com/browse/TEST-12584</a></li>
 </ul>
 
 <h2 id="steps">Steps<a href="#steps"></a></h2><table>
@@ -69834,6 +69834,34 @@
 <td>Terminal display &ldquo;INFO - The backup file has been successfully deleted&rdquo;</td>
 </tr>
 <tr>
+<td><em>CLI check-modules</em><br><br>Launch &ldquo;php bin/console update:check-modules &ndash;help&rdquo;</td>
+<td>Terminal display at <br>start : &ldquo;Description:<br> Check module compatibility and updates.&quot;<br><br>end : &ldquo;Help:<br> This command checks the installed modules for compatibility with the target PrestaShop version and lists available updates.&rdquo;</td>
+</tr>
+<tr>
+<td>Launch &ldquo;php bin/console update:check-modules admin-dev &quot;</td>
+<td>Terminal display : Prestashop version: {test-param}Last_version_8{test-param} <br></td>
+</tr>
+<tr>
+<td>Launch &ldquo;php bin/console update:check-modules &ndash;channel=online_recommanded admin-dev &quot;</td>
+<td>Terminal display : Prestashop version: {test-param}Last_version_8{test-param} <br></td>
+</tr>
+<tr>
+<td>Launch &ldquo;php bin/console update:check-modules &ndash;channel=local admin-dev &quot;</td>
+<td>Terminal display : &quot; ✗ Please specify the destination zip file using the zip option..&rdquo;</td>
+</tr>
+<tr>
+<td>Launch &ldquo;php bin/console update:check-modules &ndash;zip={test-param}Last_version_9{test-param} .zip admin-dev &quot;</td>
+<td>Terminal display : Prestashop version: {test-param}Last_version_8{test-param} <br></td>
+</tr>
+<tr>
+<td>Launch &ldquo;php bin/console update:check-modules &ndash;channel=local &ndash;zip=fauxnomdezip.zip admin-dev&rdquo;</td>
+<td>Terminal display : &quot; ✗ We couldn&rsquo;t find a PrestaShop version in the .zip file that was uploaded in your local archive. Please try again.&rdquo;</td>
+</tr>
+<tr>
+<td>Launch &ldquo;php bin/console update:check-modules &ndash;channel=local &ndash;zip={test-param}Last_version_9{test-param} .zip admin-dev &quot;</td>
+<td>Terminal display : Prestashop version: {test-param}Last_version_9{test-param} <br></td>
+</tr>
+<tr>
 <td><em>CLI Upgrade</em><br><br>Launch &ldquo;php bin/console update:start &quot;</td>
 <td>Terminal display &quot; Not enough arguments (missing: &ldquo;admin-dir&rdquo;).&rdquo;</td>
 </tr>
@@ -69870,6 +69898,14 @@
 <td>Terminal display at :<br> * start :&ldquo;INFO - Starting backup&hellip;&rdquo; <br> * end  &ldquo;INFO - Backup completed successfully.&rdquo;</td>
 </tr>
 <tr>
+<td>Launch &ldquo;php bin/console update:check-modules admin-dev &quot;</td>
+<td>Terminal display :&ldquo;✗ You are already running a PrestaShop version equal to or higher than the latest available for update.&rdquo;</td>
+</tr>
+<tr>
+<td>Launch &ldquo;php bin/console update:check-modules &ndash;channel=online admin-dev &quot;</td>
+<td>Terminal display : Prestashop version: {test-param}Last_version_9{test-param}  <br></td>
+</tr>
+<tr>
 <td>Launch &ldquo;touch config.json&rdquo;</td>
 <td>New files named &ldquo;config.json&rdquo; is displayed on the folder autoupgrade</td>
 </tr>
@@ -69894,7 +69930,7 @@
 <td>Terminal ask for a new command</td>
 </tr>
 <tr>
-<td>Launch &quot; php bin/console backup:restore admin-dev&quot;</td>
+<td>Launch &quot; php bin/console backup:restore admin-dev&rdquo;</td>
 <td>Terminal ask to select a backup between 0 and 1, the number 2 is to exit the process</td>
 </tr>
 <tr>
@@ -69929,17 +69965,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../js/clipboard.min.js?1767859153"></script>
-    <script src="../../../../js/perfect-scrollbar.min.js?1767859153"></script>
-    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1767859153"></script>
-    <script src="../../../../js/jquery.sticky.js?1767859153"></script>
-    <script src="../../../../js/featherlight.min.js?1767859153"></script>
-    <script src="../../../../js/html5shiv-printshiv.min.js?1767859153"></script>
-    <script src="../../../../js/modernizr.custom-3.6.0.js?1767859153"></script>
-    <script src="../../../../js/learn.js?1767859153"></script>
-    <script src="../../../../js/hugo-learn.js?1767859153"></script>
+    <script src="../../../../js/clipboard.min.js?1767942679"></script>
+    <script src="../../../../js/perfect-scrollbar.min.js?1767942679"></script>
+    <script src="../../../../js/perfect-scrollbar.jquery.min.js?1767942679"></script>
+    <script src="../../../../js/jquery.sticky.js?1767942679"></script>
+    <script src="../../../../js/featherlight.min.js?1767942679"></script>
+    <script src="../../../../js/html5shiv-printshiv.min.js?1767942679"></script>
+    <script src="../../../../js/modernizr.custom-3.6.0.js?1767942679"></script>
+    <script src="../../../../js/learn.js?1767942679"></script>
+    <script src="../../../../js/hugo-learn.js?1767942679"></script>
     
-    <script src="../../../../main.js?1767859153"></script>
+    <script src="../../../../main.js?1767942679"></script>
     
     
     
