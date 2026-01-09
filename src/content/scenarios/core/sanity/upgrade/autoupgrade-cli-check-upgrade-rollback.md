@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - CLI - Check/Upgrade/Rollback "
-weight: 19
+weight: 20
 ---
 
 # Autoupgrade - CLI - Check/Upgrade/Rollback 
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12196
+* **Status** : Sandbox
+* **Scenario** : https://forge.prestashop.com/browse/TEST-12584
 
 ## Steps
 | Step Description | Expected result |
@@ -35,6 +35,13 @@ weight: 19
 | Launch " php bin/console backup:delete admin-dev" | Terminal display a choice of backup between 0 and 2, the number 3 is to exit the process |
 | Launch "2" | Terminal display "INFO - The backup file has been successfully deleted" |
 | Launch "php bin/console backup:delete --backup=V1.7.7.8_ID admin-dev" | Terminal display "INFO - The backup file has been successfully deleted" |
+| *CLI check-modules*<br><br>Launch "php bin/console update:check-modules --help" | Terminal display at <br>start : "Description:<br> Check module compatibility and updates."<br><br>end : "Help:<br> This command checks the installed modules for compatibility with the target PrestaShop version and lists available updates." |
+| Launch "php bin/console update:check-modules admin-dev " | Terminal display : Prestashop version: {test-param}Last_version_8{test-param} <br>|Result: " |<br><br>and a tab :<br>||Module||Compatible||Update available ||Local version ||Update version available||<br>|ps_linklist| ✓ Yes|✓ Yes|Current_version_of_module|Last_version_module| |
+| Launch "php bin/console update:check-modules --channel=online_recommanded admin-dev " | Terminal display : Prestashop version: {test-param}Last_version_8{test-param} <br>|Result: " |<br><br>and a tab :<br>||Module||Compatible||Update available ||Local version ||Update version available||<br>|ps_linklist| ✓ Yes|✓ Yes|Current_version_of_module|Last_version_module| |
+| Launch "php bin/console update:check-modules --channel=local admin-dev " | Terminal display : " ✗ Please specify the destination zip file using the zip option.." |
+| Launch "php bin/console update:check-modules --zip={test-param}Last_version_9{test-param} .zip admin-dev " | Terminal display : Prestashop version: {test-param}Last_version_8{test-param} <br>|Result: " |<br><br>and a tab :<br>||Module||Compatible||Update available ||Local version ||Update version available||<br>|ps_linklist| ✓ Yes|✓ Yes|Current_version_of_module|Last_version_module| |
+| Launch "php bin/console update:check-modules --channel=local --zip=fauxnomdezip.zip admin-dev" | Terminal display : " ✗ We couldn't find a PrestaShop version in the .zip file that was uploaded in your local archive. Please try again." |
+| Launch "php bin/console update:check-modules --channel=local --zip={test-param}Last_version_9{test-param} .zip admin-dev " | Terminal display : Prestashop version: {test-param}Last_version_9{test-param} <br>|Result: " |<br><br>and a tab :<br>||Module||Compatible||Update available ||Local version ||Update version available||<br>|ps_linklist| ✓ Yes|✓ Yes|Current_version_of_module|Last_version_module| |
 | *CLI Upgrade*<br><br>Launch "php bin/console update:start " | Terminal display " Not enough arguments (missing: "admin-dir")." |
 | Launch "php bin/console update:start --xml=prestashop_{test-param}Last_version_9{test-param}.xml admin-dev" | Terminal display "ERROR - Both 'xml' and 'zip' files attributes must be provided to use the local channel." |
 | Launch "php bin/console update:start --zip=prestashop_{test-param}Last_version_9{test-param} .zip admin-dev" | Terminal display "ERROR - Both 'xml' and 'zip' files attributes must be provided to use the local channel." |
@@ -44,6 +51,8 @@ weight: 19
 | Launch "php bin/console update:start  admin-dev" | Terminal display at : <br> * Start : <br>" INFO - Starting update...<br>INFO - Destination version: {test-param}Last_version_8{test-param} "<br> * End :<br>"INFO - The database has been cleaned.<br>INFO - Shop updated to {test-param}Last_version_8{test-param} . Congratulations! You can now reactivate your shop." |
 | Change your PHP to 8.1 | Php is set to php 8.1 |
 | Launch "php bin/console backup:create admin-dev" | Terminal display at :<br> * start :"INFO - Starting backup..." <br> * end  "INFO - Backup completed successfully." |
+| Launch "php bin/console update:check-modules admin-dev " | Terminal display :"✗ You are already running a PrestaShop version equal to or higher than the latest available for update." |
+| Launch "php bin/console update:check-modules --channel=online admin-dev " | Terminal display : Prestashop version: {test-param}Last_version_9{test-param}  <br>|Result: " |<br><br>and a tab :<br>||Module||Compatible||Update available ||Local version ||Update version available||<br>|ps_linklist| ✓ Yes|✓ Yes|Current_version_of_module|Last_version_module| |
 | Launch "touch config.json" | New files named "config.json" is displayed on the folder autoupgrade |
 | Open the files "config.json" in modules/autoupgrade | New file with nothing on it is displayed |
 | Put the information on it and Save it | File is set up |
