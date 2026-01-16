@@ -16,3 +16,4 @@ weight: 1
 | Continue checkout until shipping page. | Shipping page is displayed with a combination of shipping method : <br><br>Carrier 1 and carrier 2 |
 | Select combination carrier 1 and carrier 2. | Combination selected. |
 | Click on the CTA "Continue to payment". | Payment page of the checkout + final summary is displayed. |
+| Check the final summary part. | Products concerned by the carrier are listed under it : <br><br>Carrier for product 1 : product 1 in 3 quantities<br><br>Carrier for product 2 & 3 : product 2 in 3 quantities<br><br>Virtual product(s) (No delivery service) : product v in 1 quantities<br><br>Shipping cost : 1e |
