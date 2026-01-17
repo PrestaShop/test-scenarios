@@ -3,13 +3,13 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (37 campaigns / 44 issues)
+# Known bugs (39 campaigns / 44 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
-  * [PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts](https://github.com/PrestaShop/PrestaShop/issues/39682)
   * [PrestaShop#38784 : Delete / list / tests discounts](https://github.com/PrestaShop/PrestaShop/issues/38784)
   * [PrestaShop#38647 : GET & POST endpoints for each type](https://github.com/PrestaShop/PrestaShop/issues/38647)
+  * [PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts](https://github.com/PrestaShop/PrestaShop/issues/39682)
 * **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts)** :
   * [PrestaShop#39729 : Admin API : Endpoint `POST /attributes/group` : The response is not the expected : Missing key `position`](https://github.com/PrestaShop/PrestaShop/issues/39729)
 * **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts)** :
@@ -22,8 +22,6 @@ weight: 1
   * [PrestaShop#37033 : BO - dashactivity - module can't be SAVED properly](https://github.com/PrestaShop/PrestaShop/issues/37033)
 * **[tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts)** :
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
-* **[tests/UI/campaigns/functional/BO/03_catalog/01_products/22_bulkActionsEnableDisable3DotsButton.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/22_bulkActionsEnableDisable3DotsButton.ts)** :
-  * [PrestaShop#34191 : Preview Disabled Product & Multiples languages ](https://github.com/PrestaShop/PrestaShop/issues/34191)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts)** :
   * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts)** :
@@ -72,6 +70,12 @@ weight: 1
   * [PrestaShop#33455 : WS : Products - The field `low_stock_alert` doesn't work](https://github.com/PrestaShop/PrestaShop/issues/33455)
 * **[tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts)** :
   * [PrestaShop#36496 : Page "My wishlists" - Sort "Last added" doesn't work ](https://github.com/PrestaShop/PrestaShop/issues/36496)
+* **[tests/UI/campaigns/modules/20_ps_emailalerts/01_installation/01_uninstallAndInstallModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/01_installation/01_uninstallAndInstallModule.ts)** :
+  * [hummingbird#879 : [2.0 Beta] The label "Out of Stock" / "New" is not displayed on product page if there is no image](https://github.com/PrestaShop/hummingbird/issues/879)
+* **[tests/UI/campaigns/modules/20_ps_emailalerts/01_installation/03_uninstallAndDeleteModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/01_installation/03_uninstallAndDeleteModule.ts)** :
+  * [hummingbird#879 : [2.0 Beta] The label "Out of Stock" / "New" is not displayed on product page if there is no image](https://github.com/PrestaShop/hummingbird/issues/879)
+* **[tests/UI/campaigns/modules/20_ps_emailalerts/01_installation/05_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/01_installation/05_disableEnableModule.ts)** :
+  * [hummingbird#879 : [2.0 Beta] The label "Out of Stock" / "New" is not displayed on product page if there is no image](https://github.com/PrestaShop/hummingbird/issues/879)
 * **[tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts)** :
   * [PrestaShop#36906 : `ps_facetedsearch`: the switch "Show unavailable, out of stock last" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/36906)
 * **[tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts)** :
