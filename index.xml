@@ -61,7 +61,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/modules/autoupgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/modules/autoupgrade.html</guid>
-      <description> Known bugs (6 campaigns / 2 issues) tests/UI/campaigns/sanity/02_productsBO/02_CRUDStandardProduct.spec.ts : PrestaShop#36097 : https://github.com/PrestaShop/PrestaShop/issues/36097 tests/UI/campaigns/sanity/02_productsBO/03_CRUDProductWithCombinations.spec.ts : PrestaShop#36097 : https://github.com/PrestaShop/PrestaShop/issues/36097 tests/UI/campaigns/sanity/02_productsBO/04_CRUDVirtualProduct.spec.ts : PrestaShop#36097 : https://github.com/PrestaShop/PrestaShop/issues/36097 tests/UI/campaigns/sanity/02_productsBO/05_deleteProduct.spec.ts : PrestaShop#36097 : https://github.com/PrestaShop/PrestaShop/issues/36097 tests/UI/campaigns/sanity/02_productsBO/06_deleteProductsWithBulkActions.spec.ts : PrestaShop#36097 : https://github.com/PrestaShop/PrestaShop/issues/36097 tests/UI/campaigns/sanity/04_cartFO/01_editCheckCart.spec.ts : PrestaShop#9779 : [BOOM-4571] Rounding Problem </description>
+      <description>Known bugs (6 campaigns / 2 issues) tests/UI/campaigns/sanity/02_productsBO/02_CRUDStandardProduct.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/03_CRUDProductWithCombinations.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/04_CRUDVirtualProduct.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/05_deleteProduct.spec.ts : PrestaShop#36097 : Edit Product Page : The menu hide a part of the page in tablet mode tests/UI/campaigns/sanity/02_productsBO/06_deleteProductsWithBulkActions.</description>
     </item>
     <item>
       <title>Autoupgrade - Verify the experimented featured</title>
@@ -1020,7 +1020,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/develop.html</guid>
-      <description>Known bugs (37 campaigns / 44 issues) tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts : hummingbird#834 : [2.0 Beta] &amp;ldquo;My wishlists&amp;rdquo; Page is not available. tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.</description>
+      <description>Known bugs (39 campaigns / 44 issues) tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts : hummingbird#834 : [2.0 Beta] &amp;ldquo;My wishlists&amp;rdquo; Page is not available. tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.</description>
     </item>
     <item>
       <title>EditCheckCart</title>
@@ -1224,13 +1224,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/homepage/fo-homepage-slider.html</guid>
       <description>FO - Homepage - Slider Details Component : Core Status : Automated Automated on : 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1225 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/06_homePage/01_checkSlider.ts Steps Step Description Expected result Go to FO &amp;gt; On Homepage &amp;gt; See slider and click on right arrow The slider should slide to the right Click on the left arrow The slider should slide to the left Click anywhere on the slider itself (except arrow column) * The page should refreshed with the added link to the slide</description>
-    </item>
-    <item>
-      <title>FO - Hummingbird - Final order summary</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/final-order-summary/fo-hummingbird-final-order-summary.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/final-order-summary/fo-hummingbird-final-order-summary.html</guid>
-      <description>FO - Hummingbird - Final order summary Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12595 Steps Step Description Expected result On the FO, go to cart. Cart page is displayed. Continue checkout until shipping page. Shipping page is displayed with a combination of shipping method : Carrier 1 and carrier 2 Select combination carrier 1 and carrier 2. Combination selected. Click on the CTA &amp;ldquo;Continue to payment&amp;rdquo;. Payment page of the checkout + final summary is displayed.</description>
     </item>
     <item>
       <title>FO - Login - Create an account</title>
@@ -1951,7 +1944,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/9.1.x.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/9.1.x.html</guid>
-      <description>Known bugs (40 campaigns / 45 issues) tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts : hummingbird#834 : [2.0 Beta] &amp;ldquo;My wishlists&amp;rdquo; Page is not available. tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.</description>
+      <description>Known bugs (39 campaigns / 44 issues) tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts : hummingbird#834 : [2.0 Beta] &amp;ldquo;My wishlists&amp;rdquo; Page is not available. tests/UI/campaigns/functional/API/02_checkEndpoints.ts : PrestaShop#38784 : Delete / list / tests discounts PrestaShop#38647 : GET &amp;amp; POST endpoints for each type PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts : PrestaShop#39729 : Admin API : Endpoint POST /attributes/group : The response is not the expected : Missing key position tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.</description>
     </item>
     <item>
       <title>Add a custom currency</title>
@@ -6543,7 +6536,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/8.0.x.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/8.0.x.html</guid>
-      <description> Known bugs (2 campaigns / 2 issues) tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/03_viewCarts.js : PrestaShop#29894 : https://github.com/PrestaShop/PrestaShop/issues/29894 tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.js : PrestaShop#9779 : [BOOM-4571] Rounding Problem </description>
+      <description> Known bugs (2 campaigns / 2 issues) tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/03_viewCarts.js : PrestaShop#29894 : Incorrect number of columns when filtering in Shopping Carts page tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.js : PrestaShop#9779 : [BOOM-4571] Rounding Problem </description>
     </item>
     <item>
       <title>Autoupgrade - Report after a fail of autoupgrade</title>
@@ -6896,6 +6889,13 @@
       <description>Faceted search module - Use tax to filter price field configuration Details Component : ps_facetedsearch Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-4203 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click on the last created product (pre-condition) &amp;ldquo;Product page&amp;rdquo; is displayed Change the price &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button A blue notice with &amp;ldquo;Settings updated&amp;rdquo; is displayed Go to Shop Parameters &amp;gt; Customer Settings &amp;gt; Groups &amp;gt; Click on &amp;ldquo;Edit&amp;rdquo; on the line of &amp;ldquo;Visitor&amp;rdquo; * &amp;ldquo;Customer group&amp;rdquo; page should be displayed</description>
     </item>
     <item>
+      <title>FO - Muticarrier - Final order summary</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-muticarrier-final-order-summary.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/order-confirmation/fo-muticarrier-final-order-summary.html</guid>
+      <description>FO - Muticarrier - Final order summary Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12595 Steps Step Description Expected result On the FO, go to cart. Cart page is displayed. Continue checkout until shipping page. Shipping page is displayed with a combination of shipping method : Carrier 1 and carrier 2 Select combination carrier 1 and carrier 2. Combination selected. Click on the CTA &amp;ldquo;Continue to payment&amp;rdquo;. Payment page of the checkout + final summary is displayed.</description>
+    </item>
+    <item>
       <title>FO - Product Page - Add a customization</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/product-page/product-page/fo-product-page-add-a-customization.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7068,7 +7068,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/1.7.8.x.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/known-bugs/core/1.7.8.x.html</guid>
-      <description> Known bugs (1 campaigns / 1 issues) tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/04_taxOptionsForm.js : PrestaShop#32914 : https://github.com/PrestaShop/PrestaShop/issues/32914 </description>
+      <description> Known bugs (1 campaigns / 1 issues) tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/04_taxOptionsForm.js : PrestaShop#32914 : After disabling/enabling a tax, the linked tax rule is not present for the Ecotax </description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Create error before the upgrade</title>
