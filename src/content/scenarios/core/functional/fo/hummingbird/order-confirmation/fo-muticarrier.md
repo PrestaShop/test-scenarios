@@ -1,9 +1,9 @@
 ---
-title: "FO - Muticarrier - Final order summary"
+title: "FO - Muticarrier "
 weight: 6
 ---
 
-# FO - Muticarrier - Final order summary
+# FO - Muticarrier 
 ## Details
 * **Component** : Core
 * **Status** : Sandbox
