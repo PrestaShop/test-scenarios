@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (39 campaigns / 44 issues)
+# Known bugs (37 campaigns / 41 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
@@ -22,6 +22,10 @@ weight: 1
   * [PrestaShop#37033 : BO - dashactivity - module can't be SAVED properly](https://github.com/PrestaShop/PrestaShop/issues/37033)
 * **[tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts)** :
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
+* **[tests/UI/campaigns/functional/BO/03_catalog/01_products/14_detailsTab.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/14_detailsTab.ts)** :
+  * https://github.com/PrestaShop/hummingbird/pull/898
+* **[tests/UI/campaigns/functional/BO/03_catalog/01_products/17_pricingTab.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/17_pricingTab.ts)** :
+  * [hummingbird#879 : [2.0 Beta] The label "Out of Stock" / "New" is not displayed on product page if there is no image](https://github.com/PrestaShop/hummingbird/issues/879)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts)** :
   * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/04_applyDiscountAmount.ts)** :
@@ -34,6 +38,7 @@ weight: 1
   * [PrestaShop#33681 : BO-Stock Management-Bad order when Display products below low stock level first ](https://github.com/PrestaShop/PrestaShop/issues/33681)
 * **[tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts)** :
   * [PrestaShop#32404 : Multiple image formats : WebP is not generated when a cover image for a category is uploaded](https://github.com/PrestaShop/PrestaShop/issues/32404)
+  * [hummingbird#874 : Category display is broken on multiple levels](https://github.com/PrestaShop/hummingbird/issues/874)
 * **[tests/UI/campaigns/functional/BO/11_international/02_locations/02_countries/05_enableDisableCountries.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/02_locations/02_countries/05_enableDisableCountries.ts)** :
   * [PrestaShop#36602 : Payment Modules not enabled for all active countries](https://github.com/PrestaShop/PrestaShop/issues/36602)
 * **[tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts)** :
@@ -52,15 +57,6 @@ weight: 1
   * [PrestaShop#35481 : FO > When clicking on a variation, the default combination is not displayed on the product page](https://github.com/PrestaShop/PrestaShop/issues/35481)
 * **[tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/02_sortAndFilter/01_sortProducts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/02_sortAndFilter/01_sortProducts.ts)** :
   * [PrestaShop#19810 : `ps_facetedsearch`: Sorting by price in faceted search does not work](https://github.com/PrestaShop/PrestaShop/issues/19810)
-* **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/02_changeQuantity.ts)** :
-  * [PrestaShop#35219 : Hummingbird Quickview error](https://github.com/PrestaShop/PrestaShop/issues/35219)
-* **[tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/13_displaySpecificDeliveryTime.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/13_displaySpecificDeliveryTime.ts)** :
-  * [hummingbird#850 : [2.0 Beta] The label "Delivery time of out-of-stock products with allowed orders" is not displayed](https://github.com/PrestaShop/hummingbird/issues/850)
-  * [hummingbird#851 : [2.0 Beta] The label "Delivery time of in-stock products" is not displayed](https://github.com/PrestaShop/hummingbird/issues/851)
-* **[tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_showDetails.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_showDetails.ts)** :
-  * [hummingbird#865 : [2.0 Beta] Checkout page, the unit price is not displayed (or displayed sometimes)](https://github.com/PrestaShop/hummingbird/issues/865)
-* **[tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/02_useDifferentInvoiceAddress.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/02_useDifferentInvoiceAddress.ts)** :
-  * [hummingbird#614 : Guest checkout: Use different invoice address : Can't order](https://github.com/PrestaShop/hummingbird/issues/614)
 * **[tests/UI/campaigns/functional/WS/02_ordersCRUD.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/02_ordersCRUD.ts)** :
   * [PrestaShop#34564 : WS : Create an Order - Multiples fields are inconsistent after the POST and with a GET](https://github.com/PrestaShop/PrestaShop/issues/34564)
   * [PrestaShop#34576 : WS : Update an Order - The payment is removed](https://github.com/PrestaShop/PrestaShop/issues/34576)
