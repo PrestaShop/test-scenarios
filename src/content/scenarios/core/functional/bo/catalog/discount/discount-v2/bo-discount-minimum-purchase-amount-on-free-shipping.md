@@ -1,12 +1,12 @@
 ---
 title: "BO - Discount - Minimum purchase amount (On Free shipping)"
-weight: 12
+weight: 4
 ---
 
 # BO - Discount - Minimum purchase amount (On Free shipping)
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12419
+* **Status** : IN REVIEW
+* **Scenario** : https://forge.prestashop.com/browse/TEST-12396
 
 ## Steps
 | Step Description | Expected result |

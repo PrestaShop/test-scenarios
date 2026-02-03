@@ -5,7 +5,7 @@ weight: 9
 
 # BO - Discount - Trigger based on the total quantity of products in the cart
 ## Details
-* **Status** : IN REVIEW
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11279
 
 ## Steps
