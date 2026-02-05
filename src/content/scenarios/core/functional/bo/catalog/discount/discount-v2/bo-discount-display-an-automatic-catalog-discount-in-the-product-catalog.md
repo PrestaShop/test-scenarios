@@ -5,7 +5,7 @@ weight: 5
 
 # BO - Discount - Display an automatic catalog discount in the product catalog
 ## Details
-* **Status** : IN REVIEW
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11202
 
 ## Steps

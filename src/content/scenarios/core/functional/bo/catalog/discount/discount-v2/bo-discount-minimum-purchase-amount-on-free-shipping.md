@@ -5,7 +5,7 @@ weight: 4
 
 # BO - Discount - Minimum purchase amount (On Free shipping)
 ## Details
-* **Status** : IN REVIEW
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12396
 
 ## Steps
