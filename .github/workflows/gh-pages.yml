@@ -50,29 +50,29 @@ jobs:
           path: prestashop_82x
           ref: 8.2.x
 
-      - name: Checkout PrestaShop repository (8.1.x)
+      - name: Checkout PrestaShop repository (8.1.7)
         uses: actions/checkout@v4
         with:
           repository: PrestaShop/PrestaShop
           fetch-depth: 1
           path: prestashop_81x
-          ref: 8.1.x
+          ref: 8.1.7
 
-      - name: Checkout PrestaShop repository (8.0.x)
+      - name: Checkout PrestaShop repository (8.0.5)
         uses: actions/checkout@v4
         with:
           repository: PrestaShop/PrestaShop
           fetch-depth: 1
           path: prestashop_80x
-          ref: 8.0.x
+          ref: 8.0.5
 
-      - name: Checkout PrestaShop repository (1.7.8.x)
+      - name: Checkout PrestaShop repository (1.7.8.11)
         uses: actions/checkout@v4
         with:
           repository: PrestaShop/PrestaShop
           fetch-depth: 1
           path: prestashop_178x
-          ref: 1.7.8.x
+          ref: 1.7.8.11
 
       - name: Checkout Module repository (autoupgrade)
         uses: actions/checkout@v4
@@ -116,11 +116,11 @@ jobs:
         run: cd scripts && composer install && cd ..
 
       - name: Export JIRA XRay Core
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         run: php scripts/bin/console scenario:export:core --apikey ${{ secrets.JIRA_APIKEY }}
 
       - name: Export JIRA XRay Modules
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         run: php scripts/bin/console scenario:export:module --apikey ${{ secrets.JIRA_APIKEY }}
 
       - name: Clean `known-bugs` directory
@@ -160,7 +160,7 @@ jobs:
         run: rm -rf ./ps_cashondelivery/
 
       - name: Commit changes
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "[Update] JIRA XRay Tests"
@@ -169,7 +169,7 @@ jobs:
         run: cd src && hugo && cd ..
 
       - name: Deploy
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' }}
+        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
