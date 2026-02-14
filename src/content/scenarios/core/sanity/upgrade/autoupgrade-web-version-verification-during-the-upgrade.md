@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - Verification during the upgrade"
-weight: 5
+weight: 21
 ---
 
 # Autoupgrade - Web Version - Verification during the upgrade
 ## Details
 * **Component** : Core
 * **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9698
+* **Scenario** : https://forge.prestashop.com/browse/TEST-12781
 
 ## Steps
 | Step Description | Expected result |
@@ -47,8 +47,10 @@ weight: 5
 | In the "Filter properties", put "progressPercentage" and click on the arrow next to "Next param ..." | a parameters name : "progressPercentage" with a integer next to it is displayed |
 | Clic on another POST | another progressPercentage is displayed |
 | Close the inspect mode | your upgrade is displayed with a higher resolution |
-| Wait until the upgrade of modules | * "*{color:#00875a}Module is up to date{color}*" is displayed instead of<br>"*{color:#de350b}Module updated{color}*"  <br> * When modules is updated,, they are cutted in /*{color:#0747a6}x{color}* different part of upgrade. |
 | Go to folder [yourShop]/[AdminDirectory]/autoupgrade | there is a config.var on the folder |
 | Wait until the end of the upgrade | The config.var is deleted |
 | Go to folder [yourShop]/[AdminDirectory]/autoupgrade/logs | There are a YYYY-MM-DD-HHMMSS-update.txt and a YYYY-MM-DD-HHMMSS-backup.txt  on this folder |
 | Open the YYYY-MM-DD-HHMMSS-update.txt | * none word betwen "*[" "]*" like warning or anything else are on this files <br> * none "*{color:#de350b}scandir{color}*" are on this files |
+| Verify the step order | Step are ordered like : <br> * Step UpdateInitialization<br> * Step Download<br> * Step Unzip<br> * Step DownloadModules<br> * Step UpdateFilles<br> * Step UpdateDatabase<br> * Step UpdateModules<br> * Step CleanDatabase<br> * Step UpdateComplete |
+| Verify step DownloadModules | Modules update have : <br>" have been fetched from [https://api.addons.prestashop.com/] "<br><br>or <br><br>"have been fetched from https://api.prestashop-project.org/" |
+| Verify the step : Step UpdateModules | * "*{color:#00875a}Module is up to date{color}*" is displayed instead of<br>"*{color:#de350b}Module updated{color}*"  <br> * When modules is updated,, they are cutted in /*{color:#0747a6}x{color}* different part of upgrade. |
