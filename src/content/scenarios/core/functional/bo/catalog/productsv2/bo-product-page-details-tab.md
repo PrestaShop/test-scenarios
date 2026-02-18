@@ -23,6 +23,8 @@ weight: 14
 | In Features > Add 2 features > Save and publish | Successful update message is displayed<br><br>My 2 features are well updated.<br><br>My Customized Feature "Lorem Ipsum" is well displayed in FO > Product page > Product details |
 | Click to "Manage Feature" button | Feature page is well displayed |
 | Return to your details product page<br><br>BO > Catalog > Product > "Your Product" > Details | Details page is well displayed |
+| In Features :<br> * Remove 1 feature<br> * Add 2 new features<br><br>Click on "Save and publish" | Successful update message is displayed<br><br>My 4 features are present.<br><br>In FO,  my features are well displayed in FO > Product page > Product details |
+| Return to your details product page<br><br>BO > Catalog > Product > "Your Product" > Details | Details page is well displayed |
 | Add a feature with customized value and click to "Add a feature" | Feature added to feature table |
 | Click to "Save and publish" | Details tabs is written in red<br><br>Error message : "The field "Custom value" is required at least in your default language." |
 | Delete both of the Features with trash icon > Delete > Save and publish | Successful update message is displayed<br><br>In FO > data sheet is empty in product page |

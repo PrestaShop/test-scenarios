@@ -23,7 +23,7 @@ weight: 6
 | In BO, Go to Catalog > Products | Products Page is displayed correctly. |
 | Reset all filters of Products table | All filters are reset. <br>All Products are displayed. |
 | Filter on the product name for a specific product and fetch the product ID. | 1 record found.<br><br>The product is only available on the first shop |
-| Request with method PATCH the endpoint "https://[url of your shop]/admin-api/products/\{productId}/shops?shopId=\{shopId} " where \{productId} is the ID of a product and \{shopId} is the current shop | The HTTP Code is 200.<br><br>The return value is in JSON.<br><br>The return data has a key productId & shopIds |
+| Request with method PATCH the endpoint "https://[url of your shop]/admin-api/products/\{productId}/shops?shopId=\{shopId} " where \{productId} is the ID of a product and \{shopId} is the current shop | The HTTP Code is 200.<br><br>The return value is in JSON.<br><br>The return data has following keys :<br> * "enabled"<br> * "additionalShippingCost"<br> * "availableForOrder"<br> * "availableLaterLabels" |
 | Reload the page | The filter is active<br><br>1 record found.<br><br>The product is available on the first & second shop |
 | In BO, Go to Advanced Parameters > Multistore | Multistore Page is displayed correctly. |
 | Remove the created shop | 1 shop remaining |

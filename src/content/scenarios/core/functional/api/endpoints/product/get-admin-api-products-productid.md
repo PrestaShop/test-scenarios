@@ -22,7 +22,7 @@ weight: 8
 | Reset all filters of Products table | All filters are reset. <br>All Products are displayed. |
 | Filter on the product name for a specific product and fetch the product ID. | 1 record found. |
 | Click on Edit for the first row | The Edit page will be displayed correctly |
-| Request with method GET the endpoint "https://[url of your shop]/admin-api/products/\{productId}" where \{productId} is the previous ID get | The return value is in JSON.<br><br>The return data has multiples keys : "productId", "type", "active", "names", "descriptions", "categories", "defaultCategoryId"<br><br>The return data keys are consistent relative to BackOffice data. |
+| Request with method GET the endpoint "https://[url of your shop]/admin-api/products/\{productId}" where \{productId} is the previous ID get | The return value is in JSON.<br><br>The return data has multiples keys :<br> * "categories"<br> * "defaultCategoryId"<br> * "descriptions"<br> * "enabled"<br> * "names"<br> * "productId"<br> * "shopIds"<br> * "type"<br><br>The return data keys are consistent relative to BackOffice data. |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the button “Three points” | The dropdown is displayed |
 | Click on the Delete Button in the dropdown | A modal appeared |

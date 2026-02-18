@@ -21,8 +21,8 @@ weight: 9
 | Filter the table on the product name with the name of the product created in precond | 1 record found in the table |
 | Fetch the ID of the product on the filtered row | The ID is greather than 0 |
 | Click on the edit row on the filtered row | Edit Product Page is displayed correctly |
-| Request with method PATCH the endpoint "https://[url of your shop]/admin-api/products/\{productd}" for updating the field "active" | The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value. |
-| Reload the Edit page | Check that the input value for field "active" is updated |
+| Request with method PATCH the endpoint "https://[url of your shop]/admin-api/products/\{productd}" for updating the field "enabled" | The HTTP code is 200.<br>The return data has multiples keys :<br> * "enabled"<br><br>The key active has the updated value. |
+| Reload the Edit page | Check that the input value for field "enabled" is updated |
 | Request with method PATCH the endpoint "https://[url of your shop]/admin-api/products/\{productd}" for updating the field "additionalShippingCost" | The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value. |
 | Reload the Edit page | Check that the input value for field "additionalShippingCost" is updated |
 | Request with method PATCH the endpoint "https://[url of your shop]/admin-api/products/\{productd}" for updating the field "availableDate" | The HTTP code is 200.<br>The return data has multiples keys.<br>The key active has the updated value. |

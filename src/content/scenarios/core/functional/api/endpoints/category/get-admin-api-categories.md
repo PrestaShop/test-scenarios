@@ -17,7 +17,7 @@ weight: 1
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>No records found in the table |
 | Click on the button "Add new API access" | New API access Page is displayed correctly |
 | * Fill the form with following data<br> * Click on "Generate client secret & Save" button | * The message “The API access and Client secret has been generated sucessfully” is displayed<br> * The message "Client secret: " is displayed |
-| Request :<br> * Authentifed : Yes<br> * Method:  GET<br> * URL : "https://[url of your shop]/admin-api/categories" | The return value is in JSON.<br><br>The return data has multiples keys : "totalItems", "sortOrder", "limit", "orderBy", "filters", "items"<br><br>The key "items" has multiples values.<br><br>Each value has multiples keys : "categoryId", "name", "active" |
+| Request :<br> * Authentifed : Yes<br> * Method:  GET<br> * URL : "https://[url of your shop]/admin-api/categories" | The return value is in JSON.<br><br>The return data has multiples keys : "totalItems", "sortOrder", "limit", "orderBy", "filters", "items"<br><br>The key "items" has multiples values.<br><br>Each value has multiples keys :<br> * "categoryId"<br> * "enabled"<br> * "name" |
 | In BO, Go to Catalog > Categories page | Catalog > Categories Page is displayed correctly.<br>Default records found in the table |
 | Reset all filters of Categories table | All filters are reset. <br>All Categories are displayed. |
 | Filter by "Displayed" column : "Yes" | All categories are displayed (except Root)<br>The number of categories equals to totalItems (- 1 = Root) |

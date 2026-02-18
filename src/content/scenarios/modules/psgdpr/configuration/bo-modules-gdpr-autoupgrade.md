@@ -26,9 +26,7 @@ weight: 6
 | Click View my store > Go to your account > Information > Scroll to the checkboxes section | No checkbox "Quis viverra nibh cras pulvinar." |
 | Sign out > Click on No account? Create one here > Scroll down to the checkboxes section | No checkbox "Lorem ipsum dolor sit amet, consectetur adipiscing elit" |
 | Go back to your BO > psgdpr > Tab 3 : Consent checkbox customization > Edit the consent message for the module Newsletter subscription > Save | Saved with success ! alert is displayed |
-| View my store > Scroll down to the block Get our latest news and special sales | No consent message is displayed |
-| Go back to the BO page > psgdpr > Click on Manage hook > Hook a module > Save | The module transplanted successfully to the hook. |
-| Go back to FO > Refresh | See the checkbox" Mi proin sed libero enim sed faucibus." displayed |
+| View my store > Scroll down to the block Get our latest news and special sales | See the checkbox" Mi proin sed libero enim sed faucibus." displayed |
 | Add an email > Check the box > Subscribe | You have successfully subscribed to this newsletter. |
 | Go back to your BO > psgdpr > Tab 3 : Consent checkbox customization > Disable Newsletter subscription > Save | Saved with success ! alert is displayed |
 | View my store > Scroll down to Get our latest news and special sales | No consent message is displayed |

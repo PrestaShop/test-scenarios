@@ -21,10 +21,9 @@ weight: 18
 | Edit Friendly URL > Save and publish | Successful update message is displayed |
 | Click on button Generate URL from name > Save and publish | Successful update message is displayed<br><br>The URL is reset to the original one |
 | Switch product status to Offline > Save and publish | Successful update message is displayed |
+| Go back to BO > In block Redirection page > Use dropdown to choose "Permanent redirection to a product (301)" > Choose "Hummingbird printed t-shirt" for Target product > Save and publish > Preview | In BO, Successful update message is displayed<br><br>In FO, The new product is displayed (because it is disabled) |
 | In block Redirection page > Use dropdown to choose "Permanent redirection to a category (301)" > Choose "Home accessories" for Target category > Save and publish > Preview | In BO, Successful update message is displayed<br><br>In FO, see the banner "This product is not visible to your customers." on top of the product page |
-| In product page, URL > remove the part :<br>{code:java}<br>?adtoken=3afb7715ca1f6427237caa42f5806192&id_employee=1&preview=1{code} | Category HOME ACCESSORIES is displayed |
 | Go back to BO > In block Redirection page > Use dropdown to choose "Permanent redirection to a product (301)" > Choose "Hummingbird printed t-shirt" for Target product > Save and publish > Preview | In BO, Successful update message is displayed<br><br>In FO, Product Hummingbird printed t-shirt is displayed |
-| In product page, URL > remove the part :<br>{code:java}<br>?adtoken=3afb7715ca1f6427237caa42f5806192&id_employee=1&preview=1{code} | Hummingbird printed t-shirt product page is displayed |
 | In block Tags > Add a tag "hello" > Save and publish > View my store > Search "hello" in searchbar | All the products are displayed |
 | Switch product status to Online > Save and publish | Successful update message is displayed |
 | In block Tags > Add a tag "hello" > Save and publish > View my store > Search "hello" in searchbar | Only the product you created with Tag:hello is displayed in the search results |

@@ -18,7 +18,7 @@ weight: 1
 | Click on the button "Add new API access" | New API access Page is displayed correctly |
 | * Fill the form with following data<br> * Click on "Generate client secret & Save" button | * The message “The API access and Client secret has been generated sucessfully” is displayed<br> * The message "Client secret: " is displayed |
 | Return to BO > Advanced Parameters > Authorization Server and get the ID of the first row | Authorization Server Page is displayed correctly.<br>1 record found in the table |
-| Request with method GET the endpoint "https://[url of your shop]/admin-dev/index.php/api/products" | The return value is in JSON.<br><br>The return data has multiples keys : "totalItems", "sortOrder", "limit", "filters", "items"<br><br>The key "items" has multiples values.<br><br>Each value has multiples keys : "langId", "name", "isoCode", "languageCode", "locale", "dateFormat", "dateTimeFormat", "isRtl", "active" |
+| Request with method GET the endpoint "https://[url of your shop]/admin-dev/index.php/api/languages" | The return value is in JSON.<br><br>The return data has multiples keys : "totalItems", "sortOrder", "limit", "filters", "items"<br><br>The key "items" has multiples values.<br><br>Each value has multiples keys :<br> * "langId"<br> * "name"<br> * "isoCode"<br> * "languageCode"<br> * "locale"<br> * "dateFormat"<br> * "dateTimeFormat"<br> * "rtl"<br> * "enabled"<br> * "flag" |
 | In BO, Go to International > Localization | Localization Page is displayed correctly. |
 | Click on tab Languages | Languages Tab is displayed correctly |
 | Reset all filters of Languages table | All filters are reset. <br>All Languages are displayed. |

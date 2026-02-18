@@ -18,7 +18,7 @@ weight: 11
 | Click on the button "Add new API access" | New API access Page is displayed correctly |
 | * Fill the form with following data<br> * Click on "Generate client secret & Save" button | * The message “The API access and Client secret has been generated sucessfully” is displayed<br> * The message "Client secret: " is displayed |
 | Return to BO > Advanced Parameters > Authorization Server and get the ID of the first row | Authorization Server Page is displayed correctly.<br>1 record found in the table |
-| Request with method GET the endpoint "https://[url of your shop]/admin-dev/index.php/api/products" | The return value is in JSON.<br><br>The return data has multiples keys : "totalItems", "orderBy", "sortOrder", "limit", "filters", "items"<br><br>The key "items" has multiples values.<br><br>Each value has multiples keys : "productId", "active", "name", "quantity", "price", "category" |
+| Request with method GET the endpoint "https://[url of your shop]/admin-dev/index.php/api/products" | The return value is in JSON.<br><br>The return data has multiples keys : "totalItems", "orderBy", "sortOrder", "limit", "filters", "items"<br><br>The key "items" has multiples values.<br><br>Each value has multiples keys :<br> * "productId"<br> * "enabled"<br> * "name"<br> * "quantity"<br> * "price"<br> * "category" |
 | In BO, Go to Catalog > Products | Products Page is displayed correctly. |
 | Reset all filters of Products table | All filters are reset. <br>All Products are displayed. |
 | *Loop on each item of the key items of the JSON Response* |  |

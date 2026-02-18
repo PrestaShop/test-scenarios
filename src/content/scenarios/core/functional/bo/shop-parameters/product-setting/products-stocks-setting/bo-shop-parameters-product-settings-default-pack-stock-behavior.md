@@ -27,7 +27,7 @@ weight: 2
 | Go to Catalog > Products | See:<br><br>Pack Mug + Framed poster quantity is 98<br>Mug The adventure begins quantity is 290<br>Today is a good day Framed poster quantity is 890 |
 | Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock > Set Default pack stock management to "Decrement products in pack only." > Save | Message Update successful is displayed |
 | Go to Catalog > Products > Edit quantity of your _Pack product Pack Mug_ + Framed poster to 0 | Message Successful update is displayed |
-| Go to FO > Search for Pack product > Add product to cart | Product is well added to cart<br><br>Now it is blocked : https://github.com/PrestaShop/PrestaShop/issues/35367 |
+| Go to FO > Search for Pack product > Add product to cart | Product is well added to cart |
 | Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock > Set Default pack stock management to "Decrement pack only." > Save | Message Update successful is displayed |
 | Go to FO > Search for Pack product > Add product to cart | Product can't be added to cart. Out-of-stock message is displayed. Add to cart button is greyed out. |
 | Go to BO > Shop Parameters > Product Settings > Scroll down to Products stock > Set Default pack stock management to "Decrement both." > Save | Message Update Successful is displayed |

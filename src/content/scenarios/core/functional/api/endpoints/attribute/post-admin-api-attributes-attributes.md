@@ -17,7 +17,7 @@ weight: 3
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>No records found in the table |
 | Click on the button "Add new API access" | New API access Page is displayed correctly |
 | * Fill the form with following data<br> * Click on "Generate client secret & Save" button | * The message “The API access and Client secret has been generated sucessfully” is displayed<br> * The message "Client secret: " is displayed |
-| Request with method POST the endpoint "https://[url of your shop]/admin-api/attributes/attributes" with relative data | The HTTP code is 201.<br><br>The return value is in JSON<br><br>The return value data are consistent relative to sent data. |
+| Request with method POST the endpoint "https://[url of your shop]/admin-api/attributes/attributes" with relative data | The HTTP code is 201.<br><br>The return value is in JSON<br><br>The return data has multiples keys :<br> * "attributeId"<br> * "attributeGroupId"<br> * "names"<br> * "color"<br> * "shopIds"<br><br>The return value data are consistent relative to sent data. |
 | In BO, Go to Catalog > Attributes & Features page | Catalog > Attributes & Features Page is displayed correctly.<br>Default records found in the table |
 | Reset all filters | Filters are reset<br>Total attributes = Number of Attributes |
 | Filter by name with "Paper Type" | 1 record found |

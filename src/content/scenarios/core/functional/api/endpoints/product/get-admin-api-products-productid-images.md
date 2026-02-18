@@ -18,11 +18,11 @@ weight: 5
 | Click on the button "Add new API access" | New API access Page is displayed correctly |
 | * Fill the form with following data<br> * Click on "Generate client secret & Save" button | * The message “The API access and Client secret has been generated sucessfully” is displayed<br> * The message "Client secret: " is displayed |
 | Return to BO > Advanced Parameters > Authorization Server and get the ID of the first row | Authorization Server Page is displayed correctly.<br>1 record found in the table |
-| Request with method GET the endpoint "https://[url of your shop]/admin-api/products/\{productId}/images " where \{productId} is the ID of a product | The HTTP Code is 200.<br><br>The return value is in JSON.<br><br>The return data is an array of an object with multiples keys : "imageId", "imageUrl", "thumbnailUrl", "legends", "cover", "position" |
+| Request with method GET the endpoint "https://[url of your shop]/admin-api/products/\{productId}/images " where \{productId} is the ID of a product | The HTTP Code is 200.<br><br>The return value is in JSON.<br><br>The return data is an array of an object with multiples keys :<br> * "productId"<br> * "imageId"<br> * "imageUrl"<br> * "thumbnailUrl"<br> * "legends"<br> * "cover"<br> * "position" |
 | In BO, Go to Catalog > Products | Products Page is displayed correctly. |
 | Reset all filters of Products table | All filters are reset. <br>All Products are displayed. |
-| Filter on the product name for a specific product and fetch the product ID. | 1 record found. |
-| Click on Edit for the first row | The Edit page will be displayed correctly<br><br>There is the same number of images that in the array.<br><br>The return data keys are consistent relative to BackOffice data. |
+| Filter on the product name for a specific product and fetch the product ID. | 1 record found.<br><br>The return data key "productId" is consistent relative to BackOffice data. |
+| Click on Edit for the first row | The Edit page will be displayed correctly<br><br>There is the same number of images that in the array.<br><br>The return data keys are consistent relative to BackOffice data for these keys :<br> * "imageId"<br> * "imageUrl"<br> * "thumbnailUrl"<br> * "legends"<br> * "cover"<br> * "position" |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the button “Three points” | The dropdown is displayed |
 | Click on the Delete Button in the dropdown | A modal appeared |
