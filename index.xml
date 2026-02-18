@@ -320,7 +320,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/catalog-price-rules/bo-catalog-price-rules-crud.html</guid>
-      <description>BO - Catalog price Rules - CRUD Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x Scenario : https://forge.prestashop.com/browse/TEST-834 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/01_CRUDCatalogPriceRule.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/edit-or-add-catalog-price-rule Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog Price Rules tab Catalog Price Rules page is well displayed Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed GO FO &amp;gt; Open product THE BEST IS YET TO COME&amp;rsquo; FRAMED POSTER See the tag -€12.</description>
+      <description>BO - Catalog price Rules - CRUD Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x Scenario : https://forge.prestashop.com/browse/TEST-834 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/01_CRUDCatalogPriceRule.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/edit-or-add-catalog-price-rule Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Discounts &amp;gt; Catalog Price Rules tab Catalog Price Rules page is well displayed Click on &amp;ldquo;Add new catalog price rule&amp;rdquo; button The Add new Catalog Price Rules page is displayed Set the fields &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; The catalog price rule is well created and a green alert &amp;ldquo;Successful creation&amp;rdquo; is displayed GO FO &amp;gt; Click on All products The root category is well displayed Go to the product THE BEST IS YET TO COME&amp;rsquo; FRAMED POSTER See the tag -€12.</description>
     </item>
     <item>
       <title>BO - CRUD Standard product</title>
@@ -1030,13 +1030,6 @@
       <description>EditCheckCart Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1344 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts Steps Step Description Expected result Go to the FO homepage Home page is displayed correctly Go to the first product page Product page is displayed correctly Add the product to the cart Product is correctly added. Number of items in cart is changed Go to the FO homepage Home page is displayed correctly Go to the second product page Product page is displayed correctly Add the product to the cart Product is correctly added.</description>
     </item>
     <item>
-      <title>Enable/Disable notification for product availability</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-product-availability.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-product-availability.html</guid>
-      <description> Enable/Disable notification for product availability Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-638 Steps Step Description Expected result </description>
-    </item>
-    <item>
       <title>Enable/Disable notification new order</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/merchant-notifications/enable-disable-notification-new-order.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1462,6 +1455,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/mail-alerts-module-bo-header-buttons.html</guid>
       <description>Mail alerts module - BO Header Buttons Details Component : ps_emailalerts Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4147 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/02_configuration/01_boHeaderButtons.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
+    </item>
+    <item>
+      <title>Mail alerts module - Customer notifications - Enable/Disable product availability</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html</guid>
+      <description>Mail alerts module - Customer notifications - Enable/Disable product availability Details Component : ps_emailalerts Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4145 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/02_configuration/01_customerNotifications/01_enableDisableProductAvailability.ts Steps Step Description Expected result Go to Catalog &amp;gt; Products &amp;gt; Click on the product created to go to its product details page (pre-condition) &amp;gt; On &amp;ldquo;Basic settings&amp;rdquo; tab, set 0 in &amp;ldquo;Quantity field &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button and click on &amp;ldquo;Preview&amp;rdquo; button * A successful message &amp;ldquo;Settings updated.</description>
     </item>
     <item>
       <title>Mail alerts module - Uninstall/Install module</title>
@@ -2780,13 +2780,6 @@
       <description>EditOrder Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1341 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/02_ordersBO/02_editOrder.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders page is displayed correctly Click on the first order Order page is displayed correctly Modify the product quantity. Click on Update&amp;quot; Order is updated correctly Modify the payment status. Click on Update status&amp;quot; Status is updated.</description>
     </item>
     <item>
-      <title>Enable/Disable Notification for order edition</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-order-edition.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-order-edition.html</guid>
-      <description> Enable/Disable Notification for order edition Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-639 Steps Step Description Expected result </description>
-    </item>
-    <item>
       <title>Enable/Disable notification for product out of stock</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/merchant-notifications/enable-disable-notification-for-product-out-of-stock.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3135,6 +3128,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/get-admin-api-products-images-imageid.html</guid>
       <description>GET /admin-api/products/images/{imageId} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8985 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/01_getProductsImagesId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
+    </item>
+    <item>
+      <title>Mail alerts module - Customer notifications - Enable/Disable order edit</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html</guid>
+      <description>Mail alerts module - Customer notifications - Enable/Disable order edit Details Component : ps_emailalerts Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4146 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/02_configuration/01_customerNotifications/02_enableDisableOrderEdit.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
     </item>
     <item>
       <title>Mail alerts module - Upgrade module</title>
@@ -4180,13 +4180,6 @@
       <description>Check FO pages in the checkout process Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-10076 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/03_cart.ts Steps Step Description Expected result Go to the Home Page The home page is displayed&#xA;No JS errors are triggered Click on the &amp;ldquo;Sign in&amp;rdquo; link The &amp;ldquo;Log in&amp;rdquo; page is displayed&#xA;No JS errors are triggered Sign in with the customer &amp;ldquo;John DOE&amp;rdquo; The customer is connected</description>
     </item>
     <item>
-      <title>Check that the entered email in the footer email block is saved</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/check-that-the-entered-email-in-the-footer-email-block-is-saved.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/check-that-the-entered-email-in-the-footer-email-block-is-saved.html</guid>
-      <description> Check that the entered email in the footer email block is saved Details Component : ps_emailsubscription Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-646 Steps Step Description Expected result </description>
-    </item>
-    <item>
       <title>CLDR : Delete a currency</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-delete-a-currency.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4250,6 +4243,13 @@
       <description>DELETE /admin-api/categories/{categoryId}/{deleteMode} Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-12123 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_category/05_deleteCategoriesIdDeleteMode.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
     </item>
     <item>
+      <title>Enable/Disable notification for product availability</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-product-availability.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-product-availability.html</guid>
+      <description> Enable/Disable notification for product availability Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-638 Steps Step Description Expected result </description>
+    </item>
+    <item>
       <title>Faceted search module - Disable/Enable module</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-facetedsearch/installation/faceted-search-module-disable-enable-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4282,7 +4282,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-select-an-address.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/checkout/addresses/fo-checkout-addresses-select-an-address.html</guid>
-      <description>FO - Checkout - Addresses - Select an address Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7021 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/03_selectAddress.ts Steps Step Description Expected result Go to FO The page of your shop should be displayed Put your mouse over the product &amp;ldquo;The best is Yet to Come&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; should be displayed Clic on the &amp;ldquo;Quickview&amp;rdquo; button You should have a modal that show you the product.</description>
+      <description>FO - Checkout - Addresses - Select an address Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-7021 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/03_selectAddress.ts Steps Step Description Expected result Go to BO &amp;gt; Internation &amp;gt; Locations &amp;gt; Countries Countries page is displayed Filter by name &amp;ldquo;Germany&amp;rdquo; 1 row is found Enable country Message The status has been successfully updated. is displayed Go to BO &amp;gt; Payment &amp;gt; Preferences Preferences page is displayed Set following Country Restriction</description>
     </item>
     <item>
       <title>FO - Checkout - Addresses: Select address</title>
@@ -5454,6 +5454,13 @@
       <description>DeleteProduct Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1338 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/05_deleteProduct.ts Steps Step Description Expected result Go to the Catalog &amp;gt; Products&amp;quot; page&amp;quot; Products page is displayed correctly Reset all filters. Save number of products in a variable All products are listed in the page Click on New product&amp;quot;. Create a simple product (check [C4] step 5). Click on &amp;ldquo;Save&amp;rdquo; Product is created correctly Go to the Catalog &amp;gt; Products&amp;quot; page&amp;quot; Products page is displayed correctly Filter with reference.</description>
     </item>
     <item>
+      <title>Enable/Disable Notification for order edition</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-order-edition.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-order-edition.html</guid>
+      <description> Enable/Disable Notification for order edition Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-639 Steps Step Description Expected result </description>
+    </item>
+    <item>
       <title>Enable/Disable notification for return product</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/merchant-notifications/enable-disable-notification-for-return-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5669,13 +5676,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/hummingbird/user-account/order-history/order-details/fo-user-account-order-history-order-details-reorder-from-order-detail.html</guid>
       <description> FO - User Account - Order History - Order details : Reorder from order detail Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-8340 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_orderDetails/01_reorderFromOrderDetails.ts Steps Step Description Expected result Go to FO &amp;gt; Sign In to your customer account &amp;gt; Add a product to your cart &amp;gt; Proceed to checkout &amp;gt; Proceed to checkout &amp;gt; Place the order Your order is confirmed Go to &amp;ldquo;Orders&amp;rdquo; page &amp;ldquo;Order history&amp;rdquo; page is displayed Click on the Details link of the latest order made &amp;gt; Click on the &amp;ldquo;Reorder&amp;rdquo; button You are redirected to step 2 - Addresses Place the order Your order is confirmed Click on your account &amp;gt; Orders &amp;gt; Click on Details on the latest order made See that the product ordered is the same : Hummingbird printed sweater </description>
-    </item>
-    <item>
-      <title>Mail alerts module - Customer notifications - Enable/Disable product availability</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html</guid>
-      <description>Mail alerts module - Customer notifications - Enable/Disable product availability Details Component : ps_emailalerts Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4145 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/02_configuration/01_customerNotifications/01_enableDisableProductAvailability.ts Steps Step Description Expected result Go to Catalog &amp;gt; Products &amp;gt; Click on the product created to go to its product details page (pre-condition) &amp;gt; On &amp;ldquo;Basic settings&amp;rdquo; tab, set 0 in &amp;ldquo;Quantity field &amp;gt; Click on &amp;ldquo;Save&amp;rdquo; button and click on &amp;ldquo;Preview&amp;rdquo; button * A successful message &amp;ldquo;Settings updated.</description>
     </item>
     <item>
       <title>Mail alerts module - Reset module</title>
@@ -6231,6 +6231,13 @@
       <description>Category products module - Uninstall/Install module Details Component : ps_categoryproducts Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-4216 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_categoryproducts The module page list should be displayed and Products in the same category module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
+      <title>Check that the entered email in the footer email block is saved</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/check-that-the-entered-email-in-the-footer-email-block-is-saved.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/check-that-the-entered-email-in-the-footer-email-block-is-saved.html</guid>
+      <description> Check that the entered email in the footer email block is saved Details Component : ps_emailsubscription Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-646 Steps Step Description Expected result </description>
+    </item>
+    <item>
       <title>CLDR : Search a currency by enable/disable</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-enable-disable.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6439,13 +6446,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/product/get-admin-api-products-productid-images.html</guid>
       <description>GET /admin-api/products/{productId}/images Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-8981 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/04_getProductsIdImages.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data&#xA;* Click on &amp;ldquo;Generate client secret &amp;amp; Save&amp;rdquo; button * The message “The API access and Client secret has been generated sucessfully” is displayed</description>
-    </item>
-    <item>
-      <title>Mail alerts module - Customer notifications - Enable/Disable order edit</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html</guid>
-      <description>Mail alerts module - Customer notifications - Enable/Disable order edit Details Component : ps_emailalerts Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4146 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/02_configuration/01_customerNotifications/02_enableDisableOrderEdit.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search ps_emailalerts The module page list should be displayed and Mail alerts module should be displayed on the list Click on &amp;ldquo;Configure&amp;rdquo; button at the right of the module * The &amp;ldquo;Configure&amp;rdquo; page is displayed</description>
     </item>
     <item>
       <title>Mail alerts module - Disable/Enable module</title>

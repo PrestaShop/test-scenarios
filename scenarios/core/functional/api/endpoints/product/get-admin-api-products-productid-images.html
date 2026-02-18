@@ -22,13 +22,13 @@
     <title>GET /admin-api/products/{productId}/images :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1771396952" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1771396952" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1771396952" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1771396952" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1771396952" rel="stylesheet">
-    <link href="../../../../../../style.css?1771396952" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1771432882" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1771432882" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1771432882" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1771432882" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1771432882" rel="stylesheet">
+    <link href="../../../../../../style.css?1771432882" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1771396952"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1771432882"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -36321,6 +36321,48 @@
  
   
     
+      <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html" title="Mail alerts module - Customer notifications - Enable/Disable product availability" class="dd-item ">
+        <a href="../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html">
+        Mail alerts module - Customer notifications - Enable/Disable product availability
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html" title="Mail alerts module - Customer notifications - Enable/Disable order edit" class="dd-item ">
+        <a href="../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html">
+        Mail alerts module - Customer notifications - Enable/Disable order edit
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
       <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-product-availability.html" title="Enable/Disable notification for product availability" class="dd-item ">
         <a href="../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-product-availability.html">
         Enable/Disable notification for product availability
@@ -36366,48 +36408,6 @@
       <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/check-that-the-entered-email-in-the-footer-email-block-is-saved.html" title="Check that the entered email in the footer email block is saved" class="dd-item ">
         <a href="../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/check-that-the-entered-email-in-the-footer-email-block-is-saved.html">
         Check that the entered email in the footer email block is saved
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html" title="Mail alerts module - Customer notifications - Enable/Disable product availability" class="dd-item ">
-        <a href="../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html">
-        Mail alerts module - Customer notifications - Enable/Disable product availability
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html" title="Mail alerts module - Customer notifications - Enable/Disable order edit" class="dd-item ">
-        <a href="../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html">
-        Mail alerts module - Customer notifications - Enable/Disable order edit
         
         </a>
     </li>
@@ -70313,7 +70313,7 @@
 </tr>
 <tr>
 <td>Request with method GET the endpoint &ldquo;https://[url of your shop]/admin-api/products/{productId}/images &quot; where {productId} is the ID of a product</td>
-<td>The HTTP Code is 200.<br><br>The return value is in JSON.<br><br>The return data is an array of an object with multiples keys : &ldquo;imageId&rdquo;, &ldquo;imageUrl&rdquo;, &ldquo;thumbnailUrl&rdquo;, &ldquo;legends&rdquo;, &ldquo;cover&rdquo;, &ldquo;position&rdquo;</td>
+<td>The HTTP Code is 200.<br><br>The return value is in JSON.<br><br>The return data is an array of an object with multiples keys :<br> * &ldquo;productId&rdquo;<br> * &ldquo;imageId&rdquo;<br> * &ldquo;imageUrl&rdquo;<br> * &ldquo;thumbnailUrl&rdquo;<br> * &ldquo;legends&rdquo;<br> * &ldquo;cover&rdquo;<br> * &ldquo;position&rdquo;</td>
 </tr>
 <tr>
 <td>In BO, Go to Catalog &gt; Products</td>
@@ -70325,11 +70325,11 @@
 </tr>
 <tr>
 <td>Filter on the product name for a specific product and fetch the product ID.</td>
-<td>1 record found.</td>
+<td>1 record found.<br><br>The return data key &ldquo;productId&rdquo; is consistent relative to BackOffice data.</td>
 </tr>
 <tr>
 <td>Click on Edit for the first row</td>
-<td>The Edit page will be displayed correctly<br><br>There is the same number of images that in the array.<br><br>The return data keys are consistent relative to BackOffice data.</td>
+<td>The Edit page will be displayed correctly<br><br>There is the same number of images that in the array.<br><br>The return data keys are consistent relative to BackOffice data for these keys :<br> * &ldquo;imageId&rdquo;<br> * &ldquo;imageUrl&rdquo;<br> * &ldquo;thumbnailUrl&rdquo;<br> * &ldquo;legends&rdquo;<br> * &ldquo;cover&rdquo;<br> * &ldquo;position&rdquo;</td>
 </tr>
 <tr>
 <td>In BO, Go to Advanced Parameters &gt; Authorization Server</td>
@@ -70367,17 +70367,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1771396952"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1771396952"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1771396952"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1771396952"></script>
-    <script src="../../../../../../js/featherlight.min.js?1771396952"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1771396952"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1771396952"></script>
-    <script src="../../../../../../js/learn.js?1771396952"></script>
-    <script src="../../../../../../js/hugo-learn.js?1771396952"></script>
+    <script src="../../../../../../js/clipboard.min.js?1771432882"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1771432882"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1771432882"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1771432882"></script>
+    <script src="../../../../../../js/featherlight.min.js?1771432882"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1771432882"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1771432882"></script>
+    <script src="../../../../../../js/learn.js?1771432882"></script>
+    <script src="../../../../../../js/hugo-learn.js?1771432882"></script>
     
-    <script src="../../../../../../main.js?1771396952"></script>
+    <script src="../../../../../../main.js?1771432882"></script>
     
     
     

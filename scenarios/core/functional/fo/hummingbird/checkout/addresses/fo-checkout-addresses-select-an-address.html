@@ -22,13 +22,13 @@
     <title>FO - Checkout - Addresses - Select an address :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1771396990" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1771396990" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1771396990" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1771396990" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1771396990" rel="stylesheet">
-    <link href="../../../../../../../style.css?1771396990" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1771432921" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1771432921" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1771432921" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1771432921" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1771432921" rel="stylesheet">
+    <link href="../../../../../../../style.css?1771432921" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1771396990"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1771432921"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -36321,6 +36321,48 @@
  
   
     
+      <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html" title="Mail alerts module - Customer notifications - Enable/Disable product availability" class="dd-item ">
+        <a href="../../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html">
+        Mail alerts module - Customer notifications - Enable/Disable product availability
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html" title="Mail alerts module - Customer notifications - Enable/Disable order edit" class="dd-item ">
+        <a href="../../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html">
+        Mail alerts module - Customer notifications - Enable/Disable order edit
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
       <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-product-availability.html" title="Enable/Disable notification for product availability" class="dd-item ">
         <a href="../../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/enable-disable-notification-for-product-availability.html">
         Enable/Disable notification for product availability
@@ -36366,48 +36408,6 @@
       <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/check-that-the-entered-email-in-the-footer-email-block-is-saved.html" title="Check that the entered email in the footer email block is saved" class="dd-item ">
         <a href="../../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/check-that-the-entered-email-in-the-footer-email-block-is-saved.html">
         Check that the entered email in the footer email block is saved
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html" title="Mail alerts module - Customer notifications - Enable/Disable product availability" class="dd-item ">
-        <a href="../../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-product-availability.html">
-        Mail alerts module - Customer notifications - Enable/Disable product availability
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html" title="Mail alerts module - Customer notifications - Enable/Disable order edit" class="dd-item ">
-        <a href="../../../../../../../scenarios/modules/ps-emailalerts/configuration/customer-notifications/mail-alerts-module-customer-notifications-enable-disable-order-edit.html">
-        Mail alerts module - Customer notifications - Enable/Disable order edit
         
         </a>
     </li>
@@ -70301,6 +70301,26 @@
 </thead>
 <tbody>
 <tr>
+<td>Go to BO &gt; Internation &gt; Locations &gt; Countries</td>
+<td>Countries page is displayed</td>
+</tr>
+<tr>
+<td>Filter by name &ldquo;Germany&rdquo;</td>
+<td>1 row is found</td>
+</tr>
+<tr>
+<td>Enable country</td>
+<td>Message The status has been successfully updated. is displayed</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Payment &gt; Preferences</td>
+<td>Preferences page is displayed</td>
+</tr>
+<tr>
+<td>Set following Country Restriction<br> * Disable Germany for each payment</td>
+<td>Message &ldquo;Successful update&rdquo; is displayed</td>
+</tr>
+<tr>
 <td>Go to FO</td>
 <td>The page of your shop should be displayed</td>
 </tr>
@@ -70329,7 +70349,7 @@
 <td>* You should be redirect to Adresses tab with two posibilities of Adresses.<br> * The address on the left should be enclose and its checkbox should be checked</td>
 </tr>
 <tr>
-<td>Clic on the second adresse</td>
+<td>Click on the first adress (in Germany)</td>
 <td>* The address on the right should be enclose and its checkbox should be checked</td>
 </tr>
 <tr>
@@ -70339,6 +70359,18 @@
 <tr>
 <td>Clic to Continue to Payment</td>
 <td>Payment page displayed<br><br>Unfortunately, there are no payment method available.</td>
+</tr>
+<tr>
+<td>Go to BO &gt; Internation &gt; Locations &gt; Countries</td>
+<td>Countries page is displayed</td>
+</tr>
+<tr>
+<td>Filter by name &ldquo;Germany&rdquo;</td>
+<td>1 row is found</td>
+</tr>
+<tr>
+<td>Disable country</td>
+<td>Message The status has been successfully updated. is displayed</td>
 </tr>
 </tbody>
 </table>
@@ -70360,17 +70392,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1771396990"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1771396990"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1771396990"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1771396990"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1771396990"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1771396990"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1771396990"></script>
-    <script src="../../../../../../../js/learn.js?1771396990"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1771396990"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1771432921"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1771432921"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1771432921"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1771432921"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1771432921"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1771432921"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1771432921"></script>
+    <script src="../../../../../../../js/learn.js?1771432921"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1771432921"></script>
     
-    <script src="../../../../../../../main.js?1771396990"></script>
+    <script src="../../../../../../../main.js?1771432921"></script>
     
     
     
