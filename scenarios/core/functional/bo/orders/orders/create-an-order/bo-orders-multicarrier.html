@@ -22,13 +22,13 @@
     <title>BO - Orders - Multicarrier :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1772780053" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1772780053" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1772780053" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1772780053" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1772780053" rel="stylesheet">
-    <link href="../../../../../../../style.css?1772780053" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1772865729" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1772865729" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1772865729" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1772865729" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1772865729" rel="stylesheet">
+    <link href="../../../../../../../style.css?1772865729" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1772780053"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1772865729"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -70866,11 +70866,11 @@
 </tr>
 <tr>
 <td>In the &ldquo;Shipping&rdquo; bloc, check the carrier.</td>
-<td>2 choices are displayed : <br> * Carrier 1 <br> * Carrier 2</td>
+<td>2 choices are displayed : <br> * Carrier for product 1 <br> * Carrier for product 2 and 3</td>
 </tr>
 <tr>
-<td>Select Carrier 1.</td>
-<td>Carrier 1 is displayed.</td>
+<td>Select Carrier for product 1.</td>
+<td>Carrier for product 1 is displayed.</td>
 </tr>
 <tr>
 <td>In the bloc &ldquo;Summary&rdquo;, choose &ldquo;Cash on delivery&rdquo; as payment method.</td>
@@ -70906,7 +70906,7 @@
 </tr>
 <tr>
 <td>Click on the &ldquo;Select a carrier&rdquo; drop down menu.</td>
-<td>Choice &ldquo;Carrier 1&rdquo; is displayed.</td>
+<td>Choice &ldquo;Carrier for product 1&rdquo; is displayed.</td>
 </tr>
 <tr>
 <td>Unselect Product 1 and select Product 2 in 1 quantity.</td>
@@ -70914,11 +70914,11 @@
 </tr>
 <tr>
 <td>Click on the &ldquo;Select a carrier&rdquo; drop down menu.</td>
-<td>Choices<br> * &ldquo;Carrier 1&rdquo;<br> * &ldquo;Carrier 2&rdquo;<br><br>are displayed.</td>
+<td>Choices<br> * &ldquo;Carrier for product 1&rdquo;<br> * &ldquo;Carrier for products 2 and 3&rdquo;<br><br>are displayed.</td>
 </tr>
 <tr>
-<td>Click on &ldquo;Carrier 2&rdquo;.</td>
-<td>Carrier 2 is selected and CTA &ldquo;Split shipment&rdquo; is enable.</td>
+<td>Click on &ldquo;Carrier for products 2 and 3&rdquo;.</td>
+<td>Carrier for product 2 and 3 is selected and CTA &ldquo;Split shipment&rdquo; is enable.</td>
 </tr>
 <tr>
 <td>Click on &ldquo;Split shipment&rdquo; CTA.</td>
@@ -70926,7 +70926,7 @@
 </tr>
 <tr>
 <td>Click on the tab &ldquo;Shipment&rdquo;.</td>
-<td>A new line is added with &ldquo;Carrier 2&rdquo; and shipment number (last one + 1).</td>
+<td>A new raw is added with &ldquo;Carrier 2&rdquo; and shipment number (last one + 1).</td>
 </tr>
 <tr>
 <td>Go to FO &gt; Login page &gt; log in</td>
@@ -70938,19 +70938,19 @@
 </tr>
 <tr>
 <td>Check &ldquo;Shipment tracking details&rdquo;.</td>
-<td>1 raw with carrier 1<br><br>1 raw with carrier 2</td>
+<td>1 raw with carrier for product 1<br><br>1 raw with carrier for products 2 and 3<br><br>1 raw with carrier for products 2 and 3</td>
 </tr>
 <tr>
 <td>Check product details table.</td>
-<td>1 raw : product 1 in 3 qty with Carrier 1<br><br>2 raw : product 2 in 3 qty with Carrier 1<br><br>3 raw : product 2 in 1 qty with carrier 2<br><br>4 raw : product 3 in 2 qty with carrier 2</td>
+<td>1 raw : product 1 in 3 qty with Carrier for product 1<br><br>2 raw : product 2 in 3 qty with Carrier for product 1<br><br>3 raw : product 3 in 2 qty with Carrier for products 2 and 3<br><br>4 raw : product 2  in 1 qty with Carrier for products 2 and 3</td>
+</tr>
+<tr>
+<td>On BO &gt; On the last shipment raw, click on the &ldquo;&hellip;&rdquo; CTA.</td>
+<td>Merge CTA is displayed.</td>
 </tr>
 <tr>
 <td>Click on the &ldquo;Merge&rdquo; CTA.</td>
 <td>&ldquo;Merge shipment&rdquo; modal is displayed.</td>
-</tr>
-<tr>
-<td>On BO &gt; On the Shipment number id 6 line, click on the &ldquo;&hellip;&rdquo; CTA.</td>
-<td>Merge CTA is displayed.</td>
 </tr>
 <tr>
 <td>Select Product 2 and select the second shipment.</td>
@@ -70962,7 +70962,19 @@
 </tr>
 <tr>
 <td>Click on the &ldquo;Shipment&rdquo; tab.</td>
-<td>Shipment tab with the table is displayed and the last shipment number is not displayed anymore.</td>
+<td>Shipment tab with the table is displayed and the last shipment number is not displayed anymore (2 remaining shipments).</td>
+</tr>
+<tr>
+<td>On FO &gt; Go to Main menu &gt; Orders &gt; Click on the last order &ldquo;Details&rdquo;</td>
+<td>Order is displayed.</td>
+</tr>
+<tr>
+<td>Check &ldquo;Shipment tracking details&rdquo;.</td>
+<td>1 raw with carrier for product 1<br><br>1 raw with carrier for products 2 and 3</td>
+</tr>
+<tr>
+<td>Check product details table.</td>
+<td>1 raw : product 1 in 3 qty with Carrier for product 1<br><br>2 raw : product 2 in 3 qty with Carrier for product 1<br><br>3 raw : product 3 in 2 qty with carrier for products 2 and 3<br><br>4 raw : product 2 in 1 qty with carrier for products 2 and 3</td>
 </tr>
 <tr>
 <td>On the Carrier 1 line, click on the pen icon.</td>
@@ -71056,17 +71068,17 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1772780054"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1772780054"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1772780054"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1772780054"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1772780054"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1772780054"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1772780054"></script>
-    <script src="../../../../../../../js/learn.js?1772780054"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1772780054"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1772865730"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1772865730"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1772865730"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1772865730"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1772865730"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1772865730"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1772865730"></script>
+    <script src="../../../../../../../js/learn.js?1772865730"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1772865730"></script>
     
-    <script src="../../../../../../../main.js?1772780054"></script>
+    <script src="../../../../../../../main.js?1772865730"></script>
     
     
     
