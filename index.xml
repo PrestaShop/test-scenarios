@@ -127,11 +127,11 @@
       <description> blockreassurance - Upgrade Details Component : blockreassurance Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-540 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page Click on upgrade A message in green should be displayed Refresh the page The module should be upgraded to the last version </description>
     </item>
     <item>
-      <title>BO - Advanced Parameter - Authorization Server - CRUD</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-authorization-server-crud.html</link>
+      <title>BO - Advanced Parameter - Admin API - Add API Client</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-add-api-client.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-authorization-server-crud.html</guid>
-      <description>BO - Advanced Parameter - Authorization Server - CRUD Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7068 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_adminAPI/01_CRUD.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new access&amp;rdquo; New access Page is displayed correctly Fill the form with following data (App Name : &amp;ldquo;Application XYZ&amp;rdquo;, Description: &amp;ldquo;Description ABC&amp;rdquo;)</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-add-api-client.html</guid>
+      <description>BO - Advanced Parameter - Admin API - Add API Client Details Component : Core Status : To be automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7633 Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Admin API Admin API Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API Client&amp;rdquo; New API Client Page is displayed correctly Fill the form with following data</description>
     </item>
     <item>
       <title>BO - Advanced Parameters - Administration - General</title>
@@ -152,7 +152,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-crud.html</guid>
-      <description>BO - Advanced Parameters - Database - SQL Manager - CRUD Details Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1163 Steps Step Description Expected result Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed&#xA;the SQL Manager table is empty = 0 Click on &amp;ldquo;Add new SQL query &amp;quot; new page will display with</description>
+      <description>BO - Advanced Parameters - Database - SQL Manager - CRUD Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1163 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/07_database/sqlManager/01_CRUDSqlQuery.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/database/sql-manager/add-new-sql-query Steps Step Description Expected result Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed&#xA;the SQL Manager table is empty = 0 Click on &amp;ldquo;Add new SQL query &amp;quot; new page will display with</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Sort and pagination</title>
@@ -180,7 +180,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs/bo-advanced-parameters-logs-filter-sort-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs/bo-advanced-parameters-logs-filter-sort-pagination.html</guid>
-      <description>BO - Advanced Parameters - Logs - Filter sort pagination Details Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1174 Steps Step Description Expected result Go to BO&amp;gt;Advanced Parameters&amp;gt;Logs Page title contains &amp;lsquo;Logs&amp;rsquo; Change the items number to 100 per page 4 pages are displayed and the pagination number = page 1 /4 Click on next The second page is well displayed &amp;amp; the pagination number = page 2 / 4 Click on previous The first page is well displayed and the pagination number = page 1 /4 Change the items number to 50 per page 8 pages are displayed and the pagination number = page 1 /8 Sort logs by ID desc logs are sorted by ID (3 -&amp;gt; 2 -&amp;gt; 1) Sort logs by ID asc logs are sorted by ID (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Employee desc logs are sorted by Employee (z -&amp;gt; y -&amp;gt; x) Sort logs by Employee asc logs are sorted by Employee (a -&amp;gt; b -&amp;gt; c) Sort logs by Severity desc logs are sorted by Severity (4 -&amp;gt; 3 -&amp;gt; 2) Sort logs by Severity asc logs are sorted by Severity (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Message desc logs are sorted by Message (z -&amp;gt; y -&amp;gt; x) Sort logs by Message asc logs are sorted by Message (a -&amp;gt; b -&amp;gt; c) Sort logs by Object type desc logs are sorted by Object type (4 -&amp;gt; 3 -&amp;gt; 2) Sort logs by Object type asc logs are sorted by Object type (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Object ID desc logs are sorted by Object ID (4 -&amp;gt; 3 -&amp;gt; 2) Sort logs by Object ID asc logs are sorted by Object ID (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Shop context desc logs are sorted by Shop context (z -&amp;gt; y -&amp;gt; x) Sort logs by Shop context asc logs are sorted by Shop context (a -&amp;gt; b -&amp;gt; c) Sort logs by Language asc logs are sorted by Language (a -&amp;gt; b -&amp;gt; c) Sort logs by Language desc logs are sorted by Language (z -&amp;gt; y -&amp;gt; x) Sort logs by Error code desc logs are sorted by Error code (4 -&amp;gt; 3 -&amp;gt; 2) Sort logs by Error code asc logs are sorted by Error code (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Date asc logs are sorted by Date (2023 -&amp;gt; 2022 -&amp;gt; 2021) Sort logs by Date desc logs are sorted by Date (2021 -&amp;gt; 2022 -&amp;gt; 2023) Filter By id.</description>
+      <description>BO - Advanced Parameters - Logs - Filter sort pagination Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1174 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/08_logs/01_filterSortAndPagination.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/logs Steps Step Description Expected result Go to BO&amp;gt;Advanced Parameters&amp;gt;Logs Page title contains &amp;lsquo;Logs&amp;rsquo; Change the items number to 100 per page 4 pages are displayed and the pagination number = page 1 /4 Click on next The second page is well displayed &amp;amp; the pagination number = page 2 / 4 Click on previous The first page is well displayed and the pagination number = page 1 /4 Change the items number to 50 per page 8 pages are displayed and the pagination number = page 1 /8 Sort logs by ID desc logs are sorted by ID (3 -&amp;gt; 2 -&amp;gt; 1) Sort logs by ID asc logs are sorted by ID (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Employee desc logs are sorted by Employee (z -&amp;gt; y -&amp;gt; x) Sort logs by Employee asc logs are sorted by Employee (a -&amp;gt; b -&amp;gt; c) Sort logs by Severity desc logs are sorted by Severity (4 -&amp;gt; 3 -&amp;gt; 2) Sort logs by Severity asc logs are sorted by Severity (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Message desc logs are sorted by Message (z -&amp;gt; y -&amp;gt; x) Sort logs by Message asc logs are sorted by Message (a -&amp;gt; b -&amp;gt; c) Sort logs by Object type desc logs are sorted by Object type (4 -&amp;gt; 3 -&amp;gt; 2) Sort logs by Object type asc logs are sorted by Object type (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Object ID desc logs are sorted by Object ID (4 -&amp;gt; 3 -&amp;gt; 2) Sort logs by Object ID asc logs are sorted by Object ID (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Shop context desc logs are sorted by Shop context (z -&amp;gt; y -&amp;gt; x) Sort logs by Shop context asc logs are sorted by Shop context (a -&amp;gt; b -&amp;gt; c) Sort logs by Language asc logs are sorted by Language (a -&amp;gt; b -&amp;gt; c) Sort logs by Language desc logs are sorted by Language (z -&amp;gt; y -&amp;gt; x) Sort logs by Error code desc logs are sorted by Error code (4 -&amp;gt; 3 -&amp;gt; 2) Sort logs by Error code asc logs are sorted by Error code (1 -&amp;gt; 2 -&amp;gt; 3) Sort logs by Date asc logs are sorted by Date (2023 -&amp;gt; 2022 -&amp;gt; 2021) Sort logs by Date desc logs are sorted by Date (2021 -&amp;gt; 2022 -&amp;gt; 2023) Filter By id.</description>
     </item>
     <item>
       <title>BO - Advanced Parameters - Multistore - CRUD shop groups</title>
@@ -201,7 +201,28 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-smarty.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-smarty.html</guid>
-      <description> BO - Advanced Parameters - Performance - Smarty Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-1134 </description>
+      <description> BO - Advanced Parameters - Performance - Smarty Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1134 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Customer sessions - Help card</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-help-card.html</guid>
+      <description> BO - Advanced parameters - Security - Customer sessions - Help card Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12848 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Employee sessions - Outdated sessions</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-outdated-sessions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-outdated-sessions.html</guid>
+      <description> BO - Advanced parameters - Security - Employee sessions - Outdated sessions Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12843 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Security - General</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/security/bo-advanced-parameters-security-security-general.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/security/bo-advanced-parameters-security-security-general.html</guid>
+      <description> BO - Advanced parameters - Security - Security - General Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12838 </description>
     </item>
     <item>
       <title>BO - Advanced parameters - Team - Employees - Filter and Quick Edit</title>
@@ -334,7 +355,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-crud-standard-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv2/bo-crud-standard-product.html</guid>
-      <description>BO - CRUD Standard product Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4772 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/02_CRUDStandardProduct.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Standard product&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed</description>
+      <description>BO - CRUD Standard product Details Component : Core Status : To be automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4772 Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly Click on &amp;ldquo;New product&amp;rdquo; button on the top right of the page &amp;gt; Choose &amp;ldquo;Standard product&amp;rdquo; block in the modal * A modal &amp;ldquo;Add new product&amp;rdquo; is displayed</description>
     </item>
     <item>
       <title>BO - Customer Service - Merchandise returns - Delete product</title>
@@ -475,6 +496,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/productv2bo/bo-filter-products.html</guid>
       <description>BO - Filter Products Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-3349 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/03_productsBO/01_filterProducts.ts Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products * Products list page is displayed correctly&#xA;* No filter by default. All products are displayed Filter the list by ID &amp;gt; Add a number on &amp;ldquo;min&amp;rdquo; and &amp;ldquo;max&amp;rdquo; field below &amp;ldquo;ID&amp;rdquo; in column &amp;gt; Click on &amp;ldquo;Search&amp;rdquo; button on the right of the table * Products list is filtered between the 4 and 10 IDs</description>
+    </item>
+    <item>
+      <title>BO - Hall of Fame - Community Heroes</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-community-heroes.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-community-heroes.html</guid>
+      <description> BO - Hall of Fame - Community Heroes Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12859 </description>
     </item>
     <item>
       <title>BO - International - Localization - Currencies - Create Official Currency</title>
@@ -2017,11 +2045,11 @@
       <description>BO - Login- Password reminder Details Component : Core Status : Automated Automated on : 1.7.8.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-716 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/00_login/01_passwordReminder.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/prestashop-authentication-window Steps Step Description Expected result Go to BO -&amp;gt; Advanced Parameters -&amp;gt; Team -&amp;gt; Employees page and click on &amp;ldquo;Add new employee&amp;rdquo; Employees page is displayed and &amp;ldquo;Add new employee&amp;rdquo; page is displayed Set these fields:&#xA;# First name&#xA;# Last name</description>
     </item>
     <item>
-      <title>BO - Advanced Parameter - Authorization Server - Add API Client</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-authorization-server-add-api-client.html</link>
+      <title>BO - Advanced Parameter - Admin API - Edit API Client</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-edit-api-client.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-authorization-server-add-api-client.html</guid>
-      <description>BO - Advanced Parameter - Authorization Server - Add API Client Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7633 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_adminAPI/02_addAPIClient.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly Fill the form with following data</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-edit-api-client.html</guid>
+      <description>BO - Advanced Parameter - Admin API - Edit API Client Details Component : Core Status : To be automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7634 Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly Fill the form with following data (Client ID : &amp;ldquo;Client XYZ&amp;rdquo;, Client Name: &amp;ldquo;ClientName ABC&amp;rdquo;)</description>
     </item>
     <item>
       <title>BO - Advanced Parameters - Administration : Upload quota</title>
@@ -2042,7 +2070,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-export.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-export.html</guid>
-      <description>BO - Advanced Parameters - Database - SQL Manager - Export Details Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1164 Steps Step Description Expected result Go to BO &amp;gt; Advanced Parameters &amp;gt; Database &amp;gt; Add new SQL query &amp;gt; Save Message Successful creation is displayed Click on the export button The .csv file is dowloaded and is called &amp;ldquo;request_sql_1&amp;rdquo; Click on the parameter wheel button on the top right &amp;gt; Click on &amp;ldquo;Export to SQL Manager&amp;rdquo; New SQL query page is displayed Click on Save Message Successful creation is displayed Click on the export button The .</description>
+      <description>BO - Advanced Parameters - Database - SQL Manager - Export Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1164 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/07_database/sqlManager/03_exportSqlQuery.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/database/sql-manager Steps Step Description Expected result Go to BO &amp;gt; Advanced Parameters &amp;gt; Database &amp;gt; Add new SQL query &amp;gt; Save Message Successful creation is displayed Click on the export button The .csv file is dowloaded and is called &amp;ldquo;request_sql_1&amp;rdquo; Click on the parameter wheel button on the top right &amp;gt; Click on &amp;ldquo;Export to SQL Manager&amp;rdquo; New SQL query page is displayed Click on Save Message Successful creation is displayed Click on the export button The .</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Filter &#43; Delete &#43; Bulk actions</title>
@@ -2077,7 +2105,28 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-debug-mode.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-debug-mode.html</guid>
-      <description>BO - Advanced Parameters - Performance - Debug mode Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1135 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/02_performance/02_debugMode.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/performance Steps Step Description Expected result Got to BO&amp;gt;Configure&amp;gt;Advanced Parameters&amp;gt;Performance The Performance page is displayed Disabled debug mode&#xA;Click to save Update successful&#xA;Debug mode logo is no longer visible in the header Enabled debug mode&#xA;Click to save Update successful</description>
+      <description>BO - Advanced Parameters - Performance - Debug mode Details Component : Core Status : In progress Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1135 Steps Step Description Expected result Got to BO&amp;gt;Configure&amp;gt;Advanced Parameters&amp;gt;Performance The Performance page is displayed Disabled debug mode&#xA;Click to save Update successful&#xA;Debug mode logo is no longer visible in the header Enabled debug mode&#xA;Click to save Update successful&#xA;Debug mode logo is visible in the header Enabled all overrides</description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Customer sessions - Bulk action and Pagination</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-bulk-action-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-bulk-action-and-pagination.html</guid>
+      <description> BO - Advanced parameters - Security - Customer sessions - Bulk action and Pagination Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12847 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Employee sessions - Bulk action and Pagination</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-bulk-action-and-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-bulk-action-and-pagination.html</guid>
+      <description> BO - Advanced parameters - Security - Employee sessions - Bulk action and Pagination Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12842 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Security - Password Policy</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/security/bo-advanced-parameters-security-security-password-policy.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/security/bo-advanced-parameters-security-security-password-policy.html</guid>
+      <description> BO - Advanced parameters - Security - Security - Password Policy Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12839 </description>
     </item>
     <item>
       <title>BO - Advanced parameters - Team - Employees - CRUD</title>
@@ -2344,6 +2393,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-catalog-products.html</guid>
       <description>BO - Discount - Minimum purchase amount (On catalog products) Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12393 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+    </item>
+    <item>
+      <title>BO - Hall of Fame - Top companies</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-top-companies.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-top-companies.html</guid>
+      <description> BO - Hall of Fame - Top companies Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12860 </description>
     </item>
     <item>
       <title>BO - Header - Quick access</title>
@@ -3564,11 +3620,11 @@
       <description> blockreassurance - Uninstall and delete Details Component : blockreassurance Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-542 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search blockreassurance The module page should be displayed and module block reassurance should appear in the module page Click on uninstall&amp;quot; and confirm the deletion message by clicking on ok&amp;quot; A message in green should be displayed Refresh the page The module should be uninstalled and removed from the module folder </description>
     </item>
     <item>
-      <title>BO - Advanced Parameter - Authorization Server - Edit API Client</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-authorization-server-edit-api-client.html</link>
+      <title>BO - Advanced Parameter - Admin API - Links</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-links.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-authorization-server-edit-api-client.html</guid>
-      <description>BO - Advanced Parameter - Authorization Server - Edit API Client Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-7634 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_adminAPI/03_editAPIClient.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly Fill the form with following data (Client ID : &amp;ldquo;Client XYZ&amp;rdquo;, Client Name: &amp;ldquo;ClientName ABC&amp;rdquo;)</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-links.html</guid>
+      <description> BO - Advanced Parameter - Admin API - Links Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12855 </description>
     </item>
     <item>
       <title>BO - Advanced Parameters - Administration : Check notifications</title>
@@ -3589,7 +3645,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-settings.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-settings.html</guid>
-      <description>BO - Advanced Parameters - Database - SQL Manager - Settings Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-1165 Steps Step Description Expected result Go to Product page Product page is displayed Create a product Product is created Go to &amp;lsquo;Sql manager&amp;rsquo; page Page is displayed Create a new sql query : Query selected Change default file encoding to &amp;lsquo;{color:#222222}iso-8859-1{color}&amp;rsquo; Value changed&#xA;Successful message is displayed Download and open CSV file of the created query File downloaded</description>
+      <description>BO - Advanced Parameters - Database - SQL Manager - Settings Details Component : Core Status : Automated Scenario : https://forge.prestashop.com/browse/TEST-1165 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/database/sql-manager Steps Step Description Expected result Go to Product page Product page is displayed Create a product Product is created Go to &amp;lsquo;Sql manager&amp;rsquo; page Page is displayed Create a new sql query : Query selected Change default file encoding to &amp;lsquo;{color:#222222}iso-8859-1{color}&amp;rsquo; Value changed&#xA;Successful message is displayed Download and open CSV file of the created query File downloaded</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Send emails to</title>
@@ -3599,6 +3655,20 @@
       <description> BO - Advanced parameters - Email - Send emails to Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9850 </description>
     </item>
     <item>
+      <title>BO - Advanced parameters - Import - Help button</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-help-button.html</guid>
+      <description> BO - Advanced parameters - Import - Help button Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-12829 Steps Step Description Expected result Go to BO &amp;gt; Advanced parameters &amp;gt; Import The Import page is displayed correctly Click on Help button The documentation modal is opened in English Close the modal The modal is well closed </description>
+    </item>
+    <item>
+      <title>BO - Advanced Parameters - Logs - Database</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs/bo-advanced-parameters-logs-database.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs/bo-advanced-parameters-logs-database.html</guid>
+      <description> BO - Advanced Parameters - Logs - Database Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12852 </description>
+    </item>
+    <item>
       <title>BO - Advanced Parameters - Multistore - Filter sort pagination shop groups</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-filter-sort-pagination-shop-groups.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3606,11 +3676,32 @@
       <description>BO - Advanced Parameters - Multistore - Filter sort pagination shop groups Details Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1184 Steps Step Description Expected result Go to Shop Parameters &amp;gt; Général &amp;gt; Enable Multistore &amp;gt; save * A green alert &amp;ldquo;Successful update&amp;rdquo; is displayed Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options Click on &amp;quot; Add new group of stores &amp;quot; add new page is displayed Fill the informations of the new store group &amp;gt;save * The content is added to STORE GROUP and to multistore tree</description>
     </item>
     <item>
-      <title>BO - Advanced Parameters - Performance - Optional features</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-optional-features.html</link>
+      <title>BO - Advanced Parameters - Performance - Modules </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-modules.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-optional-features.html</guid>
-      <description>BO - Advanced Parameters - Performance - Optional features Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1136 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/02_performance/03_optionalFeatures.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/performance Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Customer settings &amp;gt; Click on the Groups tab Groups page is displayed Click on the Edit button next to Customer &amp;gt; Change the Discount field to 5 &amp;gt; Click on Save button Successful update message is displayed Click View my store &amp;gt; Click on the product &amp;ldquo;The best is yet to come Framed poster&amp;rdquo; The product page &amp;ldquo;The best is yet to come Framed poster&amp;rdquo; is displayed.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-modules.html</guid>
+      <description> BO - Advanced Parameters - Performance - Modules Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12828 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Customer sessions - Filter and Sort</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-filter-and-sort.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-filter-and-sort.html</guid>
+      <description> BO - Advanced parameters - Security - Customer sessions - Filter and Sort Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12846 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Employee sessions - Filter and sort</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-filter-and-sort.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-filter-and-sort.html</guid>
+      <description> BO - Advanced parameters - Security - Employee sessions - Filter and sort Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12841 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Security - Help card</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/security/bo-advanced-parameters-security-security-help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/security/bo-advanced-parameters-security-security-help-card.html</guid>
+      <description> BO - Advanced parameters - Security - Security - Help card Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12850 </description>
     </item>
     <item>
       <title>BO - Advanced parameters - Team - Employees - Bulk Actions</title>
@@ -3862,7 +3953,14 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-free-gift.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-free-gift.html</guid>
-      <description>BO - Discount - Minimum purchase amount (Free gift) Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-12395 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;The form contains errors. Please fix them and save again.</description>
+      <description>BO - Discount - Minimum purchase amount (Free gift) Details Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-12395 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;The form contains errors. Please fix them and save again.</description>
+    </item>
+    <item>
+      <title>BO - Hall of Fame - Top contributors</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-top-contributors.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-top-contributors.html</guid>
+      <description> BO - Hall of Fame - Top contributors Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12861 </description>
     </item>
     <item>
       <title>BO - Header - Search bar</title>
@@ -4887,6 +4985,13 @@
       <description>blockreassurance - Add a bloc Details Component : blockreassurance Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-546 Steps Step Description Expected result Add an icon (use the format jpg, gif, png and svg) The icon should be displayed Save the bloc An error message should be displayed Add a title The title should be added in all languages Add a description in all languages The description should be added in all languages Select none to redirection and save A message should be displayed and we should be redirected to the first page of the module configuration Click on the switch button to enable this new bloc The switch button should be blue and a message should appear Go to the front office and check The new bloc should appear and shouldn&amp;rsquo;t be clickable Edit in the back office this new bloc and change redirection by Page cms A dropdown list should appear Select the page cms wanted and save A message should be displayed and we should be redirected to the first page of the module configuration Go to the front office and check The bloc should be clickable and you must be redirected to the cms page selected in the back office Edit in the back office this new bloc and change redirection by url A text area should be display Add the link https://prestashop.</description>
     </item>
     <item>
+      <title>BO - Advanced Parameter - Admin API - Admin API Enable/Disable</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-admin-api-enable-disable.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-admin-api-enable-disable.html</guid>
+      <description> BO - Advanced Parameter - Admin API - Admin API Enable/Disable Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12856 </description>
+    </item>
+    <item>
       <title>BO - Advanced Parameters - Database - DB Backup - Backup options</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-backup-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4898,7 +5003,7 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-filter-sort-pagination.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/sql-manager/bo-advanced-parameters-database-sql-manager-filter-sort-pagination.html</guid>
-      <description>BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination Details Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1166 Steps Step Description Expected result Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed&#xA;the SQL Manager table is empty = 0 create 20 new SQL query SQL Manager page is well displayed</description>
+      <description>BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1166 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/07_database/sqlManager/04_filterSortAndPagination.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/database/sql-manager Steps Step Description Expected result Go to advanced Parameters &amp;gt; Database &amp;gt; SQL Manager SQL Manager page is well displayed&#xA;the SQL Manager table is empty = 0 create 20 new SQL query SQL Manager page is well displayed</description>
     </item>
     <item>
       <title>BO - Advanced parameters - Email - Enable the store name as a prefix in the email&#39;s subject</title>
@@ -4908,6 +5013,20 @@
       <description> BO - Advanced parameters - Email - Enable the store name as a prefix in the email&#39;s subject Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-9851 </description>
     </item>
     <item>
+      <title>BO - Advanced parameters - Import - Links</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-links.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-links.html</guid>
+      <description> BO - Advanced parameters - Import - Links Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12831 </description>
+    </item>
+    <item>
+      <title>BO - Advanced Parameters - Logs - Help card</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs/bo-advanced-parameters-logs-help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/logs/bo-advanced-parameters-logs-help-card.html</guid>
+      <description> BO - Advanced Parameters - Logs - Help card Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12853 </description>
+    </item>
+    <item>
       <title>BO - Advanced Parameters - Multistore - Filter sort pagination  shops</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-filter-sort-pagination-shops.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -4915,11 +5034,25 @@
       <description>BO - Advanced Parameters - Multistore - Filter sort pagination shops Details Component : Core Status : In progress Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1185 Steps Step Description Expected result Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options Click on &amp;quot; Add new store &amp;quot; add new page is displayed Fill the informations of the new shop &amp;gt;save * The content is added to shop list and to multistore tree</description>
     </item>
     <item>
-      <title>BO - Advanced Parameters - Performance - CCC</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-ccc.html</link>
+      <title>BO - Advanced Parameters - Performance - Optional features</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-optional-features.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-ccc.html</guid>
-      <description> BO - Advanced Parameters - Performance - CCC Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-1137 </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-optional-features.html</guid>
+      <description>BO - Advanced Parameters - Performance - Optional features Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1136 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/02_performance/03_optionalFeatures.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/performance Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Customer settings &amp;gt; Click on the Groups tab Groups page is displayed Click on the Edit button next to Customer &amp;gt; Change the Discount field to 5 &amp;gt; Click on Save button Successful update message is displayed Click View my store &amp;gt; Click on the product &amp;ldquo;The best is yet to come Framed poster&amp;rdquo; The product page &amp;ldquo;The best is yet to come Framed poster&amp;rdquo; is displayed.</description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Customer sessions - CRUD</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-crud.html</guid>
+      <description> BO - Advanced parameters - Security - Customer sessions - CRUD Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12845 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Employee sessions - CRUD</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-crud.html</guid>
+      <description> BO - Advanced parameters - Security - Employee sessions - CRUD Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12840 </description>
     </item>
     <item>
       <title>BO - Advanced parameters - Team - Employees - Sort pagination</title>
@@ -5136,7 +5269,14 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-free-shipping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-free-shipping.html</guid>
-      <description>BO - Discount - Minimum purchase amount (On Free shipping) Details Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-12396 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The form contains errors. Please fix them and save again.</description>
+      <description>BO - Discount - Minimum purchase amount (On Free shipping) Details Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-12396 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The form contains errors. Please fix them and save again.</description>
+    </item>
+    <item>
+      <title>BO - Hall of Fame - New contributors</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-new-contributors.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-new-contributors.html</guid>
+      <description> BO - Hall of Fame - New contributors Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12862 </description>
     </item>
     <item>
       <title>BO - Header - View my shop</title>
@@ -5825,6 +5965,13 @@
       <description>Wishlist module - Uninstall/Install module Details Component : blockwishlist Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-4229 Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search blockwishlist The module page list should be displayed and Wishlist module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
+      <title> BO - Advanced parameters - Import - Language of the file</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-language-of-the-file.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-language-of-the-file.html</guid>
+      <description> BO - Advanced parameters - Import - Language of the file Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12832 </description>
+    </item>
+    <item>
       <title>[FO] Upgrade from 1.6.1.24 to last build and then exploratory test on FO</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/upgrade/fo-upgrade-from-1-6-1-24-to-last-build-and-then-exploratory-test-on-fo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5867,6 +6014,13 @@
       <description> blockreassurance - Drag and drop bloc Details Component : blockreassurance Status : Approved Scenario : https://forge.prestashop.com/browse/TEST-547 Steps Step Description Expected result Select the second bloc and change his place to the first place The bloc should be in the first position Go to front office The first bloc should be the one we change his position </description>
     </item>
     <item>
+      <title>BO - Advanced Parameter - Admin API - Force security in debug mode Enable/Disable</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-force-security-in-debug-mode-enable-disable.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-force-security-in-debug-mode-enable-disable.html</guid>
+      <description> BO - Advanced Parameter - Admin API - Force security in debug mode Enable/Disable Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12857 </description>
+    </item>
+    <item>
       <title>BO - Advanced Parameters - Database - DB Backup - Help card</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/database/db-backup/bo-advanced-parameters-database-db-backup-help-card.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -5895,11 +6049,25 @@
       <description>BO - Advanced Parameters - Multistore - Filter sort pagination shops URLs Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1186 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/05_filterSortAndPaginationShopUrls.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/logs/advanced-parameters/multistore Steps Step Description Expected result Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options Create 3 shops * the content is updated .</description>
     </item>
     <item>
-      <title>BO - Advanced Parameters - Performance - Media servers</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-media-servers.html</link>
+      <title>BO - Advanced Parameters - Performance - CCC</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-ccc.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-media-servers.html</guid>
-      <description> BO - Advanced Parameters - Performance - Media servers Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-1138 </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-ccc.html</guid>
+      <description> BO - Advanced Parameters - Performance - CCC Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1137 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Customer sessions - Outdated sessions</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-outdated-sessions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/customer-sessions/bo-advanced-parameters-security-customer-sessions-outdated-sessions.html</guid>
+      <description> BO - Advanced parameters - Security - Customer sessions - Outdated sessions Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12844 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Security - Employee sessions - Help card</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/security/employee-sessions/bo-advanced-parameters-security-employee-sessions-help-card.html</guid>
+      <description> BO - Advanced parameters - Security - Employee sessions - Help card Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12849 </description>
     </item>
     <item>
       <title>BO - Advanced parameters - Team - Employees - Employees options</title>
@@ -6056,6 +6224,13 @@
       <description>BO - Duplicate product Details Component : Core Status : Automated Automated on : 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4822 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/06_duplicateProduct.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products Products list page is displayed correctly Filter with reference &amp;gt; Click on &amp;ldquo;Search&amp;rdquo; button Only one product is displayed Duplicate the product by using the &amp;ldquo;three dots&amp;rdquo; icon on the right &amp;gt; Click on Duplicate A modal is displayed with two buttons:</description>
     </item>
     <item>
+      <title>BO - Hall of Fame - How to contribute</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-how-to-contribute.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/hall-of-fame/bo-hall-of-fame-how-to-contribute.html</guid>
+      <description> BO - Hall of Fame - How to contribute Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12863 </description>
+    </item>
+    <item>
       <title>BO - Header - Check notifications</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/header/bo-header-check-notifications.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6182,11 +6357,11 @@
       <description>BO - Shop Parameters - Customer Settings - Ask for birth date Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1087 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/04_customerSettings/01_customers/05_askForBirthDate.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/customers-settings/customer-settings Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Customer Settings See that Ask for birth date option is enabled by default Click View my store &amp;gt; Add any product to your cart &amp;gt; Proceed to checkout See in Step 1 - Personal Information : Birthdate field is displayed as optional.</description>
     </item>
     <item>
-      <title>BO - Shop Parameters - General - Enable / Disable Supplier</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-supplier.html</link>
+      <title>BO - Shop Parameters - General : Round type</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-type.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-supplier.html</guid>
-      <description>BO - Shop Parameters - General - Enable / Disable Supplier Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1038 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/08_enableDisableSuppliers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters -&amp;gt; General Page title contains &amp;lsquo;Preferences&amp;rsquo; Enable Display suppliers &amp;gt; Save Message Successful update is displayed Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Tab Suppliers Page title contains &amp;lsquo;Suppliers&amp;rsquo;</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-type.html</guid>
+      <description> BO - Shop Parameters - General : Round type Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12851 </description>
     </item>
     <item>
       <title>BO - Shop Parameters - Order Settings : Recalculate shipping costs after editing the order</title>
@@ -6546,6 +6721,13 @@
       <description>Wishlist module - Uninstall and delete module Details Component : blockwishlist Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-4230 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/01_installation/05_uninstallAndDeleteModule.ts Steps Step Description Expected result Go to BO &amp;gt; Modules &amp;gt; Module manager and search blockwishlist The module page list should be displayed and Wishlist module should be displayed on the list Click on the button at the right of the module &amp;gt; Choose on the list &amp;ldquo;Uninstall&amp;rdquo; option A modal is open with:</description>
     </item>
     <item>
+      <title> BO - Advanced parameters - Import - Field separator</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-field-separator.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-field-separator.html</guid>
+      <description> BO - Advanced parameters - Import - Field separator Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12833 </description>
+    </item>
+    <item>
       <title>[BO] Upgrade from 1.6.1.24 to last build and then exploratory test on BO</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/upgrade/bo-upgrade-from-1-6-1-24-to-last-build-and-then-exploratory-test-on-bo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -6581,11 +6763,18 @@
       <description>Autoupgrade - Web Version - Update on local channel Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-10739 Steps Step Description Expected result Install A fresh last version of prestashop with php 8.1 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Manager &amp;quot; page&amp;quot; Module Manager page is displayed correctly * Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
     </item>
     <item>
-      <title>BO - Advanced parameters - Email - Test email configuration</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-test-email-configuration.html</link>
+      <title>BO - Advanced Parameter - Admin API - Help cart</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-help-cart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-test-email-configuration.html</guid>
-      <description>BO - Advanced parameters - Email - Test email configuration Details Component : Core Status : To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1146 Steps Step Description Expected result Go to BO &amp;gt; Advanced parameters &amp;gt; E-mail page Page title is &amp;lsquo;E-mail&amp;rsquo; Configure your email parameters in block Email &amp;gt; Save The settings have been successfully updated. Launch maildev in terminal maildev is launched In Test your email configuration block &amp;gt; Click Send an email test A validation message is displayed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/admin-api/bo-advanced-parameter-admin-api-help-cart.html</guid>
+      <description> BO - Advanced Parameter - Admin API - Help cart Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12858 </description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Email - DKIM signing</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-dkim-signing.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-dkim-signing.html</guid>
+      <description> BO - Advanced parameters - Email - DKIM signing Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12854 </description>
     </item>
     <item>
       <title>BO - Advanced Parameters - Multistore : Quick edit and bulk actions shop Urls</title>
@@ -6595,11 +6784,11 @@
       <description>BO - Advanced Parameters - Multistore : Quick edit and bulk actions shop Urls Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-1187 Steps Step Description Expected result Go to Advanced Parameters &amp;gt;Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options Click on &amp;quot; Add new store &amp;quot; add new page is displayed Fill the informations of the new shop &amp;gt;save * The content is added to shop list and to multistore tree</description>
     </item>
     <item>
-      <title>BO - Advanced Parameters - Performance - Caching</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-caching.html</link>
+      <title>BO - Advanced Parameters - Performance - Media servers</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-media-servers.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-caching.html</guid>
-      <description> BO - Advanced Parameters - Performance - Caching Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-1139 </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-media-servers.html</guid>
+      <description> BO - Advanced Parameters - Performance - Media servers Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1138 </description>
     </item>
     <item>
       <title>BO - Advanced parameters - Team - Employees - Help card</title>
@@ -6840,11 +7029,11 @@
       <description>BO - Shop Parameters - Customer Settings - Enable partner offers Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1088 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/04_customerSettings/01_customers/06_enablePartnerOffers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/customers-settings/customer-settings Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Customers Settings See that Enable partner offers option is checked. Click View my store &amp;gt; Add any product to your cart &amp;gt; Proceed to checkout &amp;gt; In Step 1 &amp;gt; In Order as guest section &amp;gt; Check the option &amp;ldquo;Receive offers from our partners&amp;rdquo; &amp;gt; Proceed to checkout until checkout is done See message YOUR ORDER IS CONFIRMED Proceed to checkout until checkout is done Go back to BO &amp;gt; Shop Parameters &amp;gt; Customers Settings &amp;gt; Disable the option &amp;ldquo;Enable partner offers&amp;rdquo; &amp;gt; Save See a red alert &amp;ldquo;Make sure partner offers are not set as required in the Customers section of the back office before disabling them.</description>
     </item>
     <item>
-      <title>BO - Shop Parameters - General - Enable / Disable Brands</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</link>
+      <title>BO - Shop Parameters - General - Enable / Disable Supplier</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-supplier.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</guid>
-      <description>BO - Shop Parameters - General - Enable / Disable Brands Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1039 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/09_enableDisableBrands.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Brands See that Brands page is displayed. Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers Blue alert is displayed : &amp;ldquo;The display of your brands is enabled on your store.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-supplier.html</guid>
+      <description>BO - Shop Parameters - General - Enable / Disable Supplier Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1038 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/08_enableDisableSuppliers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters -&amp;gt; General Page title contains &amp;lsquo;Preferences&amp;rsquo; Enable Display suppliers &amp;gt; Save Message Successful update is displayed Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Tab Suppliers Page title contains &amp;lsquo;Suppliers&amp;rsquo;</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Order Settings - Delayed shipping</title>
@@ -7085,6 +7274,13 @@
       <description>Wishlist module - Edit and delete product in a list Details Component : blockwishlist Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-3951 Steps Step Description Expected result Go to the customer wishlist page Wishlists are displayed. The number associated (in brackets) represents the number of unique items in a list Select the custom wishlist You get all the products added in the previous test Click on the garbage can for the single product with stock A modal appears asking you to confirm the deletion Confirm the deletion The product is removed from the list Click on the picture of the single product without stock You are redirected to the product page.</description>
     </item>
     <item>
+      <title> BO - Advanced parameters - Import - Multiple value separator</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-multiple-value-separator.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-multiple-value-separator.html</guid>
+      <description> BO - Advanced parameters - Import - Multiple value separator Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12834 </description>
+    </item>
+    <item>
       <title>[BO] Upgrade from 1.7.7.8 to last build and then exploratory test on BO</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/upgrade/bo-upgrade-from-1-7-7-8-to-last-build-and-then-exploratory-test-on-bo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7120,11 +7316,11 @@
       <description>Autoupgrade - Web Version - the new UI part Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11260 Steps Step Description Expected result * Go to the update assistant page * You should see the configuration page of the module with a little problem on UI * Open a terminal in your folder [yourshop]/modules/autoupgrade&#xA;* launch the command : {code:java}&#xA;cd _dev{code}&#xA;* Launch the command :&#xA;{code:java}</description>
     </item>
     <item>
-      <title>BO - Advanced parameters - Email - Help button</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-help-button.html</link>
+      <title>BO - Advanced parameters - Email - Test email configuration</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-test-email-configuration.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-help-button.html</guid>
-      <description> BO - Advanced parameters - Email - Help button Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-10272 Steps Step Description Expected result Go to BO &amp;gt; Advanced parameters &amp;gt; Email The Email page is displayed correctly Click on Help button The documentation modal is opened in English Close the modal The modal is well closed </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-test-email-configuration.html</guid>
+      <description>BO - Advanced parameters - Email - Test email configuration Details Component : Core Status : To be automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1146 Steps Step Description Expected result Go to BO &amp;gt; Advanced parameters &amp;gt; E-mail page Page title is &amp;lsquo;E-mail&amp;rsquo; Configure your email parameters in block Email &amp;gt; Save The settings have been successfully updated. Launch maildev in terminal maildev is launched In Test your email configuration block &amp;gt; Click Send an email test A validation message is displayed</description>
     </item>
     <item>
       <title>BO - Advanced Parameters - Multistore - Edit URL options</title>
@@ -7134,11 +7330,11 @@
       <description>BO - Advanced Parameters - Multistore - Edit URL options Details Component : Core Status : In progress Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1189 Steps Step Description Expected result Go to BO &amp;gt; Advanced Parameters &amp;gt; Multistore Multistore page opens * Click on your shop 1 url in Multitsore Tree * Click button Edit&#xA;* Disable option &amp;ldquo;Is it the main URL for this shop?&amp;rdquo; and Disable the shop</description>
     </item>
     <item>
-      <title>BO - Advanced Parameters - Performance - Clear cache</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-clear-cache.html</link>
+      <title>BO - Advanced Parameters - Performance - Caching</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-caching.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-clear-cache.html</guid>
-      <description> BO - Advanced Parameters - Performance - Clear cache Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1140 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/02_performance/07_clearCache.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/performance Steps Step Description Expected result Go to BO &amp;gt; Configure &amp;gt; Advanced parameters &amp;gt; Performance The Performance page is displayed Click to Clear cache All caches cleared successfully </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-caching.html</guid>
+      <description> BO - Advanced Parameters - Performance - Caching Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-1139 </description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Apply a discount to Specific product</title>
@@ -7302,11 +7498,11 @@
       <description>BO - Shipping - Carriers - Shipping locations and costs Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-9731 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/07_shippingLocationsAndCosts.ts Steps Step Description Expected result Go to BO &amp;gt; Shipping &amp;gt; Carriers Carriers page displayed Click on Add new carrier A new page is well displayed&#xA;Logo is displayed&#xA;4 tabs are displayed :&#xA;# General settings # Shipping locations and costs # Size, weight, and group access</description>
     </item>
     <item>
-      <title>BO - Shop Parameters - General - Enable / Disable Best sellers</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-best-sellers.html</link>
+      <title>BO - Shop Parameters - General - Enable / Disable Brands</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-best-sellers.html</guid>
-      <description>BO - Shop Parameters - General - Enable / Disable Best sellers Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1042 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/10_enableDisableBestSellers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Best sellers See that Best sellers page is displayed. Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Disable Display Best sellers &amp;gt; Save Page title contains &amp;lsquo;Preferences&amp;rsquo;</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</guid>
+      <description>BO - Shop Parameters - General - Enable / Disable Brands Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1039 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/09_enableDisableBrands.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Brands See that Brands page is displayed. Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers Blue alert is displayed : &amp;ldquo;The display of your brands is enabled on your store.</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Order Settings - Terms of service</title>
@@ -7463,6 +7659,13 @@
       <description> Uninstall and delete Details Component : ps_themecusto Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-433 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manger and search ps_themecusto The module page should be displayed and module ps_themecusto should appear in the module page Click on uninstall and confirm the deletion message by clicking on ok A message should appear in green to indicate that the module is uninstalled Refresh the page The module should be uninstalled and removed from the module folder </description>
     </item>
     <item>
+      <title> BO - Advanced parameters - Import - Delete all categories before import</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-delete-all-categories-before-import.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-delete-all-categories-before-import.html</guid>
+      <description> BO - Advanced parameters - Import - Delete all categories before import Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12835 </description>
+    </item>
+    <item>
       <title> BO - CRUD Virtual product</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/productv2bo/bo-crud-virtual-product.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7498,6 +7701,13 @@
       <description>Autoupgrade - Web Version - Update on online channel Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-10136 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful&#xA;* Dashboard displayed</description>
     </item>
     <item>
+      <title>BO - Advanced parameters - Email - Help button</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/email/bo-advanced-parameters-email-help-button.html</guid>
+      <description> BO - Advanced parameters - Email - Help button Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-10272 Steps Step Description Expected result Go to BO &amp;gt; Advanced parameters &amp;gt; Email The Email page is displayed correctly Click on Help button The documentation modal is opened in English Close the modal The modal is well closed </description>
+    </item>
+    <item>
       <title>BO - Advanced Parameters - Multistore : Multistore options</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-multistore-options.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7505,11 +7715,11 @@
       <description>BO - Advanced Parameters - Multistore : Multistore options Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-1190 Steps Step Description Expected result Go to BO &amp;gt; Advanced parameters &amp;gt; Multistore Multistore page is displayed In block Multistore options See Default store is the name of your current shop Click on the dropdown &amp;gt; Choose &amp;ldquo;new shop&amp;rdquo; as your default shop &amp;gt; Save The settings have been successfully updated.</description>
     </item>
     <item>
-      <title>BO - Advanced Parameters - Performance - Help button</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-help-button.html</link>
+      <title>BO - Advanced Parameters - Performance - Clear cache</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-clear-cache.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-help-button.html</guid>
-      <description> BO - Advanced Parameters - Performance - Help button Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-10271 Steps Step Description Expected result Go to BO &amp;gt; Advanced parameters &amp;gt; Performance The Performance page is displayed correctly Click on Help button The documentation modal is opened in English Close the modal The modal is well closed </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-clear-cache.html</guid>
+      <description> BO - Advanced Parameters - Performance - Clear cache Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1140 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/02_performance/07_clearCache.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/performance Steps Step Description Expected result Go to BO &amp;gt; Configure &amp;gt; Advanced parameters &amp;gt; Performance The Performance page is displayed Click to Clear cache All caches cleared successfully </description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Apply a discount to Cheapest product</title>
@@ -7631,11 +7841,11 @@
       <description>BO - Shipping - Carriers - Size and weight Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-9736 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/08_sizeAndWeight.ts Steps Step Description Expected result Go to BO &amp;gt; Shipping &amp;gt; Carriers Carriers page diplayed Click on Add new carrier A new page is well displayed.&#xA;Logo is displayed&#xA;4 tabs are displayed :&#xA;# General settings # Shipping locations and costs # Size, weight, and group access</description>
     </item>
     <item>
-      <title>BO - Shop Parameters - General - Enable / disable multistore</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html</link>
+      <title>BO - Shop Parameters - General - Enable / Disable Best sellers</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-best-sellers.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html</guid>
-      <description>BO - Shop Parameters - General - Enable / disable multistore Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1041 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/11_enableDisableMultistore.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO&amp;gt; Shop Parameters&amp;gt; General Preferences page is displayed on General tab Enable Multistore YES,&#xA;save. Successful update message is displayed. Go to Advanced parameters&amp;gt; Mutistore Multistore page is well displayed.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-best-sellers.html</guid>
+      <description>BO - Shop Parameters - General - Enable / Disable Best sellers Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1042 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/10_enableDisableBestSellers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Best sellers See that Best sellers page is displayed. Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Disable Display Best sellers &amp;gt; Save Page title contains &amp;lsquo;Preferences&amp;rsquo;</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Order Settings - Terms and conditions</title>
@@ -7757,6 +7967,13 @@
       <description> Upgrade Details Component : ps_emailalerts Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-635 Steps Step Description Expected result Go to back office -&amp;gt; Modules -&amp;gt; Module manager and search ps_emailalerts The module page should be displayed and module ps_emailalerts should appear in the module page Click on upgrade The message should appear in green to indicate that the module is upgraded Refresh the page The module should be upgraded to the last version </description>
     </item>
     <item>
+      <title> BO - Advanced parameters - Import - Skip thumbnails regeneration</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-skip-thumbnails-regeneration.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-skip-thumbnails-regeneration.html</guid>
+      <description> BO - Advanced parameters - Import - Skip thumbnails regeneration Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12836 </description>
+    </item>
+    <item>
       <title>[FO] Upgrade from 1.7.4 to last build and then exploratory test on FO</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/upgrade/fo-upgrade-from-1-7-4-to-last-build-and-then-exploratory-test-on-fo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7776,6 +7993,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/precondition/autoupgrade-web-version-install-an-1-7-8-9-on-php-7-4.html</guid>
       <description>Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4 Details Component : Core Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-11313 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+    </item>
+    <item>
+      <title>BO - Advanced Parameters - Multistore - Attributes &amp; Features</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-attributes-features.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-attributes-features.html</guid>
+      <description>BO - Advanced Parameters - Multistore - Attributes &amp;amp; Features Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-12864 Steps Step Description Expected result Go to Advanced Parameters &amp;gt; Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options Click on &amp;ldquo;Add new store&amp;rdquo; Add new page is displayed Fill the informations of the new shop &amp;gt; Save * The content is added to shop list and to multistore tree</description>
+    </item>
+    <item>
+      <title>BO - Advanced Parameters - Performance - Help button</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/performance/bo-advanced-parameters-performance-help-button.html</guid>
+      <description> BO - Advanced Parameters - Performance - Help button Details Component : Core Status : To be automated Scenario : https://forge.prestashop.com/browse/TEST-10271 Steps Step Description Expected result Go to BO &amp;gt; Advanced parameters &amp;gt; Performance The Performance page is displayed correctly Click on Help button The documentation modal is opened in English Close the modal The modal is well closed </description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Apply a discount to Selected product(s) </title>
@@ -7853,6 +8084,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-statistics-of-the-page.html</guid>
       <description>BO - Orders - Statistics of the page Details Component : Core Status : Blocked Scenario : https://forge.prestashop.com/browse/TEST-730 Steps Step Description Expected result Go to FO &amp;gt; Add products to Cart Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Non-ordered carts displayed Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Conversion Rate Converting your visitors to customers&#xA;When a visitor buys an item, he becomes a customer.</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - General - Enable / disable multistore</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html</guid>
+      <description>BO - Shop Parameters - General - Enable / disable multistore Details Component : Core Status : Automated Automated on : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-1041 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/11_enableDisableMultistore.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO&amp;gt; Shop Parameters&amp;gt; General Preferences page is displayed on General tab Enable Multistore YES,&#xA;save. Successful update message is displayed. Go to Advanced parameters&amp;gt; Mutistore Multistore page is well displayed.</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Order Settings - Set backorder status</title>
@@ -7953,6 +8191,13 @@
       <description>Shipping Details Component : Core Status : Automated Automated on : 9.1.x, 9.0.x Scenario : https://forge.prestashop.com/browse/TEST-10131 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/BO/09_shipping.ts Steps Step Description Expected result Go to BO &amp;gt; Dashboard page The dashboard page is displayed&#xA;No JS errors are triggered Go to Shipping &amp;gt; Carriers The Carriers page is displayed&#xA;No JS errors are triggered Click on Add new carrier The Add new Carriers page is displayed&#xA;No JS errors are triggered Go back to Shipping &amp;gt; Carriers page</description>
     </item>
     <item>
+      <title> BO - Advanced parameters - Import - Force all ID numbers</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-force-all-id-numbers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-force-all-id-numbers.html</guid>
+      <description> BO - Advanced parameters - Import - Force all ID numbers Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12837 </description>
+    </item>
+    <item>
       <title>[BO] Upgrade from 1.7.4 to last build and then exploratory test on BO</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/upgrade/bo-upgrade-from-1-7-4-to-last-build-and-then-exploratory-test-on-bo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -7979,6 +8224,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</guid>
       <description>Autoupgrade - Web Version - Verification during the post Upgrade page Details Component : Core Status : In progress Scenario : https://forge.prestashop.com/browse/TEST-11316 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.4 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+    </item>
+    <item>
+      <title>BO - Advanced Parameters - Multistore - Admin API</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-admin-api.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/multistore/bo-advanced-parameters-multistore-admin-api.html</guid>
+      <description>BO - Advanced Parameters - Multistore - Admin API Details Component : Core Status : IN REVIEW Scenario : https://forge.prestashop.com/browse/TEST-12865 Steps Step Description Expected result Go to Advanced Parameters &amp;gt; Multistore Multistore page opens with 3 blocks : * Multistore tree * Multistore list * Multistore options Click on &amp;ldquo;Add new store&amp;rdquo; Add new page is displayed Fill the informations of the new shop &amp;gt; Save * The content is added to shop list and to multistore tree</description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Exclude discounted products</title>
@@ -8147,6 +8399,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
       <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : Deprecated Scenario : https://forge.prestashop.com/browse/TEST-11312 Steps Step Description Expected result Install a fresh 1.7.8.9 on php 7.1 * The new shop is installed&#xA;* The selection to BO or FO is displayed Go to the BO. Log in page is displayed. Log in with email and password set during installation. * Connection successful</description>
+    </item>
+    <item>
+      <title>BO - Advanced parameters - Import - Send notification email</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-send-notification-email.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/advanced-parameters/import/bo-advanced-parameters-import-send-notification-email.html</guid>
+      <description> BO - Advanced parameters - Import - Send notification email Details Status : Sandbox Scenario : https://forge.prestashop.com/browse/TEST-12830 </description>
     </item>
     <item>
       <title>BO - Cart rules - Actions - Send a free gift</title>
