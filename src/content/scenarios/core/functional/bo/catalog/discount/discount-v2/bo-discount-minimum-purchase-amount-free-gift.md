@@ -5,7 +5,7 @@ weight: 3
 
 # BO - Discount - Minimum purchase amount (Free gift)
 ## Details
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12395
 
 ## Steps
