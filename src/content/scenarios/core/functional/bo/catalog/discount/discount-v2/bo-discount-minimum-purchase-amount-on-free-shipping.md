@@ -28,6 +28,8 @@ weight: 4
 | Click on “view my store”> Go to cart > refresh page | We have this result :<br>2 items €57.72<br>Shipping : €7.00<br>Total (tax incl.) €64.72 |
 | Add code promo | You cannot use this voucher in your country of delivery |
 | Go back to BO > Catalog > Discount > Click to edit button discount > Change minimum amount and discount value | Sucessfull message: Successful update |
+| Click on “view my store”> Go to cart > refresh page | We have this result :<br>2 items €57.72<br>Shipping : €7.00<br>Total (tax incl.) €64.72 |
+| Add code promo | You cannot use this voucher in your country of delivery |
 | Go back to BO > Catalog > Discount > Click to delete button discount | Display of the confirmation modal |
 | Click to Delete | Successful deletion notification |
 | Go to FO > Go to shopping cart | We have this :<br><br>2 items €69.26<br>Shipping Free<br>Total (tax incl.) €69.26 |
