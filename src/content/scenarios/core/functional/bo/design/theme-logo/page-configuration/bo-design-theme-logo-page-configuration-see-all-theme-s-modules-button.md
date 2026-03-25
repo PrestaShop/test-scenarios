@@ -14,4 +14,4 @@ weight: 4
 | ----- | ----- |
 | Go to Design > Theme & Logo | Theme & Logo page is displayed<br>Title contains Theme & Logo |
 | Click on Pages Configuration tab | Pages Configuration is displayed |
-| Click on *See all theme's modules* button | Module manager page is well displayed |
+| Click on *See all theme's modules* button | Module manager page is well displayed<br>The category filter is "Theme modules" |
