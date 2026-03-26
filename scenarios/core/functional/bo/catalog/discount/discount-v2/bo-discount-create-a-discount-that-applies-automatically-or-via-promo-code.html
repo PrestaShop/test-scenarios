@@ -22,13 +22,13 @@
     <title>BO - Discount - Create a discount that applies automatically or via promo code  :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1774422005" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1774422005" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1774422005" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1774422005" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1774422005" rel="stylesheet">
-    <link href="../../../../../../../style.css?1774422005" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1774508778" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1774508778" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1774508778" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1774508778" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1774508778" rel="stylesheet">
+    <link href="../../../../../../../style.css?1774508778" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1774422005"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1774508778"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -72538,7 +72538,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <h1 id="bo---discount---create-a-discount-that-applies-automatically-or-via-promo-code">BO - Discount - Create a discount that applies automatically or via promo code<a href="#bo---discount---create-a-discount-that-applies-automatically-or-via-promo-code"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
-<li><strong>Status</strong> : In progress</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-11288">https://forge.prestashop.com/browse/TEST-11288</a></li>
 </ul>
 
@@ -72574,6 +72574,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <td>Fill form &gt; Save</td>
 <td>Discount page displayed<br><br>Successful Message: Successful update<br>Discount list = 1</td>
 </tr>
+<tr>
+<td>Go to FO &gt; Add a product &gt; Checkout</td>
+<td>1 item€34.80<br>Discount(s)-€10.00<br>ShippingFree<br>Total (tax incl.)€24.80<br> * test<br>-€10.00<br> <br><br>Discount applied automatically</td>
+</tr>
+<tr>
+<td>BO &gt; edit the discount</td>
+<td>Successful update</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Add a product &gt; Checkout</td>
+<td>1 item€34.80<br>ShippingFree<br>Total (tax incl.)€34.80<br><br> <br><br>Discount doesn&rsquo;t applied automatically</td>
+</tr>
+<tr>
+<td>Fill promo code field</td>
+<td>1 item€34.80<br>Discount(s)-€10.00<br>ShippingFree<br>Total (tax incl.)€24.80<br> * __test<br>-€10.00</td>
+</tr>
+<tr>
+<td>BO &gt; edit the discount &gt; click to Generate button</td>
+<td>New random promo code displayed</td>
+</tr>
+<tr>
+<td>click to Generate button</td>
+<td>Another new random promo code displayed</td>
+</tr>
+<tr>
+<td>Click to save</td>
+<td>Successful update</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Add a product &gt; Checkout</td>
+<td>1 item€34.80<br>ShippingFree<br>Total (tax incl.)€34.80<br><br> <br><br>Discount doesn&rsquo;t applied automatically</td>
+</tr>
+<tr>
+<td>Fill promo code field</td>
+<td>1 item€34.80<br>Discount(s)-€10.00<br>ShippingFree<br>Total (tax incl.)€24.80<br> * __test<br>-€10.00</td>
+</tr>
+<tr>
+<td>Proceed to checkout &gt; fill form and Place Order</td>
+<td>Your order is confirmed<br><br>Subtotal<br>€34.80<br>Discount<br>- €10.00<br>Shipping and handling<br>Free<br>Total (tax incl.)<br>€24.8</td>
+</tr>
+<tr>
+<td>BO &gt; Discount &gt; Delete the discount</td>
+<td>Discount deleted</td>
+</tr>
 </tbody>
 </table>
 
@@ -72594,17 +72638,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1774422005"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1774422005"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1774422005"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1774422005"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1774422005"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1774422005"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1774422005"></script>
-    <script src="../../../../../../../js/learn.js?1774422005"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1774422005"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1774508778"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1774508778"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1774508778"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1774508778"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1774508778"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1774508778"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1774508778"></script>
+    <script src="../../../../../../../js/learn.js?1774508778"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1774508778"></script>
     
-    <script src="../../../../../../../main.js?1774422005"></script>
+    <script src="../../../../../../../main.js?1774508778"></script>
     
     
     
