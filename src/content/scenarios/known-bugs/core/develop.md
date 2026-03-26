@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (30 campaigns / 36 issues)
+# Known bugs (31 campaigns / 37 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
@@ -24,6 +24,9 @@ weight: 1
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts)** :
   * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
+* **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts)** :
+  * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
+  * [PrestaShop#41057 : [Discount v2] Can't remove a delivery condition](https://github.com/PrestaShop/PrestaShop/issues/41057)
 * **[tests/UI/campaigns/functional/BO/03_catalog/08_stocks/01_movements/01_filterMovements.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/08_stocks/01_movements/01_filterMovements.ts)** :
   * [PrestaShop#34337 : Stock Movement - Filter by Employee trigger multiple requests](https://github.com/PrestaShop/PrestaShop/issues/34337)
   * [PrestaShop#34334 : Stock Movement - Multiple Advanced Filters "Employee & Categories" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/34334)

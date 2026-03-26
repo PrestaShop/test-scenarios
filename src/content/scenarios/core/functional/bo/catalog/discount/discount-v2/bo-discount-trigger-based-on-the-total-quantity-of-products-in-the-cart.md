@@ -5,7 +5,7 @@ weight: 9
 
 # BO - Discount - Trigger based on the total quantity of products in the cart
 ## Details
-* **Status** : In progress
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11279
 
 ## Steps
@@ -18,7 +18,7 @@ weight: 9
 | Fill form > Set a negative quantity > Save | Discount page displayed<br><br>Error Message: This value should be greater than 0. |
 | Fill form > Enter a letter > Save | We can't enter any letters and nothing appears in the quantity field. |
 | Fill form > Enter a negative discount amount > Save | We have an error message: Reduction value "-10" is invalid. It must be greater than 0. |
-| Fill form > Save | Discount page displayed<br><br>Successful Message: Successful update<br>Discount list = 1 |
+| Fill form > Save | Discount page displayed<br><br>Successful Message: Successful creation<br>Discount list = 1 |
 | Click on “view my store”> Add a product > enter discount code | Error Message: You cannot use this voucher with these products |
 | Go back to home page > Click on a product > Add to cart > Proceed to checkout> Add promo Code | We have this :<br><br>2 items€ 69.26<br>Discount(s) -€10.00<br>Shipping Free<br>Total (tax incl.) €59.26<br>test -€10.00 |
 | Go back to BO > Catalog > Discount > Click to edit button discount > Change minimum product quantity and save | Sucessfull message: Successful update |
