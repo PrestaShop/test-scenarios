@@ -5,8 +5,9 @@ weight: 3
 
 # BO - Discount - Minimum purchase amount (Free gift)
 ## Details
-* **Status** : Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12395
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/03_minimumPurchaseAmountFreeGift.ts.ts
 
 ## Steps
 | Step Description | Expected result |

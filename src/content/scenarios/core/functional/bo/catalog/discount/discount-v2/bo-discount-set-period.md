@@ -5,14 +5,13 @@ weight: 6
 
 # BO - Discount - Set period 
 ## Details
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11208
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
 | BO > Catalog > Discounts | Discounts page should be displayed<br><br>Discount list = 0 |
-| Click to Create discount | Select discount type modal displayed |
 | Click to Create discount | Select discount type modal displayed |
 | Select on cart amount and Click to create discount | Create cart discount displayed<br><br>Select period:<br><br>Starts on: Date of the creation (by default)<br><br>Ends on: 1 month after Start on date (by default) |
 | Fill form and save | Error notification: "The expiration date must be after start date" |
