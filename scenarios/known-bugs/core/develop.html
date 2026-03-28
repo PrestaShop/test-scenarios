@@ -22,13 +22,13 @@
     <title>develop :: PrestaShop Tests</title>
     
     
-    <link href="../../../css/font-awesome.min.css?1774595165" rel="stylesheet">
-    <link href="../../../css/syntax-github.css?1774595165" rel="stylesheet">
-    <link href="../../../css/featherlight.min.css?1774595165" rel="stylesheet">
-    <link href="../../../css/perfect-scrollbar.min.css?1774595165" rel="stylesheet"><link href="../../../css/auto-complete.css?1774595165" rel="stylesheet">
-    <link href="../../../style.css?1774595165" rel="stylesheet">
+    <link href="../../../css/font-awesome.min.css?1774682251" rel="stylesheet">
+    <link href="../../../css/syntax-github.css?1774682251" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1774682251" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1774682251" rel="stylesheet"><link href="../../../css/auto-complete.css?1774682251" rel="stylesheet">
+    <link href="../../../style.css?1774682251" rel="stylesheet">
 
-    <script src="../../../js/jquery-3.3.1.min.js?1774595165"></script>
+    <script src="../../../js/jquery-3.3.1.min.js?1774682251"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -46205,7 +46205,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#known-bugs-31-campaigns--37-issues">Known bugs (31 campaigns / 37 issues)</a></li>
+    <li><a href="#known-bugs-31-campaigns--40-issues">Known bugs (31 campaigns / 40 issues)</a></li>
   </ul>
 </nav>
 
@@ -72507,7 +72507,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-<h1 id="known-bugs-31-campaigns--37-issues">Known bugs (31 campaigns / 37 issues)<a href="#known-bugs-31-campaigns--37-issues"></a></h1><ul>
+<h1 id="known-bugs-31-campaigns--40-issues">Known bugs (31 campaigns / 40 issues)<a href="#known-bugs-31-campaigns--40-issues"></a></h1><ul>
 <li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts">tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/hummingbird/issues/834">hummingbird#834 : [2.0 Beta] &ldquo;My wishlists&rdquo; Page is not available. </a></li>
@@ -72515,27 +72515,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </li>
 <li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts">tests/UI/campaigns/functional/API/02_checkEndpoints.ts</a></strong> :
 <ul>
+<li><a href="https://github.com/PrestaShop/PrestaShop/issues/41109">PrestaShop#41109 : [DISCOUNTS V2] API Endpoints are enabled (but not the feature flag)</a></li>
+<li><a href="https://github.com/PrestaShop/PrestaShop/issues/40285">PrestaShop#40285 : Handle type compatibility in the discounts</a></li>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/38784">PrestaShop#38784 : Delete / list / tests discounts</a></li>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/38647">PrestaShop#38647 : GET &amp; POST endpoints for each type</a></li>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/39682">PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts</a></li>
+<li>Check regulary</li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts">tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts</a></strong> :
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/10_postAttributesGroup.ts">tests/UI/campaigns/functional/API/02_endpoints/attribute/10_postAttributesGroup.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/39729">PrestaShop#39729 : Admin API : Endpoint <code>POST /attributes/group</code> : The response is not the expected : Missing key <code>position</code></a></li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts">tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts</a></strong> :
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts">tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/39753">PrestaShop#39753 : Endpoint <code>GET /attributes/groups</code> : The field <code>position</code> is not consistant to BackOffice</a></li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts">tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts</a></strong> :
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts">tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/35616">PrestaShop#35616 : Endpoint /api/hooks &amp; List of Hooks : Incorrect count of hooks</a></li>
 </ul>
 </li>
-<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts">tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts</a></strong> :
+<li><strong><a href="https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/product/11_getProductsSearch.ts">tests/UI/campaigns/functional/API/02_endpoints/product/11_getProductsSearch.ts</a></strong> :
 <ul>
 <li><a href="https://github.com/PrestaShop/PrestaShop/issues/34486">PrestaShop#34486 : The APIDoc TryItOut for <code>/api/products/search/{phrase}/{resultsLimit}/{isoCode}</code> doesn&rsquo;t work - Enpoint Issue</a></li>
 </ul>
@@ -72693,17 +72696,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../js/clipboard.min.js?1774595165"></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1774595165"></script>
-    <script src="../../../js/perfect-scrollbar.jquery.min.js?1774595165"></script>
-    <script src="../../../js/jquery.sticky.js?1774595165"></script>
-    <script src="../../../js/featherlight.min.js?1774595165"></script>
-    <script src="../../../js/html5shiv-printshiv.min.js?1774595165"></script>
-    <script src="../../../js/modernizr.custom-3.6.0.js?1774595165"></script>
-    <script src="../../../js/learn.js?1774595165"></script>
-    <script src="../../../js/hugo-learn.js?1774595165"></script>
+    <script src="../../../js/clipboard.min.js?1774682251"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1774682251"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1774682251"></script>
+    <script src="../../../js/jquery.sticky.js?1774682251"></script>
+    <script src="../../../js/featherlight.min.js?1774682251"></script>
+    <script src="../../../js/html5shiv-printshiv.min.js?1774682251"></script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1774682251"></script>
+    <script src="../../../js/learn.js?1774682251"></script>
+    <script src="../../../js/hugo-learn.js?1774682251"></script>
     
-    <script src="../../../main.js?1774595165"></script>
+    <script src="../../../main.js?1774682251"></script>
     
     
     
