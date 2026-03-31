@@ -22,13 +22,13 @@
     <title>BO - Discount - based on the shipping country :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../../css/font-awesome.min.css?1774874382" rel="stylesheet">
-    <link href="../../../../../../../css/syntax-github.css?1774874382" rel="stylesheet">
-    <link href="../../../../../../../css/featherlight.min.css?1774874382" rel="stylesheet">
-    <link href="../../../../../../../css/perfect-scrollbar.min.css?1774874382" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1774874382" rel="stylesheet">
-    <link href="../../../../../../../style.css?1774874382" rel="stylesheet">
+    <link href="../../../../../../../css/font-awesome.min.css?1774942371" rel="stylesheet">
+    <link href="../../../../../../../css/syntax-github.css?1774942371" rel="stylesheet">
+    <link href="../../../../../../../css/featherlight.min.css?1774942371" rel="stylesheet">
+    <link href="../../../../../../../css/perfect-scrollbar.min.css?1774942371" rel="stylesheet"><link href="../../../../../../../css/auto-complete.css?1774942371" rel="stylesheet">
+    <link href="../../../../../../../style.css?1774942371" rel="stylesheet">
 
-    <script src="../../../../../../../js/jquery-3.3.1.min.js?1774874382"></script>
+    <script src="../../../../../../../js/jquery-3.3.1.min.js?1774942371"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -2175,6 +2175,71 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <li data-nav-id="/scenarios/core/functional/api/endpoints/customersgroup/get-admin-api-customers-groups.html" title="GET /admin-api/customers/groups" class="dd-item ">
         <a href="../../../../../../../scenarios/core/functional/api/endpoints/customersgroup/get-admin-api-customers-groups.html">
         GET /admin-api/customers/groups
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    
+    <li data-nav-id="/scenarios/core/functional/api/endpoints/discount.html" title="Discount" class="dd-item
+        
+        
+        
+        isParent
+        ">
+      <a href="../../../../../../../scenarios/core/functional/api/endpoints/discount.html">
+          <span>
+            Discount
+          </span>
+
+          
+
+          
+            <i class="fa fa-angle-down"></i>
+          
+      </a>
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/scenarios/core/functional/api/endpoints/discount/get-admin-api-discount-types.html" title="GET /admin-api/discount-types" class="dd-item ">
+        <a href="../../../../../../../scenarios/core/functional/api/endpoints/discount/get-admin-api-discount-types.html">
+        GET /admin-api/discount-types
         
         </a>
     </li>
@@ -46232,6 +46297,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <li><a href="#bo---discount---based-on-the-shipping-country">BO - Discount - based on the shipping country</a>
       <ul>
         <li><a href="#details">Details</a></li>
+        <li><a href="#steps">Steps</a></li>
       </ul>
     </li>
   </ul>
@@ -47503,6 +47569,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       
     
   
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
+      
+    
+  
+      
+    
+  
+      
+        
+    
+    
+      
+        
+      
+      
+      
+      
+      
+
       
         
     
@@ -72537,9 +72633,104 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <h1 id="bo---discount---based-on-the-shipping-country">BO - Discount - based on the shipping country<a href="#bo---discount---based-on-the-shipping-country"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : IN REVIEW</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-12722">https://forge.prestashop.com/browse/TEST-12722</a></li>
 </ul>
+
+<h2 id="steps">Steps<a href="#steps"></a></h2><table>
+<thead>
+<tr>
+<th>Step Description</th>
+<th>Expected result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BO &gt; Catalog &gt; Discounts</td>
+<td>Discounts page should be displayed<br><br>empty discount list</td>
+</tr>
+<tr>
+<td>Click to Create discount</td>
+<td>Select discount page displayed</td>
+</tr>
+<tr>
+<td>Choose type and click to &ldquo;Create discount&rdquo;</td>
+<td>Create cart discount displayed</td>
+</tr>
+<tr>
+<td>Fill form and save</td>
+<td>Discount page displayed<br><br>Error Message: The field name is required at least in your default language.</td>
+</tr>
+<tr>
+<td>Fill form and save</td>
+<td>Discount page displayed<br><br>Error Message: You must select at least one country.</td>
+</tr>
+<tr>
+<td>Fill form and save</td>
+<td>Discount page displayed<br><br>Error Message: Reduction value &ldquo;0&rdquo; is invalid. It must be greater than 0.</td>
+</tr>
+<tr>
+<td>Fill form and save</td>
+<td>Discount page displayed<br><br>Error Message: Reduction value &ldquo;-20&rdquo; is invalid. It must be greater than 0.</td>
+</tr>
+<tr>
+<td>Fill form and save</td>
+<td>Discount page displayed<br><br>Successful Message: Successful update<br>Discount list = 1</td>
+</tr>
+<tr>
+<td>BO &gt; International &gt; Locations &gt; Countries<br><br>Verify country list in discount form</td>
+<td>All countries from International &gt; Locations &gt; Countries are present in the dropdown, including disabled ones</td>
+</tr>
+<tr>
+<td>Click on &ldquo;view my store&rdquo; &gt; Add a product to cart &gt; Proceed to checkout &gt; Enter promo code (without selecting an address)</td>
+<td>Error message: You must choose a shipping address before applying this voucher to your order</td>
+</tr>
+<tr>
+<td>Go back to checkout &gt; Select a delivery address in a country NOT in the discount conditions (e.g. Spain) &gt; Enter promo code</td>
+<td>Error message: You cannot use this voucher in your country of delivery</td>
+</tr>
+<tr>
+<td>Go back to checkout &gt; Select a delivery address in France &gt; Add a product &gt; Enter promo code</td>
+<td>We have this result:<br>2 items €69.26<br>Discount(s) -€10.00<br>Shipping Free<br>Total (tax incl.) €59.26<br>test-country -€10.00</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Catalog &gt; Discount &gt; Click to edit button discount &gt; Change delivery country condition</td>
+<td>Successful message: Successful update</td>
+</tr>
+<tr>
+<td>Click on &ldquo;view my store&rdquo; &gt; Go to cart &gt; Refresh page</td>
+<td>We have this:<br>2 items €69.26<br>Shipping Free<br>Total (tax incl.) €69.26<br><br>(discount removed: delivery country no longer matches)</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Catalog &gt; Discount &gt; Click to edit button discount &gt; Restore France in conditions</td>
+<td>Successful message: Successful update</td>
+</tr>
+<tr>
+<td>Click on &ldquo;view my store&rdquo; &gt; Go to cart &gt; Re-apply promo code &gt; Refresh page</td>
+<td>We have this:<br>2 items €69.26<br>Discount(s) -€12.00<br>Shipping Free<br>Total (tax incl.) €57.26<br>test-country -€12.00<br><br>(discount value updated to Tax excluded)</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Catalog &gt; Discounts &gt; Click to edit &gt; Change delivery country to a disabled country (e.g. add a disabled country in conditions)</td>
+<td>Successful message: Successful update<br><br>Disabled countries are selectable in the discount form</td>
+</tr>
+<tr>
+<td>FO &gt; Checkout &gt; Select the disabled country address &gt; Enter promo code</td>
+<td>Discount is applied successfully (disabled in shop navigation but valid in discount conditions)</td>
+</tr>
+<tr>
+<td>Go back to BO &gt; Catalog &gt; Discount &gt; Click to delete button discount</td>
+<td>Display of the confirmation modal</td>
+</tr>
+<tr>
+<td>Click to Delete</td>
+<td>Successful deletion notification</td>
+</tr>
+<tr>
+<td>Go to FO &gt; Go to shopping cart</td>
+<td>We have this:<br>2 items €69.26<br>Shipping Free<br>Total (tax incl.) €69.26<br><br>(discount no longer applied)</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class="article-footer">
@@ -72558,17 +72749,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../../js/clipboard.min.js?1774874382"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.min.js?1774874382"></script>
-    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1774874382"></script>
-    <script src="../../../../../../../js/jquery.sticky.js?1774874382"></script>
-    <script src="../../../../../../../js/featherlight.min.js?1774874382"></script>
-    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1774874382"></script>
-    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1774874382"></script>
-    <script src="../../../../../../../js/learn.js?1774874382"></script>
-    <script src="../../../../../../../js/hugo-learn.js?1774874382"></script>
+    <script src="../../../../../../../js/clipboard.min.js?1774942372"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.min.js?1774942372"></script>
+    <script src="../../../../../../../js/perfect-scrollbar.jquery.min.js?1774942372"></script>
+    <script src="../../../../../../../js/jquery.sticky.js?1774942372"></script>
+    <script src="../../../../../../../js/featherlight.min.js?1774942372"></script>
+    <script src="../../../../../../../js/html5shiv-printshiv.min.js?1774942372"></script>
+    <script src="../../../../../../../js/modernizr.custom-3.6.0.js?1774942372"></script>
+    <script src="../../../../../../../js/learn.js?1774942372"></script>
+    <script src="../../../../../../../js/hugo-learn.js?1774942372"></script>
     
-    <script src="../../../../../../../main.js?1774874382"></script>
+    <script src="../../../../../../../main.js?1774942372"></script>
     
     
     
