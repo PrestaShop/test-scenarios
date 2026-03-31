@@ -5,7 +5,7 @@ weight: 10
 
 # BO - Discount - Create a discount that applies automatically or via promo code 
 ## Details
-* **Status** : IN REVIEW
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11288
 
 ## Steps
