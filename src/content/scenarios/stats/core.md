@@ -62,7 +62,7 @@ disableToc: true
 | [Core > Functional > BO > Modules > Module Manager > Alerts](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FModules%2FModule+Manager%2FAlerts) | 4 | - | - | - | - | 1 | - | 3 | - | 
 | [Core > Functional > BO > Modules > Module Manager > Updates](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FModules%2FModule+Manager%2FUpdates) | 2 | - | - | - | - | 2 | - | - | - | 
 | [Core > Functional > BO > Design > Theme & Logo > Theme & Logo](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FTheme+%26+Logo%2FTheme+%26+Logo) | 6 | - | - | - | - | 3 | - | 2 | 1 | 
-| [Core > Functional > BO > Design > Theme & Logo > Page Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FTheme+%26+Logo%2FPage+Configuration) | 5 | - | - | - | - | 2 | - | 3 | - | 
+| [Core > Functional > BO > Design > Theme & Logo > Page Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FTheme+%26+Logo%2FPage+Configuration) | 5 | - | - | - | - | 1 | - | 4 | - | 
 | [Core > Functional > BO > Design > Theme & Logo > Advanced Customization](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FTheme+%26+Logo%2FAdvanced+Customization) | 3 | - | - | - | - | - | 3 | - | - | 
 | [Core > Functional > BO > Design > Email themes](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FEmail+themes) | 3 | - | - | - | - | - | - | 3 | - | 
 | [Core > Functional > BO > Design > Pages](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FPages) | 2 | - | - | - | - | - | - | 2 | - | 
@@ -197,5 +197,5 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **995** | **120** | **58** | **8** | **1** | **82** | **7** | **680** | **32** | 
-| **Total** |  | **12.06%** | **5.83%** | **0.80%** | **0.10%** | **8.24%** | **0.70%** | **68.34%** | **5.83%** | 
+| **Total** | **995** | **120** | **58** | **8** | **1** | **81** | **7** | **681** | **32** | 
+| **Total** |  | **12.06%** | **5.83%** | **0.80%** | **0.10%** | **8.14%** | **0.70%** | **68.44%** | **5.83%** | 
