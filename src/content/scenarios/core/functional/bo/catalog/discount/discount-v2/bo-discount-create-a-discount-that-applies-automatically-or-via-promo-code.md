@@ -5,7 +5,7 @@ weight: 10
 
 # BO - Discount - Create a discount that applies automatically or via promo code 
 ## Details
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11288
 
 ## Steps
@@ -19,7 +19,7 @@ weight: 10
 | Fill form > Save | Discount page displayed<br><br>Successful Message: Successful update<br>Discount list = 1 |
 | Go to FO > Add a product > Checkout | 1 item€34.80<br>Discount(s)-€10.00<br>ShippingFree<br>Total (tax incl.)€24.80<br> * test<br>-€10.00<br> <br><br>Discount applied automatically |
 | BO > edit the discount | Successful update |
-| Go to FO > Add a product > Checkout | 1 item€34.80<br>ShippingFree<br>Total (tax incl.)€34.80<br><br> <br><br>Discount doesn't applied automatically |
+| Go to FO > Add a product > Checkout | 1 item€34.80<br>ShippingFree<br>Total (tax incl.)€34.80<br><br> <br><br>Discount doesn't applied automatically => issue <br><br>https://github.com/PrestaShop/PrestaShop/issues/41053 |
 | Fill promo code field | 1 item€34.80<br>Discount(s)-€10.00<br>ShippingFree<br>Total (tax incl.)€24.80<br> * __test<br>-€10.00 |
 | BO > edit the discount > click to Generate button | New random promo code displayed |
 | click to Generate button | Another new random promo code displayed |

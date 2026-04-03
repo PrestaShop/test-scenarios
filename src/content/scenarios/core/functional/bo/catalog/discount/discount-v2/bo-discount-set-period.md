@@ -5,8 +5,9 @@ weight: 6
 
 # BO - Discount - Set period 
 ## Details
-* **Status** : Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11208
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/06_setPeriod.ts.ts
 
 ## Steps
 | Step Description | Expected result |
