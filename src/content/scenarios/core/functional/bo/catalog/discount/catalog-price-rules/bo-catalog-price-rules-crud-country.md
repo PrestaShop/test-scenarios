@@ -6,7 +6,7 @@ weight: 5
 # BO - Catalog price Rules - CRUD - Country
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10332
 
 ## Steps

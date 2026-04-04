@@ -5,8 +5,9 @@ weight: 9
 
 # BO - Discount - Trigger based on the total quantity of products in the cart
 ## Details
-* **Status** : Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-11279
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/09_triggerBasedOnProductsQuantity.ts.ts
 
 ## Steps
 | Step Description | Expected result |
