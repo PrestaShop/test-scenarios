@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (32 campaigns / 41 issues)
+# Known bugs (33 campaigns / 47 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
@@ -17,6 +17,13 @@ weight: 1
   * [PrestaShop#39729 : Admin API : Endpoint `POST /attributes/group` : The response is not the expected : Missing key `position`](https://github.com/PrestaShop/PrestaShop/issues/39729)
 * **[tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts)** :
   * [PrestaShop#39753 : Endpoint `GET /attributes/groups` : The field `position` is not consistant to BackOffice](https://github.com/PrestaShop/PrestaShop/issues/39753)
+* **[tests/UI/campaigns/functional/API/02_endpoints/discount/02_postDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/discount/02_postDiscounts.ts)** :
+  * [PrestaShop#41198 : The Discount partial use feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41198)
+  * [PrestaShop#41196 : [Discount V2] The Discount feature on the cheapest product no longer exists.](https://github.com/PrestaShop/PrestaShop/issues/41196)
+  * [PrestaShop#41197 : The Discount highlight feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41197)
+  * [PrestaShop#41199 : [DISCOUNTS V2] The endpoint `POST /discounts` return a `minimumAmount` with a field `shippingIncluded`](https://github.com/PrestaShop/PrestaShop/issues/41199)
+  * [PrestaShop#41189 : [DISCOUNTS V2] Can't change the state of a Discout in Edit Page](https://github.com/PrestaShop/PrestaShop/issues/41189)
+  * [PrestaShop#41201 : [DISCOUNTS V2] The endpoint POST /discounts with compatibleDiscountTypeIds is not sync with backoffice](https://github.com/PrestaShop/PrestaShop/issues/41201)
 * **[tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts)** :
   * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
 * **[tests/UI/campaigns/functional/API/02_endpoints/product/11_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/product/11_getProductsSearch.ts)** :
