@@ -32,3 +32,4 @@ weight: 5
 | Update your Country and Save | * Address successfully updated. |
 | Go back to your cart > Refresh | See in the shopping cart the new price displayed like so :<br><br>-€34.80- -€10.00<br>€24.80 |
 | Go to BO > Catalog > Discounts > Catalog Price Rules tab | Catalog Price Rules page is well displayed |
+| Delete the created catalog price rules | The catalog price rules is deleted successfully |
