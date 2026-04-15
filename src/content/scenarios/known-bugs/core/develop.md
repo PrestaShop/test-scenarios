@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (33 campaigns / 47 issues)
+# Known bugs (34 campaigns / 48 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
@@ -34,6 +34,8 @@ weight: 1
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/10_compatibilityWithOtherCartRules.ts)** :
   * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
+* **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/05_CRUDCountry.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/05_CRUDCountry.ts)** :
+  * [PrestaShop#41241 : Localization - Tax rules - product - Tax aren't set for each country](https://github.com/PrestaShop/PrestaShop/issues/41241)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts)** :
   * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
   * [PrestaShop#41057 : [Discount v2] Can't remove a delivery condition](https://github.com/PrestaShop/PrestaShop/issues/41057)
@@ -79,13 +81,13 @@ weight: 1
 * **[tests/UI/campaigns/modules/29_ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/29_ps_newproducts/02_configuration/03_configureSettingsNumberOfDays.ts)** :
   * [PrestaShop#35796 : `ps_newproducts` : Invalid input display the block or can't be saved](https://github.com/PrestaShop/PrestaShop/issues/35796)
 * **[tests/UI/campaigns/modules/35_ps_themecusto/01_installation/05_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/35_ps_themecusto/01_installation/05_disableEnableModule.ts)** :
-  * [PrestaShop#36590 : `ps_themecusto` : Disable the module doesn't hide Tabs](https://github.com/PrestaShop/PrestaShop/issues/36590)
+  * [PrestaShop#36590 : https://github.com/PrestaShop/PrestaShop/issues/36590](https://github.com/PrestaShop/PrestaShop/issues/36590)
 * **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/07_multistore.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/07_multistore.ts)** :
-  * [PrestaShop#37116 : `psgdpr`: The contact form checkbox is not connected](https://github.com/PrestaShop/PrestaShop/issues/37116)
-  * [PrestaShop#37112 : `psgdpr` : The configure button is not clickable in shop context](https://github.com/PrestaShop/PrestaShop/issues/37112)
+  * [PrestaShop#37116 : https://github.com/PrestaShop/PrestaShop/issues/37116](https://github.com/PrestaShop/PrestaShop/issues/37116)
+  * [PrestaShop#37112 : https://github.com/PrestaShop/PrestaShop/issues/37112](https://github.com/PrestaShop/PrestaShop/issues/37112)
 * **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts)** :
-  * [PrestaShop#36847 : `psgdpr`: Search guest account display result and block "There is no result"](https://github.com/PrestaShop/PrestaShop/issues/36847)
-  * [PrestaShop#36848 : `psgdpr`: Search guest account display result and block is empty](https://github.com/PrestaShop/PrestaShop/issues/36848)
-  * [PrestaShop#36865 : `psgdpr`: Search guest account, Remove it & It's always displayed](https://github.com/PrestaShop/PrestaShop/issues/36865)
+  * [PrestaShop#36847 : https://github.com/PrestaShop/PrestaShop/issues/36847](https://github.com/PrestaShop/PrestaShop/issues/36847)
+  * [PrestaShop#36848 : https://github.com/PrestaShop/PrestaShop/issues/36848](https://github.com/PrestaShop/PrestaShop/issues/36848)
+  * [PrestaShop#36865 : https://github.com/PrestaShop/PrestaShop/issues/36865](https://github.com/PrestaShop/PrestaShop/issues/36865)
 * **[tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts)** :
-  * [PrestaShop#9779 : [BOOM-4571] Rounding Problem](https://github.com/PrestaShop/PrestaShop/issues/9779)
+  * [PrestaShop#9779 : https://github.com/PrestaShop/PrestaShop/issues/9779](https://github.com/PrestaShop/PrestaShop/issues/9779)

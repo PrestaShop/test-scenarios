@@ -6,7 +6,7 @@ weight: 1
 # BO - Design - Pages - Filter and Quick Edit
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-944
 
@@ -24,7 +24,8 @@ weight: 1
 | Reset all filters | All filters are reset. All pages are displayed |
 | filter by Meta title. Criteria : "123" | Pages list is filtered. No records found |
 | Reset all filters | All filters are reset. All pages are displayed |
-| filter by displayed. Criteria : yes" | Pages list is filtered. Pages listed have yes" in their displayed" |
-| filter by title. Criteria : Terms and conditions of use" | Pages list is filtered. Pages listed have Terms and conditions of use" in their title" |
-| Change Displayed to No" for page" | Icon changed to Not-valid |
-| Change Displayed to Yes" for page" | Icon changed to valid |
+| Change Displayed to "No" for the ID = 1 | Icon changed to Not-valid<br><br>Notification : The status has been successfully updated.<br><br>ID 1 displayed |
+| filter by displayed. Criteria : "No" | Pages list is filtered. Pages listed have "no" in their displayed<br><br>Only ID 1 is displayed |
+| Change Displayed to "Yes" for ID =1 | ID 1 isn't displayed<br><br>The status has been successfully updated. |
+| filter by displayed. Criteria : "Yes" | Pages list is filtered. Pages listed have "Yes" in their displayed<br><br>ID 1 is displayed |
+| Reset all filters | All filters are reset. All pages are displayed |
