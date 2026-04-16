@@ -5,6 +5,12 @@ weight: 5
 
 # BO - Hall of Fame - How to contribute
 ## Details
-* **Status** : Sandbox
+* **Status** : To be automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12863
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| BO > Wall of Fame | h1. Wall of Fame page displayed<br><br> <br>h2. ✨ How to contribute?<br><br>Join the open-source movement by contributing to PrestaShop on GitHub—whether it’s code, documentation, or ideas. Every contribution counts! |
+| Click to Contribute button | New page displayed : https://devdocs.prestashop-project.org/9/contribute/contribute-pull-requests/ |
+| Click to Join Slack button | New page displayed : [https://devdocs.prestashop-project.org/9/contribute/contribute-pull-requests/] |
