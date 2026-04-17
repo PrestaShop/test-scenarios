@@ -5,7 +5,7 @@ weight: 1
 
 # BO - Hall of Fame - Community Heroes
 ## Details
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12859
 
 ## Steps

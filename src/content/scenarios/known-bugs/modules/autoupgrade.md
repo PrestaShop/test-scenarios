@@ -3,11 +3,15 @@ title: "autoupgrade"
 weight: 1
 ---
 
-# Known bugs (13 campaigns / 3 issues)
+# Known bugs (13 campaigns / 5 issues)
 * **[.github/workflows/ui-test/nightly-classic-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/nightly-classic-ui.json)** :
   * bug ps edition basic
 * **[.github/workflows/ui-test/nightly-cli.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/nightly-cli.json)** :
+  * Cannot connect to the BO
+  * Problem when create docker image
 * **[.github/workflows/ui-test/nightly-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/nightly-ui.json)** :
+  * Cannot connect to the BO
+  * Problem when create docker image
 * **[.github/workflows/ui-test/pr-classic-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/pr-classic-ui.json)** :
 * **[.github/workflows/ui-test/pr-cli.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/pr-cli.json)** :
 * **[.github/workflows/ui-test/pr-ui.json](https://github.com/PrestaShop/autoupgrade/tree/dev/.github/workflows/ui-test/pr-ui.json)** :
