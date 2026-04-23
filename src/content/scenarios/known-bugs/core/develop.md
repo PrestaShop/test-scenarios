@@ -3,31 +3,30 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (34 campaigns / 48 issues)
+# Known bugs (33 campaigns / 46 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
   * [PrestaShop#41109 : [DISCOUNTS V2] API Endpoints are enabled (but not the feature flag)](https://github.com/PrestaShop/PrestaShop/issues/41109)
-  * [PrestaShop#40285 : Handle type compatibility in the discounts](https://github.com/PrestaShop/PrestaShop/issues/40285)
   * [PrestaShop#38784 : Delete / list / tests discounts](https://github.com/PrestaShop/PrestaShop/issues/38784)
   * [PrestaShop#38647 : GET & POST endpoints for each type](https://github.com/PrestaShop/PrestaShop/issues/38647)
   * [PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts](https://github.com/PrestaShop/PrestaShop/issues/39682)
   * Check regulary
-* **[tests/UI/campaigns/functional/API/02_endpoints/attribute/10_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/10_postAttributesGroup.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts)** :
   * [PrestaShop#39729 : Admin API : Endpoint `POST /attributes/group` : The response is not the expected : Missing key `position`](https://github.com/PrestaShop/PrestaShop/issues/39729)
-* **[tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts)** :
   * [PrestaShop#39753 : Endpoint `GET /attributes/groups` : The field `position` is not consistant to BackOffice](https://github.com/PrestaShop/PrestaShop/issues/39753)
-* **[tests/UI/campaigns/functional/API/02_endpoints/discount/02_postDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/discount/02_postDiscounts.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts)** :
+  * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
+* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts)** :
+  * [PrestaShop#34486 : The APIDoc TryItOut for `/api/products/search/{phrase}/{resultsLimit}/{isoCode}` doesn't work - Enpoint Issue](https://github.com/PrestaShop/PrestaShop/issues/34486)
+* **[tests/UI/campaigns/functional/API/02_endpoints/10_discount/02_postDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_discount/02_postDiscounts.ts)** :
   * [PrestaShop#41198 : The Discount partial use feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41198)
   * [PrestaShop#41196 : [Discount V2] The Discount feature on the cheapest product no longer exists.](https://github.com/PrestaShop/PrestaShop/issues/41196)
   * [PrestaShop#41197 : The Discount highlight feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41197)
   * [PrestaShop#41199 : [DISCOUNTS V2] The endpoint `POST /discounts` return a `minimumAmount` with a field `shippingIncluded`](https://github.com/PrestaShop/PrestaShop/issues/41199)
   * [PrestaShop#41189 : [DISCOUNTS V2] Can't change the state of a Discout in Edit Page](https://github.com/PrestaShop/PrestaShop/issues/41189)
   * [PrestaShop#41201 : [DISCOUNTS V2] The endpoint POST /discounts with compatibleDiscountTypeIds is not sync with backoffice](https://github.com/PrestaShop/PrestaShop/issues/41201)
-* **[tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts)** :
-  * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
-* **[tests/UI/campaigns/functional/API/02_endpoints/product/11_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/product/11_getProductsSearch.ts)** :
-  * [PrestaShop#34486 : The APIDoc TryItOut for `/api/products/search/{phrase}/{resultsLimit}/{isoCode}` doesn't work - Enpoint Issue](https://github.com/PrestaShop/PrestaShop/issues/34486)
 * **[tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts)** :
   * [PrestaShop#37033 : BO - dashactivity - module can't be SAVED properly](https://github.com/PrestaShop/PrestaShop/issues/37033)
 * **[tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts)** :
@@ -49,8 +48,6 @@ weight: 1
   * [PrestaShop#33681 : BO-Stock Management-Bad order when Display products below low stock level first ](https://github.com/PrestaShop/PrestaShop/issues/33681)
 * **[tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts)** :
   * [PrestaShop#32404 : Multiple image formats : WebP is not generated when a cover image for a category is uploaded](https://github.com/PrestaShop/PrestaShop/issues/32404)
-* **[tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts)** :
-  * [PrestaShop#33921 : Adding an iframe in PPV2 when the option is disabled leads to an exception](https://github.com/PrestaShop/PrestaShop/issues/33921)
 * **[tests/UI/campaigns/functional/FO/classic/03_userAccount/04_getGDPRDataInPDF.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/04_getGDPRDataInPDF.ts)** :
   * [PrestaShop#22581 : INVOICE - MAIL / No shop logo on the invoice when you change the port (Docker)](https://github.com/PrestaShop/PrestaShop/issues/22581)
 * **[tests/UI/campaigns/functional/FO/classic/06_homePage/05_selectColor.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/06_homePage/05_selectColor.ts)** :
