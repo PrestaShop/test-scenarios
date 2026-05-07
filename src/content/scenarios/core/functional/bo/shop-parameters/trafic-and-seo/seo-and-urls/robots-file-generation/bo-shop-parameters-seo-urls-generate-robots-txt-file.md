@@ -6,8 +6,10 @@ weight: 1
 # BO - Shop Parameters - SEO & URLs - Generate Robots.txt file
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Automated
+* **Automated on** : 9.2.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1115
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/traffic-and-seo/add-or-edit-new-seo-page
 
 ## Steps
 | Step Description | Expected result |
