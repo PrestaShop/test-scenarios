@@ -1,9 +1,9 @@
 ---
-title: "Mail alerts module - Merchant notifications - Enable/Disable out of stock"
+title: "Mail alerts module - Merchant notifications : Enable/Disable out of stock"
 weight: 7
 ---
 
-# Mail alerts module - Merchant notifications - Enable/Disable out of stock
+# Mail alerts module - Merchant notifications : Enable/Disable out of stock
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Automated

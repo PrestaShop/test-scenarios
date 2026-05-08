@@ -118,7 +118,7 @@ disableToc: true
 | [Core > Functional > BO > Advanced Parameters > Team > Employees](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FTeam%2FEmployees) | 6 | 1 | - | - | - | 2 | - | 3 | - | 
 | [Core > Functional > BO > Advanced Parameters > Team > Profiles](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FTeam%2FProfiles) | 5 | - | - | - | - | - | - | 5 | - | 
 | [Core > Functional > BO > Advanced Parameters > Team > Permissions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FTeam%2FPermissions) | 2 | - | 2 | - | - | - | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Database > SQL Manager](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FDatabase%2FSQL+Manager) | 5 | - | 1 | - | - | - | - | 4 | - | 
+| [Core > Functional > BO > Advanced Parameters > Database > SQL Manager](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FDatabase%2FSQL+Manager) | 5 | - | 1 | - | - | 1 | - | 3 | - | 
 | [Core > Functional > BO > Advanced Parameters > Database > Db Backup](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FDatabase%2FDb+Backup) | 5 | - | 5 | - | - | - | - | - | - | 
 | [Core > Functional > BO > Advanced Parameters > Logs](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FLogs) | 4 | 2 | 1 | - | - | - | - | 1 | - | 
 | [Core > Functional > BO > Advanced Parameters > Webservice](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FWebservice) | 6 | - | 6 | - | - | - | - | - | - | 
@@ -197,5 +197,5 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **997** | **115** | **58** | **8** | **1** | **77** | **11** | **688** | **32** | 
-| **Total** |  | **11.53%** | **5.82%** | **0.80%** | **0.10%** | **7.72%** | **1.10%** | **69.01%** | **5.82%** | 
+| **Total** | **997** | **115** | **58** | **8** | **1** | **78** | **11** | **687** | **32** | 
+| **Total** |  | **11.53%** | **5.82%** | **0.80%** | **0.10%** | **7.82%** | **1.10%** | **68.91%** | **5.82%** | 

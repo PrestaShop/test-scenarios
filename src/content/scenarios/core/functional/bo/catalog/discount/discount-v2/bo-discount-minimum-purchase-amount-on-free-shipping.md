@@ -7,6 +7,7 @@ weight: 4
 ## Details
 * **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12396
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts
 
 ## Steps
 | Step Description | Expected result |

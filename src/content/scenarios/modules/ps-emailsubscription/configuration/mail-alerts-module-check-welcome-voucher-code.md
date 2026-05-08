@@ -1,9 +1,9 @@
 ---
-title: "ps_emailsubscription - Check that the email is send with a promo code when a Welcome voucher code is configured"
+title: "Mail alerts module : Check welcome voucher code"
 weight: 3
 ---
 
-# ps_emailsubscription - Check that the email is send with a promo code when a Welcome voucher code is configured
+# Mail alerts module : Check welcome voucher code
 ## Details
 * **Component** : ps_emailsubscription
 * **Status** : Automated

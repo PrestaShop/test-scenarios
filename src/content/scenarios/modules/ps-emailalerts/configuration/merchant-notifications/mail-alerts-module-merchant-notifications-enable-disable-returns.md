@@ -1,9 +1,9 @@
 ---
-title: "Mail alerts module - Merchant notifications - Enable/Disable returns"
+title: "Mail alerts module - Merchant notifications : Enable/Disable returns"
 weight: 9
 ---
 
-# Mail alerts module - Merchant notifications - Enable/Disable returns
+# Mail alerts module - Merchant notifications : Enable/Disable returns
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Automated

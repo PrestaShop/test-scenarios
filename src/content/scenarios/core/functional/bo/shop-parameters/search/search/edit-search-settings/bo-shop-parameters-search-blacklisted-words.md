@@ -1,9 +1,9 @@
 ---
-title: "BO - Search - Blacklisted words"
+title: "BO - Shop Parameters - Search : Blacklisted words"
 weight: 7
 ---
 
-# BO - Search - Blacklisted words
+# BO - Shop Parameters - Search : Blacklisted words
 ## Details
 * **Component** : Core
 * **Status** : Automated

@@ -1,9 +1,9 @@
 ---
-title: "BO - Dashboard - Products and sales"
+title: "BO - Dashboard : Products and sales"
 weight: 3
 ---
 
-# BO - Dashboard - Products and sales
+# BO - Dashboard : Products and sales
 ## Details
 * **Component** : Core
 * **Status** : Automated

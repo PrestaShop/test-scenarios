@@ -9,6 +9,7 @@ weight: 1
 * **Status** : Automated
 * **Automated on** : 9.2.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-1115
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/06_trafficAndSeo/01_seoAndUrls/03_robotsFileGeneration/01_generateRobotsTxtFile.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/traffic-and-seo/add-or-edit-new-seo-page
 
 ## Steps

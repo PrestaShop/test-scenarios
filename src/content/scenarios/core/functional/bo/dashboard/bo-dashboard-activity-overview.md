@@ -1,9 +1,9 @@
 ---
-title: "BO - Dashboard - Activity overview"
+title: "BO - Dashboard : Activity overview"
 weight: 2
 ---
 
-# BO - Dashboard - Activity overview
+# BO - Dashboard : Activity overview
 ## Details
 * **Component** : Core
 * **Status** : Automated

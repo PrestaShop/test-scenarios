@@ -5,8 +5,11 @@ weight: 1
 
 # BO - Hall of Fame - Community Heroes
 ## Details
+* **Component** : Core
 * **Status** : Automated
+* **Automated on** : 9.2.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12859
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/16_wallOfFame/01_OurCommunity.ts
 
 ## Steps
 | Step Description | Expected result |
