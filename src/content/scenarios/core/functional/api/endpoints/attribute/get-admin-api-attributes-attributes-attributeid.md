@@ -9,7 +9,7 @@ weight: 2
 * **Status** : Automated
 * **Automated on** : 9.1.x, 9.2.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12171
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/02_getAttributesAttributesId.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/02_getAttributesAttributeId.ts
 
 ## Steps
 | Step Description | Expected result |

@@ -9,7 +9,7 @@ weight: 1
 * **Status** : Automated
 * **Automated on** : 9.2.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12878
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/discount/01_getDiscountTypes.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_discount/01_getDiscountTypes.ts
 
 ## Steps
 | Step Description | Expected result |
