@@ -6,8 +6,10 @@ weight: 5
 # Categories - CRUD
 ## Details
 * **Component** : Core
-* **Status** : Automation in progress
+* **Status** : Automated
+* **Automated on** : 9.2.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12882
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/05_categoriesCRUD.ts.ts
 
 ## Steps
 | Step Description | Expected result |
@@ -28,7 +30,7 @@ weight: 5
 | Click on Edit button at the end of the row | Edit Category Page is displayed correctly |
 | Check the consistency of each following field on the form and the XML Value: <br> * Name in English<br> * Name in French <br> * Description in English <br> * Description in Frensh<br> * Meta title in Englich<br> * Meta title in Frensh<br> * Active<br> * Meta description in English<br> * Meta description in French | Alls values are consistent |
 | Go back to categories page and reset filters | Filters are reset |
-| Request with method DELETE and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/c|http://domain.tld/api/countries]ategories/\{fetchedId} | The response HTTP Code is 200 |
+| Request with method *DELETE* and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/c|http://domain.tld/api/countries]ategories/\{fetchedId} | The response HTTP Code is 200 |
 | Request with method *GET* and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/categories/\|http://domain.tld/api/countries/]<br><br>{fetchedId} | The response HTTP Code is 404 |
 | Filter the column “ID” with value \{fetchedId} and click on the button Search | The number of filtered rows is equal to 0. |
 | Reset filters | Filters are reset |

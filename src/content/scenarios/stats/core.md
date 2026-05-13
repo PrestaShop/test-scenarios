@@ -178,7 +178,7 @@ disableToc: true
 | [Core > Functional > FO > hummingbird > Checkout > Shipping method](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCheckout%2FShipping+method) | 2 | - | - | - | - | - | - | 2 | - | 
 | [Core > Functional > FO > hummingbird > Checkout > Payment](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCheckout%2FPayment) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > FO > hummingbird > Order confirmation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FOrder+confirmation) | 6 | - | 1 | - | - | - | - | 5 | - | 
-| [Core > Functional > WS](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FWS) | 5 | - | - | - | - | - | 1 | 4 | - | 
+| [Core > Functional > WS](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FWS) | 5 | - | - | - | - | - | - | 5 | - | 
 | [Core > Regression > Currencies](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FRegression%2FCurrencies) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Regression > menu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FRegression%2Fmenu) | 1 | - | - | - | - | - | - | - | 1 | 
 | [Core > Regression > Checkout](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FRegression%2FCheckout) | 1 | 1 | - | - | - | - | - | - | - | 
@@ -197,5 +197,5 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **997** | **115** | **58** | **8** | **1** | **78** | **11** | **687** | **32** | 
-| **Total** |  | **11.53%** | **5.82%** | **0.80%** | **0.10%** | **7.82%** | **1.10%** | **68.91%** | **5.82%** | 
+| **Total** | **997** | **115** | **58** | **8** | **1** | **78** | **10** | **688** | **32** | 
+| **Total** |  | **11.53%** | **5.82%** | **0.80%** | **0.10%** | **7.82%** | **1.00%** | **69.01%** | **5.82%** | 
