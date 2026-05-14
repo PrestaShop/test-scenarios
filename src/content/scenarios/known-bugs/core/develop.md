@@ -19,7 +19,7 @@ weight: 1
 * **[tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts)** :
   * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
 * **[tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts)** :
-  * [PrestaShop#34486 : The APIDoc TryItOut for `/api/products/search/{phrase}/{resultsLimit}/{isoCode}` doesn't work - Enpoint Issue](https://github.com/PrestaShop/PrestaShop/issues/34486)
+  * [PrestaShop#41452 : Endpoint `GET /products/search` : TaxRate & Prices are not consistent with backoffice](https://github.com/PrestaShop/PrestaShop/issues/41452)
 * **[tests/UI/campaigns/functional/API/02_endpoints/10_discount/02_postDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_discount/02_postDiscounts.ts)** :
   * [PrestaShop#41198 : The Discount partial use feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41198)
   * [PrestaShop#41196 : [Discount V2] The Discount feature on the cheapest product no longer exists.](https://github.com/PrestaShop/PrestaShop/issues/41196)
