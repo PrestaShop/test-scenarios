@@ -12,21 +12,21 @@ weight: 1
   * [PrestaShop#38647 : GET & POST endpoints for each type](https://github.com/PrestaShop/PrestaShop/issues/38647)
   * [PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts](https://github.com/PrestaShop/PrestaShop/issues/39682)
   * Check regulary
-* **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/10_postAttributesGroup.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/attribute/10_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/10_postAttributesGroup.ts)** :
   * [PrestaShop#39729 : Admin API : Endpoint `POST /attributes/group` : The response is not the expected : Missing key `position`](https://github.com/PrestaShop/PrestaShop/issues/39729)
-* **[tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/02_attribute/12_getAttributesGroups.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts)** :
   * [PrestaShop#39753 : Endpoint `GET /attributes/groups` : The field `position` is not consistant to BackOffice](https://github.com/PrestaShop/PrestaShop/issues/39753)
-* **[tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hook/03_getHooks.ts)** :
-  * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
-* **[tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/11_getProductsSearch.ts)** :
-  * [PrestaShop#41452 : Endpoint `GET /products/search` : TaxRate & Prices are not consistent with backoffice](https://github.com/PrestaShop/PrestaShop/issues/41452)
-* **[tests/UI/campaigns/functional/API/02_endpoints/10_discount/02_postDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_discount/02_postDiscounts.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/discount/02_postDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/discount/02_postDiscounts.ts)** :
   * [PrestaShop#41198 : The Discount partial use feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41198)
   * [PrestaShop#41196 : [Discount V2] The Discount feature on the cheapest product no longer exists.](https://github.com/PrestaShop/PrestaShop/issues/41196)
   * [PrestaShop#41197 : The Discount highlight feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41197)
   * [PrestaShop#41199 : [DISCOUNTS V2] The endpoint `POST /discounts` return a `minimumAmount` with a field `shippingIncluded`](https://github.com/PrestaShop/PrestaShop/issues/41199)
   * [PrestaShop#41189 : [DISCOUNTS V2] Can't change the state of a Discout in Edit Page](https://github.com/PrestaShop/PrestaShop/issues/41189)
   * [PrestaShop#41201 : [DISCOUNTS V2] The endpoint POST /discounts with compatibleDiscountTypeIds is not sync with backoffice](https://github.com/PrestaShop/PrestaShop/issues/41201)
+* **[tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts)** :
+  * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
+* **[tests/UI/campaigns/functional/API/02_endpoints/product/11_getProductsSearch.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/product/11_getProductsSearch.ts)** :
+  * [PrestaShop#41452 : Endpoint `GET /products/search` : TaxRate & Prices are not consistent with backoffice](https://github.com/PrestaShop/PrestaShop/issues/41452)
 * **[tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts)** :
   * [PrestaShop#37033 : BO - dashactivity - module can't be SAVED properly](https://github.com/PrestaShop/PrestaShop/issues/37033)
 * **[tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/11_checkInvoice.ts)** :
@@ -68,23 +68,23 @@ weight: 1
 * **[tests/UI/campaigns/functional/WS/03_productsCRUD.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/03_productsCRUD.ts)** :
   * [PrestaShop#33429 : WS : Products - The response of the GET request has not defined the field `new`](https://github.com/PrestaShop/PrestaShop/issues/33429)
   * [PrestaShop#14903 : Cannot add a position_in_category using webservices](https://github.com/PrestaShop/PrestaShop/issues/14903)
-  * [PrestaShop#33455 : https://github.com/PrestaShop/PrestaShop/issues/33455](https://github.com/PrestaShop/PrestaShop/issues/33455)
+  * [PrestaShop#33455 : WS : Products - The field `low_stock_alert` doesn't work](https://github.com/PrestaShop/PrestaShop/issues/33455)
 * **[tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts)** :
-  * [PrestaShop#36496 : https://github.com/PrestaShop/PrestaShop/issues/36496](https://github.com/PrestaShop/PrestaShop/issues/36496)
+  * [PrestaShop#36496 : Page "My wishlists" - Sort "Last added" doesn't work ](https://github.com/PrestaShop/PrestaShop/issues/36496)
 * **[tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/04_showUnavailableOutOfStockLastFieldConfiguration.ts)** :
-  * [PrestaShop#36906 : https://github.com/PrestaShop/PrestaShop/issues/36906](https://github.com/PrestaShop/PrestaShop/issues/36906)
+  * [PrestaShop#36906 : `ps_facetedsearch`: the switch "Show unavailable, out of stock last" doesn't work](https://github.com/PrestaShop/PrestaShop/issues/36906)
 * **[tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/05_categoryFilterDepthFieldConfiguration.ts)** :
-  * [PrestaShop#36438 : https://github.com/PrestaShop/PrestaShop/issues/36438](https://github.com/PrestaShop/PrestaShop/issues/36438)
+  * [PrestaShop#36438 : `ps_facetedsearch` : Invalid input are not considered as invalid](https://github.com/PrestaShop/PrestaShop/issues/36438)
 * **[tests/UI/campaigns/modules/29_ps_newproducts/02_configuration/01_configureSettingsProductsToDisplay.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/29_ps_newproducts/02_configuration/01_configureSettingsProductsToDisplay.ts)** :
-  * [PrestaShop#41351 : https://github.com/PrestaShop/PrestaShop/issues/41351](https://github.com/PrestaShop/PrestaShop/issues/41351)
+  * [PrestaShop#41351 : `ps_newproducts` : Invalid value for configuration "Products to display"](https://github.com/PrestaShop/PrestaShop/issues/41351)
 * **[tests/UI/campaigns/modules/35_ps_themecusto/01_installation/05_disableEnableModule.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/35_ps_themecusto/01_installation/05_disableEnableModule.ts)** :
-  * [PrestaShop#36590 : https://github.com/PrestaShop/PrestaShop/issues/36590](https://github.com/PrestaShop/PrestaShop/issues/36590)
+  * [PrestaShop#36590 : `ps_themecusto` : Disable the module doesn't hide Tabs](https://github.com/PrestaShop/PrestaShop/issues/36590)
 * **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/07_multistore.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/07_multistore.ts)** :
-  * [PrestaShop#37116 : https://github.com/PrestaShop/PrestaShop/issues/37116](https://github.com/PrestaShop/PrestaShop/issues/37116)
-  * [PrestaShop#37112 : https://github.com/PrestaShop/PrestaShop/issues/37112](https://github.com/PrestaShop/PrestaShop/issues/37112)
+  * [PrestaShop#37116 : `psgdpr`: The contact form checkbox is not connected](https://github.com/PrestaShop/PrestaShop/issues/37116)
+  * [PrestaShop#37112 : `psgdpr` : The configure button is not clickable in shop context](https://github.com/PrestaShop/PrestaShop/issues/37112)
 * **[tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/08_personalDataManagerForGuest.ts)** :
-  * [PrestaShop#36847 : https://github.com/PrestaShop/PrestaShop/issues/36847](https://github.com/PrestaShop/PrestaShop/issues/36847)
-  * [PrestaShop#36848 : https://github.com/PrestaShop/PrestaShop/issues/36848](https://github.com/PrestaShop/PrestaShop/issues/36848)
-  * [PrestaShop#36865 : https://github.com/PrestaShop/PrestaShop/issues/36865](https://github.com/PrestaShop/PrestaShop/issues/36865)
+  * [PrestaShop#36847 : `psgdpr`: Search guest account display result and block "There is no result"](https://github.com/PrestaShop/PrestaShop/issues/36847)
+  * [PrestaShop#36848 : `psgdpr`: Search guest account display result and block is empty](https://github.com/PrestaShop/PrestaShop/issues/36848)
+  * [PrestaShop#36865 : `psgdpr`: Search guest account, Remove it & It's always displayed](https://github.com/PrestaShop/PrestaShop/issues/36865)
 * **[tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts)** :
-  * [PrestaShop#9779 : https://github.com/PrestaShop/PrestaShop/issues/9779](https://github.com/PrestaShop/PrestaShop/issues/9779)
+  * [PrestaShop#9779 : [BOOM-4571] Rounding Problem](https://github.com/PrestaShop/PrestaShop/issues/9779)
