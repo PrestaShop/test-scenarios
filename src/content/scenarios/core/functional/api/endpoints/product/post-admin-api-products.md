@@ -9,7 +9,7 @@ weight: 10
 * **Status** : Automated
 * **Automated on** : 9.1.x, 9.2.x, 9.0.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-8648
-* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/09_postProducts.ts
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/product/10_postProduct.ts
 
 ## Steps
 | Step Description | Expected result |

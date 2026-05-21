@@ -1,9 +1,9 @@
 ---
-title: "FO - User account - Contact us on GDPR page"
+title: "FO - Account : Contact us on GDPR page"
 weight: 7
 ---
 
-# FO - User account - Contact us on GDPR page
+# FO - Account : Contact us on GDPR page
 ## Details
 * **Component** : Core
 * **Status** : Automated

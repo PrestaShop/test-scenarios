@@ -1,9 +1,9 @@
 ---
-title: "FO - User account - Get GDPR Data in CSV"
+title: "FO - Account : Get GDPR data in CSV"
 weight: 5
 ---
 
-# FO - User account - Get GDPR Data in CSV
+# FO - Account : Get GDPR data in CSV
 ## Details
 * **Component** : Core
 * **Status** : Automated

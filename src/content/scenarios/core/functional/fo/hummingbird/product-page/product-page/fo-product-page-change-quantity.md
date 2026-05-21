@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Change quantity"
+title: "FO - Product page : Change quantity"
 weight: 2
 ---
 
-# FO - Product Page - Change quantity
+# FO - Product page : Change quantity
 ## Details
 * **Component** : Core
 * **Status** : Automated

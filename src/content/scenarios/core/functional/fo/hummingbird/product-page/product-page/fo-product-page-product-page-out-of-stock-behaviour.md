@@ -1,9 +1,9 @@
 ---
-title: "FO - Product Page - Out-of-Stock behaviour"
+title: "FO - Product page - Product page : Out of stock behaviour"
 weight: 8
 ---
 
-# FO - Product Page - Out-of-Stock behaviour
+# FO - Product page - Product page : Out of stock behaviour
 ## Details
 * **Component** : Core
 * **Status** : Automated
