@@ -21,7 +21,7 @@ weight: 1
   * [PrestaShop#41196 : [Discount V2] The Discount feature on the cheapest product no longer exists.](https://github.com/PrestaShop/PrestaShop/issues/41196)
   * [PrestaShop#41197 : The Discount highlight feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41197)
   * [PrestaShop#41199 : [DISCOUNTS V2] The endpoint `POST /discounts` return a `minimumAmount` with a field `shippingIncluded`](https://github.com/PrestaShop/PrestaShop/issues/41199)
-  * [PrestaShop#41189 : [DISCOUNTS V2] Can't change the state of a Discout in Edit Page](https://github.com/PrestaShop/PrestaShop/issues/41189)
+  * [PrestaShop#41189 : [DISCOUNTS V2] Can't change the state of a Discount in Edit Page](https://github.com/PrestaShop/PrestaShop/issues/41189)
   * [PrestaShop#41201 : [DISCOUNTS V2] The endpoint POST /discounts with compatibleDiscountTypeIds is not sync with backoffice](https://github.com/PrestaShop/PrestaShop/issues/41201)
 * **[tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/hook/03_getHooks.ts)** :
   * [PrestaShop#35616 : Endpoint /api/hooks & List of Hooks : Incorrect count of hooks](https://github.com/PrestaShop/PrestaShop/issues/35616)
