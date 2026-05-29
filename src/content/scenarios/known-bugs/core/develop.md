@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (32 campaigns / 45 issues)
+# Known bugs (32 campaigns / 44 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
@@ -64,7 +64,6 @@ weight: 1
   * [PrestaShop#34564 : WS : Create an Order - Multiples fields are inconsistent after the POST and with a GET](https://github.com/PrestaShop/PrestaShop/issues/34564)
   * [PrestaShop#34576 : WS : Update an Order - The payment is removed](https://github.com/PrestaShop/PrestaShop/issues/34576)
 * **[tests/UI/campaigns/functional/WS/03_productsCRUD.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/03_productsCRUD.ts)** :
-  * [PrestaShop#33429 : WS : Products - The response of the GET request has not defined the field `new`](https://github.com/PrestaShop/PrestaShop/issues/33429)
   * [PrestaShop#14903 : Cannot add a position_in_category using webservices](https://github.com/PrestaShop/PrestaShop/issues/14903)
   * [PrestaShop#33455 : WS : Products - The field `low_stock_alert` doesn't work](https://github.com/PrestaShop/PrestaShop/issues/33455)
 * **[tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts)** :
