@@ -6,7 +6,8 @@ weight: 6
 # BO - International - Locations - Countries - Help button
 ## Details
 * **Component** : Core
-* **Status** : To be automated
+* **Status** : Automated
+* **Automated on** : 9.2.x
 * **Scenario** : https://forge.prestashop.com/browse/TEST-10261
 
 ## Steps

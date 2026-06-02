@@ -3,20 +3,21 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (32 campaigns / 44 issues)
+# Known bugs (33 campaigns / 44 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
   * [PrestaShop#41109 : [DISCOUNTS V2] API Endpoints are enabled (but not the feature flag)](https://github.com/PrestaShop/PrestaShop/issues/41109)
   * [PrestaShop#38647 : GET & POST endpoints for each type](https://github.com/PrestaShop/PrestaShop/issues/38647)
   * [PrestaShop#39682 : Add the missing endpoints related to the step 2 of discounts](https://github.com/PrestaShop/PrestaShop/issues/39682)
-  * [PrestaShop#38784 : Delete / list / tests discounts](https://github.com/PrestaShop/PrestaShop/issues/38784)
   * Check regulary
 * **[tests/UI/campaigns/functional/API/02_endpoints/attribute/10_postAttributesGroup.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/10_postAttributesGroup.ts)** :
   * [PrestaShop#39729 : Admin API : Endpoint `POST /attributes/group` : The response is not the expected : Missing key `position`](https://github.com/PrestaShop/PrestaShop/issues/39729)
 * **[tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/attribute/12_getAttributesGroups.ts)** :
   * [PrestaShop#39753 : Endpoint `GET /attributes/groups` : The field `position` is not consistant to BackOffice](https://github.com/PrestaShop/PrestaShop/issues/39753)
-* **[tests/UI/campaigns/functional/API/02_endpoints/discount/03_postDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/discount/03_postDiscounts.ts)** :
+* **[tests/UI/campaigns/functional/API/02_endpoints/discount/03_getDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/discount/03_getDiscounts.ts)** :
+  * [PrestaShop#41110 : [DISCOUNTS V2] API Endpoint `GET /discount-types`](https://github.com/PrestaShop/PrestaShop/issues/41110)
+* **[tests/UI/campaigns/functional/API/02_endpoints/discount/04_postDiscounts.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/discount/04_postDiscounts.ts)** :
   * [PrestaShop#41198 : The Discount partial use feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41198)
   * [PrestaShop#41196 : [Discount V2] The Discount feature on the cheapest product no longer exists.](https://github.com/PrestaShop/PrestaShop/issues/41196)
   * [PrestaShop#41197 : The Discount highlight feature no longer exists on Discount V2.](https://github.com/PrestaShop/PrestaShop/issues/41197)
@@ -84,4 +85,4 @@ weight: 1
   * [PrestaShop#36848 : `psgdpr`: Search guest account display result and block is empty](https://github.com/PrestaShop/PrestaShop/issues/36848)
   * [PrestaShop#36865 : `psgdpr`: Search guest account, Remove it & It's always displayed](https://github.com/PrestaShop/PrestaShop/issues/36865)
 * **[tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/sanity/05_cartFO/01_editCheckCart.ts)** :
-  * [PrestaShop#9779 : [BOOM-4571] Rounding Problem](https://github.com/PrestaShop/PrestaShop/issues/9779)
+  * [PrestaShop#9779 : https://github.com/PrestaShop/PrestaShop/issues/9779](https://github.com/PrestaShop/PrestaShop/issues/9779)

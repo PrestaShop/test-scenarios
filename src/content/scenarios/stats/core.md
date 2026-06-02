@@ -16,7 +16,7 @@ disableToc: true
 | [Core > Functional > API > Endpoints > Attribute](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FAttribute) | 9 | - | - | - | - | - | - | 9 | - | 
 | [Core > Functional > API > Endpoints > Category](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FCategory) | 3 | - | - | - | - | - | - | 3 | - | 
 | [Core > Functional > API > Endpoints > CustomersGroup](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FCustomersGroup) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > API > Endpoints > Discount](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FDiscount) | 3 | - | - | - | - | - | - | 3 | - | 
+| [Core > Functional > API > Endpoints > Discount](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FDiscount) | 4 | - | - | - | - | - | - | 4 | - | 
 | [Core > Functional > API > Endpoints > Hook](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FHook) | 3 | - | - | - | - | - | - | 2 | 1 | 
 | [Core > Functional > API > Endpoints > Language](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FLanguage) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > API > Endpoints > Module](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FModule) | 11 | - | - | - | - | - | - | 11 | - | 
@@ -80,7 +80,7 @@ disableToc: true
 | [Core > Functional > BO > International > Localization > Currencies](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocalization%2FCurrencies) | 6 | - | - | - | - | 1 | 1 | 4 | - | 
 | [Core > Functional > BO > International > Localization > Geolocation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocalization%2FGeolocation) | 2 | - | - | 1 | - | - | - | 1 | - | 
 | [Core > Functional > BO > International > Locations > Zones](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocations%2FZones) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > International > Locations > Countries](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocations%2FCountries) | 6 | - | - | - | - | 1 | - | 5 | - | 
+| [Core > Functional > BO > International > Locations > Countries](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocations%2FCountries) | 6 | - | - | - | - | - | - | 6 | - | 
 | [Core > Functional > BO > International > Locations > States](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocations%2FStates) | 5 | - | - | - | - | 3 | - | 2 | - | 
 | [Core > Functional > BO > International > Taxes > Taxes](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTaxes%2FTaxes) | 5 | - | 5 | - | - | - | - | - | - | 
 | [Core > Functional > BO > International > Taxes > Tax Rules](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTaxes%2FTax+Rules) | 4 | - | - | - | - | - | - | 4 | - | 
@@ -197,5 +197,5 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **998** | **115** | **58** | **8** | **1** | **78** | **10** | **689** | **32** | 
-| **Total** |  | **11.52%** | **5.81%** | **0.80%** | **0.10%** | **7.82%** | **1.00%** | **69.04%** | **5.81%** | 
+| **Total** | **999** | **115** | **58** | **8** | **1** | **77** | **10** | **691** | **32** | 
+| **Total** |  | **11.51%** | **5.81%** | **0.80%** | **0.10%** | **7.71%** | **1.00%** | **69.17%** | **5.81%** | 
