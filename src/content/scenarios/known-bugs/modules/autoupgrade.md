@@ -27,4 +27,4 @@ weight: 1
 * **[tests/UI/campaigns/sanity/02_productsBO/06_deleteProductsWithBulkActions.spec.ts](https://github.com/PrestaShop/autoupgrade/tree/dev/tests/UI/campaigns/sanity/02_productsBO/06_deleteProductsWithBulkActions.spec.ts)** :
   * [PrestaShop#36097 : https://github.com/PrestaShop/PrestaShop/issues/36097](https://github.com/PrestaShop/PrestaShop/issues/36097)
 * **[tests/UI/campaigns/sanity/04_cartFO/01_editCheckCart.spec.ts](https://github.com/PrestaShop/autoupgrade/tree/dev/tests/UI/campaigns/sanity/04_cartFO/01_editCheckCart.spec.ts)** :
-  * [PrestaShop#9779 : https://github.com/PrestaShop/PrestaShop/issues/9779](https://github.com/PrestaShop/PrestaShop/issues/9779)
+  * [PrestaShop#9779 : [BOOM-4571] Rounding Problem](https://github.com/PrestaShop/PrestaShop/issues/9779)
