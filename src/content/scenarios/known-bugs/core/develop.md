@@ -3,7 +3,7 @@ title: "develop"
 weight: 1
 ---
 
-# Known bugs (33 campaigns / 44 issues)
+# Known bugs (33 campaigns / 43 issues)
 * **[tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/audit/FO/hummingbird/02_connected.ts)** :
   * [hummingbird#834 : [2.0 Beta] "My wishlists" Page is not available. ](https://github.com/PrestaShop/hummingbird/issues/834)
 * **[tests/UI/campaigns/functional/API/02_checkEndpoints.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_checkEndpoints.ts)** :
@@ -36,7 +36,6 @@ weight: 1
   * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts)** :
   * [PrestaShop#39929 : Prestashop does not remember the last address used by the customer, but loads the first one](https://github.com/PrestaShop/PrestaShop/issues/39929)
-  * [PrestaShop#41057 : [Discount v2] Can't remove a delivery condition](https://github.com/PrestaShop/PrestaShop/issues/41057)
 * **[tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/09_triggerBasedOnProductsQuantity.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/09_triggerBasedOnProductsQuantity.ts)** :
   * [PrestaShop#39436 : Wrong price if specific price + discount of products ](https://github.com/PrestaShop/PrestaShop/issues/39436)
 * **[tests/UI/campaigns/functional/BO/03_catalog/08_stocks/01_movements/01_filterMovements.ts](https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/08_stocks/01_movements/01_filterMovements.ts)** :
