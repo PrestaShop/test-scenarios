@@ -5,7 +5,7 @@ weight: 3
 
 # BO - Hall of Fame - Top contributors
 ## Details
-* **Status** : To be automated
+* **Status** : Automation in progress
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12861
 
 ## Steps
