@@ -84,7 +84,7 @@ disableToc: true
 | [Core > Functional > BO > International > Locations > States](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocations%2FStates) | 5 | - | - | - | - | 3 | - | 2 | - | 
 | [Core > Functional > BO > International > Taxes > Taxes](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTaxes%2FTaxes) | 5 | - | 5 | - | - | - | - | - | - | 
 | [Core > Functional > BO > International > Taxes > Tax Rules](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTaxes%2FTax+Rules) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > International > Translations](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTranslations) | 5 | 1 | 4 | - | - | - | - | - | - | 
+| [Core > Functional > BO > International > Translations](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTranslations) | 5 | - | 4 | - | - | 1 | - | - | - | 
 | [Core > Functional > BO > Shop Parameters > General > General](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FGeneral%2FGeneral) | 9 | 1 | - | - | - | 2 | - | 6 | - | 
 | [Core > Functional > BO > Shop Parameters > General > Maintenance](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FGeneral%2FMaintenance) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > BO > Shop Parameters > Order settings > Order settings > General](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FOrder+settings%2FOrder+settings%2FGeneral) | 9 | 2 | - | - | - | - | - | 7 | - | 
@@ -197,5 +197,5 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **1000** | **116** | **58** | **8** | **1** | **74** | **13** | **691** | **32** | 
-| **Total** |  | **11.60%** | **5.80%** | **0.80%** | **0.10%** | **7.40%** | **1.30%** | **69.10%** | **5.80%** | 
+| **Total** | **1000** | **115** | **58** | **8** | **1** | **75** | **13** | **691** | **32** | 
+| **Total** |  | **11.50%** | **5.80%** | **0.80%** | **0.10%** | **7.50%** | **1.30%** | **69.10%** | **5.80%** | 
