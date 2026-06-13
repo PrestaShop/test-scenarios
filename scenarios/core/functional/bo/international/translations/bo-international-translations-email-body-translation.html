@@ -22,13 +22,13 @@
     <title>BO - International - Translations : Email Body Translation :: PrestaShop Tests</title>
     
     
-    <link href="../../../../../../css/font-awesome.min.css?1781252163" rel="stylesheet">
-    <link href="../../../../../../css/syntax-github.css?1781252163" rel="stylesheet">
-    <link href="../../../../../../css/featherlight.min.css?1781252163" rel="stylesheet">
-    <link href="../../../../../../css/perfect-scrollbar.min.css?1781252163" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1781252163" rel="stylesheet">
-    <link href="../../../../../../style.css?1781252163" rel="stylesheet">
+    <link href="../../../../../../css/font-awesome.min.css?1781337335" rel="stylesheet">
+    <link href="../../../../../../css/syntax-github.css?1781337335" rel="stylesheet">
+    <link href="../../../../../../css/featherlight.min.css?1781337335" rel="stylesheet">
+    <link href="../../../../../../css/perfect-scrollbar.min.css?1781337335" rel="stylesheet"><link href="../../../../../../css/auto-complete.css?1781337335" rel="stylesheet">
+    <link href="../../../../../../style.css?1781337335" rel="stylesheet">
 
-    <script src="../../../../../../js/jquery-3.3.1.min.js?1781252163"></script>
+    <script src="../../../../../../js/jquery-3.3.1.min.js?1781337335"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -72808,7 +72808,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h1 id="bo---international---translations--email-body-translation">BO - International - Translations : Email Body Translation<a href="#bo---international---translations--email-body-translation"></a></h1>
 <h2 id="details">Details<a href="#details"></a></h2><ul>
 <li><strong>Component</strong> : Core</li>
-<li><strong>Status</strong> : Sandbox</li>
+<li><strong>Status</strong> : To be automated</li>
 <li><strong>Scenario</strong> : <a href="https://forge.prestashop.com/browse/TEST-12888">https://forge.prestashop.com/browse/TEST-12888</a></li>
 </ul>
 
@@ -72821,8 +72821,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </thead>
 <tbody>
 <tr>
-<td><em><em>Pre-condition: Enable feature flag</em></em><br><br>BO &gt; Advanced Parameters &gt; Feature Flags</td>
-<td>The Feature Flags page is well displayed</td>
+<td><em><em>Pre-condition: Enable feature flag</em></em><br><br>BO &gt; Advanced Parameters &gt; New &amp; Experimental Features</td>
+<td>The New &amp; Experimental Features page is well displayed</td>
 </tr>
 <tr>
 <td>Enable the feature flag <em>email_body_translation</em> &gt; Click on <em>Save</em> button</td>
@@ -72833,24 +72833,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <td>The new Symfony-driven translation interface is displayed :<br>- A domain tree is shown on the left<br>- Wording fields are shown on the right<br><br>The legacy TinyMCE editor is <em>not</em> shown</td>
 </tr>
 <tr>
-<td><em><em>Case 2: Modify and save a translation (flag enabled)</em></em><br><br>Click on a domain in the tree (e.g. <em>Emails.Body</em>) &gt; Edit a wording field &gt; Click on <em>Save</em> button</td>
-<td>A success flash message is displayed : &ldquo;Translations successfully updated&rdquo;<br><br>No error is shown</td>
+<td><em><em>Case 2: Modify and save a translation (flag enabled)</em></em><br><br>Click on edit button for Account</td>
+<td>h1. Edit email template: account (en) page displayed</td>
 </tr>
 <tr>
-<td><em><em>Case 3: Persistence check (flag enabled)</em></em><br><br>Reload the page &gt; Re-select the same domain (e.g. <em>Emails.Body</em>)</td>
+<td><em><em>Case 2: Modify and save a translation (flag enabled)</em></em><br><br>Edit a wording field &gt; Click on <em>Save</em> button</td>
+<td>A success flash message is displayed : &ldquo;Email template &ldquo;account&rdquo; has been successfully updated.&quot;<br><br>No error is shown</td>
+</tr>
+<tr>
+<td><em><em>Case 3: Persistence check (flag enabled)</em></em><br><br>Reload the page &gt; Re-select the same domain (e.g. <em>account</em>)</td>
 <td>The previously saved custom value is still present in the field</td>
 </tr>
 <tr>
-<td><em><em>Case 4: Reset a translation to default (flag enabled)</em></em><br><br>Click the <em>Reset</em> button next to the wording edited in Case 2</td>
-<td>The field reverts to the official (default) translation value<br><br>A success flash message is displayed : &ldquo;Translations successfully updated&rdquo;</td>
-</tr>
-<tr>
-<td><em><em>Case 5: Email template regeneration after save (flag enabled)</em></em><br><br>Edit a wording field &gt; Click on <em>Save</em> button</td>
+<td><em><em>Case 4: Email template regeneration after save (flag enabled)</em></em><br><br>Edit a wording field &gt; Click on <em>Save</em> button</td>
 <td>A success flash message is displayed : &ldquo;Translations successfully updated&rdquo;<br><br>The email templates are regenerated for the selected language<br><br>The regeneration result is confirmed (success message or equivalent)</td>
 </tr>
 <tr>
-<td><em><em>Case 6: No regression on legacy path (flag disabled)</em></em><br><br>BO &gt; Advanced Parameters &gt; Feature Flags</td>
-<td>The Feature Flags page is well displayed</td>
+<td><em><em>Case 5: No regression on legacy path (flag disabled)</em></em><br><br>BO &gt; Advanced Parameters &gt;  New &amp; Experimental Features</td>
+<td>The  New &amp; Experimental Features page is well displayed</td>
 </tr>
 <tr>
 <td>Disable the feature flag <em>email_body_translation</em> &gt; Click on <em>Save</em> button</td>
@@ -72880,17 +72880,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../../../../js/clipboard.min.js?1781252163"></script>
-    <script src="../../../../../../js/perfect-scrollbar.min.js?1781252163"></script>
-    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1781252163"></script>
-    <script src="../../../../../../js/jquery.sticky.js?1781252163"></script>
-    <script src="../../../../../../js/featherlight.min.js?1781252163"></script>
-    <script src="../../../../../../js/html5shiv-printshiv.min.js?1781252163"></script>
-    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1781252163"></script>
-    <script src="../../../../../../js/learn.js?1781252163"></script>
-    <script src="../../../../../../js/hugo-learn.js?1781252163"></script>
+    <script src="../../../../../../js/clipboard.min.js?1781337336"></script>
+    <script src="../../../../../../js/perfect-scrollbar.min.js?1781337336"></script>
+    <script src="../../../../../../js/perfect-scrollbar.jquery.min.js?1781337336"></script>
+    <script src="../../../../../../js/jquery.sticky.js?1781337336"></script>
+    <script src="../../../../../../js/featherlight.min.js?1781337336"></script>
+    <script src="../../../../../../js/html5shiv-printshiv.min.js?1781337336"></script>
+    <script src="../../../../../../js/modernizr.custom-3.6.0.js?1781337336"></script>
+    <script src="../../../../../../js/learn.js?1781337336"></script>
+    <script src="../../../../../../js/hugo-learn.js?1781337336"></script>
     
-    <script src="../../../../../../main.js?1781252163"></script>
+    <script src="../../../../../../main.js?1781337336"></script>
     
     
     
