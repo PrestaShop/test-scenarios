@@ -5,7 +5,7 @@ weight: 2
 
 # BO - Hall of Fame - Top companies
 ## Details
-* **Status** : Automation in progress
+* **Status** : Automated
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12860
 
 ## Steps
