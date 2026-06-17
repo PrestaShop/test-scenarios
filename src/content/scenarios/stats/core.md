@@ -13,7 +13,7 @@ disableToc: true
 | [Core > Functional > API > Client Credential Grant Flow > Internal Authentification Server](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FClient+Credential+Grant+Flow%2FInternal+Authentification+Server) | 2 | - | - | - | - | - | - | 2 | - | 
 | [Core > Functional > API > Client Credential Grant Flow > External Authentification Server](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FClient+Credential+Grant+Flow%2FExternal+Authentification+Server) | 2 | - | - | - | - | - | - | 2 | - | 
 | [Core > Functional > API > Endpoints > ApiClient](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FApiClient) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > API > Endpoints > Address](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FAddress) | 11 | 11 | - | - | - | - | - | - | - | 
+| [Core > Functional > API > Endpoints > Address](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FAddress) | 11 | 9 | - | - | - | - | 2 | - | - | 
 | [Core > Functional > API > Endpoints > Attribute](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FAttribute) | 9 | - | - | - | - | - | - | 9 | - | 
 | [Core > Functional > API > Endpoints > Category](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FCategory) | 3 | - | - | - | - | - | - | 3 | - | 
 | [Core > Functional > API > Endpoints > CustomersGroup](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FCustomersGroup) | 5 | - | - | - | - | - | - | 5 | - | 
@@ -29,7 +29,7 @@ disableToc: true
 | [Core > Functional > BO > Dashboard](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDashboard) | 5 | 1 | - | - | - | - | - | 4 | - | 
 | [Core > Functional > BO > Orders > Orders](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders) | 12 | - | - | 1 | - | - | - | 10 | 1 | 
 | [Core > Functional > BO > Orders > Orders > View and edit an order](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders%2FView+and+edit+an+order) | 13 | - | - | - | - | - | - | 13 | - | 
-| [Core > Functional > BO > Orders > Orders > Create an order](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders%2FCreate+an+order) | 13 | - | - | - | - | 3 | - | 10 | - | 
+| [Core > Functional > BO > Orders > Orders > Create an order](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders%2FCreate+an+order) | 13 | - | - | - | - | 2 | 1 | 10 | - | 
 | [Core > Functional > BO > Orders > Invoices](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FInvoices) | 2 | - | - | - | - | - | - | 2 | - | 
 | [Core > Functional > BO > Orders > Invoices > Invoice Options](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FInvoices%2FInvoice+Options) | 6 | - | - | - | - | - | - | 6 | - | 
 | [Core > Functional > BO > Orders > Credit Slips](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FCredit+Slips) | 4 | - | - | - | - | - | - | 4 | - | 
@@ -198,5 +198,5 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **1011** | **126** | **58** | **8** | **1** | **75** | **10** | **694** | **32** | 
-| **Total** |  | **12.46%** | **5.74%** | **0.79%** | **0.10%** | **7.42%** | **0.99%** | **68.64%** | **5.74%** | 
+| **Total** | **1011** | **124** | **58** | **8** | **1** | **74** | **13** | **694** | **32** | 
+| **Total** |  | **12.27%** | **5.74%** | **0.79%** | **0.10%** | **7.32%** | **1.29%** | **68.64%** | **5.74%** | 
