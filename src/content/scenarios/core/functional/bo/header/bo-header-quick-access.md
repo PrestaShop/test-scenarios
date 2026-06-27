@@ -18,6 +18,8 @@ weight: 2
 | Check all links in Quick access | All links work as expected |
 | Click on a link in the list. Click on "Remove from Quick Access" | A message says that the link is successfully removed "Successful update.". |
 | Refresh the page. Open the Quick Access menu | Option to remove this page is removed in the Quick Access menu<br>Link is now absent in the list |
+| Click on Add current page to Quick Access with an empty name | Check the inline error : "Shortcut name is required" |
+| Refresh the page. Open the Quick Access menu | Option to remove this page is removed in the Quick Access menu<br>Link is now absent in the list |
 | Click on Add current page to Quick Access. Rename this link. | Link is correctly added.<br>Option to add this page is removed in the Quick Access menu |
 | Refresh the page. Open the Quick Access menu | Link is now present in the list |
 | Click on Manage Quick Accesses | Quick access page is displayed |

@@ -6,6 +6,7 @@ disableToc: true
 
 | Feature | Total | Draft | In Progress | In Review | Blocked | To Be Automated | Automation In Progress | Automated | Deprecated |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| [Core](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core) | 1 | 1 | - | - | - | - | - | - | - | 
 | [Core > Audit > BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FAudit%2FBO) | 14 | - | - | - | - | - | - | 14 | - | 
 | [Core > Audit > FO > classic](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FAudit%2FFO%2Fclassic) | 3 | - | - | - | - | - | - | 3 | - | 
 | [Core > Audit > FO > hummingbird](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FAudit%2FFO%2Fhummingbird) | 3 | - | - | - | - | - | - | 3 | - | 
@@ -198,5 +199,5 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **1011** | **115** | **58** | **8** | **1** | **75** | **20** | **695** | **32** | 
-| **Total** |  | **11.37%** | **5.74%** | **0.79%** | **0.10%** | **7.42%** | **1.98%** | **68.74%** | **5.74%** | 
+| **Total** | **1012** | **116** | **58** | **8** | **1** | **75** | **20** | **695** | **32** | 
+| **Total** |  | **11.46%** | **5.73%** | **0.79%** | **0.10%** | **7.41%** | **1.98%** | **68.68%** | **5.73%** | 
