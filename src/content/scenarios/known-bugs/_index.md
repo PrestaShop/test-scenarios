@@ -10,6 +10,7 @@ weight: 3
 ### Core
 
 * [develop]({{< ref "core/develop.md" >}})
+* [9.2.x]({{< ref "core/9.2.x.md" >}})
 * [9.1.x]({{< ref "core/9.1.x.md" >}})
 * [9.0.x]({{< ref "core/9.0.x.md" >}})
 * [8.2.x]({{< ref "core/8.2.x.md" >}})
