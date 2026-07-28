@@ -17,13 +17,16 @@ disableToc: true
 | [Core > Functional > API > Endpoints > Address](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FAddress) | 11 | - | - | - | - | 1 | 10 | - | - | 
 | [Core > Functional > API > Endpoints > Attribute](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FAttribute) | 9 | - | - | - | - | - | - | 9 | - | 
 | [Core > Functional > API > Endpoints > Category](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FCategory) | 3 | - | - | - | - | - | - | 3 | - | 
+| [Core > Functional > API > Endpoints > Contact](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FContact) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > API > Endpoints > CustomersGroup](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FCustomersGroup) | 5 | - | - | - | - | - | - | 5 | - | 
 | [Core > Functional > API > Endpoints > Discount](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FDiscount) | 4 | - | - | - | - | - | - | 4 | - | 
+| [Core > Functional > API > Endpoints > Feature](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FFeature) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > API > Endpoints > Hook](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FHook) | 3 | - | - | - | - | - | - | 2 | 1 | 
 | [Core > Functional > API > Endpoints > Language](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FLanguage) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > API > Endpoints > Module](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FModule) | 11 | - | - | - | - | - | - | 11 | - | 
 | [Core > Functional > API > Endpoints > Product](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FProduct) | 11 | - | - | - | - | - | - | 11 | - | 
 | [Core > Functional > API > Endpoints > SearchAlias](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FSearchAlias) | 1 | - | - | - | - | - | - | 1 | - | 
+| [Core > Functional > API > Endpoints > SearchEngine](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FSearchEngine) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > API > Endpoints > Zone](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FZone) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Functional > BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO) | 4 | - | 1 | - | - | 1 | - | - | 2 | 
 | [Core > Functional > BO > Login](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FLogin) | 4 | - | - | - | - | - | - | 4 | - | 
@@ -200,5 +203,5 @@ disableToc: true
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **1014** | **118** | **58** | **8** | **1** | **75** | **20** | **695** | **32** | 
-| **Total** |  | **11.64%** | **5.72%** | **0.79%** | **0.10%** | **7.40%** | **1.97%** | **68.54%** | **5.72%** | 
+| **Total** | **1017** | **118** | **58** | **8** | **1** | **75** | **20** | **698** | **32** | 
+| **Total** |  | **11.60%** | **5.70%** | **0.79%** | **0.10%** | **7.37%** | **1.97%** | **68.63%** | **5.70%** | 
