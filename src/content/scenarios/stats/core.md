@@ -196,12 +196,12 @@ disableToc: true
 | [Core > Sanity > CatalogFO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FCatalogFO) | 2 | - | - | - | - | - | - | 2 | - | 
 | [Core > Sanity > CartFO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FCartFO) | 1 | - | - | - | - | - | - | 1 | - | 
 | [Core > Sanity > CheckoutFO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FCheckoutFO) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Sanity > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FUpgrade) | 23 | 5 | 16 | - | - | - | - | - | - | 
+| [Core > Sanity > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FUpgrade) | 23 | 5 | 15 | 1 | - | - | - | - | - | 
 | [Core > Sanity > Upgrade > Precondition](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FUpgrade%2FPrecondition) | 10 | 2 | 3 | - | - | - | - | - | - | 
 | [Core > Sanity > Upgrade > Deprecated](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FUpgrade%2FDeprecated) | 18 | - | - | - | - | - | - | - | 18 | 
 | [Core > CLDR](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FCLDR) | 16 | 10 | - | - | - | - | - | 6 | - | 
 | [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
 | [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
 | [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **1017** | **118** | **58** | **8** | **1** | **75** | **20** | **698** | **32** | 
-| **Total** |  | **11.60%** | **5.70%** | **0.79%** | **0.10%** | **7.37%** | **1.97%** | **68.63%** | **5.70%** | 
+| **Total** | **1017** | **118** | **57** | **9** | **1** | **75** | **20** | **698** | **32** | 
+| **Total** |  | **11.60%** | **5.60%** | **0.88%** | **0.10%** | **7.37%** | **1.97%** | **68.63%** | **5.60%** | 

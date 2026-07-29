@@ -6,7 +6,7 @@ weight: 15
 # Autoupgrade - Web Version - Verification during backup part
 ## Details
 * **Component** : Core
-* **Status** : In progress
+* **Status** : IN REVIEW
 * **Scenario** : https://forge.prestashop.com/browse/TEST-12193
 
 ## Steps
