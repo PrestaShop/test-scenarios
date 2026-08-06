@@ -1,12 +1,12 @@
 ---
 title: "BO - Discount - based on the shipping country"
-weight: 14
+weight: 23
 ---
 
 # BO - Discount - based on the shipping country
 ## Details
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12722
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8494
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4"
-weight: 9
+weight: 10
 ---
 
 # Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11313
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5622
 
 ## Steps
 | Step Description | Expected result |

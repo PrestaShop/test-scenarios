@@ -1,14 +1,14 @@
 ---
 title: "Countries : CRUD"
-weight: 1
+weight: 5
 ---
 
 # Countries : CRUD
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6064
+* **Automated on** : 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8262
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts
 
 ## Steps

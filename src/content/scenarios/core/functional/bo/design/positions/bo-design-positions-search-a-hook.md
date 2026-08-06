@@ -1,14 +1,14 @@
 ---
 title: "BO - Design - Positions - Search a hook"
-weight: 3
+weight: 4
 ---
 
 # BO - Design - Positions - Search a hook
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 1.7.8.x, 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-954
+* **Automated on** : 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7669
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/05_positions/03_searchHook.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/positions
 

@@ -1,13 +1,13 @@
 ---
 title: "Wishlist module - Share a list"
-weight: 3
+weight: 5
 ---
 
 # Wishlist module - Share a list
 ## Details
 * **Component** : blockwishlist
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3948
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8103
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/01_lists/03_shareList.ts
 
 ## Steps

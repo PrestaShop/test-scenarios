@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Vote for a comment"
-weight: 3
+weight: 4
 ---
 
 # productcomments - Vote for a comment
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-595
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7380
 
 ## Steps
 | Step Description | Expected result |

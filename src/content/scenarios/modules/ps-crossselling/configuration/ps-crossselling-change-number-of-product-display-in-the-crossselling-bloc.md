@@ -1,13 +1,13 @@
 ---
 title: "ps_crossselling - Change number of product display in the crossselling bloc"
-weight: 2
+weight: 1
 ---
 
 # ps_crossselling - Change number of product display in the crossselling bloc
 ## Details
 * **Component** : ps_crossselling
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-620
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7401
 
 ## Steps
 | Step Description | Expected result |

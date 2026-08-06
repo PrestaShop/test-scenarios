@@ -1,14 +1,16 @@
 ---
 title: "BO - Catalog - Products - Sort & pagination"
-weight: 1
+weight: 6
 ---
 
 # BO - Catalog - Products - Sort & pagination
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Automated on** : 8.0.x, 9.1.x, 8.1.x, 9.0.x, 1.7.8.x, 1.7.7.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-781
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7551
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/02_paginationAndSortProducts.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products
 
 ## Steps
 | Step Description | Expected result |

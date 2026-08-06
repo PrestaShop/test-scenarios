@@ -1,13 +1,13 @@
 ---
 title: "ps_searchbar - Uninstall/Install"
-weight: 2
+weight: 3
 ---
 
 # ps_searchbar - Uninstall/Install
 ## Details
 * **Component** : ps_searchbar
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-677
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7460
 
 ## Steps
 | Step Description | Expected result |

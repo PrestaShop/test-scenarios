@@ -1,13 +1,14 @@
 ---
 title: "BO - Design - Theme & Logo - Reset  to default"
-weight: 6
+weight: 3
 ---
 
 # BO - Design - Theme & Logo - Reset  to default
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-922
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7647
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo/choose-layouts
 
 ## Steps
 | Step Description | Expected result |

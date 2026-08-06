@@ -1,13 +1,13 @@
 ---
 title: "BO - Order creation - Proceed to checkout in the front office"
-weight: 11
+weight: 8
 ---
 
 # BO - Order creation - Proceed to checkout in the front office
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10009
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8402
 
 ## Steps
 | Step Description | Expected result |

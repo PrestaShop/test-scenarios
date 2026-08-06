@@ -6,8 +6,8 @@ weight: 1
 # ps_shoppingcart - Enable/Disable ajax cart
 ## Details
 * **Component** : ps_shoppingcart
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-684
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7465
 
 ## Steps
 | Step Description | Expected result |

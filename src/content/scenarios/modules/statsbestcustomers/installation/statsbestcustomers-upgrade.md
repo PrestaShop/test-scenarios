@@ -1,13 +1,13 @@
 ---
 title: "statsbestcustomers - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # statsbestcustomers - Upgrade
 ## Details
 * **Component** : statsbestcustomers
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-692
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7471
 
 ## Steps
 | Step Description | Expected result |

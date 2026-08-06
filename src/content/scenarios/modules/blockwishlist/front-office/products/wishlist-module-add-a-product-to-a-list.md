@@ -1,14 +1,14 @@
 ---
 title: "Wishlist module - Add a product to a list"
-weight: 1
+weight: 5
 ---
 
 # Wishlist module - Add a product to a list
 ## Details
 * **Component** : blockwishlist
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3950
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8104
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/02_blockwishlist/03_frontOffice/02_products/01_addProductToList.ts
 
 ## Steps

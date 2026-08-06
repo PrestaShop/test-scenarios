@@ -1,13 +1,14 @@
 ---
 title: "BO - International - Localization - Edit local units"
-weight: 3
+weight: 1
 ---
 
 # BO - International - Localization - Edit local units
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-987
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7695
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/localization/localization
 
 ## Steps
 | Step Description | Expected result |

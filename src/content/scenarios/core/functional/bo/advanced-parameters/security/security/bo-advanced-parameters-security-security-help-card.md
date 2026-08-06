@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Security - Security - Help card"
-weight: 3
+weight: 1
 ---
 
 # BO - Advanced parameters - Security - Security - Help card
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12850
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8537
 

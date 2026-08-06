@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : ps_crossselling
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-621
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7404
 
 ## Steps
 | Step Description | Expected result |

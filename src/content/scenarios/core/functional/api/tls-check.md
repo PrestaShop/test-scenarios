@@ -1,13 +1,13 @@
 ---
 title: "TLS Check"
-weight: 2
+weight: 1
 ---
 
 # TLS Check
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4901
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8199
 
 ## Steps
 | Step Description | Expected result |

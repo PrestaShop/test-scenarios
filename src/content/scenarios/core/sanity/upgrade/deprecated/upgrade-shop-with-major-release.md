@@ -7,7 +7,7 @@ weight: 3
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9182
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5413
 
 ## Steps
 | Step Description | Expected result |

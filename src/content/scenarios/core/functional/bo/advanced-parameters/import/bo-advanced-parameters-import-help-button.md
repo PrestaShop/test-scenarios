@@ -1,13 +1,13 @@
 ---
 title: "BO - Advanced parameters - Import - Help button"
-weight: 3
+weight: 8
 ---
 
 # BO - Advanced parameters - Import - Help button
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12829
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8515
 
 ## Steps
 | Step Description | Expected result |

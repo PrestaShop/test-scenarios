@@ -1,13 +1,13 @@
 ---
 title: "FO - User account - Order history : Consult details and Reorder"
-weight: 2
+weight: 1
 ---
 
 # FO - User account - Order history : Consult details and Reorder
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8339
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8356
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_consultDetailsAndReorder.ts
 
 ## Steps

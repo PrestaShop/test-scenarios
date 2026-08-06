@@ -1,14 +1,14 @@
 ---
 title: "BO - International - Locations - Countries - Help button"
-weight: 6
+weight: 3
 ---
 
 # BO - International - Locations - Countries - Help button
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10261
+* **Automated on** : 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8428
 
 ## Steps
 | Step Description | Expected result |

@@ -7,7 +7,8 @@ weight: 1
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-966
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7678
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/link-list-link-widget/link-widget-link-widget
 
 ## Steps
 | Step Description | Expected result |

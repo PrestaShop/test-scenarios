@@ -1,13 +1,13 @@
 ---
 title: "ps_banner - Upgrade"
-weight: 1
+weight: 2
 ---
 
 # ps_banner - Upgrade
 ## Details
 * **Component** : ps_banner
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-415
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7314
 
 ## Steps
 | Step Description | Expected result |

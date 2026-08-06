@@ -1,13 +1,13 @@
 ---
 title: "statsvisits - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # statsvisits - Uninstall and delete
 ## Details
 * **Component** : statsvisits
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-698
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7480
 
 ## Steps
 | Step Description | Expected result |

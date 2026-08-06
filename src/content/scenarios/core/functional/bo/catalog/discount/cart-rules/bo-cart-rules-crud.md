@@ -7,8 +7,10 @@ weight: 4
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-830
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7592
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/edit-or-add-cart-rule.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/edit-or-add-cart-rule
 
 ## Steps
 | Step Description | Expected result |

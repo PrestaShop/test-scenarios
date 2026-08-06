@@ -1,13 +1,13 @@
 ---
 title: "ps_categorytree - Change Sort and Sort order option"
-weight: 3
+weight: 2
 ---
 
 # ps_categorytree - Change Sort and Sort order option
 ## Details
 * **Component** : ps_categorytree
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-604
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7385
 
 ## Steps
 | Step Description | Expected result |

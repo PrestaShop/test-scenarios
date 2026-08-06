@@ -1,13 +1,13 @@
 ---
 title: "BO - Design - Image Settings - Image Generation on creation"
-weight: 9
+weight: 12
 ---
 
 # BO - Design - Image Settings - Image Generation on creation
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5513
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8251
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/11_imageGenerationOnCreation.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type
 

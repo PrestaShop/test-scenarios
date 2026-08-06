@@ -1,13 +1,13 @@
 ---
 title: "FO - Order confirmation - Popular products"
-weight: 4
+weight: 3
 ---
 
 # FO - Order confirmation - Popular products
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7011
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8306
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/12_orderConfirmation/04_popularProduct.ts
 
 ## Steps

@@ -1,13 +1,13 @@
 ---
 title: "FO - Product page - Product page : Add to cart"
-weight: 1
+weight: 15
 ---
 
 # FO - Product page - Product page : Add to cart
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1256
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7934
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/01_addToCart.ts
 
 ## Steps

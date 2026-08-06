@@ -1,13 +1,14 @@
 ---
 title: "BO - Orders - Shopping carts - Statistics"
-weight: 7
+weight: 4
 ---
 
 # BO - Orders - Shopping carts - Statistics
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-779
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7552
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/shopping-cart
 
 ## Steps
 | Step Description | Expected result |

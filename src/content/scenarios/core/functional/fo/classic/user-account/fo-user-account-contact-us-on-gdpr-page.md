@@ -1,14 +1,13 @@
 ---
 title: "FO - User account - Contact us on GDPR page"
-weight: 6
+weight: 5
 ---
 
 # FO - User account - Contact us on GDPR page
 ## Details
-* **Component** : Core
-* **Status** : Automated
-* **Automated on** : 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1204
+* **Status** : À faire
+* **Automated on** : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7889
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/06_contactUsOnGDPRPage.ts
 
 ## Steps

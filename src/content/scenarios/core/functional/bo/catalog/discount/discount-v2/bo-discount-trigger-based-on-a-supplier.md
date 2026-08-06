@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - Trigger based on a supplier"
-weight: 17
+weight: 24
 ---
 
 # BO - Discount - Trigger based on a supplier
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12725
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8497
 

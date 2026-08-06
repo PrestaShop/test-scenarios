@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Enable/disable the vote on a comment"
-weight: 3
+weight: 7
 ---
 
 # productcomments - Enable/disable the vote on a comment
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-586
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7370
 
 ## Steps
 | Step Description | Expected result |

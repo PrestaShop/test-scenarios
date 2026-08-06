@@ -1,13 +1,13 @@
 ---
 title: "BO - Dashboard : Activity overview"
-weight: 2
+weight: 5
 ---
 
 # BO - Dashboard : Activity overview
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-720
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7497
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/01_dashboard/02_activityOverview.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/dashboard/dashboard
 

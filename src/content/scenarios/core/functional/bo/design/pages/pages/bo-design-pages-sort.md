@@ -7,8 +7,10 @@ weight: 3
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-949
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7666
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/04_pages/pages/04_sortPages.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/pages
 
 ## Steps
 | Step Description | Expected result |

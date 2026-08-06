@@ -1,11 +1,12 @@
 ---
 title: "BO - Advanced Parameters - Performance - Caching"
-weight: 7
+weight: 4
 ---
 
 # BO - Advanced Parameters - Performance - Caching
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1139
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7826
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/performance
 

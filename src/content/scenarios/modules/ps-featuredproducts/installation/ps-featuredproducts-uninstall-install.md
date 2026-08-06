@@ -1,13 +1,13 @@
 ---
 title: "ps_featuredproducts - Uninstall/Install"
-weight: 2
+weight: 1
 ---
 
 # ps_featuredproducts - Uninstall/Install
 ## Details
 * **Component** : ps_featuredproducts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-665
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7447
 
 ## Steps
 | Step Description | Expected result |

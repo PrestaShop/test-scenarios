@@ -1,14 +1,14 @@
 ---
 title: "DELETE /admin-api/categories/{categoryId}/{deleteMode}"
-weight: 3
+weight: 2
 ---
 
 # DELETE /admin-api/categories/{categoryId}/{deleteMode}
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12123
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8479
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_category/05_deleteCategoriesIdDeleteMode.ts
 
 ## Steps

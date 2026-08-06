@@ -7,7 +7,7 @@ weight: 5
 ## Details
 * **Component** : ps_emailsubscription
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-646
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7428
 
 ## Steps
 | Step Description | Expected result |

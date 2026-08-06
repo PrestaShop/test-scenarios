@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - Do a backup when you already done it"
-weight: 10
+weight: 9
 ---
 
 # Autoupgrade - Web Version - Do a backup when you already done it
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11488
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5632
 
 ## Steps
 | Step Description | Expected result |

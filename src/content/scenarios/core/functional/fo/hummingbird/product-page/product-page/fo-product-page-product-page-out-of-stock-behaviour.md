@@ -1,13 +1,13 @@
 ---
 title: "FO - Product page - Product page : Out of stock behaviour"
-weight: 8
+weight: 9
 ---
 
 # FO - Product page - Product page : Out of stock behaviour
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6984
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8292
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/10_outOfStockBehaviour.ts
 
 ## Steps

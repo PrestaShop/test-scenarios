@@ -1,13 +1,13 @@
 ---
 title: "FO - Order confirmation : Display of product customization"
-weight: 2
+weight: 4
 ---
 
 # FO - Order confirmation : Display of product customization
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7008
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8304
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/12_orderConfirmation/02_displayOfProductCustomization.ts
 
 ## Steps

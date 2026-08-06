@@ -1,13 +1,13 @@
 ---
 title: "BO - CRUD Pack of products"
-weight: 4
+weight: 1
 ---
 
 # BO - CRUD Pack of products
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3551
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8085
 
 ## Steps
 | Step Description | Expected result |

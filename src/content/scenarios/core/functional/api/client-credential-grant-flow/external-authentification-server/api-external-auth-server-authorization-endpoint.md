@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4925
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8200
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/02_externalAuthServer/01_authorizationEndpoint.ts
 
 ## Steps

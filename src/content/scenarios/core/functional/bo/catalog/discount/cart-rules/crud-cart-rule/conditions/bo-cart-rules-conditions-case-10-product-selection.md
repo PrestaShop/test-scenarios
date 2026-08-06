@@ -1,14 +1,14 @@
 ---
 title: "BO - Cart rules - Conditions - Case 10 - Product selection"
-weight: 11
+weight: 10
 ---
 
 # BO - Cart rules - Conditions - Case 10 - Product selection
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3705
+* **Automated on** : 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8097
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/11_productSelection.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/edit-or-add-cart-rule
 

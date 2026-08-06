@@ -1,13 +1,13 @@
 ---
 title: "Theme Customization module - Pages configuration tab "
-weight: 2
+weight: 1
 ---
 
 # Theme Customization module - Pages configuration tab 
 ## Details
 * **Component** : ps_themecusto
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4166
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8145
 
 ## Steps
 | Step Description | Expected result |

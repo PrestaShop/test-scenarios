@@ -1,13 +1,13 @@
 ---
 title: "Create an order and add a new customer"
-weight: 8
+weight: 1
 ---
 
 # Create an order and add a new customer
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1354
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7994
 
 ## Steps
 | Step Description | Expected result |

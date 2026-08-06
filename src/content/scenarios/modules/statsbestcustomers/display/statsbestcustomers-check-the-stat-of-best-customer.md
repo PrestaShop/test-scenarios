@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : statsbestcustomers
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-695
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7477
 
 ## Steps
 | Step Description | Expected result |

@@ -6,7 +6,7 @@ weight: 3
 # BO - Design - Link Widget : Sort Link List
 ## Details
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2877
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8068
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/07_linkList/02_sortLinkList.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/link-list-link-widget/link-widget-link-widget
 

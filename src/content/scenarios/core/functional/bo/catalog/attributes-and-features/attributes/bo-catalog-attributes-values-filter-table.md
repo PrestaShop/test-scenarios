@@ -1,14 +1,14 @@
 ---
 title: "BO - Catalog - Attributes - Values - Filter table"
-weight: 6
+weight: 1
 ---
 
 # BO - Catalog - Attributes - Values - Filter table
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x, 1.7.8.x, 1.7.7.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1776
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8033
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/04_attributesAndFeatures/01_attributes/values/01_filterValues.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/attributes-and-features/attributes/edit-add-new-attribute-value
 

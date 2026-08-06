@@ -1,12 +1,12 @@
 ---
 title: "FO - Create an order with a guest account "
-weight: 2
+weight: 1
 ---
 
 # FO - Create an order with a guest account 
 ## Details
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3189
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8071
 
 ## Steps
 | Step Description | Expected result |

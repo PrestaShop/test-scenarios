@@ -1,13 +1,13 @@
 ---
 title: "Wishlist module - Delete a product from a wishlist"
-weight: 3
+weight: 1
 ---
 
 # Wishlist module - Delete a product from a wishlist
 ## Details
 * **Component** : blockwishlist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4205
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8150
 
 ## Steps
 | Step Description | Expected result |

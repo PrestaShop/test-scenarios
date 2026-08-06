@@ -1,13 +1,13 @@
 ---
 title: "ps_linklist - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # ps_linklist - Uninstall and delete
 ## Details
 * **Component** : ps_linklist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-672
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7451
 
 ## Steps
 | Step Description | Expected result |

@@ -1,14 +1,14 @@
 ---
 title: "Mail alerts module - Uninstall/Install module"
-weight: 1
+weight: 8
 ---
 
 # Mail alerts module - Uninstall/Install module
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4115
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8121
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/01_installation/01_uninstallAndInstallModule.ts
 
 ## Steps

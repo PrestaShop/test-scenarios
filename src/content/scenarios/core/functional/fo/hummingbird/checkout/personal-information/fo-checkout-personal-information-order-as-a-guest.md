@@ -1,13 +1,13 @@
 ---
 title: "FO - Checkout - Personal information : Order as a guest"
-weight: 1
+weight: 4
 ---
 
 # FO - Checkout - Personal information : Order as a guest
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7013
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8307
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/01_personalInformation/01_orderAsAGuest.ts
 
 ## Steps

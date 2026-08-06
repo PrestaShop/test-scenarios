@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Security - Customer sessions - Bulk action and Pagination"
-weight: 2
+weight: 3
 ---
 
 # BO - Advanced parameters - Security - Customer sessions - Bulk action and Pagination
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12847
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8533
 

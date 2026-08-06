@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Verify catalog page after upgrade to V9"
-weight: 2
+weight: 9
 ---
 
 # Autoupgrade - Verify catalog page after upgrade to V9
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9500
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5496
 
 ## Steps
 | Step Description | Expected result |

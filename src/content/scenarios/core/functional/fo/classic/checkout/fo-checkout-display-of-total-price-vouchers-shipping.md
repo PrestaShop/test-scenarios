@@ -7,8 +7,8 @@ weight: 2
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1295
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7957
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/02_displayOfTotals.ts
 
 ## Steps

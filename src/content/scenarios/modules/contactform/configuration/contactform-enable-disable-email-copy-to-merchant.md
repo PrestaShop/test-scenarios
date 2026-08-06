@@ -1,13 +1,13 @@
 ---
 title: "contactform - Enable/Disable email copy to merchant"
-weight: 2
+weight: 1
 ---
 
 # contactform - Enable/Disable email copy to merchant
 ## Details
 * **Component** : contactform
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-566
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7354
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,15 @@
 ---
 title: "BO - Order creation - Create Guest"
-weight: 13
+weight: 2
 ---
 
 # BO - Order creation - Create Guest
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12644
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8491
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/createOrders/02_createCustomer.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template/add-new-order
 
 ## Steps
 | Step Description | Expected result |

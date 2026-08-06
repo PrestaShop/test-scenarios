@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Check that rating is displayed"
-weight: 6
+weight: 5
 ---
 
 # productcomments - Check that rating is displayed
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-598
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7379
 
 ## Steps
 | Step Description | Expected result |

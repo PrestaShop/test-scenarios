@@ -1,13 +1,13 @@
 ---
 title: "ps_emailsubscription - Check that the text entered in the module is updated in front office"
-weight: 6
+weight: 15
 ---
 
 # ps_emailsubscription - Check that the text entered in the module is updated in front office
 ## Details
 * **Component** : ps_emailsubscription
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-651
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7431
 
 ## Steps
 | Step Description | Expected result |

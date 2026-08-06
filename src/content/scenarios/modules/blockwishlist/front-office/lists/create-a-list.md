@@ -1,13 +1,13 @@
 ---
 title: "Create a list"
-weight: 4
+weight: 2
 ---
 
 # Create a list
 ## Details
 * **Component** : blockwishlist
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-556
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7343
 
 ## Steps
 | Step Description | Expected result |

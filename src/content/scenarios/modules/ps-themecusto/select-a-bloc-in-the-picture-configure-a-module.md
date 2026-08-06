@@ -1,13 +1,13 @@
 ---
 title: "Select a bloc in the picture & Configure a module"
-weight: 4
+weight: 6
 ---
 
 # Select a bloc in the picture & Configure a module
 ## Details
 * **Component** : ps_themecusto
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-435
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7322
 
 ## Steps
 | Step Description | Expected result |

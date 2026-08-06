@@ -1,13 +1,13 @@
 ---
 title: "Enable/Disable Notification for order edition"
-weight: 4
+weight: 3
 ---
 
 # Enable/Disable Notification for order edition
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-639
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7420
 
 ## Steps
 | Step Description | Expected result |

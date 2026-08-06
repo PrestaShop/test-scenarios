@@ -1,13 +1,13 @@
 ---
 title: "FO - Product Page - Download attachment"
-weight: 5
+weight: 1
 ---
 
 # FO - Product Page - Download attachment
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6974
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8285
 
 ## Steps
 | Step Description | Expected result |

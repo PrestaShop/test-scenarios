@@ -1,13 +1,13 @@
 ---
 title: "BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field"
-weight: 3
+weight: 1
 ---
 
 # BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1045
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7746
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general
 

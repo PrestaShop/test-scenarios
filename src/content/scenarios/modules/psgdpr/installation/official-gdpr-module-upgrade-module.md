@@ -1,13 +1,13 @@
 ---
 title: "Official GDPR module - Upgrade module"
-weight: 1
+weight: 4
 ---
 
 # Official GDPR module - Upgrade module
 ## Details
 * **Component** : psgdpr
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4402
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8181
 
 ## Steps
 | Step Description | Expected result |

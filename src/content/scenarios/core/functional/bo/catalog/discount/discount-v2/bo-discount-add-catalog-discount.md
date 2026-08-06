@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - Add catalog discount"
-weight: 8
+weight: 1
 ---
 
 # BO - Discount - Add catalog discount
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11265
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8461
 

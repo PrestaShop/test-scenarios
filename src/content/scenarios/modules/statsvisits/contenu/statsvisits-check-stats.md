@@ -6,8 +6,8 @@ weight: 1
 # statsvisits - Check stats
 ## Details
 * **Component** : statsvisits
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-699
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7482
 
 ## Steps
 | Step Description | Expected result |

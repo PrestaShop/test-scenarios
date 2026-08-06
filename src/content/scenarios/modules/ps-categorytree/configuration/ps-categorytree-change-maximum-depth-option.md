@@ -1,13 +1,13 @@
 ---
 title: "ps_categorytree - Change Maximum depth option"
-weight: 2
+weight: 1
 ---
 
 # ps_categorytree - Change Maximum depth option
 ## Details
 * **Component** : ps_categorytree
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-603
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7386
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "ps_banner - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # ps_banner - Uninstall and delete
 ## Details
 * **Component** : ps_banner
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-417
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7313
 
 ## Steps
 | Step Description | Expected result |

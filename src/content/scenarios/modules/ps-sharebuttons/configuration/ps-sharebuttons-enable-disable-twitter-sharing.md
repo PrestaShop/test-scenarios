@@ -1,13 +1,13 @@
 ---
 title: "ps_sharebuttons - Enable / disable twitter sharing"
-weight: 2
+weight: 1
 ---
 
 # ps_sharebuttons - Enable / disable twitter sharing
 ## Details
 * **Component** : ps_sharebuttons
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1598
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8028
 
 ## Steps
 | Step Description | Expected result |

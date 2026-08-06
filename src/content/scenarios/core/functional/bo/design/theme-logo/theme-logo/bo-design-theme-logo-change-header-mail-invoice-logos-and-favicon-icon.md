@@ -1,13 +1,14 @@
 ---
 title: "BO - Design - Theme & Logo - Change Header / Mail / Invoice logos and Favicon icon"
-weight: 3
+weight: 1
 ---
 
 # BO - Design - Theme & Logo - Change Header / Mail / Invoice logos and Favicon icon
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-917
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7644
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo/add-new-theme
 
 ## Steps
 | Step Description | Expected result |

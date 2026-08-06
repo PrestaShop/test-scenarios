@@ -1,13 +1,13 @@
 ---
 title: "Create an order with multiple cart rule"
-weight: 3
+weight: 7
 ---
 
 # Create an order with multiple cart rule
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1349
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7987
 
 ## Steps
 | Step Description | Expected result |

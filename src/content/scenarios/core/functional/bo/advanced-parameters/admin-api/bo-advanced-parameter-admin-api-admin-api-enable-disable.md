@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced Parameter - Admin API - Admin API Enable/Disable"
-weight: 4
+weight: 5
 ---
 
 # BO - Advanced Parameter - Admin API - Admin API Enable/Disable
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12856
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8544
 

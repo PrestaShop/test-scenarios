@@ -1,13 +1,13 @@
 ---
 title: "ps_sharebuttons - Enable / disable facebook sharing"
-weight: 1
+weight: 3
 ---
 
 # ps_sharebuttons - Enable / disable facebook sharing
 ## Details
 * **Component** : ps_sharebuttons
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1597
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8025
 
 ## Steps
 | Step Description | Expected result |

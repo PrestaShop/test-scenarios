@@ -1,12 +1,12 @@
 ---
 title: "ps_mainmenu - Configure Menu Top Link"
-weight: 1
+weight: 2
 ---
 
 # ps_mainmenu - Configure Menu Top Link
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7268
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8323
 
 ## Steps
 | Step Description | Expected result |

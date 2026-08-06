@@ -1,13 +1,13 @@
 ---
 title: "ps_categorytree - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # ps_categorytree - Upgrade
 ## Details
 * **Component** : ps_categorytree
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-599
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7381
 
 ## Steps
 | Step Description | Expected result |

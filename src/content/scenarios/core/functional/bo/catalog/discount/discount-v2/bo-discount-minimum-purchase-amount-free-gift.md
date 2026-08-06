@@ -1,12 +1,12 @@
 ---
 title: "BO - Discount - Minimum purchase amount (Free gift)"
-weight: 3
+weight: 8
 ---
 
 # BO - Discount - Minimum purchase amount (Free gift)
 ## Details
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12395
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8488
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/03_minimumPurchaseAmountFreeGift.ts
 
 ## Steps

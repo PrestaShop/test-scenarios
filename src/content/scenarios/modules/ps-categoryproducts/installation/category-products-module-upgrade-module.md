@@ -7,7 +7,7 @@ weight: 4
 ## Details
 * **Component** : ps_categoryproducts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4215
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8158
 
 ## Steps
 | Step Description | Expected result |

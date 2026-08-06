@@ -1,13 +1,13 @@
 ---
 title: "FO - Menu and Navigation - Navigate and display : Display \"On sale!\" bandeau"
-weight: 4
+weight: 1
 ---
 
 # FO - Menu and Navigation - Navigate and display : Display \"On sale!\" bandeau
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6959
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8274
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/03_navigationAndDisplay/04_displayOnSaleFlag.ts
 
 ## Steps

@@ -1,13 +1,13 @@
 ---
 title: "Mail alerts module - Merchant notifications - Configure email addresses"
-weight: 10
+weight: 2
 ---
 
 # Mail alerts module - Merchant notifications - Configure email addresses
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4125
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8127
 
 ## Steps
 | Step Description | Expected result |

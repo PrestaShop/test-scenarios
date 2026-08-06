@@ -1,13 +1,13 @@
 ---
 title: "dashtrends - Disable, Enable, Reset, uninstall, upload and upgrade module"
-weight: 2
+weight: 1
 ---
 
 # dashtrends - Disable, Enable, Reset, uninstall, upload and upgrade module
 ## Details
 * **Component** : dashtrends
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-580
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7362
 
 ## Steps
 | Step Description | Expected result |

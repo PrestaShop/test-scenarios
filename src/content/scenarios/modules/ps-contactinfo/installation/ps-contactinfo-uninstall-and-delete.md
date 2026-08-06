@@ -1,13 +1,13 @@
 ---
 title: "ps_contactinfo - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # ps_contactinfo - Uninstall and delete
 ## Details
 * **Component** : ps_contactinfo
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-612
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7393
 
 ## Steps
 | Step Description | Expected result |

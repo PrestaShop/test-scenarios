@@ -1,14 +1,14 @@
 ---
 title: "BO - Discount - Minimum purchase amount (On cart amount)"
-weight: 1
+weight: 20
 ---
 
 # BO - Discount - Minimum purchase amount (On cart amount)
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11278
+* **Automated on** : 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8463
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/01_minimumPurchaseAmountOnCartAmount.ts
 
 ## Steps

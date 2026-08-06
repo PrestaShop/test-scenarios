@@ -1,13 +1,13 @@
 ---
 title: "FO - Home Page : Display some products"
-weight: 2
+weight: 5
 ---
 
 # FO - Home Page : Display some products
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5099
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8224
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/02_displaySomeProducts.ts
 
 ## Steps

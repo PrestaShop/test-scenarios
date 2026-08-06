@@ -1,13 +1,13 @@
 ---
 title: "blockreassurance - Disable/Enable a bloc"
-weight: 1
+weight: 5
 ---
 
 # blockreassurance - Disable/Enable a bloc
 ## Details
 * **Component** : blockreassurance
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-543
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7334
 
 ## Steps
 | Step Description | Expected result |

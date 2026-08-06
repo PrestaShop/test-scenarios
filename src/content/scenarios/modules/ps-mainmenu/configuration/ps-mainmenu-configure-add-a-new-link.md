@@ -1,12 +1,12 @@
 ---
 title: "ps_mainmenu - Configure Add a new link"
-weight: 2
+weight: 1
 ---
 
 # ps_mainmenu - Configure Add a new link
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7269
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8325
 
 ## Steps
 | Step Description | Expected result |

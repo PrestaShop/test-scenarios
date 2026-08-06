@@ -1,13 +1,13 @@
 ---
 title: "Mail alerts module - Upgrade module"
-weight: 2
+weight: 3
 ---
 
 # Mail alerts module - Upgrade module
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4127
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8128
 
 ## Steps
 | Step Description | Expected result |

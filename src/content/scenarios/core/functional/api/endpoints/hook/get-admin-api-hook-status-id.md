@@ -7,7 +7,8 @@ weight: 3
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7792
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8347
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/05_hookStatus/01_getHookStatusId.ts
 
 ## Steps
 | Step Description | Expected result |

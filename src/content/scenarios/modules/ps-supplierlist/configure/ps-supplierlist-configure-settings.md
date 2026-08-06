@@ -6,8 +6,8 @@ weight: 1
 # ps_supplierlist - Configure Settings
 ## Details
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7274
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8326
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/34_ps_supplierlist/01_configure/01_configureSettings.ts
 
 ## Steps

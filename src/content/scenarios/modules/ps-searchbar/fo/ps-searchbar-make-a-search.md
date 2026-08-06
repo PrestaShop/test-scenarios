@@ -6,8 +6,8 @@ weight: 1
 # ps_searchbar - Make a search
 ## Details
 * **Component** : ps_searchbar
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-680
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7461
 
 ## Steps
 | Step Description | Expected result |

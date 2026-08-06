@@ -1,13 +1,13 @@
 ---
 title: "FO - Product page - Product page : Change combination"
-weight: 8
+weight: 5
 ---
 
 # FO - Product page - Product page : Change combination
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1265
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7941
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/08_changeCombination.ts
 
 ## Steps

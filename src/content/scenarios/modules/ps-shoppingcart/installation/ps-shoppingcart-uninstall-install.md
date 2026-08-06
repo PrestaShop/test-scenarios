@@ -1,13 +1,13 @@
 ---
 title: "ps_shoppingcart - Uninstall/Install"
-weight: 2
+weight: 1
 ---
 
 # ps_shoppingcart - Uninstall/Install
 ## Details
 * **Component** : ps_shoppingcart
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-682
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7466
 
 ## Steps
 | Step Description | Expected result |

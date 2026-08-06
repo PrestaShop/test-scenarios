@@ -1,19 +1,26 @@
 ---
 title: "BO - Customers - Customers : Transform guest to customer account"
-weight: 10
+weight: 7
 ---
 
 # BO - Customers - Customers : Transform guest to customer account
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7392
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8328
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/01_customers/11_transformGuestToCustomer.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/customers
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
+| Go to BO > Customers > Customers | Customers page is displayed<br><br>The customers table is displayed with title : Manage your Customers +(total number of customers) |
+| Click on *Group* dropdown button > Select *Guest* > Click *Search* button | The customer assigned to Guest group is well displayed<br><br>Reset button is dislayed |
+| Click on the *three dots* in front of first line in the table > Click *View* button | New Customers page is displayed<br><br>Title contains : "Information about customer [your customer name]" |
+| Go to top left section > Click on *Transform to a customer account* button | Message displayed : "Successful creation"<br><br>The button *Transform to a customer account* is not displayed |
+| Check received email | I must receive an email confirming that my guest account has been turned into a customer account |
+| Back to BO > Customers > Customers | The Customers table with filter guest is empty with mention : No record found |
+| Click on *Reset* button | All customers are displayed<br><br>The edited guest is now registered as a *Customer* under *Group* column |
 | Go to FO > Click on product | The product is displayed |
 | Click on ADD TO CART | The pop-up of PROCEED TO CHECKOUT is well displayed |
 | Click on PROCEED TO CHECKOUT | The SHOPPING CART is well displayed |
@@ -25,10 +32,3 @@ weight: 10
 | Choose Payment by bank wire > Agree to the terms and conditions > Click on PLACE ORDER button | YOUR ORDER IS CONFIRMED |
 | Check confirmation Email | Confirmation Email => [PrestaShop] Order confirmation<br><br>Payment confirmation email => [PrestaSHop]Awaiting bank wire payment |
 | Go to BO > Customers page | Guest account exists in customers table and assigned to "Guest" Group |
-| Go to BO > Customers > Customers | Customers page is displayed<br><br>The customers table is displayed with title : Manage your Customers +(total number of customers) |
-| Click on *Group* dropdown button > Select *Guest* > Click *Search* button | The customer assigned to Guest group is well displayed<br><br>Reset button is dislayed |
-| Click on the *three dots* in front of first line in the table > Click *View* button | New Customers page is displayed<br><br>Title contains : "Information about customer [your customer name]" |
-| Go to top left section > Click on *Transform to a customer account* button | Message displayed : "Successful creation"<br><br>The button *Transform to a customer account* is not displayed |
-| Check received email | I must receive an email confirming that my guest account has been turned into a customer account |
-| Back to BO > Customers > Customers | The Customers table with filter guest is empty with mention : No record found |
-| Click on *Reset* button | All customers are displayed<br><br>The edited guest is now registered as a *Customer* under *Group* column |

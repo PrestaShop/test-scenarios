@@ -1,13 +1,13 @@
 ---
 title: "ps_sharebuttons - Uninstall/Install"
-weight: 2
+weight: 1
 ---
 
 # ps_sharebuttons - Uninstall/Install
 ## Details
 * **Component** : ps_sharebuttons
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1595
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8024
 
 ## Steps
 | Step Description | Expected result |

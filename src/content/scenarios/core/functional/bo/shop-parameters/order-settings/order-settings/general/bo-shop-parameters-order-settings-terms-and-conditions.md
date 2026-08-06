@@ -1,14 +1,14 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Terms and conditions"
-weight: 8
+weight: 2
 ---
 
 # BO - Shop Parameters - Order Settings - Terms and conditions
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9788
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8388
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/08_termsAndConditions.ts
 
 ## Steps

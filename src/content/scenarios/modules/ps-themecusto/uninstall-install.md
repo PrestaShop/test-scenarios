@@ -1,13 +1,13 @@
 ---
 title: "Uninstall/Install"
-weight: 6
+weight: 3
 ---
 
 # Uninstall/Install
 ## Details
 * **Component** : ps_themecusto
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-432
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7317
 
 ## Steps
 | Step Description | Expected result |

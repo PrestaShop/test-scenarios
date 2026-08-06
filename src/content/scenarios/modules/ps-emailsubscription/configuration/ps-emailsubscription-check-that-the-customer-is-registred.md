@@ -1,13 +1,13 @@
 ---
 title: "ps_emailsubscription - Check that the customer is registred"
-weight: 10
+weight: 1
 ---
 
 # ps_emailsubscription - Check that the customer is registred
 ## Details
 * **Component** : ps_emailsubscription
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-655
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7438
 
 ## Steps
 | Step Description | Expected result |

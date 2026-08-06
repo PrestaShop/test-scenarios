@@ -1,13 +1,13 @@
 ---
 title: "BO - Design - Image Settings : Check stores image format"
-weight: 13
+weight: 5
 ---
 
 # BO - Design - Image Settings : Check stores image format
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6063
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8259
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/15_checkStoreImageFormat.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type
 

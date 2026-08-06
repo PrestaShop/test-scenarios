@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - based on the total order price"
-weight: 24
+weight: 17
 ---
 
 # BO - Discount - based on the total order price
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12732
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8504
 

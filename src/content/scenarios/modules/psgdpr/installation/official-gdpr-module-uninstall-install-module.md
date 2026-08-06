@@ -1,13 +1,13 @@
 ---
 title: "Official GDPR module - Uninstall/Install module"
-weight: 2
+weight: 1
 ---
 
 # Official GDPR module - Uninstall/Install module
 ## Details
 * **Component** : psgdpr
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4405
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8184
 
 ## Steps
 | Step Description | Expected result |

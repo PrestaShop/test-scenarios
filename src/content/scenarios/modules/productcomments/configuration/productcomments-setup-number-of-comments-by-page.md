@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Setup number of comments by page"
-weight: 6
+weight: 2
 ---
 
 # productcomments - Setup number of comments by page
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-589
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7372
 
 ## Steps
 | Step Description | Expected result |

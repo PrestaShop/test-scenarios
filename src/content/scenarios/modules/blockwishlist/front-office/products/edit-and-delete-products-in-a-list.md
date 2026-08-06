@@ -1,13 +1,13 @@
 ---
 title: "Edit and delete products in a list"
-weight: 5
+weight: 6
 ---
 
 # Edit and delete products in a list
 ## Details
 * **Component** : blockwishlist
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-560
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7347
 
 ## Steps
 | Step Description | Expected result |

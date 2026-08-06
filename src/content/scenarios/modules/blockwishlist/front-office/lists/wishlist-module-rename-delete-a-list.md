@@ -1,13 +1,13 @@
 ---
 title: "Wishlist module - Rename & delete a list"
-weight: 2
+weight: 6
 ---
 
 # Wishlist module - Rename & delete a list
 ## Details
 * **Component** : blockwishlist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3947
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8102
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "FO - Contact us : Send message from contact us page with customer logged in"
-weight: 3
+weight: 2
 ---
 
 # FO - Contact us : Send message from contact us page with customer logged in
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5071
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8221
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/05_contactUs/02_sendMessageWithCustomer.ts
 
 ## Steps

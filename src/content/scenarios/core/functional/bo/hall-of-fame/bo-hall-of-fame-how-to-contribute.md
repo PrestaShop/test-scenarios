@@ -1,12 +1,12 @@
 ---
 title: "BO - Hall of Fame - How to contribute"
-weight: 5
+weight: 3
 ---
 
 # BO - Hall of Fame - How to contribute
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12863
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8549
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Verify the UI of the module"
-weight: 5
+weight: 12
 ---
 
 # Autoupgrade - Verify the UI of the module
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9677
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5506
 
 ## Steps
 | Step Description | Expected result |

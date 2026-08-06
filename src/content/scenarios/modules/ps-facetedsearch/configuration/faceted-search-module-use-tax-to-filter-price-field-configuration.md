@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - Use tax to filter price field configuration"
-weight: 6
+weight: 22
 ---
 
 # Faceted search module - Use tax to filter price field configuration
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4203
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8147
 
 ## Steps
 | Step Description | Expected result |

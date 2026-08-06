@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - Install A fresh last version of prestashop with php 8.1"
-weight: 5
+weight: 2
 ---
 
 # Autoupgrade - Web Version - Install A fresh last version of prestashop with php 8.1
 ## Details
 * **Component** : Core
 * **Status** : Approved
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10932
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5617
 
 ## Steps
 | Step Description | Expected result |

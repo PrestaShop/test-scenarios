@@ -1,13 +1,13 @@
 ---
 title: "BO - Customer Service : Customer service options"
-weight: 5
+weight: 6
 ---
 
 # BO - Customer Service : Customer service options
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-867
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7622
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/01_customerService/05_customerServiceOptions.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/customer-service
 

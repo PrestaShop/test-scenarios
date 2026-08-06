@@ -5,6 +5,6 @@ weight: 4
 
 # BO - Advanced parameters - Security - Customer sessions - CRUD
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12845
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8531
 

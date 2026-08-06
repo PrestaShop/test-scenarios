@@ -14,7 +14,7 @@ class GithubSync extends AbstractCommand
     private const PATTERN_ISSUE_BODY = <<<EOD
 **Component:** %s
 **Scenario:** %s
-**Forge:** https://forge.prestashop.com/browse/%s
+**Forge:** https://prestashop-jira.atlassian.net/browse/%s
     
 EOD;
     private const BASE_URL_SCENARIOS = 'https://build.prestashop-project.org/test-scenarios/scenarios';
@@ -69,7 +69,9 @@ EOD;
  
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->apiKey = $input->getOption('apikey');
+        $this->jirakey = $input->getOption('jirakey');
+        $this->xraykeyclient = $input->getOption('xraykeyclient');
+        $this->xraykeysecret = $input->getOption('xraykeysecret');
         $this->requestsCount = 0;
         $this->github = new Github($input->getOption('ghtoken'));
         $this->isVerbose = $input->getOption('verbose');
@@ -155,7 +157,7 @@ EOD;
     private function fetchJIRAScenarios(): void
     {
         foreach(['Core', 'Modules'] as $projectName) {
-            $folders = $this->getFolders($this->apiKey, $projectName);
+            $folders = $this->getFolders($projectName);
 
             $this->processJIRAFolder($folders, true);
         }
@@ -164,7 +166,7 @@ EOD;
     private function processJIRAFolder(array $folder, bool $isRoot): void
     {
         // Process tests
-        $tests = $this->getTests($this->apiKey, $folder['id']);
+        $tests = $this->getTests($folder);
         foreach($tests as $test) {
             if (!in_array(
                 $test['workflowStatus'],
@@ -396,11 +398,11 @@ EOD;
         curl_setopt($ch, CURLOPT_HTTPHEADER, [
             'Accept: application/json',
             'Content-Type: application/json',
-            'Authorization: Basic ' . $this->apiKey,
+            'Authorization: Basic ' . $this->jirakey,
         ]);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
         curl_setopt($ch, CURLOPT_POSTFIELDS,'{"transition":{"id":"'.self::JIRA_LABELS[$ghIssue['labels'][0]['name']].'"}}');
-        curl_setopt($ch, CURLOPT_URL, 'https://forge.prestashop.com/rest/api/2/issue/' .$jiraIssue['key'].'/transitions');
+        curl_setopt($ch, CURLOPT_URL, 'https://prestashop-jira.atlassian.net/rest/api/2/issue/' .$jiraIssue['key'].'/transitions');
 
         $result = curl_exec($ch);
         $info = curl_getinfo($ch);

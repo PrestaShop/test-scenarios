@@ -1,13 +1,13 @@
 ---
 title: "welcome - Full onboarding process"
-weight: 1
+weight: 2
 ---
 
 # welcome - Full onboarding process
 ## Details
 * **Component** : welcome
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-700
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7481
 
 ## Steps
 | Step Description | Expected result |

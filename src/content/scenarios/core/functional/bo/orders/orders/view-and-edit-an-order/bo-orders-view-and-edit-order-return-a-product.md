@@ -1,13 +1,13 @@
 ---
 title: "BO - Orders - View and edit order : Return a product"
-weight: 13
+weight: 7
 ---
 
 # BO - Orders - View and edit order : Return a product
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7395
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8330
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/viewAndEditOrder/13_returnOrder.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template
 

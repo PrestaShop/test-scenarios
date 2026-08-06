@@ -6,8 +6,8 @@ weight: 2
 # ps_featuredproducts - Choose the category to display
 ## Details
 * **Component** : ps_featuredproducts
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-668
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7452
 
 ## Steps
 | Step Description | Expected result |

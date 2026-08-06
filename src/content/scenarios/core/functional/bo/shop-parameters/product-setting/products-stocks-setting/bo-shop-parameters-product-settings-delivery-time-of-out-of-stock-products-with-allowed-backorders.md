@@ -1,10 +1,10 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Delivery time of out-of-stock products with allowed backorders"
-weight: 9
+weight: 4
 ---
 
 # BO - Shop Parameters - Product Settings - Delivery time of out-of-stock products with allowed backorders
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9808
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8396
 

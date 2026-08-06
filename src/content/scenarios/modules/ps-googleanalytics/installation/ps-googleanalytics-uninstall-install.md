@@ -1,12 +1,12 @@
 ---
 title: "ps_googleanalytics - Uninstall/Install"
-weight: 2
+weight: 3
 ---
 
 # ps_googleanalytics - Uninstall/Install
 ## Details
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2413
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8043
 
 ## Steps
 | Step Description | Expected result |

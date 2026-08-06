@@ -1,14 +1,14 @@
 ---
 title: "FO - User account - Order history - Order details - Request a merchandise return from order details"
-weight: 2
+weight: 4
 ---
 
 # FO - User account - Order history - Order details - Request a merchandise return from order details
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8342
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8357
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_orderDetails/03_requestMerchandiseReturn.ts
 
 ## Steps

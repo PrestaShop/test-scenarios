@@ -1,10 +1,10 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Category used in breadcrumbs"
-weight: 8
+weight: 4
 ---
 
 # BO - Shop Parameters - Product Settings - Category used in breadcrumbs
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9804
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8391
 

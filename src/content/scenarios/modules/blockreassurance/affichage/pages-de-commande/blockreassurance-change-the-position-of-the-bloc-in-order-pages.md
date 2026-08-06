@@ -6,8 +6,8 @@ weight: 1
 # blockreassurance - Change the position of the bloc in order pages
 ## Details
 * **Component** : blockreassurance
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-551
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7339
 
 ## Steps
 | Step Description | Expected result |

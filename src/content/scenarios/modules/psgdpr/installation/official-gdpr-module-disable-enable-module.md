@@ -6,8 +6,8 @@ weight: 5
 # Official GDPR module - Disable/Enable module
 ## Details
 * **Component** : psgdpr
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4496
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8186
 
 ## Steps
 | Step Description | Expected result |

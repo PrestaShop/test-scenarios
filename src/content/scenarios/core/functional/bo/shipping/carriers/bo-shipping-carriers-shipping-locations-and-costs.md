@@ -1,14 +1,14 @@
 ---
 title: "BO - Shipping - Carriers - Shipping locations and costs"
-weight: 7
+weight: 4
 ---
 
 # BO - Shipping - Carriers - Shipping locations and costs
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9731
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8386
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/07_shippingLocationsAndCosts.ts
 
 ## Steps

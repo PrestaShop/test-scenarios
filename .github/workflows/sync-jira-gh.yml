@@ -26,4 +26,4 @@ jobs:
         run: cd scripts && composer install && cd ..
 
       - name: "JIRA - Github : Sync"
-        run: php scripts/bin/console github:sync --verbose --apikey ${{ secrets.JIRA_APIKEY }} --ghtoken ${{ secrets.GH_TOKEN }} -v
+        run: php scripts/bin/console github:sync --verbose --jirakey ${{ secrets.JIRA_APIKEY }} --xraykeyclient ${{ secrets.XRAY_APIKEY_CLIENT }} --xraykeysecret ${{ secrets.XRAY_APIKEY_SECRET }} --ghtoken ${{ secrets.GH_TOKEN }} -v

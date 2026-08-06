@@ -1,13 +1,13 @@
 ---
 title: "FO - Checkout - Addresses - Select an address"
-weight: 3
+weight: 4
 ---
 
 # FO - Checkout - Addresses - Select an address
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7021
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8313
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/03_selectAddress.ts
 
 ## Steps

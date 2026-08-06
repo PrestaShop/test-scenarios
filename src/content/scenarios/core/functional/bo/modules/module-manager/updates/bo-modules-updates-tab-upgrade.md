@@ -1,13 +1,14 @@
 ---
 title: "BO - Modules - Updates tab - Upgrade"
-weight: 2
+weight: 1
 ---
 
 # BO - Modules - Updates tab - Upgrade
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-902
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7643
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/modules
 
 ## Steps
 | Step Description | Expected result |

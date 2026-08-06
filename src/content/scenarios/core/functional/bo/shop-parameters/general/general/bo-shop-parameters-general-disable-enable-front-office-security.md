@@ -1,13 +1,14 @@
 ---
 title: "BO - Shop Parameters - General - Disable / Enable Front office security"
-weight: 2
+weight: 9
 ---
 
 # BO - Shop Parameters - General - Disable / Enable Front office security
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1044
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7749
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general
 
 ## Steps
 | Step Description | Expected result |

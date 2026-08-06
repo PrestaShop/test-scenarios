@@ -1,10 +1,10 @@
 ---
 title: "BO - Shop Parameters - General : Round type"
-weight: 5
+weight: 3
 ---
 
 # BO - Shop Parameters - General : Round type
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12851
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8538
 

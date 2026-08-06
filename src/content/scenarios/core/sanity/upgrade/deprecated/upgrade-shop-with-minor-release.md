@@ -1,13 +1,13 @@
 ---
 title: "Upgrade Shop with minor release"
-weight: 2
+weight: 8
 ---
 
 # Upgrade Shop with minor release
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9176
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5414
 
 ## Steps
 | Step Description | Expected result |

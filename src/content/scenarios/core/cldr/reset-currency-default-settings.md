@@ -1,13 +1,13 @@
 ---
 title: "Reset currency default settings"
-weight: 6
+weight: 7
 ---
 
 # Reset currency default settings
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1366
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8005
 
 ## Steps
 | Step Description | Expected result |

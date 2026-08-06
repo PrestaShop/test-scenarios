@@ -5,6 +5,6 @@ weight: 19
 
 # Trigger based on an attribute
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12727
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8499
 

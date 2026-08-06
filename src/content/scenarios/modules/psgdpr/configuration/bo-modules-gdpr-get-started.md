@@ -1,12 +1,12 @@
 ---
 title: "BO - Modules - GDPR - Get started"
-weight: 1
+weight: 7
 ---
 
 # BO - Modules - GDPR - Get started
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7591
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8333
 
 ## Steps
 | Step Description | Expected result |

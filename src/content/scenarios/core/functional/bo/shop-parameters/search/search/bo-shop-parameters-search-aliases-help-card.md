@@ -1,12 +1,12 @@
 ---
 title: "BO - Shop Parameters - Search  - Aliases - Help card"
-weight: 6
+weight: 1
 ---
 
 # BO - Shop Parameters - Search  - Aliases - Help card
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12818
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8511
 
 ## Steps
 | Step Description | Expected result |

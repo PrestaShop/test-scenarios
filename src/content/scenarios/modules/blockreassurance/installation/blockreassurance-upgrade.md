@@ -1,13 +1,13 @@
 ---
 title: "blockreassurance - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # blockreassurance - Upgrade
 ## Details
 * **Component** : blockreassurance
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-540
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7329
 
 ## Steps
 | Step Description | Expected result |

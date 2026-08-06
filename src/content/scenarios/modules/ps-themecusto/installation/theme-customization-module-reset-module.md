@@ -1,14 +1,14 @@
 ---
 title: "Theme Customization module - Reset module"
-weight: 4
+weight: 1
 ---
 
 # Theme Customization module - Reset module
 ## Details
 * **Component** : ps_themecusto
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4159
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8144
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/35_ps_themecusto/01_installation/04_resetModule.ts
 
 ## Steps

@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - Select a free gift product - Error messages"
-weight: 23
+weight: 2
 ---
 
 # BO - Discount - Select a free gift product - Error messages
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12731
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8503
 

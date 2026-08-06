@@ -6,7 +6,7 @@ weight: 6
 # BO - Modules - GDPR - Autoupgrade
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7596
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8339
 
 ## Steps
 | Step Description | Expected result |
@@ -15,6 +15,13 @@ weight: 6
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Tab 2 Personal data management > Search customer | customer displayed |
 | Download invoices | Invoices have been successfully downloaded. |
+| Upgrade your shop to PS 8.1.2 with autoupgrade module | Upgrade successful |
+| Go to BO > Modules > Modules manager > Search psgdpr > Configure | See that the configuration has not been reset |
+| Tab 2 Personal data management > Search customer | customer displayed |
+| Download invoices | Invoices have been successfully downloaded. |
+| Check both invoices | They are the same |
+| Go back to your autoupgrade module > Rollback to previous version | PS 8.1.1 is back |
+| Go to BO > Modules > Modules manager > Search psgdpr > Configure | See that the configuration has not been reset |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Go to BO > Modules > Modules manager > Search psgdpr > Configure | psgdpr module configuration page is displayed |
 | Go to Tab 3 : Consent checkbox customization | Configure your checkboxes block is displayed |
@@ -43,10 +50,3 @@ weight: 6
 | Check the checkbox and Click Notify me later | Alert Request notification registered is displayed |
 | Go back to your BO > psgdpr > Tab 3 : Consent checkbox customization > Edit the consent message for the module Mail alerts for FRENCH language > Save | Consent request message : FRENCH MESSAGE |
 | Open back the page product for Mug Today is a good day > Sign out of your account jane@doe.com > Change language to Français | See the block for Mail alert is "FRENCH MESSAGE" |
-| Upgrade your shop to PS 8.1.2 with autoupgrade module | Upgrade successful |
-| Go to BO > Modules > Modules manager > Search psgdpr > Configure | See that the configuration has not been reset |
-| Tab 2 Personal data management > Search customer | customer displayed |
-| Download invoices | Invoices have been successfully downloaded. |
-| Check both invoices | They are the same |
-| Go back to your autoupgrade module > Rollback to previous version | PS 8.1.1 is back |
-| Go to BO > Modules > Modules manager > Search psgdpr > Configure | See that the configuration has not been reset |

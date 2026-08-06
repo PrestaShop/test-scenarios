@@ -1,13 +1,13 @@
 ---
 title: "BO - Advanced parameters - Email - Help button"
-weight: 8
+weight: 1
 ---
 
 # BO - Advanced parameters - Email - Help button
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10272
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8436
 
 ## Steps
 | Step Description | Expected result |

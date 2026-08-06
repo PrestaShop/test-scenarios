@@ -7,7 +7,8 @@ weight: 1
 ## Details
 * **Component** : Core
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1007
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7712
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/localization/geolocation
 
 ## Steps
 | Step Description | Expected result |

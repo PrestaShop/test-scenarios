@@ -1,13 +1,13 @@
 ---
 title: "ps_categorytree - Change category root option"
-weight: 1
+weight: 3
 ---
 
 # ps_categorytree - Change category root option
 ## Details
 * **Component** : ps_categorytree
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-602
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7384
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "dashactivity - Disable"
-weight: 5
+weight: 1
 ---
 
 # dashactivity - Disable
 ## Details
 * **Component** : dashactivity
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-577
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7360
 
 ## Steps
 | Step Description | Expected result |

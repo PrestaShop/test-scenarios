@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - STORYBOOK"
-weight: 5
+weight: 15
 ---
 
 # Autoupgrade - STORYBOOK
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9703
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5511
 
 ## Steps
 | Step Description | Expected result |

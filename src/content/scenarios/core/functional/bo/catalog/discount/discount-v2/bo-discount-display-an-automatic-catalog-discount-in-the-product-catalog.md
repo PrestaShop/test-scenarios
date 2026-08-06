@@ -1,12 +1,12 @@
 ---
 title: "BO - Discount - Display an automatic catalog discount in the product catalog"
-weight: 5
+weight: 15
 ---
 
 # BO - Discount - Display an automatic catalog discount in the product catalog
 ## Details
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11202
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8459
 
 ## Steps
 | Step Description | Expected result |

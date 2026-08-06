@@ -1,13 +1,13 @@
 ---
 title: "BO - After autoupgrade, rollback to previous version"
-weight: 4
+weight: 3
 ---
 
 # BO - After autoupgrade, rollback to previous version
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2059
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8040
 
 ## Steps
 | Step Description | Expected result |

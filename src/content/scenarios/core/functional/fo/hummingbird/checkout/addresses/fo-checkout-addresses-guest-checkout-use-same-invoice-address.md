@@ -1,13 +1,13 @@
 ---
 title: "FO - Checkout - Addresses - Guest checkout : Use same invoice address"
-weight: 1
+weight: 3
 ---
 
 # FO - Checkout - Addresses - Guest checkout : Use same invoice address
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7019
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8312
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/01_useSameInvoiceAddress.ts
 
 ## Steps

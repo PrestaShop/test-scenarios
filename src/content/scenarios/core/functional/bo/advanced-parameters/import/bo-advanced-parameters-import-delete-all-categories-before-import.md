@@ -1,10 +1,10 @@
 ---
 title: " BO - Advanced parameters - Import - Delete all categories before import"
-weight: 8
+weight: 6
 ---
 
 #  BO - Advanced parameters - Import - Delete all categories before import
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12835
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8521
 

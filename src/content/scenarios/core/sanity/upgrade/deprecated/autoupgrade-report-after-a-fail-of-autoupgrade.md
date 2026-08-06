@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Report after a fail of autoupgrade"
-weight: 6
+weight: 1
 ---
 
 # Autoupgrade - Report after a fail of autoupgrade
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9680
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5507
 
 ## Steps
 | Step Description | Expected result |

@@ -1,14 +1,14 @@
 ---
 title: "ps_emailsubscription - Check that the confirmation email is send"
-weight: 5
+weight: 8
 ---
 
 # ps_emailsubscription - Check that the confirmation email is send
 ## Details
 * **Component** : ps_emailsubscription
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-650
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7434
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/21_ps_emailsubscription/02_configuration/02_checkConfirmationEmail.ts
 
 ## Steps

@@ -1,12 +1,12 @@
 ---
 title: "BO - Hall of Fame - New contributors"
-weight: 4
+weight: 2
 ---
 
 # BO - Hall of Fame - New contributors
 ## Details
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12862
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8550
 
 ## Steps
 | Step Description | Expected result |

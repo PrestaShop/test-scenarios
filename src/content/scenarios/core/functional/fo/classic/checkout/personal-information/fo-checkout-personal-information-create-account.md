@@ -7,7 +7,7 @@ weight: 3
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1300
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7958
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/01_personalInformation/03_createAccount.ts
 
 ## Steps

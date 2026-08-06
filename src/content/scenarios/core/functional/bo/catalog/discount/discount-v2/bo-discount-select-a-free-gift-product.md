@@ -6,7 +6,7 @@ weight: 7
 # BO - Discount - Select a free gift product 
 ## Details
 * **Status** : Blocked
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11264
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8462
 
 ## Steps
 | Step Description | Expected result |

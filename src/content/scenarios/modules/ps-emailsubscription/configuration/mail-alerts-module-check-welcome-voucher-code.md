@@ -1,13 +1,13 @@
 ---
 title: "Mail alerts module : Check welcome voucher code"
-weight: 3
+weight: 14
 ---
 
 # Mail alerts module : Check welcome voucher code
 ## Details
 * **Component** : ps_emailsubscription
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-648
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7430
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/21_ps_emailsubscription/02_configuration/03_checkWelcomeVoucher.ts
 
 ## Steps

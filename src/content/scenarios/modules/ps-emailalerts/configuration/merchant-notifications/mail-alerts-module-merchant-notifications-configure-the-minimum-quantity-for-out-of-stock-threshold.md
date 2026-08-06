@@ -1,13 +1,13 @@
 ---
 title: "Mail alerts module - Merchant notifications - Configure the minimum quantity for out of stock (Threshold)"
-weight: 8
+weight: 3
 ---
 
 # Mail alerts module - Merchant notifications - Configure the minimum quantity for out of stock (Threshold)
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4123
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8125
 
 ## Steps
 | Step Description | Expected result |

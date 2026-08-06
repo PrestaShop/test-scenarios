@@ -1,13 +1,14 @@
 ---
 title: "BO - Design - Positions - Edit Hook"
-weight: 6
+weight: 7
 ---
 
 # BO - Design - Positions - Edit Hook
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-957
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7673
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/positions
 
 ## Steps
 | Step Description | Expected result |

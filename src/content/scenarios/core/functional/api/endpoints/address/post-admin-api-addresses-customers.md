@@ -1,14 +1,14 @@
 ---
 title: "POST /admin-api/addresses/customers"
-weight: 4
+weight: 8
 ---
 
 # POST /admin-api/addresses/customers
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
-* **Automated on** : 9.1.x, 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12892
+* **Automated on** : 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8561
 
 ## Steps
 | Step Description | Expected result |

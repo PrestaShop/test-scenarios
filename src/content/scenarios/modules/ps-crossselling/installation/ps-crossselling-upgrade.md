@@ -1,13 +1,13 @@
 ---
 title: "ps_crossselling - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # ps_crossselling - Upgrade
 ## Details
 * **Component** : ps_crossselling
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-616
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7397
 
 ## Steps
 | Step Description | Expected result |

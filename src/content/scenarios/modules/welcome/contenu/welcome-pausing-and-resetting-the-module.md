@@ -1,13 +1,13 @@
 ---
 title: "welcome - Pausing and resetting the module"
-weight: 2
+weight: 1
 ---
 
 # welcome - Pausing and resetting the module
 ## Details
 * **Component** : welcome
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-701
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7483
 
 ## Steps
 | Step Description | Expected result |

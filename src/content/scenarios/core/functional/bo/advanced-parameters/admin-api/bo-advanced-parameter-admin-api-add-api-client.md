@@ -1,14 +1,16 @@
 ---
 title: "BO - Advanced Parameter - Admin API - Add API Client"
-weight: 1
+weight: 4
 ---
 
 # BO - Advanced Parameter - Admin API - Add API Client
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Automated on** : 9.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7633
+* **Automated on** : 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8342
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/12_adminAPI/02_addAPIClient.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/authorization-server-management
 
 ## Steps
 | Step Description | Expected result |

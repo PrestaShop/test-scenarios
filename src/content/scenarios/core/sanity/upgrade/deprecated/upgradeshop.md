@@ -1,14 +1,14 @@
 ---
 title: "UpgradeShop"
-weight: 1
+weight: 15
 ---
 
 # UpgradeShop
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1346
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-4833
 
 ## Steps
 | Step Description | Expected result |

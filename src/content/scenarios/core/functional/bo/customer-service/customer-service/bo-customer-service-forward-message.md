@@ -1,13 +1,13 @@
 ---
 title: "BO - Customer Service : Forward message"
-weight: 6
+weight: 4
 ---
 
 # BO - Customer Service : Forward message
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7393
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8327
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/01_customerService/06_forwardMessage.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/customer-service
 

@@ -1,13 +1,13 @@
 ---
 title: "ps_searchbar - Disable"
-weight: 4
+weight: 2
 ---
 
 # ps_searchbar - Disable
 ## Details
 * **Component** : ps_searchbar
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-679
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7464
 
 ## Steps
 | Step Description | Expected result |

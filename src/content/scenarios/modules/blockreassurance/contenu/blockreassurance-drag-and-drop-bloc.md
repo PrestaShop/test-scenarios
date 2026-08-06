@@ -1,13 +1,13 @@
 ---
 title: "blockreassurance - Drag and drop bloc"
-weight: 5
+weight: 4
 ---
 
 # blockreassurance - Drag and drop bloc
 ## Details
 * **Component** : blockreassurance
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-547
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7335
 
 ## Steps
 | Step Description | Expected result |

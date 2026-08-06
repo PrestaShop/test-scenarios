@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Security - Security - General"
-weight: 1
+weight: 3
 ---
 
 # BO - Advanced parameters - Security - Security - General
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12838
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8525
 

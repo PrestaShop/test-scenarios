@@ -1,13 +1,13 @@
 ---
 title: "ps_customeraccountlinks - Upgrade"
-weight: 1
+weight: 2
 ---
 
 # ps_customeraccountlinks - Upgrade
 ## Details
 * **Component** : ps_customeraccountlinks
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-622
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7403
 
 ## Steps
 | Step Description | Expected result |

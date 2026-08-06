@@ -1,13 +1,13 @@
 ---
 title: "Enable/Disable notification for product out of stock"
-weight: 2
+weight: 9
 ---
 
 # Enable/Disable notification for product out of stock
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-641
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7421
 
 ## Steps
 | Step Description | Expected result |

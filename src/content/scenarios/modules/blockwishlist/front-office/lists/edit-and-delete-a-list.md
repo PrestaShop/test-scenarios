@@ -1,13 +1,13 @@
 ---
 title: "Edit and delete a list"
-weight: 5
+weight: 3
 ---
 
 # Edit and delete a list
 ## Details
 * **Component** : blockwishlist
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-557
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7346
 
 ## Steps
 | Step Description | Expected result |

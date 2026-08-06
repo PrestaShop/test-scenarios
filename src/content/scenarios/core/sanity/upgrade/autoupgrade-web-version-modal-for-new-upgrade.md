@@ -7,15 +7,12 @@ weight: 17
 ## Details
 * **Component** : Core
 * **Status** : Approved
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12195
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5642
+* **Specification** : https://forge.prestashop.com/browse/SUE-236
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 1.7.7.8 on php 7.1 | A selection between BO and FO is displayed |
-| Go to the BO | You should have your dashboard showed |
-| Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
-| Search for the update assistant module and Install it | Module is correctly installed |
 | Click on the Dashboard in the side menu | Dashboard menu is displayed with a modal :<br> * on the left : <br> ** "New available Minor" writted in black with a blue bacckground<br> ** "New features are available" in white, with the prestashop typo with a black background <br><br> * on the right : <br> ** Four part of text : "Description", "Version", "Type of improvements" and "Need help?"<br> ** Two CTA : "Remind me later" and "Update"<br> ** On description : "The minor releases introduce new backward-compatible features, security improvements and bug fixes. [See the update|https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]" <br> ** On Version : "{test-param}Last_version_178{test-param} "<br> ** On Type of improvements : "Bugs, security patches, new features"<br> ** On Need help? : "If you're having trouble performing the update, consider seeking help from the community or a qualified developer. Find Support" |
 | Click on "[See the update|https://build.prestashop-project.org/news/2024/prestashop-1-7-8-11-maintenance-release/]" link on description part | New tab open with title : "PrestaShop {test-param}Last_version_178{test-param}  Is Available" |
 | Click on "Find Support" link on Need help? part | New tab open with title "Get help with PrestaShop" |
@@ -72,3 +69,7 @@ weight: 17
 | Click on "Discover the latest release" | A new tab is displayed on webpage with title "Articles about PrestaShop releases" |
 | Go to "https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y" | A list of different Event are displayed |
 | Set filter the parameters | Some Event name have  : <br> * [SUE] Update modal displayed" <br> * [SUE] Update module opened following modal display" <br> * SUE] Update modal snoozed" <br><br>With the same Anonymous ID and php write like "X.X.XX"<br>and <br> * autoupgrade_version <br> * module<br> * php_version <br> * ps_version |
+| Install A fresh 1.7.7.8 on php 7.1 | A selection between BO and FO is displayed |
+| Go to the BO | You should have your dashboard showed |
+| Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
+| Search for the update assistant module and Install it | Module is correctly installed |

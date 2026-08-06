@@ -1,12 +1,12 @@
 ---
 title: "ps_googleanalytics - Disable / Enable"
-weight: 4
+weight: 2
 ---
 
 # ps_googleanalytics - Disable / Enable
 ## Details
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2415
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8045
 
 ## Steps
 | Step Description | Expected result |

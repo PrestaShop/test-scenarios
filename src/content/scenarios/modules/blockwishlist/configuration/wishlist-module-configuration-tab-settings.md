@@ -7,7 +7,7 @@ weight: 3
 ## Details
 * **Component** : blockwishlist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4234
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8171
 
 ## Steps
 | Step Description | Expected result |

@@ -1,14 +1,14 @@
 ---
 title: "DELETE /admin-api/discounts/{discountId}"
-weight: 2
+weight: 4
 ---
 
 # DELETE /admin-api/discounts/{discountId}
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12886
+* **Automated on** : 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8556
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/discount/02_postDiscounts.ts
 
 ## Steps

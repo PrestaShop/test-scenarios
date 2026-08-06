@@ -1,13 +1,13 @@
 ---
 title: "ps_dataprivacy - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # ps_dataprivacy - Upgrade
 ## Details
 * **Component** : ps_dataprivacy
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-631
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7411
 
 ## Steps
 | Step Description | Expected result |

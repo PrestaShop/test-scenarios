@@ -1,10 +1,10 @@
 ---
 title: "FO - Create an order from the FO "
-weight: 1
+weight: 3
 ---
 
 # FO - Create an order from the FO 
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2417
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8047
 

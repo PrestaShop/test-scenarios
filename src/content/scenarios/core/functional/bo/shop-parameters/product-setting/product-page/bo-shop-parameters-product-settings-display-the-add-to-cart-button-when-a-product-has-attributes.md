@@ -1,13 +1,13 @@
 ---
 title: "BO - Shop Parameters - Product Settings : Display the \"add to cart\" button when a product has attributes"
-weight: 2
+weight: 5
 ---
 
 # BO - Shop Parameters - Product Settings : Display the \"add to cart\" button when a product has attributes
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1072
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7768
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/02_productPage/02_displayAddToCartButton.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings
 

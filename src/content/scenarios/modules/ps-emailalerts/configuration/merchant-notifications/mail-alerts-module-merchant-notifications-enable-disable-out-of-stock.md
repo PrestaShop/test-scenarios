@@ -7,7 +7,7 @@ weight: 7
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4122
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8123
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/20_ps_emailalerts/02_configuration/02_merchantNotifications/02_enableDisableOutOfStock.ts
 
 ## Steps

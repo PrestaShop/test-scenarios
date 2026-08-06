@@ -1,13 +1,13 @@
 ---
 title: "BO - Advanced Parameters - Administration : Check notifications"
-weight: 3
+weight: 2
 ---
 
 # BO - Advanced Parameters - Administration : Check notifications
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1143
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7827
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/03_administration/03_notifications.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/administration
 
@@ -17,13 +17,16 @@ weight: 3
 | Go to BO> Advanced Parameters> Administration> Notifications form | The notifications are enabled for new orders, new customers, and new messages |
 | Disabled all notifications and click on save button | Update successful message is displayed and the bell icon is gone |
 | Enable the notifications for new customers and click on save button | Update successful message is displayed and the bell icon is displayed with customers notifications |
+| Go to notification> Customers(1) | notification : test test - registered xx/xx/xxxx |
+| Disabled the notifications for new customers<br><br>Enable the notifications for new orders and new messages<br><br>Click on save. | Update successful message is displayed and the bell icon is displayed with orders and messages notifications |
+| Go to notification> Orders(1) | notification : test test - registered xx/xx/xxxx |
+| Enable all notifications  and click on save button. | Update successful message is displayed and the bell icon is displayed with orders, customers and messages notifications |
+| Go to notification> Messages(1) | notification : new message |
 | Go to FO > Click on top right "Sign In" button link | "Log in to your account" page is displayed |
 | Click on "No account? Create one here" link at the bottom fo the block | Create an account page is displayed |
 | Fill the form with your personal information > Click Save | * You are now logged into your account<br> * Redirection automatically to the homepage<br> * An email "Welcome!" should be received |
 | Check the welcome Email | Email received with the subject => [PrestaShop] Welcome |
 | Go to BO > Customers list page & delete the customer created | The alert "Successful deletion." is well displayed |
-| Go to notification> Customers(1) | notification : test test - registered xx/xx/xxxx |
-| Disabled the notifications for new customers<br><br>Enable the notifications for new orders and new messages<br><br>Click on save. | Update successful message is displayed and the bell icon is displayed with orders and messages notifications |
 | Go to BO -> Orders page and click on Add new Order | The Create order page is displayed |
 | Search customer 'John DOE' and choose it | The customer-checkout-history block, the cart block and the address block are displayed |
 | choose product with quantity = 4 and add it to cart | The product table is displayed, the Shipping block is displayed and the summary block is displayed |
@@ -31,8 +34,6 @@ weight: 3
 | Choose Payment method | Payment method is selected |
 | Choose order status | Order status is selected |
 | Add an Order message and Click on "Create the order" | The order details page is displayed with exact data:<br> # Order status<br> # Order Price<br> # Shipping Address<br> # Invoice Address<br> # Product name<br> # Messages |
-| Go to notification> Orders(1) | notification : test test - registered xx/xx/xxxx |
-| Enable all notifications  and click on save button. | Update successful message is displayed and the bell icon is displayed with orders, customers and messages notifications |
 | Go to module manager > Contact form module > configuration page and Enable Receive customers\' messages by email | Check success message |
 | Enable Send confirmation email to your customers | Check success message |
 | Go to FO > Log into your customer account created from the pre-condition step | You are logged into your customer account |
@@ -49,4 +50,3 @@ weight: 3
 | Click on View order | * The Order view page is well displayed<br> * In the message block: the message is well displayed |
 | Go to BO > Customer Service page and Delete the messages | An alert "Successful deletion." is well displayed |
 | Go to BO > Customers list page & delete the customer created in the pre-condition | The alert "Successful deletion." is well displayed |
-| Go to notification> Messages(1) | notification : new message |

@@ -1,13 +1,13 @@
 ---
 title: "BO - Catalog price Rules : CRUD - Reduction type"
-weight: 9
+weight: 1
 ---
 
 # BO - Catalog price Rules : CRUD - Reduction type
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10336
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8453
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/09_reductionType.ts
 
 ## Steps

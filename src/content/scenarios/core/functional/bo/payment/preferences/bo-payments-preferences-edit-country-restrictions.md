@@ -1,14 +1,14 @@
 ---
 title: "BO - Payments - Preferences - Edit Country restrictions"
-weight: 3
+weight: 1
 ---
 
 # BO - Payments - Preferences - Edit Country restrictions
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 1.7.8.x, 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9786
+* **Automated on** : 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8387
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/10_payment/02_preferences/03_countryRestrictions.ts
 
 ## Steps

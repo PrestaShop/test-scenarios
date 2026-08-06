@@ -1,13 +1,13 @@
 ---
 title: "Theme Customization module - Upgrade module"
-weight: 1
+weight: 4
 ---
 
 # Theme Customization module - Upgrade module
 ## Details
 * **Component** : ps_themecusto
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4156
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8141
 
 ## Steps
 | Step Description | Expected result |

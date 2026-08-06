@@ -1,10 +1,10 @@
 ---
 title: " BO - Advanced parameters - Import - Field separator"
-weight: 6
+weight: 2
 ---
 
 #  BO - Advanced parameters - Import - Field separator
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12833
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8520
 

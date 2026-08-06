@@ -1,13 +1,13 @@
 ---
 title: "New products block module - Uninstall/Install module"
-weight: 2
+weight: 4
 ---
 
 # New products block module - Uninstall/Install module
 ## Details
 * **Component** : ps_newproducts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3990
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8108
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "Product Comments - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # Product Comments - Uninstall and delete
 ## Details
 * **Component** : productcomments
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-583
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7365
 
 ## Steps
 | Step Description | Expected result |

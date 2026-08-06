@@ -6,8 +6,8 @@ weight: 1
 # ps_shoppingcart - Check the modal & add to cart
 ## Details
 * **Component** : ps_shoppingcart
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-685
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7468
 
 ## Steps
 | Step Description | Expected result |

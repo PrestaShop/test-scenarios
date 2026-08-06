@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - Upgrade module"
-weight: 1
+weight: 2
 ---
 
 # Faceted search module - Upgrade module
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3226
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8075
 
 ## Steps
 | Step Description | Expected result |

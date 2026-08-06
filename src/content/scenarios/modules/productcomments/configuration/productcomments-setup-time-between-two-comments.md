@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Setup time between two comments"
-weight: 5
+weight: 3
 ---
 
 # productcomments - Setup time between two comments
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-588
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7371
 
 ## Steps
 | Step Description | Expected result |

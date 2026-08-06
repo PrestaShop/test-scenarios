@@ -6,202 +6,202 @@ disableToc: true
 
 | Feature | Total | Draft | In Progress | In Review | Blocked | To Be Automated | Automation In Progress | Automated | Deprecated |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| [Core](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core) | 1 | 1 | - | - | - | - | - | - | - | 
-| [Core > Audit > BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FAudit%2FBO) | 14 | - | - | - | - | - | - | 14 | - | 
-| [Core > Audit > FO > classic](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FAudit%2FFO%2Fclassic) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Audit > FO > hummingbird](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FAudit%2FFO%2Fhummingbird) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > API](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI) | 3 | - | - | - | - | 1 | - | 2 | - | 
-| [Core > Functional > API > Client Credential Grant Flow > Internal Authentification Server](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FClient+Credential+Grant+Flow%2FInternal+Authentification+Server) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > API > Client Credential Grant Flow > External Authentification Server](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FClient+Credential+Grant+Flow%2FExternal+Authentification+Server) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > API > Endpoints > ApiClient](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FApiClient) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > API > Endpoints > Address](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FAddress) | 11 | - | - | - | - | 1 | 10 | - | - | 
-| [Core > Functional > API > Endpoints > Attribute](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FAttribute) | 9 | - | - | - | - | - | - | 9 | - | 
-| [Core > Functional > API > Endpoints > Category](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FCategory) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > API > Endpoints > Contact](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FContact) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > API > Endpoints > CustomersGroup](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FCustomersGroup) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > API > Endpoints > Discount](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FDiscount) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > API > Endpoints > Feature](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FFeature) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > API > Endpoints > Hook](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FHook) | 3 | - | - | - | - | - | - | 2 | 1 | 
-| [Core > Functional > API > Endpoints > Language](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FLanguage) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > API > Endpoints > Module](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FModule) | 11 | - | - | - | - | - | - | 11 | - | 
-| [Core > Functional > API > Endpoints > Product](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FProduct) | 11 | - | - | - | - | - | - | 11 | - | 
-| [Core > Functional > API > Endpoints > SearchAlias](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FSearchAlias) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > API > Endpoints > SearchEngine](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FSearchEngine) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > API > Endpoints > Zone](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FAPI%2FEndpoints%2FZone) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO) | 4 | - | 1 | - | - | 1 | - | - | 2 | 
-| [Core > Functional > BO > Login](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FLogin) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > Dashboard](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDashboard) | 5 | 1 | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > Orders > Orders](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders) | 12 | - | - | 1 | - | - | - | 10 | 1 | 
-| [Core > Functional > BO > Orders > Orders > View and edit an order](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders%2FView+and+edit+an+order) | 13 | - | - | - | - | - | - | 13 | - | 
-| [Core > Functional > BO > Orders > Orders > Create an order](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FOrders%2FCreate+an+order) | 13 | - | - | - | - | 2 | - | 11 | - | 
-| [Core > Functional > BO > Orders > Invoices](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FInvoices) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > BO > Orders > Invoices > Invoice Options](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FInvoices%2FInvoice+Options) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > BO > Orders > Credit Slips](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FCredit+Slips) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > Orders > Delivery Slips](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FDelivery+Slips) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > BO > Orders > Delivery Slips > Delivery Slips Options](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FDelivery+Slips%2FDelivery+Slips+Options) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > BO > Orders > Shopping carts](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FOrders%2FShopping+carts) | 7 | - | - | - | - | 1 | - | 5 | 1 | 
-| [Core > Functional > BO > Catalog > ProductsV1](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FProductsV1) | 6 | - | - | - | - | - | - | - | 6 | 
-| [Core > Functional > BO > Catalog > ProductsV2](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FProductsV2) | 22 | - | - | - | - | 1 | - | 21 | - | 
-| [Core > Functional > BO > Catalog > Categories](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FCategories) | 8 | - | - | - | - | 4 | - | 4 | - | 
-| [Core > Functional > BO > Catalog > Monitoring](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FMonitoring) | 4 | 1 | - | - | - | - | - | 3 | - | 
-| [Core > Functional > BO > Catalog > Attributes And Features > Attributes](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FAttributes+And+Features%2FAttributes) | 7 | - | - | - | - | 3 | - | 4 | - | 
-| [Core > Functional > BO > Catalog > Attributes And Features > Features](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FAttributes+And+Features%2FFeatures) | 8 | - | - | - | - | 1 | - | 7 | - | 
-| [Core > Functional > BO > Catalog > Brands and Suppliers > Brands](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FBrands+and+Suppliers%2FBrands) | 7 | - | - | - | - | 1 | - | 6 | - | 
-| [Core > Functional > BO > Catalog > Brands and Suppliers > Suppliers](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FBrands+and+Suppliers%2FSuppliers) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > Catalog > Files](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FFiles) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > BO > Catalog > Discount > Cart rules](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FCart+rules) | 4 | - | - | - | - | - | - | 3 | 1 | 
-| [Core > Functional > BO > Catalog > Discount > Cart rules > CRUD Cart rule > Informations](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FCart+rules%2FCRUD+Cart+rule%2FInformations) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > Catalog > Discount > Cart rules > CRUD Cart rule > Conditions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FCart+rules%2FCRUD+Cart+rule%2FConditions) | 11 | - | - | - | - | - | - | 11 | - | 
-| [Core > Functional > BO > Catalog > Discount > Cart rules > CRUD Cart rule > Actions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FCart+rules%2FCRUD+Cart+rule%2FActions) | 11 | - | - | - | - | - | - | 11 | - | 
-| [Core > Functional > BO > Catalog > Discount > Catalog price rules](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FCatalog+price+rules) | 10 | 1 | - | 1 | - | - | 3 | 5 | - | 
-| [Core > Functional > BO > Catalog > Discount > Discount v2](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FDiscount%2FDiscount+v2) | 24 | 14 | 2 | 1 | 1 | - | - | 6 | - | 
-| [Core > Functional > BO > Catalog > Stocks](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FStocks) | 8 | - | - | - | - | 2 | - | 6 | - | 
-| [Core > Functional > BO > Catalog > Stocks > Movements](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCatalog%2FStocks%2FMovements) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > BO > Customers > Customers](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCustomers%2FCustomers) | 11 | - | - | - | - | 2 | - | 9 | - | 
-| [Core > Functional > BO > Customers > Addresses](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCustomers%2FAddresses) | 4 | - | - | - | - | 1 | - | 3 | - | 
-| [Core > Functional > BO > Customers > Outstanding](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCustomers%2FOutstanding) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > BO > Customer Service > Customer Service](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCustomer+Service%2FCustomer+Service) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > BO > Customer Service > Order Messages](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCustomer+Service%2FOrder+Messages) | 4 | - | - | - | - | 1 | - | 3 | - | 
-| [Core > Functional > BO > Customer Service > Merchandise returns](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FCustomer+Service%2FMerchandise+returns) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > BO > Modules > Module Manager > Modules](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FModules%2FModule+Manager%2FModules) | 10 | - | - | - | - | 1 | - | 9 | - | 
-| [Core > Functional > BO > Modules > Module Manager > Alerts](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FModules%2FModule+Manager%2FAlerts) | 4 | - | - | - | - | 1 | - | 3 | - | 
-| [Core > Functional > BO > Modules > Module Manager > Updates](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FModules%2FModule+Manager%2FUpdates) | 2 | - | - | - | - | 2 | - | - | - | 
-| [Core > Functional > BO > Design > Theme & Logo > Theme & Logo](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FTheme+%26+Logo%2FTheme+%26+Logo) | 6 | - | - | - | - | 3 | - | 2 | 1 | 
-| [Core > Functional > BO > Design > Theme & Logo > Page Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FTheme+%26+Logo%2FPage+Configuration) | 5 | - | - | - | - | 1 | - | 4 | - | 
-| [Core > Functional > BO > Design > Theme & Logo > Advanced Customization](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FTheme+%26+Logo%2FAdvanced+Customization) | 3 | - | - | - | - | - | 3 | - | - | 
-| [Core > Functional > BO > Design > Email themes](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FEmail+themes) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > BO > Design > Pages](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FPages) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > BO > Design > Pages > Pages](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FPages%2FPages) | 4 | - | - | - | - | - | 2 | 2 | - | 
-| [Core > Functional > BO > Design > Pages > Categories](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FPages%2FCategories) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > BO > Design > Positions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FPositions) | 7 | - | - | - | - | 4 | - | 3 | - | 
-| [Core > Functional > BO > Design > Image Settings](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FImage+Settings) | 14 | - | 1 | 1 | - | 1 | - | 11 | - | 
-| [Core > Functional > BO > Design > Link list](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FDesign%2FLink+list) | 3 | - | - | - | - | 1 | - | 2 | - | 
-| [Core > Functional > BO > Shipping > Carriers](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShipping%2FCarriers) | 8 | - | - | - | - | - | - | 8 | - | 
-| [Core > Functional > BO > Shipping > Preferences](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShipping%2FPreferences) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > BO > Payment > Payment methods](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FPayment%2FPayment+methods) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > BO > Payment > Preferences](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FPayment%2FPreferences) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > International > Localization > Localization](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocalization%2FLocalization) | 8 | - | - | - | - | 2 | - | 6 | - | 
-| [Core > Functional > BO > International > Localization > Languages](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocalization%2FLanguages) | 6 | - | - | - | - | 2 | - | 4 | - | 
-| [Core > Functional > BO > International > Localization > Currencies](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocalization%2FCurrencies) | 6 | - | - | - | - | 1 | 1 | 4 | - | 
-| [Core > Functional > BO > International > Localization > Geolocation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocalization%2FGeolocation) | 2 | - | - | 1 | - | - | - | 1 | - | 
-| [Core > Functional > BO > International > Locations > Zones](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocations%2FZones) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > International > Locations > Countries](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocations%2FCountries) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > BO > International > Locations > States](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FLocations%2FStates) | 5 | - | - | - | - | 3 | - | 2 | - | 
-| [Core > Functional > BO > International > Taxes > Taxes](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTaxes%2FTaxes) | 5 | - | 5 | - | - | - | - | - | - | 
-| [Core > Functional > BO > International > Taxes > Tax Rules](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTaxes%2FTax+Rules) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > BO > International > Translations](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FInternational%2FTranslations) | 5 | - | 4 | - | - | 1 | - | - | - | 
-| [Core > Functional > BO > Shop Parameters > General > General](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FGeneral%2FGeneral) | 9 | 1 | - | - | - | 2 | - | 6 | - | 
-| [Core > Functional > BO > Shop Parameters > General > Maintenance](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FGeneral%2FMaintenance) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > BO > Shop Parameters > Order settings > Order settings > General](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FOrder+settings%2FOrder+settings%2FGeneral) | 9 | 2 | - | - | - | - | - | 7 | - | 
-| [Core > Functional > BO > Shop Parameters > Order settings > Order settings > Gift options](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FOrder+settings%2FOrder+settings%2FGift+options) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Core > Functional > BO > Shop Parameters > Order settings > Statuses > Order Statuses](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FOrder+settings%2FStatuses%2FOrder+Statuses) | 4 | - | - | - | - | 2 | - | 2 | - | 
-| [Core > Functional > BO > Shop Parameters > Order settings > Statuses > Return statuses](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FOrder+settings%2FStatuses%2FReturn+statuses) | 2 | - | - | - | - | 1 | - | 1 | - | 
-| [Core > Functional > BO > Shop Parameters > Product Setting > Products general](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FProduct+Setting%2FProducts+general) | 9 | 4 | - | - | - | - | - | 5 | - | 
-| [Core > Functional > BO > Shop Parameters > Product Setting > Product page](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FProduct+Setting%2FProduct+page) | 7 | 2 | - | - | - | - | - | 5 | - | 
-| [Core > Functional > BO > Shop Parameters > Product Setting > Products stocks setting](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FProduct+Setting%2FProducts+stocks+setting) | 10 | 3 | - | - | - | - | - | 7 | - | 
-| [Core > Functional > BO > Shop Parameters > Product Setting > Pagination setting](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FProduct+Setting%2FPagination+setting) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > BO > Shop Parameters > Customers Setting > Customers](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FCustomers+Setting%2FCustomers) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > BO > Shop Parameters > Customers Setting > Groups](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FCustomers+Setting%2FGroups) | 3 | - | - | - | - | 1 | - | 2 | - | 
-| [Core > Functional > BO > Shop Parameters > Customers Setting > Titles](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FCustomers+Setting%2FTitles) | 3 | - | - | - | - | 1 | - | 2 | - | 
-| [Core > Functional > BO > Shop Parameters > Contact > Contacts](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FContact%2FContacts) | 4 | - | - | - | - | 2 | - | 2 | - | 
-| [Core > Functional > BO > Shop Parameters > Contact > Stores](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FContact%2FStores) | 5 | - | - | - | - | - | 1 | 4 | - | 
-| [Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Seo and Urls](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FTrafic+and+Seo%2FSeo+and+Urls%2FSeo+and+Urls) | 5 | - | - | - | - | 1 | - | 4 | - | 
-| [Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Set up urls](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FTrafic+and+Seo%2FSeo+and+Urls%2FSet+up+urls) | 6 | 4 | - | - | - | - | - | 2 | - | 
-| [Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Set shop URL](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FTrafic+and+Seo%2FSeo+and+Urls%2FSet+shop+URL) | 1 | 1 | - | - | - | - | - | - | - | 
-| [Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Schema of URLs](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FTrafic+and+Seo%2FSeo+and+Urls%2FSchema+of+URLs) | 1 | - | - | - | - | 1 | - | - | - | 
-| [Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > SEO options](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FTrafic+and+Seo%2FSeo+and+Urls%2FSEO+options) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Robots file generation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FTrafic+and+Seo%2FSeo+and+Urls%2FRobots+file+generation) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > BO > Shop Parameters > Trafic and Seo > Search Engines](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FTrafic+and+Seo%2FSearch+Engines) | 4 | - | - | - | - | 1 | - | 3 | - | 
-| [Core > Functional > BO > Shop Parameters > Search > Search](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FSearch%2FSearch) | 6 | - | - | - | - | 1 | - | 5 | - | 
-| [Core > Functional > BO > Shop Parameters > Search > Search > Edit Search Settings](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FSearch%2FSearch%2FEdit+Search+Settings) | 8 | - | - | - | - | 1 | - | 7 | - | 
-| [Core > Functional > BO > Shop Parameters > Search > Tags](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FShop+Parameters%2FSearch%2FTags) | 4 | 1 | - | - | - | 1 | - | 2 | - | 
-| [Core > Functional > BO > Advanced Parameters > Informations](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FInformations) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > BO > Advanced Parameters > Performance](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FPerformance) | 9 | 5 | 1 | - | - | 1 | - | 2 | - | 
-| [Core > Functional > BO > Advanced Parameters > Administration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FAdministration) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > BO > Advanced Parameters > Email](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FEmail) | 8 | 3 | - | - | - | 3 | - | 2 | - | 
-| [Core > Functional > BO > Advanced Parameters > Import](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FImport) | 11 | 8 | - | - | - | 1 | - | 2 | - | 
-| [Core > Functional > BO > Advanced Parameters > Team > Employees](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FTeam%2FEmployees) | 6 | 1 | - | - | - | 2 | - | 3 | - | 
-| [Core > Functional > BO > Advanced Parameters > Team > Profiles](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FTeam%2FProfiles) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > BO > Advanced Parameters > Team > Permissions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FTeam%2FPermissions) | 2 | - | 2 | - | - | - | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Database > SQL Manager](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FDatabase%2FSQL+Manager) | 5 | - | 1 | - | - | 1 | - | 3 | - | 
-| [Core > Functional > BO > Advanced Parameters > Database > Db Backup](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FDatabase%2FDb+Backup) | 5 | - | 5 | - | - | - | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Logs](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FLogs) | 4 | 2 | 1 | - | - | - | - | 1 | - | 
-| [Core > Functional > BO > Advanced Parameters > Webservice](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FWebservice) | 6 | - | 6 | - | - | - | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Multistore](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FMultistore) | 10 | - | 7 | 2 | - | - | - | 1 | - | 
-| [Core > Functional > BO > Advanced Parameters > Admin API](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FAdmin+API) | 6 | 4 | - | - | - | 2 | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Experimental Features](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FExperimental+Features) | 1 | - | - | - | - | 1 | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Extra Properties](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FExtra+Properties) | 2 | 2 | - | - | - | - | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Security > Security](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FSecurity%2FSecurity) | 3 | 3 | - | - | - | - | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Security > Employee Sessions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FSecurity%2FEmployee+Sessions) | 5 | 5 | - | - | - | - | - | - | - | 
-| [Core > Functional > BO > Advanced Parameters > Security > Customer Sessions](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FAdvanced+Parameters%2FSecurity%2FCustomer+Sessions) | 5 | 5 | - | - | - | - | - | - | - | 
-| [Core > Functional > BO > Header](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FHeader) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > BO > Hall of Fame](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FBO%2FHall+of+Fame) | 5 | - | - | - | - | 1 | - | 4 | - | 
-| [Core > Functional > FO > classic > Login](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FLogin) | 4 | - | - | - | - | 1 | - | 3 | - | 
-| [Core > Functional > FO > classic > Header & Footer](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FHeader+%26+Footer) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > classic > User account](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FUser+account) | 7 | - | - | - | - | - | - | 7 | - | 
-| [Core > Functional > FO > classic > User account > Credit slips](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FUser+account%2FCredit+slips) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > FO > classic > User account > Order history](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FUser+account%2FOrder+history) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > FO > classic > User account > Order history > Order details](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FUser+account%2FOrder+history%2FOrder+details) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > classic > User account > Merchandise Returns](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FUser+account%2FMerchandise+Returns) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > classic > Newsletter](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FNewsletter) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > FO > classic > Contact us](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FContact+us) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > classic > Homepage](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FHomepage) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > FO > classic > Search](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FSearch) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > FO > classic > Menu and Navigation > Navigate in Categories](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FMenu+and+Navigation%2FNavigate+in+Categories) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > FO > classic > Menu and Navigation > Sort and filter](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FMenu+and+Navigation%2FSort+and+filter) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > FO > classic > Menu and Navigation > Navigation and display](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FMenu+and+Navigation%2FNavigation+and+display) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > classic > Product Page > Product quickview](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FProduct+Page%2FProduct+quickview) | 7 | - | - | - | - | - | - | 7 | - | 
-| [Core > Functional > FO > classic > Product Page > Product page](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FProduct+Page%2FProduct+page) | 15 | - | - | - | - | - | - | 15 | - | 
-| [Core > Functional > FO > classic > Cart > Modal](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FCart%2FModal) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > classic > Cart > Cart](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FCart%2FCart) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > FO > classic > Checkout](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FCheckout) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > classic > Checkout > Personal information](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FCheckout%2FPersonal+information) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > classic > Checkout > Addresses](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FCheckout%2FAddresses) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > FO > classic > Checkout > Shipping method](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FCheckout%2FShipping+method) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > classic > Checkout > Payment](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FCheckout%2FPayment) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > FO > classic > Order confirmation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fclassic%2FOrder+confirmation) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > FO > hummingbird > Login](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FLogin) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > hummingbird > Header & Footer](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FHeader+%26+Footer) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > hummingbird > User account](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FUser+account) | 7 | - | - | - | - | - | - | 7 | - | 
-| [Core > Functional > FO > hummingbird > User account > Credit slips](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FUser+account%2FCredit+slips) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > FO > hummingbird > User account > Order history](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FUser+account%2FOrder+history) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > hummingbird > User account > Order history > Order details](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FUser+account%2FOrder+history%2FOrder+details) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > hummingbird > User account > Merchandise returns](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FUser+account%2FMerchandise+returns) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > hummingbird > Newsletter](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FNewsletter) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > FO > hummingbird > Contact us](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FContact+us) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > hummingbird > Homepage](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FHomepage) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > FO > hummingbird > Search](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FSearch) | 6 | - | - | - | - | - | - | 6 | - | 
-| [Core > Functional > FO > hummingbird > Menu & Navigation > Navigate in Categories](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FMenu+%26+Navigation%2FNavigate+in+Categories) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > FO > hummingbird > Menu & Navigation > Sort and filter](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FMenu+%26+Navigation%2FSort+and+filter) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Core > Functional > FO > hummingbird > Menu & Navigation > Navigation and display](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FMenu+%26+Navigation%2FNavigation+and+display) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > hummingbird > Product Page > Product quickview](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FProduct+Page%2FProduct+quickview) | 7 | - | - | - | - | - | - | 7 | - | 
-| [Core > Functional > FO > hummingbird > Product Page > Product page](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FProduct+Page%2FProduct+page) | 13 | - | - | - | - | 1 | - | 12 | - | 
-| [Core > Functional > FO > hummingbird > Cart > Modal](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCart%2FModal) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > hummingbird > Cart > Cart](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCart%2FCart) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > FO > hummingbird > Checkout](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCheckout) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > hummingbird > Checkout > Personal information](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCheckout%2FPersonal+information) | 4 | - | - | - | - | - | - | 4 | - | 
-| [Core > Functional > FO > hummingbird > Checkout > Addresses](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCheckout%2FAddresses) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Functional > FO > hummingbird > Checkout > Shipping method](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCheckout%2FShipping+method) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Functional > FO > hummingbird > Checkout > Payment](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FCheckout%2FPayment) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Functional > FO > hummingbird > Order confirmation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FFO%2Fhummingbird%2FOrder+confirmation) | 6 | - | 1 | - | - | - | - | 5 | - | 
-| [Core > Functional > WS](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FFunctional%2FWS) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Regression > Currencies](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FRegression%2FCurrencies) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Regression > menu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FRegression%2Fmenu) | 1 | - | - | - | - | - | - | - | 1 | 
-| [Core > Regression > Checkout](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FRegression%2FCheckout) | 1 | 1 | - | - | - | - | - | - | - | 
-| [Core > Regression > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FRegression%2FFO) | 1 | - | - | 1 | - | - | - | - | - | 
-| [Core > Sanity > InstallShop](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FInstallShop) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Sanity > ProductsBO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FProductsBO) | 5 | - | - | - | - | - | - | 5 | - | 
-| [Core > Sanity > ProductV2BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FProductV2BO) | 8 | - | 1 | - | - | 1 | - | 6 | - | 
-| [Core > Sanity > OrdersBO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FOrdersBO) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Sanity > CatalogFO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FCatalogFO) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Core > Sanity > CartFO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FCartFO) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Sanity > CheckoutFO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FCheckoutFO) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Core > Sanity > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FUpgrade) | 23 | 5 | 15 | 1 | - | - | - | - | - | 
-| [Core > Sanity > Upgrade > Precondition](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FUpgrade%2FPrecondition) | 10 | 2 | 3 | - | - | - | - | - | - | 
-| [Core > Sanity > Upgrade > Deprecated](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FSanity%2FUpgrade%2FDeprecated) | 18 | - | - | - | - | - | - | - | 18 | 
-| [Core > CLDR](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FCLDR) | 16 | 10 | - | - | - | - | - | 6 | - | 
-| [Core > Orders Campaign > Create order FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+FO) | 6 | 6 | - | - | - | - | - | - | - | 
-| [Core > Orders Campaign > Create order BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FOrders+Campaign%2FCreate+order+BO) | 8 | 8 | - | - | - | - | - | - | - | 
-| [Core > Upgrade](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Core%2FUpgrade) | 12 | 12 | - | - | - | - | - | - | - | 
-| **Total** | **1017** | **118** | **57** | **9** | **1** | **75** | **20** | **698** | **32** | 
-| **Total** |  | **11.60%** | **5.60%** | **0.88%** | **0.10%** | **7.37%** | **1.97%** | **68.63%** | **5.60%** | 
+| Core | 1 | - | - | - | - | - | - | - | - | 
+| Core > Sanity > Upgrade | 23 | - | - | 1 | - | - | - | - | - | 
+| Core > Sanity > Upgrade > Deprecated | 18 | - | - | - | - | - | - | - | 16 | 
+| Core > Sanity > Upgrade > Precondition | 10 | - | - | - | - | - | - | - | - | 
+| Core > Sanity > InstallShop | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Sanity > ProductsBO | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Sanity > OrdersBO | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Sanity > CatalogFO | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Sanity > CartFO | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Sanity > CheckoutFO | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Sanity > ProductV2BO | 8 | - | - | - | - | 1 | - | 6 | - | 
+| Core > CLDR | 16 | - | - | - | - | - | - | 6 | - | 
+| Core > Upgrade | 12 | - | - | - | - | - | - | - | - | 
+| Core > Functional > API | 3 | - | - | - | - | 1 | - | 2 | - | 
+| Core > Functional > API > Client Credential Grant Flow > Internal Authentification Server | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > API > Client Credential Grant Flow > External Authentification Server | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > API > Endpoints > ApiClient | 6 | - | - | - | - | - | - | 6 | - | 
+| Core > Functional > API > Endpoints > Hook | 3 | - | - | - | - | - | - | 2 | 1 | 
+| Core > Functional > API > Endpoints > CustomersGroup | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > API > Endpoints > Product | 11 | - | - | - | - | - | - | 11 | - | 
+| Core > Functional > API > Endpoints > Language | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > API > Endpoints > Module | 11 | - | - | - | - | - | - | 11 | - | 
+| Core > Functional > API > Endpoints > Attribute | 9 | - | - | - | - | - | - | 9 | - | 
+| Core > Functional > API > Endpoints > Category | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > API > Endpoints > SearchAlias | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > API > Endpoints > Zone | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > API > Endpoints > Discount | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > API > Endpoints > Address | 11 | - | - | - | - | - | 9 | - | - | 
+| Core > Functional > API > Endpoints > Contact | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > API > Endpoints > Feature | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > API > Endpoints > SearchEngine | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > BO | 4 | - | - | - | - | 1 | - | - | 2 | 
+| Core > Functional > BO > Header | 6 | - | - | - | - | - | - | 6 | - | 
+| Core > Functional > BO > Dashboard | 5 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > BO > Login | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > BO > Hall of Fame | 5 | - | - | - | - | 1 | - | 4 | - | 
+| Core > Functional > BO > Orders > Orders | 12 | - | - | 1 | - | - | - | 10 | 1 | 
+| Core > Functional > BO > Orders > Orders > View and edit an order | 13 | - | - | - | - | - | - | 13 | - | 
+| Core > Functional > BO > Orders > Orders > Create an order | 13 | - | - | - | - | 2 | - | 11 | - | 
+| Core > Functional > BO > Orders > Invoices | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > BO > Orders > Invoices > Invoice Options | 6 | - | - | - | - | - | - | 6 | - | 
+| Core > Functional > BO > Orders > Credit Slips | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > BO > Orders > Delivery Slips | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > BO > Orders > Delivery Slips > Delivery Slips Options | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > BO > Orders > Shopping carts | 7 | - | - | - | - | 1 | - | 5 | 1 | 
+| Core > Functional > BO > Catalog > ProductsV1 | 6 | - | - | - | - | - | - | - | 6 | 
+| Core > Functional > BO > Catalog > Categories | 8 | - | - | - | - | 4 | - | 4 | - | 
+| Core > Functional > BO > Catalog > Monitoring | 4 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > BO > Catalog > Files | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > BO > Catalog > Stocks | 8 | - | - | - | - | 2 | - | 6 | - | 
+| Core > Functional > BO > Catalog > Stocks > Movements | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > BO > Catalog > ProductsV2 | 22 | - | - | - | - | 1 | - | 21 | - | 
+| Core > Functional > BO > Catalog > Attributes And Features > Attributes | 7 | - | - | - | - | 3 | - | 4 | - | 
+| Core > Functional > BO > Catalog > Attributes And Features > Features | 8 | - | - | - | - | 1 | - | 7 | - | 
+| Core > Functional > BO > Catalog > Brands and Suppliers > Brands | 7 | - | - | - | - | 1 | - | 6 | - | 
+| Core > Functional > BO > Catalog > Brands and Suppliers > Suppliers | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > BO > Catalog > Discount > Cart rules | 4 | - | - | - | - | - | - | 3 | 1 | 
+| Core > Functional > BO > Catalog > Discount > Cart rules > CRUD Cart rule > Informations | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > BO > Catalog > Discount > Cart rules > CRUD Cart rule > Conditions | 11 | - | - | - | - | - | - | 10 | - | 
+| Core > Functional > BO > Catalog > Discount > Cart rules > CRUD Cart rule > Actions | 11 | - | - | - | - | - | - | 11 | - | 
+| Core > Functional > BO > Catalog > Discount > Catalog price rules | 10 | - | - | 1 | - | - | 3 | 5 | - | 
+| Core > Functional > BO > Catalog > Discount > Discount v2 | 24 | - | - | 1 | 1 | - | - | 6 | - | 
+| Core > Functional > BO > Customers > Customers | 11 | - | - | - | - | 2 | - | 9 | - | 
+| Core > Functional > BO > Customers > Addresses | 4 | - | - | - | - | 1 | - | 3 | - | 
+| Core > Functional > BO > Customers > Outstanding | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > BO > Customer Service > Customer Service | 6 | - | - | - | - | - | - | 6 | - | 
+| Core > Functional > BO > Customer Service > Order Messages | 4 | - | - | - | - | 1 | - | 3 | - | 
+| Core > Functional > BO > Customer Service > Merchandise returns | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > BO > Design > Email themes | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > BO > Design > Pages | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > BO > Design > Pages > Pages | 4 | - | - | - | - | - | 2 | 2 | - | 
+| Core > Functional > BO > Design > Pages > Categories | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > BO > Design > Positions | 7 | - | - | - | - | 4 | - | 3 | - | 
+| Core > Functional > BO > Design > Image Settings | 14 | - | - | 1 | - | 1 | - | 11 | - | 
+| Core > Functional > BO > Design > Link list | 3 | - | - | - | - | 1 | - | 2 | - | 
+| Core > Functional > BO > Design > Theme & Logo > Theme & Logo | 6 | - | - | - | - | 2 | - | 2 | 1 | 
+| Core > Functional > BO > Design > Theme & Logo > Page Configuration | 5 | - | - | - | - | 1 | - | 4 | - | 
+| Core > Functional > BO > Design > Theme & Logo > Advanced Customization | 3 | - | - | - | - | - | 3 | - | - | 
+| Core > Functional > BO > Shipping > Carriers | 8 | - | - | - | - | - | - | 8 | - | 
+| Core > Functional > BO > Shipping > Preferences | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > BO > Payment > Preferences | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > BO > Payment > Payment methods | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > BO > International > Translations | 5 | - | - | - | - | 1 | - | - | - | 
+| Core > Functional > BO > International > Localization > Localization | 8 | - | - | - | - | 2 | - | 6 | - | 
+| Core > Functional > BO > International > Localization > Languages | 6 | - | - | - | - | 2 | - | 4 | - | 
+| Core > Functional > BO > International > Localization > Currencies | 6 | - | - | - | - | 1 | 1 | 4 | - | 
+| Core > Functional > BO > International > Localization > Geolocation | 2 | - | - | 1 | - | - | - | 1 | - | 
+| Core > Functional > BO > International > Locations > Zones | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > BO > International > Locations > Countries | 6 | - | - | - | - | - | - | 6 | - | 
+| Core > Functional > BO > International > Locations > States | 5 | - | - | - | - | 3 | - | 2 | - | 
+| Core > Functional > BO > International > Taxes > Taxes | 5 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > International > Taxes > Tax Rules | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > BO > Advanced Parameters > Performance | 9 | - | - | - | - | 1 | - | 2 | - | 
+| Core > Functional > BO > Advanced Parameters > Informations | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > BO > Advanced Parameters > Administration | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > BO > Advanced Parameters > Email | 8 | - | - | - | - | 3 | - | 2 | - | 
+| Core > Functional > BO > Advanced Parameters > Import | 11 | - | - | - | - | 1 | - | 2 | - | 
+| Core > Functional > BO > Advanced Parameters > Logs | 4 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > BO > Advanced Parameters > Webservice | 6 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Advanced Parameters > Multistore | 10 | - | - | 2 | - | - | - | 1 | - | 
+| Core > Functional > BO > Advanced Parameters > Admin API | 6 | - | - | - | - | 2 | - | - | - | 
+| Core > Functional > BO > Advanced Parameters > Experimental Features | 1 | - | - | - | - | 1 | - | - | - | 
+| Core > Functional > BO > Advanced Parameters > Extra Properties | 2 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Advanced Parameters > Team > Employees | 6 | - | - | - | - | 2 | - | 3 | - | 
+| Core > Functional > BO > Advanced Parameters > Team > Profiles | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > BO > Advanced Parameters > Team > Permissions | 2 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Advanced Parameters > Database > SQL Manager | 5 | - | - | - | - | 1 | - | 3 | - | 
+| Core > Functional > BO > Advanced Parameters > Database > Db Backup | 5 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Advanced Parameters > Security > Security | 3 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Advanced Parameters > Security > Employee Sessions | 5 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Advanced Parameters > Security > Customer Sessions | 5 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Modules > Module Manager > Modules | 10 | - | - | - | - | 1 | - | 8 | - | 
+| Core > Functional > BO > Modules > Module Manager > Alerts | 4 | - | - | - | - | 1 | - | 3 | - | 
+| Core > Functional > BO > Modules > Module Manager > Updates | 2 | - | - | - | - | 2 | - | - | - | 
+| Core > Functional > BO > Shop Parameters > General > General | 9 | - | - | - | - | 2 | - | 6 | - | 
+| Core > Functional > BO > Shop Parameters > General > Maintenance | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > BO > Shop Parameters > Product Setting > Products general | 9 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > BO > Shop Parameters > Product Setting > Product page | 7 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > BO > Shop Parameters > Product Setting > Products stocks setting | 10 | - | - | - | - | - | - | 7 | - | 
+| Core > Functional > BO > Shop Parameters > Product Setting > Pagination setting | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > BO > Shop Parameters > Customers Setting > Customers | 6 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > BO > Shop Parameters > Customers Setting > Groups | 3 | - | - | - | - | 1 | - | 2 | - | 
+| Core > Functional > BO > Shop Parameters > Customers Setting > Titles | 3 | - | - | - | - | 1 | - | 2 | - | 
+| Core > Functional > BO > Shop Parameters > Contact > Contacts | 4 | - | - | - | - | 2 | - | 2 | - | 
+| Core > Functional > BO > Shop Parameters > Contact > Stores | 5 | - | - | - | - | - | 1 | 4 | - | 
+| Core > Functional > BO > Shop Parameters > Trafic and Seo > Search Engines | 4 | - | - | - | - | 1 | - | 3 | - | 
+| Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Seo and Urls | 5 | - | - | - | - | 1 | - | 4 | - | 
+| Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Set up urls | 6 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Set shop URL | 1 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Schema of URLs | 1 | - | - | - | - | 1 | - | - | - | 
+| Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > SEO options | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > BO > Shop Parameters > Trafic and Seo > Seo and Urls > Robots file generation | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > BO > Shop Parameters > Search > Search | 6 | - | - | - | - | 1 | - | 5 | - | 
+| Core > Functional > BO > Shop Parameters > Search > Search > Edit Search Settings | 8 | - | - | - | - | 1 | - | 7 | - | 
+| Core > Functional > BO > Shop Parameters > Search > Tags | 4 | - | - | - | - | 1 | - | 2 | - | 
+| Core > Functional > BO > Shop Parameters > Order settings > Order settings > General | 9 | - | - | - | - | - | - | 7 | - | 
+| Core > Functional > BO > Shop Parameters > Order settings > Order settings > Gift options | 1 | - | - | - | - | - | - | - | - | 
+| Core > Functional > BO > Shop Parameters > Order settings > Statuses > Return statuses | 2 | - | - | - | - | 1 | - | 1 | - | 
+| Core > Functional > BO > Shop Parameters > Order settings > Statuses > Order Statuses | 4 | - | - | - | - | 2 | - | 2 | - | 
+| Core > Functional > FO > classic > Login | 4 | - | - | - | - | 1 | - | 3 | - | 
+| Core > Functional > FO > classic > Header & Footer | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > classic > User account | 7 | - | - | - | - | - | - | 6 | - | 
+| Core > Functional > FO > classic > User account > Order history | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > FO > classic > User account > Order history > Order details | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > classic > User account > Credit slips | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > FO > classic > User account > Merchandise Returns | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > classic > Contact us | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > classic > Homepage | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > FO > classic > Search | 6 | - | - | - | - | - | - | 6 | - | 
+| Core > Functional > FO > classic > Checkout | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > classic > Checkout > Personal information | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > classic > Checkout > Addresses | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > FO > classic > Checkout > Shipping method | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > classic > Checkout > Payment | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > FO > classic > Order confirmation | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > FO > classic > Newsletter | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > FO > classic > Menu and Navigation > Navigate in Categories | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > FO > classic > Menu and Navigation > Sort and filter | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > FO > classic > Menu and Navigation > Navigation and display | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > classic > Product Page > Product quickview | 7 | - | - | - | - | - | - | 7 | - | 
+| Core > Functional > FO > classic > Product Page > Product page | 15 | - | - | - | - | - | - | 15 | - | 
+| Core > Functional > FO > classic > Cart > Modal | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > classic > Cart > Cart | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > FO > hummingbird > Login | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > hummingbird > Header & Footer | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > hummingbird > User account | 7 | - | - | - | - | - | - | 7 | - | 
+| Core > Functional > FO > hummingbird > User account > Merchandise returns | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > hummingbird > User account > Credit slips | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > FO > hummingbird > User account > Order history | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > hummingbird > User account > Order history > Order details | 4 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > hummingbird > Newsletter | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > FO > hummingbird > Contact us | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > hummingbird > Homepage | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > FO > hummingbird > Search | 6 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > FO > hummingbird > Checkout | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > hummingbird > Checkout > Personal information | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > hummingbird > Checkout > Addresses | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > FO > hummingbird > Checkout > Shipping method | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > hummingbird > Checkout > Payment | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Functional > FO > hummingbird > Order confirmation | 6 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > FO > hummingbird > Menu & Navigation > Navigate in Categories | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > FO > hummingbird > Menu & Navigation > Sort and filter | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > FO > hummingbird > Menu & Navigation > Navigation and display | 4 | - | - | - | - | - | - | 4 | - | 
+| Core > Functional > FO > hummingbird > Product Page > Product quickview | 7 | - | - | - | - | - | - | 7 | - | 
+| Core > Functional > FO > hummingbird > Product Page > Product page | 13 | - | - | - | - | 1 | - | 11 | - | 
+| Core > Functional > FO > hummingbird > Cart > Modal | 2 | - | - | - | - | - | - | 2 | - | 
+| Core > Functional > FO > hummingbird > Cart > Cart | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Functional > WS | 5 | - | - | - | - | - | - | 5 | - | 
+| Core > Regression > Currencies | 1 | - | - | - | - | - | - | 1 | - | 
+| Core > Regression > menu | 1 | - | - | - | - | - | - | - | 1 | 
+| Core > Regression > Checkout | 1 | - | - | - | - | - | - | - | - | 
+| Core > Regression > FO | 1 | - | - | 1 | - | - | - | - | - | 
+| Core > Orders Campaign > Create order BO | 8 | - | - | - | - | - | - | - | - | 
+| Core > Orders Campaign > Create order FO | 6 | - | - | - | - | - | - | - | - | 
+| Core > Audit > BO | 14 | - | - | - | - | - | - | 14 | - | 
+| Core > Audit > FO > classic | 3 | - | - | - | - | - | - | 3 | - | 
+| Core > Audit > FO > hummingbird | 3 | - | - | - | - | - | - | 3 | - | 
+| **Total** | **1017** | **0** | **0** | **9** | **1** | **73** | **19** | **690** | **30** | 
+| **Total** |  | **0%** | **0%** | **0.88%** | **0.10%** | **7.18%** | **1.87%** | **67.85%** | **0%** | 

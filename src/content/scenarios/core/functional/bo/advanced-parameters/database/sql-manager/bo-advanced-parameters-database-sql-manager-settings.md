@@ -1,13 +1,14 @@
 ---
 title: "BO - Advanced Parameters - Database - SQL Manager - Settings"
-weight: 3
+weight: 2
 ---
 
 # BO - Advanced Parameters - Database - SQL Manager - Settings
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1165
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7852
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/database/sql-manager
 
 ## Steps
 | Step Description | Expected result |

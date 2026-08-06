@@ -1,13 +1,14 @@
 ---
 title: "BO - Design - Positions - Change position (drag and drop)"
-weight: 7
+weight: 3
 ---
 
 # BO - Design - Positions - Change position (drag and drop)
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-958
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7674
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/positions
 
 ## Steps
 | Step Description | Expected result |

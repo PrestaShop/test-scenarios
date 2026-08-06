@@ -1,14 +1,14 @@
 ---
 title: "BO - Orders - Help Button "
-weight: 12
+weight: 9
 ---
 
 # BO - Orders - Help Button 
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-735
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7507
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/01_helpCard.ts
 
 ## Steps

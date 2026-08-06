@@ -7,15 +7,12 @@ weight: 17
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12196
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5643
+* **Specification** : https://forge.prestashop.com/browse/SUE-209
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh 1.7.7.8 on php 7.1 | A selection between BO and FO is displayed |
-| Go to the BO | You should have your dashboard showed |
-| Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
-| Search for the update assistant module and Install it | Module is correctly installed |
 | Go to your folder [yourshopname_folder] > module > Autoupgrade | You should have many files and folder, one files named README.md can help you |
 | *CLI Check Version of module* <br><br>Open a terminal on this folder | Terminal is open on the folder modules/autoupgrade |
 | Launch "php bin/console" | Terminal show you available command with bin/console |
@@ -54,3 +51,7 @@ weight: 17
 | Launch command "0" | Terminal display at :<br> * start :"INFO - Restoring files ..." <br> * end  "INFO - Restoration process done. Congratulations! You can now reactivate your store." |
 | Launch command "php bin/console update:start --xml=prestashop_{test-param}Last_version_9{test-param} .xml --zip=prestashop_{test-param}Last_version_9{test-param} .zip admin-dev" | Terminal display :<br>"INFO - Update process will use archive.<br>INFO - Configuration successfully updated.<br>INFO - Starting update...<br>INFO - Destination version: {test-param}Last_version_9{test-param} " |
 | Launch command "php bin/console backup:restore --backup=1.7.7.8_ID admin-dev" | Terminal display at :<br> * start :"INFO - Restoring files ..." <br> * end  "INFO - Restoration process done. Congratulations! You can now reactivate your store.." |
+| Install A fresh 1.7.7.8 on php 7.1 | A selection between BO and FO is displayed |
+| Go to the BO | You should have your dashboard showed |
+| Go to the Module Catalog" page" | Module Catalog page is displayed correctly |
+| Search for the update assistant module and Install it | Module is correctly installed |

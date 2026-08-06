@@ -1,14 +1,13 @@
 ---
 title: "PATCH /admin-api/addresses/orders/{orderId}"
-weight: 10
+weight: 1
 ---
 
 # PATCH /admin-api/addresses/orders/{orderId}
 ## Details
-* **Component** : Core
-* **Status** : Automation in progress
-* **Automated on** : 9.1.x, 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12898
+* **Status** : À faire
+* **Automated on** : 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8568
 
 ## Steps
 | Step Description | Expected result |

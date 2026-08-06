@@ -1,13 +1,13 @@
 ---
 title: "FO - Menu and Navigation - Navigate and display : Pagination"
-weight: 2
+weight: 3
 ---
 
 # FO - Menu and Navigation - Navigate and display : Pagination
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6957
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8271
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/03_navigationAndDisplay/02_pagination.ts
 
 ## Steps

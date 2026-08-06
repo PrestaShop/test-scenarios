@@ -1,14 +1,14 @@
 ---
 title: "FO - User account - Order history - Reorder order from list"
-weight: 2
+weight: 3
 ---
 
 # FO - User account - Order history - Reorder order from list
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1207
+* **Automated on** : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7890
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/02_orderHistory/02_reorderFromOrderList.ts
 
 ## Steps

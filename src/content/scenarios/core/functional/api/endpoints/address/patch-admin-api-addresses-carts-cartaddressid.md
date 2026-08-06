@@ -1,6 +1,6 @@
 ---
 title: "PATCH /admin-api/addresses/carts/{cartAddressId}"
-weight: 3
+weight: 7
 ---
 
 # PATCH /admin-api/addresses/carts/{cartAddressId}
@@ -8,7 +8,7 @@ weight: 3
 * **Component** : Core
 * **Status** : Automation in progress
 * **Automated on** : 9.1.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12891
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8562
 
 ## Steps
 | Step Description | Expected result |

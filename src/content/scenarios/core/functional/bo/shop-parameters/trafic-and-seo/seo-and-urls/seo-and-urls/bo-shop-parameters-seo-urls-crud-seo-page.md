@@ -1,14 +1,16 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - CRUD SEO page"
-weight: 2
+weight: 4
 ---
 
 # BO - Shop Parameters - SEO & URLs - CRUD SEO page
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1106
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7800
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/06_trafficAndSeo/01_seoAndUrls/01_seoAndUrls/02_CRUDSeoPage.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/traffic-and-seo/add-or-edit-new-seo-page
 
 ## Steps
 | Step Description | Expected result |

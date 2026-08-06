@@ -1,13 +1,13 @@
 ---
 title: "ps_shoppingcart - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # ps_shoppingcart - Upgrade
 ## Details
 * **Component** : ps_shoppingcart
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-681
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7462
 
 ## Steps
 | Step Description | Expected result |

@@ -1,11 +1,11 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Invalid date"
-weight: 8
+weight: 9
 ---
 
 # BO - Catalog price Rules - CRUD - Invalid date
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10335
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8454
 

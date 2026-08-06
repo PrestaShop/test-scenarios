@@ -1,13 +1,13 @@
 ---
 title: "Check generation of bill"
-weight: 11
+weight: 13
 ---
 
 # Check generation of bill
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1371
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8011
 
 ## Steps
 | Step Description | Expected result |

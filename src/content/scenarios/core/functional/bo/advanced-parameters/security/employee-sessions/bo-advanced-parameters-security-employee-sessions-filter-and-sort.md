@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Security - Employee sessions - Filter and sort"
-weight: 3
+weight: 5
 ---
 
 # BO - Advanced parameters - Security - Employee sessions - Filter and sort
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12841
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8527
 

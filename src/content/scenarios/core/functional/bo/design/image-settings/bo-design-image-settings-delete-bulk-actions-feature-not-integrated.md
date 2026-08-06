@@ -1,13 +1,14 @@
 ---
 title: "BO - Design - Image Settings - Delete Bulk actions -  feature not integrated -"
-weight: 6
+weight: 11
 ---
 
 # BO - Design - Image Settings - Delete Bulk actions -  feature not integrated -
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5153
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8235
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type
 
 ## Steps
 | Step Description | Expected result |
