@@ -1,13 +1,13 @@
 ---
 title: "Share a list"
-weight: 6
+weight: 1
 ---
 
 # Share a list
 ## Details
 * **Component** : blockwishlist
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-558
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7345
 
 ## Steps
 | Step Description | Expected result |

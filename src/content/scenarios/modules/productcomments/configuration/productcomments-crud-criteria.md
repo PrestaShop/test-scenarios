@@ -1,13 +1,13 @@
 ---
 title: "productcomments - CRUD criteria"
-weight: 8
+weight: 6
 ---
 
 # productcomments - CRUD criteria
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-591
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7374
 
 ## Steps
 | Step Description | Expected result |

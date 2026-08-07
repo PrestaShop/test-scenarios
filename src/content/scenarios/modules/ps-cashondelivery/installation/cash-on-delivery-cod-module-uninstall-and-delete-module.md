@@ -1,13 +1,13 @@
 ---
 title: "Cash on delivery (COD) module - Uninstall and delete module"
-weight: 3
+weight: 1
 ---
 
 # Cash on delivery (COD) module - Uninstall and delete module
 ## Details
 * **Component** : ps_cashondelivery
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4069
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8115
 
 ## Steps
 | Step Description | Expected result |

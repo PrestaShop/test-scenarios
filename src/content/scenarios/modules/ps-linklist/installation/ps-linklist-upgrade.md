@@ -1,13 +1,13 @@
 ---
 title: "ps_linklist - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # ps_linklist - Upgrade
 ## Details
 * **Component** : ps_linklist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-670
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7453
 
 ## Steps
 | Step Description | Expected result |

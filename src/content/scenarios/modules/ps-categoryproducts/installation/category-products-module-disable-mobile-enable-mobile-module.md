@@ -1,13 +1,13 @@
 ---
 title: "Category products module - Disable Mobile/Enable Mobile module"
-weight: 2
+weight: 5
 ---
 
 # Category products module - Disable Mobile/Enable Mobile module
 ## Details
 * **Component** : ps_categoryproducts
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4210
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8153
 
 ## Steps
 | Step Description | Expected result |

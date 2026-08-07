@@ -1,13 +1,13 @@
 ---
 title: "ps_emailsubscription - Check the display of the email block in the left column"
-weight: 1
+weight: 12
 ---
 
 # ps_emailsubscription - Check the display of the email block in the left column
 ## Details
 * **Component** : ps_emailsubscription
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-645
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7427
 
 ## Steps
 | Step Description | Expected result |

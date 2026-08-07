@@ -1,13 +1,13 @@
 ---
 title: "ps_customersignin - Uninstall/Install"
-weight: 2
+weight: 1
 ---
 
 # ps_customersignin - Uninstall/Install
 ## Details
 * **Component** : ps_customersignin
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-442
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7321
 
 ## Steps
 | Step Description | Expected result |

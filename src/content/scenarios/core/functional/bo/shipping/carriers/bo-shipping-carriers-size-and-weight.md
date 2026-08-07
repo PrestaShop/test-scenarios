@@ -1,14 +1,14 @@
 ---
 title: "BO - Shipping - Carriers - Size and weight"
-weight: 8
+weight: 3
 ---
 
 # BO - Shipping - Carriers - Size and weight
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9736
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8385
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/09_shipping/01_carriers/08_sizeAndWeight.ts
 
 ## Steps

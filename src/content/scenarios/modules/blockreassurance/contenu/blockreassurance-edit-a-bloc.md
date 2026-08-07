@@ -6,8 +6,8 @@ weight: 2
 # blockreassurance - Edit a bloc
 ## Details
 * **Component** : blockreassurance
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-544
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7332
 
 ## Steps
 | Step Description | Expected result |

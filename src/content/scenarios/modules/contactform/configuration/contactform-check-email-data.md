@@ -1,13 +1,13 @@
 ---
 title: "contactform - Check email data"
-weight: 3
+weight: 2
 ---
 
 # contactform - Check email data
 ## Details
 * **Component** : contactform
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-567
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7353
 
 ## Steps
 | Step Description | Expected result |

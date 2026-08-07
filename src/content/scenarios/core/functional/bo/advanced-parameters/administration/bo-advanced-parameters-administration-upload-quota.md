@@ -1,13 +1,13 @@
 ---
 title: "BO - Advanced Parameters - Administration : Upload quota"
-weight: 2
+weight: 1
 ---
 
 # BO - Advanced Parameters - Administration : Upload quota
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1142
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7828
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/03_administration/02_uploadQuota.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/administration
 

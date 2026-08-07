@@ -1,13 +1,13 @@
 ---
 title: "statsbestcustomers - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # statsbestcustomers - Uninstall and delete
 ## Details
 * **Component** : statsbestcustomers
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-694
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7475
 
 ## Steps
 | Step Description | Expected result |

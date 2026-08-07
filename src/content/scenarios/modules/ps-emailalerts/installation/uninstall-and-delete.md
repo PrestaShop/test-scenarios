@@ -1,13 +1,13 @@
 ---
 title: "Uninstall and delete"
-weight: 7
+weight: 4
 ---
 
 # Uninstall and delete
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-637
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7419
 
 ## Steps
 | Step Description | Expected result |

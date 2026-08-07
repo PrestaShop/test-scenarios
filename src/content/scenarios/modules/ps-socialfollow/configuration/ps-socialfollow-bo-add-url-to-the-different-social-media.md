@@ -1,13 +1,13 @@
 ---
 title: "ps_socialfollow - BO - Add URL to the different social media"
-weight: 1
+weight: 3
 ---
 
 # ps_socialfollow - BO - Add URL to the different social media
 ## Details
 * **Component** : ps_socialfollow
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-689
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7470
 
 ## Steps
 | Step Description | Expected result |

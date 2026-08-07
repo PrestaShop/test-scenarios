@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced Parameters - Logs - Database"
-weight: 3
+weight: 4
 ---
 
 # BO - Advanced Parameters - Logs - Database
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12852
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8539
 

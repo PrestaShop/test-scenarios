@@ -7,7 +7,7 @@ weight: 4
 ## Details
 * **Component** : Core
 * **Status** : Approved
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10929
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5615
 
 ## Steps
 | Step Description | Expected result |

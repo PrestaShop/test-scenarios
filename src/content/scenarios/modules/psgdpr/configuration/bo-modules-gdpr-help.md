@@ -1,14 +1,14 @@
 ---
 title: "BO - Modules - GDPR - Help"
-weight: 5
+weight: 8
 ---
 
 # BO - Modules - GDPR - Help
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7595
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8337
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/37_psgdpr/02_configuration/05_help.ts
 
 ## Steps

@@ -6,7 +6,7 @@ weight: 1
 # ps_googleanalytics - Configure (set Google Analytics Tracking ID)
 ## Details
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2416
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8048
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "Check access to the cart"
-weight: 16
+weight: 4
 ---
 
 # Check access to the cart
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1376
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8014
 
 ## Steps
 | Step Description | Expected result |

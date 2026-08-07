@@ -1,14 +1,14 @@
 ---
 title: "FO - Checkout - Addresses - CRUD address"
-weight: 4
+weight: 5
 ---
 
 # FO - Checkout - Addresses - CRUD address
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1305
+* **Automated on** : 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7965
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/02_addresses/04_CRUDAddress.ts
 
 ## Steps

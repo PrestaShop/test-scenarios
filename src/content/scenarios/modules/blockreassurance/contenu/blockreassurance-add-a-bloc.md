@@ -1,13 +1,13 @@
 ---
 title: "blockreassurance - Add a bloc"
-weight: 4
+weight: 3
 ---
 
 # blockreassurance - Add a bloc
 ## Details
 * **Component** : blockreassurance
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-546
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7336
 
 ## Steps
 | Step Description | Expected result |

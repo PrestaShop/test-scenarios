@@ -1,13 +1,13 @@
 ---
 title: "FO - Account : Contact us on GDPR page"
-weight: 7
+weight: 4
 ---
 
 # FO - Account : Contact us on GDPR page
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4985
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8218
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/06_contactUsOnGDPRPage.ts
 
 ## Steps

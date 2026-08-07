@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Add a comment"
-weight: 1
+weight: 3
 ---
 
 # productcomments - Add a comment
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-593
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7373
 
 ## Steps
 | Step Description | Expected result |

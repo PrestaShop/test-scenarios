@@ -6,8 +6,8 @@ weight: 3
 # ps_customersignin - Logout
 ## Details
 * **Component** : ps_customersignin
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-445
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7326
 
 ## Steps
 | Step Description | Expected result |

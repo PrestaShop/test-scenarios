@@ -1,13 +1,13 @@
 ---
 title: "BO - Design - Theme & Logo : Export current theme"
-weight: 2
+weight: 6
 ---
 
 # BO - Design - Theme & Logo : Export current theme
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-916
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7646
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/01_themeAndLogo/01_themeAndLogo/02_exportCurrentTheme.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo
 

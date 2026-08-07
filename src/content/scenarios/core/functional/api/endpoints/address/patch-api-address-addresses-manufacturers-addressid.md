@@ -1,14 +1,14 @@
 ---
 title: "PATCH /api-address/addresses/manufacturers/{addressId}"
-weight: 9
+weight: 5
 ---
 
 # PATCH /api-address/addresses/manufacturers/{addressId}
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
-* **Automated on** : 9.1.x, 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12897
+* **Automated on** : 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8567
 
 ## Steps
 | Step Description | Expected result |

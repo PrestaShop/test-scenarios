@@ -1,14 +1,14 @@
 ---
 title: "POST /admin-api/customers/groups"
-weight: 4
+weight: 2
 ---
 
 # POST /admin-api/customers/groups
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10260
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8427
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/03_customerGroup/04_postCustomersGroups.ts
 
 ## Steps

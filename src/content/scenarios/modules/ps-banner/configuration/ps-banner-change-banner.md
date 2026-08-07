@@ -6,6 +6,6 @@ weight: 1
 # ps_banner - Change banner
 ## Details
 * **Component** : ps_banner
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-418
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7315
 

@@ -1,13 +1,13 @@
 ---
 title: "BO - Orders - Statistics of the page"
-weight: 9
+weight: 11
 ---
 
 # BO - Orders - Statistics of the page
 ## Details
 * **Component** : Core
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-730
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7506
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "CLDR : Edit symbol / format currency"
-weight: 7
+weight: 6
 ---
 
 # CLDR : Edit symbol / format currency
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1367
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8007
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/07_editSymbolFormatCurrency.ts
 
 ## Steps

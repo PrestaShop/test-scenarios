@@ -1,13 +1,13 @@
 ---
 title: "Wishlist module - Upgrade module"
-weight: 3
+weight: 2
 ---
 
 # Wishlist module - Upgrade module
 ## Details
 * **Component** : blockwishlist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4228
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8166
 
 ## Steps
 | Step Description | Expected result |

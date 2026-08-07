@@ -1,13 +1,13 @@
 ---
 title: "FO - Product Page - Display Specific delivery time"
-weight: 11
+weight: 5
 ---
 
 # FO - Product Page - Display Specific delivery time
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6983
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8291
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/13_displaySpecificDeliveryTime.ts
 
 ## Steps

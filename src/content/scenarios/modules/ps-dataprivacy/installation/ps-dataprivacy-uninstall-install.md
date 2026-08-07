@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : ps_dataprivacy
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-632
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7413
 
 ## Steps
 | Step Description | Expected result |

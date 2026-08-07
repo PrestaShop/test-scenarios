@@ -6,7 +6,7 @@ weight: 4
 # BO - Shop Parameters - Order Settings - Statuses : Bulk actions in order statuses table
 ## Details
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7655
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8344
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/02_statuses/statuses/04_bulkActions.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/statuses
 

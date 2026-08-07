@@ -1,12 +1,12 @@
 ---
 title: "FO - Create an Order by existing customer"
-weight: 3
+weight: 2
 ---
 
 # FO - Create an Order by existing customer
 ## Details
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3190
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8072
 
 ## Steps
 | Step Description | Expected result |

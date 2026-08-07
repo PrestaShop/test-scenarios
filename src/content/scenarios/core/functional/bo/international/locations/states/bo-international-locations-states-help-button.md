@@ -1,13 +1,13 @@
 ---
 title: "BO - International - Locations - States - Help button"
-weight: 5
+weight: 4
 ---
 
 # BO - International - Locations - States - Help button
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10262
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8429
 
 ## Steps
 | Step Description | Expected result |

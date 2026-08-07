@@ -1,37 +1,22 @@
 ---
 title: "Autoupgrade - Web Version - Configuration settings for updates part set to off"
-weight: 22
+weight: 5
 ---
 
 # Autoupgrade - Web Version - Configuration settings for updates part set to off
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12807
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5650
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install a fresh 8.0.4 with php 8.1 | * The new shop is installed<br> * The selection to BO or FO is displayed |
-| Go to the BO. | Log in page is displayed. |
-| Log in with email and password set during installation. | * Connection successful<br> * Dashboard displayed |
-| Go to Modules > Module manager. | Module manager page is displayed. |
-| Click on the CTA "Upload a module". | Modal "Upload a module" is displayed. |
-| Select or drag and drop the .zip. | * The module is installing<br> * The module is installed, the CTA "Configure" is displayed. |
-| Close the modal. | * Modal is closed<br> * Module manager page is displayed |
-| Refresh the page. | Page is refreshed. |
-| Search for "Update". | Update Assistant is displayed. |
-| Check for the version. | * The version is the latest in prod. <br><br> * The lastest version in prod is displayed because it is the version available on the marketplace. |
 | Click on the CTA "Upload a module". | Modal "Upload a module" is displayed. |
 | Select or drag and drop the .zip provided here. | * The module is installing<br> * The module is installed, the CTA "Configure" is displayed. |
 | Close the modal. | * Modal is closed<br> * Module manager page is displayed |
 | Refresh the page. | Page is refreshed. |
 | Search for "mcp". | Prestashop MCP is displayed and enabled |
-| Go to the Shop Parameters > General. | General > Preferences page is displayed on the "General" tab. |
-| Click on the "Maintenance" tab. | "Maintenance" tab is displayed. |
-| Click on the toggle "Enable store" | Toggle is in "No" status. |
-| Click on the CTA "Add my IP". | IP address is filled. |
-| Click on the CTA "Save". | Shop is in maintenance mode. |
 | Go to [yourShop]/mails/en | There is many files in html and txt |
 | Do some modification in account.txt, register and keep the files open in background | Modification are saved in the files |
 | Go to "Update Assistant" module (side board). | * "Update Assistant" module is displayed : <br><br> ** Title : "Welcome to PrestaShop Update Assistant"<br> ** Two radio buttons : "Update your store" and "Restore from a backup" (disabled)<br> ** CTA "Get started" disabled |
@@ -53,3 +38,18 @@ weight: 22
 | Search for "mcp". | Prestashop MCP is displayed and still enabled |
 | return in account.txt files already open | Files still have previous modification |
 | Go to Advanced Parameters > Performance. | Disable all overides is disabled on debug mode part |
+| Install a fresh 8.0.4 with php 8.1 | * The new shop is installed<br> * The selection to BO or FO is displayed |
+| Go to the BO. | Log in page is displayed. |
+| Log in with email and password set during installation. | * Connection successful<br> * Dashboard displayed |
+| Go to Modules > Module manager. | Module manager page is displayed. |
+| Click on the CTA "Upload a module". | Modal "Upload a module" is displayed. |
+| Select or drag and drop the .zip. | * The module is installing<br> * The module is installed, the CTA "Configure" is displayed. |
+| Close the modal. | * Modal is closed<br> * Module manager page is displayed |
+| Refresh the page. | Page is refreshed. |
+| Search for "Update". | Update Assistant is displayed. |
+| Check for the version. | * The version is the latest in prod. <br><br> * The lastest version in prod is displayed because it is the version available on the marketplace. |
+| Go to the Shop Parameters > General. | General > Preferences page is displayed on the "General" tab. |
+| Click on the "Maintenance" tab. | "Maintenance" tab is displayed. |
+| Click on the toggle "Enable store" | Toggle is in "No" status. |
+| Click on the CTA "Add my IP". | IP address is filled. |
+| Click on the CTA "Save". | Shop is in maintenance mode. |

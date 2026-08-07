@@ -1,13 +1,13 @@
 ---
 title: "ps_crossselling - Enable / Disable Show price"
-weight: 1
+weight: 2
 ---
 
 # ps_crossselling - Enable / Disable Show price
 ## Details
 * **Component** : ps_crossselling
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-619
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7402
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "Mail alerts module - Reset module"
-weight: 4
+weight: 7
 ---
 
 # Mail alerts module - Reset module
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4129
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8130
 
 ## Steps
 | Step Description | Expected result |

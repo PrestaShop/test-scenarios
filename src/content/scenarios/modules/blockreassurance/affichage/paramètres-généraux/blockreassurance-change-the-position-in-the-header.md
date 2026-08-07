@@ -6,8 +6,8 @@ weight: 1
 # blockreassurance - Change the position in the header
 ## Details
 * **Component** : blockreassurance
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-548
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7338
 
 ## Steps
 | Step Description | Expected result |

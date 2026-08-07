@@ -6,9 +6,11 @@ weight: 2
 # BO - Advanced Parameters - Logs - Logs by email
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Automated on** : 9.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1175
+* **Status** : [TEST] IN PROGRESS
+* **Automated on** : 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7861
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/08_logs/02_logsByEmail.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/logs
 
 ## Steps
 | Step Description | Expected result |

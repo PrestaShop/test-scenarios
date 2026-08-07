@@ -7,7 +7,7 @@ weight: 4
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6997
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8299
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/02_cart/04_displayModalProductCustomization.ts
 
 ## Steps

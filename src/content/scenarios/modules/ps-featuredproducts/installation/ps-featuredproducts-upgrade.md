@@ -1,13 +1,13 @@
 ---
 title: "ps_featuredproducts - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # ps_featuredproducts - Upgrade
 ## Details
 * **Component** : ps_featuredproducts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-664
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7443
 
 ## Steps
 | Step Description | Expected result |

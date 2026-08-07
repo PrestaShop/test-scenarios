@@ -1,13 +1,13 @@
 ---
 title: "blockreassurance - Delete a bloc"
-weight: 3
+weight: 1
 ---
 
 # blockreassurance - Delete a bloc
 ## Details
 * **Component** : blockreassurance
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-545
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7333
 
 ## Steps
 | Step Description | Expected result |

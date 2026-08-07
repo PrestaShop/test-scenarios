@@ -1,17 +1,23 @@
 ---
 title: "Autoupgrade - Web Version - Change the php during the version choice"
-weight: 11
+weight: 13
 ---
 
 # Autoupgrade - Web Version - Change the php during the version choice
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11312
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5620
+* **Specification** : https://forge.prestashop.com/browse/SUE-8
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
+| Go to "Update Assistant" module (side board). | "Update Assistant" module is displayed : <br> * Title : "Welcome to PrestaShop Update Assistant"<br> * Two radio buttons : "Update your store" and "Restore from a backup" (disabled)<br> * CTA "Get started" disabled |
+| Select the radio button "Update your store". | * "Update your store" radio button is selected<br> * CTA "Get started" is enabled |
+| Click on the CTA "Get started". | A loader is displayed in the CTA "Get started" then, "Version choice" page is displayed : <br> * Stepper on step one ("Version choice")<br> * Paragraph with "A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.1.xx<br> * Radio button : PrestaShop 1.7.8.xx [Patch version](blue color rgb(190, 234, 243)) with description "The maximum version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" <br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
+| Change the php version from 7.1 to 7.4.<br><br> <br><br>{color:#ff8b00}_(find a way to explain how)_{color} | Php version is modified. |
+| Reload the page "Version choice". | * Paragraph with "A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.4.xx<br> * Radio button : PrestaShop 8.2.x [Major version](blue color rgb(190, 234, 243)) with description "The maximum version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" |
 | Install a fresh 1.7.8.9 on php 7.1 | * The new shop is installed<br> * The selection to BO or FO is displayed |
 | Go to the BO. | Log in page is displayed. |
 | Log in with email and password set during installation. | * Connection successful<br> * Dashboard displayed<br> * Modale "Welcome to your shop" displayed |
@@ -28,8 +34,3 @@ weight: 11
 | Click on the toggle "Enable store" | Toggle is in "No" status. |
 | Click on the CTA "Add my IP". | IP address is filled. |
 | Click on the CTA "Save". | Shop is in maintenance mode. |
-| Go to "Update Assistant" module (side board). | "Update Assistant" module is displayed : <br> * Title : "Welcome to PrestaShop Update Assistant"<br> * Two radio buttons : "Update your store" and "Restore from a backup" (disabled)<br> * CTA "Get started" disabled |
-| Select the radio button "Update your store". | * "Update your store" radio button is selected<br> * CTA "Get started" is enabled |
-| Click on the CTA "Get started". | A loader is displayed in the CTA "Get started" then, "Version choice" page is displayed : <br> * Stepper on step one ("Version choice")<br> * Paragraph with "A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.1.xx<br> * Radio button : PrestaShop 1.7.8.xx [Patch version](blue color rgb(190, 234, 243)) with description "The maximum version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" <br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
-| Change the php version from 7.1 to 7.4.<br><br> <br><br>{color:#ff8b00}_(find a way to explain how)_{color} | Php version is modified. |
-| Reload the page "Version choice". | * Paragraph with "A more recent version is available / Current PrestaShop version: 1.7.8.9 / Current PHP version: 7.4.xx<br> * Radio button : PrestaShop 8.2.x [Major version](blue color rgb(190, 234, 243)) with description "The maximum version of PrestaShop to which you can update your store, based on its PHP version." and the link "Release note" |

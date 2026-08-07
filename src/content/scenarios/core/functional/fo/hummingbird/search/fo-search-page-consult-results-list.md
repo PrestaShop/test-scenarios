@@ -1,13 +1,13 @@
 ---
 title: "FO - Search Page : Consult results list"
-weight: 4
+weight: 3
 ---
 
 # FO - Search Page : Consult results list
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5105
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8229
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/04_consultResultsList.ts
 
 ## Steps

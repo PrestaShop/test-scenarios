@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - Show products from subcategories\'s field configuration"
-weight: 2
+weight: 12
 ---
 
 # Faceted search module - Show products from subcategories\'s field configuration
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4133
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8132
 
 ## Steps
 | Step Description | Expected result |

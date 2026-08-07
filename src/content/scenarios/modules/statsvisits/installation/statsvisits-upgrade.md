@@ -1,13 +1,13 @@
 ---
 title: "statsvisits - Upgrade"
-weight: 1
+weight: 2
 ---
 
 # statsvisits - Upgrade
 ## Details
 * **Component** : statsvisits
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-696
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7479
 
 ## Steps
 | Step Description | Expected result |

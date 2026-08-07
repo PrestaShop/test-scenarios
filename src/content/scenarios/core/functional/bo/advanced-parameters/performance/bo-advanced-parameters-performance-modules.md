@@ -5,6 +5,6 @@ weight: 3
 
 # BO - Advanced Parameters - Performance - Modules 
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12828
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8516
 

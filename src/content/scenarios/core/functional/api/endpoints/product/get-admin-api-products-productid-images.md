@@ -1,14 +1,14 @@
 ---
 title: "GET /admin-api/products/{productId}/images"
-weight: 5
+weight: 1
 ---
 
 # GET /admin-api/products/{productId}/images
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8981
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8380
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/08_product/04_getProductsIdImages.ts
 
 ## Steps

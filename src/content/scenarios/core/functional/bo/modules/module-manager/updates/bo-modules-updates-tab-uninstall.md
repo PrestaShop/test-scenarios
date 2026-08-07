@@ -1,13 +1,14 @@
 ---
 title: "BO - Modules - Updates tab - Uninstall"
-weight: 1
+weight: 2
 ---
 
 # BO - Modules - Updates tab - Uninstall
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-897
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7641
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/modules
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Enable/disable the authorization for guest user to comment"
-weight: 2
+weight: 9
 ---
 
 # productcomments - Enable/disable the authorization for guest user to comment
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-585
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7368
 
 ## Steps
 | Step Description | Expected result |

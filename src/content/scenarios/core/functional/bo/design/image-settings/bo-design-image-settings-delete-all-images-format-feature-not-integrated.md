@@ -7,7 +7,8 @@ weight: 10
 ## Details
 * **Component** : Core
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5514
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8253
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "ps_crossselling - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # ps_crossselling - Uninstall and delete
 ## Details
 * **Component** : ps_crossselling
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-618
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7400
 
 ## Steps
 | Step Description | Expected result |

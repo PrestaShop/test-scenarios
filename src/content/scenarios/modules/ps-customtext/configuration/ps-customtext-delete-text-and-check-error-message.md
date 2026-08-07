@@ -1,13 +1,13 @@
 ---
 title: "ps_customtext - Delete text and check error message"
-weight: 1
+weight: 2
 ---
 
 # ps_customtext - Delete text and check error message
 ## Details
 * **Component** : ps_customtext
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-629
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7412
 
 ## Steps
 | Step Description | Expected result |

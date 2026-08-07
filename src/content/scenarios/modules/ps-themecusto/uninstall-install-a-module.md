@@ -7,7 +7,7 @@ weight: 5
 ## Details
 * **Component** : ps_themecusto
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-434
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7309
 
 ## Steps
 | Step Description | Expected result |

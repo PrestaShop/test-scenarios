@@ -1,14 +1,14 @@
 ---
 title: "BO - Catalog Price Rules - Filter, sort and pagination"
-weight: 2
+weight: 5
 ---
 
 # BO - Catalog Price Rules - Filter, sort and pagination
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x, 1.7.8.x, 1.7.7.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-835
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7595
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/02_catalogPriceRules/02_filterSortAndPagination.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/discounts/catalog-price-rules-listing
 

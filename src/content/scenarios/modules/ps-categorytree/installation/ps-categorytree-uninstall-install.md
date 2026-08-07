@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : ps_categorytree
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-600
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7382
 
 ## Steps
 | Step Description | Expected result |

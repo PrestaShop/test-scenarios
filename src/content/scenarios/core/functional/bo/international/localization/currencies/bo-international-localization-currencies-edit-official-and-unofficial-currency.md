@@ -1,13 +1,14 @@
 ---
 title: "BO - International - Localization - Currencies - Edit official and unofficial currency"
-weight: 4
+weight: 2
 ---
 
 # BO - International - Localization - Currencies - Edit official and unofficial currency
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1002
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7711
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/localization/currencies
 
 ## Steps
 | Step Description | Expected result |

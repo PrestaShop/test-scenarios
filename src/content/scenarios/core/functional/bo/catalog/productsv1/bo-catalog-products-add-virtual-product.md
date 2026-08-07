@@ -1,13 +1,14 @@
 ---
 title: "BO - Catalog - Products - Add Virtual Product"
-weight: 4
+weight: 5
 ---
 
 # BO - Catalog - Products - Add Virtual Product
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-784
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7555
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "FO - Search Page : Search product and consult autocomplete list"
-weight: 1
+weight: 5
 ---
 
 # FO - Search Page : Search product and consult autocomplete list
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5102
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8227
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/01_consultAutoCompleteList.ts
 
 ## Steps

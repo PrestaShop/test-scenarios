@@ -6,8 +6,8 @@ weight: 4
 # ps_customersignin - Login with wrong/right password
 ## Details
 * **Component** : ps_customersignin
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-444
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7325
 
 ## Steps
 | Step Description | Expected result |

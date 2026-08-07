@@ -1,13 +1,13 @@
 ---
 title: "ps_categorytree - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # ps_categorytree - Uninstall and delete
 ## Details
 * **Component** : ps_categorytree
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-601
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7383
 
 ## Steps
 | Step Description | Expected result |

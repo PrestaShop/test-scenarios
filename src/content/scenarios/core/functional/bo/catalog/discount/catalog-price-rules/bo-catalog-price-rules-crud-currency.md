@@ -1,13 +1,13 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Currency"
-weight: 4
+weight: 10
 ---
 
 # BO - Catalog price Rules - CRUD - Currency
 ## Details
 * **Component** : Core
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10331
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8450
 
 ## Steps
 | Step Description | Expected result |

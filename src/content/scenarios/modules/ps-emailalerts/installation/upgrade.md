@@ -1,13 +1,13 @@
 ---
 title: "Upgrade"
-weight: 8
+weight: 1
 ---
 
 # Upgrade
 ## Details
 * **Component** : ps_emailalerts
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-635
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7418
 
 ## Steps
 | Step Description | Expected result |

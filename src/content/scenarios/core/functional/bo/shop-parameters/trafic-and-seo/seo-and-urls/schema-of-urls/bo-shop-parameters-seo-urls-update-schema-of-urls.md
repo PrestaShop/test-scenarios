@@ -7,7 +7,8 @@ weight: 1
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1113
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7807
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/traffic-and-seo/add-or-edit-new-seo-page
 
 ## Steps
 | Step Description | Expected result |

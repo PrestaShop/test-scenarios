@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1302
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7962
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/11_checkout/02_addresses/01_useSameInvoiceAddress.ts
 
 ## Steps

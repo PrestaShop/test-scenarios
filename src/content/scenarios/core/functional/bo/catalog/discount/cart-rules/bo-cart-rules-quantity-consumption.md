@@ -1,14 +1,14 @@
 ---
 title: "BO - Cart Rules : Quantity consumption"
-weight: 3
+weight: 1
 ---
 
 # BO - Cart Rules : Quantity consumption
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10666
+* **Automated on** : 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8456
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/03_quantityConsumption.ts
 * **Specification** : https://github.com/PrestaShop/PrestaShop/issues/37793
 

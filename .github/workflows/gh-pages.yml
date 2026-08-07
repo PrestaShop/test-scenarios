@@ -125,11 +125,11 @@ jobs:
 
       - name: Export JIRA XRay Core
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
-        run: php scripts/bin/console scenario:export:core --apikey ${{ secrets.JIRA_APIKEY }}
+        run: php scripts/bin/console scenario:export:core --jirakey ${{ secrets.JIRA_APIKEY }} --xraykeyclient ${{ secrets.XRAY_APIKEY_CLIENT }} --xraykeysecret ${{ secrets.XRAY_APIKEY_SECRET }}
 
       - name: Export JIRA XRay Modules
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
-        run: php scripts/bin/console scenario:export:module --apikey ${{ secrets.JIRA_APIKEY }}
+        run: php scripts/bin/console scenario:export:module --jirakey ${{ secrets.JIRA_APIKEY }} --xraykeyclient ${{ secrets.XRAY_APIKEY_CLIENT }} --xraykeysecret ${{ secrets.XRAY_APIKEY_SECRET }}
 
       - name: Clean `known-bugs` directory
         run: rm -rf src/content/scenarios/known-bugs/

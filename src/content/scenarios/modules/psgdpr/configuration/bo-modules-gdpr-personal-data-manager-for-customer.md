@@ -1,12 +1,12 @@
 ---
 title: "BO - Modules - GDPR - Personal data manager for customer"
-weight: 2
+weight: 3
 ---
 
 # BO - Modules - GDPR - Personal data manager for customer
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7592
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8336
 
 ## Steps
 | Step Description | Expected result |

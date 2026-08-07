@@ -1,14 +1,14 @@
 ---
 title: "DELETE /admin-api/products/{productId}"
-weight: 7
+weight: 10
 ---
 
 # DELETE /admin-api/products/{productId}
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8614
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8363
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_product/06_deleteProductsId.ts
 
 ## Steps

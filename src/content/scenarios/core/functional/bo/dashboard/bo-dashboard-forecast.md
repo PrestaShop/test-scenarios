@@ -1,10 +1,10 @@
 ---
 title: "BO - Dashboard - Forecast"
-weight: 5
+weight: 4
 ---
 
 # BO - Dashboard - Forecast
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9462
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8383
 

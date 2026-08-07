@@ -1,13 +1,13 @@
 ---
 title: "FO - Menu and Navigation - Navigate in Categories : Breadcrumb"
-weight: 2
+weight: 3
 ---
 
 # FO - Menu and Navigation - Navigate in Categories : Breadcrumb
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6950
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8265
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/01_navigateInCategories/02_breadcrumb.ts
 
 ## Steps

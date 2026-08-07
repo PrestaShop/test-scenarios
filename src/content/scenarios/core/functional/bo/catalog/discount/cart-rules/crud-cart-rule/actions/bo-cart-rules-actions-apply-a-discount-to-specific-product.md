@@ -1,14 +1,14 @@
 ---
 title: "BO - Cart rules - Actions - Apply a discount to Specific product"
-weight: 7
+weight: 4
 ---
 
 # BO - Cart rules - Actions - Apply a discount to Specific product
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10323
+* **Automated on** : 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8441
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/07_applyDiscountToSpecificProduct.ts
 
 ## Steps

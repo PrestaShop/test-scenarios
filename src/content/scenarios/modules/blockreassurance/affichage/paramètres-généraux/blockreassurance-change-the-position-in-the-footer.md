@@ -6,8 +6,8 @@ weight: 2
 # blockreassurance - Change the position in the footer
 ## Details
 * **Component** : blockreassurance
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-549
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7337
 
 ## Steps
 | Step Description | Expected result |

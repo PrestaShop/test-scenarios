@@ -1,13 +1,14 @@
 ---
 title: "FO - Order confirmation - Muticarrier "
-weight: 6
+weight: 2
 ---
 
 # FO - Order confirmation - Muticarrier 
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12595
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8489
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/pull/40584.ts
 
 ## Steps
 | Step Description | Expected result |

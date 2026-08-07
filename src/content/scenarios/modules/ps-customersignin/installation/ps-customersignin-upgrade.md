@@ -1,13 +1,13 @@
 ---
 title: "ps_customersignin - Upgrade"
-weight: 1
+weight: 2
 ---
 
 # ps_customersignin - Upgrade
 ## Details
 * **Component** : ps_customersignin
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-441
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7323
 
 ## Steps
 | Step Description | Expected result |

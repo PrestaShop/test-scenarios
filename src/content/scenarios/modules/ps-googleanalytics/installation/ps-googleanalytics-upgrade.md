@@ -1,12 +1,12 @@
 ---
 title: "ps_googleanalytics - Upgrade"
-weight: 1
+weight: 4
 ---
 
 # ps_googleanalytics - Upgrade
 ## Details
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2412
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8044
 
 ## Steps
 | Step Description | Expected result |

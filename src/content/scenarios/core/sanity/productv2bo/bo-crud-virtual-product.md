@@ -1,13 +1,14 @@
 ---
 title: " BO - CRUD Virtual product"
-weight: 8
+weight: 7
 ---
 
 #  BO - CRUD Virtual product
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4634
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8187
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/productV2/sanity/02_CRUDStandardProduct.ts
 
 ## Steps
 | Step Description | Expected result |

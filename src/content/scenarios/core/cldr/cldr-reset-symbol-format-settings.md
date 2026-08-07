@@ -1,13 +1,13 @@
 ---
 title: "CLDR : Reset symbol / format settings"
-weight: 8
+weight: 5
 ---
 
 # CLDR : Reset symbol / format settings
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1368
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8006
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/08_resetSymbolFormatSettings.ts
 
 ## Steps

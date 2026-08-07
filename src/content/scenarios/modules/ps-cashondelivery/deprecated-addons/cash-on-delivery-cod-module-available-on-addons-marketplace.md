@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : ps_cashondelivery
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3888
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8099
 
 ## Steps
 | Step Description | Expected result |

@@ -6,7 +6,7 @@ weight: 1
 # BO - Advanced Parameters - New Eperimental Feature
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12811
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8506
 
 ## Steps
 | Step Description | Expected result |

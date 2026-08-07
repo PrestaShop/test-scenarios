@@ -1,14 +1,14 @@
 ---
 title: "FO - User account - Order history - Download invoice from orders list"
-weight: 3
+weight: 1
 ---
 
 # FO - User account - Order history - Download invoice from orders list
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1208
+* **Automated on** : 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7893
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/02_orderHistory/03_downloadInvoice.ts
 
 ## Steps

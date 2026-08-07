@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - Edit template - Name and categories fields"
-weight: 8
+weight: 10
 ---
 
 # Faceted search module - Edit template - Name and categories fields
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4209
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8151
 
 ## Steps
 | Step Description | Expected result |

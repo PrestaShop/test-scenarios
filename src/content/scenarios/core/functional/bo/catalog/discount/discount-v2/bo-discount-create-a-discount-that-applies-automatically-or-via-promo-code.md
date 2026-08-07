@@ -1,12 +1,12 @@
 ---
 title: "BO - Discount - Create a discount that applies automatically or via promo code "
-weight: 10
+weight: 14
 ---
 
 # BO - Discount - Create a discount that applies automatically or via promo code 
 ## Details
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11288
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8465
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/10_withAndWithoutPromoCode.ts.ts
 
 ## Steps

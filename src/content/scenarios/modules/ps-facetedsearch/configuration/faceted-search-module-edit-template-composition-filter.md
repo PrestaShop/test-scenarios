@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - Edit template - Composition filter"
-weight: 12
+weight: 5
 ---
 
 # Faceted search module - Edit template - Composition filter
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4222
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8161
 
 ## Steps
 | Step Description | Expected result |

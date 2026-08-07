@@ -1,13 +1,13 @@
 ---
 title: "FO - Product page - Product page : Display tag products (New, On sale, Pack...)"
-weight: 12
+weight: 1
 ---
 
 # FO - Product page - Product page : Display tag products (New, On sale, Pack...)
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1269
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7943
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/12_displayTag.ts
 
 ## Steps

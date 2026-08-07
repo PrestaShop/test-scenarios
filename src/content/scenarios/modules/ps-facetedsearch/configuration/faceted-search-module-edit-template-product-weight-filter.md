@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - Edit template - Product weight filter"
-weight: 19
+weight: 7
 ---
 
 # Faceted search module - Edit template - Product weight filter
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4255
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8177
 
 ## Steps
 | Step Description | Expected result |

@@ -1,6 +1,6 @@
 ---
 title: "GET /admin-api/addresses"
-weight: 1
+weight: 11
 ---
 
 # GET /admin-api/addresses
@@ -8,7 +8,7 @@ weight: 1
 * **Component** : Core
 * **Status** : Automation in progress
 * **Automated on** : 9.1.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12889
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8559
 
 ## Steps
 | Step Description | Expected result |

@@ -1,14 +1,14 @@
 ---
 title: "GET /admin-api/api-clients/infos"
-weight: 1
+weight: 3
 ---
 
 # GET /admin-api/api-clients/infos
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8609
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8359
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/01_getApiClientInfos.ts
 
 ## Steps

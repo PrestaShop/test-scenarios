@@ -1,13 +1,14 @@
 ---
 title: "BO - Advanced Parameters - Multistore - Attributes & Features"
-weight: 9
+weight: 7
 ---
 
 # BO - Advanced Parameters - Multistore - Attributes & Features
 ## Details
 * **Component** : Core
 * **Status** : IN REVIEW
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12864
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8552
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/logs/advanced-parameters/multistore
 
 ## Steps
 | Step Description | Expected result |

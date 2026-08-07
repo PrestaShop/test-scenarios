@@ -1,13 +1,13 @@
 ---
 title: "FO - Product page : Change quantity"
-weight: 2
+weight: 3
 ---
 
 # FO - Product page : Change quantity
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1257
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7933
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/02_changeQuantity.ts
 
 ## Steps

@@ -1,14 +1,13 @@
 ---
 title: "PATCH /admin-api/addresses/customers/{addressId}"
-weight: 6
+weight: 9
 ---
 
 # PATCH /admin-api/addresses/customers/{addressId}
 ## Details
-* **Component** : Core
-* **Status** : To be automated
-* **Automated on** : 9.1.x, 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12894
+* **Status** : À faire
+* **Automated on** : 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8564
 
 ## Steps
 | Step Description | Expected result |

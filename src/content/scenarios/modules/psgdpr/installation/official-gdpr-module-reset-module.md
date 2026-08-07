@@ -1,13 +1,13 @@
 ---
 title: "Official GDPR module - Reset module"
-weight: 3
+weight: 2
 ---
 
 # Official GDPR module - Reset module
 ## Details
 * **Component** : psgdpr
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4406
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8183
 
 ## Steps
 | Step Description | Expected result |

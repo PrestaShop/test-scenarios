@@ -1,12 +1,12 @@
 ---
 title: "Check Order from the BO"
-weight: 1
+weight: 2
 ---
 
 # Check Order from the BO
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2418
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8050
 
 ## Steps
 | Step Description | Expected result |

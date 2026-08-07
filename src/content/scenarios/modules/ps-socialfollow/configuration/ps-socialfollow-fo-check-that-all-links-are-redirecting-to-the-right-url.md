@@ -1,13 +1,13 @@
 ---
 title: "ps_socialfollow - FO - Check that all links are redirecting to the right URL"
-weight: 3
+weight: 2
 ---
 
 # ps_socialfollow - FO - Check that all links are redirecting to the right URL
 ## Details
 * **Component** : ps_socialfollow
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-691
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7473
 
 ## Steps
 | Step Description | Expected result |

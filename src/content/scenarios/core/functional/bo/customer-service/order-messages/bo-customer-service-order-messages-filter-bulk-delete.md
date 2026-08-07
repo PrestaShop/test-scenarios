@@ -1,14 +1,16 @@
 ---
 title: "BO - Customer Service - Order Messages - Filter / Bulk Delete"
-weight: 4
+weight: 2
 ---
 
 # BO - Customer Service - Order Messages - Filter / Bulk Delete
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7265
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8321
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/02_orderMessages/02_filterAndBulkDeleteOrderMessages.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/order-messages-1
 
 ## Steps
 | Step Description | Expected result |

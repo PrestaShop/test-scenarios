@@ -1,13 +1,13 @@
 ---
 title: "contactform - Enable/Disable email copy to customer"
-weight: 1
+weight: 3
 ---
 
 # contactform - Enable/Disable email copy to customer
 ## Details
 * **Component** : contactform
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-565
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7351
 
 ## Steps
 | Step Description | Expected result |

@@ -1,11 +1,11 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Set up URLs - Use prefix for default language"
-weight: 2
+weight: 3
 ---
 
 # BO - Shop Parameters - SEO & URLs - Set up URLs - Use prefix for default language
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10267
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8431
 

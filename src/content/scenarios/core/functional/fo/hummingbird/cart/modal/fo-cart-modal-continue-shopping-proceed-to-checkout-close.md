@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6991
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8296
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/10_cart/01_modal/02_continueShopping.ts
 
 ## Steps

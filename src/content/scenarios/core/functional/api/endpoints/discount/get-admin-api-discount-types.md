@@ -1,14 +1,14 @@
 ---
 title: "GET /admin-api/discount-types"
-weight: 1
+weight: 2
 ---
 
 # GET /admin-api/discount-types
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12878
+* **Automated on** : 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8554
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/10_discount/01_getDiscountTypes.ts
 
 ## Steps

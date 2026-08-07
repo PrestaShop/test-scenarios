@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Email - Enable the store name as a prefix in the email\'s subject"
-weight: 4
+weight: 7
 ---
 
 # BO - Advanced parameters - Email - Enable the store name as a prefix in the email\'s subject
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-9851
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8398
 

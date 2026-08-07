@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Import - Links"
-weight: 4
+weight: 10
 ---
 
 # BO - Advanced parameters - Import - Links
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12831
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8518
 

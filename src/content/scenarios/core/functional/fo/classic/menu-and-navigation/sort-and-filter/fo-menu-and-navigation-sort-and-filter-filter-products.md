@@ -1,13 +1,13 @@
 ---
 title: "FO - Menu and Navigation - Sort and filter : Filter products"
-weight: 2
+weight: 3
 ---
 
 # FO - Menu and Navigation - Sort and filter : Filter products
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1241
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7917
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/02_sortAndFilter/02_filterProducts.ts
 
 ## Steps

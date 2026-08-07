@@ -1,13 +1,13 @@
 ---
 title: "FO - Product page - Product page : Display discount and volume discount"
-weight: 13
+weight: 8
 ---
 
 # FO - Product page - Product page : Display discount and volume discount
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6986
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8294
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/16_displayDiscountAndVolumeDiscount.ts
 
 ## Steps

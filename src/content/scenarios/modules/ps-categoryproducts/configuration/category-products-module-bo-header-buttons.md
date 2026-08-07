@@ -1,13 +1,13 @@
 ---
 title: "Category products module - BO header buttons"
-weight: 3
+weight: 1
 ---
 
 # Category products module - BO header buttons
 ## Details
 * **Component** : ps_categoryproducts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4212
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8156
 
 ## Steps
 | Step Description | Expected result |

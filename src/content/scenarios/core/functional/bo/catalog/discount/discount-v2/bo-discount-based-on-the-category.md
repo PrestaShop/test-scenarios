@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - based on the category"
-weight: 16
+weight: 10
 ---
 
 # BO - Discount - based on the category
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12724
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8496
 

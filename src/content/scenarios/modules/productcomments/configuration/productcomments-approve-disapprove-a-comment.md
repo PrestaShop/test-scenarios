@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Approve/Disapprove a comment"
-weight: 7
+weight: 8
 ---
 
 # productcomments - Approve/Disapprove a comment
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-590
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7369
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "Wishlist module - Create a list"
-weight: 1
+weight: 4
 ---
 
 # Wishlist module - Create a list
 ## Details
 * **Component** : blockwishlist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3857
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8100
 
 ## Steps
 | Step Description | Expected result |

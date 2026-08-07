@@ -1,13 +1,13 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Group"
-weight: 6
+weight: 2
 ---
 
 # BO - Catalog price Rules - CRUD - Group
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10333
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8451
 
 ## Steps
 | Step Description | Expected result |

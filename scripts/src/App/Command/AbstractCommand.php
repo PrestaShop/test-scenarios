@@ -16,11 +16,27 @@ abstract class AbstractCommand extends Command
     protected const JIRA_AutomationInProgress = '[Test] Automation in progress';
     protected const JIRA_Automated = '[Test] Automated';
 
+    protected const XRAY_AUTH_URL = 'https://xray.cloud.getxray.app/api/v2/authenticate';
+    protected const XRAY_GRAPHQL_URL = 'https://xray.cloud.getxray.app/api/v2/graphql';
+    protected const XRAY_PROJECT_KEY = 'TEST';
+
     /** @var int */
     protected $requestsCount = 0;
 
     /** @var string */
-    protected $apiKey = '';
+    protected $jirakey = '';
+
+    /** @var string */
+    protected $xraykeyclient = '';
+
+    /** @var string */
+    protected $xraykeysecret = '';
+
+    /** @var string */
+    protected $xrayToken = '';
+
+    /** @var string */
+    protected $xrayProjectId = '';
 
     protected $stats = [];
 
@@ -29,23 +45,39 @@ abstract class AbstractCommand extends Command
         $this->setName($this->name)
             ->setDescription($this->description)
             ->addOption(
-                'apikey',
+                'jirakey',
                 null,
                 InputOption::VALUE_OPTIONAL,
                 '',
                 getenv('JIRA_APIKEY') ?? null
-            );   
+            )
+            ->addOption(
+                'xraykeyclient',
+                null,
+                InputOption::VALUE_OPTIONAL,
+                '',
+                getenv('XRAY_APIKEY_CLIENT') ?? null
+            )
+            ->addOption(
+                'xraykeysecret',
+                null,
+                InputOption::VALUE_OPTIONAL,
+                '',
+                getenv('XRAY_APIKEY_SECRET') ?? null
+            );
     }
  
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $time = time();
 
-        $this->apiKey = $input->getOption('apikey');
+        $this->jirakey = $input->getOption('jirakey');
+        $this->xraykeyclient = $input->getOption('xraykeyclient');
+        $this->xraykeysecret = $input->getOption('xraykeysecret');
         $this->requestsCount = 0;
         $this->stats = [];
 
-        $folders = $this->getFolders($this->apiKey, $this->projectName);
+        $folders = $this->getFolders($this->projectName);
 
         $this->processFolder($folders);
 
@@ -69,7 +101,7 @@ abstract class AbstractCommand extends Command
             if (array_sum($stats) == 0) {
                 continue;
             }
-            $statsContent .= '| [' . $key . '](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path='.urlencode(str_replace(' > ', '/', $key)).')'
+            $statsContent .= '| ' . $key
                 . ' | ' . array_sum($stats)
                 . ' | ' . ($stats['Sandbox'] ?? '-')
                 . ' | ' . ($stats['[Test] In progress'] ?? '-')
@@ -145,7 +177,7 @@ abstract class AbstractCommand extends Command
         $folderName = ($folderName == '' ? '' : ($folderName . ' > ')) . $folder['name'];
 
         // Process tests
-        $tests = $this->getTests($this->apiKey, $folder['id']);
+        $tests = $this->getTests($folder);
         $stats = $this->processTests($dirName, $tests);
         
         $this->stats[$folderName] = $stats;
@@ -165,7 +197,7 @@ abstract class AbstractCommand extends Command
             }
             $stats[$test['workflowStatus']]++;
 
-            $steps = $this->getTestSteps($this->apiKey, $test['key']);
+            $steps = $this->getTestSteps($test['issueId']);
             file_put_contents(
                 $dirName . $this->slugify($test['summary'], false). '.md',
                 $this->getTestContent($test, $steps)
@@ -210,100 +242,224 @@ abstract class AbstractCommand extends Command
         return rmdir($dir); 
     }
 
-    protected function getFolders(string $apiKey, string $projectName): array
+    protected function getXrayToken(): string
+    {
+        if ($this->xrayToken !== '') {
+            return $this->xrayToken;
+        }
+
+        $this->requestsCount++;
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+        curl_setopt($ch, CURLOPT_URL, self::XRAY_AUTH_URL);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
+            'client_id' => $this->xraykeyclient,
+            'client_secret' => $this->xraykeysecret,
+        ]));
+        $result = curl_exec($ch);
+        curl_close($ch);
+
+        $token = json_decode($result, true);
+        if (!is_string($token) || $token === '') {
+            throw new \RuntimeException('Xray authentication failed: ' . $result);
+        }
+
+        $this->xrayToken = $token;
+
+        return $this->xrayToken;
+    }
+
+    private function xrayGraphQL(string $query, array $variables = []): array
     {
         $this->requestsCount++;
 
-        $url = "https://forge.prestashop.com/rest/raven/2.0/api/testrepository/TEST/folders";
         $ch = curl_init();
-        $headers = array(
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
             'Accept: application/json',
             'Content-Type: application/json',
-            'Authorization: Basic ' . $apiKey
-        );
-
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        // curl_setopt($ch, CURLOPT_VERBOSE, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
-        curl_setopt($ch, CURLOPT_URL, $url);
+            'Authorization: Bearer ' . $this->getXrayToken(),
+        ]);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+        curl_setopt($ch, CURLOPT_URL, self::XRAY_GRAPHQL_URL);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
+            'query' => $query,
+            'variables' => $variables,
+        ]));
         $result = curl_exec($ch);
         curl_close($ch);
 
         $result = json_decode($result, true);
-        if (empty($result) || empty($result['folders'])) {
+
+        if (!empty($result['errors'])) {
+            throw new \RuntimeException('Xray GraphQL error: ' . $result['errors'][0]['message']);
+        }
+
+        return $result['data'] ?? [];
+    }
+
+    private function getXrayProjectId(): string
+    {
+        if ($this->xrayProjectId !== '') {
+            return $this->xrayProjectId;
+        }
+
+        $data = $this->xrayGraphQL(
+            'query($projectIdOrKey: String!) {
+                getProjectSettings(projectIdOrKey: $projectIdOrKey) {
+                    projectId
+                }
+            }',
+            ['projectIdOrKey' => self::XRAY_PROJECT_KEY]
+        );
+
+        $this->xrayProjectId = $data['getProjectSettings']['projectId'] ?? '';
+
+        return $this->xrayProjectId;
+    }
+
+    /**
+     * Xray Cloud's getFolder only returns testsCount/name/path for the requested path;
+     * "folders" is a JSON blob that may contain either nested folder objects or child paths
+     * depending on nesting depth, so children are resolved recursively either way.
+     */
+    private function fetchXrayFolder(string $path): array
+    {
+        $data = $this->xrayGraphQL(
+            'query($projectId: String, $path: String!) {
+                getFolder(projectId: $projectId, path: $path) {
+                    name
+                    path
+                    testsCount
+                    folders
+                }
+            }',
+            ['projectId' => $this->getXrayProjectId(), 'path' => $path]
+        );
+
+        return $data['getFolder'] ?? [];
+    }
+
+    private function resolveXrayFolder(array $folder, int $rank = 0): array
+    {
+        if (empty($folder)) {
             return [];
         }
 
-        foreach($result['folders'] as $folder) {
+        $folder['rank'] = $rank;
+        // Xray Cloud has no folder "rank"/testRepositoryPath fields (Server/DC only);
+        // testRepositoryPath is rebuilt from path (keeping its leading "/") to keep
+        // processFolder()'s dirName concatenation (which relies on that leading slash
+        // as the separator after OUTPUT_DIR) unchanged.
+        $folder['testRepositoryPath'] = substr($folder['path'], 0, (int) strrpos($folder['path'], '/'));
+
+        $children = $folder['folders'] ?? [];
+        $folder['folders'] = [];
+        foreach (array_values($children) as $index => $child) {
+            $folder['folders'][] = $this->resolveXrayFolder(
+                is_array($child) ? $child : $this->fetchXrayFolder($child),
+                $index
+            );
+        }
+
+        return $folder;
+    }
+
+    protected function getFolders(string $projectName): array
+    {
+        $rootFolder = $this->resolveXrayFolder($this->fetchXrayFolder('/'));
+
+        foreach ($rootFolder['folders'] ?? [] as $folder) {
             if ($folder['name'] == $projectName) {
                 return $folder;
             }
         }
+
         return [];
     }
 
-    protected function getTests(string $apiKey, int $projectId): array
+    protected function getTests(array $folder): array
     {
-        $this->requestsCount++;
-        
-        $url = 'https://forge.prestashop.com/rest/raven/2.0/api/testrepository/TEST/folders/' . (string) $projectId . '/tests';
-        $ch = curl_init();
-        $headers = array(
-            'Accept: application/json',
-            'Content-Type: application/json',
-            'Authorization: Basic ' . $apiKey
-        );
+        $tests = [];
+        $start = 0;
+        $rank = 0;
 
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        // curl_setopt($ch, CURLOPT_VERBOSE, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
-        curl_setopt($ch, CURLOPT_URL, $url);
-        $result = curl_exec($ch);
-        curl_close($ch);
+        do {
+            $data = $this->xrayGraphQL(
+                'query($projectId: String, $folder: FolderSearchInput, $limit: Int!, $start: Int) {
+                    getTests(projectId: $projectId, folder: $folder, limit: $limit, start: $start) {
+                        total
+                        results {
+                            issueId
+                            jira(fields: ["key", "summary", "status", "labels", "components", "assignee", "customfield_10521", "customfield_10522"])
+                        }
+                    }
+                }',
+                [
+                    'projectId' => $this->getXrayProjectId(),
+                    'folder' => ['path' => $folder['path'], 'includeDescendants' => false],
+                    'limit' => 100,
+                    'start' => $start,
+                ]
+            );
 
-        $result = json_decode($result, true);
-        if (empty($result) || empty($result['tests'])) {
-            return [];
-        }
-        
-        return $result['tests'];
+            $total = $data['getTests']['total'] ?? 0;
+            foreach ($data['getTests']['results'] ?? [] as $result) {
+                $jira = $result['jira'] ?? [];
+                $rank++;
+                $tests[] = [
+                    'issueId' => $result['issueId'] ?? '',
+                    'key' => $jira['key'] ?? '',
+                    'summary' => $jira['summary'] ?? '',
+                    'rank' => $rank,
+                    'workflowStatus' => $jira['status']['name'] ?? '',
+                    'components' => array_map(
+                        fn ($component) => $component['name'] ?? $component,
+                        $jira['components'] ?? []
+                    ),
+                    'labels' => $jira['labels'] ?? [],
+                    'assignee' => $jira['assignee']['displayName'] ?? null,
+                    'testPath' => $jira['customfield_10521'] ?? null,
+                    'specification' => $jira['customfield_10522'] ?? null,
+                ];
+            }
+
+            $start += 100;
+        } while ($start < $total);
+
+        return $tests;
     }
 
-    protected function getTestSteps(string $apiKey, string $testKey): array
+    protected function getTestSteps(string $issueId): array
     {
-        $this->requestsCount++;
-        
-        $url = 'https://forge.prestashop.com/rest/raven/1.0/api/test/' . $testKey . '/step';
-        $ch = curl_init();
-        $headers = array(
-            'Accept: application/json',
-            'Content-Type: application/json',
-            'Authorization: Basic ' . $apiKey
+        $data = $this->xrayGraphQL(
+            'query($issueId: String!) {
+                getTest(issueId: $issueId) {
+                    steps {
+                        action
+                        result
+                        callTestIssueId
+                    }
+                }
+            }',
+            ['issueId' => $issueId]
         );
 
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        // curl_setopt($ch, CURLOPT_VERBOSE, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
-        curl_setopt($ch, CURLOPT_URL, $url);
-        $result = curl_exec($ch);
-        curl_close($ch);
-
-        $data = json_decode($result, true);
-
         $finalData = [];
-        foreach ($data as $datum) {
-            if (preg_match('/This step was calling test issue ([A-Z0-9\-]+)/', $datum['step']['raw'], $matches)) {
-                $testKeyCalled = $matches[1];
-
-                $calledData = $this->getTestSteps($apiKey, $testKeyCalled);
-                foreach($calledData as $calledDatum) {
+        foreach ($data['getTest']['steps'] ?? [] as $step) {
+            if (!empty($step['callTestIssueId'])) {
+                $calledData = $this->getTestSteps($step['callTestIssueId']);
+                foreach ($calledData as $calledDatum) {
                     $finalData[] = $calledDatum;
                 }
             } else {
-                $finalData[] = $datum;
+                $finalData[] = [
+                    'step' => ['raw' => $step['action'] ?? ''],
+                    'result' => ['raw' => $step['result'] ?? ''],
+                ];
             }
         }
 
@@ -344,8 +500,6 @@ chapter: true' . ($withTitle ? '' : PHP_EOL . 'weight: ' . $pageWeight). '
                 $detailsLabel[] = implode('.', str_split($label, 1));
             }
         }
-        $issue = $detailsStatus === 'Automated' ? $this->getIssueContent($test['key']) : [];
-
         $content .= '## Details' . PHP_EOL;
         if (!empty($detailsComponent)) {
             $content .= '* **Component** : '. $detailsComponent . PHP_EOL;
@@ -354,12 +508,12 @@ chapter: true' . ($withTitle ? '' : PHP_EOL . 'weight: ' . $pageWeight). '
         if (!empty($detailsLabel)) {
             $content .= '* **Automated on** : '. implode(', ', $detailsLabel) . PHP_EOL;
         }
-        $content .= '* **Scenario** : https://forge.prestashop.com/browse/' . $test['key'] . PHP_EOL;
-        if (!empty($issue['fields']['customfield_12692'])) {
-            $content .=  '* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/'. $issue['fields']['customfield_12692'] . '.ts' . PHP_EOL;
+        $content .= '* **Scenario** : https://prestashop-jira.atlassian.net/browse/' . $test['key'] . PHP_EOL;
+        if (!empty($test['testPath'])) {
+            $content .=  '* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/'. $test['testPath'] . '.ts' . PHP_EOL;
         }
-        if (!empty($issue['fields']['customfield_12893'])) {
-            $content .=  '* **Specification** : ' . $issue['fields']['customfield_12893'] . PHP_EOL;
+        if (!empty($test['specification'])) {
+            $content .=  '* **Specification** : ' . $test['specification'] . PHP_EOL;
         }
         $content .= PHP_EOL;
 
@@ -389,34 +543,5 @@ chapter: true' . ($withTitle ? '' : PHP_EOL . 'weight: ' . $pageWeight). '
         }
 
         return $content;
-    }
-
-    protected function getIssueContent(string $key) : array
-    {
-        $this->requestsCount++;
-
-        $url = 'https://forge.prestashop.com/rest/api/2/search?jql=' . urlencode(
-            'type = Test'
-            . ' AND (issue in testRepositoryFolderTests(TEST, Core, "true") OR issue in testRepositoryFolderTests(TEST, Modules, "true"))'
-            . ' AND key = ' . $key
-        ) . '&maxResults=1';
-        $ch = curl_init();
-        $headers = [
-            'Accept: application/json',
-            'Content-Type: application/json',
-            'Authorization: Basic ' . $this->apiKey,
-        ];
-
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        // curl_setopt($ch, CURLOPT_VERBOSE, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
-        curl_setopt($ch, CURLOPT_URL, $url);
-        $result = curl_exec($ch);
-        curl_close($ch);
-
-        $result = json_decode($result, true);
-
-        return $result['issues'][0] ?? [];
     }
 }

@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - Set the shop in maintenance mode"
-weight: 1
+weight: 5
 ---
 
 # Autoupgrade - Web Version - Set the shop in maintenance mode
 ## Details
 * **Component** : Core
 * **Status** : Approved
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10926
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5613
 
 ## Steps
 | Step Description | Expected result |

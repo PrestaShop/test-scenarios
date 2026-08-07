@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - Show the number of matching products\'s field configuration"
-weight: 1
+weight: 18
 ---
 
 # Faceted search module - Show the number of matching products\'s field configuration
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4111
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8119
 
 ## Steps
 | Step Description | Expected result |

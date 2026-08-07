@@ -1,13 +1,13 @@
 ---
 title: "FO - Order confirmation : List of ordered products"
-weight: 1
+weight: 5
 ---
 
 # FO - Order confirmation : List of ordered products
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7007
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8302
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/12_orderConfirmation/01_listOfOrderedProducts.ts
 
 ## Steps

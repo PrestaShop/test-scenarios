@@ -1,13 +1,13 @@
 ---
 title: "FO - Product page - Product page : Add a text customization"
-weight: 5
+weight: 9
 ---
 
 # FO - Product page - Product page : Add a text customization
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1262
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7935
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/09_productPage/02_productPage/05_addTextCustomization.ts
 
 ## Steps

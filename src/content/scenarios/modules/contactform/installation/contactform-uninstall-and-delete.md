@@ -1,13 +1,13 @@
 ---
 title: "contactform - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # contactform - Uninstall and delete
 ## Details
 * **Component** : contactform
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-564
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7352
 
 ## Steps
 | Step Description | Expected result |

@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8334
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8352
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/03_merchandiseReturns/01_consultReturnDetails.ts
 
 ## Steps

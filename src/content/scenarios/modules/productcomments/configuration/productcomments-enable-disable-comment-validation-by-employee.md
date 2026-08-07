@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Enable/disable comment validation by employee"
-weight: 1
+weight: 5
 ---
 
 # productcomments - Enable/disable comment validation by employee
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-584
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7366
 
 ## Steps
 | Step Description | Expected result |

@@ -1,14 +1,14 @@
 ---
 title: "DELETE /addresses/{addressId}"
-weight: 11
+weight: 3
 ---
 
 # DELETE /addresses/{addressId}
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
-* **Automated on** : 9.1.x, 9.2.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12899
+* **Automated on** : 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8569
 
 ## Steps
 | Step Description | Expected result |

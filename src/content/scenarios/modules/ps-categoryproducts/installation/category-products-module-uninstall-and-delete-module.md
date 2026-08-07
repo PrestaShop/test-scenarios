@@ -1,13 +1,13 @@
 ---
 title: "Category products module - Uninstall and delete module"
-weight: 6
+weight: 1
 ---
 
 # Category products module - Uninstall and delete module
 ## Details
 * **Component** : ps_categoryproducts
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4217
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8160
 
 ## Steps
 | Step Description | Expected result |

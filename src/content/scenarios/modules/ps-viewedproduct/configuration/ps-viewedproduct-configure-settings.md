@@ -6,7 +6,7 @@ weight: 1
 # ps_viewedproduct - Configure Settings
 ## Details
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7267
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8324
 
 ## Steps
 | Step Description | Expected result |

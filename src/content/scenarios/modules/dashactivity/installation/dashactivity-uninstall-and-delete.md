@@ -1,13 +1,13 @@
 ---
 title: "dashactivity - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # dashactivity - Uninstall and delete
 ## Details
 * **Component** : dashactivity
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-575
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7356
 
 ## Steps
 | Step Description | Expected result |

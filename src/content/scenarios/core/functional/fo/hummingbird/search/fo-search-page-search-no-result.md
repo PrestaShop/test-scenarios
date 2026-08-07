@@ -1,13 +1,13 @@
 ---
 title: "FO - Search Page : Search no result"
-weight: 3
+weight: 1
 ---
 
 # FO - Search Page : Search no result
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5104
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8230
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/03_searchNoResult.ts
 
 ## Steps

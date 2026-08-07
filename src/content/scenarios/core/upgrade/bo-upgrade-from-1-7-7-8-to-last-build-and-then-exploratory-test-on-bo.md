@@ -1,13 +1,13 @@
 ---
 title: "[BO] Upgrade from 1.7.7.8 to last build and then exploratory test on BO"
-weight: 7
+weight: 6
 ---
 
 # [BO] Upgrade from 1.7.7.8 to last build and then exploratory test on BO
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2535
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8049
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "ps_emailsubscription - Check the ID in the tab configuration  if the email address is linked to a customer"
-weight: 16
+weight: 18
 ---
 
 # ps_emailsubscription - Check the ID in the tab configuration  if the email address is linked to a customer
 ## Details
 * **Component** : ps_emailsubscription
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-661
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7442
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,12 @@
 ---
 title: "FO - Search Page : Consult product quick view"
-weight: 6
+weight: 4
 ---
 
 # FO - Search Page : Consult product quick view
 ## Details
-* **Component** : Core
-* **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5107
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8232
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/06_consultProductQuickView.ts
 
 ## Steps

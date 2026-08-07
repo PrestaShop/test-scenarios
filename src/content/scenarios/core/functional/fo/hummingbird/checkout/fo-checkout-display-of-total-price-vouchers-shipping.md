@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5112
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8234
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_displayOfTotals.ts
 
 ## Steps

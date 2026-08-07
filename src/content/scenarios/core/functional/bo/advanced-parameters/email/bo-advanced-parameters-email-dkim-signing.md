@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Email - DKIM signing"
-weight: 6
+weight: 8
 ---
 
 # BO - Advanced parameters - Email - DKIM signing
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12854
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8541
 

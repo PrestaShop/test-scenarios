@@ -1,13 +1,13 @@
 ---
 title: "Wording and statistics"
-weight: 1
+weight: 4
 ---
 
 # Wording and statistics
 ## Details
 * **Component** : blockwishlist
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-555
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7344
 
 ## Steps
 | Step Description | Expected result |

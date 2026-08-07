@@ -1,13 +1,12 @@
 ---
 title: "FO - Product Page - Share links"
-weight: 4
+weight: 6
 ---
 
 # FO - Product Page - Share links
 ## Details
-* **Component** : Core
-* **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6973
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8286
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/04_shareLinks.ts
 
 ## Steps

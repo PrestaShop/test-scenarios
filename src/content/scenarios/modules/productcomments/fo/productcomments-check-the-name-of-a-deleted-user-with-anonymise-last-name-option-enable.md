@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Check the name of a deleted user with anonymise last name option enable"
-weight: 4
+weight: 6
 ---
 
 # productcomments - Check the name of a deleted user with anonymise last name option enable
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-596
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7378
 
 ## Steps
 | Step Description | Expected result |

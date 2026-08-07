@@ -1,14 +1,14 @@
 ---
 title: "Faceted search module - Edit template - Product condition filter"
-weight: 16
+weight: 21
 ---
 
 # Faceted search module - Edit template - Product condition filter
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4241
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8174
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/02_configuration/16_editTemplateProductConditionFilter.ts
 
 ## Steps

@@ -1,13 +1,13 @@
 ---
 title: "FO - Menu and Navigation - Navigate in Categories : Check categories and subcategories links in header"
-weight: 1
+weight: 3
 ---
 
 # FO - Menu and Navigation - Navigate in Categories : Check categories and subcategories links in header
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1237
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7913
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/01_navigateInCategories/01_consultCategoriesInHeader.ts
 
 ## Steps

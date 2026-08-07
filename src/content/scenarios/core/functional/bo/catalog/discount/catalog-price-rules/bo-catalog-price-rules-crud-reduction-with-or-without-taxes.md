@@ -1,13 +1,13 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Reduction with or without taxes"
-weight: 10
+weight: 7
 ---
 
 # BO - Catalog price Rules - CRUD - Reduction with or without taxes
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10337
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8455
 
 ## Steps
 | Step Description | Expected result |

@@ -1,22 +1,19 @@
 ---
 title: "PATCH /admin-api/api-clients/{apiClientId}"
-weight: 4
+weight: 1
 ---
 
 # PATCH /admin-api/api-clients/{apiClientId}
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8647
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8368
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/04_patchApiClientsId.ts
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>No records found in the table |
-| Click on the button "Add new API access" | New API access Page is displayed correctly |
-| Fill the form with following data (Client ID : "Client XYZ", Client Name: "ClientName ABC")<br>Click on "Generate client secret & Save" button | There is 1 application in the list<br>The message “The API access and Client secret has been generated sucessfully” is displayed<br>The message "Client secret: " is available<br>The button Copy put the client secret in the clipboard |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>No records found in the table |
 | Click on the button "Add new API access" | New API access Page is displayed correctly |
 | * Fill the form with following data<br> * Click on "Generate client secret & Save" button | * The message “The API access and Client secret has been generated sucessfully” is displayed<br> * The message "Client secret: " is displayed |
@@ -34,6 +31,9 @@ weight: 4
 | Reload the Edit page | Check that the input value for field "lifetime" is updated |
 | Request with method PATCH the endpoint "https://[url of your shop]/admin-api/api-clients/\{apiClientId}" for updating the field "scopes" | The HTTP code is 200.<br>The return data has multiples keys.<br>The key scopes has the updated value. |
 | Reload the Edit page | Check that the input value for field "scopes" is updated |
+| In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>No records found in the table |
+| Click on the button "Add new API access" | New API access Page is displayed correctly |
+| Fill the form with following data (Client ID : "Client XYZ", Client Name: "ClientName ABC")<br>Click on "Generate client secret & Save" button | There is 1 application in the list<br>The message “The API access and Client secret has been generated sucessfully” is displayed<br>The message "Client secret: " is available<br>The button Copy put the client secret in the clipboard |
 | In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
 | On the first row, click on the button “Three points” | The dropdown is displayed |
 | Click on the Delete Button in the dropdown | A modal appeared |

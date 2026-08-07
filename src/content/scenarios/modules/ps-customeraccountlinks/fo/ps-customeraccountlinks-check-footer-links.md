@@ -7,7 +7,7 @@ weight: 1
 ## Details
 * **Component** : ps_customeraccountlinks
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-625
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7408
 
 ## Steps
 | Step Description | Expected result |

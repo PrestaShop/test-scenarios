@@ -6,8 +6,8 @@ weight: 12
 # [BO] Upgrade from 1.7.6 to last build and then exploratory test on BO
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2540
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8056
 
 ## Steps
 | Step Description | Expected result |

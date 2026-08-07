@@ -6,8 +6,8 @@ weight: 1
 # ps_checkpayment - Made a payment with check
 ## Details
 * **Component** : ps_checkpayment
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-608
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7389
 
 ## Steps
 | Step Description | Expected result |

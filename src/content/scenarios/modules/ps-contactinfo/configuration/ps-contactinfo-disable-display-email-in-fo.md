@@ -1,13 +1,13 @@
 ---
 title: "ps_contactinfo - Disable display email in FO"
-weight: 2
+weight: 1
 ---
 
 # ps_contactinfo - Disable display email in FO
 ## Details
 * **Component** : ps_contactinfo
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-614
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7398
 
 ## Steps
 | Step Description | Expected result |

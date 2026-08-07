@@ -7,7 +7,7 @@ weight: 7
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6978
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8287
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/02_productPage/07_changeCombination.ts
 
 ## Steps

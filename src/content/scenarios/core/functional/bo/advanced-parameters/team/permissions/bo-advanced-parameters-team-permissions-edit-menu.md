@@ -6,9 +6,11 @@ weight: 1
 # BO - Advanced Parameters - Team - Permissions - Edit (Menu)
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Automated on** : 9.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1161
+* **Status** : [TEST] IN PROGRESS
+* **Automated on** : 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7846
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/06_team/permission/01_editMenu.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/team-employees
 
 ## Steps
 | Step Description | Expected result |

@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : blockreassurance
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-541
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7330
 
 ## Steps
 | Step Description | Expected result |

@@ -1,14 +1,15 @@
 ---
 title: "BO - Orders - View Guest"
-weight: 5
+weight: 6
 ---
 
 # BO - Orders - View Guest
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Automated on** : 1.7.8.x, 1.7.7.x, 8.0.x, 9.1.x, 8.1.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1614
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8030
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/09_viewGuest.ts
 
 ## Steps
 | Step Description | Expected result |

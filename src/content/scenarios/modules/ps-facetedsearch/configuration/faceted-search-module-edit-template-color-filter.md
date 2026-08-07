@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - Edit template - Color filter"
-weight: 11
+weight: 17
 ---
 
 # Faceted search module - Edit template - Color filter
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4221
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8162
 
 ## Steps
 | Step Description | Expected result |

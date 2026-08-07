@@ -1,13 +1,13 @@
 ---
 title: "BO - Onboarding"
-weight: 2
+weight: 1
 ---
 
 # BO - Onboarding
 ## Details
 * **Component** : Core
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-713
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7491
 
 ## Steps
 | Step Description | Expected result |

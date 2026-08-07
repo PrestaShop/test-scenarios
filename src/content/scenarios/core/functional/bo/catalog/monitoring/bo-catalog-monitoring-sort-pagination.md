@@ -1,13 +1,15 @@
 ---
 title: "BO - Catalog - Monitoring - Sort & Pagination"
-weight: 3
+weight: 2
 ---
 
 # BO - Catalog - Monitoring - Sort & Pagination
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-801
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7567
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/03_monitoring/sortPaginationAndBulkDelete/01_emptyCategories.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/monitoring
 
 ## Steps
 | Step Description | Expected result |

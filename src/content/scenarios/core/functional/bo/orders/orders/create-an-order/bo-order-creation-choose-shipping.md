@@ -1,14 +1,14 @@
 ---
 title: "BO - Order creation - Choose Shipping"
-weight: 9
+weight: 11
 ---
 
 # BO - Order creation - Choose Shipping
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-756
+* **Automated on** : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7530
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/createOrders/09_chooseShipping.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/page-template/add-new-order
 

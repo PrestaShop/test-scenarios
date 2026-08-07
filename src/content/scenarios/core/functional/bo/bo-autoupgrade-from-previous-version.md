@@ -1,13 +1,13 @@
 ---
 title: "BO - Autoupgrade from previous version"
-weight: 3
+weight: 4
 ---
 
 # BO - Autoupgrade from previous version
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-714
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7494
 
 ## Steps
 | Step Description | Expected result |

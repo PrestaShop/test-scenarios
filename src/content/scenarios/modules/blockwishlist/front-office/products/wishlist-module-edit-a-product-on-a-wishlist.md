@@ -1,13 +1,13 @@
 ---
 title: "Wishlist module - Edit a product on a wishlist"
-weight: 2
+weight: 3
 ---
 
 # Wishlist module - Edit a product on a wishlist
 ## Details
 * **Component** : blockwishlist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4204
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8149
 
 ## Steps
 | Step Description | Expected result |

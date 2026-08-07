@@ -1,13 +1,13 @@
 ---
 title: "dashactivity - Reset"
-weight: 4
+weight: 5
 ---
 
 # dashactivity - Reset
 ## Details
 * **Component** : dashactivity
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-576
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7358
 
 ## Steps
 | Step Description | Expected result |

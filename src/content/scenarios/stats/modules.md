@@ -6,93 +6,93 @@ disableToc: true
 
 | Feature | Total | Draft | In Progress | In Review | Blocked | To Be Automated | Automation In Progress | Automated | Deprecated |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| [Modules](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules) | 1 | 1 | - | - | - | - | - | - | - | 
-| [Modules > blockreassurance > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockreassurance%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > blockreassurance > Contenu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockreassurance%2FContenu) | 5 | - | 5 | - | - | - | - | - | - | 
-| [Modules > blockreassurance > Affichage > Paramètres généraux](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockreassurance%2FAffichage%2FParam%C3%A8tres+g%C3%A9n%C3%A9raux) | 2 | - | 2 | - | - | - | - | - | - | 
-| [Modules > blockreassurance > Affichage > Pages produits](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockreassurance%2FAffichage%2FPages+produits) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > blockreassurance > Affichage > Pages de commande](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockreassurance%2FAffichage%2FPages+de+commande) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > blockreassurance > Apparence](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockreassurance%2FApparence) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > blockwishlist > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockwishlist%2FInstallation) | 6 | - | - | - | - | 3 | - | 2 | 1 | 
-| [Modules > blockwishlist > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockwishlist%2FConfiguration) | 4 | - | - | - | - | 1 | - | 2 | 1 | 
-| [Modules > blockwishlist > Front Office > Lists](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockwishlist%2FFront+Office%2FLists) | 6 | - | - | - | - | 2 | - | 1 | 3 | 
-| [Modules > blockwishlist > Front Office > Products](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fblockwishlist%2FFront+Office%2FProducts) | 6 | - | - | - | - | 2 | - | 1 | 3 | 
-| [Modules > contactform > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fcontactform%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > contactform > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fcontactform%2FConfiguration) | 3 | - | 3 | - | - | - | - | - | - | 
-| [Modules > dashactivity > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fdashactivity%2FInstallation) | 5 | - | 5 | - | - | - | - | - | - | 
-| [Modules > dashactivity > Contenu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fdashactivity%2FContenu) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > dashtrends](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fdashtrends) | 2 | - | 2 | - | - | - | - | - | - | 
-| [Modules > productcomments > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fproductcomments%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > productcomments > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fproductcomments%2FConfiguration) | 9 | - | 9 | - | - | - | - | - | - | 
-| [Modules > productcomments > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fproductcomments%2FFO) | 6 | - | 6 | - | - | - | - | - | - | 
-| [Modules > ps_apiresources > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_apiresources%2FInstallation) | 2 | - | - | - | - | - | - | 2 | - | 
-| [Modules > ps_banner > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_banner%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_banner > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_banner%2FConfiguration) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > ps_cashondelivery > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_cashondelivery%2FInstallation) | 5 | - | - | - | - | 3 | - | 2 | - | 
-| [Modules > ps_cashondelivery > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_cashondelivery%2FConfiguration) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Modules > ps_cashondelivery > (deprecated)Addons](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_cashondelivery%2F%28deprecated%29Addons) | 1 | - | - | - | - | - | - | - | 1 | 
-| [Modules > ps_categoryproducts > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_categoryproducts%2FInstallation) | 6 | - | - | - | - | 4 | - | 1 | 1 | 
-| [Modules > ps_categoryproducts > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_categoryproducts%2FConfiguration) | 3 | - | - | - | - | 2 | - | 1 | - | 
-| [Modules > ps_categorytree > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_categorytree%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_categorytree > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_categorytree%2FConfiguration) | 3 | - | 3 | - | - | - | - | - | - | 
-| [Modules > ps_checkpayment > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_checkpayment%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_checkpayment > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_checkpayment%2FFO) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > ps_checkpayment > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_checkpayment%2FConfiguration) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > ps_contactinfo > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_contactinfo%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_contactinfo > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_contactinfo%2FConfiguration) | 2 | - | - | - | - | 1 | - | - | 1 | 
-| [Modules > ps_contactinfo > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_contactinfo%2FFO) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > ps_crossselling > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_crossselling%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_crossselling > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_crossselling%2FConfiguration) | 2 | - | - | - | - | 2 | - | - | - | 
-| [Modules > ps_crossselling > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_crossselling%2FFO) | 1 | - | - | - | - | 1 | - | - | - | 
-| [Modules > ps_customeraccountlinks > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_customeraccountlinks%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_customeraccountlinks > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_customeraccountlinks%2FFO) | 1 | - | - | - | - | 1 | - | - | - | 
-| [Modules > ps_customersignin > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_customersignin%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_customersignin > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_customersignin%2FFO) | 4 | - | 4 | - | - | - | - | - | - | 
-| [Modules > ps_customtext > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_customtext%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_customtext > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_customtext%2FConfiguration) | 2 | - | - | - | - | 2 | - | - | - | 
-| [Modules > ps_dataprivacy > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_dataprivacy%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_dataprivacy > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_dataprivacy%2FConfiguration) | 1 | - | - | - | - | 1 | - | - | - | 
-| [Modules > ps_emailalerts > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_emailalerts%2FInstallation) | 8 | - | - | - | - | 2 | - | 3 | 3 | 
-| [Modules > ps_emailalerts > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_emailalerts%2FConfiguration) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Modules > ps_emailalerts > Configuration > Customer notifications](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_emailalerts%2FConfiguration%2FCustomer+notifications) | 5 | - | - | - | - | - | - | 2 | 3 | 
-| [Modules > ps_emailalerts > Configuration > Merchant notifications](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_emailalerts%2FConfiguration%2FMerchant+notifications) | 10 | - | - | - | - | 1 | - | 3 | 6 | 
-| [Modules > ps_emailsubscription > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_emailsubscription%2FConfiguration) | 18 | - | 15 | - | - | - | - | 3 | - | 
-| [Modules > ps_facetedsearch > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_facetedsearch%2FInstallation) | 5 | - | - | - | - | 1 | - | 4 | - | 
-| [Modules > ps_facetedsearch > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_facetedsearch%2FConfiguration) | 22 | - | - | - | - | 10 | - | 12 | - | 
-| [Modules > ps_faviconnotificationbo > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_faviconnotificationbo%2FInstallation) | 3 | 3 | - | - | - | - | - | - | - | 
-| [Modules > ps_featuredproducts > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_featuredproducts%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_featuredproducts > Contenu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_featuredproducts%2FContenu) | 3 | - | 1 | - | - | 2 | - | - | - | 
-| [Modules > ps_googleanalytics > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_googleanalytics%2FInstallation) | 4 | - | - | 4 | - | - | - | - | - | 
-| [Modules > ps_googleanalytics > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_googleanalytics%2FConfiguration) | 2 | - | - | 2 | - | - | - | - | - | 
-| [Modules > ps_googleanalytics > Configuration > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_googleanalytics%2FConfiguration%2FFO) | 3 | 1 | - | 2 | - | - | - | - | - | 
-| [Modules > ps_googleanalytics > Configuration > BO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_googleanalytics%2FConfiguration%2FBO) | 2 | 2 | - | - | - | - | - | - | - | 
-| [Modules > ps_imageslider > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_imageslider%2FConfiguration) | 1 | - | - | - | - | 1 | - | - | - | 
-| [Modules > ps_linklist > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_linklist%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_linklist > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_linklist%2FConfiguration) | 3 | - | 3 | - | - | - | - | - | - | 
-| [Modules > ps_mainmenu > configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_mainmenu%2Fconfiguration) | 2 | - | - | - | - | 2 | - | - | - | 
-| [Modules > ps_newproducts > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_newproducts%2FInstallation) | 5 | - | - | - | - | 1 | - | 4 | - | 
-| [Modules > ps_newproducts > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_newproducts%2FConfiguration) | 3 | - | - | - | - | - | - | 3 | - | 
-| [Modules > ps_searchbar > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_searchbar%2FInstallation) | 4 | - | 4 | - | - | - | - | - | - | 
-| [Modules > ps_searchbar > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_searchbar%2FFO) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > ps_sharebuttons > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_sharebuttons%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_sharebuttons > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_sharebuttons%2FConfiguration) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > ps_shoppingcart > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_shoppingcart%2FInstallation) | 3 | - | 3 | - | - | - | - | - | - | 
-| [Modules > ps_shoppingcart > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_shoppingcart%2FConfiguration) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > ps_shoppingcart > FO](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_shoppingcart%2FFO) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > ps_socialfollow > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_socialfollow%2FInstallation) | 3 | - | 3 | - | - | - | - | - | - | 
-| [Modules > ps_socialfollow > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_socialfollow%2FConfiguration) | 3 | - | 3 | - | - | - | - | - | - | 
-| [Modules > ps_supplierlist > configure](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_supplierlist%2Fconfigure) | 1 | - | - | - | - | - | - | 1 | - | 
-| [Modules > ps_themecusto](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_themecusto) | 7 | - | - | - | - | - | - | - | 7 | 
-| [Modules > ps_themecusto > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_themecusto%2FInstallation) | 5 | - | - | - | - | 1 | - | 4 | - | 
-| [Modules > ps_themecusto > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_themecusto%2FConfiguration) | 3 | - | - | - | - | 1 | - | 1 | 1 | 
-| [Modules > ps_themecusto > (deprecated)Addons](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_themecusto%2F%28deprecated%29Addons) | 1 | - | - | - | - | - | - | - | 1 | 
-| [Modules > ps_viewedproduct > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fps_viewedproduct%2FConfiguration) | 1 | - | - | - | - | 1 | - | - | - | 
-| [Modules > psgdpr > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fpsgdpr%2FInstallation) | 5 | 2 | - | - | - | 3 | - | - | - | 
-| [Modules > psgdpr > Configuration](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fpsgdpr%2FConfiguration) | 8 | - | - | - | - | 3 | - | 5 | - | 
-| [Modules > statsbestcustomers > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fstatsbestcustomers%2FInstallation) | 3 | - | - | - | - | 3 | - | - | - | 
-| [Modules > statsbestcustomers > Display](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fstatsbestcustomers%2FDisplay) | 1 | - | - | - | - | 1 | - | - | - | 
-| [Modules > statsvisits > Installation](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fstatsvisits%2FInstallation) | 3 | - | 3 | - | - | - | - | - | - | 
-| [Modules > statsvisits > Contenu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fstatsvisits%2FContenu) | 1 | - | 1 | - | - | - | - | - | - | 
-| [Modules > welcome > Contenu](https://forge.prestashop.com/secure/XrayTestRepositoryAction!default.jspa?entityKey=TEST&path=Modules%2Fwelcome%2FContenu) | 2 | - | - | - | - | - | - | - | 2 | 
-| **Total** | **302** | **9** | **86** | **8** | **0** | **106** | **0** | **59** | **34** | 
-| **Total** |  | **2.98%** | **28.48%** | **2.65%** | **0%** | **35.10%** | **0%** | **19.54%** | **28.48%** | 
+| Modules | 1 | - | - | - | - | - | - | - | - | 
+| Modules > ps_themecusto | 7 | - | - | - | - | - | - | - | 7 | 
+| Modules > ps_themecusto > Configuration | 3 | - | - | - | - | 1 | - | 1 | 1 | 
+| Modules > ps_themecusto > (deprecated)Addons | 1 | - | - | - | - | - | - | - | 1 | 
+| Modules > ps_themecusto > Installation | 5 | - | - | - | - | 1 | - | 4 | - | 
+| Modules > ps_banner > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_banner > Configuration | 1 | - | - | - | - | - | - | - | - | 
+| Modules > ps_customersignin > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_customersignin > FO | 4 | - | - | - | - | - | - | - | - | 
+| Modules > dashtrends | 2 | - | - | - | - | - | - | - | - | 
+| Modules > blockreassurance > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > blockreassurance > Contenu | 5 | - | - | - | - | - | - | - | - | 
+| Modules > blockreassurance > Apparence | 1 | - | - | - | - | - | - | - | - | 
+| Modules > blockreassurance > Affichage > Paramètres généraux | 2 | - | - | - | - | - | - | - | - | 
+| Modules > blockreassurance > Affichage > Pages de commande | 1 | - | - | - | - | - | - | - | - | 
+| Modules > blockreassurance > Affichage > Pages produits | 1 | - | - | - | - | - | - | - | - | 
+| Modules > blockwishlist > Installation | 6 | - | - | - | - | 3 | - | 2 | 1 | 
+| Modules > blockwishlist > Configuration | 4 | - | - | - | - | 1 | - | 2 | 1 | 
+| Modules > blockwishlist > Front Office > Lists | 6 | - | - | - | - | 2 | - | 1 | 3 | 
+| Modules > blockwishlist > Front Office > Products | 6 | - | - | - | - | 2 | - | 1 | 3 | 
+| Modules > contactform > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > contactform > Configuration | 3 | - | - | - | - | - | - | - | - | 
+| Modules > dashactivity > Installation | 5 | - | - | - | - | - | - | - | - | 
+| Modules > dashactivity > Contenu | 1 | - | - | - | - | - | - | - | - | 
+| Modules > productcomments > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > productcomments > Configuration | 9 | - | - | - | - | - | - | - | - | 
+| Modules > productcomments > FO | 6 | - | - | - | - | - | - | - | - | 
+| Modules > ps_categorytree > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_categorytree > Configuration | 3 | - | - | - | - | - | - | - | - | 
+| Modules > ps_checkpayment > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_checkpayment > FO | 1 | - | - | - | - | - | - | - | - | 
+| Modules > ps_checkpayment > Configuration | 1 | - | - | - | - | - | - | - | - | 
+| Modules > ps_contactinfo > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_contactinfo > Configuration | 2 | - | - | - | - | 1 | - | - | 1 | 
+| Modules > ps_contactinfo > FO | 1 | - | - | - | - | - | - | - | - | 
+| Modules > ps_crossselling > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_crossselling > Configuration | 2 | - | - | - | - | 2 | - | - | - | 
+| Modules > ps_crossselling > FO | 1 | - | - | - | - | 1 | - | - | - | 
+| Modules > ps_customeraccountlinks > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_customeraccountlinks > FO | 1 | - | - | - | - | 1 | - | - | - | 
+| Modules > ps_customtext > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_customtext > Configuration | 2 | - | - | - | - | 2 | - | - | - | 
+| Modules > ps_dataprivacy > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_dataprivacy > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
+| Modules > ps_emailalerts > Installation | 8 | - | - | - | - | 2 | - | 3 | 3 | 
+| Modules > ps_emailalerts > Configuration | 1 | - | - | - | - | - | - | 1 | - | 
+| Modules > ps_emailalerts > Configuration > Customer notifications | 5 | - | - | - | - | - | - | 2 | 2 | 
+| Modules > ps_emailalerts > Configuration > Merchant notifications | 10 | - | - | - | - | 1 | - | 3 | 6 | 
+| Modules > ps_emailsubscription > Configuration | 18 | - | - | - | - | - | - | 3 | - | 
+| Modules > ps_featuredproducts > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_featuredproducts > Contenu | 3 | - | - | - | - | 2 | - | - | - | 
+| Modules > ps_linklist > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_linklist > Configuration | 3 | - | - | - | - | - | - | - | - | 
+| Modules > ps_searchbar > Installation | 4 | - | - | - | - | - | - | - | - | 
+| Modules > ps_searchbar > FO | 1 | - | - | - | - | - | - | - | - | 
+| Modules > ps_shoppingcart > Installation | 3 | - | - | - | - | - | - | - | - | 
+| Modules > ps_shoppingcart > Configuration | 1 | - | - | - | - | - | - | - | - | 
+| Modules > ps_shoppingcart > FO | 1 | - | - | - | - | - | - | - | - | 
+| Modules > ps_socialfollow > Installation | 3 | - | - | - | - | - | - | - | - | 
+| Modules > ps_socialfollow > Configuration | 3 | - | - | - | - | - | - | - | - | 
+| Modules > statsbestcustomers > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > statsbestcustomers > Display | 1 | - | - | - | - | 1 | - | - | - | 
+| Modules > statsvisits > Installation | 3 | - | - | - | - | - | - | - | - | 
+| Modules > statsvisits > Contenu | 1 | - | - | - | - | - | - | - | - | 
+| Modules > welcome > Contenu | 2 | - | - | - | - | - | - | - | 2 | 
+| Modules > ps_sharebuttons > Installation | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_sharebuttons > Configuration | 3 | - | - | - | - | 3 | - | - | - | 
+| Modules > ps_googleanalytics > Installation | 4 | - | - | 4 | - | - | - | - | - | 
+| Modules > ps_googleanalytics > Configuration | 2 | - | - | 2 | - | - | - | - | - | 
+| Modules > ps_googleanalytics > Configuration > FO | 3 | - | - | 2 | - | - | - | - | - | 
+| Modules > ps_googleanalytics > Configuration > BO | 2 | - | - | - | - | - | - | - | - | 
+| Modules > ps_facetedsearch > Installation | 5 | - | - | - | - | 1 | - | 3 | - | 
+| Modules > ps_facetedsearch > Configuration | 22 | - | - | - | - | 10 | - | 12 | - | 
+| Modules > ps_cashondelivery > (deprecated)Addons | 1 | - | - | - | - | - | - | - | 1 | 
+| Modules > ps_cashondelivery > Installation | 5 | - | - | - | - | 3 | - | 2 | - | 
+| Modules > ps_cashondelivery > Configuration | 1 | - | - | - | - | - | - | 1 | - | 
+| Modules > ps_newproducts > Configuration | 3 | - | - | - | - | - | - | 3 | - | 
+| Modules > ps_newproducts > Installation | 5 | - | - | - | - | 1 | - | 4 | - | 
+| Modules > ps_categoryproducts > Installation | 6 | - | - | - | - | 4 | - | 1 | 1 | 
+| Modules > ps_categoryproducts > Configuration | 3 | - | - | - | - | 2 | - | 1 | - | 
+| Modules > psgdpr > Installation | 5 | - | - | - | - | 3 | - | - | - | 
+| Modules > psgdpr > Configuration | 8 | - | - | - | - | 3 | - | 5 | - | 
+| Modules > ps_faviconnotificationbo > Installation | 3 | - | - | - | - | - | - | - | - | 
+| Modules > ps_imageslider > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
+| Modules > ps_viewedproduct > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
+| Modules > ps_mainmenu > configuration | 2 | - | - | - | - | 2 | - | - | - | 
+| Modules > ps_supplierlist > configure | 1 | - | - | - | - | - | - | 1 | - | 
+| Modules > ps_apiresources > Installation | 2 | - | - | - | - | - | - | 2 | - | 
+| **Total** | **302** | **0** | **0** | **8** | **0** | **106** | **0** | **58** | **33** | 
+| **Total** |  | **0%** | **0%** | **2.65%** | **0%** | **35.10%** | **0%** | **19.21%** | **0%** | 

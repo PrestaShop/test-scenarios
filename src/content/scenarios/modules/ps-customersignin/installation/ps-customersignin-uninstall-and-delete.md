@@ -7,7 +7,7 @@ weight: 3
 ## Details
 * **Component** : ps_customersignin
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-443
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7324
 
 ## Steps
 | Step Description | Expected result |

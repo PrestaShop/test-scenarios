@@ -1,14 +1,14 @@
 ---
 title: "GET /admin-api/modules/{technicalName}"
-weight: 8
+weight: 4
 ---
 
 # GET /admin-api/modules/{technicalName}
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-8932
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8375
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/08_getModulesTechnicalName.ts
 
 ## Steps

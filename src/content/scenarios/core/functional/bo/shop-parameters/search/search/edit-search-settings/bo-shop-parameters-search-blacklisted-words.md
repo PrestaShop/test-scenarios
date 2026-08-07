@@ -1,13 +1,13 @@
 ---
 title: "BO - Shop Parameters - Search : Blacklisted words"
-weight: 7
+weight: 5
 ---
 
 # BO - Shop Parameters - Search : Blacklisted words
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-3615
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8095
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_editSearchSettings/07_blacklistedWords.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search
 

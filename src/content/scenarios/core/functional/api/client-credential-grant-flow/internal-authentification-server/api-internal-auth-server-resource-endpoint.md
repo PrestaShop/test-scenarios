@@ -1,13 +1,13 @@
 ---
 title: "API : Internal Auth Server - Resource Endpoint"
-weight: 2
+weight: 1
 ---
 
 # API : Internal Auth Server - Resource Endpoint
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4859
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8197
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/01_clientCredentialGrantFlow/01_internalAuthServer/02_resourceEndpoint.ts
 
 ## Steps

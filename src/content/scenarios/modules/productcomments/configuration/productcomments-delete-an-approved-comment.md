@@ -1,13 +1,13 @@
 ---
 title: "productcomments - Delete an approved comment"
-weight: 9
+weight: 1
 ---
 
 # productcomments - Delete an approved comment
 ## Details
 * **Component** : productcomments
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-592
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7376
 
 ## Steps
 | Step Description | Expected result |

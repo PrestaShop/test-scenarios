@@ -1,13 +1,13 @@
 ---
 title: "ps_searchbar - Upgrade"
-weight: 1
+weight: 4
 ---
 
 # ps_searchbar - Upgrade
 ## Details
 * **Component** : ps_searchbar
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-676
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7459
 
 ## Steps
 | Step Description | Expected result |

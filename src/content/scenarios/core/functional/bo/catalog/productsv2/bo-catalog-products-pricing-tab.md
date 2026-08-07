@@ -1,13 +1,13 @@
 ---
 title: "BO - Catalog - Products : Pricing Tab"
-weight: 17
+weight: 20
 ---
 
 # BO - Catalog - Products : Pricing Tab
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5216
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8246
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/17_pricingTab.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products
 

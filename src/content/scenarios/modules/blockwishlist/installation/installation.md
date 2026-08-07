@@ -1,13 +1,13 @@
 ---
 title: "Installation"
-weight: 6
+weight: 3
 ---
 
 # Installation
 ## Details
 * **Component** : blockwishlist
 * **Status** : Deprecated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-554
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7342
 
 ## Steps
 | Step Description | Expected result |

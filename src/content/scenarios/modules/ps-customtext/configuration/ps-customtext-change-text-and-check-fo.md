@@ -1,13 +1,13 @@
 ---
 title: "ps_customtext - Change text and check FO"
-weight: 2
+weight: 1
 ---
 
 # ps_customtext - Change text and check FO
 ## Details
 * **Component** : ps_customtext
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-630
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7414
 
 ## Steps
 | Step Description | Expected result |

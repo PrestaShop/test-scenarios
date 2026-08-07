@@ -1,12 +1,12 @@
 ---
 title: "BO - Discount - Minimum purchase amount (On Free shipping)"
-weight: 4
+weight: 13
 ---
 
 # BO - Discount - Minimum purchase amount (On Free shipping)
 ## Details
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12396
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8487
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts
 
 ## Steps

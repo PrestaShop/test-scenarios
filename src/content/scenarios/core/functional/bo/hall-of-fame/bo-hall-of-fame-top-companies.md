@@ -1,12 +1,12 @@
 ---
 title: "BO - Hall of Fame - Top companies"
-weight: 2
+weight: 4
 ---
 
 # BO - Hall of Fame - Top companies
 ## Details
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12860
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8548
 
 ## Steps
 | Step Description | Expected result |

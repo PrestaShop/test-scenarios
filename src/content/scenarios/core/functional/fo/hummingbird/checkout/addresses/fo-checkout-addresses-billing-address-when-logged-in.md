@@ -1,14 +1,14 @@
 ---
 title: "FO - Checkout - Addresses - Billing address when logged in"
-weight: 5
+weight: 2
 ---
 
 # FO - Checkout - Addresses - Billing address when logged in
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-7023
+* **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8315
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/11_checkout/02_addresses/05_billingAdressWhenLoggedIn.ts
 
 ## Steps

@@ -1,13 +1,14 @@
 ---
 title: "BO - Shop Parameters - General - Enable / disable SSL"
-weight: 1
+weight: 5
 ---
 
 # BO - Shop Parameters - General - Enable / disable SSL
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1040
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7743
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general
 
 ## Steps
 | Step Description | Expected result |

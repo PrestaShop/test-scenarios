@@ -1,13 +1,13 @@
 ---
 title: "FO - Search Page : Sort results list"
-weight: 5
+weight: 6
 ---
 
 # FO - Search Page : Sort results list
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5106
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8231
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/05_sortResultsList.ts
 
 ## Steps

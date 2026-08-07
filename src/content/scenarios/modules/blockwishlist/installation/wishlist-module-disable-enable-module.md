@@ -1,13 +1,13 @@
 ---
 title: "Wishlist module - Disable/Enable module"
-weight: 1
+weight: 6
 ---
 
 # Wishlist module - Disable/Enable module
 ## Details
 * **Component** : blockwishlist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4225
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8163
 
 ## Steps
 | Step Description | Expected result |

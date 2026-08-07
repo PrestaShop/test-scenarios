@@ -7,7 +7,7 @@ weight: 2
 ## Details
 * **Component** : ps_checkpayment
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-606
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7387
 
 ## Steps
 | Step Description | Expected result |

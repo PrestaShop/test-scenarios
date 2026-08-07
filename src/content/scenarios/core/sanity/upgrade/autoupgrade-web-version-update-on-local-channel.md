@@ -1,26 +1,17 @@
 ---
 title: "Autoupgrade - Web Version - Update on local channel"
-weight: 6
+weight: 1
 ---
 
 # Autoupgrade - Web Version - Update on local channel
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10739
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5607
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Install A fresh last version of prestashop with php 8.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
-| Go to the BO | You should have your dashboard showed |
-| Go to the Module Manager " page" | Module Manager page is displayed correctly |
-| * Search for the "update assistant" module.<br> * Install it | * Update assistant should have "The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence." as description <br> * Module is correctly installed |
-| Go to the Shop Parameters > General. | General > Preferences page is displayed on the "General" tab. |
-| Click on the "Maintenance" tab. | "Maintenance" tab is displayed. |
-| Click on the toggle "Enable store" | Toggle is in "No" status. |
-| Click on the CTA "Add my IP". | IP address is filled. |
-| Click on the CTA "Save". | Shop is in maintenance mode. |
 | Go to "Update Assistant" module (side board). | "Update Assistant" module is displayed : <br> * Title : "Welcome to PrestaShop Update Assistant"<br> * Two radio buttons : "Update your store" and "Restore from a backup" (disabled)<br> * CTA "Get started" disabled |
 | Select the radio button "Update your store". | * "Update your store" radio button is selected<br> * CTA "Get started" is enabled |
 | Click on the CTA "Get started". | A loader is displayed in the CTA "Get started" then, "Version choice" page is displayed : <br> * Stepper on step one ("Version choice")<br> * An image of folder with "You're up to date", "Current PrestaShop version: {test-param}Last_prestashop{test-param} " and "Current PHP version: 8.1.xx"<br> * Blue alert info : " Unlock the local update feature and manually update your store to your preferred upgrade by saving the archive and XML files of the PrestaShop version in the following directory on your server: */your-admin-directory/autoupgrade/download/*"<br> * CTA : "Next" disabled |
@@ -48,3 +39,12 @@ weight: 6
 | Clic on CTA "Go to the Module Manager" | Redirection to "[admin_folder]/index" (BO login page). |
 | Log in with email and password set during installation. | * Connection successful<br> * module manager displayed |
 | * Go to "https://eu.mixpanel.com/project/2828312/view/3362352/app/events#9ad5X2HJqJ7y" | You should see : <br> * [SUE] Module Manager clicked from post-update<br><br>With : <br> * autoupgrade_version<br> * bo_language<br> * bo_timezone<br> * Locale<br> * module<br> * php_version<br> * id<br> * segment_source_name<br> * ps_version<br> * source |
+| Install A fresh last version of prestashop with php 8.1 | You should have the selection of where in your shop you want to go ( BO or FO ) |
+| Go to the BO | You should have your dashboard showed |
+| Go to the Module Manager " page" | Module Manager page is displayed correctly |
+| * Search for the "update assistant" module.<br> * Install it | * Update assistant should have "The Update Assistant module helps you backup, update and restore your PrestaShop store. With just a few clicks, you can move to the latest version of PrestaShop with confidence." as description <br> * Module is correctly installed |
+| Go to the Shop Parameters > General. | General > Preferences page is displayed on the "General" tab. |
+| Click on the "Maintenance" tab. | "Maintenance" tab is displayed. |
+| Click on the toggle "Enable store" | Toggle is in "No" status. |
+| Click on the CTA "Add my IP". | IP address is filled. |
+| Click on the CTA "Save". | Shop is in maintenance mode. |

@@ -1,13 +1,14 @@
 ---
 title: "BO - Modules - Alerts tab - Upgrade"
-weight: 4
+weight: 1
 ---
 
 # BO - Modules - Alerts tab - Upgrade
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-894
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7642
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/modules
 
 ## Steps
 | Step Description | Expected result |

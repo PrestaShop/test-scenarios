@@ -1,13 +1,13 @@
 ---
 title: "BO - Design - Image Settings : Check product image format"
-weight: 11
+weight: 9
 ---
 
 # BO - Design - Image Settings : Check product image format
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6017
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8257
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/13_checkProductImageFormat.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type
 

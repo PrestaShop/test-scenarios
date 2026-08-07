@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - Skip the backup"
-weight: 8
+weight: 1
 ---
 
 # Autoupgrade - Web Version - Skip the backup
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11305
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5621
 
 ## Steps
 | Step Description | Expected result |

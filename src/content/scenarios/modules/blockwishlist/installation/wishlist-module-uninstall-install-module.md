@@ -1,13 +1,13 @@
 ---
 title: "Wishlist module - Uninstall/Install module"
-weight: 4
+weight: 1
 ---
 
 # Wishlist module - Uninstall/Install module
 ## Details
 * **Component** : blockwishlist
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4229
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8167
 
 ## Steps
 | Step Description | Expected result |

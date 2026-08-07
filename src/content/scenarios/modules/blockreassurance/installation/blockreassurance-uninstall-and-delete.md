@@ -1,13 +1,13 @@
 ---
 title: "blockreassurance - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # blockreassurance - Uninstall and delete
 ## Details
 * **Component** : blockreassurance
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-542
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7331
 
 ## Steps
 | Step Description | Expected result |

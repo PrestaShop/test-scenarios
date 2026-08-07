@@ -1,13 +1,13 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Price(tax excl.)"
-weight: 7
+weight: 3
 ---
 
 # BO - Catalog price Rules - CRUD - Price(tax excl.)
 ## Details
 * **Component** : Core
 * **Status** : Automation in progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10334
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8452
 
 ## Steps
 | Step Description | Expected result |

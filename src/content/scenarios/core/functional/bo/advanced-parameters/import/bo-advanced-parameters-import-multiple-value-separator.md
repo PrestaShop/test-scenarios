@@ -1,10 +1,10 @@
 ---
 title: " BO - Advanced parameters - Import - Multiple value separator"
-weight: 7
+weight: 5
 ---
 
 #  BO - Advanced parameters - Import - Multiple value separator
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12834
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8522
 

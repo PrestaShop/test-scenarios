@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - Do a backup"
-weight: 6
+weight: 7
 ---
 
 # Autoupgrade - Web Version - Do a backup
 ## Details
 * **Component** : Core
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-10933
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5618
 
 ## Steps
 | Step Description | Expected result |

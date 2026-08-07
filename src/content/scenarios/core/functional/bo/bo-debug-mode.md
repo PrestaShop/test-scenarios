@@ -1,13 +1,13 @@
 ---
 title: "BO - Debug mode"
-weight: 1
+weight: 2
 ---
 
 # BO - Debug mode
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-705
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7488
 
 ## Steps
 | Step Description | Expected result |

@@ -1,13 +1,13 @@
 ---
 title: "[FO] Upgrade from 1.7.6 to last build and then exploratory test on FO"
-weight: 11
+weight: 1
 ---
 
 # [FO] Upgrade from 1.7.6 to last build and then exploratory test on FO
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-2539
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8054
 
 ## Steps
 | Step Description | Expected result |

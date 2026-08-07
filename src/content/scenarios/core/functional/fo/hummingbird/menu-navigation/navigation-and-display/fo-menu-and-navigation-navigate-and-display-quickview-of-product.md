@@ -1,13 +1,13 @@
 ---
 title: "FO - Menu and Navigation - Navigate and display : Quickview of product"
-weight: 3
+weight: 2
 ---
 
 # FO - Menu and Navigation - Navigate and display : Quickview of product
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6958
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8272
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/08_menuAndNavigation/03_navigationAndDisplay/03_quickViewProduct.ts
 
 ## Steps

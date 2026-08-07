@@ -1,13 +1,14 @@
 ---
 title: "BO - Design - Positions - Transplant a module"
-weight: 1
+weight: 2
 ---
 
 # BO - Design - Positions - Transplant a module
 ## Details
 * **Component** : Core
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-952
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7671
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/positions
 
 ## Steps
 | Step Description | Expected result |

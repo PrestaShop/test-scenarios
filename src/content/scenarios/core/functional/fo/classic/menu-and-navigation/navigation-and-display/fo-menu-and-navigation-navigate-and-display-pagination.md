@@ -1,14 +1,14 @@
 ---
 title: "FO - Menu and Navigation - Navigate and display - Pagination"
-weight: 2
+weight: 4
 ---
 
 # FO - Menu and Navigation - Navigate and display - Pagination
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1245
+* **Automated on** : 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7925
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/08_menuAndNavigation/03_navigationAndDisplay/02_pagination.ts
 
 ## Steps

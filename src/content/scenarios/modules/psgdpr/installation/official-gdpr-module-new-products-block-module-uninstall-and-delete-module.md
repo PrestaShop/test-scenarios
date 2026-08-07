@@ -1,13 +1,13 @@
 ---
 title: "Official GDPR module - New products block module - Uninstall and delete module"
-weight: 4
+weight: 3
 ---
 
 # Official GDPR module - New products block module - Uninstall and delete module
 ## Details
 * **Component** : psgdpr
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4531
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8185
 
 ## Steps
 | Step Description | Expected result |

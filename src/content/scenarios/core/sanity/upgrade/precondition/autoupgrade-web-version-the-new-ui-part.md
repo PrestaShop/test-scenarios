@@ -1,13 +1,13 @@
 ---
 title: "Autoupgrade - Web Version - the new UI part "
-weight: 7
+weight: 6
 ---
 
 # Autoupgrade - Web Version - the new UI part 
 ## Details
 * **Component** : Core
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11260
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5619
 
 ## Steps
 | Step Description | Expected result |

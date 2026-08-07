@@ -1,10 +1,10 @@
 ---
 title: " BO - Advanced parameters - Import - Language of the file"
-weight: 5
+weight: 7
 ---
 
 #  BO - Advanced parameters - Import - Language of the file
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-12832
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8519
 

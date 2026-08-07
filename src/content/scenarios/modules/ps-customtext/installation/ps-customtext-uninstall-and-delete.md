@@ -1,13 +1,13 @@
 ---
 title: "ps_customtext - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # ps_customtext - Uninstall and delete
 ## Details
 * **Component** : ps_customtext
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-628
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7409
 
 ## Steps
 | Step Description | Expected result |

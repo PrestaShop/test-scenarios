@@ -1,13 +1,13 @@
 ---
 title: "BO - Design - Image Settings : Check category image format"
-weight: 12
+weight: 3
 ---
 
 # BO - Design - Image Settings : Check category image format
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-6018
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8260
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/08_design/06_imageSettings/14_checkCategoryImageFormat.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/image-settings/add-new-image-type
 

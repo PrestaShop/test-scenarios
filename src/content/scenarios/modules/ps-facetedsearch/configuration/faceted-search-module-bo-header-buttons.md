@@ -1,13 +1,13 @@
 ---
 title: "Faceted search module - BO header buttons"
-weight: 22
+weight: 6
 ---
 
 # Faceted search module - BO header buttons
 ## Details
 * **Component** : ps_facetedsearch
 * **Status** : To be automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-4273
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8182
 
 ## Steps
 | Step Description | Expected result |

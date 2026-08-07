@@ -1,13 +1,13 @@
 ---
 title: "ps_customersignin - Login with an email without account"
-weight: 2
+weight: 1
 ---
 
 # ps_customersignin - Login with an email without account
 ## Details
 * **Component** : ps_customersignin
-* **Status** : In progress
-* **Scenario** : https://forge.prestashop.com/browse/TEST-446
+* **Status** : [TEST] IN PROGRESS
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7327
 
 ## Steps
 | Step Description | Expected result |

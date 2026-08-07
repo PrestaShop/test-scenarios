@@ -1,14 +1,14 @@
 ---
 title: "BO - International - Locations - Zones - Filter and Quick edit"
-weight: 1
+weight: 2
 ---
 
 # BO - International - Locations - Zones - Filter and Quick edit
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 8.0.x, 9.1.x, 8.1.x, 9.2.x, 9.0.x, 1.7.8.x, 1.7.7.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-1009
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7715
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/02_locations/01_zones/01_filterAndQuickEditZones.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/locations/zones
 

@@ -7,21 +7,14 @@ weight: 2
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Automated on** : 9.1.x, 8.1.x, 9.2.x, 9.0.x
-* **Scenario** : https://forge.prestashop.com/browse/TEST-5411
+* **Automated on** : 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8250
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/03_merchandiseReturns/03_updateStatus.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/merchandise-returns
 
 ## Steps
 | Step Description | Expected result |
 | ----- | ----- |
-| Go to BO -> Orders page and click on Add new Order | The Create order page is displayed |
-| Search customer 'John DOE' and choose it | The customer-checkout-history block, the cart block and the address block are displayed |
-| choose product with quantity = 4 and add it to cart | The product table is displayed, the Shipping block is displayed and the summary block is displayed |
-| Choose delivery method (free) | Delivery method is selected |
-| Choose Payment method | Payment method is selected |
-| Choose order status | Order status is selected |
-| Add an Order message and Click on "Create the order" | The order details page is displayed with exact data:<br> # Order status<br> # Order Price<br> # Shipping Address<br> # Invoice Address<br> # Product name<br> # Messages |
 | On BO>Orders>Orders | Orders page displayed |
 | Click on your last order created | Order page displayed |
 | Change the status to Shipped and click to Update status | Successful notification<br><br>Partial refund button diplayed |
@@ -48,3 +41,10 @@ weight: 2
 | Check received emal | Email received to customer => <br><br>Your order return status has changed |
 | Click on Cancel | The status of the merchandise return is changed to "Return completed" with the dark green color <br><br>The date issued= the current date |
 | Come back to FO > Click on the Merchandise Returns page |  |
+| Go to BO -> Orders page and click on Add new Order | The Create order page is displayed |
+| Search customer 'John DOE' and choose it | The customer-checkout-history block, the cart block and the address block are displayed |
+| choose product with quantity = 4 and add it to cart | The product table is displayed, the Shipping block is displayed and the summary block is displayed |
+| Choose delivery method (free) | Delivery method is selected |
+| Choose Payment method | Payment method is selected |
+| Choose order status | Order status is selected |
+| Add an Order message and Click on "Create the order" | The order details page is displayed with exact data:<br> # Order status<br> # Order Price<br> # Shipping Address<br> # Invoice Address<br> # Product name<br> # Messages |

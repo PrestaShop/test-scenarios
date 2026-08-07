@@ -1,13 +1,13 @@
 ---
 title: "BO - Orders - Multicarrier"
-weight: 12
+weight: 3
 ---
 
 # BO - Orders - Multicarrier
 ## Details
 * **Component** : Core
 * **Status** : Automated
-* **Scenario** : https://forge.prestashop.com/browse/TEST-11917
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8469
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/createOrders/11_multiCarrier.ts
 
 ## Steps

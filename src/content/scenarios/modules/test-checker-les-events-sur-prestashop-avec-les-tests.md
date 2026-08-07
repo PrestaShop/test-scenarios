@@ -5,6 +5,6 @@ weight: 1
 
 # Test Checker les events sur prestashop avec les tests
 ## Details
-* **Status** : Sandbox
-* **Scenario** : https://forge.prestashop.com/browse/TEST-400
+* **Status** : À faire
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7311
 
