@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameter - Admin API - Admin API Enable/Disable"
-weight: 5
+weight: 2
 ---
 
 # BO - Advanced Parameter - Admin API - Admin API Enable/Disable

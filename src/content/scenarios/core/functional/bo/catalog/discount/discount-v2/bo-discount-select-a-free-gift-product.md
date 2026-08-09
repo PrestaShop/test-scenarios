@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Select a free gift product "
-weight: 7
+weight: 24
 ---
 
 # BO - Discount - Select a free gift product 

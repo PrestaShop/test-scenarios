@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart : Display modal of product customization"
-weight: 4
+weight: 3
 ---
 
 # FO - Cart : Display modal of product customization

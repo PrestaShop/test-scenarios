@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Team - Roles - CRUD"
-weight: 2
+weight: 1
 ---
 
 # BO - Advanced parameters - Team - Roles - CRUD

@@ -1,6 +1,6 @@
 ---
 title: "BO - Duplicate product"
-weight: 16
+weight: 10
 ---
 
 # BO - Duplicate product

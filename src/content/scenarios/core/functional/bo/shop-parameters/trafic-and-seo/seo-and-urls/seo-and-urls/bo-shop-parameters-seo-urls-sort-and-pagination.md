@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Sort and pagination"
-weight: 3
+weight: 2
 ---
 
 # BO - Shop Parameters - SEO & URLs - Sort and pagination

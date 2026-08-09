@@ -1,6 +1,6 @@
 ---
 title: "BO - Search - Maximum word length (in characters)"
-weight: 2
+weight: 3
 ---
 
 # BO - Search - Maximum word length (in characters)

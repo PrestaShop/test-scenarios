@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Set period "
-weight: 16
+weight: 15
 ---
 
 # BO - Discount - Set period 

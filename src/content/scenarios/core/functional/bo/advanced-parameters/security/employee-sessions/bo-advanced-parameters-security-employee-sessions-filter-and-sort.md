@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Employee sessions - Filter and sort"
-weight: 5
+weight: 4
 ---
 
 # BO - Advanced parameters - Security - Employee sessions - Filter and sort

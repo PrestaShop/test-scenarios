@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Use rounding to filter price field configuration"
-weight: 13
+weight: 9
 ---
 
 # Faceted search module - Use rounding to filter price field configuration

@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Actions - Apply a discount to Selected product(s) "
-weight: 6
+weight: 5
 ---
 
 # BO - Cart rules - Actions - Apply a discount to Selected product(s) 

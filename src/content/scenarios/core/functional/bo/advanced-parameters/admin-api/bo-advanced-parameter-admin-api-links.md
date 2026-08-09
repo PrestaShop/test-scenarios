@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameter - Admin API - Links"
-weight: 1
+weight: 4
 ---
 
 # BO - Advanced Parameter - Admin API - Links

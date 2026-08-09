@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Positions - Change position (drag and drop)"
-weight: 3
+weight: 4
 ---
 
 # BO - Design - Positions - Change position (drag and drop)

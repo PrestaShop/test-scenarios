@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Verification during backup part"
-weight: 18
+weight: 1
 ---
 
 # Autoupgrade - Web Version - Verification during backup part

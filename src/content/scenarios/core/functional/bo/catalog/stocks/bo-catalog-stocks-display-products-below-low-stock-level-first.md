@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks : Display products below low stock level first"
-weight: 8
+weight: 3
 ---
 
 # BO - Catalog - Stocks : Display products below low stock level first

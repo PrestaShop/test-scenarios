@@ -1,6 +1,6 @@
 ---
 title: "POST /admin-api/modules/upload-source"
-weight: 10
+weight: 9
 ---
 
 # POST /admin-api/modules/upload-source

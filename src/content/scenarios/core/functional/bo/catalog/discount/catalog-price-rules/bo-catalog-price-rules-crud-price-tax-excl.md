@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Price(tax excl.)"
-weight: 3
+weight: 2
 ---
 
 # BO - Catalog price Rules - CRUD - Price(tax excl.)

@@ -1,6 +1,6 @@
 ---
 title: "BO - Products list - Bulk actions, Enable/Disable, 3-dot button"
-weight: 11
+weight: 16
 ---
 
 # BO - Products list - Bulk actions, Enable/Disable, 3-dot button

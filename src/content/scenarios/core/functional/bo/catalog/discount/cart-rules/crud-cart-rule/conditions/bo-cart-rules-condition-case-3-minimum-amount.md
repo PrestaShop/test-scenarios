@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Condition - Case 3 - Minimum amount"
-weight: 6
+weight: 11
 ---
 
 # BO - Cart rules - Condition - Case 3 - Minimum amount

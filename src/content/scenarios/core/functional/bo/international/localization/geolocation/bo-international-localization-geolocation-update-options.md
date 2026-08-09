@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Geolocation - Update options"
-weight: 1
+weight: 2
 ---
 
 # BO - International - Localization - Geolocation - Update options

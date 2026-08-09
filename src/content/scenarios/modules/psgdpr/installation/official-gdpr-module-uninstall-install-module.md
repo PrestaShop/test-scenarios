@@ -1,6 +1,6 @@
 ---
 title: "Official GDPR module - Uninstall/Install module"
-weight: 1
+weight: 2
 ---
 
 # Official GDPR module - Uninstall/Install module

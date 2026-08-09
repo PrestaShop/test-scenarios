@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Check that rating is displayed"
-weight: 5
+weight: 1
 ---
 
 # productcomments - Check that rating is displayed

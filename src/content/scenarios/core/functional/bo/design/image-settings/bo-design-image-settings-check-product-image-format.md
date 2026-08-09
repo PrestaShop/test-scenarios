@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings : Check product image format"
-weight: 9
+weight: 8
 ---
 
 # BO - Design - Image Settings : Check product image format

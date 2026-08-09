@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Bulk actions status"
-weight: 8
+weight: 5
 ---
 
 # BO - Orders - Bulk actions status

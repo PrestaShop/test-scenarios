@@ -1,6 +1,6 @@
 ---
 title: "BO - CRUD Standard product"
-weight: 8
+weight: 3
 ---
 
 # BO - CRUD Standard product

@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart : Change quantity"
-weight: 5
+weight: 4
 ---
 
 # FO - Cart : Change quantity

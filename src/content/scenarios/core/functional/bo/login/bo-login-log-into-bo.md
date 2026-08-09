@@ -1,6 +1,6 @@
 ---
 title: "BO - Login - Log into BO"
-weight: 2
+weight: 1
 ---
 
 # BO - Login - Log into BO

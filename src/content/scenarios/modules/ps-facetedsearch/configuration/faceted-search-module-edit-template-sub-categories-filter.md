@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Edit template - Sub-categories filter"
-weight: 19
+weight: 18
 ---
 
 # Faceted search module - Edit template - Sub-categories filter

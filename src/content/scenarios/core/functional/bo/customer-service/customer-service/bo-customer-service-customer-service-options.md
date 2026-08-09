@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service : Customer service options"
-weight: 6
+weight: 5
 ---
 
 # BO - Customer Service : Customer service options

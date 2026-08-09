@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Search an email address"
-weight: 7
+weight: 11
 ---
 
 # ps_emailsubscription - Search an email address

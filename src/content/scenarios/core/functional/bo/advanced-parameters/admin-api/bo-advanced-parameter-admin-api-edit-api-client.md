@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameter - Admin API - Edit API Client"
-weight: 3
+weight: 6
 ---
 
 # BO - Advanced Parameter - Admin API - Edit API Client

@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Condition - Case 8 - Group customer selection"
-weight: 5
+weight: 7
 ---
 
 # BO - Cart rules - Condition - Case 8 - Group customer selection

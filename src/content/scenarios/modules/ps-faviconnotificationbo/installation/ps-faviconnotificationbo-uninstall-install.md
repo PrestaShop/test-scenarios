@@ -1,6 +1,6 @@
 ---
 title: "ps_faviconnotificationbo - Uninstall / Install"
-weight: 3
+weight: 1
 ---
 
 # ps_faviconnotificationbo - Uninstall / Install

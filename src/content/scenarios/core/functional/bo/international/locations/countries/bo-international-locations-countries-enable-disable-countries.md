@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Locations - Countries - Enable / Disable Countries"
-weight: 4
+weight: 3
 ---
 
 # BO - International - Locations - Countries - Enable / Disable Countries

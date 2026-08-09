@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Team - Employees - Filter and Quick Edit"
-weight: 3
+weight: 6
 ---
 
 # BO - Advanced parameters - Team - Employees - Filter and Quick Edit

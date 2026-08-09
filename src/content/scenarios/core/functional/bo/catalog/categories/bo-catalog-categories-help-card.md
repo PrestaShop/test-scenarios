@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Categories - Help card"
-weight: 1
+weight: 6
 ---
 
 # BO - Catalog - Categories - Help card

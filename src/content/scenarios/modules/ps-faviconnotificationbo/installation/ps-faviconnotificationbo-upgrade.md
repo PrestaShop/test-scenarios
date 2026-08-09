@@ -1,6 +1,6 @@
 ---
 title: "ps_faviconnotificationbo - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # ps_faviconnotificationbo - Upgrade

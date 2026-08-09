@@ -1,6 +1,6 @@
 ---
 title: "DELETE /admin-api/categories/{categoryId}/{deleteMode}"
-weight: 2
+weight: 3
 ---
 
 # DELETE /admin-api/categories/{categoryId}/{deleteMode}

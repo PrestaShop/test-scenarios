@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Employee sessions - CRUD"
-weight: 3
+weight: 2
 ---
 
 # BO - Advanced parameters - Security - Employee sessions - CRUD

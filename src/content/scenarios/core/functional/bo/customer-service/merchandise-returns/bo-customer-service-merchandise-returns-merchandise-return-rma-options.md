@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Merchandise Returns : Merchandise return (RMA) options"
-weight: 3
+weight: 2
 ---
 
 # BO - Customer Service - Merchandise Returns : Merchandise return (RMA) options

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Groups - Default groups options"
-weight: 2
+weight: 1
 ---
 
 # BO - Shop Parameters - Customer Settings - Groups - Default groups options

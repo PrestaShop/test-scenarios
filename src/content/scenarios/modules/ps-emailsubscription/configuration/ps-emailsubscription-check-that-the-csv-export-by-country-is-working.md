@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check that the CSV export by country is working"
-weight: 13
+weight: 4
 ---
 
 # ps_emailsubscription - Check that the CSV export by country is working

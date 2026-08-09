@@ -1,6 +1,6 @@
 ---
 title: "PUT /admin-api/modules/{technicalName}/install"
-weight: 9
+weight: 7
 ---
 
 # PUT /admin-api/modules/{technicalName}/install

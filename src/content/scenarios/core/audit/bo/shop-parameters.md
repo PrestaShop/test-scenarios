@@ -1,6 +1,6 @@
 ---
 title: "Shop Parameters"
-weight: 9
+weight: 3
 ---
 
 # Shop Parameters

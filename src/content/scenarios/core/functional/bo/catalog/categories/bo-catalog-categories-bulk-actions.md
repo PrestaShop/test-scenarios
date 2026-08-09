@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Categories - Bulk Actions"
-weight: 8
+weight: 7
 ---
 
 # BO - Catalog - Categories - Bulk Actions

@@ -1,6 +1,6 @@
 ---
 title: "FO - Homepage - Consult product quickview"
-weight: 3
+weight: 5
 ---
 
 # FO - Homepage - Consult product quickview

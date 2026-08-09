@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Enable / disable guest checkout"
-weight: 7
+weight: 3
 ---
 
 # BO - Shop Parameters - Order Settings - Enable / disable guest checkout

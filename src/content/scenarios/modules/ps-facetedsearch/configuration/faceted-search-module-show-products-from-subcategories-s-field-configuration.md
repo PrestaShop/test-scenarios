@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Show products from subcategories\'s field configuration"
-weight: 12
+weight: 10
 ---
 
 # Faceted search module - Show products from subcategories\'s field configuration

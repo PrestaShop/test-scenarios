@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Change the php during the version choice"
-weight: 7
+weight: 19
 ---
 
 # Autoupgrade - Web Version - Change the php during the version choice

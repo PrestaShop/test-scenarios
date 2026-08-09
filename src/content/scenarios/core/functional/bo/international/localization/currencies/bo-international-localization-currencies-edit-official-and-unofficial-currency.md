@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Currencies - Edit official and unofficial currency"
-weight: 2
+weight: 3
 ---
 
 # BO - International - Localization - Currencies - Edit official and unofficial currency

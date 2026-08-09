@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Preview order"
-weight: 1
+weight: 3
 ---
 
 # BO - Orders - Preview order

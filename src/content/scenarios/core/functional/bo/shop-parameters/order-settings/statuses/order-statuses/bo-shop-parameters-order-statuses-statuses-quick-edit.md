@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Statuses - Statuses - Quick edit"
-weight: 2
+weight: 4
 ---
 
 # BO - Shop Parameters - Order Statuses - Statuses - Quick edit

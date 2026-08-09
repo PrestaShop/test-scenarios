@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Languages - Filter"
-weight: 4
+weight: 3
 ---
 
 # BO - International - Localization - Languages - Filter

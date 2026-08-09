@@ -1,6 +1,6 @@
 ---
 title: "FO - Order confirmation - List of ordered products"
-weight: 4
+weight: 3
 ---
 
 # FO - Order confirmation - List of ordered products

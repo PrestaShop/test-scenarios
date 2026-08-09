@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Enable/disable the vote on a comment"
-weight: 7
+weight: 4
 ---
 
 # productcomments - Enable/disable the vote on a comment

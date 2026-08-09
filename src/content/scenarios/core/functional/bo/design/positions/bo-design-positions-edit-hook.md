@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Positions - Edit Hook"
-weight: 7
+weight: 2
 ---
 
 # BO - Design - Positions - Edit Hook

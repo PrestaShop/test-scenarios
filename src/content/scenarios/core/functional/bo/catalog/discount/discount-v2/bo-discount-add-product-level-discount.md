@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Add product level discount"
-weight: 6
+weight: 3
 ---
 
 # BO - Discount - Add product level discount

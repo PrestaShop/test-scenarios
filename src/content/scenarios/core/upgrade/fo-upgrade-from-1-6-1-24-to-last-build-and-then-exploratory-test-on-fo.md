@@ -1,6 +1,6 @@
 ---
 title: "[FO] Upgrade from 1.6.1.24 to last build and then exploratory test on FO"
-weight: 4
+weight: 5
 ---
 
 # [FO] Upgrade from 1.6.1.24 to last build and then exploratory test on FO

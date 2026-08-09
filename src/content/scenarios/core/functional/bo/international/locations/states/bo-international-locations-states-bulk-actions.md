@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Locations - States - Bulk actions"
-weight: 2
+weight: 3
 ---
 
 # BO - International - Locations - States - Bulk actions

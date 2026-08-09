@@ -1,6 +1,6 @@
 ---
 title: "ps_shoppingcart - Upgrade"
-weight: 3
+weight: 1
 ---
 
 # ps_shoppingcart - Upgrade

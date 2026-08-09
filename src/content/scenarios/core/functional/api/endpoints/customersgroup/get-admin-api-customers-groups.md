@@ -1,6 +1,6 @@
 ---
 title: "GET /admin-api/customers/groups"
-weight: 4
+weight: 3
 ---
 
 # GET /admin-api/customers/groups

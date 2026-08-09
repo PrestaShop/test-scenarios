@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General - Enable / Disable Best sellers"
-weight: 8
+weight: 7
 ---
 
 # BO - Shop Parameters - General - Enable / Disable Best sellers

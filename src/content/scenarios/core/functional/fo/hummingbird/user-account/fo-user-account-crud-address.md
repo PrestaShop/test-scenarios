@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - CRUD address"
-weight: 5
+weight: 2
 ---
 
 # FO - User account - CRUD address

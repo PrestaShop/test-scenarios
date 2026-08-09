@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Multistore - Admin API"
-weight: 8
+weight: 5
 ---
 
 # BO - Advanced Parameters - Multistore - Admin API

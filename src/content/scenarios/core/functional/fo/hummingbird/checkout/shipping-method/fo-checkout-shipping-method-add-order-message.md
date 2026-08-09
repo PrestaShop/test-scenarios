@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Shipping method - Add order message"
-weight: 2
+weight: 1
 ---
 
 # FO - Checkout - Shipping method - Add order message

@@ -1,6 +1,6 @@
 ---
 title: "Category products module- Number of product to display"
-weight: 2
+weight: 3
 ---
 
 # Category products module- Number of product to display

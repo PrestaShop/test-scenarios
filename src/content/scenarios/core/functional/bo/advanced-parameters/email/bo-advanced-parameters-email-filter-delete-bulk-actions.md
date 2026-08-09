@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Email - Filter + Delete + Bulk actions"
-weight: 6
+weight: 1
 ---
 
 # BO - Advanced parameters - Email - Filter + Delete + Bulk actions

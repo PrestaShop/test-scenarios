@@ -1,6 +1,6 @@
 ---
 title: "BO - Combinations Tab"
-weight: 21
+weight: 5
 ---
 
 # BO - Combinations Tab

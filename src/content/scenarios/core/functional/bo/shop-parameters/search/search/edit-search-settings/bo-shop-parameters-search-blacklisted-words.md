@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Search : Blacklisted words"
-weight: 5
+weight: 7
 ---
 
 # BO - Shop Parameters - Search : Blacklisted words

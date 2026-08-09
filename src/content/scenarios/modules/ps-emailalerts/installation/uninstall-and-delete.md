@@ -1,6 +1,6 @@
 ---
 title: "Uninstall and delete"
-weight: 4
+weight: 3
 ---
 
 # Uninstall and delete

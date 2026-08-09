@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Multistore - Attributes & Features"
-weight: 7
+weight: 3
 ---
 
 # BO - Advanced Parameters - Multistore - Attributes & Features

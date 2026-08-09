@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Credit Slips - Generate Credit Slips By Date"
-weight: 3
+weight: 4
 ---
 
 # BO - Orders - Credit Slips - Generate Credit Slips By Date

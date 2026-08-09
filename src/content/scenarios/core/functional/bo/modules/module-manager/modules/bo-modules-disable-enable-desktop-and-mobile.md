@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Disable / Enable desktop and mobile"
-weight: 8
+weight: 4
 ---
 
 # BO - Modules - Disable / Enable desktop and mobile

@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Customers : Transform guest to customer account"
-weight: 7
+weight: 5
 ---
 
 # BO - Customers - Customers : Transform guest to customer account

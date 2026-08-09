@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Upload a module"
-weight: 4
+weight: 2
 ---
 
 # BO - Modules - Upload a module

@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Files - Filter, Pagination, Sort and bulk actions"
-weight: 1
+weight: 2
 ---
 
 # BO - Catalog - Files - Filter, Pagination, Sort and bulk actions

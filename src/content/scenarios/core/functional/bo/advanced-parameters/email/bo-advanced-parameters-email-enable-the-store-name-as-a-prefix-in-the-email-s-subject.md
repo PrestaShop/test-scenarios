@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Email - Enable the store name as a prefix in the email\'s subject"
-weight: 7
+weight: 5
 ---
 
 # BO - Advanced parameters - Email - Enable the store name as a prefix in the email\'s subject

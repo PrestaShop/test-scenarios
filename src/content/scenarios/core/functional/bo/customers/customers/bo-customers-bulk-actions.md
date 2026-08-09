@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Bulk Actions"
-weight: 6
+weight: 7
 ---
 
 # BO - Customers - Bulk Actions

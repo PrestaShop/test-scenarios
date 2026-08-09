@@ -1,6 +1,6 @@
 ---
 title: "Category products module - Display products\' prices"
-weight: 3
+weight: 2
 ---
 
 # Category products module - Display products\' prices

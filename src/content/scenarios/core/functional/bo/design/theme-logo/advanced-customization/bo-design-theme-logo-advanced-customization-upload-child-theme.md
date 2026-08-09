@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Advanced Customization - Upload child theme"
-weight: 2
+weight: 1
 ---
 
 # BO - Design - Theme & Logo - Advanced Customization - Upload child theme

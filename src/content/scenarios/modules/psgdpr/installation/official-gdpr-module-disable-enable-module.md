@@ -1,6 +1,6 @@
 ---
 title: "Official GDPR module - Disable/Enable module"
-weight: 5
+weight: 1
 ---
 
 # Official GDPR module - Disable/Enable module

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General - Disable / Enable Front office security"
-weight: 9
+weight: 6
 ---
 
 # BO - Shop Parameters - General - Disable / Enable Front office security

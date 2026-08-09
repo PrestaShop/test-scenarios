@@ -1,6 +1,6 @@
 ---
 title: "Category products module - Uninstall/Install module"
-weight: 3
+weight: 2
 ---
 
 # Category products module - Uninstall/Install module

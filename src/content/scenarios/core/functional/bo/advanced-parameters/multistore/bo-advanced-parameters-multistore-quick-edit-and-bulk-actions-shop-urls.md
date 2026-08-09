@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Multistore : Quick edit and bulk actions shop Urls"
-weight: 2
+weight: 8
 ---
 
 # BO - Advanced Parameters - Multistore : Quick edit and bulk actions shop Urls

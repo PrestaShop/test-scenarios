@@ -1,6 +1,6 @@
 ---
 title: "BO - Dashboard - Enable/Disable demo mode + check stats"
-weight: 2
+weight: 4
 ---
 
 # BO - Dashboard - Enable/Disable demo mode + check stats

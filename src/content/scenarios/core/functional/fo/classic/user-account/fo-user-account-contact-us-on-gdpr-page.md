@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Contact us on GDPR page"
-weight: 5
+weight: 7
 ---
 
 # FO - User account - Contact us on GDPR page

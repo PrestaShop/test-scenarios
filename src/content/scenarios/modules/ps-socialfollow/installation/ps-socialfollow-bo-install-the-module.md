@@ -1,6 +1,6 @@
 ---
 title: "ps_socialfollow - BO - Install the module"
-weight: 1
+weight: 2
 ---
 
 # ps_socialfollow - BO - Install the module

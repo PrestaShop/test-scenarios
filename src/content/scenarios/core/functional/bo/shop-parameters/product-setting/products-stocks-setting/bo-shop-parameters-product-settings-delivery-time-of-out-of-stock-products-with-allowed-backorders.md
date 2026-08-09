@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Delivery time of out-of-stock products with allowed backorders"
-weight: 4
+weight: 1
 ---
 
 # BO - Shop Parameters - Product Settings - Delivery time of out-of-stock products with allowed backorders

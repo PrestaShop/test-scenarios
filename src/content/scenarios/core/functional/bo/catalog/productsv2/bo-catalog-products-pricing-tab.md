@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products : Pricing Tab"
-weight: 20
+weight: 2
 ---
 
 # BO - Catalog - Products : Pricing Tab
