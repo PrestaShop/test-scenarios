@@ -248,26 +248,59 @@ abstract class AbstractCommand extends Command
             return $this->xrayToken;
         }
 
-        $this->requestsCount++;
+        // Xray Cloud's /authenticate endpoint is rate-limited, and every separate
+        // `console` invocation (scenario:export:core, scenario:export:module, ...) is
+        // a fresh process. The JWT is valid for 24h, so it's cached on disk and reused
+        // by whichever command runs next instead of re-authenticating each time.
+        $cacheFile = sys_get_temp_dir() . '/xray-token-' . md5($this->xraykeyclient) . '.json';
+        if (is_file($cacheFile)) {
+            $cached = json_decode(file_get_contents($cacheFile), true);
+            if (!empty($cached['token']) && ($cached['expiresAt'] ?? 0) > time() + 60) {
+                $this->xrayToken = $cached['token'];
 
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
-        curl_setopt($ch, CURLOPT_URL, self::XRAY_AUTH_URL);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
-            'client_id' => $this->xraykeyclient,
-            'client_secret' => $this->xraykeysecret,
-        ]));
-        $result = curl_exec($ch);
-        curl_close($ch);
+                return $this->xrayToken;
+            }
+        }
 
-        $token = json_decode($result, true);
-        if (!is_string($token) || $token === '') {
-            throw new \RuntimeException('Xray authentication failed: ' . $result);
+        // Xray Cloud's /authenticate rate limit returns a "Too many requests" error with
+        // a nextValidRequestDate; retrying once after a short wait clears transient hits
+        // (e.g. two console commands run back-to-back) without failing the whole command.
+        $maxAttempts = 10;
+        for ($attempt = 1; $attempt <= $maxAttempts; $attempt++) {
+            $this->requestsCount++;
+
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'POST');
+            curl_setopt($ch, CURLOPT_URL, self::XRAY_AUTH_URL);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode([
+                'client_id' => $this->xraykeyclient,
+                'client_secret' => $this->xraykeysecret,
+            ]));
+            $result = curl_exec($ch);
+            curl_close($ch);
+
+            $token = json_decode($result, true);
+            if (is_string($token) && $token !== '') {
+                break;
+            }
+
+            $isRateLimited = strpos((string) $result, 'Too many requests') !== false;
+            if (!$isRateLimited || $attempt === $maxAttempts) {
+                throw new \RuntimeException('Xray authentication failed: ' . $result);
+            }
+
+            sleep(120);
         }
 
         $this->xrayToken = $token;
+
+        $payload = json_decode(base64_decode(strtr(explode('.', $token)[1] ?? '', '-_', '+/')), true);
+        file_put_contents($cacheFile, json_encode([
+            'token' => $token,
+            'expiresAt' => $payload['exp'] ?? (time() + 3600),
+        ]));
 
         return $this->xrayToken;
     }
