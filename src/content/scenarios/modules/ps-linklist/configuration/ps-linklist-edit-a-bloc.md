@@ -1,6 +1,6 @@
 ---
 title: "ps_linklist - Edit a bloc"
-weight: 1
+weight: 3
 ---
 
 # ps_linklist - Edit a bloc

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Security - General"
-weight: 2
+weight: 1
 ---
 
 # BO - Advanced parameters - Security - Security - General

@@ -1,6 +1,6 @@
 ---
 title: "Check access to the orders"
-weight: 12
+weight: 3
 ---
 
 # Check access to the orders

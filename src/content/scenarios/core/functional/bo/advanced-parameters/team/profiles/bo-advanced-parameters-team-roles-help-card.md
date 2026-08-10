@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Team - Roles - Help card"
-weight: 3
+weight: 5
 ---
 
 # BO - Advanced parameters - Team - Roles - Help card

@@ -1,6 +1,6 @@
 ---
 title: "Create an order with an existing customer"
-weight: 7
+weight: 5
 ---
 
 # Create an order with an existing customer

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Search - Indexing - Set a cron job"
-weight: 2
+weight: 1
 ---
 
 # BO - Shop Parameters - Search - Indexing - Set a cron job

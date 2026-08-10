@@ -1,6 +1,6 @@
 ---
 title: "Modules"
-weight: 12
+weight: 6
 ---
 
 # Modules

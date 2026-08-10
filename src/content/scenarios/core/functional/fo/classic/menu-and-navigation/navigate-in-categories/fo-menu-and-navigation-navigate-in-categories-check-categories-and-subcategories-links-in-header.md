@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Navigate in Categories : Check categories and subcategories links in header"
-weight: 2
+weight: 3
 ---
 
 # FO - Menu and Navigation - Navigate in Categories : Check categories and subcategories links in header

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Employee sessions - Bulk action and Pagination"
-weight: 1
+weight: 2
 ---
 
 # BO - Advanced parameters - Security - Employee sessions - Bulk action and Pagination

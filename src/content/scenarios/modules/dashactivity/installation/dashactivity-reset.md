@@ -1,6 +1,6 @@
 ---
 title: "dashactivity - Reset"
-weight: 1
+weight: 3
 ---
 
 # dashactivity - Reset

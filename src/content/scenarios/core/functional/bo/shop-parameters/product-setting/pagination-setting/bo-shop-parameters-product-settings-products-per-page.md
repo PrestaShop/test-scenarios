@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Products per page"
-weight: 2
+weight: 1
 ---
 
 # BO - Shop Parameters - Product Settings - Products per page

@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check the ID in the tab configuration if the user register as customer and uncheck the box subscribe"
-weight: 12
+weight: 3
 ---
 
 # ps_emailsubscription - Check the ID in the tab configuration if the user register as customer and uncheck the box subscribe

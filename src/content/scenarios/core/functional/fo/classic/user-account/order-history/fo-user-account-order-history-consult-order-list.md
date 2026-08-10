@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Order history - Consult order list"
-weight: 2
+weight: 1
 ---
 
 # FO - User account - Order history - Consult order list

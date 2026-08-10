@@ -1,6 +1,6 @@
 ---
 title: "Edit and delete products in a list"
-weight: 5
+weight: 4
 ---
 
 # Edit and delete products in a list

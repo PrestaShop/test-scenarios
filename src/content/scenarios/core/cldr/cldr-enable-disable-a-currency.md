@@ -1,6 +1,6 @@
 ---
 title: "CLDR : Enable/Disable a currency"
-weight: 1
+weight: 13
 ---
 
 # CLDR : Enable/Disable a currency

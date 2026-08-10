@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Upgrade module"
-weight: 2
+weight: 7
 ---
 
 # Mail alerts module - Upgrade module

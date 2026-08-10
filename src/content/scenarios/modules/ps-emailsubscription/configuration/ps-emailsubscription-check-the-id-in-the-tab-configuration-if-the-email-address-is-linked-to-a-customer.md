@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check the ID in the tab configuration  if the email address is linked to a customer"
-weight: 15
+weight: 1
 ---
 
 # ps_emailsubscription - Check the ID in the tab configuration  if the email address is linked to a customer

@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Reset"
-weight: 7
+weight: 8
 ---
 
 # BO - Modules - Reset

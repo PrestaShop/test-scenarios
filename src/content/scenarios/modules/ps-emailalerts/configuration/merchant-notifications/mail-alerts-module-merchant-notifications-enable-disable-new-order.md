@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Merchant notifications : Enable/Disable new order"
-weight: 5
+weight: 7
 ---
 
 # Mail alerts module - Merchant notifications : Enable/Disable new order

@@ -1,6 +1,6 @@
 ---
 title: "POST /admin-api/products/images/{imageId}"
-weight: 7
+weight: 4
 ---
 
 # POST /admin-api/products/images/{imageId}

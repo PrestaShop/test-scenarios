@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Reset module"
-weight: 7
+weight: 3
 ---
 
 # Mail alerts module - Reset module

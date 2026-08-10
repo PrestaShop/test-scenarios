@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Customer sessions - Bulk action and Pagination"
-weight: 5
+weight: 2
 ---
 
 # BO - Advanced parameters - Security - Customer sessions - Bulk action and Pagination

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Customer sessions - CRUD"
-weight: 1
+weight: 3
 ---
 
 # BO - Advanced parameters - Security - Customer sessions - CRUD

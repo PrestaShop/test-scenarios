@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Order history - Download invoice from orders list"
-weight: 1
+weight: 3
 ---
 
 # FO - User account - Order history - Download invoice from orders list

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Database - SQL Manager - Export"
-weight: 2
+weight: 3
 ---
 
 # BO - Advanced Parameters - Database - SQL Manager - Export

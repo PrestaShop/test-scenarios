@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Install an 8.0.4 on php 8.1"
-weight: 6
+weight: 4
 ---
 
 # Autoupgrade - Web Version - Install an 8.0.4 on php 8.1

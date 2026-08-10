@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Share a list"
-weight: 6
+weight: 2
 ---
 
 # Wishlist module - Share a list

@@ -1,6 +1,6 @@
 ---
 title: "ps_customtext - Delete text and check error message"
-weight: 1
+weight: 2
 ---
 
 # ps_customtext - Delete text and check error message

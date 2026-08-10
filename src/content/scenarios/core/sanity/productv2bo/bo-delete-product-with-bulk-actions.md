@@ -1,6 +1,6 @@
 ---
 title: "BO - Delete product with bulk actions"
-weight: 6
+weight: 3
 ---
 
 # BO - Delete product with bulk actions

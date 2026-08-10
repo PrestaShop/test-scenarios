@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General - Enable / disable multistore"
-weight: 3
+weight: 5
 ---
 
 # BO - Shop Parameters - General - Enable / disable multistore

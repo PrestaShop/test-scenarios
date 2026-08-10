@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Enable stock management"
-weight: 6
+weight: 2
 ---
 
 # BO - Shop Parameters - Product Settings - Enable stock management

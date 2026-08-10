@@ -1,6 +1,6 @@
 ---
 title: "ps_checkpayment - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # ps_checkpayment - Uninstall and delete

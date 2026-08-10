@@ -1,6 +1,6 @@
 ---
 title: "DELETE /admin-api/attributes/attributes/{attributeId}"
-weight: 2
+weight: 5
 ---
 
 # DELETE /admin-api/attributes/attributes/{attributeId}

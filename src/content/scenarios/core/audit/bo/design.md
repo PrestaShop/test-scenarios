@@ -1,6 +1,6 @@
 ---
 title: "Design"
-weight: 10
+weight: 4
 ---
 
 # Design

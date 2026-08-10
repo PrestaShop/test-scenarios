@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Max size short description"
-weight: 5
+weight: 6
 ---
 
 # BO - Shop Parameters - Product Settings - Max size short description

@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Quick view : Close quick view modal"
-weight: 1
+weight: 6
 ---
 
 # FO - Product page - Quick view : Close quick view modal

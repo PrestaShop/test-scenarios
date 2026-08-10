@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Display out-of-stock label on product listing pages"
-weight: 3
+weight: 7
 ---
 
 # BO - Shop Parameters - Product Settings - Display out-of-stock label on product listing pages

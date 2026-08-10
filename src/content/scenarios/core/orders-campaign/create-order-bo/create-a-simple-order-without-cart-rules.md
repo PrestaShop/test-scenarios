@@ -1,6 +1,6 @@
 ---
 title: "Create a simple order without cart rules"
-weight: 6
+weight: 3
 ---
 
 # Create a simple order without cart rules

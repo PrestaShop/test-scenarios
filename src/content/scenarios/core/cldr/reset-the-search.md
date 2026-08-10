@@ -1,6 +1,6 @@
 ---
 title: "Reset the search"
-weight: 2
+weight: 12
 ---
 
 # Reset the search

@@ -1,6 +1,6 @@
 ---
 title: "BO - Search - Search within word"
-weight: 2
+weight: 5
 ---
 
 # BO - Search - Search within word

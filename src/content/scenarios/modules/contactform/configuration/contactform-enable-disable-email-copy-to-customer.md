@@ -1,6 +1,6 @@
 ---
 title: "contactform - Enable/Disable email copy to customer"
-weight: 3
+weight: 1
 ---
 
 # contactform - Enable/Disable email copy to customer

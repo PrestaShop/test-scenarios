@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Rollback "
-weight: 20
+weight: 2
 ---
 
 # Autoupgrade - Web Version - Rollback 
