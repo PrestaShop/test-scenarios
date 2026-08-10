@@ -15,6 +15,20 @@
       <description> FO - Search Page : Sort results list Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7915 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/05_sortResultsList.ts Steps Step Description Expected result Go to FO &amp;gt; In search bar type &amp;ldquo;mug&amp;rdquo; Search results for &amp;ldquo;mug&amp;rdquo; page is displayed with 5 items found.&#xA;Sorted by Relevance Sort by: Name, A to Z Items are sorted from A to Z Sort by: Name, Z to A Items are sorted from Z to A Sort by: Price, low to high Items are sorted by Price, low to high Sort by: Price, high to low Items are sorted by Price, high to low Sort by: Relevance Items are sorted by Relevance </description>
     </item>
     <item>
+      <title>FO - Search - Search no result</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-no-result.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-no-result.html</guid>
+      <description>FO - Search - Search no result Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7912 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/03_searchNoResult.ts Steps Step Description Expected result Case 1: With less than 3 characters&#xA;Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (less than 3 characters length) and click on &amp;ldquo;Enter&amp;rdquo; * No autocomplete list is displayed</description>
+    </item>
+    <item>
+      <title>FO - Search Page : Consult product quick view</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-page-consult-product-quick-view.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-page-consult-product-quick-view.html</guid>
+      <description>FO - Search Page : Consult product quick view Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7914 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/06_consultProductQuickView.ts Steps Step Description Expected result Go to FO &amp;gt; In search bar, type &amp;ldquo;mug&amp;rdquo; Page Search results for &amp;ldquo;mug&amp;rdquo; is displayed&#xA;Found 5 products Put your mouse over the product &amp;ldquo;Customizable mug&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; is displayed Click on the &amp;ldquo;Quickview&amp;rdquo; button Product modal is displayed :</description>
+    </item>
+    <item>
       <title>FO - Search Page : Consult results list</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-page-consult-results-list.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,25 +43,11 @@
       <description>FO - Search - Search product bar, consult autocomplete list Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7909 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/01_consultAutocompleteList.ts Steps Step Description Expected result Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) * The autocomplete list is displayed with 7 products&#xA;* The search bar in the header keeps the word written Click outside The autocomplete list is not displayed Case 1: With &amp;ldquo;Mug&amp;rdquo; products</description>
     </item>
     <item>
-      <title>FO - Search Page : Consult product quick view</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-page-consult-product-quick-view.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-page-consult-product-quick-view.html</guid>
-      <description>FO - Search Page : Consult product quick view Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7914 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/06_consultProductQuickView.ts Steps Step Description Expected result Go to FO &amp;gt; In search bar, type &amp;ldquo;mug&amp;rdquo; Page Search results for &amp;ldquo;mug&amp;rdquo; is displayed&#xA;Found 5 products Put your mouse over the product &amp;ldquo;Customizable mug&amp;rdquo; The button &amp;ldquo;Quickview&amp;rdquo; is displayed Click on the &amp;ldquo;Quickview&amp;rdquo; button Product modal is displayed :</description>
-    </item>
-    <item>
       <title>FO - Search - Search a product and validate</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-a-product-and-validate.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-a-product-and-validate.html</guid>
       <description>FO - Search - Search a product and validate Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7910 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/02_searchProduct.ts Steps Step Description Expected result Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (min 3 characters length) The autocomplete list is displayed with 3 products with all &amp;ldquo;notebook&amp;rdquo; characters on products title Case 1: Choose a product on the list</description>
-    </item>
-    <item>
-      <title>FO - Search - Search no result</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-no-result.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/search/fo-search-search-no-result.html</guid>
-      <description>FO - Search - Search no result Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7912 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/07_search/03_searchNoResult.ts Steps Step Description Expected result Case 1: With less than 3 characters&#xA;Go to FO &amp;gt; Click on the search bar on the header &amp;gt; Write a word on it (less than 3 characters length) and click on &amp;ldquo;Enter&amp;rdquo; * No autocomplete list is displayed</description>
     </item>
   </channel>
 </rss>

@@ -8,34 +8,6 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>PUT /admin-api/modules/{technicalName}/uninstall</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-uninstall.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-uninstall.html</guid>
-      <description>PUT /admin-api/modules/{technicalName}/uninstall Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8404 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/06_putModulesTechnicalNameUninstall.ts Steps Step Description Expected result Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Click on the button &amp;ldquo;Upload a module&amp;rdquo; The modal &amp;ldquo;Upload a module&amp;rdquo; is displayed. Upload the module &amp;ldquo;Keycloak connector demo&amp;rdquo; The module is installed Request with method POST the endpoint &amp;ldquo;https://[url of your shop]/admin-api/modules/{technicalName}/uninstall&amp;rdquo; with data</description>
-    </item>
-    <item>
-      <title>PUT /admin-api/modules/{technicalName}/status</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-status.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-status.html</guid>
-      <description>PUT /admin-api/modules/{technicalName}/status Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8400 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/05_putModulesTechnicalNameStatus.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
-    </item>
-    <item>
-      <title>GET /admin-api/modules</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/get-admin-api-modules.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/get-admin-api-modules.html</guid>
-      <description>GET /admin-api/modules Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8373 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/11_getModules.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
-    </item>
-    <item>
-      <title>GET /admin-api/modules/{technicalName}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/get-admin-api-modules-technicalname.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/get-admin-api-modules-technicalname.html</guid>
-      <description>GET /admin-api/modules/{technicalName} Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8375 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/08_getModulesTechnicalName.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
-    </item>
-    <item>
       <title>PUT /admin-api/modules/{technicalName}/upgrade</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,6 +29,13 @@
       <description>PUT /admin-api/modules/{technicalName}/install Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8405 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/module/03_putModuleTechnicalNameInstall.ts Steps Step Description Expected result Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Set the name of the module &amp;ldquo;Keycloak connector demo&amp;rdquo; in the search bar&#xA;Click on the search button The module is not displayed Request with method POST the endpoint &amp;ldquo;https://[url of your shop]/admin-api/modules/upload-source&amp;rdquo; with data The HTTP code is 201.</description>
     </item>
     <item>
+      <title>PUT /admin-api/modules/{technicalName}/status</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-status.html</guid>
+      <description>PUT /admin-api/modules/{technicalName}/status Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8400 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/05_putModulesTechnicalNameStatus.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
+    </item>
+    <item>
       <title>PUT /admin-api/modules/bulk-update-status</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-bulk-update-status.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -71,11 +50,18 @@
       <description>POST /admin-api/modules/upload-source Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8403 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/02_postModulesUploadSource.ts Steps Step Description Expected result Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Set the name of the module &amp;ldquo;Keycloak connector demo&amp;rdquo; in the search bar&#xA;Click on the search button The module is not displayed Request with method POST the endpoint &amp;ldquo;https://[url of your shop]/admin-api/modules/upload-source&amp;rdquo; with data The HTTP code is 201.</description>
     </item>
     <item>
-      <title>PUT /admin-api/modules/bulk-uninstall</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-bulk-uninstall.html</link>
+      <title>GET /admin-api/modules/{technicalName}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/get-admin-api-modules-technicalname.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-bulk-uninstall.html</guid>
-      <description>PUT /admin-api/modules/bulk-uninstall Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8406 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/10_putModulesBulkUninstall.ts Steps Step Description Expected result Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Click on the button &amp;ldquo;Upload a module&amp;rdquo; The modal &amp;ldquo;Upload a module&amp;rdquo; is displayed. Upload the module &amp;ldquo;Keycloak connector demo&amp;rdquo; The module is installed Request with method POST the endpoint &amp;ldquo;https://[url of your shop]/admin-api/modules/bulk-uninstall&amp;rdquo; with data The HTTP code is 204 Reload the page</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/get-admin-api-modules-technicalname.html</guid>
+      <description>GET /admin-api/modules/{technicalName} Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8375 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/08_getModulesTechnicalName.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
+    </item>
+    <item>
+      <title>GET /admin-api/modules</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/get-admin-api-modules.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/get-admin-api-modules.html</guid>
+      <description>GET /admin-api/modules Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8373 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/11_getModules.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
     </item>
     <item>
       <title>PATCH /admin-api/modules/{technicalName}/reset</title>
@@ -83,6 +69,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/patch-admin-api-modules-technicalname-reset.html</guid>
       <description>PATCH /admin-api/modules/{technicalName}/reset Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8401 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/04_patchModulesTechnicalNameReset.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
+    </item>
+    <item>
+      <title>PUT /admin-api/modules/{technicalName}/uninstall</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-uninstall.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-technicalname-uninstall.html</guid>
+      <description>PUT /admin-api/modules/{technicalName}/uninstall Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8404 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/07_module/06_putModulesTechnicalNameUninstall.ts Steps Step Description Expected result Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Click on the button &amp;ldquo;Upload a module&amp;rdquo; The modal &amp;ldquo;Upload a module&amp;rdquo; is displayed. Upload the module &amp;ldquo;Keycloak connector demo&amp;rdquo; The module is installed Request with method POST the endpoint &amp;ldquo;https://[url of your shop]/admin-api/modules/{technicalName}/uninstall&amp;rdquo; with data</description>
+    </item>
+    <item>
+      <title>PUT /admin-api/modules/bulk-uninstall</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-bulk-uninstall.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/module/put-admin-api-modules-bulk-uninstall.html</guid>
+      <description>PUT /admin-api/modules/bulk-uninstall Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8406 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/06_module/10_putModulesBulkUninstall.ts Steps Step Description Expected result Go to modules manager page The page title should contains &amp;lsquo;Module manager&amp;rsquo; Click on the button &amp;ldquo;Upload a module&amp;rdquo; The modal &amp;ldquo;Upload a module&amp;rdquo; is displayed. Upload the module &amp;ldquo;Keycloak connector demo&amp;rdquo; The module is installed Request with method POST the endpoint &amp;ldquo;https://[url of your shop]/admin-api/modules/bulk-uninstall&amp;rdquo; with data The HTTP code is 204 Reload the page</description>
     </item>
   </channel>
 </rss>

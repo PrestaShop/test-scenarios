@@ -7,47 +7,5 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>BO - Catalog - Products - Enable &amp; Disable</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-enable-disable.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-enable-disable.html</guid>
-      <description>BO - Catalog - Products - Enable &amp;amp; Disable Details Component : Core Status : Deprecated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7558 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/01_filterAndQuickEditProducts.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products The Product list page is displayed Filter by Product Name Number of products &amp;lt; Total of products&#xA;All products contain the searched Name Click on the switch toggle and click on Disable An alert &amp;ldquo;Product successfully deactivated.</description>
-    </item>
-    <item>
-      <title>BO - Catalog - Products - Add Virtual Product</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-virtual-product.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-virtual-product.html</guid>
-      <description>BO - Catalog - Products - Add Virtual Product Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7555 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click Add new product &amp;gt; Choose Virtual Product &amp;gt; Enter name + price + quantity &amp;gt; Click Save Message Settings updated. appears Click Offline to uncheck it Product is now Online In tab Virtual &amp;gt; Add a downloadable file (png, jpg or other) &amp;gt; Choose file &amp;gt; Add filename &amp;gt; Add Number of allowed downloads &amp;gt; Add Expiration Date &amp;gt; Add number of days &amp;gt; Save Message Settings updated.</description>
-    </item>
-    <item>
-      <title>BO - Catalog - Products - Add Pack Product</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-pack-product.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-pack-product.html</guid>
-      <description>BO - Catalog - Products - Add Pack Product Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7553 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click Add new products &amp;gt; Choose pack of products &amp;gt; Enter a name &amp;gt; Add quantity &amp;gt; Add price * Message &amp;ldquo;Unable to update settings&amp;rdquo;. appears&#xA;* Message &amp;ldquo;This pack is empty. You must add at least one product item.</description>
-    </item>
-    <item>
-      <title>BO - Catalog - Products - Sort &amp; pagination</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-sort-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-sort-pagination.html</guid>
-      <description>BO - Catalog - Products - Sort &amp;amp; pagination Details Component : Core Status : Deprecated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7551 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/01_products/02_paginationAndSortProducts.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products Page title contains &amp;lsquo;Products&amp;rsquo; Sort by id_product acs table is sorted by id_product desc (1 -&amp;gt; 2 -&amp;gt; 3) Sort by name asc table is sorted by name asc (a -&amp;gt; b -&amp;gt; c) Sort by name desc table is sorted by name desc (c -&amp;gt; b -&amp;gt; a) Sort by reference asc table is sorted by reference asc (a -&amp;gt; b -&amp;gt; c) Sort by reference desc table is sorted by reference desc (c -&amp;gt; b -&amp;gt; a) Sort by name_category asc table is sorted by name_category asc (a -&amp;gt; b -&amp;gt; c) Sort by name_category desc table is sorted by name_category asc (c -&amp;gt; b -&amp;gt; a) Sort by price (Tax excl.</description>
-    </item>
-    <item>
-      <title>BO - Catalog - Products - Edit Product</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-edit-product.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-edit-product.html</guid>
-      <description>BO - Catalog - Products - Edit Product Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7556 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click on the Pen of an existing product Edit product page opens in tab Basic Settings In Basic Settings&#xA;Edit name of product - reference - price - images - description &amp;gt; Click Save Info updated</description>
-    </item>
-    <item>
-      <title>BO - Catalog - Products - Add Standard Product</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-standard-product.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/productsv1/bo-catalog-products-add-standard-product.html</guid>
-      <description>BO - Catalog - Products - Add Standard Product Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7554 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/products Steps Step Description Expected result Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Click &amp;ldquo;New product&amp;rdquo; Page New product will open Fill the following fields &amp;gt; Enable product &amp;gt; Click Save Message Settings updated. appears Click &amp;ldquo;Preview&amp;rdquo; New page will open with newly created product Disable product by unchecking Offline option &amp;gt; Save &amp;gt; Click Preview Message Settings updated.</description>
-    </item>
   </channel>
 </rss>
