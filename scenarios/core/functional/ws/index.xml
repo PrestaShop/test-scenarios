@@ -8,6 +8,20 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Stores : CRUD</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/stores-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/stores-crud.html</guid>
+      <description>Stores : CRUD Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8331 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/04_storesCRUD.ts Steps Step Description Expected result Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores?schema=blank http://domain.tld/api/countries?schema=blank] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores?schema=synopsis http://domain.tld/api/countries?schema=synopsis] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores http://domain.tld/api/countries] Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+    </item>
+    <item>
+      <title>Orders : CRUD</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/orders-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/orders-crud.html</guid>
+      <description>Orders : CRUD Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8332 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/02_ordersCRUD.ts Steps Step Description Expected result Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders?schema=blank http://domain.tld/api/countries?schema=blank] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders?schema=synopsis http://domain.tld/api/countries?schema=synopsis] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders http://domain.tld/api/countries] Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
+    </item>
+    <item>
       <title>Products : CRUD</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/products-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -22,25 +36,11 @@
       <description>Countries : CRUD Details Component : Core Status : Automated Automated on : 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8262 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/01_countriesCRUD.ts Steps Step Description Expected result Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.tld/api/countries?schema=blank The response HTTP Code is 200.&#xA;The XML is valid.&#xA;The XML code has a prestashop root node&#xA;The root node has a country node&#xA;The country node has children nodes which are empty and without attributes Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint http://domain.</description>
     </item>
     <item>
-      <title>Orders : CRUD</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/orders-crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/orders-crud.html</guid>
-      <description>Orders : CRUD Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8332 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/02_ordersCRUD.ts Steps Step Description Expected result Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders?schema=blank http://domain.tld/api/countries?schema=blank] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders?schema=synopsis http://domain.tld/api/countries?schema=synopsis] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/orders http://domain.tld/api/countries] Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
-    </item>
-    <item>
       <title>Categories - CRUD</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/categories-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/categories-crud.html</guid>
       <description>Categories - CRUD Details Component : Core Status : Automated Automated on : 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8555 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/05_categoriesCRUD.ts.ts Steps Step Description Expected result Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/categories?schema=blank http://domain.tld/api/countries?schema=blank] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/categories?schema=synopsis http://domain.tld/api/countries?schema=synopsis] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/categories http://domain.tld/api/countries] Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
-    </item>
-    <item>
-      <title>Stores : CRUD</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/stores-crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/ws/stores-crud.html</guid>
-      <description>Stores : CRUD Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8331 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/WS/04_storesCRUD.ts Steps Step Description Expected result Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores?schema=blank http://domain.tld/api/countries?schema=blank] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores?schema=synopsis http://domain.tld/api/countries?schema=synopsis] Request with method GET and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.tld/api/stores http://domain.tld/api/countries] Request with method POST and Basic Auth AAA_WSKEY_AAA the endpoint [http://domain.</description>
     </item>
   </channel>
 </rss>
