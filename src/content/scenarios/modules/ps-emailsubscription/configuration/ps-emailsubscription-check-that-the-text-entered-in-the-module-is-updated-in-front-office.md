@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check that the text entered in the module is updated in front office"
-weight: 17
+weight: 1
 ---
 
 # ps_emailsubscription - Check that the text entered in the module is updated in front office

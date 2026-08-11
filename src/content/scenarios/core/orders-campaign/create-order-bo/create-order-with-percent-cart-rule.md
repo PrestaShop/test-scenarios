@@ -1,6 +1,6 @@
 ---
 title: "Create order with percent cart rule"
-weight: 2
+weight: 6
 ---
 
 # Create order with percent cart rule

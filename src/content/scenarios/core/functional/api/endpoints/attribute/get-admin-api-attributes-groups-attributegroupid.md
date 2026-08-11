@@ -1,6 +1,6 @@
 ---
 title: "GET /admin-api/attributes/groups/{attributeGroupId}"
-weight: 6
+weight: 4
 ---
 
 # GET /admin-api/attributes/groups/{attributeGroupId}
@@ -26,3 +26,7 @@ weight: 6
 | Delete the selected Attribute Group > Confirm the deletion | The alert "Successful deletion." is displayed |
 | Filter by groupe name with the name of the created group | 0 record found |
 | Reset all filters | Filters are reset<br>Total attributes = Number of Attributes |
+| In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
+| On the first row, click on the button “Three points” | The dropdown is displayed |
+| Click on the Delete Button in the dropdown | A modal appeared |
+| Click on the Confirm Button in the modal | The message “Successful deletion” is displayed<br>No records found in the table |

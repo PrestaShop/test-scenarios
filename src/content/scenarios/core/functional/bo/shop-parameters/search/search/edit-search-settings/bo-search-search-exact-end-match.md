@@ -1,6 +1,6 @@
 ---
 title: "BO - Search - Search exact end match"
-weight: 1
+weight: 2
 ---
 
 # BO - Search - Search exact end match

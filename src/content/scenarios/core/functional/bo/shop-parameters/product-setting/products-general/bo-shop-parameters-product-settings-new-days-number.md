@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - New days number"
-weight: 2
+weight: 8
 ---
 
 # BO - Shop Parameters - Product Settings - New days number

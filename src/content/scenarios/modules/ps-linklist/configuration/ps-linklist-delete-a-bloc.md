@@ -1,6 +1,6 @@
 ---
 title: "ps_linklist - Delete a bloc"
-weight: 2
+weight: 1
 ---
 
 # ps_linklist - Delete a bloc

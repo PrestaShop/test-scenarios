@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Enable, disable default activation status"
-weight: 9
+weight: 6
 ---
 
 # BO - Shop Parameters - Product Settings - Enable, disable default activation status

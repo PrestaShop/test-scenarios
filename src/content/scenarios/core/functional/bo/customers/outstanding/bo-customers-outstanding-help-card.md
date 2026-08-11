@@ -1,0 +1,21 @@
+---
+title: "BO - Customers - Outstanding - Help card"
+weight: 2
+---
+
+# BO - Customers - Outstanding - Help card
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8082
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/04_customers/03_outstanding/01_helpCard.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customers/outstanding
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Customers > Outstanding page | The Outstanding page is well displayed |
+| Click on the Help Card | The documentation modal is well displayed in the English language |
+| Click on the Help Card again | The documentation modal is closed |
+| Go to BO > Shop Parameters > Customer Settings and Disable B2B | The alert Update successful is well displayed |

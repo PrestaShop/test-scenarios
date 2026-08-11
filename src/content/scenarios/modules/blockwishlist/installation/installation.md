@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-weight: 6
+weight: 4
 ---
 
 # Installation

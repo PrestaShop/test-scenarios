@@ -1,6 +1,6 @@
 ---
 title: "POST /admin-api/attributes/groups"
-weight: 3
+weight: 8
 ---
 
 # POST /admin-api/attributes/groups

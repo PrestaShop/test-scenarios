@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Ask for birth date"
-weight: 1
+weight: 6
 ---
 
 # BO - Shop Parameters - Customer Settings - Ask for birth date

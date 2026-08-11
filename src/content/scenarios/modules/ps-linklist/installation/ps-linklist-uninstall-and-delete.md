@@ -1,6 +1,6 @@
 ---
 title: "ps_linklist - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # ps_linklist - Uninstall and delete

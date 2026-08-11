@@ -1,6 +1,6 @@
 ---
 title: "PATCH /admin-api/modules/{technicalName}/reset"
-weight: 9
+weight: 1
 ---
 
 # PATCH /admin-api/modules/{technicalName}/reset

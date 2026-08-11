@@ -1,6 +1,6 @@
 ---
 title: "Enable/Disable notification for product availability"
-weight: 5
+weight: 2
 ---
 
 # Enable/Disable notification for product availability

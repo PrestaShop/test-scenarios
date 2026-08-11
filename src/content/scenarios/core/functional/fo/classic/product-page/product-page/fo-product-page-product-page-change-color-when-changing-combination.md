@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Product page : Change Color when changing combination"
-weight: 15
+weight: 12
 ---
 
 # FO - Product page - Product page : Change Color when changing combination

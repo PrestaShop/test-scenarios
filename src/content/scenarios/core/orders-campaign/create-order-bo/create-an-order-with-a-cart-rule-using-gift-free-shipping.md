@@ -1,6 +1,6 @@
 ---
 title: "Create an order with a cart rule using % + Gift + free shipping"
-weight: 7
+weight: 2
 ---
 
 # Create an order with a cart rule using % + Gift + free shipping

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Set up URLs - Redirect to the canonical URL"
-weight: 4
+weight: 2
 ---
 
 # BO - Shop Parameters - SEO & URLs - Set up URLs - Redirect to the canonical URL

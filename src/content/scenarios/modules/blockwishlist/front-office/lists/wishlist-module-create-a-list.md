@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Create a list"
-weight: 1
+weight: 4
 ---
 
 # Wishlist module - Create a list

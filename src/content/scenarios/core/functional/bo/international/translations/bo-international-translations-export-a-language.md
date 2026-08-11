@@ -1,0 +1,25 @@
+---
+title: "BO - International - Translations - Export a language"
+weight: 2
+---
+
+# BO - International - Translations - Export a language
+## Details
+* **Component** : Core
+* **Status** : [TEST] IN PROGRESS
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7736
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/04_translations/03_exportLanguage.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/translation
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to *Export a language* form and choose the language already added and check Export : Back office<br><br>Click on Export button | _translations_export.zip_ is downloaded |
+| uncheck Export : Back office and check Front office and Other<br><br>Click on Export button | _translations_export.zip_ is downloaded |
+| uncheck Export and check Installed module traslations : Link List<br><br>Click on Export button | _translations_export.zip_ is downloaded |
+| On Bo > International > Translation | The translation page should display correctly |
+| Select on Update a language :English (English) <br><br> <br><br>Click to Add or update a language | The translations have been successfully added. |
+| Select on Add a language : Brezhoneg (Breton) <br><br> <br><br>Click to Add or update a language | The translations have been successfully added. |
+| Go to FO and check the new language | The new language is visible in FO |
+| Go back to BO > On Modify translations<br><br>Select your language | Brezhoneg language should be added |

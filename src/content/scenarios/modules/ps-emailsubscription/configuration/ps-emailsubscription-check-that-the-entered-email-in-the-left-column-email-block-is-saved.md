@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check that the entered email in the left column email block is saved"
-weight: 15
+weight: 6
 ---
 
 # ps_emailsubscription - Check that the entered email in the left column email block is saved

@@ -1,6 +1,6 @@
 ---
 title: "FO - Header & Footer - Change language"
-weight: 3
+weight: 4
 ---
 
 # FO - Header & Footer - Change language

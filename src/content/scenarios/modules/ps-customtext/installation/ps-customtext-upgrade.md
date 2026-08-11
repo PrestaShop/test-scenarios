@@ -1,6 +1,6 @@
 ---
 title: "ps_customtext - Upgrade"
-weight: 2
+weight: 1
 ---
 
 # ps_customtext - Upgrade

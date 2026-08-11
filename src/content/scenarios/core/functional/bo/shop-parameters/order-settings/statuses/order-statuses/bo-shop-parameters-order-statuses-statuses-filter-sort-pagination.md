@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Statuses - Statuses - Filter, Sort,Pagination "
-weight: 3
+weight: 4
 ---
 
 # BO - Shop Parameters - Order Statuses - Statuses - Filter, Sort,Pagination 

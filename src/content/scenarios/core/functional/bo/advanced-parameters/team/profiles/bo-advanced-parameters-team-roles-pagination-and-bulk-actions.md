@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Team - Roles - pagination and Bulk Actions"
-weight: 4
+weight: 5
 ---
 
 # BO - Advanced parameters - Team - Roles - pagination and Bulk Actions

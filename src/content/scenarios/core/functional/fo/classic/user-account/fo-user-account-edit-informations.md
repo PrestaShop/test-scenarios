@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Edit informations"
-weight: 3
+weight: 1
 ---
 
 # FO - User account - Edit informations

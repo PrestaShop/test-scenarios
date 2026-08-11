@@ -1,0 +1,27 @@
+---
+title: "BO - Catalog - Attributes - Change position Attributes & Values"
+weight: 5
+---
+
+# BO - Catalog - Attributes - Change position Attributes & Values
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7573
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/04_attributesAndFeatures/01_attributes/02_changePosition.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/attributes-and-features/attributes/page-template-1
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Catalog > Attributes & Features > Attributes page | The Attributes page is well displayed |
+| Reset filter | Number attributes = Total Attibutes |
+| Sort by Position asc | The list is well sorted by position ( 1 -> 2 -> 3) |
+| Drag & drop first attribute from the first position to the third position | The alert "Successful update" is displayed, the position of attributes are updated |
+| Reset the position (Drag & drop the first attribute to the first position) | The positions are updated and a green alert "Successful update" is displayed |
+| View the first attribute | Page title = Size<br>The values page is well displayed |
+| Reset filter | Number values = Total values |
+| Sort by Position asc | The list is well sorted by position ( 1 -> 2 -> 3) |
+| Drag & drop first attribute from the first position to the third position | The alert "Successful update" is displayed, the position of attributes is updated |
+| Reset the position (Drag & drop the first attribute to the first position) | The positions are updated and a green alert "Successful update" is displayed |

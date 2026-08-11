@@ -1,6 +1,6 @@
 ---
 title: "DeleteProductWithBulkActions"
-weight: 3
+weight: 1
 ---
 
 # DeleteProductWithBulkActions

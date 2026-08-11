@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Enable B2B mode"
-weight: 4
+weight: 1
 ---
 
 # BO - Shop Parameters - Customer Settings - Enable B2B mode

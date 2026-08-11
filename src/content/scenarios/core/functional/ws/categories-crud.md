@@ -1,6 +1,6 @@
 ---
 title: "Categories - CRUD"
-weight: 4
+weight: 5
 ---
 
 # Categories - CRUD

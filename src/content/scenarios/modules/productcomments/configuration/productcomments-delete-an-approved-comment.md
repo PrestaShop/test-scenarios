@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Delete an approved comment"
-weight: 7
+weight: 5
 ---
 
 # productcomments - Delete an approved comment

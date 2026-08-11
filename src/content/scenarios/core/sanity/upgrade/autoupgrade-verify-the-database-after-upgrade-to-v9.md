@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Verify the database after upgrade to V9"
-weight: 9
+weight: 22
 ---
 
 # Autoupgrade - Verify the database after upgrade to V9

@@ -1,6 +1,6 @@
 ---
 title: "FO - Search Page : Consult results list"
-weight: 3
+weight: 6
 ---
 
 # FO - Search Page : Consult results list

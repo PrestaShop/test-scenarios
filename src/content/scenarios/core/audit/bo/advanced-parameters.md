@@ -1,6 +1,6 @@
 ---
 title: "Advanced Parameters"
-weight: 14
+weight: 6
 ---
 
 # Advanced Parameters

@@ -1,6 +1,6 @@
 ---
 title: "BO - Filter Products"
-weight: 7
+weight: 6
 ---
 
 # BO - Filter Products
