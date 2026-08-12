@@ -8,11 +8,32 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>POST /admin-api/api-clients</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/post-admin-api-api-clients.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/post-admin-api-api-clients.html</guid>
+      <description>POST /admin-api/api-clients Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8365 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/05_postApiClient.ts Steps Step Description Expected result Request with method POST the endpoint &amp;ldquo;https://[url of your shop]/admin-api/api-clients/{apiClientId}&amp;rdquo; with data The HTTP code is 201.&#xA;The response is in JSON. In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;Two records found in the table.</description>
+    </item>
+    <item>
       <title>GET /admin-api/api-clients/infos</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/get-admin-api-api-clients-infos.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/get-admin-api-api-clients-infos.html</guid>
       <description>GET /admin-api/api-clients/infos Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8359 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/01_getApiClientInfos.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
+    </item>
+    <item>
+      <title>GET /admin-api/api-clients/{apiClientId}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/get-admin-api-api-clients-apiclientid.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/get-admin-api-api-clients-apiclientid.html</guid>
+      <description>GET /admin-api/api-clients/{apiClientId} Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8345 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/03_getApiClientsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
+    </item>
+    <item>
+      <title>DELETE /admin-api/api-clients/{apiClientId}</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/delete-admin-api-api-clients-apiclientid.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/delete-admin-api-api-clients-apiclientid.html</guid>
+      <description>DELETE /admin-api/api-clients/{apiClientId} Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8361 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/02_deleteApiClientsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
     </item>
     <item>
       <title>GET /admin-api/api-clients</title>
@@ -27,27 +48,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/patch-admin-api-api-clients-apiclientid.html</guid>
       <description>PATCH /admin-api/api-clients/{apiClientId} Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8368 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/04_patchApiClientsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
-    </item>
-    <item>
-      <title>POST /admin-api/api-clients</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/post-admin-api-api-clients.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/post-admin-api-api-clients.html</guid>
-      <description>POST /admin-api/api-clients Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8365 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/05_postApiClient.ts Steps Step Description Expected result Request with method POST the endpoint &amp;ldquo;https://[url of your shop]/admin-api/api-clients/{apiClientId}&amp;rdquo; with data The HTTP code is 201.&#xA;The response is in JSON. In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;Two records found in the table.</description>
-    </item>
-    <item>
-      <title>DELETE /admin-api/api-clients/{apiClientId}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/delete-admin-api-api-clients-apiclientid.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/delete-admin-api-api-clients-apiclientid.html</guid>
-      <description>DELETE /admin-api/api-clients/{apiClientId} Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8361 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/02_deleteApiClientsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
-    </item>
-    <item>
-      <title>GET /admin-api/api-clients/{apiClientId}</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/get-admin-api-api-clients-apiclientid.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/api/endpoints/apiclient/get-admin-api-api-clients-apiclientid.html</guid>
-      <description>GET /admin-api/api-clients/{apiClientId} Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8345 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/API/02_endpoints/01_apiClient/03_getApiClientsId.ts Steps Step Description Expected result In BO, Go to Advanced Parameters &amp;gt; Authorization Server Authorization Server Page is displayed correctly.&#xA;No records found in the table Click on the button &amp;ldquo;Add new API access&amp;rdquo; New API access Page is displayed correctly * Fill the form with following data</description>
     </item>
   </channel>
 </rss>
