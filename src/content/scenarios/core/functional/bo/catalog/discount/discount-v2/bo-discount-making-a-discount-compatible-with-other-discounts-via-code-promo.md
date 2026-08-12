@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Making a discount compatible with other discounts (via code promo)"
-weight: 18
+weight: 6
 ---
 
 # BO - Discount - Making a discount compatible with other discounts (via code promo)

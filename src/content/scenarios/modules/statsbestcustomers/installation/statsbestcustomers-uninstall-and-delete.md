@@ -1,6 +1,6 @@
 ---
 title: "statsbestcustomers - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # statsbestcustomers - Uninstall and delete

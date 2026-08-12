@@ -1,6 +1,6 @@
 ---
 title: "DELETE /admin-api/addresses/bulk-delete"
-weight: 11
+weight: 9
 ---
 
 # DELETE /admin-api/addresses/bulk-delete

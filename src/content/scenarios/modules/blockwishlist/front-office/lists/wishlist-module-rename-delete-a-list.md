@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Rename & delete a list"
-weight: 1
+weight: 5
 ---
 
 # Wishlist module - Rename & delete a list

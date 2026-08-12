@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check that the CSV export by partner offer is working"
-weight: 11
+weight: 14
 ---
 
 # ps_emailsubscription - Check that the CSV export by partner offer is working

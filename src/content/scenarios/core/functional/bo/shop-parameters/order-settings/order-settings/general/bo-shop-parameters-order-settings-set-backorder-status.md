@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Set backorder status"
-weight: 9
+weight: 1
 ---
 
 # BO - Shop Parameters - Order Settings - Set backorder status

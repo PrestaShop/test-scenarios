@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Order Messages - CRUD"
-weight: 4
+weight: 2
 ---
 
 # BO - Customer Service - Order Messages - CRUD

@@ -1,6 +1,6 @@
 ---
 title: "PATCH /admin-api/addresses/orders/{orderId}"
-weight: 4
+weight: 3
 ---
 
 # PATCH /admin-api/addresses/orders/{orderId}

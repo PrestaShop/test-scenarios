@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Webservice - Bulk actions"
-weight: 4
+weight: 1
 ---
 
 # BO - Advanced Parameters - Webservice - Bulk actions

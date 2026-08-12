@@ -1,6 +1,6 @@
 ---
 title: "DELETE /admin-api/products/images/{imageId}"
-weight: 3
+weight: 7
 ---
 
 # DELETE /admin-api/products/images/{imageId}

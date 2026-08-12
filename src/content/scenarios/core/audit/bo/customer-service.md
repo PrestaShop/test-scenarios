@@ -1,6 +1,6 @@
 ---
 title: "Customer Service"
-weight: 5
+weight: 2
 ---
 
 # Customer Service

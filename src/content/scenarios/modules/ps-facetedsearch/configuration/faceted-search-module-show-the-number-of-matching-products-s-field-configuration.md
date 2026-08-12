@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Show the number of matching products\'s field configuration"
-weight: 9
+weight: 20
 ---
 
 # Faceted search module - Show the number of matching products\'s field configuration

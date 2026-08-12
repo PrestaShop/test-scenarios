@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Merchant notifications - Configure the minimum quantity for out of stock (Threshold)"
-weight: 5
+weight: 8
 ---
 
 # Mail alerts module - Merchant notifications - Configure the minimum quantity for out of stock (Threshold)

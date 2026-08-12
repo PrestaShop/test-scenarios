@@ -1,6 +1,6 @@
 ---
 title: "Official GDPR module - New products block module - Uninstall and delete module"
-weight: 2
+weight: 3
 ---
 
 # Official GDPR module - New products block module - Uninstall and delete module

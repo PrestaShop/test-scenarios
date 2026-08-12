@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - GDPR - Get started"
-weight: 6
+weight: 8
 ---
 
 # BO - Modules - GDPR - Get started

@@ -1,6 +1,6 @@
 ---
 title: "GET /admin-api/attributes/groups/{attributeGroupId}"
-weight: 4
+weight: 8
 ---
 
 # GET /admin-api/attributes/groups/{attributeGroupId}

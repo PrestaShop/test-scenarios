@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Uninstall and delete module"
-weight: 2
+weight: 3
 ---
 
 # Faceted search module - Uninstall and delete module

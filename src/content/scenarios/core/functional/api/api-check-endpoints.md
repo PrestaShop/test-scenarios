@@ -1,6 +1,6 @@
 ---
 title: "API : Check endpoints"
-weight: 1
+weight: 2
 ---
 
 # API : Check endpoints

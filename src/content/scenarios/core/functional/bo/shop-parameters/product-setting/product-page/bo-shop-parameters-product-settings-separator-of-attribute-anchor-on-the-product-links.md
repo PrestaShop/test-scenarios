@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links"
-weight: 5
+weight: 2
 ---
 
 # BO - Shop Parameters - Product Settings - Separator of attribute anchor on the product links

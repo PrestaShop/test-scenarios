@@ -1,6 +1,6 @@
 ---
 title: "statsvisits - Upgrade"
-weight: 3
+weight: 2
 ---
 
 # statsvisits - Upgrade

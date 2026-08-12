@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Create error before the upgrade"
-weight: 10
+weight: 18
 ---
 
 # Autoupgrade - Web Version - Create error before the upgrade

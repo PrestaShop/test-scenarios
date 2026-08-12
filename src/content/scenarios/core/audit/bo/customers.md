@@ -1,6 +1,6 @@
 ---
 title: "Customers"
-weight: 1
+weight: 4
 ---
 
 # Customers

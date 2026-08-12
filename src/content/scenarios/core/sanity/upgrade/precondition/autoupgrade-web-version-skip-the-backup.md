@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Skip the backup"
-weight: 7
+weight: 6
 ---
 
 # Autoupgrade - Web Version - Skip the backup

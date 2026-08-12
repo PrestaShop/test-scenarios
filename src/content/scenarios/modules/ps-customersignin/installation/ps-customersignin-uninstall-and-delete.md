@@ -1,6 +1,6 @@
 ---
 title: "ps_customersignin - Uninstall and delete"
-weight: 3
+weight: 1
 ---
 
 # ps_customersignin - Uninstall and delete

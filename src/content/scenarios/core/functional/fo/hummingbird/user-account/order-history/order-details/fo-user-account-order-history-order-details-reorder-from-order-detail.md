@@ -1,6 +1,6 @@
 ---
 title: "FO - User Account - Order History - Order details : Reorder from order detail"
-weight: 1
+weight: 3
 ---
 
 # FO - User Account - Order History - Order details : Reorder from order detail

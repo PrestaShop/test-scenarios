@@ -1,6 +1,6 @@
 ---
 title: "Theme Customization module - Reset module"
-weight: 2
+weight: 4
 ---
 
 # Theme Customization module - Reset module

@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check if the unsubscribtion is working in the module configuration"
-weight: 14
+weight: 2
 ---
 
 # ps_emailsubscription - Check if the unsubscribtion is working in the module configuration

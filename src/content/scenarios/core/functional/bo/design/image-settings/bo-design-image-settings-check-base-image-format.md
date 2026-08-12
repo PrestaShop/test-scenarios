@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Check base image format "
-weight: 1
+weight: 6
 ---
 
 # BO - Design - Image Settings - Check base image format 

@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module : Check welcome voucher code"
-weight: 2
+weight: 11
 ---
 
 # Mail alerts module : Check welcome voucher code

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Default order of priority for specific prices"
-weight: 1
+weight: 9
 ---
 
 # BO - Shop Parameters - Product Settings - Default order of priority for specific prices

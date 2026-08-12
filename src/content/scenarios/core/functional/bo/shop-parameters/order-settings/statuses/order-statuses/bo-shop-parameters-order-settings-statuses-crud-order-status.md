@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Statuses : CRUD Order Status"
-weight: 1
+weight: 2
 ---
 
 # BO - Shop Parameters - Order Settings - Statuses : CRUD Order Status

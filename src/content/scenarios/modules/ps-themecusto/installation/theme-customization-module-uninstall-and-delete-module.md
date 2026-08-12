@@ -1,6 +1,6 @@
 ---
 title: "Theme Customization module - Uninstall and delete module"
-weight: 1
+weight: 3
 ---
 
 # Theme Customization module - Uninstall and delete module

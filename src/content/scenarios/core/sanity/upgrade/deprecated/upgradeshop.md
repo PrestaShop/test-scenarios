@@ -1,6 +1,6 @@
 ---
 title: "UpgradeShop"
-weight: 18
+weight: 11
 ---
 
 # UpgradeShop

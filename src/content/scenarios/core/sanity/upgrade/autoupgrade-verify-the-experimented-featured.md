@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Verify the experimented featured"
-weight: 23
+weight: 2
 ---
 
 # Autoupgrade - Verify the experimented featured

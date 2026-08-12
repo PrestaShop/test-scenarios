@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Set up URLs - Disable Apache\'s mod_security module"
-weight: 6
+weight: 5
 ---
 
 # BO - Shop Parameters - SEO & URLs - Set up URLs - Disable Apache\'s mod_security module

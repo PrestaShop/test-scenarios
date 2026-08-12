@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Label of in-stock products"
-weight: 2
+weight: 4
 ---
 
 # BO - Shop Parameters - Product Settings - Label of in-stock products

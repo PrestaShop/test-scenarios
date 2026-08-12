@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Invoices - Enable/Disable Invoices"
-weight: 5
+weight: 1
 ---
 
 # BO - Orders - Invoices - Enable/Disable Invoices

@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Alerts tab - Upgrade"
-weight: 1
+weight: 2
 ---
 
 # BO - Modules - Alerts tab - Upgrade

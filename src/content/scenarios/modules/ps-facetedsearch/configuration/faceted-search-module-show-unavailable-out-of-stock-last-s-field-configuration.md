@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Show unavailable, out of stock last\'s field configuration"
-weight: 13
+weight: 2
 ---
 
 # Faceted search module - Show unavailable, out of stock last\'s field configuration

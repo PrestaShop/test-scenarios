@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Minimum purchase amount (Free gift)"
-weight: 3
+weight: 19
 ---
 
 # BO - Discount - Minimum purchase amount (Free gift)

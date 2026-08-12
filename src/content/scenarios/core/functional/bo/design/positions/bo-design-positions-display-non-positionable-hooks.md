@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Positions - Display non-positionable hooks"
-weight: 2
+weight: 1
 ---
 
 # BO - Design - Positions - Display non-positionable hooks

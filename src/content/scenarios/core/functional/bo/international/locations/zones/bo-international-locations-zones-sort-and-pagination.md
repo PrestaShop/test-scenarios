@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Locations - Zones - Sort and Pagination"
-weight: 3
+weight: 1
 ---
 
 # BO - International - Locations - Zones - Sort and Pagination

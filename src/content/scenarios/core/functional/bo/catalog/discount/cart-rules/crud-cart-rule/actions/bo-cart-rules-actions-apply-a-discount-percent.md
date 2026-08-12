@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Actions - Apply a discount percent(%)"
-weight: 3
+weight: 10
 ---
 
 # BO - Cart rules - Actions - Apply a discount percent(%)

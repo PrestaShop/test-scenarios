@@ -1,6 +1,6 @@
 ---
 title: "New products block module - BO header buttons"
-weight: 1
+weight: 2
 ---
 
 # New products block module - BO header buttons

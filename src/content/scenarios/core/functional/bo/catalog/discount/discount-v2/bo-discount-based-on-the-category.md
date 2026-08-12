@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - based on the category"
-weight: 20
+weight: 4
 ---
 
 # BO - Discount - based on the category

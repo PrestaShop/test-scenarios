@@ -1,6 +1,6 @@
 ---
 title: "contactform - Enable/Disable email copy to merchant"
-weight: 1
+weight: 2
 ---
 
 # contactform - Enable/Disable email copy to merchant

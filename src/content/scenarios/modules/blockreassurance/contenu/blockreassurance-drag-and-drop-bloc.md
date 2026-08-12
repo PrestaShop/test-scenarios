@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Drag and drop bloc"
-weight: 4
+weight: 1
 ---
 
 # blockreassurance - Drag and drop bloc

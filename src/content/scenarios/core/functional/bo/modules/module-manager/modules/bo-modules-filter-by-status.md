@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Filter by status"
-weight: 10
+weight: 4
 ---
 
 # BO - Modules - Filter by status

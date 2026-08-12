@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - based on a product (or one of its combinations)"
-weight: 8
+weight: 10
 ---
 
 # BO - Discount - based on a product (or one of its combinations)

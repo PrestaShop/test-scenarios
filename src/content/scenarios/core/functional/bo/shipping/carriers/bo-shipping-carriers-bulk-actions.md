@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Carriers - Bulk actions"
-weight: 2
+weight: 5
 ---
 
 # BO - Shipping - Carriers - Bulk actions

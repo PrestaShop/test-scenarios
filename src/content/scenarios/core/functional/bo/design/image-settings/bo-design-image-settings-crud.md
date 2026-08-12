@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - CRUD"
-weight: 8
+weight: 4
 ---
 
 # BO - Design - Image Settings - CRUD

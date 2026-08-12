@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Merchandise Returns : Consult return details"
-weight: 1
+weight: 2
 ---
 
 # FO - User account - Merchandise Returns : Consult return details

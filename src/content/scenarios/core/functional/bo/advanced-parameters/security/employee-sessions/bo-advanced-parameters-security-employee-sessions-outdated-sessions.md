@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Employee sessions - Outdated sessions"
-weight: 1
+weight: 4
 ---
 
 # BO - Advanced parameters - Security - Employee sessions - Outdated sessions

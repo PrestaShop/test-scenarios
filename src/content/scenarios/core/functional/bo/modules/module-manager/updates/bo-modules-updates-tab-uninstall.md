@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Updates tab - Uninstall"
-weight: 1
+weight: 2
 ---
 
 # BO - Modules - Updates tab - Uninstall

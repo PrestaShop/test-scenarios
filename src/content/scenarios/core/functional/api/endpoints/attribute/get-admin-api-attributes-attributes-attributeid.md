@@ -1,6 +1,6 @@
 ---
 title: "GET /admin-api/attributes/attributes/{attributeId}"
-weight: 5
+weight: 3
 ---
 
 # GET /admin-api/attributes/attributes/{attributeId}

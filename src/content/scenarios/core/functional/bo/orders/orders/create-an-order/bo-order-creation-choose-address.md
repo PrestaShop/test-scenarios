@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Choose address"
-weight: 5
+weight: 2
 ---
 
 # BO - Order creation - Choose address

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General : Round mode"
-weight: 4
+weight: 2
 ---
 
 # BO - Shop Parameters - General : Round mode

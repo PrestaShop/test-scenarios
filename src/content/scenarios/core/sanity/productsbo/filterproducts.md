@@ -1,6 +1,6 @@
 ---
 title: "FilterProducts"
-weight: 3
+weight: 1
 ---
 
 # FilterProducts

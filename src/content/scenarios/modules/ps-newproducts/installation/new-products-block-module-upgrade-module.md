@@ -1,6 +1,6 @@
 ---
 title: "New products block module - Upgrade module"
-weight: 5
+weight: 3
 ---
 
 # New products block module - Upgrade module

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Webservice - Filter sort pagination"
-weight: 6
+weight: 2
 ---
 
 # BO - Advanced Parameters - Webservice - Filter sort pagination

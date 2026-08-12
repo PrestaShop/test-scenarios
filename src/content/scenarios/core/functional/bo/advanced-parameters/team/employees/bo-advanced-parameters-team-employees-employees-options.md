@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Team - Employees - Employees options"
-weight: 6
+weight: 4
 ---
 
 # BO - Advanced parameters - Team - Employees - Employees options

@@ -1,6 +1,6 @@
 ---
 title: "TLS Check"
-weight: 2
+weight: 1
 ---
 
 # TLS Check

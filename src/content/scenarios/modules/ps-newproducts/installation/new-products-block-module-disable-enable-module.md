@@ -1,6 +1,6 @@
 ---
 title: "New products block module - Disable/Enable module"
-weight: 2
+weight: 4
 ---
 
 # New products block module - Disable/Enable module

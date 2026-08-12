@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Enable partner offers"
-weight: 3
+weight: 5
 ---
 
 # BO - Shop Parameters - Customer Settings - Enable partner offers

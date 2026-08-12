@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Shopping carts - Delete abandoned carts"
-weight: 5
+weight: 3
 ---
 
 # BO - Orders - Shopping carts - Delete abandoned carts

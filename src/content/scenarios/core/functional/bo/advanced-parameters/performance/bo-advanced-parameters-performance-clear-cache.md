@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Performance - Clear cache"
-weight: 2
+weight: 7
 ---
 
 # BO - Advanced Parameters - Performance - Clear cache

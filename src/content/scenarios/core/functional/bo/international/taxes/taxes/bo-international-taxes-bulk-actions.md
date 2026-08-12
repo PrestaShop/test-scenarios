@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Taxes - Bulk Actions"
-weight: 3
+weight: 2
 ---
 
 # BO - International - Taxes - Bulk Actions

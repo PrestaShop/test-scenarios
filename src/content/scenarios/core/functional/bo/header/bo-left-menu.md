@@ -1,6 +1,6 @@
 ---
 title: "BO - Left Menu"
-weight: 4
+weight: 2
 ---
 
 # BO - Left Menu

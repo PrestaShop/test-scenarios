@@ -1,6 +1,6 @@
 ---
 title: "Trigger based on a brand"
-weight: 14
+weight: 5
 ---
 
 # Trigger based on a brand

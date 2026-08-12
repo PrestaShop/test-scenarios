@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Taxes - Sort and pagination"
-weight: 5
+weight: 1
 ---
 
 # BO - International - Taxes - Sort and pagination

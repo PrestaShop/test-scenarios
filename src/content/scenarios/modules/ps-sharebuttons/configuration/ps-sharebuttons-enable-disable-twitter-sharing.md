@@ -1,6 +1,6 @@
 ---
 title: "ps_sharebuttons - Enable / disable twitter sharing"
-weight: 2
+weight: 1
 ---
 
 # ps_sharebuttons - Enable / disable twitter sharing

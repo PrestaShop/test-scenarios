@@ -1,6 +1,6 @@
 ---
 title: "statsvisits - Uninstall/Install"
-weight: 2
+weight: 3
 ---
 
 # statsvisits - Uninstall/Install

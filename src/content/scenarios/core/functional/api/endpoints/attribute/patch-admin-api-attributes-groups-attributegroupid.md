@@ -1,6 +1,6 @@
 ---
 title: "PATCH /admin-api/attributes/groups/{attributeGroupId}"
-weight: 7
+weight: 9
 ---
 
 # PATCH /admin-api/attributes/groups/{attributeGroupId}

@@ -1,6 +1,6 @@
 ---
 title: "Add a product to a list"
-weight: 3
+weight: 6
 ---
 
 # Add a product to a list

@@ -1,6 +1,6 @@
 ---
 title: "BO - Description Tab"
-weight: 11
+weight: 7
 ---
 
 # BO - Description Tab
