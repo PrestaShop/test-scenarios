@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Update default language"
-weight: 7
+weight: 4
 ---
 
 # BO - International - Localization - Update default language

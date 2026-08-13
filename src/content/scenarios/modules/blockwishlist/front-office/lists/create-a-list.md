@@ -1,6 +1,6 @@
 ---
 title: "Create a list"
-weight: 2
+weight: 1
 ---
 
 # Create a list

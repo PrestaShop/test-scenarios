@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Set time zone"
-weight: 2
+weight: 7
 ---
 
 # BO - International - Localization - Set time zone

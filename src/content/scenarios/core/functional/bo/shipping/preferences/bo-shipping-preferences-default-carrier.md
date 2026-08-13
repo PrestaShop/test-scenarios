@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Preferences - Default carrier"
-weight: 1
+weight: 2
 ---
 
 # BO - Shipping - Preferences - Default carrier

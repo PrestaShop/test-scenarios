@@ -1,6 +1,6 @@
 ---
 title: "FO - Homepage - All products"
-weight: 2
+weight: 5
 ---
 
 # FO - Homepage - All products
@@ -11,10 +11,3 @@ weight: 2
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8225
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/06_homePage/03_allProducts.ts
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Go to FO > In Popular Products block > Click All products | All product from Category Home will be displayed <br><br>Link should look like mywebsite.com/2-home |
-| Check the Category card block should be displayed | !Screenshot 2021-11-29 at 15.45.33.png|width=413,height=117! |
-| Sorting and pagination should be displayed | !https://forge.prestashop.com/plugins/servlet/raven/attachment/1353/sort.png!<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1352/pagination.png! |
-| The products list is displayed | !Screenshot 2021-11-29 at 15.48.20.png|width=216,height=151! |

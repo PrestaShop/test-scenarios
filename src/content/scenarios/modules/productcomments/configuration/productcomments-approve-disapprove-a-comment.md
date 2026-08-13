@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Approve/Disapprove a comment"
-weight: 7
+weight: 5
 ---
 
 # productcomments - Approve/Disapprove a comment

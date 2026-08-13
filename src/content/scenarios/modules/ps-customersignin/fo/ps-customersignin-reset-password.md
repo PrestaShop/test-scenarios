@@ -1,6 +1,6 @@
 ---
 title: "ps_customersignin - Reset password"
-weight: 3
+weight: 1
 ---
 
 # ps_customersignin - Reset password

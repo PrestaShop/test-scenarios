@@ -51,48 +51,15 @@ disableToc: true
 | Modules > ps_dataprivacy > Installation | 3 | - | - | - | - | 3 | - | - | - | 
 | Modules > ps_dataprivacy > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
 | Modules > ps_emailalerts > Installation | 8 | - | - | - | - | 2 | - | 3 | 3 | 
-| Modules > ps_emailalerts > Configuration | 1 | - | - | - | - | - | - | 1 | - | 
-| Modules > ps_emailalerts > Configuration > Customer notifications | 5 | - | - | - | - | - | - | 2 | 2 | 
-| Modules > ps_emailalerts > Configuration > Merchant notifications | 10 | - | - | - | - | 1 | - | 3 | 6 | 
-| Modules > ps_emailsubscription > Configuration | 18 | - | - | - | - | - | - | 3 | - | 
 | Modules > ps_featuredproducts > Installation | 3 | - | - | - | - | 3 | - | - | - | 
 | Modules > ps_featuredproducts > Contenu | 3 | - | - | - | - | 2 | - | - | - | 
 | Modules > ps_linklist > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_linklist > Configuration | 3 | - | - | - | - | - | - | - | - | 
-| Modules > ps_searchbar > Installation | 4 | - | - | - | - | - | - | - | - | 
-| Modules > ps_searchbar > FO | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_shoppingcart > Installation | 3 | - | - | - | - | - | - | - | - | 
 | Modules > ps_shoppingcart > Configuration | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_shoppingcart > FO | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_socialfollow > Installation | 3 | - | - | - | - | - | - | - | - | 
-| Modules > ps_socialfollow > Configuration | 3 | - | - | - | - | - | - | - | - | 
-| Modules > statsbestcustomers > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > statsbestcustomers > Display | 1 | - | - | - | - | 1 | - | - | - | 
-| Modules > statsvisits > Installation | 3 | - | - | - | - | - | - | - | - | 
-| Modules > statsvisits > Contenu | 1 | - | - | - | - | - | - | - | - | 
-| Modules > welcome > Contenu | 2 | - | - | - | - | - | - | - | 2 | 
-| Modules > ps_sharebuttons > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_sharebuttons > Configuration | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_googleanalytics > Installation | 4 | - | - | 4 | - | - | - | - | - | 
-| Modules > ps_googleanalytics > Configuration | 2 | - | - | 2 | - | - | - | - | - | 
-| Modules > ps_googleanalytics > Configuration > FO | 3 | - | - | 2 | - | - | - | - | - | 
-| Modules > ps_googleanalytics > Configuration > BO | 2 | - | - | - | - | - | - | - | - | 
 | Modules > ps_facetedsearch > Installation | 5 | - | - | - | - | 1 | - | 3 | - | 
-| Modules > ps_facetedsearch > Configuration | 22 | - | - | - | - | 10 | - | 12 | - | 
-| Modules > ps_cashondelivery > (deprecated)Addons | 1 | - | - | - | - | - | - | - | 1 | 
-| Modules > ps_cashondelivery > Installation | 5 | - | - | - | - | 3 | - | 2 | - | 
-| Modules > ps_cashondelivery > Configuration | 1 | - | - | - | - | - | - | 1 | - | 
-| Modules > ps_newproducts > Configuration | 3 | - | - | - | - | - | - | 3 | - | 
-| Modules > ps_newproducts > Installation | 5 | - | - | - | - | 1 | - | 4 | - | 
-| Modules > ps_categoryproducts > Installation | 6 | - | - | - | - | 4 | - | 1 | 1 | 
-| Modules > ps_categoryproducts > Configuration | 3 | - | - | - | - | 2 | - | 1 | - | 
-| Modules > psgdpr > Installation | 5 | - | - | - | - | 3 | - | - | - | 
-| Modules > psgdpr > Configuration | 8 | - | - | - | - | 3 | - | 5 | - | 
 | Modules > ps_faviconnotificationbo > Installation | 3 | - | - | - | - | - | - | - | - | 
-| Modules > ps_imageslider > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
 | Modules > ps_viewedproduct > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
 | Modules > ps_mainmenu > configuration | 2 | - | - | - | - | 2 | - | - | - | 
 | Modules > ps_supplierlist > configure | 1 | - | - | - | - | - | - | 1 | - | 
 | Modules > ps_apiresources > Installation | 2 | - | - | - | - | - | - | 2 | - | 
-| **Total** | **302** | **0** | **0** | **8** | **0** | **106** | **0** | **58** | **33** | 
-| **Total** |  | **0%** | **0%** | **2.65%** | **0%** | **35.10%** | **0%** | **19.21%** | **0%** | 
+| **Total** | **163** | **0** | **0** | **0** | **0** | **68** | **0** | **20** | **21** | 
+| **Total** |  | **0%** | **0%** | **0%** | **0%** | **41.72%** | **0%** | **12.27%** | **0%** | 

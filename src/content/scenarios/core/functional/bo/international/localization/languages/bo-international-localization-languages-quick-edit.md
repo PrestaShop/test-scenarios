@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Languages - Quick edit"
-weight: 4
+weight: 2
 ---
 
 # BO - International - Localization - Languages - Quick edit

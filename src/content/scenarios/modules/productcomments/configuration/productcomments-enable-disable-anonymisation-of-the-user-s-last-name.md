@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Enable/disable anonymisation of the user\'s last name"
-weight: 2
+weight: 3
 ---
 
 # productcomments - Enable/disable anonymisation of the user\'s last name

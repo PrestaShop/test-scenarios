@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Setup time between two comments"
-weight: 4
+weight: 9
 ---
 
 # productcomments - Setup time between two comments

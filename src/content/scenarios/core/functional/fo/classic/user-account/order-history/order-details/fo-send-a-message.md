@@ -1,6 +1,6 @@
 ---
 title: "FO - Send a message"
-weight: 1
+weight: 3
 ---
 
 # FO - Send a message
@@ -11,13 +11,3 @@ weight: 1
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7894
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/03_userAccount/02_orderHistory/01_orderDetails/04_sendMessage.ts
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Go to FO |  |
-| Login with a customer account |  |
-| Go to "account" page |  |
-| Go to "Order history and details" |  |
-| Select an order validated  and go to "details" |  |
-| In send message section, select a product, write a message and click on send | In BO => Customers Service => Customers Service the message is displayed |
-| Check received email | received email => <br><br>Message from a customer |

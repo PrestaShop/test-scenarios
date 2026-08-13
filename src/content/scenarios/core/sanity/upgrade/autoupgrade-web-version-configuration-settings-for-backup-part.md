@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Configuration settings for backup part "
-weight: 12
+weight: 5
 ---
 
 # Autoupgrade - Web Version - Configuration settings for backup part 

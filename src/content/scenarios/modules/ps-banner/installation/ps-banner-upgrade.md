@@ -1,6 +1,6 @@
 ---
 title: "ps_banner - Upgrade"
-weight: 1
+weight: 3
 ---
 
 # ps_banner - Upgrade

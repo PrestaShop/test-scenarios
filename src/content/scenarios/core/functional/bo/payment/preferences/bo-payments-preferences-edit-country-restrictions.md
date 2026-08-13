@@ -1,6 +1,6 @@
 ---
 title: "BO - Payments - Preferences - Edit Country restrictions"
-weight: 1
+weight: 4
 ---
 
 # BO - Payments - Preferences - Edit Country restrictions

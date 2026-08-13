@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Preferences - Handling"
-weight: 3
+weight: 1
 ---
 
 # BO - Shipping - Preferences - Handling

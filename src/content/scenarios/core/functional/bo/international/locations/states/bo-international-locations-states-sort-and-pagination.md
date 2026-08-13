@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Locations - States - Sort and pagination"
-weight: 4
+weight: 5
 ---
 
 # BO - International - Locations - States - Sort and pagination

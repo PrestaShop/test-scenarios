@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Default currency"
-weight: 5
+weight: 3
 ---
 
 # BO - International - Localization - Default currency

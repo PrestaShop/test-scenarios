@@ -1,6 +1,6 @@
 ---
 title: "ps_featuredproducts - Randomly display featured products"
-weight: 1
+weight: 3
 ---
 
 # ps_featuredproducts - Randomly display featured products

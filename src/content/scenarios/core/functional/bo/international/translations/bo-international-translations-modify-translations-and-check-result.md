@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Translations : Modify translations and check result"
-weight: 2
+weight: 5
 ---
 
 # BO - International - Translations : Modify translations and check result
