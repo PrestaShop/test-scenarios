@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - CRUD - Guest"
-weight: 1
+weight: 9
 ---
 
 # BO - Customers - CRUD - Guest

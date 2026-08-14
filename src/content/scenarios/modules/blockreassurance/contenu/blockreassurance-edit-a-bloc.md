@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Edit a bloc"
-weight: 4
+weight: 3
 ---
 
 # blockreassurance - Edit a bloc

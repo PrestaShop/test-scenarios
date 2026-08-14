@@ -1,6 +1,6 @@
 ---
 title: "ps_categorytree - Uninstall/Install"
-weight: 2
+weight: 3
 ---
 
 # ps_categorytree - Uninstall/Install

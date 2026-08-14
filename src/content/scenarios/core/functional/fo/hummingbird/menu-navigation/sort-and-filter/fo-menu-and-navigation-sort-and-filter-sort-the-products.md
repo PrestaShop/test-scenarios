@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Sort and filter - Sort the products"
-weight: 3
+weight: 2
 ---
 
 # FO - Menu and Navigation - Sort and filter - Sort the products

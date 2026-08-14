@@ -1,6 +1,6 @@
 ---
 title: "ps_customersignin - Logout"
-weight: 3
+weight: 1
 ---
 
 # ps_customersignin - Logout

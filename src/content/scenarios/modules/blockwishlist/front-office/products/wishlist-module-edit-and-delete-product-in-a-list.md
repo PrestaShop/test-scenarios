@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Edit and delete product in a list"
-weight: 1
+weight: 3
 ---
 
 # Wishlist module - Edit and delete product in a list

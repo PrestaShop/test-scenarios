@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Upgrade module"
-weight: 1
+weight: 3
 ---
 
 # Wishlist module - Upgrade module

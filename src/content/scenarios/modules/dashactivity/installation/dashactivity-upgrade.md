@@ -1,6 +1,6 @@
 ---
 title: "dashactivity - Upgrade"
-weight: 5
+weight: 3
 ---
 
 # dashactivity - Upgrade

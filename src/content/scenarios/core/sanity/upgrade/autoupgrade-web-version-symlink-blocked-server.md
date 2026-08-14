@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version -  symlink - blocked server"
-weight: 1
+weight: 9
 ---
 
 # Autoupgrade - Web Version -  symlink - blocked server

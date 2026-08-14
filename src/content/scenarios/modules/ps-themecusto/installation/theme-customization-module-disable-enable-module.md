@@ -1,6 +1,6 @@
 ---
 title: "Theme Customization module - Disable/Enable module"
-weight: 2
+weight: 1
 ---
 
 # Theme Customization module - Disable/Enable module

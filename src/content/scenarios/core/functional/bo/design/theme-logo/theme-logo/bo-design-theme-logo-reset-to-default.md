@@ -1,0 +1,19 @@
+---
+title: "BO - Design - Theme & Logo - Reset  to default"
+weight: 3
+---
+
+# BO - Design - Theme & Logo - Reset  to default
+## Details
+* **Component** : Core
+* **Status** : Deprecated
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7647
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo/choose-layouts
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Design > Theme & Logo > Scroll down to the last block > Click Choose layouts | Choose layouts page is displayed correctly |
+| Change the first 3 layouts to : Three columns > Save | Successful update message is displayed |
+| Scroll down to the last block > Click on the button Reset to default | A success message will be displayed contains : <br>_Your theme has been correctly reset to its default settings. You may want to regenerate your images. See the Improve > Design > Images Settings screen for the 'Regenerate thumbnails' button._ |
+| Click on Choose layouts | See the layouts of the page has been reset :<br>404 error : Full width<br>Best sellers : Two columns<br>Contact us : Two columns |

@@ -1,6 +1,6 @@
 ---
 title: "ps_crossselling - Enable / Disable Show price"
-weight: 2
+weight: 1
 ---
 
 # ps_crossselling - Enable / Disable Show price

@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Locations - Countries - Help button"
-weight: 2
+weight: 1
 ---
 
 # BO - International - Locations - Countries - Help button

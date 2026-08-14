@@ -1,0 +1,20 @@
+---
+title: "BO - Advanced Parameters - Database - SQL Manager - Help card"
+weight: 1
+---
+
+# BO - Advanced Parameters - Database - SQL Manager - Help card
+## Details
+* **Component** : Core
+* **Status** : [TEST] IN PROGRESS
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7853
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/07_database/sqlManager/02_helpCard.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/database/sql-manager
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Advanced Parameters > Database > SQL Manager | DB Backup page is well displayed |
+| Click on *Help* button on top right corner | Help card is displayed from the right side of the page |
+| *Case1*<br><br>Click on *{color:#4c9aff}x{color}* button in the Help card header<br><br>*Case 2*<br><br>Click any where in Profiles page<br><br>*Case 3* <br><br>Click on *Help* button | The Help card disappears |

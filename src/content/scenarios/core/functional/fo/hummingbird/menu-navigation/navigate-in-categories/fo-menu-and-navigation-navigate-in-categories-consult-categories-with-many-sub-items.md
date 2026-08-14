@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)"
-weight: 3
+weight: 2
 ---
 
 # FO - Menu and Navigation - Navigate in Categories - Consult categories (with many sub items)

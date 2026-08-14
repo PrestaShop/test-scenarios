@@ -1,6 +1,6 @@
 ---
 title: "Theme Customization module - Pages configuration tab "
-weight: 3
+weight: 1
 ---
 
 # Theme Customization module - Pages configuration tab 

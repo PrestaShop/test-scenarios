@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Set default country"
-weight: 2
+weight: 8
 ---
 
 # BO - International - Localization - Set default country

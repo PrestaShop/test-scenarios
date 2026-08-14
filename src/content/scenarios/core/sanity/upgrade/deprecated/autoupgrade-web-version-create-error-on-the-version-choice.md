@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Create error  on the version choice"
-weight: 12
+weight: 13
 ---
 
 # Autoupgrade - Web Version - Create error  on the version choice
@@ -32,3 +32,8 @@ weight: 12
 | Refresh the page. | Page is refreshed. |
 | Search for "Update". | Update Assistant is displayed. |
 | Check for the version. | * The version is the latest in prod. <br><br> * The lastest version in prod is displayed because it is the version available on the marketplace. |
+| Go to the Shop Parameters > General. | General > Preferences page is displayed on the "General" tab. |
+| Click on the "Maintenance" tab. | "Maintenance" tab is displayed. |
+| Click on the toggle "Enable store" | Toggle is in "No" status. |
+| Click on the CTA "Add my IP". | IP address is filled. |
+| Click on the CTA "Save". | Shop is in maintenance mode. |

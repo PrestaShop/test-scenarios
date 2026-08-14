@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Display Specific delivery time"
-weight: 11
+weight: 9
 ---
 
 # FO - Product Page - Display Specific delivery time

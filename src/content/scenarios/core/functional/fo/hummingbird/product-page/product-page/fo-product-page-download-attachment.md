@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Download attachment"
-weight: 5
+weight: 2
 ---
 
 # FO - Product Page - Download attachment

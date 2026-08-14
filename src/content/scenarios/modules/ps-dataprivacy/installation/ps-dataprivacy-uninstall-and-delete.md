@@ -1,6 +1,6 @@
 ---
 title: "ps_dataprivacy - Uninstall and delete"
-weight: 1
+weight: 2
 ---
 
 # ps_dataprivacy - Uninstall and delete
