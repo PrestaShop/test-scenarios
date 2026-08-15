@@ -8,6 +8,48 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>BO - Shop Parameters - General - Enable / Disable Best sellers</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-best-sellers.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-best-sellers.html</guid>
+      <description>BO - Shop Parameters - General - Enable / Disable Best sellers Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7747 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/10_enableDisableBestSellers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Best sellers See that Best sellers page is displayed. Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Disable Display Best sellers &amp;gt; Save Page title contains &amp;lsquo;Preferences&amp;rsquo;</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - General - Enable / disable multistore</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html</guid>
+      <description>BO - Shop Parameters - General - Enable / disable multistore Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7745 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/11_enableDisableMultistore.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO&amp;gt; Shop Parameters&amp;gt; General Preferences page is displayed on General tab Enable Multistore YES,&#xA;save. Successful update message is displayed. Go to Advanced parameters&amp;gt; Mutistore Multistore page is well displayed.</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - General - Disable / Enable Front office security</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-disable-enable-front-office-security.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-disable-enable-front-office-security.html</guid>
+      <description> BO - Shop Parameters - General - Disable / Enable Front office security Details Component : Core Status : To be automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7749 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; General Preferences page is displayed&#xA;General tab is selected by default Switch Increase front office security toggle to Yes &amp;gt; Click Save button Message displayed &amp;ldquo;Successful update&amp;rdquo; Click on View my store &amp;gt; Add items to Cart &amp;gt; Click Proceed to checkout Shopping cart is displayed Inspect the page &amp;gt; Search for &amp;ldquo;token&amp;rdquo; in html (Elements tab) See 4 occurrences of token Go back to BO &amp;gt; Advanced parameters &amp;gt; Switch Increase front office security toggle to No &amp;gt; Click Save button Message displayed &amp;ldquo;Successful update&amp;rdquo; Refresh your cart page &amp;gt; Inspect the page &amp;gt; Search for &amp;ldquo;token&amp;rdquo; in html (Elements tab) See 3 occurrences of token </description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - General : Round type</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-type.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-type.html</guid>
+      <description> BO - Shop Parameters - General : Round type Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8538 </description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-allow-iframes-on-html-field.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-allow-iframes-on-html-field.html</guid>
+      <description>BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7746 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; General Preferences page is displayed&#xA;Allow iframes on HTML fields is disabled Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Edit Customizable mug Customizable mug product page is displayed In the description &amp;gt; Source code &amp;gt; Add</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - General - Enable / Disable Brands</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</guid>
+      <description>BO - Shop Parameters - General - Enable / Disable Brands Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7742 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/09_enableDisableBrands.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Brands See that Brands page is displayed. Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers Blue alert is displayed : &amp;ldquo;The display of your brands is enabled on your store.</description>
+    </item>
+    <item>
       <title>BO - Shop Parameters - General : Round mode</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-mode.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -27,48 +69,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-supplier.html</guid>
       <description>BO - Shop Parameters - General - Enable / Disable Supplier Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7740 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/08_enableDisableSuppliers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters -&amp;gt; General Page title contains &amp;lsquo;Preferences&amp;rsquo; Enable Display suppliers &amp;gt; Save Message Successful update is displayed Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers &amp;gt; Tab Suppliers Page title contains &amp;lsquo;Suppliers&amp;rsquo;</description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - General : Round type</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-type.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-round-type.html</guid>
-      <description> BO - Shop Parameters - General : Round type Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8538 </description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-allow-iframes-on-html-field.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-allow-iframes-on-html-field.html</guid>
-      <description>BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7746 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/03_allowIframes.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; General Preferences page is displayed&#xA;Allow iframes on HTML fields is disabled Go to BO &amp;gt; Catalog &amp;gt; Products &amp;gt; Edit Customizable mug Customizable mug product page is displayed In the description &amp;gt; Source code &amp;gt; Add</description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - General - Disable / Enable Front office security</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-disable-enable-front-office-security.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-disable-enable-front-office-security.html</guid>
-      <description> BO - Shop Parameters - General - Disable / Enable Front office security Details Component : Core Status : To be automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7749 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; General Preferences page is displayed&#xA;General tab is selected by default Switch Increase front office security toggle to Yes &amp;gt; Click Save button Message displayed &amp;ldquo;Successful update&amp;rdquo; Click on View my store &amp;gt; Add items to Cart &amp;gt; Click Proceed to checkout Shopping cart is displayed Inspect the page &amp;gt; Search for &amp;ldquo;token&amp;rdquo; in html (Elements tab) See 4 occurrences of token Go back to BO &amp;gt; Advanced parameters &amp;gt; Switch Increase front office security toggle to No &amp;gt; Click Save button Message displayed &amp;ldquo;Successful update&amp;rdquo; Refresh your cart page &amp;gt; Inspect the page &amp;gt; Search for &amp;ldquo;token&amp;rdquo; in html (Elements tab) See 3 occurrences of token </description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - General - Enable / Disable Best sellers</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-best-sellers.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-best-sellers.html</guid>
-      <description>BO - Shop Parameters - General - Enable / Disable Best sellers Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7747 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/10_enableDisableBestSellers.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Best sellers See that Best sellers page is displayed. Go to BO &amp;gt; Shop Parameters &amp;gt; General &amp;gt; Disable Display Best sellers &amp;gt; Save Page title contains &amp;lsquo;Preferences&amp;rsquo;</description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - General - Enable / disable multistore</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-multistore.html</guid>
-      <description>BO - Shop Parameters - General - Enable / disable multistore Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7745 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/11_enableDisableMultistore.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to BO&amp;gt; Shop Parameters&amp;gt; General Preferences page is displayed on General tab Enable Multistore YES,&#xA;save. Successful update message is displayed. Go to Advanced parameters&amp;gt; Mutistore Multistore page is well displayed.</description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - General - Enable / Disable Brands</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/general/general/bo-shop-parameters-general-enable-disable-brands.html</guid>
-      <description>BO - Shop Parameters - General - Enable / Disable Brands Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7742 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/09_enableDisableBrands.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; Click on Sitemap &amp;gt; Click on Brands See that Brands page is displayed. Go to BO &amp;gt; Catalog &amp;gt; Brands &amp;amp; Suppliers Blue alert is displayed : &amp;ldquo;The display of your brands is enabled on your store.</description>
     </item>
   </channel>
 </rss>

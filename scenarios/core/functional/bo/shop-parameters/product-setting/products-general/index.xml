@@ -8,11 +8,46 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BO - Shop Parameters - Product Settings - Enable, disable, force update friendly url</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-force-update-friendly-url.html</link>
+      <title>BO - Shop Parameters - Product Settings - Default behavior for disabled products</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-behavior-for-disabled-products.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-force-update-friendly-url.html</guid>
-      <description> BO - Shop Parameters - Product Settings - Enable, disable, force update friendly url Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7765 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/05_forceUpdateFriendlyURL.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings Steps Step Description Expected result go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo; Enable force update friendly URL Successful message is displayed Go to product page and create a product Setting updated message is displayed Update name of the product Product name and friendly URL are updated delete product Successful message is displayed go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo; disable force update friendly URL Successful message is displayed </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-behavior-for-disabled-products.html</guid>
+      <description> BO - Shop Parameters - Product Settings - Default behavior for disabled products Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8392 </description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Product Settings - Max size short description</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-max-size-short-description.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-max-size-short-description.html</guid>
+      <description>BO - Shop Parameters - Product Settings - Max size short description Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7763 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/03_maxSizeShortDescription.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings Steps Step Description Expected result go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo; Update max size of short description to 5 Successful update message is displayed Should go to products page page title contains &amp;lsquo;Products&amp;rsquo; Try to create product with description &amp;gt; 5 Error messages are displayed</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Product Settings - Default order of priority for specific prices</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-order-of-priority-for-specific-prices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-order-of-priority-for-specific-prices.html</guid>
+      <description> BO - Shop Parameters - Product Settings - Default order of priority for specific prices Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8334 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings </description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Product Settings - Category used in breadcrumbs</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-category-used-in-breadcrumbs.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-category-used-in-breadcrumbs.html</guid>
+      <description> BO - Shop Parameters - Product Settings - Category used in breadcrumbs Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8391 </description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Product Settings - New days number</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-new-days-number.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-new-days-number.html</guid>
+      <description> BO - Shop Parameters - Product Settings - New days number Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7762 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/02_newDaysNumber.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings Steps Step Description Expected result go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo; update number of days to 0 Successful update message is displayed View my shop New flag is visible Go back to BO and reset number of days value Successful update message is displayed View my shop New flag is not visible </description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Product Settings - Quantity discounts based on</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-quantity-discounts-based-on.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-quantity-discounts-based-on.html</guid>
+      <description> BO - Shop Parameters - Product Settings - Quantity discounts based on Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8389 </description>
     </item>
     <item>
       <title>BO - Shop Parameters - Product Settings - Enable, disable default activation status</title>
@@ -29,46 +64,11 @@
       <description>BO - Shop Parameters - Product Settings - Enable, disable catalog mode Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7761 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/01_catalogMode.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Product Settings Product Settings page is displayed Catalog mode &amp;gt; YES &amp;gt; Save Update successful alert is displayed disable show prices Successful update message is displayed View my shop Price is not visible in FO Open a product Product price is not visible</description>
     </item>
     <item>
-      <title>BO - Shop Parameters - Product Settings - Default order of priority for specific prices</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-order-of-priority-for-specific-prices.html</link>
+      <title>BO - Shop Parameters - Product Settings - Enable, disable, force update friendly url</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-force-update-friendly-url.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-order-of-priority-for-specific-prices.html</guid>
-      <description> BO - Shop Parameters - Product Settings - Default order of priority for specific prices Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8334 Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings </description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Product Settings - Default behavior for disabled products</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-behavior-for-disabled-products.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-default-behavior-for-disabled-products.html</guid>
-      <description> BO - Shop Parameters - Product Settings - Default behavior for disabled products Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8392 </description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Product Settings - Category used in breadcrumbs</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-category-used-in-breadcrumbs.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-category-used-in-breadcrumbs.html</guid>
-      <description> BO - Shop Parameters - Product Settings - Category used in breadcrumbs Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8391 </description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Product Settings - Quantity discounts based on</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-quantity-discounts-based-on.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-quantity-discounts-based-on.html</guid>
-      <description> BO - Shop Parameters - Product Settings - Quantity discounts based on Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8389 </description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Product Settings - Max size short description</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-max-size-short-description.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-max-size-short-description.html</guid>
-      <description>BO - Shop Parameters - Product Settings - Max size short description Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7763 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/03_maxSizeShortDescription.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings Steps Step Description Expected result go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo; Update max size of short description to 5 Successful update message is displayed Should go to products page page title contains &amp;lsquo;Products&amp;rsquo; Try to create product with description &amp;gt; 5 Error messages are displayed</description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Product Settings - New days number</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-new-days-number.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-new-days-number.html</guid>
-      <description> BO - Shop Parameters - Product Settings - New days number Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7762 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/02_newDaysNumber.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings Steps Step Description Expected result go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo; update number of days to 0 Successful update message is displayed View my shop New flag is visible Go back to BO and reset number of days value Successful update message is displayed View my shop New flag is not visible </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/product-setting/products-general/bo-shop-parameters-product-settings-enable-disable-force-update-friendly-url.html</guid>
+      <description> BO - Shop Parameters - Product Settings - Enable, disable, force update friendly url Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7765 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/03_productSettings/01_productsGeneral/05_forceUpdateFriendlyURL.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/product-settings Steps Step Description Expected result go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo; Enable force update friendly URL Successful message is displayed Go to product page and create a product Setting updated message is displayed Update name of the product Product name and friendly URL are updated delete product Successful message is displayed go to &amp;lsquo;Shop parameters &amp;gt; Product Settings&amp;rsquo; page page title contains &amp;lsquo;Product Settings&amp;rsquo; disable force update friendly URL Successful message is displayed </description>
     </item>
   </channel>
 </rss>

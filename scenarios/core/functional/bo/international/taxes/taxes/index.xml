@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>BO - International - Taxes - Filter and Quick Edit</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-filter-and-quick-edit.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-filter-and-quick-edit.html</guid>
+      <description>BO - International - Taxes - Filter and Quick Edit Details Component : Core Status : [TEST] IN PROGRESS Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7729 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/01_filterAndQuickEditTaxes.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/taxes-1/taxes-listing Steps Step Description Expected result Go to BO Login page is displayed Sign in to Bo Dashboard page is displayed Go to International -&amp;gt; Taxes Page Taxes Page is displayed Reset filter and get number of taxes in BO Number of taxes is above 0 Filter by id</description>
+    </item>
+    <item>
       <title>BO - International - Taxes - Tax Options Form</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-tax-options-form.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -22,13 +29,6 @@
       <description>BO - International - Taxes - Sort and pagination Details Component : Core Status : [TEST] IN PROGRESS Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7731 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/05_sortAndPagination.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/taxes-1/taxes-listing Steps Step Description Expected result Go to taxes page Page title contains &amp;lsquo;Taxes&amp;rsquo; Sort by id_tax desc list is sorted by id_tax desc&#xA;(3 -&amp;gt; 2 -&amp;gt; 1) Sort by name asc list is sorted by name asc</description>
     </item>
     <item>
-      <title>BO - International - Taxes - CRUD</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-crud.html</guid>
-      <description>BO - International - Taxes - CRUD Details Component : Core Status : [TEST] IN PROGRESS Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7728 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/02_CRUDTaxesInBO.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/taxes-1/add-or-edit-taxes Steps Step Description Expected result Go to BO Login page is displayed Sign in to Bo Dashboard page is displayed Go to International -&amp;gt; Taxes Page Taxes Page is displayed Go to add new Tax Page Add new Tax page is displayed Fill all information and click on save</description>
-    </item>
-    <item>
       <title>BO - International - Taxes - Bulk Actions</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-bulk-actions.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,11 +36,11 @@
       <description>BO - International - Taxes - Bulk Actions Details Component : Core Status : [TEST] IN PROGRESS Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7730 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/03_taxesBulkActionsInBO.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/taxes-1/taxes-listing Steps Step Description Expected result Go to BO Login page is displayed Sign in to Bo Dashboard page is displayed Go to International -&amp;gt; Taxes Page Taxes Page is displayed Reset filter and get number of taxes in BO Number of taxes is above 0 Go to add new Tax Page (create first tax) Add new Tax page is displayed Fill all information and click on save</description>
     </item>
     <item>
-      <title>BO - International - Taxes - Filter and Quick Edit</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-filter-and-quick-edit.html</link>
+      <title>BO - International - Taxes - CRUD</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-crud.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-filter-and-quick-edit.html</guid>
-      <description>BO - International - Taxes - Filter and Quick Edit Details Component : Core Status : [TEST] IN PROGRESS Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7729 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/01_filterAndQuickEditTaxes.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/taxes-1/taxes-listing Steps Step Description Expected result Go to BO Login page is displayed Sign in to Bo Dashboard page is displayed Go to International -&amp;gt; Taxes Page Taxes Page is displayed Reset filter and get number of taxes in BO Number of taxes is above 0 Filter by id</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/international/taxes/taxes/bo-international-taxes-crud.html</guid>
+      <description>BO - International - Taxes - CRUD Details Component : Core Status : [TEST] IN PROGRESS Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7728 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/03_taxes/01_taxes/02_CRUDTaxesInBO.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/taxes-1/add-or-edit-taxes Steps Step Description Expected result Go to BO Login page is displayed Sign in to Bo Dashboard page is displayed Go to International -&amp;gt; Taxes Page Taxes Page is displayed Go to add new Tax Page Add new Tax page is displayed Fill all information and click on save</description>
     </item>
   </channel>
 </rss>

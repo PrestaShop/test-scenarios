@@ -8,11 +8,53 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BO - Discount - Select a free gift product - Error messages</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product-error-messages.html</link>
+      <title>BO - Discount - based on a product (or one of its combinations)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-a-product-or-one-of-its-combinations.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product-error-messages.html</guid>
-      <description> BO - Discount - Select a free gift product - Error messages Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8503 </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-a-product-or-one-of-its-combinations.html</guid>
+      <description> BO - Discount - based on a product (or one of its combinations) Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8502 </description>
+    </item>
+    <item>
+      <title>BO - Discount - Trigger based on the total quantity of products in the cart</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-the-total-quantity-of-products-in-the-cart.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-the-total-quantity-of-products-in-the-cart.html</guid>
+      <description>BO - Discount - Trigger based on the total quantity of products in the cart Details Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8464 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/09_triggerBasedOnProductsQuantity.ts.ts Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount&#xA;Choose &amp;ldquo;On cart amount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+    </item>
+    <item>
+      <title>BO - Discount - Add product level discount</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-product-level-discount.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-product-level-discount.html</guid>
+      <description> BO - Discount - Add product level discount Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8493 </description>
+    </item>
+    <item>
+      <title>BO - Discount - Set period </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-period.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-period.html</guid>
+      <description>BO - Discount - Set period Details Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8460 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/06_setPeriod.ts.ts Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;Discount list = 0 Click to Create discount Select discount type modal displayed Select on cart amount and Click to create discount Create cart discount displayed&#xA;Select period:&#xA;Starts on: Date of the creation (by default)&#xA;Ends on: 1 month after Start on date (by default) Fill form and save Error notification: &amp;ldquo;The expiration date must be after start date&amp;rdquo; Fill form and save The start date will automatically set today&amp;rsquo;s date, and we get an error message: “The expiration date must be after start date” Fill form and save The end date field is deleted and we have a success message for the creation of the discount.</description>
+    </item>
+    <item>
+      <title>BO - Discount - Minimum purchase amount (On cart amount)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-cart-amount.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-cart-amount.html</guid>
+      <description>BO - Discount - Minimum purchase amount (On cart amount) Details Component : Core Status : Automated Automated on : 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8463 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/01_minimumPurchaseAmountOnCartAmount.ts Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed</description>
+    </item>
+    <item>
+      <title>BO - Discount - Display an automatic catalog discount in the product catalog</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-display-an-automatic-catalog-discount-in-the-product-catalog.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-display-an-automatic-catalog-discount-in-the-product-catalog.html</guid>
+      <description>BO - Discount - Display an automatic catalog discount in the product catalog Details Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8459 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount &amp;ndash;&amp;gt; on product catalog Create cart discount displayed Fill form and save Discount page displayed&#xA;Notification :&#xA;Successful update&#xA;The discount has been created&#xA;Discount list = 1 Go to FO Product catalog displayed</description>
+    </item>
+    <item>
+      <title>Trigger based on a feature</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/trigger-based-on-a-feature.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/trigger-based-on-a-feature.html</guid>
+      <description> Trigger based on a feature Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8501 </description>
     </item>
     <item>
       <title>BO - Discount - Minimum purchase amount (Free gift)</title>
@@ -29,81 +71,18 @@
       <description>BO - Discount - Select a free gift product Details Status : Blocked Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8462 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Create cart discount displayed Fill form and Do not include the name of the discount. Error message: &amp;ldquo;The form contains errors. Please fix them and save again.&amp;quot;&#xA;&amp;quot;&#xA;&amp;ldquo;The field names is required at least in your default language.</description>
     </item>
     <item>
-      <title>BO - Discount - Trigger based on the total quantity of products in the cart</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-the-total-quantity-of-products-in-the-cart.html</link>
+      <title>BO - Discount - Making a discount compatible with other discounts (via code promo)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-making-a-discount-compatible-with-other-discounts-via-code-promo.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-the-total-quantity-of-products-in-the-cart.html</guid>
-      <description>BO - Discount - Trigger based on the total quantity of products in the cart Details Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8464 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/09_triggerBasedOnProductsQuantity.ts.ts Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount&#xA;Choose &amp;ldquo;On cart amount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-making-a-discount-compatible-with-other-discounts-via-code-promo.html</guid>
+      <description> BO - Discount - Making a discount compatible with other discounts (via code promo) Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8492 </description>
     </item>
     <item>
-      <title>BO - Discount - Add catalog discount</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</link>
+      <title>BO - Discount - Select a free gift product - Error messages</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product-error-messages.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</guid>
-      <description> BO - Discount - Add catalog discount Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8461 </description>
-    </item>
-    <item>
-      <title>BO - Discount - based on the total order price</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-total-order-price.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-total-order-price.html</guid>
-      <description> BO - Discount - based on the total order price Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8504 </description>
-    </item>
-    <item>
-      <title>Trigger based on a feature</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/trigger-based-on-a-feature.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/trigger-based-on-a-feature.html</guid>
-      <description> Trigger based on a feature Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8501 </description>
-    </item>
-    <item>
-      <title>BO - Discount - Creation Form (Free Shipping)</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-creation-form-free-shipping.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-creation-form-free-shipping.html</guid>
-      <description> BO - Discount - Creation Form (Free Shipping) Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8500 </description>
-    </item>
-    <item>
-      <title>BO - Discount - Set period </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-period.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-set-period.html</guid>
-      <description>BO - Discount - Set period Details Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8460 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/06_setPeriod.ts.ts Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;Discount list = 0 Click to Create discount Select discount type modal displayed Select on cart amount and Click to create discount Create cart discount displayed&#xA;Select period:&#xA;Starts on: Date of the creation (by default)&#xA;Ends on: 1 month after Start on date (by default) Fill form and save Error notification: &amp;ldquo;The expiration date must be after start date&amp;rdquo; Fill form and save The start date will automatically set today&amp;rsquo;s date, and we get an error message: “The expiration date must be after start date” Fill form and save The end date field is deleted and we have a success message for the creation of the discount.</description>
-    </item>
-    <item>
-      <title>BO - Discount - Display an automatic catalog discount in the product catalog</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-display-an-automatic-catalog-discount-in-the-product-catalog.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-display-an-automatic-catalog-discount-in-the-product-catalog.html</guid>
-      <description>BO - Discount - Display an automatic catalog discount in the product catalog Details Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8459 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount &amp;ndash;&amp;gt; on product catalog Create cart discount displayed Fill form and save Discount page displayed&#xA;Notification :&#xA;Successful update&#xA;The discount has been created&#xA;Discount list = 1 Go to FO Product catalog displayed</description>
-    </item>
-    <item>
-      <title>BO - Discount - based on the carrier</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-carrier.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-carrier.html</guid>
-      <description> BO - Discount - based on the carrier Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8495 </description>
-    </item>
-    <item>
-      <title>BO - Discount - Minimum purchase amount (On cart amount)</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-cart-amount.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-cart-amount.html</guid>
-      <description>BO - Discount - Minimum purchase amount (On cart amount) Details Component : Core Status : Automated Automated on : 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8463 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/01_minimumPurchaseAmountOnCartAmount.ts Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed</description>
-    </item>
-    <item>
-      <title>BO - Discount - based on a product (or one of its combinations)</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-a-product-or-one-of-its-combinations.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-a-product-or-one-of-its-combinations.html</guid>
-      <description> BO - Discount - based on a product (or one of its combinations) Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8502 </description>
-    </item>
-    <item>
-      <title>BO - Discount - based on the shipping country</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-shipping-country.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-shipping-country.html</guid>
-      <description>BO - Discount - based on the shipping country Details Status : IN REVIEW Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8494 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field name is required at least in your default language.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-select-a-free-gift-product-error-messages.html</guid>
+      <description> BO - Discount - Select a free gift product - Error messages Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8503 </description>
     </item>
     <item>
       <title>Trigger based on an attribute</title>
@@ -113,6 +92,13 @@
       <description> Trigger based on an attribute Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8499 </description>
     </item>
     <item>
+      <title>BO - Discount - Trigger based on a supplier</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-a-supplier.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-a-supplier.html</guid>
+      <description> BO - Discount - Trigger based on a supplier Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8497 </description>
+    </item>
+    <item>
       <title>BO - Discount - based on the category</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-category.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -120,18 +106,11 @@
       <description> BO - Discount - based on the category Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8496 </description>
     </item>
     <item>
-      <title>BO - Discount - Making a discount compatible with other discounts (via code promo)</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-making-a-discount-compatible-with-other-discounts-via-code-promo.html</link>
+      <title>BO - Discount - based on the shipping country</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-shipping-country.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-making-a-discount-compatible-with-other-discounts-via-code-promo.html</guid>
-      <description> BO - Discount - Making a discount compatible with other discounts (via code promo) Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8492 </description>
-    </item>
-    <item>
-      <title>BO - Discount - Minimum purchase amount (On catalog products)</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-catalog-products.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-catalog-products.html</guid>
-      <description>BO - Discount - Minimum purchase amount (On catalog products) Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8485 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-shipping-country.html</guid>
+      <description>BO - Discount - based on the shipping country Details Status : IN REVIEW Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8494 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field name is required at least in your default language.</description>
     </item>
     <item>
       <title>Trigger based on a brand</title>
@@ -141,6 +120,20 @@
       <description> Trigger based on a brand Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8498 </description>
     </item>
     <item>
+      <title>BO - Discount - based on the carrier</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-carrier.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-carrier.html</guid>
+      <description> BO - Discount - based on the carrier Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8495 </description>
+    </item>
+    <item>
+      <title>BO - Discount - Minimum purchase amount (On catalog products)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-catalog-products.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-minimum-purchase-amount-on-catalog-products.html</guid>
+      <description>BO - Discount - Minimum purchase amount (On catalog products) Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8485 Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
+    </item>
+    <item>
       <title>BO - Discount - Create a discount that applies automatically or via promo code </title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-create-a-discount-that-applies-automatically-or-via-promo-code.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -148,11 +141,11 @@
       <description>BO - Discount - Create a discount that applies automatically or via promo code Details Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8465 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://github.com/PrestaShop/PrestaShop/blob/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/10_withAndWithoutPromoCode.ts.ts Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount&#xA;Choose &amp;ldquo;On cart amount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The field names is required at least in your default language.</description>
     </item>
     <item>
-      <title>BO - Discount - Trigger based on a supplier</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-a-supplier.html</link>
+      <title>BO - Discount - Add catalog discount</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-trigger-based-on-a-supplier.html</guid>
-      <description> BO - Discount - Trigger based on a supplier Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8497 </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-catalog-discount.html</guid>
+      <description> BO - Discount - Add catalog discount Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8461 </description>
     </item>
     <item>
       <title>BO - Discount - Minimum purchase amount (On Free shipping)</title>
@@ -162,11 +155,18 @@
       <description>BO - Discount - Minimum purchase amount (On Free shipping) Details Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8487 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/03_discountV2/04_minimumPurchaseAmountOnFreeShipping.ts Steps Step Description Expected result BO &amp;gt; Catalog &amp;gt; Discounts Discounts page should be displayed&#xA;empty discount list Click to Create discount Select discount page displayed Choose type and click to &amp;ldquo;Create discount&amp;rdquo; Create cart discount displayed Fill form and save Discount page displayed&#xA;Error Message: The form contains errors.</description>
     </item>
     <item>
-      <title>BO - Discount - Add product level discount</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-product-level-discount.html</link>
+      <title>BO - Discount - based on the total order price</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-total-order-price.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-add-product-level-discount.html</guid>
-      <description> BO - Discount - Add product level discount Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8493 </description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-based-on-the-total-order-price.html</guid>
+      <description> BO - Discount - based on the total order price Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8504 </description>
+    </item>
+    <item>
+      <title>BO - Discount - Creation Form (Free Shipping)</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-creation-form-free-shipping.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/catalog/discount/discount-v2/bo-discount-creation-form-free-shipping.html</guid>
+      <description> BO - Discount - Creation Form (Free Shipping) Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8500 </description>
     </item>
   </channel>
 </rss>
