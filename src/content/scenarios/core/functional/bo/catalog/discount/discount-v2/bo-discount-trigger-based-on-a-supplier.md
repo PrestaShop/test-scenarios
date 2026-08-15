@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Trigger based on a supplier"
-weight: 22
+weight: 14
 ---
 
 # BO - Discount - Trigger based on a supplier

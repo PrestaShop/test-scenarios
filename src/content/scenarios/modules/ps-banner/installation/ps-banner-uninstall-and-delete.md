@@ -1,6 +1,6 @@
 ---
 title: "ps_banner - Uninstall and delete"
-weight: 2
+weight: 3
 ---
 
 # ps_banner - Uninstall and delete

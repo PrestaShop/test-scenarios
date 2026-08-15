@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Image Generation on creation"
-weight: 4
+weight: 5
 ---
 
 # BO - Design - Image Settings - Image Generation on creation

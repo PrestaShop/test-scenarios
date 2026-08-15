@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Delivery Slips - Delivery Slip Number"
-weight: 1
+weight: 3
 ---
 
 # BO - Orders - Delivery Slips - Delivery Slip Number

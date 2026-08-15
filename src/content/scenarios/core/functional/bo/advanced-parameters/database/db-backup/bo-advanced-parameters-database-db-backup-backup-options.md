@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Database - DB Backup - Backup options"
-weight: 3
+weight: 2
 ---
 
 # BO - Advanced Parameters - Database - DB Backup - Backup options

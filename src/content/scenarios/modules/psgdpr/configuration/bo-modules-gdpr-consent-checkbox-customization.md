@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - GDPR - Consent checkbox customization"
-weight: 3
+weight: 1
 ---
 
 # BO - Modules - GDPR - Consent checkbox customization

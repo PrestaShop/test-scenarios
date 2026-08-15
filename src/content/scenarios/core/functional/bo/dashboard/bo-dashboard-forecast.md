@@ -1,6 +1,6 @@
 ---
 title: "BO - Dashboard - Forecast"
-weight: 3
+weight: 1
 ---
 
 # BO - Dashboard - Forecast

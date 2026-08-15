@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Use combination image in listings"
-weight: 3
+weight: 6
 ---
 
 # BO - Shop Parameters - Product Settings - Use combination image in listings

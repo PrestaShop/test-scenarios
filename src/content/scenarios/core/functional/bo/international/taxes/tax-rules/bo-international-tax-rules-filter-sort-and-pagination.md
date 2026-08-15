@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Tax Rules - Filter, sort and pagination"
-weight: 2
+weight: 3
 ---
 
 # BO - International - Tax Rules - Filter, sort and pagination

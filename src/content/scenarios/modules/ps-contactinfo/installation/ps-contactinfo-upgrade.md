@@ -1,6 +1,6 @@
 ---
 title: "ps_contactinfo - Upgrade"
-weight: 2
+weight: 1
 ---
 
 # ps_contactinfo - Upgrade

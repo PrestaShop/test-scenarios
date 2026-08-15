@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Invalid date"
-weight: 6
+weight: 7
 ---
 
 # BO - Catalog price Rules - CRUD - Invalid date

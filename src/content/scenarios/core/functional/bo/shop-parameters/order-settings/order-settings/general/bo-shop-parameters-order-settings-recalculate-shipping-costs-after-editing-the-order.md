@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings : Recalculate shipping costs after editing the order"
-weight: 3
+weight: 7
 ---
 
 # BO - Shop Parameters - Order Settings : Recalculate shipping costs after editing the order

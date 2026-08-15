@@ -1,6 +1,6 @@
 ---
 title: "Cash on delivery (COD) module - Upgrade module"
-weight: 1
+weight: 3
 ---
 
 # Cash on delivery (COD) module - Upgrade module

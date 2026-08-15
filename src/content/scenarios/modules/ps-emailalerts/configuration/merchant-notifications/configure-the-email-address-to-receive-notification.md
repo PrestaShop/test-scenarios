@@ -1,6 +1,6 @@
 ---
 title: "Configure the email address to receive notification"
-weight: 2
+weight: 9
 ---
 
 # Configure the email address to receive notification

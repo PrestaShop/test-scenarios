@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Addresses - Set and verify required fields"
-weight: 2
+weight: 3
 ---
 
 # BO - Customers - Addresses - Set and verify required fields

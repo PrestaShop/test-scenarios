@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Translations : Email Body Translation"
-weight: 4
+weight: 2
 ---
 
 # BO - International - Translations : Email Body Translation

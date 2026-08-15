@@ -1,6 +1,6 @@
 ---
 title: "PUT /admin-api/modules/bulk-update-status"
-weight: 10
+weight: 2
 ---
 
 # PUT /admin-api/modules/bulk-update-status

@@ -1,6 +1,6 @@
 ---
 title: "ps_googleanalytics - Enable Back Office Tracking"
-weight: 2
+weight: 1
 ---
 
 # ps_googleanalytics - Enable Back Office Tracking

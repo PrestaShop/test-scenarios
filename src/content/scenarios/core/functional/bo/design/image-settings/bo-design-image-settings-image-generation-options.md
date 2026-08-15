@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings : Image Generation options"
-weight: 9
+weight: 2
 ---
 
 # BO - Design - Image Settings : Image Generation options

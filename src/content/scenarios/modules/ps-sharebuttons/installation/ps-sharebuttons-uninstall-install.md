@@ -1,6 +1,6 @@
 ---
 title: "ps_sharebuttons - Uninstall/Install"
-weight: 3
+weight: 2
 ---
 
 # ps_sharebuttons - Uninstall/Install

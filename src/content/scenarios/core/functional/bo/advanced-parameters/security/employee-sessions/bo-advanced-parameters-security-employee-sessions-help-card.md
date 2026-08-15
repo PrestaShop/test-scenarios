@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Employee sessions - Help card"
-weight: 3
+weight: 1
 ---
 
 # BO - Advanced parameters - Security - Employee sessions - Help card

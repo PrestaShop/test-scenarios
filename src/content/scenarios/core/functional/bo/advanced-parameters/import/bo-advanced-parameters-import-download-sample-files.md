@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Import - Download sample files"
-weight: 6
+weight: 9
 ---
 
 # BO - Advanced parameters - Import - Download sample files

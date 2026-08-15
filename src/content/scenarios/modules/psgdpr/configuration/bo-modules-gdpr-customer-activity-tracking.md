@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - GDPR - Customer activity tracking"
-weight: 1
+weight: 5
 ---
 
 # BO - Modules - GDPR - Customer activity tracking

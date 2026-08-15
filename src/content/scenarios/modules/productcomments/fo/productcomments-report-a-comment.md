@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Report a comment"
-weight: 3
+weight: 5
 ---
 
 # productcomments - Report a comment

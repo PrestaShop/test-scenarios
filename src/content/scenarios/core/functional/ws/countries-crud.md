@@ -1,6 +1,6 @@
 ---
 title: "Countries : CRUD"
-weight: 4
+weight: 2
 ---
 
 # Countries : CRUD

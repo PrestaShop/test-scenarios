@@ -1,6 +1,6 @@
 ---
 title: "Upgrade Shop with minor release"
-weight: 17
+weight: 12
 ---
 
 # Upgrade Shop with minor release

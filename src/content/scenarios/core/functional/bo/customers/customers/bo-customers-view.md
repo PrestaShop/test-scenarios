@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - View"
-weight: 2
+weight: 1
 ---
 
 # BO - Customers - View

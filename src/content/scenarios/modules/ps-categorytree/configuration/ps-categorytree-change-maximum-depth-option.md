@@ -1,6 +1,6 @@
 ---
 title: "ps_categorytree - Change Maximum depth option"
-weight: 1
+weight: 2
 ---
 
 # ps_categorytree - Change Maximum depth option

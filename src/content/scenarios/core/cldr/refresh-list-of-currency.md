@@ -1,6 +1,6 @@
 ---
 title: "Refresh list of currency"
-weight: 12
+weight: 4
 ---
 
 # Refresh list of currency

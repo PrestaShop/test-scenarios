@@ -1,6 +1,6 @@
 ---
 title: "CRUDStandardProductInBO"
-weight: 1
+weight: 3
 ---
 
 # CRUDStandardProductInBO

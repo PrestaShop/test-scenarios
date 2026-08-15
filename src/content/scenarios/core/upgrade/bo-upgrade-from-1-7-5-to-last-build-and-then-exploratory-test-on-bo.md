@@ -1,6 +1,6 @@
 ---
 title: "[BO] Upgrade from 1.7.5 to last build and then exploratory test on BO"
-weight: 8
+weight: 9
 ---
 
 # [BO] Upgrade from 1.7.5 to last build and then exploratory test on BO

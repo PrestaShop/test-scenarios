@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Link Widget - Change position"
-weight: 3
+weight: 1
 ---
 
 # BO - Design - Link Widget - Change position

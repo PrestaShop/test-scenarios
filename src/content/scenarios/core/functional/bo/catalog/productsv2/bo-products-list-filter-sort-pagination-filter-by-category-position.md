@@ -1,6 +1,6 @@
 ---
 title: "BO - Products list - Filter & Sort, Pagination, Filter by category, Position"
-weight: 22
+weight: 10
 ---
 
 # BO - Products list - Filter & Sort, Pagination, Filter by category, Position

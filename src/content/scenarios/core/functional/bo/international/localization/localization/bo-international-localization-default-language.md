@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Default language"
-weight: 6
+weight: 8
 ---
 
 # BO - International - Localization - Default language

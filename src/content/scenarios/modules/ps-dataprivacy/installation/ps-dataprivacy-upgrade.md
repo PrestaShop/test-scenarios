@@ -1,6 +1,6 @@
 ---
 title: "ps_dataprivacy - Upgrade"
-weight: 3
+weight: 1
 ---
 
 # ps_dataprivacy - Upgrade

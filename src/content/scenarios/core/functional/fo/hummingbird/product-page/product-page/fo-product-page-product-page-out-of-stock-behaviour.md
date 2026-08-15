@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Product page : Out of stock behaviour"
-weight: 12
+weight: 1
 ---
 
 # FO - Product page - Product page : Out of stock behaviour

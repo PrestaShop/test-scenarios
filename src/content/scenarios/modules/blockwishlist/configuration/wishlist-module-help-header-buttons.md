@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Help header buttons"
-weight: 1
+weight: 2
 ---
 
 # Wishlist module - Help header buttons

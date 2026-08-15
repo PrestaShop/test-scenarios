@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart - Modal - Display of modal when adding a product to cart"
-weight: 1
+weight: 2
 ---
 
 # FO - Cart - Modal - Display of modal when adding a product to cart

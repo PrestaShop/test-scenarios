@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Create a discount that applies automatically or via promo code "
-weight: 21
+weight: 20
 ---
 
 # BO - Discount - Create a discount that applies automatically or via promo code 

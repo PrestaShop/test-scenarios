@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Traffic and SEO - Search Engines - Bulk action"
-weight: 1
+weight: 4
 ---
 
 # BO - Shop Parameters - Traffic and SEO - Search Engines - Bulk action

@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Check the name of a deleted user"
-weight: 6
+weight: 2
 ---
 
 # productcomments - Check the name of a deleted user

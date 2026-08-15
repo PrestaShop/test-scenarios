@@ -1,6 +1,6 @@
 ---
 title: "BO - Header - View my shop"
-weight: 4
+weight: 2
 ---
 
 # BO - Header - View my shop

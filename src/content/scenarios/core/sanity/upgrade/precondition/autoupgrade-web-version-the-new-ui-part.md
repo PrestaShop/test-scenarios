@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - the new UI part "
-weight: 3
+weight: 1
 ---
 
 # Autoupgrade - Web Version - the new UI part 

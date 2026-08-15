@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Enable / disable final summary"
-weight: 2
+weight: 6
 ---
 
 # BO - Shop Parameters - Order Settings - Enable / disable final summary

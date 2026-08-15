@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks - search products"
-weight: 6
+weight: 5
 ---
 
 # BO - Catalog - Stocks - search products

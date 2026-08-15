@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Logs - Help card"
-weight: 2
+weight: 4
 ---
 
 # BO - Advanced Parameters - Logs - Help card

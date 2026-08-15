@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Change order status with dropdown"
-weight: 1
+weight: 5
 ---
 
 # BO - Order details - Change order status with dropdown

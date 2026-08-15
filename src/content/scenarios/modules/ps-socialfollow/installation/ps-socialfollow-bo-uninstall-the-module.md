@@ -1,6 +1,6 @@
 ---
 title: "ps_socialfollow - BO - Uninstall the module"
-weight: 2
+weight: 3
 ---
 
 # ps_socialfollow - BO - Uninstall the module

@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Information - Case 2 - Create a cart partial use enabled / Disabled"
-weight: 3
+weight: 2
 ---
 
 # BO - Cart rules - Information - Case 2 - Create a cart partial use enabled / Disabled

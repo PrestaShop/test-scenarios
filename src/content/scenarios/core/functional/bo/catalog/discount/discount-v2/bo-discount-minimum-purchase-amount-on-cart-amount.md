@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Minimum purchase amount (On cart amount)"
-weight: 13
+weight: 6
 ---
 
 # BO - Discount - Minimum purchase amount (On cart amount)

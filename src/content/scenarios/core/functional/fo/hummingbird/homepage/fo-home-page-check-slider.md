@@ -1,6 +1,6 @@
 ---
 title: "FO - Home Page : Check slider"
-weight: 2
+weight: 5
 ---
 
 # FO - Home Page : Check slider

@@ -1,6 +1,6 @@
 ---
 title: "BO - Login - Check links"
-weight: 3
+weight: 2
 ---
 
 # BO - Login - Check links

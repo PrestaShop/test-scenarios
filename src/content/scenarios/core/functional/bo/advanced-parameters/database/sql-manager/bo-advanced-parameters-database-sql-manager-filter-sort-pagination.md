@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination"
-weight: 3
+weight: 2
 ---
 
 # BO - Advanced Parameters - Database - SQL Manager - Filter sort pagination

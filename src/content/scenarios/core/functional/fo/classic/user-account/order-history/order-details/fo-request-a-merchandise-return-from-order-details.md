@@ -1,6 +1,6 @@
 ---
 title: "FO - Request a merchandise return from order details"
-weight: 4
+weight: 3
 ---
 
 # FO - Request a merchandise return from order details

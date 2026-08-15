@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Condition - Case 4 - Check Total available"
-weight: 6
+weight: 8
 ---
 
 # BO - Cart rules - Condition - Case 4 - Check Total available

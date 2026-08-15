@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Product page : Share links"
-weight: 15
+weight: 1
 ---
 
 # FO - Product page - Product page : Share links

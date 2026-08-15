@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Logs - Filter sort pagination"
-weight: 4
+weight: 3
 ---
 
 # BO - Advanced Parameters - Logs - Filter sort pagination

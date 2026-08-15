@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Help button"
-weight: 4
+weight: 3
 ---
 
 # BO - International - Localization - Help button

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Carriers - Filter, sort, pagination"
-weight: 5
+weight: 6
 ---
 
 # BO - Shipping - Carriers - Filter, sort, pagination

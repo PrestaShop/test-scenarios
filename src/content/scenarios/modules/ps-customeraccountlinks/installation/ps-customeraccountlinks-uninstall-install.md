@@ -1,6 +1,6 @@
 ---
 title: "ps_customeraccountlinks - Uninstall/Install"
-weight: 1
+weight: 3
 ---
 
 # ps_customeraccountlinks - Uninstall/Install

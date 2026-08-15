@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Merchandise returns - Update status"
-weight: 3
+weight: 1
 ---
 
 # BO - Customer Service - Merchandise returns - Update status

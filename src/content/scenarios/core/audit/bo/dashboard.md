@@ -1,6 +1,6 @@
 ---
 title: "Dashboard"
-weight: 6
+weight: 1
 ---
 
 # Dashboard

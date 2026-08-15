@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Uninstall/Install"
-weight: 2
+weight: 1
 ---
 
 # blockreassurance - Uninstall/Install

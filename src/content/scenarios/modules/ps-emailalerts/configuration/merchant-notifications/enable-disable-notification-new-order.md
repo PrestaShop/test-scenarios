@@ -1,6 +1,6 @@
 ---
 title: "Enable/Disable notification new order"
-weight: 3
+weight: 1
 ---
 
 # Enable/Disable notification new order

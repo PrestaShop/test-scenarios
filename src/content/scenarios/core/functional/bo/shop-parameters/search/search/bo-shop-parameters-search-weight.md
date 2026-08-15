@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Search - Weight"
-weight: 1
+weight: 4
 ---
 
 # BO - Shop Parameters - Search - Weight

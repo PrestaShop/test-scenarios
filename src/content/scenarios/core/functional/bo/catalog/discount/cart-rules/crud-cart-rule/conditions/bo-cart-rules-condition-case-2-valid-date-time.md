@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Condition : Case 2 - Valid Date Time"
-weight: 10
+weight: 11
 ---
 
 # BO - Cart rules - Condition : Case 2 - Valid Date Time

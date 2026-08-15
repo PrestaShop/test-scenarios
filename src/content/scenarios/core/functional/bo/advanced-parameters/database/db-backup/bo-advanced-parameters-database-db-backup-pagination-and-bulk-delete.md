@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Database - DB Backup - Pagination and bulk delete"
-weight: 2
+weight: 4
 ---
 
 # BO - Advanced Parameters - Database - DB Backup - Pagination and bulk delete

@@ -1,6 +1,6 @@
 ---
 title: "Enable/Disable notification for return product"
-weight: 7
+weight: 2
 ---
 
 # Enable/Disable notification for return product
