@@ -1,6 +1,6 @@
 ---
 title: "Create an order with amount cart rule"
-weight: 4
+weight: 2
 ---
 
 # Create an order with amount cart rule

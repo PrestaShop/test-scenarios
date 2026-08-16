@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Display pack content and link to product"
-weight: 10
+weight: 9
 ---
 
 # FO - Product Page - Display pack content and link to product

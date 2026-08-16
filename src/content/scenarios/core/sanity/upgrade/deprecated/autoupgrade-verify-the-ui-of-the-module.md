@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Verify the UI of the module"
-weight: 10
+weight: 3
 ---
 
 # Autoupgrade - Verify the UI of the module

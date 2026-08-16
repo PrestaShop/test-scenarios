@@ -1,6 +1,6 @@
 ---
 title: "BO - Header - Check notifications"
-weight: 1
+weight: 3
 ---
 
 # BO - Header - Check notifications

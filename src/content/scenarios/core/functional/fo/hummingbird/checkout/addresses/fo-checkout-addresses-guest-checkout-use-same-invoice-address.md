@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Addresses - Guest checkout : Use same invoice address"
-weight: 4
+weight: 3
 ---
 
 # FO - Checkout - Addresses - Guest checkout : Use same invoice address

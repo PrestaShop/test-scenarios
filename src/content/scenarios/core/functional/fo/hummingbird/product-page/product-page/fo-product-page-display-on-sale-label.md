@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Display \"On sale\" label"
-weight: 6
+weight: 7
 ---
 
 # FO - Product Page - Display \"On sale\" label

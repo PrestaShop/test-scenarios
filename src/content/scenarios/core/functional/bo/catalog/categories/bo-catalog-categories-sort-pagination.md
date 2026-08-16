@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Categories - Sort & Pagination"
-weight: 8
+weight: 7
 ---
 
 # BO - Catalog - Categories - Sort & Pagination

@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Translations - Copy translations"
-weight: 4
+weight: 1
 ---
 
 # BO - International - Translations - Copy translations

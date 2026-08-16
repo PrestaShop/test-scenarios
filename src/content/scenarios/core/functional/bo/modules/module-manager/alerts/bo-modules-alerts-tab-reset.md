@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Alerts tab - Reset"
-weight: 2
+weight: 3
 ---
 
 # BO - Modules - Alerts tab - Reset

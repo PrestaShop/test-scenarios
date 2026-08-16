@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Webservice - Quick edit enable/disable"
-weight: 6
+weight: 5
 ---
 
 # BO - Advanced Parameters - Webservice - Quick edit enable/disable

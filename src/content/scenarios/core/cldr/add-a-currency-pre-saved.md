@@ -1,6 +1,6 @@
 ---
 title: "Add a currency pre-saved"
-weight: 11
+weight: 1
 ---
 
 # Add a currency pre-saved
@@ -9,7 +9,3 @@ weight: 11
 * **Status** : À faire
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8000
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-|  |  |

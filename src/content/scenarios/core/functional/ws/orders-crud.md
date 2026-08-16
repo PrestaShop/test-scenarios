@@ -1,6 +1,6 @@
 ---
 title: "Orders : CRUD"
-weight: 3
+weight: 2
 ---
 
 # Orders : CRUD

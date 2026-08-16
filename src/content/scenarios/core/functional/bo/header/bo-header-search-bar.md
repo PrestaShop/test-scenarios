@@ -1,6 +1,6 @@
 ---
 title: "BO - Header - Search bar"
-weight: 4
+weight: 6
 ---
 
 # BO - Header - Search bar

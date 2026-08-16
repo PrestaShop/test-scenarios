@@ -1,6 +1,6 @@
 ---
 title: "BO - Stocks Tab"
-weight: 13
+weight: 22
 ---
 
 # BO - Stocks Tab

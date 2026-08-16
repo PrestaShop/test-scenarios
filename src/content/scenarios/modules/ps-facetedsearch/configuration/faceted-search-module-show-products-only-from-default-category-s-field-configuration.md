@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Show products only from default category\'s field configuration"
-weight: 16
+weight: 3
 ---
 
 # Faceted search module - Show products only from default category\'s field configuration

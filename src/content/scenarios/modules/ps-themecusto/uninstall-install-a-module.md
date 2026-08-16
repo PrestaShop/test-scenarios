@@ -1,13 +1,13 @@
 ---
 title: "Uninstall/Install a module"
-weight: 4
+weight: 7
 ---
 
 # Uninstall/Install a module
 ## Details
 * **Component** : ps_themecusto
 * **Status** : Deprecated
-* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7319
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7309
 
 ## Steps
 | Step Description | Expected result |

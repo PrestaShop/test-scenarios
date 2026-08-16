@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Traffic and SEO - Search Engines - CRUD"
-weight: 1
+weight: 4
 ---
 
 # BO - Shop Parameters - Traffic and SEO - Search Engines - CRUD

@@ -1,6 +1,6 @@
 ---
 title: "Check in create order the currency available"
-weight: 7
+weight: 12
 ---
 
 # Check in create order the currency available
@@ -9,7 +9,3 @@ weight: 7
 * **Status** : À faire
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8008
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-|  |  |

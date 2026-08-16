@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Performance - Optional features"
-weight: 5
+weight: 8
 ---
 
 # BO - Advanced Parameters - Performance - Optional features

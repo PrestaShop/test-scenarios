@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Performance - Caching"
-weight: 1
+weight: 2
 ---
 
 # BO - Advanced Parameters - Performance - Caching

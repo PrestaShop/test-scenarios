@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Default language"
-weight: 8
+weight: 6
 ---
 
 # BO - International - Localization - Default language
@@ -12,11 +12,3 @@ weight: 8
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/11_international/01_localization/01_localization/02_defaultLanguage.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/international/localization/localization
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Go to BO> International> Localization | Localization page is well displayed |
-| Go to *Import a localization pack* tab> choose a localization pack to import,<br><br>Import | Update successful message is displayed. |
-| Go to *Configuration* tab> click on dropdown Default language | The arabic language is added |
-| Go to FO> header> click on language | The arabic language is well added |
-| Click on arabic language | The arabic language is displayed |

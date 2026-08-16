@@ -1,6 +1,6 @@
 ---
 title: "ps_mainmenu - Configure Menu Top Link"
-weight: 1
+weight: 2
 ---
 
 # ps_mainmenu - Configure Menu Top Link

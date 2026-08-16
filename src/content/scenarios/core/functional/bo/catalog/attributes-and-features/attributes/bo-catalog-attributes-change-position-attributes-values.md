@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Attributes - Change position Attributes & Values"
-weight: 2
+weight: 3
 ---
 
 # BO - Catalog - Attributes - Change position Attributes & Values

@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart - Delete product"
-weight: 3
+weight: 4
 ---
 
 # FO - Cart - Delete product

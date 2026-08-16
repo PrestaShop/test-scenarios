@@ -1,6 +1,6 @@
 ---
 title: " BO - Advanced parameters - Import - Skip thumbnails regeneration"
-weight: 1
+weight: 10
 ---
 
 #  BO - Advanced parameters - Import - Skip thumbnails regeneration

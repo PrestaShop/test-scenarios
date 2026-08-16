@@ -28,53 +28,13 @@ disableToc: true
 | Modules > blockwishlist > Front Office > Products | 6 | - | - | - | - | 2 | - | 1 | 3 | 
 | Modules > contactform > Installation | 3 | - | - | - | - | 3 | - | - | - | 
 | Modules > contactform > Configuration | 3 | - | - | - | - | - | - | - | - | 
-| Modules > dashactivity > Installation | 5 | - | - | - | - | - | - | - | - | 
-| Modules > dashactivity > Contenu | 1 | - | - | - | - | - | - | - | - | 
-| Modules > productcomments > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > productcomments > Configuration | 9 | - | - | - | - | - | - | - | - | 
 | Modules > productcomments > FO | 6 | - | - | - | - | - | - | - | - | 
-| Modules > ps_categorytree > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_categorytree > Configuration | 3 | - | - | - | - | - | - | - | - | 
 | Modules > ps_checkpayment > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_checkpayment > FO | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_checkpayment > Configuration | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_contactinfo > Installation | 3 | - | - | - | - | 3 | - | - | - | 
 | Modules > ps_contactinfo > Configuration | 2 | - | - | - | - | 1 | - | - | 1 | 
-| Modules > ps_contactinfo > FO | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_crossselling > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_crossselling > Configuration | 2 | - | - | - | - | 2 | - | - | - | 
-| Modules > ps_crossselling > FO | 1 | - | - | - | - | 1 | - | - | - | 
-| Modules > ps_customeraccountlinks > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_customeraccountlinks > FO | 1 | - | - | - | - | 1 | - | - | - | 
-| Modules > ps_customtext > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_customtext > Configuration | 2 | - | - | - | - | 2 | - | - | - | 
-| Modules > ps_dataprivacy > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_dataprivacy > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
-| Modules > ps_emailalerts > Installation | 8 | - | - | - | - | 2 | - | 3 | 3 | 
-| Modules > ps_emailalerts > Configuration | 1 | - | - | - | - | - | - | 1 | - | 
-| Modules > ps_emailalerts > Configuration > Customer notifications | 5 | - | - | - | - | - | - | 2 | 2 | 
 | Modules > ps_emailalerts > Configuration > Merchant notifications | 10 | - | - | - | - | 1 | - | 3 | 6 | 
-| Modules > ps_emailsubscription > Configuration | 18 | - | - | - | - | - | - | 3 | - | 
-| Modules > ps_featuredproducts > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_featuredproducts > Contenu | 3 | - | - | - | - | 2 | - | - | - | 
-| Modules > ps_linklist > Installation | 3 | - | - | - | - | 3 | - | - | - | 
 | Modules > ps_linklist > Configuration | 3 | - | - | - | - | - | - | - | - | 
-| Modules > ps_searchbar > Installation | 4 | - | - | - | - | - | - | - | - | 
-| Modules > ps_searchbar > FO | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_shoppingcart > Installation | 3 | - | - | - | - | - | - | - | - | 
 | Modules > ps_shoppingcart > Configuration | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_shoppingcart > FO | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_socialfollow > Installation | 3 | - | - | - | - | - | - | - | - | 
-| Modules > ps_socialfollow > Configuration | 3 | - | - | - | - | - | - | - | - | 
-| Modules > statsbestcustomers > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > statsbestcustomers > Display | 1 | - | - | - | - | 1 | - | - | - | 
-| Modules > statsvisits > Installation | 3 | - | - | - | - | - | - | - | - | 
-| Modules > statsvisits > Contenu | 1 | - | - | - | - | - | - | - | - | 
 | Modules > welcome > Contenu | 2 | - | - | - | - | - | - | - | 2 | 
-| Modules > ps_sharebuttons > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_sharebuttons > Configuration | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_googleanalytics > Installation | 4 | - | - | 4 | - | - | - | - | - | 
-| Modules > ps_googleanalytics > Configuration | 2 | - | - | 2 | - | - | - | - | - | 
 | Modules > ps_googleanalytics > Configuration > FO | 3 | - | - | 2 | - | - | - | - | - | 
 | Modules > ps_googleanalytics > Configuration > BO | 2 | - | - | - | - | - | - | - | - | 
 | Modules > ps_facetedsearch > Installation | 5 | - | - | - | - | 1 | - | 3 | - | 
@@ -94,5 +54,5 @@ disableToc: true
 | Modules > ps_mainmenu > configuration | 2 | - | - | - | - | 2 | - | - | - | 
 | Modules > ps_supplierlist > configure | 1 | - | - | - | - | - | - | 1 | - | 
 | Modules > ps_apiresources > Installation | 2 | - | - | - | - | - | - | 2 | - | 
-| **Total** | **302** | **0** | **0** | **8** | **0** | **106** | **0** | **58** | **33** | 
-| **Total** |  | **0%** | **0%** | **2.65%** | **0%** | **35.10%** | **0%** | **19.21%** | **0%** | 
+| **Total** | **177** | **0** | **0** | **2** | **0** | **58** | **0** | **49** | **28** | 
+| **Total** |  | **0%** | **0%** | **1.13%** | **0%** | **32.77%** | **0%** | **27.68%** | **0%** | 

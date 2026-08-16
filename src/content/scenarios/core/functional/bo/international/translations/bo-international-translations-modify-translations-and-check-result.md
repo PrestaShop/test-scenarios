@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Translations : Modify translations and check result"
-weight: 1
+weight: 3
 ---
 
 # BO - International - Translations : Modify translations and check result
@@ -33,19 +33,3 @@ weight: 1
 | _*Case 6: Other translations*_<br><br>Click on *International*  > *Translations* > Go to *Modify translations* section > Select values > Click on *Modify* button | Translations page is well displayed |
 | Edit values in *If enabled, the voucher will not apply to products already on sale* field > Click on *Save* button | This message is displayed : Translations successfully updated |
 | BO > Catalog > Discounts > Add new cart rule > Go to ACTIONS Tab > Hover the mouse on *Exclude discounted products* | "The voucher is available only for new products" message is displayed<br><br> <br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1384/Cart-Rules-Add-new-%E2%80%A2-Prest8-1-0.png|width=477,height=303! |
-| Go to Improve > Design > Theme & Logo | Theme & Logo page is displayed correctly |
-| Click to "Add new theme" | You should be able to choose to import from your computer, Import from the web, Import from FTP |
-| Import from your computer<br><br>Click to Browse and select your theme.<br><br>Click to save | Theme should be added<br><br>and The & logo page is displayed |
-| Go to _My theme for prestashop shop_ and click on delete button of new theme added | Delete popup is displayed |
-| Click on YES to delete theme | Successful deletion message is displayed and the theme is deleted |
-| Click to "Add new theme" | Theme import page is displayed |
-| Go to Import from the web<br><br>Click to input and indicate the complete URL to an online.zip<br><br>Click to save | Theme should be added |
-| Go to _My theme for prestashop shop_ and click on delete button of new theme added | Delete popup is displayed |
-| Click on YES to delete theme | Successful deletion message is displayed and the theme is deleted |
-| Click to "Add new theme" | Theme import page is displayed |
-| Go to Import from FTP<br><br>Select .zip files that you uploaded in the /themes folder<br><br>Click to save | Theme should be added |
-| Go to FO > Click on top right "Sign In" button link | "Log in to your account" page is displayed |
-| Click on "No account? Create one here" link at the bottom fo the block | Create an account page is displayed |
-| Fill the form with your personal information > Click Save | * You are now logged into your account<br> * Redirection automatically to the homepage<br> * An email "Welcome!" should be received |
-| Check the welcome Email | Email received with the subject => [PrestaShop] Welcome |
-| Go to BO > Customers list page & delete the customer created | The alert "Successful deletion." is well displayed |

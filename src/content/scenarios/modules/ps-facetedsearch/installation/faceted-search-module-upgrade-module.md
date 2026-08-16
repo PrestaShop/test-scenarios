@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Upgrade module"
-weight: 5
+weight: 2
 ---
 
 # Faceted search module - Upgrade module

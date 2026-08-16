@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Configuration tab settings"
-weight: 3
+weight: 1
 ---
 
 # Wishlist module - Configuration tab settings

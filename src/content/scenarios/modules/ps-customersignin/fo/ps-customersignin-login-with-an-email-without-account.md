@@ -1,6 +1,6 @@
 ---
 title: "ps_customersignin - Login with an email without account"
-weight: 3
+weight: 2
 ---
 
 # ps_customersignin - Login with an email without account

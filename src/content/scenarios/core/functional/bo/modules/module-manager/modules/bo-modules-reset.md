@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Reset"
-weight: 1
+weight: 5
 ---
 
 # BO - Modules - Reset
@@ -12,10 +12,3 @@ weight: 1
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/05_resetModule.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/modules
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Click on the drop-down button > Click on *Reset* option >Confirm the displayed pop-up | A success message contains "Reset action"  should be appear |
-| Login in BO | Dashboarb page should be displayed |
-| Go to modules manager page | The page title should contains 'Module manager' |
-| Set the name of a module in the search bar > click on the search button | The searched module should be displayed  ( only one result should be exist contains the searched module name  ) |

@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Categories - Change position of categories"
-weight: 3
+weight: 1
 ---
 
 # BO - Catalog - Categories - Change position of categories

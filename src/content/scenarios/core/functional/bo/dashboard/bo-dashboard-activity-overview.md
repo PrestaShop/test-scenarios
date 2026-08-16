@@ -1,6 +1,6 @@
 ---
 title: "BO - Dashboard : Activity overview"
-weight: 5
+weight: 4
 ---
 
 # BO - Dashboard : Activity overview

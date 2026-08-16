@@ -1,6 +1,6 @@
 ---
 title: "FO - Contact us - Send message while logged out"
-weight: 3
+weight: 1
 ---
 
 # FO - Contact us - Send message while logged out

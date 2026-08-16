@@ -1,6 +1,6 @@
 ---
 title: "FO - Search Page : Sort results list"
-weight: 1
+weight: 3
 ---
 
 # FO - Search Page : Sort results list

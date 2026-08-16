@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Enable / disable final summary"
-weight: 6
+weight: 3
 ---
 
 # BO - Shop Parameters - Order Settings - Enable / disable final summary
@@ -12,11 +12,3 @@ weight: 6
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/01_enableFinalSummary.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/order-settings
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Go to BO > Shop Parameters > Order Settings | Enable final summary is disabled |
-| Go to FO > Add any product to the cart > Proceed to checkout | The checkout process is as usual<br>Once the checkout is done, the message YOUR ORDER IS CONFIRMED is displayed |
-| Go to BO > Shop Parameters > Order Settings > Enable the option Enable final summary > Save | Message Update successful is displayed |
-| Go to FO > Add any product to the cart > Proceed to checkout | On the Step 4 of checkout process, the block "Please check your order before payment" is displayed with information about Addresses, Shipping Method and ORDER ITEMS |
-| Finish Checkout process | Message YOUR ORDER IS CONFIRMED is displayed |

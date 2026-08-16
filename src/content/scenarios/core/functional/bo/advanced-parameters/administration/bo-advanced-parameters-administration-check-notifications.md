@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Administration : Check notifications"
-weight: 2
+weight: 1
 ---
 
 # BO - Advanced Parameters - Administration : Check notifications

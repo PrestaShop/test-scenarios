@@ -1,6 +1,6 @@
 ---
 title: "GET /admin-api/addresses/manufacturers/{addressId}"
-weight: 9
+weight: 3
 ---
 
 # GET /admin-api/addresses/manufacturers/{addressId}
