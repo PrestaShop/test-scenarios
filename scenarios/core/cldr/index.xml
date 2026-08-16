@@ -8,88 +8,11 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CLDR : Search a currency by ISO code</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-iso-code.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-iso-code.html</guid>
-      <description>CLDR : Search a currency by ISO code Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8003 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/04_searchCurrencyByISOCode.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 4 new currencies : USD, PYG, JPY and GBP Message &amp;ldquo;Successful creation.&amp;quot;&#xA;USD, PYG, JPY and GBP are in the list of currencies Search by ISO &amp;ldquo;EUR&amp;rdquo; &amp;gt; Click Search Currency Euro is displayed Search by ISO : &amp;ldquo;US&amp;rdquo; Currency US Dollar is displayed Search by ISO : &amp;ldquo;PY&amp;rdquo; 2 currencies are displayed : Japanese Yen and Paraguayan Guarani Search by ISO : &amp;ldquo;P&amp;rdquo; 3 currencies are displayed : British Pound, Japanese Yen and Paraguayan Guarani Search by ISO : &amp;ldquo;ABC&amp;rdquo; No currency is displayed</description>
-    </item>
-    <item>
-      <title>CLDR : Delete a currency</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-delete-a-currency.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-delete-a-currency.html</guid>
-      <description>CLDR : Delete a currency Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8001 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/03_deleteCurrency.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 3 currencies : GBP, JPY and USD 3 new currencies are created&#xA;Message &amp;ldquo;Successful creation&amp;rdquo; appears Go to Localization Tab &amp;gt; Change default currency to USD &amp;gt; Save Popup appears to confirm&#xA;Message &amp;ldquo;Update successful&amp;rdquo; appears Click on the 3-dot button for USD &amp;gt; Delete Message &amp;ldquo;You cannot delete the default currency&amp;rdquo; appears Go to Localization Tab &amp;gt; Change default currency back to EUR &amp;gt; Save Popup appears to confirm</description>
-    </item>
-    <item>
-      <title>Edit a currency</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/edit-a-currency.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/edit-a-currency.html</guid>
-      <description> Edit a currency Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8016 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>Refresh list of currency</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/refresh-list-of-currency.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/refresh-list-of-currency.html</guid>
-      <description> Refresh list of currency Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8012 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>Check access to the cart</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/check-access-to-the-cart.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/check-access-to-the-cart.html</guid>
-      <description> Check access to the cart Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8014 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>CLDR : Enable/Disable a currency</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-enable-disable-a-currency.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-enable-disable-a-currency.html</guid>
-      <description>CLDR : Enable/Disable a currency Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8009 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/09_enableDisableCurrency.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Disable Euro currency Message &amp;ldquo;You cannot disable the default currency&amp;rdquo;&#xA;The currency is not disabled Click &amp;ldquo;Add new currency&amp;rdquo; &amp;gt; Choose USD &amp;gt; Status &amp;ldquo;No&amp;rdquo; &amp;gt; Save Message &amp;ldquo;Successful creation.&amp;quot;&#xA;Currency USD is disabled and displayed in the list Enable USD from Currency list Message &amp;ldquo;The status has been successfully updated.</description>
-    </item>
-    <item>
-      <title>Check in create order the currency available</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/check-in-create-order-the-currency-available.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/check-in-create-order-the-currency-available.html</guid>
-      <description> Check in create order the currency available Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8008 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>CLDR : Search a currency by enable/disable</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-enable-disable.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-enable-disable.html</guid>
-      <description>CLDR : Search a currency by enable/disable Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8004 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/05_searchCurrencyByEnableDisable.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add a new currency : USD &amp;gt; Save USD currency is created&#xA;Message &amp;ldquo;Successful creation.&amp;rdquo; Disable currency USD by switching the toggle button USD is disabled&#xA;Message &amp;ldquo;The status has been successfully updated.&amp;rdquo; Search by Enabled : YES &amp;gt; Click Search Currency Euro should be the only currency available Search by Enabled : NO &amp;gt; Click Search Currency USD should be the only currency available Enable currency USD by switching the toggle button USD is enabled</description>
-    </item>
-    <item>
-      <title>Reset the search</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-the-search.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-the-search.html</guid>
-      <description> Reset the search Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8013 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>CLDR : Reset symbol / format settings</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-reset-symbol-format-settings.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-reset-symbol-format-settings.html</guid>
-      <description>CLDR : Reset symbol / format settings Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8006 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/08_resetSymbolFormatSettings.ts Steps Step Description Expected result Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated Click Save List of currencies is updated with new Symbol Edit the currency &amp;gt; Click the round arrow to Reset it Currency should be reset</description>
-    </item>
-    <item>
       <title>Add a currency pre-saved</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/add-a-currency-pre-saved.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/add-a-currency-pre-saved.html</guid>
-      <description> Add a currency pre-saved Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8000 Steps Step Description Expected result </description>
-    </item>
-    <item>
-      <title>Reset currency default settings</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-currency-default-settings.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-currency-default-settings.html</guid>
-      <description>Reset currency default settings Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8005 Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Click on Edit Euro currency &amp;gt; Modify elements &amp;gt; Save Message &amp;ldquo;Successful update.&amp;quot;&#xA;Currency is edited. Currency name is updated with mention &amp;ldquo;(Edited)&amp;rdquo; Click Edit Euro currency &amp;gt; Click on Reset button &amp;gt; Save Message &amp;ldquo;Your symbol and format customizations have been successfully reset for this language.</description>
+      <description> Add a currency pre-saved Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8000 </description>
     </item>
     <item>
       <title>Check access to the orders</title>
@@ -118,6 +41,83 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-edit-symbol-format-currency.html</guid>
       <description>CLDR : Edit symbol / format currency Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8007 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/07_editSymbolFormatCurrency.ts Steps Step Description Expected result Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated Click the round arrow to Reset it Currency should be reset</description>
+    </item>
+    <item>
+      <title>CLDR : Search a currency by ISO code</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-iso-code.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-iso-code.html</guid>
+      <description>CLDR : Search a currency by ISO code Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8003 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/04_searchCurrencyByISOCode.ts Steps Step Description Expected result Go to BO &amp;gt; International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Add 4 new currencies : USD, PYG, JPY and GBP Message &amp;ldquo;Successful creation.&amp;quot;&#xA;USD, PYG, JPY and GBP are in the list of currencies Search by ISO &amp;ldquo;EUR&amp;rdquo; &amp;gt; Click Search Currency Euro is displayed Search by ISO : &amp;ldquo;US&amp;rdquo; Currency US Dollar is displayed Search by ISO : &amp;ldquo;PY&amp;rdquo; 2 currencies are displayed : Japanese Yen and Paraguayan Guarani Search by ISO : &amp;ldquo;P&amp;rdquo; 3 currencies are displayed : British Pound, Japanese Yen and Paraguayan Guarani Search by ISO : &amp;ldquo;ABC&amp;rdquo; No currency is displayed</description>
+    </item>
+    <item>
+      <title>CLDR : Delete a currency</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-delete-a-currency.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-delete-a-currency.html</guid>
+      <description> CLDR : Delete a currency Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8001 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/03_deleteCurrency.ts </description>
+    </item>
+    <item>
+      <title>Edit a currency</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/edit-a-currency.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/edit-a-currency.html</guid>
+      <description> Edit a currency Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8016 Steps Step Description Expected result </description>
+    </item>
+    <item>
+      <title>Refresh list of currency</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/refresh-list-of-currency.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/refresh-list-of-currency.html</guid>
+      <description> Refresh list of currency Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8012 </description>
+    </item>
+    <item>
+      <title>Check access to the cart</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/check-access-to-the-cart.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/check-access-to-the-cart.html</guid>
+      <description> Check access to the cart Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8014 </description>
+    </item>
+    <item>
+      <title>CLDR : Enable/Disable a currency</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-enable-disable-a-currency.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-enable-disable-a-currency.html</guid>
+      <description> CLDR : Enable/Disable a currency Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8009 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/09_enableDisableCurrency.ts </description>
+    </item>
+    <item>
+      <title>Check in create order the currency available</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/check-in-create-order-the-currency-available.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/check-in-create-order-the-currency-available.html</guid>
+      <description> Check in create order the currency available Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8008 </description>
+    </item>
+    <item>
+      <title>Reset the search</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-the-search.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-the-search.html</guid>
+      <description> Reset the search Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8013 </description>
+    </item>
+    <item>
+      <title>CLDR : Reset symbol / format settings</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-reset-symbol-format-settings.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-reset-symbol-format-settings.html</guid>
+      <description>CLDR : Reset symbol / format settings Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8006 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/08_resetSymbolFormatSettings.ts Steps Step Description Expected result Go to International &amp;gt; Localization &amp;gt; Currencies &amp;gt; Edit the currency &amp;gt; Click Edit symbol / format Popup opens with 2 steps Add symbol of your choice + choose format &amp;gt; Apply Popup disappears and List of currencies will be updated Click Save List of currencies is updated with new Symbol Edit the currency &amp;gt; Click the round arrow to Reset it Currency should be reset</description>
+    </item>
+    <item>
+      <title>CLDR : Search a currency by enable/disable</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-enable-disable.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/cldr-search-a-currency-by-enable-disable.html</guid>
+      <description> CLDR : Search a currency by enable/disable Details Component : Core Status : Automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8004 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/05_searchCurrencyByEnableDisable.ts </description>
+    </item>
+    <item>
+      <title>Reset currency default settings</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-currency-default-settings.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/cldr/reset-currency-default-settings.html</guid>
+      <description> Reset currency default settings Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8005 </description>
     </item>
   </channel>
 </rss>

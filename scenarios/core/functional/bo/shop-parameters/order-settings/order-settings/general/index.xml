@@ -8,27 +8,6 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BO - Shop Parameters - Order Settings - Enable / disable guest checkout</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-guest-checkout.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-guest-checkout.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Enable / disable guest checkout Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7750 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/02_enableGuestCheckout.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/order-settings Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Option Enable guest checkout is already enabled Go to FO &amp;gt; Add any product to the cart &amp;gt; Proceed to checkout See in Step 1 the Order as a guest option Fill the fields See the option available : Create an account (optional) And save time on your next order!</description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Order Settings - Set backorder status</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-set-backorder-status.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-set-backorder-status.html</guid>
-      <description> BO - Shop Parameters - Order Settings - Set backorder status Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8390 </description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Order Settings - Terms and conditions</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-terms-and-conditions.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-terms-and-conditions.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Terms and conditions Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8388 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/08_termsAndConditions.ts Steps Step Description Expected result Go to BO Orders Settings &amp;gt; General Page for terms and conditions : Terms and conditions of use On FO sign in You&amp;rsquo;re logged Add product to cart &amp;gt; Proceed to checkout and go to step 4 Payment method displayed and checkbox with &amp;ldquo;I agree to the [terms of service Click on &amp;ldquo;Terms of service&amp;rdquo; hyperlink h1.</description>
-    </item>
-    <item>
       <title>BO - Shop Parameters - Order Settings - Delayed shipping</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-delayed-shipping.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -47,7 +26,21 @@
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-final-summary.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-final-summary.html</guid>
-      <description>BO - Shop Parameters - Order Settings - Enable / disable final summary Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7751 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/01_enableFinalSummary.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/order-settings Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings Enable final summary is disabled Go to FO &amp;gt; Add any product to the cart &amp;gt; Proceed to checkout The checkout process is as usual</description>
+      <description> BO - Shop Parameters - Order Settings - Enable / disable final summary Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7751 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/01_enableFinalSummary.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/order-settings </description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Order Settings - Enable / disable guest checkout</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-guest-checkout.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-enable-disable-guest-checkout.html</guid>
+      <description> BO - Shop Parameters - Order Settings - Enable / disable guest checkout Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7750 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/02_enableGuestCheckout.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/order-settings </description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Order Settings - Terms and conditions</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-terms-and-conditions.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-terms-and-conditions.html</guid>
+      <description>BO - Shop Parameters - Order Settings - Terms and conditions Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8388 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/08_termsAndConditions.ts Steps Step Description Expected result Go to BO Orders Settings &amp;gt; General Page for terms and conditions : Terms and conditions of use On FO sign in You&amp;rsquo;re logged Add product to cart &amp;gt; Proceed to checkout and go to step 4 Payment method displayed and checkbox with &amp;ldquo;I agree to the [terms of service Click on &amp;ldquo;Terms of service&amp;rdquo; hyperlink h1.</description>
     </item>
     <item>
       <title>BO - Shop Parameters - Order Settings : Recalculate shipping costs after editing the order</title>
@@ -62,6 +55,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-minimum-purchase-total-required-in-order-to-validate-the-order.html</guid>
       <description>BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7755 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/02_orderSettings/01_orderSettings/general/04_minimumPurchaseTotalRequired.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/order-settings/order-settings Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Order Settings See Minimum purchase total required in order to validate the order option is disabled (0.</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Order Settings - Set backorder status</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-set-backorder-status.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/order-settings/order-settings/general/bo-shop-parameters-order-settings-set-backorder-status.html</guid>
+      <description> BO - Shop Parameters - Order Settings - Set backorder status Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8390 </description>
     </item>
     <item>
       <title>BO - Shop Parameters - Order Settings - Terms of service</title>

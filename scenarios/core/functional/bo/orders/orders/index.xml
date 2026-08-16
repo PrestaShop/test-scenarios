@@ -8,6 +8,20 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>BO - Orders - Help Button </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-help-button.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-help-button.html</guid>
+      <description> BO - Orders - Help Button Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7507 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/01_helpCard.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly Open the help sidebar The help sidebar is opened successfully&#xA;The document language is English Close the help sidebar The help sidebar is closed successfully </description>
+    </item>
+    <item>
+      <title>BO - Orders - Pagination</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-pagination.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-pagination.html</guid>
+      <description>BO - Orders - Pagination Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7505 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/10_pagination.ts Steps Step Description Expected result Go to Bo &amp;gt; Orders &amp;gt; Orders list page List of all Orders well displayed Reset filter and get the number of all orders created No filter was applied and the NumOrder= number of orders ( = 5+6 = 11 if it is a fresh install) Change &amp;ldquo;items per page&amp;rdquo; to 10</description>
+    </item>
+    <item>
       <title>BO - Orders - View Guest</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-view-guest.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -15,11 +29,11 @@
       <description>BO - Orders - View Guest Details Component : Core Status : Deprecated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8030 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/09_viewGuest.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly Reset all filters and get the number of orders The order number &amp;gt; 0 Filter orders by Guest name Number of orders &amp;lt; Total of orders</description>
     </item>
     <item>
-      <title>BO- Orders - Filter orders table</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-filter-orders-table.html</link>
+      <title>BO - Orders - Statistics of the page</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-statistics-of-the-page.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-filter-orders-table.html</guid>
-      <description>BO- Orders - Filter orders table Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7499 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/02_filterOrders.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly Reset all filters and get the number of orders The orders number &amp;gt; 0 Filter orders by ID Number of orders &amp;lt; Total of orders</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-statistics-of-the-page.html</guid>
+      <description>BO - Orders - Statistics of the page Details Component : Core Status : IN REVIEW Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7506 Steps Step Description Expected result Go to FO &amp;gt; Add products to Cart Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Non-ordered carts displayed Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Conversion Rate Converting your visitors to customers&#xA;When a visitor buys an item, he becomes a customer.</description>
     </item>
     <item>
       <title>BO - Orders - Bulk actions - Open in new tabs</title>
@@ -41,13 +55,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-view-customer.html</guid>
       <description> BO - Orders - View customer Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7501 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/08_viewCustomer.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders page Orders listing is displayed correctly Click on the Customer Link Redirection to the customer details page in a new Tab </description>
-    </item>
-    <item>
-      <title>BO - Orders - Statistics of the page</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-statistics-of-the-page.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-statistics-of-the-page.html</guid>
-      <description>BO - Orders - Statistics of the page Details Component : Core Status : IN REVIEW Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7506 Steps Step Description Expected result Go to FO &amp;gt; Add products to Cart Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Non-ordered carts displayed Go to BO &amp;gt; Orders &amp;gt; Shopping carts &amp;gt; See Conversion Rate Converting your visitors to customers&#xA;When a visitor buys an item, he becomes a customer.</description>
     </item>
     <item>
       <title>BO - Orders - Sort orders</title>
@@ -78,18 +85,11 @@
       <description> BO - Orders - Export Orders Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7508 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/03_exportOrders.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders page Orders listing is displayed correctly Click to configuration button &amp;gt; Export The file is downloaded successfully&#xA;Data is correct </description>
     </item>
     <item>
-      <title>BO - Orders - Help Button </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-help-button.html</link>
+      <title>BO- Orders - Filter orders table</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-filter-orders-table.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-help-button.html</guid>
-      <description> BO - Orders - Help Button Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7507 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/01_helpCard.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly Open the help sidebar The help sidebar is opened successfully&#xA;The document language is English Close the help sidebar The help sidebar is closed successfully </description>
-    </item>
-    <item>
-      <title>BO - Orders - Pagination</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-pagination.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-pagination.html</guid>
-      <description>BO - Orders - Pagination Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7505 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/10_pagination.ts Steps Step Description Expected result Go to Bo &amp;gt; Orders &amp;gt; Orders list page List of all Orders well displayed Reset filter and get the number of all orders created No filter was applied and the NumOrder= number of orders ( = 5+6 = 11 if it is a fresh install) Change &amp;ldquo;items per page&amp;rdquo; to 10</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/orders/orders/bo-orders-filter-orders-table.html</guid>
+      <description>BO- Orders - Filter orders table Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7499 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/01_orders/02_filterOrders.ts Steps Step Description Expected result Go to the Orders &amp;gt; Orders&amp;quot; page&amp;quot; Orders listing is displayed correctly Reset all filters and get the number of orders The orders number &amp;gt; 0 Filter orders by ID Number of orders &amp;lt; Total of orders</description>
     </item>
   </channel>
 </rss>
