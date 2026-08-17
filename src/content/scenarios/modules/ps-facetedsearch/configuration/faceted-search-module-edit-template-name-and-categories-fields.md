@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Edit template - Name and categories fields"
-weight: 4
+weight: 15
 ---
 
 # Faceted search module - Edit template - Name and categories fields

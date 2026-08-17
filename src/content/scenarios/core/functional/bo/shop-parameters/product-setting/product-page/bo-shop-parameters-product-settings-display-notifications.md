@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Display notifications"
-weight: 3
+weight: 7
 ---
 
 # BO - Shop Parameters - Product Settings - Display notifications

@@ -1,6 +1,6 @@
 ---
 title: "Check FO public pages"
-weight: 1
+weight: 3
 ---
 
 # Check FO public pages

@@ -9,3 +9,7 @@ weight: 12
 * **Status** : À faire
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8008
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+|  |  |

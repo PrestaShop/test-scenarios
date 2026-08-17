@@ -1,6 +1,6 @@
 ---
 title: "BO - After autoupgrade, rollback to previous version"
-weight: 2
+weight: 1
 ---
 
 # BO - After autoupgrade, rollback to previous version

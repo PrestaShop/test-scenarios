@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Files - CRUD"
-weight: 2
+weight: 3
 ---
 
 # BO - Catalog - Files - CRUD

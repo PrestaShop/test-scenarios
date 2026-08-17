@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Personal Information : Order as a guest"
-weight: 2
+weight: 4
 ---
 
 # FO - Checkout - Personal Information : Order as a guest

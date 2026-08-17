@@ -1,0 +1,17 @@
+---
+title: "BO - Customer Service : Customer service options"
+weight: 4
+---
+
+# BO - Customer Service : Customer service options
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7622
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/05_customerService/01_customerService/05_customerServiceOptions.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/customer-service/customer-service
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO> Customer Service> Customer Service > go to Customer service options > fill the fields with mentioned Data > Enable mentioned options > Click on save button | * _Message displayed : "The settings have been successfully updated._ "<br> * Customer Service section is updated<br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1436/imap1.png|width=1297,height=280!  <br> * A new section is added in page footer : Sync<br><br><br>!https://forge.prestashop.com/plugins/servlet/raven/attachment/1437/imap2.png! |

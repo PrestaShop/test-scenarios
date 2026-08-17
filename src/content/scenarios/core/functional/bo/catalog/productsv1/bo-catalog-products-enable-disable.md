@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products - Enable & Disable"
-weight: 1
+weight: 3
 ---
 
 # BO - Catalog - Products - Enable & Disable

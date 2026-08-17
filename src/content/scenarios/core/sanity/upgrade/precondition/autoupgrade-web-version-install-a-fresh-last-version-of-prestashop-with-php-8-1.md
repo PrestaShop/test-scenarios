@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Install A fresh last version of prestashop with php 8.1"
-weight: 1
+weight: 5
 ---
 
 # Autoupgrade - Web Version - Install A fresh last version of prestashop with php 8.1

@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Order history - Order details - Send a message"
-weight: 2
+weight: 1
 ---
 
 # FO - User account - Order history - Order details - Send a message

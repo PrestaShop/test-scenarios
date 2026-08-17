@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks : Sort and pagination"
-weight: 7
+weight: 5
 ---
 
 # BO - Catalog - Stocks : Sort and pagination

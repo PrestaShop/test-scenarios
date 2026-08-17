@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Payment block"
-weight: 3
+weight: 9
 ---
 
 # BO - Order details - Payment block

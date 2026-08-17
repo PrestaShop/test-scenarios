@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Suppliers - CRUD"
-weight: 1
+weight: 4
 ---
 
 # BO - Catalog - Suppliers - CRUD

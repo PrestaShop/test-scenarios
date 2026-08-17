@@ -1,6 +1,6 @@
 ---
 title: " BO - Advanced parameters - Import - Language of the file"
-weight: 5
+weight: 8
 ---
 
 #  BO - Advanced parameters - Import - Language of the file

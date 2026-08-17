@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Locations - Zones - CRUD"
-weight: 4
+weight: 1
 ---
 
 # BO - International - Locations - Zones - CRUD

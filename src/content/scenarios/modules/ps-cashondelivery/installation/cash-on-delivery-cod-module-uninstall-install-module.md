@@ -1,6 +1,6 @@
 ---
 title: "Cash on delivery (COD) module - Uninstall/Install module"
-weight: 5
+weight: 4
 ---
 
 # Cash on delivery (COD) module - Uninstall/Install module

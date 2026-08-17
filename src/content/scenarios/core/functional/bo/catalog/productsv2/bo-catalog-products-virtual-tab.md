@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products : Virtual tab"
-weight: 11
+weight: 6
 ---
 
 # BO - Catalog - Products : Virtual tab

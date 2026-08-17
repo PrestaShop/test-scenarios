@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions"
-weight: 5
+weight: 3
 ---
 
 # BO - Shop Parameters - Search - Filter, sort, pagination, Bulk actions

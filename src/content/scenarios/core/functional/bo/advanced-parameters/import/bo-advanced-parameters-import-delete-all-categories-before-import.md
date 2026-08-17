@@ -1,6 +1,6 @@
 ---
 title: " BO - Advanced parameters - Import - Delete all categories before import"
-weight: 4
+weight: 9
 ---
 
 #  BO - Advanced parameters - Import - Delete all categories before import

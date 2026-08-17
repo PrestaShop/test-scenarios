@@ -1,6 +1,6 @@
 ---
 title: "Stores : CRUD"
-weight: 5
+weight: 1
 ---
 
 # Stores : CRUD

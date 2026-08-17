@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Features - Values - Sort & Pagination & bulk delete"
-weight: 2
+weight: 5
 ---
 
 # BO - Catalog - Features - Values - Sort & Pagination & bulk delete

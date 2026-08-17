@@ -1,6 +1,6 @@
 ---
 title: "BO - Header - Quick access"
-weight: 2
+weight: 1
 ---
 
 # BO - Header - Quick access

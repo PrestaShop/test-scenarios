@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Enable display discounted unit price"
-weight: 7
+weight: 3
 ---
 
 # BO - Shop Parameters - Product Settings - Enable display discounted unit price

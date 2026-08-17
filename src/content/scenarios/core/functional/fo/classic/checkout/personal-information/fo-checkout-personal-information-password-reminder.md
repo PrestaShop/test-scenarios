@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Personal Information - Password reminder"
-weight: 1
+weight: 2
 ---
 
 # FO - Checkout - Personal Information - Password reminder

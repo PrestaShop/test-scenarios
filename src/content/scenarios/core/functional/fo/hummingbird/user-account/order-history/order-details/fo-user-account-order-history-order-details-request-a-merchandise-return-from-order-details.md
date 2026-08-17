@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Order history - Order details - Request a merchandise return from order details"
-weight: 1
+weight: 2
 ---
 
 # FO - User account - Order history - Order details - Request a merchandise return from order details

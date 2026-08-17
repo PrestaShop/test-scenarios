@@ -1,0 +1,23 @@
+---
+title: "BO - Cart rules - Actions - Apply a discount None"
+weight: 7
+---
+
+# BO - Cart rules - Actions - Apply a discount None
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8439
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/03_actions/05_applyDiscountNone.ts
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Catalog > Discounts > Click on "Add new cart rule" | Cart rule page is displayed<br><br>Information tab is displayed |
+| Enter data for Information > Click on Save | Warning is message is displayed: "An action is required for this cart rule." |
+| Click on Tab "Actions" > Check None for Apply a discount option > Save | Error Message is displayed: "An action is required for this cart rule." |
+| Enable Free shipping > Save | Success message : Successful creation |
+| Click on View my store > Add a product to the cart | Shipping should be free. See in cart:<br> <br> <br>|1 item|€34.80|<br>|Shipping|Free|<br>|Total (tax incl.)|€34.80|<br>|test cart rules|Free shipping| |
+| Click on Proceed to checkout > Sign in to your account > Choose your Address > Click Continue |  |
+| Go back to BO > Cart rules page > Delete Cart rule | Success message: "Successful deletion" |

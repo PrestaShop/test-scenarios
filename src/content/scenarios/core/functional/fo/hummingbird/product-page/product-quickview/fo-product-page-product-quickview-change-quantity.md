@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Product Quickview - Change quantity"
-weight: 1
+weight: 4
 ---
 
 # FO - Product Page - Product Quickview - Change quantity

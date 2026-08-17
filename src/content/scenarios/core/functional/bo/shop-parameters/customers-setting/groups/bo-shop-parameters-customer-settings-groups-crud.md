@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Groups - CRUD"
-weight: 2
+weight: 3
 ---
 
 # BO - Shop Parameters - Customer Settings - Groups - CRUD

@@ -1,6 +1,6 @@
 ---
 title: "Check FO connected pages"
-weight: 3
+weight: 2
 ---
 
 # Check FO connected pages

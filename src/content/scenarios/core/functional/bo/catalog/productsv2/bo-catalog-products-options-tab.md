@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products : Options tab"
-weight: 20
+weight: 15
 ---
 
 # BO - Catalog - Products : Options tab

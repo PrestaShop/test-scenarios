@@ -1,0 +1,26 @@
+---
+title: "BO - Orders - Invoices - Invoice Prefix"
+weight: 1
+---
+
+# BO - Orders - Invoices - Invoice Prefix
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7535
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/02_invoices/03_invoiceOptions/04_invoicePrefix.ts
+* **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/invoices
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Orders > "Invoices" page | Invoices page is displayed successfully |
+| Set the new prefix and save the form | The validation message is displayed successfully<br>"Update successful" |
+| Go to Orders > "Orders" page | Orders page is displayed successfully |
+| Open the first order page | Order page is displayed successfully |
+| Change the order status to "Shipped" | The status is changed successfully<br>The invoice prefix is changed successfully |
+| Go to BO > Orders > "Invoices" page | Invoices page is displayed successfully |
+| Set the default prefix and save the form | The validation message is displayed successfully<br>"Update successful" |
+| Go to BO > Orders > "Orders" page | Orders page is displayed successfully |
+| Open the first order page | Order page is displayed successfully<br>The invoice prefix is changed successfully |

@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products : Multistore"
-weight: 15
+weight: 3
 ---
 
 # BO - Catalog - Products : Multistore

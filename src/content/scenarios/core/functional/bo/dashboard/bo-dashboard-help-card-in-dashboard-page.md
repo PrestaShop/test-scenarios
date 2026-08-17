@@ -1,6 +1,6 @@
 ---
 title: "BO - dashboard : Help card in dashboard page"
-weight: 5
+weight: 1
 ---
 
 # BO - dashboard : Help card in dashboard page

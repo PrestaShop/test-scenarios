@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - CLI - Check/Upgrade/Rollback "
-weight: 9
+weight: 1
 ---
 
 # Autoupgrade - CLI - Check/Upgrade/Rollback 

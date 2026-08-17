@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Filter by category"
-weight: 6
+weight: 5
 ---
 
 # BO - Modules - Filter by category
