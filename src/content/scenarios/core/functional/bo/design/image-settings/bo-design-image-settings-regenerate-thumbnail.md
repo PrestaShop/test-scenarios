@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Regenerate thumbnail"
-weight: 7
+weight: 14
 ---
 
 # BO - Design - Image Settings - Regenerate thumbnail

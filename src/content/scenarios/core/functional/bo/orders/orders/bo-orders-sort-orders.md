@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Sort orders"
-weight: 4
+weight: 9
 ---
 
 # BO - Orders - Sort orders

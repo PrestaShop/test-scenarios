@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Page Configuration - Configure module"
-weight: 1
+weight: 4
 ---
 
 # BO - Design - Theme & Logo - Page Configuration - Configure module

@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Actions - Apply a discount to Order (without shipping)"
-weight: 11
+weight: 10
 ---
 
 # BO - Cart rules - Actions - Apply a discount to Order (without shipping)

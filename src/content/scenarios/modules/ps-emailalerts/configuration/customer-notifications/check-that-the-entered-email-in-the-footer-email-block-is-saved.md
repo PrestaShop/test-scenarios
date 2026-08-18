@@ -1,6 +1,6 @@
 ---
 title: "Check that the entered email in the footer email block is saved"
-weight: 5
+weight: 2
 ---
 
 # Check that the entered email in the footer email block is saved
@@ -9,3 +9,7 @@ weight: 5
 * **Status** : Deprecated
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7428
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+|  |  |

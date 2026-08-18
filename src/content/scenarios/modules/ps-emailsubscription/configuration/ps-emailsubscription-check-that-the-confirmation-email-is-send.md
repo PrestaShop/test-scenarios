@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check that the confirmation email is send"
-weight: 16
+weight: 7
 ---
 
 # ps_emailsubscription - Check that the confirmation email is send

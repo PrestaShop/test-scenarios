@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Search an email address"
-weight: 10
+weight: 15
 ---
 
 # ps_emailsubscription - Search an email address
@@ -9,7 +9,3 @@ weight: 10
 * **Status** : [TEST] IN PROGRESS
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7444
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-|  |  |

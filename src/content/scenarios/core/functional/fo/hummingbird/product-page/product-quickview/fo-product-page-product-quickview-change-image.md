@@ -11,10 +11,3 @@ weight: 7
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8282
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/09_productPage/01_quickView/07_changeImage.ts
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Go to FO | The page of your shop should be displayed |
-| Put your mouse over the product that you've created | The button "Quickview" should be displayed with colored boxes |
-| Clic on the "Quickview" button | You should have a modal that show you the product with an enlarged image of the one selected on its right |
-| Select the an other image on the right of the enlarged one | The image enlarged should change with the image you clicked. The image you clicked should have new blue border |

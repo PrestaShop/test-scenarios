@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Add a product to the cart"
-weight: 7
+weight: 2
 ---
 
 # BO - Order creation - Add a product to the cart

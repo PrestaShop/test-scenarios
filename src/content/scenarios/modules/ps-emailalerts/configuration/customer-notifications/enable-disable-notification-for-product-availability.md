@@ -1,6 +1,6 @@
 ---
 title: "Enable/Disable notification for product availability"
-weight: 2
+weight: 5
 ---
 
 # Enable/Disable notification for product availability
@@ -8,7 +8,3 @@ weight: 2
 * **Status** : À faire
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7422
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-|  |  |

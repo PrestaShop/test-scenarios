@@ -1,6 +1,6 @@
 ---
 title: "GET /admin-api/addresses/customers/{addressId}"
-weight: 8
+weight: 2
 ---
 
 # GET /admin-api/addresses/customers/{addressId}
@@ -23,7 +23,3 @@ weight: 8
 | Request with method GET the endpoint "https://[url of your shop]/admin-api//addresses/customers/\{addressId}" where \{addressId} is the previous ID get | The return value is in JSON.<br><br>The return data has multiples keys : <br> * 'addressId'<br> * 'customerId'<br> * 'addressAlias'<br> * 'firstName'<br> * 'lastName'<br> * 'address'<br> * 'address2',<br> * 'city'<br> * 'postCode'<br> * 'countryId'<br> * 'dni'<br> * 'company'<br> * 'vatNumber'<br> * 'stateId'<br> * 'homePhone'<br> * 'mobilePhone'<br> * 'other'<br><br>The return data keys are consistent relative to BackOffice data. |
 | Delete the created address | Check the success message |
 | Go to Customers page and delete the created customer in the precondition | Check the success message |
-| In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
-| On the first row, click on the button “Three points” | The dropdown is displayed |
-| Click on the Delete Button in the dropdown | A modal appeared |
-| Click on the Confirm Button in the modal | The message “Successful deletion” is displayed<br>No records found in the table |

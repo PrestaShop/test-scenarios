@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Edit local units"
-weight: 5
+weight: 3
 ---
 
 # BO - International - Localization - Edit local units

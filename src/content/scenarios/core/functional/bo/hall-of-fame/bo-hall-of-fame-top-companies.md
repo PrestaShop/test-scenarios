@@ -1,6 +1,6 @@
 ---
 title: "BO - Hall of Fame - Top companies"
-weight: 5
+weight: 4
 ---
 
 # BO - Hall of Fame - Top companies

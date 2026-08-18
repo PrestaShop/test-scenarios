@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Titles - Bulk actions"
-weight: 1
+weight: 2
 ---
 
 # BO - Shop Parameters - Customer Settings - Titles - Bulk actions

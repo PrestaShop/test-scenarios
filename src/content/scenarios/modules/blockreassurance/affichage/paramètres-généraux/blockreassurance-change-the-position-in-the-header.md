@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Change the position in the header"
-weight: 2
+weight: 1
 ---
 
 # blockreassurance - Change the position in the header

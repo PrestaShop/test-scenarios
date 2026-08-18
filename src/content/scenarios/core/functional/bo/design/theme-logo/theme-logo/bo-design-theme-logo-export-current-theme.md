@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo : Export current theme"
-weight: 5
+weight: 4
 ---
 
 # BO - Design - Theme & Logo : Export current theme

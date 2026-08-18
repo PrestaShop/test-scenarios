@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Navigate and display - Display \"On sale\" bandeau"
-weight: 1
+weight: 3
 ---
 
 # FO - Menu and Navigation - Navigate and display - Display \"On sale\" bandeau

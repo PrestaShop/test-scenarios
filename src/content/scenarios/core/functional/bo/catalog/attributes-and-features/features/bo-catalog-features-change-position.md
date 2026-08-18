@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Features - Change position"
-weight: 6
+weight: 1
 ---
 
 # BO - Catalog - Features - Change position

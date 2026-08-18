@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Reset module"
-weight: 1
+weight: 5
 ---
 
 # Wishlist module - Reset module

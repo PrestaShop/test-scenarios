@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General - Enable / disable multistore"
-weight: 2
+weight: 5
 ---
 
 # BO - Shop Parameters - General - Enable / disable multistore
@@ -12,11 +12,3 @@ weight: 2
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/01_general/general/11_enableDisableMultistore.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/general/general
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Go to BO> Shop Parameters> General | Preferences page is displayed on General tab |
-| Enable Multistore YES,<br><br>save. | Successful update message is displayed. |
-| Go to Advanced parameters> Mutistore | Multistore page is well displayed. |
-| Go back to Shop Parameters> General,<br><br>Enable Multistore NO | Successful update message is displayed. |
-| Go to Advanced Parameters | Multistore page is not found. |

@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Positions - Transplant a module"
-weight: 7
+weight: 5
 ---
 
 # BO - Design - Positions - Transplant a module

@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Navigate and display - Quickview of product"
-weight: 3
+weight: 4
 ---
 
 # FO - Menu and Navigation - Navigate and display - Quickview of product

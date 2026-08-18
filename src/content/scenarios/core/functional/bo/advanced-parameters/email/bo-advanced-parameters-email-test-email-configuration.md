@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Email - Test email configuration"
-weight: 4
+weight: 2
 ---
 
 # BO - Advanced parameters - Email - Test email configuration

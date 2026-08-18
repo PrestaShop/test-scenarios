@@ -1,6 +1,6 @@
 ---
 title: "Create order with catalog cart rule on a product or a category"
-weight: 7
+weight: 4
 ---
 
 # Create order with catalog cart rule on a product or a category

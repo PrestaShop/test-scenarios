@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Contacts - Filter"
-weight: 2
+weight: 4
 ---
 
 # BO - Shop Parameters - Contacts - Filter

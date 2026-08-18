@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - View and edit order : Return a product"
-weight: 8
+weight: 2
 ---
 
 # BO - Orders - View and edit order : Return a product

@@ -1,6 +1,6 @@
 ---
 title: "BO - Product enable - disable - duplicate - delete with bulk actions"
-weight: 5
+weight: 20
 ---
 
 # BO - Product enable - disable - duplicate - delete with bulk actions
