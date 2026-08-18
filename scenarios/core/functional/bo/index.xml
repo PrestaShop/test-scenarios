@@ -8,20 +8,6 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BO - After autoupgrade, rollback to previous version</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</guid>
-      <description>BO - After autoupgrade, rollback to previous version Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8040 Steps Step Description Expected result In 1-Click Upgrade &amp;gt; go to the section Rollback and choose your backup Rollback from the Release to PS16124 Rollback is OK, and every data are OK. Rollback from The release to PS174x Rollback is OK, and every data are OK. Rollback from the Release to PS175x Rollback is OK, and every data are OK.</description>
-    </item>
-    <item>
-      <title>BO - Debug mode</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</guid>
-      <description> BO - Debug mode Details Component : Core Status : To be automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7488 Steps Step Description Expected result Go to BO &amp;gt; Orders Order page is displayed with Symfony toolbar is displayed at the bottom of the page Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/ &amp;gt; Edit the file OrderController.php&amp;quot; &amp;gt; Comment the value of the $orderKpiFactory &amp;gt; Save File is saved Go back to BO &amp;gt; Orders &amp;gt; Refresh Exception is displayed Click on the symfony toolbar See the profiler is displayed Uncomment the variable &amp;gt; Save File is saved Go back to BO &amp;gt; Orders &amp;gt; Refresh Order page is displayed without exception Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message Click on the debug mode link You are redirected to Performance Page Disable debug mode and save On the top right corner, the debug mode link is no longer displayed </description>
-    </item>
-    <item>
       <title>BO - Onboarding</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-onboarding.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,6 +20,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-autoupgrade-from-previous-version.html</guid>
       <description>BO - Autoupgrade from previous version Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7494 Steps Step Description Expected result Install previous version (last stable version + 2 or 3 most used versions, and 1.7.6.5) You&amp;rsquo;ve a fresh install without the last version Go to International &amp;gt; Localization &amp;gt; Add a localization pack (Poland for example) You&amp;rsquo;ve a green notification with : &amp;ldquo;Localization pack imported successfully.&amp;rdquo; Go to Shop Parameters &amp;gt; General &amp;gt; Enable Multistore and clic on &amp;ldquo;Save&amp;rdquo; You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful update&amp;rdquo; Go to Advenced Parameters &amp;gt; Multistore &amp;gt;Add a new shop group Shop group is now display and you can setup it Setup your shop group You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful creation&amp;rdquo; Clic on Add a new shop, setup your shop and clic on Save * You&amp;rsquo;ve a green notification with : &amp;ldquo;Successful creation&amp;rdquo;</description>
+    </item>
+    <item>
+      <title>BO - After autoupgrade, rollback to previous version</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-after-autoupgrade-rollback-to-previous-version.html</guid>
+      <description>BO - After autoupgrade, rollback to previous version Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8040 Steps Step Description Expected result In 1-Click Upgrade &amp;gt; go to the section Rollback and choose your backup Rollback from the Release to PS16124 Rollback is OK, and every data are OK. Rollback from The release to PS174x Rollback is OK, and every data are OK. Rollback from the Release to PS175x Rollback is OK, and every data are OK.</description>
+    </item>
+    <item>
+      <title>BO - Debug mode</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/bo-debug-mode.html</guid>
+      <description> BO - Debug mode Details Component : Core Status : To be automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7488 Steps Step Description Expected result Go to BO &amp;gt; Orders Order page is displayed with Symfony toolbar is displayed at the bottom of the page Go in the files directory src/PrestaShopBundle/Controller/Admin/Sell/Order/ &amp;gt; Edit the file OrderController.php&amp;quot; &amp;gt; Comment the value of the $orderKpiFactory &amp;gt; Save File is saved Go back to BO &amp;gt; Orders &amp;gt; Refresh Exception is displayed Click on the symfony toolbar See the profiler is displayed Uncomment the variable &amp;gt; Save File is saved Go back to BO &amp;gt; Orders &amp;gt; Refresh Order page is displayed without exception Go to BO &amp;gt; Check the top right corner &amp;gt; Debug mode &amp;gt; Hover on it The debug mode link is highlighted in blue + a tooltip is displayed with a message Click on the debug mode link You are redirected to Performance Page Disable debug mode and save On the top right corner, the debug mode link is no longer displayed </description>
     </item>
   </channel>
 </rss>

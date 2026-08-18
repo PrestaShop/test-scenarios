@@ -8,32 +8,11 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
+      <title>Upgrade Shop with major release</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-major-release.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5620 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Create error before the upgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-before-the-upgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-before-the-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - Create error before the upgrade Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5512 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts Steps Step Description Expected result Go to the folder [yourshopname_folder] &amp;gt; modules &amp;gt; autoupgrade &amp;gt; upgrade. Files named upgrade [&amp;hellip;].php are present and +none+ instead of install[&amp;hellip;].php. Open the file [yourshopname_folder] &amp;gt; modules &amp;gt; autoupgrade &amp;gt; classes &amp;gt; Task &amp;gt; Update &amp;gt; Download.php. File is opened.</description>
-    </item>
-    <item>
-      <title>Upgrade Shop with minor release</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-minor-release.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-minor-release.html</guid>
-      <description>Upgrade Shop with minor release Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5414 Steps Step Description Expected result Go to https://github.com/PrestaShop/PrestaShop/releases &amp;gt; Search for 8.1.5 zip &amp;gt; Install PS 8.1.5 Your installation is finished! Go to BO &amp;gt; Delete install folder &amp;gt; Log into your employee account BO Dashboard is displayed Go to Modules &amp;gt; Modules manager &amp;gt; Install 1-click upgrade Install action on module autoupgrade succeeded. Go to the Shop Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Disable your shop &amp;gt; Save Successful update message is displayed.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Report after a fail of autoupgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-report-after-a-fail-of-autoupgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-report-after-a-fail-of-autoupgrade.html</guid>
-      <description>Autoupgrade - Report after a fail of autoupgrade Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5507 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-major-release.html</guid>
+      <description>Upgrade Shop with major release Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5413 Steps Step Description Expected result Go to [https://github.com/PrestaShop/PrestaShop/releases] &amp;gt; Search for 1.7.8.11 zip &amp;gt; Install PS 1.7.8.11 Your installation is finished! Go to BO &amp;gt; Delete install folder &amp;gt; Log into your employee account BO Dashboard is displayed Go to Modules &amp;gt; Marketplace &amp;gt; Search for module 1-click upgrade &amp;gt; Click Install &amp;gt; Click Configure Configuration page of the module 1-Click Upgrade is displayed Go to the Shop Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Disable your shop &amp;gt; Save Successful update message is displayed.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Verification during version choice</title>
@@ -43,81 +22,102 @@
       <description>Autoupgrade - Web Version - Verification during version choice Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5623 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
     <item>
-      <title>Upgrade Shop with major release</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-major-release.html</link>
+      <title>Autoupgrade - Web Version - Verification during the upgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-the-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-major-release.html</guid>
-      <description>Upgrade Shop with major release Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5413 Steps Step Description Expected result Go to [https://github.com/PrestaShop/PrestaShop/releases] &amp;gt; Search for 1.7.8.11 zip &amp;gt; Install PS 1.7.8.11 Your installation is finished! Go to BO &amp;gt; Delete install folder &amp;gt; Log into your employee account BO Dashboard is displayed Go to Modules &amp;gt; Marketplace &amp;gt; Search for module 1-click upgrade &amp;gt; Click Install &amp;gt; Click Configure Configuration page of the module 1-Click Upgrade is displayed Go to the Shop Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Disable your shop &amp;gt; Save Successful update message is displayed.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-the-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - Verification during the upgrade Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5510 Steps Step Description Expected result Click on the CTA &amp;ldquo;Start update&amp;rdquo;. The modal &amp;ldquo;Start Update?&amp;rdquo; is displayed : * Text : &amp;ldquo;You are about to launch the update, do you want to continue?&amp;quot;&#xA;* 2 CTAs : &amp;ldquo;Cancel&amp;rdquo; and &amp;ldquo;{color:#0747A6}cutest rocket{color} Start Update &amp;quot; (both enabled) Click on the CTA &amp;ldquo;{color:#0747a6}cutest rocket {color}Start update&amp;rdquo;.</description>
     </item>
     <item>
-      <title>Upgrade Shop with local archive release</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-local-archive-release.html</link>
+      <title>Autoupgrade - Web Version - Create error before the upgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-before-the-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-local-archive-release.html</guid>
-      <description>Upgrade Shop with local archive release Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5491 Steps Step Description Expected result Go to [https://github.com/PrestaShop/PrestaShop/releases] &amp;gt; Search for 8.1.5 zip &amp;gt; Install PS 8.1.5 Your installation is finished! Go to BO &amp;gt; Delete install folder &amp;gt; Log into your employee account BO Dashboard is displayed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Go to Modules &amp;gt; Modules manager &amp;gt; Install 1-click upgrade Install action on module autoupgrade succeeded.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-before-the-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - Create error before the upgrade Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5512 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts Steps Step Description Expected result Go to the folder [yourshopname_folder] &amp;gt; modules &amp;gt; autoupgrade &amp;gt; upgrade. Files named upgrade [&amp;hellip;].php are present and +none+ instead of install[&amp;hellip;].php. Open the file [yourshopname_folder] &amp;gt; modules &amp;gt; autoupgrade &amp;gt; classes &amp;gt; Task &amp;gt; Update &amp;gt; Download.php. File is opened.</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Update on online channel</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-update-on-online-channel.html</link>
+      <title>Autoupgrade - Report after a fail of autoupgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-report-after-a-fail-of-autoupgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-update-on-online-channel.html</guid>
-      <description>Autoupgrade - Web Version - Update on online channel Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5524 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-report-after-a-fail-of-autoupgrade.html</guid>
+      <description>Autoupgrade - Report after a fail of autoupgrade Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5507 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Create error  on the version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-on-the-version-choice.html</link>
+      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-on-the-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Create error on the version choice Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8893 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the &amp;ldquo;Update your Store&amp;rdquo; radio button.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5620 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Verification during backup part</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-backup-part.html</link>
+      <title>Upgrade Shop with minor release</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-minor-release.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-backup-part.html</guid>
-      <description>Autoupgrade - Web Version - Verification during backup part Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5624 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-minor-release.html</guid>
+      <description>Upgrade Shop with minor release Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5414 Steps Step Description Expected result Go to https://github.com/PrestaShop/PrestaShop/releases &amp;gt; Search for 8.1.5 zip &amp;gt; Install PS 8.1.5 Your installation is finished! Go to BO &amp;gt; Delete install folder &amp;gt; Log into your employee account BO Dashboard is displayed Go to Modules &amp;gt; Modules manager &amp;gt; Install 1-click upgrade Install action on module autoupgrade succeeded. Go to the Shop Parameters &amp;gt; General &amp;gt; Maintenance tab &amp;gt; Disable your shop &amp;gt; Save Successful update message is displayed.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - modal for new Upgrade </title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-modal-for-new-upgrade.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5637 Specification : https://forge.prestashop.com/browse/SUE-236 Steps Step Description Expected result Click on the Dashboard on the side menu You should be on the dashboard menu with a modal that have : * on the left part : ** &amp;quot; New available Minor&amp;quot; writted in black with a blue bacckground&#xA;** &amp;ldquo;New features are available&amp;rdquo; in white, with the prestashop typo with a black background * on the right part : ** Four part of text : &amp;ldquo;Description&amp;rdquo;, &amp;ldquo;Version&amp;rdquo;, &amp;ldquo;Type of improvements&amp;rdquo; and &amp;ldquo;Need help?</description>
+      <description> Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5637 Specification : https://forge.prestashop.com/browse/SUE-236 </description>
     </item>
     <item>
       <title>Autoupgrade - Verify the UI of the module</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-verify-the-ui-of-the-module.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-verify-the-ui-of-the-module.html</guid>
-      <description>Autoupgrade - Verify the UI of the module Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5506 Steps Step Description Expected result Install A fresh 8.0.5 in english You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the &amp;ldquo;update assistant&amp;rdquo; module.</description>
+      <description> Autoupgrade - Verify the UI of the module Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5506 </description>
     </item>
     <item>
       <title>Autoupgrade - Web Version -  symlink - blocked server</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-symlink-blocked-server.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-symlink-blocked-server.html</guid>
-      <description>Autoupgrade - Web Version - symlink - blocked server Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5634 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - CLI - Check/Upgrade/Rollback </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-cli-check-upgrade-rollback.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-cli-check-upgrade-rollback.html</guid>
-      <description>Autoupgrade - CLI - Check/Upgrade/Rollback Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5643 Specification : https://forge.prestashop.com/browse/SUE-209 Steps Step Description Expected result Go to your folder [yourshopname_folder] &amp;gt; module &amp;gt; Autoupgrade You should have many files and folder, one files named README.md can help you CLI Check Version of module Open a terminal on this folder Terminal is open on the folder modules/autoupgrade Launch &amp;ldquo;php bin/console&amp;rdquo; Terminal show you available command with bin/console Launch &amp;ldquo;php bin/console &amp;ndash;version&amp;rdquo; Terminal reply : &amp;ldquo;Update assistant {test-param}Version_Autoupgrade{test-param} &amp;quot; CLI Check Version Available Launch&amp;quot;php bin/console update:check-new-version admin-dev&amp;rdquo; Terminal display a tab : Change your PHP to 7.</description>
+      <description> Autoupgrade - Web Version - symlink - blocked server Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5634 Specification : https://forge.prestashop.com/browse/SUE-8 </description>
     </item>
     <item>
       <title>UpgradeShop</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgradeshop.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgradeshop.html</guid>
-      <description>UpgradeShop Details Component : Core Status : Deprecated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-4833 Steps Step Description Expected result Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module. Install it&amp;quot; Module is correctly installed Go to the General Parameters &amp;gt; Maintenance&amp;quot; page. Put the shop in maintenance mode&amp;quot; Maintenance page is displayed correctly. Maintenance mode is activated Launch upgrade Upgrade is launched Refresh the page.</description>
+      <description> UpgradeShop Details Component : Core Status : Deprecated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-4833 </description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Verification during the upgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-the-upgrade.html</link>
+      <title>Autoupgrade - CLI - Check/Upgrade/Rollback </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-cli-check-upgrade-rollback.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-the-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - Verification during the upgrade Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5510 Steps Step Description Expected result Click on the CTA &amp;ldquo;Start update&amp;rdquo;. The modal &amp;ldquo;Start Update?&amp;rdquo; is displayed : * Text : &amp;ldquo;You are about to launch the update, do you want to continue?&amp;quot;&#xA;* 2 CTAs : &amp;ldquo;Cancel&amp;rdquo; and &amp;ldquo;{color:#0747A6}cutest rocket{color} Start Update &amp;quot; (both enabled) Click on the CTA &amp;ldquo;{color:#0747a6}cutest rocket {color}Start update&amp;rdquo;.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-cli-check-upgrade-rollback.html</guid>
+      <description> Autoupgrade - CLI - Check/Upgrade/Rollback Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5516 Specification : https://forge.prestashop.com/browse/SUE-209 </description>
+    </item>
+    <item>
+      <title>Upgrade Shop with local archive release</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-local-archive-release.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/upgrade-shop-with-local-archive-release.html</guid>
+      <description> Upgrade Shop with local archive release Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5491 </description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Create error  on the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-on-the-version-choice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-create-error-on-the-version-choice.html</guid>
+      <description> Autoupgrade - Web Version - Create error on the version choice Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8893 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts </description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Update on online channel</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-update-on-online-channel.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-update-on-online-channel.html</guid>
+      <description> Autoupgrade - Web Version - Update on online channel Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5524 Specification : https://forge.prestashop.com/browse/SUE-8 </description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Verification during backup part</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-backup-part.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/deprecated/autoupgrade-web-version-verification-during-backup-part.html</guid>
+      <description> Autoupgrade - Web Version - Verification during backup part Details Component : Core Status : Deprecated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5624 Specification : https://forge.prestashop.com/browse/SUE-8 </description>
     </item>
   </channel>
 </rss>
