@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Currencies - Create Unofficial Currency"
-weight: 1
+weight: 4
 ---
 
 # BO - International - Localization - Currencies - Create Unofficial Currency

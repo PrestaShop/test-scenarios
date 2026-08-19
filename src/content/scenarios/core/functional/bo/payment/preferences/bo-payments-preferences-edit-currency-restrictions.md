@@ -1,6 +1,6 @@
 ---
 title: "BO - Payments - Preferences - Edit Currency restrictions"
-weight: 3
+weight: 2
 ---
 
 # BO - Payments - Preferences - Edit Currency restrictions

@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Check multi invoice behaviour"
-weight: 5
+weight: 6
 ---
 
 # BO - Order details - Check multi invoice behaviour

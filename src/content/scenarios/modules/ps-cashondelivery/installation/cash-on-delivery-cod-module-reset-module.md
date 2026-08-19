@@ -1,6 +1,6 @@
 ---
 title: "Cash on delivery (COD) module - Reset module"
-weight: 1
+weight: 4
 ---
 
 # Cash on delivery (COD) module - Reset module

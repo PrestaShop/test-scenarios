@@ -1,6 +1,6 @@
 ---
 title: "FO - Homepage - All products"
-weight: 5
+weight: 3
 ---
 
 # FO - Homepage - All products

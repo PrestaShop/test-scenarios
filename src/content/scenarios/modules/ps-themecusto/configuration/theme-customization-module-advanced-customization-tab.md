@@ -1,6 +1,6 @@
 ---
 title: "Theme Customization module - Advanced Customization tab "
-weight: 2
+weight: 3
 ---
 
 # Theme Customization module - Advanced Customization tab 

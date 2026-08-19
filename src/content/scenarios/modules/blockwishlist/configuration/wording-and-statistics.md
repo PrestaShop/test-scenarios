@@ -1,6 +1,6 @@
 ---
 title: "Wording and statistics"
-weight: 2
+weight: 1
 ---
 
 # Wording and statistics

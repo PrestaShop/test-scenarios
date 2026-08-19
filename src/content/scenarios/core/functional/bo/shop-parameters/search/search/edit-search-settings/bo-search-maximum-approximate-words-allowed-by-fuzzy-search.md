@@ -1,6 +1,6 @@
 ---
 title: "BO - Search - Maximum approximate words allowed by fuzzy search"
-weight: 5
+weight: 7
 ---
 
 # BO - Search - Maximum approximate words allowed by fuzzy search

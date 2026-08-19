@@ -1,6 +1,6 @@
 ---
 title: "BO - Payments - Preferences - Edit Carrier restrictions"
-weight: 2
+weight: 4
 ---
 
 # BO - Payments - Preferences - Edit Carrier restrictions

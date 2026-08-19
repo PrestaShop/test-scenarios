@@ -1,6 +1,6 @@
 ---
 title: "PUT /admin-api/modules/{technicalName}/status"
-weight: 7
+weight: 10
 ---
 
 # PUT /admin-api/modules/{technicalName}/status
@@ -24,3 +24,7 @@ weight: 7
 | Reload the Modules page | Check that the module is disabled |
 | Request with method PUT the endpoint "https://[url of your shop]/admin-api/modules/\{technicalName}/status" where \{technicalName} is the previous technicalName get with data | The return value is in JSON.<br><br>The return data has multiples keys : "moduleId", "technicalName", "version", "enabled", "installed"<br><br>The return data keys are consistent relative to BackOffice data. |
 | Reload the Modules page | Check that the module is enabled |
+| In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
+| On the first row, click on the button “Three points” | The dropdown is displayed |
+| Click on the Delete Button in the dropdown | A modal appeared |
+| Click on the Confirm Button in the modal | The message “Successful deletion” is displayed<br>No records found in the table |

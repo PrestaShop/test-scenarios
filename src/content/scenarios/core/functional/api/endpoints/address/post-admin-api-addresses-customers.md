@@ -22,3 +22,7 @@ weight: 9
 | Filter list by firstName | The number of elements = 1 |
 | Go to edit address page | Edit address page is displayed successfly<br><br>Page title = Editing address<br><br> <br><br>Check data are consistant with JSON data |
 | Request with the method DELETE the endpoint "[https://url of your shop|https://[url] of your shop]/admin-api/addresses/\{addressId}" to delete the created address | The HTTP code is 204. |
+| In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
+| On the first row, click on the button “Three points” | The dropdown is displayed |
+| Click on the Delete Button in the dropdown | A modal appeared |
+| Click on the Confirm Button in the modal | The message “Successful deletion” is displayed<br>No records found in the table |

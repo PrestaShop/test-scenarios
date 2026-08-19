@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - View"
-weight: 6
+weight: 3
 ---
 
 # BO - Customer Service - View

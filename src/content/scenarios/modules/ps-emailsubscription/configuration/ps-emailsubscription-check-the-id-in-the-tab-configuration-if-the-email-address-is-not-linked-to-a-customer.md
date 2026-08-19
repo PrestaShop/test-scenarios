@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check the ID in the tab configuration  if the email address is not linked to a customer"
-weight: 11
+weight: 7
 ---
 
 # ps_emailsubscription - Check the ID in the tab configuration  if the email address is not linked to a customer
@@ -9,3 +9,7 @@ weight: 11
 * **Status** : [TEST] IN PROGRESS
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7441
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+|  |  |

@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Use tax to filter price field configuration"
-weight: 6
+weight: 1
 ---
 
 # Faceted search module - Use tax to filter price field configuration

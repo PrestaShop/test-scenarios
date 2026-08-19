@@ -1,6 +1,6 @@
 ---
 title: "FO - Order confirmation - Order details and totals - Recap of payment method"
-weight: 6
+weight: 3
 ---
 
 # FO - Order confirmation - Order details and totals - Recap of payment method

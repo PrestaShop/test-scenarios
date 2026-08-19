@@ -1,0 +1,20 @@
+---
+title: "CLDR : Reset symbol / format settings"
+weight: 6
+---
+
+# CLDR : Reset symbol / format settings
+## Details
+* **Component** : Core
+* **Status** : Automated
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8006
+* **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/cldr/08_resetSymbolFormatSettings.ts
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to International > Localization > Currencies > Edit the currency > Click Edit symbol / format | Popup opens with 2 steps |
+| Add symbol of your choice + choose format > Apply | Popup disappears and List of currencies will be updated |
+| Click Save | List of currencies is updated with new Symbol |
+| Edit the currency > Click the round arrow to Reset it | Currency should be reset<br><br>Message "Your symbol and format customizations have been successfully reset for this language." appears |
+| Click Save | Symbol is reset in the List of currencies <br><br>Message "Successful update" appears |

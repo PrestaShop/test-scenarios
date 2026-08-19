@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Verification during the post Upgrade page"
-weight: 19
+weight: 17
 ---
 
 # Autoupgrade - Web Version - Verification during the post Upgrade page

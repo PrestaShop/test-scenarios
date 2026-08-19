@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order"
-weight: 8
+weight: 2
 ---
 
 # BO - Shop Parameters - Order Settings - Minimum purchase total required in order to validate the order

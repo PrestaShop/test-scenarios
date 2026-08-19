@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart Rules : Quantity consumption"
-weight: 1
+weight: 3
 ---
 
 # BO - Cart Rules : Quantity consumption

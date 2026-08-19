@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Change the position in the footer"
-weight: 2
+weight: 1
 ---
 
 # blockreassurance - Change the position in the footer

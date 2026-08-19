@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Page Configuration - See all theme\'s modules button"
-weight: 3
+weight: 1
 ---
 
 # BO - Design - Theme & Logo - Page Configuration - See all theme\'s modules button

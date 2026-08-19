@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Status tab"
-weight: 9
+weight: 8
 ---
 
 # BO - Order details - Status tab

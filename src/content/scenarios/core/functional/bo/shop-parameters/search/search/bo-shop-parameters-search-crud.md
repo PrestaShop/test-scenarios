@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Search - CRUD"
-weight: 2
+weight: 5
 ---
 
 # BO - Shop Parameters - Search - CRUD

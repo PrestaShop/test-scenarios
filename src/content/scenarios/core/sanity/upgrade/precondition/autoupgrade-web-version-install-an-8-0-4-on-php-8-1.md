@@ -1,0 +1,24 @@
+---
+title: "Autoupgrade - Web Version - Install an 8.0.4 on php 8.1"
+weight: 10
+---
+
+# Autoupgrade - Web Version - Install an 8.0.4 on php 8.1
+## Details
+* **Component** : Core
+* **Status** : Approved
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5615
+
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Install a fresh 8.0.4 with php 8.1 | * The new shop is installed<br> * The selection to BO or FO is displayed |
+| Go to the BO. | Log in page is displayed. |
+| Log in with email and password set during installation. | * Connection successful<br> * Dashboard displayed |
+| Go to Modules > Module manager. | Module manager page is displayed. |
+| Click on the CTA "Upload a module". | Modal "Upload a module" is displayed. |
+| Select or drag and drop the .zip. | * The module is installing<br> * The module is installed, the CTA "Configure" is displayed. |
+| Close the modal. | * Modal is closed<br> * Module manager page is displayed |
+| Refresh the page. | Page is refreshed. |
+| Search for "Update". | Update Assistant is displayed. |
+| Check for the version. | * The version is the latest in prod. <br><br> * The lastest version in prod is displayed because it is the version available on the marketplace. |

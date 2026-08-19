@@ -1,6 +1,6 @@
 ---
 title: "Official GDPR module - Upgrade module"
-weight: 1
+weight: 4
 ---
 
 # Official GDPR module - Upgrade module

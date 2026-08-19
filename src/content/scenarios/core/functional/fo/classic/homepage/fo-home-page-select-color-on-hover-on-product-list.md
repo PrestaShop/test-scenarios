@@ -1,6 +1,6 @@
 ---
 title: "FO - Home page - Select color on hover on product list"
-weight: 1
+weight: 2
 ---
 
 # FO - Home page - Select color on hover on product list

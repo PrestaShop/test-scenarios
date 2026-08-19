@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Features - Filter table"
-weight: 6
+weight: 7
 ---
 
 # BO - Catalog - Features - Filter table
@@ -12,3 +12,14 @@ weight: 6
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/04_attributesAndFeatures/02_features/features/01_filterFeatures.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/attributes-and-features/features/features-list-page
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+| Go to BO > Catalog > Attributes & Features > Features page | The Features page is well displayed |
+| Reset all Filters | Number Features = Total Features |
+| Filter by ID | Number Features < Total Features and the list contains the searched ID |
+| Reset all Filters | Number Features = Total Features |
+| Filter by Name | Number Features < Total Features and the list contains the searched Name |
+| Reset all Filters | Number Features = Total Features |
+| Filter by Position | Number Features < Total Features and the list contains the searched Position |
+| Reset all Filters | Number Features = Total Features |

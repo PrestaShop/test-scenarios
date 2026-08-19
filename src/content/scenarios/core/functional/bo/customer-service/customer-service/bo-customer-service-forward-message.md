@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service : Forward message"
-weight: 2
+weight: 6
 ---
 
 # BO - Customer Service : Forward message

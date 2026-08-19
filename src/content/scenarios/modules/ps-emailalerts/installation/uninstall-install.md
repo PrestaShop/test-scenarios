@@ -1,6 +1,6 @@
 ---
 title: "Uninstall/Install"
-weight: 8
+weight: 3
 ---
 
 # Uninstall/Install

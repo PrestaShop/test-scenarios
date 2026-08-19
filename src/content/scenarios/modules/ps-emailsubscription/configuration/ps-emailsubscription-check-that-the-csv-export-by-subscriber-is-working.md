@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check that the CSV export by subscriber is working"
-weight: 12
+weight: 10
 ---
 
 # ps_emailsubscription - Check that the CSV export by subscriber is working
@@ -9,3 +9,7 @@ weight: 12
 * **Status** : [TEST] IN PROGRESS
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7436
 
+## Steps
+| Step Description | Expected result |
+| ----- | ----- |
+|  |  |

@@ -1,6 +1,6 @@
 ---
 title: "ps_socialfollow - BO - Add URL to the different social media"
-weight: 3
+weight: 2
 ---
 
 # ps_socialfollow - BO - Add URL to the different social media
