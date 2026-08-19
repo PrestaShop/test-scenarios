@@ -8,27 +8,6 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BO - Shop Parameters - Search - Indexing</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html</guid>
-      <description>BO - Shop Parameters - Search - Indexing Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7817 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/03_indexing.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Search &amp;gt; Scroll to block Indexing See Indexed products 19 / 19. Go to Catalog &amp;gt; Products &amp;gt; Add a product &amp;gt; Save Successful creation Go to Shop Parameters &amp;gt; Search &amp;gt; Scroll to block Indexing See Indexed products 20 / 20.</description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Search - CRUD</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html</guid>
-      <description>BO - Shop Parameters - Search - CRUD Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7815 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_CRUDSearch.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search Steps Step Description Expected result Go to Shop Parameters &amp;gt;Search Search page is well displayed Click on Add new alias a new page is displayes named : Aliases Create a new aliase &amp;gt;click on save a new alias is added to the list .</description>
-    </item>
-    <item>
-      <title>BO - Shop Parameters - Search  - Aliases - Help card</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-aliases-help-card.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-aliases-help-card.html</guid>
-      <description> BO - Shop Parameters - Search - Aliases - Help card Details Status : To be automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8511 Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Search &amp;gt; Aliases tab Aliases page displayed Click on Help The documentation modal is opened in English Close the modal The modal is well closed </description>
-    </item>
-    <item>
       <title>BO - Shop Parameters - Search - Indexing - Set a cron job</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing-set-a-cron-job.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,6 +27,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-weight.html</guid>
       <description>BO - Shop Parameters - Search - Weight Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7816 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/05_weight.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search Steps Step Description Expected result Go to BO &amp;gt; Shop parameters &amp;gt; Scroll down to block Weight See the weight of all elements are already set.&#xA;Product name weight: 6&#xA;Reference weight: 10&#xA;Short description weight: 1&#xA;Description weight: 1</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Search - Indexing</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-indexing.html</guid>
+      <description>BO - Shop Parameters - Search - Indexing Details Component : Core Status : Automated Automated on : 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7817 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/03_indexing.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Search &amp;gt; Scroll to block Indexing See Indexed products 19 / 19. Go to Catalog &amp;gt; Products &amp;gt; Add a product &amp;gt; Save Successful creation Go to Shop Parameters &amp;gt; Search &amp;gt; Scroll to block Indexing See Indexed products 20 / 20.</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Search - CRUD</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-crud.html</guid>
+      <description>BO - Shop Parameters - Search - CRUD Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7815 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/13_shopParameters/07_search/01_search/01_CRUDSearch.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/shop-paramaters/search/search Steps Step Description Expected result Go to Shop Parameters &amp;gt;Search Search page is well displayed Click on Add new alias a new page is displayes named : Aliases Create a new aliase &amp;gt;click on save a new alias is added to the list .</description>
+    </item>
+    <item>
+      <title>BO - Shop Parameters - Search  - Aliases - Help card</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-aliases-help-card.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/bo/shop-parameters/search/search/bo-shop-parameters-search-aliases-help-card.html</guid>
+      <description> BO - Shop Parameters - Search - Aliases - Help card Details Status : To be automated Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8511 Steps Step Description Expected result Go to BO &amp;gt; Shop Parameters &amp;gt; Search &amp;gt; Aliases tab Aliases page displayed Click on Help The documentation modal is opened in English Close the modal The modal is well closed </description>
     </item>
   </channel>
 </rss>

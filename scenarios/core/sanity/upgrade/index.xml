@@ -8,18 +8,32 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Autoupgrade - STORYBOOK</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-storybook.html</link>
+      <title>Autoupgrade - Web Version - Create error on update</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-storybook.html</guid>
-      <description>Autoupgrade - STORYBOOK Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5511 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</guid>
+      <description>Autoupgrade - Web Version - Create error on update Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8894 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts Steps Step Description Expected result Go to the folder [yourshopname_folder] &amp;gt; modules &amp;gt; autoupgrade &amp;gt; upgrade. Files named upgrade [&amp;hellip;].php are present and +none+ instead of install[&amp;hellip;].php. Open the file [yourshopname_folder] &amp;gt; modules &amp;gt; autoupgrade &amp;gt; classes &amp;gt; Task &amp;gt; Update &amp;gt; Download.php. File is opened. In the function &amp;ldquo;public function run&amp;rdquo;, add &amp;ldquo;throw new Exception(&amp;ldquo;Brique&amp;rdquo;);&amp;rdquo; and save the folder.</description>
     </item>
     <item>
-      <title>Autoupgrade - Verify the experimented featured</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-experimented-featured.html</link>
+      <title>Autoupgrade - Verify the database after upgrade to V9</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-database-after-upgrade-to-v9.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-experimented-featured.html</guid>
-      <description>Autoupgrade - Verify the experimented featured Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5494 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-database-after-upgrade-to-v9.html</guid>
+      <description>Autoupgrade - Verify the database after upgrade to V9 Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5498 Steps Step Description Expected result * Go to your Database &amp;gt; [prefixe]_address&#xA;* Go to the structure * The different information of the address database should be displayed&#xA;* The &amp;ldquo;other&amp;rdquo; value should be &amp;ldquo;mediumtext&amp;rdquo; * Go to your Database &amp;gt; [prefixe]attachment_lang&#xA;* Go to the structure * The different information of the attachment_lang database should be displayed</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Rollback </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-rollback.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-rollback.html</guid>
+      <description>Autoupgrade - Web Version - Rollback Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5505 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-91.ts Specification : https://forge.prestashop.com/browse/SUE-73 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Restore from a backup&amp;rdquo; * &amp;ldquo;Restore from a backup&amp;rdquo; radio button is selected</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Verification during the upgrade</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-upgrade.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - Verification during the upgrade Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5646 Steps Step Description Expected result Click on the CTA &amp;ldquo;Start update&amp;rdquo;. The modal &amp;ldquo;Start Update?&amp;rdquo; is displayed : * Text : &amp;ldquo;You are about to launch the update, do you want to continue?&amp;quot;&#xA;* 2 CTAs : &amp;ldquo;Cancel&amp;rdquo; and &amp;ldquo;{color:#0747A6}cutest rocket{color} Start Update &amp;quot; (both enabled) Click on the CTA &amp;ldquo;{color:#0747a6}cutest rocket {color}Start update&amp;rdquo;.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Verification during backup part</title>
@@ -43,13 +57,6 @@
       <description>Autoupgrade - Web Version - Configuration settings for updates part set to off Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5650 Steps Step Description Expected result Click on the CTA &amp;ldquo;Upload a module&amp;rdquo;. Modal &amp;ldquo;Upload a module&amp;rdquo; is displayed. Select or drag and drop the .zip provided here. * The module is installing&#xA;* The module is installed, the CTA &amp;ldquo;Configure&amp;rdquo; is displayed. Close the modal.</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Verification during the upgrade</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-upgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - Verification during the upgrade Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5646 Steps Step Description Expected result Click on the CTA &amp;ldquo;Start update&amp;rdquo;. The modal &amp;ldquo;Start Update?&amp;rdquo; is displayed : * Text : &amp;ldquo;You are about to launch the update, do you want to continue?&amp;quot;&#xA;* 2 CTAs : &amp;ldquo;Cancel&amp;rdquo; and &amp;ldquo;{color:#0747A6}cutest rocket{color} Start Update &amp;quot; (both enabled) Click on the CTA &amp;ldquo;{color:#0747a6}cutest rocket {color}Start update&amp;rdquo;.</description>
-    </item>
-    <item>
       <title>Autoupgrade - Web Version - Configuration settings for backup part  to On</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-backup-part-to-on.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,67 +64,18 @@
       <description>Autoupgrade - Web Version - Configuration settings for backup part to On Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5651 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Configuration settings for updates part </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-updates-part.html</link>
+      <title>Autoupgrade - STORYBOOK</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-storybook.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-updates-part.html</guid>
-      <description>Autoupgrade - Web Version - Configuration settings for updates part Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5649 Steps Step Description Expected result Click on the CTA &amp;ldquo;Upload a module&amp;rdquo;. Modal &amp;ldquo;Upload a module&amp;rdquo; is displayed. Select or drag and drop the .zip provided here. * The module is installing&#xA;* The module is installed, the CTA &amp;ldquo;Configure&amp;rdquo; is displayed. Close the modal. * Modal is closed</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-storybook.html</guid>
+      <description>Autoupgrade - STORYBOOK Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5511 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
     </item>
     <item>
-      <title>Autoupgrade - Web Version - Rollback </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-rollback.html</link>
+      <title>Autoupgrade - Verify the experimented featured</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-experimented-featured.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-rollback.html</guid>
-      <description>Autoupgrade - Web Version - Rollback Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5505 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-91.ts Specification : https://forge.prestashop.com/browse/SUE-73 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Restore from a backup&amp;rdquo; * &amp;ldquo;Restore from a backup&amp;rdquo; radio button is selected</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Verify the database after upgrade to V9</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-database-after-upgrade-to-v9.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-database-after-upgrade-to-v9.html</guid>
-      <description>Autoupgrade - Verify the database after upgrade to V9 Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5498 Steps Step Description Expected result * Go to your Database &amp;gt; [prefixe]_address&#xA;* Go to the structure * The different information of the address database should be displayed&#xA;* The &amp;ldquo;other&amp;rdquo; value should be &amp;ldquo;mediumtext&amp;rdquo; * Go to your Database &amp;gt; [prefixe]attachment_lang&#xA;* Go to the structure * The different information of the attachment_lang database should be displayed</description>
-    </item>
-    <item>
-      <title>Autoupgrade - CLI - Check/Upgrade/Rollback </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</guid>
-      <description>Autoupgrade - CLI - Check/Upgrade/Rollback Details Component : Core Status : Approved Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5647 Specification : https://forge.prestashop.com/browse/SUE-209 Steps Step Description Expected result Go to your folder [yourshopname_folder] &amp;gt; module &amp;gt; Autoupgrade You should have many files and folder, one files named README.md can help you CLI Check Version of module Open a terminal on this folder Terminal is open on the folder modules/autoupgrade Launch &amp;ldquo;php bin/console&amp;rdquo; Terminal show you available command with bin/console Launch &amp;ldquo;php bin/console &amp;ndash;version&amp;rdquo; Terminal reply : &amp;ldquo;Update assistant {test-param}Version_Autoupgrade{test-param} &amp;quot; CLI Check Version Available Launch&amp;quot;php bin/console update:check-new-version admin-dev&amp;rdquo; Terminal display a tab : Change your PHP to 7.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Update on local channel</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</guid>
-      <description>Autoupgrade - Web Version - Update on local channel Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5607 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Create error on update</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-update.html</guid>
-      <description>Autoupgrade - Web Version - Create error on update Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8894 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts Steps Step Description Expected result Go to the folder [yourshopname_folder] &amp;gt; modules &amp;gt; autoupgrade &amp;gt; upgrade. Files named upgrade [&amp;hellip;].php are present and +none+ instead of install[&amp;hellip;].php. Open the file [yourshopname_folder] &amp;gt; modules &amp;gt; autoupgrade &amp;gt; classes &amp;gt; Task &amp;gt; Update &amp;gt; Download.php. File is opened. In the function &amp;ldquo;public function run&amp;rdquo;, add &amp;ldquo;throw new Exception(&amp;ldquo;Brique&amp;rdquo;);&amp;rdquo; and save the folder.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Configuration settings for backup part </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-backup-part.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-backup-part.html</guid>
-      <description>Autoupgrade - Web Version - Configuration settings for backup part Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5648 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - modal for new Upgrade </title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
-      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Approved Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5642 Specification : https://forge.prestashop.com/browse/SUE-236 Steps Step Description Expected result Click on the Dashboard in the side menu Dashboard menu is displayed with a modal :&#xA;* on the left : ** &amp;ldquo;New available Minor&amp;rdquo; writted in black with a blue bacckground&#xA;** &amp;ldquo;New features are available&amp;rdquo; in white, with the prestashop typo with a black background * on the right : ** Four part of text : &amp;ldquo;Description&amp;rdquo;, &amp;ldquo;Version&amp;rdquo;, &amp;ldquo;Type of improvements&amp;rdquo; and &amp;ldquo;Need help?</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Verify catalog page after upgrade to V9</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-catalog-page-after-upgrade-to-v9.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-catalog-page-after-upgrade-to-v9.html</guid>
-      <description>Autoupgrade - Verify catalog page after upgrade to V9 Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5496 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed * Go to Catalog &amp;gt; Product&#xA;* Clic on the Hummingbird notebook * Clic on Details tab * Change the &amp;ldquo;GTIN (EAN, JA, ITF or UCC code) and Click on Save and Publish * The product page should be displayed with all the different product</description>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-the-experimented-featured.html</guid>
+      <description>Autoupgrade - Verify the experimented featured Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5494 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed Go to the Module Catalog&amp;quot; page&amp;quot; Module Catalog page is displayed correctly Search for the 1-click Install&amp;quot; module.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version -  symlink - blocked server</title>
@@ -125,27 +83,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-symlink-blocked-server.html</guid>
       <description>Autoupgrade - Web Version - symlink - blocked server Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5640 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Create error on Welcome Page</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-welcome-page.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-welcome-page.html</guid>
-      <description>Autoupgrade - Web Version - Create error on Welcome Page Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8892 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Go to [admin_folder_name] and open a terminal in the folder.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Verification during the post Upgrade page</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</guid>
-      <description>Autoupgrade - Web Version - Verification during the post Upgrade page Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5625 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Click on the CTA &amp;ldquo;Start update&amp;rdquo;. The modal &amp;ldquo;Start Update?&amp;rdquo; is displayed : * Text : &amp;ldquo;You are about to launch the update, do you want to continue?&amp;quot;&#xA;* 2 CTAs : &amp;ldquo;Cancel&amp;rdquo; and &amp;ldquo;{color:#0747A6}cutest rocket{color} Start Update &amp;quot; (both enabled) Click on the CTA &amp;ldquo;Cancel&amp;rdquo;.</description>
-    </item>
-    <item>
-      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
-      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5639 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
     <item>
       <title>Autoupgrade - Web Version - Verification during version choice</title>
@@ -162,11 +99,74 @@
       <description>Autoupgrade - Middleware on Backup Part Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5635 Specification : https://forge.prestashop.com/browse/SUE-310 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; * CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Restore from backup&amp;rdquo;.</description>
     </item>
     <item>
+      <title>Autoupgrade - Web Version - Change the php during the version choice</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-change-the-php-during-the-version-choice.html</guid>
+      <description>Autoupgrade - Web Version - Change the php during the version choice Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5639 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
+    </item>
+    <item>
       <title>Autoupgrade - Middleware on update Part</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-update-part.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-middleware-on-update-part.html</guid>
       <description>Autoupgrade - Middleware on update Part Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5609 Specification : https://forge.prestashop.com/browse/SUE-310 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Configuration settings for updates part </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-updates-part.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-updates-part.html</guid>
+      <description>Autoupgrade - Web Version - Configuration settings for updates part Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5649 Steps Step Description Expected result Click on the CTA &amp;ldquo;Upload a module&amp;rdquo;. Modal &amp;ldquo;Upload a module&amp;rdquo; is displayed. Select or drag and drop the .zip provided here. * The module is installing&#xA;* The module is installed, the CTA &amp;ldquo;Configure&amp;rdquo; is displayed. Close the modal. * Modal is closed</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Verification during the post Upgrade page</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-verification-during-the-post-upgrade-page.html</guid>
+      <description>Autoupgrade - Web Version - Verification during the post Upgrade page Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5625 Specification : https://forge.prestashop.com/browse/SUE-8 Steps Step Description Expected result Click on the CTA &amp;ldquo;Start update&amp;rdquo;. The modal &amp;ldquo;Start Update?&amp;rdquo; is displayed : * Text : &amp;ldquo;You are about to launch the update, do you want to continue?&amp;quot;&#xA;* 2 CTAs : &amp;ldquo;Cancel&amp;rdquo; and &amp;ldquo;{color:#0747A6}cutest rocket{color} Start Update &amp;quot; (both enabled) Click on the CTA &amp;ldquo;Cancel&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - modal for new Upgrade </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-modal-for-new-upgrade.html</guid>
+      <description>Autoupgrade - Web Version - modal for new Upgrade Details Component : Core Status : Approved Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5642 Specification : https://forge.prestashop.com/browse/SUE-236 Steps Step Description Expected result Click on the Dashboard in the side menu Dashboard menu is displayed with a modal :&#xA;* on the left : ** &amp;ldquo;New available Minor&amp;rdquo; writted in black with a blue bacckground&#xA;** &amp;ldquo;New features are available&amp;rdquo; in white, with the prestashop typo with a black background * on the right : ** Four part of text : &amp;ldquo;Description&amp;rdquo;, &amp;ldquo;Version&amp;rdquo;, &amp;ldquo;Type of improvements&amp;rdquo; and &amp;ldquo;Need help?</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Create error on Welcome Page</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-welcome-page.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-create-error-on-welcome-page.html</guid>
+      <description>Autoupgrade - Web Version - Create error on Welcome Page Details Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-8892 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Go to [admin_folder_name] and open a terminal in the folder.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Verify catalog page after upgrade to V9</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-catalog-page-after-upgrade-to-v9.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-verify-catalog-page-after-upgrade-to-v9.html</guid>
+      <description>Autoupgrade - Verify catalog page after upgrade to V9 Details Component : Core Status : À faire Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5496 Steps Step Description Expected result Install A fresh 8.1.5 You should have the selection of where in your shop you want to go ( BO or FO ) Go to the BO You should have your dashboard showed * Go to Catalog &amp;gt; Product&#xA;* Clic on the Hummingbird notebook * Clic on Details tab * Change the &amp;ldquo;GTIN (EAN, JA, ITF or UCC code) and Click on Save and Publish * The product page should be displayed with all the different product</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Configuration settings for backup part </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-backup-part.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-configuration-settings-for-backup-part.html</guid>
+      <description>Autoupgrade - Web Version - Configuration settings for backup part Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5648 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). * &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : ** Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;** Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;** CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - CLI - Check/Upgrade/Rollback </title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-cli-check-upgrade-rollback.html</guid>
+      <description>Autoupgrade - CLI - Check/Upgrade/Rollback Details Component : Core Status : Approved Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5647 Specification : https://forge.prestashop.com/browse/SUE-209 Steps Step Description Expected result Go to your folder [yourshopname_folder] &amp;gt; module &amp;gt; Autoupgrade You should have many files and folder, one files named README.md can help you CLI Check Version of module Open a terminal on this folder Terminal is open on the folder modules/autoupgrade Launch &amp;ldquo;php bin/console&amp;rdquo; Terminal show you available command with bin/console Launch &amp;ldquo;php bin/console &amp;ndash;version&amp;rdquo; Terminal reply : &amp;ldquo;Update assistant {test-param}Version_Autoupgrade{test-param} &amp;quot; CLI Check Version Available Launch&amp;quot;php bin/console update:check-new-version admin-dev&amp;rdquo; Terminal display a tab : Change your PHP to 7.</description>
+    </item>
+    <item>
+      <title>Autoupgrade - Web Version - Update on local channel</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/sanity/upgrade/autoupgrade-web-version-update-on-local-channel.html</guid>
+      <description>Autoupgrade - Web Version - Update on local channel Details Component : Core Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-5607 Steps Step Description Expected result Go to &amp;ldquo;Update Assistant&amp;rdquo; module (side board). &amp;ldquo;Update Assistant&amp;rdquo; module is displayed : * Title : &amp;ldquo;Welcome to PrestaShop Update Assistant&amp;rdquo;&#xA;* Two radio buttons : &amp;ldquo;Update your store&amp;rdquo; and &amp;ldquo;Restore from a backup&amp;rdquo; (disabled)&#xA;* CTA &amp;ldquo;Get started&amp;rdquo; disabled Select the radio button &amp;ldquo;Update your store&amp;rdquo;.</description>
     </item>
   </channel>
 </rss>
