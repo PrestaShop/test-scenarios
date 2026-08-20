@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Addresses: Select address"
-weight: 3
+weight: 2
 ---
 
 # FO - Checkout - Addresses: Select address

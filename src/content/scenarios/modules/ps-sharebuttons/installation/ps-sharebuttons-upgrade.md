@@ -1,6 +1,6 @@
 ---
 title: "ps_sharebuttons - Upgrade"
-weight: 2
+weight: 3
 ---
 
 # ps_sharebuttons - Upgrade

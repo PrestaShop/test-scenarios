@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Carriers - General Settings"
-weight: 3
+weight: 1
 ---
 
 # BO - Shipping - Carriers - General Settings

@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Pages - Pagination"
-weight: 2
+weight: 4
 ---
 
 # BO - Design - Pages - Pagination

@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - STORYBOOK"
-weight: 9
+weight: 5
 ---
 
 # Autoupgrade - STORYBOOK

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Email - Send emails to"
-weight: 3
+weight: 2
 ---
 
 # BO - Advanced parameters - Email - Send emails to

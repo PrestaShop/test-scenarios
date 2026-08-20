@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Quantity discounts based on"
-weight: 6
+weight: 9
 ---
 
 # BO - Shop Parameters - Product Settings - Quantity discounts based on

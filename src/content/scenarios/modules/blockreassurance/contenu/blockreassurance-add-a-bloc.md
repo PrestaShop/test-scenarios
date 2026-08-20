@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Add a bloc"
-weight: 2
+weight: 3
 ---
 
 # blockreassurance - Add a bloc

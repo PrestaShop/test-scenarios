@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Credit Slips - Sort & Pagination Credit Slips"
-weight: 2
+weight: 1
 ---
 
 # BO - Orders - Credit Slips - Sort & Pagination Credit Slips

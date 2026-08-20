@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Enable/disable the authorization for guest user to comment"
-weight: 6
+weight: 7
 ---
 
 # productcomments - Enable/disable the authorization for guest user to comment

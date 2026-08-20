@@ -1,6 +1,6 @@
 ---
 title: "FO - Order confirmation - Display of product customization"
-weight: 1
+weight: 2
 ---
 
 # FO - Order confirmation - Display of product customization

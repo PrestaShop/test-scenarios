@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Credit Slips - Credit Slip Options"
-weight: 3
+weight: 2
 ---
 
 # BO - Orders - Credit Slips - Credit Slip Options

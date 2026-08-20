@@ -1,6 +1,6 @@
 ---
 title: "ps_socialfollow - FO - Check that all links are redirecting to the right URL"
-weight: 3
+weight: 2
 ---
 
 # ps_socialfollow - FO - Check that all links are redirecting to the right URL

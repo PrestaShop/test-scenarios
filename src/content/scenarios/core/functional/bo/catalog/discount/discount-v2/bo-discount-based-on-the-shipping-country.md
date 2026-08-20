@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - based on the shipping country"
-weight: 14
+weight: 24
 ---
 
 # BO - Discount - based on the shipping country

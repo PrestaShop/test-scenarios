@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Import - Import file"
-weight: 5
+weight: 11
 ---
 
 # BO - Advanced parameters - Import - Import file

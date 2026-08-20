@@ -1,6 +1,6 @@
 ---
 title: "BO - Product Page - Details Tab"
-weight: 16
+weight: 3
 ---
 
 # BO - Product Page - Details Tab

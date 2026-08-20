@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Edit template - Product weight filter"
-weight: 9
+weight: 17
 ---
 
 # Faceted search module - Edit template - Product weight filter

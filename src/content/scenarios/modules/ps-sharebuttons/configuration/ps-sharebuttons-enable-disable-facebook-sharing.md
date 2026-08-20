@@ -1,6 +1,6 @@
 ---
 title: "ps_sharebuttons - Enable / disable facebook sharing"
-weight: 3
+weight: 2
 ---
 
 # ps_sharebuttons - Enable / disable facebook sharing

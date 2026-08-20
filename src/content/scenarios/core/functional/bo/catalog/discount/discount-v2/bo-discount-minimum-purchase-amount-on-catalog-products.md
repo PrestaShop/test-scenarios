@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Minimum purchase amount (On catalog products)"
-weight: 13
+weight: 3
 ---
 
 # BO - Discount - Minimum purchase amount (On catalog products)

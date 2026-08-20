@@ -1,6 +1,6 @@
 ---
 title: "Category products module - Disable/Enable module"
-weight: 3
+weight: 1
 ---
 
 # Category products module - Disable/Enable module

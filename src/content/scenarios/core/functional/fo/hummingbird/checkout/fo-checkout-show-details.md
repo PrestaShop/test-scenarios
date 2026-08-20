@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout : Show details"
-weight: 2
+weight: 1
 ---
 
 # FO - Checkout : Show details

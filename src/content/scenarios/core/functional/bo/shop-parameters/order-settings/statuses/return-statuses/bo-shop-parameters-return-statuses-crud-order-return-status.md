@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Return Statuses - CRUD order return status"
-weight: 1
+weight: 2
 ---
 
 # BO - Shop Parameters - Return Statuses - CRUD order return status

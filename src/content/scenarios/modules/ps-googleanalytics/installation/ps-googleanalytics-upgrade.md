@@ -1,6 +1,6 @@
 ---
 title: "ps_googleanalytics - Upgrade"
-weight: 4
+weight: 2
 ---
 
 # ps_googleanalytics - Upgrade

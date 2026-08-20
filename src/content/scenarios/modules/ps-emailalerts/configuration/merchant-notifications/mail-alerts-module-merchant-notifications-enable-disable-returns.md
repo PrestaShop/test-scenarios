@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Merchant notifications : Enable/Disable returns"
-weight: 2
+weight: 7
 ---
 
 # Mail alerts module - Merchant notifications : Enable/Disable returns

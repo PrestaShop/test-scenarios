@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Import - Send notification email"
-weight: 9
+weight: 4
 ---
 
 # BO - Advanced parameters - Import - Send notification email

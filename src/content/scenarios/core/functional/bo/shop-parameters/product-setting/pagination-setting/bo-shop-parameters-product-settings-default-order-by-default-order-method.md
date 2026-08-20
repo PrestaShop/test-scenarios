@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Default order by / Default order method"
-weight: 1
+weight: 2
 ---
 
 # BO - Shop Parameters - Product Settings - Default order by / Default order method

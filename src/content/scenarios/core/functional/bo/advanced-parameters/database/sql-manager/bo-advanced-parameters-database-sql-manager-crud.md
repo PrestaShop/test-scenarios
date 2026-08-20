@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Database - SQL Manager - CRUD"
-weight: 5
+weight: 2
 ---
 
 # BO - Advanced Parameters - Database - SQL Manager - CRUD

@@ -1,6 +1,6 @@
 ---
 title: "Wall of Fame"
-weight: 1
+weight: 8
 ---
 
 # Wall of Fame

@@ -1,6 +1,6 @@
 ---
 title: "Configure the minimum quantity for out of stock"
-weight: 7
+weight: 2
 ---
 
 # Configure the minimum quantity for out of stock

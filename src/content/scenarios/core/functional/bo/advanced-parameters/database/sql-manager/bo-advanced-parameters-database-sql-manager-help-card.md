@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Database - SQL Manager - Help card"
-weight: 3
+weight: 4
 ---
 
 # BO - Advanced Parameters - Database - SQL Manager - Help card

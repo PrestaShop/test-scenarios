@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Brands - Helper card"
-weight: 5
+weight: 1
 ---
 
 # BO - Catalog - Brands - Helper card

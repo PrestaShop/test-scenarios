@@ -1,6 +1,6 @@
 ---
 title: "FO - Header & Footer - Check links in footer"
-weight: 1
+weight: 3
 ---
 
 # FO - Header & Footer - Check links in footer

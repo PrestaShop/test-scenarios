@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Actions - Create simple order status Apply to specific product"
-weight: 5
+weight: 10
 ---
 
 # BO - Cart rules - Actions - Create simple order status Apply to specific product

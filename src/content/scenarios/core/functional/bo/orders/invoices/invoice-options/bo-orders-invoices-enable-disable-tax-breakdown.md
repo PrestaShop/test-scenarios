@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Invoices - Enable/Disable Tax Breakdown"
-weight: 6
+weight: 4
 ---
 
 # BO - Orders - Invoices - Enable/Disable Tax Breakdown

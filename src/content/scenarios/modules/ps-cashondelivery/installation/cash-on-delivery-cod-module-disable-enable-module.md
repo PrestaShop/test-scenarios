@@ -1,6 +1,6 @@
 ---
 title: "Cash on delivery (COD) module - Disable/Enable module"
-weight: 3
+weight: 4
 ---
 
 # Cash on delivery (COD) module - Disable/Enable module

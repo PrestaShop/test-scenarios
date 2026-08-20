@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Add new template"
-weight: 20
+weight: 13
 ---
 
 # Faceted search module - Add new template

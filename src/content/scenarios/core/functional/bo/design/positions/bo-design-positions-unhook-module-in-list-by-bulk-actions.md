@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Positions - Unhook module in list by Bulk actions"
-weight: 7
+weight: 3
 ---
 
 # BO - Design - Positions - Unhook module in list by Bulk actions

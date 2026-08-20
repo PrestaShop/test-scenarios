@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Carriers tab"
-weight: 1
+weight: 7
 ---
 
 # BO - Order details - Carriers tab

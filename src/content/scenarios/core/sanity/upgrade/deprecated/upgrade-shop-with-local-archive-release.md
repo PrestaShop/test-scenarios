@@ -1,6 +1,6 @@
 ---
 title: "Upgrade Shop with local archive release"
-weight: 13
+weight: 15
 ---
 
 # Upgrade Shop with local archive release

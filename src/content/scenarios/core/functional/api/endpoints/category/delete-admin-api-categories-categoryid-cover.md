@@ -1,6 +1,6 @@
 ---
 title: "DELETE /admin-api/categories/{categoryId}/cover"
-weight: 1
+weight: 2
 ---
 
 # DELETE /admin-api/categories/{categoryId}/cover

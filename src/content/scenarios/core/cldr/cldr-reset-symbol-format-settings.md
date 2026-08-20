@@ -1,6 +1,6 @@
 ---
 title: "CLDR : Reset symbol / format settings"
-weight: 6
+weight: 4
 ---
 
 # CLDR : Reset symbol / format settings

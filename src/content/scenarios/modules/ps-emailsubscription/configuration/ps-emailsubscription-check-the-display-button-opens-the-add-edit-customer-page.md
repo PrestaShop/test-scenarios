@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check the \"display\" button opens the add/edit customer page"
-weight: 11
+weight: 18
 ---
 
 # ps_emailsubscription - Check the \"display\" button opens the add/edit customer page

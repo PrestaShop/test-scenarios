@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Setup number of comments by page"
-weight: 3
+weight: 6
 ---
 
 # productcomments - Setup number of comments by page

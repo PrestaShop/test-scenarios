@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Disable/Enable module"
-weight: 6
+weight: 1
 ---
 
 # Mail alerts module - Disable/Enable module

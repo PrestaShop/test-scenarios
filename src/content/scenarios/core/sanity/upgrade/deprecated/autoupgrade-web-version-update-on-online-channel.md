@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Update on online channel"
-weight: 11
+weight: 17
 ---
 
 # Autoupgrade - Web Version - Update on online channel

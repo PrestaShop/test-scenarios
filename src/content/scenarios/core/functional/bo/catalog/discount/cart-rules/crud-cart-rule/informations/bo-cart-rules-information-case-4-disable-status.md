@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Information - Case 4 -  Disable status"
-weight: 1
+weight: 3
 ---
 
 # BO - Cart rules - Information - Case 4 -  Disable status

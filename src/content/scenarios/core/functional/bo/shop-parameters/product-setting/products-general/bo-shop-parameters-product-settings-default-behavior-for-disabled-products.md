@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Default behavior for disabled products"
-weight: 2
+weight: 5
 ---
 
 # BO - Shop Parameters - Product Settings - Default behavior for disabled products

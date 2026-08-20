@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Choose Shipping"
-weight: 12
+weight: 7
 ---
 
 # BO - Order creation - Choose Shipping

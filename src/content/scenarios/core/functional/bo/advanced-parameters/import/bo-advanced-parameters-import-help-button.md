@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Import - Help button"
-weight: 2
+weight: 8
 ---
 
 # BO - Advanced parameters - Import - Help button

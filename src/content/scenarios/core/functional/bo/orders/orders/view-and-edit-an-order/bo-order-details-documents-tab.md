@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Documents tab"
-weight: 3
+weight: 2
 ---
 
 # BO - Order details - Documents tab

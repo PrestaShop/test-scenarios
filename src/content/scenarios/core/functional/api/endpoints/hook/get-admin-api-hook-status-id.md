@@ -1,6 +1,6 @@
 ---
 title: "GET /admin-api/hook-status/{id}"
-weight: 2
+weight: 3
 ---
 
 # GET /admin-api/hook-status/{id}

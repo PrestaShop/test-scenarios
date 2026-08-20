@@ -1,6 +1,6 @@
 ---
 title: "ps_crossselling - Change number of product display in the crossselling bloc"
-weight: 2
+weight: 1
 ---
 
 # ps_crossselling - Change number of product display in the crossselling bloc

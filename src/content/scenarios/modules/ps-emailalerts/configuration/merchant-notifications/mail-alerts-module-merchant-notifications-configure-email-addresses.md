@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Merchant notifications - Configure email addresses"
-weight: 9
+weight: 1
 ---
 
 # Mail alerts module - Merchant notifications - Configure email addresses

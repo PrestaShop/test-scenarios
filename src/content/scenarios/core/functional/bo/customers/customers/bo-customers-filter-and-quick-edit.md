@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Filter and Quick Edit"
-weight: 9
+weight: 6
 ---
 
 # BO - Customers - Filter and Quick Edit

@@ -1,6 +1,6 @@
 ---
 title: "ps_featuredproducts - Upgrade"
-weight: 2
+weight: 1
 ---
 
 # ps_featuredproducts - Upgrade

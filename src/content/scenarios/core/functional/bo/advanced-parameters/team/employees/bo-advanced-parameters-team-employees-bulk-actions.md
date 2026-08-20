@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Team - Employees - Bulk Actions"
-weight: 5
+weight: 3
 ---
 
 # BO - Advanced parameters - Team - Employees - Bulk Actions

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Extra Properties - installation de l\'example module"
-weight: 1
+weight: 2
 ---
 
 # BO - Advanced Parameters - Extra Properties - installation de l\'example module

@@ -1,6 +1,6 @@
 ---
 title: "Select a bloc in the picture & Configure a module"
-weight: 6
+weight: 5
 ---
 
 # Select a bloc in the picture & Configure a module

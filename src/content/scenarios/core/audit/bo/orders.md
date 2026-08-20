@@ -1,6 +1,6 @@
 ---
 title: "Orders"
-weight: 10
+weight: 2
 ---
 
 # Orders

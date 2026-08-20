@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Set up URLs - Disable Apache\'s MultiViews option"
-weight: 1
+weight: 4
 ---
 
 # BO - Shop Parameters - SEO & URLs - Set up URLs - Disable Apache\'s MultiViews option

@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Uninstall and delete module"
-weight: 2
+weight: 7
 ---
 
 # Mail alerts module - Uninstall and delete module

@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Product Quickview - Close"
-weight: 2
+weight: 6
 ---
 
 # FO - Product Page - Product Quickview - Close

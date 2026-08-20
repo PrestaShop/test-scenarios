@@ -1,6 +1,6 @@
 ---
 title: "ps_googleanalytics - Uninstall and delete"
-weight: 1
+weight: 3
 ---
 
 # ps_googleanalytics - Uninstall and delete

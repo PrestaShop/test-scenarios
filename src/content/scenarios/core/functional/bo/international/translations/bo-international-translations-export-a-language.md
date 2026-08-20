@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Translations - Export a language"
-weight: 1
+weight: 2
 ---
 
 # BO - International - Translations - Export a language

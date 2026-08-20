@@ -1,6 +1,6 @@
 ---
 title: "BO- Orders - Filter orders table"
-weight: 11
+weight: 3
 ---
 
 # BO- Orders - Filter orders table

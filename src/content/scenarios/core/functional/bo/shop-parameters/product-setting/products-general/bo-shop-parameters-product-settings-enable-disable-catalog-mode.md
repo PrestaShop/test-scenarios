@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Enable, disable catalog mode"
-weight: 5
+weight: 2
 ---
 
 # BO - Shop Parameters - Product Settings - Enable, disable catalog mode

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Administration : Upload quota"
-weight: 3
+weight: 1
 ---
 
 # BO - Advanced Parameters - Administration : Upload quota

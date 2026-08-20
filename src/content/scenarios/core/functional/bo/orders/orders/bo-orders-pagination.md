@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Pagination"
-weight: 10
+weight: 1
 ---
 
 # BO - Orders - Pagination

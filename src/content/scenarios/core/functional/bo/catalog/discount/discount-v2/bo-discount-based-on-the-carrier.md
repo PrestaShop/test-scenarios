@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - based on the carrier"
-weight: 19
+weight: 7
 ---
 
 # BO - Discount - based on the carrier

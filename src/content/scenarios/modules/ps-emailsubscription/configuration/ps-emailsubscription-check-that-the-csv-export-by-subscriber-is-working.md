@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check that the CSV export by subscriber is working"
-weight: 10
+weight: 17
 ---
 
 # ps_emailsubscription - Check that the CSV export by subscriber is working

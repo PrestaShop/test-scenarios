@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Product Quickview - Change combination on popup"
-weight: 4
+weight: 5
 ---
 
 # FO - Product Page - Product Quickview - Change combination on popup

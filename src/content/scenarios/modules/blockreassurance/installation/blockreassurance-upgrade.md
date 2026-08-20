@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Upgrade"
-weight: 3
+weight: 1
 ---
 
 # blockreassurance - Upgrade

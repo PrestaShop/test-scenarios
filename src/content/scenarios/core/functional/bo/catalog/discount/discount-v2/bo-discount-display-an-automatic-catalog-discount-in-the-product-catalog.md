@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Display an automatic catalog discount in the product catalog"
-weight: 1
+weight: 15
 ---
 
 # BO - Discount - Display an automatic catalog discount in the product catalog

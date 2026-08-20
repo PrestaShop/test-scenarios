@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Invoices - Enable/Disable Product Image"
-weight: 3
+weight: 5
 ---
 
 # BO - Orders - Invoices - Enable/Disable Product Image

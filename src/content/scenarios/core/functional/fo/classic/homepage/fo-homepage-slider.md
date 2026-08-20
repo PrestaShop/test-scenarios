@@ -1,6 +1,6 @@
 ---
 title: "FO - Homepage - Slider"
-weight: 1
+weight: 2
 ---
 
 # FO - Homepage - Slider

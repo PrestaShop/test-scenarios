@@ -1,6 +1,6 @@
 ---
 title: "FO - Homepage - Select color on product list"
-weight: 4
+weight: 3
 ---
 
 # FO - Homepage - Select color on product list

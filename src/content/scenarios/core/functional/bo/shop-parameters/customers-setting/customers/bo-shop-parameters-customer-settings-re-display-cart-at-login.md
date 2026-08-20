@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Re-display cart at login"
-weight: 6
+weight: 2
 ---
 
 # BO - Shop Parameters - Customer Settings - Re-display cart at login

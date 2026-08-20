@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Page Configuration - Disable / Enable desktop and mobile"
-weight: 4
+weight: 2
 ---
 
 # BO - Design - Theme & Logo - Page Configuration - Disable / Enable desktop and mobile

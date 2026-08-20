@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Product page : Display discount"
-weight: 5
+weight: 7
 ---
 
 # FO - Product page - Product page : Display discount

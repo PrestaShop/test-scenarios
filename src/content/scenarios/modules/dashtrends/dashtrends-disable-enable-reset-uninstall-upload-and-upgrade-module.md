@@ -1,6 +1,6 @@
 ---
 title: "dashtrends - Disable, Enable, Reset, uninstall, upload and upgrade module"
-weight: 2
+weight: 1
 ---
 
 # dashtrends - Disable, Enable, Reset, uninstall, upload and upgrade module

@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings : Check category image format"
-weight: 1
+weight: 2
 ---
 
 # BO - Design - Image Settings : Check category image format
