@@ -8,6 +8,20 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>FO - Contact us - Send a message while logged in</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-send-a-message-while-logged-in.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-send-a-message-while-logged-in.html</guid>
+      <description>FO - Contact us - Send a message while logged in Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7903 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/05_contactUs/02_sendMessageWithCustomer.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/front-office/contact-us Steps Step Description Expected result Go to module manager &amp;gt; Contact form module &amp;gt; configuration page and Enable Receive customers&#39; messages by email Check success message Enable Send confirmation email to your customers Check success message Go to FO &amp;gt; Log into your customer account created from the pre-condition step You are logged into your customer account Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us * The contact form is displayed</description>
+    </item>
+    <item>
+      <title>FO - Contact us - Mailto</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-mailto.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-mailto.html</guid>
+      <description> FO - Contact us - Mailto Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7901 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/05_contactUs/01_checkMailtoLink.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/front-office/contact-us Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; In &amp;ldquo;Store information&amp;rdquo; section &amp;gt; Click on Email us email address Client email will open and you will be able to send an email with email address of shop </description>
+    </item>
+    <item>
       <title>FO - Contact us - Add attachment</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-add-attachment.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,20 +34,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-send-message-while-logged-out.html</guid>
       <description>FO - Contact us - Send message while logged out Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7902 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/05_contactUs/03_sendMessageAsAnonymous.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/front-office/contact-us Steps Step Description Expected result Go to module manager &amp;gt; Contact form module &amp;gt; configuration page and Enable Receive customers&#39; messages by email Check success message Enable Send confirmation email to your customers Check success message Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us Contact form is displayed Fill the form &amp;gt; Send Message &amp;ldquo;Invalid email address.</description>
-    </item>
-    <item>
-      <title>FO - Contact us - Mailto</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-mailto.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-mailto.html</guid>
-      <description> FO - Contact us - Mailto Details Component : Core Status : Automated Automated on : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7901 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/05_contactUs/01_checkMailtoLink.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/front-office/contact-us Steps Step Description Expected result Go to FO &amp;gt; Scroll down to footer &amp;gt; In &amp;ldquo;Store information&amp;rdquo; section &amp;gt; Click on Email us email address Client email will open and you will be able to send an email with email address of shop </description>
-    </item>
-    <item>
-      <title>FO - Contact us - Send a message while logged in</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-send-a-message-while-logged-in.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/core/functional/fo/classic/contact-us/fo-contact-us-send-a-message-while-logged-in.html</guid>
-      <description>FO - Contact us - Send a message while logged in Details Component : Core Status : Automated Automated on : 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7903 Test : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/classic/05_contactUs/02_sendMessageWithCustomer.ts Specification : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/front-office/contact-us Steps Step Description Expected result Go to module manager &amp;gt; Contact form module &amp;gt; configuration page and Enable Receive customers&#39; messages by email Check success message Enable Send confirmation email to your customers Check success message Go to FO &amp;gt; Log into your customer account created from the pre-condition step You are logged into your customer account Go to FO &amp;gt; In footer, click on Our Company &amp;gt; Contact us * The contact form is displayed</description>
     </item>
   </channel>
 </rss>

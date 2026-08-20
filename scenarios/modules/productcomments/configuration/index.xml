@@ -8,6 +8,27 @@
     <language>en-us</language>
     <atom:link href="https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>productcomments - Enable/disable comment validation by employee</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-comment-validation-by-employee.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-comment-validation-by-employee.html</guid>
+      <description> productcomments - Enable/disable comment validation by employee Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7366 Steps Step Description Expected result Click on the switch button to disable the validation of comment by employee The switch button should be red Go to the front office -&amp;gt; click on a product to open the page The product should appear with a button to write a comment Click on the button to write a comment a pop up should appear Write a comment and send it The message should be display without any request to the employee Go to the back office on the configuration module and Click on the switch button to enable the validation of comment by employee The switch button should be blue Go to the front office -&amp;gt; click on a product to open the page The product should appear with a button to write a comment Click on the button to write a comment a pop up should appear Write a comment and send it a message should appear to indicate that an employee will review the message </description>
+    </item>
+    <item>
+      <title>productcomments - Enable/disable anonymisation of the user&#39;s last name</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-anonymisation-of-the-user-s-last-name.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-anonymisation-of-the-user-s-last-name.html</guid>
+      <description>productcomments - Enable/disable anonymisation of the user&#39;s last name Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7367 Steps Step Description Expected result Click on the switch button to enable the anonymization of the last name user The switch button should be blue Go to the front office -&amp;gt; click on a product to open the page&#xA;the product should already have comment The product should appear.</description>
+    </item>
+    <item>
+      <title>productcomments - Delete an approved comment</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-delete-an-approved-comment.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-delete-an-approved-comment.html</guid>
+      <description> productcomments - Delete an approved comment Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7376 Steps Step Description Expected result In the tab Approved reviews click on delete the comment A popup should be displayed Validate the suppression of the comment Comment should be deleted Go to FO to the product with the comment deleted The comment shouldn&amp;rsquo;t be appear anymore </description>
+    </item>
+    <item>
       <title>productcomments - CRUD criteria</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-crud-criteria.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,6 +50,13 @@
       <description> productcomments - Setup number of comments by page Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7372 Steps Step Description Expected result Change the number of comment by page to 3 Change should be apply in BO In the front office, go to a product page with more than 3 comments See the pagination </description>
     </item>
     <item>
+      <title>productcomments - Enable/disable the authorization for guest user to comment</title>
+      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-the-authorization-for-guest-user-to-comment.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-the-authorization-for-guest-user-to-comment.html</guid>
+      <description> productcomments - Enable/disable the authorization for guest user to comment Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7368 Steps Step Description Expected result Click on the switch button to enable the authorization for guest user to comment The switch button should be green Click on Save An alert &amp;ldquo;Settings updated&amp;rdquo; is well displayed Go to the front office -&amp;gt; click on a product to open the page The button comment should be displayed Go to the back office on the configuration module and Click on the switch button to disable the authorization for guest user to comment The switch button should be disabled Click on Save An alert &amp;ldquo;Settings updated&amp;rdquo; is well displayed Go to the front office -&amp;gt; click on a product to open the page The button comment shouldn&amp;rsquo;t be displayed </description>
+    </item>
+    <item>
       <title>productcomments - Setup time between two comments</title>
       <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-setup-time-between-two-comments.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -41,34 +69,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-the-vote-on-a-comment.html</guid>
       <description> productcomments - Enable/disable the vote on a comment Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7370 Steps Step Description Expected result Click on the switch button to disable the vote on a comment The switch button should be disabled Click on Save An alert &amp;ldquo;Settings updated&amp;rdquo; is displayed Go to the front office -&amp;gt; click on a product to open the page The product should be displayed go to the comment section The icons thumb_up &amp;amp; thumb_down are not displayed Go to the back office on the configuration module and Click on the switch button to enable the vote on a comment The switch button should be green Go to the front office -&amp;gt; click on a product to open the page The product should be displayed go to the comment section The icon to vote should be displayed </description>
-    </item>
-    <item>
-      <title>productcomments - Enable/disable the authorization for guest user to comment</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-the-authorization-for-guest-user-to-comment.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-the-authorization-for-guest-user-to-comment.html</guid>
-      <description> productcomments - Enable/disable the authorization for guest user to comment Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7368 Steps Step Description Expected result Click on the switch button to enable the authorization for guest user to comment The switch button should be green Click on Save An alert &amp;ldquo;Settings updated&amp;rdquo; is well displayed Go to the front office -&amp;gt; click on a product to open the page The button comment should be displayed Go to the back office on the configuration module and Click on the switch button to disable the authorization for guest user to comment The switch button should be disabled Click on Save An alert &amp;ldquo;Settings updated&amp;rdquo; is well displayed Go to the front office -&amp;gt; click on a product to open the page The button comment shouldn&amp;rsquo;t be displayed </description>
-    </item>
-    <item>
-      <title>productcomments - Enable/disable anonymisation of the user&#39;s last name</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-anonymisation-of-the-user-s-last-name.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-anonymisation-of-the-user-s-last-name.html</guid>
-      <description>productcomments - Enable/disable anonymisation of the user&#39;s last name Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7367 Steps Step Description Expected result Click on the switch button to enable the anonymization of the last name user The switch button should be blue Go to the front office -&amp;gt; click on a product to open the page&#xA;the product should already have comment The product should appear.</description>
-    </item>
-    <item>
-      <title>productcomments - Enable/disable comment validation by employee</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-comment-validation-by-employee.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-enable-disable-comment-validation-by-employee.html</guid>
-      <description> productcomments - Enable/disable comment validation by employee Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7366 Steps Step Description Expected result Click on the switch button to disable the validation of comment by employee The switch button should be red Go to the front office -&amp;gt; click on a product to open the page The product should appear with a button to write a comment Click on the button to write a comment a pop up should appear Write a comment and send it The message should be display without any request to the employee Go to the back office on the configuration module and Click on the switch button to enable the validation of comment by employee The switch button should be blue Go to the front office -&amp;gt; click on a product to open the page The product should appear with a button to write a comment Click on the button to write a comment a pop up should appear Write a comment and send it a message should appear to indicate that an employee will review the message </description>
-    </item>
-    <item>
-      <title>productcomments - Delete an approved comment</title>
-      <link>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-delete-an-approved-comment.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://build.prestashop-project.org/test-scenarios/scenarios/modules/productcomments/configuration/productcomments-delete-an-approved-comment.html</guid>
-      <description> productcomments - Delete an approved comment Details Component : productcomments Status : [TEST] IN PROGRESS Scenario : https://prestashop-jira.atlassian.net/browse/TEST-7376 Steps Step Description Expected result In the tab Approved reviews click on delete the comment A popup should be displayed Validate the suppression of the comment Comment should be deleted Go to FO to the product with the comment deleted The comment shouldn&amp;rsquo;t be appear anymore </description>
     </item>
   </channel>
 </rss>
