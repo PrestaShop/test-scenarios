@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Product page : Display volume discount"
-weight: 5
+weight: 1
 ---
 
 # FO - Product page - Product page : Display volume discount

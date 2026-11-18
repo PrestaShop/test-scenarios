@@ -1,6 +1,6 @@
 ---
 title: "PUT /admin-api/modules/bulk-uninstall"
-weight: 7
+weight: 8
 ---
 
 # PUT /admin-api/modules/bulk-uninstall

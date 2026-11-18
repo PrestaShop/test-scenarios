@@ -1,12 +1,12 @@
 ---
 title: "Refresh list of currency"
-weight: 9
+weight: 16
 ---
 
 # Refresh list of currency
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8012
 
 ## Steps

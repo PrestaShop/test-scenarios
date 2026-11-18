@@ -1,6 +1,6 @@
 ---
 title: "ps_featuredproducts - Uninstall/Install"
-weight: 3
+weight: 2
 ---
 
 # ps_featuredproducts - Uninstall/Install

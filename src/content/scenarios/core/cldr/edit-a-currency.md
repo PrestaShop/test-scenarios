@@ -6,7 +6,7 @@ weight: 8
 # Edit a currency
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8016
 
 ## Steps

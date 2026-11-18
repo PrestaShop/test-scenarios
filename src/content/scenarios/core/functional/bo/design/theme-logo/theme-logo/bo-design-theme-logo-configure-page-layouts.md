@@ -5,7 +5,7 @@ weight: 1
 
 # BO - Design - Theme & Logo - Configure page layouts
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8891
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/improve/design/theme-and-logo/choose-layouts
 

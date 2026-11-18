@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Outstanding - Pagination"
-weight: 4
+weight: 3
 ---
 
 # BO - Customers - Outstanding - Pagination

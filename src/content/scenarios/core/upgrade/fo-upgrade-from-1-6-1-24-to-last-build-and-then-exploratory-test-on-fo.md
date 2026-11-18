@@ -1,12 +1,12 @@
 ---
 title: "[FO] Upgrade from 1.6.1.24 to last build and then exploratory test on FO"
-weight: 10
+weight: 1
 ---
 
 # [FO] Upgrade from 1.6.1.24 to last build and then exploratory test on FO
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8017
 
 ## Steps

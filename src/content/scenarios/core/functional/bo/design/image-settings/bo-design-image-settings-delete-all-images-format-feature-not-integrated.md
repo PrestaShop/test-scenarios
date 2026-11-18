@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Delete all images format -  feature not integrated -"
-weight: 14
+weight: 9
 ---
 
 # BO - Design - Image Settings - Delete all images format -  feature not integrated -

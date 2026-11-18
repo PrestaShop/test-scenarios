@@ -1,6 +1,6 @@
 ---
 title: "Category products module - BO header buttons"
-weight: 1
+weight: 3
 ---
 
 # Category products module - BO header buttons

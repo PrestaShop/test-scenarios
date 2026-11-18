@@ -1,10 +1,10 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Enable stock management"
-weight: 8
+weight: 4
 ---
 
 # BO - Shop Parameters - Product Settings - Enable stock management
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8508
 

@@ -1,10 +1,10 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Category used in breadcrumbs"
-weight: 3
+weight: 6
 ---
 
 # BO - Shop Parameters - Product Settings - Category used in breadcrumbs
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8391
 

@@ -1,6 +1,6 @@
 ---
 title: "Shipping"
-weight: 13
+weight: 3
 ---
 
 # Shipping

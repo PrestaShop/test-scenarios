@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Create simple order"
-weight: 1
+weight: 12
 ---
 
 # BO - Order creation - Create simple order

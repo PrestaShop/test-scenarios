@@ -1,12 +1,12 @@
 ---
 title: "Reset the search"
-weight: 10
+weight: 7
 ---
 
 # Reset the search
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8013
 
 ## Steps

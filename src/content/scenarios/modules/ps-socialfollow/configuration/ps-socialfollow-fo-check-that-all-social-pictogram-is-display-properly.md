@@ -1,6 +1,6 @@
 ---
 title: "ps_socialfollow - FO - Check that all social pictogram is display properly"
-weight: 1
+weight: 3
 ---
 
 # ps_socialfollow - FO - Check that all social pictogram is display properly

@@ -1,12 +1,12 @@
 ---
 title: "Create an order with a cart rule using % + Gift + free shipping"
-weight: 5
+weight: 2
 ---
 
 # Create an order with a cart rule using % + Gift + free shipping
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7996
 
 ## Steps

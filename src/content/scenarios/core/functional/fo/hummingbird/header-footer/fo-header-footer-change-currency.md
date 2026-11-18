@@ -1,6 +1,6 @@
 ---
 title: "FO - Header & Footer - Change currency"
-weight: 2
+weight: 3
 ---
 
 # FO - Header & Footer - Change currency

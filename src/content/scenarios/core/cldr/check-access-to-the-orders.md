@@ -1,12 +1,12 @@
 ---
 title: "Check access to the orders"
-weight: 7
+weight: 13
 ---
 
 # Check access to the orders
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8010
 
 ## Steps

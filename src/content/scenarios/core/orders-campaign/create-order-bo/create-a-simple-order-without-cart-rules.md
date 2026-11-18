@@ -1,12 +1,12 @@
 ---
 title: "Create a simple order without cart rules"
-weight: 6
+weight: 1
 ---
 
 # Create a simple order without cart rules
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7986
 
 ## Steps

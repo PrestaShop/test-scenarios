@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Shopping carts - Delete abandoned carts"
-weight: 1
+weight: 6
 ---
 
 # BO - Orders - Shopping carts - Delete abandoned carts
@@ -12,9 +12,3 @@ weight: 1
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/02_orders/05_shoppingCarts/05_deleteAbandonedCarts.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/orders/shopping-cart
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Go to FO > Create Shopping cart | Go to BO > See new shopping carts displayed |
-| Bulk action :<br><br>Select multiple "Non-ordered" carts > Click "Bulk actions" > Click "Delete selected" | Message "The selection has been successfully deleted." appears<br><br>Multiple Non-ordered carts are deleted |
-| Reset all filters | Number of shopping carts = Total of shopping carts |

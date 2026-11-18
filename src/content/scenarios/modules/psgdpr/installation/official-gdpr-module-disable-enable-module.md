@@ -1,12 +1,12 @@
 ---
 title: "Official GDPR module - Disable/Enable module"
-weight: 1
+weight: 4
 ---
 
 # Official GDPR module - Disable/Enable module
 ## Details
 * **Component** : psgdpr
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8186
 
 ## Steps

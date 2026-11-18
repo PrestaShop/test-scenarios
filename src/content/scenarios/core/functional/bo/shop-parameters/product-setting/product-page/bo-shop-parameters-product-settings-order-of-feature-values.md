@@ -1,10 +1,10 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Order of feature values"
-weight: 4
+weight: 6
 ---
 
 # BO - Shop Parameters - Product Settings - Order of feature values
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8507
 

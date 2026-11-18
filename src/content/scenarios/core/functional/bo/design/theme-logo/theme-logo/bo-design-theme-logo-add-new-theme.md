@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Add new theme"
-weight: 5
+weight: 6
 ---
 
 # BO - Design - Theme & Logo - Add new theme

@@ -1,12 +1,12 @@
 ---
 title: "Create order with catalog cart rule on a product or a category"
-weight: 6
+weight: 3
 ---
 
 # Create order with catalog cart rule on a product or a category
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7999
 
 ## Steps

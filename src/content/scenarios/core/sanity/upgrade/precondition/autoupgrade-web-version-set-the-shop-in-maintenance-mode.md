@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Set the shop in maintenance mode"
-weight: 5
+weight: 1
 ---
 
 # Autoupgrade - Web Version - Set the shop in maintenance mode

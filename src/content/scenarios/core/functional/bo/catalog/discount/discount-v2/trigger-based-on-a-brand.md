@@ -1,10 +1,10 @@
 ---
 title: "Trigger based on a brand"
-weight: 1
+weight: 12
 ---
 
 # Trigger based on a brand
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8498
 

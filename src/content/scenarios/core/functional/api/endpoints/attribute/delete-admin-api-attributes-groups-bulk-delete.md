@@ -1,6 +1,6 @@
 ---
 title: "DELETE /admin-api/attributes/groups/bulk-delete"
-weight: 8
+weight: 3
 ---
 
 # DELETE /admin-api/attributes/groups/bulk-delete

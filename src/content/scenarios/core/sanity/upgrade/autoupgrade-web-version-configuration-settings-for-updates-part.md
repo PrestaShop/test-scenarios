@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Configuration settings for updates part "
-weight: 14
+weight: 7
 ---
 
 # Autoupgrade - Web Version - Configuration settings for updates part 

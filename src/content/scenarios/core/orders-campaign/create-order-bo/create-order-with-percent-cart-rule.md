@@ -1,12 +1,12 @@
 ---
 title: "Create order with percent cart rule"
-weight: 3
+weight: 5
 ---
 
 # Create order with percent cart rule
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7991
 
 ## Steps

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Search - Tags - CRUD"
-weight: 1
+weight: 4
 ---
 
 # BO - Shop Parameters - Search - Tags - CRUD
@@ -19,6 +19,6 @@ weight: 1
 | Click on "Add new Tag" | Add new  tag page will display |
 | fill the blanks of the Name , Language > double click on a product / or choose a product a click on add<br><br> <br><br>Click on Save | Tags  page is well displayed<br><br>Successful message is displayed .<br><br>the tags  table  +1 : ( with ID (1) , LANGUAGE(anglais)  , NAME (Test_tag)  ,  Products (1)   ) |
 | click on the   Edit button | the edit page will dislay |
-| change some data >Save | Tags  page is well displayed<br><br>Successful update message is displayed .<br><br>the tags  table  +1 : ( with ID (1) , LANGUAGE(francais)  , NAME (tag_1)  ,  Products (2)   ) |
+| change some data >Save | Tags  page is well displayed<br><br>Successful update message is displayed .<br><br>the tags table +1 ( with ID (1), LANGUAGE (francais), NAME (tag_1), Products (1) ) |
 | Click on the dropdown -toggle > Delete | Confirmation modale displayed: <br><br>Delete selected item?<br><br>Name: tag_1 |
 | Click on Yes | succesful message is displayed "Successful deletion"<br><br>the tags  table =0 |

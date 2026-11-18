@@ -1,11 +1,11 @@
 ---
 title: "FO - Search Page : Consult product quick view"
-weight: 1
+weight: 2
 ---
 
 # FO - Search Page : Consult product quick view
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8232
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/07_search/06_consultProductQuickView.ts
 

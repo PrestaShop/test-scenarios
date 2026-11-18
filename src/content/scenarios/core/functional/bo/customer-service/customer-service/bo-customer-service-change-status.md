@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Change status"
-weight: 5
+weight: 3
 ---
 
 # BO - Customer Service - Change status

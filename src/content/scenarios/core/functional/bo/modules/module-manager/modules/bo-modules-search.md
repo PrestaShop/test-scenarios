@@ -1,11 +1,11 @@
 ---
 title: "BO - Modules - Search"
-weight: 3
+weight: 8
 ---
 
 # BO - Modules - Search
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Automated on** : 1.7.7.x, 1.7.8.x, 8.0.x, 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7632
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/07_modules/01_moduleManager/01_modules/03_searchModule.ts

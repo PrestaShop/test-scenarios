@@ -1,10 +1,10 @@
 ---
 title: " BO - Advanced parameters - Import - Skip thumbnails regeneration"
-weight: 9
+weight: 11
 ---
 
 #  BO - Advanced parameters - Import - Skip thumbnails regeneration
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8524
 

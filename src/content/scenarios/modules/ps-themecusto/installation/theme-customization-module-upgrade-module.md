@@ -1,6 +1,6 @@
 ---
 title: "Theme Customization module - Upgrade module"
-weight: 3
+weight: 1
 ---
 
 # Theme Customization module - Upgrade module

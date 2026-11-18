@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Team - Employees - Sort pagination"
-weight: 4
+weight: 3
 ---
 
 # BO - Advanced parameters - Team - Employees - Sort pagination

@@ -1,10 +1,10 @@
 ---
 title: "BO - Dashboard - Forecast"
-weight: 3
+weight: 2
 ---
 
 # BO - Dashboard - Forecast
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8383
 

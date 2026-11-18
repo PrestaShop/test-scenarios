@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Actions - Exclude discounted products"
-weight: 5
+weight: 2
 ---
 
 # BO - Cart rules - Actions - Exclude discounted products

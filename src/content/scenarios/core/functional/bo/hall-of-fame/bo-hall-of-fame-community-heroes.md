@@ -1,6 +1,6 @@
 ---
 title: "BO - Hall of Fame - Community Heroes"
-weight: 5
+weight: 2
 ---
 
 # BO - Hall of Fame - Community Heroes

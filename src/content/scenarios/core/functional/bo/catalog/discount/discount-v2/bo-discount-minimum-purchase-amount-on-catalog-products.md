@@ -1,11 +1,11 @@
 ---
 title: "BO - Discount - Minimum purchase amount (On catalog products)"
-weight: 3
+weight: 6
 ---
 
 # BO - Discount - Minimum purchase amount (On catalog products)
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8485
 
 ## Steps

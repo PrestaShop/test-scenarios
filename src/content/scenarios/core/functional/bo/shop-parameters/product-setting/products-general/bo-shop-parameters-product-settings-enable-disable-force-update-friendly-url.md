@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Enable, disable, force update friendly url"
-weight: 8
+weight: 1
 ---
 
 # BO - Shop Parameters - Product Settings - Enable, disable, force update friendly url

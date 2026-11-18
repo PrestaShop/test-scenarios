@@ -1,12 +1,12 @@
 ---
 title: "Add a currency pre-saved"
-weight: 6
+weight: 12
 ---
 
 # Add a currency pre-saved
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8000
 
 ## Steps

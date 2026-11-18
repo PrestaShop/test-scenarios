@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Brands - Filter Brand Addresses"
-weight: 7
+weight: 5
 ---
 
 # BO - Catalog - Brands - Filter Brand Addresses

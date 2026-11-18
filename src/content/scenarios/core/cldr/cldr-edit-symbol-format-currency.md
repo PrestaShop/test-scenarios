@@ -1,6 +1,6 @@
 ---
 title: "CLDR : Edit symbol / format currency"
-weight: 1
+weight: 14
 ---
 
 # CLDR : Edit symbol / format currency

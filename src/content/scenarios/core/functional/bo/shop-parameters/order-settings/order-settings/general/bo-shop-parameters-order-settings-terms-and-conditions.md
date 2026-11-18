@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Terms and conditions"
-weight: 1
+weight: 7
 ---
 
 # BO - Shop Parameters - Order Settings - Terms and conditions

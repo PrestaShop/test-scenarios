@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Set up URLs - Enable, disable accented URL"
-weight: 1
+weight: 5
 ---
 
 # BO - Shop Parameters - SEO & URLs - Set up URLs - Enable, disable accented URL

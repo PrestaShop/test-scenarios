@@ -1,12 +1,12 @@
 ---
 title: "Autoupgrade - Web Version - the new UI part "
-weight: 10
+weight: 6
 ---
 
 # Autoupgrade - Web Version - the new UI part 
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5619
 
 ## Steps

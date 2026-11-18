@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - based on the category"
-weight: 21
+weight: 13
 ---
 
 # BO - Discount - based on the category
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8496
 

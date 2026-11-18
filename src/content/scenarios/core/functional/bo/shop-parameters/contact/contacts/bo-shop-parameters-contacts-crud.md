@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Contacts - CRUD"
-weight: 4
+weight: 3
 ---
 
 # BO - Shop Parameters - Contacts - CRUD

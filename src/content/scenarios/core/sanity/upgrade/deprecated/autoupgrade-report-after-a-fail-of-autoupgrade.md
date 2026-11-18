@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Report after a fail of autoupgrade"
-weight: 8
+weight: 5
 ---
 
 # Autoupgrade - Report after a fail of autoupgrade

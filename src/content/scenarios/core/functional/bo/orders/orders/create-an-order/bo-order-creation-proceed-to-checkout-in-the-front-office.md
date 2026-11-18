@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Proceed to checkout in the front office"
-weight: 6
+weight: 7
 ---
 
 # BO - Order creation - Proceed to checkout in the front office

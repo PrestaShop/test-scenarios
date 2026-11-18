@@ -1,12 +1,12 @@
 ---
 title: "Add a custom currency"
-weight: 2
+weight: 3
 ---
 
 # Add a custom currency
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8002
 
 ## Steps

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General - Enable / Disable Brands"
-weight: 8
+weight: 6
 ---
 
 # BO - Shop Parameters - General - Enable / Disable Brands

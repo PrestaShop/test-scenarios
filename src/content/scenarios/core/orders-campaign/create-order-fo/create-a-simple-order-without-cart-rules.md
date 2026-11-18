@@ -6,7 +6,7 @@ weight: 4
 # Create a simple order without cart rules
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7993
 
 ## Steps

@@ -1,11 +1,11 @@
 ---
 title: "FO - User Account - Order History - Order details : Reorder from order detail"
-weight: 4
+weight: 2
 ---
 
 # FO - User Account - Order History - Order details : Reorder from order detail
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8355
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/FO/hummingbird/03_userAccount/02_orderHistory/01_orderDetails/01_reorderFromOrderDetails.ts
 

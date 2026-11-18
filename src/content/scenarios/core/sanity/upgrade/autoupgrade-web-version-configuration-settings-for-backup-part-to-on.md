@@ -1,12 +1,12 @@
 ---
 title: "Autoupgrade - Web Version - Configuration settings for backup part  to On"
-weight: 4
+weight: 6
 ---
 
 # Autoupgrade - Web Version - Configuration settings for backup part  to On
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5651
 
 ## Steps

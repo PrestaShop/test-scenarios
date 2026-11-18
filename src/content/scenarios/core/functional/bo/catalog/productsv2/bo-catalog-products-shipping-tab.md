@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products : Shipping tab"
-weight: 4
+weight: 20
 ---
 
 # BO - Catalog - Products : Shipping tab

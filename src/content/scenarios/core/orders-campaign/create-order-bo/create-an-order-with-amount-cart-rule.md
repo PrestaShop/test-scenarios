@@ -1,12 +1,12 @@
 ---
 title: "Create an order with amount cart rule"
-weight: 5
+weight: 3
 ---
 
 # Create an order with amount cart rule
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7990
 
 ## Steps

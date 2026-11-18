@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Display unavailable product attributes on the product page"
-weight: 7
+weight: 3
 ---
 
 # BO - Shop Parameters - Product Settings - Display unavailable product attributes on the product page

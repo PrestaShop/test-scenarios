@@ -1,12 +1,12 @@
 ---
 title: "Autoupgrade - Verify the experimented featured"
-weight: 6
+weight: 1
 ---
 
 # Autoupgrade - Verify the experimented featured
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5494
 
 ## Steps

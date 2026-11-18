@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Security - Employee sessions - Bulk action and Pagination"
-weight: 4
+weight: 5
 ---
 
 # BO - Advanced parameters - Security - Employee sessions - Bulk action and Pagination
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8529
 

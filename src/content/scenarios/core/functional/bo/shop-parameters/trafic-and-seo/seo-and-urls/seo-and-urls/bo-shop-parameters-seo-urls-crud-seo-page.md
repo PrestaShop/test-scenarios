@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - CRUD SEO page"
-weight: 1
+weight: 4
 ---
 
 # BO - Shop Parameters - SEO & URLs - CRUD SEO page

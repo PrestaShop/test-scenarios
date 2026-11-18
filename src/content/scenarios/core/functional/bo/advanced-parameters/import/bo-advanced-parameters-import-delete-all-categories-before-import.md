@@ -1,10 +1,10 @@
 ---
 title: " BO - Advanced parameters - Import - Delete all categories before import"
-weight: 3
+weight: 2
 ---
 
 #  BO - Advanced parameters - Import - Delete all categories before import
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8521
 

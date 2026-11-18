@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Pages - Categories Bulk Actions"
-weight: 2
+weight: 1
 ---
 
 # BO - Design - Pages - Categories Bulk Actions

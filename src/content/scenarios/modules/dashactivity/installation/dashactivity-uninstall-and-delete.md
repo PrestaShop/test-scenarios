@@ -1,6 +1,6 @@
 ---
 title: "dashactivity - Uninstall and delete"
-weight: 5
+weight: 2
 ---
 
 # dashactivity - Uninstall and delete

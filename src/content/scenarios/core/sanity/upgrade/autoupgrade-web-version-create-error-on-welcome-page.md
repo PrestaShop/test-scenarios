@@ -1,11 +1,11 @@
 ---
 title: "Autoupgrade - Web Version - Create error on Welcome Page"
-weight: 13
+weight: 19
 ---
 
 # Autoupgrade - Web Version - Create error on Welcome Page
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8892
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts
 

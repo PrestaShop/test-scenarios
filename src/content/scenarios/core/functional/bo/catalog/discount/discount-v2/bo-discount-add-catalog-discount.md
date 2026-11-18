@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - Add catalog discount"
-weight: 9
+weight: 17
 ---
 
 # BO - Discount - Add catalog discount
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8461
 

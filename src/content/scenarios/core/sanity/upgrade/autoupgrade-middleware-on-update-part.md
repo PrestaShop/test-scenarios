@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Middleware on update Part"
-weight: 23
+weight: 16
 ---
 
 # Autoupgrade - Middleware on update Part

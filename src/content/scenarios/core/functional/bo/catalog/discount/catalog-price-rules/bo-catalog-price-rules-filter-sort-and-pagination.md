@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog Price Rules - Filter, sort and pagination"
-weight: 9
+weight: 6
 ---
 
 # BO - Catalog Price Rules - Filter, sort and pagination

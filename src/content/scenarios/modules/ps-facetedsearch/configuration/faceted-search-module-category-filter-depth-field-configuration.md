@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Category filter depth field configuration"
-weight: 15
+weight: 7
 ---
 
 # Faceted search module - Category filter depth field configuration

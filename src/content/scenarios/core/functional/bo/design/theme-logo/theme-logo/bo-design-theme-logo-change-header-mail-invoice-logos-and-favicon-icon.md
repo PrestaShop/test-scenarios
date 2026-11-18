@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Change Header / Mail / Invoice logos and Favicon icon"
-weight: 6
+weight: 2
 ---
 
 # BO - Design - Theme & Logo - Change Header / Mail / Invoice logos and Favicon icon

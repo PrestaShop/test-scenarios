@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Search for customers"
-weight: 3
+weight: 5
 ---
 
 # BO - Order creation - Search for customers

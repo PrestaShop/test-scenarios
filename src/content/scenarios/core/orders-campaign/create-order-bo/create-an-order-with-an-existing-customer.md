@@ -1,12 +1,12 @@
 ---
 title: "Create an order with an existing customer"
-weight: 1
+weight: 6
 ---
 
 # Create an order with an existing customer
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7989
 
 ## Steps

@@ -1,10 +1,10 @@
 ---
 title: " BO - Advanced parameters - Import - Field separator"
-weight: 5
+weight: 3
 ---
 
 #  BO - Advanced parameters - Import - Field separator
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8520
 

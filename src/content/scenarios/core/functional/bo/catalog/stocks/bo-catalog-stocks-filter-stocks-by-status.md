@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks - Filter Stocks by Status"
-weight: 4
+weight: 3
 ---
 
 # BO - Catalog - Stocks - Filter Stocks by Status
@@ -12,12 +12,3 @@ weight: 4
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/08_stocks/05_filterStocksByStatus.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/sell/catalog/stocks/stock-management
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-| Go to Catalog> products and disable the status of the first product in the product list | The product is disabled. |
-| Go to BO> Catalog> Stock | page title contains 'Stock' is displayed |
-| Click on the collapse button titled *Advanced filters* | The filters are displayed |
-| Filter by status = disabled | The disabled products are displayed |
-| Filter by status = Enabled | The enabled products are displayed. |
-| Filter by status = All | All products are displayed |

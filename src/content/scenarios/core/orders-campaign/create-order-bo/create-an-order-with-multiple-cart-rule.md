@@ -6,7 +6,7 @@ weight: 7
 # Create an order with multiple cart rule
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7987
 
 ## Steps

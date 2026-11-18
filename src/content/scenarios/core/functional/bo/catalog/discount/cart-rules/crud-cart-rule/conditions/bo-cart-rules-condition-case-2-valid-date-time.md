@@ -1,11 +1,11 @@
 ---
 title: "BO - Cart rules - Condition : Case 2 - Valid Date Time"
-weight: 1
+weight: 11
 ---
 
 # BO - Cart rules - Condition : Case 2 - Valid Date Time
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Automated on** : 8.1.x, 9.0.x, 9.1.x, 9.2.x, 9.3.x
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8059
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/03_catalog/07_discounts/01_cartRules/01_CRUDCartRule/02_conditions/02_validDateTime.ts

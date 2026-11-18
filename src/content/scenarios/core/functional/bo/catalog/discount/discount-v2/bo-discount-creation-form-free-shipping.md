@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - Creation Form (Free Shipping)"
-weight: 6
+weight: 23
 ---
 
 # BO - Discount - Creation Form (Free Shipping)
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8500
 

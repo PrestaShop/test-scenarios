@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Performance - Help button"
-weight: 9
+weight: 4
 ---
 
 # BO - Advanced Parameters - Performance - Help button

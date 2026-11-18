@@ -1,6 +1,6 @@
 ---
 title: "FO - Download invoice from order details"
-weight: 4
+weight: 2
 ---
 
 # FO - Download invoice from order details

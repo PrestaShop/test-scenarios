@@ -1,6 +1,6 @@
 ---
 title: "Official GDPR module - Reset module"
-weight: 3
+weight: 2
 ---
 
 # Official GDPR module - Reset module

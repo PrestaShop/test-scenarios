@@ -5,7 +5,7 @@ weight: 1
 
 # blockreassurance - Change the position of the bloc in products pages
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7340
 
 ## Steps

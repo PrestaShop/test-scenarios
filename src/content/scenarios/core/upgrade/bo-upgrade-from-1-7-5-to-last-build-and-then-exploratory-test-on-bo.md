@@ -1,12 +1,12 @@
 ---
 title: "[BO] Upgrade from 1.7.5 to last build and then exploratory test on BO"
-weight: 8
+weight: 11
 ---
 
 # [BO] Upgrade from 1.7.5 to last build and then exploratory test on BO
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8022
 
 ## Steps

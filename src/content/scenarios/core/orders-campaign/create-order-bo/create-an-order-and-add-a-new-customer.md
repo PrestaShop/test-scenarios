@@ -6,7 +6,7 @@ weight: 4
 # Create an order and add a new customer
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7994
 
 ## Steps

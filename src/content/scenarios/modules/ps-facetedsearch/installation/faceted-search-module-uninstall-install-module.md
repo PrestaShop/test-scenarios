@@ -5,7 +5,7 @@ weight: 2
 
 # Faceted search module - Uninstall/Install module
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Automated on** : 9.0.x, 9.1.x, 9.2.x, 9.3.x
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8076
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/modules/22_ps_facetedsearch/01_installation/02_uninstallAndInstallModule.ts

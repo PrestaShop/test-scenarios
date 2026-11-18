@@ -1,10 +1,10 @@
 ---
 title: "BO - Discount - Add product level discount"
-weight: 12
+weight: 10
 ---
 
 # BO - Discount - Add product level discount
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8493
 

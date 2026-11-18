@@ -1,10 +1,10 @@
 ---
 title: " BO - Advanced parameters - Import - Force all ID numbers"
-weight: 1
+weight: 10
 ---
 
 #  BO - Advanced parameters - Import - Force all ID numbers
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8523
 

@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced Parameter - Admin API - Force security in debug mode Enable/Disable"
-weight: 3
+weight: 4
 ---
 
 # BO - Advanced Parameter - Admin API - Force security in debug mode Enable/Disable
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8543
 

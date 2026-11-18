@@ -1,12 +1,12 @@
 ---
 title: "BO - Advanced Parameters - Extra Properties - Creation d\'un string sur product"
-weight: 1
+weight: 2
 ---
 
 # BO - Advanced Parameters - Extra Properties - Creation d\'un string sur product
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8571
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/tests/UI/campaigns/functional/BO/14_advancedParameters/10_multistore/03_CRUDShops.ts
 * **Specification** : https://docs.prestashop-project.org/functional-documentation/functional-documentation/ux-ui/back-office/configure/advanced-parameters/logs/advanced-parameters/multistore

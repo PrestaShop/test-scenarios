@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Uninstall"
-weight: 10
+weight: 6
 ---
 
 # BO - Modules - Uninstall

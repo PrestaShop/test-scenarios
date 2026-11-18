@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - BO header buttons"
-weight: 14
+weight: 20
 ---
 
 # Faceted search module - BO header buttons

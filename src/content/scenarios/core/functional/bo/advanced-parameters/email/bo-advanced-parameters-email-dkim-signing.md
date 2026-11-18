@@ -1,10 +1,10 @@
 ---
 title: "BO - Advanced parameters - Email - DKIM signing"
-weight: 1
+weight: 2
 ---
 
 # BO - Advanced parameters - Email - DKIM signing
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8541
 

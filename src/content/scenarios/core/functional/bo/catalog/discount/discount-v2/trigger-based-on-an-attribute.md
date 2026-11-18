@@ -1,10 +1,10 @@
 ---
 title: "Trigger based on an attribute"
-weight: 2
+weight: 5
 ---
 
 # Trigger based on an attribute
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8499
 

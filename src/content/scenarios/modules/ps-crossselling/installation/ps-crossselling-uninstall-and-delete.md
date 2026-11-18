@@ -1,6 +1,6 @@
 ---
 title: "ps_crossselling - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # ps_crossselling - Uninstall and delete

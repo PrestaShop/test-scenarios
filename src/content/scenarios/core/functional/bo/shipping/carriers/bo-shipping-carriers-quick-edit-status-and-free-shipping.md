@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Carriers - Quick Edit status and free shipping"
-weight: 2
+weight: 5
 ---
 
 # BO - Shipping - Carriers - Quick Edit status and free shipping

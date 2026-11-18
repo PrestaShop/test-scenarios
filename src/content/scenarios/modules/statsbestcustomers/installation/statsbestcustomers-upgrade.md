@@ -1,6 +1,6 @@
 ---
 title: "statsbestcustomers - Upgrade"
-weight: 3
+weight: 2
 ---
 
 # statsbestcustomers - Upgrade

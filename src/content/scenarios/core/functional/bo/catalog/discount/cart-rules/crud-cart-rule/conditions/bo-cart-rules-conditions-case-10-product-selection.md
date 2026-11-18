@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Conditions - Case 10 - Product selection"
-weight: 5
+weight: 7
 ---
 
 # BO - Cart rules - Conditions - Case 10 - Product selection

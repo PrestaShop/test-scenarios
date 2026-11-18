@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - GDPR - Autoupgrade"
-weight: 5
+weight: 2
 ---
 
 # BO - Modules - GDPR - Autoupgrade

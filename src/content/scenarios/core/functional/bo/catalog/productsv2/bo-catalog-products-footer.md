@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products : Footer"
-weight: 1
+weight: 14
 ---
 
 # BO - Catalog - Products : Footer

@@ -1,11 +1,11 @@
 ---
 title: "Autoupgrade - Web Version - Create error on update"
-weight: 10
+weight: 14
 ---
 
 # Autoupgrade - Web Version - Create error on update
 ## Details
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-8894
 * **Test** : https://github.com/PrestaShop/PrestaShop/tree/develop/https://forge.prestashop.com/browse/SUE-282.ts
 

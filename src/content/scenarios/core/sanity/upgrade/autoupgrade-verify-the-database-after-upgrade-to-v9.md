@@ -1,12 +1,12 @@
 ---
 title: "Autoupgrade - Verify the database after upgrade to V9"
-weight: 7
+weight: 4
 ---
 
 # Autoupgrade - Verify the database after upgrade to V9
 ## Details
 * **Component** : Core
-* **Status** : À faire
+* **Status** : To Do
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-5498
 
 ## Steps
