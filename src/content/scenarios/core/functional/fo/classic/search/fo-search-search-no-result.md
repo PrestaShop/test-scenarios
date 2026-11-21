@@ -1,6 +1,6 @@
 ---
 title: "FO - Search - Search no result"
-weight: 6
+weight: 1
 ---
 
 # FO - Search - Search no result

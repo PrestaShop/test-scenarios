@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Bulk actions"
-weight: 10
+weight: 6
 ---
 
 # BO - Modules - Bulk actions

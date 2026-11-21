@@ -51,7 +51,12 @@ disableToc: true
 | Core > Functional > BO > Orders > Delivery Slips | 1 | - | - | - | - | - | - | 1 | - | 
 | Core > Functional > BO > Orders > Delivery Slips > Delivery Slips Options | 3 | - | - | - | - | - | - | 3 | - | 
 | Core > Functional > BO > Orders > Shopping carts | 7 | - | - | - | - | 1 | - | 5 | 1 | 
+| Core > Functional > BO > Catalog > ProductsV1 | 6 | - | - | - | - | - | - | - | 6 | 
+| Core > Functional > BO > Catalog > Categories | 8 | - | - | - | - | 4 | - | 4 | - | 
+| Core > Functional > BO > Catalog > Monitoring | 4 | - | - | - | - | - | - | 3 | - | 
+| Core > Functional > BO > Catalog > Files | 3 | - | - | - | - | - | - | 3 | - | 
 | Core > Functional > BO > Catalog > Stocks | 8 | - | - | - | - | 2 | - | 6 | - | 
+| Core > Functional > BO > Catalog > Stocks > Movements | 2 | - | - | - | - | - | - | 2 | - | 
 | Core > Functional > BO > Catalog > ProductsV2 | 22 | - | - | - | - | 1 | - | 21 | - | 
 | Core > Functional > BO > Catalog > Attributes And Features > Attributes | 7 | - | - | - | - | 3 | - | 4 | - | 
 | Core > Functional > BO > Catalog > Attributes And Features > Features | 8 | - | - | - | - | 1 | - | 7 | - | 
@@ -198,5 +203,5 @@ disableToc: true
 | Core > Audit > BO | 14 | - | - | - | - | - | - | 14 | - | 
 | Core > Audit > FO > classic | 3 | - | - | - | - | - | - | 3 | - | 
 | Core > Audit > FO > hummingbird | 3 | - | - | - | - | - | - | 3 | - | 
-| **Total** | **994** | **0** | **0** | **9** | **1** | **69** | **19** | **678** | **24** | 
-| **Total** |  | **0%** | **0%** | **0.91%** | **0.10%** | **6.94%** | **1.91%** | **68.21%** | **0%** | 
+| **Total** | **1017** | **0** | **0** | **9** | **1** | **73** | **19** | **690** | **30** | 
+| **Total** |  | **0%** | **0%** | **0.88%** | **0.10%** | **7.18%** | **1.87%** | **67.85%** | **0%** | 

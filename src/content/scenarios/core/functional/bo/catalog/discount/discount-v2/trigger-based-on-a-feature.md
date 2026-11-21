@@ -1,6 +1,6 @@
 ---
 title: "Trigger based on a feature"
-weight: 19
+weight: 5
 ---
 
 # Trigger based on a feature

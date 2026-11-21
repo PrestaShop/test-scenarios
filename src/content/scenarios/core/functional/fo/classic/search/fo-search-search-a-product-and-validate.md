@@ -1,6 +1,6 @@
 ---
 title: "FO - Search - Search a product and validate"
-weight: 1
+weight: 4
 ---
 
 # FO - Search - Search a product and validate

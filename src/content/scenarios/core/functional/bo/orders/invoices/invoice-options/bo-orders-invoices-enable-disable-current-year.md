@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Invoices - Enable/Disable Current Year"
-weight: 3
+weight: 1
 ---
 
 # BO - Orders - Invoices - Enable/Disable Current Year

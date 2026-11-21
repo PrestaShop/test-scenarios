@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Enable / disable reordering option"
-weight: 6
+weight: 2
 ---
 
 # BO - Shop Parameters - Order Settings - Enable / disable reordering option

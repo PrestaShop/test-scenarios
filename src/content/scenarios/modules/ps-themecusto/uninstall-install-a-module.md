@@ -1,6 +1,6 @@
 ---
 title: "Uninstall/Install a module"
-weight: 7
+weight: 4
 ---
 
 # Uninstall/Install a module

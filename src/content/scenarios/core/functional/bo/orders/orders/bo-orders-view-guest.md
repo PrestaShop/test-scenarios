@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - View Guest"
-weight: 2
+weight: 1
 ---
 
 # BO - Orders - View Guest

@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Pages - CRUD Page Category"
-weight: 2
+weight: 1
 ---
 
 # BO - Design - Pages - CRUD Page Category

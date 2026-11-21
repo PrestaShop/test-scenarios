@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Link List - CRUD"
-weight: 2
+weight: 3
 ---
 
 # BO - Design - Link List - CRUD

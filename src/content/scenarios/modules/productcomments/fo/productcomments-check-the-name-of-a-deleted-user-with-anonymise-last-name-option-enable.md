@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Check the name of a deleted user with anonymise last name option enable"
-weight: 2
+weight: 6
 ---
 
 # productcomments - Check the name of a deleted user with anonymise last name option enable

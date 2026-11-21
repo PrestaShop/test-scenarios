@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Condition - Case 7 - Carrier selection"
-weight: 5
+weight: 2
 ---
 
 # BO - Cart rules - Condition - Case 7 - Carrier selection

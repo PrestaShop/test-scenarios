@@ -1,6 +1,6 @@
 ---
 title: " BO - Advanced parameters - Import - Multiple value separator"
-weight: 1
+weight: 2
 ---
 
 #  BO - Advanced parameters - Import - Multiple value separator

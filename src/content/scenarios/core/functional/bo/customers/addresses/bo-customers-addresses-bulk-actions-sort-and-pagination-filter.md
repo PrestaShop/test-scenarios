@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter"
-weight: 2
+weight: 4
 ---
 
 # BO - Customers - Addresses - Bulk Actions/Sort and pagination/Filter

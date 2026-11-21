@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Languages - CRUD"
-weight: 2
+weight: 3
 ---
 
 # BO - International - Localization - Languages - CRUD

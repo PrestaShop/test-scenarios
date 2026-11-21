@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Bulk actions"
-weight: 5
+weight: 2
 ---
 
 # BO - Shop Parameters - SEO & URLs - Bulk actions

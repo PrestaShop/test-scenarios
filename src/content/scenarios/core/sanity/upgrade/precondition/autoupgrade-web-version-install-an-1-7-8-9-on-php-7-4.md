@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4"
-weight: 5
+weight: 6
 ---
 
 # Autoupgrade - Web Version - Install an 1.7.8.9 on php 7.4

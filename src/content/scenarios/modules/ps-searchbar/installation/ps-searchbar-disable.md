@@ -1,6 +1,6 @@
 ---
 title: "ps_searchbar - Disable"
-weight: 3
+weight: 4
 ---
 
 # ps_searchbar - Disable

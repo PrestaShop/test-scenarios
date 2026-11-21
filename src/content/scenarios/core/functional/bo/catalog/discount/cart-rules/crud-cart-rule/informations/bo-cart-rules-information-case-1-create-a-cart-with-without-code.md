@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Information - Case 1 - Create a cart with / without Code"
-weight: 3
+weight: 1
 ---
 
 # BO - Cart rules - Information - Case 1 - Create a cart with / without Code

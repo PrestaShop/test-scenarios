@@ -1,6 +1,6 @@
 ---
 title: "ps_sharebuttons - Enable / disable pinterest sharing"
-weight: 2
+weight: 3
 ---
 
 # ps_sharebuttons - Enable / disable pinterest sharing

@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Navigate and display - Pagination"
-weight: 1
+weight: 4
 ---
 
 # FO - Menu and Navigation - Navigate and display - Pagination

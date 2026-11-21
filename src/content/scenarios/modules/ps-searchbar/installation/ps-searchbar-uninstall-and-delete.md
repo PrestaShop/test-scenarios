@@ -1,6 +1,6 @@
 ---
 title: "ps_searchbar - Uninstall and delete"
-weight: 2
+weight: 3
 ---
 
 # ps_searchbar - Uninstall and delete

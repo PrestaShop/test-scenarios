@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Return statuses - Filter, sort, pagination and bulk actions"
-weight: 1
+weight: 2
 ---
 
 # BO - Shop Parameters - Return statuses - Filter, sort, pagination and bulk actions

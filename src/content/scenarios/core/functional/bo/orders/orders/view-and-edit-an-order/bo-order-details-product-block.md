@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Product block"
-weight: 11
+weight: 2
 ---
 
 # BO - Order details - Product block

@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Languages - Bulk actions"
-weight: 3
+weight: 4
 ---
 
 # BO - International - Localization - Languages - Bulk actions

@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Vote for a comment"
-weight: 1
+weight: 5
 ---
 
 # productcomments - Vote for a comment

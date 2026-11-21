@@ -1,6 +1,6 @@
 ---
 title: "FO - Contact us : Send message from contact us page with customer logged in"
-weight: 2
+weight: 3
 ---
 
 # FO - Contact us : Send message from contact us page with customer logged in

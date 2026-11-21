@@ -1,6 +1,6 @@
 ---
 title: "BO - Pack Tab"
-weight: 21
+weight: 11
 ---
 
 # BO - Pack Tab

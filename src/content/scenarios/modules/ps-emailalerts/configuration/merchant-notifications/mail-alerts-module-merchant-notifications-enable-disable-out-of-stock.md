@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Merchant notifications : Enable/Disable out of stock"
-weight: 8
+weight: 7
 ---
 
 # Mail alerts module - Merchant notifications : Enable/Disable out of stock

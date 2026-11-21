@@ -1,6 +1,6 @@
 ---
 title: "ps_contactinfo - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # ps_contactinfo - Uninstall and delete

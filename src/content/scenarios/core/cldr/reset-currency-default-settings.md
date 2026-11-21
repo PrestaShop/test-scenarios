@@ -1,6 +1,6 @@
 ---
 title: "Reset currency default settings"
-weight: 1
+weight: 3
 ---
 
 # Reset currency default settings

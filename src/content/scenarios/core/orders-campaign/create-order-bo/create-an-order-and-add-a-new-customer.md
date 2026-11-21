@@ -1,6 +1,6 @@
 ---
 title: "Create an order and add a new customer"
-weight: 4
+weight: 3
 ---
 
 # Create an order and add a new customer

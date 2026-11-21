@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Search"
-weight: 8
+weight: 3
 ---
 
 # BO - Modules - Search

@@ -1,6 +1,6 @@
 ---
 title: "dashtrends - Check the display of the module on the dashboard"
-weight: 2
+weight: 1
 ---
 
 # dashtrends - Check the display of the module on the dashboard

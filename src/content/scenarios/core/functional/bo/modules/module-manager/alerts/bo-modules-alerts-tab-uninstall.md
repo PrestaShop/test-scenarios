@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Alerts tab - Uninstall"
-weight: 2
+weight: 1
 ---
 
 # BO - Modules - Alerts tab - Uninstall

@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Export Orders"
-weight: 10
+weight: 3
 ---
 
 # BO - Orders - Export Orders

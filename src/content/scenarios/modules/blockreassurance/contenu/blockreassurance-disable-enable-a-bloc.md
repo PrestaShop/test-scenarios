@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Disable/Enable a bloc"
-weight: 3
+weight: 5
 ---
 
 # blockreassurance - Disable/Enable a bloc

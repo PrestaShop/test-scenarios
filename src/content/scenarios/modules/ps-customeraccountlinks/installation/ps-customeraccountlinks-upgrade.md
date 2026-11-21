@@ -1,6 +1,6 @@
 ---
 title: "ps_customeraccountlinks - Upgrade"
-weight: 3
+weight: 1
 ---
 
 # ps_customeraccountlinks - Upgrade

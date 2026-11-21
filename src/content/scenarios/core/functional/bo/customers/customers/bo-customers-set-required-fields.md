@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Set required fields"
-weight: 8
+weight: 4
 ---
 
 # BO - Customers - Set required fields

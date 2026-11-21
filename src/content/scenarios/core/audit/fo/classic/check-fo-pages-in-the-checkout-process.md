@@ -1,6 +1,6 @@
 ---
 title: "Check FO pages in the checkout process"
-weight: 2
+weight: 1
 ---
 
 # Check FO pages in the checkout process

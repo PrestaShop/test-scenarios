@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Order of feature values"
-weight: 6
+weight: 1
 ---
 
 # BO - Shop Parameters - Product Settings - Order of feature values

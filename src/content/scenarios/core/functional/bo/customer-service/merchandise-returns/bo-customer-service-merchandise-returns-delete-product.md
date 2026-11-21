@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Merchandise returns - Delete product"
-weight: 2
+weight: 3
 ---
 
 # BO - Customer Service - Merchandise returns - Delete product

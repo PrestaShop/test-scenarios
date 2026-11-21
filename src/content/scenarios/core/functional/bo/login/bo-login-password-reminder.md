@@ -1,6 +1,6 @@
 ---
 title: "BO  - Login- Password reminder"
-weight: 1
+weight: 2
 ---
 
 # BO  - Login- Password reminder

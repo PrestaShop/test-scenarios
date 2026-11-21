@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Disable/Enable module"
-weight: 2
+weight: 6
 ---
 
 # Wishlist module - Disable/Enable module

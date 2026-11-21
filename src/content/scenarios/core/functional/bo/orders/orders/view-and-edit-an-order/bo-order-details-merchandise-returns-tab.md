@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Merchandise returns tab"
-weight: 5
+weight: 12
 ---
 
 # BO - Order details - Merchandise returns tab

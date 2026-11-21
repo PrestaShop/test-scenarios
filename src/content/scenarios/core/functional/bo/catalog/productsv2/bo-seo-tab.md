@@ -1,6 +1,6 @@
 ---
 title: "BO - SEO Tab"
-weight: 18
+weight: 17
 ---
 
 # BO - SEO Tab

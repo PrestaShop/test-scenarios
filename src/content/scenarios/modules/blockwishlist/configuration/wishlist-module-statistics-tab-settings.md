@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Statistics tab settings"
-weight: 3
+weight: 4
 ---
 
 # Wishlist module - Statistics tab settings

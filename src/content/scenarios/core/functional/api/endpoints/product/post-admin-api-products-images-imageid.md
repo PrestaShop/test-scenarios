@@ -1,6 +1,6 @@
 ---
 title: "POST /admin-api/products/images/{imageId}"
-weight: 7
+weight: 6
 ---
 
 # POST /admin-api/products/images/{imageId}
@@ -27,7 +27,3 @@ weight: 7
 | Reload the Edit Product page | The Edit page will be displayed correctly<br><br>There is one image<br><br>The return data keys are consistent relative to BackOffice data. |
 | Click on the three points on the bottom page and Click on Delete | A modal with title "Permanently delete this product?" appeared |
 | Click on "Delete" button | A successful message "Successful deletion" is displayed. |
-| In BO, Go to Advanced Parameters > Authorization Server | Authorization Server Page is displayed correctly.<br>1 record found in the table |
-| On the first row, click on the button “Three points” | The dropdown is displayed |
-| Click on the Delete Button in the dropdown | A modal appeared |
-| Click on the Confirm Button in the modal | The message “Successful deletion” is displayed<br>No records found in the table |

@@ -1,6 +1,6 @@
 ---
 title: "ps_shoppingcart - Uninstall/Install"
-weight: 2
+weight: 1
 ---
 
 # ps_shoppingcart - Uninstall/Install
