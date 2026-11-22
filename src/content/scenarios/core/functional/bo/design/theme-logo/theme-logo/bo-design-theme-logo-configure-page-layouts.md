@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Configure page layouts"
-weight: 6
+weight: 1
 ---
 
 # BO - Design - Theme & Logo - Configure page layouts

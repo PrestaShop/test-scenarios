@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Extra Properties - Creation d\'un string sur product"
-weight: 2
+weight: 1
 ---
 
 # BO - Advanced Parameters - Extra Properties - Creation d\'un string sur product

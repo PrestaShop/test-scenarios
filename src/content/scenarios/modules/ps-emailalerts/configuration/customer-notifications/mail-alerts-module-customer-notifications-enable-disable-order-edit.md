@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Customer notifications - Enable/Disable order edit"
-weight: 2
+weight: 3
 ---
 
 # Mail alerts module - Customer notifications - Enable/Disable order edit

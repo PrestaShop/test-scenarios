@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Import localization pack"
-weight: 7
+weight: 6
 ---
 
 # BO - International - Localization - Import localization pack

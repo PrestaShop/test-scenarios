@@ -1,6 +1,6 @@
 ---
 title: "productcomments - Enable/disable comment validation by employee"
-weight: 6
+weight: 8
 ---
 
 # productcomments - Enable/disable comment validation by employee

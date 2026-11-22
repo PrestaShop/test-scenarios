@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Attributes - CRUD Attributes and Values"
-weight: 3
+weight: 7
 ---
 
 # BO - Catalog - Attributes - CRUD Attributes and Values

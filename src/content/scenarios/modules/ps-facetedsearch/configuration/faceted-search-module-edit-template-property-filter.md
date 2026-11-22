@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Edit template - Property filter"
-weight: 14
+weight: 6
 ---
 
 # Faceted search module - Edit template - Property filter

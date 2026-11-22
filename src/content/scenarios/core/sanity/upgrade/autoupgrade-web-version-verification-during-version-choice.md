@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Verification during version choice"
-weight: 17
+weight: 6
 ---
 
 # Autoupgrade - Web Version - Verification during version choice

@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog price Rules : CRUD - Reduction type"
-weight: 3
+weight: 10
 ---
 
 # BO - Catalog price Rules : CRUD - Reduction type

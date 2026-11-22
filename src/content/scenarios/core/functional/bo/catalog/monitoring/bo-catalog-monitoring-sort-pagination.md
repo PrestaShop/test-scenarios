@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Monitoring - Sort & Pagination"
-weight: 3
+weight: 2
 ---
 
 # BO - Catalog - Monitoring - Sort & Pagination

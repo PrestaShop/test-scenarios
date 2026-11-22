@@ -1,6 +1,6 @@
 ---
 title: "CRUDStandardProductWithCombinationsInBO"
-weight: 5
+weight: 4
 ---
 
 # CRUDStandardProductWithCombinationsInBO

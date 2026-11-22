@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Monitoring - Help card"
-weight: 4
+weight: 1
 ---
 
 # BO - Catalog - Monitoring - Help card

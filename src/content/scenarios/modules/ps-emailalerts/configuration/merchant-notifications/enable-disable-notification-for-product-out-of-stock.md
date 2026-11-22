@@ -1,6 +1,6 @@
 ---
 title: "Enable/Disable notification for product out of stock"
-weight: 9
+weight: 10
 ---
 
 # Enable/Disable notification for product out of stock

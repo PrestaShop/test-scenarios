@@ -1,6 +1,6 @@
 ---
 title: "DELETE /addresses/{addressId}"
-weight: 8
+weight: 1
 ---
 
 # DELETE /addresses/{addressId}

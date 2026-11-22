@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Database - DB Backup - Create, Download and Delete"
-weight: 1
+weight: 2
 ---
 
 # BO - Advanced Parameters - Database - DB Backup - Create, Download and Delete

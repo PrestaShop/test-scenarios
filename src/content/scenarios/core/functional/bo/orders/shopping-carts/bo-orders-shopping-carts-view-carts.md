@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Shopping carts - View carts"
-weight: 1
+weight: 6
 ---
 
 # BO - Orders - Shopping carts - View carts

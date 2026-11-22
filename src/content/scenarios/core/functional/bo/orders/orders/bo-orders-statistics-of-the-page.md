@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Statistics of the page"
-weight: 7
+weight: 9
 ---
 
 # BO - Orders - Statistics of the page

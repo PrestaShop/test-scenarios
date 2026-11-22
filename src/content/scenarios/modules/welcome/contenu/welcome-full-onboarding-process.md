@@ -1,6 +1,6 @@
 ---
 title: "welcome - Full onboarding process"
-weight: 1
+weight: 2
 ---
 
 # welcome - Full onboarding process

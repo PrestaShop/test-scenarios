@@ -1,6 +1,6 @@
 ---
 title: "productcomments - CRUD criteria"
-weight: 9
+weight: 5
 ---
 
 # productcomments - CRUD criteria

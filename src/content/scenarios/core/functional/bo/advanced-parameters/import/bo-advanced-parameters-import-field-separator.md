@@ -1,6 +1,6 @@
 ---
 title: " BO - Advanced parameters - Import - Field separator"
-weight: 9
+weight: 7
 ---
 
 #  BO - Advanced parameters - Import - Field separator

@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Order Messages - Pagination and sort"
-weight: 3
+weight: 1
 ---
 
 # BO - Customer Service - Order Messages - Pagination and sort

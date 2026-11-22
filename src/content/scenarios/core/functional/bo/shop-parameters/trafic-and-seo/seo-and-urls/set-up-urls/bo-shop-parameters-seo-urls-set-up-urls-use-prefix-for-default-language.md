@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Set up URLs - Use prefix for default language"
-weight: 6
+weight: 4
 ---
 
 # BO - Shop Parameters - SEO & URLs - Set up URLs - Use prefix for default language

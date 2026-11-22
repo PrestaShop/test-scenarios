@@ -1,6 +1,6 @@
 ---
 title: "FO - Search Page : Search product and consult autocomplete list"
-weight: 6
+weight: 4
 ---
 
 # FO - Search Page : Search product and consult autocomplete list

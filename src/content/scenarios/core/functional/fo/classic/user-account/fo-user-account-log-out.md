@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Log out"
-weight: 5
+weight: 1
 ---
 
 # FO - User account - Log out

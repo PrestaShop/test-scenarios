@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Filter"
-weight: 1
+weight: 9
 ---
 
 # BO - Design - Image Settings - Filter

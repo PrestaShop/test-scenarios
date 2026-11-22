@@ -1,6 +1,6 @@
 ---
 title: "Check generation of bill"
-weight: 2
+weight: 5
 ---
 
 # Check generation of bill

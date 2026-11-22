@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Sort and Pagination"
-weight: 10
+weight: 13
 ---
 
 # BO - Design - Image Settings - Sort and Pagination

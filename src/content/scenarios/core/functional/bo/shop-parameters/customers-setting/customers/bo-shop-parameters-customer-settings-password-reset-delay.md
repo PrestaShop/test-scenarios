@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Password reset delay"
-weight: 1
+weight: 3
 ---
 
 # BO - Shop Parameters - Customer Settings - Password reset delay

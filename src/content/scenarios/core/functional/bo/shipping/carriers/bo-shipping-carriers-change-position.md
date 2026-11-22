@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Carriers - Change position"
-weight: 5
+weight: 6
 ---
 
 # BO - Shipping - Carriers - Change position

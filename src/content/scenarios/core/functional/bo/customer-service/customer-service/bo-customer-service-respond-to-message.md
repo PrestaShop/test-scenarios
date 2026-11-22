@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Respond to message"
-weight: 2
+weight: 4
 ---
 
 # BO - Customer Service - Respond to message

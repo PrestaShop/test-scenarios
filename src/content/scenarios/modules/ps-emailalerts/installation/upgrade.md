@@ -1,6 +1,6 @@
 ---
 title: "Upgrade"
-weight: 5
+weight: 3
 ---
 
 # Upgrade

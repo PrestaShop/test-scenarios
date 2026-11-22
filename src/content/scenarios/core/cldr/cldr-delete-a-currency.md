@@ -1,6 +1,6 @@
 ---
 title: "CLDR : Delete a currency"
-weight: 16
+weight: 9
 ---
 
 # CLDR : Delete a currency

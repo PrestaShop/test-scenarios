@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Attributes - Help button"
-weight: 1
+weight: 5
 ---
 
 # BO - Catalog - Attributes - Help button

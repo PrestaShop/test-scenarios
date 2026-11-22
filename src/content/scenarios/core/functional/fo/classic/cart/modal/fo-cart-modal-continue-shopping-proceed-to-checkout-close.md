@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart - Modal : Continue shopping / Proceed to checkout / Close"
-weight: 1
+weight: 2
 ---
 
 # FO - Cart - Modal : Continue shopping / Proceed to checkout / Close

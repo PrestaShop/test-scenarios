@@ -1,6 +1,6 @@
 ---
 title: "New products block module - Uninstall/Install module"
-weight: 2
+weight: 3
 ---
 
 # New products block module - Uninstall/Install module

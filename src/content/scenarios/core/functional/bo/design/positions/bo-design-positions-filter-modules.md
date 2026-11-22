@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Positions - Filter modules"
-weight: 2
+weight: 1
 ---
 
 # BO - Design - Positions - Filter modules

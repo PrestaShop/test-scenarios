@@ -1,6 +1,6 @@
 ---
 title: "Wishlist module - Add a product to a list"
-weight: 2
+weight: 6
 ---
 
 # Wishlist module - Add a product to a list

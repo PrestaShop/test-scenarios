@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Help card"
-weight: 10
+weight: 6
 ---
 
 # BO - Customers - Help card

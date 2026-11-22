@@ -1,6 +1,6 @@
 ---
 title: "Product Comment - Upgrade"
-weight: 1
+weight: 2
 ---
 
 # Product Comment - Upgrade

@@ -1,6 +1,6 @@
 ---
 title: "Mail alerts module - Customer notifications - Enable/Disable product availability"
-weight: 1
+weight: 5
 ---
 
 # Mail alerts module - Customer notifications - Enable/Disable product availability

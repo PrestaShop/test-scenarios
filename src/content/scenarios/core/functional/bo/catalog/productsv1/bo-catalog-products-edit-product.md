@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products - Edit Product"
-weight: 4
+weight: 1
 ---
 
 # BO - Catalog - Products - Edit Product

@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Product page : Change combination"
-weight: 7
+weight: 2
 ---
 
 # FO - Product page - Product page : Change combination

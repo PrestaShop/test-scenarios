@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Create Guest"
-weight: 10
+weight: 6
 ---
 
 # BO - Order creation - Create Guest

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Default pack stock behavior"
-weight: 7
+weight: 8
 ---
 
 # BO - Shop Parameters - Product Settings - Default pack stock behavior
