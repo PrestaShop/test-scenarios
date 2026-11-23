@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Categories - CRUD Categories And Subcategories"
-weight: 2
+weight: 7
 ---
 
 # BO - Catalog - Categories - CRUD Categories And Subcategories

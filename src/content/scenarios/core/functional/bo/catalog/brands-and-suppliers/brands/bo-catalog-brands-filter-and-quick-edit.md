@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Brands - Filter and Quick Edit"
-weight: 5
+weight: 6
 ---
 
 # BO - Catalog - Brands - Filter and Quick Edit

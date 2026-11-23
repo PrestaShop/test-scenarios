@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Advanced Customization - Download theme"
-weight: 1
+weight: 2
 ---
 
 # BO - Design - Theme & Logo - Advanced Customization - Download theme

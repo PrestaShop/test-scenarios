@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Outstanding - Filter & Sort"
-weight: 2
+weight: 3
 ---
 
 # BO - Customers - Outstanding - Filter & Sort

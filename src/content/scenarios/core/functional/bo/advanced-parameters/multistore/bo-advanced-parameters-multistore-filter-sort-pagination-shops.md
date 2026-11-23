@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Multistore - Filter sort pagination  shops"
-weight: 10
+weight: 7
 ---
 
 # BO - Advanced Parameters - Multistore - Filter sort pagination  shops

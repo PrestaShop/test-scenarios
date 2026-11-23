@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Invoices - Generate Invoice By Date"
-weight: 1
+weight: 2
 ---
 
 # BO - Orders - Invoices - Generate Invoice By Date

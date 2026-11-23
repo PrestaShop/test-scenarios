@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Webservice - Configuration"
-weight: 3
+weight: 1
 ---
 
 # BO - Advanced Parameters - Webservice - Configuration

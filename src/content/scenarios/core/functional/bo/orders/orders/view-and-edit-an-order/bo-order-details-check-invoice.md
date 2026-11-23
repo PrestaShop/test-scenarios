@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Check invoice"
-weight: 12
+weight: 8
 ---
 
 # BO - Order details - Check invoice

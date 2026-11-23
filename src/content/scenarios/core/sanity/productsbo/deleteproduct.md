@@ -1,6 +1,6 @@
 ---
 title: "DeleteProduct"
-weight: 2
+weight: 4
 ---
 
 # DeleteProduct

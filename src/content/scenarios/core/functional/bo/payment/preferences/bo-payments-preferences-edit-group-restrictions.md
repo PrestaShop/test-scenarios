@@ -1,6 +1,6 @@
 ---
 title: "BO - Payments - Preferences - Edit Group restrictions"
-weight: 2
+weight: 4
 ---
 
 # BO - Payments - Preferences - Edit Group restrictions

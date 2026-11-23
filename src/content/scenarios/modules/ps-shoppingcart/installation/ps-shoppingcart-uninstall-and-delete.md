@@ -1,6 +1,6 @@
 ---
 title: "ps_shoppingcart - Uninstall and delete"
-weight: 3
+weight: 2
 ---
 
 # ps_shoppingcart - Uninstall and delete

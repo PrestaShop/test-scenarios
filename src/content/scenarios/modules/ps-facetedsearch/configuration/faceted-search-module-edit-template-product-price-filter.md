@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Edit template - Product price filter"
-weight: 1
+weight: 6
 ---
 
 # Faceted search module - Edit template - Product price filter

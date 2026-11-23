@@ -1,6 +1,6 @@
 ---
 title: "ps_categorytree - Change Sort and Sort order option"
-weight: 2
+weight: 1
 ---
 
 # ps_categorytree - Change Sort and Sort order option

@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Pages - Filter and Quick Edit Categories"
-weight: 2
+weight: 1
 ---
 
 # BO - Design - Pages - Filter and Quick Edit Categories

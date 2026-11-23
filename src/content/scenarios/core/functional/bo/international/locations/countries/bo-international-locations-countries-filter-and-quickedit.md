@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Locations - Countries - Filter and QuickEdit"
-weight: 6
+weight: 3
 ---
 
 # BO - International - Locations - Countries - Filter and QuickEdit

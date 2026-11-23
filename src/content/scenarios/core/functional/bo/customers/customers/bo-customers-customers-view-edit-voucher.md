@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Customers : View/edit voucher"
-weight: 1
+weight: 10
 ---
 
 # BO - Customers - Customers : View/edit voucher

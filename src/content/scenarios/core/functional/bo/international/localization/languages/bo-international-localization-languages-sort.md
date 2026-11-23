@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Languages - Sort"
-weight: 2
+weight: 5
 ---
 
 # BO - International - Localization - Languages - Sort

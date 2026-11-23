@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Addresses - Help Button"
-weight: 2
+weight: 1
 ---
 
 # BO - Customers - Addresses - Help Button

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Email - Sort and pagination"
-weight: 5
+weight: 8
 ---
 
 # BO - Advanced parameters - Email - Sort and pagination

@@ -1,6 +1,6 @@
 ---
 title: "ps_contactinfo - Disable display email in FO"
-weight: 2
+weight: 1
 ---
 
 # ps_contactinfo - Disable display email in FO

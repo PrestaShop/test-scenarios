@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Personal Information - Sign in"
-weight: 3
+weight: 1
 ---
 
 # FO - Checkout - Personal Information - Sign in

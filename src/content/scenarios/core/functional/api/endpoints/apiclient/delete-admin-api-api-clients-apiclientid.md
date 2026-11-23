@@ -1,6 +1,6 @@
 ---
 title: "DELETE /admin-api/api-clients/{apiClientId}"
-weight: 6
+weight: 3
 ---
 
 # DELETE /admin-api/api-clients/{apiClientId}

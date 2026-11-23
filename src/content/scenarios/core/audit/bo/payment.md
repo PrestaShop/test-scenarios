@@ -1,6 +1,6 @@
 ---
 title: "Payment"
-weight: 3
+weight: 9
 ---
 
 # Payment

@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks - Bulk Edit Quantity with Input"
-weight: 1
+weight: 5
 ---
 
 # BO - Catalog - Stocks - Bulk Edit Quantity with Input

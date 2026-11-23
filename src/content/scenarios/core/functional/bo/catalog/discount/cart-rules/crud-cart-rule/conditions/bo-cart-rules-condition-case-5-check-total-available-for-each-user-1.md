@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Condition - Case 5 - Check Total available for each User = 1"
-weight: 6
+weight: 1
 ---
 
 # BO - Cart rules - Condition - Case 5 - Check Total available for each User = 1

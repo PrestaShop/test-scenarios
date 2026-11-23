@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - SEO & URLs - Set up URLs - Enable, disable friendly URL"
-weight: 1
+weight: 6
 ---
 
 # BO - Shop Parameters - SEO & URLs - Set up URLs - Enable, disable friendly URL

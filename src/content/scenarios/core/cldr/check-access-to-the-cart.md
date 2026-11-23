@@ -1,6 +1,6 @@
 ---
 title: "Check access to the cart"
-weight: 2
+weight: 12
 ---
 
 # Check access to the cart

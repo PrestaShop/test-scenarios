@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog price Rules : Bulk actions"
-weight: 8
+weight: 9
 ---
 
 # BO - Catalog price Rules : Bulk actions

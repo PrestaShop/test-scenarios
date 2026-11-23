@@ -1,6 +1,6 @@
 ---
 title: "DELETE /admin-api/customers/groups/{customerGroupId}"
-weight: 1
+weight: 4
 ---
 
 # DELETE /admin-api/customers/groups/{customerGroupId}

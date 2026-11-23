@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Performance - Debug mode"
-weight: 4
+weight: 3
 ---
 
 # BO - Advanced Parameters - Performance - Debug mode

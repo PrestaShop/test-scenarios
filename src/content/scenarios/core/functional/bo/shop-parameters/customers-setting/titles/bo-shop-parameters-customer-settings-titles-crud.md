@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop parameters - Customer Settings - Titles - CRUD"
-weight: 2
+weight: 1
 ---
 
 # BO - Shop parameters - Customer Settings - Titles - CRUD

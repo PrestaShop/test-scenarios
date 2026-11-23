@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - GDPR - Multistore"
-weight: 6
+weight: 5
 ---
 
 # BO - Modules - GDPR - Multistore

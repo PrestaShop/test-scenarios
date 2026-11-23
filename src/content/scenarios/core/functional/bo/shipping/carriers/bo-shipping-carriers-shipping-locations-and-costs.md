@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Carriers - Shipping locations and costs"
-weight: 2
+weight: 6
 ---
 
 # BO - Shipping - Carriers - Shipping locations and costs

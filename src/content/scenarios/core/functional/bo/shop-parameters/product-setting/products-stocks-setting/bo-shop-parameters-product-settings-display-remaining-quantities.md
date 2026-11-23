@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Display remaining quantities"
-weight: 9
+weight: 8
 ---
 
 # BO - Shop Parameters - Product Settings - Display remaining quantities

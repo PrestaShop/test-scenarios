@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Creation Form (Free Shipping)"
-weight: 11
+weight: 18
 ---
 
 # BO - Discount - Creation Form (Free Shipping)

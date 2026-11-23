@@ -1,6 +1,6 @@
 ---
 title: "ps_googleanalytics - Configure (set Google Analytics Tracking ID)"
-weight: 1
+weight: 2
 ---
 
 # ps_googleanalytics - Configure (set Google Analytics Tracking ID)

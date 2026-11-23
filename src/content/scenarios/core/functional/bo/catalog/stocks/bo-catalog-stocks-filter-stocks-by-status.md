@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks - Filter Stocks by Status"
-weight: 3
+weight: 7
 ---
 
 # BO - Catalog - Stocks - Filter Stocks by Status
