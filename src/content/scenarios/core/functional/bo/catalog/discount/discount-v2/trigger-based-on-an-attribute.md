@@ -1,6 +1,6 @@
 ---
 title: "Trigger based on an attribute"
-weight: 7
+weight: 11
 ---
 
 # Trigger based on an attribute

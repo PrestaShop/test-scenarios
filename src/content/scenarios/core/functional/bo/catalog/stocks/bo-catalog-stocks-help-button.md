@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks - Help Button"
-weight: 4
+weight: 7
 ---
 
 # BO - Catalog - Stocks - Help Button

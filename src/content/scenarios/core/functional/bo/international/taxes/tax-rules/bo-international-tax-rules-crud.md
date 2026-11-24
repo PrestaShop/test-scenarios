@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Tax Rules - CRUD"
-weight: 2
+weight: 1
 ---
 
 # BO - International - Tax Rules - CRUD

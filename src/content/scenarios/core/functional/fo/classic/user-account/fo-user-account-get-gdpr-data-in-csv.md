@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Get GDPR Data in CSV"
-weight: 1
+weight: 3
 ---
 
 # FO - User account - Get GDPR Data in CSV

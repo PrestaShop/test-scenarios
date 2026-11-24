@@ -1,6 +1,6 @@
 ---
 title: "CLDR : Search a currency by enable/disable"
-weight: 7
+weight: 12
 ---
 
 # CLDR : Search a currency by enable/disable

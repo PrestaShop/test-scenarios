@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Currency"
-weight: 3
+weight: 4
 ---
 
 # BO - Catalog price Rules - CRUD - Currency

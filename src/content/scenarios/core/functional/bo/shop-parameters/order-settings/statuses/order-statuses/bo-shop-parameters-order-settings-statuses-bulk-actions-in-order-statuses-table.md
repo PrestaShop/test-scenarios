@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Statuses : Bulk actions in order statuses table"
-weight: 4
+weight: 3
 ---
 
 # BO - Shop Parameters - Order Settings - Statuses : Bulk actions in order statuses table

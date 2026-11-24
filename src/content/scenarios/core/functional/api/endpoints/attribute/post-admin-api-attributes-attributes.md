@@ -1,6 +1,6 @@
 ---
 title: "POST /admin-api/attributes/attributes"
-weight: 4
+weight: 3
 ---
 
 # POST /admin-api/attributes/attributes

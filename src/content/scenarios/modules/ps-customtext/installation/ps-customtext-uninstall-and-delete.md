@@ -1,6 +1,6 @@
 ---
 title: "ps_customtext - Uninstall and delete"
-weight: 2
+weight: 1
 ---
 
 # ps_customtext - Uninstall and delete

@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Currencies - Filter & sort & pagination"
-weight: 5
+weight: 1
 ---
 
 # BO - International - Localization - Currencies - Filter & sort & pagination

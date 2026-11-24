@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General - Enable / Disable Supplier"
-weight: 8
+weight: 2
 ---
 
 # BO - Shop Parameters - General - Enable / Disable Supplier

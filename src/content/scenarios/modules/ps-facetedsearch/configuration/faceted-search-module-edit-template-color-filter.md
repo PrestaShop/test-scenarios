@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Edit template - Color filter"
-weight: 16
+weight: 14
 ---
 
 # Faceted search module - Edit template - Color filter

@@ -1,6 +1,6 @@
 ---
 title: " BO - Advanced parameters - Import - Force all ID numbers"
-weight: 9
+weight: 7
 ---
 
 #  BO - Advanced parameters - Import - Force all ID numbers

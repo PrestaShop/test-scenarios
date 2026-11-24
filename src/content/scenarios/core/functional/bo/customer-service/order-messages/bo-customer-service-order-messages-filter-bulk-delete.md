@@ -1,6 +1,6 @@
 ---
 title: "BO - Customer Service - Order Messages - Filter / Bulk Delete"
-weight: 4
+weight: 2
 ---
 
 # BO - Customer Service - Order Messages - Filter / Bulk Delete

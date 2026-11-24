@@ -1,6 +1,6 @@
 ---
 title: "FO - Login - Password reminder"
-weight: 1
+weight: 2
 ---
 
 # FO - Login - Password reminder

@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Features - Filter Values"
-weight: 3
+weight: 5
 ---
 
 # BO - Catalog - Features - Filter Values

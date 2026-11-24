@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Categories - Export"
-weight: 3
+weight: 2
 ---
 
 # BO - Catalog - Categories - Export

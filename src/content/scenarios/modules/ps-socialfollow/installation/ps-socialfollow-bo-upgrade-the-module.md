@@ -1,6 +1,6 @@
 ---
 title: "ps_socialfollow - BO - Upgrade the module"
-weight: 3
+weight: 1
 ---
 
 # ps_socialfollow - BO - Upgrade the module

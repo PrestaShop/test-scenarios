@@ -1,6 +1,6 @@
 ---
 title: "ps_featuredproducts - Change the number of products displayed"
-weight: 2
+weight: 3
 ---
 
 # ps_featuredproducts - Change the number of products displayed

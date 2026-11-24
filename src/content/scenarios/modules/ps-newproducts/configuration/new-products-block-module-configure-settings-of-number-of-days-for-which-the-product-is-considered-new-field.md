@@ -1,6 +1,6 @@
 ---
 title: "New products block module - Configure settings of \"Number of days for which the product is considered \'new\'\" field"
-weight: 1
+weight: 2
 ---
 
 # New products block module - Configure settings of \"Number of days for which the product is considered \'new\'\" field

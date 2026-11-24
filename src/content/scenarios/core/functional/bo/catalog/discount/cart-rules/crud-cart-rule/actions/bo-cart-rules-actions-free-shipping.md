@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Actions - Free shipping"
-weight: 8
+weight: 4
 ---
 
 # BO - Cart rules - Actions - Free shipping

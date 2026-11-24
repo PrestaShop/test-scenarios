@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Team - Roles - Sort"
-weight: 1
+weight: 4
 ---
 
 # BO - Advanced parameters - Team - Roles - Sort

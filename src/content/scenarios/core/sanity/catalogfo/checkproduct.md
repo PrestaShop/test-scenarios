@@ -1,6 +1,6 @@
 ---
 title: "CheckProduct"
-weight: 1
+weight: 2
 ---
 
 # CheckProduct

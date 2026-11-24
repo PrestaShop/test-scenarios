@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Do a backup when you already done it"
-weight: 10
+weight: 3
 ---
 
 # Autoupgrade - Web Version - Do a backup when you already done it

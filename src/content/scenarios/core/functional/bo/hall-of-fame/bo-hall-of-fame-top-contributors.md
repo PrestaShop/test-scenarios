@@ -1,6 +1,6 @@
 ---
 title: "BO - Hall of Fame - Top contributors"
-weight: 3
+weight: 4
 ---
 
 # BO - Hall of Fame - Top contributors

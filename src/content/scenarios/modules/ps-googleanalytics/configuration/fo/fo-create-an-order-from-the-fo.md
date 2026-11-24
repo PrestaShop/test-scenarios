@@ -1,6 +1,6 @@
 ---
 title: "FO - Create an order from the FO "
-weight: 3
+weight: 1
 ---
 
 # FO - Create an order from the FO 

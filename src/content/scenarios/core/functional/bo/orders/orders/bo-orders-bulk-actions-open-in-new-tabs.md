@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Bulk actions - Open in new tabs"
-weight: 9
+weight: 1
 ---
 
 # BO - Orders - Bulk actions - Open in new tabs

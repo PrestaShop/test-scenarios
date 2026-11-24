@@ -1,6 +1,6 @@
 ---
 title: "contactform - Uninstall/Install"
-weight: 1
+weight: 2
 ---
 
 # contactform - Uninstall/Install

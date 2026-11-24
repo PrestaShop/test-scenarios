@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Multistore - CRUD shops"
-weight: 2
+weight: 8
 ---
 
 # BO - Advanced Parameters - Multistore - CRUD shops

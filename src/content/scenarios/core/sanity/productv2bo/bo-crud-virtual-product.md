@@ -1,6 +1,6 @@
 ---
 title: "BO - CRUD Virtual product"
-weight: 7
+weight: 4
 ---
 
 # BO - CRUD Virtual product

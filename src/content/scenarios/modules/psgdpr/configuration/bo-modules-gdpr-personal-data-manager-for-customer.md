@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - GDPR - Personal data manager for customer"
-weight: 3
+weight: 8
 ---
 
 # BO - Modules - GDPR - Personal data manager for customer

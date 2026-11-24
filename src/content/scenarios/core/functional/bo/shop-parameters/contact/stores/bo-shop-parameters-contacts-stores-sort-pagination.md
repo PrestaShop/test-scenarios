@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Contacts - Stores - Sort & pagination"
-weight: 5
+weight: 2
 ---
 
 # BO - Shop Parameters - Contacts - Stores - Sort & pagination

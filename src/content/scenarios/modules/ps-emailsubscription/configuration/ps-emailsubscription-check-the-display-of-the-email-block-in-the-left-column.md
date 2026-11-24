@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check the display of the email block in the left column"
-weight: 10
+weight: 4
 ---
 
 # ps_emailsubscription - Check the display of the email block in the left column

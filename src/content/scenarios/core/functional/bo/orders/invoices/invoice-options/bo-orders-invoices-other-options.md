@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Invoices - Other Options"
-weight: 3
+weight: 6
 ---
 
 # BO - Orders - Invoices - Other Options

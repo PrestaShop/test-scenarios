@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Addresses - Billing address when logged in"
-weight: 1
+weight: 3
 ---
 
 # FO - Checkout - Addresses - Billing address when logged in

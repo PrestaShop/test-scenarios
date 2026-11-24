@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings : Check stores image format"
-weight: 12
+weight: 13
 ---
 
 # BO - Design - Image Settings : Check stores image format

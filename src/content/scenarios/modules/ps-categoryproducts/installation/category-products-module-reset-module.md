@@ -1,6 +1,6 @@
 ---
 title: "Category products module - Reset module"
-weight: 3
+weight: 6
 ---
 
 # Category products module - Reset module

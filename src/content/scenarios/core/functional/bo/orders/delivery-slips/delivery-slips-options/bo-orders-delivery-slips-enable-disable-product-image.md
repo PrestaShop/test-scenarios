@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Delivery Slips - Enable/Disable Product Image"
-weight: 2
+weight: 1
 ---
 
 # BO - Orders - Delivery Slips - Enable/Disable Product Image

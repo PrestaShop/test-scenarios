@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General - Enable / disable SSL"
-weight: 3
+weight: 6
 ---
 
 # BO - Shop Parameters - General - Enable / disable SSL

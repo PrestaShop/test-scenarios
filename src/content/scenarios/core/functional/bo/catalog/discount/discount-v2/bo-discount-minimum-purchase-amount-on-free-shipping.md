@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Minimum purchase amount (On Free shipping)"
-weight: 23
+weight: 24
 ---
 
 # BO - Discount - Minimum purchase amount (On Free shipping)

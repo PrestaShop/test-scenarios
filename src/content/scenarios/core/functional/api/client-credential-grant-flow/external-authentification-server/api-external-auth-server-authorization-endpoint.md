@@ -1,6 +1,6 @@
 ---
 title: "API : External Auth Server - Authorization Endpoint"
-weight: 1
+weight: 2
 ---
 
 # API : External Auth Server - Authorization Endpoint

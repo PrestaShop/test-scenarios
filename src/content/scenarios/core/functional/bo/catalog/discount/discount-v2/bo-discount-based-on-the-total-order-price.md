@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - based on the total order price"
-weight: 16
+weight: 1
 ---
 
 # BO - Discount - based on the total order price

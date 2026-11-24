@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Monitoring - Monitoring products"
-weight: 3
+weight: 4
 ---
 
 # BO - Catalog - Monitoring - Monitoring products
