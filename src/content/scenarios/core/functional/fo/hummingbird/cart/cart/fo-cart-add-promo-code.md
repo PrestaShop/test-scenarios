@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart : Add promo code"
-weight: 3
+weight: 1
 ---
 
 # FO - Cart : Add promo code

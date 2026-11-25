@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Page Configuration - Uninstall"
-weight: 3
+weight: 4
 ---
 
 # BO - Design - Theme & Logo - Page Configuration - Uninstall

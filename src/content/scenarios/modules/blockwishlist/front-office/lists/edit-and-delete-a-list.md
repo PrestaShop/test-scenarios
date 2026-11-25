@@ -1,6 +1,6 @@
 ---
 title: "Edit and delete a list"
-weight: 5
+weight: 1
 ---
 
 # Edit and delete a list

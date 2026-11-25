@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Invoices - Invoice Prefix"
-weight: 5
+weight: 2
 ---
 
 # BO - Orders - Invoices - Invoice Prefix

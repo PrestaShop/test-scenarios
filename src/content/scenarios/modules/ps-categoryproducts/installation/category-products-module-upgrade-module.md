@@ -1,6 +1,6 @@
 ---
 title: "Category products module - Upgrade module"
-weight: 3
+weight: 1
 ---
 
 # Category products module - Upgrade module

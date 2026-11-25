@@ -1,6 +1,6 @@
 ---
 title: "ps_featuredproducts - Choose the category to display"
-weight: 2
+weight: 1
 ---
 
 # ps_featuredproducts - Choose the category to display

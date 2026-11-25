@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products - Add Standard Product"
-weight: 2
+weight: 4
 ---
 
 # BO - Catalog - Products - Add Standard Product

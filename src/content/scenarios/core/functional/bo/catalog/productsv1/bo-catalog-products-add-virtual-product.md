@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Products - Add Virtual Product"
-weight: 3
+weight: 1
 ---
 
 # BO - Catalog - Products - Add Virtual Product

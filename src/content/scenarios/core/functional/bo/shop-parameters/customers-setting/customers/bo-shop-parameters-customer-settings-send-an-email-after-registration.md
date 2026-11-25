@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Send an email after registration"
-weight: 5
+weight: 2
 ---
 
 # BO - Shop Parameters - Customer Settings - Send an email after registration

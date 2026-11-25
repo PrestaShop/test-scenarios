@@ -1,6 +1,6 @@
 ---
 title: "FO - Cart - Display modal product customization"
-weight: 1
+weight: 3
 ---
 
 # FO - Cart - Display modal product customization

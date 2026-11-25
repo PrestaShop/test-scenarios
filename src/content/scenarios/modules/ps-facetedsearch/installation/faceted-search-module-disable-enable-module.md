@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Disable/Enable module"
-weight: 2
+weight: 4
 ---
 
 # Faceted search module - Disable/Enable module

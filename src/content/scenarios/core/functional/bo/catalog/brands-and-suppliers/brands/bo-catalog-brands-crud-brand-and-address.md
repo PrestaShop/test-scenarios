@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Brands - CRUD Brand And Address"
-weight: 1
+weight: 5
 ---
 
 # BO - Catalog - Brands - CRUD Brand And Address

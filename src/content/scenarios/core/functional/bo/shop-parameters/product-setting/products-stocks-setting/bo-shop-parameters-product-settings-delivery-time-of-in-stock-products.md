@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Delivery time of in-stock products"
-weight: 10
+weight: 6
 ---
 
 # BO - Shop Parameters - Product Settings - Delivery time of in-stock products

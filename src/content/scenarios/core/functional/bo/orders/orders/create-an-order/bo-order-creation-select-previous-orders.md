@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Select previous Orders"
-weight: 7
+weight: 12
 ---
 
 # BO - Order creation - Select previous Orders

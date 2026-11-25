@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Email - Help button"
-weight: 5
+weight: 3
 ---
 
 # BO - Advanced parameters - Email - Help button

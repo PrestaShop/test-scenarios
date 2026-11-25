@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - Get GDPR Data in PDF"
-weight: 6
+weight: 5
 ---
 
 # FO - User account - Get GDPR Data in PDF

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Email - DKIM signing"
-weight: 3
+weight: 5
 ---
 
 # BO - Advanced parameters - Email - DKIM signing

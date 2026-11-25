@@ -1,6 +1,6 @@
 ---
 title: "Create an order with multiple cart rule"
-weight: 7
+weight: 4
 ---
 
 # Create an order with multiple cart rule

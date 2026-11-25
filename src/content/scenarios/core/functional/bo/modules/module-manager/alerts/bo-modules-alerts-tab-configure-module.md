@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Alerts tab - Configure module"
-weight: 3
+weight: 4
 ---
 
 # BO - Modules - Alerts tab - Configure module

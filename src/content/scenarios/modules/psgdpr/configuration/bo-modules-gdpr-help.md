@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - GDPR - Help"
-weight: 3
+weight: 5
 ---
 
 # BO - Modules - GDPR - Help

@@ -1,6 +1,6 @@
 ---
 title: "BO - CRUD Pack of products"
-weight: 1
+weight: 21
 ---
 
 # BO - CRUD Pack of products

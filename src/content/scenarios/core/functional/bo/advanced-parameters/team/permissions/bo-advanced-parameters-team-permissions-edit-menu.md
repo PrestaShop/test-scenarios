@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Team - Permissions - Edit (Menu)"
-weight: 1
+weight: 2
 ---
 
 # BO - Advanced Parameters - Team - Permissions - Edit (Menu)

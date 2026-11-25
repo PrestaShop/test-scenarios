@@ -1,6 +1,6 @@
 ---
 title: "New products block module - Configure settings of \"Products to display\" field"
-weight: 3
+weight: 2
 ---
 
 # New products block module - Configure settings of \"Products to display\" field

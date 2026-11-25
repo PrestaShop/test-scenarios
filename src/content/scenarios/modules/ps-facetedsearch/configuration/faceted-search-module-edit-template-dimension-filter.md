@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Edit template - Dimension filter"
-weight: 22
+weight: 1
 ---
 
 # Faceted search module - Edit template - Dimension filter

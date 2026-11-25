@@ -1,6 +1,6 @@
 ---
 title: "Add a currency pre-saved"
-weight: 14
+weight: 1
 ---
 
 # Add a currency pre-saved

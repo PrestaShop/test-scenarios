@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Suppliers - Filter and Quick Edit"
-weight: 3
+weight: 4
 ---
 
 # BO - Catalog - Suppliers - Filter and Quick Edit

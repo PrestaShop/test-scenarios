@@ -1,6 +1,6 @@
 ---
 title: "Edit a currency"
-weight: 15
+weight: 4
 ---
 
 # Edit a currency

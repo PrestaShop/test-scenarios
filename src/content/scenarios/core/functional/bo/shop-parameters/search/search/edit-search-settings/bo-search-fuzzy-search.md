@@ -1,6 +1,6 @@
 ---
 title: "BO - Search - Fuzzy search"
-weight: 8
+weight: 6
 ---
 
 # BO - Search - Fuzzy search

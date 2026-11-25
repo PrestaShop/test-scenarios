@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Select a free gift product - Error messages"
-weight: 8
+weight: 15
 ---
 
 # BO - Discount - Select a free gift product - Error messages

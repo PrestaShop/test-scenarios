@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks - Update Quantity by setting input"
-weight: 2
+weight: 8
 ---
 
 # BO - Catalog - Stocks - Update Quantity by setting input

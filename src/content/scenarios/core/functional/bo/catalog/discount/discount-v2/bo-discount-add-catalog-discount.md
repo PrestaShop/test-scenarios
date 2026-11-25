@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Add catalog discount"
-weight: 22
+weight: 5
 ---
 
 # BO - Discount - Add catalog discount

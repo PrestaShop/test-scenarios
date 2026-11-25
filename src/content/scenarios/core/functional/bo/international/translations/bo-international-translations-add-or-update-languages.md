@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Translations - Add or update languages"
-weight: 5
+weight: 3
 ---
 
 # BO - International - Translations - Add or update languages

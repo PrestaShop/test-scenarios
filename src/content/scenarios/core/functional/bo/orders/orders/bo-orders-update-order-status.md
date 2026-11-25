@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Update order status"
-weight: 2
+weight: 1
 ---
 
 # BO - Orders - Update order status

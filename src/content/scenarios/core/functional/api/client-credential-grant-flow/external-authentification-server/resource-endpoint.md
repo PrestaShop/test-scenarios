@@ -1,6 +1,6 @@
 ---
 title: "Resource Endpoint"
-weight: 1
+weight: 2
 ---
 
 # Resource Endpoint

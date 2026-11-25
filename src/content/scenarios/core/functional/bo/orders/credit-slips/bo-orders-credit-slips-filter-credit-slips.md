@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Credit Slips - Filter Credit Slips"
-weight: 1
+weight: 2
 ---
 
 # BO - Orders - Credit Slips - Filter Credit Slips

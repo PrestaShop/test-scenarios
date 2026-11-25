@@ -1,13 +1,13 @@
 ---
 title: "Select a bloc in the picture & Configure a module"
-weight: 6
+weight: 4
 ---
 
 # Select a bloc in the picture & Configure a module
 ## Details
 * **Component** : ps_themecusto
 * **Status** : Deprecated
-* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7322
+* **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7318
 
 ## Steps
 | Step Description | Expected result |

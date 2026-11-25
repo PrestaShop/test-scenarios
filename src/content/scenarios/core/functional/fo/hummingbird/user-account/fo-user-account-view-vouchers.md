@@ -1,6 +1,6 @@
 ---
 title: "FO - User account - View vouchers"
-weight: 6
+weight: 1
 ---
 
 # FO - User account - View vouchers

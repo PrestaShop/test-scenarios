@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Stocks - Filter Stocks by Supplier and Categories"
-weight: 5
+weight: 4
 ---
 
 # BO - Catalog - Stocks - Filter Stocks by Supplier and Categories

@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Pagination and Sort"
-weight: 7
+weight: 8
 ---
 
 # BO - Customers - Pagination and Sort

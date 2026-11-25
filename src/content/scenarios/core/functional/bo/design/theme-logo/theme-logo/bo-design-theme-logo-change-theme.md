@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Change theme"
-weight: 2
+weight: 4
 ---
 
 # BO - Design - Theme & Logo - Change theme

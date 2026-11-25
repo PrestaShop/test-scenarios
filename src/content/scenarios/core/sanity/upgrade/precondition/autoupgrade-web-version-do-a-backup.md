@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Do a backup"
-weight: 6
+weight: 1
 ---
 
 # Autoupgrade - Web Version - Do a backup

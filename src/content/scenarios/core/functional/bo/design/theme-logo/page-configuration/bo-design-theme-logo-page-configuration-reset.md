@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Page Configuration - Reset"
-weight: 5
+weight: 3
 ---
 
 # BO - Design - Theme & Logo - Page Configuration - Reset

@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Security - Help card"
-weight: 2
+weight: 1
 ---
 
 # BO - Advanced parameters - Security - Security - Help card

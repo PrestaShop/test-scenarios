@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Multistore - Edit URL options"
-weight: 4
+weight: 7
 ---
 
 # BO - Advanced Parameters - Multistore - Edit URL options

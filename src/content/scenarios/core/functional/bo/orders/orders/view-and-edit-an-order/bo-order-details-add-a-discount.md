@@ -1,6 +1,6 @@
 ---
 title: "BO - Order details - Add a discount"
-weight: 5
+weight: 11
 ---
 
 # BO - Order details - Add a discount
