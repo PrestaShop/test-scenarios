@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Shopping carts - Export carts"
-weight: 3
+weight: 6
 ---
 
 # BO - Orders - Shopping carts - Export carts

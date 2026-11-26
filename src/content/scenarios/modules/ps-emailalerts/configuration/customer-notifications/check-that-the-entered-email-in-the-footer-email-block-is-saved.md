@@ -1,6 +1,6 @@
 ---
 title: "Check that the entered email in the footer email block is saved"
-weight: 4
+weight: 2
 ---
 
 # Check that the entered email in the footer email block is saved

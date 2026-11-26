@@ -1,6 +1,6 @@
 ---
 title: "BO - Discount - Trigger based on the total quantity of products in the cart"
-weight: 7
+weight: 14
 ---
 
 # BO - Discount - Trigger based on the total quantity of products in the cart

@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart Rules - CRUD"
-weight: 3
+weight: 1
 ---
 
 # BO - Cart Rules - CRUD

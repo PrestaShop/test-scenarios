@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Search  - Help card"
-weight: 5
+weight: 6
 ---
 
 # BO - Shop Parameters - Search  - Help card

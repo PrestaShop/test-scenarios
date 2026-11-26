@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog price Rules - CRUD - Group"
-weight: 6
+weight: 3
 ---
 
 # BO - Catalog price Rules - CRUD - Group

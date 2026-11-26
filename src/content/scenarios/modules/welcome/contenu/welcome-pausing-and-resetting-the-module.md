@@ -1,6 +1,6 @@
 ---
 title: "welcome - Pausing and resetting the module"
-weight: 1
+weight: 2
 ---
 
 # welcome - Pausing and resetting the module

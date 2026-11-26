@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Webservice - Help card"
-weight: 5
+weight: 2
 ---
 
 # BO - Advanced Parameters - Webservice - Help card

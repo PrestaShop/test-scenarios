@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Customer sessions - Filter and Sort"
-weight: 1
+weight: 5
 ---
 
 # BO - Advanced parameters - Security - Customer sessions - Filter and Sort

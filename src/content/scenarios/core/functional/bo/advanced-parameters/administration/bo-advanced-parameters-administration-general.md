@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Administration - General"
-weight: 1
+weight: 3
 ---
 
 # BO - Advanced Parameters - Administration - General

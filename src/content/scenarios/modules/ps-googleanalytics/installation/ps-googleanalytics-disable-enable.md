@@ -1,6 +1,6 @@
 ---
 title: "ps_googleanalytics - Disable / Enable"
-weight: 4
+weight: 1
 ---
 
 # ps_googleanalytics - Disable / Enable

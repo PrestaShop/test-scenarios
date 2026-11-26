@@ -1,6 +1,6 @@
 ---
 title: "FO - Send a message"
-weight: 4
+weight: 2
 ---
 
 # FO - Send a message

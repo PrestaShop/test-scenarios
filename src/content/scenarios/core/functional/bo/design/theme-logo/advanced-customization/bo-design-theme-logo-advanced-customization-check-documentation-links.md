@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Advanced Customization - Check documentation links"
-weight: 1
+weight: 2
 ---
 
 # BO - Design - Theme & Logo - Advanced Customization - Check documentation links

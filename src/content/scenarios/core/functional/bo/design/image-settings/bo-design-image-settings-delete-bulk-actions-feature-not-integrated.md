@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Delete Bulk actions -  feature not integrated -"
-weight: 8
+weight: 12
 ---
 
 # BO - Design - Image Settings - Delete Bulk actions -  feature not integrated -

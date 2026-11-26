@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Performance - Smarty"
-weight: 9
+weight: 1
 ---
 
 # BO - Advanced Parameters - Performance - Smarty

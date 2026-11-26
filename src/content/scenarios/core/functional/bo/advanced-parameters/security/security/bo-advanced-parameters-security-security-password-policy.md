@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Security - Security - Password Policy"
-weight: 3
+weight: 1
 ---
 
 # BO - Advanced parameters - Security - Security - Password Policy

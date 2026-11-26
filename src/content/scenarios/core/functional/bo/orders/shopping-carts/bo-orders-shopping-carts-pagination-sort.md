@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Shopping carts - Pagination & sort"
-weight: 4
+weight: 7
 ---
 
 # BO - Orders - Shopping carts - Pagination & sort

@@ -1,6 +1,6 @@
 ---
 title: "Multishop case"
-weight: 1
+weight: 2
 ---
 
 # Multishop case

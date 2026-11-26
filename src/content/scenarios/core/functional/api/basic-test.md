@@ -1,6 +1,6 @@
 ---
 title: "Basic Test"
-weight: 3
+weight: 1
 ---
 
 # Basic Test

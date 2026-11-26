@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field"
-weight: 3
+weight: 8
 ---
 
 # BO - Shop Parameters - General : Enable/Disable Allow iframes on HTML field

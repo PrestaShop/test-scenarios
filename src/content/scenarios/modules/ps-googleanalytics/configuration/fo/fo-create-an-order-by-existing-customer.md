@@ -1,6 +1,6 @@
 ---
 title: "FO - Create an Order by existing customer"
-weight: 1
+weight: 2
 ---
 
 # FO - Create an Order by existing customer

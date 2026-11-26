@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart Rules - Filter, Quick Edit and bulk actions"
-weight: 2
+weight: 3
 ---
 
 # BO - Cart Rules - Filter, Quick Edit and bulk actions

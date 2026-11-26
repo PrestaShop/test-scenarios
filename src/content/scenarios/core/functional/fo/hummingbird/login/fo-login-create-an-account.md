@@ -1,6 +1,6 @@
 ---
 title: "FO - Login - Create an account"
-weight: 4
+weight: 2
 ---
 
 # FO - Login - Create an account

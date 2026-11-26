@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check you can\'t register an email already registered"
-weight: 2
+weight: 15
 ---
 
 # ps_emailsubscription - Check you can\'t register an email already registered

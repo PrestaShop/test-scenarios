@@ -1,6 +1,6 @@
 ---
 title: "BO - Header - My Profile"
-weight: 5
+weight: 6
 ---
 
 # BO - Header - My Profile

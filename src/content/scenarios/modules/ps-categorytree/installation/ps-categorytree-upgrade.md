@@ -1,6 +1,6 @@
 ---
 title: "ps_categorytree - Upgrade"
-weight: 1
+weight: 2
 ---
 
 # ps_categorytree - Upgrade

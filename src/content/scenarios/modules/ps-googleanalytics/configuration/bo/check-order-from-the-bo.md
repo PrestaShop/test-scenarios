@@ -1,6 +1,6 @@
 ---
 title: "Check Order from the BO"
-weight: 2
+weight: 1
 ---
 
 # Check Order from the BO

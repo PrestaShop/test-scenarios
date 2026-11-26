@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Theme & Logo - Reset  to default"
-weight: 1
+weight: 6
 ---
 
 # BO - Design - Theme & Logo - Reset  to default

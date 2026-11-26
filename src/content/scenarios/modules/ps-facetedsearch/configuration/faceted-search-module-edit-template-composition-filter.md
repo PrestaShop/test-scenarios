@@ -1,6 +1,6 @@
 ---
 title: "Faceted search module - Edit template - Composition filter"
-weight: 10
+weight: 7
 ---
 
 # Faceted search module - Edit template - Composition filter

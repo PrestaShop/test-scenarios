@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Features - Multishop - Display Feature page"
-weight: 1
+weight: 8
 ---
 
 # BO - Catalog - Features - Multishop - Display Feature page

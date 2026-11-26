@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart Rules - Sort, pagination"
-weight: 1
+weight: 2
 ---
 
 # BO - Cart Rules - Sort, pagination

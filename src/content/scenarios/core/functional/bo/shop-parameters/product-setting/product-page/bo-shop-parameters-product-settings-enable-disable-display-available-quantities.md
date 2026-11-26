@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Enable, disable display available quantities"
-weight: 1
+weight: 2
 ---
 
 # BO - Shop Parameters - Product Settings - Enable, disable display available quantities

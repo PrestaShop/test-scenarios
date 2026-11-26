@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Localization - Currencies - Exchange rate"
-weight: 3
+weight: 4
 ---
 
 # BO - International - Localization - Currencies - Exchange rate

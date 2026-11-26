@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Tax Rules - quick edit & Bulk actions"
-weight: 3
+weight: 4
 ---
 
 # BO - International - Tax Rules - quick edit & Bulk actions

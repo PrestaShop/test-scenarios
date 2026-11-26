@@ -1,6 +1,6 @@
 ---
 title: "BO - Search - Minimum word length (in characters)"
-weight: 2
+weight: 7
 ---
 
 # BO - Search - Minimum word length (in characters)

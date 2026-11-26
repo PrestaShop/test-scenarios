@@ -1,6 +1,6 @@
 ---
 title: "ps_searchbar - Upgrade"
-weight: 4
+weight: 3
 ---
 
 # ps_searchbar - Upgrade

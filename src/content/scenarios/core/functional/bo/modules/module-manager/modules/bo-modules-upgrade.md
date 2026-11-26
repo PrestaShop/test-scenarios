@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Upgrade"
-weight: 5
+weight: 6
 ---
 
 # BO - Modules - Upgrade

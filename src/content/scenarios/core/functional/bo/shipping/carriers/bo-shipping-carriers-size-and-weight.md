@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Carriers - Size and weight"
-weight: 2
+weight: 4
 ---
 
 # BO - Shipping - Carriers - Size and weight

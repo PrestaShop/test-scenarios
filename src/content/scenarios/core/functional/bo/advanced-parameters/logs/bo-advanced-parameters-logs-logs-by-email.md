@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Logs - Logs by email"
-weight: 1
+weight: 4
 ---
 
 # BO - Advanced Parameters - Logs - Logs by email

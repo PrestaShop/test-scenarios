@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Quick view : Change image"
-weight: 8
+weight: 6
 ---
 
 # FO - Product page - Quick view : Change image

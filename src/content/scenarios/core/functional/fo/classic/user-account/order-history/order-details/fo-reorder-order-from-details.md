@@ -1,6 +1,6 @@
 ---
 title: "FO - Reorder order from details"
-weight: 3
+weight: 1
 ---
 
 # FO - Reorder order from details

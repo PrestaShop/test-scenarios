@@ -1,6 +1,6 @@
 ---
 title: "Category products module - Disable Mobile/Enable Mobile module"
-weight: 3
+weight: 4
 ---
 
 # Category products module - Disable Mobile/Enable Mobile module

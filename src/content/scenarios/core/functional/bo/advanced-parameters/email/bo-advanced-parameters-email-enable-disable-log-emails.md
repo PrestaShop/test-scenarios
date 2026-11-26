@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Email - Enable/Disable log emails"
-weight: 8
+weight: 5
 ---
 
 # BO - Advanced parameters - Email - Enable/Disable log emails

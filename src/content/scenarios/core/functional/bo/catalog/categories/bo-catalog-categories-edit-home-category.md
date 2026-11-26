@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Categories - Edit home category"
-weight: 1
+weight: 4
 ---
 
 # BO - Catalog - Categories - Edit home category

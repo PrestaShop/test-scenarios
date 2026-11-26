@@ -1,6 +1,6 @@
 ---
 title: "ps_emailsubscription - Check that the customer is registred"
-weight: 11
+weight: 5
 ---
 
 # ps_emailsubscription - Check that the customer is registred

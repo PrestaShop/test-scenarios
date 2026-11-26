@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products & Enable stock management"
-weight: 8
+weight: 1
 ---
 
 # BO - Shop Parameters - Product Settings - Allow ordering of out-of-stock products & Enable stock management

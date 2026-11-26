@@ -1,6 +1,6 @@
 ---
 title: "blockreassurance - Delete a bloc"
-weight: 1
+weight: 4
 ---
 
 # blockreassurance - Delete a bloc

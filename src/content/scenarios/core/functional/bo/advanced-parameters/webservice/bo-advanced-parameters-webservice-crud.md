@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Webservice - CRUD"
-weight: 2
+weight: 6
 ---
 
 # BO - Advanced Parameters - Webservice - CRUD

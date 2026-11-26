@@ -1,6 +1,6 @@
 ---
 title: "Statistics"
-weight: 1
+weight: 2
 ---
 
 # Statistics

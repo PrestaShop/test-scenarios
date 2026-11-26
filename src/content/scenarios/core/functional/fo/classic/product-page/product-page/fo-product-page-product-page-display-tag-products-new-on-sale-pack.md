@@ -1,6 +1,6 @@
 ---
 title: "FO - Product page - Product page : Display tag products (New, On sale, Pack...)"
-weight: 7
+weight: 8
 ---
 
 # FO - Product page - Product page : Display tag products (New, On sale, Pack...)

@@ -1,6 +1,6 @@
 ---
 title: "FO - Checkout - Shipping method - Select a carrier"
-weight: 1
+weight: 2
 ---
 
 # FO - Checkout - Shipping method - Select a carrier

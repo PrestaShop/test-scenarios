@@ -1,6 +1,6 @@
 ---
 title: "BO - Order creation - Check Summary and create order"
-weight: 6
+weight: 1
 ---
 
 # BO - Order creation - Check Summary and create order

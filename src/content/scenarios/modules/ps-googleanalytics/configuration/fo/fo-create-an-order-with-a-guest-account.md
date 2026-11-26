@@ -1,6 +1,6 @@
 ---
 title: "FO - Create an order with a guest account "
-weight: 2
+weight: 1
 ---
 
 # FO - Create an order with a guest account 

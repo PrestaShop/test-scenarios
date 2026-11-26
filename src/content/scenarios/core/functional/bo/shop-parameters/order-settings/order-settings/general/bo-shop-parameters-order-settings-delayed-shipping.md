@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Order Settings - Delayed shipping"
-weight: 9
+weight: 5
 ---
 
 # BO - Shop Parameters - Order Settings - Delayed shipping

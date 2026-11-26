@@ -1,6 +1,6 @@
 ---
 title: "ps_customtext - Change text and check FO"
-weight: 1
+weight: 2
 ---
 
 # ps_customtext - Change text and check FO

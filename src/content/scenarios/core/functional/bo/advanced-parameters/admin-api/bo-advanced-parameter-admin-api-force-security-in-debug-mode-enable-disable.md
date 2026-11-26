@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameter - Admin API - Force security in debug mode Enable/Disable"
-weight: 3
+weight: 4
 ---
 
 # BO - Advanced Parameter - Admin API - Force security in debug mode Enable/Disable
