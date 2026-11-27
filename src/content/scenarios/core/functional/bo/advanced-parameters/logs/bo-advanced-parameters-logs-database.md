@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Logs - Database"
-weight: 2
+weight: 3
 ---
 
 # BO - Advanced Parameters - Logs - Database

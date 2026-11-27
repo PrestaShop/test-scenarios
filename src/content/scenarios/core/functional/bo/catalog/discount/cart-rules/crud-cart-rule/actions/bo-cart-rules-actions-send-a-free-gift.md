@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Actions - Send a free gift"
-weight: 3
+weight: 10
 ---
 
 # BO - Cart rules - Actions - Send a free gift

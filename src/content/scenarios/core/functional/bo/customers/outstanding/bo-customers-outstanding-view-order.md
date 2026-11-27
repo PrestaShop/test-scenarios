@@ -1,6 +1,6 @@
 ---
 title: "BO - Customers - Outstanding - View Order"
-weight: 1
+weight: 3
 ---
 
 # BO - Customers - Outstanding - View Order

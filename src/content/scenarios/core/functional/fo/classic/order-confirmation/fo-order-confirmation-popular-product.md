@@ -1,6 +1,6 @@
 ---
 title: "FO - Order confirmation : Popular product"
-weight: 3
+weight: 4
 ---
 
 # FO - Order confirmation : Popular product

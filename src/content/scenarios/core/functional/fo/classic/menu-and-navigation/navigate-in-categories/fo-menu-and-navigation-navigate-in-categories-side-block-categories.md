@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Navigate in Categories - Side block categories"
-weight: 1
+weight: 2
 ---
 
 # FO - Menu and Navigation - Navigate in Categories - Side block categories

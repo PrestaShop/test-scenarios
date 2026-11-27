@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced Parameters - Performance - Media servers"
-weight: 2
+weight: 9
 ---
 
 # BO - Advanced Parameters - Performance - Media servers

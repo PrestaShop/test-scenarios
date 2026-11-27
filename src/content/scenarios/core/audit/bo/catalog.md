@@ -1,6 +1,6 @@
 ---
 title: "Catalog"
-weight: 4
+weight: 6
 ---
 
 # Catalog

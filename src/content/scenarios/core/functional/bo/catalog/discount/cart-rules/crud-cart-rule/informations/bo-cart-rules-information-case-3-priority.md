@@ -1,6 +1,6 @@
 ---
 title: "BO - Cart rules - Information - Case 3 - Priority"
-weight: 4
+weight: 2
 ---
 
 # BO - Cart rules - Information - Case 3 - Priority

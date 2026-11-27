@@ -1,6 +1,6 @@
 ---
 title: "CLDR : Search a currency by ISO code"
-weight: 8
+weight: 2
 ---
 
 # CLDR : Search a currency by ISO code

@@ -1,6 +1,6 @@
 ---
 title: "Autoupgrade - Web Version - Create error on Welcome Page"
-weight: 23
+weight: 16
 ---
 
 # Autoupgrade - Web Version - Create error on Welcome Page

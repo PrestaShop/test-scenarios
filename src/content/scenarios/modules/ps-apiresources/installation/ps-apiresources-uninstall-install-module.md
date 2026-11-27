@@ -1,6 +1,6 @@
 ---
 title: "ps_apiresources - Uninstall/Install module"
-weight: 1
+weight: 2
 ---
 
 # ps_apiresources - Uninstall/Install module

@@ -1,6 +1,6 @@
 ---
 title: "New products block module - Reset module"
-weight: 3
+weight: 2
 ---
 
 # New products block module - Reset module

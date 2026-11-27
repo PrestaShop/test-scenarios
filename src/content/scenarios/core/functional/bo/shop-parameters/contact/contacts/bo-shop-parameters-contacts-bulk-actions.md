@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Contacts - Bulk actions"
-weight: 3
+weight: 4
 ---
 
 # BO - Shop Parameters - Contacts - Bulk actions

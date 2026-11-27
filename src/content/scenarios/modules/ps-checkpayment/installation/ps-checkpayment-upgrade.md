@@ -1,6 +1,6 @@
 ---
 title: "ps_checkpayment - Upgrade"
-weight: 2
+weight: 1
 ---
 
 # ps_checkpayment - Upgrade

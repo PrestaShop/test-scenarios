@@ -1,6 +1,6 @@
 ---
 title: "Share a list"
-weight: 6
+weight: 4
 ---
 
 # Share a list

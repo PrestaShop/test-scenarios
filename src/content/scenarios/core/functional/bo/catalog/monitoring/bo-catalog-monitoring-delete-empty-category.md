@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Monitoring - Delete Empty Category"
-weight: 3
+weight: 2
 ---
 
 # BO - Catalog - Monitoring - Delete Empty Category

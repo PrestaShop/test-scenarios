@@ -1,6 +1,6 @@
 ---
 title: "FO - Product Page - Add to cart"
-weight: 8
+weight: 11
 ---
 
 # FO - Product Page - Add to cart

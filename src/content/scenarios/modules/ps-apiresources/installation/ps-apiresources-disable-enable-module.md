@@ -1,6 +1,6 @@
 ---
 title: "ps_apiresources - Disable/Enable module"
-weight: 2
+weight: 1
 ---
 
 # ps_apiresources - Disable/Enable module

@@ -1,6 +1,6 @@
 ---
 title: "BO - Modules - Configure module"
-weight: 10
+weight: 3
 ---
 
 # BO - Modules - Configure module

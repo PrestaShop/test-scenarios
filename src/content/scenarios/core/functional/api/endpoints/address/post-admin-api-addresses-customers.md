@@ -1,6 +1,6 @@
 ---
 title: "POST /admin-api/addresses/customers"
-weight: 4
+weight: 9
 ---
 
 # POST /admin-api/addresses/customers

@@ -9,7 +9,3 @@ weight: 3
 * **Status** : [TEST] IN PROGRESS
 * **Scenario** : https://prestashop-jira.atlassian.net/browse/TEST-7478
 
-## Steps
-| Step Description | Expected result |
-| ----- | ----- |
-|  |  |

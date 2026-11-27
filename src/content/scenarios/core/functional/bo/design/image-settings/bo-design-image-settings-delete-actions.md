@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Image Settings - Delete actions"
-weight: 13
+weight: 7
 ---
 
 # BO - Design - Image Settings - Delete actions

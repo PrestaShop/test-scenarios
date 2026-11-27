@@ -1,6 +1,6 @@
 ---
 title: "BO - Advanced parameters - Import - Links"
-weight: 8
+weight: 1
 ---
 
 # BO - Advanced parameters - Import - Links

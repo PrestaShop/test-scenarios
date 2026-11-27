@@ -1,6 +1,6 @@
 ---
 title: "Product comments - Uninstall/Install"
-weight: 2
+weight: 3
 ---
 
 # Product comments - Uninstall/Install

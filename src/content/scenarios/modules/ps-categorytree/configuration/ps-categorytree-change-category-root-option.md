@@ -1,6 +1,6 @@
 ---
 title: "ps_categorytree - Change category root option"
-weight: 1
+weight: 3
 ---
 
 # ps_categorytree - Change category root option

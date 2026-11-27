@@ -1,6 +1,6 @@
 ---
 title: "BO - Hall of Fame - How to contribute"
-weight: 2
+weight: 3
 ---
 
 # BO - Hall of Fame - How to contribute

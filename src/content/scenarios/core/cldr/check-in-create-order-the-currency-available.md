@@ -1,6 +1,6 @@
 ---
 title: "Check in create order the currency available"
-weight: 4
+weight: 6
 ---
 
 # Check in create order the currency available

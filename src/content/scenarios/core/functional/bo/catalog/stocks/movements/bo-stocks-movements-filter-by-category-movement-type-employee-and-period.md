@@ -1,6 +1,6 @@
 ---
 title: "BO - Stocks - Movements - Filter by category, movement type, employee and period"
-weight: 1
+weight: 2
 ---
 
 # BO - Stocks - Movements - Filter by category, movement type, employee and period

@@ -1,6 +1,6 @@
 ---
 title: "BO - Orders - Invoices - Generate Invoice By Status"
-weight: 2
+weight: 1
 ---
 
 # BO - Orders - Invoices - Generate Invoice By Status

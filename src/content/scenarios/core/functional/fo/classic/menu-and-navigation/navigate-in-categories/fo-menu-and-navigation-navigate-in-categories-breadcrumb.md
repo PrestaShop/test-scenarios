@@ -1,6 +1,6 @@
 ---
 title: "FO - Menu and Navigation - Navigate in Categories : Breadcrumb"
-weight: 2
+weight: 3
 ---
 
 # FO - Menu and Navigation - Navigate in Categories : Breadcrumb

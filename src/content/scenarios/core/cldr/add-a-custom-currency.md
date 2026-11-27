@@ -1,6 +1,6 @@
 ---
 title: "Add a custom currency"
-weight: 11
+weight: 15
 ---
 
 # Add a custom currency

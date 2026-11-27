@@ -1,6 +1,6 @@
 ---
 title: "BO - CRUD Product with combinations"
-weight: 7
+weight: 16
 ---
 
 # BO - CRUD Product with combinations

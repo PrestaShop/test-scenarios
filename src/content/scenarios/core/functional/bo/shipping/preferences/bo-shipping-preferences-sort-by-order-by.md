@@ -1,6 +1,6 @@
 ---
 title: "BO - Shipping - Preferences - Sort by Order By"
-weight: 3
+weight: 1
 ---
 
 # BO - Shipping - Preferences - Sort by Order By

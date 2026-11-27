@@ -1,6 +1,6 @@
 ---
 title: "BO - Catalog - Brands - Sort & Pagination Addresses and Bulk Actions"
-weight: 3
+weight: 4
 ---
 
 # BO - Catalog - Brands - Sort & Pagination Addresses and Bulk Actions

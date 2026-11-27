@@ -1,6 +1,6 @@
 ---
 title: "BO - Design - Pages - Sort"
-weight: 3
+weight: 2
 ---
 
 # BO - Design - Pages - Sort

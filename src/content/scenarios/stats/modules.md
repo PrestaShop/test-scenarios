@@ -61,19 +61,8 @@ disableToc: true
 | Modules > ps_linklist > Configuration | 3 | - | - | - | - | - | - | - | - | 
 | Modules > ps_searchbar > Installation | 4 | - | - | - | - | - | - | - | - | 
 | Modules > ps_searchbar > FO | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_shoppingcart > Installation | 3 | - | - | - | - | - | - | - | - | 
-| Modules > ps_shoppingcart > Configuration | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_shoppingcart > FO | 1 | - | - | - | - | - | - | - | - | 
-| Modules > ps_socialfollow > Installation | 3 | - | - | - | - | - | - | - | - | 
-| Modules > ps_socialfollow > Configuration | 3 | - | - | - | - | - | - | - | - | 
-| Modules > statsbestcustomers > Installation | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > statsbestcustomers > Display | 1 | - | - | - | - | 1 | - | - | - | 
 | Modules > statsvisits > Installation | 3 | - | - | - | - | - | - | - | - | 
-| Modules > statsvisits > Contenu | 1 | - | - | - | - | - | - | - | - | 
-| Modules > welcome > Contenu | 2 | - | - | - | - | - | - | - | 2 | 
-| Modules > ps_sharebuttons > Installation | 3 | - | - | - | - | 3 | - | - | - | 
 | Modules > ps_sharebuttons > Configuration | 3 | - | - | - | - | 3 | - | - | - | 
-| Modules > ps_googleanalytics > Installation | 4 | - | - | 4 | - | - | - | - | - | 
 | Modules > ps_googleanalytics > Configuration | 2 | - | - | 2 | - | - | - | - | - | 
 | Modules > ps_googleanalytics > Configuration > FO | 3 | - | - | 2 | - | - | - | - | - | 
 | Modules > ps_googleanalytics > Configuration > BO | 2 | - | - | - | - | - | - | - | - | 
@@ -85,14 +74,10 @@ disableToc: true
 | Modules > ps_newproducts > Configuration | 3 | - | - | - | - | - | - | 3 | - | 
 | Modules > ps_newproducts > Installation | 5 | - | - | - | - | 1 | - | 4 | - | 
 | Modules > ps_categoryproducts > Installation | 6 | - | - | - | - | 4 | - | 1 | 1 | 
-| Modules > ps_categoryproducts > Configuration | 3 | - | - | - | - | 2 | - | 1 | - | 
-| Modules > psgdpr > Installation | 5 | - | - | - | - | 3 | - | - | - | 
-| Modules > psgdpr > Configuration | 8 | - | - | - | - | 3 | - | 5 | - | 
 | Modules > ps_faviconnotificationbo > Installation | 3 | - | - | - | - | - | - | - | - | 
 | Modules > ps_imageslider > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
-| Modules > ps_viewedproduct > Configuration | 1 | - | - | - | - | 1 | - | - | - | 
 | Modules > ps_mainmenu > configuration | 2 | - | - | - | - | 2 | - | - | - | 
 | Modules > ps_supplierlist > configure | 1 | - | - | - | - | - | - | 1 | - | 
 | Modules > ps_apiresources > Installation | 2 | - | - | - | - | - | - | 2 | - | 
-| **Total** | **302** | **0** | **0** | **8** | **0** | **106** | **0** | **58** | **33** | 
-| **Total** |  | **0%** | **0%** | **2.65%** | **0%** | **35.10%** | **0%** | **19.21%** | **0%** | 
+| **Total** | **260** | **0** | **0** | **4** | **0** | **90** | **0** | **52** | **31** | 
+| **Total** |  | **0%** | **0%** | **1.54%** | **0%** | **34.62%** | **0%** | **20.00%** | **0%** | 

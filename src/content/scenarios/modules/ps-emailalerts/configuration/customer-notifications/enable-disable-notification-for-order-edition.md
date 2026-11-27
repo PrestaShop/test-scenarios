@@ -1,6 +1,6 @@
 ---
 title: "Enable/Disable Notification for order edition"
-weight: 4
+weight: 3
 ---
 
 # Enable/Disable Notification for order edition

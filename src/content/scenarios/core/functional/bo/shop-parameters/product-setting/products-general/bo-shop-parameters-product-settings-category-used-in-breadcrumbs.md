@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Product Settings - Category used in breadcrumbs"
-weight: 2
+weight: 6
 ---
 
 # BO - Shop Parameters - Product Settings - Category used in breadcrumbs

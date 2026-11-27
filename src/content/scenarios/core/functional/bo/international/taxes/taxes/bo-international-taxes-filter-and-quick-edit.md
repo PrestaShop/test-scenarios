@@ -1,6 +1,6 @@
 ---
 title: "BO - International - Taxes - Filter and Quick Edit"
-weight: 5
+weight: 4
 ---
 
 # BO - International - Taxes - Filter and Quick Edit

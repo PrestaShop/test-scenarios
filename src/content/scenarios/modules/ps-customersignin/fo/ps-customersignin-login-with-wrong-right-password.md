@@ -1,6 +1,6 @@
 ---
 title: "ps_customersignin - Login with wrong/right password"
-weight: 2
+weight: 4
 ---
 
 # ps_customersignin - Login with wrong/right password

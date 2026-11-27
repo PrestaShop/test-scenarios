@@ -1,6 +1,6 @@
 ---
 title: "PUT /admin-api/hooks/{hookId}/status"
-weight: 3
+weight: 1
 ---
 
 # PUT /admin-api/hooks/{hookId}/status

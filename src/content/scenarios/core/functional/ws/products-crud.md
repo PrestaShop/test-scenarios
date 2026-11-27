@@ -1,6 +1,6 @@
 ---
 title: "Products : CRUD"
-weight: 3
+weight: 5
 ---
 
 # Products : CRUD

@@ -1,6 +1,6 @@
 ---
 title: "BO - Shop Parameters - Customer Settings - Titles - Filter, sort and pagination"
-weight: 3
+weight: 2
 ---
 
 # BO - Shop Parameters - Customer Settings - Titles - Filter, sort and pagination
